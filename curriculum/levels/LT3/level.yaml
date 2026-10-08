@@ -182,3 +182,280 @@ skills:
       - Does not exceed the rated platform capacity, including tools and materials
       - Secures tools and parts against dropping and keeps people out of the area beneath the platform
       - Lowers, stows, and shuts down the machine correctly and secures keys at the end of the task
+  - code: LT3-S10
+    title: Troubleshoot a lighting contactor circuit
+    category: Dimming & Controls
+    critical: true
+    description: 'Isolate a lighting contactor fault to the supply, the control circuit, the coil, the contacts or
+      the load circuits by following the company order (line side, coil with controls engaged, load side, wiring condition),
+      and write up the repair for an electrician.
+
+      '
+    equipment:
+    - CAT III/IV digital multimeter rated for the circuit voltage
+    - proving unit or known live source
+    - LOTO kit
+    - insulated hand tools
+    - arc-rated PPE per the employer's NFPA 70E assessment
+    - control wiring diagram or panel schedule
+    - camera
+    - service order
+    criteria:
+    - Gathers the complaint, affected zones and any BMS or monitoring-service involvement before opening the enclosure
+    - Identifies every source in the enclosure (lighting branch circuits and separately fed control power) from the
+      diagram or by tracing
+    - Performs energized diagnostic testing only if qualified under the employer's NFPA 70E program and wearing the
+      required PPE; otherwise stops after visual and HOA checks and escalates
+    - Proves the meter on a known live source before and after testing
+    - Uses the HOA switch to determine whether the fault is in the automatic control path or in the contactor and
+      load circuits, after informing the customer
+    - Measures line-side voltage on each pole and correctly interprets a missing phase as an upstream problem
+    - Measures coil voltage with the controls engaged and correctly interprets results, including NC or fail-safe
+      coils that engage on absence of power and mechanically held coils
+    - Measures load-terminal voltage on each pole and identifies a failed contact when line and coil voltage are present
+      but a load terminal is dead
+    - Inspects for burned or overheated wiring without disturbing energized conductors and records every wiring need
+    - Records full nameplate data (catalog number, holding type, poles, coil voltage, contact and load rating) for
+      parts ordering
+    - States that any rebuild or coil replacement is confirmed with an electrician before it is written up, and that
+      repairs are done under LOTO with live-dead-live verification
+    - Returns the HOA to the customer's expected position (normally AUTO), closes and latches the enclosure, and completes
+      a write-up with location, measurements, recommendation and any temporary condition left
+  - code: LT3-S11
+    title: Troubleshoot a refrigerated case lighting outage without breaking seals
+    category: Refrigerated Case Lighting
+    critical: true
+    description: 'Find and correct a refrigerated display case lighting outage by following the company procedure
+      (switches, defrost, lamps, sockets, remote ballast, harness, line voltage) under LOTO, and turn the job over
+      when a repair would require breaking refrigeration seals.
+
+      '
+    equipment:
+    - CAT III digital multimeter
+    - proving unit
+    - LOTO kit
+    - insulated hand tools
+    - ladder
+    - known-good lamp
+    - replacement remote-rated ballast or driver
+    - moisture-rated connectors and sockets
+    - food covers
+    - cones
+    - camera
+    - service order
+    criteria:
+    - Checks in with the store manager, confirms affected cases and arranges for staff to protect or move product
+    - Sets up cones or a cart, keeps the aisle passable and never leaves a ladder unattended
+    - Checks case and panel light switches and any lighting schedule
+    - Recognizes possible defrost, marks the case location and returns in about 30 minutes, without changing any refrigeration
+      or defrost setting
+    - States that a case switch or defrost cycle is not a lockout and locks out the case lighting circuit and verifies
+      absence of voltage live-dead-live before touching sockets, ballasts or wiring
+    - Checks lamps with a known-good lamp and inspects sockets for breaks, burns and corrosion
+    - Locates the ballast or driver in the canopy, raceway, header, hood or door and has line voltage tested by a
+      qualified person if energized testing is required
+    - Confirms the ballast is remote-rated when it is not in the hood or door and selects the correct remote ballast
+      for the lamp type, lamp count, lead length, starting temperature and voltage
+    - Tests wiring harness continuity under LOTO and repairs it only if no refrigeration seals must be broken
+    - Stops and turns the service over to the manager to call a case specialist or refrigeration company when the
+      seals would have to be broken
+    - When line voltage is absent, verifies the case is not in defrost, checks for tripped breakers and writes it
+      up for an electrician if unresolved
+    - Keeps tube guards and lenses in place over food, cleans up all debris and documents case data plate, steps taken,
+      parts and photos
+  - code: LT3-S12
+    title: Terminate and test a Cat6 cable to T568B
+    category: Data & Communications Cabling
+    critical: false
+    description: 'Terminate a Cat6 cable with an RJ45 plug on one end and a keystone jack on the other to T568B, test
+      it with a cable tester, and label it.
+
+      '
+    equipment:
+    - Cat6 cable
+    - Cat6 RJ45 plugs matched to the conductor type
+    - Cat6 keystone jack
+    - jacket stripper
+    - flush cutters
+    - RJ45 crimp tool
+    - 110 punch-down tool
+    - cable tester (wiremap
+    - continuity
+    - length)
+    - label maker
+    - safety glasses
+    criteria:
+    - Wears safety glasses while cutting, crimping and punching down
+    - Strips the jacket without nicking conductor insulation and removes the spline and ripcord flush
+    - Arranges conductors in T568B order from memory (white/orange, orange, white/green, blue, white/blue, green,
+      white/brown, brown)
+    - Keeps pair untwist to a minimum at both terminations
+    - Crimps the plug with all conductors reaching the end wall and the jacket captured under the strain-relief
+    - Punches down the keystone jack on the B color row with the cutting edge toward the outside and secures the cable
+      strain-relief
+    - Tests the cable and obtains a passing wiremap and continuity result with no opens, shorts, reversed, crossed
+      or split pairs, and reads the length
+    - Re-terminates any failed end and retests until it passes
+    - Labels both ends with matching identifiers and records the result
+  - code: LT3-S13
+    title: Diagnose a neon sign outage using safe isolation methods
+    category: Signage
+    critical: true
+    description: 'Locate the cause of a dark or partly dark exposed or channel-letter neon sign by observation from
+      a safe distance, lockout, de-energized inspection and rated bypass-jumper (split-half) isolation, without ever
+      touching energized glass, electrodes or GTO. Performed on a training sign or under direct supervision of a qualified
+      person or sign specialist.
+
+      '
+    equipment:
+    - CAT III/IV digital multimeter
+    - proving unit or known live source
+    - LOTO kit
+    - insulated GTO-rated bypass jumpers with boots
+    - manufacturer-approved neon/HV tester or known-good test load
+    - discharge stick if required by employer procedure
+    - binoculars or zoom camera
+    - cut-resistant gloves
+    - safety glasses
+    - PPE per job hazard assessment
+    criteria:
+    - Observes each unit for glow and listens for transformer hum from a safe distance (through faces and drain holes
+      for channel letters) and never touches, probes or "feels" energized glass, electrodes, boots, PK housings or
+      GTO
+    - Checks the time clock, photocell, switches and sign disconnect before assuming a failure
+    - Reads and records the transformer label (primary voltage, secondary voltage and current, midpoint ground, SGFP,
+      location rating)
+    - Locks out the sign disconnect and verifies absence of voltage at the transformer primary using live-dead-live
+      before any secondary work
+    - Allows stored charge to dissipate and discharges the secondary per the employer's procedure before contact
+    - Inspects the first piece of glass off the transformer, boots, PK housings and GTO for breaks, carbon tracking
+      and burn-through
+    - States that an SGFP or electronic transformer with no output on an open secondary is not proof of failure and
+      tests it only by the manufacturer's method
+    - Never connects a standard multimeter to the secondary, never draws an arc, and never grounds an energized secondary
+      lead or defeats SGFP
+    - Installs and removes bypass jumpers only while locked out, then re-energizes from a safe position and observes
+    - Applies the split-half method from the center unit to isolate the failed unit or GTO run in a channel-letter
+      string
+    - Removes all jumpers, restores the sign, and documents findings, parts needed and any items requiring an electrician
+      or sign specialist
+  - code: LT3-S14
+    title: Troubleshoot an LED channel-letter or sign outage and replace modules or power supply
+    category: Signage
+    critical: false
+    description: 'Follow the company LED sign procedure to find the cause of a whole-sign or sporadic outage, then
+      replace failed modules, connectors or a power supply with correctly matched and sized parts under LOTO.
+
+      '
+    equipment:
+    - CAT III/IV digital multimeter
+    - proving unit or known live source
+    - LOTO kit
+    - known-good test module or short test string
+    - IDC
+    - gel-filled or solder/heat-shrink connection materials
+    - replacement modules and power supply
+    - isopropyl alcohol
+    - insulated hand tools
+    - ladder or MEWP as required
+    - PPE per job hazard assessment
+    criteria:
+    - Checks time clock, photocell, switches, breaker and sign disconnect before testing components
+    - Has line voltage at the power supply input verified by a qualified person (or performs it if qualified under
+      the employer's NFPA 70E program)
+    - Measures secondary voltage with modules or a known-good test load connected and does not condemn a supply on
+      an unloaded reading
+    - Locks out the sign disconnect and verifies absence of voltage (live-dead-live) before opening letters or the
+      supply compartment
+    - Checks and remakes secondary and low-voltage connections, including polarity, before replacing a power supply
+    - Locates a string break at the first dark module and identifies bad modules by swapping with known-good modules
+    - Makes connections with the correct connector type and size for the wire and location, fully seated and sealed
+      where wet
+    - Selects replacement modules matching voltage, series, color temperature and brightness
+    - Sizes a replacement power supply to the correct output voltage, Class 2 limits, location rating and about 80
+      % or less of rated load
+    - Secures modules (cleaned surface and/or mechanical fastening), keeps drain holes open and corrects water entry
+    - Restores power, confirms even output and checks voltage at the farthest module if the end is dim
+    - Documents findings and parts and writes up line-voltage, branch-circuit or disconnect problems for an electrician
+  - code: LT3-S20
+    title: Diagnose a battery-backup ballast/driver, bug-eye unit or exit sign
+    category: Emergency Lighting
+    critical: true
+    description: 'Use the company test-button procedure to determine whether an emergency fixture''s normal side,
+      emergency side, battery or supply circuit has failed, and correct or escalate it.
+
+      '
+    equipment:
+    - DMM
+    - lockout devices
+    - known-good lamps or LED test load as applicable
+    - insulated hand tools
+    - ladder
+    - emergency lighting log
+    - manufacturer instructions
+    criteria:
+    - Confirms the lamp is good and checks unswitched and switched line voltage (qualified, in required PPE)
+    - Checks the charge indicator and battery connector before replacing parts
+    - Uses the test button to determine whether the fault is on the normal side or the emergency side and states the
+      correct replacement part for each result
+    - Locks out the normal circuit, verifies absence of voltage and unplugs the battery connector before servicing
+      sockets, wiring or the unit
+    - For a bug eye or exit, tests the line voltage after a failed test-button check and decides between unit or listed
+      battery replacement versus a circuit problem
+    - Restores power, confirms charging, performs a test-button check and notes any required initial charge period
+      before a 90-minute test
+    - Records the finding and repair in the emergency lighting log and escalates circuit, inverter or generator issues
+  - code: LT3-S21
+    title: Troubleshoot a wall-switch sensor and isolate a ceiling sensor power pack
+    category: Dimming & Controls
+    critical: false
+    description: 'Find why occupancy-sensor-controlled lighting does not operate by checking settings, ground and
+      neutral, line voltage and switch-leg output on a wall sensor, and by isolating the power pack from the low-voltage
+      sensor on a ceiling system.
+
+      '
+    equipment:
+    - DMM with AC and DC ranges
+    - non-contact voltage tester
+    - lockout devices
+    - PPE per employer NFPA 70E assessment
+    - manufacturer wiring diagrams
+    - short low-voltage test lead
+    - ladder
+    criteria:
+    - Checks and records sensitivity, time delay and mode settings and walk-tests before replacing any device
+    - Locks out every circuit in the box and verifies absence of voltage before removing or re-landing devices
+    - Verifies the equipment ground and neutral (where required) are present and correctly connected, and never uses
+      the ground as a neutral
+    - Measures line voltage across hot and neutral and the switch-leg output to decide whether a wall sensor has failed
+    - On a ceiling system, measures line input and Class 2 low-voltage output at the power pack and low voltage at
+      the sensor terminals
+    - Correctly identifies the failed component (power pack, sensor or low-voltage cable) from the readings
+    - Replaces the failed component with a compatible part, restores settings and verifies operation and coverage,
+      and documents the work
+  - code: LT3-S22
+    title: Diagnose a time clock and photocell lighting control
+    category: Exterior & Site Lighting
+    critical: false
+    description: 'Diagnose mechanical and digital/astronomical time clocks and photocells using the company procedure
+      — time and tripper checks, line/load identification, bypass and cover tests, and photocell environment corrections.
+
+      '
+    equipment:
+    - DMM
+    - lockout devices
+    - PPE per employer NFPA 70E assessment
+    - opaque photocell cover or test cap
+    - replacement trippers
+    - photocell sleeve/shield
+    - manufacturer programming instructions
+    criteria:
+    - Verifies the clock is keeping correct time and confirms dial movement rather than relying on motor sound
+    - Spins a mechanical dial through the trippers without the bypass and identifies loose, misplaced or broken trippers
+    - Checks a digital/astronomical clock's date, time, time zone, DST, location, program and override status
+    - Identifies line and load conductors and confirms line is landed on the line terminal
+    - Measures line voltage across hot and neutral, then forces the device on (bypass or covered photocell, allowing
+      for delay) and checks load voltage
+    - Correctly decides between replacing the clock/photocell and investigating downstream equipment
+    - Identifies nearby light sources and corrects photocell sleeve and orientation, then returns the clock to automatic
+      and documents the schedule and repair

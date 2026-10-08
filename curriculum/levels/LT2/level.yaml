@@ -164,3 +164,181 @@ skills:
       - Compares measured load to the breaker rating and flags any circuit above 80% of rating for a continuous lighting load
       - Identifies an unbalanced or unexpectedly high neutral reading and reports it to the lead
       - Leaves the panel closed and safe and records results on the work order
+  - code: LT2-S09
+    title: Diagnose a 3-way switching circuit using a switching diagram
+    category: Troubleshooting
+    critical: false
+    description: 'On a training board or a live job with a 3-way (or 3-way plus 4-way) lighting circuit that has a
+      planted or actual fault, follow the company procedure — wiggle the switch arm, check connection points, and
+      trace power flow with a switching diagram — using lockout and de-energized continuity methods, then repair or
+      write up the fault.
+
+      '
+    equipment:
+    - DMM with continuity/ohms function
+    - known voltage source or proving unit
+    - lockout devices and tags
+    - insulated screwdrivers
+    - wire strippers
+    - replacement 3-way and 4-way switches
+    - wire nuts
+    - work order and pencil for the diagram
+    criteria:
+    - Operates every switch combination and records the results in a truth table before opening any box
+    - Rules out the load (lamp, driver or ballast) and performs the wiggle-the-arm test on each switch, stating what
+      flicker or drop-out indicates
+    - Identifies every circuit in each box, locks out and tags out, and verifies absence of voltage on every conductor
+      live-dead-live before touching conductors
+    - Inspects every connection point (screws, back-wire clamps, back-stabs, splices) and identifies loose, burned
+      or damaged terminations
+    - Draws the switching diagram for the actual configuration (power-to-switch, power-to-fixture or with a 4-way),
+      labeling line hot, travelers, switch leg and neutral
+    - Identifies common and traveler terminals on the removed devices by continuity, and rings out the travelers and
+      switch leg with the switches disconnected
+    - Correctly locates the fault and states how it explains the recorded symptom
+    - Repairs within scope (re-terminates, replaces with the correct 3-way/4-way device and rating) or writes it up
+      with the diagram and findings when the fault requires circuit changes
+    - Restores power per procedure and proves the fix by confirming every single switch flip changes the light
+  - code: LT2-S10
+    title: Troubleshoot a track lighting run
+    category: Lighting Systems
+    critical: false
+    description: 'Troubleshoot a track run with one or more dark or intermittent heads (and, where available, a whole-track
+      outage) using the company procedure in order, identify the track system type, and record the information needed
+      to order compatible parts.
+
+      '
+    equipment:
+    - DMM with continuity/ohms function
+    - known voltage source or proving unit
+    - known good lamps of the types in use
+    - lockout devices and tags
+    - ladder
+    - heat-resistant gloves
+    - screwdrivers
+    - replacement ballast or head as needed
+    - camera or phone for labels
+    criteria:
+    - Interviews the customer and sketches the run, numbering heads, feed location, connectors and circuits
+    - Verifies at least one good lamp in the track and uses it to test other heads of the same type
+    - Checks the head switch, the circuit selector on multi-circuit track, and the track connection, and moves the
+      head to a different spot on the track
+    - Removes heads only with the head switched off or the track de-energized, and lets hot lamps cool before handling
+    - Performs a continuity check adapter-to-socket only on incandescent or halogen heads, with the head removed from
+      the track, wiggling the swivel during the test
+    - Replaces the ballast on a ballasted head (with a known good lamp of the correct type and wattage) when other
+      heads on the track operate
+    - For a whole-track outage, checks the breaker and control, then locks out, verifies dead live-dead-live, and
+      inspects the entrance fitting connections
+    - Calculates the track load against the track, branch circuit (80% continuous) and dimmer limits
+    - Records track system type (H/J/L), number of circuits and head catalog data needed to order compatible parts,
+      and identifies any write-up conditions
+  - code: LT2-S11
+    title: Troubleshoot a low-voltage fixture and match a transformer and lamp
+    category: Lighting Systems
+    critical: false
+    description: 'Troubleshoot a non-working or intermittent 12 V fixture using the company procedure — lamp continuity,
+      socket condition, line voltage, continuity socket-to-transformer, then transformer or fixture replacement —
+      and select a compatible replacement transformer and lamp (including an LED MR16) for the fixture and dimmer.
+
+      '
+    equipment:
+    - true-RMS DMM with continuity/ohms function
+    - known voltage source or proving unit
+    - lockout devices and tags
+    - known good lamps
+    - clean cloth or gloves for halogen capsules
+    - screwdrivers
+    - ladder
+    - replacement transformer and lamp
+    - manufacturer compatibility lists
+    criteria:
+    - Checks lamp continuity on halogen lamps (or substitutes a known good LED lamp) and handles halogen capsules
+      without bare fingers
+    - Inspects the socket for burns, breakage, excessive wear and loose contacts and identifies when it must be replaced
+    - Establishes that line voltage is present at the transformer primary using indirect evidence or a qualified person's
+      measurement, and states why the tech does not take energized readings unless qualified
+    - Locks out, tags out and verifies absence of voltage live-dead-live at the primary before disconnecting the secondary
+    - Tests continuity from socket to transformer secondary while wiggling leads, and checks for a short between secondary
+      conductors
+    - Checks total load against transformer VA and minimum load and considers heat before condemning a transformer
+      that cycles
+    - Reads the transformer label and selects a replacement with matching type, output voltage, VA, min/max load,
+      dimming method and Class 2 status where required
+    - Selects a lamp with the correct base, voltage, wattage, beam angle and CCT, and confirms LED lamp/transformer/dimmer
+      compatibility from the maker's list
+    - Restores power per procedure, verifies operation across the dimming range, and replaces the fixture when an
+      intermittent fault cannot be found
+  - code: LT2-S12
+    title: Assess a tripping-breaker complaint and write an electrician work-up without opening the dead front
+    category: Safety
+    critical: true
+    description: 'Respond to a tripping lighting breaker complaint by gathering information, inspecting the panel
+      from outside the dead front, performing the wiggle test, comparing the circuit load with the breaker rating,
+      and writing a complete electrician work-up — without removing the dead front unless the evaluator confirms the
+      tech is trained, qualified and authorized for that task.
+
+      '
+    equipment:
+    - panel directory or panel schedule
+    - fixture nameplate data or cut sheets
+    - calculator
+    - thermal camera (if available)
+    - flashlight
+    - lockout devices and tags
+    - DMM and known voltage source or proving unit for load-side checks
+    - camera or phone
+    - work order or write-up form
+    - safety glasses
+    criteria:
+    - Does not remove the dead front or expose energized parts at any point (zero deviations), and states the company
+      rule and why it exists
+    - Interviews the customer and records which lights go off, how often, and whether trips are instant, delayed or
+      only at switch-on
+    - Identifies the breaker from the directory and records its rating, poles, type (standard, GFCI, AFCI, dual-function)
+      and visible markings
+    - Looks, smells, listens and feels (back of hand) for overheating, and stops and escalates immediately if burning,
+      soot, melting or arcing is present
+    - Performs the wiggle test gently within the ON position while observing the lights, and correctly interprets
+      flicker or a sloppy handle
+    - Operates breaker handles only from the side of the panel and never resets a breaker more than once without finding
+      the cause
+    - Totals the circuit's fixture input watts, converts to amps, and compares with the breaker rating and the 80%
+      continuous-load limit
+    - Correctly classifies the likely cause (overload, short, ground fault, nuisance/inrush, weak breaker) from the
+      evidence
+    - Locks out the breaker and verifies absence of voltage live-dead-live before any load-side inspection, and never
+      treats a tripped breaker as a lockout
+    - Writes a work-up with location, circuit, complaint, load calculation, observations, work done, a specific recommendation
+      (e.g., replace breaker that trips within tolerance) and priority, with photos attached
+  - code: LT2-S20
+    title: Diagnose an HID fixture using socket voltage, capacitor and pole-fuse checks
+    category: Lighting Systems
+    critical: true
+    description: 'Follow the company HID troubleshooting sequence to identify whether the lamp, capacitor, ballast
+      core and coil, socket, ignitor, line supply or pole-base fuse has failed, before any component is replaced.
+
+      '
+    equipment:
+    - CAT III/IV DMM rated above expected open-circuit voltage with capacitance range
+    - insulated probes
+    - PPE per employer NFPA 70E assessment
+    - lockout devices
+    - capacitor discharge tool
+    - known-good lamp of correct ANSI code
+    - OCV reference chart and ballast label
+    - ladder or authorized MEWP
+    criteria:
+    - Checks photocell/control status and allows for restrike time before testing
+    - Locks out and verifies absence of voltage, then disconnects the ignitor pulse lead on pulse-start MH or HPS
+      before any open-circuit voltage reading
+    - Under qualified supervision and in required PPE, measures socket open-circuit voltage with the lamp removed
+      and compares it to the ballast label (using the chart only as a typical guide)
+    - Correctly decides lamp vs ballast circuit from the OCV result and, if OCV is absent, measures line voltage at
+      the ballast input
+    - With no line voltage at a pole fixture, locks out and tests pole-base fuses out of their holders and replaces
+      only with the same type and rating
+    - Discharges the capacitor, verifies 0 V, and tests it on the capacitance range against its marked tolerance
+    - Checks ballast winding continuity, voltage-tap selection and socket condition de-energized
+    - Identifies the failed component, states that a fresh lamp is installed with any new ballast kit, and documents
+      readings and escalates a repeat fuse failure

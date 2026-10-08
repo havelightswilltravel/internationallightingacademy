@@ -1,0 +1,189 @@
+code: MGR-C05
+title: Reference Checks, Selection & the Offer
+order: 5
+estimated_hours: 2
+description: >
+  Turning interview evidence into a sound hiring decision. Covers reference questions that get real
+  answers, license verification, comparing scorecards, leading a calibration meeting, documenting
+  the decision, setting the starting grade through the program's placement process and pay-by-grade
+  scale, and making the offer.
+objectives:
+  - Conduct and document job-related reference checks with written authorization.
+  - Verify electrical licenses and key certifications directly with the issuer.
+  - Compare scorecards and lead a calibration meeting that limits bias.
+  - Record job-related reasons for selection and non-selection.
+  - Set a new hire's starting grade using the placement assessment and pay-by-grade scale.
+  - Make a clear, conditional offer and handle negotiation consistently.
+lessons:
+  - 01-reference-checks-and-license-verification.md
+  - 02-comparing-scorecards-and-calibration.md
+  - 03-making-the-offer-and-setting-the-starting-grade.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: MGR-C05-Q01
+      type: single
+      q: What must be in place before calling a candidate's references?
+      choices:
+        - A signed offer letter
+        - The candidate's written authorization to contact references and former employers
+        - A completed I-9
+        - A drug test result
+      answer: 1
+      explanation: Written authorization (a release) should be on file before reference calls.
+      ref: MGR-C05 Lesson 1
+    - id: MGR-C05-Q02
+      type: single
+      q: Which reference is usually the most useful?
+      choices:
+        - A family friend
+        - A former direct supervisor or lead
+        - A coworker from ten years ago
+        - The candidate's pastor
+      answer: 1
+      explanation: Former supervisors have directly observed reliability, safety, and performance.
+      ref: MGR-C05 Lesson 1
+    - id: MGR-C05-Q03
+      type: single
+      q: Which reference question is most likely to produce useful information?
+      choices:
+        - "Was he a good worker?"
+        - "Any problems?"
+        - "What's one area where he could improve, and what did you coach him on?"
+        - "Was he reliable?"
+      answer: 2
+      explanation: Open, specific questions get real answers; yes/no questions get "yes."
+      ref: MGR-C05 Lesson 1
+    - id: MGR-C05-Q04
+      type: single
+      q: A former supervisor pauses and says "probably" when asked "Would you rehire her?" What should you do?
+      choices:
+        - Treat it as a definite yes
+        - Follow up gently, for example, "It sounded like you hesitated. Is there anything I should know to set her up for success?"
+        - End the call immediately
+        - Ask whether she had health problems
+      answer: 1
+      explanation: Hesitation on the rehire question is a signal worth a polite follow-up, without straying into protected topics.
+      ref: MGR-C05 Lesson 1
+    - id: MGR-C05-Q05
+      type: single
+      q: A former employer will only confirm dates and title. How should that be treated?
+      choices:
+        - As a negative mark against the candidate
+        - As neutral company policy; note it and ask the candidate for an alternate reference
+        - As grounds to withdraw the offer
+        - As proof the candidate was fired
+      answer: 1
+      explanation: Many employers limit references by policy; it says nothing about the candidate.
+      ref: MGR-C05 Lesson 1
+    - id: MGR-C05-Q06
+      type: multi
+      q: When verifying an electrician's license, what should be confirmed on the issuing agency's lookup? Select all that apply.
+      choices:
+        - License type and class
+        - Active status and expiration date
+        - Any listed disciplinary actions
+        - The candidate's date of birth for age screening
+      answer: [0, 1, 2]
+      explanation: Verify class, status, expiration, and discipline. Age is protected and not part of license verification for hiring decisions.
+      ref: MGR-C05 Lesson 1
+    - id: MGR-C05-Q07
+      type: single
+      q: When should the calibration meeting be held?
+      choices:
+        - Immediately in the hallway after the interview
+        - After every interviewer has independently submitted scores and notes
+        - Before the interviews, to agree on a favorite
+        - Only if the manager is unsure
+      answer: 1
+      explanation: Independent scorecards first prevent one opinion from anchoring the group.
+      ref: MGR-C05 Lesson 2
+    - id: MGR-C05-Q08
+      type: single
+      q: In what order should interviewers share during calibration?
+      choices:
+        - Hiring manager first
+        - Most senior first
+        - Most junior first, hiring manager last
+        - Alphabetical by last name
+      answer: 2
+      explanation: Junior-first order limits anchoring on the boss's view.
+      ref: MGR-C05 Lesson 2
+    - id: MGR-C05-Q09
+      type: single
+      q: Two interviewers scored the same Caution answer 3 and 7. What is the right next step?
+      choices:
+        - Average it to 5 and move on
+        - Each reads their notes aloud and the group agrees on what the evidence shows
+        - Use the higher score
+        - Use the hiring manager's score
+      answer: 1
+      explanation: Large gaps signal different observations or scale use; resolve them with the evidence in the notes.
+      ref: MGR-C05 Lesson 2
+    - id: MGR-C05-Q10
+      type: single
+      q: Which is a well-written decision record?
+      choices:
+        - "Just didn't click."
+        - "Not a culture fit."
+        - "Not selected: Caution avg 3; described bypassing lockout to save time; one reference would not rehire."
+        - "Overqualified."
+      answer: 2
+      explanation: Decision records should give specific, job-related evidence.
+      ref: MGR-C05 Lesson 2
+    - id: MGR-C05-Q11
+      type: single
+      q: A candidate scores high on every competency except Caution (safety), where the average is 3. What should the team do?
+      choices:
+        - Hire anyway; the other scores make up for it
+        - Revisit the must-haves; safety is a must-have and is not traded for strengths elsewhere
+        - Ignore the Caution score
+        - Place the candidate at a higher grade
+      answer: 1
+      explanation: In our trade, safety-related competencies are must-haves.
+      ref: MGR-C05 Lesson 2
+    - id: MGR-C05-Q12
+      type: single
+      q: An experienced lighting technician is hired. How is their starting grade set?
+      choices:
+        - They choose their grade
+        - They always start at LT1
+        - They complete a documented placement assessment; an evaluator recommends and a company admin records the placement with a written reason
+        - It is based on their previous pay
+      answer: 2
+      explanation: The program's placement process places experienced hires at the right grade with a documented reason.
+      ref: MGR-C05 Lesson 3
+    - id: MGR-C05-Q13
+      type: single
+      q: How should starting pay be set for a new technician?
+      choices:
+        - Match the candidate's previous pay
+        - Use the pay scale for the placement grade, applied consistently
+        - Whatever the candidate asks for
+        - Lower for candidates who don't negotiate
+      answer: 1
+      explanation: Pay by grade keeps pay fair and consistent and avoids relying on pay history.
+      ref: MGR-C05 Lesson 3
+    - id: MGR-C05-Q14
+      type: multi
+      q: Which items should be confirmed before making the offer? Select all that apply.
+      choices:
+        - Starting grade and pay rate from the scale
+        - Conditions such as background check, driving-record check, and drug test, per policy
+        - Start date and reporting location
+        - The candidate's marital status for benefits planning
+      answer: [0, 1, 2]
+      explanation: Marital status is not needed to make an offer; benefits enrollment is handled by HR after hire.
+      ref: MGR-C05 Lesson 3
+    - id: MGR-C05-Q15
+      type: single
+      q: A new hire wants more money than the grade pays. What is the best response consistent with our program?
+      choices:
+        - Pay whatever they ask to close the deal
+        - Explain pay follows the grade scale, the fastest raise is earning the next grade, and offer an earlier placement re-assessment if they believe they qualify
+        - Withdraw the offer
+        - Ask what they made at their last job and match it
+      answer: 1
+      explanation: Using the ladder and re-assessment keeps pay consistent; pay-history questions are banned in some places.
+      ref: MGR-C05 Lesson 3

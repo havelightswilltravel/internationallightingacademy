@@ -177,3 +177,142 @@ skills:
       - Notes any unsafe conditions, code concerns, or additional work needed and reports them to the supervisor
       - Reviews the completed work with the customer and obtains a signature or acknowledgment per company policy
       - Submits the work order the same day with no missing required fields
+  - code: LT1-S09
+    title: Troubleshoot a dark or cycling incandescent recessed fixture
+    category: Lighting Service
+    critical: false
+    description: 'Troubleshoots an incandescent or halogen recessed fixture that is dark or cycling, following the
+      company procedure (lamp, power, switch, socket/socket eye, thermal protector) with all possible checks done
+      de-energized, and corrects or writes up the problem.
+
+      '
+    equipment:
+    - CAT III 600 V or higher DMM
+    - known-good lamp of the correct type
+    - insulated screwdrivers
+    - LOTO kit
+    - stepladder
+    - heat-resistant gloves
+    - PPE per S01
+    - work order
+    criteria:
+    - Asks the customer about the symptom (always off vs. cycling), how many fixtures are affected, and recent changes,
+      and reads the fixture label (maximum wattage, lamp type, IC/non-IC)
+    - Identifies when several fixtures are dark and treats it as a possible upstream problem to write up
+    - Applies LOTO and verifies absence of voltage (live-dead-live) before reaching into the fixture, and lets hot
+      lamps and housings cool
+    - Tests the removed lamp with the DMM on ohms and correctly interprets a low reading vs. OL, or substitutes a
+      known-good lamp
+    - Inspects the socket and center contact (socket eye) for flattening, pitting and scorching and lifts a lightly
+      flattened tab only while locked out, or recommends socket replacement
+    - Checks the thermal protector for continuity when cool, or explains why cycling indicates overheating, and confirms
+      lamp wattage and type match the label
+    - States that a thermal protector is never bypassed or removed
+    - States that voltage checks at the socket or switch are performed only by a qualified person, and escalates when
+      no power is present at the switch
+    - Restores power correctly after removing LOTO and confirms the fixture operates
+    - Documents the symptom, readings, parts replaced (with part numbers) and any write-up on the work order
+  - code: LT1-S10
+    title: Replace and test a receptacle, switch or GFCI (supervised)
+    category: Lighting Service
+    critical: true
+    description: 'Under direct supervision and only where the company has authorized the task, inspects a damaged
+      device, confirms line voltage has been verified by a qualified person, and replaces the device like-for-like
+      with the circuit locked out, then tests it.
+
+      '
+    equipment:
+    - replacement device of matching type and rating
+    - torque screwdriver
+    - wire strippers
+    - long-nose pliers
+    - insulated screwdrivers
+    - CAT III 600 V or higher DMM
+    - plug-in receptacle tester
+    - LOTO kit
+    - PPE per S01
+    - work order and phone camera
+    criteria:
+    - Inspects the device from the outside for burned, melted, loose or damaged parts and checks plug grip or switch
+      operation without inserting fingers or tools into slots
+    - Confirms that line voltage at the device was checked by a qualified person and states that no voltage means
+      an upstream problem to write up, not a device replacement
+    - Identifies the correct breaker without opening the panel dead front, then applies LOTO
+    - Verifies absence of voltage at the device with a tested meter, live-dead-live, on every conductor in the box,
+      and stops if any voltage is found
+    - Photographs the wiring before disconnecting
+    - Selects a like-for-like replacement matching type, amp and voltage rating (including 277 V for commercial switches)
+      and TR/WR/GFCI requirements as directed by the supervisor
+    - Recognizes write-up conditions (charred or brittle insulation, aluminum wire, no ground or bootleg ground, multiple
+      circuits or shared neutral, damaged box, insufficient conductor length) and stops
+    - Terminates conductors on screw terminals (clockwise hook) or back-wire clamps, not backstabs, strips to the
+      strip gauge, and torques to the manufacturer's value
+    - Connects hot to brass, neutral to silver and ground to green; wires GFCI LINE/LOAD to match the original protection;
+      preserves any removed break-off tab configuration
+    - Has the supervisor inspect the work before power is restored, then removes LOTO correctly
+    - Tests the device (switch operation, plug-in tester, GFCI TEST and RESET) and states that a plug-in tester cannot
+      confirm a true ground path or verify absence of voltage
+    - Documents the device removed, device installed with part number, line-voltage reading and who took it, test
+      results and any write-up
+  - code: LT1-S11
+    title: Identify and source replacement parts from a fixture
+    category: Professional Practice
+    critical: false
+    description: 'Reads the labels on a fixture''s lamps, ballast or driver and the fixture itself, measures where
+      needed, cross-references the parts, and produces a complete and correct parts order on the work order.
+
+      '
+    equipment:
+    - sample fixture with lamps and ballast or LED driver
+    - phone camera
+    - tape measure
+    - base gauge
+    - manufacturer spec sheets or cross-reference tool access
+    - LOTO kit
+    - PPE per S01
+    - work order or parts order form
+    criteria:
+    - Locks out and verifies absence of voltage before opening the fixture to read internal labels
+    - Takes a wide location photo and clear, in-focus, glare-free photos of each label, wiring diagram and the fixture
+      interior
+    - Correctly decodes the lamp ordering code (for example wattage, shape/diameter, color temperature, CRI, base,
+      burn position or ANSI code)
+    - Records all required ballast fields (lamp type and quantity, start method, input voltage, ballast factor, case
+      size) or LED driver fields (input voltage, CC/CV, output current, voltage window, power, dimming type, case
+      size)
+    - Copies the complete fixture manufacturer and catalog number from the fixture label
+    - Measures lamp length, base, lens or case dimensions when a label is missing or unclear
+    - Uses a cross-reference tool or spec sheet to find an equivalent part and verifies every critical field matches,
+      rejecting crosses based on wattage alone
+    - Obtains the spec sheet and installation instructions for the selected part
+    - Produces a parts order with correct part numbers, quantities, fixture locations and photos attached, and identifies
+      when a sample or supervisor review is needed
+    - States how to handle an unused return and a defective part needing an RMA
+  - code: LT1-S20
+    title: Perform first-response diagnosis on a dark fluorescent or CFL fixture
+    category: Lighting Systems
+    critical: false
+    description: 'Apply the first steps of the company fluorescent/CF procedure — check what else is out, inspect
+      lamp ends, relamp, perform a T5 ballast power reset — and record the findings and parts information for follow-up.
+
+      '
+    equipment:
+    - replacement lamps matched to the ballast label
+    - ladder
+    - safety glasses
+    - gloves
+    - lockout devices
+    - DMM
+    - work order
+    - camera or phone for label photos
+    criteria:
+    - Checks neighboring fixtures and controls to determine whether one fixture or a whole circuit/control is affected
+    - Locks out the fixture per company relamping procedure before handling lamps
+    - Identifies blackened lamp ends and replaces lamps with the exact type on the ballast label
+    - Identifies the CFL base type and explains whether the starter is in the lamp (2-pin) or the ballast is in the
+      fixture (4-pin)
+    - Performs a T5 ballast power reset (power fully off for the specified time, then on) before reporting a ballast
+      failure
+    - States that power present with all lamps out points to the ballast/igniter and some lamps out points to sockets/wiring
+    - Records lamp code, ballast label data, socket type and fixture location on the work order and reports anything
+      beyond LT1 scope

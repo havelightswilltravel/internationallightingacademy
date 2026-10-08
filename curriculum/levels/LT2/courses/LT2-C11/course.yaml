@@ -1,0 +1,196 @@
+code: LT2-C11
+title: Breakers & Overcurrent Protection for Technicians
+order: 11
+estimated_hours: 5
+description: >
+  Explains what breakers and fuses do and how lighting technicians assess a tripping-breaker
+  complaint without entering the panel: ampere, voltage and interrupting (AIC) ratings;
+  standard thermal-magnetic, GFCI, AFCI, dual-function, HID-rated and SWD-marked breakers;
+  trip-curve basics; telling an overload from a short circuit, ground fault, nuisance trip or
+  weak breaker; reading and correcting panel directories; the 80% continuous-load concept; and
+  signs of overheating. Teaches the company procedure — check the load against the breaker's
+  tolerance, never open the dead front unless trained and qualified, check for loose
+  connections and overheating, wiggle the breaker handle, and write it up for an electrician
+  to replace a breaker that trips intermittently within tolerance — and how to document a
+  complete electrician work-up.
+objectives:
+  - Explain how thermal-magnetic breakers and fuses protect circuits and read breaker ratings including AIC and voltage
+  - Identify standard, GFCI, AFCI, dual-function, HID-rated and SWD-marked breakers and where each is used
+  - Distinguish overload, short circuit, ground fault, nuisance trip and weak breaker from field clues
+  - Use the panel directory and nameplate totals to compare circuit load with the breaker rating and the 80% continuous limit
+  - Recognize signs of overheating and know when to stop and escalate immediately
+  - Assess a tripping-breaker complaint per the company procedure without removing the dead front and write a complete electrician work-up
+lessons:
+  - 01-breakers-fuses-ratings-and-types.md
+  - 02-why-breakers-trip.md
+  - 03-panel-schedules-loading-and-overheating.md
+  - 04-tripping-breaker-procedure-and-write-ups.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C11-Q01
+      type: single
+      q: What is the primary purpose of a standard branch-circuit breaker?
+      choices:
+        - To protect people from electric shock
+        - To regulate voltage to the fixtures
+        - To protect conductors and equipment from overcurrent
+        - To dim lighting loads
+      answer: 2
+      explanation: Breakers protect conductors and equipment from overheating due to overcurrent. Shock protection for people is the job of GFCI protection.
+      ref: LT2-C11 Lesson 1
+    - id: LT2-C11-Q02
+      type: single
+      q: Which part of a thermal-magnetic breaker responds instantly to a short circuit?
+      choices:
+        - The magnetic element
+        - The bimetal thermal element
+        - The handle tie
+        - The panel directory
+      answer: 0
+      explanation: The magnetic element trips almost instantly on the very high current of a short or ground fault. The thermal element responds slowly to sustained overload.
+      ref: LT2-C11 Lesson 1
+    - id: LT2-C11-Q03
+      type: single
+      q: What does a breaker's interrupting rating (AIC) tell you?
+      choices:
+        - The current it carries continuously
+        - The maximum fault current it can safely interrupt
+        - The number of times it can be switched
+        - The voltage drop across the breaker
+      answer: 1
+      explanation: AIC (amperes interrupting capacity) is the maximum available fault current the breaker can safely clear. Too low an AIC can cause a violent failure.
+      ref: LT2-C11 Lesson 1
+    - id: LT2-C11-Q04
+      type: single
+      q: A warehouse turns its fluorescent lights on and off daily at the panel. What marking must those breakers carry?
+      choices:
+        - GFCI
+        - AFCI
+        - 100% rated
+        - SWD (or HID for HID lighting)
+      answer: 3
+      explanation: Breakers used as regular switches must be listed for switching duty — SWD for fluorescent lighting, HID for HID lighting. Ordinary breakers wear out and become weak.
+      ref: LT2-C11 Lesson 1
+    - id: LT2-C11-Q05
+      type: single
+      q: A breaker trips instantly every time it is reset. What is the most likely cause, and what should you do?
+      choices:
+        - Overload — reset it several more times
+        - Short circuit or solid ground fault — leave it off and tagged and investigate the load side de-energized or write it up
+        - Weak breaker — tape the handle on
+        - Nuisance trip — replace it with a larger breaker
+      answer: 1
+      explanation: An instant trip on reset indicates a short or solid ground fault. Do not keep resetting; lock out and investigate the load side de-energized, or write it up.
+      ref: LT2-C11 Lesson 2
+    - id: LT2-C11-Q06
+      type: single
+      q: A lighting circuit trips about two hours after the lights come on, mostly on hot afternoons. Which cause fits best?
+      choices:
+        - Overload (or a weak breaker if the load checks out)
+        - A dead short
+        - A missing dead end on a track
+        - Reversed polarity
+      answer: 0
+      explanation: Delayed trips point to the thermal element — overload, worsened by ambient heat. If the load is well within rating, suspect a weak breaker.
+      ref: LT2-C11 Lesson 2
+    - id: LT2-C11-Q07
+      type: single
+      q: What is the maximum continuous lighting load on a 20 A, 277 V branch circuit using the 80% concept (power factor near 1)?
+      choices:
+        - 5,540 W
+        - 1,920 W
+        - 4,432 W
+        - 3,324 W
+      answer: 2
+      explanation: 80% of 20 A = 16 A; 16 A × 277 V ≈ 4,432 W.
+      ref: LT2-C11 Lesson 3
+    - id: LT2-C11-Q08
+      type: single
+      q: How long must a load's maximum current be expected to continue for it to be considered a continuous load?
+      choices:
+        - 30 minutes
+        - 1 hour
+        - 8 hours
+        - 3 hours or more
+      answer: 3
+      explanation: A continuous load is one where the maximum current is expected to continue for three hours or more — typical of commercial lighting.
+      ref: NEC 2023 Article 100 (Continuous Load)
+    - id: LT2-C11-Q09
+      type: single
+      q: Under the company procedure, who may remove the dead front of a panel?
+      choices:
+        - Any technician who brings a flashlight
+        - Only a person with specific electrical training who is qualified and authorized under the company's NFPA 70E program
+        - Anyone, as long as the customer gives permission
+        - Any technician wearing safety glasses
+      answer: 1
+      explanation: The company rule is not to open the dead front unless you have specific electrical training. Removing it exposes energized bus and is qualified-person work.
+      ref: Company Master Troubleshooting Guide — Breakers
+    - id: LT2-C11-Q10
+      type: single
+      q: A 20 A lighting breaker trips intermittently, but the nameplate total shows only 5 A of load. What does the company procedure call for?
+      choices:
+        - Write it up for an electrician to replace the breaker
+        - Install a 30 A breaker
+        - Remove the dead front and tighten the terminal yourself
+        - Close the call — the load is fine
+      answer: 0
+      explanation: A breaker that trips intermittently within its tolerance range is likely weak; write it up for an electrician to replace it and check the terminations.
+      ref: Company Master Troubleshooting Guide — Breakers
+    - id: LT2-C11-Q11
+      type: single
+      q: How should the "wiggle the switch arm" check be performed on a breaker?
+      choices:
+        - Snap the breaker off and on repeatedly under load
+        - Remove the dead front and wiggle the breaker on the bus
+        - Gently move the handle a small amount within the ON position while watching the circuit's lights
+        - Push the handle firmly toward OFF and release it
+      answer: 2
+      explanation: A gentle wiggle in the ON position, dead front in place, while watching the lights, can reveal a weak breaker or loose connection (flicker, sloppy handle).
+      ref: LT2-C11 Lesson 4
+    - id: LT2-C11-Q12
+      type: single
+      q: You smell burning insulation at a panel and see soot around one breaker. What should you do?
+      choices:
+        - Operate the breaker to see if it still works
+        - Remove the dead front to look closer
+        - Note it for the next routine visit
+        - Do not touch the panel, keep people away and notify the customer and your supervisor immediately
+      answer: 3
+      explanation: Burning smell, soot, melting or arcing are immediate stop-and-escalate conditions, not routine write-ups.
+      ref: LT2-C11 Lesson 3
+    - id: LT2-C11-Q13
+      type: multi
+      q: Which are signs that a breaker or its connection may be overheating? (Select all that apply.)
+      choices:
+        - Discolored breaker handle or browned dead-front paint near it
+        - A hot-plastic smell at the panel
+        - Lights flicker when the handle is gently touched
+        - The directory card is typed rather than handwritten
+      answer: [0, 1, 2]
+      explanation: Discoloration, odor and flicker on a wiggle all point to heating or loose connections. Directory format is unrelated.
+      ref: LT2-C11 Lessons 3 and 4
+    - id: LT2-C11-Q14
+      type: multi
+      q: Which items belong in a proper electrician work-up for a tripping breaker? (Select all that apply.)
+      choices:
+        - Panel name, breaker number, rating and type
+        - Load total or measured current compared with the breaker rating
+        - Wiggle-test and overheating observations, with photos or thermal images
+        - A note that you replaced the breaker with a larger size
+      answer: [0, 1, 2]
+      explanation: A complete work-up identifies the circuit, documents the load and observations, and gives a specific recommendation. Upsizing a breaker is never acceptable.
+      ref: LT2-C11 Lesson 4
+    - id: LT2-C11-Q15
+      type: single
+      q: An LED lighting circuit trips only at the moment the lights are switched on and holds fine once running. What is a likely explanation?
+      choices:
+        - High inrush current from many LED drivers starting at once
+        - A sustained overload
+        - A dead short in the fixture
+        - Low line voltage
+      answer: 0
+      explanation: Large groups of LED drivers draw a brief, very high inrush current at switch-on. Document it and write it up; fixes are design changes.
+      ref: LT2-C11 Lesson 2
