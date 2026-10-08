@@ -19,7 +19,7 @@ as equal for loading. The rule:
 
 | Transformer | Max load | Practical target | Example lamp count (50 W MR16) | Example lamp count (7 W LED MR16) |
 |---|---|---|---|---|
-| 60 VA | 60 W | ~48 W | 1 | Check minimum load first |
+| 60 VA | 60 W | ~48 W | 1 (slightly over target — a 35 W lamp fits better) | Check minimum load first |
 | 150 VA | 150 W | ~120 W | 2 | Up to ~17 by watts, if min load and compatibility are met |
 | 300 VA | 300 W | ~240 W | 4 | Same caution |
 | 600 VA | 600 W | ~480 W | 9 | Same caution |

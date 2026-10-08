@@ -97,7 +97,67 @@ the photocell catching unusually dark days.
 > follow your employer's NFPA 70E program, including PPE for the incident-energy or category
 > required. Apply LOTO and verify absence of voltage before replacing or re-wiring any device.
 
+## Troubleshooting a Time Clock or Photocell (Company Procedure)
+
+**Components:** trippers, clock (motor or electronic module), photocell, photocell sleeve
+(shield), photocell receptacle (twist-lock base or knockout mount), plus the wiring and any
+contactor the device controls.
+
+### Mechanical (tripper) time clocks
+1. **Verify the clock is keeping time.** Compare the dial to the actual time of day. A clock
+   that is behind may have lost power or has a failing motor. Remember daylight saving changes.
+2. **Listen for the motor, but don't rely on sound alone.** A motor can hum and still not turn
+   the dial. Mark the dial and check that it has moved after a few minutes.
+3. **Spin the dial** (in the direction marked) through the ON and OFF trippers **without using the
+   bypass/manual lever.** The switch mechanism should click on at the ON tripper and off at the
+   OFF tripper. A tripper that is loose, bent, missing or set in the wrong slot gives the wrong
+   schedule — **replace trippers as needed** with the clock's matching style.
+4. Reset the dial to the correct time before leaving.
+
+### Digital and astronomical clocks
+Check the display for the correct date, time, time zone, DST setting and (for astronomical clocks)
+location. Check the program events, any holiday or exception days, and whether a manual override
+was left on. A blank display or a program lost after every outage points to a dead backup battery
+or a failed clock.
+
+### Line, load and voltage checks (both clocks and photocells)
+5. **Isolate line and load.** Identify which conductor brings power in and which goes out to the
+   lights or contactor coil, and verify the **line is landed on the line terminal** (on a
+   photocell, usually black = line, red = load, white = neutral). Swapped line and load is a common
+   cause of a device that "never works" after someone else replaced it.
+6. **Verify good line voltage across the hot and neutral** at the device (qualified person, PPE).
+   No line voltage → the problem is upstream.
+7. **Force the device on and check the load side.** Turn the time clock to **bypass/manual ON**,
+   or **cover the photocell** completely (and wait out its delay). Then verify voltage on the
+   load terminal.
+8. **Line voltage present but no load voltage with the device forced on → replace the time
+   clock or photocell.** Load voltage present but lights still off → the problem is downstream
+   (contactor coil, wiring, fixtures — Lesson 3).
+9. Return the clock from bypass to automatic when finished.
+
+### Photocell environment
+10. **Check for light sources near the photocell** — new wall packs, signs, the controlled
+    fixtures themselves, reflective surfaces, or security lights. These cause lights to cycle
+    at dusk or stay off at night.
+11. **Adjust the photocell sleeve (shield)** to block the offending light, depending on how close
+    the light source is, and correct the **photocell orientation** (window facing north, away from
+    the lights it controls). Relocate the photocell if a sleeve can't solve it.
+12. Check the receptacle and gasket on twist-lock photocells for corrosion or loose contacts.
+
+> **Safety:** Steps 6–8 are energized diagnostic tests in enclosures that often contain
+> contactors and breakers — qualified persons only, with PPE per the employer's NFPA 70E
+> program. Lock out and verify absence of voltage (live-dead-live) before replacing trippers
+> that require reaching into the clock mechanism near live terminals, re-landing wires, or
+> replacing any device.
+
+**Ordering details:** clock make/model, voltage, number of channels/poles and contact rating;
+tripper style; photocell type (stem, button, twist-lock), voltage and LED load rating, and
+whether a sleeve/shield is available for that model.
+
 ## Key Takeaways
+- Tripper clocks: verify time, don't trust the motor sound, spin the dial without bypass and replace bad trippers.
+- Confirm line and load are on the correct terminals and line voltage is good; force the device on (bypass or cover) and check load voltage — no load voltage means replace it.
+- Use the photocell sleeve and correct orientation to defeat nearby light sources.
 - Photocells switch on at dusk and off at dawn; they have built-in delays — wait when testing.
 - Point photocells north, away from the lights they control and other artificial light.
 - Check voltage and LED load ratings; use a contactor for large loads.

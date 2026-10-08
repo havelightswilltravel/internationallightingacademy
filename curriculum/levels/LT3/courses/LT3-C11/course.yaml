@@ -1,0 +1,214 @@
+code: LT3-C11
+title: Data & Low-Voltage Communications Cabling
+order: 11
+estimated_hours: 6
+description: >-
+  The communications cabling that modern lighting controls depend on: Cat5e, Cat6 and Cat6A cable,
+  T568A and T568B pin charts, straight-through and crossover cables, crimping RJ45 plugs, punching down
+  keystone jacks and patch panels, and testing with wiremap, continuity and length testers. Introduces
+  PoE and why it matters for lighting, RJ45-based lighting control networks and BACnet MS/TP twisted
+  pair, separation from power conductors and labeling, and follows the company's data-cable
+  troubleshooting procedure. PoE lighting system design continues in LT5-C04.
+objectives:
+- Identify Cat5e, Cat6 and Cat6A cable, jacket ratings and the 100 m channel limit
+- Terminate cable to T568A or T568B from memory and explain straight-through versus crossover cables
+- Crimp RJ45 plugs and punch down keystone jacks and patch panels to category practice
+- Test terminations for wiremap, continuity and length and interpret open, short, reversed, crossed and split-pair faults
+- Explain PoE basics and recognize RJ45-based lighting control networks and BACnet MS/TP cabling
+- Install communications cable separated from power conductors, supported from structure and labeled at both ends
+- Troubleshoot data cable per company procedure using pin checks, crimp inspection, a known-good patch cable and jack seating checks
+lessons:
+- 01-category-cable-and-pinouts.md
+- 02-terminating-and-testing.md
+- 03-poe-control-networks-and-installation.md
+- 04-troubleshooting-data-cable.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+  - id: LT3-C11-Q01
+    type: single
+    q: What is the T568B color order for pins 1 through 8?
+    choices:
+    - White/green, green, white/orange, blue, white/blue, orange, white/brown, brown
+    - Orange, white/orange, green, white/green, blue, white/blue, brown, white/brown
+    - White/orange, orange, white/green, blue, white/blue, green, white/brown, brown
+    - White/blue, blue, white/orange, orange, white/green, green, white/brown, brown
+    answer: 2
+    explanation: >-
+      T568B is white/orange, orange, white/green, blue, white/blue, green, white/brown, brown. The first
+      choice is T568A.
+    ref: ANSI/TIA-568
+  - id: LT3-C11-Q02
+    type: single
+    q: How does T568A differ from T568B?
+    choices:
+    - The orange and green pairs swap positions
+    - The blue and brown pairs swap positions
+    - T568A uses only four conductors
+    - T568A reverses every pair
+    answer: 0
+    explanation: >-
+      Only the orange and green pairs swap. Blue (4–5) and brown (7–8) are the same in both.
+  - id: LT3-C11-Q03
+    type: single
+    q: A standard straight-through patch cable is terminated how?
+    choices:
+    - T568A on one end and T568B on the other
+    - The same standard on both ends (for example T568B to T568B)
+    - Any color order, as long as it matches on both ends
+    - Only the orange and green pairs connected
+    answer: 1
+    explanation: >-
+      Straight-through uses the same standard on both ends. Matching arbitrary colors on both ends can create
+      split pairs.
+  - id: LT3-C11-Q04
+    type: single
+    q: What is the maximum total length of a standard twisted-pair Ethernet channel?
+    choices:
+    - 50 m (164 ft)
+    - 300 m (984 ft)
+    - 1,000 ft
+    - 100 m (328 ft), including patch cords
+    answer: 3
+    explanation: >-
+      The channel limit is 100 m — typically up to 90 m permanent link plus up to 10 m of patch cords.
+  - id: LT3-C11-Q05
+    type: single
+    q: >-
+      A cable passes a simple continuity test but the device drops out under load and fails at higher
+      speeds. Colors were placed in the same wrong order on both ends. What fault is this?
+    choices:
+    - Split pair
+    - Open conductor
+    - Short
+    - Crossover
+    answer: 0
+    explanation: >-
+      A split pair connects pin to pin correctly but uses wires from different twisted pairs together,
+      losing noise cancellation. Following the pin chart prevents it.
+  - id: LT3-C11-Q06
+    type: single
+    q: When crimping an RJ45 plug, which condition indicates a good termination?
+    choices:
+    - About 1 in of untwisted conductors visible outside the plug
+    - All conductors reach the end of the plug and the jacket is captured under the strain-relief
+    - The jacket stops short of the plug so the conductors can flex
+    - Only the pins you need are pressed down
+    answer: 1
+    explanation: >-
+      Conductors must reach the end wall and the jacket must be inside the plug under the strain-relief.
+  - id: LT3-C11-Q07
+    type: single
+    q: When punching down a jack with a 110 tool, which way should the cutting edge face?
+    choices:
+    - Toward the center of the jack
+    - It does not matter
+    - Upward, away from the jack
+    - Toward the outside, so the excess conductor is trimmed off
+    answer: 3
+    explanation: >-
+      The cutting side faces out so the tool trims the waste end, not the conductor going into the jack.
+  - id: LT3-C11-Q08
+    type: single
+    q: >-
+      Per company procedure, a lighting controller is offline. After checking pinouts and the crimp, what
+      is the next step?
+    choices:
+    - Replace the controller
+    - Try a known-good temporary patch cable to see if the device works with it
+    - Reboot the customer's network switch
+    - Cut the cable and splice it with wire nuts
+    answer: 1
+    explanation: >-
+      A known-good temporary patch cable proves whether the fault is in the original cable. If the device
+      works with it, replace with a new permanent cable.
+  - id: LT3-C11-Q09
+    type: single
+    q: >-
+      Why must a PoE luminaire's cable termination be done correctly, beyond just data performance?
+    choices:
+    - PoE cable carries 277 V AC
+    - PoE luminaires use fiber optic cable
+    - The cable delivers the luminaire's power, so a bad termination means no light and can overheat contacts
+    - PoE only works with crossover cables
+    answer: 2
+    explanation: >-
+      In PoE lighting the category cable is the luminaire's power source. PoE design details are in LT5-C04.
+  - id: LT3-C11-Q10
+    type: single
+    q: >-
+      A lighting control system uses RJ45 connectors between room controllers. What is an important rule?
+    choices:
+    - Many such systems are not Ethernet; follow the maker's pinout and never plug them into the IT network switch
+    - Any RJ45 device can be plugged into any network switch
+    - Always use crossover cables
+    - Use the cheapest patch cords available
+    answer: 0
+    explanation: >-
+      Proprietary control buses often use RJ45 hardware but are not Ethernet. Mixing them with IT networks
+      can damage equipment or disrupt both systems.
+  - id: LT3-C11-Q11
+    type: single
+    q: Which BACnet MS/TP wiring practice is correct?
+    choices:
+    - Star-wire all devices from a central point
+    - Install terminating resistors at every device
+    - Daisy-chain devices with consistent polarity and terminate only at the two ends
+    - Run MS/TP in the same conduit as the lighting branch circuits
+    answer: 2
+    explanation: >-
+      MS/TP is a daisy-chained twisted pair with consistent +/− polarity and termination only at the two
+      physical ends.
+  - id: LT3-C11-Q12
+    type: single
+    q: Which installation of data cable above a ceiling is acceptable?
+    choices:
+    - Laid on top of ceiling tiles
+    - Strapped to the lighting branch-circuit conduit
+    - Pulled into the same box as a 277 V fixture whip
+    - Supported from the building structure with listed supports, separated from power conductors
+    answer: 3
+    explanation: >-
+      Communications cable must be supported from structure and kept separated from power conductors unless
+      a listed barrier or permitted method is used.
+    ref: NFPA 70 (2023) Chapters 7 and 8
+  - id: LT3-C11-Q13
+    type: multi
+    q: What can a basic wiremap cable tester detect? (Select all that apply.)
+    choices:
+    - Open conductors
+    - Shorts between conductors
+    - Reversed pairs
+    - Crossed pairs (for example A on one end, B on the other)
+    - The network switch's IP configuration
+    answer: [0, 1, 2, 3]
+    explanation: >-
+      Wiremap checks the physical pin-to-pin connections. It does not test network configuration.
+  - id: LT3-C11-Q14
+    type: multi
+    q: >-
+      After installing a new permanent cable to replace a failed one, what should you do before leaving?
+      (Select all that apply.)
+    choices:
+    - Test it for wiremap, continuity and length
+    - Confirm the device links up and the monitoring service or BMS sees it online
+    - Label both ends with the site's identifier
+    - Leave the temporary patch cable in place without telling anyone
+    - Record the work on the service order
+    answer: [0, 1, 2, 4]
+    explanation: >-
+      Test, confirm operation, label and document. A temporary cable left in place must be recorded.
+  - id: LT3-C11-Q15
+    type: single
+    q: >-
+      According to the company guide's experience, what causes most data-cable problems?
+    choices:
+    - Failed network switches
+    - The crimp or the pin configuration
+    - Cable that is too short
+    - Electromagnetic interference from LED drivers
+    answer: 1
+    explanation: >-
+      The company guide notes that the large majority of data-cable problems are the crimp or the pin
+      configuration, which is why those are checked first.

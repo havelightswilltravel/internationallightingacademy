@@ -1,7 +1,7 @@
 code: LT3-C03
 title: Lighting Controls I
 order: 3
-estimated_hours: 6
+estimated_hours: 7
 description: 'Stand-alone lighting control devices and the wiring that connects them: occupancy and
   vacancy sensors (PIR, ultrasonic, dual-technology), photocells, time clocks, relays and lighting
   contactors, and low-voltage (Class 2) control wiring practices. Networked lighting controls and
@@ -16,11 +16,14 @@ objectives:
 - Troubleshoot contactor circuits using HAND/OFF/AUTO, coil voltage and pole voltage checks
 - >-
   Install Class 2 control wiring with correct separation, support, plenum ratings and labeling
+- "Troubleshoot wall-switch and ceiling occupancy sensors, isolating the power pack from the sensor, using the company procedure"
+- "Troubleshoot mechanical, digital and astronomical time clocks and photocells, including line/load identification, bypass and cover tests, and photocell sleeve and orientation"
 lessons:
 - 01-occupancy-and-vacancy-sensors.md
 - 02-photocells-and-time-clocks.md
 - 03-relays-and-contactors.md
 - 04-low-voltage-control-wiring.md
+- 05-troubleshooting-motion-sensors.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -239,3 +242,53 @@ quiz:
       Air-handling spaces require plenum-rated cable (e.g., CL2P) or a wiring method permitted for
       plenums, because of smoke and flame spread.
     ref: NFPA 70 (2023) Article 725 and related power-limited circuit articles
+  - id: LT3-C03-Q16
+    type: single
+    q: "A wall-switch motion sensor does nothing at all. Following the company procedure, what is checked first?"
+    choices:
+      - "The time delay setting"
+      - "Whether the fixtures' lamps are the right color"
+      - "A good ground (and neutral, where the device requires it), because many sensing switches need it to power their electronics"
+      - "The breaker panel schedule"
+    answer: 2
+    explanation: "Many motion-sensing switches require a ground or neutral connection to operate. Current listed devices generally require a neutral and must not use the ground as a return path."
+  - id: LT3-C03-Q17
+    type: single
+    q: "In a ceiling sensor system, the power pack has correct line voltage on its input but no 24 VDC on its output to the sensor. What should be replaced?"
+    choices:
+      - "The power pack"
+      - "The sensor"
+      - "The low-voltage cable"
+      - "The fixtures"
+    answer: 0
+    explanation: "A pack that receives line power but sends no low-voltage power has failed. If low voltage reached the sensor and it still didn't switch, the sensor would be replaced instead."
+  - id: LT3-C03-Q18
+    type: single
+    q: "When checking a mechanical time clock, why should you spin the dial through the trippers without using the bypass lever?"
+    choices:
+      - "The bypass lever resets the clock's time"
+      - "To confirm the trippers actually turn the switch on and off; the bypass would hide a bad tripper"
+      - "Spinning with the bypass on damages the motor"
+      - "The bypass lever is only used for photocells"
+    answer: 1
+    explanation: "The test proves the trippers operate the switch mechanism. Using bypass forces the contacts on regardless of the trippers."
+  - id: LT3-C03-Q19
+    type: single
+    q: "A photocell has good line voltage across hot and neutral, but with its window completely covered (and its delay allowed) there is no voltage on the load lead. What is the conclusion?"
+    choices:
+      - "The contactor coil has failed"
+      - "The lights need new lamps"
+      - "Line and load are correct, so nothing is wrong"
+      - "The photocell has failed and should be replaced"
+    answer: 3
+    explanation: "Covering the photocell forces it on. Line in with no load out means the photocell is not switching — replace it."
+  - id: LT3-C03-Q20
+    type: multi
+    q: "Site lights controlled by a photocell cycle on and off at dusk. Which corrective actions are appropriate? (Select all that apply.)"
+    choices:
+      - "Look for nearby light sources shining on the photocell"
+      - "Adjust or add the photocell sleeve (shield) to block the light source"
+      - "Re-orient the photocell window away from the lights it controls, typically facing north"
+      - "Wire the lights to bypass the photocell permanently"
+    answer: [0, 1, 2]
+    explanation: "Self-cycling is caused by light reaching the photocell. Shield it, re-orient it or relocate it; bypassing the control wastes energy and defeats the design."
