@@ -3,7 +3,7 @@ title: Job Hazard Analysis and Stop-Work Authority
 minutes: 30
 video:
 video_suggestion: >
-  A CALT leads a crew through completing a JHA for replacing high-bay fixtures over an active
+  an LT5 technician leads a crew through completing a JHA for replacing high-bay fixtures over an active
   warehouse floor using a scissor lift. Show breaking the job into steps, naming hazards
   (falls, energized conductors, forklift traffic, dropped objects), choosing controls using
   the hierarchy, and crew signatures. End with a staged "stop work" when a forklift enters

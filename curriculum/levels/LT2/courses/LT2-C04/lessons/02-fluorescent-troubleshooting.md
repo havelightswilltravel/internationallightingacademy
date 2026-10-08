@@ -64,6 +64,57 @@ This follows the general method in LT2-C06, applied to fluorescent fixtures.
 > meter. **Never** probe ballast output leads or sockets while energized — output voltages
 > are high and electronic ballasts can be damaged by meter connections.
 
+## The Company Fluorescent / CF Sequence
+
+The company's Master Troubleshooting Guide puts the same logic into a short field sequence.
+Use it as your checklist on every fluorescent and compact fluorescent (CF) call:
+
+1. **Look at the lamp ends.** Blackened ends mean the cathodes are worn out — change those
+   lamps first. Change every lamp on the same ballast if the others are close behind.
+2. **No blackened ends → check for power with a meter** at the ballast input (qualified person,
+   PPE, as in Step 4 above).
+3. **Power present and *all* lamps out → change the ballast** (or, on HID and some CF fixtures,
+   the igniter — see below).
+4. **Power present and *some* lamps working → check sockets and wiring** to the dark lamps.
+   On a parallel instant-start ballast each lamp has its own output, so one dark lamp points
+   to that lamp, its sockets, or its leads — not usually the whole ballast.
+5. **No power → check for a switch** (wall switch, sensor, fixture-mounted switch, or a
+   switch-controlled emergency feed). If the switch isn't the problem, **trace the circuit back
+   to the first junction box** feeding the fixture and look for a loose, burnt or opened splice.
+   Use the lighting plan or a circuit tracer (LT2-C03) rather than opening boxes at random.
+6. **T5 and other program-start fixtures:** if lamps were removed and replaced and still won't
+   light, **reset the ballast power** (see below).
+
+### Ballast vs igniter on compact fluorescent and HID
+
+The company guide lists "ballast or igniter." The part depends on the fixture:
+
+| Fixture | Starting part | Where it is |
+|---|---|---|
+| 2-pin CFL (G23, G24d, GX23) on a magnetic ballast | Glow starter (the "igniter") | Built into the lamp base — a new lamp includes a new starter |
+| 4-pin CFL (G24q, GX24q, 2G11) | None separate; electronic ballast starts the lamp | In the fixture |
+| Old preheat linear fluorescent | Replaceable glow starter can | Plugs into the fixture |
+| Pulse-start MH and HPS | Ignitor module | In the ballast housing (Lesson 3) |
+
+So on a 2-pin CFL, a known-good lamp also tests the starter; on 4-pin CFLs, the ballast is the
+next suspect once lamps, sockets and power check good.
+
+### Why T5 fixtures need a ballast power reset
+
+Most T5 and T5HO fixtures use **programmed-start electronic ballasts** with **end-of-life and
+lamp-removal protection**. When a lamp reaches end of life, or a lamp is pulled while the
+ballast is energized, the ballast shuts down its output to protect itself and the lamp holders.
+Many of these ballasts stay shut down until input power is removed and restored — just putting
+in new lamps doesn't restart them.
+
+1. Install the new lamps (with the circuit locked out per company relamping procedure).
+2. If they don't light, turn the fixture's power **fully off** at the switch, disconnect, or
+   breaker for at least the time the ballast maker specifies (often a few seconds is enough;
+   check the label or data sheet).
+3. Restore power. The lamps should now start.
+4. If several fixtures share a breaker, coordinate with the customer before cycling it.
+5. Only if lamps still fail after the reset, continue the sequence: sockets, wiring, ballast.
+
 ## Common Root Causes Worth Fixing
 
 Replacing a ballast without asking *why* it failed means you may be back next month.
@@ -97,6 +148,8 @@ date containers, and clean up breakage per company procedure (LT1-C06).
 
 ## Key Takeaways
 - Read the symptom first; most fluorescent calls are solved with known-good lamp substitution.
+- Company sequence: blackened ends → lamps; power and all lamps out → ballast/igniter; some lamps out → sockets/wiring; no power → switch, then the first junction box.
+- T5 programmed-start ballasts may stay shut down after relamping until input power is cycled.
 - Check neighbors on the same circuit to separate fixture problems from circuit or control problems.
 - Measure supply voltage at the ballast input (energized, with PPE); never probe ballast outputs or sockets energized.
 - Electronic ballasts are confirmed by substitution once supply, sockets and wiring check good.

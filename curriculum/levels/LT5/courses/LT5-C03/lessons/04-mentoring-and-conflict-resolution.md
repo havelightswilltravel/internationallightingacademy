@@ -3,15 +3,15 @@ title: Mentoring New Technicians and Resolving Conflict
 minutes: 30
 video:
 video_suggestion: >
-  A CALT mentors an LT1 through a fluorescent ballast replacement in a training lab using
+  an LT5 technician mentors an LT1 through a fluorescent ballast replacement in a training lab using
   the demonstrate-practice-feedback method: the mentor explains and demonstrates (including
   LOTO and live-dead-live), the LT1 performs while the mentor observes, and the mentor gives
-  specific feedback. Then a short role-play of a CALT resolving a disagreement between two crew
+  specific feedback. Then a short role-play of an LT5 technician resolving a disagreement between two crew
   members over task assignments.
 ---
 
 ## Why Mentoring Is Part of Your Job
-Every CALT was once an LT1 who learned from someone. The program depends on senior techs
+Every LT5 was once an LT1 who learned from someone. The program depends on senior techs
 passing on skills, habits and judgment. Mentoring also makes you better: explaining why we do
 something forces you to understand it deeply. One of your LT5 skills requires mentoring an
 LT1 to evaluator sign-off.

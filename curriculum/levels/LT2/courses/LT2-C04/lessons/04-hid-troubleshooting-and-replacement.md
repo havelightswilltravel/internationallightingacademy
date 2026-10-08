@@ -55,6 +55,9 @@ available.
 | 9 | Substitute ignitor if lamp, capacitor, ballast check good | Ignitor failure is common on HPS and pulse-start MH |
 | 10 | Repair, restore power, observe full start and warm-up | Verify the fix |
 
+Lesson 5 gives the company's socket-voltage (OCV) sequence, the OCV reference chart,
+capacitor testing and pole-base fuse checks that fit into steps 4–9.
+
 **Tip:** A fixture that starts but goes out after a few minutes, then restarts, is classic
 HPS end of life — but it can also be a failing capacitor, wrong lamp, or low supply voltage.
 A known-good lamp settles it.
@@ -81,7 +84,9 @@ This is skill LT2-S04.
    individually. Use connectors rated for the temperature (many HID fixtures require 90°C or
    higher rated connectors and wire in the ballast compartment). Ground the ballast and
    fixture.
-9. **Install the correct lamp** — never touch the outer bulb of a quartz lamp with bare
+9. **Install a fresh lamp of the correct ANSI code** — company practice is to always put a new
+   lamp in with a new ballast kit, because the old lamp may have caused the failure or been
+   stressed by it; never touch the outer bulb of a quartz lamp with bare
    fingers where the manufacturer warns against it, and replace lenses/containment.
 10. **Restore power** and observe: the lamp should strike and warm up normally within the
     warm-up time. Explain restrike delay to the customer if they cycle the switch.

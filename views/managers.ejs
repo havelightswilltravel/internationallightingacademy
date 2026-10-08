@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+<h1>Manager training</h1>
+<p class="muted">Every manager and supervisor who interviews candidates should complete the Manager Module first. Admins certify managers once all requirements are met.</p>
+<div class="subnav"><a href="/hiring">Hiring</a><a href="/managers" class="on">Manager training</a><% levels.forEach(function (l) { %><a href="/levels/<%= l.code %>">Open the <%= l.code %> module</a><% }) %></div>
+<% if (!people.length) { %><p class="muted">No managers or evaluators yet.</p><% } %>
+<table class="table">
+  <tr><th>Name</th><th>Role</th><% levels.forEach(function (l) { %><th><%= l.code %> progress</th><th></th><% }) %></tr>
+  <% people.forEach(function (p) { %>
+  <tr>
+    <td><%= p.name %><% if (user.role === 'owner') { %> <span class="muted small"><%= p.org_name %></span><% } %></td>
+    <td class="small"><%= p.role %></td>
+    <% p.rows.forEach(function (r) { %>
+    <td><% if (r.lp.promoted) { %><span class="pill ok">Certified <%= fmtDate(r.lp.promoted.approved_at) %></span><% } else { %><span class="bar inline"><span style="width: <%= r.lp.percent %>%"></span></span> <%= r.lp.percent %>% · courses <%= r.lp.coursesPassed %>/<%= r.lp.courses.length %> · exam <%= r.lp.exam.passed ? '✓' : '—' %> · skills <%= r.lp.skillsPassed %>/<%= r.lp.skills.length %><% } %></td>
+    <td class="nowrap">
+      <% if (!r.lp.promoted && r.lp.skills.some(function (s) { return s.status !== 'pass'; }) && p.id !== user.id) { %><a class="btn small" href="/team/<%= p.id %>?level=<%= r.level.code %>">Assess skills</a><% } %>
+      <% if (r.lp.readyForPromotion && (user.role === 'admin' || user.role === 'owner') && p.id !== user.id) { %>
+      <form method="post" action="/managers/<%= p.id %>/certify" class="inline"><input type="hidden" name="_csrf" value="<%= csrf %>"><input type="hidden" name="level" value="<%= r.level.code %>"><button class="btn small primary">Certify</button></form>
+      <% } %>
+    </td>
+    <% }) %>
+  </tr>
+  <% }) %>
+</table>
+<%- include('partials/footer') %>

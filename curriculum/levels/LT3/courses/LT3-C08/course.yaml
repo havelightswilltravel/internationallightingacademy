@@ -1,0 +1,224 @@
+code: LT3-C08
+title: Refrigerated Case Lighting
+order: 8
+estimated_hours: 6
+description: >-
+  Lighting in grocery and convenience-store refrigerated display cases: reach-in door, open multideck,
+  island and deli/service cases; how defrost cycles affect the lights; the components of case lighting
+  including remote ballasts and drivers, harnesses, sockets, tube guards and distribution blocks;
+  cold-temperature ratings and LED door-mullion retrofits; and the company's step-by-step case lighting
+  troubleshooting procedure, including when to stop rather than break refrigeration seals. Also covers
+  food safety, customer etiquette and documentation in occupied stores.
+objectives:
+- Identify reach-in, open multideck, island/coffin and deli/service cases and where each keeps its lighting
+- Recognize a defrost cycle and apply the company rule to mark the location and return in about 30 minutes
+- Name each case lighting component (case, lamps, sockets, ballasts, wire harness, reflectors, tube guards, lenses, distribution block) and describe how it fails
+- Select a correct remote-rated, cold-temperature ballast or driver and identify LED door-mullion retrofit parts
+- Troubleshoot a case lighting outage in the company's order under LOTO, repairing the harness only when no refrigeration seals must be broken
+- Work in an occupied store following food-safety, glass and customer etiquette practices
+- Escalate seal-breaking work to a case specialist and unexplained voltage problems to an electrician, and document the call
+lessons:
+- 01-refrigerated-cases-and-defrost.md
+- 02-case-lighting-components.md
+- 03-troubleshooting-case-lighting.md
+- 04-working-in-occupied-stores.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+  - id: LT3-C08-Q01
+    type: single
+    q: >-
+      A full lineup of frozen-food reach-in cases is dark, and the case controller shows "DEF." What does
+      the company procedure say to do?
+    choices:
+    - Replace the ballasts in each case
+    - Mark the location and come back in about half an hour
+    - Reset the case breakers
+    - Turn the defrost off at the controller
+    answer: 1
+    explanation: >-
+      Defrost cycles can turn case lights off. Mark the location and return in about 30 minutes; never
+      change refrigeration settings.
+  - id: LT3-C08-Q02
+    type: single
+    q: Why is a case in defrost NOT a safe condition for working on lighting wiring?
+    choices:
+    - Defrost makes the case too cold to work in
+    - Defrost always turns the lighting circuit on
+    - The controller can restore power to lights, heaters and fans at any moment; only LOTO with verification makes it safe
+    - Defrost doubles the circuit voltage
+    answer: 2
+    explanation: >-
+      Controllers switch loads on schedule. Switches and defrost are not lockouts; lock out the breaker
+      and verify absence of voltage live-dead-live.
+    ref: OSHA 29 CFR 1910.147
+  - id: LT3-C08-Q03
+    type: single
+    q: On a glass-door reach-in freezer, where are the lights most commonly mounted?
+    choices:
+    - On the door mullions between doors
+    - Under the kick plate
+    - Behind the evaporator coil
+    - On the store ceiling only
+    answer: 0
+    explanation: >-
+      Reach-in cases light the shelves from vertical lamps or LED strips on the mullions, sometimes with a
+      top canopy light.
+  - id: LT3-C08-Q04
+    type: single
+    q: What is the main purpose of a tube guard on a case lamp?
+    choices:
+    - To increase light output
+    - To dim the lamp during defrost
+    - To act as the lamp holder
+    - To contain glass if the lamp breaks and help protect the lamp from cold
+    answer: 3
+    explanation: >-
+      Tube guards are shatter-resistant sleeves; they protect food from glass and also help the lamp
+      operate in the cold.
+  - id: LT3-C08-Q05
+    type: single
+    q: >-
+      You find a case ballast mounted in the canopy several feet from the lamps it powers. What must its
+      replacement be?
+    choices:
+    - Any ballast with the same input voltage
+    - The correct remote-rated ballast for the lamp application, with a suitable starting temperature
+    - An LED driver of any wattage
+    - A ballast with a higher wattage than the original
+    answer: 1
+    explanation: >-
+      The company procedure says to replace with the correct remote ballast for the lamp application.
+      Remote rating, lamp type/count and cold-starting temperature all matter.
+  - id: LT3-C08-Q06
+    type: single
+    q: >-
+      Per the company procedure, after checking switches and ruling out defrost, what is the next check?
+    choices:
+    - Wiring harness continuity
+    - Remote ballast replacement
+    - The lamps
+    - Line voltage at the breaker panel
+    answer: 2
+    explanation: >-
+      Order: switches, defrost, lamps, sockets, ballast, harness. Start with the easy, likely items.
+  - id: LT3-C08-Q07
+    type: single
+    q: >-
+      You have replaced the ballast but the case is still dark. Harness continuity testing shows an open
+      wire that runs inside a foam-insulated mullion. Replacing it would require breaking the case seals.
+      What do you do?
+    choices:
+    - Turn the service over to the manager to call a case specialist or refrigeration company
+    - Drill through the mullion and run a new wire
+    - Remove the seals and reseal with silicone afterward
+    - Install a second ballast to bypass the open wire
+    answer: 0
+    explanation: >-
+      Repair the harness only if it can be done without breaking seals. Otherwise the company procedure is
+      to turn it over to the manager for a case specialist or refrigeration company.
+  - id: LT3-C08-Q08
+    type: single
+    q: >-
+      There is no proper line voltage at the case ballast, and the case is not in defrost. What is the
+      next step in the company procedure?
+    choices:
+    - Replace the wiring harness
+    - Check for tripped breakers, then write it up for an electrician if not resolved
+    - Replace the lamps
+    - Change the case defrost schedule
+    answer: 1
+    explanation: >-
+      No line voltage: verify not in defrost, check breakers, write it up for an electrician.
+  - id: LT3-C08-Q09
+    type: single
+    q: Which item is a "distribution block" in case lighting?
+    choices:
+    - A plastic stop that keeps doors from swinging too far
+    - The case controller display
+    - A spacer under the shelves
+    - A terminal block where the incoming circuit splits to the lights in each section
+    answer: 3
+    explanation: >-
+      The distribution block divides the incoming circuit; loose or corroded terminals there can darken a
+      whole section.
+  - id: LT3-C08-Q10
+    type: single
+    q: >-
+      Fluorescent lamps in a low-temperature freezer case are slow to start and flicker. What should you
+      check first on the ballast label?
+    choices:
+    - The manufacturer's address
+    - The minimum starting temperature rating
+    - The ballast's color
+    - The date code only
+    answer: 1
+    explanation: >-
+      Ballasts not rated to start lamps at freezer temperatures cause slow starts and flicker.
+  - id: LT3-C08-Q11
+    type: single
+    q: >-
+      A lamp breaks over open product in a deli case while you are working. What should you do?
+    choices:
+    - Pick out the glass and continue
+    - Stop, keep customers away, and tell the manager, who decides about the product under store policy
+    - Wipe the product off and leave it
+    - Finish the job, then mention it on the service order
+    answer: 1
+    explanation: >-
+      Broken glass and lamp contents over food are a food-safety issue. Stop and notify the manager, and
+      follow the company's broken-lamp cleanup procedure.
+  - id: LT3-C08-Q12
+    type: multi
+    q: >-
+      When ordering an LED door-mullion strip for a reach-in case, which details matter? (Select all that
+      apply.)
+    choices:
+    - Strip length to match the door height
+    - Single-sided (end) or double-sided (center) mullion
+    - Temperature rating for the case (for example freezer)
+    - Connector type and driver compatibility
+    - The color of the shelf labels
+    answer: [0, 1, 2, 3]
+    explanation: >-
+      Length, sides, temperature rating, connectors and driver all determine fit and function.
+  - id: LT3-C08-Q13
+    type: multi
+    q: >-
+      Which practices are correct when working on case lighting in an open grocery store? (Select all
+      that apply.)
+    choices:
+    - Check in with the manager and let store staff move product
+    - Leave your ladder in the aisle while you go to the van
+    - Cover exposed food before opening a canopy
+    - Adjust the case thermostat to make the case easier to work in
+    - Block off the work area and keep the aisle passable
+    answer: [0, 2, 4]
+    explanation: >-
+      Ladders in stores must be attended, and refrigeration settings belong to the refrigeration contractor.
+  - id: LT3-C08-Q14
+    type: single
+    q: >-
+      Before inspecting socket contacts for burns in a case, what must you do?
+    choices:
+    - Turn off the case light switch only
+    - Wait for a defrost cycle
+    - Lock out the case lighting circuit and verify absence of voltage live-dead-live
+    - Ask the manager to unplug the case
+    answer: 2
+    explanation: >-
+      Socket contacts may be at 120 V or 277 V. Switches and defrost are not lockouts.
+    ref: OSHA 29 CFR 1910.147; 1910.333
+  - id: LT3-C08-Q15
+    type: single
+    q: Why do refrigerated case sockets and connectors often show corrosion and burned contacts?
+    choices:
+    - Condensation from warm store air meeting cold surfaces gets into them
+    - Case lamps use higher voltage than ceiling lamps
+    - LED strips create too much heat
+    - Cases are always on 480 V circuits
+    answer: 0
+    explanation: >-
+      Moisture and ice cause corrosion and arcing; that is why cases use sealed sockets, gaskets and moisture-rated
+      connectors.

@@ -1,0 +1,193 @@
+code: LT1-C09
+title: Outlets & Switches
+order: 9
+estimated_hours: 4
+description: >
+  Introduces the switches and receptacles lighting technicians find on every job. Covers
+  device types and NEMA configurations, ratings and markings, backstab versus screw versus
+  back-wire terminations, inspecting for burned, loose and damaged parts, the company's
+  outlet and switch procedure expanded into a safe de-energized replacement procedure, GFCI
+  testing, the limits of plug-in testers, and the line between what a technician may do and
+  what must be written up for an electrician.
+objectives:
+  - Identify switches and receptacles (single-pole, 3-way, dimmer, 5-15R, 5-20R, GFCI, AFCI, TR, WR, IG, USB) and read their markings
+  - Name every component of the outlet and switch system and describe how each one fails
+  - Explain why backstab connections fail and make correct screw-terminal and back-wire clamp connections
+  - Inspect devices for burned, loose or damaged parts and recognize conditions that go beyond the device
+  - Describe the safe like-for-like replacement procedure, including LOTO, live-dead-live verification, torque and testing
+  - Test a GFCI and use a plug-in receptacle tester while explaining its limits
+  - Distinguish tasks a trained and authorized technician may perform from items that must be written up
+lessons:
+  - 01-device-types-ratings-and-markings.md
+  - 02-terminations-and-inspecting-devices.md
+  - 03-safe-replacement-procedure.md
+  - 04-gfci-testing-testers-and-limits.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C09-Q01
+      type: single
+      q: How can you recognize a NEMA 5-20R receptacle?
+      choices:
+        - It has two round slots
+        - Its neutral slot has a sideways T shape
+        - It has no ground hole
+        - It has an orange triangle on the face
+      answer: 1
+      explanation: The 5-20R has a T-shaped neutral slot so it accepts 20 A plugs. An orange triangle marks an isolated-ground receptacle.
+      ref: LT1-C09 Lesson 1
+    - id: LT1-C09-Q02
+      type: single
+      q: Which receptacle marking means the device has internal shutters that block objects from being inserted into one slot?
+      choices:
+        - WR
+        - CO/ALR
+        - IG
+        - TR
+      answer: 3
+      explanation: TR means tamper-resistant. WR is weather-resistant, CO/ALR is rated for aluminum wire, and IG is isolated ground.
+      ref: 2023 NEC 406.12
+    - id: LT1-C09-Q03
+      type: single
+      q: You are replacing a switch on a commercial lighting circuit that operates at 277 V. What must the replacement switch be rated for?
+      choices:
+        - At least 277 V, such as a switch marked 120-277 V AC
+        - 125 V only
+        - 12 V DC
+        - Any voltage, because switches do not have voltage ratings
+      answer: 0
+      explanation: Many residential switches are rated 120 V only. Switches on 277 V lighting circuits must carry a 277 V rating.
+      ref: LT1-C09 Lesson 1
+    - id: LT1-C09-Q04
+      type: single
+      q: Why are backstab (push-in) connections a common cause of device failures?
+      choices:
+        - They are only allowed on aluminum wire
+        - They cannot carry any current
+        - The small spring clip gives a small contact area that can loosen and overheat over time
+        - They are always installed on the ground conductor
+      answer: 2
+      explanation: The spring clip's small contact area loosens with heat cycling, leading to heating and burned devices. Use screw terminals or back-wire clamps instead.
+      ref: LT1-C09 Lesson 2
+    - id: LT1-C09-Q05
+      type: single
+      q: How should a wire hook be placed under a device screw terminal?
+      choices:
+        - Counterclockwise, so it unwinds as the screw tightens
+        - Clockwise, about three-quarters of the way around, with no bare copper past the screw head
+        - Straight, with no hook
+        - With two or more wires twisted together under one screw
+      answer: 1
+      explanation: A clockwise hook tightens with the screw. Strip to the strip gauge and use one wire per screw unless the device is marked otherwise.
+      ref: LT1-C09 Lesson 2
+    - id: LT1-C09-Q06
+      type: single
+      q: The company procedure says to "replace if line voltage is good." What does it mean if line voltage at the device is NOT good?
+      choices:
+        - Replace the device anyway
+        - Install a higher-rated device
+        - Replace the device with a GFCI
+        - The problem is upstream, so a new device will not fix it; check for a tripped GFCI or write it up
+      answer: 3
+      explanation: No voltage reaching the device points to an upstream cause such as a tripped breaker, upstream GFCI or loose splice. Replacing the device would not help.
+      ref: Company Master Troubleshooting Guide, Outlets & Switches
+    - id: LT1-C09-Q07
+      type: single
+      q: Who may perform the energized line-voltage check before a device is replaced?
+      choices:
+        - A person qualified under the company's NFPA 70E program, wearing the required PPE
+        - Any technician with a non-contact tester
+        - The customer
+        - Anyone, as long as they stand on a fiberglass ladder
+      answer: 0
+      explanation: Energized testing is performed only by qualified persons. The replacement itself is always done de-energized after LOTO and live-dead-live verification.
+      ref: NFPA 70E; company scope of work
+    - id: LT1-C09-Q08
+      type: multi
+      q: Which steps are part of the safe replacement of a receptacle? (Select all that apply.)
+      choices:
+        - Lock out and tag the breaker
+        - Verify absence of voltage with a meter, live-dead-live, on every conductor in the box
+        - Photograph the wiring before disconnecting
+        - Use the backstab holes to save time
+      answer: [0, 1, 2]
+      explanation: LOTO, live-dead-live verification and photos are required steps. Backstabs should not be used on replacements.
+      ref: LT1-C09 Lesson 3
+    - id: LT1-C09-Q09
+      type: single
+      q: After locking out the breaker, you find voltage on one of the wires in the receptacle box. What should you do?
+      choices:
+        - Work carefully around that wire
+        - Cap it with tape and continue
+        - Stop; there is another source in the box. Do not work, and write it up
+        - Turn off a random breaker and try again
+      answer: 2
+      explanation: Voltage after lockout means another circuit or source is present. Stop and escalate; do not proceed.
+      ref: LT1-C09 Lesson 3
+    - id: LT1-C09-Q10
+      type: multi
+      q: Which findings should be written up for an electrician instead of simply replacing the device? (Select all that apply.)
+      choices:
+        - Charred or brittle insulation on the conductors behind the device
+        - Aluminum branch-circuit wiring
+        - A device with a loose cover plate screw and no other damage
+        - A shared neutral (multiwire branch circuit) in the box
+      answer: [0, 1, 3]
+      explanation: Wire damage, aluminum wire and multiwire circuits go beyond the device. A loose cover plate screw can simply be tightened.
+      ref: LT1-C09 Lessons 2 and 4
+    - id: LT1-C09-Q11
+      type: single
+      q: On the old duplex receptacle, the brass break-off tab between the two hot terminals was removed. What should you do on the new receptacle?
+      choices:
+        - Leave the tab in place
+        - Remove the same tab so the split wiring is preserved, or write it up if unsure
+        - Remove both tabs on both sides
+        - Install the hot wire on the silver screw
+      answer: 1
+      explanation: A removed tab means the receptacle was split-wired or half-switched. Match the original configuration.
+      ref: LT1-C09 Lesson 3
+    - id: LT1-C09-Q12
+      type: single
+      q: Several receptacles in a restroom and hallway are dead. What should you check first?
+      choices:
+        - Replace all the receptacles
+        - Open the panel and replace the breaker
+        - Use a plug-in tester to verify the circuit is dead for LOTO
+        - Look for a tripped GFCI that protects them and reset it
+      answer: 3
+      explanation: Dead outlets are often downstream of a tripped GFCI. Look for GFCI devices and "GFCI Protected" labels before replacing anything.
+      ref: LT1-C09 Lesson 4
+    - id: LT1-C09-Q13
+      type: single
+      q: A plug-in tester shows "Correct" on an outlet in an old building fed by two-wire cable. What is true?
+      choices:
+        - The tester cannot confirm a real ground path; a bootleg ground can show "Correct"
+        - The outlet is definitely properly grounded
+        - The outlet has been verified dead for LOTO
+        - The GFCI is working
+      answer: 0
+      explanation: A neutral jumpered to the ground terminal reads "Correct" on a plug-in tester. Doubtful grounds are written up for proper testing.
+      ref: LT1-C09 Lesson 4
+    - id: LT1-C09-Q14
+      type: single
+      q: What should happen when you press TEST on a working GFCI receptacle?
+      choices:
+        - Nothing visible
+        - The breaker in the panel trips
+        - The GFCI trips and cuts power; pressing RESET restores it
+        - The outlet's voltage doubles
+      answer: 2
+      explanation: TEST simulates a ground fault. A working GFCI trips and RESET restores power. A GFCI that does not trip or reset has failed or has no power.
+      ref: LT1-C09 Lesson 4
+    - id: LT1-C09-Q15
+      type: single
+      q: When replacing a GFCI receptacle, where does the incoming power conductor connect?
+      choices:
+        - To the LOAD terminals
+        - To the LINE terminals
+        - To the green ground screw
+        - To either side; it does not matter
+      answer: 1
+      explanation: Incoming power goes on LINE. LOAD is used only to feed and protect downstream receptacles, matching the original wiring.
+      ref: LT1-C09 Lessons 1 and 3

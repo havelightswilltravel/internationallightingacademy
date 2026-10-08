@@ -1,0 +1,217 @@
+code: LT3-C10
+title: LED Signage & Specialty LED Systems
+order: 10
+estimated_hours: 6
+description: >-
+  LED systems in channel letters, sign cabinets and specialty applications: LED modules, Class 2
+  constant-voltage (12/24 V) power supplies, input vs secondary testing, supplies that will not read
+  output without a load, IDC, gel-filled and soldered connections, module mounting, tape/strip, cove
+  and linear lighting, RGB/RGBW controllers, outdoor enclosures and wet ratings, water intrusion and
+  voltage drop. Follows the company LED sign troubleshooting procedure in step order with lockout
+  added, and covers matching modules and sizing power supplies for parts orders.
+objectives:
+- >-
+  Identify LED sign components (modules, power supplies, connectors, wire, straps/tape, flex,
+  enclosures) and describe how each fails
+- >-
+  Explain Class 2 constant-voltage power supplies and test input and secondary voltage correctly,
+  including supplies that will not read output without a load
+- Select and make IDC, gel-filled and soldered connections suited to the location
+- >-
+  Describe tape, cove and linear LED, RGB/RGBW controllers, wet ratings, water intrusion and
+  voltage-drop remedies
+- >-
+  Troubleshoot whole-sign and sporadic LED sign outages following the company procedure with LOTO
+- >-
+  Order matching modules (voltage, color temperature, brightness, series) and size power supplies
+  to about 80 % load
+lessons:
+- 01-led-sign-systems-and-components.md
+- 02-power-supplies-testing-and-connections.md
+- 03-tape-light-rgb-controllers-and-voltage-drop.md
+- 04-led-sign-troubleshooting-and-parts-ordering.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+  - id: LT3-C10-Q01
+    type: single
+    q: An entire LED channel-letter sign is dark at night. Per the company procedure, what is checked first after controls (clock, photocell, switch)?
+    choices:
+    - Swap every module with known-good modules
+    - Replace the power supply
+    - Line voltage at the power supply input
+    - Voltage at the farthest module
+    answer: 2
+    explanation: >-
+      Whole sign out: check line voltage, then secondary voltage off the supply, then low-voltage
+      connections. Line-voltage testing is done by a qualified person.
+  - id: LT3-C10-Q02
+    type: single
+    q: You measure 0 V on the bare output leads of an LED power supply with nothing connected. Line voltage is good. What should you conclude?
+    choices:
+    - Nothing yet; many supplies shut down with no load, so test with the modules or a known-good test load connected
+    - The supply is definitely bad
+    - The modules are all bad
+    - The sign disconnect is open
+    answer: 0
+    explanation: >-
+      The company guide notes some supplies have a cut-out and will not read secondary voltage
+      without modules connected. Test under load before condemning the supply.
+  - id: LT3-C10-Q03
+    type: single
+    q: According to the company guide, what is "more often than not" the cause of LED sign outages?
+    choices:
+    - Failed power supplies
+    - Connections
+    - Failed LED modules
+    - Bad time clocks
+    answer: 1
+    explanation: >-
+      The company procedure says to always test and retest connections because they are most often
+      the issue. Recheck secondary connections before condemning a power supply.
+  - id: LT3-C10-Q04
+    type: single
+    q: Several modules in the middle of a letter are dark, along with every module after them on the string. What is the most likely cause?
+    choices:
+    - The power supply is overloaded
+    - Every one of those modules failed at the same time
+    - The time clock is set wrong
+    - A broken wire or failed connection at the first dark module
+    answer: 3
+    explanation: >-
+      Modules are in parallel along the string. A break or bad connection darkens everything beyond
+      that point, so start at the first dark module and the connection before it.
+  - id: LT3-C10-Q05
+    type: single
+    q: A few random single modules are dark in otherwise working letters. What is the best way to confirm which modules are bad?
+    choices:
+    - Replace the power supply first
+    - Measure line voltage at the disconnect
+    - Lock out, then swap the dark modules with known-good modules and re-test
+    - Increase the power supply output voltage
+    answer: 2
+    explanation: >-
+      Swapping with known-good modules identifies bad ones, per the company procedure. Lock out
+      before opening letters.
+  - id: LT3-C10-Q06
+    type: single
+    q: A sign's modules draw a total of 64 W. Which power supply best follows the ~80 % loading guideline?
+    choices:
+    - 60 W
+    - 100 W
+    - 64 W
+    - 70 W
+    answer: 1
+    explanation: >-
+      64 W ÷ 0.8 = 80 W minimum. A 100 W supply (64 % load) meets the guideline; 60–70 W supplies
+      would be overloaded or run too close to their limit.
+  - id: LT3-C10-Q07
+    type: single
+    q: What happens if 12 V LED modules are connected to a 24 V power supply?
+    choices:
+    - They will be overdriven and likely burn out
+    - They will be dimmer but last longer
+    - Nothing; LED modules accept any voltage
+    - The supply will automatically reduce to 12 V
+    answer: 0
+    explanation: >-
+      Constant-voltage modules must match the supply voltage exactly. Double the voltage overdrives
+      the LEDs and destroys them.
+  - id: LT3-C10-Q08
+    type: single
+    q: The far end of a long run of 12 V tape light looks dim and slightly pink compared with the start. Which fix addresses the cause?
+    choices:
+    - Replace the tape at the far end only
+    - Add a second controller
+    - Turn the brightness down
+    - Feed the run from the center or both ends, or use larger feed wire or a 24 V product
+    answer: 3
+    explanation: >-
+      This is voltage drop. Shorter runs per feed, larger wire or higher system voltage (24 V)
+      reduce it.
+  - id: LT3-C10-Q09
+    type: multi
+    q: Which practices reduce water-related failures in outdoor LED channel letters? (Select all that apply.)
+    choices:
+    - Keep drain (weep) holes open
+    - Use gel-filled or wet-rated connectors
+    - Seal drain holes with silicone so water cannot get in
+    - Mount modules and wiring up off the bottom of the can
+    - Use a power supply rated and enclosed for the location
+    answer: [0, 1, 3, 4]
+    explanation: >-
+      Drain holes let water out and must stay open; sealing them traps water. Wet-rated connectors,
+      elevated mounting and properly rated supplies all reduce water damage.
+  - id: LT3-C10-Q10
+    type: single
+    q: On an IDC (insulation displacement) snap connector, what is a common installation mistake that causes later failures?
+    choices:
+    - Using it on stranded wire
+    - Not fully seating the wire before snapping the cap, so the blade misses or barely pierces the conductor
+    - Snapping the cap closed with pliers
+    - Using it on low-voltage wiring
+    answer: 1
+    explanation: >-
+      A wire that is not fully seated may work at first and fail later. Use the correct size, seat
+      the wire fully, and do not reuse IDC connectors.
+  - id: LT3-C10-Q11
+    type: single
+    q: The secondary output of an LED supply reads 0 V with modules connected. Line voltage is good. What is the next step per the company procedure?
+    choices:
+    - Replace the supply immediately
+    - Replace all the modules
+    - Lock out, verify and remake the secondary connections, then re-test before replacing the supply
+    - Bypass the supply's protection circuit
+    answer: 2
+    explanation: >-
+      The company guide stresses checking and rechecking secondary connections before replacing the
+      transformer (power supply).
+  - id: LT3-C10-Q12
+    type: multi
+    q: Which details must be matched when ordering replacement LED modules for a channel letter? (Select all that apply.)
+    choices:
+    - Module voltage (12 V or 24 V)
+    - Color temperature for white modules
+    - Brightness (lumens per module) and beam angle
+    - The color of the module's wire jacket
+    answer: [0, 1, 2]
+    explanation: >-
+      Voltage, color temperature, brightness and series must match so the letter looks even. Wire
+      jacket color does not matter.
+  - id: LT3-C10-Q13
+    type: single
+    q: On an RGB tape run, the red channel is missing along the entire length while green and blue work. Where should you look first?
+    choices:
+    - The controller's red channel output and the connection at the start of the run
+    - The far end of the tape
+    - The sign disconnect
+    - Each individual LED along the run
+    answer: 0
+    explanation: >-
+      A color missing along the whole run points to the controller channel or the first connection.
+      A color missing only after a point points to a break at that point.
+  - id: LT3-C10-Q14
+    type: single
+    q: Why must two Class 2 power supply outputs never be tied together in parallel to power a larger load?
+    choices:
+    - It makes the LEDs flicker
+    - It reverses polarity
+    - It reduces voltage drop too much
+    - It defeats the Class 2 power limit and the reduced fire and shock protection it provides
+    answer: 3
+    explanation: >-
+      Class 2 circuits are power-limited. Paralleling outputs exceeds that limit; split large loads
+      across separate supplies or outputs instead.
+  - id: LT3-C10-Q15
+    type: multi
+    q: Before opening an LED sign's power supply compartment to remake connections, what must you do? (Select all that apply.)
+    choices:
+    - Lock out the sign disconnect, not just the time clock
+    - Verify absence of voltage with a tested meter (live-dead-live)
+    - Rely on the fact that the output is Class 2 and skip lockout
+    - Barricade the area below if working at height
+    answer: [0, 1, 3]
+    explanation: >-
+      The supply's input and the flex carry line voltage. Lock out the disconnect and verify absence
+      of voltage; a time clock is not a disconnect. Protect people below when working overhead.

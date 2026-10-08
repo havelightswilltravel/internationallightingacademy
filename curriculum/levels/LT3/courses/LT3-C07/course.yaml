@@ -1,0 +1,233 @@
+code: LT3-C07
+title: Contactors, Relays & Lighting Control Panels
+order: 7
+estimated_hours: 6
+description: >-
+  A deeper look at the devices that switch large lighting loads: contactor construction, electrically
+  and mechanically held types, coil voltages, normally open and normally closed arrangements, HOA
+  switches, lighting relay panels with latching relays and low-voltage switching, and BMS or
+  monitoring-service control. Learners follow the company's contactor and relay-panel troubleshooting
+  procedures step by step, identify parts for ordering, and write clear service orders for the
+  electrician. Builds on the contactor introduction in LT3-C03.
+objectives:
+- Identify the coil, armature, main contacts, arc chutes, auxiliary contacts, terminals and enclosure of a lighting contactor and describe how each fails
+- Distinguish electrically held and mechanically held contactors, common coil voltages, and NO, NC and fail-safe arrangements
+- Use the HOA switch to separate control-path faults from contactor and load-circuit faults
+- Describe lighting relay panel components, latching relays, low-voltage switching and the panel bypass
+- Troubleshoot a contactor circuit in the company's order (line side, coil with controls engaged, load side, wiring condition) within the limits of the employer's NFPA 70E program
+- Troubleshoot a relay panel by phone with the facility's controls monitoring service
+- Record nameplate data for parts ordering and write up contactor and relay-panel work for an electrician
+lessons:
+- 01-contactor-anatomy-and-types.md
+- 02-hoa-switches-and-relay-panels.md
+- 03-troubleshooting-contactor-circuits.md
+- 04-parts-escalation-and-documentation.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+  - id: LT3-C07-Q01
+    type: single
+    q: What is the job of the arc chutes on a lighting contactor?
+    choices:
+    - To provide overcurrent protection for the branch circuits
+    - To cool and break the arc that forms when the contacts open
+    - To hold a mechanically held contactor closed
+    - To supply low voltage to the coil
+    answer: 1
+    explanation: >-
+      Arc chutes surround the contacts and help extinguish the arc when contacts open. They must never
+      be left off. A contactor provides no overcurrent protection.
+  - id: LT3-C07-Q02
+    type: single
+    q: >-
+      A mechanically held contactor is closed and the lights are on. You measure 0 V on its coil
+      terminals. What does this tell you?
+    choices:
+    - The coil is open and must be replaced
+    - The control fuse is blown
+    - Nothing is wrong; a latching contactor needs only a short pulse to change state
+    - The contacts are welded closed
+    answer: 2
+    explanation: >-
+      Mechanically held contactors latch and need no continuous coil power. Test them by watching them
+      change state when an ON or OFF pulse is sent.
+  - id: LT3-C07-Q03
+    type: single
+    q: >-
+      Lights fed by an electrically held contactor go off whenever the 120 V control circuit breaker
+      trips. Why?
+    choices:
+    - Electrically held contactors need continuous coil power to keep their contacts closed
+    - The control breaker also feeds the lighting branch circuits
+    - The HOA switch automatically moves to OFF
+    - The arc chutes open on loss of control power
+    answer: 0
+    explanation: >-
+      An electrically held contactor drops open whenever coil voltage is lost.
+  - id: LT3-C07-Q04
+    type: single
+    q: >-
+      A contactor's lights are on, yet you measure no coil voltage. The nameplate shows normally closed
+      main contacts. What is the best conclusion?
+    choices:
+    - The contactor is defective and must be replaced
+    - The meter is faulty
+    - The lights must be on a different circuit
+    - This may be normal; NC contacts are closed when the coil is de-energized, so the coil engages to turn lights off
+    answer: 3
+    explanation: >-
+      The company procedure warns that some coils engage on the absence of power. With NC contacts, no
+      coil voltage means contacts closed and lights on. Read the nameplate before condemning parts.
+  - id: LT3-C07-Q05
+    type: single
+    q: >-
+      Parking lot lights work with the HOA in HAND but not in AUTO. Where should you look next?
+    choices:
+    - The contactor's main contacts
+    - The automatic control path — photocell, time clock, BMS output or its wiring
+    - The lighting branch-circuit breakers
+    - The fixtures in the parking lot
+    answer: 1
+    explanation: >-
+      HAND bypasses the automatic controls. If HAND works, the coil, contacts and load circuits are
+      good, so the fault is in the AUTO path.
+  - id: LT3-C07-Q06
+    type: single
+    q: >-
+      Following the company procedure, a contactor has line voltage on all poles and correct coil voltage
+      with the controls engaged, and it is pulled in, but one load terminal has no voltage. What do you do?
+    choices:
+    - Write it up for an electrician to replace (or rebuild) the contactor
+    - Swap the coil for a higher-voltage coil
+    - Move the load wire to another pole that works
+    - Reset the branch breaker several times
+    answer: 0
+    explanation: >-
+      Line voltage plus coil voltage should give load voltage on every pole. No load voltage on a
+      closed pole means a failed contact; the procedure is to write it up for an electrician.
+  - id: LT3-C07-Q07
+    type: single
+    q: Who may measure voltage inside an energized lighting contactor enclosure?
+    choices:
+    - Any technician with a multimeter
+    - Anyone, if the HOA is in OFF
+    - The store manager, with the technician watching
+    - Only a person qualified under the employer's NFPA 70E program, wearing the required PPE
+    answer: 3
+    explanation: >-
+      Voltage testing in an energized enclosure is energized diagnostic work and is limited to qualified
+      persons using the PPE their employer's program requires.
+    ref: NFPA 70E; OSHA 29 CFR 1910.333
+  - id: LT3-C07-Q08
+    type: single
+    q: >-
+      In a lighting relay panel with low-voltage switching, what does the wall switch actually do?
+    choices:
+    - It carries the full lighting load current
+    - It sends a low-voltage signal to the panel, which switches the relays
+    - It resets the panel's circuit breakers
+    - It supplies power to the panel processor
+    answer: 1
+    explanation: >-
+      Low-voltage switches send a signal; the relays switch the load. Replacing one with a line-voltage
+      switch is a serious error.
+  - id: LT3-C07-Q09
+    type: single
+    q: >-
+      A sales floor zone controlled by a relay panel will not turn on. The facility uses a remote
+      controls monitoring service. Per company procedure, what is your first step?
+    choices:
+    - Turn on the panel bypass and close the call
+    - Replace the relay card for that zone
+    - Contact the monitoring service and troubleshoot with them by phone until the problem is located
+    - Remove the dead front and test each relay
+    answer: 2
+    explanation: >-
+      The company procedure for relay panels is to call the facility's controls monitoring service and
+      troubleshoot by phone. The panel may simply be following a wrong schedule or override.
+  - id: LT3-C07-Q10
+    type: single
+    q: What is the correct use of a lighting relay panel's bypass switch?
+    choices:
+    - A temporary measure to keep lights on when controls fail, used with customer approval and noted on the service order
+    - A permanent repair for a failed processor
+    - A way to de-energize the panel for LOTO
+    - A test of the emergency lighting
+    answer: 0
+    explanation: >-
+      Bypass forces lights on and overrides schedules. It is a stop-gap, not a repair, and not a
+      lockout device.
+  - id: LT3-C07-Q11
+    type: single
+    q: >-
+      A contactor buzzes loudly and its contacts chatter. Coil voltage measures well below the coil's
+      rating. What is the likely problem?
+    choices:
+    - Welded main contacts
+    - Low control voltage from a weak transformer, undersized wire or loose connection
+    - A missing arc chute
+    - A tripped lighting branch breaker
+    answer: 1
+    explanation: >-
+      Low coil voltage keeps the armature from seating firmly, causing buzzing and chattering that
+      burns contacts.
+  - id: LT3-C07-Q12
+    type: multi
+    q: >-
+      Which items should you record from a failed contactor before ordering a replacement or kit?
+      (Select all that apply.)
+    choices:
+    - Full manufacturer catalog number
+    - Coil voltage and AC/DC
+    - Holding type, number of poles and NO/NC arrangement
+    - Contact current rating and load type (for example electronic/LED)
+    - The installer's name on the panel schedule
+    answer: [0, 1, 2, 3]
+    explanation: >-
+      Kits and coils fit only the exact frame, and coil voltage, holding type, poles and load rating all
+      determine whether a replacement works.
+  - id: LT3-C07-Q13
+    type: multi
+    q: >-
+      While checking a contactor you find darkened insulation and a melted wire connector on one load
+      terminal. What should you do? (Select all that apply.)
+    choices:
+    - Note the burned and overheated wiring on the service order
+    - Tighten the terminal while the enclosure is energized
+    - Have any repair done under LOTO with absence of voltage verified on every terminal
+    - Ignore it if it is not causing today's complaint
+    - Photograph the damage for the write-up
+    answer: [0, 2, 4]
+    explanation: >-
+      The company procedure says to check for burned and overheated wiring and note wiring needs on the
+      service order. Never work on conductors energized; repairs happen under LOTO.
+    ref: OSHA 29 CFR 1910.147
+  - id: LT3-C07-Q14
+    type: single
+    q: >-
+      The company procedure says contactors can often be rebuilt. What must you do before writing up a
+      rebuild or coil replacement?
+    choices:
+    - Order the kit directly so it is on the van
+    - Nothing; any tech may decide
+    - Check with an electrician
+    - Get the customer to sign a waiver
+    answer: 2
+    explanation: >-
+      The procedure says to check with an electrician before writing up a rebuild or coil replacement;
+      they judge kit availability, heat damage and load rating.
+  - id: LT3-C07-Q15
+    type: single
+    q: >-
+      Lights stay on even with the HOA in OFF, and you can confirm voltage on the load terminals with the
+      contactor open. What is the most likely cause, and what should you do?
+    choices:
+    - A failed photocell; replace it
+    - Welded contacts or a back-feed from another source; treat it as a hazard and write it up immediately
+    - A time-clock override; reset the clock
+    - Normal operation for an electrically held contactor
+    answer: 1
+    explanation: >-
+      OFF removes coil power. Load voltage with the contactor open means welded contacts or another
+      source. Either is dangerous and must be written up for an electrician.

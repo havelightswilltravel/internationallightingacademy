@@ -1,7 +1,7 @@
 code: LT1-C04
 title: Electrical Fundamentals I
 order: 4
-estimated_hours: 8
+estimated_hours: 9
 description: >
   Builds the electrical foundation every lighting technician needs: voltage, current,
   resistance, and power; Ohm's law and Watt's law with practical lighting calculations; the
@@ -15,11 +15,13 @@ objectives:
   - Distinguish AC from DC and identify the common building voltage systems
   - Match ballast, driver, and fixture input voltage to the supply circuit
   - Apply series and parallel circuit rules to explain fixture behavior
+  - "Trace a lighting circuit from line to load and interpret voltage and continuity readings used in the company troubleshooting procedures"
 lessons:
   - 01-voltage-current-resistance.md
   - 02-ohms-law-and-watts-law.md
   - 03-ac-dc-and-building-voltages.md
   - 04-series-and-parallel-circuits.md
+  - 05-reading-a-circuit-like-a-troubleshooter.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -175,3 +177,43 @@ quiz:
         - 480 V
       answer: 2
       explanation: 120 × 1.732 ≈ 208 V, the phase-to-phase voltage of a 120/208 V three-phase wye system.
+    - id: LT1-C04-Q16
+      type: single
+      q: "A qualified tech measures full circuit voltage across the two terminals of a wall switch that is in the ON position. What does this mean?"
+      choices:
+        - "The switch is working normally"
+        - "The switch is open (failed) even though the handle is on"
+        - "The neutral is open"
+        - "The fixture is shorted"
+      answer: 1
+      explanation: "Voltage appears across an open. A closed, good switch shows about 0 V across its terminals; full voltage means it is not closing."
+    - id: LT1-C04-Q17
+      type: single
+      q: "On a time clock, photocell or switch, which side is the \"line\" side?"
+      choices:
+        - "The side where power comes in from the source"
+        - "The side that connects to the fixtures"
+        - "The ground terminal"
+        - "The neutral terminal only"
+      answer: 0
+      explanation: "Line is the incoming power from the source; load is the outgoing side to the controlled equipment."
+    - id: LT1-C04-Q18
+      type: single
+      q: "At a dark fixture, a reading shows 120 V from hot to ground but 0 V from hot to neutral. What is the most likely problem?"
+      choices:
+        - "The lamp is burned out"
+        - "The breaker is off"
+        - "The neutral is open somewhere in the circuit"
+        - "Everything is normal"
+      answer: 2
+      explanation: "If hot is present (it reads to ground) but there is no voltage to neutral, the neutral path is broken. Open neutrals are a hazard and should be reported."
+    - id: LT1-C04-Q19
+      type: multi
+      q: "Which statements about continuity testing are correct? (Select all that apply.)"
+      choices:
+        - "It is done only with power off and verified dead"
+        - "A good fuse reads near 0 ohms"
+        - "An OL reading on an incandescent lamp means the filament is broken"
+        - "It is the safest way to check a live circuit"
+      answer: [0, 1, 2]
+      explanation: "Continuity testing uses the meter's battery and must only be done de-energized. Near 0 ohms means a continuous path; OL means open."

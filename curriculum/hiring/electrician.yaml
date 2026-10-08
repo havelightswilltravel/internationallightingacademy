@@ -1,0 +1,101 @@
+# Interview kit adapted from the company's Electrician Behavior-Based Interview form. Competency questions come from _competencies.yaml.
+# {{company}} is replaced with the licensee company's name in the app.
+code: electrician
+title: Electrician Behavior-Based Interview
+position: Electrician
+instructions: Look for both positive and negative examples of outcome. If the interviewee only gives positive answers, ask
+  for an example of a situation that did not go well. Rate each behavior-based answer from 1–9, with 9 being the highest.
+  Mark whether the question was answered. Take notes as needed. Ask every candidate for the same position the same questions.
+background:
+- q: Walk me through the last three positions you held and what you mainly did for those organizations.
+- q: How long did you hold each of those positions?
+- q: What is your electrical license number, and in which state?
+  note: Original asked for the Utah license number; each company sets its state.
+- q: Are you licensed in any other states?
+- q: Besides your electrical licensing, do you have any certificates showing you have received specific types of training
+    or awards?
+- q: What kind of software programs are you familiar with?
+- q: Do you own a smartphone? If not, can you get one with data for email and text if required?
+- q: Do you own a computer? What operating system does it use? What do you use it for? Do you have an email address?
+- q: What was the name and phone number of your last supervisor? Will he/she say you were reliable and on time? Will he/she
+    say you were honest? Will he/she say that you had interpersonal problems with any of your coworkers?
+  note: Reworded from the original (which asked about absences) — attendance questions can touch protected medical or family
+    leave.
+- q: Walk me through a typical day at your last position.
+- q: How did you prepare for this interview?
+- q: Why did you leave (or are you leaving) your last position?
+- q: Describe your likes and dislikes.
+- q: What bugs you about co-workers/bosses?
+- q: What matters to you?
+- q: Is your driver's license valid?
+- q: Do you have reliable transportation?
+- q: Is your driving record clean?
+- q: Can you work around live electricity?
+- q: This role requires work at heights on ladders, booms and lifts. Are you able to do that?
+  note: Reworded from 'Do you have any issues with heights?' to focus on the job requirement.
+- q: Have you worked out of booms/lifts?
+- q: This job requires regularly lifting up to 50 lbs, climbing ladders and lifts, and working outdoors up to 8 hours a day.
+    Can you perform these duties, with or without reasonable accommodation?
+  note: Reworded from 'How much weight can you lift?' to the essential-functions framing recommended under the ADA.
+- q: Can you work on call? Odd hours? Odd shifts? Overtime?
+- q: Can you travel, and for how long?
+- q: Can you report directly to job sites anywhere in our service area?
+  note: Original named a specific region (Payson to Brigham City); each company sets its own service area.
+- q: What do you consider to be your area(s) of electrical expertise?
+- q: If given the choice, do you prefer jobs that are technical in nature or ones that are fast-paced? (Troubleshooting vs.
+    production)
+- q: Where do you see yourself in five years?
+- q: What did you like most about your current (last) job?
+- q: What did you like least?
+- q: What are your personal goals?
+- q: What electrical tools do you have?
+- q: When can you purchase tools?
+- q: What motivates you?
+- q: Tell me about the best electrical project you have been on. What made it memorable?
+- q: Tell me about the worst electrical project you have been on. What made it memorable?
+- q: Tell me about a safe work experience you were involved in and what made it safe.
+- q: Tell me about an unsafe work experience you were involved in and what made it unsafe.
+- q: Our policy prohibits smoking in certain areas (company and customer property). Can you comply with this policy?
+- q: What do you know about {{company}}?
+- q: How does {{company}} compare with other jobs you are interviewing for?
+- q: How much do you want to make?
+  note: Ask about desired pay only — several states prohibit asking about salary history.
+- q: What questions do you have for me or about {{company}}?
+closing: What qualifies you over other candidates?
+watch_for:
+- The answer states thoughts or opinions but gives no specific example.
+- The answer does not address the question asked.
+- The answer focuses on the candidate's needs rather than what they can do or have done in this type of position.
+- Ask why the candidate believes something is a key responsibility, plus past examples demonstrating it.
+- Being dependable and on time is part of the job expectation; by itself it does not set a candidate apart.
+observe:
+- Dressed appropriately?
+- On time?
+- Knows anything about {{company}}? (Or remembers after the initial interview?)
+- Prepared? (Resume, references, notes, questions)
+- Confidence / enthusiasm?
+- Listens?
+- Responds to questions? (Does not dance or ramble)
+- Gives specific examples?
+- Asks questions?
+- Follow-up thank-you letter / phone call?
+requirements:
+- Motivated to make money and grow
+- Self starter
+- Positive attitude
+- Long term
+- Goal oriented
+- Good communicator
+- Professional in appearance and manner
+- Smart, but not necessarily book smart
+- Recognizes their strengths and weaknesses
+- Mechanically inclined
+- Valid driver's license with only a few minor tickets
+- Reliable transportation
+- Problem solver
+- Able to regularly lift 50 lbs (with or without reasonable accommodation)
+- Can work on call, odd hours and odd shifts, and travel for up to a few weeks 3–4 times a year
+- Can work overtime
+- Safety conscious
+- Able to perform the essential physical functions of the job (with or without reasonable accommodation)
+- Capable of purchasing electrical tools

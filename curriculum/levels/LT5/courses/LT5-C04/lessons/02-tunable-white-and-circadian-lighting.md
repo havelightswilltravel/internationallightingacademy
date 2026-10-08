@@ -3,7 +3,7 @@ title: Tunable White and Circadian-Oriented Lighting
 minutes: 30
 video:
 video_suggestion: >
-  In a demo room, a CALT shows a tunable-white system shifting from 2700 K to 6500 K while
+  In a demo room, an LT5 technician shows a tunable-white system shifting from 2700 K to 6500 K while
   holding the same light level, then dims while warming (dim-to-warm). Show measuring CCT and
   illuminance with a spectrometer-type meter, a schedule screen for a daily color curve, and a
   quick check for color mismatch between fixtures from different batches.

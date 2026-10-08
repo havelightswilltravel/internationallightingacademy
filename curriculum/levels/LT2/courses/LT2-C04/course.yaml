@@ -1,7 +1,7 @@
 code: LT2-C04
 title: Fluorescent & HID Systems
 order: 4
-estimated_hours: 7
+estimated_hours: 8
 description: >
   Explains how fluorescent and HID lighting systems start and operate so technicians can
   select, troubleshoot and replace their components correctly: instant-, rapid- and
@@ -15,11 +15,13 @@ objectives:
   - Troubleshoot fluorescent fixtures systematically and identify root causes of repeat failures
   - Identify HID lamp types and the function of the ballast, capacitor and ignitor
   - Recognize HID end-of-life symptoms and safely replace an HID ballast kit using the correct voltage tap
+  - "Follow the company fluorescent/CF and HID troubleshooting sequences, including T5 ballast power resets, socket (open-circuit) voltage checks, capacitor testing and pole-base fuse checks"
 lessons:
   - 01-fluorescent-ballast-types.md
   - 02-fluorescent-troubleshooting.md
   - 03-hid-components-and-operation.md
   - 04-hid-troubleshooting-and-replacement.md
+  - 05-hid-socket-voltage-and-ballast-kit-diagnosis.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -175,3 +177,53 @@ quiz:
         - Probe-start metal halide
       answer: 3
       explanation: Probe-start MH lamps have a starting electrode near one main electrode. HPS and pulse-start MH rely on an ignitor.
+    - id: LT2-C04-Q16
+      type: single
+      q: "A T5HO high-bay was relamped with new lamps, but the lamps still will not light. Power was present before relamping. What should you try before replacing the ballast?"
+      choices:
+        - "Swap the lamps end for end"
+        - "Turn the fixture's input power fully off, wait as the ballast maker specifies, and restore it to reset the ballast"
+        - "Install T8 lamps temporarily to test the ballast"
+        - "Tap the ballast housing to free the relay"
+      answer: 1
+      explanation: "Many T5 programmed-start ballasts shut down their output at lamp end of life or when a lamp is removed energized, and stay off until input power is cycled. Reset the power before condemning the ballast."
+    - id: LT2-C04-Q17
+      type: single
+      q: "Following the company HID procedure, a qualified tech reads open-circuit (socket) voltage close to the value on the ballast label. What is the next step?"
+      choices:
+        - "Replace the lamp with a known-good lamp of the correct ANSI code"
+        - "Replace the ballast kit"
+        - "Replace the capacitor"
+        - "Check the pole-base fuses"
+      answer: 0
+      explanation: "Correct OCV shows the ballast, capacitor and wiring are delivering voltage to the socket, so the lamp is the suspect."
+    - id: LT2-C04-Q18
+      type: single
+      q: "Before measuring socket voltage on a pulse-start metal halide or HPS fixture, what must be done?"
+      choices:
+        - "Nothing; the ignitor stops pulsing when no lamp is installed"
+        - "Install the lamp halfway so the ignitor sees a load"
+        - "Lock out, verify absence of voltage, and disconnect the ignitor's pulse lead per the manufacturer before re-energizing for the reading"
+        - "Set the meter to the 200 mV range"
+      answer: 2
+      explanation: "With no lamp in the socket, the ignitor keeps firing kilovolt pulses that can damage a meter and injure the tech. Disconnect it with the circuit locked out, and only a qualified person takes the energized reading."
+    - id: LT2-C04-Q19
+      type: multi
+      q: "A parking-lot pole fixture has no line voltage at the ballast while other poles on the circuit work. Which actions are correct? (Select all that apply.)"
+      choices:
+        - "Lock out the circuit and verify absence of voltage before opening the fuse holders in the hand hole"
+        - "Test each fuse out of its holder for continuity"
+        - "Replace a blown fuse with a higher ampere rating so it won't blow again"
+        - "Write it up if the replacement fuse blows again, because that indicates a fault"
+      answer: [0, 1, 3]
+      explanation: "Pole-base in-line fuses are checked de-energized and replaced with the same type and rating. A repeat blow points to a shorted ballast or damaged wiring — never upsize the fuse."
+    - id: LT2-C04-Q20
+      type: single
+      q: "After replacing an HID ballast kit (core and coil, capacitor and ignitor), what does company practice require for the lamp?"
+      choices:
+        - "Reuse the old lamp if it is less than a year old"
+        - "Install a fresh lamp of the correct ANSI code"
+        - "Install a lamp one wattage size larger to test the new kit"
+        - "Leave the lamp out for 24 hours so the capacitor can form"
+      answer: 1
+      explanation: "The old lamp may have caused or been stressed by the failure. Always put a fresh, correctly matched lamp in with a new ballast kit."

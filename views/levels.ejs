@@ -12,7 +12,7 @@
         <span class="code"><%= l.code %></span>
         <span class="t"><%= l.title %></span>
         <span class="meta"><%= l.grade %><% if (l.duration_months) { %> · ~<%= l.duration_months %> mo<% } %> · <%= l.courseCount %> courses · <%= l.skillCount %> skills · <%= l.min_ojt_hours %> hrs</span>
-        <span class="state"><%= l.access === 'completed' ? '✓ Achieved' : l.access === 'current' ? '● In progress' : '🔒 Locked' %></span>
+        <span class="state"><%= l.access === 'completed' ? '✓ Achieved' : l.access === 'current' ? '● In progress' : l.access === 'open' ? '● Open' : '🔒 Locked' %></span>
       </a>
     </li>
     <% }) %>

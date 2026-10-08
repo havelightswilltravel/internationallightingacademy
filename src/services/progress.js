@@ -5,9 +5,20 @@ const db = require('../db');
 
 const EXAM_COOLDOWN_HOURS = 24;
 
+// The technician grade ladder (progression tracks only).
 function orderedLevels() {
   return db.all(`SELECT l.*, t.title AS track_title, t.sort AS track_sort FROM levels l JOIN tracks t ON t.code = l.track_code
-    WHERE l.active = 1 ORDER BY t.sort, l.sort`);
+    WHERE l.active = 1 AND t.kind = 'progression' ORDER BY t.sort, l.sort`);
+}
+
+// Levels outside the ladder (e.g., the manager module), open to their audience at any time.
+function standaloneLevels() {
+  return db.all(`SELECT l.*, t.title AS track_title, t.audience FROM levels l JOIN tracks t ON t.code = l.track_code
+    WHERE l.active = 1 AND t.kind = 'standalone' ORDER BY t.sort, l.sort`);
+}
+
+function canOpenStandalone(user, level) {
+  return level.audience === 'staff' ? ['owner', 'admin', 'evaluator'].includes(user.role) : true;
 }
 
 function levelIndex(levels, code) {
@@ -20,7 +31,10 @@ function workingLevel(user, levels = orderedLevels()) {
   return levels[idx + 1] || null;
 }
 
+// completed | current | locked for ladder levels; open | locked for standalone levels.
 function levelAccess(user, levelCode, levels = orderedLevels()) {
+  const standalone = standaloneLevels().find((l) => l.code === levelCode);
+  if (standalone) return canOpenStandalone(user, standalone) ? 'open' : 'locked';
   const cur = levelIndex(levels, user.current_level_code);
   const idx = levelIndex(levels, levelCode);
   if (idx < 0) return 'locked';
@@ -111,4 +125,4 @@ function payRateFor(orgId, levelCode) {
   return row ? row.hourly_rate : null;
 }
 
-module.exports = { orderedLevels, workingLevel, levelAccess, levelProgress, courseProgress, latestSignoffs, hoursFor, payRateFor, EXAM_COOLDOWN_HOURS };
+module.exports = { orderedLevels, standaloneLevels, canOpenStandalone, workingLevel, levelAccess, levelProgress, courseProgress, latestSignoffs, hoursFor, payRateFor, EXAM_COOLDOWN_HOURS };

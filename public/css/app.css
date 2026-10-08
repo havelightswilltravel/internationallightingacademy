@@ -171,3 +171,34 @@ details.skill summary { cursor: pointer; }
   body { background: #fff; color: #000; }
   .card { border: 0; }
 }
+
+/* Manager module, Skills Matrix and hiring */
+.rung.open a { border-left-color: var(--accent); }
+.grow { flex: 1 1 220px; }
+.row .grow { margin: 0; }
+label.inline { display: inline-flex; gap: .4rem; align-items: center; margin: 0; }
+label.inline select { margin: 0; width: auto; }
+.inline-choice { display: inline-flex; gap: .25rem; align-items: center; font-weight: 400; margin-right: .6rem; }
+.scale-legend { display: flex; gap: .4rem; flex-wrap: wrap; margin: .5rem 0 1rem; }
+.lvl { display: inline-block; padding: .1rem .5rem; border-radius: 6px; font-size: .82rem; background: var(--line); }
+.lvl-1 { background: #fde8e7; color: #8a1c13; }
+.lvl-2 { background: #fff1d6; color: #7a4b00; }
+.lvl-3 { background: #e3f1ff; color: #144a8a; }
+.lvl-4 { background: #dff5e7; color: #12633a; }
+@media (prefers-color-scheme: dark) {
+  .lvl-1 { background: #3a1714; color: #ffb4ab; } .lvl-2 { background: #3a2a0c; color: #ffd27a; }
+  .lvl-3 { background: #142a44; color: #a8cbff; } .lvl-4 { background: #12301f; color: #93e0b0; }
+}
+details.area summary { cursor: pointer; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.ratings { display: inline-flex; gap: .3rem; }
+fieldset.rate { border: 1px solid var(--line); border-radius: 8px; padding: .3rem .8rem .5rem; margin: .5rem 0; }
+pre.answer { white-space: pre-wrap; font: inherit; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: .6rem; min-height: 3rem; margin: 0; }
+.table.matrix td.cell { text-align: center; min-width: 2.2rem; }
+.table.matrix th.vert { height: 150px; vertical-align: bottom; padding: 0 .2rem .4rem; }
+.table.matrix th.vert span { writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; text-transform: none; letter-spacing: 0; }
+.scorecard .bq, .scorecard .cq { border-bottom: 1px solid var(--line); padding: .5rem 0; }
+.scorecard .cq p, .scorecard .bq p { margin: .2rem 0 .4rem; }
+.scorecard textarea { margin-top: 0; }
+@media print {
+  .scorecard textarea, .scorecard input:not([type=checkbox]):not([type=radio]), .scorecard select { border: 0; border-bottom: 1px solid #999; border-radius: 0; }
+}

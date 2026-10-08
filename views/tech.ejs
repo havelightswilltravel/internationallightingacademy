@@ -6,14 +6,14 @@
   <p>Current grade: <strong><%= tech.current_level_code || 'Not yet graded' %></strong>
     <% if (payRate != null) { %> · Pay rate: <strong><%= money(payRate) %>/hr</strong><% } %>
     · Working on: <strong><%= working ? working.code + ' — ' + working.title : 'Program complete' %></strong>
-    · <a href="/transcript/<%= tech.id %>">Transcript</a></p>
+    · <a href="/transcript/<%= tech.id %>">Transcript</a> · <a href="/team/<%= tech.id %>/matrix">Skills Matrix</a></p>
 </section>
 
 <% if (viewLevel && lp) { %>
 <section class="card">
   <div class="row-between">
     <h2><%= viewLevel.code %> — <%= viewLevel.title %></h2>
-    <form method="get" class="inline"><select name="level" data-autosubmit><% levels.forEach(function (l) { %><option value="<%= l.code %>" <%= l.code === viewLevel.code ? 'selected' : '' %>><%= l.code %></option><% }) %></select></form>
+    <form method="get" class="inline"><select name="level" data-autosubmit><% allLevels.forEach(function (l) { %><option value="<%= l.code %>" <%= l.code === viewLevel.code ? 'selected' : '' %>><%= l.code %></option><% }) %></select></form>
   </div>
   <%- include('partials/progress', { lp: lp }) %>
 

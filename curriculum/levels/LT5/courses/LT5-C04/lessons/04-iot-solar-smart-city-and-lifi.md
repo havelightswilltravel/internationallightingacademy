@@ -3,7 +3,7 @@ title: IoT Sensors, Solar/Off-Grid, Smart-City Lighting and Li-Fi
 minutes: 35
 video:
 video_suggestion: >
-  Short montage: (1) a CALT installing a networked luminaire with an integrated sensor and
+  Short montage: (1) an LT5 technician installing a networked luminaire with an integrated sensor and
   checking it in the app; (2) inspecting a solar-powered parking lot light, covering the PV
   panel and checking the battery and charge controller; (3) a streetlight with a 7-pin
   ANSI C136.41 receptacle receiving a networked node; (4) a Li-Fi demo showing data drop out

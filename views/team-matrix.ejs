@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+<h1>Team Skills Matrix</h1>
+<p class="muted">Confirmed ratings (bold) and self-ratings awaiting confirmation (italic). Use it to dispatch the right tech, pair mentors (4 = can teach) with learners, and spot training gaps.</p>
+<div class="scale-legend">
+  <% Object.keys(scale).forEach(function (k) { %><span class="lvl lvl-<%= k %>"><b><%= k %></b> <%= scale[k] %></span><% }) %>
+</div>
+<% if (!techs.length) { %><p class="muted">No technicians yet.</p><% } else { %>
+<div class="scroll-x">
+<table class="table matrix">
+  <tr><th>Technician</th><% areas.forEach(function (a) { %><th class="vert"><span><%= a.title %></span></th><% }) %></tr>
+  <% techs.forEach(function (t) { %>
+  <tr>
+    <td class="nowrap"><a href="/team/<%= t.id %>/matrix"><%= t.name %></a> <span class="muted small"><%= t.current_level_code || '' %></span></td>
+    <% areas.forEach(function (a) { var r = ratings[t.id + '|' + a.code]; var v = r && (r.eval_rating || r.self_rating); %>
+    <td class="cell lvl-<%= v || 0 %>" title="<%= a.title %>: <%= r && r.eval_rating ? 'confirmed ' + r.eval_rating : r && r.self_rating ? 'self ' + r.self_rating : 'not rated' %>">
+      <% if (r && r.eval_rating) { %><b><%= r.eval_rating %></b><% } else if (r && r.self_rating) { %><i><%= r.self_rating %></i><% } else { %>·<% } %>
+    </td>
+    <% }) %>
+  </tr>
+  <% }) %>
+</table>
+</div>
+<% } %>
+<%- include('partials/footer') %>

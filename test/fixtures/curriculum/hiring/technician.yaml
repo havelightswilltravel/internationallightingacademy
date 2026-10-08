@@ -1,0 +1,10 @@
+code: technician
+title: Technician Interview
+position: Lighting Technician
+instructions: Probe for negative examples.
+background:
+  - q: What do you know about {{company}}?
+closing: What qualifies you?
+watch_for: [No specific example]
+observe: [On time?]
+requirements: [Safety conscious]

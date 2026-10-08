@@ -1,0 +1,194 @@
+code: LT2-C09
+title: Track Lighting
+order: 9
+estimated_hours: 5
+description: >
+  Covers track lighting systems from feed to head: H, J and L track compatibility, single- and
+  multi-circuit track, line-voltage and low-voltage track, monorail and cable systems,
+  live-end feeds, floating canopies, connectors and dead ends; track heads with incandescent,
+  halogen, ceramic metal halide, LED and low-voltage sources; load limits and aiming. Teaches
+  the company troubleshooting procedure for track — good lamp, power at sockets, head switch
+  and track connection, continuity on incandescent/halogen heads, ballast replacement on
+  ballasted heads, and the entrance fitting when the whole track is out — with lockout and
+  verification steps, plus parts identification, ordering and when to write it up.
+objectives:
+  - Identify track system type (H, J, L), number of circuits and voltage, and explain why parts are not interchangeable
+  - Name each track component and head component and describe how each one fails
+  - Calculate track load against the track, branch-circuit (80% continuous) and dimmer limits
+  - Troubleshoot a track run using the company procedure in order, with lockout and de-energized checks first
+  - Aim track heads correctly and record the information needed to order compatible parts
+  - Recognize track conditions that must be written up for an electrician
+lessons:
+  - 01-track-systems-and-components.md
+  - 02-track-heads-and-light-sources.md
+  - 03-installation-load-limits-and-feeds.md
+  - 04-troubleshooting-and-ordering-track-parts.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C09-Q01
+      type: single
+      q: A customer wants to add heads to an existing track. What must you confirm before ordering?
+      choices:
+        - Only the color of the existing heads
+        - The track system type (H, J or L) and number of circuits, ideally from catalog numbers
+        - That the new heads are the same wattage as the old ones
+        - Nothing — all track heads fit all track
+      answer: 1
+      explanation: H, J and L systems are not interchangeable, and multi-circuit track needs compatible heads. Order by system type and catalog number, not appearance.
+      ref: LT2-C09 Lessons 1 and 4
+    - id: LT2-C09-Q02
+      type: single
+      q: On a 2-circuit track, one head is dark but identical heads beside it work. What should you check early?
+      choices:
+        - The track's dead end
+        - The panel's main breaker
+        - The head's circuit selector setting
+        - The entrance fitting
+      answer: 2
+      explanation: Multi-circuit heads select which circuit they draw from; a head set to an off or unpowered circuit looks dead.
+      ref: LT2-C09 Lesson 1
+    - id: LT2-C09-Q03
+      type: single
+      q: What is the purpose of a floating canopy?
+      choices:
+        - To feed power into the track at a point along its length, covering the junction box
+        - To close off the unpowered end of the track
+        - To hold a low-voltage transformer
+        - To join two track sections at 90 degrees
+      answer: 0
+      explanation: A floating canopy covers the junction box and connects power to the track at any point along it, not only at the end.
+      ref: LT2-C09 Lesson 1
+    - id: LT2-C09-Q04
+      type: single
+      q: According to the company procedure, what is the first step on a track lighting call?
+      choices:
+        - Replace all the ballasts
+        - Check the entrance fitting
+        - Test continuity on every head
+        - Verify there is at least one good lamp in the track
+      answer: 3
+      explanation: Step one is to verify at least one good lamp in the track; that proves power at that point and gives you a known good lamp for comparison.
+      ref: Company Master Troubleshooting Guide — Track lighting
+    - id: LT2-C09-Q05
+      type: single
+      q: On which type of track head is a continuity test from the adapter contacts to the socket a valid check?
+      choices:
+        - Ceramic metal halide (ballasted)
+        - Incandescent or halogen line-voltage heads
+        - Integrated LED heads
+        - Any head with a driver
+      answer: 1
+      explanation: Only incandescent/halogen heads have a plain wire path from adapter to socket. Ballasts, drivers and transformers in the path make the test meaningless.
+      ref: Company Master Troubleshooting Guide — Track lighting
+    - id: LT2-C09-Q06
+      type: single
+      q: A ballasted CMH track head is dark with a known good lamp, and other heads on the track work. What does the company procedure call for?
+      choices:
+        - Replace the ballast (or the head if the ballast is not available)
+        - Replace the live-end feed
+        - Move the breaker to a larger size
+        - Replace every lamp on the track
+      answer: 0
+      explanation: If the fixture is ballasted and other fixtures on the track work, replace the ballast. Confirm the lamp is the correct type and wattage first.
+      ref: Company Master Troubleshooting Guide — Track lighting
+    - id: LT2-C09-Q07
+      type: single
+      q: The entire track is out. Where does the company procedure direct you to look?
+      choices:
+        - The dead end cap
+        - The farthest head from the feed
+        - The power and connections at the entrance fitting (live-end feed or canopy)
+        - The lamp in the first head
+      answer: 2
+      explanation: When the whole track is out, check power and connections at the entrance fitting — after confirming the breaker and control, and with the circuit locked out before opening the feed.
+      ref: Company Master Troubleshooting Guide — Track lighting
+    - id: LT2-C09-Q08
+      type: single
+      q: Heads 1–4 work but heads 5–8, beyond an L connector, are all dark. What is the most likely cause?
+      choices:
+        - Four failed lamps at once
+        - An overloaded breaker
+        - A failed live-end feed
+        - A faulty or poorly seated L connector
+      answer: 3
+      explanation: When all heads past one joint are dead and heads before it work, the connector is the prime suspect.
+      ref: LT2-C09 Lesson 4
+    - id: LT2-C09-Q09
+      type: single
+      q: A 120 V, 20 A circuit feeds a single-circuit track of continuously operated lighting. Using the 80% rule, what is the maximum load?
+      choices:
+        - 2,400 W
+        - 1,920 W
+        - 1,440 W
+        - 1,600 W
+      answer: 1
+      explanation: 80% of 20 A is 16 A; 16 A × 120 V = 1,920 W.
+      ref: LT2-C09 Lesson 3
+    - id: LT2-C09-Q10
+      type: single
+      q: When totaling the load of heads that have transformers, ballasts or drivers, which value should you use?
+      choices:
+        - The input watts or VA from the head label
+        - The lamp wattage only
+        - The lumen output
+        - The track's 20 A rating
+      answer: 0
+      explanation: Input watts/VA include the losses of the power component and reflect what the circuit actually carries.
+      ref: LT2-C09 Lesson 3
+    - id: LT2-C09-Q11
+      type: single
+      q: Why must every unfed end of a track have a dead end cap?
+      choices:
+        - It improves light output
+        - It is needed for dimming
+        - The track conductors are live along the whole slot, including the end
+        - It sets the circuit selector
+      answer: 2
+      explanation: Track conductors run the full length of the slot. An open end exposes energized conductors.
+      ref: LT2-C09 Lesson 3
+    - id: LT2-C09-Q12
+      type: single
+      q: Outages on a track are sporadic. Before replacing lamps or ballasts, what does the company procedure say to check?
+      choices:
+        - The dead end cap
+        - The track color
+        - The aiming angle
+        - Power at the sockets
+      answer: 3
+      explanation: For sporadic outages, check for power at the sockets first. Techs use de-energized continuity methods; energized socket testing is for qualified persons under the NFPA 70E program.
+      ref: Company Master Troubleshooting Guide — Track lighting
+    - id: LT2-C09-Q13
+      type: multi
+      q: A single head on an otherwise working track is dark. Which checks come next in the company procedure? (Select all that apply.)
+      choices:
+        - Check for a switch on the track head
+        - Check the head's connection to the track
+        - Move the head to a slightly different spot on the track
+        - Replace the live-end feed
+      answer: [0, 1, 2]
+      explanation: With no power at one socket while other heads work, check the head switch, the track connection, and move the head. The feed is only suspect when the whole track is out.
+      ref: Company Master Troubleshooting Guide — Track lighting
+    - id: LT2-C09-Q14
+      type: multi
+      q: Which conditions should be written up for an electrician? (Select all that apply.)
+      choices:
+        - The breaker trips each time power is restored to the track
+        - A head has a burned-out halogen lamp
+        - The junction box behind the live-end feed is heat-damaged
+        - The customer's load requires a new circuit
+      answer: [0, 2, 3]
+      explanation: Repeated trips, damaged branch-circuit wiring or boxes, and new circuits are electrician work. Relamping is routine tech work.
+      ref: LT2-C09 Lesson 4
+    - id: LT2-C09-Q15
+      type: single
+      q: What is a common rule-of-thumb aiming angle for accent lighting with track heads?
+      choices:
+        - About 30 degrees from vertical
+        - Straight down (0 degrees)
+        - Horizontal (90 degrees)
+        - About 60 degrees from vertical
+      answer: 0
+      explanation: Roughly 30 degrees from vertical reduces glare in viewers' eyes and avoids deep shadows and reflections.
+      ref: LT2-C09 Lesson 2

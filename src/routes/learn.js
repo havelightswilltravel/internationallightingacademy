@@ -52,9 +52,12 @@ router.get('/', (req, res) => {
 
 router.get('/levels', (req, res) => {
   const levels = progress.orderedLevels();
-  const tracks = db.all('SELECT * FROM tracks ORDER BY sort').map((t) => ({
+  const all = [...levels, ...progress.standaloneLevels()];
+  const tracks = db.all('SELECT * FROM tracks ORDER BY sort')
+    .filter((t) => t.kind !== 'standalone' || t.audience !== 'staff' || auth.isStaff(req.user))
+    .map((t) => ({
     ...t,
-    levels: levels.filter((l) => l.track_code === t.code).map((l) => ({
+    levels: all.filter((l) => l.track_code === t.code).map((l) => ({
       ...l,
       access: progress.levelAccess(req.user, l.code, levels),
       courseCount: db.one('SELECT COUNT(*) AS n FROM courses WHERE level_code = ? AND active = 1', l.code).n,

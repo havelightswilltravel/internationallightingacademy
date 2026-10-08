@@ -3,7 +3,7 @@ title: "Review: Light Sources, LEDs, Drivers and Dimming"
 minutes: 40
 video:
 video_suggestion: >
-  A bench review: a CALT lines up a fluorescent ballast, an HID ballast with ignitor, a
+  A bench review: an LT5 technician lines up a fluorescent ballast, an HID ballast with ignitor, a
   constant-current LED driver and a constant-voltage driver, reading each label aloud and
   explaining what each value means. Then shows a Type A, Type B and Type C TLED side by side,
   and demonstrates 0-10V dimming with correct polarity and a reversed-polarity fault.

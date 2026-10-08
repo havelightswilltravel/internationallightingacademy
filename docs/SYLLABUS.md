@@ -10,7 +10,7 @@ lives in `curriculum/`; this document is the map. Typical durations are guidance
 | Lighting | LT2 | Lighting Technician II | Months 3–9 | 900 |
 | Lighting | LT3 | Lighting Technician III | Months 9–15 | 1,000 |
 | Lighting | LT4 | Lighting Technician IV (Senior) | Months 15–21 | 1,000 |
-| Lighting | LT5 | Certified Advanced Lighting Technician (CALT) | Months 21–24 | 500 |
+| Lighting | LT5 | Certified Advanced Lighting Technician | Months 21–24 | 500 |
 | Electrical | EA1 | Electrical Apprentice I | Year 3 | 1,600 |
 | Electrical | EA2 | Electrical Apprentice II | Year 4 | 1,600 |
 | Electrical | EA3 | Electrical Apprentice III | Year 5 | 1,600 |
@@ -70,7 +70,7 @@ Hands-on skills: driver replacement and matching; 0–10V dimming troubleshootin
 
 Hands-on skills: commissioning an NLC zone; light-level survey and report; diagnosing nuisance tripping; troubleshooting a multiwire branch circuit; leading a retrofit audit walk-through.
 
-### LT5 — Certified Advanced Lighting Technician (CALT)
+### LT5 — Certified Advanced Lighting Technician
 - **LT5-C01 Lighting Audits, Project Planning & Estimating** — audits, retrofit scopes, takeoffs, labor estimates, simple payback/ROI.
 - **LT5-C02 Commissioning & Functional Testing** — Cx process, functional performance tests, documentation, owner training.
 - **LT5-C03 Leadership, Mentoring & Crew Safety** — leading crews, job hazard analysis, toolbox talks, mentoring, conflict resolution.
@@ -79,7 +79,7 @@ Hands-on skills: commissioning an NLC zone; light-level survey and report; diagn
 
 Hands-on skills: capstone project; leading a job end-to-end; delivering a toolbox talk; mentoring sign-off of an LT1; full-system troubleshooting practical.
 
-**Completing LT5 awards CALT status and eligibility to enter the Electrical Development Track.**
+**Completing LT5 awards LT5 status and eligibility to enter the Electrical Development Track.**
 
 ---
 

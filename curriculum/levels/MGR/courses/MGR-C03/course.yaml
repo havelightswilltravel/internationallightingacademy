@@ -1,0 +1,192 @@
+code: MGR-C03
+title: Behavior-Based Interviewing
+order: 3
+estimated_hours: 3
+description: >
+  How to run a structured, behavior-based interview with our company's interview kits (the digital
+  scorecard under Hiring → Interview kits). Covers why past behavior predicts future behavior, the
+  STAR method, asking for negative examples, follow-up probes, the 1–9 scoring scale with anchors,
+  evidence-based notes, the "items to watch for" and Observe checklists, technical questions for
+  electricians, panel interviews, and avoiding interviewer bias.
+objectives:
+  - Explain why structured behavior-based interviews predict performance better than unstructured ones.
+  - Use STAR probes to obtain complete answers and ask for negative examples.
+  - Score answers 1–9 against behavioral anchors and mark Answered Y/N.
+  - Write factual, job-related notes free of protected information.
+  - Apply the "items to watch for" and Observe checklists.
+  - Ask and evaluate technical questions for electrician candidates.
+  - Run an effective panel interview and counter common interviewer biases.
+lessons:
+  - 01-past-behavior-star-and-probing.md
+  - 02-scoring-notes-and-observation.md
+  - 03-running-the-interview-electrician-questions-and-panels.md
+  - 04-avoiding-interviewer-bias.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: MGR-C03-Q01
+      type: single
+      q: Why do behavior-based questions predict job performance better than hypothetical questions?
+      choices:
+        - They are shorter
+        - They reveal what the candidate actually did in similar situations, not just what they know the right answer is
+        - Candidates prefer them
+        - They don't require scoring
+      answer: 1
+      explanation: Past behavior in similar situations is the best predictor of future behavior; hypotheticals test knowledge of the "right" answer.
+      ref: MGR-C03 Lesson 1
+    - id: MGR-C03-Q02
+      type: single
+      q: In STAR, which part deserves the most probing?
+      choices:
+        - Situation
+        - Task
+        - Action — what the candidate personally did
+        - Result only
+      answer: 2
+      explanation: The candidate's own actions are the evidence you are scoring. Probe "we" answers for "What was your part?"
+      ref: MGR-C03 Lesson 1
+    - id: MGR-C03-Q03
+      type: single
+      q: The candidate has given only success stories for three questions. What do the kit instructions tell you to do?
+      choices:
+        - Score them all 9
+        - Ask for an example of a situation that did not go well
+        - End the interview early
+        - Assume they are lying
+      answer: 1
+      explanation: The kit instructs interviewers to look for both positive and negative outcomes and ask for a negative example if only positives are given.
+      ref: Company interview kit; MGR-C03 Lesson 1
+    - id: MGR-C03-Q04
+      type: single
+      q: A candidate answers "Tell me about a time you handled an angry customer" with "I would stay calm and listen." What should you do?
+      choices:
+        - Score it a 7; it's the right approach
+        - Redirect: "Can you tell me about a specific time you actually did that?"
+        - Move to the next question
+        - Give your own example to help
+      answer: 1
+      explanation: That is a hypothetical with no specific example — the first item on the kit's watch list. Redirect to a real example.
+      ref: MGR-C03 Lesson 1
+    - id: MGR-C03-Q05
+      type: single
+      q: Which follow-up probe is a leading probe that should be avoided?
+      choices:
+        - "Walk me through exactly what you did."
+        - "What was the result?"
+        - "You'd always lock out before starting, right?"
+        - "What would you do differently?"
+      answer: 2
+      explanation: Leading probes signal the desired answer and produce useless evidence.
+      ref: MGR-C03 Lesson 1
+    - id: MGR-C03-Q06
+      type: single
+      q: "A candidate answers a Caution question with: \"That happens all the time. I just figure it out and get it done.\" Using the anchors, which score band fits best?"
+      choices:
+        - 1–3 (weak)
+        - 4–6 (acceptable)
+        - 7–9 (strong)
+        - Not scorable; mark Y and 9
+      answer: 0
+      explanation: No specific example and a hint of risk-taking without checking — a weak answer, around a 2.
+      ref: MGR-C03 Lesson 2
+    - id: MGR-C03-Q07
+      type: single
+      q: What characterizes a 7–9 answer?
+      choices:
+        - The candidate is confident and likeable
+        - A specific, complete STAR example with clear personal actions, a result, and honest reflection on what went wrong or changed
+        - The candidate's answer matches the interviewer's own experience
+        - The answer was long
+      answer: 1
+      explanation: Strong answers are specific, complete, and show effective personal action and learning.
+      ref: MGR-C03 Lesson 2
+    - id: MGR-C03-Q08
+      type: single
+      q: When should each answer be scored?
+      choices:
+        - At the end of the day after all interviews
+        - Immediately after it is given, before discussing the candidate with anyone
+        - During the calibration meeting by group vote
+        - After reference checks
+      answer: 1
+      explanation: Immediate, independent scoring reduces halo, recency, and anchoring effects.
+      ref: MGR-C03 Lesson 2
+    - id: MGR-C03-Q09
+      type: multi
+      q: Which interview notes are appropriate? Select all that apply.
+      choices:
+        - "Gave 3 specific examples; asked about grade ladder twice"
+        - "Seems older, might retire soon"
+        - "Blamed former supervisor in 3 of 4 answers"
+        - "Called supervisor, waited 40 min, wrote site notes"
+      answer: [0, 2, 3]
+      explanation: Notes should be factual and job-related. Notes about age are about a protected characteristic and must never be written.
+      ref: MGR-C03 Lesson 2
+    - id: MGR-C03-Q10
+      type: single
+      q: How should the Observe checklist ("Dressed appropriately?", "On time?", "Asks questions?") be used?
+      choices:
+        - As the primary basis for the hiring decision
+        - As a secondary signal, judged against the job and dress code, not personal taste
+        - Only for electrician candidates
+        - It should be ignored entirely
+      answer: 1
+      explanation: Observations matter but are secondary to competency evidence and must not penalize protected characteristics such as religious attire.
+      ref: MGR-C03 Lesson 2
+    - id: MGR-C03-Q11
+      type: single
+      q: An electrician candidate describes working a panel energized "because the customer couldn't lose power," with no concern. How should this be treated?
+      choices:
+        - As a sign of dedication to the customer
+        - As a serious Caution concern to note and probe further
+        - As irrelevant to the hiring decision
+        - As a reason to offer a higher grade
+      answer: 1
+      explanation: Comfort with unjustified energized work is a major safety red flag; the unsafe-experience question is designed to surface it.
+      ref: MGR-C03 Lesson 3
+    - id: MGR-C03-Q12
+      type: single
+      q: What should be done with an electrician candidate's license number given in the interview?
+      choices:
+        - Accept it as stated
+        - Verify it later on the issuing agency's lookup, including class and expiration
+        - Ask the candidate to email a photo and file it
+        - Nothing; licenses don't matter for electricians
+      answer: 1
+      explanation: Always verify a required license directly with the issuing agency.
+      ref: MGR-C03 Lesson 3; MGR-C05
+    - id: MGR-C03-Q13
+      type: multi
+      q: Which practices make a panel interview effective? Select all that apply.
+      choices:
+        - A short huddle beforehand to assign questions
+        - Every panelist scores every answer independently
+        - Discussing the candidate in the hallway right after to reach consensus
+        - Including a senior technician when possible
+      answer: [0, 1, 3]
+      explanation: Hallway discussion before scorecards are submitted lets one opinion anchor the others; debrief in a calibration meeting.
+      ref: MGR-C03 Lesson 3
+    - id: MGR-C03-Q14
+      type: single
+      q: An interviewer gives an average candidate high scores because the previous candidate was terrible. Which bias is this?
+      choices:
+        - Halo
+        - Similarity
+        - Contrast
+        - Central tendency
+      answer: 2
+      explanation: Contrast bias judges candidates against each other rather than against the anchors.
+      ref: MGR-C03 Lesson 4
+    - id: MGR-C03-Q15
+      type: single
+      q: A panelist says a candidate is "just not a good fit." What should the manager ask?
+      choices:
+        - Nothing; trust the panelist's gut
+        - "What specific, job-related behavior from the interview supports that?"
+        - "Is it their age?"
+        - "Do they share our hobbies?"
+      answer: 1
+      explanation: "Fit" must be backed by job-related evidence; otherwise it may mask similarity bias or stereotyping.
+      ref: MGR-C03 Lesson 4

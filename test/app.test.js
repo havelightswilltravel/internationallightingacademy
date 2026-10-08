@@ -85,12 +85,14 @@ after(() => {
 });
 
 test('curriculum loader validates and imports', () => {
-  assert.equal(db.one('SELECT COUNT(*) AS n FROM levels WHERE active = 1').n, 2);
-  assert.equal(db.one('SELECT COUNT(*) AS n FROM questions').n, 6);
+  assert.equal(db.one('SELECT COUNT(*) AS n FROM levels WHERE active = 1').n, 3);
+  assert.equal(db.one('SELECT COUNT(*) AS n FROM questions').n, 9);
+  assert.equal(db.one('SELECT COUNT(*) AS n FROM competency_areas').n, 2);
+  assert.equal(db.one('SELECT COUNT(*) AS n FROM interview_kits').n, 1);
   assert.equal(db.one("SELECT COUNT(*) AS n FROM library_docs WHERE source = 'curriculum'").n, 1);
   // Re-import is idempotent.
   curriculum.importToDb(curriculum.load(path.join(__dirname, 'fixtures', 'curriculum')));
-  assert.equal(db.one('SELECT COUNT(*) AS n FROM lessons').n, 2);
+  assert.equal(db.one('SELECT COUNT(*) AS n FROM lessons').n, 3);
 });
 
 test('login required, bad password rejected, CSRF enforced', async () => {
@@ -258,8 +260,8 @@ test('library search and company-private guides', async () => {
 test('every page renders for each role', async () => {
   const techId = db.one("SELECT id FROM users WHERE email = 'tech@acme.test'").id;
   const pages = {
-    'tech@acme.test': ['/', '/levels', '/levels/LT1', '/levels/LT2', '/courses/LT1-C01', '/hours', '/library', '/library/1', '/transcript', '/account'],
-    'eval@acme.test': ['/', '/team', `/team/${techId}`, `/team/${techId}?level=LT2`, `/team/${techId}/skills/LT2-S01`, '/approvals', `/transcript/${techId}`, '/lessons/LT1-C01/01-intro'],
+    'tech@acme.test': ['/', '/levels', '/levels/LT1', '/levels/LT2', '/courses/LT1-C01', '/hours', '/library', '/library/1', '/transcript', '/account', '/skills-matrix'],
+    'eval@acme.test': ['/', '/team', `/team/${techId}`, `/team/${techId}?level=LT2`, `/team/${techId}/skills/LT2-S01`, '/approvals', `/transcript/${techId}`, '/lessons/LT1-C01/01-intro', '/team-matrix', `/team/${techId}/matrix`, '/hiring', '/managers', '/levels/MGR', '/courses/MGR-C01', '/hiring/kits/technician'],
     'admin@acme.test': ['/admin/users', '/admin/pay', '/admin/videos', '/admin/videos?level=LT2', '/admin/library', '/admin/library/new', '/admin/reports'],
     'owner@x.test': ['/', '/team', '/platform/orgs', '/platform/orgs/1', '/platform/curriculum', '/admin/users', '/admin/users?org=1', '/admin/videos?org=0', '/admin/library'],
   };
@@ -316,5 +318,80 @@ test('multipart uploads: lesson video link and library guide with attachment', a
 test('the real curriculum in curriculum/ is valid', () => {
   const data = curriculum.load();
   assert.deepEqual(data.errors, []);
-  assert.equal(data.levels.length, 10);
+  assert.equal(data.levels.length, 11);
+});
+
+test('manager module is standalone: open to staff, hidden from the technician ladder', async () => {
+  const progress = require('../src/services/progress');
+  assert.deepEqual(progress.orderedLevels().map((l) => l.code), ['LT1', 'LT2']);
+  const tech = client();
+  await tech.login('tech@acme.test');
+  assert.doesNotMatch((await tech.get('/levels')).text, /Manager Module/);
+  let r = await tech.post('/exams/start', { kind: 'course', code: 'MGR-C01' });
+  assert.equal(r.location, '/courses/MGR-C01');
+
+  const ev = client();
+  await ev.login('eval@acme.test');
+  assert.match((await ev.get('/levels')).text, /Manager Module/);
+  assert.match((await ev.get('/levels/MGR')).text, /Open to you/);
+  r = await ev.post('/exams/start', { kind: 'course', code: 'MGR-C01' });
+  assert.match(r.location, /^\/exams\/\d+$/);
+  const exam = await ev.get(r.location);
+  const sheet = answerSheet(exam.text.replace(/MGR-C01-/g, 'X-'), true);
+  // Re-map ids back after the answer lookup (ANSWERS keyed by suffix).
+  await ev.post(r.location + '/submit', Object.fromEntries([...sheet.keys()].map((k) => [k.replace('X-', 'MGR-C01-'), sheet.getAll(k)])));
+  assert.equal(db.one("SELECT passed FROM exam_attempts WHERE target_code = 'MGR-C01' ORDER BY id DESC LIMIT 1").passed, 1);
+  assert.equal((await ev.get('/managers')).status, 200);
+});
+
+test('skills matrix: technician self-rates, evaluator confirms, team grid shows it', async () => {
+  const tech = client();
+  await tech.login('tech@acme.test');
+  assert.match((await tech.get('/skills-matrix')).text, /HID/);
+  await tech.post('/skills-matrix/hid', { self_rating: '3', steps_text: '1. Check socket voltage', components_text: 'lamp, ballast kit' });
+  const techId = db.one("SELECT id FROM users WHERE email = 'tech@acme.test'").id;
+  assert.equal(db.one("SELECT self_rating FROM competency_ratings WHERE user_id = ? AND area_code = 'hid'", techId).self_rating, 3);
+
+  const ev = client();
+  await ev.login('eval@acme.test');
+  assert.match((await ev.get(`/team/${techId}/matrix`)).text, /Check socket voltage/);
+  await ev.post(`/team/${techId}/matrix/hid`, { eval_rating: '2', eval_notes: 'Needs capacitor testing practice' });
+  const row = db.one("SELECT * FROM competency_ratings WHERE user_id = ? AND area_code = 'hid'", techId);
+  assert.equal(row.eval_rating, 2);
+  assert.equal(row.self_rating, 3);
+  assert.match((await ev.get('/team-matrix')).text, /<b>2<\/b>/);
+  assert.equal((await tech.get('/team-matrix')).status, 403);
+  const other = client();
+  await other.login('eval@other.test');
+  assert.equal((await other.get(`/team/${techId}/matrix`)).status, 404);
+});
+
+test('hiring: scorecard, averages, company isolation, hire creates technician', async () => {
+  const ev = client();
+  await ev.login('eval@acme.test');
+  await ev.get('/hiring');
+  let r = await ev.post('/hiring', { name: 'Casey Candidate', email: 'casey@cand.test', kit_code: 'technician' });
+  const id = Number(r.location.split('/').pop());
+  let page = await ev.get(r.location);
+  assert.match(page.text, /What do you know about Acme Lighting\?/);
+  await ev.post(`/hiring/${id}`, { name: 'Casey Candidate', email: 'casey@cand.test', status: 'interviewed', recommendation: 'yes',
+    'score_0-0': '8', 'ans_0-0': 'Y', 'score_1-0': '6', 'ans_1-0': 'N', bg_0: 'Read our website', observe: ['0'], requirements: ['0'] });
+  page = await ev.get('/hiring');
+  assert.match(page.text, /7\.0/);
+  const other = client();
+  await other.login('eval@other.test');
+  assert.equal((await other.get(`/hiring/${id}`)).status, 404);
+  assert.doesNotMatch((await other.get('/hiring')).text, /Casey/);
+  // Evaluators cannot hire; admins can (uses a seat — free one first).
+  assert.equal((await ev.post(`/hiring/${id}/hire`)).status, 403);
+  db.run("UPDATE users SET active = 0 WHERE email = 'new@acme.test'");
+  const admin = client();
+  await admin.login('admin@acme.test');
+  await admin.get(`/hiring/${id}`);
+  r = await admin.post(`/hiring/${id}/hire`);
+  const u = db.one("SELECT * FROM users WHERE email = 'casey@cand.test'");
+  assert.equal(u.role, 'technician');
+  assert.equal(db.one('SELECT status FROM candidates WHERE id = ?', id).status, 'hired');
+  assert.match((await admin.get('/admin/users')).text, /Temporary passwords/);
+  assert.equal((await ev.get('/hiring/kits/technician')).status, 200);
 });

@@ -4,7 +4,7 @@ Status as of **October 8, 2026**: platform v0.1 is built and the full draft curr
 That leaves about 12 weeks to get from draft to production-ready.
 
 ## Phase 1 — Foundation ✅ (October 2026)
-- [x] Grade structure: LT1–LT5 lighting track (~24 months) → CALT → EA1–EA4 + JW electrical track
+- [x] Grade structure: LT1–LT5 lighting track (~24 months) → LT5 → EA1–EA4 + JW electrical track
 - [x] Master syllabus and content format
 - [x] Draft curriculum for every level: lessons, question banks, hands-on skill checklists
 - [x] Troubleshooting library (26 starter guides)

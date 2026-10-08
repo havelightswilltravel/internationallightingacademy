@@ -3,7 +3,7 @@ title: Energy Savings, Simple Payback and ROI
 minutes: 30
 video:
 video_suggestion: >
-  A CALT explains a one-page savings summary to a facility manager across a conference
+  an LT5 technician explains a one-page savings summary to a facility manager across a conference
   table. Show the tech walking through existing vs proposed watts, hours, kWh savings, the
   utility rate, the rebate, and the payback period, then answering "what if our hours are
   lower than you assumed?" with a quick sensitivity check.
@@ -11,7 +11,7 @@ video_suggestion: >
 
 ## Speaking the Customer's Language
 Facility managers and owners approve projects based on money: how much it costs, how much it
-saves, and how fast it pays back. A CALT must calculate these numbers correctly and explain
+saves, and how fast it pays back. an LT5 technician must calculate these numbers correctly and explain
 them honestly, including the assumptions behind them.
 
 ## Step 1: Demand Reduction (kW)

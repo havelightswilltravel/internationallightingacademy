@@ -3,7 +3,7 @@ title: Writing Retrofit Scopes and Material Takeoffs
 minutes: 30
 video:
 video_suggestion: >
-  At the shop, a CALT turns audit data into a scope of work on a laptop. Show grouping
+  At the shop, an LT5 technician turns audit data into a scope of work on a laptop. Show grouping
   fixtures into retrofit types, choosing between TLED, retrofit kit and new fixture for a
   troffer, building the takeoff spreadsheet (fixtures, sensors, wire, connectors, lift rental,
   recycling), and then a second tech checking the counts against the audit.

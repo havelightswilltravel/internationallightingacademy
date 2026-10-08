@@ -17,11 +17,14 @@
     <a href="/levels" class="<%= path.startsWith('/levels') || path.startsWith('/courses') || path.startsWith('/lessons') ? 'on' : '' %>">Program</a>
     <a href="/library" class="<%= path.startsWith('/library') ? 'on' : '' %>">Library</a>
     <% if (user.role === 'technician') { %>
+      <a href="/skills-matrix" class="<%= path.startsWith('/skills-matrix') ? 'on' : '' %>">Skills Matrix</a>
       <a href="/hours" class="<%= path.startsWith('/hours') ? 'on' : '' %>">My Hours</a>
       <a href="/transcript" class="<%= path.startsWith('/transcript') ? 'on' : '' %>">Transcript</a>
     <% } else { %>
-      <a href="/team" class="<%= path.startsWith('/team') ? 'on' : '' %>">Team</a>
+      <a href="/team" class="<%= path === '/team' || (path.startsWith('/team/') && !path.endsWith('/matrix')) ? 'on' : '' %>">Team</a>
+      <a href="/team-matrix" class="<%= path === '/team-matrix' || path.endsWith('/matrix') ? 'on' : '' %>">Skills Matrix</a>
       <a href="/approvals" class="<%= path.startsWith('/approvals') ? 'on' : '' %>">Approvals</a>
+      <a href="/hiring" class="<%= path.startsWith('/hiring') || path.startsWith('/managers') ? 'on' : '' %>">Hiring</a>
     <% } %>
     <% if (user.role === 'admin' || user.role === 'owner') { %>
       <a href="/admin/users" class="<%= path.startsWith('/admin') ? 'on' : '' %>">Admin</a>

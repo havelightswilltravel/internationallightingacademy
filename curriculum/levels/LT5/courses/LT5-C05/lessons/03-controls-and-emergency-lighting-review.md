@@ -3,7 +3,7 @@ title: "Review: Lighting Controls and Emergency Lighting"
 minutes: 40
 video:
 video_suggestion: >
-  A CALT stands in a corridor and classroom showing each control and life-safety device in
+  an LT5 technician stands in a corridor and classroom showing each control and life-safety device in
   turn: a dual-technology occupancy sensor, a photocell and contactor in an electrical room
   (closed panel), a networked room controller, an exit sign, an emergency battery unit, and a
   UL 924 transfer device. Ends with a 30-second test on an emergency unit and a test log entry.

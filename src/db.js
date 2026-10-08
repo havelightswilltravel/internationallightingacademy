@@ -224,6 +224,62 @@ CREATE TABLE IF NOT EXISTS audit_log (
   created_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
 
+-- Skills Matrix: field-system competency areas and ratings (1 seen · 2 understand · 3 perform · 4 can teach)
+CREATE TABLE IF NOT EXISTS competency_areas (
+  code TEXT PRIMARY KEY,
+  sort INTEGER NOT NULL,
+  title TEXT NOT NULL,
+  components TEXT,
+  courses_json TEXT NOT NULL DEFAULT '[]',
+  guide_key TEXT,                                  -- library source_key of the matching field procedure
+  active INTEGER NOT NULL DEFAULT 1
+);
+
+CREATE TABLE IF NOT EXISTS competency_ratings (
+  user_id INTEGER NOT NULL REFERENCES users(id),
+  area_code TEXT NOT NULL REFERENCES competency_areas(code),
+  self_rating INTEGER,
+  steps_text TEXT,
+  components_text TEXT,
+  self_updated_at TEXT,
+  eval_rating INTEGER,
+  eval_notes TEXT,
+  evaluator_id INTEGER REFERENCES users(id),
+  eval_updated_at TEXT,
+  PRIMARY KEY (user_id, area_code)
+);
+
+-- Hiring: interview kits (from curriculum/hiring) and candidates scored by managers.
+CREATE TABLE IF NOT EXISTS interview_kits (
+  code TEXT PRIMARY KEY,
+  title TEXT NOT NULL,
+  position TEXT,
+  kit_json TEXT NOT NULL,
+  active INTEGER NOT NULL DEFAULT 1
+);
+
+CREATE TABLE IF NOT EXISTS candidates (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  org_id INTEGER NOT NULL REFERENCES organizations(id),
+  name TEXT NOT NULL,
+  email TEXT,
+  phone TEXT,
+  position TEXT,
+  kit_code TEXT NOT NULL REFERENCES interview_kits(code),
+  source TEXT,
+  status TEXT NOT NULL DEFAULT 'new',              -- new | interviewed | offered | hired | not_selected | withdrew
+  interviewer_id INTEGER REFERENCES users(id),
+  interview_date TEXT,
+  responses_json TEXT NOT NULL DEFAULT '{}',       -- { bg: {i: notes}, comp: {key: {score, answered, notes}}, observe: [..], requirements: [..], closing }
+  recommendation TEXT,                             -- strong_yes | yes | no | strong_no
+  summary TEXT,
+  hired_user_id INTEGER REFERENCES users(id),
+  created_by INTEGER REFERENCES users(id),
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS candidates_org ON candidates(org_id, status);
+
 CREATE TABLE IF NOT EXISTS meta (
   key TEXT PRIMARY KEY,
   value TEXT
@@ -238,7 +294,15 @@ function open(file) {
   db = new DatabaseSync(target);
   db.exec('PRAGMA journal_mode = WAL; PRAGMA foreign_keys = ON; PRAGMA busy_timeout = 5000;');
   db.exec(SCHEMA);
+  migrate(db);
   return db;
+}
+
+// Additive column migrations for databases created by earlier versions.
+function migrate(d) {
+  const has = (table, col) => d.prepare(`PRAGMA table_info(${table})`).all().some((c) => c.name === col);
+  if (!has('tracks', 'kind')) d.exec("ALTER TABLE tracks ADD COLUMN kind TEXT NOT NULL DEFAULT 'progression'");
+  if (!has('tracks', 'audience')) d.exec("ALTER TABLE tracks ADD COLUMN audience TEXT NOT NULL DEFAULT 'technician'");
 }
 
 function get() {

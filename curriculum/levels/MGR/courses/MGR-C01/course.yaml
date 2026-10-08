@@ -1,0 +1,189 @@
+code: MGR-C01
+title: Defining the Role & the Ideal Technician
+order: 1
+estimated_hours: 2
+description: >
+  Good hiring starts before the job ad. This course teaches managers to analyze the job, separate
+  essential functions from preferences, build a candidate profile from our company's qualities
+  checklist, give candidates a realistic preview of the work, and use the training ladder as a
+  recruiting advantage.
+objectives:
+  - Conduct a basic job analysis and sort tasks into essential functions, trainable skills, and preferences.
+  - Write essential functions as outcomes, including accommodation-aware physical requirements.
+  - Build a candidate profile and select six to eight interview competencies for an opening.
+  - Set must-haves and tie-breakers before screening begins.
+  - Deliver a realistic job preview covering on call, travel, outdoor work, lifting, and heights.
+  - Explain the grade ladder, placement, and pay by grade to candidates accurately.
+lessons:
+  - 01-job-analysis-and-essential-functions.md
+  - 02-the-ideal-technician-profile.md
+  - 03-realistic-job-previews-and-the-training-ladder.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: MGR-C01-Q01
+      type: single
+      q: Why should a job analysis be completed before the job is advertised?
+      choices:
+        - It is required so the ad can list a salary
+        - It sets a consistent, job-related standard for screening and interviewing and documents essential functions
+        - It lets the manager decide who "feels right" faster
+        - It replaces the need for interviews
+      answer: 1
+      explanation: A written analysis done in advance gives every interviewer the same standard and is evidence of essential functions for ADA purposes.
+      ref: MGR-C01 Lesson 1
+    - id: MGR-C01-Q02
+      type: single
+      q: Which of the following is a preference, not a requirement, for an entry-level lighting technician at our company?
+      choices:
+        - Following lockout/tagout procedures
+        - Working safely from ladders and lifts
+        - Prior knowledge of lighting and electrical work
+        - Communicating with customers
+      answer: 2
+      explanation: The company's own checklist says lighting and electrical knowledge is a plus but not necessary; our training teaches it.
+      ref: MGR-C01 Lesson 1
+    - id: MGR-C01-Q03
+      type: single
+      q: Which is the best way to write a physical requirement?
+      choices:
+        - "Must be healthy."
+        - "Must be able to lift 50 lbs."
+        - "Lift, carry, and position fixtures and materials up to 50 lbs, frequently, with or without reasonable accommodation."
+        - "No physical limitations."
+      answer: 2
+      explanation: Outcome-based wording tied to real tasks, with accommodation language, is fair, consistent, and defensible.
+      ref: MGR-C01 Lesson 1
+    - id: MGR-C01-Q04
+      type: single
+      q: When rating a task during job analysis, which question helps decide whether it is an essential function?
+      choices:
+        - Could another crew member reasonably do it instead?
+        - Does the current technician enjoy doing it?
+        - Was it on the last job ad?
+        - Does the manager do it personally?
+      answer: 0
+      explanation: Frequency, consequence of not doing it, and whether it can be reassigned are the key tests for essential functions.
+      ref: MGR-C01 Lesson 1
+    - id: MGR-C01-Q05
+      type: single
+      q: Why is "Healthy" a problem as a listed candidate requirement?
+      choices:
+        - It is too easy to verify
+        - It is not job-specific and invites disability-related judgments; the specific physical functions should be assessed instead
+        - Healthy people are harder to train
+        - It is only a problem in the electrician kit
+      answer: 1
+      explanation: General health is not an essential function. Assess specific tasks (lifting, climbing, outdoor work) with accommodation-aware wording.
+      ref: MGR-C01 Lesson 2
+    - id: MGR-C01-Q06
+      type: multi
+      q: Which items on the company qualities list are best assessed through behavior-based questions and references (rather than documents)? Select all that apply.
+      choices:
+        - Self starter
+        - Valid driver's license
+        - Problem solver
+        - Safety conscious
+      answer: [0, 2, 3]
+      explanation: Character qualities like initiative, problem solving, and safety attitude show up in past behavior. A license is verified with documents.
+      ref: MGR-C01 Lesson 2
+    - id: MGR-C01-Q07
+      type: single
+      q: A candidate says, "I'm always on time and dependable." According to the kit's "Items to watch for," how should you treat this?
+      choices:
+        - As a strong differentiator worth a high score
+        - As a baseline expectation that does not by itself set the candidate apart
+        - As a red flag that the candidate is lying
+        - As grounds to skip the remaining questions
+      answer: 1
+      explanation: The kit notes that dependability and punctuality are part of the job expectation, not a differentiator.
+      ref: Company interview kit; MGR-C01 Lesson 2
+    - id: MGR-C01-Q08
+      type: single
+      q: When should must-haves and tie-breakers be decided?
+      choices:
+        - After the first strong candidate is interviewed
+        - During the calibration meeting
+        - Before any resumes are reviewed
+        - After references are checked
+      answer: 2
+      explanation: Setting them in advance prevents changing the standard to fit a candidate the team already likes.
+      ref: MGR-C01 Lesson 2
+    - id: MGR-C01-Q09
+      type: single
+      q: How many competencies should typically be selected from the kit for a given opening?
+      choices:
+        - All 22, every time
+        - Six to eight, used consistently for every candidate for that opening
+        - One or two, chosen per candidate
+        - Whichever the interviewer prefers that day
+      answer: 1
+      explanation: A focused, consistent set keeps the interview manageable and comparable across candidates.
+      ref: MGR-C01 Lesson 2
+    - id: MGR-C01-Q10
+      type: single
+      q: What is the main purpose of a realistic job preview?
+      choices:
+        - To discourage all candidates
+        - To show the hard parts of the job up front so candidates can self-select and new hires arrive with accurate expectations
+        - To avoid discussing pay
+        - To replace the interview
+      answer: 1
+      explanation: RJPs reduce early turnover by preventing surprise about on call, travel, outdoor and physical work.
+      ref: MGR-C01 Lesson 3
+    - id: MGR-C01-Q11
+      type: multi
+      q: Which working conditions should a lighting technician job preview include? Select all that apply.
+      choices:
+        - On-call rotation and odd hours
+        - Travel of up to a few weeks a few times a year
+        - Outdoor work and lifting materials
+        - The candidate's likely religious holidays
+      answer: [0, 1, 2]
+      explanation: Preview the real working conditions. Do not raise religion; scheduling accommodation is handled separately and lawfully.
+      ref: MGR-C01 Lesson 3
+    - id: MGR-C01-Q12
+      type: single
+      q: After describing on-call and lifting demands, what question should you ask every candidate?
+      choices:
+        - "Do you have any medical conditions that would prevent this?"
+        - "Can you perform these functions, with or without reasonable accommodation?"
+        - "How old are you?"
+        - "Do you have kids who would make on call hard?"
+      answer: 1
+      explanation: The essential-functions question is lawful and consistent; medical, age, and family questions are not.
+      ref: MGR-C01 Lesson 3; MGR-C04
+    - id: MGR-C01-Q13
+      type: single
+      q: Which statement about the training ladder is accurate to tell candidates?
+      choices:
+        - "Everyone reaches LT3 in exactly one year."
+        - "Advancement depends on demonstrated competence: quizzes, a final exam, verified hours, and observed skills."
+        - "We guarantee you an electrical license."
+        - "Promotions are based on seniority."
+      answer: 1
+      explanation: The program advances technicians on demonstrated competence. Never guarantee timing or licensure.
+      ref: MGR-C01 Lesson 3; docs/SYLLABUS.md
+    - id: MGR-C01-Q14
+      type: single
+      q: An experienced lighting technician asks whether they will have to start at the bottom. What is the accurate answer?
+      choices:
+        - Yes, everyone starts at LT1 with no exceptions
+        - No; a documented placement assessment can place them at the appropriate grade
+        - No; they can choose any grade they want
+        - Only if they have a journeyman license
+      answer: 1
+      explanation: The program supports placement of experienced hires at the right grade after a documented assessment.
+      ref: MGR-C01 Lesson 3
+    - id: MGR-C01-Q15
+      type: single
+      q: During a finalist shop tour or ride-along, what may a candidate do?
+      choices:
+        - Help carry ladders to save time
+        - Observe only, following company insurance and safety rules
+        - Perform a relamp to show skill
+        - Drive the company truck
+      answer: 1
+      explanation: Visitors are not employees or trained; they observe only, under company insurance and safety rules.
+      ref: MGR-C01 Lesson 3

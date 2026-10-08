@@ -6,8 +6,8 @@ description: >
   Integrates the full lighting track. Reviews the highest-priority LT1-LT4 content (electrical
   safety and LOTO, fall protection, electrical fundamentals, light sources, LED drivers and
   dimming, lighting controls, emergency and egress lighting, codes and standards, power quality
-  and systematic troubleshooting) in preparation for the comprehensive CALT certification exam,
-  and defines the requirements, deliverables and evaluation criteria for the CALT capstone
+  and systematic troubleshooting) in preparation for the comprehensive LT5 certification exam,
+  and defines the requirements, deliverables and evaluation criteria for the LT5 capstone
   project.
 objectives:
   - Apply the steps to establish an electrically safe work condition, including live-dead-live verification
@@ -279,7 +279,7 @@ quiz:
       explanation: Half-splitting narrows the fault location efficiently using measurements rather than parts swapping.
     - id: LT5-C05-Q25
       type: multi
-      q: Which items are required deliverables or conditions of the CALT capstone project? (Select all that apply.)
+      q: Which items are required deliverables or conditions of the LT5 capstone project? (Select all that apply.)
       choices:
         - Written evaluator approval of the project proposal before work begins
         - A written JHA and LOTO plan, with zero safety deviations during field work

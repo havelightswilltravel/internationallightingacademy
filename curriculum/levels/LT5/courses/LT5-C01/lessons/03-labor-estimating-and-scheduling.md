@@ -3,7 +3,7 @@ title: Labor Estimating and Job Scheduling
 minutes: 30
 video:
 video_suggestion: >
-  A CALT times a two-person crew installing three troffer retrofit kits in a training lab,
+  an LT5 technician times a two-person crew installing three troffer retrofit kits in a training lab,
   then shows how the measured time becomes a per-unit labor unit. Cut to a whiteboard where
   the tech adds lift setup, travel, LOTO, cleanup and contingency, and builds a simple
   day-by-day schedule for a 120-fixture job.
@@ -12,7 +12,7 @@ video_suggestion: >
 ## Why Labor Is the Hardest Number
 Material prices come from a quote. Labor comes from judgment. Underestimate labor and the job
 loses money or the crew gets rushed, which is when people skip safety steps. Overestimate and
-the bid loses. A CALT builds labor estimates from **units, conditions and history**, not
+the bid loses. an LT5 technician builds labor estimates from **units, conditions and history**, not
 guesses.
 
 ## Labor Units

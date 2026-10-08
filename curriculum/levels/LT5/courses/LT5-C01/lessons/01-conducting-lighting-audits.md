@@ -3,7 +3,7 @@ title: Conducting a Lighting Audit
 minutes: 30
 video:
 video_suggestion: >
-  A CALT walks a small office and warehouse with a tablet audit form. Show the pre-audit
+  an LT5 technician walks a small office and warehouse with a tablet audit form. Show the pre-audit
   meeting with the facility manager, counting fixtures room by room, identifying a T8 troffer
   and a 400 W metal halide high-bay from their labels (ladder use shown correctly), taking
   illuminance readings at desk height, and noting existing controls and operating hours.
@@ -14,7 +14,7 @@ video_suggestion: >
 Every retrofit proposal, estimate and savings calculation is only as good as the audit behind
 it. A missed room, a wrong fixture count, or a guess about operating hours can turn a
 profitable job into a loss, or promise a customer savings that never show up on the utility
-bill. As a CALT you are expected to produce an audit that another estimator could price
+bill. As an LT5 technician you are expected to produce an audit that another estimator could price
 without returning to the site.
 
 ## Before You Go

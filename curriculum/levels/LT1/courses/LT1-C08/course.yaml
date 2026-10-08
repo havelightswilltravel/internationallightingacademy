@@ -1,0 +1,192 @@
+code: LT1-C08
+title: Incandescent & Halogen Systems
+order: 8
+estimated_hours: 4
+description: >
+  Teaches entry-level technicians to identify, service and troubleshoot incandescent and
+  halogen lighting. Covers lamp shapes, bases and ordering codes, sockets and the socket eye,
+  thermal protectors in IC and non-IC recessed cans, dimmers, safe halogen handling, the
+  company's incandescent troubleshooting procedure in safe step order, parts ordering,
+  conversion to LED, disposal, and when to write a problem up for an electrician.
+objectives:
+  - Identify incandescent and halogen lamp shapes, bases and ordering codes and write a complete lamp order
+  - Name every component of an incandescent fixture and describe how each one fails
+  - Explain how thermal protectors work in recessed cans, why they cycle, and the difference between IC and non-IC housings
+  - Troubleshoot a dark or cycling incandescent fixture using the company procedure with LOTO and de-energized checks first
+  - Handle halogen lamps safely and keep required lenses and guards in place
+  - Select an appropriate LED conversion, check dimmer compatibility, and dispose of removed lamps correctly
+  - Recognize conditions that must be written up for an electrician
+lessons:
+  - 01-lamps-bases-and-ordering-codes.md
+  - 02-sockets-thermal-protectors-and-dimmers.md
+  - 03-troubleshooting-incandescent-fixtures.md
+  - 04-halogen-handling-led-conversion-and-disposal.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C08-Q01
+      type: single
+      q: What is the maximum diameter of a PAR38 lamp?
+      choices:
+        - 3.8 inches
+        - 38 millimeters
+        - 4.75 inches
+        - 38 centimeters
+      answer: 2
+      explanation: The number after the shape code is the diameter in eighths of an inch. 38 divided by 8 is 4.75 inches.
+      ref: LT1-C08 Lesson 1
+    - id: LT1-C08-Q02
+      type: single
+      q: Which base is a candelabra screw base?
+      choices:
+        - E12
+        - E26
+        - E39
+        - R7s
+      answer: 0
+      explanation: E12 is candelabra, E26 is medium, E39 is mogul, and R7s is the double-ended recessed contact base used on T3 linear halogen lamps.
+      ref: LT1-C08 Lesson 1
+    - id: LT1-C08-Q03
+      type: single
+      q: A double-ended T3 halogen lamp with an R7s base is replaced. Besides wattage and voltage, what measurement must be matched?
+      choices:
+        - The bulb's weight
+        - The overall length, such as 78 mm or 118 mm
+        - The beam angle
+        - The neck length
+      answer: 1
+      explanation: R7s lamps are ordered by overall length. Measure the old lamp or the socket spacing rather than guessing.
+      ref: LT1-C08 Lesson 1
+    - id: LT1-C08-Q04
+      type: single
+      q: A recessed can label says "Maximum 65 W type BR30." A customer wants a brighter 100 W BR30 installed because it fits. What do you do?
+      choices:
+        - Install the 100 W lamp since it fits the socket
+        - Install a 100 W A19 instead
+        - Bypass the thermal protector so the brighter lamp does not cycle off
+        - Install a lamp within the label limit and note the request on the work order (an LED option may give more light within the limit)
+      answer: 3
+      explanation: The fixture label limits wattage and lamp type. Exceeding it overheats the fixture and wiring. An LED lamp can often give more light at lower wattage.
+      ref: LT1-C08 Lesson 1; fixture listing label
+    - id: LT1-C08-Q05
+      type: single
+      q: The "socket eye" refers to which part of a screw-base socket?
+      choices:
+        - The threaded screw shell
+        - The center contact tab at the bottom of the socket
+        - The mounting bracket
+        - The ground screw
+      answer: 1
+      explanation: The socket eye is the spring center contact. When it is flattened or scorched, the lamp may not make contact.
+      ref: LT1-C08 Lesson 2
+    - id: LT1-C08-Q06
+      type: single
+      q: A recessed incandescent fixture goes out after about 20 minutes and comes back on by itself later. What is the most likely cause?
+      choices:
+        - The thermal protector is opening because the can is overheating
+        - The breaker is undersized
+        - The lamp filament is broken
+        - The switch is wired backwards
+      answer: 0
+      explanation: On-and-off cycling is the classic sign of a thermal protector tripping from too much heat, usually caused by excessive wattage, the wrong lamp type or insulation against a non-IC can.
+      ref: LT1-C08 Lesson 2
+    - id: LT1-C08-Q07
+      type: multi
+      q: Which conditions can cause a thermal protector to cycle? (Select all that apply.)
+      choices:
+        - Lamp wattage higher than the label allows
+        - An A-lamp installed in a can labeled for reflector lamps only
+        - Thermal insulation packed against a non-IC housing
+        - Using a lamp with the correct wattage and type in an IC-rated can with no insulation problems
+      answer: [0, 1, 2]
+      explanation: Excess wattage, the wrong lamp type and insulation against a non-IC can all trap heat. A correctly lamped fixture should not cycle unless the protector itself has failed.
+      ref: LT1-C08 Lesson 2; NEC Article 410 (recessed luminaires)
+    - id: LT1-C08-Q08
+      type: single
+      q: What should you do with a thermal protector that keeps tripping?
+      choices:
+        - Jumper it out so the light stays on
+        - Remove it and tape the wires together
+        - Find and correct the cause of overheating, and write it up if the protector has failed or the problem continues
+        - Install a higher-wattage lamp to burn it in
+      answer: 2
+      explanation: The protector is a safety device. Never bypass it. Correct the lamp or insulation problem, or write it up for repair or a listed LED conversion.
+      ref: LT1-C08 Lesson 2
+    - id: LT1-C08-Q09
+      type: single
+      q: According to the company procedure, what is the first troubleshooting step on a dark incandescent fixture?
+      choices:
+        - Check the thermal protector
+        - Check the lamp's continuity or install a known-good lamp
+        - Replace the socket
+        - Open the panel and check the breaker
+      answer: 1
+      explanation: The company procedure starts with the lamp (continuity or a known-good lamp), then power, switch, socket/socket eye and thermal protector.
+      ref: Company Master Troubleshooting Guide, Incandescent
+    - id: LT1-C08-Q10
+      type: single
+      q: You check a removed 60 W, 120 V incandescent lamp with a DMM on ohms. The meter reads OL. What does that mean?
+      choices:
+        - The lamp is good
+        - The lamp is shorted
+        - The meter needs a new battery
+        - The filament is open and the lamp is burned out
+      answer: 3
+      explanation: OL means an open circuit. A good lamp of that size reads roughly 15 to 20 ohms cold.
+      ref: LT1-C08 Lesson 3
+    - id: LT1-C08-Q11
+      type: single
+      q: An LT1 who is not qualified for energized testing needs to "check power" at a socket. What is the right approach?
+      choices:
+        - Have a qualified person perform the voltage test with the required PPE, or write it up
+        - Stick a screwdriver in the socket to see if it sparks
+        - Use a non-contact tester and treat it as proof the circuit is dead
+        - Test it alone while standing on a fiberglass ladder
+      answer: 0
+      explanation: Energized voltage testing is done only by qualified persons under the company's NFPA 70E program. De-energized checks find most problems; the rest is written up.
+      ref: NFPA 70E; company scope of work
+    - id: LT1-C08-Q12
+      type: single
+      q: With a good lamp and good socket, a qualified person finds no voltage at the switch feeding a single fixture. What should the LT1 do next?
+      choices:
+        - Replace the fixture
+        - Remove the panel dead front and reset breakers
+        - Stop and write it up for an electrician, since the problem is upstream in the branch circuit
+        - Replace the lamp again
+      answer: 2
+      explanation: No voltage at the switch means the problem is upstream. Panels, breakers and branch-circuit wiring are written up for an electrician.
+      ref: LT1-C08 Lesson 3
+    - id: LT1-C08-Q13
+      type: multi
+      q: Which are correct practices when handling halogen lamps? (Select all that apply.)
+      choices:
+        - Handle the quartz with gloves or the lamp's sleeve, not bare fingers
+        - Clean the quartz with isopropyl alcohol if it was touched
+        - Return a floodlight to service without its lens if the lens is broken
+        - Let the lamp and fixture cool before handling
+      answer: [0, 1, 3]
+      explanation: Skin oil causes hot spots, so avoid touching or clean the quartz. Halogen lamps are very hot. Fixtures that require a lens must not be operated without one.
+      ref: LT1-C08 Lesson 4
+    - id: LT1-C08-Q14
+      type: single
+      q: You are converting halogen PAR38 floods on a wall dimmer to LED PAR38 lamps. What must you check?
+      choices:
+        - Nothing; LED lamps work on any dimmer
+        - That the dimmer is listed as compatible with the LED lamps, or note that it needs replacement
+        - That the LED lamp has a higher wattage than the halogen lamp
+        - That the LED lamp has a different base
+      answer: 1
+      explanation: Older incandescent dimmers can cause LED flicker, buzzing or poor dimming. Check compatibility and document a needed dimmer change.
+      ref: LT1-C08 Lesson 4
+    - id: LT1-C08-Q15
+      type: single
+      q: How are burned-out incandescent and halogen lamps normally disposed of?
+      choices:
+        - In the universal waste box with fluorescent lamps
+        - Left in the customer's wastebasket, broken or not
+        - Mailed back to the manufacturer
+        - As regular solid waste in most areas (wrapped if broken), following company and local rules
+      answer: 3
+      explanation: They do not contain mercury, so they are usually regular waste. Wrap broken glass, follow company policy and stricter local rules, and keep mercury lamps out of the trash.
+      ref: LT1-C08 Lesson 4

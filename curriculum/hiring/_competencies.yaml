@@ -1,0 +1,85 @@
+# Behavior-based competency questions shared by the interview kits.
+# Scored 1-9 (9 = highest) with Answered Y/N. Probe for a negative example if a candidate only gives positive ones.
+- competency: Adaptability
+  questions:
+    - Describe a major change that occurred in a job that you held. How did you adapt to this change?
+- competency: Ambition
+  questions:
+    - Give an example of an important goal that you set in the past. Tell about your success in reaching it.
+    - Tell about a time when you had to go above and beyond the call of duty in order to get a job done.
+    - What is the riskiest decision you have made? What was the situation? What happened?
+- competency: Analytical Thinking
+  questions:
+    - Give me a specific example of a time when you used good judgment and logic in solving a problem.
+    - Give me a specific example of a time when you used poor judgment and logic in solving a problem.
+    - Give me an example of when you took a risk to achieve a goal. What was the outcome?
+- competency: Building Relationships
+  questions:
+    - Give a specific example of a time when you had to address an angry customer. What was the problem and what was the outcome? How would you assess your role in diffusing the situation?
+    - It is very important to build good relationships at work but sometimes it does not always work. If you can, tell about a time when you were not able to build a successful relationship with a difficult person.
+- competency: Business Systems Thinking
+  questions:
+    - Describe how your position contributes to your organization/unit goals. What are/were the unit's goals/mission?
+- competency: Caution
+  questions:
+    - Have you ever worked in a situation where the rules and guidelines were not clear? Tell me about it.
+- competency: Communication
+  questions:
+    - Describe a situation when you were able to strengthen a relationship by communicating effectively. What made your communication effective?
+    - Tell about a time when you and your current/previous supervisor disagreed but you still found a way to get your point across.
+- competency: Customer Orientation
+  questions:
+    - How do you handle problems with customers? Give an example.
+- competency: Decision Making
+  questions:
+    - Everyone has made some poor decisions or has done something that just did not turn out right. What happened?
+    - What was your most difficult decision in the last 6 months? What made it difficult?
+- competency: Detail-Oriented
+  questions:
+    - Have the jobs you held in the past required little attention, moderate attention, or a great deal of attention to detail? Give me an example of a situation that illustrates this requirement.
+- competency: Evaluating Alternatives
+  questions:
+    - Have you ever had a situation where you had a number of alternatives to choose from? How did you go about choosing one?
+    - What kinds of decisions are most difficult for you? Describe one.
+- competency: Initiative
+  questions:
+    - How did you get work assignments at your most recent employer?
+    - What kinds of things really get you excited?
+- competency: Interpersonal Skills
+  questions:
+    - Tell about the most difficult or frustrating individual that you have ever had to work with, and how you managed to work with them.
+- competency: Innovation
+  questions:
+    - When was the last time that you thought "outside of the box" and how did you do it?
+- competency: Integrity
+  questions:
+    - Tell about a time when your trustworthiness was challenged. How did you react/respond?
+    - On occasion we are confronted by dishonesty in the workplace. Tell about such an occurrence and how you handled it.
+- competency: Listening
+  questions:
+    - What do you do to show people that you are listening to them?
+    - When is listening important on your job? When is listening difficult?
+- competency: Organizational
+  questions:
+    - How do you handle doing twenty things at once?
+    - How do you decide what gets top priority when scheduling your time?
+- competency: Personal Effectiveness
+  questions:
+    - It is important to maintain a positive attitude at work when you have other things on your mind. Give a specific example of when you were able to do that.
+    - Tell about a time when you took responsibility for an error and were held personally accountable.
+- competency: Problem Resolution
+  questions:
+    - Describe a situation where you had a conflict with another individual, and how you dealt with it. What was the outcome? How do you feel about it?
+    - Sometimes we need to remain calm on the outside when we are really upset on the inside. Give an example of a time that this happened to you.
+- competency: Resolving Conflict
+  questions:
+    - Have you ever been in a situation where you had to settle an argument between two friends (or people you knew)? What did you do? What was the result?
+- competency: Self Assessment
+  questions:
+    - If there were one area you have always wanted to improve upon, what would that be?
+    - In what ways are you trying to improve yourself?
+    - What do you consider to be your professional strengths?
+    - What do you consider to be your professional weakness?
+- competency: Teamwork
+  questions:
+    - Some people work best as part of a group - others prefer the role of individual contributor. How would you describe yourself? Give an example of a situation where you felt you were most effective.

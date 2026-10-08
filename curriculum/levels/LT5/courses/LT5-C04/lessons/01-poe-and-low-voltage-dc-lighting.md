@@ -3,7 +3,7 @@ title: PoE and Low-Voltage DC Lighting
 minutes: 30
 video:
 video_suggestion: >
-  In a training lab, a CALT shows a PoE lighting demo board: a PoE switch, patch panel,
+  In a training lab, an LT5 technician shows a PoE lighting demo board: a PoE switch, patch panel,
   Category cable runs and PoE luminaires and sensors. Show checking a switch's power budget
   in its interface, terminating and certifying a cable, and a simple fault (one port over
   budget, fixture won't power). Close with the tech pointing out cable bundling and labeling.

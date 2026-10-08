@@ -1,0 +1,193 @@
+code: LT2-C08
+title: 3-Way & 4-Way Switching
+order: 8
+estimated_hours: 5
+description: >
+  Explains how 3-way and 4-way switches control lighting from multiple locations: common and
+  traveler terminals, power-to-switch and power-to-fixture layouts, 4-way switches in the
+  traveler path, and how to draw and read a switching diagram. Teaches the company procedure
+  for 3-way complaints — wiggle the switch arm, check connection points, trace power flow with
+  the diagram or write it up — expanded with lockout, live-dead-live verification and
+  de-energized continuity tracing. Also covers 3-way dimmers, smart and occupancy controls,
+  neutral-at-switch requirements, parts ordering and when to escalate to an electrician.
+objectives:
+  - Identify common, traveler and ground terminals on 3-way and 4-way switches and verify them by continuity
+  - Draw the power-to-switch, power-to-fixture and 4-way switching diagrams and predict each switch combination
+  - Relate common symptoms (works only in certain positions, never turns off, intermittent) to their likely causes
+  - Troubleshoot a 3-way circuit using the company procedure with lockout and de-energized continuity methods first
+  - Select a compatible 3-way dimmer, smart control or occupancy sensor, including neutral and load requirements
+  - Decide when a switching problem must be written up for an electrician and document it properly
+lessons:
+  - 01-how-3-way-and-4-way-switches-work.md
+  - 02-wiring-configurations-and-diagrams.md
+  - 03-troubleshooting-3-way-circuits.md
+  - 04-dimmers-smart-and-occupancy-3-way.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C08-Q01
+      type: single
+      q: On a standard 3-way switch, the darker (black or bronze) screw is usually which terminal?
+      choices:
+        - Common
+        - Traveler
+        - Equipment ground
+        - Neutral
+      answer: 0
+      explanation: The common is typically the dark screw. The two lighter brass screws are the travelers and the green screw is ground. Always confirm with markings and a continuity test.
+      ref: LT2-C08 Lesson 1
+    - id: LT2-C08-Q02
+      type: single
+      q: How many switches are needed to control one light from four locations?
+      choices:
+        - Four 3-way switches
+        - Two 3-way switches and two 4-way switches
+        - One 3-way switch and three 4-way switches
+        - Two single-pole switches and two 4-way switches
+      answer: 1
+      explanation: Two 3-ways are always at the ends; add one 4-way for each location beyond two (4 − 2 = 2 four-ways).
+      ref: LT2-C08 Lesson 1
+    - id: LT2-C08-Q03
+      type: single
+      q: What is the only job of a 4-way switch?
+      choices:
+        - To interrupt the neutral
+        - To switch the line hot on and off
+        - To pass the two travelers straight through or cross them over
+        - To connect the switch leg to ground
+      answer: 2
+      explanation: A 4-way sits only in the traveler path and either passes the travelers straight through or crosses them.
+      ref: LT2-C08 Lesson 1
+    - id: LT2-C08-Q04
+      type: single
+      q: In a power-to-switch 3-way layout, where does the line hot from the panel land?
+      choices:
+        - On a traveler terminal of the second switch
+        - On the light's neutral terminal
+        - On the 4-way input pair
+        - On the common terminal of the first switch
+      answer: 3
+      explanation: In power-to-switch, the incoming hot lands on the first switch's common; the second switch's common feeds the switch leg to the light.
+      ref: LT2-C08 Lesson 2
+    - id: LT2-C08-Q05
+      type: single
+      q: In a power-to-fixture (power-to-light) 3-way layout, what is often missing from the switch boxes?
+      choices:
+        - A neutral conductor
+        - Travelers
+        - An equipment grounding conductor
+        - A common terminal
+      answer: 0
+      explanation: In power-to-fixture work the line hot and neutral are at the light box; the switch boxes get switch loops and often have no neutral. White conductors there are commonly used as hots or travelers.
+      ref: LT2-C08 Lesson 2
+    - id: LT2-C08-Q06
+      type: single
+      q: A stairwell light works only when the bottom switch is in the down position. What is the most likely cause?
+      choices:
+        - A failed lamp
+        - One traveler is open (loose, broken or burned connection) or a common/traveler is swapped
+        - The breaker is too small
+        - The neutral is oversized
+      answer: 1
+      explanation: Position-dependent operation is the classic sign of an open traveler, a swapped common and traveler, or a misland on a 4-way.
+      ref: LT2-C08 Lesson 3
+    - id: LT2-C08-Q07
+      type: single
+      q: A 3-way controlled light never turns off from either switch. What miswire is most likely?
+      choices:
+        - The travelers are reversed at one switch
+        - The ground is open
+        - The line hot is connected directly to the switch leg, bypassing the switches
+        - A 4-way switch was installed upside down
+      answer: 2
+      explanation: If the hot is landed straight onto the switch leg (or a traveler is shorted to it), the switches cannot interrupt the light. Reversing travelers alone does not cause this.
+      ref: LT2-C08 Lesson 3
+    - id: LT2-C08-Q08
+      type: single
+      q: According to the company procedure, what is the first thing to do on a 3-way complaint?
+      choices:
+        - Replace both switches
+        - Open the panel and check the breaker
+        - Write it up for an electrician
+        - Wiggle the switch arm to check for a bad switch
+      answer: 3
+      explanation: The company procedure starts with wiggling the switch arm (after confirming the complaint), then checking connection points for intermittent power, then tracing with the diagram or writing it up.
+      ref: Company Master Troubleshooting Guide — 3-way switching
+    - id: LT2-C08-Q09
+      type: single
+      q: When ringing out travelers with a continuity test, what must be true first?
+      choices:
+        - The circuit is locked out, verified dead live-dead-live, and the travelers are disconnected from the switches
+        - The circuit is energized so the meter has a reference
+        - Only the light's breaker needs to be off; other circuits in the box do not matter
+        - The lamps must be removed but the circuit can stay on
+      answer: 0
+      explanation: Continuity testing is done de-energized. Lock out, verify absence of voltage on every conductor in the box (boxes may contain multiple circuits), and disconnect the travelers so switch contacts do not give false readings.
+      ref: LT2-C08 Lesson 3
+    - id: LT2-C08-Q10
+      type: single
+      q: While testing all switch combinations, two neighboring combinations (only one switch flipped) give the same result. What does this tell you?
+      choices:
+        - The circuit is working normally
+        - A traveler, common or 4-way pair is wrong or open
+        - The lamp is the wrong wattage
+        - The neutral is too long
+      answer: 1
+      explanation: In a correct 3-way or 4-way circuit, every single switch flip changes the light's state. Two neighbors with the same result locate a fault.
+      ref: LT2-C08 Lesson 2
+    - id: LT2-C08-Q11
+      type: single
+      q: How is a traditional (non-smart) 3-way dimmer installed on a two-location circuit?
+      choices:
+        - Both 3-way switches are replaced with 3-way dimmers
+        - The dimmer replaces the 4-way switch
+        - The dimmer replaces one 3-way switch; the other location stays a standard 3-way
+        - The dimmer is installed at the light fixture
+      answer: 2
+      explanation: Traditional setups allow only one dimmer; the other location remains a standard 3-way that just turns the light on and off.
+      ref: LT2-C08 Lesson 4
+    - id: LT2-C08-Q12
+      type: single
+      q: A smart switch requires a neutral, but the switch box has none. What should you do?
+      choices:
+        - Use the bare equipment grounding conductor as the neutral
+        - Borrow a neutral from a nearby box on another circuit
+        - Leave the neutral terminal unconnected
+        - Choose a no-neutral device listed for the application or write it up for an electrician to add a neutral
+      answer: 3
+      explanation: Never use the ground or a neutral from another circuit as a neutral. Use a listed no-neutral device or have an electrician install the proper neutral.
+      ref: LT2-C08 Lesson 4
+    - id: LT2-C08-Q13
+      type: multi
+      q: Which conditions should be written up for an electrician rather than repaired by a lighting technician? (Select all that apply.)
+      choices:
+        - The breaker trips whenever one of the 3-way switches is flipped
+        - A loose screw terminal on a switch you can re-tighten after lockout
+        - Cables cannot be traced and new conductors would have to be pulled
+        - A scorched box with damaged conductor insulation
+      answer: [0, 2, 3]
+      explanation: Trips on switch operation, untraceable wiring needing new conductors, and damaged boxes/conductors are electrician work. Re-terminating a loose screw under lockout is within a tech's scope.
+      ref: LT2-C08 Lesson 3
+    - id: LT2-C08-Q14
+      type: multi
+      q: Before ordering a replacement multi-location smart dimmer kit, which details must you record? (Select all that apply.)
+      choices:
+        - Whether a neutral is required and present
+        - The load type and minimum/maximum load
+        - The matching companion model for the main dimmer
+        - The color of the travelers in the wall
+      answer: [0, 1, 2]
+      explanation: Neutral requirement, load type and load limits, and the matched companion determine compatibility. Traveler color does not affect ordering.
+      ref: LT2-C08 Lesson 4
+    - id: LT2-C08-Q15
+      type: single
+      q: The fixture flickers when you gently rock a 3-way toggle without fully throwing it. What does this most likely indicate?
+      choices:
+        - A worn switch mechanism or a loose connection at that switch
+        - A failed neutral at the panel
+        - A correctly working switch
+        - An overloaded 4-way switch elsewhere on the circuit
+      answer: 0
+      explanation: The wiggle-the-arm test that produces flicker points to a bad switch or a loose terminal at that device. Lock out and inspect the connection points.
+      ref: Company Master Troubleshooting Guide — 3-way switching

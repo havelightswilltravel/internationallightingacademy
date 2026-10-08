@@ -1,7 +1,7 @@
 <%- include('partials/header') %>
 <p class="crumbs"><a href="/levels">Program</a> › <%= level.code %></p>
 <section class="card">
-  <p class="eyebrow"><%= level.grade %> · <%= access === 'completed' ? 'Achieved' : access === 'current' ? 'Your current level' : 'Locked — complete the previous level first' %></p>
+  <p class="eyebrow"><%= level.grade %> · <%= access === 'completed' ? 'Achieved' : access === 'current' ? 'Your current level' : access === 'open' ? 'Open to you' : 'Locked — complete the previous level first' %></p>
   <h1><%= level.code %> — <%= level.title %></h1>
   <p><%= level.description %></p>
   <% if (outcomes.length) { %>
@@ -10,7 +10,8 @@
   <% } %>
 </section>
 
-<% if (user.role === 'technician' && access !== 'locked') { %>
+<% var mine = access === 'open' || (user.role === 'technician' && access !== 'locked'); %>
+<% if (mine) { %>
 <section class="card">
   <h2>Requirements <span class="muted small"><%= lp.percent %>% complete</span></h2>
   <%- include('partials/progress', { lp: lp }) %>
@@ -33,8 +34,9 @@
 
 <section class="card">
   <h2>Level final exam</h2>
+  <% if (lp.promoted && access === 'open') { %><p><span class="pill ok">Certified <%= fmtDate(lp.promoted.approved_at) %></span></p><% } %>
   <p><%= level.exam_questions %> questions drawn from every course in this level · <%= level.exam_time_limit %> minute time limit · <%= level.exam_pass_score %>% to pass. If you don't pass, you can retake it after 24 hours.</p>
-  <% if (user.role === 'technician' && access === 'current') { %>
+  <% if (access === 'open' || (user.role === 'technician' && access === 'current')) { %>
     <% if (lp.exam.passed) { %>
       <p><span class="pill ok">Passed — <%= lp.exam.bestScore %>%</span></p>
     <% } else if (openExam) { %>

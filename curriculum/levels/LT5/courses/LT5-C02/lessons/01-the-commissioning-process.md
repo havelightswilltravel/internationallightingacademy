@@ -3,7 +3,7 @@ title: The Commissioning Process
 minutes: 25
 video:
 video_suggestion: >
-  A short explainer filmed in a finished office: a CALT and the commissioning agent stand in
+  A short explainer filmed in a finished office: an LT5 technician and the commissioning agent stand in
   front of a whiteboard timeline (OPR, design, install, pre-functional checks, functional
   testing, issues log, training, turnover) and describe who does what at each step. Cut to
   quick clips of each activity on a real project.
@@ -70,7 +70,7 @@ how these documents fit together.
 - **Controls manufacturer / startup technician:** programs the system, especially networked
   controls.
 
-As a CALT you will often be the person who actually runs the tests while the CxA witnesses.
+As an LT5 technician you will often be the person who actually runs the tests while the CxA witnesses.
 Your job is to execute the tests honestly and record results exactly as observed.
 
 > **Safety:** Commissioning involves ladder and lift work, opening devices, and sometimes

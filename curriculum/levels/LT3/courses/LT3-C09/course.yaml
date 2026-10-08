@@ -1,0 +1,231 @@
+code: LT3-C09
+title: Neon & Cold-Cathode Signage
+order: 9
+estimated_hours: 6
+description: >-
+  How neon and cold-cathode signs work and how to troubleshoot them safely: gas-discharge tubes,
+  neon sign transformers and electronic power supplies, secondary ground-fault protection (SGFP),
+  GTO cable, electrode boots, PK housings, tube supports and tie wire, exposed vs channel-letter
+  neon, enclosures, flex and the NEC Article 600 sign disconnect. Covers the company neon
+  troubleshooting procedure rewritten for safety (observe and listen only, de-energized bypass and
+  split-half isolation), parts ordering, and LED neon alternatives and retrofits. High-voltage neon
+  work is restricted to qualified persons or sign specialists in many jurisdictions.
+objectives:
+- Explain how a cold-cathode gas tube strikes and runs and why neon units are wired in series
+- >-
+  Identify every neon sign component (glass units, boots, GTO, transformer, PK housings, standoffs,
+  channels, tie wire, enclosures, flex) and describe how each fails
+- >-
+  Describe the hazards of neon secondary voltage, stored charge and arcing, and why energized
+  glass, electrodes and GTO are never touched
+- >-
+  Explain what SGFP does and why many SGFP or electronic transformers will not produce output with
+  the secondary open
+- >-
+  Troubleshoot exposed and channel-letter neon using observation, lockout, de-energized inspection,
+  rated bypass jumpers and the split-half method
+- >-
+  Gather correct parts-ordering data and describe LED neon alternatives, listed retrofit kits and
+  the retrofit marking requirement
+lessons:
+- 01-how-neon-and-cold-cathode-work.md
+- 02-transformers-sgfp-gto-and-installation-hardware.md
+- 03-safe-neon-troubleshooting-procedure.md
+- 04-repairs-parts-ordering-and-led-neon-retrofits.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+  - id: LT3-C09-Q01
+    type: single
+    q: Why does one broken neon tube cause every unit on that transformer to go dark?
+    choices:
+    - The units on one transformer are wired in series, so one open breaks the whole circuit
+    - The SGFP shuts down any transformer with a broken tube connected anywhere in the building
+    - Broken glass shorts the primary winding
+    - Neon units are wired in parallel and share a common fuse
+    answer: 0
+    explanation: >-
+      The glass units on a transformer are in series and carry the same current. A broken tube,
+      lost gas or open connection opens the series circuit, so the whole string goes dark.
+  - id: LT3-C09-Q02
+    type: single
+    q: >-
+      The company guide says to "listen/look/feel for voltage in the glass." How must this step be
+      performed in this program?
+    choices:
+    - Feel the glass lightly with the back of the hand only
+    - Touch the glass with an insulated screwdriver to see if it sparks
+    - Feel the glass only while wearing leather gloves
+    - Observe for glow and listen for hum from a safe distance; never touch energized glass, electrodes or GTO
+    answer: 3
+    explanation: >-
+      Touching energized neon can be fatal; cracked glass or tracked boots can carry thousands of
+      volts and high voltage can arc before contact. The "feel" part is removed — observe and listen
+      only, and use rated testers or de-energized checks.
+  - id: LT3-C09-Q03
+    type: single
+    q: >-
+      A 15,000 V midpoint-grounded neon transformer is installed. About how much voltage is there
+      between either secondary lead and ground?
+    choices:
+    - 120 V
+    - About 7,500 V
+    - 15,000 V on one lead and zero on the other
+    - 30,000 V
+    answer: 1
+    explanation: >-
+      With a grounded midpoint, each output lead is at roughly half the rated open-circuit voltage
+      to ground — still lethal.
+  - id: LT3-C09-Q04
+    type: single
+    q: >-
+      An SGFP transformer shows no output when its secondary leads are disconnected. What does this
+      tell you?
+    choices:
+    - The transformer is definitely bad and must be replaced
+    - The sign disconnect is open
+    - Nothing conclusive; many SGFP and electronic units are designed to shut off with an open secondary, so test it by the manufacturer's method
+    - The GTO is burned through
+    answer: 2
+    explanation: >-
+      Open-circuit and test/"bypass" behavior varies by manufacturer. Many SGFP units sense an open
+      secondary and will not output. Test only by the manufacturer's procedure with rated equipment.
+  - id: LT3-C09-Q05
+    type: single
+    q: A neon sign lights for a few seconds, then shuts off, over and over. What is the most likely cause?
+    choices:
+    - The SGFP is tripping on a secondary ground fault such as a tracked boot, burned GTO or water
+    - A tube has lost its gas
+    - The photocell is set too sensitive
+    - The transformer secondary voltage is too low
+    answer: 0
+    explanation: >-
+      Repeated shutdown is classic SGFP behavior. Find the leakage path to ground; do not keep
+      resetting or bypass the protection.
+  - id: LT3-C09-Q06
+    type: single
+    q: Which GTO cable is appropriate for a transformer with a 12,000 V open-circuit secondary?
+    choices:
+    - GTO-5
+    - GTO-10
+    - Standard THHN rated 600 V
+    - GTO-15
+    answer: 3
+    explanation: >-
+      The GTO voltage rating must be at least the secondary open-circuit voltage. GTO-15 is rated
+      for up to 15,000 V; GTO-10 is too low.
+  - id: LT3-C09-Q07
+    type: single
+    q: You find a section of GTO with a black carbon track where it touches a metal letter can. What is the correct repair?
+    choices:
+    - Wrap it with several layers of electrical tape
+    - Lock out, discharge, and replace the GTO with correctly rated cable routed off metal on proper supports, with new boots
+    - Coat it with silicone sealant while the sign is running
+    - Leave it if the sign still lights
+    answer: 1
+    explanation: >-
+      Burn-through means the insulation has failed. Burned GTO is replaced, never taped, and
+      re-routed so it does not contact metal.
+  - id: LT3-C09-Q08
+    type: single
+    q: The company guide says to check the "first piece of neon off the transformer." Why start there?
+    choices:
+    - It carries full lead voltage and is a frequent failure point
+    - It is always the longest tube
+    - It is the only tube with electrodes
+    - The transformer fuse is mounted inside it
+    answer: 0
+    explanation: >-
+      The glass nearest the transformer sees the highest stress and is commonly where breaks and
+      electrode failures occur. It is inspected (de-energized) early in the procedure.
+  - id: LT3-C09-Q09
+    type: single
+    q: >-
+      The company guide describes going "from GTO to ground" on the center unit's leads to split a
+      channel-letter sign. Which method replaces this in the training program?
+    choices:
+    - Ground the lead with an insulated screwdriver while wearing rubber gloves
+    - Disable the SGFP first so grounding the lead does not trip it
+    - With the sign locked out, install a rated bypass jumper across half the letters, re-energize from a safe position and observe
+    - Have a second person hold the GTO against the letter can
+    answer: 2
+    explanation: >-
+      Grounding an energized secondary creates a live high-voltage fault, trips SGFP and endangers
+      the tech. Bypass jumpers are installed and removed only while locked out; the sign is observed
+      while energized.
+  - id: LT3-C09-Q10
+    type: multi
+    q: Which steps are required before touching any neon secondary component? (Select all that apply.)
+    choices:
+    - Open and lock out the sign disconnect
+    - Verify absence of voltage at the transformer primary using live-dead-live
+    - Wait for and discharge stored energy per the employer's procedure
+    - Connect a standard multimeter across the secondary leads to confirm zero volts
+    answer: [0, 1, 2]
+    explanation: >-
+      LOTO, verification on the primary and discharge of stored charge are required. A standard
+      multimeter must never be connected to a neon secondary.
+  - id: LT3-C09-Q11
+    type: single
+    q: On a channel-letter sign, how should you check which letters are lit?
+    choices:
+    - Insert a screwdriver into the drain holes to feel for vibration
+    - Open each letter face while energized
+    - Touch each PK housing
+    - Observe each letter through its face and drain holes from a safe distance
+    answer: 3
+    explanation: >-
+      Observation through the face and drain holes is the corrected method. Never put tools or
+      fingers into drain holes of an energized letter.
+  - id: LT3-C09-Q12
+    type: multi
+    q: Which statements about the sign disconnect are correct? (Select all that apply.)
+    choices:
+    - The NEC requires a disconnecting means for each sign that opens all ungrounded conductors
+    - It is generally required within sight of the sign or lockable in the open position
+    - A sign with no lockable disconnect is written up before work proceeds
+    - Signs on a time clock do not need a disconnect
+    answer: [0, 1, 2]
+    explanation: >-
+      NEC Article 600 requires a sign disconnect, generally within sight or lockable. A time clock
+      is not a disconnecting means.
+    ref: NEC 2023 Article 600 (600.6)
+  - id: LT3-C09-Q13
+    type: single
+    q: What is the purpose of electrode boots ("booties")?
+    choices:
+    - To hold the glass to the tube supports
+    - To insulate and seal the electrode-to-GTO connection against arcing and water
+    - To limit the transformer current
+    - To ground the electrode to the letter can
+    answer: 1
+    explanation: >-
+      Boots cover the electrode and GTO connection. Cracked or missing boots allow arcing and water
+      entry and are a common cause of SGFP trips.
+  - id: LT3-C09-Q14
+    type: single
+    q: A customer's channel-letter sign is being retrofitted from neon to LED. Which statement is correct?
+    choices:
+    - Any LED strip and any power supply may be used as long as the letters light
+    - The existing NST can power the LED modules directly
+    - Use a listed retrofit kit installed per its instructions, remove unused high-voltage parts as directed, and apply the retrofit marking
+    - Retrofits never need a disconnect because LED is low voltage
+    answer: 2
+    explanation: >-
+      Retrofits use listed kits (UL 879A), the NEC requires the modified sign to be marked, and the
+      disconnect remains required for the line-voltage supply.
+    ref: UL 879A; NEC 2023 Article 600
+  - id: LT3-C09-Q15
+    type: single
+    q: One exposed neon unit glows dimly and is a slightly different color from the rest. What is the most likely cause?
+    choices:
+    - The tube is losing its gas fill (leak) and needs to be replaced
+    - The transformer has failed
+    - The sign disconnect is half open
+    - The tie wire is too loose
+    answer: 0
+    explanation: >-
+      A tube that is dim, flickers or changes color while its neighbors are normal is typically
+      losing gas. Confirm by bypassing it (locked out) and observing; glass is replaced by a
+      neon fabricator.

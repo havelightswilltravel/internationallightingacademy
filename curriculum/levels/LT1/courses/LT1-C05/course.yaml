@@ -1,7 +1,7 @@
 code: LT1-C05
 title: Light Sources & Fixture Basics
 order: 5
-estimated_hours: 7
+estimated_hours: 8
 description: >
   Introduces the light sources and fixtures a lighting technician services every day:
   incandescent and halogen, linear and compact fluorescent, HID (mercury vapor, metal halide,
@@ -15,11 +15,13 @@ objectives:
   - Explain HID warm-up, restrike, end-of-life symptoms, and metal halide rupture precautions
   - Identify common lamp bases and explain the role of ballasts, ignitors, transformers, and drivers
   - Identify common fixture types and read fixture and ballast labels and ratings
+  - "Apply the first steps of the company fluorescent/CFL troubleshooting sequence and record parts information for the work order"
 lessons:
   - 01-lighting-terms-and-metrics.md
   - 02-incandescent-halogen-and-fluorescent.md
   - 03-hid-and-led-sources.md
   - 04-bases-ballasts-drivers-and-fixtures.md
+  - 05-first-response-fluorescent-and-cfl.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -177,3 +179,43 @@ quiz:
         - Lower the fixture so the light is less intense
       answer: 1
       explanation: A lamp with a broken outer bulb can emit UV radiation that burns skin and eyes. De-energize and replace immediately.
+    - id: LT1-C05-Q16
+      type: single
+      q: "You arrive at a dark fluorescent troffer and see that both lamps have heavily blackened ends. According to the company procedure, what do you do first?"
+      choices:
+        - "Replace the ballast"
+        - "Change the lamps"
+        - "Trace the circuit to the first junction box"
+        - "Replace the sockets"
+      answer: 1
+      explanation: "Blackened ends show worn-out cathodes. The company sequence says change blackened lamps before any other testing."
+    - id: LT1-C05-Q17
+      type: single
+      q: "Power is confirmed at a two-lamp fluorescent fixture, and one lamp lights while the other does not even with a new lamp. Where should the problem be looked for next?"
+      choices:
+        - "The breaker"
+        - "The wall switch"
+        - "The sockets and wiring for the dark lamp"
+        - "The building's main service"
+      answer: 2
+      explanation: "If some lamps work, power and much of the ballast are working; the company procedure points to the sockets and wiring of the dark lamp."
+    - id: LT1-C05-Q18
+      type: single
+      q: "On a 2-pin compact fluorescent lamp (such as a G23 or G24d base), where is the starter (igniter)?"
+      choices:
+        - "Inside the lamp base, so a new lamp includes a new starter"
+        - "In a separate plug-in can on the fixture"
+        - "In the wall switch"
+        - "There is no starter on any CFL"
+      answer: 0
+      explanation: "2-pin CFLs have the starter built into the base. 4-pin CFLs are started by an electronic ballast in the fixture."
+    - id: LT1-C05-Q19
+      type: single
+      q: "You relamp a T5 fixture with correct new lamps but it stays dark. What simple step often brings it back?"
+      choices:
+        - "Rotate the lamps a quarter turn more"
+        - "Swap to T8 lamps"
+        - "Remove the lens"
+        - "Turn the fixture's power off, wait as the ballast label says, and turn it back on to reset the ballast"
+      answer: 3
+      explanation: "Many T5 ballasts shut down when a lamp fails or is removed and stay off until input power is cycled."

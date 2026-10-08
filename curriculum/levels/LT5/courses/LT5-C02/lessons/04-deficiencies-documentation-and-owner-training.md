@@ -3,7 +3,7 @@ title: Deficiency Tracking, Documentation and Owner Training
 minutes: 30
 video:
 video_suggestion: >
-  Show a CALT logging a failed daylight test in an issues log on a tablet, assigning it to
+  Show an LT5 technician logging a failed daylight test in an issues log on a tablet, assigning it to
   the controls vendor, and later retesting it. Then film a 5-minute excerpt of an owner
   training session where the tech shows facility staff how to change a schedule, adjust a
   sensor time delay and run an emergency lighting test, handing over the O&M binder at the end.
@@ -16,7 +16,7 @@ deficiency log). It is how problems get fixed instead of forgotten.
 | Field | Example |
 |---|---|
 | Issue # | L-014 |
-| Date found / found by | 2026-05-12, J. Ortiz (CALT) |
+| Date found / found by | 2026-05-12, J. Ortiz |
 | Location / system | Floor 3, Room 312, daylight zone 1 |
 | Description | Fixtures do not dim with daylight; remain at 100% |
 | Test reference | FPT-DL-03 step 3 |

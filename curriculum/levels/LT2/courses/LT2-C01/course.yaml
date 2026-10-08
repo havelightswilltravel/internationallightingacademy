@@ -1,7 +1,7 @@
 code: LT2-C01
 title: Electrical Fundamentals II
 order: 1
-estimated_hours: 6
+estimated_hours: 7
 description: >
   Builds on LT1 Electrical Fundamentals I to explain the AC power systems lighting runs on:
   sine waves and RMS values, single-phase and three-phase wye systems (120/208V and
@@ -14,11 +14,13 @@ objectives:
   - Predict line-to-line, line-to-neutral and line-to-ground voltages on 120/240V, 208Y/120V and 480Y/277V systems
   - Distinguish the grounded (neutral) conductor from the equipment grounding conductor and explain where they are bonded
   - Calculate fixture current using power factor and estimate voltage drop on a lighting branch circuit
+  - "Explain how coils, capacitors and transformers work in ballasts, contactors, power packs and sign and low-voltage transformers, and apply primary-then-secondary troubleshooting logic"
 lessons:
   - 01-ac-waveforms.md
   - 02-single-and-three-phase-systems.md
   - 03-neutral-vs-equipment-ground.md
   - 04-power-factor-and-voltage-drop.md
+  - 05-coils-capacitors-and-transformers.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -178,3 +180,43 @@ quiz:
         - A neutral-to-ground bond at the service
       answer: 2
       explanation: Hot-to-ground should read about the same as hot-to-neutral on a wye system. Near 0 V hot-to-ground means the EGC path is missing or open — a shock hazard because faults will not clear.
+    - id: LT2-C01-Q16
+      type: single
+      q: "A de-energized contactor coil reads OL (open) on the ohms range. What does this indicate?"
+      choices:
+        - "The coil is normal"
+        - "The coil has a broken (open) winding"
+        - "The coil is shorted"
+        - "The contacts are welded"
+      answer: 1
+      explanation: "A healthy coil reads a low resistance. OL means the winding is broken and the coil cannot pull in."
+    - id: LT2-C01-Q17
+      type: single
+      q: "Which replacement is acceptable for a failed HID ballast capacitor marked 24 µF 280 VAC?"
+      choices:
+        - "30 µF 280 VAC, to make the lamp brighter"
+        - "24 µF 240 VAC"
+        - "24 µF 400 VAC"
+        - "Any capacitor that physically fits"
+      answer: 2
+      explanation: "Use the same microfarad value and an equal or higher voltage rating. Changing the µF value changes lamp operation; a lower voltage rating can fail."
+    - id: LT2-C01-Q18
+      type: single
+      q: "An LED sign power supply reads 0 V on its output with all modules disconnected, but correct input voltage. What should you conclude first?"
+      choices:
+        - "Many electronic supplies cut out with no load; reconnect the load and check secondary connections before condemning it"
+        - "The power supply has definitely failed"
+        - "The input breaker is off"
+        - "The modules are shorted"
+      answer: 0
+      explanation: "Many electronic supplies have protective cut-outs and show no output unloaded or with poor secondary connections. Test under load after checking connections."
+    - id: LT2-C01-Q19
+      type: multi
+      q: "Which are true of capacitors in lighting equipment? (Select all that apply.)"
+      choices:
+        - "They can hold a dangerous charge after power is removed"
+        - "They are tested de-energized on the meter's capacitance range"
+        - "A bulged or leaking case means the capacitor should be replaced"
+        - "Bleed resistors always discharge them, so verification is unnecessary"
+      answer: [0, 1, 2]
+      explanation: "Capacitors store charge and bleed resistors can fail — discharge and verify 0 V. Physical damage is a clear replacement indicator."

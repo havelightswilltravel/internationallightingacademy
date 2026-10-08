@@ -3,7 +3,7 @@ title: UV-C Germicidal Lighting Safety
 minutes: 30
 video:
 video_suggestion: >
-  Film a CALT preparing to service an upper-room UV-C fixture in a training room: reviewing the
+  Film an LT5 technician preparing to service an upper-room UV-C fixture in a training room: reviewing the
   manufacturer's manual, locking out the fixture circuit, verifying the UV indicator is off,
   wearing a UV-rated face shield and covering skin, replacing a lamp, and bagging the old
   mercury lamp as universal waste. Include a close-up of warning labels and the interlock switch.

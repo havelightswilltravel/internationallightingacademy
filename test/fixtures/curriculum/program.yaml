@@ -4,3 +4,8 @@ tracks:
   - code: LIGHTING
     title: Lighting
     levels: [LT1, LT2]
+  - code: MANAGEMENT
+    title: Manager Module
+    kind: standalone
+    audience: staff
+    levels: [MGR]

@@ -1,0 +1,107 @@
+<%- include('../partials/header') %>
+<p class="crumbs no-print"><a href="/hiring">Hiring</a> › <%= blank ? kit.title : c.name %></p>
+<section class="card">
+  <div class="row-between">
+    <div>
+      <p class="eyebrow"><%= kit.title %></p>
+      <h1><%= blank ? 'Candidate: ______________________' : c.name %></h1>
+    </div>
+    <div class="row no-print">
+      <button class="btn" type="button" data-print>Print</button>
+      <% if (!blank && c.status !== 'hired' && (user.role === 'admin' || user.role === 'owner')) { %>
+      <form method="post" action="/hiring/<%= c.id %>/hire" data-confirm="Hire <%= c.name %> and create their technician account? This uses one license seat.">
+        <input type="hidden" name="_csrf" value="<%= csrf %>"><button class="btn primary">Hire &amp; create account</button>
+      </form>
+      <% } %>
+    </div>
+  </div>
+  <% if (score) { %>
+  <div class="grid stats">
+    <div class="stat"><b><%= score.avg != null ? score.avg.toFixed(1) : '—' %></b><span>Average score (of 9)</span></div>
+    <div class="stat"><b><%= score.scored %>/<%= score.questions %></b><span>Questions scored</span></div>
+    <div class="stat"><b><%= score.answered %>/<%= score.asked %></b><span>Answered with an example</span></div>
+    <div class="stat"><b><%= c.recommendation ? recs[c.recommendation] : '—' %></b><span>Recommendation</span></div>
+  </div>
+  <% } %>
+  <div class="flash info small"><strong>Interviewer instructions:</strong> <%= kit.instructions %></div>
+</section>
+
+<form method="post" action="<%= blank ? '#' : '/hiring/' + c.id %>" class="scorecard">
+  <input type="hidden" name="_csrf" value="<%= csrf %>">
+  <% var R = responses || {}; var bg = R.bg || {}; var comp = R.comp || {}; var obs = R.observe || []; var req_ = R.requirements || []; %>
+  <% if (!blank) { %>
+  <section class="card">
+    <h2>Candidate</h2>
+    <div class="grid two">
+      <label>Name <input name="name" value="<%= c.name %>" required></label>
+      <label>Position <input name="position" value="<%= c.position || '' %>"></label>
+      <label>Email <input type="email" name="email" value="<%= c.email || '' %>"></label>
+      <label>Phone <input name="phone" value="<%= c.phone || '' %>"></label>
+      <label>Source <input name="source" value="<%= c.source || '' %>"></label>
+      <label>Interview date <input type="date" name="interview_date" value="<%= c.interview_date || '' %>"></label>
+    </div>
+  </section>
+  <% } %>
+
+  <section class="card">
+    <h2>Position / background questions</h2>
+    <% kit.background.forEach(function (b, i) { %>
+    <div class="bq">
+      <p><strong><%= i + 1 %>.</strong> <%= b.q %></p>
+      <% if (b.note) { %><p class="small muted no-print">ⓘ <%= b.note %></p><% } %>
+      <textarea name="bg_<%= i %>" rows="2" placeholder="Notes"><%= bg[i] || '' %></textarea>
+    </div>
+    <% }) %>
+  </section>
+
+  <section class="card">
+    <h2>Behavior-based competencies</h2>
+    <p class="muted small">Score each answer 1–9 (9 highest). If the candidate gives only positive examples, ask for one that did not go well. Mark whether the question was answered with a specific example.</p>
+    <% kit.competencies.forEach(function (cp, ci) { %>
+      <h3><%= cp.competency %><% if (score && score.byCompetency[ci].avg != null) { %> <span class="pill ok"><%= score.byCompetency[ci].avg.toFixed(1) %></span><% } %></h3>
+      <% cp.questions.forEach(function (q, qi) { var k = ci + '-' + qi; var e = comp[k] || {}; %>
+      <div class="cq">
+        <p><%= q %></p>
+        <div class="row">
+          <label class="inline">Score
+            <select name="score_<%= k %>"><option value="">—</option><% for (var n = 1; n <= 9; n++) { %><option <%= e.score === n ? 'selected' : '' %>><%= n %></option><% } %></select>
+          </label>
+          <span class="inline">Answered:
+            <label class="inline-choice"><input type="radio" name="ans_<%= k %>" value="Y" <%= e.answered === 'Y' ? 'checked' : '' %>> Y</label>
+            <label class="inline-choice"><input type="radio" name="ans_<%= k %>" value="N" <%= e.answered === 'N' ? 'checked' : '' %>> N</label>
+          </span>
+          <input name="notes_<%= k %>" placeholder="Notes / example given" value="<%= e.notes || '' %>" class="grow">
+        </div>
+      </div>
+      <% }) %>
+    <% }) %>
+    <div class="bq"><p><strong><%= kit.closing %></strong></p><textarea name="closing" rows="2"><%= R.closing || '' %></textarea></div>
+  </section>
+
+  <div class="grid two">
+    <section class="card">
+      <h2>Observe</h2>
+      <% kit.observe.forEach(function (o, i) { %><label class="choice"><input type="checkbox" name="observe" value="<%= i %>" <%= obs.indexOf(i) >= 0 ? 'checked' : '' %>> <span><%= o %></span></label><% }) %>
+      <h2>Items to watch for in answers</h2>
+      <ul class="small"><% kit.watch_for.forEach(function (w) { %><li><%= w %></li><% }) %></ul>
+    </section>
+    <section class="card">
+      <h2>Candidate qualities / requirements</h2>
+      <% kit.requirements.forEach(function (o, i) { %><label class="choice"><input type="checkbox" name="requirements" value="<%= i %>" <%= req_.indexOf(i) >= 0 ? 'checked' : '' %>> <span><%= o %></span></label><% }) %>
+    </section>
+  </div>
+
+  <% if (!blank) { %>
+  <section class="card">
+    <h2>Decision</h2>
+    <div class="grid two">
+      <label>Status <select name="status"><% Object.keys(statuses).forEach(function (s) { if (s === 'hired' && c.status !== 'hired') return; %><option value="<%= s %>" <%= c.status === s ? 'selected' : '' %>><%= statuses[s] %></option><% }) %></select></label>
+      <label>Recommendation <select name="recommendation"><option value="">—</option><% Object.keys(recs).forEach(function (r) { %><option value="<%= r %>" <%= c.recommendation === r ? 'selected' : '' %>><%= recs[r] %></option><% }) %></select></label>
+    </div>
+    <label>Summary — evidence for your recommendation <textarea name="summary" rows="4"><%= c.summary || '' %></textarea></label>
+    <% if (c.status === 'hired') { %><p class="flash success">Hired<% if (c.hired_user_id) { %> — <a href="/team/<%= c.hired_user_id %>">technician record</a><% } %>. The scorecard is locked.</p>
+    <% } else { %><button class="btn primary no-print">Save scorecard</button><% } %>
+  </section>
+  <% } %>
+</form>
+<%- include('../partials/footer') %>

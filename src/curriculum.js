@@ -140,19 +140,52 @@ function load(dir = DEFAULT_DIR) {
     }
   }
 
-  return { program, levels, library, errors, warnings };
+  // Skills Matrix areas
+  let competencies = [];
+  const compFile = path.join(dir, 'competencies.yaml');
+  if (fs.existsSync(compFile)) {
+    try {
+      const doc = readYaml(compFile);
+      const courseCodes = new Set(levels.flatMap((l) => l.courses.map((c) => c.code)));
+      const guideKeys = new Set(library.map((d) => d.source_key));
+      competencies = (doc.areas || []).map((a, i) => {
+        if (!a.code || !a.title) errors.push(`competencies.yaml: area #${i + 1} needs code and title`);
+        (a.courses || []).filter((c) => !courseCodes.has(c)).forEach((c) => warnings.push(`competencies.yaml: ${a.code} links to unknown course ${c}`));
+        const guideKey = a.guide ? `library/field-procedures/${a.guide}.md` : null;
+        if (guideKey && !guideKeys.has(guideKey)) warnings.push(`competencies.yaml: ${a.code} guide not found: ${guideKey}`);
+        return { code: a.code, sort: i + 1, title: a.title, components: a.components || '', courses: a.courses || [], guide_key: guideKey };
+      });
+    } catch (e) { errors.push(`competencies.yaml: ${e.message}`); }
+  }
+
+  // Hiring interview kits
+  const kits = [];
+  const hdir = path.join(dir, 'hiring');
+  if (fs.existsSync(hdir)) {
+    try {
+      const shared = fs.existsSync(path.join(hdir, '_competencies.yaml')) ? readYaml(path.join(hdir, '_competencies.yaml')) : [];
+      for (const file of fs.readdirSync(hdir).filter((f) => f.endsWith('.yaml') && !f.startsWith('_')).sort()) {
+        const k = readYaml(path.join(hdir, file));
+        if (!k.code || !k.title) { errors.push(`hiring/${file}: needs code and title`); continue; }
+        kits.push({ ...k, competencies: k.competencies || shared });
+      }
+    } catch (e) { errors.push(`hiring: ${e.message}`); }
+  }
+
+  return { program, levels, library, competencies, kits, errors, warnings };
 }
 
 // Upserts everything. Items removed from the files are deactivated (never deleted) so that
 // learner history stays intact.
 function importToDb(data) {
-  const { program, levels, library } = data;
-  const counts = { tracks: 0, levels: 0, courses: 0, lessons: 0, questions: 0, skills: 0, library: 0 };
+  const { program, levels, library, competencies = [], kits = [] } = data;
+  const counts = { tracks: 0, levels: 0, courses: 0, lessons: 0, questions: 0, skills: 0, library: 0, competencies: 0, interview_kits: 0 };
   db.tx(() => {
     (program.tracks || []).forEach((t, i) => {
-      db.run(`INSERT INTO tracks (code, title, description, sort, prerequisite_level) VALUES (?, ?, ?, ?, ?)
-        ON CONFLICT(code) DO UPDATE SET title=excluded.title, description=excluded.description, sort=excluded.sort, prerequisite_level=excluded.prerequisite_level`,
-      t.code, t.title, t.description || '', i + 1, t.prerequisite_level || null);
+      db.run(`INSERT INTO tracks (code, title, description, sort, prerequisite_level, kind, audience) VALUES (?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(code) DO UPDATE SET title=excluded.title, description=excluded.description, sort=excluded.sort,
+          prerequisite_level=excluded.prerequisite_level, kind=excluded.kind, audience=excluded.audience`,
+      t.code, t.title, t.description || '', i + 1, t.prerequisite_level || null, t.kind === 'standalone' ? 'standalone' : 'progression', t.audience || 'technician');
       counts.tracks++;
     });
     for (const table of ['levels', 'courses', 'lessons', 'questions', 'skills']) db.run(`UPDATE ${table} SET active = 0`);
@@ -210,6 +243,20 @@ function importToDb(data) {
           body_md=excluded.body_md, last_reviewed=excluded.last_reviewed, review_interval_months=excluded.review_interval_months, active=1, updated_at=datetime('now')`,
       d.source_key, d.category, d.title, d.tags, JSON.stringify(d.levels), d.body_md, d.last_reviewed, d.review_interval_months);
       counts.library++;
+    }
+    db.run('UPDATE competency_areas SET active = 0');
+    for (const a of competencies) {
+      db.run(`INSERT INTO competency_areas (code, sort, title, components, courses_json, guide_key, active) VALUES (?, ?, ?, ?, ?, ?, 1)
+        ON CONFLICT(code) DO UPDATE SET sort=excluded.sort, title=excluded.title, components=excluded.components, courses_json=excluded.courses_json,
+          guide_key=excluded.guide_key, active=1`, a.code, a.sort, a.title, a.components, JSON.stringify(a.courses), a.guide_key);
+      counts.competencies++;
+    }
+    db.run('UPDATE interview_kits SET active = 0');
+    for (const k of kits) {
+      db.run(`INSERT INTO interview_kits (code, title, position, kit_json, active) VALUES (?, ?, ?, ?, 1)
+        ON CONFLICT(code) DO UPDATE SET title=excluded.title, position=excluded.position, kit_json=excluded.kit_json, active=1`,
+      k.code, k.title, k.position || '', JSON.stringify(k));
+      counts.interview_kits++;
     }
     db.run("INSERT INTO meta (key, value) VALUES ('curriculum_version', ?), ('curriculum_imported_at', datetime('now')) ON CONFLICT(key) DO UPDATE SET value = excluded.value",
       String(program.version || ''));

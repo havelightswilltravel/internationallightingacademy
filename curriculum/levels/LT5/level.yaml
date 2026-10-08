@@ -1,15 +1,15 @@
 code: LT5
 track: LIGHTING
 order: 5
-title: Certified Advanced Lighting Technician (CALT)
+title: Certified Advanced Lighting Technician
 grade: Grade 5
 typical_duration_months: 3
 description: >
-  The Certified Advanced Lighting Technician (CALT) is the senior field leader of the lighting
+  The Certified Advanced Lighting Technician is the senior field leader of the lighting
   track. At this level the technician audits facilities and builds retrofit scopes and estimates,
   commissions lighting and controls systems with documented functional testing, leads crews
   safely from job start to closeout, mentors entry-level technicians, and evaluates emerging
-  lighting technology for customers. A CALT can take a lighting project from walk-through to
+  lighting technology for customers. an LT5 technician can take a lighting project from walk-through to
   owner turnover with minimal supervision, troubleshoot complete systems (power, drivers,
   controls, emergency lighting) using a disciplined method, and is eligible to enter the
   Electrical Development Track. Completion requires a comprehensive certification exam covering
@@ -147,7 +147,7 @@ skills:
       - Restores all units to normal charging operation and verifies charge indicators
       - Completes a written test record suitable for AHJ inspection
   - code: LT5-S08
-    title: CALT capstone project
+    title: LT5 capstone project
     category: Capstone
     critical: false
     description: >

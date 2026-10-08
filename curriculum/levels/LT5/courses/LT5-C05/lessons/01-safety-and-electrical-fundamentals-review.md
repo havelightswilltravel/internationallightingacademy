@@ -3,13 +3,13 @@ title: "Review: Safety and Electrical Fundamentals"
 minutes: 40
 video:
 video_suggestion: >
-  A rapid-fire review video: a CALT demonstrates live-dead-live with a proving unit and DMM,
+  A rapid-fire review video: an LT5 technician demonstrates live-dead-live with a proving unit and DMM,
   applies a personal lock in a group lockout, sets up a ladder at 4:1 extending 3 ft above the
   landing, and then works three quick calculations on a whiteboard (Ohm's law, 208 V from
   120 V line-to-neutral, and a voltage drop estimate).
 ---
 
-This review covers the most important LT1-LT4 safety and electrical fundamentals. The CALT
+This review covers the most important LT1-LT4 safety and electrical fundamentals. The LT5
 certification exam draws heavily on these topics. If anything here feels unfamiliar, go back
 to the original course.
 

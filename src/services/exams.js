@@ -45,7 +45,7 @@ function start(user, kind, code) {
   } else if (kind === 'level') {
     const level = db.one('SELECT * FROM levels WHERE code = ? AND active = 1', code);
     if (!level) return { error: 'Level not found.' };
-    if (progress.levelAccess(user, code) !== 'current') return { error: 'You can only take the final exam for the level you are currently working on.' };
+    if (!['current', 'open'].includes(progress.levelAccess(user, code))) return { error: 'You can only take the final exam for the level you are currently working on.' };
     const lp = progress.levelProgress(user, level);
     if (lp.exam.passed) return { error: 'You have already passed this exam.' };
     if (!lp.exam.eligible && !openAttempt(user.id, kind, code)) {

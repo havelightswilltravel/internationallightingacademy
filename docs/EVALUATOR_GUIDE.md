@@ -6,7 +6,7 @@ fair, consistent and safe skills assessment.
 ## Who can evaluate
 
 - **LT1–LT3 skills:** an evaluator at **LT4 or higher**, a lead technician, or a supervisor designated by the company.
-- **LT4–LT5 skills:** a supervisor, a CALT-certified lead, or a licensed electrician.
+- **LT4–LT5 skills:** a supervisor, an LT5-certified lead, or a licensed electrician.
 - **Electrical track skills (EA1–JW):** a **licensed journeyman or master electrician**. Most state apprenticeship rules require this for the hours and skills to count.
 - Evaluators may not assess themselves. Companies should avoid having someone assess a close relative.
 

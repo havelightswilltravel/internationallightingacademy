@@ -1,0 +1,55 @@
+<%- include('../partials/header') %>
+<h1>Hiring</h1>
+<% if (needsMgr) { %>
+<div class="flash info">Before interviewing, complete the <a href="/levels/MGR">Manager Module — Hiring &amp; Retention</a>. It covers behavior-based interviewing, scoring, and the questions you must never ask.</div>
+<% } %>
+<div class="grid two">
+  <section class="card">
+    <h2>Add a candidate</h2>
+    <form method="post" action="/hiring">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <label>Full name <input name="name" required></label>
+      <div class="grid two">
+        <label>Email <input type="email" name="email"></label>
+        <label>Phone <input name="phone"></label>
+      </div>
+      <div class="grid two">
+        <label>Interview kit <select name="kit_code" required><% kits.forEach(function (k) { %><option value="<%= k.code %>"><%= k.title %></option><% }) %></select></label>
+        <label>Source <input name="source" placeholder="Referral, job board, trade school…"></label>
+      </div>
+      <label>Position <input name="position" placeholder="Lighting Technician"></label>
+      <button class="btn primary">Create scorecard</button>
+    </form>
+  </section>
+  <section class="card">
+    <h2>Interview kits</h2>
+    <p class="muted small">Structured behavior-based interviews: background questions, competency questions scored 1–9, observation and requirements checklists. Ask every candidate for a position the same questions.</p>
+    <ul class="steps"><% kits.forEach(function (k) { %><li><a href="/hiring/kits/<%= k.code %>"><%= k.title %></a> <span class="muted small">— blank printable copy</span></li><% }) %></ul>
+    <p class="small"><a href="/library?category=hiring">Hiring guides</a> · <a href="/levels/MGR">Manager Module</a></p>
+  </section>
+</div>
+
+<section class="card">
+  <div class="row-between">
+    <h2>Candidates</h2>
+    <form method="get" class="inline"><select name="status" data-autosubmit><option value="">All statuses</option><% Object.keys(statuses).forEach(function (s) { %><option value="<%= s %>" <%= status === s ? 'selected' : '' %>><%= statuses[s] %></option><% }) %></select></form>
+  </div>
+  <% if (!candidates.length) { %><p class="muted">No candidates yet.</p><% } else { %>
+  <table class="table">
+    <tr><th>Candidate</th><th>Kit</th><th>Status</th><th>Avg score</th><th>Answered</th><th>Recommendation</th><th>Interviewer</th><th>Updated</th></tr>
+    <% candidates.forEach(function (c) { %>
+    <tr>
+      <td><a href="/hiring/<%= c.id %>"><%= c.name %></a><% if (c.position) { %><br><span class="muted small"><%= c.position %></span><% } %></td>
+      <td class="small"><%= c.kit_code %></td>
+      <td><span class="pill <%= c.status === 'hired' ? 'ok' : c.status === 'not_selected' || c.status === 'withdrew' ? 'bad' : '' %>"><%= statuses[c.status] %></span></td>
+      <td><strong><%= c.score && c.score.avg != null ? c.score.avg.toFixed(1) : '—' %></strong><span class="muted small"> / 9</span></td>
+      <td class="small"><%= c.score ? c.score.scored + ' of ' + c.score.questions + ' scored' : '' %></td>
+      <td><%= c.recommendation ? recs[c.recommendation] : '' %></td>
+      <td class="small"><%= c.interviewer_name || '' %></td>
+      <td class="small"><%= fmtDate(c.updated_at) %></td>
+    </tr>
+    <% }) %>
+  </table>
+  <% } %>
+</section>
+<%- include('../partials/footer') %>

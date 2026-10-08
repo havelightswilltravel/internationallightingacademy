@@ -47,10 +47,11 @@ router.get('/team/:id', staff, (req, res) => {
   if (!tech) return;
   const levels = progress.orderedLevels();
   const working = progress.workingLevel(tech, levels);
+  const allLevels = [...levels, ...progress.standaloneLevels()];
   const viewCode = req.query.level || (working && working.code) || tech.current_level_code;
-  const viewLevel = levels.find((l) => l.code === viewCode) || working;
+  const viewLevel = allLevels.find((l) => l.code === viewCode) || working;
   res.render('tech', {
-    title: tech.name, tech, levels, working, viewLevel,
+    title: tech.name, tech, levels, allLevels, working, viewLevel,
     lp: viewLevel ? progress.levelProgress(tech, viewLevel) : null,
     promotions: db.all('SELECT p.*, l.title AS level_title, u.name AS approver FROM promotions p JOIN levels l ON l.code = p.level_code JOIN users u ON u.id = p.approved_by WHERE p.user_id = ? ORDER BY p.approved_at', tech.id),
     pendingHours: db.all("SELECT * FROM ojt_hours WHERE user_id = ? AND status = 'pending' ORDER BY work_date", tech.id),
@@ -157,6 +158,31 @@ router.post('/team/:id/place', auth.requireLogin, auth.requireRole('owner', 'adm
   db.audit(req.user, 'placed', { tech: tech.id, level: code, reason });
   req.flash('success', `${tech.name} placed at ${code || 'no grade'}.`);
   res.redirect(`/team/${tech.id}`);
+});
+
+// ---------- manager module (standalone levels for staff) ----------
+router.get('/managers', staff, (req, res) => {
+  const levels = progress.standaloneLevels().filter((l) => l.audience === 'staff');
+  const filter = req.user.role === 'owner' ? '' : 'AND u.org_id = ' + Number(req.user.org_id);
+  const people = db.all(`SELECT u.*, o.name AS org_name FROM users u LEFT JOIN organizations o ON o.id = u.org_id
+    WHERE u.role IN ('admin', 'evaluator') AND u.active = 1 ${filter} ORDER BY u.name`).map((u) => ({
+    ...u, rows: levels.map((l) => ({ level: l, lp: progress.levelProgress(u, l) })),
+  }));
+  res.render('managers', { title: 'Manager training', people, levels });
+});
+
+router.post('/managers/:id/certify', auth.requireLogin, auth.requireRole('owner', 'admin'), (req, res) => {
+  const person = loadTech(req, res);
+  if (!person) return;
+  const level = progress.standaloneLevels().find((l) => l.code === req.body.level);
+  if (!level || person.id === req.user.id) { req.flash('error', 'You cannot certify yourself.'); return res.redirect('/managers'); }
+  const lp = progress.levelProgress(person, level);
+  if (!lp.readyForPromotion) { req.flash('error', 'Not every requirement has been met yet.'); return res.redirect('/managers'); }
+  const no = certificateNo(level.code);
+  db.run('INSERT INTO promotions (user_id, level_code, approved_by, notes, certificate_no) VALUES (?, ?, ?, ?, ?)', person.id, level.code, req.user.id, 'Manager certification', no);
+  db.audit(req.user, 'manager_certified', { user: person.id, level: level.code, certificate: no });
+  req.flash('success', `${person.name} certified: ${level.title} (${no}).`);
+  res.redirect('/managers');
 });
 
 // ---------- transcript (technicians see their own; staff see their team) ----------

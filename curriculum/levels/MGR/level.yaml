@@ -1,0 +1,130 @@
+code: MGR
+track: MANAGEMENT
+order: 1
+title: "Hiring & Retention for Managers"
+grade: "Manager Certification"
+typical_duration_months: 1
+description: >
+  A standalone certification for managers, supervisors, and lead technicians who recruit, interview,
+  hire, and keep lighting technicians and electricians. It teaches managers to define the role before
+  they recruit, screen fairly and consistently, run structured behavior-based interviews using our
+  company's interview kits (available in the app under Hiring → Interview kits), stay inside the law,
+  check references, make sound selection decisions, place new hires at the right grade, and keep good
+  people through onboarding, mentoring, regular one-on-ones, and stay interviews. Content on
+  employment law is general training, not legal advice; our company's HR team and legal counsel set
+  the final policy, and state and local laws vary.
+outcomes:
+  - Write a job profile that separates essential functions from preferences and gives candidates a realistic preview of the work (on call, travel, outdoor work, lifting).
+  - Source and screen technician and electrician candidates fairly, applying knock-out requirements consistently and only where they are job-related.
+  - Conduct a structured behavior-based interview with the company interview kit, probing for negative examples and specific evidence using the STAR method.
+  - Score answers on the 1–9 scale against behavioral anchors and write evidence-based notes that would hold up to review.
+  - Recognize and avoid prohibited or high-risk interview questions (protected classes, medical, age, family status, arrests, pay history) and replace them with compliant, job-related questions.
+  - Conduct reference checks and license verification, lead a calibration meeting, and make and document a defensible selection decision and offer.
+  - Place a new hire at the right starting grade using the program's placement assessment and pay-by-grade scale, and deliver a 30/60/90-day onboarding plan with a mentor.
+  - Use one-on-ones, recognition, the grade ladder, stay interviews, and exit interviews to reduce avoidable turnover.
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 30
+    time_limit_minutes: 60
+  min_ojt_hours: 0
+skills:
+  - code: MGR-S01
+    title: Conduct a structured behavior-based interview (observed)
+    category: Interviewing
+    critical: true
+    description: >
+      The manager conducts a live or role-played interview for a technician or electrician opening
+      using the company interview kit, observed by a senior manager or HR representative. Critical:
+      the manager must ask zero prohibited or high-risk questions and must not volunteer comments
+      about protected characteristics.
+    equipment: [company interview kit (app scorecard or printout), candidate resume, job profile]
+    criteria:
+      - Opens the interview by explaining the format, the time it will take, and that notes will be taken
+      - Asks the same core questions from the kit that were selected for every candidate for this opening
+      - Uses STAR follow-up probes to get the situation, task, action, and result for each competency question
+      - Asks for a negative or "did not go well" example when the candidate offers only positive examples
+      - Asks about physical demands, schedule, and travel only in terms of essential job functions "with or without reasonable accommodation"
+      - Asks zero prohibited or high-risk questions (age, national origin, religion, family plans, disability or health, arrests, pay history where banned) and redirects if the candidate volunteers such information
+      - Gives a realistic job preview and leaves time for the candidate's questions
+      - Closes by explaining next steps and the decision timeline
+  - code: MGR-S02
+    title: Score an interview and write evidence-based notes
+    category: Interviewing
+    critical: false
+    description: >
+      Immediately after an interview, the manager completes the scorecard: a 1–9 score and Y/N for each
+      competency asked, the Observe checklist, and notes that record what the candidate said and did.
+    equipment: [completed interview kit, behavioral scoring anchors]
+    criteria:
+      - Completes the scorecard independently before discussing the candidate with anyone else
+      - Marks Answered Y/N accurately for every competency question asked
+      - Assigns each score using the behavioral anchors, and each score is supported by a specific note
+      - Records facts and quotations (what was said or done), not personal impressions or characteristics
+      - Contains no notes about protected characteristics, appearance unrelated to the job, or speculation about personal life
+      - Flags any "items to watch for" (no specific example, did not answer the question, focused on own needs) where they occurred
+      - Completes the Observe checklist and writes an overall summary tied to the job profile
+  - code: MGR-S03
+    title: Conduct and document two reference checks
+    category: Selection
+    critical: false
+    description: >
+      With the candidate's written authorization, the manager contacts at least two work references
+      (preferably former supervisors), asks consistent job-related questions, verifies any required
+      license, and documents the results.
+    equipment: [candidate authorization/release, reference check form, state license lookup]
+    criteria:
+      - Confirms the candidate's written authorization is on file before calling
+      - Verifies the reference's identity and working relationship to the candidate
+      - Asks the same core, job-related questions of every reference, including at least one about an area for improvement
+      - Asks the "would you rehire" question and follows up on hesitation
+      - Asks no questions about protected characteristics, health, or medical leave
+      - Verifies any required electrical license on the issuing agency's lookup and records the license number, class, and expiration
+      - Documents each call (date, name, title, answers) and summarizes consistencies and concerns
+  - code: MGR-S04
+    title: Lead a candidate calibration and selection discussion
+    category: Selection
+    critical: false
+    description: >
+      The manager facilitates a meeting of all interviewers to compare scorecards against the job
+      profile and reach a documented, defensible hiring decision.
+    equipment: [completed scorecards, job profile, reference check summaries]
+    criteria:
+      - Confirms every interviewer submitted scores before the meeting
+      - Reviews the job profile and essential requirements before discussing any candidate
+      - Has the lowest-ranking or most junior interviewer share first to limit anchoring
+      - Compares candidates competency by competency using evidence from notes, not general impressions
+      - Challenges comments that reflect bias or non-job-related factors (halo, similarity, "culture fit" without evidence)
+      - Reaches a decision and records the job-related reasons for selection and non-selection
+  - code: MGR-S05
+    title: Deliver a 30/60/90-day onboarding plan for a new hire
+    category: Onboarding
+    critical: false
+    description: >
+      The manager prepares and reviews with a new hire a written plan covering the first day, first
+      week, and the 30-, 60-, and 90-day milestones, including assigned mentor, starting grade, and
+      training path in the app.
+    equipment: [onboarding plan template, app enrollment for starting level, mentor assignment]
+    criteria:
+      - Confirms paperwork, tools, PPE, vehicle and system access are ready before day one
+      - Introduces the assigned mentor and explains the mentor's role
+      - Explains the starting grade, the grade ladder, and how pay is tied to grade
+      - Sets specific, measurable 30/60/90-day goals linked to courses and skills in the app
+      - Schedules the 30-, 60-, and 90-day check-ins on the calendar
+      - Asks the new hire what support they need and records it
+  - code: MGR-S06
+    title: Conduct a stay interview
+    category: Retention
+    critical: false
+    description: >
+      The manager holds a one-on-one stay interview with a current technician to learn what keeps them,
+      what might make them leave, and agrees on follow-up actions.
+    equipment: [stay interview question guide, notes]
+    criteria:
+      - Schedules the conversation privately, separate from a performance review
+      - Asks open questions about what they enjoy, what frustrates them, and what would make them consider leaving
+      - Asks about career goals and connects them to the grade ladder
+      - Listens more than talks and summarizes what was heard
+      - Commits only to actions the manager can deliver and sets a date to follow up
+      - Documents the themes and follow-up actions

@@ -1,0 +1,17 @@
+code: MGR
+track: MANAGEMENT
+order: 1
+title: Hiring & Retention
+grade: Manager
+description: Managers
+outcomes: [Hire well]
+requirements:
+  course_pass_score: 80
+  final_exam: { pass_score: 80, questions: 3, time_limit_minutes: 30 }
+  min_ojt_hours: 0
+skills:
+  - code: MGR-S01
+    title: Structured interview
+    category: Hiring
+    description: Interview
+    criteria: [Asks the same questions]

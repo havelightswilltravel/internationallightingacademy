@@ -6,16 +6,25 @@ tracks:
     title: Lighting Technician Track
     description: >
       Approximately two years of progressive lighting grades, from entry-level technician to
-      Certified Advanced Lighting Technician (CALT). Advancement is earned by passing course
+      Certified Advanced Lighting Technician (LT5). Advancement is earned by passing course
       quizzes, a level final exam, verified on-the-job hours, and evaluator-observed hands-on
       skill demonstrations — not by tenure.
     levels: [LT1, LT2, LT3, LT4, LT5]
   - code: ELECTRICAL
     title: Electrical Development Track
     description: >
-      Open to Certified Advanced Lighting Technicians. Four apprentice levels plus journeyman
+      Open to technicians who have completed LT5 (Certified Advanced Lighting Technician). Four apprentice levels plus journeyman
       exam preparation, structured to align with a typical registered electrical apprenticeship
       (around 8,000 hours of supervised on-the-job training plus related classroom instruction).
       State and local licensing rules determine which hours count toward journeyman eligibility.
     prerequisite_level: LT5
     levels: [EA1, EA2, EA3, EA4, JW]
+  - code: MANAGEMENT
+    title: Manager Module — Hiring & Retention
+    kind: standalone          # not part of the technician grade ladder
+    audience: staff           # open to company admins and evaluators/supervisors
+    description: >
+      For managers and supervisors. How to define the role, find and screen candidates, run structured
+      behavior-based interviews with the company interview kits, hire fairly and legally, and onboard and
+      retain great technicians. Complete it before interviewing candidates.
+    levels: [MGR]

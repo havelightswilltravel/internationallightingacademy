@@ -3,7 +3,7 @@ title: "Review: Codes, Power Quality and Systematic Troubleshooting"
 minutes: 40
 video:
 video_suggestion: >
-  A CALT tabs a 2023 NEC code book while explaining how to find lighting articles, then moves
+  an LT5 technician tabs a 2023 NEC code book while explaining how to find lighting articles, then moves
   to a training panel to walk through a nuisance-tripping case: gathering symptoms, measuring
   current with a clamp meter (closed panel, approved method), reviewing fixture inrush data,
   and documenting root cause on a work order.

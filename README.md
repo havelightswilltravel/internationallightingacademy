@@ -5,7 +5,7 @@ entry-level lighting tech to journeyman-electrician exam readiness** — and tha
 to other companies.
 
 ```
-LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior ─► LT5 Certified Advanced Lighting Technician (CALT)
+LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior ─► LT5 Certified Advanced Lighting Technician
                        ~24 months of lighting grades
                                                         │
                                                         ▼

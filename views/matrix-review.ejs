@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+<p class="crumbs"><a href="/team">Team</a> › <a href="/team/<%= tech.id %>"><%= tech.name %></a> › Skills Matrix</p>
+<h1>Skills Matrix — <%= tech.name %></h1>
+<p class="muted">Compare the technician's written steps and component list with the field procedure, then confirm the rating you have observed. Confirmed ratings show on the team matrix.</p>
+<% areas.forEach(function (a) { %>
+<section class="card area" id="<%= a.code %>">
+  <div class="row-between">
+    <h2><%= a.title %></h2>
+    <span class="ratings"><span class="lvl lvl-<%= a.self_rating || 0 %>">Self: <%= a.self_rating ? a.self_rating + ' · ' + scale[a.self_rating] : '—' %></span>
+      <span class="lvl lvl-<%= a.eval_rating || 0 %>">Confirmed: <%= a.eval_rating || '—' %></span></span>
+  </div>
+  <p class="small muted">Expected components: <%= a.components %><% if (a.guide_id) { %> · <a href="/library/<%= a.guide_id %>">Field procedure</a><% } %></p>
+  <div class="grid two">
+    <div><h3>Steps written by technician</h3><pre class="answer"><%= a.steps_text || '— not answered —' %></pre></div>
+    <div><h3>Components listed</h3><pre class="answer"><%= a.components_text || '— not answered —' %></pre></div>
+  </div>
+  <form method="post" action="/team/<%= tech.id %>/matrix/<%= a.code %>" class="row">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <label class="inline">Confirmed rating
+      <select name="eval_rating"><option value="">—</option><% Object.keys(scale).forEach(function (k) { %><option value="<%= k %>" <%= String(a.eval_rating) === k ? 'selected' : '' %>><%= k %> · <%= scale[k] %></option><% }) %></select>
+    </label>
+    <input name="eval_notes" placeholder="Coaching notes" value="<%= a.eval_notes || '' %>" class="grow">
+    <button class="btn small primary">Confirm</button>
+  </form>
+  <% if (a.eval_updated_at) { %><p class="small muted">Last confirmed by <%= a.evaluator_name %> on <%= fmtDate(a.eval_updated_at) %></p><% } %>
+</section>
+<% }) %>
+<%- include('partials/footer') %>

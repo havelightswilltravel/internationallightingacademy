@@ -1,7 +1,7 @@
 code: LT3-C04
 title: Emergency & Egress Lighting
 order: 4
-estimated_hours: 6
+estimated_hours: 7
 description: >-
   The life-safety purpose of emergency and egress lighting and how NFPA 101, NEC Article 700, UL 924
   and the AHJ fit together; battery units, emergency LED drivers and central inverters; UL 924 control
@@ -19,11 +19,13 @@ objectives:
 - Identify and test UL 924 emergency lighting control devices and never bypass them
 - Inspect and replace exit signs, including proper handling of tritium signs
 - Perform and record monthly 30-second and annual 90-minute emergency lighting tests
+- "Troubleshoot battery-backup ballasts and drivers, bug-eye units and exit signs using the company test-button procedure, and decide between battery and unit replacement"
 lessons:
 - 01-life-safety-purpose-and-code-framework.md
 - 02-battery-packs-emergency-drivers-and-inverters.md
 - 03-ul924-transfer-devices-and-exit-signs.md
 - 04-nfpa-101-testing-and-records.md
+- 05-troubleshooting-emergency-units.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -251,3 +253,43 @@ quiz:
       NFPA 101 permits self-testing units in place of manual monthly tests, but status indicators
       still need periodic visual checks and results must be documented.
     ref: NFPA 101 (7.9.3)
+  - id: LT3-C04-Q16
+    type: single
+    q: "A troffer with a battery-backup ballast stays dark on the wall switch, but its lamps light when the test button is pressed. Supply voltage is present on the switched feed. What should be replaced?"
+    choices:
+      - "The battery-backup ballast"
+      - "The lamps"
+      - "The standard (normal) ballast or driver"
+      - "The test switch"
+    answer: 2
+    explanation: "Lamps lighting on test prove the battery backup, lamps and sockets work, so the fault is on the normal side — the standard ballast or driver."
+  - id: LT3-C04-Q17
+    type: single
+    q: "A battery-backup fixture's lamps do not light when the test button is pressed. The lamps are known good. Following the company procedure, what is checked before replacing the battery backup?"
+    choices:
+      - "The wiring and sockets (and battery connector)"
+      - "The building's generator"
+      - "The lamp color temperature"
+      - "Nothing; replace the battery backup immediately"
+    answer: 0
+    explanation: "Check wiring and sockets between the emergency unit and lamps, plus the battery plug and charge indicator. If wiring is good, replace the battery backup."
+  - id: LT3-C04-Q18
+    type: single
+    q: "A bug-eye unit does not light when its test button is pressed. What is the next step in the company procedure?"
+    choices:
+      - "Replace the unit"
+      - "Test the line voltage at the unit"
+      - "Replace the lamp heads with brighter ones"
+      - "Hold the test button for 90 minutes"
+    answer: 1
+    explanation: "Test line voltage next. If voltage is good, replace the unit (or listed battery); if not, the emergency lighting circuit is the problem."
+  - id: LT3-C04-Q19
+    type: multi
+    q: "Before working on the sockets of a fixture with a battery-backup ballast, which steps are required? (Select all that apply.)"
+    choices:
+      - "Lock out the normal lighting circuit"
+      - "Verify absence of voltage live-dead-live"
+      - "Unplug the battery connector"
+      - "Press the test button to drain the battery first, then work live"
+    answer: [0, 1, 2]
+    explanation: "The battery can energize lamp leads with the breaker off. Lock out, verify, and disconnect the battery before servicing."

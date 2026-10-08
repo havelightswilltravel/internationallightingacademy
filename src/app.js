@@ -57,6 +57,8 @@ function createApp() {
   app.use(require('./routes/team')); // first: includes the public /verify route
   app.use(require('./routes/hours'));
   app.use(require('./routes/library'));
+  app.use(require('./routes/matrix'));
+  app.use(require('./routes/hiring'));
   app.use(require('./routes/learn')); // requires login for everything after this point
   app.use('/admin', require('./routes/admin'));
   app.use('/platform', require('./routes/platform'));

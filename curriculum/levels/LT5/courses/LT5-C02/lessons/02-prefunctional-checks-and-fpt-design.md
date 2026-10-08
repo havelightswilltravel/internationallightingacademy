@@ -3,7 +3,7 @@ title: Pre-Functional Checks and Writing Functional Tests
 minutes: 30
 video:
 video_suggestion: >
-  A CALT walks a newly installed floor with a tablet checklist, verifying sensor locations,
+  an LT5 technician walks a newly installed floor with a tablet checklist, verifying sensor locations,
   wall station labels, low-voltage wiring terminations (de-energized, with LOTO shown on the
   power pack circuit) and network device status. Then show the tech converting one line of a
   sequence of operations into numbered test steps with expected results.

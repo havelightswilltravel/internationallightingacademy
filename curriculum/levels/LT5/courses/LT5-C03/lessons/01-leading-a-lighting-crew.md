@@ -3,14 +3,14 @@ title: Leading a Lighting Crew
 minutes: 30
 video:
 video_suggestion: >
-  Follow a CALT through the first hour of a real retrofit job: reviewing the job packet the day
+  Follow an LT5 technician through the first hour of a real retrofit job: reviewing the job packet the day
   before, the morning huddle with a three-person crew, assigning tasks by level (showing the
   LT1 paired with an LT3), a mid-morning check-in with the facility manager, and an end-of-day
   wrap-up where the lead updates the schedule and plans tomorrow.
 ---
 
 ## The Lead's Job
-As a CALT, you are often the person in charge on site. The crew looks to you for direction,
+As an LT5 technician, you are often the person in charge on site. The crew looks to you for direction,
 the customer sees you as the face of the company, and your supervisor relies on you to report
 honestly about progress and problems. Leading well is a skill you can learn, just like
 installing a driver.

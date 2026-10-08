@@ -1,5 +1,5 @@
 ---
-title: CALT Capstone Project Requirements
+title: LT5 Capstone Project Requirements
 minutes: 30
 video:
 video_suggestion: >
@@ -10,7 +10,7 @@ video_suggestion: >
 ---
 
 ## Purpose of the Capstone
-The capstone project proves that you can do what a CALT does: take a lighting project from
+The capstone project proves that you can do what an LT5 technician does: take a lighting project from
 existing conditions to a commissioned, documented, safe result, and explain your decisions.
 It integrates everything from LT1 through LT5. The capstone is hands-on skill **LT5-S08** and
 must be signed off by a qualified evaluator.

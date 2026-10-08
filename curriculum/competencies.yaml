@@ -1,0 +1,108 @@
+# Skills Matrix — field system competencies (from the company Master Troubleshooting Guide).
+# Technicians rate themselves on each area and write out the troubleshooting steps and components;
+# an evaluator confirms the rating.
+#   1 = I have seen it   2 = I understand it   3 = I perform it   4 = I can teach it
+# `courses` link to where the area is taught; `guide` is the field-procedure slug in curriculum/library/field-procedures/.
+scale:
+  1: I have seen it
+  2: I understand it
+  3: I perform it
+  4: I can teach it
+areas:
+  - code: three-way-switching
+    title: 3-Way Switching
+    components: Switches (3-way, 4-way), travelers, common terminals, wire, fixtures
+    courses: [LT2-C08, EA1-C04]
+    guide: fp-3-way-switching
+  - code: basic-electrical
+    title: Basic Electrical
+    components: Voltage, current, resistance, power, circuits, meters, conductors, grounding
+    courses: [LT1-C04, LT2-C01, LT2-C03]
+  - code: breakers
+    title: Breakers
+    components: Panel, bus bar, breaker, wire
+    courses: [LT2-C11, LT2-C02]
+    guide: fp-breakers
+  - code: case-lighting
+    title: Case Lighting
+    components: Case, lamps, sockets, ballasts/drivers, wire harness, reflectors, tube guards, lenses, distribution block
+    courses: [LT3-C08]
+    guide: fp-case-lighting
+  - code: contactors
+    title: Contactors
+    components: Contactor housing, contact points, coil, enclosure, wire
+    courses: [LT3-C07, LT3-C03]
+    guide: fp-contactors
+  - code: data-cable
+    title: Data Cable
+    components: Data cable, male and female terminals (RJ45 plugs and jacks), patch cables, connected devices
+    courses: [LT3-C11]
+    guide: fp-data-cable
+  - code: emergency-lighting
+    title: Emergency Lighting
+    components: Battery-backup ballasts/drivers, exit signs, bug eyes (unit equipment), emergency lighting circuit
+    courses: [LT3-C04]
+    guide: fp-emergency-lighting
+  - code: fluorescent
+    title: Fluorescent / CFL
+    components: Fixture, lamp, ballast, igniter (CFL), sockets, wire, switch
+    courses: [LT1-C05, LT2-C04, LT2-C05]
+    guide: fp-fluorescent-cf
+  - code: hid
+    title: HID
+    components: Fixture, lamp, ballast kit (core and coil, capacitor, igniter), socket, wire, fuses, photocell
+    courses: [LT2-C04]
+    guide: fp-hid
+  - code: incandescent
+    title: Incandescent
+    components: Fixture, lamp, socket, wire, switch, thermal protector
+    courses: [LT1-C08, LT1-C05]
+    guide: fp-incandescent
+  - code: led-specialty
+    title: LED / Specialty
+    components: LED modules, drivers/power supplies (transformers), connectors, wire, straps/adhesive tape, flex, indoor/outdoor enclosures
+    courses: [LT3-C10, LT3-C01, LT2-C05]
+    guide: fp-led-signage
+  - code: low-voltage-systems
+    title: Low Voltage Systems
+    components: Lamp, socket, fixture, transformer, low-voltage cable/conductors, wire
+    courses: [LT2-C10]
+    guide: fp-low-voltage-systems
+  - code: motion-sensors
+    title: Motion Sensors
+    components: Fixture, power pack, wire, low-voltage wire, sensor
+    courses: [LT3-C03]
+    guide: fp-motion-sensors
+  - code: neon
+    title: Neon
+    components: Glass units, electrode boots, GTO cable, transformer, PK housings, glass standoffs, channels, tie wire, indoor/outdoor enclosures, flex and connectors
+    courses: [LT3-C09]
+    guide: fp-neon
+  - code: outlets-switches
+    title: Outlets and Switches
+    components: Outlet (receptacle), switch, wire, fixture, electrical box
+    courses: [LT1-C09]
+    guide: fp-outlets-switches
+  - code: parts-knowledge
+    title: Parts Knowledge
+    components: Lamp, ballast, driver and fixture labels; ordering codes; spec sheets; cross-references; samples; distributors
+    courses: [LT1-C10]
+  - code: relays
+    title: Relays
+    components: Wire, control board, relays, bypass
+    courses: [LT3-C07]
+    guide: fp-relays
+  - code: timeclock-photocells
+    title: Timeclock / Photocells
+    components: Trippers, clock, photocell, photocell sleeve/shield, photocell receptacle
+    courses: [LT3-C03]
+    guide: fp-timeclock-photocell
+  - code: track-lighting
+    title: Track Lighting
+    components: Track, track fixtures, lamps, ballasts/drivers, wire, live-end feed
+    courses: [LT2-C09]
+    guide: fp-track-lighting
+  - code: electrical-troubleshooting
+    title: Electrical Troubleshooting
+    components: Systematic method, meters, circuit tracing, documentation
+    courses: [LT2-C06, LT4-C05]

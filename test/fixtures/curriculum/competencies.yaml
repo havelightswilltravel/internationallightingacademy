@@ -1,0 +1,9 @@
+areas:
+  - code: hid
+    title: HID
+    components: Lamp, ballast kit
+    courses: [LT1-C01]
+  - code: neon
+    title: Neon
+    components: Glass, GTO
+    courses: [LT2-C01]
