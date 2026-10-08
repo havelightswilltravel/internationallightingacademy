@@ -1,0 +1,176 @@
+code: LT1-C07
+title: Professionalism, Customer Service & Work Orders
+order: 7
+estimated_hours: 4
+description: >
+  Prepares lighting technicians to represent the company professionally on customer sites.
+  Covers job-site conduct, communicating clearly with customers in plain language, handling
+  difficult situations, completing accurate work orders with useful photos, and recognizing,
+  documenting, and escalating problems found on the job.
+objectives:
+  - Demonstrate professional conduct before, during, and after a service call
+  - Communicate with customers using active listening, plain language, and clear expectations
+  - Refer pricing questions and extra-work requests to the office instead of committing the company
+  - Complete a work order with accurate locations, findings, materials, waste, and recommendations
+  - Take clear, purposeful documentation photos that follow site rules
+  - Recognize hazards and out-of-scope problems and escalate them at the right level
+lessons:
+  - 01-job-site-conduct.md
+  - 02-communicating-with-customers.md
+  - 03-work-orders-documentation-and-photos.md
+  - 04-reporting-problems-and-escalation.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C07-Q01
+      type: single
+      q: You are running 30 minutes late for a scheduled service call. What should you do?
+      choices:
+        - Arrive late and apologize when you get there
+        - Call the site contact (or have dispatch call) before the appointment time with a realistic arrival estimate
+        - Skip the call and reschedule it for another day without notice
+        - Send a text after you arrive
+      answer: 1
+      explanation: Notify the customer before the appointment time with a realistic estimate. Advance notice shows respect for their schedule.
+    - id: LT1-C07-Q02
+      type: single
+      q: What is the first thing you should do when arriving at a customer site?
+      choices:
+        - Set up your ladder at the first fixture you see
+        - Turn off the lighting breakers to save time
+        - Check in with the site contact or security and confirm the scope of work
+        - Start removing old lamps
+      answer: 2
+      explanation: Check in, follow site access rules, confirm scope, and learn site-specific rules before starting.
+    - id: LT1-C07-Q03
+      type: single
+      q: A customer insists you change lamps without turning off the power because their meeting starts soon. What is the most professional response?
+      choices:
+        - Explain that you must lock out the circuit for safety, offer to work around their schedule, and call your supervisor if they object
+        - Do it energized just this once to keep the customer happy
+        - Leave the site without saying anything
+        - Ask the customer to sign a waiver and proceed energized
+      answer: 0
+      explanation: Customer pressure never overrides safety. Explain the requirement politely, look for a scheduling solution, and involve your supervisor.
+    - id: LT1-C07-Q04
+      type: single
+      q: The facility manager asks how much it would cost to replace all the fixtures in the warehouse with LED. What should an LT1 do?
+      choices:
+        - Estimate a price from memory
+        - Promise a discount to win the job
+        - Say the company does not do that kind of work
+        - Note the request on the work order and tell the customer the office will follow up
+      answer: 3
+      explanation: LT1 technicians do not quote prices or change scope. Record the request and have the office follow up.
+    - id: LT1-C07-Q05
+      type: single
+      q: Which explanation to a customer uses plain language best?
+      choices:
+        - "The mag ballast on that T12 is cooked."
+        - "I need to LOTO the circuit and swap the ballast."
+        - "The part inside the fixture that powers the lamps has failed, so I'll replace it. The lights in this room will be off for about 30 minutes."
+        - "It's a ground fault on the branch."
+      answer: 2
+      explanation: Plain language explains what is wrong, what you will do, and how it affects the customer, without trade jargon.
+    - id: LT1-C07-Q06
+      type: single
+      q: In the LAST approach to handling an upset customer, what does the "A" stand for?
+      choices:
+        - Acknowledge
+        - Argue
+        - Apologize for the company's mistakes
+        - Assign blame
+      answer: 0
+      explanation: Listen, Acknowledge, Solve, Thank. Acknowledging the customer's frustration shows you understand the impact on them.
+    - id: LT1-C07-Q07
+      type: single
+      q: You accidentally scratch a customer's desk while moving a ladder. What should you do?
+      choices:
+        - Cover the scratch and say nothing
+        - Report it immediately to the customer and your supervisor
+        - Mention it only if the customer notices
+        - Offer the customer cash to keep it quiet
+      answer: 1
+      explanation: Report damage immediately. Honesty protects the company's reputation; hiding damage is far worse than the damage itself.
+    - id: LT1-C07-Q08
+      type: single
+      q: Which work order entry is the best description of the work performed?
+      choices:
+        - "Fixed lights."
+        - "Did relamp, all good."
+        - "Lights OK now per customer."
+        - "Rm 214: replaced (3) F32T8/835 lamps in 2x4 troffer at grid C-4. All lamps operating."
+      answer: 3
+      explanation: Good entries include the exact location, quantities, part descriptions, and the result, so anyone can understand what was done.
+    - id: LT1-C07-Q09
+      type: multi
+      q: Which photos are most useful to include with a ballast replacement work order? (Select all that apply.)
+      choices:
+        - A wide shot showing the fixture's location
+        - The old ballast label and existing wiring before disconnecting
+        - The completed fixture operating after the repair
+        - A close-up of the customer's computer screen
+      answer: [0, 1, 2]
+      explanation: Location, label, wiring, and after photos document the work. Avoid photographing screens, documents, or people.
+    - id: LT1-C07-Q10
+      type: single
+      q: When should a work order be completed and submitted?
+      choices:
+        - At the end of the week from memory
+        - Only when the office asks for it
+        - As the work is done, and submitted the same day
+        - Within 30 days
+      answer: 2
+      explanation: Completing work orders as you go and submitting them the same day ensures accurate times, materials, and billing.
+    - id: LT1-C07-Q11
+      type: single
+      q: While relamping, you find an open junction box with exposed copper on a splice above the ceiling. What should an LT1 do?
+      choices:
+        - Push the wires back into the box and put a cover on it
+        - Do not touch it, keep people away, call your supervisor, inform the site contact, and document it
+        - Ignore it because it is not on the work order
+        - Re-make the splice with a new wire connector while the circuit is energized
+      answer: 1
+      explanation: Make the area safe from a distance, do not attempt repairs beyond your training, escalate by phone, and document.
+    - id: LT1-C07-Q12
+      type: multi
+      q: Which conditions should be reported as life-safety concerns? (Select all that apply.)
+      choices:
+        - A dark exit sign
+        - An emergency light that does not work
+        - A blocked exit door
+        - A lens that is slightly yellowed
+      answer: [0, 1, 2]
+      explanation: Exit signs, emergency lighting, and exits are life-safety items. A yellowed lens is an equipment-condition note.
+      ref: NFPA 101 Life Safety Code
+    - id: LT1-C07-Q13
+      type: single
+      q: Where should job-site photos be uploaded?
+      choices:
+        - To your personal social media to show your work
+        - To a group chat with friends
+        - To the company's work order system only, following site photo rules
+        - To any cloud storage account
+      answer: 2
+      explanation: Customer sites may have security and privacy requirements. Photos go only into the company system.
+    - id: LT1-C07-Q14
+      type: single
+      q: You notice that several fixtures in a stairwell are corroded and the lenses are cracked, but they still work. How should this be handled?
+      choices:
+        - Document it with photos on the work order and report it to your supervisor before leaving
+        - Replace the fixtures yourself without approval
+        - Say nothing because the lights still work
+        - Tell the customer they are in violation of code
+      answer: 0
+      explanation: Non-urgent equipment conditions are documented and reported the same day so the office can follow up. Avoid making code claims you are not qualified to make.
+    - id: LT1-C07-Q15
+      type: single
+      q: Which of these is appropriate conduct on a customer site?
+      choices:
+        - Parking in the fire lane to save time unloading
+        - Moving a customer's computer without asking to set up a ladder
+        - Taking leftover lamps the customer paid for
+        - Keeping walkways, exits, and fire equipment clear while you work
+      answer: 3
+      explanation: Keep exits, walkways, and fire equipment clear. Park legally, ask before moving property, and leave customer-owned materials with the customer.

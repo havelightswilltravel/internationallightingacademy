@@ -2,178 +2,246 @@ code: LT3-C01
 title: LED Technology & Drivers
 order: 1
 estimated_hours: 6
-description: >
-  How LEDs produce light, why thermal management controls LED and driver life, the difference
-  between constant-current and constant-voltage drivers, how to select and install a matching
-  replacement driver, and how to recognize flicker, lumen depreciation (L70) and common LED
-  failure modes in the field.
+description: >-
+  How LEDs produce light, why thermal management controls LED and driver life, the difference between
+  constant-current and constant-voltage drivers, how to select and install a matching replacement
+  driver, and how to recognize flicker, lumen depreciation (L70) and common LED failure modes in the
+  field.
 objectives:
-  - Explain why LEDs require a current-regulating driver and how forward voltage affects driver selection
-  - Describe the LED heat path and identify installation conditions that cause overheating
-  - Distinguish constant-current from constant-voltage drivers and read their labels
-  - Select a replacement driver that matches output current, voltage window, power, dimming type and input voltage
-  - Replace a driver safely under LOTO, including disconnecting emergency batteries
-  - Define L70 and the roles of LM-79, LM-80 and TM-21
-  - Use symptoms to separate driver, LED module, thermal and control problems
+- >-
+  Explain why LEDs require a current-regulating driver and how forward voltage affects driver selection
+- Describe the LED heat path and identify installation conditions that cause overheating
+- Distinguish constant-current from constant-voltage drivers and read their labels
+- >-
+  Select a replacement driver that matches output current, voltage window, power, dimming type and
+  input voltage
+- Replace a driver safely under LOTO, including disconnecting emergency batteries
+- Define L70 and the roles of LM-79, LM-80 and TM-21
+- Use symptoms to separate driver, LED module, thermal and control problems
 lessons:
-  - 01-how-leds-work-and-thermal-management.md
-  - 02-constant-current-vs-constant-voltage-drivers.md
-  - 03-driver-matching-and-replacement.md
-  - 04-flicker-lumen-maintenance-and-failure-modes.md
+- 01-how-leds-work-and-thermal-management.md
+- 02-constant-current-vs-constant-voltage-drivers.md
+- 03-driver-matching-and-replacement.md
+- 04-flicker-lumen-maintenance-and-failure-modes.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
   questions:
-    - id: LT3-C01-Q01
-      type: single
-      q: Why do LEDs need a driver that controls current rather than simply being connected to a fixed voltage?
-      choices:
-        - LEDs only operate on AC, so the driver must convert DC to AC
-        - A small change in voltage across an LED causes a large change in current
-        - LEDs need a high-voltage pulse to start, like HID lamps
-        - The driver's main job is to correct the building's power factor
-      answer: 1
-      explanation: LED current rises steeply with small increases in voltage. Without current regulation the LED can be overdriven and fail. LEDs run on DC, and they do not need a starting pulse.
-    - id: LT3-C01-Q02
-      type: single
-      q: A constant-current driver is labeled "700 mA, 25–54 VDC, 38 W." Which LED module can it properly drive?
-      choices:
-        - 350 mA at 40 V
-        - 700 mA at 60 V
-        - 700 mA at 36 V
-        - 1050 mA at 36 V
-      answer: 2
-      explanation: The module's current must match (700 mA) and its forward voltage must fall inside the 25–54 V window. 36 V × 0.7 A ≈ 25 W, within the 38 W rating. 60 V is outside the range; 350 mA and 1050 mA modules would be over- or under-driven.
-    - id: LT3-C01-Q03
-      type: single
-      q: Which load is normally powered by a constant-voltage driver?
-      choices:
-        - 24 V LED tape light
-        - The LED board in a 2x4 troffer
-        - A metal halide lamp
-        - The LED array in a high-bay luminaire
-      answer: 0
-      explanation: LED tape and similar modules have current control built in and are designed for a fixed 12 V or 24 V supply. Troffer and high-bay LED boards are usually driven by constant-current drivers.
-    - id: LT3-C01-Q04
-      type: single
-      q: A run of LED tape totals 90 W. Using the common 80% loading rule of thumb, what is the smallest standard driver you should choose?
-      choices:
-        - 75 W
-        - 90 W
-        - 100 W
-        - 120 W
-      answer: 3
-      explanation: 90 W ÷ 0.8 = 112.5 W, so the next standard size up, 120 W, gives the recommended headroom. Always follow the manufacturer's sizing instructions where they differ.
-    - id: LT3-C01-Q05
-      type: single
-      q: An LED high-bay in a hot warehouse dims every summer afternoon and returns to full brightness in the evening. What is the most likely explanation?
-      choices:
-        - The 0–10V dimming leads are reversed
-        - Thermal foldback is reducing current because the fixture is overheating
-        - The fixture has reached L70
-        - The driver output current is set too low
-      answer: 1
-      explanation: Thermal foldback lowers drive current when internal temperature is too high, then recovers as it cools. A wrong current setting or L70 would not change with time of day; reversed dimming leads do not cause a daily pattern.
-    - id: LT3-C01-Q06
-      type: single
-      q: What does "L70 > 60,000 hours" on a spec sheet mean?
-      choices:
-        - The fixture is projected to still produce at least 70% of its initial light output after 60,000 hours
-        - 70% of the fixtures will have failed by 60,000 hours
-        - The driver is warranted for 60,000 hours at 70°C
-        - The fixture uses 70% less energy than a fluorescent fixture over 60,000 hours
-      answer: 0
-      explanation: L70 is a lumen-maintenance rating — the projected operating time until light output falls to 70% of initial.
-    - id: LT3-C01-Q07
-      type: single
-      q: Which IES document is the method for projecting long-term LED lumen maintenance from test data?
-      choices:
-        - LM-79
-        - LM-80
-        - TM-21
-        - TM-30
-      answer: 2
-      explanation: LM-80 measures lumen maintenance of LED packages/modules, TM-21 projects long-term life from that data, LM-79 tests complete luminaires, and TM-30 is a color rendition method.
-      ref: IES LM-80, IES TM-21
-    - id: LT3-C01-Q08
-      type: multi
-      q: Before ordering a replacement constant-current driver, which ratings must you confirm match the LED module and site? (Select all that apply.)
-      choices:
-        - Output current
-        - Output voltage range covers the module's forward voltage
-        - Dimming type
-        - Input voltage rating covers the circuit voltage
-        - The color of the driver's case
-      answer: [0, 1, 2, 3]
-      explanation: Current, voltage window, dimming protocol and input voltage all must match. Case color is irrelevant; form factor and mounting do matter for fit and heat transfer.
-    - id: LT3-C01-Q09
-      type: single
-      q: You are replacing the driver in a troffer that also contains an emergency LED driver. After locking out the breaker and verifying absence of voltage, what must you also do before working on the LED output wiring?
-      choices:
-        - Nothing; the breaker removes all sources of energy
-        - Press the emergency test switch to drain the battery
-        - Disconnect the emergency driver's battery connector
-        - Remove the LED board
-      answer: 2
-      explanation: An emergency driver's battery can energize the LED output when normal power is off — that is its job. Disconnect the battery connector per the manufacturer's instructions before working on the output side.
-    - id: LT3-C01-Q10
-      type: single
-      q: A new programmable constant-current driver is installed and the LEDs are extremely bright, then fail within days. What was the most likely error?
-      choices:
-        - The output current was left at a factory default higher than the module rating
-        - The dimming leads were capped off
-        - The input voltage was 277 V instead of 120 V on a 120–277 V driver
-        - The driver was mounted to metal
-      answer: 0
-      explanation: Programmable drivers must be set to the module's rated current before energizing. Overdriving causes high brightness and early failure. A 120–277 V universal driver tolerates either voltage.
-    - id: LT3-C01-Q11
-      type: multi
-      q: Which conditions commonly cause LED fixtures to overheat? (Select all that apply.)
-      choices:
-        - A non-IC recessed fixture buried in insulation
-        - An LED lamp marked "not for totally enclosed fixtures" installed in a sealed vapor-tight fixture
-        - Heavy dust buildup on a high-bay heat sink
-        - The fixture is controlled by an occupancy sensor
-      answer: [0, 1, 2]
-      explanation: Insulation contact on non-IC fixtures, enclosure in sealed housings when not rated for it, and dirty heat sinks all trap heat. Sensor control reduces operating hours and does not cause overheating.
-    - id: LT3-C01-Q12
-      type: single
-      q: On a constant-current driver, how are multiple LED boards normally connected to a single output?
-      choices:
-        - In parallel, so each board receives the full output voltage
-        - In series, so the same current flows through each board, unless the luminaire wiring diagram says otherwise
-        - Each board connected directly to line voltage
-        - In parallel with a resistor in each leg added in the field
-      answer: 1
-      explanation: Series connection ensures each board gets the regulated current. Paralleling boards on a CC output lets current divide unevenly. Always follow the luminaire's wiring diagram.
-    - id: LT3-C01-Q13
-      type: single
-      q: Several replaced LED fixtures in an office look slightly green compared with the others, which have been operating for years. What is a likely cause?
-      choices:
-        - Reversed polarity on the LED leads
-        - Phosphor aging or a different production batch/CCT, causing visible color difference
-        - The 0–10V wiring is open
-        - Voltage drop on the branch circuit
-      answer: 1
-      explanation: Phosphor degradation (accelerated by heat) and batch-to-batch differences cause color shift between old and new fixtures. Reversed polarity would cause no light; an open 0–10V pair would cause full brightness, not a color change.
-    - id: LT3-C01-Q14
-      type: single
-      q: Why must Class 2 driver output and dimming leads be kept separated from line-voltage conductors in a luminaire or enclosure?
-      choices:
-        - The NEC generally requires separation (or a barrier) between Class 2 and power conductors to keep line voltage from reaching the Class 2 circuit
-        - Class 2 wires carry more current than line conductors
-        - Separation improves the fixture's power factor
-        - It is only a recommendation for appearance
-      answer: 0
-      explanation: Class 2 circuits rely on limited power for safety; Article 725 generally requires separation from power conductors unless a barrier or other permitted method is used.
-      ref: NFPA 70 (2023) Article 725
-    - id: LT3-C01-Q15
-      type: single
-      q: An exterior LED wall pack failed after a thunderstorm, and its separate surge module's indicator light is out. What is the best action?
-      choices:
-        - Replace only the LED board
-        - Bypass the surge module so it cannot fail again
-        - Replace the surge protective device (and the driver if it also failed), then test
-        - Install a higher-wattage driver
-      answer: 2
-      explanation: The SPD sacrifices itself to protect the driver; a dark indicator means it has done its job and needs replacement. Never bypass surge protection. Check and replace the driver if it also failed.
+  - id: LT3-C01-Q01
+    type: single
+    q: >-
+      Why do LEDs need a driver that controls current rather than simply being connected to a fixed
+      voltage?
+    choices:
+    - LEDs need a high-voltage pulse to start, like HID lamps
+    - The driver's main job is to correct the building's power factor
+    - LEDs only operate on AC, so the driver must convert DC to AC
+    - A small change in voltage across an LED causes a large change in current
+    answer: 3
+    explanation: >-
+      LED current rises steeply with small increases in voltage. Without current regulation the LED
+      can be overdriven and fail. LEDs run on DC, and they do not need a starting pulse.
+  - id: LT3-C01-Q02
+    type: single
+    q: >-
+      A constant-current driver is labeled "700 mA, 25–54 VDC, 38 W." Which LED module can it properly
+      drive?
+    choices:
+    - 700 mA at 60 V
+    - 700 mA at 36 V
+    - 350 mA at 40 V
+    - 1050 mA at 36 V
+    answer: 1
+    explanation: >-
+      The module's current must match (700 mA) and its forward voltage must fall inside the 25–54
+      V window. 36 V × 0.7 A ≈ 25 W, within the 38 W rating. 60 V is outside the range; 350 mA and
+      1050 mA modules would be over- or under-driven.
+  - id: LT3-C01-Q03
+    type: single
+    q: Which load is normally powered by a constant-voltage driver?
+    choices:
+    - The LED board in a 2x4 troffer
+    - 24 V LED tape light
+    - A metal halide lamp
+    - The LED array in a high-bay luminaire
+    answer: 1
+    explanation: >-
+      LED tape and similar modules have current control built in and are designed for a fixed 12 V
+      or 24 V supply. Troffer and high-bay LED boards are usually driven by constant-current drivers.
+  - id: LT3-C01-Q04
+    type: single
+    q: >-
+      A run of LED tape totals 90 W. Using the common 80% loading rule of thumb, what is the smallest
+      standard driver you should choose?
+    choices:
+    - 100 W
+    - 90 W
+    - 120 W
+    - 75 W
+    answer: 2
+    explanation: >-
+      90 W ÷ 0.8 = 112.5 W, so the next standard size up, 120 W, gives the recommended headroom. Always
+      follow the manufacturer's sizing instructions where they differ.
+  - id: LT3-C01-Q05
+    type: single
+    q: >-
+      An LED high-bay in a hot warehouse dims every summer afternoon and returns to full brightness
+      in the evening. What is the most likely explanation?
+    choices:
+    - The 0–10V dimming leads are reversed
+    - The fixture has reached L70
+    - Thermal foldback is reducing current because the fixture is overheating
+    - The driver output current is set too low
+    answer: 2
+    explanation: >-
+      Thermal foldback lowers drive current when internal temperature is too high, then recovers as
+      it cools. A wrong current setting or L70 would not change with time of day; reversed dimming
+      leads do not cause a daily pattern.
+  - id: LT3-C01-Q06
+    type: single
+    q: What does "L70 > 60,000 hours" on a spec sheet mean?
+    choices:
+    - The driver is warranted for 60,000 hours at 70°C
+    - The fixture uses 70% less energy than a fluorescent fixture over 60,000 hours
+    - >-
+      The fixture is projected to still produce at least 70% of its initial light output after 60,000
+      hours
+    - 70% of the fixtures will have failed by 60,000 hours
+    answer: 2
+    explanation: >-
+      L70 is a lumen-maintenance rating — the projected operating time until light output falls to
+      70% of initial.
+  - id: LT3-C01-Q07
+    type: single
+    q: >-
+      Which IES document is the method for projecting long-term LED lumen maintenance from test data?
+    choices:
+    - TM-21
+    - LM-79
+    - LM-80
+    - TM-30
+    answer: 0
+    explanation: >-
+      LM-80 measures lumen maintenance of LED packages/modules, TM-21 projects long-term life from
+      that data, LM-79 tests complete luminaires, and TM-30 is a color rendition method.
+    ref: IES LM-80, IES TM-21
+  - id: LT3-C01-Q08
+    type: multi
+    q: >-
+      Before ordering a replacement constant-current driver, which ratings must you confirm match
+      the LED module and site? (Select all that apply.)
+    choices:
+    - Output voltage range covers the module's forward voltage
+    - Input voltage rating covers the circuit voltage
+    - Output current
+    - The color of the driver's case
+    - Dimming type
+    answer: [0, 1, 2, 4]
+    explanation: >-
+      Current, voltage window, dimming protocol and input voltage all must match. Case color is irrelevant;
+      form factor and mounting do matter for fit and heat transfer.
+  - id: LT3-C01-Q09
+    type: single
+    q: >-
+      You are replacing the driver in a troffer that also contains an emergency LED driver. After
+      locking out the breaker and verifying absence of voltage, what must you also do before working
+      on the LED output wiring?
+    choices:
+    - Disconnect the emergency driver's battery connector
+    - Remove the LED board
+    - Nothing; the breaker removes all sources of energy
+    - Press the emergency test switch to drain the battery
+    answer: 0
+    explanation: >-
+      An emergency driver's battery can energize the LED output when normal power is off — that is
+      its job. Disconnect the battery connector per the manufacturer's instructions before working
+      on the output side.
+  - id: LT3-C01-Q10
+    type: single
+    q: >-
+      A new programmable constant-current driver is installed and the LEDs are extremely bright, then
+      fail within days. What was the most likely error?
+    choices:
+    - The driver was mounted to metal
+    - The output current was left at a factory default higher than the module rating
+    - The input voltage was 277 V instead of 120 V on a 120–277 V driver
+    - The dimming leads were capped off
+    answer: 1
+    explanation: >-
+      Programmable drivers must be set to the module's rated current before energizing. Overdriving
+      causes high brightness and early failure. A 120–277 V universal driver tolerates either voltage.
+  - id: LT3-C01-Q11
+    type: multi
+    q: Which conditions commonly cause LED fixtures to overheat? (Select all that apply.)
+    choices:
+    - The fixture is controlled by an occupancy sensor
+    - Heavy dust buildup on a high-bay heat sink
+    - >-
+      An LED lamp marked "not for totally enclosed fixtures" installed in a sealed vapor-tight fixture
+    - A non-IC recessed fixture buried in insulation
+    answer: [1, 2, 3]
+    explanation: >-
+      Insulation contact on non-IC fixtures, enclosure in sealed housings when not rated for it, and
+      dirty heat sinks all trap heat. Sensor control reduces operating hours and does not cause overheating.
+  - id: LT3-C01-Q12
+    type: single
+    q: >-
+      On a constant-current driver, how are multiple LED boards normally connected to a single output?
+    choices:
+    - In parallel, so each board receives the full output voltage
+    - Each board connected directly to line voltage
+    - >-
+      In series, so the same current flows through each board, unless the luminaire wiring diagram
+      says otherwise
+    - In parallel with a resistor in each leg added in the field
+    answer: 2
+    explanation: >-
+      Series connection ensures each board gets the regulated current. Paralleling boards on a CC
+      output lets current divide unevenly. Always follow the luminaire's wiring diagram.
+  - id: LT3-C01-Q13
+    type: single
+    q: >-
+      Several replaced LED fixtures in an office look slightly green compared with the others, which
+      have been operating for years. What is a likely cause?
+    choices:
+    - Voltage drop on the branch circuit
+    - Phosphor aging or a different production batch/CCT, causing visible color difference
+    - The 0–10V wiring is open
+    - Reversed polarity on the LED leads
+    answer: 1
+    explanation: >-
+      Phosphor degradation (accelerated by heat) and batch-to-batch differences cause color shift
+      between old and new fixtures. Reversed polarity would cause no light; an open 0–10V pair would
+      cause full brightness, not a color change.
+  - id: LT3-C01-Q14
+    type: single
+    q: >-
+      Why must Class 2 driver output and dimming leads be kept separated from line-voltage conductors
+      in a luminaire or enclosure?
+    choices:
+    - Separation improves the fixture's power factor
+    - Class 2 wires carry more current than line conductors
+    - It is only a recommendation for appearance
+    - >-
+      The NEC generally requires separation (or a barrier) between Class 2 and power conductors to
+      keep line voltage from reaching the Class 2 circuit
+    answer: 3
+    explanation: >-
+      Class 2 circuits rely on limited power for safety; Article 725 generally requires separation
+      from power conductors unless a barrier or other permitted method is used.
+    ref: NFPA 70 (2023) Article 725
+  - id: LT3-C01-Q15
+    type: single
+    q: >-
+      An exterior LED wall pack failed after a thunderstorm, and its separate surge module's indicator
+      light is out. What is the best action?
+    choices:
+    - Replace the surge protective device (and the driver if it also failed), then test
+    - Install a higher-wattage driver
+    - Replace only the LED board
+    - Bypass the surge module so it cannot fail again
+    answer: 0
+    explanation: >-
+      The SPD sacrifices itself to protect the driver; a dark indicator means it has done its job
+      and needs replacement. Never bypass surge protection. Check and replace the driver if it also
+      failed.

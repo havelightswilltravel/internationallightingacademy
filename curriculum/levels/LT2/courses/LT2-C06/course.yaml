@@ -1,0 +1,176 @@
+code: LT2-C06
+title: Troubleshooting Methodology
+order: 6
+estimated_hours: 6
+description: >
+  Teaches the company's systematic troubleshooting method for lighting systems — gather
+  information, verify, plan safely, analyze, test and isolate, repair, verify and document —
+  with symptom-to-cause tables for dark, flickering, cycling, dim and breaker-tripping
+  problems, half-splitting techniques for finding opens and faults efficiently, and
+  standards for verifying repairs and writing useful work-order documentation.
+objectives:
+  - Apply the seven-step troubleshooting method to lighting service calls
+  - Use failure patterns to determine whether a problem lies in the source, circuit, control or fixture
+  - Isolate opens, shorts and ground faults using measurements and half-splitting
+  - Verify a repair under normal operating conditions and address root cause
+  - Document troubleshooting and repairs with specific, measurable information
+lessons:
+  - 01-systematic-approach.md
+  - 02-symptom-to-cause.md
+  - 03-half-splitting-and-isolation.md
+  - 04-verifying-and-documenting.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C06-Q01
+      type: single
+      q: What is the first step of the systematic troubleshooting method?
+      choices:
+        - Replace the most likely failed part
+        - Gather information about the problem from the customer and work order
+        - Open the panel and check the breaker
+        - Measure the fixture's supply voltage
+      answer: 1
+      explanation: Gathering information (what, when, what changed, has it happened before) guides everything that follows and often reveals the pattern.
+    - id: LT2-C06-Q02
+      type: single
+      q: One troffer is dark, but every other fixture on the same circuit and switch works. Where should you focus first?
+      choices:
+        - The breaker
+        - The homerun to the panel
+        - The dark fixture itself (lamps, ballast/driver, sockets, internal connections, whip)
+        - The utility transformer
+      answer: 2
+      explanation: If neighbors on the same circuit and control work, the source, circuit and control are delivering power — the problem is local to that fixture.
+    - id: LT2-C06-Q03
+      type: single
+      q: When ranking possible causes, which combination should you test first?
+      choices:
+        - Causes that are likely, easy to check and safe to check
+        - The most expensive component
+        - The component the customer suspects
+        - Whatever was replaced most recently
+      answer: 0
+      explanation: Starting where likely, easy and safe overlap solves most problems quickly without unnecessary energized exposure.
+    - id: LT2-C06-Q04
+      type: single
+      q: Why should you change only one thing at a time while troubleshooting?
+      choices:
+        - It uses fewer parts
+        - Changing several things is a code violation
+        - The customer prefers it
+        - If you change several things and it works, you won't know which change fixed it
+      answer: 3
+      explanation: One change at a time preserves cause and effect, so you identify the real fault and root cause.
+    - id: LT2-C06-Q05
+      type: single
+      q: Using half-splitting, what is the maximum number of tests needed to locate a fault among 16 possible points?
+      choices:
+        - 2
+        - 8
+        - 4
+        - 16
+      answer: 2
+      explanation: Each test halves the possibilities 16 → 8 → 4 → 2 → 1, so at most 4 tests.
+    - id: LT2-C06-Q06
+      type: single
+      q: A lighting breaker trips instantly every time it is reset. What is the correct action?
+      choices:
+        - Leave it off, lock it out, and locate the fault on the de-energized circuit
+        - Keep resetting it until it holds
+        - Replace it with a larger breaker
+        - Tape the handle in the on position
+      answer: 0
+      explanation: Immediate tripping indicates a short or ground fault. Resetting onto a fault risks arc flash and damages the breaker; upsizing is never the fix.
+    - id: LT2-C06-Q07
+      type: single
+      q: Fixtures 1 through 5 on a daisy-chained circuit work; fixtures 6 through 10 are dark. Where is the fault most likely?
+      choices:
+        - At the panel breaker
+        - Between fixture 5 and fixture 6 — the outgoing splice at fixture 5, the conductors/whip, or the splice at fixture 6
+        - In fixture 10
+        - In the switch
+      answer: 1
+      explanation: Power reaches fixture 5 but not 6, so the break is between the last working and first dead point.
+    - id: LT2-C06-Q08
+      type: single
+      q: At a dark fixture, you measure 277 V hot-to-ground but 0 V hot-to-neutral. What is the most likely cause?
+      choices:
+        - Failed driver
+        - Open neutral
+        - Tripped breaker
+        - Missing equipment ground
+      answer: 1
+      explanation: Voltage to ground proves the hot is live; no voltage to neutral means the neutral path is open. Always measure both.
+    - id: LT2-C06-Q09
+      type: single
+      q: Several fixtures on different circuits in one area flicker together, sometimes when other equipment starts. What should you suspect and how urgent is it?
+      choices:
+        - Lamps at end of life; routine
+        - A loose or shared neutral problem; treat as urgent
+        - Incorrect color temperature; routine
+        - Normal LED behavior; no action
+      answer: 1
+      explanation: Multiple circuits flickering together suggests a neutral issue, which can cause damaging voltage swings and is a hazard. Escalate promptly.
+    - id: LT2-C06-Q10
+      type: single
+      q: An LED troffer has correct supply voltage at the driver input but no light. What single measurement best splits the problem in half?
+      choices:
+        - Breaker current
+        - Neutral-to-ground voltage at the panel
+        - Driver output voltage at the LED module connector (per manufacturer instructions)
+        - Resistance of the whip
+      answer: 2
+      explanation: No output means the driver is at fault; output present means the LED board, connector or wiring is at fault.
+    - id: LT2-C06-Q11
+      type: multi
+      q: Which steps belong in verifying a repair? (Select all that apply.)
+      choices:
+        - Operate the fixture from its normal switch, sensor or control
+        - Check that neighboring fixtures on the same circuit still work
+        - Run the fixture long enough to catch thermal or warm-up problems
+        - Leave the jumper used for testing in place in case it's needed again
+      answer: [0, 1, 2]
+      explanation: Verification uses normal controls, checks the circuit and runs long enough. Test jumpers must always be removed.
+    - id: LT2-C06-Q12
+      type: multi
+      q: Which entries make a work order useful to the next technician? (Select all that apply.)
+      choices:
+        - Measured readings with units (for example "276 V H–N at driver input")
+        - Specific location and circuit number
+        - "Fixed light"
+        - Problems noticed but not fixed, and who they were reported to
+      answer: [0, 1, 3]
+      explanation: Specific locations, readings with units, cause/repair details, and unresolved issues are valuable. "Fixed light" conveys nothing.
+    - id: LT2-C06-Q13
+      type: single
+      q: You replaced a failed driver and notice insulation piled on top of the non-IC fixture housing. What should you do?
+      choices:
+        - Nothing; the driver is replaced
+        - Remove the insulation from the fixture (or report it if you can't) and note it as root cause on the work order
+        - Add more insulation to protect the new driver
+        - Install a higher-wattage driver
+      answer: 1
+      explanation: Heat from insulation contact likely caused the failure. Fixing or reporting root cause prevents a callback and a possible fire hazard.
+    - id: LT2-C06-Q14
+      type: single
+      q: Which rule applies when releasing your lockout after a repair?
+      choices:
+        - Any team member may remove any lock to save time
+        - Remove locks before replacing covers so you can test faster
+        - Confirm tools are removed, covers replaced and people clear, notify affected people, and remove only your own lock
+        - Leave the lock on and switch the breaker on around it
+      answer: 2
+      explanation: The LOTO release procedure requires the work area to be safe and affected people notified; each worker removes only their own lock.
+      ref: OSHA 29 CFR 1910.147
+    - id: LT2-C06-Q15
+      type: single
+      q: When should you stop and escalate to your lead during troubleshooting?
+      choices:
+        - Only after replacing every component in the fixture
+        - Never; escalating looks bad
+        - Only if the customer asks
+        - When readings don't make sense, the fault is in equipment beyond your qualification, or you find a hazardous condition
+      answer: 3
+      explanation: Escalating is the right call when the situation exceeds your qualification or understanding. Guessing on energized equipment is not.

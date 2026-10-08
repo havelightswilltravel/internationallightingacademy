@@ -1,0 +1,194 @@
+code: EA1-C05
+title: Construction Safety
+order: 5
+estimated_hours: 14
+description: >
+  OSHA construction safety (29 CFR 1926) for electrical apprentices moving from service work to
+  construction sites. Covers the competent person, the Focus Four hazards, fall protection and
+  ladders, temporary power and GFCI/AEGCP, trenching and excavation, confined space awareness,
+  hazard communication and GHS, respirable crystalline silica, scaffolds, and clearance from
+  overhead power lines. Pairs with skills EA1-S07 and EA1-S09.
+objectives:
+  - Identify the major 29 CFR 1926 subparts that apply to electrical construction work
+  - Describe the competent person's role and the Focus Four hazards
+  - Apply temporary power requirements including GFCI protection and cord inspection
+  - Apply excavation requirements for protective systems, egress, spoils and soil classification
+  - Recognize confined and permit-required confined spaces and their atmospheric hazards
+  - Read GHS labels and SDSs and apply silica exposure controls
+  - Apply scaffold requirements and overhead power line clearances
+lessons:
+  - 01-osha-construction-overview.md
+  - 02-trenching-and-excavation.md
+  - 03-confined-space-awareness.md
+  - 04-hazcom-and-silica.md
+  - 05-scaffolds-and-overhead-lines.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA1-C05-Q01
+      type: single
+      q: In OSHA construction standards, what is a competent person?
+      choices:
+        - Any worker with more than five years of experience
+        - A registered professional engineer
+        - Someone who can identify existing and predictable hazards and has authority to take prompt corrective measures
+        - The site's OSHA compliance officer
+      answer: 2
+      explanation: 1926.32(f) defines a competent person as one capable of identifying existing and predictable hazards and who has authorization to take prompt corrective measures to eliminate them.
+      ref: OSHA 29 CFR 1926.32(f)
+    - id: EA1-C05-Q02
+      type: multi
+      q: Which hazards make up OSHA's construction Focus Four? (Select all that apply.)
+      choices:
+        - Falls
+        - Struck-by
+        - Caught-in/between
+        - Electrocution
+        - Noise
+      answer: [0, 1, 2, 3]
+      explanation: The Focus Four are falls, struck-by, caught-in/between and electrocution. Noise is a health hazard but not one of the Focus Four.
+      ref: OSHA Construction Focus Four
+    - id: EA1-C05-Q03
+      type: single
+      q: Under OSHA Subpart M, at what height does fall protection generally become required for unprotected sides and edges in construction?
+      choices:
+        - 4 ft
+        - 6 ft
+        - 10 ft
+        - 15 ft
+      answer: 1
+      explanation: 1926.501(b)(1) generally requires fall protection at 6 ft or more above a lower level. Scaffolds (Subpart L) use a 10 ft trigger.
+      ref: OSHA 29 CFR 1926.501(b)(1)
+    - id: EA1-C05-Q04
+      type: single
+      q: Under 1926.404(b)(1), what are the two options for protecting employees using temporary 120 V, 15 and 20 A receptacles on a construction site?
+      choices:
+        - Double-insulated tools or rubber gloves
+        - Fuses or circuit breakers
+        - Isolation transformers or low-voltage tools
+        - GFCI protection or an assured equipment grounding conductor program
+      answer: 3
+      explanation: OSHA allows either GFCI protection or an assured equipment grounding conductor program (AEGCP) with inspections and testing. NEC 590.6 also requires GFCI protection for temporary receptacles used by personnel.
+      ref: OSHA 29 CFR 1926.404(b)(1); NEC 590.6
+    - id: EA1-C05-Q05
+      type: single
+      q: At what depth does OSHA require a protective system for a trench, unless it is made entirely in stable rock?
+      choices:
+        - 4 ft
+        - 5 ft
+        - 6 ft
+        - 20 ft
+      answer: 1
+      explanation: 1926.652(a)(1) requires protective systems in excavations 5 ft or deeper unless in stable rock. Shallower excavations need protection if a competent person finds cave-in potential.
+      ref: OSHA 29 CFR 1926.652(a)(1)
+    - id: EA1-C05-Q06
+      type: single
+      q: In a trench 4 ft or deeper, a ladder or other safe means of egress must be located so that workers need no more than how much lateral travel to reach it?
+      choices:
+        - 25 ft
+        - 10 ft
+        - 50 ft
+        - 100 ft
+      answer: 0
+      explanation: 1926.651(c)(2) requires a stairway, ladder, ramp or other safe means of egress within 25 ft of lateral travel in trenches 4 ft or more deep.
+      ref: OSHA 29 CFR 1926.651(c)(2)
+    - id: EA1-C05-Q07
+      type: single
+      q: An 8 ft deep trench with a 2 ft wide bottom is sloped on both sides in Type C soil (1.5 to 1). What is the approximate top width?
+      choices:
+        - 14 ft
+        - 18 ft
+        - 26 ft
+        - 24 ft
+      answer: 2
+      explanation: Each side sets back 8 x 1.5 = 12 ft. Top width = 2 + 12 + 12 = 26 ft.
+      ref: OSHA 29 CFR 1926 Subpart P, Appendix B
+    - id: EA1-C05-Q08
+      type: single
+      q: How far back from the edge of an excavation must spoil piles be kept (absent retaining devices)?
+      choices:
+        - 6 in
+        - 1 ft
+        - 2 ft
+        - 5 ft
+      answer: 2
+      explanation: 1926.651(j)(2) requires excavated materials and equipment to be kept at least 2 ft from the edge, or retained by devices that prevent them from falling into the excavation.
+      ref: OSHA 29 CFR 1926.651(j)(2)
+    - id: EA1-C05-Q09
+      type: single
+      q: What is the maximum allowable slope for an excavation less than 20 ft deep in Type B soil?
+      choices:
+        - 3/4 to 1
+        - 1 to 1
+        - 1-1/2 to 1
+        - Vertical
+      answer: 1
+      explanation: Appendix B to Subpart P gives 3/4:1 for Type A, 1:1 (45 degrees) for Type B and 1-1/2:1 for Type C. Only stable rock may be vertical.
+      ref: OSHA 29 CFR 1926 Subpart P, Appendix B
+    - id: EA1-C05-Q10
+      type: single
+      q: A gas meter at a vault opening reads 19.0 percent oxygen. What should happen?
+      choices:
+        - Entry may proceed because oxygen is present
+        - Entry may proceed with a dust mask
+        - Only the attendant may enter
+        - Do not enter - the atmosphere is oxygen-deficient; ventilate, re-test and have the entry supervisor evaluate
+      answer: 3
+      explanation: Atmospheres below 19.5 percent oxygen are oxygen-deficient. No one should enter until the cause is controlled and the atmosphere re-tested as acceptable.
+      ref: OSHA 29 CFR 1926.1202 (definitions); EA1-C05 Lesson 3
+    - id: EA1-C05-Q11
+      type: single
+      q: In what order should a confined space atmosphere be tested?
+      choices:
+        - Oxygen, flammables, toxics
+        - Toxics, flammables, oxygen
+        - Flammables, oxygen, toxics
+        - Any order is acceptable
+      answer: 0
+      explanation: Test oxygen first (many combustible sensors need adequate oxygen to read correctly), then flammable gases, then toxic gases, at multiple levels in the space.
+      ref: EA1-C05 Lesson 3
+    - id: EA1-C05-Q12
+      type: single
+      q: Which SDS section lists exposure limits and recommended personal protective equipment?
+      choices:
+        - Section 2
+        - Section 4
+        - Section 8
+        - Section 11
+      answer: 2
+      explanation: Section 8 covers exposure controls and personal protection. Section 2 is hazard identification, Section 4 is first aid and Section 11 is toxicological information.
+      ref: OSHA 29 CFR 1910.1200, Appendix D
+    - id: EA1-C05-Q13
+      type: multi
+      q: Which are acceptable practices under OSHA's construction silica standard when drilling concrete? (Select all that apply.)
+      choices:
+        - Using a drill with a dust-collection shroud and HEPA-filtered vacuum as specified in Table 1
+        - Cleaning up dust with a HEPA vacuum or wet methods
+        - Blowing dust off surfaces with compressed air
+        - Dry sweeping the dust after drilling
+      answer: [0, 1]
+      explanation: 1926.1153 Table 1 specifies dust collection controls for drills, and housekeeping must use wet methods or HEPA vacuums. Dry sweeping and compressed air are prohibited where they could contribute to exposure.
+      ref: OSHA 29 CFR 1926.1153
+    - id: EA1-C05-Q14
+      type: single
+      q: Above what height is fall protection required for workers on a scaffold?
+      choices:
+        - 4 ft
+        - 6 ft
+        - 10 ft
+        - 15 ft
+      answer: 2
+      explanation: 1926.451(g)(1) requires fall protection for employees on scaffolds more than 10 ft above a lower level.
+      ref: OSHA 29 CFR 1926.451(g)(1)
+    - id: EA1-C05-Q15
+      type: single
+      q: What minimum clearance should be maintained between unqualified workers or conductive equipment and an overhead power line rated 50 kV or less?
+      choices:
+        - 3 ft
+        - 5 ft
+        - 20 ft
+        - 10 ft
+      answer: 3
+      explanation: For lines 50 kV or less, the general minimum is 10 ft, increasing with voltage above 50 kV. Cranes generally require 20 ft under 1926.1408 unless specific procedures are followed. Treat all overhead lines as energized and uninsulated.
+      ref: OSHA 29 CFR 1926.600(a)(6); 1910.333(c)(3)

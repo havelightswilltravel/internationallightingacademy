@@ -2,186 +2,252 @@ code: LT3-C04
 title: Emergency & Egress Lighting
 order: 4
 estimated_hours: 6
-description: >
-  The life-safety purpose of emergency and egress lighting and how NFPA 101, NEC Article 700,
-  UL 924 and the AHJ fit together; battery units, emergency LED drivers and central inverters;
-  UL 924 control and transfer devices such as ALCRs and BCELTS; exit sign types including
-  tritium; and how to perform and document the NFPA 101 monthly 30-second and annual
-  90-minute tests.
+description: >-
+  The life-safety purpose of emergency and egress lighting and how NFPA 101, NEC Article 700, UL 924
+  and the AHJ fit together; battery units, emergency LED drivers and central inverters; UL 924 control
+  and transfer devices such as ALCRs and BCELTS; exit sign types including tritium; and how to perform
+  and document the NFPA 101 monthly 30-second and annual 90-minute tests.
 objectives:
-  - Explain the purpose of emergency lighting and the roles of NFPA 101, NEC Article 700, UL 924 and the AHJ
-  - State NFPA 101 baseline performance requirements (duration, illumination, uniformity, transfer time)
-  - Install unit equipment and emergency LED drivers with a correct unswitched supply from the normal lighting branch circuit
-  - Identify and test UL 924 emergency lighting control devices and never bypass them
-  - Inspect and replace exit signs, including proper handling of tritium signs
-  - Perform and record monthly 30-second and annual 90-minute emergency lighting tests
+- >-
+  Explain the purpose of emergency lighting and the roles of NFPA 101, NEC Article 700, UL 924 and
+  the AHJ
+- >-
+  State NFPA 101 baseline performance requirements (duration, illumination, uniformity, transfer time)
+- >-
+  Install unit equipment and emergency LED drivers with a correct unswitched supply from the normal
+  lighting branch circuit
+- Identify and test UL 924 emergency lighting control devices and never bypass them
+- Inspect and replace exit signs, including proper handling of tritium signs
+- Perform and record monthly 30-second and annual 90-minute emergency lighting tests
 lessons:
-  - 01-life-safety-purpose-and-code-framework.md
-  - 02-battery-packs-emergency-drivers-and-inverters.md
-  - 03-ul924-transfer-devices-and-exit-signs.md
-  - 04-nfpa-101-testing-and-records.md
+- 01-life-safety-purpose-and-code-framework.md
+- 02-battery-packs-emergency-drivers-and-inverters.md
+- 03-ul924-transfer-devices-and-exit-signs.md
+- 04-nfpa-101-testing-and-records.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
   questions:
-    - id: LT3-C04-Q01
-      type: single
-      q: Under NFPA 101, for how long must battery-powered emergency lighting operate during the annual test?
-      choices:
-        - 30 seconds
-        - 30 minutes
-        - 60 minutes
-        - 90 minutes (1.5 hours)
-      answer: 3
-      explanation: NFPA 101 requires emergency illumination for at least 1.5 hours, and the annual test for battery-powered equipment runs the full 1.5 hours.
-      ref: NFPA 101, Life Safety Code — emergency lighting (Section 7.9)
-    - id: LT3-C04-Q02
-      type: single
-      q: How often, and for how long, must NFPA 101 functional tests of emergency lighting be performed?
-      choices:
-        - Every 30 days, for at least 30 seconds
-        - Every 7 days, for at least 5 minutes
-        - Every 90 days, for at least 90 seconds
-        - Every 6 months, for at least 30 minutes
-      answer: 0
-      explanation: NFPA 101 requires a functional test at 30-day intervals for not less than 30 seconds, plus an annual 1.5-hour test for battery-powered systems, with written records.
-      ref: NFPA 101 — periodic testing of emergency lighting (7.9.3)
-    - id: LT3-C04-Q03
-      type: single
-      q: Which NFPA 101 values describe initial emergency illumination along the path of egress at floor level?
-      choices:
-        - Average 10 fc, minimum 1 fc
-        - Average 1 fc, minimum 0.1 fc at any point
-        - Average 5 fc, minimum 0.5 fc
-        - Minimum 0.01 fc anywhere
-      answer: 1
-      explanation: NFPA 101 requires an initial average of at least 1 footcandle and at least 0.1 footcandle at any point, with a maximum-to-minimum ratio not exceeding 40:1.
-      ref: NFPA 101 (Section 7.9.2)
-    - id: LT3-C04-Q04
-      type: single
-      q: Which document primarily governs how emergency systems are wired and powered in a building?
-      choices:
-        - NFPA 101
-        - UL 924
-        - NEC (NFPA 70) Article 700
-        - OSHA 29 CFR 1910.37
-      answer: 2
-      explanation: NEC Article 700 covers emergency system sources, wiring, transfer equipment and unit equipment installation. NFPA 101 sets where and how much; UL 924 is a product standard; OSHA 1910.37 addresses exit routes.
-      ref: NFPA 70 (2023) Article 700
-    - id: LT3-C04-Q05
-      type: single
-      q: When installing an emergency LED driver in a switched fixture, where must the unswitched hot come from?
-      choices:
-        - Any 120 V receptacle circuit nearby
-        - The switched leg after the wall switch
-        - The same branch circuit as the normal lighting in the area, ahead of any local switch, dimmer or sensor
-        - A dedicated circuit from a different panel
-      answer: 2
-      explanation: The unit must monitor the normal lighting branch circuit so it responds when that circuit fails, and its charger must stay powered when the lights are switched off.
-      ref: NFPA 70 (2023) Article 700 — unit equipment
-    - id: LT3-C04-Q06
-      type: single
-      q: After an install, an emergency unit goes to battery every time the room lights are switched off. What is wrong?
-      choices:
-        - The battery is defective
-        - The unit's supply is connected to the switched leg instead of an unswitched hot
-        - The test switch is stuck
-        - The unit is on the correct circuit; this is normal operation
-      answer: 1
-      explanation: If the unit sees loss of power whenever the switch is off, it is fed from the switched leg. Its battery will be drained and may fail when needed.
-    - id: LT3-C04-Q07
-      type: single
-      q: What does an Automatic Load Control Relay (ALCR) do?
-      choices:
-        - Charges emergency batteries faster
-        - Forces an emergency-fed fixture on during loss of normal power, overriding the local switch, sensor or dimmer
-        - Turns emergency lights off during the day to save energy
-        - Converts a fluorescent fixture to LED
-      answer: 1
-      explanation: An ALCR (UL 924 listed) lets normal controls operate an emergency-fed fixture but forces it on when it senses loss of normal power.
-      ref: UL 924
-    - id: LT3-C04-Q08
-      type: single
-      q: A customer complains that emergency-fed corridor lights won't turn off with the wall control. You find an ALCR whose normal-sense input is fed from a breaker that was left off. What should you do?
-      choices:
-        - Remove the ALCR so the switch controls the lights directly
-        - Restore and verify the normal-sense circuit, then test that the switch works and that the ALCR still forces the lights on when normal power is lost
-        - Jumper the ALCR's emergency input to its output
-        - Replace the fixtures with non-emergency fixtures
-      answer: 1
-      explanation: The ALCR is correctly holding the lights on because it senses loss of normal power. Never bypass life-safety control devices — correct the cause and test.
-    - id: LT3-C04-Q09
-      type: single
-      q: How must an old tritium (self-luminous) exit sign be disposed of?
-      choices:
-        - In a universal waste lamp box
-        - In regular trash, because it uses no electricity
-        - Returned to the manufacturer or a licensed recipient under NRC/Agreement State rules, following company procedure
-        - Broken open and the tubes recycled as glass
-      answer: 2
-      explanation: Tritium signs contain regulated radioactive material. They must never go in the trash or be broken; transfer to a licensed recipient must be documented.
-      ref: U.S. NRC requirements for tritium exit signs
-    - id: LT3-C04-Q10
-      type: single
-      q: During an annual test, one unit is lit at the start but is dark when you check it at the 60-minute mark. What is the result?
-      choices:
-        - Pass, because it lit for over 30 seconds
-        - Pass, because it lit for over half the required time
-        - Fail; it must stay lit for the full 90 minutes — repair or replace and retest
-        - No result; annual tests only check the charge light
-      answer: 2
-      explanation: The annual test requires operation for the full 1.5 hours. Any unit that goes dark or fails early fails the test and must be corrected and documented.
-    - id: LT3-C04-Q11
-      type: multi
-      q: Which items belong in an emergency lighting test record? (Select all that apply.)
-      choices:
-        - Date of the test
-        - Unit ID/location and test type
-        - Pass/fail result and any corrective action
-        - Name or initials of the person testing
-        - The brand of ladder used
-      answer: [0, 1, 2, 3]
-      explanation: Records must show when, what, the result, corrective action and who tested, so the AHJ can verify compliance.
-    - id: LT3-C04-Q12
-      type: multi
-      q: Which energy sources may keep emergency lighting equipment energized after you turn off the normal lighting breaker? (Select all that apply.)
-      choices:
-        - The internal battery of a unit or emergency driver
-        - A central lighting inverter output circuit
-        - A generator-fed emergency circuit through a transfer switch
-        - The light from a nearby window
-      answer: [0, 1, 2]
-      explanation: Emergency equipment is designed to stay energized without normal power. Identify and isolate every source, disconnect batteries, and verify absence of voltage.
-      ref: OSHA 29 CFR 1910.147; NFPA 70E
-    - id: LT3-C04-Q13
-      type: single
-      q: You are installing a new emergency LED driver. Why should you wait before performing a 90-minute test on it?
-      choices:
-        - The LED module must burn in for one week
-        - The battery needs its initial charge period (often about 24 hours, per the manufacturer) to reach full capacity
-        - The AHJ must be present for every 90-minute test
-        - New units cannot be tested for one year
-      answer: 1
-      explanation: A new battery must be fully charged before a full-duration test, or it will fail falsely. Check the manufacturer's required initial charge time.
-    - id: LT3-C04-Q14
-      type: single
-      q: What is a key installation requirement for an exit sign's power supply?
-      choices:
-        - It must be controlled by the room's light switch
-        - It must be on an occupancy sensor to save energy
-        - It must be on an unswitched supply so it stays continuously illuminated
-        - It may be fed from a dimmer set to 50%
-      answer: 2
-      explanation: Exit signs must be continuously illuminated when the building is occupied; they are not to be switched off by local controls.
-      ref: NFPA 101 (Section 7.10)
-    - id: LT3-C04-Q15
-      type: single
-      q: Which statement about self-testing/self-diagnostic emergency units is correct?
-      choices:
-        - They never need any human inspection or records
-        - They perform automatic periodic tests and show faults on status indicators, but indicators still must be checked and records kept
-        - They can only be used in residential buildings
-        - They extend the required duration to 3 hours
-      answer: 1
-      explanation: NFPA 101 permits self-testing units in place of manual monthly tests, but status indicators still need periodic visual checks and results must be documented.
-      ref: NFPA 101 (7.9.3)
+  - id: LT3-C04-Q01
+    type: single
+    q: >-
+      Under NFPA 101, for how long must battery-powered emergency lighting operate during the annual
+      test?
+    choices:
+    - 90 minutes (1.5 hours)
+    - 30 minutes
+    - 60 minutes
+    - 30 seconds
+    answer: 0
+    explanation: >-
+      NFPA 101 requires emergency illumination for at least 1.5 hours, and the annual test for battery-powered
+      equipment runs the full 1.5 hours.
+    ref: NFPA 101, Life Safety Code — emergency lighting (Section 7.9)
+  - id: LT3-C04-Q02
+    type: single
+    q: >-
+      How often, and for how long, must NFPA 101 functional tests of emergency lighting be performed?
+    choices:
+    - Every 7 days, for at least 5 minutes
+    - Every 90 days, for at least 90 seconds
+    - Every 6 months, for at least 30 minutes
+    - Every 30 days, for at least 30 seconds
+    answer: 3
+    explanation: >-
+      NFPA 101 requires a functional test at 30-day intervals for not less than 30 seconds, plus an
+      annual 1.5-hour test for battery-powered systems, with written records.
+    ref: NFPA 101 — periodic testing of emergency lighting (7.9.3)
+  - id: LT3-C04-Q03
+    type: single
+    q: >-
+      Which NFPA 101 values describe initial emergency illumination along the path of egress at floor
+      level?
+    choices:
+    - Minimum 0.01 fc anywhere
+    - Average 10 fc, minimum 1 fc
+    - Average 5 fc, minimum 0.5 fc
+    - Average 1 fc, minimum 0.1 fc at any point
+    answer: 3
+    explanation: >-
+      NFPA 101 requires an initial average of at least 1 footcandle and at least 0.1 footcandle at
+      any point, with a maximum-to-minimum ratio not exceeding 40:1.
+    ref: NFPA 101 (Section 7.9.2)
+  - id: LT3-C04-Q04
+    type: single
+    q: >-
+      Which document primarily governs how emergency systems are wired and powered in a building?
+    choices:
+    - OSHA 29 CFR 1910.37
+    - UL 924
+    - NFPA 101
+    - NEC (NFPA 70) Article 700
+    answer: 3
+    explanation: >-
+      NEC Article 700 covers emergency system sources, wiring, transfer equipment and unit equipment
+      installation. NFPA 101 sets where and how much; UL 924 is a product standard; OSHA 1910.37 addresses
+      exit routes.
+    ref: NFPA 70 (2023) Article 700
+  - id: LT3-C04-Q05
+    type: single
+    q: >-
+      When installing an emergency LED driver in a switched fixture, where must the unswitched hot
+      come from?
+    choices:
+    - A dedicated circuit from a different panel
+    - >-
+      The same branch circuit as the normal lighting in the area, ahead of any local switch, dimmer
+      or sensor
+    - Any 120 V receptacle circuit nearby
+    - The switched leg after the wall switch
+    answer: 1
+    explanation: >-
+      The unit must monitor the normal lighting branch circuit so it responds when that circuit fails,
+      and its charger must stay powered when the lights are switched off.
+    ref: NFPA 70 (2023) Article 700 — unit equipment
+  - id: LT3-C04-Q06
+    type: single
+    q: >-
+      After an install, an emergency unit goes to battery every time the room lights are switched
+      off. What is wrong?
+    choices:
+    - The test switch is stuck
+    - The unit's supply is connected to the switched leg instead of an unswitched hot
+    - The unit is on the correct circuit; this is normal operation
+    - The battery is defective
+    answer: 1
+    explanation: >-
+      If the unit sees loss of power whenever the switch is off, it is fed from the switched leg.
+      Its battery will be drained and may fail when needed.
+  - id: LT3-C04-Q07
+    type: single
+    q: What does an Automatic Load Control Relay (ALCR) do?
+    choices:
+    - Turns emergency lights off during the day to save energy
+    - Charges emergency batteries faster
+    - >-
+      Forces an emergency-fed fixture on during loss of normal power, overriding the local switch,
+      sensor or dimmer
+    - Converts a fluorescent fixture to LED
+    answer: 2
+    explanation: >-
+      An ALCR (UL 924 listed) lets normal controls operate an emergency-fed fixture but forces it
+      on when it senses loss of normal power.
+    ref: UL 924
+  - id: LT3-C04-Q08
+    type: single
+    q: >-
+      A customer complains that emergency-fed corridor lights won't turn off with the wall control.
+      You find an ALCR whose normal-sense input is fed from a breaker that was left off. What should
+      you do?
+    choices:
+    - Replace the fixtures with non-emergency fixtures
+    - >-
+      Restore and verify the normal-sense circuit, then test that the switch works and that the ALCR
+      still forces the lights on when normal power is lost
+    - Jumper the ALCR's emergency input to its output
+    - Remove the ALCR so the switch controls the lights directly
+    answer: 1
+    explanation: >-
+      The ALCR is correctly holding the lights on because it senses loss of normal power. Never bypass
+      life-safety control devices — correct the cause and test.
+  - id: LT3-C04-Q09
+    type: single
+    q: How must an old tritium (self-luminous) exit sign be disposed of?
+    choices:
+    - In regular trash, because it uses no electricity
+    - Broken open and the tubes recycled as glass
+    - >-
+      Returned to the manufacturer or a licensed recipient under NRC/Agreement State rules, following
+      company procedure
+    - In a universal waste lamp box
+    answer: 2
+    explanation: >-
+      Tritium signs contain regulated radioactive material. They must never go in the trash or be
+      broken; transfer to a licensed recipient must be documented.
+    ref: U.S. NRC requirements for tritium exit signs
+  - id: LT3-C04-Q10
+    type: single
+    q: >-
+      During an annual test, one unit is lit at the start but is dark when you check it at the 60-minute
+      mark. What is the result?
+    choices:
+    - No result; annual tests only check the charge light
+    - Pass, because it lit for over half the required time
+    - Fail; it must stay lit for the full 90 minutes — repair or replace and retest
+    - Pass, because it lit for over 30 seconds
+    answer: 2
+    explanation: >-
+      The annual test requires operation for the full 1.5 hours. Any unit that goes dark or fails
+      early fails the test and must be corrected and documented.
+  - id: LT3-C04-Q11
+    type: multi
+    q: Which items belong in an emergency lighting test record? (Select all that apply.)
+    choices:
+    - Date of the test
+    - Pass/fail result and any corrective action
+    - Name or initials of the person testing
+    - Unit ID/location and test type
+    - The brand of ladder used
+    answer: [0, 1, 2, 3]
+    explanation: >-
+      Records must show when, what, the result, corrective action and who tested, so the AHJ can verify
+      compliance.
+  - id: LT3-C04-Q12
+    type: multi
+    q: >-
+      Which energy sources may keep emergency lighting equipment energized after you turn off the
+      normal lighting breaker? (Select all that apply.)
+    choices:
+    - The light from a nearby window
+    - The internal battery of a unit or emergency driver
+    - A generator-fed emergency circuit through a transfer switch
+    - A central lighting inverter output circuit
+    answer: [1, 2, 3]
+    explanation: >-
+      Emergency equipment is designed to stay energized without normal power. Identify and isolate
+      every source, disconnect batteries, and verify absence of voltage.
+    ref: OSHA 29 CFR 1910.147; NFPA 70E
+  - id: LT3-C04-Q13
+    type: single
+    q: >-
+      You are installing a new emergency LED driver. Why should you wait before performing a 90-minute
+      test on it?
+    choices:
+    - >-
+      The battery needs its initial charge period (often about 24 hours, per the manufacturer) to
+      reach full capacity
+    - The LED module must burn in for one week
+    - The AHJ must be present for every 90-minute test
+    - New units cannot be tested for one year
+    answer: 0
+    explanation: >-
+      A new battery must be fully charged before a full-duration test, or it will fail falsely. Check
+      the manufacturer's required initial charge time.
+  - id: LT3-C04-Q14
+    type: single
+    q: What is a key installation requirement for an exit sign's power supply?
+    choices:
+    - It must be on an unswitched supply so it stays continuously illuminated
+    - It must be controlled by the room's light switch
+    - It may be fed from a dimmer set to 50%
+    - It must be on an occupancy sensor to save energy
+    answer: 0
+    explanation: >-
+      Exit signs must be continuously illuminated when the building is occupied; they are not to be
+      switched off by local controls.
+    ref: NFPA 101 (Section 7.10)
+  - id: LT3-C04-Q15
+    type: single
+    q: Which statement about self-testing/self-diagnostic emergency units is correct?
+    choices:
+    - They never need any human inspection or records
+    - >-
+      They perform automatic periodic tests and show faults on status indicators, but indicators still
+      must be checked and records kept
+    - They extend the required duration to 3 hours
+    - They can only be used in residential buildings
+    answer: 1
+    explanation: >-
+      NFPA 101 permits self-testing units in place of manual monthly tests, but status indicators
+      still need periodic visual checks and results must be documented.
+    ref: NFPA 101 (7.9.3)

@@ -1,0 +1,247 @@
+code: LT3-C06
+title: Aerial Work Platforms
+order: 6
+estimated_hours: 6
+description: 'The knowledge portion of mobile elevating work platform (MEWP) training for lighting
+  work: MEWP Groups and Types, the ANSI A92.20/A92.22/A92.24 standards and OSHA requirements, pre-use
+  and workplace inspections, fall protection and safe operation, overhead power-line clearances, ground
+  conditions, weather, and rescue planning. Completing this course does not authorize MEWP operation;
+  hands-on operator training and model-specific familiarization by the employer are required.'
+objectives:
+- >-
+  Classify MEWPs by ANSI Group (A/B) and Type (1/2/3) and select an appropriate machine for a lighting
+  task
+- >-
+  Explain the purposes of ANSI A92.20, A92.22 and A92.24 and the need for training and familiarization
+- Perform a manufacturer-based pre-use inspection, function test and workplace inspection
+- >-
+  Apply fall protection requirements for boom and scissor lifts and use designated anchorages
+- >-
+  Maintain minimum approach distances from overhead power lines and respond correctly to a contact
+- >-
+  Evaluate ground conditions, slope, floor load and weather, and describe the elements of a rescue
+  plan
+lessons:
+- 01-mewp-types-and-ansi-a92-standards.md
+- 02-pre-use-and-workplace-inspection.md
+- 03-safe-operation-and-fall-protection.md
+- 04-power-line-clearances-ground-conditions-and-rescue.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+  - id: LT3-C06-Q01
+    type: single
+    q: >-
+      A self-propelled scissor lift that can be driven while elevated, controlled from the platform,
+      is classified as which ANSI MEWP category?
+    choices:
+    - 3B
+    - 1B
+    - 3A
+    - 1A
+    answer: 2
+    explanation: >-
+      Group A platforms stay within the tipping lines (scissors), and Type 3 machines travel elevated
+      under platform control.
+    ref: ANSI A92.20 / A92.22
+  - id: LT3-C06-Q02
+    type: single
+    q: >-
+      Which ANSI standard addresses the safe use of MEWPs, including the safe use plan, inspections
+      and rescue?
+    choices:
+    - ANSI Z359.1
+    - ANSI A92.22
+    - ANSI A92.24
+    - ANSI A92.20
+    answer: 1
+    explanation: A92.22 is the safe-use standard. A92.20 covers design, and A92.24 covers training.
+  - id: LT3-C06-Q03
+    type: single
+    q: >-
+      You completed this course and passed its quiz. Are you now authorized to operate a boom lift
+      on a job site?
+    choices:
+    - Yes, the course quiz satisfies all training requirements
+    - >-
+      No; you also need hands-on operator training and evaluation for that MEWP type and familiarization
+      on the specific model, documented by your employer
+    - No; only licensed electricians may operate MEWPs
+    - Yes, as long as a supervisor is on site
+    answer: 1
+    explanation: >-
+      Operator training includes a practical evaluation, and familiarization on the specific make/model
+      is required before use.
+    ref: ANSI A92.22, A92.24
+  - id: LT3-C06-Q04
+    type: single
+    q: >-
+      During the pre-use function test, the platform emergency stop does not stop the lift. What should
+      you do?
+    choices:
+    - Disconnect the emergency stop so it can't cause problems later
+    - Lower the platform, tag the machine out of service, and report it
+    - Use only the ground controls for the rest of the day
+    - Use the lift carefully and report the problem at the end of the shift
+    answer: 1
+    explanation: >-
+      Any failed safety function means the MEWP must be removed from service until repaired. Never
+      operate a defective machine or bypass a safety device.
+  - id: LT3-C06-Q05
+    type: single
+    q: When should the pre-use inspection be performed?
+    choices:
+    - Only when the machine is delivered to a new site
+    - Only after the machine has been damaged
+    - Before each shift or use period, by the operator
+    - Once a year by a mechanic
+    answer: 2
+    explanation: >-
+      The operator performs a pre-use inspection before each shift/use. Frequent and annual inspections
+      by a qualified mechanic are separate requirements.
+  - id: LT3-C06-Q06
+    type: single
+    q: When working from a boom lift, where must your lanyard be attached?
+    choices:
+    - To the manufacturer's designated anchorage point on the platform
+    - To the guardrail at the most convenient spot
+    - To the luminaire you are servicing
+    - To a nearby building beam
+    answer: 0
+    explanation: >-
+      Attach only to the designated anchorage. Tying off to structures or fixtures can pull you out
+      of the platform if it moves; guardrails are not necessarily rated anchorages.
+    ref: OSHA 29 CFR 1926.453
+  - id: LT3-C06-Q07
+    type: single
+    q: >-
+      Why is a fall restraint lanyard often preferred over a longer fall-arrest lanyard in a boom
+      platform?
+    choices:
+    - Restraint lanyards are cheaper
+    - >-
+      Restraint keeps you from reaching a fall position; a long arrest lanyard may not stop you before
+      you strike something at low heights
+    - Fall-arrest lanyards are prohibited by OSHA
+    - Restraint lanyards don't require a harness
+    answer: 1
+    explanation: >-
+      Restraint prevents the fall from occurring. Arrest systems need adequate clearance below, which
+      may not exist in a basket near the ground.
+  - id: LT3-C06-Q08
+    type: single
+    q: >-
+      A lighting technician (unqualified person) is working near a 13.8 kV overhead distribution line.
+      What is the minimum distance OSHA requires between the line and the technician, tools and the
+      MEWP?
+    choices:
+    - 10 feet
+    - 3 feet
+    - 20 feet
+    - 6 feet
+    answer: 0
+    explanation: >-
+      For unqualified persons and lines 50 kV or less, the minimum clearance is 10 feet. Above 50
+      kV, add 4 inches per 10 kV.
+    ref: OSHA 29 CFR 1910.333(c)(3)
+  - id: LT3-C06-Q09
+    type: single
+    q: >-
+      Your boom touches an overhead line while you are on the platform. The machine is not on fire.
+      What is the best action?
+    choices:
+    - >-
+      Stay on the platform, try to move the boom away from the line using the controls, and warn others
+      to stay away
+    - Climb down the boom as quickly as possible
+    - Jump off immediately and run
+    - Have a coworker grab the platform and pull it free
+    answer: 0
+    explanation: >-
+      Staying on the platform keeps you from bridging between the energized machine and ground. Others
+      must stay away. Jump clear (feet together, then shuffle) only if fire or another hazard forces
+      you off.
+  - id: LT3-C06-Q10
+    type: multi
+    q: Which items are part of a MEWP workplace inspection? (Select all that apply.)
+    choices:
+    - Floor load capacity on elevated slabs
+    - Overhead power lines and obstructions
+    - Wind and weather conditions
+    - The color of the luminaires being serviced
+    - Slopes, drop-offs, holes and soft ground
+    answer: [0, 1, 2, 4]
+    explanation: >-
+      The workplace inspection looks down (surface, slope, floor load), around (traffic, weather)
+      and up (power lines, obstructions). Luminaire color is irrelevant.
+  - id: LT3-C06-Q11
+    type: multi
+    q: Which actions are prohibited while working on a MEWP platform? (Select all that apply.)
+    choices:
+    - Placing a stepladder on the platform
+    - Keeping both feet on the platform floor
+    - Exceeding the rated capacity with fixtures and tools
+    - Standing on the midrail to reach higher
+    answer: [0, 2, 3]
+    explanation: >-
+      Climbing rails, using ladders on the platform and overloading are prohibited. Keeping both feet
+      on the floor is required.
+  - id: LT3-C06-Q12
+    type: single
+    q: >-
+      A scissor lift's decal shows a wind rating of 0 mph (indoor use only). The job is replacing
+      wall packs outside on a calm day. What should you do?
+    choices:
+    - Use it, since there is no wind right now
+    - Use it with the platform only half raised
+    - Use it if a spotter holds the platform steady
+    - Do not use it outdoors; get an outdoor-rated machine
+    answer: 3
+    explanation: >-
+      Indoor-only machines are not designed for any wind load and must not be used outdoors, even
+      on calm days, because gusts can occur without warning.
+    ref: ANSI A92.20 / A92.22
+  - id: LT3-C06-Q13
+    type: single
+    q: Why must a ground person stay at the MEWP during elevated work?
+    choices:
+    - To refuel the machine while elevated
+    - It is not necessary if the operator has a phone
+    - To hold the MEWP steady
+    - >-
+      To operate the ground controls or emergency lowering in a rescue and to keep the area clear
+    answer: 3
+    explanation: >-
+      A92.22 requires a rescue plan; a trained ground person who can lower the platform and summon
+      help is a key part of it. Suspension trauma requires prompt rescue.
+  - id: LT3-C06-Q14
+    type: single
+    q: What is a key reason harnesses are required in boom lifts?
+    choices:
+    - Booms have no guardrails
+    - Booms are always insulated and require grounding through the harness
+    - >-
+      Hitting a pothole or curb can whip the boom and eject (catapult) occupants from the platform
+    - Harnesses replace the need for a pre-use inspection
+    answer: 2
+    explanation: >-
+      Boom platforms amplify chassis movement; ejection is a known hazard. Booms do have guardrails,
+      and standard booms are not insulated.
+  - id: LT3-C06-Q15
+    type: single
+    q: >-
+      You need to replace a driver in a high-bay from a scissor lift. Which statement about electrical
+      safety is correct?
+    choices:
+    - LOTO isn't needed because the fixture is above 8 feet
+    - The scissor lift's rubber tires insulate you, so LOTO isn't needed
+    - Turning the fixture off at the wall switch is sufficient
+    - >-
+      Standard MEWPs provide no electrical insulation; apply LOTO and verify absence of voltage at
+      the fixture from the platform
+    answer: 3
+    explanation: >-
+      Standard scissors and booms are not insulated. Apply LOTO at the panel and verify absence of
+      voltage at the work location (live-dead-live) before work.
+    ref: OSHA 29 CFR 1910.147 and 1910.333

@@ -2,178 +2,240 @@ code: LT3-C03
 title: Lighting Controls I
 order: 3
 estimated_hours: 6
-description: >
-  Stand-alone lighting control devices and the wiring that connects them: occupancy and
-  vacancy sensors (PIR, ultrasonic, dual-technology), photocells, time clocks, relays and
-  lighting contactors, and low-voltage (Class 2) control wiring practices. Networked lighting
-  controls and energy-code requirements build on this course in LT4.
+description: 'Stand-alone lighting control devices and the wiring that connects them: occupancy and
+  vacancy sensors (PIR, ultrasonic, dual-technology), photocells, time clocks, relays and lighting
+  contactors, and low-voltage (Class 2) control wiring practices. Networked lighting controls and
+  energy-code requirements build on this course in LT4.'
 objectives:
-  - Distinguish occupancy, vacancy and partial-on modes and select PIR, ultrasonic or dual-technology sensors for a space
-  - Install, place, walk-test and adjust occupancy sensors and power packs
-  - Wire, mount and test photocells, and program digital and astronomical time clocks
-  - Explain electrically held and mechanically held contactors and select correct replacements
-  - Troubleshoot contactor circuits using HAND/OFF/AUTO, coil voltage and pole voltage checks
-  - Install Class 2 control wiring with correct separation, support, plenum ratings and labeling
+- >-
+  Distinguish occupancy, vacancy and partial-on modes and select PIR, ultrasonic or dual-technology
+  sensors for a space
+- Install, place, walk-test and adjust occupancy sensors and power packs
+- Wire, mount and test photocells, and program digital and astronomical time clocks
+- Explain electrically held and mechanically held contactors and select correct replacements
+- Troubleshoot contactor circuits using HAND/OFF/AUTO, coil voltage and pole voltage checks
+- >-
+  Install Class 2 control wiring with correct separation, support, plenum ratings and labeling
 lessons:
-  - 01-occupancy-and-vacancy-sensors.md
-  - 02-photocells-and-time-clocks.md
-  - 03-relays-and-contactors.md
-  - 04-low-voltage-control-wiring.md
+- 01-occupancy-and-vacancy-sensors.md
+- 02-photocells-and-time-clocks.md
+- 03-relays-and-contactors.md
+- 04-low-voltage-control-wiring.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
   questions:
-    - id: LT3-C03-Q01
-      type: single
-      q: What is the difference between a vacancy sensor and an occupancy sensor?
-      choices:
-        - A vacancy sensor turns lights on automatically and off manually
-        - A vacancy sensor requires the occupant to turn lights on manually, then turns them off automatically
-        - A vacancy sensor uses ultrasonic technology; an occupancy sensor uses PIR
-        - There is no difference; the names are interchangeable
-      answer: 1
-      explanation: Vacancy = manual-on, auto-off. Occupancy = auto-on, auto-off. Both can use any sensing technology.
-    - id: LT3-C03-Q02
-      type: single
-      q: Restroom lights controlled by a wall-box PIR sensor turn off while people are in the stalls. Which change is most likely to fix it?
-      choices:
-        - Replace with a ceiling-mounted ultrasonic or dual-technology sensor positioned to cover the stalls
-        - Lower the PIR sensitivity
-        - Shorten the time delay to 1 minute
-        - Switch the sensor to vacancy mode
-      answer: 0
-      explanation: PIR needs line of sight; stall partitions block it. Ultrasonic or dual-tech sensors detect motion around obstructions. Lowering sensitivity or shortening the delay would make it worse.
-    - id: LT3-C03-Q03
-      type: single
-      q: A ceiling ultrasonic sensor keeps turning the lights on in an empty conference room at night. It is mounted 2 ft from an HVAC supply diffuser. What is the most likely cause?
-      choices:
-        - The photocell is facing south
-        - Air movement from the diffuser is being detected as motion
-        - The time delay is too long
-        - The power pack is wired to the wrong circuit
-      answer: 1
-      explanation: Ultrasonic sensors detect Doppler shifts and can be triggered by moving air. Relocate the sensor away from diffusers per the manufacturer's guidance or reduce sensitivity.
-    - id: LT3-C03-Q04
-      type: single
-      q: Which direction should a stem-mounted photocell window face in the northern hemisphere?
-      choices:
-        - South, to get the most light
-        - East, to switch at sunrise
-        - North, to avoid direct sunlight
-        - Toward the lights it controls
-      answer: 2
-      explanation: Facing north avoids direct sun, which can cause erratic switching. It must never face the lights it controls, which would cause self-cycling.
-    - id: LT3-C03-Q05
-      type: single
-      q: You cover a photocell with opaque tape and the lights do not come on immediately. What should you do next?
-      choices:
-        - Wait for the photocell's built-in time delay before deciding it has failed
-        - Replace the photocell immediately
-        - Put the HOA switch in HAND permanently
-        - Uncover and recover it rapidly several times
-      answer: 0
-      explanation: Photocells include a delay (seconds to a couple of minutes) to ignore lightning and headlights. Wait through the delay before concluding anything.
-    - id: LT3-C03-Q06
-      type: single
-      q: A photocell and a time clock contact are wired in series in a contactor coil circuit. When will the lights be on?
-      choices:
-        - When either the photocell sees darkness or the clock is in an ON period
-        - Only when the photocell sees darkness and the clock is in an ON period
-        - Only during daylight
-        - Always, because series contacts bypass each other
-      answer: 1
-      explanation: Series contacts act as AND logic — both must be closed to energize the coil. This is the common "dusk to a set time" scheme.
-    - id: LT3-C03-Q07
-      type: single
-      q: What is an advantage of an astronomical time clock over a standard 7-day time clock for exterior lighting?
-      choices:
-        - It requires no programming
-        - It does not need a backup battery
-        - It automatically adjusts on/off times to sunset and sunrise through the year based on location and date
-        - It can switch any size load directly without a contactor
-      answer: 2
-      explanation: Astronomical clocks calculate sunrise/sunset from location and date. They still need setup (location, time zone, DST), backup power, and correctly rated contacts.
-    - id: LT3-C03-Q08
-      type: single
-      q: What happens to an electrically held lighting contactor when its control (coil) power is lost?
-      choices:
-        - The contacts open and the lights turn off
-        - The contacts stay in their last position
-        - The contacts close and the lights turn on
-        - The contactor switches to HAND mode
-      answer: 0
-      explanation: An electrically held contactor needs continuous coil power to hold its contacts closed. A mechanically held contactor stays in its last position.
-    - id: LT3-C03-Q09
-      type: single
-      q: Parking lot lights stay on all day. When you switch the HOA to OFF they go out, and in AUTO they come back on in full daylight. Where is the problem?
-      choices:
-        - Welded contactor contacts
-        - The AUTO control path — such as a failed-on photocell or a time clock override
-        - An open contactor coil
-        - A ground fault on the branch circuit
-      answer: 1
-      explanation: Since OFF de-energizes the coil and the lights go out, the contactor and circuits work. Something in the AUTO path is holding the coil on.
-    - id: LT3-C03-Q10
-      type: single
-      q: With the HOA in HAND, a contactor pulls in (you hear it close), line voltage is present on all poles, but one pole has no voltage on its load side. What is the likely fault?
-      choices:
-        - Open coil
-        - Failed photocell
-        - Burned or pitted contact on that pole
-        - HOA switch failure
-      answer: 2
-      explanation: The coil works (contactor closes) and line voltage is present, so a missing load-side voltage on a closed pole indicates a failed contact.
-    - id: LT3-C03-Q11
-      type: multi
-      q: When replacing a lighting contactor, which ratings must match or be suitable? (Select all that apply.)
-      choices:
-        - Coil voltage
-        - Number of poles and contact current rating
-        - Contact rating for lighting/electronic (LED) loads
-        - Electrically held vs mechanically held type
-        - The color of the enclosure
-      answer: [0, 1, 2, 3]
-      explanation: Coil voltage, poles, current rating, load-type rating and holding type all affect correct operation. Enclosure color does not (enclosure type/NEMA rating does).
-    - id: LT3-C03-Q12
-      type: multi
-      q: Before replacing a contactor coil, which sources must you lock out and verify de-energized? (Select all that apply.)
-      choices:
-        - The lighting branch circuits switched by the contactor
-        - The control circuit power feeding the coil, which may come from a separate breaker
-        - Any other circuit present in the contactor enclosure
-        - Only the main breaker for the building
-      answer: [0, 1, 2]
-      explanation: Every source in the enclosure — load circuits, control power and anything else present — must be locked out and verified. Relying on a single assumed source is a common cause of shock injuries; shutting the main is not required and may not isolate separately derived sources.
-      ref: OSHA 29 CFR 1910.147; 1910.333
-    - id: LT3-C03-Q13
-      type: single
-      q: Which installation of Class 2 occupancy sensor cable is correct?
-      choices:
-        - Pulled into the same EMT as the 277 V lighting branch circuit
-        - Laid loose on top of the ceiling tiles
-        - Supported from the building structure with listed supports and kept separate from line-voltage wiring
-        - Zip-tied to a sprinkler pipe
-      answer: 2
-      explanation: Class 2 cable must be supported by the structure (not ceiling tiles, grid wires or other systems' piping) and kept separate from power conductors unless properly reclassified or separated.
-      ref: NFPA 70 (2023) Articles 300 and 725
-    - id: LT3-C03-Q14
-      type: single
-      q: Why should a power pack for an occupancy sensor be checked for an LED or electronic ballast load rating?
-      choices:
-        - LED drivers draw high inrush current that can weld relay contacts not rated for it
-        - LED loads require a higher coil voltage
-        - Power packs cannot be used with LED loads at all
-        - LED loads reverse the polarity of the relay
-      answer: 0
-      explanation: Many LED drivers switching on together create high inrush current. Relays must be rated for electronic/LED loads to avoid welded contacts.
-    - id: LT3-C03-Q15
-      type: single
-      q: What is the correct cable type for Class 2 control wiring run exposed in a return-air plenum above a ceiling?
-      choices:
-        - Any CL2 cable
-        - Plenum-rated cable such as CL2P, or another permitted wiring method
-        - Standard thermostat wire
-        - Outdoor-rated direct burial cable
-      answer: 1
-      explanation: Air-handling spaces require plenum-rated cable (e.g., CL2P) or a wiring method permitted for plenums, because of smoke and flame spread.
-      ref: NFPA 70 (2023) Article 725 and related power-limited circuit articles
+  - id: LT3-C03-Q01
+    type: single
+    q: What is the difference between a vacancy sensor and an occupancy sensor?
+    choices:
+    - >-
+      A vacancy sensor requires the occupant to turn lights on manually, then turns them off automatically
+    - A vacancy sensor turns lights on automatically and off manually
+    - A vacancy sensor uses ultrasonic technology; an occupancy sensor uses PIR
+    - There is no difference; the names are interchangeable
+    answer: 0
+    explanation: >-
+      Vacancy = manual-on, auto-off. Occupancy = auto-on, auto-off. Both can use any sensing technology.
+  - id: LT3-C03-Q02
+    type: single
+    q: >-
+      Restroom lights controlled by a wall-box PIR sensor turn off while people are in the stalls.
+      Which change is most likely to fix it?
+    choices:
+    - >-
+      Replace with a ceiling-mounted ultrasonic or dual-technology sensor positioned to cover the
+      stalls
+    - Switch the sensor to vacancy mode
+    - Lower the PIR sensitivity
+    - Shorten the time delay to 1 minute
+    answer: 0
+    explanation: >-
+      PIR needs line of sight; stall partitions block it. Ultrasonic or dual-tech sensors detect motion
+      around obstructions. Lowering sensitivity or shortening the delay would make it worse.
+  - id: LT3-C03-Q03
+    type: single
+    q: >-
+      A ceiling ultrasonic sensor keeps turning the lights on in an empty conference room at night.
+      It is mounted 2 ft from an HVAC supply diffuser. What is the most likely cause?
+    choices:
+    - The power pack is wired to the wrong circuit
+    - The time delay is too long
+    - The photocell is facing south
+    - Air movement from the diffuser is being detected as motion
+    answer: 3
+    explanation: >-
+      Ultrasonic sensors detect Doppler shifts and can be triggered by moving air. Relocate the sensor
+      away from diffusers per the manufacturer's guidance or reduce sensitivity.
+  - id: LT3-C03-Q04
+    type: single
+    q: Which direction should a stem-mounted photocell window face in the northern hemisphere?
+    choices:
+    - East, to switch at sunrise
+    - Toward the lights it controls
+    - South, to get the most light
+    - North, to avoid direct sunlight
+    answer: 3
+    explanation: >-
+      Facing north avoids direct sun, which can cause erratic switching. It must never face the lights
+      it controls, which would cause self-cycling.
+  - id: LT3-C03-Q05
+    type: single
+    q: >-
+      You cover a photocell with opaque tape and the lights do not come on immediately. What should
+      you do next?
+    choices:
+    - Wait for the photocell's built-in time delay before deciding it has failed
+    - Put the HOA switch in HAND permanently
+    - Uncover and recover it rapidly several times
+    - Replace the photocell immediately
+    answer: 0
+    explanation: >-
+      Photocells include a delay (seconds to a couple of minutes) to ignore lightning and headlights.
+      Wait through the delay before concluding anything.
+  - id: LT3-C03-Q06
+    type: single
+    q: >-
+      A photocell and a time clock contact are wired in series in a contactor coil circuit. When will
+      the lights be on?
+    choices:
+    - Only during daylight
+    - Only when the photocell sees darkness and the clock is in an ON period
+    - When either the photocell sees darkness or the clock is in an ON period
+    - Always, because series contacts bypass each other
+    answer: 1
+    explanation: >-
+      Series contacts act as AND logic — both must be closed to energize the coil. This is the common
+      "dusk to a set time" scheme.
+  - id: LT3-C03-Q07
+    type: single
+    q: >-
+      What is an advantage of an astronomical time clock over a standard 7-day time clock for exterior
+      lighting?
+    choices:
+    - It requires no programming
+    - >-
+      It automatically adjusts on/off times to sunset and sunrise through the year based on location
+      and date
+    - It does not need a backup battery
+    - It can switch any size load directly without a contactor
+    answer: 1
+    explanation: >-
+      Astronomical clocks calculate sunrise/sunset from location and date. They still need setup (location,
+      time zone, DST), backup power, and correctly rated contacts.
+  - id: LT3-C03-Q08
+    type: single
+    q: >-
+      What happens to an electrically held lighting contactor when its control (coil) power is lost?
+    choices:
+    - The contacts close and the lights turn on
+    - The contacts open and the lights turn off
+    - The contacts stay in their last position
+    - The contactor switches to HAND mode
+    answer: 1
+    explanation: >-
+      An electrically held contactor needs continuous coil power to hold its contacts closed. A mechanically
+      held contactor stays in its last position.
+  - id: LT3-C03-Q09
+    type: single
+    q: >-
+      Parking lot lights stay on all day. When you switch the HOA to OFF they go out, and in AUTO
+      they come back on in full daylight. Where is the problem?
+    choices:
+    - The AUTO control path — such as a failed-on photocell or a time clock override
+    - Welded contactor contacts
+    - A ground fault on the branch circuit
+    - An open contactor coil
+    answer: 0
+    explanation: >-
+      Since OFF de-energizes the coil and the lights go out, the contactor and circuits work. Something
+      in the AUTO path is holding the coil on.
+  - id: LT3-C03-Q10
+    type: single
+    q: >-
+      With the HOA in HAND, a contactor pulls in (you hear it close), line voltage is present on all
+      poles, but one pole has no voltage on its load side. What is the likely fault?
+    choices:
+    - Open coil
+    - Failed photocell
+    - Burned or pitted contact on that pole
+    - HOA switch failure
+    answer: 2
+    explanation: >-
+      The coil works (contactor closes) and line voltage is present, so a missing load-side voltage
+      on a closed pole indicates a failed contact.
+  - id: LT3-C03-Q11
+    type: multi
+    q: >-
+      When replacing a lighting contactor, which ratings must match or be suitable? (Select all that
+      apply.)
+    choices:
+    - Number of poles and contact current rating
+    - Coil voltage
+    - Electrically held vs mechanically held type
+    - Contact rating for lighting/electronic (LED) loads
+    - The color of the enclosure
+    answer: [0, 1, 2, 3]
+    explanation: >-
+      Coil voltage, poles, current rating, load-type rating and holding type all affect correct operation.
+      Enclosure color does not (enclosure type/NEMA rating does).
+  - id: LT3-C03-Q12
+    type: multi
+    q: >-
+      Before replacing a contactor coil, which sources must you lock out and verify de-energized?
+      (Select all that apply.)
+    choices:
+    - Only the main breaker for the building
+    - The control circuit power feeding the coil, which may come from a separate breaker
+    - Any other circuit present in the contactor enclosure
+    - The lighting branch circuits switched by the contactor
+    answer: [1, 2, 3]
+    explanation: >-
+      Every source in the enclosure — load circuits, control power and anything else present — must
+      be locked out and verified. Relying on a single assumed source is a common cause of shock injuries;
+      shutting the main is not required and may not isolate separately derived sources.
+    ref: OSHA 29 CFR 1910.147; 1910.333
+  - id: LT3-C03-Q13
+    type: single
+    q: Which installation of Class 2 occupancy sensor cable is correct?
+    choices:
+    - Pulled into the same EMT as the 277 V lighting branch circuit
+    - >-
+      Supported from the building structure with listed supports and kept separate from line-voltage
+      wiring
+    - Laid loose on top of the ceiling tiles
+    - Zip-tied to a sprinkler pipe
+    answer: 1
+    explanation: >-
+      Class 2 cable must be supported by the structure (not ceiling tiles, grid wires or other systems'
+      piping) and kept separate from power conductors unless properly reclassified or separated.
+    ref: NFPA 70 (2023) Articles 300 and 725
+  - id: LT3-C03-Q14
+    type: single
+    q: >-
+      Why should a power pack for an occupancy sensor be checked for an LED or electronic ballast
+      load rating?
+    choices:
+    - LED loads reverse the polarity of the relay
+    - Power packs cannot be used with LED loads at all
+    - LED drivers draw high inrush current that can weld relay contacts not rated for it
+    - LED loads require a higher coil voltage
+    answer: 2
+    explanation: >-
+      Many LED drivers switching on together create high inrush current. Relays must be rated for
+      electronic/LED loads to avoid welded contacts.
+  - id: LT3-C03-Q15
+    type: single
+    q: >-
+      What is the correct cable type for Class 2 control wiring run exposed in a return-air plenum
+      above a ceiling?
+    choices:
+    - Outdoor-rated direct burial cable
+    - Any CL2 cable
+    - Standard thermostat wire
+    - Plenum-rated cable such as CL2P, or another permitted wiring method
+    answer: 3
+    explanation: >-
+      Air-handling spaces require plenum-rated cable (e.g., CL2P) or a wiring method permitted for
+      plenums, because of smoke and flame spread.
+    ref: NFPA 70 (2023) Article 725 and related power-limited circuit articles

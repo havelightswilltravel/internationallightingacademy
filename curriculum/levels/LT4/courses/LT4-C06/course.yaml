@@ -1,0 +1,192 @@
+code: LT4-C06
+title: The NEC for Lighting Work
+order: 6
+estimated_hours: 9
+description: >
+  Teaches senior lighting technicians to navigate the National Electrical Code (NFPA 70, 2023
+  edition as the reference; the AHJ-adopted edition governs) and apply the articles that matter
+  most for lighting: code structure and language, Article 410 luminaires, Article 404 switches,
+  Article 411 low-voltage lighting, Article 225 outside branch circuits, underground wiring in
+  300.5, Article 250 grounding basics for poles and luminaires, Article 600 signs, and Article
+  700 emergency systems.
+objectives:
+  - Explain the arrangement of the NEC and how Chapters 5–7 modify Chapters 1–4.
+  - Distinguish mandatory rules, permissive rules, exceptions and informational notes.
+  - Locate and apply Article 410 requirements for listing, locations, closets, support, recessed luminaires and disconnects.
+  - Apply Article 404 rules for switching, neutrals at switch locations, device ratings and voltage between adjacent devices, and Article 411 limits.
+  - Apply Article 225, 300.5 and 250 requirements to outdoor and pole lighting, including the role of the EGC.
+  - Identify Article 600 sign requirements and the Article 700 emergency-system rules that lighting work must preserve.
+lessons:
+  - 01-navigating-the-code-book.md
+  - 02-article-410-luminaires.md
+  - 03-articles-404-and-411.md
+  - 04-articles-225-and-250-outdoor-lighting.md
+  - 05-articles-600-and-700.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT4-C06-Q01
+      type: single
+      q: Which edition of the NEC governs an installation?
+      choices:
+        - The most recently published edition
+        - The edition adopted by the local authority having jurisdiction, with any local amendments
+        - The edition the technician learned in training
+        - The edition printed on the luminaire's listing label
+      answer: 1
+      explanation: The NEC is enforced as adopted by the AHJ. Editions and section numbers change every three years, and jurisdictions adopt on their own schedules.
+      ref: NEC Article 90
+    - id: LT4-C06-Q02
+      type: single
+      q: How do Chapters 5, 6 and 7 of the NEC relate to Chapters 1 through 4?
+      choices:
+        - They replace Chapters 1–4 entirely
+        - They apply only to dwellings
+        - They supplement or modify the general rules of Chapters 1–4 for special occupancies, equipment and conditions
+        - They are informative and not enforceable
+      answer: 2
+      explanation: Per Article 90, Chapters 1–4 apply generally; Chapters 5–7 supplement or modify them for special situations such as signs (600) and emergency systems (700).
+      ref: NEC 90.3
+    - id: LT4-C06-Q03
+      type: single
+      q: An NEC Informational Note recommends limiting voltage drop to 3% on a branch circuit. What is its status?
+      choices:
+        - Explanatory and not an enforceable requirement of the NEC (though a specification may make it mandatory)
+        - A mandatory requirement equivalent to "shall"
+        - A permissive rule meaning "shall be permitted"
+        - Enforceable only on exterior circuits
+      answer: 0
+      explanation: Informational notes are explanatory material and not enforceable requirements of the code. Specifications or other codes can make such limits mandatory.
+    - id: LT4-C06-Q04
+      type: single
+      q: What is the minimum clearance required between a non-Type IC recessed luminaire and thermal insulation?
+      choices:
+        - 1/2 in
+        - 6 in
+        - 12 in
+        - 3 in
+      answer: 3
+      explanation: Non-Type IC recessed luminaires must be at least 3 in (75 mm) from thermal insulation and 1/2 in (13 mm) from combustible materials except at points of support.
+      ref: NEC 410.116
+    - id: LT4-C06-Q05
+      type: single
+      q: How must a troffer installed in a suspended ceiling be secured?
+      choices:
+        - Laid in the grid; its weight holds it in place
+        - Securely fastened to the ceiling framing members by mechanical means such as bolts, screws, rivets or listed clips
+        - Supported only by the fixture whip
+        - Taped to the ceiling tile
+      answer: 1
+      explanation: Luminaires in suspended ceilings must be mechanically fastened to securely installed framing members.
+      ref: NEC 410.36(B)
+    - id: LT4-C06-Q06
+      type: multi
+      q: Which items are NOT permitted within the bathtub and shower zone (3 ft horizontally, 8 ft vertically from the tub rim or shower threshold)? (Select all that apply.)
+      choices:
+        - Pendant luminaires
+        - Lighting track
+        - Cord-connected luminaires
+        - A recessed luminaire listed for damp locations (wet if subject to shower spray)
+      answer: [0, 1, 2]
+      explanation: Pendants, track, cord-connected and cord/chain/cable-suspended luminaires and ceiling fans are prohibited in the zone. Luminaires listed for damp (or wet where subject to spray) locations are permitted.
+      ref: NEC 410.10(D)
+    - id: LT4-C06-Q07
+      type: single
+      q: A fluorescent luminaire with a field-serviceable ballast in a commercial building is supplied by a multiwire branch circuit. What must its disconnecting means do?
+      choices:
+        - Open only the ungrounded conductor
+        - Open only the grounded conductor
+        - Simultaneously open all supply conductors, including the grounded conductor
+        - No disconnect is required on MWBCs
+      answer: 2
+      explanation: For ballasted luminaires on MWBCs, the disconnecting means must simultaneously break all supply conductors including the grounded conductor.
+      ref: NEC 410.130(G)
+    - id: LT4-C06-Q08
+      type: single
+      q: Two 277 V switches fed from different phases of a 480Y/277 V system are to be installed in the same two-gang box. What is required?
+      choices:
+        - Identified barriers between the devices, because the voltage between them exceeds 300 V
+        - Nothing; both are 277 V switches
+        - The switches must be on separate circuit breakers
+        - The box must be nonmetallic
+      answer: 0
+      explanation: Switches on different phases of 480Y/277 V have 480 V between them. Devices ganged with more than 300 V between adjacent devices require identified, securely installed barriers.
+      ref: NEC 404.8(B)
+    - id: LT4-C06-Q09
+      type: single
+      q: Why does the NEC generally require a grounded (neutral) conductor at switch locations that control lighting?
+      choices:
+        - To allow the neutral to be switched
+        - So electronic control devices such as occupancy sensors can be powered without using the equipment grounding conductor
+        - To reduce voltage drop
+        - To provide a backup equipment ground
+      answer: 1
+      explanation: Electronic switches need a power return. The neutral at the switch avoids placing current on the EGC, which listed electronic lighting control switches must not do.
+      ref: NEC 404.2(C), 404.22
+    - id: LT4-C06-Q10
+      type: single
+      q: A general-use dimmer switch not otherwise listed for other loads may be used to control?
+      choices:
+        - Any LED luminaire
+        - Fluorescent ballasts
+        - Receptacle outlets
+        - Permanently installed incandescent luminaires only
+      answer: 3
+      explanation: General-use dimmers are limited to permanently installed incandescent luminaires unless listed for other loads and installed accordingly. Use dimmers listed and compatible for LED loads.
+      ref: NEC 404.14(E)
+    - id: LT4-C06-Q11
+      type: single
+      q: Article 411 low-voltage lighting systems operate at not more than?
+      choices:
+        - 50 V AC or 120 V DC
+        - 30 V AC or 60 V DC
+        - 12 V AC only
+        - 120 V AC
+      answer: 1
+      explanation: Article 411 covers lighting systems operating at not more than 30 V AC or 60 V DC; systems must be listed or assembled from listed parts.
+      ref: NEC Article 411
+    - id: LT4-C06-Q12
+      type: single
+      q: A parking-lot pole has a ground rod at its base but no equipment grounding conductor in the circuit. Why is this unacceptable?
+      choices:
+        - Ground rods are prohibited at poles
+        - The rod must be copper-clad
+        - The earth is not an effective ground-fault current path, so a fault may not trip the breaker and the pole can remain energized
+        - The rod should be connected to the neutral instead
+      answer: 2
+      explanation: An effective ground-fault current path requires an EGC back to the source. A ground rod is permitted only as an auxiliary electrode and cannot serve as the sole EGC.
+      ref: NEC 250.4(A)(5), 250.54
+    - id: LT4-C06-Q13
+      type: single
+      q: What is the minimum burial depth for underground lighting circuits under a parking lot, regardless of wiring method?
+      choices:
+        - 24 in
+        - 6 in
+        - 12 in
+        - 18 in
+      answer: 0
+      explanation: Table 300.5 requires 24 in minimum cover in or under streets, highways, roads, alleys, driveways and parking lots for all listed wiring methods.
+      ref: NEC Table 300.5
+    - id: LT4-C06-Q14
+      type: multi
+      q: Which are requirements of Article 600 for electric signs? (Select all that apply.)
+      choices:
+        - Signs and retrofit kits must be listed
+        - A sign retrofitted with a field-installed kit must be marked to indicate the modification
+        - Each sign must have a disconnect within sight or capable of being locked in the open position
+        - Sign circuits must be connected to the emergency system
+      answer: [0, 1, 2]
+      explanation: Article 600 requires listing, retrofit marking and an accessible disconnect within sight (or lockable). Signs are not connected to emergency systems by default.
+      ref: NEC 600.3, 600.4, 600.6
+    - id: LT4-C06-Q15
+      type: single
+      q: During a retrofit, the crew wants to pull normal-power lighting conductors into an existing emergency lighting raceway. What does Article 700 say?
+      choices:
+        - It is permitted if the conductors are a different color
+        - It is permitted if the raceway has spare fill capacity
+        - It is permitted if the circuits are on the same phase
+        - Emergency wiring must be kept entirely independent of other wiring, except in specifically permitted locations
+      answer: 3
+      explanation: Emergency circuit wiring must be kept independent and not share raceways, cables, boxes or cabinets with normal wiring except where specifically permitted (such as transfer equipment or dual-supply luminaires).
+      ref: NEC 700.10(B)

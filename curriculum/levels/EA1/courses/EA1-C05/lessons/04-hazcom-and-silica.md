@@ -91,7 +91,8 @@ OSHA's construction silica standard, **29 CFR 1926.1153**, sets:
 - **Handheld and stand-mounted drills** (including impact and rotary hammer drills) — use a
   shroud or cowling with a dust collection system (with a HEPA-filtered vacuum and a filter-cleaning
   mechanism) as specified.
-- **Core drilling** — use water delivered to the bit (wet methods).
+- **Core drilling** — water delivered to the bit (wet methods) is the usual control; confirm
+  which Table 1 entry applies to the equipment you are using.
 - **Handheld grinders / chasing for conduit** — use water or a shroud with dust collection; may
   require respiratory protection depending on duration and location.
 

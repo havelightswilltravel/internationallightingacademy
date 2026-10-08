@@ -69,3 +69,12 @@ each item, and correct the content if needed.
 - [ ] Flexible metal conduit as an EGC (6 ft / 20 A); MC support distances; anti-short bushing wording.
 - [ ] Neutral-to-ground continuity test procedure in EA2-C02 Lesson 4 against company procedure.
 - [ ] CSI MasterFormat section titles in EA2-C05.
+
+## EA1 — Electrical Apprentice I
+- [ ] Table 110.26(A)(1) voltage row label in the 2023 NEC.
+- [ ] GFCI scope and location list (210.8(A)); tamper-resistant 250 V extension (406.12); isolated-ground (406.3(D)); AFCI extensions (210.12(D)).
+- [ ] Countertop receptacles: 2023 island/peninsula changes (210.52(C)); 210.52(G) garage rule.
+- [ ] Typical bender take-up values (5/6/8/11 in); how to teach shrink on a four-point saddle.
+- [ ] OSHA clearances: 1926.600(a)(6), 1910.333(c)(3), 1926.451(f)(6), 1926.1408.
+- [ ] Silica Table 1 entry for core drilling.
+- [ ] 590.6 scope; Class A GFCI range; 12 AWG resistance (1.93 Ω per 1,000 ft); K values.

@@ -1,0 +1,100 @@
+code: JW
+track: ELECTRICAL
+order: 5
+title: Journeyman Exam Preparation
+grade: Journeyman Candidate
+typical_duration_months: 3
+description: >
+  Journeyman Exam Preparation is the final level of the Electrical Development Track. Candidates
+  have completed the lighting track and apprentice levels EA1 through EA4 and are accumulating
+  the remaining supervised hours their state requires. This level focuses entirely on passing a
+  state or local journeyman electrician licensing exam: understanding the exam format published
+  in the candidate's own state candidate bulletin, tabbing and navigating the code book quickly,
+  reviewing every common calculation, completing a chapter-by-chapter code review, and taking
+  full-length timed practice exams. Content is built on the 2023 NEC (NFPA 70); because exams are
+  based on the edition adopted in each jurisdiction (and some states now test the 2026 NEC, which
+  moved load calculations to Article 120 and reorganized other content), every candidate must
+  confirm the tested edition and allowed references before studying. Completing this level
+  earns the program's recommendation for licensure; the license itself is issued only by the
+  state or local licensing authority after the candidate meets its experience requirements and
+  passes its exam.
+outcomes:
+  - Explain the format, eligibility requirements, allowed references, and scoring of the candidate's own state journeyman exam using the official candidate bulletin
+  - Locate any NEC requirement within the exam's per-question time budget using the index, table of contents, and a properly tabbed code book
+  - Solve Ohm's law, power, voltage drop, box fill, conduit fill, ampacity, motor, transformer, and load calculation problems accurately and quickly
+  - Recall the purpose and key requirements of each NEC chapter and the articles most frequently tested
+  - Apply a test-taking strategy that manages a 4- to 5-hour open-book exam and avoids common traps
+  - Achieve a passing score on full-length, timed practice exams under realistic conditions
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 75
+    questions: 80
+    time_limit_minutes: 240
+  min_ojt_hours: 0
+skills:
+  - code: JW-S01
+    title: Timed code-lookup drill
+    category: Code Navigation
+    critical: false
+    description: >
+      Using only the code book and references allowed by the candidate's state bulletin, the
+      candidate locates the governing section or table for a set of randomly drawn code
+      questions within a strict time limit.
+    equipment: [NEC edition tested in the candidate's state (bound, tabbed and highlighted only as the bulletin allows), set of 25 evaluator-selected lookup questions, timer, approved non-programmable calculator]
+    criteria:
+      - Confirms before starting that the code book edition matches the edition named in the state candidate bulletin
+      - Confirms tabs and highlighting comply with the bulletin (no handwritten notes or loose pages where prohibited)
+      - Answers 25 lookup questions in 50 minutes or less (average 2 minutes per question)
+      - Cites the correct article and section or table number for at least 21 of 25 questions (84%)
+      - Uses the index or table of contents rather than paging at random, as observed by the evaluator
+      - Correctly applies exceptions and informational notes (recognizes informational notes are not enforceable requirements) on the questions where they affect the answer
+      - Flags and returns to questions that exceed the time budget rather than stalling
+  - code: JW-S02
+    title: Timed calculation drill
+    category: Calculations
+    critical: false
+    description: >
+      Solves a set of journeyman-level calculations covering voltage drop, box and conduit fill,
+      ampacity with correction and adjustment, motor circuits, transformers, and a dwelling load
+      calculation under time pressure, showing work.
+    equipment: [NEC edition tested in the candidate's state, approved non-programmable calculator, scratch paper, set of 15 evaluator-selected calculation problems, timer]
+    criteria:
+      - Completes 15 calculation problems in 45 minutes or less
+      - Obtains the correct answer on at least 12 of 15 problems (80%)
+      - Shows the formula, table values used (with table numbers), and arithmetic for every problem
+      - Applies correction and adjustment factors in the correct order and checks 240.4(D) small-conductor limits where applicable
+      - Uses motor full-load current from the NEC tables (not nameplate) for conductor and short-circuit protection sizing, and nameplate current for overload sizing
+      - Rounds to standard OCPD sizes correctly, including where next-size-up is or is not permitted
+      - Completes the dwelling load calculation within 10 minutes with the correct service size
+  - code: JW-S03
+    title: Full-length mock exam under test conditions
+    category: Exam Readiness
+    critical: true
+    description: >
+      Completes a full-length practice exam that mirrors the candidate's state exam in number of
+      questions, time limit, and allowed references, under proctored conditions.
+    equipment: [proctored room, practice exam matching the state format (typically 80–100 questions), NEC edition tested in the candidate's state, other references allowed by the bulletin, approved calculator, timer]
+    criteria:
+      - Completes the exam within the state exam's time limit without extensions
+      - Scores at least the state's passing score (or 75% where the state uses a scaled score) on the first attempt of this mock exam
+      - Answers every question (no blanks) using a flag-and-return strategy
+      - Follows all testing-center rules for the session as stated in the bulletin (no phones, no unauthorized materials, identification ready)
+      - Completes an error log after scoring that classifies each missed question (code lookup, calculation, misread question, time)
+      - Achieves a passing score on a second, different full-length mock exam after reviewing the error log
+  - code: JW-S04
+    title: Supervisor recommendation for licensure
+    category: Professional Readiness
+    critical: true
+    description: >
+      The candidate's supervising licensed electrician and the program evaluator confirm that the
+      candidate's documented experience, skills, and conduct support applying for the journeyman
+      license exam.
+    equipment: [verified OJT hour log for all levels, state application and experience affidavit forms, program transcript, evaluator sign-off sheets for EA1–EA4 skills]
+    criteria:
+      - Presents a complete, supervisor-verified record of on-the-job hours that meets or is on track to meet the state's experience requirement by the application date
+      - Presents classroom or related-instruction hours documented as required by the state or registered apprenticeship
+      - Shows all EA1–EA4 hands-on skills signed off, with critical safety skills passed with zero deviations
+      - Has no unresolved safety violations or disciplinary actions in the past six months
+      - Supervising licensed electrician signs the state experience affidavit (where required) attesting to the hours and work categories
+      - Candidate has obtained and read the current state candidate bulletin and states the exam provider, edition tested, number of questions, time limit, passing score, and allowed references
