@@ -74,7 +74,7 @@ quiz:
         - 15 A
         - 25 A
       answer: 1
-      explanation: The OCPD must be at least 125% of the continuous load, so continuous load is limited to 80% of a standard (non-100%-rated) breaker: 16 A on 20 A.
+      explanation: The OCPD must be at least 125% of the continuous load, so continuous load is limited to 80% of a standard (non-100%-rated) breaker, or 16 A on a 20 A breaker.
       ref: NEC 210.20(A)
     - id: LT4-C04-Q06
       type: multi

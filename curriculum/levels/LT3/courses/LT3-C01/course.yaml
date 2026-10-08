@@ -47,11 +47,11 @@ quiz:
       A constant-current driver is labeled "700 mA, 25–54 VDC, 38 W." Which LED module can it properly
       drive?
     choices:
+    - 350 mA at 40 V
     - 700 mA at 60 V
     - 700 mA at 36 V
-    - 350 mA at 40 V
     - 1050 mA at 36 V
-    answer: 1
+    answer: 2
     explanation: >-
       The module's current must match (700 mA) and its forward voltage must fall inside the 25–54
       V window. 36 V × 0.7 A ≈ 25 W, within the 38 W rating. 60 V is outside the range; 350 mA and
@@ -74,11 +74,11 @@ quiz:
       A run of LED tape totals 90 W. Using the common 80% loading rule of thumb, what is the smallest
       standard driver you should choose?
     choices:
-    - 100 W
-    - 90 W
-    - 120 W
     - 75 W
-    answer: 2
+    - 90 W
+    - 100 W
+    - 120 W
+    answer: 3
     explanation: >-
       90 W ÷ 0.8 = 112.5 W, so the next standard size up, 120 W, gives the recommended headroom. Always
       follow the manufacturer's sizing instructions where they differ.

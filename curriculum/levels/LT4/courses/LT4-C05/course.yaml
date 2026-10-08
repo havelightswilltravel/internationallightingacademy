@@ -173,4 +173,4 @@ quiz:
         - Preventive actions are optional and never documented
         - Corrective action fixes this instance; preventive action stops the same problem occurring elsewhere or in the future
       answer: 3
-      explanation: Effective RCA includes both: fix the current failure and change the process, design or specification that allowed it.
+      explanation: Effective RCA includes both. Fix the current failure and change the process, design or specification that allowed it.
