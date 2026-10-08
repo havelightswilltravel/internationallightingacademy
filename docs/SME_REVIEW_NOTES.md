@@ -98,3 +98,21 @@ each item, and correct the content if needed.
 - [ ] Universal waste (40 CFR 273), PCB rules (40 CFR 761) and EPA broken-lamp cleanup, against the rules of the states where you work.
 - [ ] Lamp data: efficacy and CRI ranges, HID restrike times, the 2008 mercury vapor ballast ban, the lamp-base table.
 - [ ] Add company standard practice for multi-tap ballast wiring; make sure the company procedures the lessons refer to (energy control, broken-lamp kit, PCB drum) exist.
+
+## LT3 — Lighting Technician III
+- [ ] NFPA 101 7.9/7.10 references; OSHA 1910.333(c)(3), 1926.453, 1910.67; NEC Table 300.5 burial depths.
+- [ ] 2023 NEC power-limited articles (722/724/725); Article 404 neutral-at-switch and electronic-switch statements.
+- [ ] Standards named: ANSI C137.1, NEMA SSL 7A, ANSI C136.10/.41, ANSI E1.11, IEC 62386, IEEE 1789; how a BCELTS is listed (UL 924 / UL 1008); how the DALI bus is classified for wiring.
+- [ ] Rules of thumb:
+  - constant-voltage driver loading of 80%
+  - DALI bus limits
+  - photocell turn-on light level
+  - 28 mph MEWP wind rating
+  - 35 ft from an energized machine
+  - 30-minute lightning rule
+  - 24 h battery charge
+  - insulation-resistance test voltages
+- [ ] **Policy decisions:**
+  - mandatory harness use in scissor lifts
+  - whether LT3 technicians may do energized diagnostic testing (skills S02 and S06)
+  - tritium exit-sign return procedure
