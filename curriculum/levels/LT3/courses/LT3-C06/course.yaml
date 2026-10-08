@@ -36,11 +36,11 @@ quiz:
       A self-propelled scissor lift that can be driven while elevated, controlled from the platform,
       is classified as which ANSI MEWP category?
     choices:
-    - 3B
     - 1B
-    - 3A
     - 1A
-    answer: 2
+    - 3B
+    - 3A
+    answer: 3
     explanation: >-
       Group A platforms stay within the tipping lines (scissors), and Type 3 machines travel elevated
       under platform control.
@@ -136,11 +136,11 @@ quiz:
       What is the minimum distance OSHA requires between the line and the technician, tools and the
       MEWP?
     choices:
-    - 10 feet
     - 3 feet
-    - 20 feet
     - 6 feet
-    answer: 0
+    - 10 feet
+    - 20 feet
+    answer: 2
     explanation: >-
       For unqualified persons and lines 50 kV or less, the minimum clearance is 10 feet. Above 50
       kV, add 4 inches per 10 kV.

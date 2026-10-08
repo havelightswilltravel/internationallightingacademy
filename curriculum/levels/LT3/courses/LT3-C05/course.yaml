@@ -107,11 +107,11 @@ quiz:
     q: >-
       Under NEC Table 300.5 (general locations), what is the minimum cover for direct-burial cable?
     choices:
-    - 24 inches
     - 6 inches
     - 12 inches
     - 18 inches
-    answer: 0
+    - 24 inches
+    answer: 3
     explanation: >-
       Direct-burial cables or conductors generally require 24 inches of cover. Rigid metal conduit
       requires 6 inches and listed nonmetallic raceway 18 inches in general locations; check the table
@@ -121,11 +121,11 @@ quiz:
     type: single
     q: What is the minimum cover for PVC conduit under a parking lot per NEC Table 300.5?
     choices:
-    - 24 inches
-    - 18 inches
-    - 12 inches
     - 6 inches
-    answer: 0
+    - 12 inches
+    - 18 inches
+    - 24 inches
+    answer: 3
     explanation: >-
       For all wiring methods in or under streets, roads, driveways and parking lots, Table 300.5 requires
       24 inches of cover.

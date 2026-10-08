@@ -83,6 +83,11 @@ functional testing requirements for lighting controls; Title 24 requires formal 
 | Substitutions | A "better" fixture with higher wattage can break LPD compliance – get approval |
 | Commissioning | Functional testing and documentation may be required for final inspection |
 
+> **Safety:** Energy codes and electrical safety codes work together, never against each other.
+> An energy-code upgrade (adding sensors, recircuiting for daylight zones) is still electrical work:
+> follow NEC wiring rules, de-energize and apply LOTO, and verify absence of voltage before touching
+> conductors. Energy-saving controls must never reduce required egress or emergency lighting.
+
 ## Key Takeaways
 - Energy codes limit installed lighting power (LPD) and require specific lighting controls.
 - ASHRAE 90.1 (Section 9), the IECC (Section C405) and California Title 24 Part 6 are the main codes you will meet.

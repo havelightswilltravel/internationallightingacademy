@@ -78,3 +78,23 @@ each item, and correct the content if needed.
 - [ ] OSHA clearances: 1926.600(a)(6), 1910.333(c)(3), 1926.451(f)(6), 1926.1408.
 - [ ] Silica Table 1 entry for core drilling.
 - [ ] 590.6 scope; Class A GFCI range; 12 AWG resistance (1.93 Ω per 1,000 ft); K values.
+
+## LT1 — Lighting Technician I
+- [ ] **Policy decision (important):** OSHA 1910.333(b)(2) and NFPA 70E treat voltage verification and breaker operation as qualified-person tasks. LT1 content allows these only after training, in company-required PPE, and under direct supervision of a qualified person, until the company documents the technician as qualified for that task. Confirm this matches your electrical safety program, including the shock and arc-flash PPE required for testing at 120/277 V.
+- [ ] NFPA 70E approach boundaries (3 ft 6 in / 10 ft) and the 1.2 cal/cm² arc flash boundary definition; shock-current table; arc temperature figure.
+- [ ] Fall clearance rule of thumb (a 6 ft lanyard needs about 18 ft of clearance).
+- [ ] OSHA citations:
+  - 1910.333(c)(3), (c)(7) and (b)(2)
+  - 1910.147(e)(3), (f)(3) and (f)(4)
+  - 1910.137
+  - 1926.1053(b) subsections
+  - 1926.501(b)(1)
+  - 1926.502(d)(15)
+  - 1926.404(b)(1)
+  - 1904.39
+  - 1910.28
+  - 1910.1200
+  - 1926.417
+- [ ] Universal waste (40 CFR 273), PCB rules (40 CFR 761) and EPA broken-lamp cleanup, against the rules of the states where you work.
+- [ ] Lamp data: efficacy and CRI ranges, HID restrike times, the 2008 mercury vapor ballast ban, the lamp-base table.
+- [ ] Add company standard practice for multi-tap ballast wiring; make sure the company procedures the lessons refer to (energy control, broken-lamp kit, PCB drum) exist.

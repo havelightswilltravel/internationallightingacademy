@@ -77,6 +77,12 @@ During the audit walk-through (skill LT4-S06) and installation:
 5. **Controls proof.** Keep commissioning records and screenshots showing NLC programming when
    controls incentives are claimed.
 
+> **Safety:** Incentive deadlines never justify shortcuts. Removing existing fixtures and ballasts is
+> line-voltage work: de-energize, apply LOTO and verify absence of voltage (live-dead-live) before
+> disconnecting anything. Treat ballasts without a "No PCBs" label as PCB-containing, handle leaking
+> ballasts with gloves and spill procedures, and keep fluorescent lamps intact for universal-waste
+> recycling.
+
 ## Simple Savings Math
 
 Annual kWh saved = (existing W − new W) × quantity × annual hours ÷ 1,000

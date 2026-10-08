@@ -48,9 +48,9 @@ quiz:
       (single-gang installation)?
     choices:
     - 150 W
-    - 600 W
     - 300 W
     - 450 W
+    - 600 W
     answer: 0
     explanation: >-
       Use the LED rating, not the incandescent rating. LED drivers have high peak and inrush currents
@@ -132,8 +132,12 @@ quiz:
   - id: LT3-C02-Q08
     type: single
     q: How many control gear addresses are available on one DALI bus?
-    choices: [512, 32, 16, 64]
-    answer: 3
+    choices:
+    - '16'
+    - '32'
+    - '64'
+    - '512'
+    answer: 2
     explanation: >-
       DALI supports 64 short addresses for control gear, 16 groups and 16 scenes. 512 is the channel
       count of a DMX universe.
