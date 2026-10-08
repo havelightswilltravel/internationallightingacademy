@@ -1,0 +1,195 @@
+code: LT2-C10
+title: Low-Voltage Lighting Systems
+order: 10
+estimated_hours: 5
+description: >
+  Covers 12 V and 24 V lighting systems: MR16, MR11, PAR36, G4 and GY6.35 lamps and bases;
+  magnetic and electronic transformers, VA ratings, minimum and maximum loading; MLV and ELV
+  dimming; why voltage drop matters far more at low voltage; cable, rail and monorail systems;
+  landscape lighting; remote versus integral transformers; LED MR16 replacements and
+  transformer compatibility; and Class 2 basics. Teaches the company troubleshooting procedure
+  for low-voltage fixtures — lamp continuity, socket condition, line voltage, continuity from
+  socket to transformer, transformer or fixture replacement, and intermittent connections —
+  with lockout, live-dead-live verification and the energized-testing scope rule, plus parts
+  ordering and when to write it up.
+objectives:
+  - Identify common low-voltage lamps and bases and select the correct replacement by base, voltage, wattage and beam
+  - Compare magnetic and electronic transformers and read a transformer label (VA, min/max load, dimming, Class 2)
+  - Load a transformer correctly and explain and reduce voltage drop on 12 V systems
+  - Match dimmers to transformer type (MLV vs ELV) and resolve LED MR16 compatibility problems
+  - Troubleshoot a low-voltage fixture using the company procedure with lockout and de-energized checks first
+  - Record the details needed to order lamps, transformers and fixtures and recognize write-up conditions
+lessons:
+  - 01-low-voltage-systems-lamps-and-transformers.md
+  - 02-loading-voltage-drop-and-dimming.md
+  - 03-led-replacements-and-class-2-basics.md
+  - 04-troubleshooting-low-voltage-fixtures.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C10-Q01
+      type: single
+      q: Which base does a standard MR16 lamp use?
+      choices:
+        - GY6.35
+        - G4
+        - GU5.3 (or GX5.3)
+        - E26
+      answer: 2
+      explanation: MR16 lamps use a 5.3 mm bi-pin base (GU5.3 or GX5.3). G4 and GY6.35 are capsule bases; E26 is a medium screw base.
+      ref: LT2-C10 Lesson 1
+    - id: LT2-C10-Q02
+      type: single
+      q: A 300 W load runs at 12 V. Approximately how much current flows on the secondary?
+      choices:
+        - 2.5 A
+        - 25 A
+        - 12 A
+        - 250 A
+      answer: 1
+      explanation: I = P ÷ V = 300 ÷ 12 = 25 A — about ten times the current of the same load at 120 V.
+      ref: LT2-C10 Lesson 1
+    - id: LT2-C10-Q03
+      type: single
+      q: Why does voltage drop matter more in a 12 V system than a 120 V system?
+      choices:
+        - Low-voltage cable has no resistance
+        - Low-voltage systems use DC only
+        - Transformers add voltage drop
+        - The current is about ten times higher for the same load, and each volt lost is a larger percentage of the supply
+      answer: 3
+      explanation: Higher current means more drop in the same cable, and a 1 V loss is about 8% of 12 V but under 1% of 120 V.
+      ref: LT2-C10 Lesson 2
+    - id: LT2-C10-Q04
+      type: single
+      q: What type of dimmer is normally used with a magnetic low-voltage transformer?
+      choices:
+        - MLV (magnetic low-voltage) dimmer
+        - ELV (electronic low-voltage) dimmer only
+        - 0–10 V dimmer
+        - No dimmer can be used
+      answer: 0
+      explanation: Magnetic transformers are inductive loads and need an MLV-rated dimmer. Electronic transformers usually need ELV (reverse-phase) dimmers.
+      ref: LT2-C10 Lesson 2
+    - id: LT2-C10-Q05
+      type: single
+      q: Six 50 W halogen MR16 lamps were replaced with six 6 W LED MR16s on a 60–150 W electronic transformer. The lamps now flicker. What is the most likely cause?
+      choices:
+        - The LED lamps are too bright
+        - The total load (36 W) is below the transformer's minimum load
+        - The transformer is overloaded
+        - The lamps are the wrong beam angle
+      answer: 1
+      explanation: Electronic transformers often have a minimum load. 6 × 6 W = 36 W is below 60 W, causing flicker or failure to start.
+      ref: LT2-C10 Lesson 3
+    - id: LT2-C10-Q06
+      type: single
+      q: What is the maximum total lamp wattage on a 150 VA transformer, and what is a practical loading target?
+      choices:
+        - 300 W maximum; 150 W target
+        - 100 W maximum; 75 W target
+        - 150 W maximum; about 120 W target
+        - Unlimited if the cable is large
+      answer: 2
+      explanation: Lamp watts must not exceed VA; a practical target is about 75–80% of rating for life and headroom.
+      ref: LT2-C10 Lesson 2
+    - id: LT2-C10-Q07
+      type: single
+      q: According to the company procedure, what is the first check on a low-voltage fixture that will not light?
+      choices:
+        - Replace the transformer
+        - Replace the fixture
+        - Test continuity between the socket and the transformer
+        - Check lamp continuity
+      answer: 3
+      explanation: The company procedure starts with lamp continuity, then socket condition, then line voltage, then continuity from socket to transformer.
+      ref: Company Master Troubleshooting Guide — Low voltage lighting systems
+    - id: LT2-C10-Q08
+      type: single
+      q: The company procedure calls for testing line voltage across hot and neutral. How should a non-qualified lighting technician handle this step?
+      choices:
+        - Use indirect evidence (other loads on the circuit work, breaker and switch on), then lock out and continue de-energized, or have a qualified person take the reading
+        - Open the panel and measure at the breaker
+        - Touch the conductors with a non-contact tester and treat a silent tester as proof the circuit is dead
+        - Skip it and replace the transformer
+      answer: 0
+      explanation: Measuring line voltage is energized diagnostic work for qualified persons under NFPA 70E. Others use indirect evidence and de-energized tests. A non-contact tester never proves absence of voltage.
+      ref: LT2-C10 Lesson 4
+    - id: LT2-C10-Q09
+      type: single
+      q: You have a good lamp, a good socket, continuity from socket to transformer, and line voltage at the primary. What does the company procedure say to do?
+      choices:
+        - Replace the socket
+        - Replace the transformer or the fixture
+        - Replace the lamp again
+        - Add a second transformer
+      answer: 1
+      explanation: With lamp, socket, wiring and supply proven good, the transformer is the failed part — replace it, or the fixture if the transformer is integral and not available.
+      ref: Company Master Troubleshooting Guide — Low voltage lighting systems
+    - id: LT2-C10-Q10
+      type: single
+      q: A low-voltage fixture works intermittently. You find no connection issues, and no parts were replaced to get it working. What does the company procedure call for?
+      choices:
+        - Leave it and close the call
+        - Replace the lamp with a higher wattage
+        - Replace the fixture
+        - Reset the breaker
+      answer: 2
+      explanation: Intermittent problems are usually internal connections. If none can be found and no part fixed it, replace the fixture.
+      ref: Company Master Troubleshooting Guide — Low voltage lighting systems
+    - id: LT2-C10-Q11
+      type: single
+      q: A remote transformer's lights go off, stay off for several minutes, then come back on. What should you check before replacing the transformer?
+      choices:
+        - The lamp beam angle
+        - The lamp color temperature
+        - Whether the dimmer is a 3-way
+        - Total load vs VA rating and heat around the transformer (thermal protector tripping)
+      answer: 3
+      explanation: Cycling is the classic sign of a thermal protector responding to overload or poor ventilation. The transformer may be protecting itself correctly.
+      ref: LT2-C10 Lesson 4
+    - id: LT2-C10-Q12
+      type: single
+      q: Which statement about Class 2 low-voltage lighting is correct?
+      choices:
+        - The primary side of a Class 2 transformer is still a line-voltage circuit
+        - Any 12 V transformer is Class 2
+        - Class 2 conductors may share a box with line-voltage conductors without separation
+        - A 600 VA single-output 12 V transformer is Class 2
+      answer: 0
+      explanation: Class 2 describes a limited-energy output from a listed Class 2 source. The primary is line voltage, and large single-output transformers are not Class 2.
+      ref: LT2-C10 Lesson 3
+    - id: LT2-C10-Q13
+      type: multi
+      q: Which actions reduce excessive voltage drop on a 12 V cable system? (Select all that apply.)
+      choices:
+        - Use heavier (lower AWG number) cable
+        - Split the load into multiple shorter home runs
+        - Add more lamps to the end of the run
+        - Tighten and seal corroded connections
+      answer: [0, 1, 3]
+      explanation: Heavier cable, shorter split runs and good connections reduce drop. Adding more lamps increases current and drop.
+      ref: LT2-C10 Lesson 2
+    - id: LT2-C10-Q14
+      type: multi
+      q: When ordering a replacement low-voltage transformer, which details must match? (Select all that apply.)
+      choices:
+        - Magnetic or electronic type and dimming method
+        - VA rating and minimum/maximum load
+        - Output voltage (12 V or 24 V) and Class 2 rating if required
+        - The color of the lamp's reflector
+      answer: [0, 1, 2]
+      explanation: Type, dimming, VA and load range, output voltage and Class 2 status determine compatibility. Reflector color does not.
+      ref: LT2-C10 Lesson 3
+    - id: LT2-C10-Q15
+      type: single
+      q: Why should halogen G4 and GY6.35 capsules not be handled with bare fingers?
+      choices:
+        - They carry line voltage
+        - Skin oils on the quartz create hot spots that shorten lamp life
+        - They are magnetic
+        - It changes the beam angle
+      answer: 1
+      explanation: Oils on the quartz envelope cause hot spots and early failure. Handle with a clean cloth or gloves.
+      ref: LT2-C10 Lesson 1

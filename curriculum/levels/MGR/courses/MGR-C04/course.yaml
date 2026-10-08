@@ -1,0 +1,193 @@
+code: MGR-C04
+title: Legal & Fair Hiring
+order: 4
+estimated_hours: 3
+description: >
+  The legal guardrails every hiring manager must know: equal employment opportunity and protected
+  classes, the ADA and essential-functions questions, age, religion, family status, arrests versus
+  convictions and fair-chance laws, the FCRA for background and driving-record checks, drug-testing
+  policy, pay-history bans, Form I-9, and documentation and record retention. Includes a review of
+  our company's interview kits with compliant rewordings. General training, not legal advice;
+  our company's HR team and counsel set final policy.
+objectives:
+  - Identify federally protected characteristics and recognize that state and local laws add more.
+  - Replace prohibited or risky interview questions with job-related alternatives.
+  - Ask about physical and schedule requirements using essential-functions, accommodation-aware wording.
+  - Explain the pre-offer ban on medical and disability-related questions.
+  - Describe fair-chance practices and the FCRA steps for background and driving-record checks.
+  - Ask about desired pay instead of pay history and complete Form I-9 correctly.
+  - Maintain a consistent, documented hiring file and follow record retention rules.
+lessons:
+  - 01-equal-opportunity-and-protected-classes.md
+  - 02-ada-essential-functions-and-medical-questions.md
+  - 03-criminal-history-background-checks-and-drug-testing.md
+  - 04-pay-history-i9-records-and-reviewing-our-kits.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: MGR-C04-Q01
+      type: multi
+      q: Which are protected characteristics under federal equal employment law? Select all that apply.
+      choices:
+        - Religion
+        - Age 40 and over
+        - Favorite sports team
+        - Disability
+      answer: [0, 1, 3]
+      explanation: Religion (Title VII), age 40+ (ADEA), and disability (ADA) are federally protected. Sports preferences are not.
+      ref: MGR-C04 Lesson 1
+    - id: MGR-C04-Q02
+      type: single
+      q: Which question is the compliant way to address on-call availability?
+      choices:
+        - "Do you have kids who would make on call difficult?"
+        - "Does your religion allow you to work Sundays?"
+        - "This job includes an on-call rotation with some nights and weekends. Can you meet that requirement?"
+        - "Is your spouse okay with you being on call?"
+      answer: 2
+      explanation: Describe the requirement and ask whether the candidate can meet it, without asking about family or religion.
+      ref: MGR-C04 Lesson 1
+    - id: MGR-C04-Q03
+      type: single
+      q: What is disparate impact?
+      choices:
+        - Treating someone differently on purpose because of a protected characteristic
+        - A neutral-looking requirement that disproportionately screens out a protected group and is not job-related and consistent with business necessity
+        - Paying everyone the same
+        - Interviewing too many candidates
+      answer: 1
+      explanation: Disparate impact can occur without intent, which is why requirements must trace to the job analysis.
+      ref: MGR-C04 Lesson 1
+    - id: MGR-C04-Q04
+      type: single
+      q: A candidate says, "I should mention I'm pregnant." What should the interviewer do?
+      choices:
+        - Ask when the baby is due to plan the start date
+        - Note it on the scorecard
+        - Thank them, not follow up or record it, refocus on the job, and refer any accommodation question to HR
+        - End the interview
+      answer: 2
+      explanation: Volunteered protected information must not be pursued, recorded, or factored in. Accommodations go through HR.
+      ref: MGR-C04 Lesson 1; Lesson 2
+    - id: MGR-C04-Q05
+      type: single
+      q: Under the ADA, which question is allowed before a job offer?
+      choices:
+        - "Do you have any back problems?"
+        - "Have you ever filed a workers' compensation claim?"
+        - "Can you perform the essential functions of this job, with or without reasonable accommodation?"
+        - "What medications do you take?"
+      answer: 2
+      explanation: Pre-offer, disability-related and medical questions are prohibited; asking about ability to perform essential functions is permitted.
+      ref: MGR-C04 Lesson 2
+    - id: MGR-C04-Q06
+      type: single
+      q: When may an employer require a medical exam for a new hire?
+      choices:
+        - Before the interview, for all applicants
+        - After a conditional offer, if required of all entering employees in the same job category and kept confidential
+        - Only for candidates who look unfit
+        - Never under any circumstances
+      answer: 1
+      explanation: Post-offer exams are allowed when applied uniformly to the job category, with confidential, separate records.
+      ref: MGR-C04 Lesson 2
+    - id: MGR-C04-Q07
+      type: single
+      q: Which is the best rewording of the kit question "How much weight can you lift on a consistent basis?"
+      choices:
+        - "Are you strong?"
+        - "This job requires frequently lifting and carrying materials up to 50 lbs. Can you perform this function, with or without reasonable accommodation?"
+        - "Have you ever hurt your back?"
+        - "How much do you weigh?"
+      answer: 1
+      explanation: Frame the question around the essential function with accommodation language, and confirm the weight is supported by the job analysis.
+      ref: MGR-C04 Lesson 2; Lesson 4
+    - id: MGR-C04-Q08
+      type: single
+      q: A candidate who uses a hearing aid says they would need text-based dispatch. What should the manager do?
+      choices:
+        - Decide alone that the person is a safety risk
+        - Reject the candidate because accommodations cost money
+        - Thank them and refer the accommodation request to HR for the interactive process
+        - Ask for medical records
+      answer: 2
+      explanation: Managers don't decide accommodation or direct-threat questions alone; HR runs the interactive process.
+      ref: MGR-C04 Lesson 2
+    - id: MGR-C04-Q09
+      type: single
+      q: Why should managers not ask "Have you ever been arrested?"
+      choices:
+        - Arrests are always sealed
+        - An arrest is not proof of conduct; EEOC guidance discourages using arrests, and many states prohibit asking about arrests without conviction
+        - It takes too long to answer
+        - Only electricians can be asked
+      answer: 1
+      explanation: Arrests alone do not show wrongdoing and create legal risk; convictions may be considered only where and how the law allows.
+      ref: MGR-C04 Lesson 3
+    - id: MGR-C04-Q10
+      type: multi
+      q: Which factors belong in an individualized assessment of a conviction? Select all that apply.
+      choices:
+        - Nature and gravity of the offense
+        - Time elapsed since the offense or sentence
+        - Nature of the job
+        - The candidate's national origin
+      answer: [0, 1, 2]
+      explanation: Offense, time elapsed, and the job (plus rehabilitation evidence) are the core factors. National origin is protected and irrelevant.
+      ref: MGR-C04 Lesson 3
+    - id: MGR-C04-Q11
+      type: single
+      q: Under the FCRA, what must happen before rejecting a candidate based on a vendor background or driving-record report?
+      choices:
+        - Nothing; the decision can be immediate
+        - Give a pre-adverse action notice with a copy of the report and the summary of rights, and allow time to dispute or explain
+        - Post the report in the break room
+        - Call the candidate's references
+      answer: 1
+      explanation: The pre-adverse action step, followed by a waiting period and the final adverse action notice, is required.
+      ref: MGR-C04 Lesson 3
+    - id: MGR-C04-Q12
+      type: single
+      q: Which pay question is appropriate in jurisdictions with salary-history bans?
+      choices:
+        - "What do you make now?"
+        - "What pay range are you looking for?"
+        - "Can you bring a recent pay stub?"
+        - "What was your starting pay at your last job?"
+      answer: 1
+      explanation: Asking desired pay is acceptable; asking current or past pay is banned in a growing number of places.
+      ref: MGR-C04 Lesson 4
+    - id: MGR-C04-Q13
+      type: single
+      q: When must the employer complete Section 2 of Form I-9?
+      choices:
+        - Before making a job offer
+        - Within three business days of the employee's first day of work
+        - Within 90 days
+        - Only if the employee was born outside the U.S.
+      answer: 1
+      explanation: Section 1 is due by the first day; Section 2 within three business days. The I-9 applies to every new hire.
+      ref: MGR-C04 Lesson 4
+    - id: MGR-C04-Q14
+      type: single
+      q: Which I-9 practice is improper?
+      choices:
+        - Letting the employee choose documents from the official lists
+        - Requiring a specific document such as a passport
+        - Examining original documents
+        - Storing I-9s separately from personnel files
+      answer: 1
+      explanation: Employers may not specify which acceptable documents an employee presents.
+      ref: MGR-C04 Lesson 4
+    - id: MGR-C04-Q15
+      type: single
+      q: Why is the kit question about how often a candidate was "Absent" at a prior job risky?
+      choices:
+        - It takes too long to verify
+        - Absences may include protected leave (medical, disability, military, workers' comp), so ask instead whether attendance met expectations, excluding protected leave
+        - Absences are never relevant
+        - Former supervisors won't answer
+      answer: 1
+      explanation: Counting absences can surface protected leave. Asking whether the candidate met attendance expectations is the safer framing.
+      ref: MGR-C04 Lesson 4

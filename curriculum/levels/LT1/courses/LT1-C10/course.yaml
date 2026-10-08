@@ -119,10 +119,10 @@ quiz:
       q: Which practices produce useful label photos? (Select all that apply.)
       choices:
         - A wide shot showing the fixture and its location first
+        - A quick blurry photo you do not check
         - The whole label, square to the camera, in focus, without glare
         - A tape measure in the frame for scale when photographing lenses or lamps
-        - A quick blurry photo you do not check
-      answer: [0, 1, 2]
+      answer: [0, 2, 3]
       explanation: Every character must be readable. Zoom in to check before moving on.
       ref: LT1-C10 Lesson 2
     - id: LT1-C10-Q10
@@ -173,11 +173,11 @@ quiz:
       type: multi
       q: Which information usually supports a warranty claim on a failed driver? (Select all that apply.)
       choices:
+        - The customer's personal phone number
         - Part number and date code from the label
         - Install date from the work order or proof of purchase
         - A description of the failure
-        - The customer's personal phone number
-      answer: [0, 1, 2]
+      answer: [1, 2, 3]
       explanation: Part numbers, date codes, install dates and a failure description are needed. Personal customer information is not.
       ref: LT1-C10 Lesson 4
     - id: LT1-C10-Q15
