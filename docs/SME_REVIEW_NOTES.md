@@ -53,3 +53,19 @@ each item, and correct the content if needed.
 - [ ] Industry guidance figures: voltage drop, NEMA MG 1 unbalance derating, ANSI C84.1, VFD discharge times, starting current.
 - [ ] Rubber glove retest and issue rules (OSHA 1910.137) against your safety program.
 - [ ] Tap-change example in EA3-C01 Lesson 4: check that it reads clearly.
+
+## EA2 — Electrical Apprentice II
+- [ ] Check these tables against a printed 2023 NEC:
+  - Table 310.16
+  - ambient correction factors (add the table number)
+  - Table 310.15(C)(1)
+  - Tables 250.66 and 250.122
+  - Table 250.102(C)(1) (stepping above 1,100 kcmil)
+  - Tables 314.16(A)/(B)
+  - Chapter 9 Tables 4, 5 and 8
+  - Table 352.30
+  - Table 300.5
+- [ ] Box fill: all EGCs count as one, plus ¼ for each beyond four (314.16(B)(5)).
+- [ ] Flexible metal conduit as an EGC (6 ft / 20 A); MC support distances; anti-short bushing wording.
+- [ ] Neutral-to-ground continuity test procedure in EA2-C02 Lesson 4 against company procedure.
+- [ ] CSI MasterFormat section titles in EA2-C05.
