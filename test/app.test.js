@@ -312,3 +312,9 @@ test('multipart uploads: lesson video link and library guide with attachment', a
   const bad = await fetch(base + '/admin/videos', { method: 'POST', body: fd, redirect: 'manual', headers: { cookie: admin.cookie() } });
   assert.equal(bad.status, 403);
 });
+
+test('the real curriculum in curriculum/ is valid', () => {
+  const data = curriculum.load();
+  assert.deepEqual(data.errors, []);
+  assert.equal(data.levels.length, 10);
+});

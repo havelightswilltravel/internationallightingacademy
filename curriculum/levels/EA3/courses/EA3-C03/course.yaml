@@ -168,7 +168,7 @@ quiz:
         - 5,625 VA
       answer: 3
       explanation: 6,000 + 3,000 + 1,500 = 10,500 VA. First 3,000 VA at 100% = 3,000; remaining 7,500 at 35% = 2,625. Total 5,625 VA.
-      ref: NEC 2023 Table 220.12, 220.52, Table 220.42
+      ref: NEC 2023 220.41, 220.52, Table 220.42
     - id: EA3-C03-Q14
       type: single
       q: In which article of the 2026 NEC is load-calculation content found?

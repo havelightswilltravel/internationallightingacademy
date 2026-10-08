@@ -37,7 +37,7 @@ used simultaneously with A/C).
 
 | Step | Load | Calculation | VA |
 |---|---|---|---|
-| 1 | General lighting & receptacles | 2,000 ft² x 3 VA/ft² (Table 220.12) | 6,000 |
+| 1 | General lighting & receptacles | 2,000 ft² x 3 VA/ft² (220.41; Table 220.12 in editions before 2023) | 6,000 |
 | 2 | Small-appliance circuits | 2 x 1,500 VA (220.52(A)) | 3,000 |
 | 3 | Laundry circuit | 1 x 1,500 VA (220.52(B)) | 1,500 |
 |  | **Subtotal** |  | **10,500** |

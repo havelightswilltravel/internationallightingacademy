@@ -8,6 +8,7 @@ That leaves about 12 weeks to get from draft to production-ready.
 - [x] Master syllabus and content format
 - [x] Draft curriculum for every level: lessons, question banks, hands-on skill checklists
 - [x] Troubleshooting library (26 starter guides)
+- [x] Draft content totals: 55 courses, 223 lessons, 875 questions, 77 hands-on skills
 - [x] Web platform: sign-in, roles, video lessons, quizzes and timed exams, hands-on sign-offs, OJT hours, promotions and certificates, placement, pay scale, library, reports, multi-company licensing
 - [x] Automated tests
 

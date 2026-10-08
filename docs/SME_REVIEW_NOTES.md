@@ -152,3 +152,19 @@ each item, and correct the content if needed.
   - LT2s remove dead fronts only under qualified supervision.
 - [ ] **Policy decision:** skills S01 and S08 have LT2 trainees measuring in energized panels under qualified supervision. Confirm this against your NFPA 70E program.
 - [ ] Interim instruction for LT2s who find emergency ballasts during a retrofit (currently deferred to LT3-C04).
+
+## EA4 — Electrical Apprentice IV and JW — Journeyman Exam Preparation
+- [ ] **Dwelling general lighting citation:** in the 2023 NEC the 3 VA/ft² dwelling value is in 220.41 (Table 220.12 covers non-dwelling occupancies). EA4/JW use 220.41; check every level for consistency. Confirm the demand factor table numbering (220.42).
+- [ ] 2023 NEC sections:
+  - 220.57 (EVSE), 220.70 (energy management)
+  - 220.82(B): EVSE treated as a nameplate load
+  - Articles 722/724/725 and the PoE bundling section
+  - 517.31/517.33, 517.18(B)/517.19(B)
+  - 500.8 (threads)
+  - 310.10(G)
+  - 760.136
+  - 706.15
+- [ ] Table 220.12 unit loads (office 1.3, retail 1.9, school 1.5, warehouse 1.2, restaurant 1.5, hospital 1.6 VA/ft²).
+- [ ] Pool rules (680.21/680.22) and the GFCI list against the adopted edition.
+- [ ] **Program decisions:** JW-S01 pass bar (21/25 lookups in 50 min); JW-S02 pass bar (12/15 calculations in 45 min); JW-S03 passing-score rule.
+- [ ] Journeyman exam format figures are typical; each state's candidate bulletin governs.

@@ -22,6 +22,17 @@ LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior ─► LT5 Certified Adv
 5. Get final promotion approval, which records the new grade and issues a certificate
    anyone can check at `/verify/<certificate-number>`.
 
+## Curriculum at a glance
+
+| | Lighting track (LT1–LT5) | Electrical track (EA1–EA4, JW) | Total |
+|---|---|---|---|
+| Courses | 31 | 24 | **55** |
+| Lessons | 129 | 94 | **223** |
+| Quiz/exam questions | 475 | 400 | **875** |
+| Hands-on skills | 41 | 36 | **77** |
+
+Plus 26 field troubleshooting guides. Screenshots are in [`docs/screenshots/`](docs/screenshots/).
+
 ## What's in this repository
 
 | Path | What it is |

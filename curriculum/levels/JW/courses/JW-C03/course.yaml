@@ -1,0 +1,247 @@
+code: JW-C03
+title: Comprehensive Code Review
+order: 3
+estimated_hours: 20
+description: >
+  A chapter-by-chapter review of the NEC focused on the requirements most frequently tested on
+  journeyman exams: Article 100 definitions and Article 110 general requirements; branch
+  circuits, services, overcurrent protection, and grounding and bonding (Chapter 2); wiring
+  methods and materials (Chapter 3); equipment for general use (Chapter 4); special occupancies,
+  equipment, and conditions (Chapters 5–7); communications (Chapter 8); and the Chapter 9
+  tables and annexes. Section numbers follow the 2023 NEC; candidates must confirm and re-tab
+  for the edition named in their state candidate bulletin.
+objectives:
+  - Recall key definitions and Article 110 requirements, including terminal temperature ratings and working space
+  - Apply Chapter 2 rules for GFCI, AFCI, dwelling receptacle placement, services, overcurrent protection, and grounding and bonding
+  - Apply Chapter 3 rules for protection, burial depth, box and pull box sizing, support, and uses not permitted
+  - Apply Chapter 4 rules for cords, switches, receptacles, panelboards, luminaires, appliances, heating, A/C, and generators
+  - Identify the key rules of Chapters 5–9, including hazardous locations, health care, pools, signs, fire pumps, emergency and standby systems, communications, and tables
+lessons:
+  - 01-chapters-1-and-2-general-and-wiring-protection.md
+  - 02-chapter-3-wiring-methods-and-materials.md
+  - 03-chapter-4-equipment-for-general-use.md
+  - 04-chapters-5-through-9-special-topics-and-tables.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: JW-C03-Q01
+      type: single
+      q: Unless the equipment is listed and marked otherwise, terminations for circuits rated 100 A or less (or for 14 AWG through 1 AWG conductors) are based on which conductor temperature rating?
+      choices:
+        - 60°C
+        - 75°C
+        - 90°C
+        - 105°C
+      answer: 0
+      explanation: 110.14(C)(1)(a) requires the 60°C ampacity for circuits rated 100 A or less or 14–1 AWG conductors unless the equipment is listed and identified for higher-rated conductors.
+      ref: 2023 NEC 110.14(C)(1)(a)
+    - id: JW-C03-Q02
+      type: single
+      q: What is the minimum depth of working space in front of a 480Y/277-V panelboard with exposed live parts on one side and a grounded concrete wall on the other (Condition 2)?
+      choices:
+        - 3 ft
+        - 4 ft
+        - 3½ ft
+        - 6 ft
+      answer: 2
+      explanation: 277 V to ground falls in the 151–1000 V row of Table 110.26(A)(1). Condition 2 requires 1.07 m (3½ ft).
+      ref: 2023 NEC Table 110.26(A)(1)
+    - id: JW-C03-Q03
+      type: single
+      q: The term continuous load means a load where the maximum current is expected to continue for how long?
+      choices:
+        - 1 hour or more
+        - 2 hours or more
+        - 8 hours or more
+        - 3 hours or more
+      answer: 3
+      explanation: Article 100 defines a continuous load as one where the maximum current is expected to continue for 3 hours or more.
+      ref: 2023 NEC Article 100
+    - id: JW-C03-Q04
+      type: single
+      q: In a dwelling, receptacles must be installed so that no point along the floor line of any wall space is more than what distance from a receptacle?
+      choices:
+        - 12 ft
+        - 6 ft
+        - 4 ft
+        - 10 ft
+      answer: 1
+      explanation: 210.52(A)(1) requires that no point along the floor line in any wall space is more than 1.8 m (6 ft) from a receptacle outlet.
+      ref: 2023 NEC 210.52(A)(1)
+    - id: JW-C03-Q05
+      type: single
+      q: Receptacles serving dwelling kitchen countertop wall spaces must be placed so that no point along the wall line is more than how far from a receptacle?
+      choices:
+        - 24 in
+        - 36 in
+        - 48 in
+        - 18 in
+      answer: 0
+      explanation: 210.52(C)(1) requires that no point along the wall line is more than 600 mm (24 in) measured horizontally from a receptacle outlet in that space.
+      ref: 2023 NEC 210.52(C)(1)
+    - id: JW-C03-Q06
+      type: single
+      q: What is the minimum clearance for overhead service-drop conductors above a residential driveway when the voltage is 120/240 V?
+      choices:
+        - 10 ft
+        - 15 ft
+        - 18 ft
+        - 12 ft
+      answer: 3
+      explanation: 230.24(B)(2) requires 3.7 m (12 ft) over residential property and driveways for voltages not exceeding 300 V to ground.
+      ref: 2023 NEC 230.24(B)(2)
+    - id: JW-C03-Q07
+      type: single
+      q: What is the minimum rating of the service disconnecting means for a one-family dwelling?
+      choices:
+        - 60 A
+        - 100 A
+        - 150 A
+        - 200 A
+      answer: 1
+      explanation: 230.79(C) requires a service disconnecting means rated not less than 100 A, 3-wire, for a one-family dwelling.
+      ref: 2023 NEC 230.79(C)
+    - id: JW-C03-Q08
+      type: single
+      q: A 25-ft feeder tap is made from a feeder protected at 150 A. What is the minimum ampacity of the tap conductors?
+      choices:
+        - 15 A
+        - 37.5 A
+        - 50 A
+        - 75 A
+      answer: 2
+      explanation: For the 25-ft tap rule, tap conductors must have an ampacity of at least one-third of the feeder OCPD rating. 150 ÷ 3 = 50 A.
+      ref: 2023 NEC 240.21(B)(2)
+    - id: JW-C03-Q09
+      type: single
+      q: What is the minimum size copper equipment grounding conductor for a circuit protected by a 100-A overcurrent device?
+      choices:
+        - 10 AWG
+        - 6 AWG
+        - 4 AWG
+        - 8 AWG
+      answer: 3
+      explanation: Table 250.122 requires 8 AWG copper for OCPD ratings up to 100 A.
+      ref: 2023 NEC Table 250.122
+    - id: JW-C03-Q10
+      type: multi
+      q: Which statements about grounding electrodes are correct? (Select all that apply.)
+      choices:
+        - A single rod electrode with resistance over 25 Ω must be supplemented by an additional electrode
+        - A metal underground water pipe electrode must be supplemented by an additional electrode
+        - Rod electrodes must have at least 8 ft in contact with the soil
+        - Two rods used together must be at least 3 ft apart
+      answer: [0, 1, 2]
+      explanation: 250.53 requires supplementing a single rod over 25 Ω and supplementing a water pipe electrode, and rods must have at least 2.44 m (8 ft) in contact with soil. Multiple rods must be at least 1.8 m (6 ft) apart.
+      ref: 2023 NEC 250.53
+    - id: JW-C03-Q11
+      type: single
+      q: Cables run through bored holes in wood studs must be at least how far from the nearest edge of the stud, or be protected by a steel plate?
+      choices:
+        - ¾ in
+        - 1 in
+        - 1¼ in
+        - 1½ in
+      answer: 2
+      explanation: 300.4(A)(1) requires the edge of the bored hole to be not less than 32 mm (1¼ in) from the nearest edge of the wood member, or a steel plate at least 1.6 mm (1/16 in) thick is required.
+      ref: 2023 NEC 300.4(A)(1)
+    - id: JW-C03-Q12
+      type: single
+      q: What is the minimum cover for rigid metal conduit buried in a general location (not under a building, street, or driveway)?
+      choices:
+        - 6 in
+        - 12 in
+        - 18 in
+        - 24 in
+      answer: 0
+      explanation: Table 300.5 requires 150 mm (6 in) of cover for RMC and IMC in general locations.
+      ref: 2023 NEC Table 300.5
+    - id: JW-C03-Q13
+      type: single
+      q: A pull box has a 3-in conduit and a 2-in conduit entering the left wall for angle pulls. What is the minimum distance to the opposite wall?
+      choices:
+        - 18 in
+        - 24 in
+        - 30 in
+        - 20 in
+      answer: 3
+      explanation: For angle pulls, the distance is 6 times the largest raceway plus the sum of the other raceways in the same row on the same wall. (6 × 3) + 2 = 20 in.
+      ref: 2023 NEC 314.28(A)(2)
+    - id: JW-C03-Q14
+      type: single
+      q: EMT must be securely fastened within what distance of each box and at what maximum interval?
+      choices:
+        - 12 in of each box; every 4½ ft
+        - 3 ft of each box; every 10 ft
+        - 3 ft of each box; every 6 ft
+        - 18 in of each box; every 8 ft
+      answer: 1
+      explanation: 358.30(A) requires EMT to be fastened within 900 mm (3 ft) of each box and at intervals not exceeding 3 m (10 ft).
+      ref: 2023 NEC 358.30(A)
+    - id: JW-C03-Q15
+      type: multi
+      q: Flexible cords are NOT permitted to be used in which ways? (Select all that apply.)
+      choices:
+        - As a substitute for the fixed wiring of a structure
+        - Run through holes in walls or ceilings
+        - For connection of a portable appliance
+        - Concealed above suspended ceilings
+      answer: [0, 1, 3]
+      explanation: 400.12 prohibits cords as a substitute for fixed wiring, run through holes in walls or ceilings, and concealed by walls, floors, or ceilings (including above suspended ceilings). Portable appliance connection is a permitted use.
+      ref: 2023 NEC 400.10, 400.12
+    - id: JW-C03-Q16
+      type: single
+      q: What is the minimum clearance between a surface-mounted LED luminaire with a completely enclosed light source and the storage space in a clothes closet?
+      choices:
+        - 6 in
+        - 3 in
+        - 18 in
+        - 12 in
+      answer: 3
+      explanation: 410.16(C)(1) requires 300 mm (12 in) for surface-mounted incandescent or LED luminaires with a completely enclosed light source.
+      ref: 2023 NEC 410.16(C)(1)
+    - id: JW-C03-Q17
+      type: single
+      q: Conductors from generator terminals to the first overcurrent device must have an ampacity of at least what percentage of the generator nameplate current rating?
+      choices:
+        - 100%
+        - 115%
+        - 125%
+        - 150%
+      answer: 1
+      explanation: 445.13(A) requires the ampacity of these conductors to be not less than 115% of the generator nameplate current rating.
+      ref: 2023 NEC 445.13(A)
+    - id: JW-C03-Q18
+      type: single
+      q: Within what time must emergency systems supplied by an alternate source restore power after loss of normal power?
+      choices:
+        - 10 seconds
+        - 30 seconds
+        - 60 seconds
+        - 2 minutes
+      answer: 0
+      explanation: 700.12 requires emergency power to be available within 10 seconds. Legally required standby systems (701) have 60 seconds.
+      ref: 2023 NEC 700.12, 701.12
+    - id: JW-C03-Q19
+      type: single
+      q: A commercial building with a ground-floor pedestrian entrance must have at least one outlet for a sign supplied by a branch circuit rated at least what?
+      choices:
+        - 15 A
+        - 30 A
+        - 20 A
+        - 40 A
+      answer: 2
+      explanation: 600.5(A) requires at least one outlet supplied by a branch circuit rated at least 20 A that supplies no other load, at each entrance to each tenant space accessible to pedestrians.
+      ref: 2023 NEC 600.5(A)
+    - id: JW-C03-Q20
+      type: single
+      q: Article 518 applies to buildings or portions of buildings designed or intended for the gathering of how many persons or more?
+      choices:
+        - 50
+        - 75
+        - 100
+        - 200
+      answer: 2
+      explanation: Assembly occupancies under Article 518 are those designed or intended for the gathering together of 100 or more persons.
+      ref: 2023 NEC 518.1
