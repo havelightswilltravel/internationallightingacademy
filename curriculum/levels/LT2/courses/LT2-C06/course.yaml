@@ -1,7 +1,7 @@
 code: LT2-C06
 title: Troubleshooting Methodology
 order: 6
-estimated_hours: 6
+estimated_hours: 7
 description: >
   Teaches the company's systematic troubleshooting method for lighting systems — gather
   information, verify, plan safely, analyze, test and isolate, repair, verify and document —
@@ -14,11 +14,13 @@ objectives:
   - Isolate opens, shorts and ground faults using measurements and half-splitting
   - Verify a repair under normal operating conditions and address root cause
   - Document troubleshooting and repairs with specific, measurable information
+  - "Use the systems quick reference to choose first checks, isolation tests, common fixes and escalation points for each lighting and control system the company services"
 lessons:
   - 01-systematic-approach.md
   - 02-symptom-to-cause.md
   - 03-half-splitting-and-isolation.md
   - 04-verifying-and-documenting.md
+  - 05-systems-troubleshooting-quick-reference.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -174,3 +176,43 @@ quiz:
         - When readings don't make sense, the fault is in equipment beyond your qualification, or you find a hazardous condition
       answer: 3
       explanation: Escalating is the right call when the situation exceeds your qualification or understanding. Guessing on energized equipment is not.
+    - id: LT2-C06-Q16
+      type: single
+      q: "Using the systems quick reference, what is the decisive first isolation step for a battery-backup emergency fixture?"
+      choices:
+        - "Measure the battery voltage with the unit energized"
+        - "Replace the battery"
+        - "Press the test button and see whether the lamps light"
+        - "Check the panel schedule"
+      answer: 2
+      explanation: "The test button splits the fixture into the emergency side and the normal side, telling you which half failed."
+    - id: LT2-C06-Q17
+      type: single
+      q: "A data connection is dead. According to the company procedure, what causes the problem most of the time?"
+      choices:
+        - "The crimp or pin configuration"
+        - "The computer's network card"
+        - "Electromagnetic interference from lighting"
+        - "The building's internet service"
+      answer: 0
+      explanation: "The company guide notes that roughly 90% of data cable problems are the crimp or pin configuration; verify with a known-good patch cable."
+    - id: LT2-C06-Q18
+      type: single
+      q: "A refrigerated case's lights are out. After checking switches, why should you mark the location and come back in about 30 minutes?"
+      choices:
+        - "Lamps need time to cool before replacing"
+        - "The case may be in a defrost cycle that turns off the lights"
+        - "The ballast must discharge for 30 minutes"
+        - "The store manager must approve every repair"
+      answer: 1
+      explanation: "Many cases cut lighting power during defrost. Returning later avoids troubleshooting a normal condition."
+    - id: LT2-C06-Q19
+      type: multi
+      q: "Which situations from the quick reference call for writing it up for an electrician or specialist rather than repairing it yourself? (Select all that apply.)"
+      choices:
+        - "A breaker that trips intermittently within its rated tolerance"
+        - "A contactor with line and coil voltage but no load voltage"
+        - "A case lighting harness that can only be replaced by breaking the case seals"
+        - "A fluorescent lamp with blackened ends"
+      answer: [0, 1, 2]
+      explanation: "Breaker and contactor replacement are electrician work and sealed-case harness work goes to a case or refrigeration specialist. Blackened lamps are a routine relamp."
