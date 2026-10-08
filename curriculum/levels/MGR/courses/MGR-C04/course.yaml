@@ -52,44 +52,44 @@ quiz:
       type: single
       q: What is disparate impact?
       choices:
-        - Treating someone differently on purpose because of a protected characteristic
         - A neutral-looking requirement that disproportionately screens out a protected group and is not job-related and consistent with business necessity
         - Paying everyone the same
         - Interviewing too many candidates
-      answer: 1
+        - Treating someone differently on purpose because of a protected characteristic
+      answer: 0
       explanation: Disparate impact can occur without intent, which is why requirements must trace to the job analysis.
       ref: MGR-C04 Lesson 1
     - id: MGR-C04-Q04
       type: single
       q: A candidate says, "I should mention I'm pregnant." What should the interviewer do?
       choices:
+        - End the interview
         - Ask when the baby is due to plan the start date
         - Note it on the scorecard
         - Thank them, not follow up or record it, refocus on the job, and refer any accommodation question to HR
-        - End the interview
-      answer: 2
+      answer: 3
       explanation: Volunteered protected information must not be pursued, recorded, or factored in. Accommodations go through HR.
       ref: MGR-C04 Lesson 1; Lesson 2
     - id: MGR-C04-Q05
       type: single
       q: Under the ADA, which question is allowed before a job offer?
       choices:
-        - "Do you have any back problems?"
         - "Have you ever filed a workers' compensation claim?"
         - "Can you perform the essential functions of this job, with or without reasonable accommodation?"
         - "What medications do you take?"
-      answer: 2
+        - "Do you have any back problems?"
+      answer: 1
       explanation: Pre-offer, disability-related and medical questions are prohibited; asking about ability to perform essential functions is permitted.
       ref: MGR-C04 Lesson 2
     - id: MGR-C04-Q06
       type: single
       q: When may an employer require a medical exam for a new hire?
       choices:
+        - Never under any circumstances
         - Before the interview, for all applicants
         - After a conditional offer, if required of all entering employees in the same job category and kept confidential
         - Only for candidates who look unfit
-        - Never under any circumstances
-      answer: 1
+      answer: 2
       explanation: Post-offer exams are allowed when applied uniformly to the job category, with confidential, separate records.
       ref: MGR-C04 Lesson 2
     - id: MGR-C04-Q07
@@ -107,22 +107,22 @@ quiz:
       type: single
       q: A candidate who uses a hearing aid says they would need text-based dispatch. What should the manager do?
       choices:
-        - Decide alone that the person is a safety risk
-        - Reject the candidate because accommodations cost money
         - Thank them and refer the accommodation request to HR for the interactive process
         - Ask for medical records
-      answer: 2
+        - Decide alone that the person is a safety risk
+        - Reject the candidate because accommodations cost money
+      answer: 0
       explanation: Managers don't decide accommodation or direct-threat questions alone; HR runs the interactive process.
       ref: MGR-C04 Lesson 2
     - id: MGR-C04-Q09
       type: single
       q: Why should managers not ask "Have you ever been arrested?"
       choices:
-        - Arrests are always sealed
-        - An arrest is not proof of conduct; EEOC guidance discourages using arrests, and many states prohibit asking about arrests without conviction
         - It takes too long to answer
         - Only electricians can be asked
-      answer: 1
+        - Arrests are always sealed
+        - An arrest is not proof of conduct; EEOC guidance discourages using arrests, and many states prohibit asking about arrests without conviction
+      answer: 3
       explanation: Arrests alone do not show wrongdoing and create legal risk; convictions may be considered only where and how the law allows.
       ref: MGR-C04 Lesson 3
     - id: MGR-C04-Q10
@@ -140,33 +140,33 @@ quiz:
       type: single
       q: Under the FCRA, what must happen before rejecting a candidate based on a vendor background or driving-record report?
       choices:
-        - Nothing; the decision can be immediate
         - Give a pre-adverse action notice with a copy of the report and the summary of rights, and allow time to dispute or explain
         - Post the report in the break room
         - Call the candidate's references
-      answer: 1
+        - Nothing; the decision can be immediate
+      answer: 0
       explanation: The pre-adverse action step, followed by a waiting period and the final adverse action notice, is required.
       ref: MGR-C04 Lesson 3
     - id: MGR-C04-Q12
       type: single
       q: Which pay question is appropriate in jurisdictions with salary-history bans?
       choices:
+        - "What was your starting pay at your last job?"
         - "What do you make now?"
         - "What pay range are you looking for?"
         - "Can you bring a recent pay stub?"
-        - "What was your starting pay at your last job?"
-      answer: 1
+      answer: 2
       explanation: Asking desired pay is acceptable; asking current or past pay is banned in a growing number of places.
       ref: MGR-C04 Lesson 4
     - id: MGR-C04-Q13
       type: single
       q: When must the employer complete Section 2 of Form I-9?
       choices:
-        - Before making a job offer
-        - Within three business days of the employee's first day of work
         - Within 90 days
         - Only if the employee was born outside the U.S.
-      answer: 1
+        - Before making a job offer
+        - Within three business days of the employee's first day of work
+      answer: 3
       explanation: Section 1 is due by the first day; Section 2 within three business days. The I-9 applies to every new hire.
       ref: MGR-C04 Lesson 4
     - id: MGR-C04-Q14

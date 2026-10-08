@@ -24,14 +24,15 @@ LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior ─► LT5 Certified Adv
 
 ## Curriculum at a glance
 
-| | Lighting track (LT1–LT5) | Electrical track (EA1–EA4, JW) | Total |
-|---|---|---|---|
-| Courses | 31 | 24 | **55** |
-| Lessons | 129 | 94 | **223** |
-| Quiz/exam questions | 475 | 400 | **875** |
-| Hands-on skills | 41 | 36 | **77** |
+| | Lighting track (LT1–LT5) | Electrical track (EA1–EA4, JW) | Manager Module | Total |
+|---|---|---|---|---|
+| Courses | 43 | 24 | 6 | **73** |
+| Lessons | 185 | 94 | 21 | **300** |
+| Quiz/exam questions | 688 | 400 | 90 | **1,178** |
+| Hands-on skills | 58 | 36 | 6 | **100** |
 
-Plus 26 field troubleshooting guides. Screenshots are in [`docs/screenshots/`](docs/screenshots/).
+Plus 43 library guides (26 troubleshooting guides and 17 company field procedures), a 20-system
+Skills Matrix, and two interview kits. Screenshots are in [`docs/screenshots/`](docs/screenshots/).
 
 ## What's in this repository
 
@@ -52,6 +53,8 @@ Plus 26 field troubleshooting guides. Screenshots are in [`docs/screenshots/`](d
 - **On-the-job hours.** Technicians log hours and supervisors approve or reject them.
 - **Promotions and certificates**, plus *placement* for experienced hires: an admin can grade them after a documented assessment without making them repeat lower levels.
 - **Pay scale by grade.** Optional. Technicians see their current rate and the rate at their next grade.
+- **Skills Matrix.** Built from the company Master Troubleshooting Guide. Technicians rate themselves on 20 field systems: 1 = I have seen it, 2 = I understand it, 3 = I perform it, 4 = I can teach it. They also write out the troubleshooting steps and components for each system. Evaluators confirm the ratings, and a team grid shows who can do or teach what.
+- **Manager Module and Hiring.** A separate track for managers covering hiring and retention: defining the role, sourcing, behavior-based interviewing, legal and fair hiring, reference checks and offers, and onboarding and retention. Managers complete it before interviewing. Digital interview scorecards built from the company's Technician and Electrician interview kits score answers 1–9 and include observation and requirement checklists. Candidates can be compared, blank kits printed, and a hire turned into a technician account in one click.
 - **Troubleshooting library.** Searchable guides with review-due tracking. Companies can add private guides or upload PDF and Word files.
 - **Multi-company licensing.** You, the platform owner, create licensee companies with technician seat limits, plans and expiry dates. Each company's data is isolated, and suspending a company or letting its license expire blocks sign-in.
 - **Reports**, with a CSV export for payroll and HR.
@@ -62,7 +65,7 @@ Plus 26 field troubleshooting guides. Screenshots are in [`docs/screenshots/`](d
 |---|---|
 | **Platform Owner** (you) | Everything: licensee companies, licenses, curriculum imports, platform-wide videos and guides. |
 | **Company Admin** | Users, pay scale, company videos and guides, reports, placements. Also everything an evaluator can do. |
-| **Evaluator / Supervisor** | Team progress, skill sign-offs, hours approvals, promotions. |
+| **Evaluator / Supervisor** | Team progress, skill sign-offs, Skills Matrix confirmations, hours approvals, promotions, hiring scorecards, Manager Module. |
 | **Technician** | Study, take tests, log hours, view their own records. |
 
 ## Quick start

@@ -1,0 +1,190 @@
+code: MGR-C06
+title: Onboarding & Retention
+order: 6
+estimated_hours: 3
+description: >
+  Keeping the technicians you worked hard to hire. Covers the first day, first week, and 30/60/90-day
+  plan, assigning and supporting a mentor, regular one-on-ones, meaningful recognition, the grade
+  ladder and pay by grade as retention tools, stay interviews, early warning signs of turnover,
+  exit interviews, and the cost of turnover.
+objectives:
+  - Prepare a new hire's first day and first week and write a 30/60/90-day plan tied to the program.
+  - Select and support an effective mentor.
+  - Hold regular one-on-ones and give specific, timely recognition.
+  - Use the grade ladder and pay by grade to retain technicians.
+  - Conduct a stay interview and respond to early warning signs of turnover.
+  - Conduct or arrange exit interviews and estimate the cost of turnover.
+lessons:
+  - 01-onboarding-first-day-week-and-90-days.md
+  - 02-one-on-ones-recognition-and-the-grade-ladder.md
+  - 03-stay-interviews-and-early-warning-signs.md
+  - 04-exit-interviews-and-the-cost-of-turnover.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: MGR-C06-Q01
+      type: multi
+      q: Which items should be ready before a new technician's first day? Select all that apply.
+      choices:
+        - PPE and uniforms in the right sizes
+        - App account enrolled at the starting level
+        - An assigned, briefed mentor
+        - A plan to let them figure things out on their own the first week
+      answer: [0, 1, 2]
+      explanation: Being ready on day one signals respect and supports safety; leaving new hires to fend for themselves drives early turnover.
+      ref: MGR-C06 Lesson 1
+    - id: MGR-C06-Q02
+      type: single
+      q: What should be emphasized in a new technician's day-one safety orientation?
+      choices:
+        - Only the location of the first-aid kit
+        - That speed matters more than procedure
+        - Hazard and near-miss reporting, PPE, stop-work authority, and that new techs never work energized and always follow lockout/tagout
+        - That safety training happens after 90 days
+      answer: 2
+      explanation: Safety expectations are set on day one, including LOTO and never working energized as a new technician.
+      ref: MGR-C06 Lesson 1
+    - id: MGR-C06-Q03
+      type: single
+      q: Which is the best 30-day goal for an entry-level LT1 hire?
+      choices:
+        - "Complete the LT1 safety, PPE, ladder, and LOTO courses; demonstrate PPE inspection and ladder setup to the mentor; complete work orders correctly with review."
+        - "Become an electrician."
+        - "Work unsupervised on energized panels."
+        - "Get comfortable."
+      answer: 0
+      explanation: Goals should be specific, measurable, and tied to courses, skills, and OJT in the program.
+      ref: MGR-C06 Lesson 1
+    - id: MGR-C06-Q04
+      type: single
+      q: What makes a good mentor for a new technician?
+      choices:
+        - Whoever has the lightest workload
+        - Someone who supervises by phone from another site
+        - Simply being the most senior person available
+        - A strong, safe technician who wants to teach and models safe work every time
+      answer: 3
+      explanation: Mentors should be safe, skilled, and willing to teach; new hires copy what they see.
+      ref: MGR-C06 Lesson 1
+    - id: MGR-C06-Q05
+      type: single
+      q: How often should one-on-ones typically be held with technicians after their first 90 days?
+      choices:
+        - Once a year at review time
+        - About every two weeks, for 15–30 minutes
+        - Only when there is a problem
+        - Never; group meetings are enough
+      answer: 1
+      explanation: Short, regular one-on-ones are a simple, powerful retention tool. New hires may meet weekly.
+      ref: MGR-C06 Lesson 2
+    - id: MGR-C06-Q06
+      type: single
+      q: Which is the most effective recognition?
+      choices:
+        - Recognizing only the fastest technician each month
+        - "Good job this week."
+        - "You noticed the damaged cord on that lift and tagged it out before anyone used it. That's exactly the habit we want."
+        - A generic company-wide email
+      answer: 2
+      explanation: Recognition works best when it is specific, timely, sincere, and reinforces safe behavior.
+      ref: MGR-C06 Lesson 2
+    - id: MGR-C06-Q07
+      type: single
+      q: Why should managers avoid recognizing only speed or volume?
+      choices:
+        - Speed doesn't matter
+        - It can teach technicians to cut corners on safety and process
+        - Recognition is not allowed by law
+        - It costs too much
+      answer: 1
+      explanation: Recognize safe behavior and good process so speed doesn't come at the expense of safety.
+      ref: MGR-C06 Lesson 2
+    - id: MGR-C06-Q08
+      type: multi
+      q: How can managers make the grade ladder work as a retention tool? Select all that apply.
+      choices:
+        - Review progress toward the next grade in one-on-ones
+        - Schedule evaluations promptly when a technician is ready
+        - Make pay changes effective on time after promotion
+        - Delay sign-offs so technicians stay longer at each grade
+      answer: [0, 1, 2]
+      explanation: Delaying sign-offs makes technicians feel cheated and drives turnover.
+      ref: MGR-C06 Lesson 2
+    - id: MGR-C06-Q09
+      type: single
+      q: What is a stay interview?
+      choices:
+        - A conversation with a current employee about what keeps them and what might make them leave
+        - A performance review
+        - A disciplinary meeting
+        - An interview with a departing employee
+      answer: 0
+      explanation: Stay interviews gather retention insight while there's still time to act.
+      ref: MGR-C06 Lesson 3
+    - id: MGR-C06-Q10
+      type: single
+      q: During a stay interview, a technician says the on-call rotation feels unfair. What is the best response?
+      choices:
+        - "If you don't like it, you can leave."
+        - Change the subject
+        - "Well, everyone has to do it."
+        - "What would make it fair?"
+      answer: 3
+      explanation: Listen and explore rather than defend; then commit only to actions you can deliver.
+      ref: MGR-C06 Lesson 3
+    - id: MGR-C06-Q11
+      type: single
+      q: Which commitment is best to make at the end of a stay interview?
+      choices:
+        - '"I''ll get your LT4 evaluation scheduled within two weeks and let you know," followed by actual follow-up'
+        - No commitment at all
+        - "I'll think about it someday."
+        - '"I''ll get you a big raise," without approval to do so'
+      answer: 0
+      explanation: Commit only to what you can deliver and follow up by the promised date.
+      ref: MGR-C06 Lesson 3
+    - id: MGR-C06-Q12
+      type: multi
+      q: Which can be early warning signs that a technician may leave? Select all that apply.
+      choices:
+        - Progress toward the next grade stalls
+        - Stops talking about the future
+        - A close mentor or coworker just left
+        - Consistently volunteers for training
+      answer: [0, 1, 2]
+      explanation: Changes from a person's normal pattern, disengagement, and loss of connection are warning signs; volunteering for training usually signals engagement.
+      ref: MGR-C06 Lesson 3
+    - id: MGR-C06-Q13
+      type: single
+      q: A manager suspects a technician is interviewing elsewhere. What should the manager do?
+      choices:
+        - Cut their hours
+        - Assign them the worst jobs
+        - Have a private, caring conversation about what they want and try to fix what can be fixed, without retaliation
+        - Tell the crew
+      answer: 2
+      explanation: Retaliation accelerates departure and creates legal risk; ask, listen, and act.
+      ref: MGR-C06 Lesson 3
+    - id: MGR-C06-Q14
+      type: single
+      q: Who should ideally conduct an exit interview?
+      choices:
+        - A coworker on the same crew
+        - No one; exit interviews are not useful
+        - The departing employee's direct supervisor
+        - HR or another manager, since the supervisor relationship is often part of the reason for leaving
+      answer: 3
+      explanation: A neutral interviewer gets more candid answers.
+      ref: MGR-C06 Lesson 4
+    - id: MGR-C06-Q15
+      type: single
+      q: Which metric best measures how well a team hires and onboards?
+      choices:
+        - Total headcount
+        - First-year turnover
+        - Number of job ads posted
+        - Average age of the crew
+      answer: 1
+      explanation: People who leave in their first year usually reflect hiring, job preview, and onboarding quality.
+      ref: MGR-C06 Lesson 4

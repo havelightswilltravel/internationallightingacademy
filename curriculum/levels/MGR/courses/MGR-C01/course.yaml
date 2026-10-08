@@ -26,55 +26,55 @@ quiz:
       type: single
       q: Why should a job analysis be completed before the job is advertised?
       choices:
+        - It replaces the need for interviews
         - It is required so the ad can list a salary
         - It sets a consistent, job-related standard for screening and interviewing and documents essential functions
         - It lets the manager decide who "feels right" faster
-        - It replaces the need for interviews
-      answer: 1
+      answer: 2
       explanation: A written analysis done in advance gives every interviewer the same standard and is evidence of essential functions for ADA purposes.
       ref: MGR-C01 Lesson 1
     - id: MGR-C01-Q02
       type: single
       q: Which of the following is a preference, not a requirement, for an entry-level lighting technician at our company?
       choices:
-        - Following lockout/tagout procedures
-        - Working safely from ladders and lifts
         - Prior knowledge of lighting and electrical work
         - Communicating with customers
-      answer: 2
+        - Following lockout/tagout procedures
+        - Working safely from ladders and lifts
+      answer: 0
       explanation: The company's own checklist says lighting and electrical knowledge is a plus but not necessary; our training teaches it.
       ref: MGR-C01 Lesson 1
     - id: MGR-C01-Q03
       type: single
       q: Which is the best way to write a physical requirement?
       choices:
+        - "No physical limitations."
         - "Must be healthy."
         - "Must be able to lift 50 lbs."
         - "Lift, carry, and position fixtures and materials up to 50 lbs, frequently, with or without reasonable accommodation."
-        - "No physical limitations."
-      answer: 2
+      answer: 3
       explanation: Outcome-based wording tied to real tasks, with accommodation language, is fair, consistent, and defensible.
       ref: MGR-C01 Lesson 1
     - id: MGR-C01-Q04
       type: single
       q: When rating a task during job analysis, which question helps decide whether it is an essential function?
       choices:
+        - Does the manager do it personally?
         - Could another crew member reasonably do it instead?
         - Does the current technician enjoy doing it?
         - Was it on the last job ad?
-        - Does the manager do it personally?
-      answer: 0
+      answer: 1
       explanation: Frequency, consequence of not doing it, and whether it can be reassigned are the key tests for essential functions.
       ref: MGR-C01 Lesson 1
     - id: MGR-C01-Q05
       type: single
       q: Why is "Healthy" a problem as a listed candidate requirement?
       choices:
+        - It is only a problem in the electrician kit
         - It is too easy to verify
         - It is not job-specific and invites disability-related judgments; the specific physical functions should be assessed instead
         - Healthy people are harder to train
-        - It is only a problem in the electrician kit
-      answer: 1
+      answer: 2
       explanation: General health is not an essential function. Assess specific tasks (lifting, climbing, outdoor work) with accommodation-aware wording.
       ref: MGR-C01 Lesson 2
     - id: MGR-C01-Q06
@@ -103,33 +103,33 @@ quiz:
       type: single
       q: When should must-haves and tie-breakers be decided?
       choices:
-        - After the first strong candidate is interviewed
-        - During the calibration meeting
         - Before any resumes are reviewed
         - After references are checked
-      answer: 2
+        - After the first strong candidate is interviewed
+        - During the calibration meeting
+      answer: 0
       explanation: Setting them in advance prevents changing the standard to fit a candidate the team already likes.
       ref: MGR-C01 Lesson 2
     - id: MGR-C01-Q09
       type: single
       q: How many competencies should typically be selected from the kit for a given opening?
       choices:
-        - All 22, every time
-        - Six to eight, used consistently for every candidate for that opening
         - One or two, chosen per candidate
         - Whichever the interviewer prefers that day
-      answer: 1
+        - All 22, every time
+        - Six to eight, used consistently for every candidate for that opening
+      answer: 3
       explanation: A focused, consistent set keeps the interview manageable and comparable across candidates.
       ref: MGR-C01 Lesson 2
     - id: MGR-C01-Q10
       type: single
       q: What is the main purpose of a realistic job preview?
       choices:
-        - To discourage all candidates
         - To show the hard parts of the job up front so candidates can self-select and new hires arrive with accurate expectations
         - To avoid discussing pay
         - To replace the interview
-      answer: 1
+        - To discourage all candidates
+      answer: 0
       explanation: RJPs reduce early turnover by preventing surprise about on call, travel, outdoor and physical work.
       ref: MGR-C01 Lesson 3
     - id: MGR-C01-Q11
@@ -147,22 +147,22 @@ quiz:
       type: single
       q: After describing on-call and lifting demands, what question should you ask every candidate?
       choices:
+        - "Do you have kids who would make on call hard?"
         - "Do you have any medical conditions that would prevent this?"
         - "Can you perform these functions, with or without reasonable accommodation?"
         - "How old are you?"
-        - "Do you have kids who would make on call hard?"
-      answer: 1
+      answer: 2
       explanation: The essential-functions question is lawful and consistent; medical, age, and family questions are not.
       ref: MGR-C01 Lesson 3; MGR-C04
     - id: MGR-C01-Q13
       type: single
       q: Which statement about the training ladder is accurate to tell candidates?
       choices:
-        - "Everyone reaches LT3 in exactly one year."
-        - "Advancement depends on demonstrated competence: quizzes, a final exam, verified hours, and observed skills."
         - "We guarantee you an electrical license."
         - "Promotions are based on seniority."
-      answer: 1
+        - "Everyone reaches LT3 in exactly one year."
+        - "Advancement depends on demonstrated competence: quizzes, a final exam, verified hours, and observed skills."
+      answer: 3
       explanation: The program advances technicians on demonstrated competence. Never guarantee timing or licensure.
       ref: MGR-C01 Lesson 3; docs/SYLLABUS.md
     - id: MGR-C01-Q14

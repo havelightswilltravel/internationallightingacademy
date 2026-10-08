@@ -168,3 +168,58 @@ each item, and correct the content if needed.
 - [ ] Pool rules (680.21/680.22) and the GFCI list against the adopted edition.
 - [ ] **Program decisions:** JW-S01 pass bar (21/25 lookups in 50 min); JW-S02 pass bar (12/15 calculations in 45 min); JW-S03 passing-score rule.
 - [ ] Journeyman exam format figures are typical; each state's candidate bulletin governs.
+
+---
+
+# Round 2 — company documents and new system courses
+
+## Corrections made to the company Master Troubleshooting Guide (confirm with your field leads)
+- [ ] **Neon (most important):** "listen/look/feel for voltage in the glass" was changed to *look and listen only, from a distance*. Never touch energized glass, electrodes, boots or GTO cable. Secondaries reach about 15 kV.
+- [ ] **Neon split-half isolation:** "go from GTO to ground on each lead" was replaced with a locked-out method using GTO-rated jumpers between each test. Grounding a live secondary is a high-voltage fault, and secondary ground-fault-protected transformers will trip on it. **Confirm exactly what your original step means and how your sign specialists do it.**
+- [ ] **Neon transformer check:** "replace if it won't send power with secondary leads disconnected" now says test only by the manufacturer's method. Many protected or electronic units are designed not to output into an open secondary.
+- [ ] **HID:**
+  - Socket voltage is read by a qualified person with the igniter disconnected while locked out, using a meter rated above the open-circuit voltage.
+  - Capacitors are discharged and tested for capacitance with power off.
+  - The open-circuit voltage chart in LT2-C04 Lesson 5 uses approximate values. **Replace it with your company socket voltage chart or manufacturer data.**
+- [ ] **Breakers:**
+  - Checking amperage tolerance needs the dead front open, so it is qualified-only. Otherwise techs add up the connected load against 80% of the breaker rating.
+  - The wiggle test is done gently with the dead front in place, and never when there are signs of heat.
+  - A breaker is reset no more than once.
+- [ ] **Steps that check line voltage, coil voltage, switch legs or sockets with power on** (incandescent, outlets, motion sensors, contactors, low-voltage, track, case lighting, LED signs) are marked as qualified-person work under NFPA 70E. Everyone else works locked out, with live-dead-live verification.
+- [ ] **Motion sensors:** "check for good ground" now says check both the ground *and* the neutral.
+- [ ] **Case lighting:** a defrost cycle or case controller never counts as a lockout. Do not change refrigeration settings.
+- [ ] **Data cable:** "Cat5 pin chart" was updated to T568A/T568B for Cat5e/6/6A.
+- [ ] **Emergency:** before replacing a standard ballast, confirm the switched feed is present. Before condemning a battery unit, check the battery plug, the charge indicator and the initial charge time.
+
+## New courses: items to verify
+- [ ] **LT1-C08–C10:**
+  - ANSI ballast codes (M59, S55; M135 for 400 W pulse-start MH)
+  - Recessed-luminaire insulation clearance (about 3 in, Article 410)
+  - 2023 NEC 210.8 / 210.12 / 406.9 / 406.12 / 110.14(D)
+  - the "no backstabs on replacements" recommendation
+  - federal incandescent/halogen phase-out statement
+- [ ] **LT2-C08–C11:**
+  - H/J/L track contact descriptions
+  - SWD/HID breaker marking (240.83(D))
+  - rules of thumb: transformer loading 75–80%, halogen lamp voltage, 100 VA per Class 2 output, trip-time bands
+- [ ] **LT3-C07–C11:**
+  - defrost duration and case temperature ranges
+  - PoE classes
+  - BACnet MS/TP wiring practices
+  - neon/LED sign standards (UL 2161, UL 879A, UL 48/1310/8750)
+  - 600.6 sign disconnect
+- [ ] **Scope decision:** LT1-C09 lets LT1 technicians replace receptacles and switches like-for-like, only when the company authorizes it and under supervision until skill LT1-S10 is signed off. Confirm this matches your policy and state licensing rules.
+
+## Hiring kits & Manager Module (have HR and employment counsel review)
+- [ ] These kit questions were reworded (each shows an ⓘ note on the scorecard):
+  - attendance (was absences)
+  - lifting/physical demands and heights (essential-functions framing)
+  - "Healthy" requirement (replaced with essential physical functions)
+  - "work around live electricity" (now about following lockout procedures)
+  - tools (now the company tool policy)
+  - smartphone/computer (now the device/reimbursement policy)
+  - driving record (now a written standard, with an FCRA check after a conditional offer)
+  - personal goals, likes and dislikes, "what matters" (now job-related)
+- [ ] Write the company **tool policy**, **device/reimbursement policy** and **driving-record standard** the reworded questions refer to.
+- [ ] Each company sets its own service area and state license question (the original named the Wasatch Front and a Utah license).
+- [ ] MGR-C04 is general training, not legal advice. Have counsel review it against your state's rules (salary-history bans, fair-chance laws, drug testing).

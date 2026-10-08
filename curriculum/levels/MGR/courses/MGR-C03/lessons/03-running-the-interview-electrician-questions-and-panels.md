@@ -24,7 +24,8 @@ A 60–75 minute interview for a technician or electrician follows the same flow
 | 7. Close | 2 min | Next steps and timeline |
 
 Choose the questions **before** the first interview and use the same set for every candidate for
-that opening. In the app, the digital scorecard lets you select the questions once per opening.
+that opening. Write the chosen set down (or mark it on a printed blank kit) so every
+interviewer asks the same questions; on the digital scorecard, leave the unused questions blank.
 
 ## Using the Background Questions Well
 
@@ -72,7 +73,8 @@ Two or three interviewers improve accuracy and reduce individual bias. To run a 
 1. **Huddle for five minutes before.** Agree who asks which questions and who leads.
 2. **One question at a time.** Don't pile on.
 3. **Everyone takes notes and scores every answer**, not just their own questions.
-4. **Score independently.** No discussion until all scorecards are submitted in the app.
+4. **Score independently.** No discussion until every interviewer has finished their own scores and notes (the lead
+   interviewer records the agreed scores on the candidate's scorecard in the app).
 5. **Debrief later** in a calibration meeting (MGR-C05), not in the hallway.
 
 Include a current senior technician on panels when possible; they spot technical bluffing and give

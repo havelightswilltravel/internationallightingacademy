@@ -21,8 +21,8 @@ Analytical Thinking, Building Relationships, Business Systems Thinking, Caution,
 Customer Orientation, Decision Making, Detail-Oriented, Evaluating Alternatives, Initiative,
 Interpersonal Skills, Innovation, Integrity, Listening, Organizational, Personal Effectiveness,
 Problem Resolution, Resolving Conflict, Self Assessment, and Teamwork — has one or more questions
-that ask for a real example. In the app, these appear as the digital scorecard under
-**Hiring → Interview kits**.
+that ask for a real example. In the app, open **Hiring** to create a
+digital scorecard for each candidate, or print a blank kit for a paper interview.
 
 Structured, behavior-based interviews (same questions, scored against a standard) predict job
 performance substantially better than unstructured "let's chat" interviews. They are also fairer

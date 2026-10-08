@@ -18,8 +18,8 @@ interviewer's bias deciding the hire.
 
 ## Before the Meeting
 
-1. **All scorecards submitted.** Every interviewer completes scores and notes in the app before the
-   meeting. No hallway lobbying.
+1. **All scorecards submitted.** Every interviewer completes their own scores and notes (on the digital
+   scorecard or a printed kit) before the meeting. No hallway lobbying.
 2. **References and license verification done** for finalists (or scheduled, with the decision
    conditional on them).
 3. **Prepare a summary sheet.** For each candidate: competency scores from each interviewer,

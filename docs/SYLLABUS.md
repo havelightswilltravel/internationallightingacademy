@@ -36,6 +36,9 @@ Passing a level requires **all** of:
 - **LT1-C05 Light Sources & Fixture Basics** — incandescent/halogen, fluorescent (T12/T8/T5, CFL), HID (MH, HPS, MV), LED; lamp bases; ballast/driver role; fixture types; lumens, watts, efficacy, CCT, CRI.
 - **LT1-C06 Lockout/Tagout & Safe Relamping** — LOTO procedure, de-energize and verify, group lockout, relamping and ballast replacement procedures, lamp breakage, universal waste & mercury, PCB ballast identification.
 - **LT1-C07 Professionalism, Customer Service & Work Orders** — job-site conduct, communicating with customers, work orders, documentation, photos, reporting problems.
+- **LT1-C08 Incandescent & Halogen Systems** — lamps, bases and ordering codes, sockets and socket eyes, thermal protectors in recessed cans (IC/non-IC), dimmers, halogen handling, troubleshooting, LED conversion and disposal.
+- **LT1-C09 Outlets & Switches** — device types and ratings (GFCI, AFCI, TR, WR, IG), terminations, inspecting for damage, safe like-for-like replacement, GFCI testing, tester limits, when to write it up.
+- **LT1-C10 Parts Knowledge & Sourcing** — reading lamp/ballast/driver labels and ordering codes, cross-referencing, spec sheets, photos and measurements, getting samples, supply houses and reps, van stock, warranty/RMA, avoiding wrong-part callbacks.
 
 Hands-on skills: PPE inspection & donning; ladder inspection/setup; DMM live-dead-live verification; LOTO application; fluorescent relamp; ballast replacement (supervised); universal waste handling; completing a work order.
 
@@ -47,6 +50,10 @@ Hands-on skills: PPE inspection & donning; ladder inspection/setup; DMM live-dea
 - **LT2-C05 LED Retrofit Fundamentals** — TLED types (UL Type A/B/C/dual-mode), retrofit kits (UL 1598C), labeling requirements, ballast-bypass wiring, shunted vs non-shunted sockets.
 - **LT2-C06 Troubleshooting Methodology** — systematic approach, symptom → cause, half-splitting, verifying the fix, documentation.
 - **LT2-C07 Print Reading I** — lighting plans, symbols, fixture schedules, panel schedules, specifications.
+- **LT2-C08 3-Way & 4-Way Switching** — common vs travelers, wiring layouts, 4-way switches, diagrams, de-energized tracing, symptoms, 3-way dimmers and smart/occupancy controls.
+- **LT2-C09 Track Lighting** — H/J/L systems, circuits, live-end feeds and connectors, track heads (incandescent, ballasted, LED, low-voltage), load limits, troubleshooting, parts compatibility.
+- **LT2-C10 Low-Voltage Lighting Systems** — MR16/MR11/PAR36, magnetic vs electronic transformers, loading, MLV/ELV dimming, low-voltage voltage drop, cable/rail and landscape systems, LED MR16 compatibility, Class 2.
+- **LT2-C11 Breakers & Overcurrent Protection for Technicians** — ratings and types (GFCI, AFCI, SWD/HID), trip curves, real vs nuisance trips and weak breakers, panel directories, the 80% rule, overheating signs, the dead-front rule and electrician write-ups.
 
 Hands-on skills: safe voltage measurement on a three-phase panel; identifying/tracing a circuit; Type B TLED bypass conversion; HID ballast/ignitor replacement; systematic troubleshooting of a non-working fixture; locating fixtures/circuits from a lighting plan; installing a fixture whip and splices.
 
@@ -57,6 +64,11 @@ Hands-on skills: safe voltage measurement on a three-phase panel; identifying/tr
 - **LT3-C04 Emergency & Egress Lighting** — life-safety purpose, NFPA 101 testing (monthly 30-second, annual 90-minute), NEC 700 overview, battery packs, inverters, UL 924 transfer devices, exit signs.
 - **LT3-C05 Exterior, Site & Pole Lighting** — area/pole lights, wall packs, photocontrols, pole and base inspection, underground circuits, wet locations, ground faults.
 - **LT3-C06 Aerial Work Platforms** — MEWP types, ANSI A92.22/A92.24 concepts, pre-use and workplace inspection, fall protection, power-line clearances, ground conditions.
+- **LT3-C07 Contactors, Relays & Lighting Control Panels** — contactor anatomy, electrically vs mechanically held, coil voltages, HOA, relay panels and latching relays, BMS/monitoring-service control, troubleshooting, rebuild vs replace.
+- **LT3-C08 Refrigerated Case Lighting** — case types, defrost cycles, remote ballasts/drivers, harnesses and seals, cold-rated components, LED case retrofits, troubleshooting without breaking seals, working in occupied stores.
+- **LT3-C09 Neon & Cold-Cathode Signage** — how neon works, neon transformers and secondary ground-fault protection, GTO, electrode boots, PK housings, standoffs, exposed vs channel neon, high-voltage safety, safe isolation/split-half methods, LED neon retrofits.
+- **LT3-C10 LED Signage & Specialty LED Systems** — sign modules and Class 2 power supplies, connections, tape/cove/linear, RGB controllers, wet locations, voltage drop, troubleshooting, power-supply sizing and module matching.
+- **LT3-C11 Data & Low-Voltage Communications Cabling** — Cat5e/6/6A, T568A/B, crimping and punch-down, testers, PoE, lighting control networks, separation and labeling, troubleshooting.
 
 Hands-on skills: driver replacement and matching; 0–10V dimming troubleshooting; occupancy sensor install and adjustment; emergency driver install and test; photocell/contactor troubleshooting; MEWP pre-use inspection and operation (after authorized training).
 
@@ -79,7 +91,7 @@ Hands-on skills: commissioning an NLC zone; light-level survey and report; diagn
 
 Hands-on skills: capstone project; leading a job end-to-end; delivering a toolbox talk; mentoring sign-off of an LT1; full-system troubleshooting practical.
 
-**Completing LT5 awards LT5 status and eligibility to enter the Electrical Development Track.**
+**Completing LT5 awards Certified Advanced Lighting Technician status and eligibility to enter the Electrical Development Track.**
 
 ---
 
@@ -126,3 +138,52 @@ Hands-on skills: capstone project; leading a job end-to-end; delivering a toolbo
 - **JW-C04 Practice Exams** — full-length timed practice exams.
 
 Each electrical level includes hands-on skills appropriate to the content (e.g., conduit bending to tolerance, 3-way/4-way switching, motor control wiring, service installation, transformer connections).
+
+---
+
+## Skills Matrix (all technicians)
+
+Technicians rate themselves on these 20 field systems: 1 = I have seen it, 2 = I understand it,
+3 = I perform it, 4 = I can teach it. For each system they also write out the troubleshooting
+steps in order and list all the components. An evaluator confirms the rating.
+
+The systems are:
+
+- 3-Way Switching
+- Basic Electrical
+- Breakers
+- Case Lighting
+- Contactors
+- Data Cable
+- Emergency Lighting
+- Fluorescent / CFL
+- HID
+- Incandescent
+- LED / Specialty
+- Low Voltage Systems
+- Motion Sensors
+- Neon
+- Outlets and Switches
+- Parts Knowledge
+- Relays
+- Timeclock / Photocells
+- Track Lighting
+- Electrical Troubleshooting
+
+Each system links to its courses and its company field procedure. The full list is in
+`curriculum/competencies.yaml`.
+
+## Manager Module — Hiring & Retention (managers and supervisors)
+
+This is a standalone track, not part of the technician grade ladder. Managers complete it before
+interviewing candidates.
+
+- **MGR-C01 Defining the Role & the Ideal Technician**
+- **MGR-C02 Sourcing & Screening**
+- **MGR-C03 Behavior-Based Interviewing** — STAR method, probing for negative examples, the 1–9 scale, using the company interview kits
+- **MGR-C04 Legal & Fair Hiring** — not legal advice; have counsel review
+- **MGR-C05 Reference Checks, Selection & the Offer** — including setting the starting grade through placement
+- **MGR-C06 Onboarding & Retention**
+
+Hands-on skills include an observed structured interview, reference checks, a calibration
+meeting, a 30/60/90-day onboarding plan, and a stay interview.

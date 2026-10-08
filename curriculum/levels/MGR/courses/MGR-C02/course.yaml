@@ -35,33 +35,33 @@ quiz:
       type: single
       q: Why should referral bonuses usually be paid after the new hire completes about 90 days?
       choices:
+        - So the referring employee forgets about it
         - To save money if the referral never applies
         - To reward referrals of people who actually stay, not just people who get hired
         - Because federal law requires it
-        - So the referring employee forgets about it
-      answer: 1
+      answer: 2
       explanation: Paying after a retention milestone aligns the bonus with the real goal, which is a hire who stays.
       ref: MGR-C02 Lesson 1
     - id: MGR-C02-Q03
       type: single
       q: What is the risk of relying only on employee referrals?
       choices:
-        - Referrals are always poor candidates
         - It can reproduce the current crew's makeup and shut out qualified people, so it should be combined with open postings
         - Referrals are illegal in most states
         - Referred candidates cannot be interviewed
-      answer: 1
+        - Referrals are always poor candidates
+      answer: 0
       explanation: Referrals are valuable but should be balanced with broad advertising to keep the process fair and the pool diverse.
       ref: MGR-C02 Lesson 1
     - id: MGR-C02-Q04
       type: single
       q: Which job-ad phrase is the best choice?
       choices:
+        - "Native English speakers only"
         - "Young, energetic team"
         - "Recent graduates preferred"
         - "Entry-level; no experience required; paid training"
-        - "Native English speakers only"
-      answer: 2
+      answer: 3
       explanation: The other phrases signal age or national-origin preferences.
       ref: MGR-C02 Lesson 1
     - id: MGR-C02-Q05
@@ -79,55 +79,55 @@ quiz:
       type: single
       q: A resume shows four jobs in three years. What should the manager do?
       choices:
+        - Ask whether the candidate has health problems
         - Reject it automatically as job-hopping
         - Treat the pattern as a question to ask about, since seasonal, project, agency, or layoff situations are common in the trades
         - Call each former employer before any screen
-        - Ask whether the candidate has health problems
-      answer: 1
+      answer: 2
       explanation: Short tenures have many legitimate explanations. Ask neutral questions such as why they left each position.
       ref: MGR-C02 Lesson 2
     - id: MGR-C02-Q07
       type: single
       q: Which is the best way to ask about a two-year employment gap?
       choices:
-        - "Were you sick or in jail?"
         - "Were you raising kids?"
         - "I see a gap between these jobs. Is there anything you'd like to tell me about what you were doing?"
         - Don't ask; reject the resume
-      answer: 2
+        - "Were you sick or in jail?"
+      answer: 1
       explanation: A neutral, open question lets the candidate share what they choose without probing protected categories.
       ref: MGR-C02 Lesson 2
     - id: MGR-C02-Q08
       type: single
       q: Why should managers avoid screening candidates through their personal social media?
       choices:
-        - It takes too long
         - It exposes protected information (religion, age, family, disability) that can taint the decision
         - Social media is always inaccurate
         - It is required only for electricians
-      answer: 1
+        - It takes too long
+      answer: 0
       explanation: Once you've seen protected information you can't unsee it, and it creates legal risk.
       ref: MGR-C02 Lesson 2
     - id: MGR-C02-Q09
       type: single
       q: What makes a requirement a legitimate knock-out?
       choices:
-        - The manager strongly prefers it
-        - It is a true essential, job-related requirement applied to every candidate the same way
         - It is listed on a competitor's job ad
         - It helps narrow the pool quickly
-      answer: 1
+        - The manager strongly prefers it
+        - It is a true essential, job-related requirement applied to every candidate the same way
+      answer: 3
       explanation: Knock-outs must be essential, job-related, and consistently applied.
       ref: MGR-C02 Lesson 3
     - id: MGR-C02-Q10
       type: single
       q: Which is the best way to ask about transportation for a role that reports to job sites but does not drive a company vehicle?
       choices:
-        - "Do you own a car?"
         - "Do you have a reliable way to get to the job sites on time, including early starts?"
         - "Can your spouse drive you?"
         - "Do you live in a good neighborhood?"
-      answer: 1
+        - "Do you own a car?"
+      answer: 0
       explanation: Ask about the job-related need (getting to work on time), not car ownership or family arrangements.
       ref: MGR-C02 Lesson 3
     - id: MGR-C02-Q11
@@ -136,7 +136,7 @@ quiz:
       choices:
         - "Where were you born?"
         - "Are you a U.S. citizen?"
-        - "Are you legally authorized to work in the United States?" asked of every candidate
+        - '"Are you legally authorized to work in the United States?" asked of every candidate'
         - Only ask candidates with accents
       answer: 2
       explanation: Ask everyone the same authorization question; citizenship and national-origin questions create discrimination risk.
@@ -145,22 +145,22 @@ quiz:
       type: single
       q: Which pay question is the safest to use in a phone screen?
       choices:
+        - "Can I see your last pay stub?"
         - "What are you making now?"
         - "What were you paid at your last two jobs?"
         - "What pay range are you looking for?"
-        - "Can I see your last pay stub?"
-      answer: 2
+      answer: 3
       explanation: Several states and cities ban asking about pay history. Asking about desired pay is broadly acceptable.
       ref: MGR-C02 Lesson 3; MGR-C04
     - id: MGR-C02-Q13
       type: single
       q: During a phone screen a candidate says, "I'll need Sundays off for church." What should you do?
       choices:
-        - Ask which church they attend
         - End the call
         - Not probe further, refocus on job requirements, and let HR handle any accommodation request through the proper process
         - Note "religious" on the screening form
-      answer: 2
+        - Ask which church they attend
+      answer: 1
       explanation: Don't follow up on volunteered protected information or record it; religious accommodation is handled by HR.
       ref: MGR-C02 Lesson 3
     - id: MGR-C02-Q14

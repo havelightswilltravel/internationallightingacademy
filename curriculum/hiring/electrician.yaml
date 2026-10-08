@@ -15,8 +15,12 @@ background:
 - q: Besides your electrical licensing, do you have any certificates showing you have received specific types of training
     or awards?
 - q: What kind of software programs are you familiar with?
-- q: Do you own a smartphone? If not, can you get one with data for email and text if required?
-- q: Do you own a computer? What operating system does it use? What do you use it for? Do you have an email address?
+- q: This job requires a smartphone with data for email, text and work apps (see our device/reimbursement policy). Can you
+    meet this requirement?
+  note: 'Reworded: some states require reimbursement of necessary business expenses.'
+- q: How comfortable are you using computers, email and work apps? Give an example.
+  note: Reworded to focus on skills; ask about device ownership only if the job truly requires it, under your reimbursement
+    policy.
 - q: What was the name and phone number of your last supervisor? Will he/she say you were reliable and on time? Will he/she
     say you were honest? Will he/she say that you had interpersonal problems with any of your coworkers?
   note: Reworded from the original (which asked about absences) — attendance questions can touch protected medical or family
@@ -24,13 +28,19 @@ background:
 - q: Walk me through a typical day at your last position.
 - q: How did you prepare for this interview?
 - q: Why did you leave (or are you leaving) your last position?
-- q: Describe your likes and dislikes.
+- q: What do you like and dislike about this kind of work?
+  note: Reworded to keep the answer job-related.
 - q: What bugs you about co-workers/bosses?
-- q: What matters to you?
+- q: What matters most to you in a job?
+  note: Reworded to keep the answer job-related.
 - q: Is your driver's license valid?
 - q: Do you have reliable transportation?
-- q: Is your driving record clean?
-- q: Can you work around live electricity?
+- q: This role requires driving a company vehicle. Can you meet our written driving-record standard? (Records are checked
+    after a conditional offer, with your consent.)
+  note: 'Reworded: use a written standard set with your insurer and run motor-vehicle-record checks through the FCRA process.'
+- q: This job involves working near electrical equipment. We use lockout and verify-before-work procedures, and energized
+    work is done only by qualified persons. Can you follow those procedures, with or without reasonable accommodation?
+  note: 'Reworded: our program has technicians work de-energized by default.'
 - q: This role requires work at heights on ladders, booms and lifts. Are you able to do that?
   note: Reworded from 'Do you have any issues with heights?' to focus on the job requirement.
 - q: Have you worked out of booms/lifts?
@@ -47,9 +57,13 @@ background:
 - q: Where do you see yourself in five years?
 - q: What did you like most about your current (last) job?
 - q: What did you like least?
-- q: What are your personal goals?
-- q: What electrical tools do you have?
-- q: When can you purchase tools?
+- q: What are your professional goals?
+  note: 'Reworded: personal-goal questions can draw out family, religion or health information.'
+- q: Which electrical tools are you experienced using?
+  note: Reworded to focus on experience rather than ownership.
+- q: Our tool policy is explained in the job description. Are you able to meet it?
+  note: 'Reworded: tool-purchase requirements can raise wage-and-hour issues; state the company tool policy (some states require
+    employer-provided or reimbursed tools).'
 - q: What motivates you?
 - q: Tell me about the best electrical project you have been on. What made it memorable?
 - q: Tell me about the worst electrical project you have been on. What made it memorable?
@@ -90,7 +104,7 @@ requirements:
 - Smart, but not necessarily book smart
 - Recognizes their strengths and weaknesses
 - Mechanically inclined
-- Valid driver's license with only a few minor tickets
+- Valid driver's license meeting our written driving-record standard
 - Reliable transportation
 - Problem solver
 - Able to regularly lift 50 lbs (with or without reasonable accommodation)
@@ -98,4 +112,4 @@ requirements:
 - Can work overtime
 - Safety conscious
 - Able to perform the essential physical functions of the job (with or without reasonable accommodation)
-- Capable of purchasing electrical tools
+- Can meet our tool policy

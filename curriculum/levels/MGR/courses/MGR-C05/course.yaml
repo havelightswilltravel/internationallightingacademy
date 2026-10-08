@@ -26,33 +26,33 @@ quiz:
       type: single
       q: What must be in place before calling a candidate's references?
       choices:
+        - A drug test result
         - A signed offer letter
         - The candidate's written authorization to contact references and former employers
         - A completed I-9
-        - A drug test result
-      answer: 1
+      answer: 2
       explanation: Written authorization (a release) should be on file before reference calls.
       ref: MGR-C05 Lesson 1
     - id: MGR-C05-Q02
       type: single
       q: Which reference is usually the most useful?
       choices:
-        - A family friend
         - A former direct supervisor or lead
         - A coworker from ten years ago
         - The candidate's pastor
-      answer: 1
+        - A family friend
+      answer: 0
       explanation: Former supervisors have directly observed reliability, safety, and performance.
       ref: MGR-C05 Lesson 1
     - id: MGR-C05-Q03
       type: single
       q: Which reference question is most likely to produce useful information?
       choices:
+        - "Was he reliable?"
         - "Was he a good worker?"
         - "Any problems?"
         - "What's one area where he could improve, and what did you coach him on?"
-        - "Was he reliable?"
-      answer: 2
+      answer: 3
       explanation: Open, specific questions get real answers; yes/no questions get "yes."
       ref: MGR-C05 Lesson 1
     - id: MGR-C05-Q04
@@ -70,11 +70,11 @@ quiz:
       type: single
       q: A former employer will only confirm dates and title. How should that be treated?
       choices:
+        - As proof the candidate was fired
         - As a negative mark against the candidate
         - As neutral company policy; note it and ask the candidate for an alternate reference
         - As grounds to withdraw the offer
-        - As proof the candidate was fired
-      answer: 1
+      answer: 2
       explanation: Many employers limit references by policy; it says nothing about the candidate.
       ref: MGR-C05 Lesson 1
     - id: MGR-C05-Q06
@@ -103,55 +103,55 @@ quiz:
       type: single
       q: In what order should interviewers share during calibration?
       choices:
-        - Hiring manager first
-        - Most senior first
         - Most junior first, hiring manager last
         - Alphabetical by last name
-      answer: 2
+        - Hiring manager first
+        - Most senior first
+      answer: 0
       explanation: Junior-first order limits anchoring on the boss's view.
       ref: MGR-C05 Lesson 2
     - id: MGR-C05-Q09
       type: single
       q: Two interviewers scored the same Caution answer 3 and 7. What is the right next step?
       choices:
-        - Average it to 5 and move on
-        - Each reads their notes aloud and the group agrees on what the evidence shows
         - Use the higher score
         - Use the hiring manager's score
-      answer: 1
+        - Average it to 5 and move on
+        - Each reads their notes aloud and the group agrees on what the evidence shows
+      answer: 3
       explanation: Large gaps signal different observations or scale use; resolve them with the evidence in the notes.
       ref: MGR-C05 Lesson 2
     - id: MGR-C05-Q10
       type: single
       q: Which is a well-written decision record?
       choices:
-        - "Just didn't click."
-        - "Not a culture fit."
         - "Not selected: Caution avg 3; described bypassing lockout to save time; one reference would not rehire."
         - "Overqualified."
-      answer: 2
+        - "Just didn't click."
+        - "Not a culture fit."
+      answer: 0
       explanation: Decision records should give specific, job-related evidence.
       ref: MGR-C05 Lesson 2
     - id: MGR-C05-Q11
       type: single
       q: A candidate scores high on every competency except Caution (safety), where the average is 3. What should the team do?
       choices:
+        - Place the candidate at a higher grade
         - Hire anyway; the other scores make up for it
         - Revisit the must-haves; safety is a must-have and is not traded for strengths elsewhere
         - Ignore the Caution score
-        - Place the candidate at a higher grade
-      answer: 1
+      answer: 2
       explanation: In our trade, safety-related competencies are must-haves.
       ref: MGR-C05 Lesson 2
     - id: MGR-C05-Q12
       type: single
       q: An experienced lighting technician is hired. How is their starting grade set?
       choices:
+        - It is based on their previous pay
         - They choose their grade
         - They always start at LT1
         - They complete a documented placement assessment; an evaluator recommends and a company admin records the placement with a written reason
-        - It is based on their previous pay
-      answer: 2
+      answer: 3
       explanation: The program's placement process places experienced hires at the right grade with a documented reason.
       ref: MGR-C05 Lesson 3
     - id: MGR-C05-Q13

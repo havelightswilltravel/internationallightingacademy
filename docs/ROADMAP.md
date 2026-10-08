@@ -11,6 +11,7 @@ That leaves about 12 weeks to get from draft to production-ready.
 - [x] Draft content totals: 55 courses, 223 lessons, 875 questions, 77 hands-on skills
 - [x] Web platform: sign-in, roles, video lessons, quizzes and timed exams, hands-on sign-offs, OJT hours, promotions and certificates, placement, pay scale, library, reports, multi-company licensing
 - [x] Automated tests
+- [x] Round 2: company Master Troubleshooting Guide → Skills Matrix + 17 field procedures; 12 new system courses (case lighting, neon, data cable, track, low voltage, LED signage, parts knowledge, relays/contactors, breakers, 3-way, outlets & switches, incandescent); Manager Module + hiring scorecards from the company interview kits
 
 ## Phase 2 — Review & your content (October 15 – November 15)
 - [ ] Gather your existing **troubleshooting guides** and add them (Admin → Library, or `curriculum/library/`)

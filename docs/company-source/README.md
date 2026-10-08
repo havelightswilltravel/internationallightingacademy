@@ -12,9 +12,6 @@ and review.
 Changes made when the documents were converted:
 
 - **Field procedures:** safety corrections are listed in `docs/SME_REVIEW_NOTES.md`. The most important is never touching energized neon glass, electrodes or GTO cable.
-- **Interview kits:** some questions were reworded for fair-hiring compliance. Each one shows an ⓘ note on the scorecard:
-  - Attendance is now asked as reliability, not absences.
-  - Lifting and physical demands use the essential-functions framing ("with or without reasonable accommodation").
-  - "Healthy" as a requirement was replaced with the ability to perform the essential physical functions.
+- **Interview kits:** several questions were reworded for fair-hiring compliance, and each one shows an ⓘ note on the scorecard. Examples: attendance instead of absences; physical demands asked "with or without reasonable accommodation"; "Healthy" replaced by ability to perform the essential functions; tools, devices and driving record asked against written company policies. The full list is in `docs/SME_REVIEW_NOTES.md`.
 - **Licensed companies:** "LMS" is replaced with each company's own name, and the Utah-specific service-area and license questions are now generic.
 - **NALMCO:** the NALMCO booklet is not included. It is copyrighted and was used only to check topic coverage.

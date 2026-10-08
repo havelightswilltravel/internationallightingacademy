@@ -9,7 +9,9 @@ instructions: Look for both positive and negative examples of outcome. If the in
 background:
 - q: What kind of software programs are you familiar with?
 - q: Do you have any certificates showing you have received specific types of training or awards?
-- q: Do you own a smartphone? If not, can you get one with data for email and text if required?
+- q: This job requires a smartphone with data for email, text and work apps (see our device/reimbursement policy). Can you
+    meet this requirement?
+  note: 'Reworded: some states require reimbursement of necessary business expenses.'
 - q: What was the name and phone number of your last supervisor? Will he/she say you were reliable and on time? Will he/she
     say you were honest? Will he/she say that you had interpersonal problems with any of your coworkers?
   note: Reworded from the original (which asked about absences) — attendance questions can touch protected medical or family
@@ -21,13 +23,19 @@ background:
 - q: What is your greatest strength? Your greatest weakness?
 - q: Where would you really like to work?
 - q: How does {{company}} compare with other jobs you are interviewing for?
-- q: Describe your likes and dislikes.
+- q: What do you like and dislike about this kind of work?
+  note: Reworded to keep the answer job-related.
 - q: What bugs you about co-workers/bosses?
-- q: What matters to you?
+- q: What matters most to you in a job?
+  note: Reworded to keep the answer job-related.
 - q: Is your driver's license valid?
 - q: Do you have reliable transportation?
-- q: Is your driving record clean?
-- q: Can you work around live electricity?
+- q: This role requires driving a company vehicle. Can you meet our written driving-record standard? (Records are checked
+    after a conditional offer, with your consent.)
+  note: 'Reworded: use a written standard set with your insurer and run motor-vehicle-record checks through the FCRA process.'
+- q: This job involves working near electrical equipment. We use lockout and verify-before-work procedures, and energized
+    work is done only by qualified persons. Can you follow those procedures, with or without reasonable accommodation?
+  note: 'Reworded: our program has technicians work de-energized by default.'
 - q: This job requires regularly lifting up to 50 lbs, climbing ladders and lifts, and working outdoors up to 8 hours a day.
     Can you perform these duties, with or without reasonable accommodation?
   note: Reworded from 'How much weight can you lift?' to the essential-functions framing recommended under the ADA.
@@ -38,8 +46,11 @@ background:
 - q: Where do you see yourself in five years?
 - q: What did you like most about your current (last) job?
 - q: What did you like least?
-- q: What are your personal goals?
-- q: When can you purchase tools?
+- q: What are your professional goals?
+  note: 'Reworded: personal-goal questions can draw out family, religion or health information.'
+- q: Our tool policy is explained in the job description. Are you able to meet it?
+  note: 'Reworded: tool-purchase requirements can raise wage-and-hour issues; state the company tool policy (some states require
+    employer-provided or reimbursed tools).'
 - q: What motivates you?
 - q: Have you ever been fired?
 - q: What positions have you quit in the past, and why?
@@ -77,7 +88,7 @@ requirements:
 - Smart, but not necessarily book smart
 - Recognizes their strengths and weaknesses
 - Mechanically inclined
-- Valid driver's license with only a few minor tickets
+- Valid driver's license meeting our written driving-record standard
 - Reliable transportation
 - Problem solver
 - Able to regularly lift 50 lbs (with or without reasonable accommodation)
@@ -85,6 +96,6 @@ requirements:
 - Can work overtime
 - Safety conscious
 - Able to perform the essential physical functions of the job (with or without reasonable accommodation)
-- Capable of purchasing electrical tools
+- Can meet our tool policy
 - Capable of working outdoors for up to 8 hours a day
 - Knowledge of lighting and electrical is a plus but not necessary
