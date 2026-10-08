@@ -162,11 +162,11 @@ quiz:
       type: multi
       q: Which statements about LED drivers and electronic ballasts are true? (Select all that apply.)
       choices:
+        - They always have a power factor of exactly 1.0
         - They are nonlinear loads that draw distorted current
         - An average-responding meter may read their current inaccurately; a true-RMS meter should be used
         - Their harmonic currents can add up on the neutral of a three-phase system
-        - They always have a power factor of exactly 1.0
-      answer: [0, 1, 2]
+      answer: [1, 2, 3]
       explanation: Electronic lighting loads are nonlinear, need true-RMS measurement, and can produce neutral currents from triplen harmonics. Power factor varies by product; many are high-PF (≥0.9) but none is guaranteed 1.0.
     - id: LT2-C01-Q15
       type: single

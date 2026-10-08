@@ -130,20 +130,20 @@ quiz:
       choices:
         - The luminaire has been modified and can no longer use fluorescent lamps
         - Warning that line voltage is present at the lampholders (risk of shock)
-        - Identification of the retrofit kit
         - The customer's energy savings in dollars
-      answer: [0, 1, 2]
+        - Identification of the retrofit kit
+      answer: [0, 1, 3]
       explanation: Retrofit labels warn future workers about modification, line voltage at sockets, and identify the kit. Savings are not a labeling requirement.
       ref: UL 1598C
     - id: LT2-C05-Q12
       type: multi
       q: Which are valid concerns when installing a screw-in LED replacement for a mogul-base metal halide lamp? (Select all that apply.)
       choices:
+        - Whether the lamp's color matches the old metal halide exactly; nothing else matters
         - Weight and length of the LED lamp
         - Whether the lamp is rated for enclosed fixtures and the mounting orientation
         - Removing or bypassing the ignitor per instructions
-        - Whether the lamp's color matches the old metal halide exactly; nothing else matters
-      answer: [0, 1, 2]
+      answer: [1, 2, 3]
       explanation: Weight, heat (enclosed rating), orientation, ignitor handling and voltage rating are key issues. Color is a consideration but not the only one.
     - id: LT2-C05-Q13
       type: single
@@ -170,8 +170,8 @@ quiz:
       q: Which conditions suggest Type A TLEDs are a poor choice? (Select all that apply.)
       choices:
         - The ballast is not on the TLED manufacturer's compatibility list
+        - The ballasts are new instant-start models listed on the compatibility list
         - The ballasts are old and near end of life
         - The fixture has a fluorescent emergency battery ballast whose compatibility hasn't been confirmed
-        - The ballasts are new instant-start models listed on the compatibility list
-      answer: [0, 1, 2]
+      answer: [0, 2, 3]
       explanation: Incompatible, aging, or emergency-ballast fixtures are poor Type A candidates. New, listed-compatible instant-start ballasts are good candidates.

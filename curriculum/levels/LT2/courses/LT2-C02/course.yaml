@@ -149,10 +149,10 @@ quiz:
       q: Which of the following are signs of a properly made twist-on splice? (Select all that apply.)
       choices:
         - No bare copper visible below the connector skirt
+        - Electrical tape wrapped over the connector to hold it on
         - Each conductor passes an individual pull test
         - Connector used within the wire combination printed on its package
-        - Electrical tape wrapped over the connector to hold it on
-      answer: [0, 1, 2]
+      answer: [0, 2, 3]
       explanation: A good splice uses a listed connector within its rated combination, has no exposed copper, and passes a pull test. Tape is not a substitute for a properly tightened connector.
       ref: UL 486C; NFPA 70 (2023) 110.14
     - id: LT2-C02-Q13

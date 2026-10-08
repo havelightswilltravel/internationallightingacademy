@@ -1,0 +1,176 @@
+code: LT2-C07
+title: Print Reading I
+order: 7
+estimated_hours: 6
+description: >
+  Introduces construction drawings for lighting work: how a drawing set is organized, title
+  blocks, revisions, scales and notes; lighting plan symbols, switch subscripts, emergency
+  fixture notation and homerun circuiting; fixture schedules, catalog numbers, submittals and
+  Division 26 specifications; and panel schedules, load totals, redlines and as-builts — so a
+  technician can locate fixtures, controls and circuits from the plans and confirm them safely
+  in the field.
+objectives:
+  - Navigate a drawing set using discipline letters, the sheet index, title blocks and revision markings
+  - Interpret common lighting plan symbols, type tags, switch subscripts and homerun labels using the project legend
+  - Use a fixture schedule and catalog number to confirm the correct fixture, voltage and options before installation
+  - Locate a fixture's panel, circuit, breaker and phase from the plans and panel schedule
+  - Record field changes as redlines and correct panel directories
+lessons:
+  - 01-drawing-set-basics.md
+  - 02-lighting-plan-symbols.md
+  - 03-fixture-schedules-and-specifications.md
+  - 04-panel-schedules-and-redlines.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C07-Q01
+      type: single
+      q: On which discipline's sheets would you normally find the lighting plan and fixture schedule?
+      choices:
+        - A (Architectural)
+        - M (Mechanical)
+        - E (Electrical)
+        - S (Structural)
+      answer: 2
+      explanation: Lighting plans, fixture schedules and panel schedules are electrical (E) sheets. Reflected ceiling plans are usually architectural (A).
+    - id: LT2-C07-Q02
+      type: single
+      q: What does a cloud with a triangle (delta) containing a number indicate on a drawing?
+      choices:
+        - An emergency fixture
+        - A revision, with its number listed in the title block
+        - A keyed note
+        - A structural member
+      answer: 1
+      explanation: Revisions are clouded and tagged with a delta showing the revision number, which is listed in the title block's revision table.
+    - id: LT2-C07-Q03
+      type: single
+      q: A plan marked 1/8" = 1'-0" was printed at half size. How should you measure distances on it?
+      choices:
+        - Use the 1/8 face of the architect's scale as marked
+        - Use the 1/4 face of the scale
+        - Measuring is impossible on half-size prints
+        - Use the graphic scale bar or written dimensions, since the print is no longer at the stated scale
+      answer: 3
+      explanation: Reduced prints are not at the stated scale. The graphic scale bar shrinks with the print, and written dimensions are always preferred.
+    - id: LT2-C07-Q04
+      type: single
+      q: What does the abbreviation "UON" (or "UNO") mean on a drawing?
+      choices:
+        - Unless otherwise noted
+        - Under overhead network
+        - Unswitched, on at night
+        - Utility owned
+      answer: 0
+      explanation: UON/UNO means "unless otherwise noted" — the general rule applies except where the drawing says differently.
+    - id: LT2-C07-Q05
+      type: single
+      q: Why must you check the project's symbol legend rather than rely on memorized symbols?
+      choices:
+        - The NEC requires a legend on every sheet
+        - Symbols are not fully standardized and vary between design firms
+        - Legends contain the panel schedules
+        - Memorized symbols are always wrong
+      answer: 1
+      explanation: Every firm uses its own variations. The legend for that drawing set governs.
+    - id: LT2-C07-Q06
+      type: single
+      q: A wall switch is labeled "Sb" on the lighting plan. What does it control?
+      choices:
+        - All fixtures in the building on circuit "b"
+        - Only the exit signs
+        - The fixtures in that area tagged with a lowercase "b"
+        - The panel's breaker b
+      answer: 2
+      explanation: Switch subscripts link a switch to the fixtures marked with the same lowercase letter.
+    - id: LT2-C07-Q07
+      type: single
+      q: A homerun arrow on a lighting plan is labeled "LP-2-7". What does this mean?
+      choices:
+        - Panel LP-2, circuit 7
+        - Lighting plan sheet 2, fixture 7
+        - Level 2, room 7
+        - 2 lamps, 7 fixtures
+      answer: 0
+      explanation: Homerun labels give the panel and circuit number(s) the run returns to.
+    - id: LT2-C07-Q08
+      type: single
+      q: On many lighting plans, a fully or partly shaded fixture symbol indicates
+      choices:
+        - A fixture to be demolished
+        - A dimmable fixture
+        - A fixture with a different color temperature
+        - An emergency fixture (battery or emergency circuit)
+      answer: 3
+      explanation: Shading commonly denotes emergency fixtures, though the project legend governs.
+    - id: LT2-C07-Q09
+      type: single
+      q: You're about to work on an emergency fixture shown on the plan as fed from the normal lighting circuit plus an unswitched circuit for its battery pack. What must you do?
+      choices:
+        - Lock out only the normal lighting circuit
+        - Lock out every source shown, disconnect the battery per manufacturer instructions, and verify absence of voltage on all conductors
+        - Work on it energized since emergency fixtures can't be turned off
+        - Lock out only the unswitched circuit
+      answer: 1
+      explanation: Emergency fixtures often have multiple sources, and the battery can energize the output side. All sources must be controlled and verified.
+    - id: LT2-C07-Q10
+      type: single
+      q: A fixture carton's catalog number shows "120V" but the fixture schedule shows 277 V for that type and the circuit is 277 V. What should you do?
+      choices:
+        - Install it; drivers tolerate any voltage
+        - Install it and add a resistor
+        - Do not install it; tell your lead — a 120 V driver on 277 V will be destroyed and can cause smoke or fire
+        - Install it on the neutral
+      answer: 2
+      explanation: Fixture voltage must match the circuit. Universal (e.g., MVOLT/UNV 120–277 V) drivers are fine on either; a 120 V-only driver is not.
+    - id: LT2-C07-Q11
+      type: single
+      q: In CSI MasterFormat, which division contains electrical specifications, including interior lighting?
+      choices:
+        - Division 26
+        - Division 03
+        - Division 09
+        - Division 23
+      answer: 0
+      explanation: Division 26 is Electrical; Interior Lighting is commonly section 26 51 00. Division 23 is HVAC, 09 finishes, 03 concrete.
+    - id: LT2-C07-Q12
+      type: single
+      q: On a panel schedule, what is the difference between a "spare" and a "space"?
+      choices:
+        - There is no difference
+        - A spare is a position with no breaker; a space has a breaker installed
+        - A spare is a breaker reserved for emergency lighting only
+        - A spare is a breaker installed but not connected to a load; a space is a position with no breaker installed
+      answer: 3
+      explanation: Spares are installed breakers without loads; spaces are bus positions without breakers.
+    - id: LT2-C07-Q13
+      type: single
+      q: A 277 V lighting circuit is scheduled at 2,400 VA on a 20 A breaker. Approximately how much current does it draw, and is it within the 80% continuous-load threshold?
+      choices:
+        - About 20 A; no
+        - About 8.7 A; yes
+        - About 12 A; no
+        - About 4.3 A; yes
+      answer: 1
+      explanation: 2,400 ÷ 277 ≈ 8.7 A, well under 16 A (80% of 20 A).
+    - id: LT2-C07-Q14
+      type: multi
+      q: Which are good redline practices? (Select all that apply.)
+      choices:
+        - Mark changes the day they happen
+        - Wait until the end of the job and redline from memory
+        - Record new circuit numbers and panels for any circuit changes
+        - Cloud, initial and date each change
+      answer: [0, 2, 3]
+      explanation: Same-day, specific, clouded and initialed redlines produce accurate as-built drawings. Memory-based redlines are unreliable.
+    - id: LT2-C07-Q15
+      type: multi
+      q: Which items are commonly found in a fixture schedule? (Select all that apply.)
+      choices:
+        - Fixture type tag and description
+        - Voltage and input watts
+        - The breaker's interrupting rating
+        - Mounting and dimming/driver information
+      answer: [0, 1, 3]
+      explanation: Fixture schedules describe type, product, source, voltage, watts, mounting, driver/dimming and notes. Interrupting ratings belong on panel schedules.

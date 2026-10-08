@@ -138,11 +138,11 @@ quiz:
       type: multi
       q: Which steps are required before handling an HID capacitor? (Select all that apply.)
       choices:
+        - Rely on the internal bleed resistor and skip discharge
         - Lock out the circuit and verify absence of voltage
         - Discharge the capacitor with an insulated tool or discharge resistor
         - Verify 0 V across the capacitor terminals with a meter
-        - Rely on the internal bleed resistor and skip discharge
-      answer: [0, 1, 2]
+      answer: [1, 2, 3]
       explanation: Capacitors store charge even after the circuit is off; bleed resistors can fail. Lock out, discharge, and verify 0 V.
     - id: LT2-C04-Q13
       type: single
@@ -159,10 +159,10 @@ quiz:
       q: Which are recognized precautions for metal halide lamp rupture risk? (Select all that apply.)
       choices:
         - Use "E"-rated (enclosed) lamps only in fixtures with suitable containment
+        - Operate lamps well past rated life to save money
         - Replace missing or damaged lenses on enclosed fixtures
         - Turn probe-start MH lamps operating 24/7 off for a period weekly per manufacturer guidance
-        - Operate lamps well past rated life to save money
-      answer: [0, 1, 2]
+      answer: [0, 2, 3]
       explanation: Rupture risk rises near and past rated life. Containment, correct lamp designation, weekly shutdown for continuous probe-start operation, and group relamping reduce risk.
       ref: NFPA 70 (2023) Article 410; lamp manufacturer guidance
     - id: LT2-C04-Q15

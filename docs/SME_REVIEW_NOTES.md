@@ -134,3 +134,21 @@ each item, and correct the content if needed.
 - [ ] Industry figures: DLC power factor and THD; ANSI C136.2 surge levels; NEMA 410; GFCI trip range.
 - [ ] IES illuminance and uniformity targets against current IES Recommended Practices.
 - [ ] **Policy decision:** LT4 skills S03, S04 and S05 assume energized measurements in panels as a qualified person in arc-rated PPE. Confirm this against your NFPA 70E qualification policy and state licensing rules.
+
+## LT2 — Lighting Technician II
+- [ ] 2023 NEC sections:
+  - 110.3(B), 110.12, 110.14, 110.16, 110.26 (working space depths and dimensions)
+  - 210.4(B)
+  - 240.4(D), 240.83(D)
+  - 300.14
+  - 408.4
+  - 410.117(C) (18 in–6 ft tap and 6 ft unsupported whip)
+- [ ] UL 1598C Listed/Classified wording and retrofit label content.
+- [ ] HID figures: restrike times, ignitor pulse voltages, capacitor tolerance, "O"/"E" lamp ratings.
+- [ ] **Company policies the writer proposed (management sign-off):**
+  - Meters must be CAT III 1000 V / CAT IV 600 V and true-RMS.
+  - Always pull a green EGC in every whip.
+  - Lock out before relamping any Type B fixture.
+  - LT2s remove dead fronts only under qualified supervision.
+- [ ] **Policy decision:** skills S01 and S08 have LT2 trainees measuring in energized panels under qualified supervision. Confirm this against your NFPA 70E program.
+- [ ] Interim instruction for LT2s who find emergency ballasts during a retrofit (currently deferred to LT3-C04).

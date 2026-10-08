@@ -127,11 +127,11 @@ quiz:
       type: multi
       q: Which steps belong in verifying a repair? (Select all that apply.)
       choices:
+        - Leave the jumper used for testing in place in case it's needed again
         - Operate the fixture from its normal switch, sensor or control
         - Check that neighboring fixtures on the same circuit still work
         - Run the fixture long enough to catch thermal or warm-up problems
-        - Leave the jumper used for testing in place in case it's needed again
-      answer: [0, 1, 2]
+      answer: [1, 2, 3]
       explanation: Verification uses normal controls, checks the circuit and runs long enough. Test jumpers must always be removed.
     - id: LT2-C06-Q12
       type: multi
