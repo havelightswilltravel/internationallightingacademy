@@ -116,3 +116,21 @@ each item, and correct the content if needed.
   - mandatory harness use in scissor lifts
   - whether LT3 technicians may do energized diagnostic testing (skills S02 and S06)
   - tritium exit-sign return procedure
+
+## LT4 — Lighting Technician IV (Senior)
+- [ ] 2023 NEC sections:
+  - 410.16
+  - 410.30(B)
+  - 410.130(G)
+  - 404.2(C)
+  - 404.22
+  - 225.7
+  - 600.3–600.6
+  - 700.10(B), 700.12, 700.16 and the unit-equipment rule
+  - Article 411 limits
+  - Article 242 (replaced Article 285 in 2020)
+- [ ] Add an explicit 2026 NEC note where your AHJ has adopted it.
+- [ ] Energy-code values (all hedged in the text): vacancy shutoff time, override limits, partial-ON level, example LPD values.
+- [ ] Industry figures: DLC power factor and THD; ANSI C136.2 surge levels; NEMA 410; GFCI trip range.
+- [ ] IES illuminance and uniformity targets against current IES Recommended Practices.
+- [ ] **Policy decision:** LT4 skills S03, S04 and S05 assume energized measurements in panels as a qualified person in arc-rated PPE. Confirm this against your NFPA 70E qualification policy and state licensing rules.
