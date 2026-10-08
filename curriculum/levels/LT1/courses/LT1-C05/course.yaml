@@ -1,0 +1,179 @@
+code: LT1-C05
+title: Light Sources & Fixture Basics
+order: 5
+estimated_hours: 7
+description: >
+  Introduces the light sources and fixtures a lighting technician services every day:
+  incandescent and halogen, linear and compact fluorescent, HID (mercury vapor, metal halide,
+  high-pressure sodium), and LED. Covers the key lighting metrics (lumens, watts, efficacy,
+  CCT, CRI), lamp bases, the role of ballasts and drivers, and common fixture types and
+  ratings.
+objectives:
+  - Define lumens, watts, efficacy, CCT, and CRI and use them to select matching replacements
+  - Describe how incandescent, halogen, fluorescent, HID, and LED sources work and where each is used
+  - Decode common fluorescent lamp designations and identify T12, T8, and T5 lamps
+  - Explain HID warm-up, restrike, end-of-life symptoms, and metal halide rupture precautions
+  - Identify common lamp bases and explain the role of ballasts, ignitors, transformers, and drivers
+  - Identify common fixture types and read fixture and ballast labels and ratings
+lessons:
+  - 01-lighting-terms-and-metrics.md
+  - 02-incandescent-halogen-and-fluorescent.md
+  - 03-hid-and-led-sources.md
+  - 04-bases-ballasts-drivers-and-fixtures.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C05-Q01
+      type: single
+      q: What does a lumen rating tell you about a lamp?
+      choices:
+        - How much power the lamp uses
+        - The total visible light the lamp produces
+        - The color appearance of the light
+        - How long the lamp will last
+      answer: 1
+      explanation: Lumens measure light output. Watts measure power consumed; CCT describes color appearance.
+    - id: LT1-C05-Q02
+      type: single
+      q: A fixture produces 5,000 lumens and uses 40 watts. What is its efficacy?
+      choices:
+        - 200 lm/W
+        - 8 lm/W
+        - 125 lm/W
+        - 5,040 lm/W
+      answer: 2
+      explanation: Efficacy = lumens ÷ watts = 5,000 ÷ 40 = 125 lm/W.
+    - id: LT1-C05-Q03
+      type: single
+      q: Which color temperature looks the warmest (most yellow)?
+      choices:
+        - 5000 K
+        - 4000 K
+        - 3500 K
+        - 2700 K
+      answer: 3
+      explanation: Lower kelvin values appear warmer. 2700 K is similar to incandescent light.
+    - id: LT1-C05-Q04
+      type: single
+      q: Which light source has the poorest color rendering of the choices listed?
+      choices:
+        - High-pressure sodium
+        - Incandescent
+        - 90 CRI LED
+        - Halogen
+      answer: 0
+      explanation: HPS has a CRI of roughly 20-25, making colors hard to distinguish. Incandescent and halogen are near 100.
+      ref: IES Lighting Handbook
+    - id: LT1-C05-Q05
+      type: single
+      q: In the lamp code F32T8/841, what does "41" indicate?
+      choices:
+        - 41 watts
+        - A 41-inch lamp
+        - 4100 K color temperature
+        - 41,000-hour rated life
+      answer: 2
+      explanation: In this common format, the first digit after the slash indicates CRI in the 80s, and "41" indicates 4100 K.
+    - id: LT1-C05-Q06
+      type: single
+      q: What is the diameter of a T8 fluorescent lamp?
+      choices:
+        - 5/8 inch
+        - 1 inch
+        - 1.5 inches
+        - 8 inches
+      answer: 1
+      explanation: The T number is the diameter in eighths of an inch; 8/8 = 1 inch. T12 is 1.5 inches and T5 is 5/8 inch.
+    - id: LT1-C05-Q07
+      type: single
+      q: Why should you avoid touching the quartz capsule of a halogen lamp with bare fingers?
+      choices:
+        - Skin oils can create hot spots that cause early failure or shattering
+        - The capsule carries line voltage on its surface at all times
+        - Fingerprints change the color temperature permanently
+        - It voids the UL listing of the fixture
+      answer: 0
+      explanation: Oils from skin create hot spots on the quartz when the lamp heats up, which can cause early failure or rupture. Handle with gloves or the sleeve.
+    - id: LT1-C05-Q08
+      type: single
+      q: A customer reports that a metal halide high-bay did not come back on right after a brief power outage. What is the most likely explanation?
+      choices:
+        - The ballast has failed and must be replaced immediately
+        - The lamp needs to cool before it can restrike, which can take 10-20 minutes
+        - The breaker has tripped from the outage
+        - The lamp is the wrong color temperature
+      answer: 1
+      explanation: Hot metal halide lamps cannot restart until they cool, often 10-20 minutes. Wait before troubleshooting.
+    - id: LT1-C05-Q09
+      type: single
+      q: What is the classic end-of-life symptom of a high-pressure sodium lamp?
+      choices:
+        - It turns bright blue
+        - It hums but never strikes on the first day
+        - It flickers rapidly at 60 Hz
+        - It cycles on and off repeatedly
+      answer: 3
+      explanation: Aging HPS lamps require more voltage to operate until the ballast cannot sustain the arc, so they go out, cool, restrike, and repeat.
+    - id: LT1-C05-Q10
+      type: multi
+      q: Which light sources contain mercury and must be handled and recycled accordingly? (Select all that apply.)
+      choices:
+        - Linear fluorescent lamps
+        - Compact fluorescent lamps
+        - Metal halide lamps
+        - Integrated LED fixtures
+      answer: [0, 1, 2]
+      explanation: Fluorescent, CFL, and HID lamps contain mercury. LEDs do not.
+      ref: EPA universal waste rule (40 CFR 273)
+    - id: LT1-C05-Q11
+      type: multi
+      q: Which are functions of a fluorescent or HID ballast? (Select all that apply.)
+      choices:
+        - Provide a high voltage to start the lamp
+        - Limit lamp current once the arc is established
+        - Convert AC to DC for LED chips
+        - Increase the color rendering of the lamp
+      answer: [0, 1]
+      explanation: Ballasts start gas discharge lamps and limit their current. Converting AC to DC for LEDs is the job of an LED driver.
+    - id: LT1-C05-Q12
+      type: single
+      q: Which lamp base is used on standard T8 and T12 linear fluorescent lamps?
+      choices:
+        - E26 medium screw
+        - G5 miniature bi-pin
+        - G13 medium bi-pin
+        - E39 mogul screw
+      answer: 2
+      explanation: T8 and T12 lamps use the G13 medium bi-pin base. T5 uses G5; E39 is common for HID.
+    - id: LT1-C05-Q13
+      type: single
+      q: Which base is commonly used on HID lamps such as 400 W metal halide?
+      choices:
+        - E39 mogul
+        - E12 candelabra
+        - GU24
+        - GU5.3
+      answer: 0
+      explanation: Most larger HID lamps use the E39 mogul screw base.
+    - id: LT1-C05-Q14
+      type: single
+      q: What does an IC rating on a recessed downlight mean?
+      choices:
+        - The fixture is rated for interior ceilings only
+        - The fixture includes an integrated controller
+        - The fixture is suitable for wet locations
+        - The fixture is rated for direct contact with thermal insulation
+      answer: 3
+      explanation: IC (insulation contact) rated recessed luminaires may be in contact with insulation. Non-IC fixtures require clearance to prevent overheating.
+      ref: NFPA 70 (NEC) Article 410
+    - id: LT1-C05-Q15
+      type: single
+      q: A metal halide lamp's outer glass bulb is broken but the lamp is still lit. What should you do?
+      choices:
+        - Leave it until the next scheduled relamp
+        - Turn it off and replace it immediately because it can emit harmful UV radiation
+        - Tape the broken glass and leave it on
+        - Lower the fixture so the light is less intense
+      answer: 1
+      explanation: A lamp with a broken outer bulb can emit UV radiation that burns skin and eyes. De-energize and replace immediately.

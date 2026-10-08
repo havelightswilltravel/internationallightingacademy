@@ -1,0 +1,192 @@
+code: EA4-C01
+title: Advanced Load Calculations
+order: 1
+estimated_hours: 16
+description: >
+  Complete dwelling and commercial load calculations using the 2023 NEC (NFPA 70) Article 220
+  methods: the dwelling standard method, the dwelling optional method, the existing-dwelling
+  and measured-demand methods, and commercial calculations with continuous loads, receptacle
+  and kitchen-equipment demand factors, motors, and three-phase current. Apprentices size
+  services, service conductors, and grounding electrode conductors from their results. The
+  AHJ-adopted code edition governs; the 2026 NEC relocated these calculations to Article 120.
+objectives:
+  - Calculate dwelling general lighting, small-appliance, and laundry loads and apply the tiered demand factors
+  - Apply rules for fastened-in-place appliances, dryers, ranges, heating and air conditioning, and EVSE in the standard method
+  - Perform a dwelling optional-method calculation and compare it with the standard method
+  - Apply the existing-dwelling and measured-demand methods when adding load to an existing service
+  - Perform a commercial service calculation including continuous loads, receptacles, signs, kitchen equipment, and motors
+  - Convert calculated loads to single-phase and three-phase amperes and select service, conductor, and GEC sizes
+lessons:
+  - 01-dwelling-general-loads.md
+  - 02-dwelling-standard-method-service-sizing.md
+  - 03-dwelling-optional-and-existing-methods.md
+  - 04-commercial-load-calculations.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA4-C01-Q01
+      type: single
+      q: Using the standard method, what is the general lighting load (before demand factors) for a dwelling measuring 1,800 ft² using outside dimensions?
+      choices:
+        - 3,600 VA
+        - 4,500 VA
+        - 5,400 VA
+        - 6,300 VA
+      answer: 2
+      explanation: Dwelling general lighting is 3 VA per square foot. 1,800 × 3 = 5,400 VA.
+      ref: 2023 NEC 220.41 (Table 220.12 in earlier editions)
+    - id: EA4-C01-Q02
+      type: single
+      q: A dwelling's general lighting, small-appliance, and laundry loads total 15,000 VA. What is the net load after applying the standard demand factors?
+      choices:
+        - 7,200 VA
+        - 5,250 VA
+        - 15,000 VA
+        - 6,150 VA
+      answer: 0
+      explanation: First 3,000 VA at 100% = 3,000 VA. Remaining 12,000 VA at 35% = 4,200 VA. Total = 7,200 VA.
+      ref: 2023 NEC Table 220.42
+    - id: EA4-C01-Q03
+      type: single
+      q: How much load is added for each small-appliance branch circuit in a dwelling load calculation?
+      choices:
+        - 1,200 VA
+        - 1,500 VA
+        - 1,800 VA
+        - 2,400 VA
+      answer: 1
+      explanation: Each 20-A small-appliance branch circuit is counted at 1,500 VA, with a minimum of two circuits. The laundry circuit is also 1,500 VA.
+      ref: 2023 NEC 220.52
+    - id: EA4-C01-Q04
+      type: single
+      q: A house has a water heater (4,500 W), dishwasher (1,200 VA), disposal (800 VA), and a built-in microwave (1,500 VA), all fastened in place. What load is used in the standard method?
+      choices:
+        - 8,000 VA
+        - 6,400 VA
+        - 5,600 VA
+        - 6,000 VA
+      answer: 3
+      explanation: The total is 8,000 VA. With four or more fastened-in-place appliances (excluding ranges, dryers, heat, and A/C), a 75% demand factor applies; 8,000 × 0.75 = 6,000 VA.
+      ref: 2023 NEC 220.53
+    - id: EA4-C01-Q05
+      type: single
+      q: A household clothes dryer has a nameplate rating of 4,000 W. What load must be used for it in a dwelling standard-method calculation?
+      choices:
+        - 4,000 VA
+        - 4,500 VA
+        - 5,000 VA
+        - 5,500 VA
+      answer: 2
+      explanation: Dryers are counted at 5,000 W (VA) or the nameplate rating, whichever is larger. 5,000 is larger than 4,000.
+      ref: 2023 NEC 220.54
+    - id: EA4-C01-Q06
+      type: single
+      q: What is the demand load for one 15 kW household range using Table 220.55, Column C and Note 1?
+      choices:
+        - 8.0 kW
+        - 9.2 kW
+        - 15.0 kW
+        - 8.4 kW
+      answer: 1
+      explanation: The range is 3 kW over 12 kW. Increase the 8 kW Column C value by 5% per kW over 12 → 15% → 8 × 1.15 = 9.2 kW.
+      ref: 2023 NEC Table 220.55, Note 1
+    - id: EA4-C01-Q07
+      type: single
+      q: A dwelling has 9,000 W of fixed electric baseboard heat and a 5,000 VA air conditioner. In the standard method, what heating/cooling load is included?
+      choices:
+        - 9,000 VA
+        - 14,000 VA
+        - 5,000 VA
+        - 11,500 VA
+      answer: 0
+      explanation: Heat and A/C are noncoincident loads; only the larger (9,000 VA heat at 100%) is included.
+      ref: 2023 NEC 220.60, 220.51
+    - id: EA4-C01-Q08
+      type: single
+      q: Under the 2023 NEC, a 32-A, 240-V EVSE is counted in a dwelling load calculation at what value?
+      choices:
+        - 7,680 VA
+        - 9,600 VA
+        - 5,760 VA
+        - 7,200 VA
+      answer: 0
+      explanation: EVSE load is the larger of 7,200 VA or the nameplate rating. 32 A × 240 V = 7,680 VA, which is larger than 7,200 VA.
+      ref: 2023 NEC 220.57
+    - id: EA4-C01-Q09
+      type: single
+      q: A dwelling's calculated load is 38,400 VA at 120/240 V single-phase. What is the minimum standard service rating?
+      choices:
+        - 150 A
+        - 175 A
+        - 200 A
+        - 125 A
+      answer: 1
+      explanation: 38,400 ÷ 240 = 160 A. The next standard rating at or above 160 A in 240.6(A) is 175 A. (In practice a 200-A service is the usual choice, but 175 A is the minimum standard size.)
+      ref: 2023 NEC 240.6(A)
+    - id: EA4-C01-Q10
+      type: single
+      q: For a 200-A, 120/240-V single-phase dwelling service carrying the entire dwelling load, the service conductors may be sized at not less than what ampacity (before other correction factors)?
+      choices:
+        - 200 A
+        - 160 A
+        - 175 A
+        - 166 A
+      answer: 3
+      explanation: Dwelling services and main feeders may use conductors rated not less than 83% of the service rating. 200 × 0.83 = 166 A.
+      ref: 2023 NEC 310.12
+    - id: EA4-C01-Q11
+      type: single
+      q: In the dwelling optional method, the general load (excluding heat and A/C) totals 40,000 VA. What is the demand load for this portion?
+      choices:
+        - 16,000 VA
+        - 22,000 VA
+        - 26,000 VA
+        - 14,000 VA
+      answer: 1
+      explanation: First 10,000 VA at 100% = 10,000. Remaining 30,000 VA at 40% = 12,000. Total = 22,000 VA.
+      ref: 2023 NEC 220.82(B)
+    - id: EA4-C01-Q12
+      type: multi
+      q: Which conditions must be met to use the dwelling optional method of 220.82? (Select all that apply.)
+      choices:
+        - The dwelling has no electric space heating
+        - The calculation is for a single dwelling unit
+        - The service or feeder ampacity is 100 A or greater
+        - The service is 120/240-V or 208Y/120-V, 3-wire
+      answer: [1, 2, 3]
+      explanation: The optional method applies to a single dwelling unit served by a 120/240-V or 208Y/120-V 3-wire service or feeder with an ampacity of 100 A or more. Electric heat is allowed and handled in 220.82(C).
+      ref: 2023 NEC 220.82(A)
+    - id: EA4-C01-Q13
+      type: single
+      q: What is the minimum general lighting load for a 12,000 ft² office building using the 2023 NEC Table 220.12 unit load (before any continuous-load multiplier)?
+      choices:
+        - 42,000 VA
+        - 22,800 VA
+        - 15,600 VA
+        - 12,000 VA
+      answer: 2
+      explanation: The 2023 NEC office unit load is 1.3 VA/ft². 12,000 × 1.3 = 15,600 VA. (42,000 VA reflects the old 3.5 VA/ft² value used before the 2020 NEC.)
+      ref: 2023 NEC Table 220.12
+    - id: EA4-C01-Q14
+      type: single
+      q: A retail building has 90 general-purpose receptacles. What is the receptacle demand load?
+      choices:
+        - 16,200 VA
+        - 8,100 VA
+        - 13,100 VA
+        - 11,620 VA
+      answer: 2
+      explanation: 90 × 180 VA = 16,200 VA. First 10,000 VA at 100% plus remaining 6,200 VA at 50% (3,100) = 13,100 VA.
+      ref: 2023 NEC 220.14(I), Table 220.44
+    - id: EA4-C01-Q15
+      type: single
+      q: A commercial building has a calculated load of 72,000 VA on a 208Y/120-V, 3-phase service. What is the calculated current?
+      choices:
+        - 346 A
+        - 200 A
+        - 300 A
+        - 173 A
+      answer: 1
+      explanation: Three-phase current = VA ÷ (V × 1.732) = 72,000 ÷ (208 × 1.732) = 72,000 ÷ 360.3 ≈ 199.9 A, about 200 A.
+      ref: Three-phase power formula

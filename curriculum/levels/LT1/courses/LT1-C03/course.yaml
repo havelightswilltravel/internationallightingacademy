@@ -1,0 +1,180 @@
+code: LT1-C03
+title: Tools & Basic Meter Use
+order: 3
+estimated_hours: 6
+description: >
+  Covers the hand and power tools used in lighting service work, the proper use and serious
+  limitations of non-contact voltage testers, digital multimeter basics including
+  measurement category (CAT) ratings, and the live-dead-live method for verifying absence of
+  voltage before touching conductors.
+objectives:
+  - Identify, use, and inspect the tools in the standard lighting tool kit
+  - Use power tools, batteries, and extension cords safely with GFCI protection where required
+  - Explain how a non-contact voltage tester works and why it cannot verify absence of voltage
+  - Set up a DMM correctly for AC voltage and inspect the meter and leads
+  - Select meters and leads with appropriate CAT and voltage ratings for building lighting circuits
+  - Perform live-dead-live verification at a light fixture and respond correctly to unexpected readings
+lessons:
+  - 01-hand-and-power-tools.md
+  - 02-non-contact-voltage-testers.md
+  - 03-dmm-basics-and-cat-ratings.md
+  - 04-live-dead-live-verification.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C03-Q01
+      type: single
+      q: Why should wire be stripped in the stripper notch that matches its AWG size?
+      choices:
+        - A smaller notch strips faster
+        - A notch that is too small nicks the conductor, creating a weak, hot spot
+        - The notch size controls the strip length
+        - It only matters for aluminum wire
+      answer: 1
+      explanation: Nicked conductors can break or overheat. Using the matching notch removes insulation without damaging the copper.
+    - id: LT1-C03-Q02
+      type: single
+      q: What protection do the ordinary plastic handles on standard pliers and screwdrivers provide against shock?
+      choices:
+        - Protection up to 1,000 V
+        - Protection up to 600 V
+        - Protection only on 120 V circuits
+        - No rated shock protection
+      answer: 3
+      explanation: Only tools marked as insulated and rated (for example 1,000 V per ASTM F1505 / IEC 60900) are intended for shock protection. Comfort grips are not.
+      ref: ASTM F1505
+    - id: LT1-C03-Q03
+      type: single
+      q: On a construction site, what protection does OSHA require for receptacles used to supply temporary power to corded tools?
+      choices:
+        - GFCI protection or an assured equipment grounding conductor program
+        - AFCI protection only
+        - A surge protector strip
+        - No protection if the tool is double-insulated
+      answer: 0
+      explanation: OSHA requires GFCI protection or an assured equipment grounding conductor program for temporary receptacles on construction sites.
+      ref: OSHA 29 CFR 1926.404(b)(1)
+    - id: LT1-C03-Q04
+      type: multi
+      q: In which situations can a non-contact voltage tester fail to alert on a live conductor? (Select all that apply.)
+      choices:
+        - The conductor is inside grounded metal conduit or MC cable armor
+        - The tester's battery is weak
+        - The conductor carries DC voltage
+        - The conductor is a bare copper wire in open air at 120 V AC
+      answer: [0, 1, 2]
+      explanation: Metal shielding, weak batteries, and DC (which most NCVTs do not detect) can all cause missed detection. An exposed 120 V AC conductor is normally detected.
+    - id: LT1-C03-Q05
+      type: single
+      q: What is the correct way to treat a "no alert" result from a non-contact voltage tester?
+      choices:
+        - The circuit is dead and safe to touch
+        - The circuit is dead if the tester was tested afterward
+        - The status is unknown until verified with a contact meter using live-dead-live
+        - The circuit is dead if the breaker is off
+      answer: 2
+      explanation: An NCVT can miss live conductors. A "no alert" means unknown, never verified dead.
+    - id: LT1-C03-Q06
+      type: single
+      q: Which measurement category applies to hardwired lighting fixtures, branch circuits, and lighting panels inside a building?
+      choices:
+        - CAT I
+        - CAT II
+        - CAT IV
+        - CAT III
+      answer: 3
+      explanation: CAT III covers building distribution wiring, including panels, feeders, branch circuits, and hardwired fixtures. CAT IV is the service entrance/utility connection.
+      ref: IEC 61010-1
+    - id: LT1-C03-Q07
+      type: single
+      q: A technician uses a CAT III 1000 V meter with test leads rated CAT II 600 V. What is the effective rating of the measurement setup?
+      choices:
+        - CAT II 600 V
+        - CAT III 1000 V
+        - CAT III 600 V
+        - CAT IV 600 V
+      answer: 0
+      explanation: The measurement system is only as good as its lowest-rated component, so the setup is CAT II 600 V and is not appropriate for lighting panel work.
+    - id: LT1-C03-Q08
+      type: single
+      q: What happens if you measure across a voltage source with the red lead in the amps (A) jack?
+      choices:
+        - The meter reads voltage normally
+        - The meter places a near short across the source, which can blow the fuse or cause an arc flash
+        - The display shows OL and nothing else happens
+        - The meter automatically switches to voltage mode
+      answer: 1
+      explanation: The amps input has very low resistance. Placing it across a voltage creates a near short circuit. Always check black in COM, red in V, dial on V.
+    - id: LT1-C03-Q09
+      type: single
+      q: What do the three steps of "live-dead-live" verify?
+      choices:
+        - That the circuit is live, then dead, then re-energized for testing
+        - That the breaker can be turned on, off, and on again
+        - That three different meters agree
+        - That the tester works, that the circuit has no voltage, and that the tester still works
+      answer: 3
+      explanation: The tester is proven on a known live source, the circuit is tested, and the tester is proven again immediately afterward.
+      ref: OSHA 29 CFR 1910.333(b)(2); NFPA 70E Article 120
+    - id: LT1-C03-Q10
+      type: single
+      q: When verifying absence of voltage at a 277 V single-phase fixture, which set of tests is correct?
+      choices:
+        - Hot to neutral only
+        - Hot to neutral, hot to ground, and neutral to ground
+        - Hot to ground only
+        - Neutral to ground only
+      answer: 1
+      explanation: Test all combinations of the conductors present. For a single-phase circuit, that is hot-neutral, hot-ground, and neutral-ground.
+    - id: LT1-C03-Q11
+      type: single
+      q: During live-dead-live, the meter reads 0 V on the circuit but shows nothing on the final live check. What does this mean?
+      choices:
+        - The circuit is verified dead
+        - The circuit is dead but the meter needs a new battery later
+        - The test is invalid; repair or replace the meter and repeat the entire test
+        - The circuit must be live
+      answer: 2
+      explanation: If the meter fails the final live check, it may have failed before the dead test. The dead reading cannot be trusted.
+    - id: LT1-C03-Q12
+      type: single
+      q: A locked-out fixture reads 18 V hot to ground on a high-impedance DMM. What should the LT1 do?
+      choices:
+        - Proceed, because anything under 50 V is ghost voltage
+        - Ignore it if the NCVT does not beep
+        - Ground the conductor with a jumper and continue
+        - Stop work and have a qualified person evaluate the reading
+      answer: 3
+      explanation: The reading may be induced voltage or a real source. Never assume; stop and get a qualified person to evaluate (for example using LoZ mode).
+    - id: LT1-C03-Q13
+      type: multi
+      q: Which conditions mean test leads must be removed from service? (Select all that apply.)
+      choices:
+        - Cracked or melted insulation
+        - Visible colored inner insulation layer
+        - Missing or broken finger guards
+        - Probe tip covers installed
+      answer: [0, 1, 2]
+      explanation: Damaged insulation, exposed wear indicators, and missing finger guards make leads unsafe. Tip covers are a safety feature.
+    - id: LT1-C03-Q14
+      type: single
+      q: With a fixture's breaker locked off, which source could still energize lamps or conductors inside the fixture?
+      choices:
+        - An integral emergency battery pack
+        - The equipment grounding conductor
+        - The lens diffuser
+        - The ceiling grid
+      answer: 0
+      explanation: Emergency battery packs (and generator- or inverter-fed circuits) can energize lamps and conductors when the normal supply is off.
+    - id: LT1-C03-Q15
+      type: single
+      q: What minimum rating should meters and leads have for testing 120–480 V building lighting circuits?
+      choices:
+        - CAT II 300 V
+        - CAT III 600 V
+        - CAT I 1000 V
+        - Any rating if the meter is digital
+      answer: 1
+      explanation: Building distribution circuits are CAT III locations; for systems up to 480 V, CAT III 600 V is the minimum, and many companies require CAT III 1000 V / CAT IV 600 V.
+      ref: IEC 61010-1

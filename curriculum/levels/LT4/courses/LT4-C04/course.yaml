@@ -1,0 +1,183 @@
+code: LT4-C04
+title: Power Quality & Advanced Electrical
+order: 4
+estimated_hours: 10
+description: >
+  Extends the electrical fundamentals from LT1–LT2 into the power-quality problems senior lighting
+  technicians face with electronic loads: harmonics and neutral heating, LED inrush and nuisance
+  tripping (including GFCI leakage), voltage drop calculations and field verification, multiwire
+  branch circuits and shared neutrals, and transients and surge protection.
+objectives:
+  - Explain how nonlinear LED driver loads create harmonics and why triplen harmonics add in shared neutrals.
+  - Use true-RMS instruments correctly to measure distorted currents.
+  - Diagnose nuisance tripping by distinguishing overload, inrush, leakage and loose-connection causes.
+  - Calculate single-phase and three-phase voltage drop and size conductors to a target percentage.
+  - Safely troubleshoot multiwire branch circuits and apply NEC 210.4 and 300.13(B).
+  - Describe UL 1449 SPD types, NEC Article 242 and good surge-protection installation practice.
+lessons:
+  - 01-harmonics-and-neutral-current.md
+  - 02-led-inrush-and-nuisance-tripping.md
+  - 03-voltage-drop-calculations.md
+  - 04-multiwire-branch-circuits.md
+  - 05-transients-and-surge-protection.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT4-C04-Q01
+      type: single
+      q: On a 277/480 V three-phase, four-wire circuit feeding many LED drivers, the phase currents are balanced but the neutral carries significant current. What is the most likely cause?
+      choices:
+        - Triplen harmonic currents that add in the neutral
+        - A same-phase connection on the breakers
+        - Excessive voltage drop
+        - A failed surge protective device
+      answer: 0
+      explanation: Triplen harmonics (3rd, 9th, ...) from each phase are in phase with each other and add in the neutral instead of cancelling.
+    - id: LT4-C04-Q02
+      type: single
+      q: Why must a true-RMS meter be used to measure current on circuits with LED drivers?
+      choices:
+        - True-RMS meters are required for CAT III ratings
+        - Average-responding meters assume a sine wave and can read distorted currents significantly low
+        - Only true-RMS meters can measure DC
+        - True-RMS meters measure inrush automatically
+      answer: 1
+      explanation: Average-responding meters are calibrated for pure sine waves; on distorted current they can under-read, hiding overloads.
+    - id: LT4-C04-Q03
+      type: single
+      q: Under the NEC, when must the neutral of a 3-phase, 4-wire wye circuit be counted as a current-carrying conductor for ampacity adjustment?
+      choices:
+        - Never
+        - Only when the circuit is longer than 100 ft
+        - When the major portion of the load consists of nonlinear loads
+        - Only for aluminum conductors
+      answer: 2
+      explanation: Harmonic currents in the neutral produce heat, so the NEC requires the neutral to be counted as current-carrying when the major portion of the load is nonlinear.
+      ref: NEC 310.15(E)
+    - id: LT4-C04-Q04
+      type: single
+      q: A 20 A lighting circuit trips only at the instant the lights are switched on, and steady-state current is 9 A. What is the most likely cause?
+      choices:
+        - Overload of the thermal element
+        - Excessive voltage drop
+        - Harmonic heating of the neutral
+        - Combined driver inrush exceeding the breaker's instantaneous trip level
+      answer: 3
+      explanation: Trips at switch-on with normal running current point to inrush (or a short circuit). Overloads trip after time on the thermal element.
+    - id: LT4-C04-Q05
+      type: single
+      q: Lighting is a continuous load. What is the maximum continuous load normally permitted on a standard 20 A branch-circuit breaker?
+      choices:
+        - 20 A
+        - 16 A
+        - 15 A
+        - 25 A
+      answer: 1
+      explanation: The OCPD must be at least 125% of the continuous load, so continuous load is limited to 80% of a standard (non-100%-rated) breaker: 16 A on 20 A.
+      ref: NEC 210.20(A)
+    - id: LT4-C04-Q06
+      type: multi
+      q: Which are acceptable ways to reduce LED inrush problems? (Select all that apply.)
+      choices:
+        - Reduce the number of drivers per circuit or per relay
+        - Stagger switching of groups with the control system
+        - Use zero-cross switching relays or listed inrush limiters
+        - Install a larger breaker without checking conductor ampacity
+      answer: [0, 1, 2]
+      explanation: Reducing driver count, staggering and zero-cross switching/inrush limiters address inrush. Upsizing a breaker beyond conductor protection is a code violation and fire hazard.
+    - id: LT4-C04-Q07
+      type: single
+      q: Occupancy sensor power packs on a new LED project keep failing with lights stuck ON. What is the most likely cause?
+      choices:
+        - Relay contacts welded by LED inrush because the device was not rated for electronic driver loads
+        - Daylight sensor miscalibration
+        - Excessive CRI
+        - Too little load on the relay
+      answer: 0
+      explanation: High inrush can weld relay contacts. Choose devices rated for electronic ballast/LED loads (e.g., NEMA 410 tested) and limit load per relay.
+      ref: NEMA 410
+    - id: LT4-C04-Q08
+      type: single
+      q: A long run of LED fixtures on a GFCI-protected circuit trips the GFCI with no obvious fault. Which explanation and first step is best?
+      choices:
+        - The GFCI is defective; replace it with a standard breaker
+        - Cumulative driver leakage current may be approaching the 4–6 mA trip level; sectionalize under LOTO to rule out a real ground fault first
+        - Voltage drop trips GFCIs; upsize the conductors
+        - Harmonics always trip GFCIs; install a K-rated transformer
+      answer: 1
+      explanation: Driver EMI filters leak small currents that add up. But a real ground fault must be ruled out by sectionalizing. Never remove required GFCI protection.
+      ref: UL 943
+    - id: LT4-C04-Q09
+      type: single
+      q: A 277 V single-phase circuit carries 12 A to a load 250 ft away (one way) on 12 AWG copper (6,530 CM, K = 12.9). What is the approximate voltage drop?
+      choices:
+        - 5.9 V
+        - 23.7 V
+        - 11.9 V
+        - 7.5 V
+      answer: 2
+      explanation: VD = 2 × 12.9 × 12 × 250 ÷ 6,530 ≈ 11.85 V, about 4.3% of 277 V.
+    - id: LT4-C04-Q10
+      type: single
+      q: Measured voltage drop on a lighting circuit is three times the calculated value. What should you suspect first?
+      choices:
+        - The meter is not true-RMS
+        - The K value should be 21.2
+        - The drivers have high CRI
+        - A high-resistance connection such as a loose or corroded splice
+      answer: 3
+      explanation: A drop far greater than calculated usually indicates a high-resistance connection. Locate by measuring at intermediate points and repair under LOTO.
+    - id: LT4-C04-Q11
+      type: single
+      q: On a 120/208 V MWBC, you measure 0 V between the two hot conductors. What does this indicate?
+      choices:
+        - Both hots are on the same phase, so the neutral carries the sum of their currents
+        - The circuit is correctly connected
+        - The neutral is open
+        - The circuit is de-energized and safe to work on
+      answer: 0
+      explanation: Hots on different phases read 208 V between them. 0 V means same phase, which overloads the shared neutral. (It does not prove the circuit is de-energized.)
+    - id: LT4-C04-Q12
+      type: single
+      q: The shared neutral of a 120/208 V MWBC opens. What happens?
+      choices:
+        - All loads turn off safely
+        - Loads on different circuits are placed in series across 208 V, so lightly loaded circuits can see overvoltage
+        - All loads get exactly 120 V
+        - The breakers trip immediately
+      answer: 1
+      explanation: With an open neutral, loads on different phases are in series across line-to-line voltage, dividing it by impedance. Lightly loaded circuits can see damaging overvoltage.
+    - id: LT4-C04-Q13
+      type: multi
+      q: Which NEC requirements apply to multiwire branch circuits? (Select all that apply.)
+      choices:
+        - A means to simultaneously disconnect all ungrounded conductors where the circuit originates
+        - Grouping of the ungrounded and grounded conductors in the originating enclosure
+        - Neutral continuity must not depend on device terminations (pigtail the neutral)
+        - The neutral must be switched by every wall switch
+      answer: [0, 1, 2]
+      explanation: NEC 210.4(B) requires simultaneous disconnect, 210.4(D) requires grouping, and 300.13(B) requires neutral splicing independent of devices. Switching the neutral is generally prohibited (404.2(B)).
+      ref: NEC 210.4, 300.13(B)
+    - id: LT4-C04-Q14
+      type: single
+      q: Before working on the shared neutral of a three-circuit MWBC, what must you do?
+      choices:
+        - Turn off the breaker for the circuit you are working on
+        - Measure neutral current and proceed if under 5 A
+        - Lock out all circuits sharing the neutral and verify absence of voltage on every conductor, including the neutral
+        - Use insulated gloves and work it hot
+      answer: 2
+      explanation: The neutral carries current from all circuits of the MWBC. All must be locked out and the neutral verified dead before it is opened.
+      ref: OSHA 29 CFR 1910.333; NFPA 70E Article 120
+    - id: LT4-C04-Q15
+      type: single
+      q: Which statement about surge protective devices is correct?
+      choices:
+        - Lead length does not affect SPD performance
+        - Type 3 SPDs are installed on the line side of the service disconnect
+        - SPDs never wear out once installed
+        - SPDs are listed to UL 1449, covered by NEC Article 242, and work best with short, straight leads and good grounding
+      answer: 3
+      explanation: SPD performance depends on short leads and an effective grounding path; SPDs are sacrificial and should be checked. Type 3 is point-of-use.
+      ref: UL 1449; NEC Article 242

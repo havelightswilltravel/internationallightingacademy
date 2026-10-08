@@ -1,0 +1,181 @@
+code: LT2-C03
+title: Test Instruments & Measurement
+order: 3
+estimated_hours: 6
+description: >
+  Takes the technician from basic LT1 meter use to confident, safe diagnostic measurement:
+  meter categories and selection, pre-use inspection, the DMM's voltage, resistance,
+  continuity, capacitance and MIN/MAX functions, ghost voltage and LoZ mode, clamp meter
+  load and inrush measurement, and circuit tracers and breaker finders — always paired with
+  lockout and live-dead-live verification.
+objectives:
+  - Select a meter and leads with the correct CAT and voltage rating for the measurement location
+  - Inspect and function-test a meter and apply live-dead-live verification
+  - Use DMM voltage, resistance, continuity and capacitance functions correctly and recognize ghost voltage
+  - Measure load, neutral and inrush current with a true-RMS clamp meter and interpret the results
+  - Identify the breaker feeding a fixture with a circuit tracer and confirm it by lockout and verification
+lessons:
+  - 01-meter-safety-and-selection.md
+  - 02-dmm-in-depth.md
+  - 03-clamp-meters.md
+  - 04-circuit-tracers-and-breaker-finders.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C03-Q01
+      type: single
+      q: What is the minimum measurement category a meter should carry for testing inside a 277/480V lighting panelboard?
+      choices:
+        - CAT I
+        - CAT II
+        - CAT III (600 V or higher)
+        - No category is needed if the meter is rated 1000 V
+      answer: 2
+      explanation: Panelboards, feeders and permanently installed lighting are CAT III locations. The meter and leads must be rated CAT III at or above the system voltage.
+      ref: IEC/UL 61010
+    - id: LT2-C03-Q02
+      type: single
+      q: Your meter is rated CAT III 1000 V, but your test leads are marked CAT II 600 V. What is the effective rating of the setup?
+      choices:
+        - CAT III 1000 V
+        - CAT II 600 V
+        - CAT III 600 V
+        - CAT IV 600 V
+      answer: 1
+      explanation: The system is only as safe as its lowest-rated component. The leads limit the setup to CAT II 600 V, which is not acceptable for panel work.
+      ref: IEC/UL 61010
+    - id: LT2-C03-Q03
+      type: single
+      q: Which location is an example of CAT IV?
+      choices:
+        - A cord-connected desk lamp
+        - A 277 V fixture junction box
+        - A lighting panelboard
+        - The service entrance and utility meter
+      answer: 3
+      explanation: CAT IV is the origin of the installation — service entrance, utility meter and outdoor overhead lines.
+      ref: IEC/UL 61010
+    - id: LT2-C03-Q04
+      type: single
+      q: Class 00 voltage-rated rubber gloves have a maximum use voltage of
+      choices:
+        - 500 V AC
+        - 1,000 V AC
+        - 7,500 V AC
+        - 250 V AC
+      answer: 0
+      explanation: Class 00 gloves are rated for 500 V AC maximum use; Class 0 for 1,000 V AC. Air-test before each use and wear leather protectors.
+      ref: OSHA 29 CFR 1910.137; ASTM D120
+    - id: LT2-C03-Q05
+      type: single
+      q: You read 47 V AC on a disconnected switch leg with a high-impedance DMM. In LoZ mode the reading drops to 0.3 V. What is the most likely explanation?
+      choices:
+        - The switch leg is energized from a second source
+        - The meter battery is low
+        - Ghost (capacitively coupled) voltage from nearby energized conductors
+        - The neutral is open
+      answer: 2
+      explanation: Coupled voltage collapses under the low impedance of LoZ mode; a real source would hold up. Treat unexpected voltage as real until proven otherwise.
+    - id: LT2-C03-Q06
+      type: single
+      q: When is it acceptable to measure resistance with a DMM?
+      choices:
+        - Any time, as long as the meter is CAT III rated
+        - Only on de-energized, locked-out and verified components, preferably isolated from parallel paths
+        - Only on energized circuits so the reading is accurate under load
+        - Only on circuits below 50 V
+      answer: 1
+      explanation: The ohms function uses the meter's own small current. External voltage gives false readings and can damage the meter; parallel paths skew readings.
+    - id: LT2-C03-Q07
+      type: single
+      q: A fluorescent lamp end reads OL (over limit) between its two pins on the ohms function. What does this indicate?
+      choices:
+        - The cathode is open (broken)
+        - The lamp is good
+        - The lamp is an instant-start type only
+        - The meter is in the wrong jack
+      answer: 0
+      explanation: A good cathode reads a few ohms pin to pin. OL means an open circuit — a broken cathode.
+    - id: LT2-C03-Q08
+      type: single
+      q: Why should the Hold function generally be avoided when verifying absence of voltage?
+      choices:
+        - It drains the battery quickly
+        - It reduces the meter's CAT rating
+        - It makes the meter read in amps
+        - A held reading from a previous measurement can make a live circuit look dead
+      answer: 3
+      explanation: A frozen display may not reflect the conductor you are now touching. Many safety programs prohibit Hold during absence-of-voltage verification.
+    - id: LT2-C03-Q09
+      type: single
+      q: You clamp a clamp meter around both the hot and neutral of a single lighting circuit. What should you normally read?
+      choices:
+        - Double the load current
+        - The load current
+        - Near zero
+        - The voltage of the circuit
+      answer: 2
+      explanation: Equal and opposite currents cancel. A significant reading means current is returning by another path (ground fault, shared neutral, or downstream neutral-ground bond).
+    - id: LT2-C03-Q10
+      type: single
+      q: A 20 A lighting circuit on a standard breaker measures 18.5 A with all fixtures on during normal operating hours. What should you do?
+      choices:
+        - Nothing, it is under 20 A
+        - Report it; it exceeds the 80% (16 A) continuous-load threshold
+        - Replace the breaker with a 25 A breaker
+        - Remove the neutral to reduce load
+      answer: 1
+      explanation: Lighting is typically a continuous load; on a standard breaker it should not exceed 80% of the rating. Never upsize a breaker beyond what the conductors permit.
+      ref: NFPA 70 (2023) Article 210; 240.4(D)
+    - id: LT2-C03-Q11
+      type: single
+      q: Which clamp meter function helps investigate a breaker that trips only at the moment a bank of LED fixtures is switched on?
+      choices:
+        - Inrush
+        - Continuity
+        - Diode test
+        - Frequency
+      answer: 0
+      explanation: Inrush capture records the high current spike when LED drivers first energize, which can trip breakers or weld contacts.
+    - id: LT2-C03-Q12
+      type: multi
+      q: Which are good practices when taking a clamp meter reading? (Select all that apply.)
+      choices:
+        - Center the conductor in the jaw and close the jaws completely
+        - Clamp around the entire MC cable to read the circuit's load
+        - Use a true-RMS clamp on LED and electronic ballast loads
+        - Zero a Hall-effect clamp before DC measurements
+      answer: [0, 2, 3]
+      explanation: Clamping an entire cable reads near zero because hot and neutral currents cancel. Centering, full jaw closure, true-RMS and zeroing DC clamps improve accuracy.
+    - id: LT2-C03-Q13
+      type: single
+      q: After using a circuit tracer, you lock out the breaker it identified. What must you do before touching the fixture conductors?
+      choices:
+        - Nothing; the tracer has already confirmed the circuit
+        - Check with a non-contact voltage tester only
+        - Ask the customer if the lights went out
+        - Verify absence of voltage on all conductors with a tested meter (live-dead-live)
+      answer: 3
+      explanation: A tracer identifies the probable breaker; only a tested meter after lockout verifies absence of voltage. Fixtures may have second sources such as emergency feeds.
+      ref: OSHA 29 CFR 1910.333; NFPA 70E
+    - id: LT2-C03-Q14
+      type: multi
+      q: Before connecting an energized circuit tracer transmitter to a 277 V fixture circuit, what should you confirm? (Select all that apply.)
+      choices:
+        - The transmitter is rated for 277 V
+        - You have the PPE and supervision required for energized work
+        - The panel directory is accurate, so the tracer is only a formality
+        - The connection method follows the tracer manufacturer's instructions
+      answer: [0, 1, 3]
+      explanation: Many transmitters are rated 120 V only. Connecting to energized conductors is energized work. The point of tracing is that directories cannot be trusted.
+    - id: LT2-C03-Q15
+      type: single
+      q: When using the continuity method to identify a conductor on a de-energized circuit, what is the critical last step before re-energizing?
+      choices:
+        - Set the meter back to V AC
+        - Remove the jumper installed at the far end
+        - Replace the meter fuse
+        - Tape all conductors white
+      answer: 1
+      explanation: A forgotten jumper between a conductor and ground or another conductor becomes a dead short when the circuit is energized.

@@ -1,0 +1,179 @@
+code: LT1
+track: LIGHTING
+order: 1
+title: Lighting Technician I (Entry Level)
+grade: Grade 1
+typical_duration_months: 3
+description: >
+  The Lighting Technician I is an entry-level team member who works under the direct
+  supervision of a qualified technician or electrician. At this level the technician learns
+  to work safely around electrical lighting systems: recognizing hazards, wearing and
+  inspecting PPE, setting up ladders correctly, using a meter to verify absence of voltage,
+  and applying personal lockout/tagout. The LT1 performs de-energized relamping, supervised
+  ballast replacement, lamp recycling and universal-waste handling, and completes accurate
+  work orders while representing the company professionally on customer sites. An LT1 is
+  not a qualified person for energized electrical work, never performs energized repair
+  work, and verifies absence of voltage only under the direct supervision of a qualified
+  person until documented as qualified for that task. Once certified, the technician can
+  independently perform routine de-energized relamping and work-order tasks and is ready to
+  begin LT2 training in circuits, measurement, and troubleshooting.
+outcomes:
+  - Recognize common job-site and electrical hazards (shock, arc flash, falls, cuts, mercury) and stop work when conditions are unsafe
+  - Select, inspect, wear, and care for the PPE required for routine lighting service work
+  - Inspect, set up, and use stepladders and extension ladders in compliance with OSHA rules and manufacturer instructions
+  - Use a non-contact voltage tester and a CAT-rated digital multimeter correctly, including live-dead-live verification of absence of voltage
+  - Apply personal lockout/tagout to lighting circuits following the company energy control procedure
+  - Explain basic electrical quantities (volts, amps, ohms, watts) and identify common building voltages used for lighting
+  - Identify common lamp types, bases, ballasts and drivers, and perform de-energized relamping and supervised ballast replacement
+  - Handle, store, and document spent lamps, broken lamps, and ballasts as universal or regulated waste, and complete accurate work orders
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 400
+skills:
+  - code: LT1-S01
+    title: Inspect, select and don PPE for a lighting service call
+    category: Safety
+    critical: true
+    description: >
+      Selects the PPE required for a routine de-energized lighting service call, inspects
+      each item for damage, and wears it correctly for the task.
+    equipment: [hard hat (ANSI Z89.1 Class E), safety glasses (ANSI Z87.1), cut-resistant work gloves, EH-rated safety footwear, high-visibility vest, hearing protection, job hazard analysis or pre-task plan form]
+    criteria:
+      - Reviews the job hazard analysis / pre-task plan and states the PPE required for the task
+      - Inspects the hard hat shell and suspension for cracks, dents, UV chalking, and checks the date stamp
+      - Confirms the hard hat is Class E (or company-required class) and wears it correctly oriented with suspension adjusted
+      - Inspects safety glasses for cracks, deep scratches, and missing side protection; confirms Z87 marking
+      - Selects gloves appropriate to the task (cut-resistant for handling lamps and sheet metal) and inspects them for holes and wear
+      - Confirms footwear is in good condition and appropriate for the site
+      - Removes or does not wear conductive jewelry (rings, watches, metal bracelets, necklaces)
+      - Removes damaged PPE from service and reports it to the supervisor
+      - States that rubber insulating gloves and arc-rated PPE are used only by workers trained and authorized for the task, and that an LT1 never performs energized repair work
+  - code: LT1-S02
+    title: Inspect and set up stepladders and extension ladders
+    category: Safety
+    critical: true
+    description: >
+      Inspects a stepladder and an extension ladder before use, selects the correct ladder
+      for the task, and sets it up and climbs it safely.
+    equipment: [fiberglass stepladder, fiberglass extension ladder, ladder inspection tag or checklist, cones or barricade tape]
+    criteria:
+      - Reads the ladder labels and confirms the duty rating covers the worker's weight plus tools and materials
+      - Confirms the ladder has nonconductive (fiberglass) side rails for electrical work
+      - Inspects rails, rungs/steps, feet, spreaders, locks, and rope/pulley for damage, missing parts, or contamination and tags out a defective ladder
+      - Sets the stepladder fully open with spreaders locked on firm, level ground; does not use a closed stepladder leaning against a wall
+      - Sets the extension ladder at a 4:1 angle (base 1 ft out for every 4 ft of working height) with locks engaged
+      - Extends an extension ladder used for access at least 3 ft above the landing or secures it to a grab point
+      - Barricades or controls the area around the ladder base in traffic areas and doorways
+      - Maintains three points of contact, faces the ladder, and carries tools in a pouch or hoists them
+      - Does not stand on the top cap or the step below it on a stepladder (or as marked by the manufacturer) and keeps belt buckle between the rails
+      - Identifies overhead hazards and keeps the ladder and body clear of exposed energized parts and overhead lines
+  - code: LT1-S03
+    title: Verify absence of voltage with a DMM using live-dead-live
+    category: Testing
+    critical: true
+    description: >
+      Uses a CAT-rated digital multimeter to verify absence of voltage on a de-energized
+      lighting circuit, proving the meter on a known live source before and after the test.
+    equipment: [CAT III 600 V or higher digital multimeter, test leads with probe guards and shrouded connectors, proving unit or known live source, non-contact voltage tester, PPE per S01, voltage-rated gloves and other PPE required by the company electrical safety program for voltage testing]
+    criteria:
+      - Performs the test under the direct supervision of a qualified person (until documented as qualified for this task) and wears the PPE required by the company electrical safety program
+      - Inspects meter case, test leads, and probes for cracks, exposed metal, and damaged insulation
+      - Confirms the meter and leads have a CAT rating and voltage rating suitable for the circuit (CAT III 600 V minimum for building lighting circuits)
+      - Plugs leads into the correct jacks (COM and V) and selects AC voltage
+      - Tests the meter on a known live source or proving unit and gets a correct reading (first "live")
+      - Tests the de-energized circuit phase-to-neutral, phase-to-ground, and neutral-to-ground (and phase-to-phase where applicable) and reads zero / no significant voltage ("dead")
+      - Re-tests the meter on the known live source immediately after testing (second "live")
+      - States that a non-contact voltage tester alone is not acceptable for verifying absence of voltage
+      - Keeps fingers behind probe guards and uses one-hand technique where practical
+      - Reports any unexpected voltage reading immediately and stops work
+  - code: LT1-S04
+    title: Apply personal lockout/tagout to a lighting circuit
+    category: Safety
+    critical: true
+    description: >
+      Follows the company energy control procedure to isolate, lock, tag, and verify a
+      lighting branch circuit before work, then removes LOTO and restores power correctly.
+    equipment: [personal lock with single key, danger tag, breaker lockout devices (assorted), multi-lock hasp, DMM and proving unit, panel schedule, flashlight]
+    criteria:
+      - Identifies the circuit(s) feeding the work using the panel schedule and field verification, and notifies affected persons
+      - Turns fixtures off at the switch, then opens the correct breaker or disconnect (personally under direct supervision, or has a qualified person operate it) while standing to the side
+      - Applies the correct breaker lockout device so the breaker cannot be switched on
+      - Applies a personal lock and a completed danger tag (name, date, reason, contact) to the lockout device
+      - Attempts to operate the switch to confirm the fixtures do not energize (try step), then returns switch to off
+      - Verifies absence of voltage at the work location using live-dead-live
+      - Checks for additional sources (multiple circuits, emergency battery packs, generator-fed circuits) before declaring the fixture safe
+      - At job completion, removes tools, reinstalls covers, confirms all workers are clear, notifies affected persons, then removes only own lock and tag
+      - States that only the person who applied a lock may remove it, except under the company's supervised lock-removal procedure
+  - code: LT1-S05
+    title: Relamp a fluorescent fixture safely
+    category: Lighting Service
+    critical: true
+    description: >
+      Relamps a linear fluorescent troffer or strip fixture with the correct lamps after
+      de-energizing and verifying, without breaking lamps or damaging sockets.
+    equipment: [replacement lamps matching label, stepladder, DMM, cut-resistant gloves, safety glasses, lamp storage box, drop cloth]
+    criteria:
+      - Identifies the lamp type, length, wattage, base, and CCT required from the existing lamp, fixture, or ballast label
+      - De-energizes the fixture and verifies absence of voltage before opening the fixture
+      - Opens the door/lens safely, controlling it so it does not fall
+      - Removes lamps by rotating a quarter turn (bi-pin) or compressing the spring socket without forcing or striking them
+      - Inspects sockets (tombstones) for cracks, burn marks, and loose fit and reports damage
+      - Installs new lamps fully seated with pins aligned and locked in the sockets
+      - Places spent lamps intact in a labeled container for recycling
+      - Closes the fixture, restores power, and confirms all lamps light properly
+      - Cleans the work area and records lamps used on the work order
+  - code: LT1-S06
+    title: Replace a fluorescent ballast (supervised)
+    category: Lighting Service
+    critical: true
+    description: >
+      Under direct supervision, replaces a failed fluorescent ballast with a compatible
+      ballast, wiring it according to the ballast label diagram.
+    equipment: [replacement ballast, wire strippers, lineman's pliers, screwdrivers/nut driver, wire connectors (listed), DMM, LOTO kit, stepladder, PPE]
+    criteria:
+      - Applies LOTO and verifies absence of voltage before touching any conductor
+      - Checks the existing ballast label for PCB information and stops for supervisor review if the ballast is unlabeled or leaking
+      - Selects a replacement ballast that matches lamp type, number of lamps, input voltage, and start type
+      - Photographs or sketches the existing wiring before disconnecting
+      - Secures the new ballast to the fixture housing with all mounting hardware for proper grounding and heat transfer
+      - Wires the ballast exactly per its label diagram, with correct strip length and no exposed copper outside connectors
+      - Keeps conductors away from sharp edges and does not pinch wires when closing the channel cover
+      - Has the supervisor inspect the wiring before power is restored, then removes LOTO correctly and tests the fixture
+      - Handles and documents the removed ballast according to company waste procedure
+  - code: LT1-S07
+    title: Handle spent and broken lamps as universal waste
+    category: Environmental
+    critical: false
+    description: >
+      Packages, labels, stores, and documents spent mercury-containing lamps, and cleans up
+      a broken lamp using the company's broken-lamp procedure.
+    equipment: [original lamp boxes or approved recycling containers, universal waste labels, broken-lamp cleanup kit (stiff cardboard, tape, sealable bag or jar, damp wipes), marker, work order]
+    criteria:
+      - Places intact spent lamps in a closed, structurally sound container that prevents breakage
+      - Labels containers with "Universal Waste - Lamps" (or approved wording) and the accumulation start date
+      - Keeps containers closed except when adding lamps and does not tape lamps together or crush them
+      - For a broken lamp, clears people from the area, ventilates, and shuts off forced-air HVAC if possible before cleanup
+      - Picks up debris with stiff paper and tape (no vacuum or broom for the initial cleanup) and seals it in a closed container
+      - Labels and manages broken-lamp debris per company procedure and reports the breakage
+      - Records lamp count and container information for the recycling manifest or bill of lading
+  - code: LT1-S08
+    title: Complete a work order and closeout report
+    category: Professional Practice
+    critical: false
+    description: >
+      Accurately completes a work order from arrival to closeout, including customer
+      communication, findings, materials, photos, and follow-up recommendations.
+    equipment: [work order system (tablet/phone app or paper form), camera or phone, flashlight]
+    criteria:
+      - Checks in with the site contact on arrival and confirms the scope and location of work
+      - Records arrival and departure times accurately
+      - Documents the problem found using specific, factual language (location, fixture type, symptom)
+      - Records all materials used with correct quantities and part numbers
+      - Takes clear before and after photos showing the location and work performed
+      - Notes any unsafe conditions, code concerns, or additional work needed and reports them to the supervisor
+      - Reviews the completed work with the customer and obtains a signature or acknowledgment per company policy
+      - Submits the work order the same day with no missing required fields

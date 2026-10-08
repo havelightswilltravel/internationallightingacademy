@@ -1,0 +1,180 @@
+code: LT2-C01
+title: Electrical Fundamentals II
+order: 1
+estimated_hours: 6
+description: >
+  Builds on LT1 Electrical Fundamentals I to explain the AC power systems lighting runs on:
+  sine waves and RMS values, single-phase and three-phase wye systems (120/208V and
+  277/480V), the difference between the neutral and the equipment grounding conductor, and
+  an introduction to power factor and voltage drop — with the field reasoning a technician
+  needs to predict and interpret meter readings.
+objectives:
+  - Describe the AC sine wave and relate peak, RMS and frequency for U.S. systems
+  - Explain why true-RMS meters are needed for electronic lighting loads
+  - Predict line-to-line, line-to-neutral and line-to-ground voltages on 120/240V, 208Y/120V and 480Y/277V systems
+  - Distinguish the grounded (neutral) conductor from the equipment grounding conductor and explain where they are bonded
+  - Calculate fixture current using power factor and estimate voltage drop on a lighting branch circuit
+lessons:
+  - 01-ac-waveforms.md
+  - 02-single-and-three-phase-systems.md
+  - 03-neutral-vs-equipment-ground.md
+  - 04-power-factor-and-voltage-drop.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C01-Q01
+      type: single
+      q: A circuit is described as "277 volts." What does the 277 V value represent?
+      choices:
+        - The peak voltage of the sine wave
+        - The RMS (effective) voltage
+        - The peak-to-peak voltage
+        - The average voltage over a half cycle
+      answer: 1
+      explanation: Named AC voltages are RMS values. A 277 V circuit actually peaks at about 277 × 1.414 ≈ 392 V.
+    - id: LT2-C01-Q02
+      type: single
+      q: What is the approximate peak voltage of a 120 V RMS sine wave?
+      choices:
+        - 85 V
+        - 120 V
+        - 208 V
+        - 170 V
+      answer: 3
+      explanation: Peak = RMS × 1.414, so 120 × 1.414 ≈ 170 V.
+    - id: LT2-C01-Q03
+      type: single
+      q: On a 480Y/277V three-phase system, what voltage should you read between phase A and phase C?
+      choices:
+        - About 480 V
+        - About 277 V
+        - About 240 V
+        - About 554 V
+      answer: 0
+      explanation: Line-to-line voltage on a wye system is the line-to-neutral voltage × 1.732. 277 × 1.732 ≈ 480 V.
+    - id: LT2-C01-Q04
+      type: single
+      q: On a 208Y/120V panel, what voltage should you read from phase B to the neutral?
+      choices:
+        - 208 V
+        - 104 V
+        - 120 V
+        - 240 V
+      answer: 2
+      explanation: Each phase of a 208Y/120V wye system measures 120 V to neutral and 208 V phase-to-phase.
+    - id: LT2-C01-Q05
+      type: single
+      q: Why do most commercial buildings run fluorescent and LED lighting at 277 V rather than 120 V?
+      choices:
+        - 277 V lamps produce more lumens per watt than 120 V lamps
+        - Higher voltage means less current for the same load, allowing longer runs, smaller conductors and less voltage drop
+        - The NEC prohibits 120 V lighting in commercial buildings
+        - 277 V circuits do not require an equipment grounding conductor
+      answer: 1
+      explanation: For the same wattage, current falls as voltage rises, which reduces conductor size, voltage drop and the number of circuits needed.
+    - id: LT2-C01-Q06
+      type: single
+      q: Which statement about the neutral (grounded conductor) is correct?
+      choices:
+        - It carries current only during a ground fault
+        - It may be connected to the fixture housing to improve grounding
+        - It carries normal load current and can be energized relative to ground
+        - It is bonded to the equipment ground at every junction box
+      answer: 2
+      explanation: The neutral is the normal return path for load current. Opening an energized neutral can put a worker in series with the load. It is bonded to ground only at the service or separately derived system.
+      ref: NFPA 70 (2023) Article 250
+    - id: LT2-C01-Q07
+      type: single
+      q: Where are the neutral and the equipment grounding system intentionally bonded together?
+      choices:
+        - At the service disconnect (main bonding jumper) or at a separately derived system such as a transformer
+        - At every subpanel
+        - At each luminaire
+        - At the last junction box on each branch circuit
+      answer: 0
+      explanation: Bonding downstream of the service or separately derived system creates parallel paths for neutral current on grounding conductors and metal parts (objectionable current).
+      ref: NFPA 70 (2023) Article 250
+    - id: LT2-C01-Q08
+      type: single
+      q: What is the main job of the equipment grounding conductor (EGC)?
+      choices:
+        - To carry the return current from the ballast or driver
+        - To drain static electricity from lamps
+        - To provide a reference for dimming control signals
+        - To provide a low-impedance fault path so the overcurrent device trips quickly and metal parts stay near ground potential
+      answer: 3
+      explanation: The EGC carries current only during a fault, returning it to the source so the breaker opens quickly. Earth alone has too much resistance to do this.
+      ref: NFPA 70 (2023) Article 250
+    - id: LT2-C01-Q09
+      type: single
+      q: A fixture draws 0.40 A at 120 V and its real power is 38 W. What is its approximate power factor?
+      choices:
+        - 0.48
+        - 0.79
+        - 0.95
+        - 1.26
+      answer: 1
+      explanation: Apparent power = 120 × 0.40 = 48 VA. PF = W ÷ VA = 38 ÷ 48 ≈ 0.79.
+    - id: LT2-C01-Q10
+      type: single
+      q: Under the NEC, lighting that is expected to operate for 3 hours or more is considered what kind of load, and what is the practical loading limit on a standard 20 A breaker?
+      choices:
+        - Continuous load; about 16 A
+        - Intermittent load; 20 A
+        - Continuous load; 20 A
+        - Noncontinuous load; about 18 A
+      answer: 0
+      explanation: Continuous loads (3 hours or more) on a standard breaker are generally limited to 80% of its rating — 16 A on a 20 A breaker — because the circuit is sized at 125% of the continuous load.
+      ref: NFPA 70 (2023) Article 210
+    - id: LT2-C01-Q11
+      type: single
+      q: The NEC informational note on voltage drop recommends a maximum of what percentage on a branch circuit to the farthest outlet?
+      choices:
+        - 1%
+        - 3%
+        - 5%
+        - 10%
+      answer: 1
+      explanation: The informational note recommends 3% for the branch circuit and 5% total for feeder plus branch. It is a recommendation, though specifications and energy codes may make it mandatory.
+      ref: NFPA 70 (2023) Article 210 informational note
+    - id: LT2-C01-Q12
+      type: single
+      q: Using VD = 2 × K × I × L ÷ CM with K = 12.9, what is the voltage drop on a 12 AWG copper (6,530 cmil) circuit carrying 10 A for 200 ft one way?
+      choices:
+        - About 3.9 V
+        - About 15.8 V
+        - About 7.9 V
+        - About 12.0 V
+      answer: 2
+      explanation: VD = (2 × 12.9 × 10 × 200) ÷ 6,530 = 51,600 ÷ 6,530 ≈ 7.9 V.
+    - id: LT2-C01-Q13
+      type: multi
+      q: Which of the following are common symptoms of excessive voltage drop on a lighting circuit? (Select all that apply.)
+      choices:
+        - HID or fluorescent lamps slow to start, especially when cold
+        - LED drivers flickering or dropping out at the end of a long run
+        - A breaker that will not reset at all
+        - Noticeably lower voltage at the farthest fixture than at the panel when loaded
+      answer: [0, 1, 3]
+      explanation: Voltage drop starves loads at the end of a run, causing hard starting and driver dropout. A breaker that will not reset points to a fault or overload, not voltage drop.
+    - id: LT2-C01-Q14
+      type: multi
+      q: Which statements about LED drivers and electronic ballasts are true? (Select all that apply.)
+      choices:
+        - They are nonlinear loads that draw distorted current
+        - An average-responding meter may read their current inaccurately; a true-RMS meter should be used
+        - Their harmonic currents can add up on the neutral of a three-phase system
+        - They always have a power factor of exactly 1.0
+      answer: [0, 1, 2]
+      explanation: Electronic lighting loads are nonlinear, need true-RMS measurement, and can produce neutral currents from triplen harmonics. Power factor varies by product; many are high-PF (≥0.9) but none is guaranteed 1.0.
+    - id: LT2-C01-Q15
+      type: single
+      q: While testing at a fixture far from the panel with the circuit loaded, you read 277 V hot-to-neutral but nearly 0 V hot-to-ground. What does this most likely indicate?
+      choices:
+        - Normal operation
+        - Excessive voltage drop on the neutral
+        - A missing or open equipment grounding conductor, which must be reported
+        - A neutral-to-ground bond at the service
+      answer: 2
+      explanation: Hot-to-ground should read about the same as hot-to-neutral on a wye system. Near 0 V hot-to-ground means the EGC path is missing or open — a shock hazard because faults will not clear.

@@ -1,0 +1,179 @@
+code: LT3-C05
+title: Exterior, Site & Pole Lighting
+order: 5
+estimated_hours: 6
+description: >
+  Servicing exterior and site lighting: area/pole lights, wall packs and floodlights; fixture
+  photocontrols and twist-lock receptacles; pole, base and hand-hole inspection; underground
+  circuits and wet-location requirements; and locating ground faults with insulation
+  resistance testing — all with the traffic, weather and height hazards of outdoor work.
+objectives:
+  - Identify exterior fixture types, typical voltages, location ratings and distribution types
+  - Recognize a site's control scheme and use photocontrols, shorting caps and ANSI C136 receptacles correctly
+  - Inspect poles, bases and hand holes, check for contact voltage, and classify and report defects
+  - Explain wet-location and underground wiring requirements, including common NEC cover depths
+  - Locate ground faults on de-energized underground circuits using insulation resistance testing and sectionalizing
+  - Explain why the equipment grounding conductor, not a ground rod, provides the fault-current path at a pole
+lessons:
+  - 01-area-pole-lights-and-wall-packs.md
+  - 02-exterior-photocontrols-and-twist-lock-receptacles.md
+  - 03-pole-base-and-hand-hole-inspection.md
+  - 04-underground-circuits-wet-locations-and-ground-faults.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT3-C05-Q01
+      type: single
+      q: Parking lot lights are controlled by a contactor and astronomical time clock at the building. What should be installed in each fixture's twist-lock receptacle?
+      choices:
+        - A standard photocontrol rated for 120 V
+        - A shorting cap
+        - Nothing — leave the receptacle open
+        - A non-shorting (open) cap
+      answer: 1
+      explanation: When circuit power is controlled centrally, a shorting cap connects line to load so each fixture lights whenever the circuit is energized. An open receptacle exposes energized contacts and a non-shorting cap leaves the fixture off.
+    - id: LT3-C05-Q02
+      type: single
+      q: One fixture on a lot with individual photocontrols burns day and night. What is the most likely cause?
+      choices:
+        - A failed-on photocontrol or a shorting cap installed in place of the photocontrol
+        - An open equipment grounding conductor
+        - A blown pole fuse
+        - The contactor is in OFF
+      answer: 0
+      explanation: Many photocontrols fail on, and a shorting cap keeps the fixture on whenever the 24/7 circuit is energized. A blown fuse or contactor in OFF would make it dark.
+    - id: LT3-C05-Q03
+      type: single
+      q: Which standard defines the 5-pin and 7-pin locking photocontrol receptacles that add dimming contacts?
+      choices:
+        - ANSI C136.10
+        - ANSI C136.41
+        - UL 924
+        - IEC 62386
+      answer: 1
+      explanation: ANSI C136.41 adds dimming/signal contacts to the 3-pin ANSI C136.10 receptacle. UL 924 covers emergency equipment; IEC 62386 is DALI.
+    - id: LT3-C05-Q04
+      type: single
+      q: Before touching a metal light pole during a service call, what should you check for?
+      choices:
+        - The pole's paint color code
+        - Contact voltage on the pole, using a voltage tester
+        - The L70 rating of the luminaire
+        - Whether the photocontrol is facing north
+      answer: 1
+      explanation: A failed splice or conductor touching the inside of a pole without an effective ground can energize the pole. Check for voltage first; any indication is an emergency.
+    - id: LT3-C05-Q05
+      type: single
+      q: Why is a ground rod at a light pole NOT a substitute for an equipment grounding conductor run with the circuit?
+      choices:
+        - Ground rods are only for lightning protection and are never permitted at poles
+        - The earth is not an effective ground-fault current path, so a fault to the pole may not draw enough current to trip the breaker
+        - Ground rods increase voltage drop on the circuit
+        - Ground rods conduct only DC current
+      answer: 1
+      explanation: Earth resistance is too high to reliably carry enough fault current to open the overcurrent device. The EGC provides the low-impedance path back to the source; a rod is supplementary.
+      ref: NFPA 70 (2023) Article 250
+    - id: LT3-C05-Q06
+      type: single
+      q: Under NEC Table 300.5 (general locations), what is the minimum cover for direct-burial cable?
+      choices:
+        - 6 inches
+        - 12 inches
+        - 18 inches
+        - 24 inches
+      answer: 3
+      explanation: Direct-burial cables or conductors generally require 24 inches of cover. Rigid metal conduit requires 6 inches and listed nonmetallic raceway 18 inches in general locations; check the table for specific conditions.
+      ref: NFPA 70 (2023) Table 300.5
+    - id: LT3-C05-Q07
+      type: single
+      q: What is the minimum cover for PVC conduit under a parking lot per NEC Table 300.5?
+      choices:
+        - 6 inches
+        - 12 inches
+        - 18 inches
+        - 24 inches
+      answer: 3
+      explanation: For all wiring methods in or under streets, roads, driveways and parking lots, Table 300.5 requires 24 inches of cover.
+      ref: NFPA 70 (2023) Table 300.5
+    - id: LT3-C05-Q08
+      type: single
+      q: A site lighting breaker trips only after heavy rain. What is the most likely cause?
+      choices:
+        - Moisture causing leakage to ground at a flooded splice, damaged conductor insulation, or water in a luminaire
+        - A failed-on photocontrol
+        - Voltage drop on a long run
+        - Wrong distribution type on a replacement fixture
+      answer: 0
+      explanation: Weather-related trips point to moisture entering a weak point in insulation, splices or fixtures, creating a ground fault.
+    - id: LT3-C05-Q09
+      type: multi
+      q: Before performing insulation resistance testing on an underground lighting circuit, what must you do? (Select all that apply.)
+      choices:
+        - Apply LOTO and verify absence of voltage
+        - Disconnect drivers, photocontrols, SPDs and other electronic loads
+        - Leave the luminaires connected so you test the whole system at once
+        - Disconnect the conductors from the breaker or isolate them at a hand hole
+      answer: [0, 1, 3]
+      explanation: Megger tests are performed on de-energized, isolated conductors. Electronic loads must be disconnected — the test voltage can damage them and they distort the reading.
+    - id: LT3-C05-Q10
+      type: single
+      q: An insulation resistance test from the panel shows near zero megohms on a hot conductor of a 10-pole run. What is the most efficient next step?
+      choices:
+        - Replace all conductors on the entire run
+        - Open the circuit at a hand hole near the middle and test each direction to find which half contains the fault
+        - Re-energize the circuit to see whether the fault burns clear
+        - Drive a new ground rod at every pole
+      answer: 1
+      explanation: Sectionalizing (half-splitting) at hand holes quickly narrows the fault. Re-energizing onto a fault is dangerous; replacing everything wastes time and money.
+    - id: LT3-C05-Q11
+      type: single
+      q: What type of splice is appropriate for conductors in a pole hand hole that can get wet?
+      choices:
+        - Standard twist-on wire connectors wrapped in vinyl tape
+        - A splice kit or connector listed for wet locations or direct burial as the location requires
+        - Crimp butt splices with no insulation
+        - Solder and tape only
+      answer: 1
+      explanation: Hand holes and underground enclosures are wet locations. Splices must be listed for wet/direct-burial use (e.g., gel-filled or heat-shrink kits).
+    - id: LT3-C05-Q12
+      type: multi
+      q: Which pole inspection findings should be treated as immediate hazards requiring you to make the area safe and notify the customer before leaving? (Select all that apply.)
+      choices:
+        - Voltage detected on the pole
+        - Missing hand-hole cover with exposed conductors
+        - Luminaire hanging loose from the arm
+        - Faded paint on the pole
+      answer: [0, 1, 2]
+      explanation: Contact voltage, exposed conductors and a falling luminaire can injure people immediately. Faded paint is a routine finding.
+    - id: LT3-C05-Q13
+      type: single
+      q: Why are in-line fuses commonly installed in each pole's hand hole?
+      choices:
+        - To allow a fault in one luminaire or its tap to clear without tripping the branch breaker for the whole run
+        - To replace the need for a branch circuit breaker
+        - To provide dimming control
+        - To protect against lightning strikes on the pole
+      answer: 0
+      explanation: Pole fusing isolates a single fixture's fault, keeping the rest of the circuit lit and making troubleshooting easier.
+    - id: LT3-C05-Q14
+      type: single
+      q: You are replacing a forward-throw (IES Type IV) area light on a pole at the property line. Which replacement choice is best?
+      choices:
+        - Any LED fixture with the same wattage
+        - A Type V symmetric fixture to light more area
+        - A fixture with the same (Type IV) distribution and cutoff/shielding, listed for wet locations
+        - A floodlight tilted up to throw light further
+      answer: 2
+      explanation: Matching distribution, cutoff and location rating prevents light trespass and dark spots and complies with local ordinances. Tilting fixtures up increases glare.
+    - id: LT3-C05-Q15
+      type: single
+      q: Why must you call 811 before excavating to repair an underground lighting circuit — and what limitation should you remember?
+      choices:
+        - It is optional; 811 only locates gas lines
+        - It is required by state law to locate utility-owned lines, but private site lighting circuits are often not marked, so use site drawings or a private locator too
+        - 811 marks all private circuits on a property automatically
+        - 811 is only needed when digging deeper than 6 feet
+      answer: 1
+      explanation: State laws require a locate request before digging. Utility locators mark their own facilities; privately owned site wiring usually requires drawings or a private locating service.
+      ref: OSHA 29 CFR 1926 Subpart P (Excavations)

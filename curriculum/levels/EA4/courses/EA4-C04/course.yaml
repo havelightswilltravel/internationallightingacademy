@@ -1,0 +1,191 @@
+code: EA4-C04
+title: PLCs & Building Automation
+order: 4
+estimated_hours: 12
+description: >
+  Programmable logic controller fundamentals, discrete and analog I/O wiring, ladder logic
+  programming with contacts, coils, timers, and counters, and integration of electrical and
+  lighting equipment into building automation systems using BACnet and Modbus. Apprentices
+  learn to wire sinking and sourcing devices, scale analog signals, write and troubleshoot simple
+  programs, wire RS-485 field networks, and size Class 2 control power, always isolating energy
+  at the equipment rather than relying on control logic.
+objectives:
+  - Describe the PLC scan cycle and identify PLC hardware components
+  - Wire sinking and sourcing discrete inputs and outputs and select output types for a load
+  - Scale 4–20 mA and 0–10 V analog signals and recognize fault values
+  - Read and write ladder logic using XIC, XIO, OTE, seal-in circuits, timers, and counters, including fail-safe stop wiring
+  - Describe BAS architecture and the BACnet and Modbus protocols, and wire RS-485 field buses correctly
+  - Apply Class 2 and lockout/tagout requirements to PLC and BAS work
+lessons:
+  - 01-plc-fundamentals-and-io-wiring.md
+  - 02-ladder-logic-programming.md
+  - 03-building-automation-integration.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA4-C04-Q01
+      type: single
+      q: What is the correct order of a PLC scan cycle?
+      choices:
+        - Execute program, read inputs, update outputs
+        - Read inputs, execute program, update outputs
+        - Update outputs, read inputs, execute program
+        - Read inputs, update outputs, execute program
+      answer: 1
+      explanation: The PLC reads the inputs into the input image table, solves the program, then writes the output image table to the outputs, followed by housekeeping.
+      ref: PLC fundamentals
+    - id: EA4-C04-Q02
+      type: single
+      q: A PNP (sourcing) three-wire proximity sensor should be connected to which type of DC input module?
+      choices:
+        - Sourcing input
+        - Analog input
+        - Sinking input
+        - Triac input
+      answer: 2
+      explanation: A sourcing device supplies current and must be paired with a sinking input, which returns current to 0 V.
+      ref: PLC I/O wiring practice
+    - id: EA4-C04-Q03
+      type: single
+      q: Which PLC output type can switch only DC loads?
+      choices:
+        - Transistor
+        - Relay
+        - Triac
+        - Dry contact
+      answer: 0
+      explanation: Transistor outputs switch DC only. Triacs switch AC only, and relay outputs can switch either within their rating.
+      ref: PLC output modules
+    - id: EA4-C04-Q04
+      type: single
+      q: A level transmitter is scaled 0–20 ft = 4–20 mA. The signal reads 8 mA. What is the level?
+      choices:
+        - 8 ft
+        - 4 ft
+        - 10 ft
+        - 5 ft
+      answer: 3
+      explanation: (8 − 4) ÷ 16 = 0.25; 0.25 × 20 ft = 5 ft.
+      ref: Analog signal scaling
+    - id: EA4-C04-Q05
+      type: single
+      q: An analog input wired for 4–20 mA reads 0 mA. What is the most likely cause?
+      choices:
+        - The process is at exactly zero
+        - The process is at 50% of span
+        - An open circuit or failed transmitter
+        - The shield is grounded at one end
+      answer: 2
+      explanation: 4 mA represents zero process value (live zero). A reading below 4 mA, especially 0 mA, indicates a broken wire or failed device.
+      ref: Analog signal practice
+    - id: EA4-C04-Q06
+      type: single
+      q: A normally closed stop pushbutton is wired to a PLC input. Which instruction should be used for it in a seal-in motor rung?
+      choices:
+        - XIO
+        - OTE
+        - OTL
+        - XIC
+      answer: 3
+      explanation: The NC button holds the input bit at 1 when not pressed. An XIC is true while the bit is 1, so the rung runs; pressing stop makes the bit 0 and the rung drops out. A broken wire also stops the motor (fail-safe).
+      ref: Ladder logic fundamentals
+    - id: EA4-C04-Q07
+      type: single
+      q: Why are stop buttons and overload contacts wired normally closed to PLC inputs?
+      choices:
+        - So that a broken wire or loose terminal stops the machine
+        - Because normally open contacts cannot be used on PLCs
+        - To reduce the scan time
+        - To allow the PLC to use fewer outputs
+      answer: 0
+      explanation: Wiring stops normally closed is fail-safe; loss of the signal causes a stop rather than leaving the machine unstoppable.
+      ref: NFPA 79 principles; control wiring practice
+    - id: EA4-C04-Q08
+      type: single
+      q: In a seal-in rung, which instruction is placed in parallel with the start pushbutton?
+      choices:
+        - An XIO of the stop button
+        - An XIC of the output's own bit
+        - A TON timer
+        - An OTU of the output
+      answer: 1
+      explanation: An XIC of the motor output bit in parallel with the start button keeps the rung true after the start button is released.
+      ref: Ladder logic fundamentals
+    - id: EA4-C04-Q09
+      type: single
+      q: Which timer keeps its done bit set for the preset time after its rung goes false?
+      choices:
+        - TON
+        - RTO
+        - TOF
+        - CTU
+      answer: 2
+      explanation: An off-delay timer (TOF) delays turning off; its done bit stays set for the preset time after the rung goes false.
+      ref: Ladder logic timers
+    - id: EA4-C04-Q10
+      type: single
+      q: A timer has a preset of 500 and a time base of 0.01 s. How long is the delay?
+      choices:
+        - 500 s
+        - 50 s
+        - 0.5 s
+        - 5 s
+      answer: 3
+      explanation: 500 × 0.01 s = 5 s.
+      ref: Ladder logic timers
+    - id: EA4-C04-Q11
+      type: multi
+      q: Which are correct RS-485 (BACnet MS/TP or Modbus RTU) wiring practices? (Select all that apply.)
+      choices:
+        - Daisy-chain devices without star connections
+        - Ground the shield at every device
+        - Install termination resistors at both physical ends of the segment
+        - Maintain consistent polarity at every device
+      answer: [0, 2, 3]
+      explanation: RS-485 buses are daisy-chained, terminated at each end, and wired with consistent polarity. The shield is grounded at one point only to avoid ground loops.
+      ref: RS-485 / BACnet MS/TP installation practice
+    - id: EA4-C04-Q12
+      type: single
+      q: Which protocol is published as ASHRAE Standard 135 and is the dominant open protocol for building automation?
+      choices:
+        - BACnet
+        - Modbus
+        - DMX512
+        - Zigbee
+      answer: 0
+      explanation: BACnet is defined by ASHRAE Standard 135 and is widely used for building automation in IP and MS/TP forms.
+      ref: ASHRAE 135
+    - id: EA4-C04-Q13
+      type: single
+      q: Eight actuators at 9 VA each and a controller at 12 VA are powered from one 24-V AC transformer. What minimum Class 2 transformer rating is needed?
+      choices:
+        - 50 VA
+        - 75 VA
+        - 100 VA
+        - 150 VA
+      answer: 2
+      explanation: 8 × 9 + 12 = 84 VA. A 100-VA Class 2 transformer is the smallest listed standard size above 84 VA and remains within the Class 2 limit.
+      ref: 2023 NEC Article 725; Chapter 9 power source limits
+    - id: EA4-C04-Q14
+      type: single
+      q: Before working on a fan motor controlled by the BAS, what provides energy isolation?
+      choices:
+        - Placing the BAS point in manual off
+        - Disabling the schedule
+        - Removing the controller's network cable
+        - Lockout/tagout at the motor disconnect with verification of absence of voltage
+      answer: 3
+      explanation: Software overrides and schedule changes are not energy-isolating devices. Lockout/tagout must be applied at the disconnect and absence of voltage verified.
+      ref: OSHA 29 CFR 1910.147 / 1910.333; NFPA 70E
+    - id: EA4-C04-Q15
+      type: single
+      q: A current switch mounted on a fan motor conductor and wired to a BAS digital input is used to provide what?
+      choices:
+        - Overload protection
+        - Proof of operation (fan status)
+        - Speed control
+        - Ground-fault protection
+      answer: 1
+      explanation: A current switch closes when current flows, proving the motor is actually running. It does not protect the motor.
+      ref: BAS field device practice

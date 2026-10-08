@@ -1,0 +1,166 @@
+code: EA2
+track: ELECTRICAL
+order: 2
+title: Electrical Apprentice II
+grade: Apprentice Grade 2
+typical_duration_months: 12   # guidance only — advancement is by demonstrated competence
+description: >
+  The Electrical Apprentice II works under the direct supervision of a licensed journeyman or
+  master electrician on commercial and light-industrial projects. Building on EA1 (DC theory,
+  NEC navigation, conduit bending, residential devices and construction safety), the EA2
+  apprentice learns the AC theory behind real loads, how grounding and bonding create a safe
+  fault-current path, how to size conductors and overcurrent devices using the NEC ampacity
+  tables with correction and adjustment, how to install and support commercial wiring methods
+  (EMT, MC, RMC, PVC) with correct box and raceway fill, and how to read commercial drawing sets,
+  one-line and riser diagrams and specifications. Once certified, an EA2 can lay out and install
+  a commercial branch-circuit or small feeder run from the drawings, perform the supporting code
+  calculations for supervisor review, and install and inspect a grounding electrode system.
+  All code references are to the 2023 NEC (NFPA 70); the edition adopted by the local Authority
+  Having Jurisdiction (AHJ) governs. Content is DRAFT until reviewed by a licensed electrician/SME.
+outcomes:
+  - Calculate inductive and capacitive reactance, impedance, real/reactive/apparent power and power factor, and size power factor correction capacitance for a given load
+  - Explain the purpose of grounding versus bonding and trace the effective ground-fault current path from a fault back to the source
+  - Identify, install and inspect the components of a grounding electrode system and size grounding electrode conductors and equipment grounding conductors from the NEC tables
+  - Select conductor size from Table 310.16 applying termination temperature limits, ambient temperature correction and more-than-three-current-carrying-conductor adjustment
+  - Select overcurrent protective devices for continuous and non-continuous loads, including small-conductor and next-size-up rules
+  - Install and support EMT, MC cable, RMC and PVC to NEC and project-specification requirements, including box-fill and conduit-fill calculations
+  - Read commercial electrical drawings, one-line and riser diagrams, panel schedules and Division 26 specifications and use them to lay out work in the field
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 1600
+skills:
+  - code: EA2-S01
+    title: Install and inspect a grounding electrode system
+    category: Grounding & Bonding
+    critical: true
+    description: >
+      Install (or inspect an existing) service grounding electrode system including rod electrodes,
+      water-pipe and concrete-encased electrode connections, and size and terminate the grounding
+      electrode conductor, under supervision.
+    equipment: [ground rods, listed ground clamps, irreversible or exothermic connectors (if specified), rotary hammer with ground rod driver, GEC wire, NEC 2023 code book, PPE, LOTO kit, voltage tester]
+    criteria:
+      - Confirms service equipment is de-energized or works only on parts not exposed to energized conductors, and applies LOTO where required
+      - Identifies every grounding electrode present at the building that must be bonded together into the system
+      - Sizes the grounding electrode conductor from Table 250.66 based on the service-entrance conductor size and states the applicable limits for rod and concrete-encased electrode connections
+      - Drives rod electrodes to full required depth with the top flush with or below grade (or protected), and spaces a supplemental rod at least 6 ft from the first
+      - Uses only connectors listed for the electrode material and for direct burial where buried
+      - Makes the water-pipe connection in the location required and installs bonding jumpers around meters, filters and unions likely to be disconnected
+      - Routes and protects the GEC so it is continuous (or spliced only by permitted methods) and secured, with any metal enclosure bonded at both ends
+      - Verifies all connections are tight and accessible where required, and documents the installation for inspection
+  - code: EA2-S02
+    title: Select conductor ampacity with correction and adjustment
+    category: Code Calculations
+    critical: false
+    description: >
+      Given a load schedule and installation conditions, select the conductor size and OCPD for
+      a branch circuit and a small feeder, showing every step for supervisor review.
+    equipment: [NEC 2023 code book, calculator, worksheet, project panel schedule]
+    criteria:
+      - Identifies continuous and non-continuous loads and applies 125% to the continuous portion
+      - Selects the correct column of Table 310.16 for the conductor insulation and checks the termination temperature limit
+      - Applies the correct ambient temperature correction factor for the stated ambient
+      - Counts current-carrying conductors correctly (including neutral where required) and applies the correct adjustment factor
+      - Verifies the corrected ampacity is not less than the load and that the OCPD properly protects the conductor
+      - Applies the small-conductor limits for 14, 12 and 10 AWG copper and the next-size-up rule only where permitted
+      - Selects a standard OCPD rating and the matching minimum equipment grounding conductor from Table 250.122
+      - Presents a clean, legible calculation that a supervisor can check line-by-line
+  - code: EA2-S03
+    title: Calculate and apply box fill on an installation
+    category: Wiring Methods
+    critical: false
+    description: >
+      Calculate box fill for several boxes on an actual install and select boxes and extension
+      or plaster rings that comply before rough-in.
+    equipment: [NEC 2023 code book, calculator, assortment of device, square and octagon boxes, plaster rings, cable clamps, devices]
+    criteria:
+      - Counts each conductor entering the box correctly, including unbroken loops and conductors passing through
+      - Applies the allowance for internal cable clamps, support fittings and each device yoke using the largest conductor involved
+      - Applies the equipment grounding conductor allowance correctly
+      - Excludes conductors that are not counted (such as pigtails wholly within the box and permitted fixture wires)
+      - Uses Table 314.16(B) volumes and Table 314.16(A) or marked box/ring volumes correctly
+      - Selects a box (and ring) whose total volume equals or exceeds the calculated requirement
+      - Installs the box so conductors are not crowded and devices seat without forcing
+  - code: EA2-S04
+    title: Calculate conduit fill and plan a conductor pull
+    category: Wiring Methods
+    critical: false
+    description: >
+      Determine the minimum raceway size for a set of conductors and plan the pull, including
+      bend count and pull-point locations.
+    equipment: [NEC 2023 code book (Chapter 9 Tables 1, 4, 5 and Annex C), calculator, project drawings, fish tape or pull line, wire lubricant]
+    criteria:
+      - Identifies the correct fill percentage from Chapter 9 Table 1 for the number of conductors
+      - Looks up conductor areas in Chapter 9 Table 5 for the actual insulation type and sizes
+      - Includes the equipment grounding conductor in the fill calculation
+      - Selects the smallest raceway trade size whose permitted fill area equals or exceeds the total from Chapter 9 Table 4 for that raceway type
+      - Verifies the run has no more than 360 degrees of bends between pull points
+      - Sizes any pull box for conductors 4 AWG and larger using the straight-pull and angle-pull rules
+      - Identifies when Annex C may be used directly (all conductors the same size and type)
+  - code: EA2-S05
+    title: Install and support an EMT branch-circuit run
+    category: Wiring Methods
+    critical: false
+    description: >
+      Install a multi-box EMT run including bends, offsets and fittings, secured and supported
+      per the NEC and project specifications.
+    equipment: [EMT and fittings, hand bender, hacksaw or band saw, reamer, straps and supports, level, tape measure, PPE, NEC 2023 code book]
+    criteria:
+      - Selects fittings appropriate to the location (e.g., raintight compression fittings in wet locations)
+      - Cuts square, reams every cut end and removes burrs
+      - Secures tubing within 3 ft of each box, cabinet, conduit body or termination and supports at intervals not exceeding 10 ft
+      - Keeps total bends between pull points at 360 degrees or less
+      - Produces bends and offsets that are free of kinks and within the evaluator's dimensional tolerance
+      - Tightens every fitting so the raceway remains electrically continuous as an equipment grounding conductor
+      - Supports the raceway from the building structure, not from ceiling grid support wires or other trades' systems unless permitted
+      - Leaves the job site clean with no damaged tubing left in the run
+  - code: EA2-S06
+    title: Install and support MC cable in a commercial ceiling
+    category: Wiring Methods
+    critical: false
+    description: >
+      Install MC cable branch circuits and luminaire whips above an accessible ceiling, terminate
+      them with listed fittings, and provide the required equipment grounding path.
+    equipment: [MC cable, armor cutter, listed MC connectors, anti-short bushings where required, cable supports, ceiling support wire and fasteners, PPE]
+    criteria:
+      - Identifies whether the MC armor is listed as an equipment grounding conductor or whether the insulated EGC must be used and terminated
+      - Cuts the armor without nicking conductors and installs any required anti-short bushing
+      - Uses fittings listed for the type of MC cable
+      - Secures and supports the cable within the required distances from boxes and at intervals not exceeding the NEC maximum
+      - Respects the minimum bending radius of the cable
+      - Uses independent support means, distinguishable where required, rather than ceiling grid wires
+      - Limits unsupported luminaire whip lengths to what the NEC permits
+  - code: EA2-S07
+    title: Verify equipment grounding and bonding continuity
+    category: Grounding & Bonding
+    critical: true
+    description: >
+      Verify the equipment grounding path of a de-energized branch circuit or feeder using a
+      low-resistance ohmmeter or DMM after confirming absence of voltage.
+    equipment: [DMM or low-resistance ohmmeter with leads, voltage tester and proving unit, LOTO kit, PPE, circuit identification tags]
+    criteria:
+      - Applies LOTO and verifies absence of voltage using live-dead-live before testing
+      - Explains why continuity testing must be done de-energized
+      - Zeroes or nulls the test leads before measurement
+      - Measures from the device or enclosure grounding point back to the panel equipment grounding bus and records the value
+      - Identifies loose fittings, missing bonding jumpers or open EGCs from abnormal readings
+      - Confirms no neutral-to-ground connection exists downstream of the service disconnect or separately derived system bonding point
+      - Restores the circuit following the LOTO removal procedure and documents results
+  - code: EA2-S08
+    title: Read and verify a one-line diagram on site
+    category: Print Reading
+    critical: true
+    description: >
+      Using the project one-line and riser diagrams, trace the distribution system from the
+      service to a designated panelboard and verify equipment labels and ratings in the field.
+    equipment: [project drawing set, one-line and riser diagrams, panel schedules, flashlight, PPE appropriate for the area, notebook or tablet]
+    criteria:
+      - Identifies the service, main disconnect, distribution equipment, transformers and panelboards on the one-line
+      - Reads OCPD ratings, conductor and raceway designations and transformer kVA and voltage from the drawing
+      - Locates the corresponding equipment in the field and matches nameplate and label data to the drawing
+      - Does not open energized equipment or cross arc-flash boundaries without authorization and appropriate PPE
+      - Identifies the source of a designated panel and the upstream device that feeds it
+      - Notes any discrepancy between drawings and field conditions and reports it for an RFI or as-built mark-up

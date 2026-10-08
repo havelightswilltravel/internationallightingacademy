@@ -1,0 +1,166 @@
+code: LT2
+track: LIGHTING
+order: 2
+title: Lighting Technician II
+grade: Grade 2
+typical_duration_months: 6    # guidance only — advancement is by demonstrated competence
+description: >
+  A Lighting Technician II has moved beyond relamping and supervised ballast swaps. At this
+  level the technician understands the building power systems lighting runs on (120/208V and
+  277/480V wye), reads panel schedules and lighting plans, uses a DMM and clamp meter
+  confidently and safely on branch circuits and panelboards, services fluorescent and HID
+  systems, performs code-conscious LED retrofits (including Type B ballast-bypass
+  conversions with proper labeling), and diagnoses a non-working fixture with a systematic,
+  documented method. An LT2 works independently on routine lighting service calls and under
+  the direction of a qualified lead or supervisor on anything involving energized panelboard
+  work.
+outcomes:
+  - Explain single-phase and three-phase wye systems and predict the voltage between any two conductors on a 120/208V or 277/480V system
+  - Distinguish the grounded (neutral) conductor from the equipment grounding conductor and explain why they are bonded only at the service or a separately derived system
+  - Read a panel schedule, identify branch-circuit components and conductor colors, and make code-conscious splices and fixture whip connections
+  - Select an appropriately rated meter and safely measure voltage, current, resistance and continuity on lighting branch circuits and panelboards
+  - Identify fluorescent ballast starting methods and HID ballast/ignitor/capacitor components and diagnose their common failures
+  - Perform UL Type A, B and C TLED and retrofit-kit installations per manufacturer instructions, including socket selection and required labeling
+  - Troubleshoot a non-working fixture or circuit using a systematic method (verify, isolate, half-split, repair, verify the fix, document)
+  - Locate fixtures, controls and circuits from a lighting plan, fixture schedule and panel schedule
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 900
+skills:
+  - code: LT2-S01
+    title: Safely measure voltage on a three-phase lighting panelboard
+    category: Safety
+    critical: true
+    description: >
+      Under the supervision of a qualified person and the company electrical safety program,
+      measure line-to-line and line-to-neutral voltages on a 120/208V or 277/480V panelboard
+      and record the readings.
+    equipment: [CAT III 600V (or higher) rated DMM with intact leads and probe guards, known voltage source or proving unit, arc-rated clothing and face shield per the equipment label, voltage-rated gloves with leather protectors, safety glasses, hearing protection, insulated hand tools]
+    criteria:
+      - Reads the arc-flash/equipment label (or uses the company PPE table) and states the required PPE and the approach boundaries before opening the panel
+      - Inspects meter, leads and gloves (including glove air test) and confirms the meter CAT/voltage rating meets or exceeds the panel
+      - Dons all required PPE correctly before removing the cover or opening the dead-front door
+      - Verifies meter operation on a known source before and after measuring (live-dead-live)
+      - Measures and records all three line-to-line and all three line-to-neutral voltages plus line-to-ground for each phase
+      - Keeps one hand clear where practical, keeps body parts outside the restricted approach boundary except probe tips, and uses probe guards
+      - Correctly states whether readings are within roughly ±5% of nominal and identifies any abnormal reading
+      - Replaces covers and fasteners, leaves the panel in a safe condition, and reports results on the work order
+  - code: LT2-S02
+    title: Identify and trace a lighting branch circuit to its breaker
+    category: Electrical
+    critical: true
+    description: >
+      Use a circuit tracer or breaker finder and the panel schedule to identify the breaker
+      feeding a given fixture or switch leg, then confirm it with a de-energize-and-verify test.
+    equipment: [circuit tracer / breaker finder (transmitter and receiver), DMM, non-contact voltage tester, lockout devices and tags, panel schedule, ladder]
+    criteria:
+      - Reviews the panel schedule and lighting plan for a likely circuit before testing
+      - Connects the tracer transmitter per the manufacturer's instructions for energized or de-energized use
+      - Identifies the correct breaker using the receiver and does not rely on the directory alone
+      - Applies lock and tag to the identified breaker per the company LOTO procedure
+      - Verifies absence of voltage at the fixture with a tested meter (live-dead-live), including checking for a second source or shared neutral
+      - Corrects or flags an inaccurate panel directory entry
+      - Restores power, confirms the fixture operates, and documents the circuit number on the work order
+  - code: LT2-S03
+    title: Convert a fluorescent luminaire with a UL Type B (ballast-bypass) TLED retrofit
+    category: LED Retrofit
+    critical: true
+    description: >
+      Remove the ballast, rewire the sockets for the specified single- or double-ended Type B
+      lamp per the retrofit kit instructions, install lamps, and apply the required labels.
+    equipment: [listed Type B retrofit kit/lamps with instructions, replacement non-shunted sockets as required, listed wire connectors, DMM with continuity, wire strippers, screwdrivers, lockout devices, ladder, labels supplied with kit]
+    criteria:
+      - Locks out the circuit and verifies absence of voltage at the fixture before opening the wireway (live-dead-live)
+      - Reads and states the kit's wiring diagram, including single- vs double-ended and socket type required
+      - Checks existing sockets for shunted/non-shunted construction with a continuity test and replaces them when required
+      - Removes the ballast, handles it per waste rules (checks for "No PCBs" marking on older ballasts), and caps or removes abandoned leads
+      - Makes all splices with listed connectors, no exposed copper, and routes conductors away from sharp edges and heat
+      - Applies the kit's labels in the required visible locations (modified luminaire / line voltage at lampholders / do not install fluorescent lamps)
+      - Restores power and verifies all lamps light and the fixture operates from its normal control
+      - Records the conversion (fixture location, kit used) on the work order
+  - code: LT2-S04
+    title: Replace an HID ballast, capacitor and ignitor
+    category: Lighting Systems
+    critical: true
+    description: >
+      Diagnose and replace the ballast components of a metal halide or high-pressure sodium
+      fixture, matching the lamp ANSI code and supply voltage.
+    equipment: [replacement ballast kit matched to lamp ANSI code and voltage, DMM with capacitance function, insulated screwdriver or discharge tool, lockout devices, listed connectors, ladder or authorized MEWP, safety glasses, gloves]
+    criteria:
+      - Locks out and verifies absence of voltage before opening the ballast compartment
+      - Discharges the capacitor safely with an insulated tool or resistor before handling it
+      - Confirms the replacement ballast matches lamp type, wattage, ANSI code and supply voltage tap
+      - Tests the old capacitor (capacitance within its marked tolerance) and identifies the failed component
+      - Wires the ballast per its diagram, using the correct voltage tap and insulating unused taps individually
+      - Mounts the ballast, capacitor and ignitor securely with heat-producing parts clear of wiring
+      - Restores power, observes normal lamp start and warm-up, and explains restrike delay to the customer
+      - Documents components replaced and readings taken
+  - code: LT2-S05
+    title: Systematically troubleshoot a non-working fixture
+    category: Troubleshooting
+    critical: true
+    description: >
+      Given a fixture that does not light, use the company troubleshooting method to find and
+      correct the cause and verify the repair.
+    equipment: [DMM, non-contact voltage tester, known-good lamp, lockout devices, ladder, basic hand tools, work order]
+    criteria:
+      - Gathers information from the customer/work order and verifies the complaint personally
+      - States a test plan that checks easy and likely causes first and identifies which steps are energized
+      - Uses appropriate PPE and live-dead-live verification for every energized measurement and LOTO for every repair step
+      - Measures supply voltage at the fixture and correctly interprets the reading
+      - Isolates the fault to a component (lamp, ballast/driver, socket, connection, switch/control, or supply) using measurements, not guesswork
+      - Changes one variable at a time and does not replace parts without evidence
+      - Verifies the repair by operating the fixture from its normal control and checking nearby fixtures on the same circuit
+      - Documents symptom, cause, repair and readings on the work order
+  - code: LT2-S06
+    title: Locate fixtures, controls and circuits from a lighting plan
+    category: Print Reading
+    critical: false
+    description: >
+      Use a lighting plan, symbol legend, fixture schedule and panel schedule to find specific
+      fixtures and controls in the field and identify their circuit and panel.
+    equipment: [lighting plan set, fixture schedule, panel schedules, architectural scale or scale app, flashlight]
+    criteria:
+      - Identifies the title block, sheet number, scale, revision and north arrow
+      - Uses the legend to interpret fixture type tags, switch/sensor symbols and emergency fixture notation
+      - Finds three assigned fixtures in the field and states each one's type from the fixture schedule
+      - Identifies the panel and circuit for each assigned fixture from homerun notations
+      - Matches the circuit to the panel schedule and states the breaker size, poles and phase
+      - Identifies any discrepancy between the drawing and field conditions and reports it
+  - code: LT2-S07
+    title: Install a fixture whip and make branch-circuit splices
+    category: Wiring
+    critical: true
+    description: >
+      Install a manufactured or field-made fixture whip from a junction box to a luminaire and
+      make all splices and terminations to a professional, code-conscious standard.
+    equipment: [fixture whip (FMC or MC) or materials, listed connectors and fittings, wire strippers, lineman's pliers, screwdrivers, DMM, lockout devices, ladder]
+    criteria:
+      - Locks out and verifies absence of voltage at the junction box before starting
+      - Uses conductors of a size, type and temperature rating appropriate for the circuit and fixture
+      - Secures the whip with listed fittings at both ends, with bushings or anti-short protection where required
+      - Leaves adequate free conductor length in the box and does not overfill it
+      - Strips to the connector manufacturer's length and makes splices with no exposed copper and a pull test on each conductor
+      - Maintains color coding and terminates the equipment grounding conductor to the fixture and box
+      - Installs box covers and supports the fixture independently as required
+      - Restores power and verifies operation and correct switching
+  - code: LT2-S08
+    title: Measure branch-circuit load and verify a panel schedule
+    category: Measurement
+    critical: true
+    description: >
+      Use a clamp meter to measure load current on lighting branch circuits and the neutral,
+      compare it with the panel schedule and breaker rating, and record findings.
+    equipment: [CAT III rated true-RMS clamp meter, PPE per equipment label, panel schedule, work order]
+    criteria:
+      - Confirms PPE and approach requirements for the panel before opening it
+      - Selects the correct clamp meter function and range and verifies the meter is true-RMS for electronic lighting loads
+      - Clamps around a single conductor only and centers the conductor in the jaw
+      - Measures and records current on each assigned circuit and the associated neutral
+      - Compares measured load to the breaker rating and flags any circuit above 80% of rating for a continuous lighting load
+      - Identifies an unbalanced or unexpectedly high neutral reading and reports it to the lead
+      - Leaves the panel closed and safe and records results on the work order

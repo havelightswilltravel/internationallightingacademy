@@ -1,0 +1,184 @@
+code: LT1-C01
+title: Orientation, Safety Culture & PPE
+order: 1
+estimated_hours: 6
+description: >
+  Introduces new lighting technicians to the company's safety culture and the hazards of
+  lighting work. Covers hazard recognition and pre-task planning, OSHA basics and worker
+  rights, incident and near-miss reporting, PPE selection and inspection, and awareness-level
+  training on electrical shock and arc flash based on NFPA 70E.
+objectives:
+  - Explain stop-work authority and the hierarchy of controls
+  - Identify common hazards on lighting jobs and complete a pre-task plan
+  - Distinguish OSHA general industry (1910) and construction (1926) standards and describe worker rights
+  - Report injuries, shocks, property damage, and near misses correctly and promptly
+  - Select, inspect, wear, and care for standard PPE for lighting service work
+  - Describe the effects of electric shock and arc flash and the NFPA 70E approach boundaries that apply to unqualified persons
+lessons:
+  - 01-safety-culture-and-hazard-recognition.md
+  - 02-osha-basics-and-incident-reporting.md
+  - 03-ppe-selection-and-inspection.md
+  - 04-shock-and-arc-flash-awareness.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C01-Q01
+      type: single
+      q: In the hierarchy of controls, which option is the MOST effective way to protect a technician from shock when servicing a light fixture?
+      choices:
+        - Wearing insulated gloves
+        - Posting a warning sign at the panel
+        - De-energizing the circuit and locking it out
+        - Having a coworker watch while you work
+      answer: 2
+      explanation: Elimination of the hazard (de-energizing and locking out) is at the top of the hierarchy of controls. PPE and administrative controls are less effective.
+      ref: NFPA 70E (risk control hierarchy)
+    - id: LT1-C01-Q02
+      type: single
+      q: A new LT1 notices a coworker about to work on a fixture without testing it first. What should the LT1 do?
+      choices:
+        - Use stop-work authority, calmly state the concern, and involve the supervisor if needed
+        - Say nothing because the coworker has more experience
+        - Mention it at next week's safety meeting
+        - Leave the area so they are not involved
+      answer: 0
+      explanation: Every employee has the authority and duty to stop work when they see an unsafe act. Experience does not make skipping a test safe.
+    - id: LT1-C01-Q03
+      type: single
+      q: Which OSHA standard generally covers routine maintenance work such as relamping in an existing building?
+      choices:
+        - 29 CFR 1926 (Construction)
+        - 29 CFR 1904 (Recordkeeping)
+        - 29 CFR 1915 (Shipyards)
+        - 29 CFR 1910 (General Industry)
+      answer: 3
+      explanation: Routine maintenance in existing facilities generally falls under 29 CFR 1910, General Industry. Construction, alteration, and many major retrofits fall under 1926.
+      ref: OSHA 29 CFR 1910
+    - id: LT1-C01-Q04
+      type: single
+      q: What is a near miss?
+      choices:
+        - An injury that requires only first aid
+        - An event that could have caused injury or damage but did not
+        - A hazard that has already been corrected
+        - A violation found during an OSHA inspection
+      answer: 1
+      explanation: A near miss is an unplanned event that did not result in harm but could have. Reporting near misses allows causes to be fixed before someone is hurt.
+    - id: LT1-C01-Q05
+      type: single
+      q: A technician receives a brief shock from a fixture but says they feel fine. What is the correct response?
+      choices:
+        - Continue working if there are no visible burns
+        - Wait until the end of the shift and see how they feel
+        - Notify the supervisor immediately and get the technician medically evaluated
+        - Record it on the work order only
+      answer: 2
+      explanation: Electrical shock can cause internal injuries and delayed heart rhythm problems. Every shock is reported immediately and the person should be medically evaluated.
+    - id: LT1-C01-Q06
+      type: single
+      q: Which hard hat class is required for electrical work because it is tested to 20,000 volts?
+      choices:
+        - Class C
+        - Class G
+        - Class A
+        - Class E
+      answer: 3
+      explanation: ANSI/ISEA Z89.1 Class E hard hats are tested to 20,000 V. Class G is tested to 2,200 V; Class C offers no electrical protection.
+      ref: ANSI/ISEA Z89.1
+    - id: LT1-C01-Q07
+      type: single
+      q: What marking shows that safety glasses meet the ANSI impact standard?
+      choices:
+        - Z87 (or Z87+)
+        - UL 94
+        - ASTM F2413
+        - NRR 25
+      answer: 0
+      explanation: Eye protection meeting ANSI/ISEA Z87.1 is marked "Z87"; "Z87+" indicates high-impact rating. ASTM F2413 is for footwear; NRR is for hearing protection.
+      ref: ANSI/ISEA Z87.1
+    - id: LT1-C01-Q08
+      type: multi
+      q: Which conditions mean a hard hat must be removed from service? (Select all that apply.)
+      choices:
+        - A crack in the shell
+        - A chalky, faded surface from sun exposure
+        - A company logo sticker applied per manufacturer guidance
+        - A broken suspension clip
+      answer: [0, 1, 3]
+      explanation: Cracks, UV damage (chalking), and damaged suspension compromise protection. Approved stickers applied per the manufacturer's guidance do not.
+    - id: LT1-C01-Q09
+      type: single
+      q: Why should technicians avoid wearing polyester or nylon clothing for electrical work?
+      choices:
+        - These fabrics conduct electricity
+        - These fabrics can melt onto the skin if exposed to an arc flash or flame
+        - These fabrics are not allowed by OSHA under any circumstances
+        - These fabrics attract mercury vapor
+      answer: 1
+      explanation: Synthetic fabrics can melt and drip, causing severe burns. Natural-fiber or arc-rated clothing is preferred.
+      ref: NFPA 70E
+    - id: LT1-C01-Q10
+      type: single
+      q: Approximately how much current at 60 Hz can cause a person to lose muscle control and be unable to let go of a conductor?
+      choices:
+        - Less than 0.1 mA
+        - About 1 mA
+        - Roughly 10 to 30 mA
+        - At least 20 A
+      answer: 2
+      explanation: The let-go threshold is in the range of roughly 6 to 30 mA. A 20 A breaker trips at 20,000 mA, far above levels that can kill, so breakers do not protect people from shock.
+      ref: OSHA electrical safety training materials
+    - id: LT1-C01-Q11
+      type: single
+      q: Under NFPA 70E, what must an unqualified person do with respect to the limited approach boundary of exposed energized parts?
+      choices:
+        - Stay outside it unless continuously escorted and advised by a qualified person
+        - Cross it freely if wearing a Class E hard hat
+        - Cross it only to read the arc-flash label
+        - Ignore it; it only applies to voltages above 600 V
+      answer: 0
+      explanation: Unqualified persons must stay outside the limited approach boundary unless escorted and advised by a qualified person, and may never cross the restricted approach boundary.
+      ref: NFPA 70E Article 130
+    - id: LT1-C01-Q12
+      type: single
+      q: The arc flash boundary is the distance at which a person could receive what?
+      choices:
+        - A fatal shock
+        - Hearing damage from the blast
+        - A second-degree burn (incident energy of 1.2 cal/cm²)
+        - Exposure to toxic smoke
+      answer: 2
+      explanation: The arc flash boundary is where incident energy equals 1.2 cal/cm², the onset of a second-degree burn on bare skin.
+      ref: NFPA 70E
+    - id: LT1-C01-Q13
+      type: multi
+      q: Which items belong on a pre-task plan / job hazard analysis? (Select all that apply.)
+      choices:
+        - The steps of the job
+        - Hazards at each step
+        - Controls and PPE for each hazard
+        - Emergency contacts and the nearest medical facility
+      answer: [0, 1, 2, 3]
+      explanation: A JHA lists the job steps, the hazards of each step, the controls to prevent harm, and what to do in an emergency.
+    - id: LT1-C01-Q14
+      type: single
+      q: Within what time must an employer report a work-related fatality to OSHA?
+      choices:
+        - 24 hours
+        - 72 hours
+        - 7 days
+        - 8 hours
+      answer: 3
+      explanation: Fatalities must be reported within 8 hours; in-patient hospitalization, amputation, or loss of an eye within 24 hours.
+      ref: OSHA 29 CFR 1904.39
+    - id: LT1-C01-Q15
+      type: single
+      q: Someone is being shocked and is still in contact with an energized fixture. What should you do first?
+      choices:
+        - Grab the person and pull them free
+        - Do not touch them; de-energize the circuit if you can do so quickly and safely, then call 911
+        - Throw water on the fixture to cool it
+        - Wait until they let go on their own
+      answer: 1
+      explanation: Touching a person in contact with an energized source can make you a second victim. Remove the source of power if it can be done safely, call 911, and begin CPR/AED if trained and needed.

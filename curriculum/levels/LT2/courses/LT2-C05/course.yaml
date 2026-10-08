@@ -1,0 +1,177 @@
+code: LT2-C05
+title: LED Retrofit Fundamentals
+order: 5
+estimated_hours: 7
+description: >
+  Prepares technicians to perform safe, code-conscious LED retrofits of fluorescent and HID
+  fixtures: UL Type A, B and C TLEDs and dual-mode tubes, retrofit kits evaluated under UL
+  1598C, required labeling, shunted vs non-shunted sockets, single- and double-ended
+  ballast-bypass wiring, LED replacements for HID lamps, and how to choose and verify a
+  retrofit.
+objectives:
+  - Distinguish UL Type A, Type B, Type C and dual-mode TLEDs and identify which modify the fixture
+  - Explain the role of UL 1993, UL 1598C and NEC listing requirements in retrofit work
+  - Determine ballast compatibility for Type A tubes and recognize where Type A is a poor choice
+  - Test sockets for shunted vs non-shunted construction and perform a Type B conversion with correct labeling
+  - Install Type C systems, retrofit kits and LED HID replacement lamps per instructions and verify the installation
+lessons:
+  - 01-retrofit-options-and-listings.md
+  - 02-type-a-and-dual-mode-tleds.md
+  - 03-type-b-ballast-bypass.md
+  - 04-type-c-and-retrofit-kits.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C05-Q01
+      type: single
+      q: Which TLED type operates on the existing fluorescent ballast with no rewiring?
+      choices:
+        - UL Type B
+        - UL Type C
+        - UL Type A
+        - Single-ended direct wire
+      answer: 2
+      explanation: Type A ("plug and play") TLEDs run on a compatible existing ballast. Type B bypasses the ballast; Type C uses a remote LED driver.
+    - id: LT2-C05-Q02
+      type: single
+      q: In a Type B (ballast-bypass) conversion, what voltage is present at the lampholders when the circuit is on?
+      choices:
+        - Line voltage (for example 120 V or 277 V)
+        - Low-voltage Class 2 DC
+        - No voltage until the tube is installed
+        - Ballast output voltage
+      answer: 0
+      explanation: Type B tubes have internal drivers; the sockets are wired directly to line voltage, which is why warning labels are required.
+    - id: LT2-C05-Q03
+      type: single
+      q: Which standard covers LED retrofit kits that modify an existing luminaire?
+      choices:
+        - UL 924
+        - UL 1598C
+        - UL 489
+        - UL 61010
+      answer: 1
+      explanation: UL 1598C covers LED retrofit kits for luminaires. UL 924 is emergency lighting equipment, UL 489 is molded-case breakers, and UL 61010 covers test instruments.
+    - id: LT2-C05-Q04
+      type: single
+      q: Why does the NEC effectively require you to follow a retrofit kit's installation instructions and apply its labels?
+      choices:
+        - Because retrofit kits are exempt from listing
+        - Because the AHJ always inspects retrofits
+        - Because labels are needed for the utility rebate only
+        - Because listed equipment must be installed per its listing and labeling instructions, and retrofit kits must be listed
+      answer: 3
+      explanation: NEC 110.3(B) requires installation per listing instructions, and Article 410 requires retrofit kits to be listed.
+      ref: NFPA 70 (2023) 110.3(B); Article 410
+    - id: LT2-C05-Q05
+      type: single
+      q: For a single-ended Type B TLED, what kind of socket must be used at the powered end?
+      choices:
+        - Shunted
+        - Non-shunted
+        - Either type
+        - A medium screw base
+      answer: 1
+      explanation: Line and neutral connect to the two contacts at one end; a shunted socket would short line to neutral.
+    - id: LT2-C05-Q06
+      type: single
+      q: How do you confirm whether an existing lampholder is shunted?
+      choices:
+        - Look at its color — white sockets are always shunted
+        - Measure voltage across the contacts with the circuit energized
+        - With power locked out and the socket disconnected, check for continuity between its two contacts
+        - Count the screws holding it in the fixture
+      answer: 2
+      explanation: Continuity between the contacts means shunted; OL means non-shunted. Appearance is not reliable.
+    - id: LT2-C05-Q07
+      type: single
+      q: A building has T12 lamps on magnetic ballasts. The customer asks for Type A TLEDs. What is the best response?
+      choices:
+        - Install them; all Type A tubes work on any ballast
+        - Install them and remove the ballast if they flicker
+        - Explain that most Type A tubes are not compatible with magnetic ballasts and discuss Type B, Type C or a kit
+        - Install T8 Type A tubes in the T12 sockets on the same ballast
+      answer: 2
+      explanation: Type A compatibility is ballast-specific and most products are not listed for magnetic ballasts. Old magnetic ballasts are poor candidates anyway.
+    - id: LT2-C05-Q08
+      type: single
+      q: A dual-mode TLED's ballast fails and you rewire the fixture so the tube runs directly on line voltage. What has this become?
+      choices:
+        - A Type B conversion that requires the bypass wiring diagram and labels
+        - Still a Type A installation, so no labels are needed
+        - A Type C installation
+        - A temporary repair that can be left unlabeled
+      answer: 0
+      explanation: Once bypassed, line voltage is on the sockets — it is a Type B conversion with all its socket and labeling requirements.
+    - id: LT2-C05-Q09
+      type: single
+      q: What distinguishes a Type C TLED system?
+      choices:
+        - It runs on any fluorescent ballast
+        - It has a driver inside each tube and line voltage at the sockets
+        - It uses screw-in mogul bases
+        - It uses a separate, matched external LED driver with low-voltage output to the sockets
+      answer: 3
+      explanation: Type C uses a remote driver that is part of a matched system; the sockets see low-voltage output, and dimming is often supported.
+    - id: LT2-C05-Q10
+      type: single
+      q: Which is the most likely reason for a burned socket and tripped breaker immediately after a single-ended Type B conversion?
+      choices:
+        - Tube installed with the non-powered end in the powered sockets
+        - Powered-end sockets were shunted, shorting line to neutral
+        - Labels were applied in the wrong place
+        - The fixture was not on a DLC list
+      answer: 1
+      explanation: A shunted socket at the powered end connects line and neutral together. Sockets must be tested and replaced with non-shunted where required.
+    - id: LT2-C05-Q11
+      type: multi
+      q: Which items are typically required content on the labels supplied with a Type B retrofit kit? (Select all that apply.)
+      choices:
+        - The luminaire has been modified and can no longer use fluorescent lamps
+        - Warning that line voltage is present at the lampholders (risk of shock)
+        - Identification of the retrofit kit
+        - The customer's energy savings in dollars
+      answer: [0, 1, 2]
+      explanation: Retrofit labels warn future workers about modification, line voltage at sockets, and identify the kit. Savings are not a labeling requirement.
+      ref: UL 1598C
+    - id: LT2-C05-Q12
+      type: multi
+      q: Which are valid concerns when installing a screw-in LED replacement for a mogul-base metal halide lamp? (Select all that apply.)
+      choices:
+        - Weight and length of the LED lamp
+        - Whether the lamp is rated for enclosed fixtures and the mounting orientation
+        - Removing or bypassing the ignitor per instructions
+        - Whether the lamp's color matches the old metal halide exactly; nothing else matters
+      answer: [0, 1, 2]
+      explanation: Weight, heat (enclosed rating), orientation, ignitor handling and voltage rating are key issues. Color is a consideration but not the only one.
+    - id: LT2-C05-Q13
+      type: single
+      q: A customer is using a utility rebate that requires DLC-qualified products. The specified TLED is backordered. What should you do?
+      choices:
+        - Substitute any similar-looking TLED
+        - Check with your lead or the customer before substituting, since a non-approved model can cost them the rebate
+        - Install fluorescent lamps instead without telling anyone
+        - Install the substitute and remove its labels
+      answer: 1
+      explanation: Rebate programs often require the exact approved, DLC-qualified model. Substitutions need approval.
+    - id: LT2-C05-Q14
+      type: single
+      q: What is the company procedure for relamping a fixture that has been converted to Type B?
+      choices:
+        - Relamp energized, since TLEDs are low voltage
+        - Relamp energized only if wearing safety glasses
+        - Lock out before relamping, because line voltage is present at the sockets
+        - Relamp only from a MEWP
+      answer: 2
+      explanation: With one end inserted, the other end's pins can be at line voltage. Lock out before relamping Type B fixtures.
+    - id: LT2-C05-Q15
+      type: multi
+      q: Which conditions suggest Type A TLEDs are a poor choice? (Select all that apply.)
+      choices:
+        - The ballast is not on the TLED manufacturer's compatibility list
+        - The ballasts are old and near end of life
+        - The fixture has a fluorescent emergency battery ballast whose compatibility hasn't been confirmed
+        - The ballasts are new instant-start models listed on the compatibility list
+      answer: [0, 1, 2]
+      explanation: Incompatible, aging, or emergency-ballast fixtures are poor Type A candidates. New, listed-compatible instant-start ballasts are good candidates.

@@ -1,0 +1,184 @@
+code: LT3
+track: LIGHTING
+order: 3
+title: Lighting Technician III
+grade: Grade 3
+typical_duration_months: 6    # guidance only (Months 9–15) — advancement is by demonstrated competence
+description: >
+  The Lighting Technician III works with limited supervision on LED systems, dimming, basic
+  lighting controls, emergency/egress lighting, and exterior site lighting. Building on the
+  electrical fundamentals, meter skills, retrofit work and troubleshooting method from LT1 and
+  LT2, an LT3 can select and match replacement LED drivers, diagnose dimming and sensor
+  problems, install and test emergency drivers and battery units to NFPA 101 requirements,
+  troubleshoot photocell- and contactor-controlled site lighting, inspect poles and bases, and
+  (after the employer's authorized MEWP training and familiarization) safely inspect and operate
+  aerial work platforms. Once certified, an LT3 can be assigned most single-trade lighting
+  service calls on their own and can guide an LT1 on routine tasks.
+outcomes:
+  - Select, match and replace constant-current and constant-voltage LED drivers using driver and LED module data (current, voltage window, power, dimming protocol, listing)
+  - Identify the dimming method a system uses (forward phase, reverse phase, 0–10V, DALI, DMX) and troubleshoot common compatibility, polarity, wiring and low-end problems
+  - Install, wire and adjust occupancy/vacancy sensors, photocells, time clocks, relays and contactors, keeping Class 2 control wiring properly separated from power wiring
+  - Install emergency drivers and battery units correctly, and perform and document NFPA 101 monthly 30-second and annual 90-minute emergency lighting tests
+  - Troubleshoot exterior, site and pole lighting, including photocontrol and contactor circuits, pole and base condition, underground circuits and ground faults in wet locations
+  - Perform MEWP pre-use and workplace inspections and operate a MEWP within manufacturer and ANSI A92 requirements after authorized training and familiarization
+  - Apply LOTO and verification of absence of voltage to every task, including stored-energy sources such as emergency batteries and inverters
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 1000
+skills:
+  - code: LT3-S01
+    title: Replace and match an LED driver
+    category: LED Systems
+    critical: true
+    description: >
+      Diagnose a failed LED driver, select a correct replacement from module and driver data, and
+      install it under LOTO so the luminaire operates at the correct output and dims correctly.
+    equipment: [CAT III/IV digital multimeter, proving unit or known live source, LOTO kit, insulated hand tools, wire strippers, listed connectors, replacement driver, manufacturer data/spec sheets, PPE per job hazard assessment]
+    criteria:
+      - Applies LOTO to the luminaire circuit and verifies absence of voltage using live-dead-live before touching conductors
+      - Records the original driver's output type (constant current or constant voltage), output current or voltage, output voltage range, wattage, input voltage and dimming type
+      - Confirms the LED module's required current and forward voltage fall within the replacement driver's output ratings (or sets a programmable driver to the correct current)
+      - Confirms the replacement driver's dimming protocol and input voltage match the site
+      - Mounts the driver to the luminaire housing or heat path per manufacturer instructions, not loose in the ceiling cavity
+      - Keeps Class 2 output/dimming leads separated from line-voltage conductors as required by the driver label
+      - Makes all connections with listed connectors, correct polarity on LED (+/−) and dimming (+/−) leads, and no exposed copper
+      - Restores power, verifies full output and full dimming range, and checks for flicker
+      - Documents the replacement (old and new part numbers, settings) on the work order
+  - code: LT3-S02
+    title: Troubleshoot a 0–10V dimming circuit
+    category: Dimming & Controls
+    critical: true
+    description: >
+      Systematically isolate a 0–10V dimming fault (no dimming, stuck at full or minimum,
+      uneven dimming) to the control, the wiring, or the driver, and correct it.
+    equipment: [CAT III digital multimeter with DC volts and mA ranges, LOTO kit, insulated tools, lighting plan or control riser, driver spec sheets, PPE per job hazard assessment]
+    criteria:
+      - Identifies the line-voltage hazards in the luminaire and control enclosures and applies LOTO before any wiring is disturbed
+      - Measures DC voltage between the dimming leads at the control and at the luminaire and interprets the reading (about 10V open, near 0–1V at minimum)
+      - Explains and demonstrates the effect of an open (full bright) and a short (minimum) on the dimming pair
+      - Checks dimming-lead polarity (violet/purple +, gray −, or as marked) at each device
+      - Compares connected driver count/sink current against the dimmer's rated capacity
+      - Confirms the switching (on/off) function is provided by a relay, switch or the control as designed and that 0–10V is not expected to turn fixtures fully off
+      - Corrects the fault, verifies smooth dimming from high to low end across all fixtures on the zone, and documents the cause
+  - code: LT3-S03
+    title: Install and adjust an occupancy/vacancy sensor
+    category: Dimming & Controls
+    critical: false
+    description: >
+      Install a wall-box or ceiling occupancy/vacancy sensor (with power pack where required),
+      set time delay, sensitivity and mode, and verify coverage.
+    equipment: [sensor and power pack, manufacturer instructions, multimeter, LOTO kit, ladder, hand tools, listed connectors, coverage pattern sheet]
+    criteria:
+      - Selects sensor technology (PIR, ultrasonic, dual-tech) and mounting location appropriate to the room and explains why
+      - De-energizes, locks out and verifies absence of voltage before wiring
+      - Wires the sensor or power pack per instructions, including a grounded (neutral) conductor where required, and separates Class 2 sensor wiring from line voltage
+      - Mounts the sensor clear of HVAC diffusers, obstructions and views of hallway traffic
+      - Sets mode (occupancy auto-on or vacancy manual-on) as specified for the space
+      - Uses test/walk mode to verify detection throughout the intended coverage area, including small-motion areas such as desks
+      - Sets the final time delay and sensitivity per specification and documents the settings
+      - Explains the setting to the customer or occupant in plain language
+  - code: LT3-S04
+    title: Install and functionally test an emergency LED driver or battery unit
+    category: Emergency Lighting
+    critical: true
+    description: >
+      Install a UL 924 listed emergency LED driver (or battery unit) with correct unswitched and
+      switched supply connections, then perform and document a functional test.
+    equipment: [emergency driver/battery unit, manufacturer instructions, multimeter, LOTO kit, insulated hand tools, listed connectors, emergency test log]
+    criteria:
+      - Applies LOTO to the normal lighting circuit and verifies absence of voltage, and keeps the battery connector disconnected until wiring is complete
+      - Confirms the emergency driver is compatible with the LED load (output power, voltage window) and listed for the application
+      - Connects the unswitched hot to the same branch circuit as the normal lighting, ahead of any local switch or dimmer, and the switched hot after the switch
+      - Mounts the unit and test switch/indicator per instructions so the charging indicator is visible and the test switch accessible
+      - Connects the battery only after wiring is complete and explains the stored-energy hazard to anyone working on the fixture later
+      - Confirms the charging indicator shows normal charging after power is restored
+      - Performs a functional test by interrupting normal power and confirms the lamp illuminates in emergency mode
+      - Labels the date of installation and records the test (date, result, initials) in the emergency lighting log, noting the required initial charge period before a 90-minute test
+  - code: LT3-S05
+    title: Perform and document NFPA 101 emergency lighting tests
+    category: Emergency Lighting
+    critical: false
+    description: >
+      Conduct monthly 30-second and annual 90-minute tests on a set of emergency fixtures and
+      exit signs, identify failures, and complete written records.
+    equipment: [emergency test log or software, test switch key or remote tester, flashlight, ladder, replacement batteries/lamps as authorized]
+    criteria:
+      - Confirms with the customer before testing and plans for occupant safety during the test
+      - Tests every unit on the list for at least 30 seconds (monthly) or for the full 90 minutes (annual), as assigned
+      - Observes each unit illuminates on transfer and stays illuminated for the full test duration
+      - Checks exit signs for legibility, illumination of the word EXIT and directional indicators, and physical damage
+      - Identifies failed units (no transfer, dim, fails before the end of the test, charge indicator off) and tags them
+      - Records date, unit ID/location, test type, result and tester initials for every unit
+      - Reports failed units and corrective work to the customer the same day
+  - code: LT3-S06
+    title: Troubleshoot a photocell- and contactor-controlled lighting circuit
+    category: Exterior & Site Lighting
+    critical: true
+    description: >
+      Find why site lighting will not turn on or off, isolating the fault to the photocontrol,
+      time clock, contactor coil, contacts or branch circuits.
+    equipment: [CAT III/IV multimeter, non-contact voltage tester, LOTO kit, insulated tools, arc-rated PPE as required by the employer's assessment, opaque photocell cover, control wiring diagram]
+    criteria:
+      - Reviews the control diagram or traces the circuit to identify line, coil, control and load conductors before opening the enclosure
+      - Wears PPE required by the employer's NFPA 70E assessment for diagnostic testing in the enclosure
+      - Tests the photocontrol by covering it (allowing for its turn-on delay) or uses a shorting cap/known-good unit to isolate it
+      - Measures coil voltage at the contactor and determines whether the coil, the control circuit, or the HOA switch is at fault
+      - Measures line and load voltage across contactor poles to identify failed contacts
+      - Applies LOTO and verifies absence of voltage before replacing any component
+      - Replaces the failed component with a correctly rated part (coil voltage, contact rating for lighting/LED loads)
+      - Verifies automatic operation in AUTO and restores the HOA switch to the correct position, then documents the repair
+  - code: LT3-S07
+    title: Inspect a light pole, base and hand hole and locate a ground fault on an underground circuit
+    category: Exterior & Site Lighting
+    critical: true
+    description: >
+      Inspect a pole structure for defects and use insulation-resistance testing on a de-energized,
+      isolated underground circuit to locate a ground fault.
+    equipment: [binoculars, hammer for sounding (as allowed by owner), flashlight, insulation resistance tester, CAT III/IV multimeter, LOTO kit, insulated tools, listed wet-location connectors and fuse holders, cones/barricades]
+    criteria:
+      - Sets up traffic control around the work area before starting
+      - Inspects pole for leaning, cracks, dents, corrosion at the base, missing hand-hole cover, and loose or damaged arm and luminaire
+      - Inspects the base for loose, missing or corroded anchor nuts, cracked concrete and exposed or damaged conductors
+      - Checks for contact voltage on the pole with a voltage tester before handling it and treats any reading as an emergency hazard
+      - Applies LOTO to the circuit, verifies absence of voltage, and disconnects drivers/luminaires and other loads before insulation-resistance testing
+      - Performs insulation-resistance testing at the correct test voltage and interprets readings, then sectionalizes at hand holes to narrow the fault
+      - Confirms an equipment grounding conductor is present and connected at the pole, and does not rely on a ground rod as the fault path
+      - Makes repairs with listed wet/direct-burial rated splices and fuse holders and documents findings
+  - code: LT3-S08
+    title: Perform MEWP pre-use and workplace inspections
+    category: Aerial Work Platforms
+    critical: true
+    description: >
+      Conduct a manufacturer-based pre-use inspection and function test of a scissor or boom lift
+      and a workplace inspection before operating it.
+    equipment: [MEWP with operator's manual and decals, manufacturer pre-use checklist, harness and lanyard (boom-type), wheel chocks if required, cones/barricades]
+    criteria:
+      - Confirms they hold current authorized training for the MEWP type and have been familiarized with this specific model
+      - Verifies the operator's manual is on the machine and decals/capacity plates are legible
+      - Inspects tires/wheels, hydraulics (leaks), structure, welds, pins, guardrails, gate, and platform per the checklist
+      - Inspects batteries, fluid levels, and emergency lowering/descent controls
+      - Function-tests ground and platform controls, emergency stop, tilt alarm, and lowering
+      - Inspects the workplace for drop-offs, holes, slopes, overhead obstructions, energized lines, weather/wind and pedestrian traffic
+      - Removes a defective MEWP from service and tags/reports it rather than operating it
+      - Completes the inspection record
+  - code: LT3-S09
+    title: Operate a MEWP to service an overhead luminaire
+    category: Aerial Work Platforms
+    critical: true
+    description: >
+      Position and operate a MEWP to reach a high luminaire, perform work at height, and return
+      the machine to its stowed position, following ANSI A92.22 safe-use practices.
+    equipment: [inspected MEWP, harness and lanyard per manufacturer and employer rules, cones/barricades, tool lanyards/tool bag, radio or spotter as needed]
+    criteria:
+      - Establishes a controlled area with cones/barricades and uses a spotter where visibility, traffic or obstructions require it
+      - Wears and attaches fall protection to the manufacturer's designated anchorage as required for the MEWP type
+      - Keeps both feet on the platform floor and never climbs or stands on guardrails or uses ladders/planks on the platform
+      - Travels and elevates only on surfaces within the manufacturer's slope and ground-bearing limits
+      - Maintains at least the required minimum approach distance from overhead power lines (10 ft for lines up to 50 kV for unqualified persons)
+      - Does not exceed the rated platform capacity, including tools and materials
+      - Secures tools and parts against dropping and keeps people out of the area beneath the platform
+      - Lowers, stows, and shuts down the machine correctly and secures keys at the end of the task

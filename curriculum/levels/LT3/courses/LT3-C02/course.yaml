@@ -1,0 +1,179 @@
+code: LT3-C02
+title: Dimming Systems
+order: 2
+estimated_hours: 6
+description: >
+  The dimming methods a lighting technician meets in the field — forward- and reverse-phase,
+  0–10V, DALI and an introduction to DMX — with emphasis on compatibility, correct wiring,
+  low-end trim, and systematic troubleshooting of dimming complaints such as flicker, drop-out,
+  ghosting and fixtures that will not dim.
+objectives:
+  - Explain how forward-phase and reverse-phase dimmers control light output and which loads each suits
+  - Apply LED load ratings, ganging derates and neutral requirements when selecting phase dimmers
+  - Wire and measure a 0–10V dimming circuit and interpret open, short and normal readings
+  - Describe DALI addressing, groups, scenes and bus power, and basic DMX addressing and termination
+  - Check driver/control compatibility and set low-end trim to eliminate low-level flicker and drop-out
+  - Troubleshoot common dimming complaints systematically under LOTO
+lessons:
+  - 01-phase-dimming-forward-and-reverse.md
+  - 02-0-10v-dimming.md
+  - 03-dali-and-dmx-intro.md
+  - 04-compatibility-low-end-trim-troubleshooting.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT3-C02-Q01
+      type: single
+      q: How does a reverse-phase (trailing-edge) dimmer reduce light output?
+      choices:
+        - It turns on part-way into each AC half-cycle, cutting off the beginning of the wave
+        - It turns on at the start of each half-cycle and turns off early, cutting off the end of the wave
+        - It sends a 0–10V DC signal to the driver
+        - It lowers the voltage with a variable transformer
+      answer: 1
+      explanation: Reverse-phase (trailing-edge, ELV) dimmers conduct from the zero crossing and cut off the end of each half-cycle. Forward-phase dimmers cut the beginning.
+    - id: LT3-C02-Q02
+      type: single
+      q: A dimmer is marked "600 W incandescent / 150 W LED." What is the maximum LED load you may connect (single-gang installation)?
+      choices:
+        - 600 W
+        - 450 W
+        - 300 W
+        - 150 W
+      answer: 3
+      explanation: Use the LED rating, not the incandescent rating. LED drivers have high peak and inrush currents that stress the dimmer. Further derating applies if dimmers are ganged.
+    - id: LT3-C02-Q03
+      type: single
+      q: LED downlights on a two-wire dimmer glow faintly when the dimmer is off. What is the most likely cause?
+      choices:
+        - The 0–10V leads are shorted
+        - The breaker is defective
+        - Leakage current through the two-wire dimmer's electronics
+        - The LEDs have reached L70
+      answer: 2
+      explanation: Two-wire dimmers power their electronics by leaking a small current through the load. LEDs can glow ("ghost") on that current. A neutral-wire dimmer or a manufacturer-approved load correction device typically fixes it.
+    - id: LT3-C02-Q04
+      type: single
+      q: In a typical commercial 0–10V system, what happens when the control lowers the dimming voltage to about 1 V?
+      choices:
+        - The driver goes to its minimum dim level but stays on
+        - The driver turns completely off
+        - The driver goes to full output
+        - The breaker trips
+      answer: 0
+      explanation: 0–10V dims to the driver's minimum level; it does not switch the light off. A relay, switch or power pack provides the off function.
+    - id: LT3-C02-Q05
+      type: single
+      q: A 0–10V zone is stuck at full brightness and the dimming voltage at the fixtures reads about 10 V regardless of the slider position. Which is a likely cause?
+      choices:
+        - The dimming pair is shorted together
+        - The dimming pair is open between the control and the fixtures
+        - The drivers have no line voltage
+        - The low-end trim is set too high
+      answer: 1
+      explanation: With an open pair the control cannot sink current, so the drivers see their own ~10 V and run at full. A short would hold them at minimum; no line power would leave the drivers (and their 10 V source) dead.
+    - id: LT3-C02-Q06
+      type: single
+      q: What are the most common wire colors for the 0–10V dimming positive and negative leads?
+      choices:
+        - Red (+) and black (−)
+        - Blue (+) and white (−)
+        - Violet/purple (+) and gray (−)
+        - Yellow (+) and green (−)
+      answer: 2
+      explanation: Violet/purple is commonly dimming positive and gray (sometimes pink) is negative. Always confirm on the driver label.
+    - id: LT3-C02-Q07
+      type: multi
+      q: Which conditions require the 0–10V dimming conductors to be treated and installed as Class 1 rather than Class 2? (Select all that apply.)
+      choices:
+        - Any driver on the circuit marks its dimming leads as Class 1
+        - The dimming conductors run in the same raceway as line-voltage conductors without a permitted barrier or listed method
+        - The zone has more than three fixtures
+        - The dimmer is mounted at a height above 48 inches
+      answer: [0, 1]
+      explanation: A Class 1-marked driver or a shared raceway/enclosure with power conductors (without a permitted separation method) means the circuit must be wired as Class 1. Fixture count and mounting height do not change the classification.
+      ref: NFPA 70 (2023) Article 725 and related power-limited circuit articles
+    - id: LT3-C02-Q08
+      type: single
+      q: How many control gear addresses are available on one DALI bus?
+      choices:
+        - 16
+        - 32
+        - 64
+        - 512
+      answer: 2
+      explanation: DALI supports 64 short addresses for control gear, 16 groups and 16 scenes. 512 is the channel count of a DMX universe.
+      ref: IEC 62386
+    - id: LT3-C02-Q09
+      type: single
+      q: An entire DALI bus stops responding, though every driver has line voltage. What should you check first?
+      choices:
+        - The DALI bus power supply and bus voltage
+        - The CCT of each fixture
+        - Whether each driver's dimming leads are violet and gray
+        - The DMX terminator
+      answer: 0
+      explanation: The DALI bus needs its own power supply (about 16 VDC). If it fails or the bus is shorted, no device can communicate even with drivers powered.
+    - id: LT3-C02-Q10
+      type: single
+      q: A DMX chain of color-changing fixtures responds erratically and flickers. The fixtures are wired in a star from a central point and no terminator is installed. What is the correct fix?
+      choices:
+        - Add a 0–10V dimmer to each branch
+        - Rewire as a daisy chain and install a 120 Ω terminator at the last fixture
+        - Connect every fixture to the same start address
+        - Replace the RS-485 data cable with microphone cable
+      answer: 1
+      explanation: DMX512 requires daisy-chain topology with termination (120 Ω) at the end. Star wiring and missing termination cause reflections and erratic behavior. Use proper data cable, not microphone cable.
+      ref: ANSI E1.11 (DMX512-A)
+    - id: LT3-C02-Q11
+      type: single
+      q: An RGB fixture uses three DMX channels and is set to start address 1. What start address should the next RGB fixture use so it can be controlled independently?
+      choices:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+      answer: 3
+      explanation: The first fixture occupies channels 1, 2 and 3, so the next independent fixture starts at 4.
+    - id: LT3-C02-Q12
+      type: single
+      q: LED fixtures on a dimmer turn off before the slider reaches the bottom and won't come back on until the slider is raised high. What adjustment usually fixes this, assuming the products are compatible?
+      choices:
+        - Lower the low-end trim
+        - Raise the low-end trim
+        - Lower the high-end trim
+        - Swap the line and load wires on the dimmer
+      answer: 1
+      explanation: Drop-out and pop-on happen when the control's minimum is below what the drivers can handle. Raising the low-end trim keeps the signal within the driver's stable range.
+    - id: LT3-C02-Q13
+      type: multi
+      q: Which are good compatibility practices when installing a phase dimmer for LED loads? (Select all that apply.)
+      choices:
+        - Check the manufacturer's tested compatibility list for the lamp/dimmer combination
+        - Use the same make and model of LED lamp throughout the zone
+        - Apply the ganging derate when dimmers share a multi-gang box
+        - Use non-dimmable LED lamps as long as the dimmer stays at full
+      answer: [0, 1, 2]
+      explanation: Tested combinations, uniform products and proper derating improve performance and dimmer life. Non-dimmable LED products should not be on dimmers, even at full.
+    - id: LT3-C02-Q14
+      type: single
+      q: Why is an electronic dimmer in the "off" position not an acceptable means of de-energizing a fixture for service?
+      choices:
+        - The dimmer may leave the load conductors energized through its electronics, and it is not a disconnecting means for LOTO
+        - Dimmers in the off position create arc flash
+        - Dimmers reverse the polarity of the circuit when off
+        - It is acceptable if the lights are visibly off
+      answer: 0
+      explanation: A dimmer is not a disconnect; leakage through its electronics can leave the load side energized. Lock out the circuit breaker and verify absence of voltage.
+      ref: OSHA 29 CFR 1910.333 and 1910.147
+    - id: LT3-C02-Q15
+      type: single
+      q: A 0–10V dimmer has a 50 mA sink rating, and each driver sources 0.5 mA on its dimming leads. The dimmer's built-in relay is rated 8 A, and each fixture draws 0.4 A at 277 V. What limits the number of fixtures on this dimmer?
+      choices:
+        - The signal limit of 100 drivers
+        - The relay limit of 20 fixtures
+        - There is no limit for 0–10V
+        - The number of violet wires that fit in the wire nut
+      answer: 1
+      explanation: Signal capacity allows 50 ÷ 0.5 = 100 drivers, but the relay allows only 8 A ÷ 0.4 A = 20 fixtures. The lower limit governs; check both ratings. (Also follow any continuous-load derating the manufacturer specifies.)

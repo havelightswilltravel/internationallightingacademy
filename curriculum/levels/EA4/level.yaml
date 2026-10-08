@@ -1,0 +1,164 @@
+code: EA4
+track: ELECTRICAL
+order: 4
+title: Electrical Apprentice IV
+grade: Electrical Apprentice Grade 4
+typical_duration_months: 12
+description: >
+  The Electrical Apprentice IV is a senior apprentice in the final full year of supervised
+  training. Working under a licensed journeyman or master electrician, the EA4 performs
+  complete dwelling and commercial load calculations and applies them to real services and
+  feeders; installs and inspects wiring in special occupancies such as hazardous (classified)
+  locations, health care spaces, and pools and spas; wires and verifies fire alarm and other
+  power-limited systems; wires PLC inputs and outputs and writes simple ladder programs; and
+  installs and inspects photovoltaic systems, energy storage, and electric vehicle supply
+  equipment. All work follows the 2023 NEC (NFPA 70) or the edition adopted by the local
+  Authority Having Jurisdiction (AHJ), together with NFPA 70E safe work practices. Once
+  certified, the EA4 can lead small installations under general supervision, catch common
+  special-occupancy code violations before inspection, and is ready to begin focused
+  journeyman exam preparation in the JW level.
+outcomes:
+  - Perform dwelling load calculations by the standard and optional methods and size the service, service conductors, and grounding electrode conductor from the result
+  - Perform commercial branch-circuit, feeder, and service load calculations including continuous loads, receptacle and kitchen-equipment demand factors, and motor loads
+  - Identify hazardous (classified) location classes, divisions, zones, groups, and temperature codes, and inspect seals and explosionproof fittings for compliance
+  - Apply NEC requirements for health care facilities (patient care space categories, essential electrical systems, redundant grounding) and for pools, spas, and hot tubs (equipotential bonding, GFCI, clearances)
+  - Distinguish fire alarm, Class 1, Class 2, Class 3, and communications circuits, select listed cable types, and maintain required separation from power conductors
+  - Wire discrete and analog PLC I/O (sinking and sourcing), read and write basic ladder logic, and describe building automation integration protocols such as BACnet and Modbus
+  - Install and inspect PV systems, energy storage systems, and EV supply equipment, including conductor and OCPD sizing, rapid shutdown, interconnection limits, and labeling
+  - Apply lockout/tagout, verification of absence of voltage, and NFPA 70E risk assessment to every task, including multiple-source systems such as PV and battery storage
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 1600
+skills:
+  - code: EA4-S01
+    title: Perform a dwelling service load calculation for a real house and verify the installed service
+    category: Calculations & Design
+    critical: false
+    description: >
+      Using a real (or realistic training) one-family dwelling, gathers the actual square
+      footage and appliance nameplate data, completes a standard-method load calculation,
+      and compares the result to the installed service, service conductors, and grounding
+      electrode conductor.
+    equipment: [laser distance meter or house plans, NEC (AHJ-adopted edition), load calculation worksheet, calculator, flashlight, appliance nameplate photos]
+    criteria:
+      - Measures or derives the habitable floor area using outside dimensions and excludes open porches, unfinished spaces not adaptable for future use, and garages
+      - Records nameplate ratings for every fastened-in-place appliance, range, dryer, water heater, heating and air-conditioning unit, and EVSE
+      - Applies general lighting, small-appliance, and laundry loads and the general lighting demand factors correctly
+      - Applies range, dryer, fastened-in-place appliance, and noncoincident (heat vs. A/C) rules correctly
+      - Converts the calculated load to amperes at the service voltage and selects the minimum service rating
+      - Selects service conductor size using the dwelling-service rule permitted by the AHJ-adopted code and checks the installed conductors against it
+      - Verifies the grounding electrode conductor size against the service conductor size table
+      - Observes the installed service from outside the dead-front only (no covers removed) unless the equipment is de-energized and locked out under supervision
+      - Presents the worksheet to the evaluator with every step labeled and arithmetic correct within rounding
+  - code: EA4-S02
+    title: Inspect a residential PV system for code compliance and safe operation
+    category: Renewable Energy
+    critical: true
+    description: >
+      Performs a visual and documentation inspection of an installed grid-tied PV system,
+      including rapid shutdown, disconnects, labeling, conductor and OCPD sizing, and the
+      utility interconnection point, then performs a supervised shutdown and restart.
+    equipment: [PV plan set and module/inverter datasheets, NEC (AHJ-adopted edition), CAT III/IV multimeter rated for the system DC voltage, clamp meter with DC capability, arc-rated PPE per risk assessment, insulated gloves with protectors as required, inspection checklist]
+    criteria:
+      - Completes a risk assessment that identifies all sources of supply (utility, PV array, and any battery) before opening equipment
+      - Locates and operates the rapid shutdown initiator and confirms the system indicates shutdown per the manufacturer's instructions
+      - Verifies that PV source and output circuit conductors and OCPDs are sized from module Isc with the required multipliers
+      - Verifies the maximum system voltage calculation uses the lowest expected ambient temperature correction
+      - Checks the load-side interconnection against the busbar rule (or verifies a supply-side connection) and confirms backfed breaker position and securing
+      - Confirms required warning labels and the rapid shutdown label are present, durable, and correctly worded per the plan set
+      - Inspects conductors and raceways on the roof for support, protection from damage, and listed connectors that are not mismatched between manufacturers
+      - Treats PV DC conductors as energized whenever the array is illuminated and never opens a DC connector under load
+      - Documents all deficiencies on the checklist with photos and recommended corrections
+  - code: EA4-S03
+    title: Install and commission a Level 2 EVSE on a dedicated branch circuit
+    category: Installation
+    critical: true
+    description: >
+      Sizes and installs the branch circuit for a hardwired or receptacle-connected Level 2
+      EVSE, confirms the load fits the service (or configures load management), and
+      commissions the unit.
+    equipment: [EVSE and installation manual, NEC (AHJ-adopted edition), conductors and raceway, appropriately rated breaker (GFCI where required), torque screwdriver, multimeter, lockout/tagout kit, EVSE test adapter if available]
+    criteria:
+      - Confirms the existing service can carry the EVSE load (load calculation or utility data) or configures a listed energy management system
+      - Sizes the OCPD and conductors at not less than 125 percent of the EVSE continuous rating and sets any EVSE current dip switch to match
+      - Installs the EVSE on an individual branch circuit with no other outlets
+      - Provides GFCI protection for receptacle outlets used for EV charging as required by the adopted code
+      - Applies lockout/tagout to the panel and verifies absence of voltage (live-dead-live) before terminating
+      - Torques all terminals to the manufacturer's specified values with a calibrated tool
+      - Mounts the EVSE and manages the cord to manufacturer height and location requirements
+      - Restores power, verifies voltage at the EVSE, and completes a charge session or test-adapter check showing correct pilot and current
+      - Labels the panel directory and leaves the customer manual and commissioning record
+  - code: EA4-S04
+    title: Verify fire alarm initiating and notification circuit wiring
+    category: Low-Voltage Systems
+    critical: false
+    description: >
+      Under the direction of the fire alarm contractor or a qualified technician, verifies
+      wiring of a conventional initiating device circuit and a notification appliance circuit
+      before the panel is powered or while the system is in a supervised test mode.
+    equipment: [fire alarm riser and device drawings, panel installation manual, multimeter, insulation resistance tester (on disconnected field wiring only), end-of-line resistor values, labels]
+    criteria:
+      - Confirms with the system owner and monitoring company that the system is in test or out of service before any work, and records the notification
+      - Identifies the cable type (FPL, FPLR, FPLP, or CI as required) and confirms it suits the installation space
+      - Verifies devices are wired so that removing a device conductor causes a trouble signal (no T-taps on Class B circuits)
+      - Measures loop resistance and confirms the end-of-line resistor value and location match the panel manual
+      - Checks field wiring for opens, shorts, and ground faults with field wiring disconnected from the panel
+      - Confirms notification appliance polarity is correct for the circuit
+      - Confirms power-limited fire alarm conductors are separated from power and Class 1 conductors
+      - Restores the system and confirms with the monitoring company that it is back in normal service
+  - code: EA4-S05
+    title: Wire PLC discrete I/O and enter a simple start/stop ladder program
+    category: Controls & Automation
+    critical: false
+    description: >
+      Wires two pushbuttons, a limit switch, a pilot light, and a contactor coil to a training
+      PLC, writes a seal-in motor start/stop program with an off-delay timer, and tests it.
+    equipment: [training PLC with 24 VDC input and relay or transistor output modules, programming software, 24 VDC power supply, pushbuttons, limit switch, pilot light, contactor, terminal blocks, wiring diagram, multimeter]
+    criteria:
+      - Identifies whether the input module is sinking or sourcing and wires field devices with the correct common
+      - Uses a normally closed stop pushbutton wired to an input and programs it as an examine-if-closed instruction (fail-safe stop)
+      - Wires the output common and protects the output circuit as shown on the module diagram
+      - Writes a seal-in rung that starts on the start input, holds through the output contact, and drops out on stop or limit switch
+      - Adds a timer that keeps a second output on for a set time after stop and verifies the preset and time base
+      - Uses the software's online monitoring to show input and output status during testing
+      - De-energizes and verifies absence of voltage before changing any field wiring
+      - Documents the I/O assignments in an I/O list with tag names
+  - code: EA4-S06
+    title: Inspect hazardous-location seals and explosionproof fittings
+    category: Special Occupancies
+    critical: true
+    description: >
+      Inspects a Class I, Division 1 training installation (or job-site installation) for
+      seal location, seal fill, thread engagement, and fitting listings, and identifies
+      deficiencies.
+    equipment: [area classification drawing, NEC (AHJ-adopted edition), sealing fitting and compound manufacturer instructions, flashlight, inspection mirror, checklist, gas detector if the area is not verified safe]
+    criteria:
+      - Confirms the area is gas-free with a calibrated detector or obtains a hot work or entry permit as required before opening any enclosure
+      - Identifies the class, division or zone, group, and temperature code required from the drawing and compares equipment markings
+      - Verifies conduit seals are installed within the maximum distance from enclosures containing arcing or high-temperature devices
+      - Verifies seals are installed at the boundary where conduit leaves the classified location, with no unions, couplings, or fittings other than permitted between seal and boundary
+      - Confirms the seal compound was poured to the manufacturer's minimum depth (not less than the trade size and not less than the code minimum) with dam fiber properly installed
+      - Checks that threaded joints are wrenchtight with the required number of full threads engaged and that no covers are missing bolts
+      - Confirms that explosionproof enclosure flame paths are clean, undamaged, and not painted or gasketed unless designed for it
+      - Records each deficiency with location and corrective action
+  - code: EA4-S07
+    title: Verify pool equipotential bonding and GFCI protection before cover-up
+    category: Special Occupancies
+    critical: true
+    description: >
+      Inspects equipotential bonding for a new permanently installed pool before concrete or
+      backfill and verifies GFCI protection on pool equipment circuits.
+    equipment: [pool plans, NEC (AHJ-adopted edition), tape measure, listed bonding connectors, GFCI tester, multimeter, lockout/tagout kit]
+    criteria:
+      - Verifies a bonding conductor of the required size (solid copper not smaller than 8 AWG or approved alternate) connects all required metal parts
+      - Verifies the perimeter surface bonding extends the required distance from the inside wall of the pool and is attached at the required number of points
+      - Confirms listed pressure connectors or exothermic welds are used and are suitable for direct burial or concrete encasement
+      - Confirms the pool water is bonded with the required minimum surface area in contact with the water
+      - Checks pump motor and other pool equipment for required GFCI protection and tests GFCI devices with the test button and a tester
+      - Verifies receptacle and luminaire locations meet the clearance distances from the inside wall of the pool
+      - Applies lockout/tagout before opening equipment enclosures and verifies absence of voltage
+      - Documents the inspection with photos taken before cover-up

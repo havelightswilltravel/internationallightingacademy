@@ -1,0 +1,195 @@
+code: EA4-C05
+title: Renewable Energy, Storage & EV Charging
+order: 5
+estimated_hours: 16
+description: >
+  Design, installation, and inspection of photovoltaic systems (NEC Article 690), utility
+  interconnection (Article 705), energy storage systems (Article 706 with Article 480), and
+  electric vehicle supply equipment (Article 625). Apprentices calculate maximum PV system
+  voltage and circuit current, size conductors and overcurrent devices, apply rapid shutdown and
+  labeling requirements, check load-side interconnections against the busbar rule, calculate
+  battery energy and runtime, and size EVSE branch circuits and their effect on the service.
+  Every lesson stresses multiple-source lockout. References are to the 2023 NEC; the
+  AHJ-adopted edition governs.
+objectives:
+  - Identify PV system components and calculate maximum system voltage using temperature coefficients or Table 690.7(A)
+  - Calculate PV circuit current, conductor ampacity, OCPD ratings, and inverter output circuit sizes
+  - Apply rapid shutdown, disconnecting means, and labeling requirements for PV systems on buildings
+  - Evaluate supply-side and load-side interconnections, including the 120% busbar rule
+  - Describe ESS configurations, listing, disconnect, and location requirements, and calculate battery energy and runtime
+  - Size EVSE branch circuits and evaluate the effect of EVSE on dwelling service capacity
+  - Lock out and verify absence of voltage on systems with utility, PV, and battery sources
+lessons:
+  - 01-pv-system-components-and-sizing.md
+  - 02-rapid-shutdown-disconnects-interconnection.md
+  - 03-energy-storage-systems.md
+  - 04-ev-supply-equipment.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA4-C05-Q01
+      type: single
+      q: Why must PV maximum system voltage be calculated at the lowest expected ambient temperature?
+      choices:
+        - Module current increases in cold weather
+        - Inverters shut down in cold weather
+        - Module open-circuit voltage increases as temperature decreases
+        - Conductor resistance increases in cold weather
+      answer: 2
+      explanation: PV module Voc has a negative temperature coefficient, so voltage rises as cell temperature drops. The highest voltage occurs on cold, sunny mornings.
+      ref: 2023 NEC 690.7
+    - id: EA4-C05-Q02
+      type: single
+      q: A module has Voc = 40.0 V and a Voc temperature coefficient of −0.30%/°C. The lowest expected ambient is −15°C. What is the maximum module Voc?
+      choices:
+        - 44.8 V
+        - 41.8 V
+        - 46.0 V
+        - 42.4 V
+      answer: 0
+      explanation: ΔT = −15 − 25 = −40°C. −40 × −0.30% = +12%. 40.0 × 1.12 = 44.8 V.
+      ref: 2023 NEC 690.7(A)
+    - id: EA4-C05-Q03
+      type: single
+      q: What is the maximum PV system DC circuit voltage permitted on or in a one-family dwelling?
+      choices:
+        - 300 V
+        - 1,000 V
+        - 1,500 V
+        - 600 V
+      answer: 3
+      explanation: PV system DC circuits on or in one- and two-family dwellings are limited to 600 V.
+      ref: 2023 NEC 690.7
+    - id: EA4-C05-Q04
+      type: single
+      q: Modules with Isc = 10.0 A form a single string. What minimum conductor ampacity (before conditions of use) and OCPD rating applies?
+      choices:
+        - 10.0 A
+        - 12.5 A
+        - 15.6 A
+        - 20.0 A
+      answer: 2
+      explanation: Maximum circuit current = 10.0 × 1.25 = 12.5 A. Conductors and OCPD must be at least 125% of that = 15.6 A.
+      ref: 2023 NEC 690.8(A), (B)
+    - id: EA4-C05-Q05
+      type: single
+      q: An inverter's maximum continuous AC output is 24 A. What is the minimum OCPD rating for the inverter output circuit?
+      choices:
+        - 25 A
+        - 30 A
+        - 35 A
+        - 40 A
+      answer: 1
+      explanation: 24 × 1.25 = 30 A, which is a standard OCPD rating.
+      ref: 2023 NEC 690.8(B), 705.28
+    - id: EA4-C05-Q06
+      type: single
+      q: After rapid shutdown is initiated, controlled conductors outside the array boundary must be reduced to what level?
+      choices:
+        - 80 V within 30 seconds
+        - 30 V within 10 seconds
+        - 0 V within 30 seconds
+        - 30 V within 30 seconds
+      answer: 3
+      explanation: Outside the array boundary, controlled conductors must be limited to not more than 30 V within 30 seconds. Inside the boundary the limit is 80 V within 30 seconds (or other compliance options).
+      ref: 2023 NEC 690.12(B)
+    - id: EA4-C05-Q07
+      type: single
+      q: The PV array boundary for rapid shutdown purposes extends how far from the array in all directions?
+      choices:
+        - 1 ft
+        - 3 ft
+        - 6 in
+        - 10 ft
+      answer: 0
+      explanation: The array boundary is defined as 305 mm (1 ft) from the array in all directions.
+      ref: 2023 NEC 690.12(B)
+    - id: EA4-C05-Q08
+      type: single
+      q: A panel has a 225-A busbar and a 200-A main breaker. Using the 120% rule with the backfed breaker at the opposite end, what is the maximum 125% inverter output current allowed?
+      choices:
+        - 25 A
+        - 45 A
+        - 70 A
+        - 40 A
+      answer: 2
+      explanation: 225 × 1.2 = 270 A. 270 − 200 = 70 A available for 125% of the inverter output current.
+      ref: 2023 NEC 705.12(B)(3)(2)
+    - id: EA4-C05-Q09
+      type: multi
+      q: A load-side PV connection fails the 120% busbar rule. Which are code-recognized solutions? (Select all that apply.)
+      choices:
+        - Reduce the main breaker rating where the load calculation supports it
+        - Make a supply-side connection
+        - Install the backfed breaker next to the main breaker
+        - Use a listed power control system that limits current
+      answer: [0, 1, 3]
+      explanation: Downsizing the main, a supply-side connection, or a listed power control system are recognized solutions. Placing the backfed breaker next to the main defeats the opposite-end condition that the 120% rule depends on.
+      ref: 2023 NEC 705.11, 705.12, 705.13
+    - id: EA4-C05-Q10
+      type: single
+      q: A battery is rated 100 Ah at 48 V nominal. What is its energy capacity?
+      choices:
+        - 2.08 kWh
+        - 4.8 kWh
+        - 48 kWh
+        - 0.48 kWh
+      answer: 1
+      explanation: kWh = Ah × V ÷ 1,000 = 100 × 48 ÷ 1,000 = 4.8 kWh.
+      ref: Battery energy formula
+    - id: EA4-C05-Q11
+      type: single
+      q: Which standard is commonly used to list pre-engineered energy storage systems for buildings?
+      choices:
+        - UL 1598
+        - UL 924
+        - UL 9540
+        - UL 2594
+      answer: 2
+      explanation: UL 9540 is the safety standard for energy storage systems and equipment. UL 1598 is for luminaires, UL 924 for emergency lighting, and UL 2594 for EVSE.
+      ref: 2023 NEC 706.5
+    - id: EA4-C05-Q12
+      type: single
+      q: What minimum OCPD rating is required for a branch circuit supplying a 32-A EVSE?
+      choices:
+        - 32 A
+        - 35 A
+        - 50 A
+        - 40 A
+      answer: 3
+      explanation: EV charging is a continuous load. 32 × 1.25 = 40 A.
+      ref: 2023 NEC 625.41
+    - id: EA4-C05-Q13
+      type: single
+      q: A 48-A EVSE requires a 60-A circuit. Which conductor is NOT acceptable?
+      choices:
+        - 6 AWG Cu NM-B cable
+        - 6 AWG Cu THWN-2 in EMT with 75°C terminations
+        - 4 AWG Cu NM-B cable
+        - 4 AWG Cu THWN-2 in EMT
+      answer: 0
+      explanation: NM-B ampacity is limited to the 60°C column. 6 AWG Cu at 60°C is 55 A, less than the required 60 A. 6 AWG THWN-2 at 75°C is 65 A.
+      ref: 2023 NEC 334.80, Table 310.16, 625.41
+    - id: EA4-C05-Q14
+      type: multi
+      q: Which statements about EV charging circuits under the 2023 NEC are correct? (Select all that apply.)
+      choices:
+        - EV charging is considered a noncontinuous load
+        - Each outlet for EV charging is supplied by an individual branch circuit with no other outlets
+        - EVSE rated more than 60 A requires a readily accessible, lockable disconnecting means
+        - All receptacles installed for EV charging require GFCI protection for personnel
+      answer: [1, 2, 3]
+      explanation: Individual branch circuits, GFCI protection for EV charging receptacles, and a disconnect for EVSE over 60 A or over 150 V to ground are required. EV charging is a continuous load.
+      ref: 2023 NEC 625.40, 625.41, 625.43, 625.54
+    - id: EA4-C05-Q15
+      type: single
+      q: A system has utility service, a PV array with inverter, and a battery ESS. Before working in the main panel, what must be locked out?
+      choices:
+        - Only the utility main breaker
+        - Only the inverter AC breaker
+        - The utility main and the PV disconnect only
+        - The utility main, the PV source, and the ESS, then verify absence of voltage
+      answer: 3
+      explanation: Every source of supply must be isolated and locked out, and absence of voltage verified on all conductors. Anti-islanding should not be relied on for personal protection.
+      ref: NFPA 70E; OSHA 29 CFR 1910.333 / 1910.147

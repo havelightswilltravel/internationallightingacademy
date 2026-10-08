@@ -1,0 +1,162 @@
+code: EA1
+track: ELECTRICAL
+order: 1
+title: Electrical Apprentice I
+grade: Grade 6
+typical_duration_months: 12
+description: >
+  Electrical Apprentice I is the first year of the Electrical Development Track and is open to
+  Certified Advanced Lighting Technicians (CALT). The apprentice builds on lighting-track
+  fundamentals with a deeper treatment of DC theory and magnetism, learns to navigate the
+  National Electrical Code (2023 NEC, NFPA 70, unless the AHJ has adopted a different edition),
+  bends and installs EMT to journeyman tolerances, wires dwelling-unit devices and branch
+  circuits including 3-way/4-way switching and GFCI/AFCI protection, and works safely on
+  construction sites under OSHA 29 CFR 1926. An EA1 works under the direct supervision of a
+  licensed electrician and is expected to perform routine rough-in and trim-out tasks with
+  minimal rework. All content is DRAFT until reviewed by a licensed electrician / SME.
+outcomes:
+  - Solve series, parallel and combination DC circuits using Ohm's law, Watt's law and Kirchhoff's voltage and current laws, and verify results with a meter
+  - Explain magnetism, electromagnetism and induction and relate them to relays, solenoids, transformers and the NEC rule to group circuit conductors together
+  - Locate requirements in NEC Chapters 1-4 using the table of contents, index and Article 100 definitions, and distinguish mandatory rules, permissive rules, exceptions and informational notes
+  - Bend 90s, back-to-back 90s, offsets, kicks and three-point saddles in 1/2 in and 3/4 in EMT to within 1/8 in of target using multipliers, take-up and shrink
+  - Wire and test receptacles, single-pole, 3-way and 4-way switching, and GFCI/AFCI protection for dwelling-unit branch circuits
+  - Apply dwelling-unit branch-circuit and receptacle-placement requirements to a simple residential floor plan
+  - Recognize and control construction hazards including trenching and excavation, confined spaces, hazardous chemicals, silica, scaffolds, temporary power and overhead power lines
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 1600
+skills:
+  - code: EA1-S01
+    title: Bend a 90-degree stub-up and back-to-back 90 in EMT to tolerance
+    category: Conduit Bending
+    critical: false
+    description: Using a hand bender, the apprentice bends a stub-up 90 and a back-to-back 90 in 1/2 in or 3/4 in EMT to dimensions assigned by the evaluator.
+    equipment: [1/2 in and 3/4 in EMT hand benders, EMT stock, tape measure, pencil or marker, torpedo level, hacksaw or band saw, reamer, safety glasses, gloves]
+    criteria:
+      - Selects the correct bender for the conduit trade size and identifies the arrow, star (back-of-90) and rim notch marks
+      - States the correct take-up for the bender being used before marking
+      - Marks the stub-up correctly by subtracting take-up from the desired stub height
+      - Stub-up height measures within 1/8 in of the assigned dimension
+      - Back-to-back 90 outside dimension measures within 1/8 in of the assigned dimension
+      - Both bends are a true 90 degrees when checked with a level, with no dog-leg when the conduit is laid flat
+      - Conduit shows no kinks, flattening or crushing that reduces the internal diameter
+      - Cut ends are square and reamed free of burrs
+  - code: EA1-S02
+    title: Bend an offset and a three-point saddle to tolerance
+    category: Conduit Bending
+    critical: false
+    description: The apprentice calculates and bends an offset and a three-point saddle in EMT to clear evaluator-specified obstructions at specified distances.
+    equipment: [EMT hand bender, EMT stock, tape measure, marker, torpedo level, multiplier and shrink chart (or memorized values), scrap obstruction or mock-up]
+    criteria:
+      - Selects an appropriate bend angle and states the multiplier and shrink per inch for that angle
+      - Calculates distance between bends and total shrink correctly and shows the work
+      - Offset rise measures within 1/8 in of the required offset and both bends are equal in angle
+      - Offset clears the obstruction at the specified location within 1/4 in
+      - Applies the 2.5 multiplier and 3/16 in per inch shrink for a 45/22.5-degree three-point saddle
+      - Places the center bend at the correct bender mark and the outside bends equal distances from center
+      - Saddle clears the obstruction and the conduit returns to the original plane with no dog-leg
+      - Finished pieces show no kinks or flattening
+  - code: EA1-S03
+    title: Install a surface EMT run between two boxes
+    category: Raceways
+    critical: false
+    description: The apprentice lays out and installs a surface EMT run with at least one offset and one 90 between two boxes, properly supported and terminated.
+    equipment: [EMT, couplings and connectors, one-hole straps, boxes, bender, level, drill/driver, anchors, reamer, tape measure, safety glasses]
+    criteria:
+      - Plans the run so total bends between pull points do not exceed 360 degrees and states the rule
+      - Reams every cut end and removes burrs before assembly
+      - Fastens EMT within 3 ft of each box and at intervals not exceeding 10 ft
+      - Connectors and couplings are fully seated and tightened; no gaps at fittings
+      - Run is level/plumb within 1/8 in per 4 ft and parallel to building lines
+      - Boxes are securely mounted and plumb, with locknuts tight
+      - Work area is cleaned up and scraps are disposed of properly
+  - code: EA1-S04
+    title: Wire and troubleshoot 3-way and 4-way switching
+    category: Wiring Devices
+    critical: false
+    description: On a training board, the apprentice wires a luminaire controlled from three locations (two 3-way switches and one 4-way switch), then locates an evaluator-inserted fault.
+    equipment: [training board with boxes, NM cable or THHN in raceway, two 3-way switches, one 4-way switch, lampholder, wire strippers, screwdrivers, DMM or continuity tester, voltage tester, padlock and tag]
+    criteria:
+      - Applies LOTO to the training board supply and verifies absence of voltage with a tested meter (live-dead-live) before wiring
+      - Identifies the common terminal on each 3-way switch and the paired traveler terminals on the 4-way switch
+      - Lands the line on the first 3-way common and the switched leg on the second 3-way common
+      - Re-identifies any white conductor used as an ungrounded conductor where permitted
+      - Connects equipment grounding conductors to each device and metal box
+      - Light operates correctly from all three switch locations in every combination
+      - Locates the inserted fault using a logical, de-energized continuity method and explains the cause
+      - Terminations are tight with no exposed copper beyond the terminal and wires wrapped clockwise on screws
+  - code: EA1-S05
+    title: Install and test GFCI and AFCI protection
+    category: Wiring Devices
+    critical: true
+    description: The apprentice installs a GFCI receptacle protecting downstream outlets and a combination AFCI or dual-function breaker in a training panel, then tests both per the manufacturer's instructions.
+    equipment: [training panel, GFCI receptacle, standard receptacles, AFCI or dual-function circuit breaker, torque screwdriver, plug-in receptacle tester with GFCI test button, DMM, voltage tester, PPE per site policy, padlock and tag]
+    criteria:
+      - Applies LOTO to the panel and verifies absence of voltage (live-dead-live) before removing the cover or working on any device
+      - Correctly identifies LINE and LOAD terminals and connects supply to LINE
+      - Connects downstream receptacles to LOAD and applies the GFCI-protected labels provided by the manufacturer
+      - Installs the AFCI breaker and lands its neutral pigtail (or plug-on neutral) and the circuit neutral as the manufacturer requires
+      - Torques breaker and device terminals to the manufacturer's values using a calibrated tool
+      - After re-energizing, demonstrates GFCI trip and reset with the device TEST button and verifies downstream outlets are de-energized when tripped
+      - Demonstrates the AFCI breaker TEST button and explains why a plug-in GFCI tester does not verify AFCI function
+      - Zero safety deviations
+  - code: EA1-S06
+    title: NEC lookup exercise
+    category: Code
+    critical: false
+    description: Given 10 field questions and the AHJ-adopted NEC, the apprentice locates the governing article and section within the time limit.
+    equipment: [NEC code book (AHJ-adopted edition), tabs, highlighter, question sheet, timer]
+    criteria:
+      - Completes 10 lookups within 30 minutes
+      - Identifies the correct article and section for at least 8 of 10 questions
+      - Uses the index or table of contents rather than paging at random
+      - Checks Article 100 when a question turns on a defined term
+      - Correctly states whether each cited rule is mandatory, permissive, an exception or an informational note
+      - Explains in own words (not reading verbatim) what the cited rule requires
+  - code: EA1-S07
+    title: Trench and excavation safety walk
+    category: Safety
+    critical: true
+    description: With the site competent person, the apprentice conducts a pre-entry walk of a trench or excavation and states whether it is safe to enter and why.
+    equipment: [hard hat, high-visibility vest, safety boots, tape measure, excavation checklist, utility locate ticket, soil classification information]
+    criteria:
+      - Confirms a valid utility locate (811) ticket exists and markings are visible
+      - Measures or confirms trench depth and states that a protective system is required at 5 ft or deeper unless in stable rock
+      - Verifies a ladder, stair or ramp is within 25 ft of lateral travel for trenches 4 ft or deeper
+      - Verifies spoils and equipment are kept at least 2 ft back from the edge
+      - Identifies the protective system in use (sloping, benching, shoring, shielding) and whether it appears appropriate for the soil type
+      - Checks for water accumulation, cracks, sloughing, bulging and nearby vibration sources
+      - Confirms a competent-person inspection has been done that day
+      - States a correct go/no-go decision and does not enter an unprotected trench at any time
+  - code: EA1-S08
+    title: DC series-parallel circuit lab
+    category: Electrical Theory
+    critical: false
+    description: The apprentice calculates the expected values for an assigned low-voltage combination circuit, builds it on a trainer, and verifies Kirchhoff's laws with measurements.
+    equipment: [low-voltage DC trainer or bench supply (30 V or less), resistors, breadboard or terminal strip, DMM, calculator]
+    criteria:
+      - Calculates total resistance, total current and each branch current and voltage drop before energizing
+      - Measures resistance only with the circuit de-energized
+      - Selects the correct meter function and lead jacks for voltage and current measurements
+      - Measured values are within 5 percent of calculated values (or the discrepancy is explained by resistor tolerance)
+      - Demonstrates that the sum of voltage drops around a loop equals the source voltage (KVL)
+      - Demonstrates that currents entering a node equal currents leaving it (KCL)
+  - code: EA1-S09
+    title: Construction site pre-task inspection
+    category: Safety
+    critical: true
+    description: The apprentice performs and documents a pre-task inspection of a work area covering temporary power, cords, ladders, scaffold tags, hazardous materials and fall hazards.
+    equipment: [inspection checklist or JHA form, GFCI tester, flashlight, PPE]
+    criteria:
+      - Verifies temporary 125 V 15/20 A receptacles in use are GFCI protected (or covered by an assured equipment grounding conductor program) and tests a GFCI
+      - Inspects extension cords for damage, missing ground pins and proper rating, and removes defective cords from service
+      - Checks ladders for damage, correct setup and 3 ft extension above the landing
+      - Reads the scaffold tag and confirms competent-person inspection before use
+      - Locates the SDS for a chemical in use and identifies its hazards and required PPE
+      - Identifies unprotected edges or holes where fall protection is required (6 ft rule)
+      - Documents findings and corrective actions and reports to the foreman before work starts
+      - Zero safety deviations

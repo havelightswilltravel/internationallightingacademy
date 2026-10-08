@@ -1,0 +1,191 @@
+code: EA4-C03
+title: Fire Alarm & Low-Voltage Systems
+order: 3
+estimated_hours: 12
+description: >
+  Wiring requirements for fire alarm systems (NEC Article 760 working with NFPA 72), Class 1,
+  Class 2, and Class 3 power-limited circuits (2023 NEC Articles 722, 724, and 725), and
+  communications, coaxial, and optical fiber cabling (Chapter 8 and Article 770). Apprentices
+  learn circuit types and supervision, cable ratings and substitution, separation from power
+  conductors, entrance protection and intersystem bonding, support and abandoned cable rules,
+  and how to verify fire alarm field wiring. References are to the 2023 NEC; the AHJ-adopted
+  edition governs, and state fire alarm licensing rules may limit what an electrician may do.
+objectives:
+  - Identify fire alarm system components, IDC, SLC, and NAC circuits, and Class A and Class B pathways
+  - Select PLFA cable types and apply Article 760 power supply, separation, and support rules
+  - Calculate NAC voltage drop and verify appliance operating voltage
+  - Distinguish Class 1, Class 2, and Class 3 circuits by their power sources and apply separation and cable substitution rules
+  - Install communications, coaxial, and optical fiber cabling with correct ratings, bonding to the intersystem bonding termination, support, and firestopping
+lessons:
+  - 01-fire-alarm-systems-and-circuits.md
+  - 02-class-1-2-3-circuits.md
+  - 03-communications-and-optical-fiber-cabling.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA4-C03-Q01
+      type: single
+      q: Which document primarily specifies where fire alarm devices are required and how the system is tested?
+      choices:
+        - NEC Article 760
+        - NFPA 70E
+        - NFPA 72
+        - NFPA 101 Annex B
+      answer: 2
+      explanation: NFPA 72 (National Fire Alarm and Signaling Code) covers application, installation location, performance, and testing. NEC Article 760 covers the wiring methods.
+      ref: NFPA 72; 2023 NEC 760.1
+    - id: EA4-C03-Q02
+      type: single
+      q: On a Class B initiating device circuit, what happens when a single conductor breaks between two devices?
+      choices:
+        - The panel shows a trouble signal and devices beyond the break are lost
+        - The panel shows an alarm and all devices keep working
+        - Nothing is indicated until the next annual test
+        - The panel shows a trouble signal and all devices keep working
+      answer: 0
+      explanation: Class B circuits are supervised, so an open causes a trouble signal, but devices beyond the break cannot communicate. Class A circuits keep all devices working with a single open.
+      ref: NFPA 72 pathway classes
+    - id: EA4-C03-Q03
+      type: single
+      q: Why are T-taps prohibited on a conventional Class B notification appliance circuit?
+      choices:
+        - They increase voltage drop beyond 10%
+        - A branch could be disconnected without the panel detecting it
+        - They require plenum-rated cable
+        - They reverse the polarity of the appliances
+      answer: 1
+      explanation: The end-of-line device supervises only the path it is on. A T-tapped branch could open without changing the supervision current, so the fault would go undetected.
+      ref: NFPA 72; manufacturer installation instructions
+    - id: EA4-C03-Q04
+      type: single
+      q: Which power-limited fire alarm cable is permitted to be installed in a plenum?
+      choices:
+        - FPL
+        - FPLR
+        - CL2
+        - FPLP
+      answer: 3
+      explanation: FPLP is plenum-rated and may substitute for FPLR and FPL. FPLR is riser-rated and FPL general-purpose.
+      ref: 2023 NEC Article 722 / 760
+    - id: EA4-C03-Q05
+      type: multi
+      q: Which requirements apply to the branch circuit supplying a fire alarm control unit? (Select all that apply.)
+      choices:
+        - It must be GFCI protected
+        - It must be a dedicated branch circuit
+        - The disconnecting means must be identified in red and marked FIRE ALARM CIRCUIT
+        - The disconnecting means must be accessible only to qualified personnel
+      answer: [1, 2, 3]
+      explanation: Article 760 requires an individual branch circuit with a red-identified, marked disconnect accessible only to qualified personnel. GFCI protection is not required for the FACU and could cause unwanted loss of power.
+      ref: 2023 NEC 760.41
+    - id: EA4-C03-Q06
+      type: single
+      q: A 24-V NAC draws 2.0 A total. The loop length (out and back) is 400 ft of 14 AWG copper at 3.07 Ω per 1,000 ft. What is the approximate voltage drop with the load lumped at the end?
+      choices:
+        - 1.2 V
+        - 3.7 V
+        - 2.5 V
+        - 4.9 V
+      answer: 2
+      explanation: R = 400/1,000 × 3.07 = 1.228 Ω. VD = 2.0 × 1.228 = 2.46 V ≈ 2.5 V.
+      ref: NEC Chapter 9, Table 8; Ohm's law
+    - id: EA4-C03-Q07
+      type: single
+      q: What determines whether a circuit is Class 2?
+      choices:
+        - The conductor size is 18 AWG or smaller
+        - The circuit operates below 50 V
+        - The cable jacket is marked CL2
+        - The power source is listed and marked as Class 2
+      answer: 3
+      explanation: A circuit is Class 2 only when supplied by a listed Class 2 power source. The cable rating and voltage alone do not make it Class 2.
+      ref: 2023 NEC Article 725
+    - id: EA4-C03-Q08
+      type: single
+      q: In the 2023 NEC, Class 1 circuits are covered in which article?
+      choices:
+        - Article 724
+        - Article 725
+        - Article 760
+        - Article 800
+      answer: 0
+      explanation: The 2023 NEC moved Class 1 circuits to Article 724, kept Class 2 and Class 3 in Article 725, and gathered common cable requirements in Article 722.
+      ref: 2023 NEC Articles 722, 724, 725
+    - id: EA4-C03-Q09
+      type: single
+      q: Which cable may substitute for CL2R?
+      choices:
+        - CL2X
+        - CL2
+        - CMP
+        - CMX
+      answer: 2
+      explanation: Higher-rated cables may substitute for lower-rated ones. CMP (plenum communications) is permitted to substitute for Class 2 riser cable; CL2 and CL2X have lower fire ratings.
+      ref: 2023 NEC cable substitution table (Article 722)
+    - id: EA4-C03-Q10
+      type: single
+      q: Class 2 thermostat cable and 120-V branch-circuit conductors are to enter the same junction box. Which is generally required?
+      choices:
+        - Nothing, since both are under 600 V
+        - A barrier or listed divider separating them, unless a specific exception applies
+        - The Class 2 cable must be upsized to 14 AWG
+        - The 120-V conductors must be in flexible conduit
+      answer: 1
+      explanation: Class 2 conductors must not share a box with power conductors unless separated by a barrier or another specific exception applies.
+      ref: 2023 NEC 725.136
+    - id: EA4-C03-Q11
+      type: single
+      q: How must low-voltage and communications cables above a suspended ceiling be supported?
+      choices:
+        - Laid directly on ceiling tiles
+        - Tied to the ceiling grid support wires
+        - Attached to the building structure with J-hooks or similar hardware
+        - Tied to the outside of electrical raceways
+      answer: 2
+      explanation: Cables must be supported by the building structure and not by the ceiling grid, its support wires, or raceways unless identified for that use.
+      ref: 2023 NEC 300.11, 800.21
+    - id: EA4-C03-Q12
+      type: single
+      q: The intersystem bonding termination must provide at least how many terminations for communications and other systems?
+      choices:
+        - One
+        - Two
+        - Four
+        - Three
+      answer: 3
+      explanation: The IBT must have the capacity for connection of not less than three intersystem bonding conductors.
+      ref: 2023 NEC 250.94
+    - id: EA4-C03-Q13
+      type: single
+      q: In a one-family dwelling, what is the general maximum length for the communications bonding conductor before a separate electrode is required?
+      choices:
+        - 10 ft
+        - 20 ft
+        - 30 ft
+        - 50 ft
+      answer: 1
+      explanation: In one- and two-family dwellings the bonding conductor should be as short as practicable and not over 6.0 m (20 ft); if that cannot be met, a separate electrode bonded to the power grounding electrode system is required.
+      ref: 2023 NEC 800.100(A)(4)
+    - id: EA4-C03-Q14
+      type: multi
+      q: Which statements about abandoned cable are correct? (Select all that apply.)
+      choices:
+        - The accessible portion of abandoned communications cable must be removed
+        - Cable kept for future use must be identified with a tag
+        - Abandoned cable may stay if it is plenum rated
+        - Cable concealed inside walls must always be pulled out
+      answer: [0, 1]
+      explanation: The accessible portion of abandoned cable must be removed, and cable reserved for future use must be tagged. Plenum rating does not exempt it, and cable not accessible (such as inside walls) is not required to be removed.
+      ref: 2023 NEC 800.25, 722.25
+    - id: EA4-C03-Q15
+      type: single
+      q: What is the meaning of the "N" in optical fiber cable type OFNR?
+      choices:
+        - Nonconductive (no metallic members)
+        - Network-powered
+        - Not for riser use
+        - Neutral bonded
+      answer: 0
+      explanation: OFN cables are nonconductive; OFC cables contain conductive (metallic) members. The R suffix indicates riser rating.
+      ref: 2023 NEC Article 770

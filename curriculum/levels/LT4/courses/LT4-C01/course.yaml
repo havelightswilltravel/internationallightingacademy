@@ -1,0 +1,179 @@
+code: LT4-C01
+title: Networked Lighting Controls
+order: 1
+estimated_hours: 8
+description: >
+  Builds on the standalone controls and dimming systems from LT3 to cover networked lighting
+  control (NLC) systems: wired and wireless mesh architectures, gateways, luminaire-level lighting
+  control, zoning and sequences of operation, step-by-step zone commissioning, and integration with
+  building management systems using BACnet.
+objectives:
+  - Identify the components of an NLC system and describe wired, DALI-2 and wireless mesh architectures.
+  - Explain luminaire-level lighting control (LLLC) and its impact on commissioning.
+  - Translate a sequence of operations into zoning and software settings.
+  - Commission an NLC zone, including trim, daylight calibration and functional testing.
+  - Describe BACnet devices, objects and points lists and perform point-to-point verification with a BMS technician.
+  - Apply LOTO correctly when software controls can energize equipment.
+lessons:
+  - 01-nlc-architectures-and-components.md
+  - 02-zoning-and-sequences-of-operation.md
+  - 03-commissioning-an-nlc-zone.md
+  - 04-bms-integration-and-bacnet.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT4-C01-Q01
+      type: single
+      q: A wired NLC system uses Cat5e patch cables with RJ-45 connectors between room controllers and wallstations. What should you assume?
+      choices:
+        - It is standard Ethernet and can be plugged into any network switch
+        - It is a proprietary low-voltage bus that should not be connected to Ethernet equipment unless the manufacturer says so
+        - It carries line voltage and must be in conduit
+        - It is a DALI bus and is polarity-sensitive
+      answer: 1
+      explanation: Many manufacturers use RJ-45/Cat5e for a proprietary data and Class 2 power bus. It looks like Ethernet but is not; connecting it to network switches can damage equipment.
+    - id: LT4-C01-Q02
+      type: single
+      q: What best describes luminaire-level lighting control (LLLC)?
+      choices:
+        - One occupancy sensor controls all luminaires on a floor
+        - Luminaires are switched by a central contactor panel
+        - Each luminaire has its own integrated occupancy sensor, daylight sensor and networked controller
+        - Luminaires are controlled only by time schedule
+      answer: 2
+      explanation: LLLC places sensing and networked control in every luminaire, allowing each fixture to respond to its own area. DLC tracks LLLC as a designation on its NLC Qualified Products List.
+      ref: DLC NLC Technical Requirements
+    - id: LT4-C01-Q03
+      type: single
+      q: In a wireless mesh lighting network, which devices typically do NOT relay messages for other devices?
+      choices:
+        - Battery-powered wallstations and sensors
+        - Line-powered luminaire controllers
+        - Gateways
+        - Line-powered ceiling sensors
+      answer: 0
+      explanation: Battery devices usually sleep to save power and act as end devices that talk only to a nearby powered node; line-powered nodes form the relaying mesh.
+    - id: LT4-C01-Q04
+      type: single
+      q: You need to work on the line-voltage terminals of a luminaire controller that the NLC software shows as OFF. What must you do first?
+      choices:
+        - Nothing; the relay is open so the terminals are dead
+        - Put the zone in manual override OFF in the software
+        - Ask the BMS operator to disable schedules
+        - De-energize the circuit at the breaker, apply LOTO and verify absence of voltage live-dead-live
+      answer: 3
+      explanation: A controller relay is not a disconnecting means or energy-isolating device. Its input remains energized and contacts can fail closed. LOTO and verification are required.
+      ref: OSHA 29 CFR 1910.333 / 1910.147; NFPA 70E Article 120
+    - id: LT4-C01-Q05
+      type: single
+      q: A conference-room occupancy sensor keeps the lights on all day even when the room is empty. The door is usually open to a busy hallway. The most likely cause is?
+      choices:
+        - The driver is failing
+        - The sensor is detecting hallway traffic through the door
+        - The daylight sensor is miscalibrated
+        - The high-end trim is set too low
+      answer: 1
+      explanation: Sensors that can see through doorways respond to corridor traffic. Re-aim, mask the lens, reduce sensitivity or relocate the sensor.
+    - id: LT4-C01-Q06
+      type: single
+      q: When setting high-end trim, how should the maximum output level be determined?
+      choices:
+        - Set to 80% on every project
+        - Leave at 100% so occupants never complain
+        - Measure illuminance at the task with daylight excluded and reduce output until the design target is met with margin
+        - Match the low-end trim value
+      answer: 2
+      explanation: High-end trim (task tuning) should be set using a calibrated meter at the task location so the space meets its target without wasting energy.
+    - id: LT4-C01-Q07
+      type: single
+      q: Lights in a daylight zone repeatedly brighten and dim every few minutes on a steady sunny day. What is the most likely issue?
+      choices:
+        - The photosensor sees light from the luminaires it controls, or the deadband is too small, causing hunting
+        - The occupancy timeout is too short
+        - The gateway has the wrong time zone
+        - The BACnet device instance is duplicated
+      answer: 0
+      explanation: Hunting occurs when a closed-loop sensor responds to its own controlled light or the control deadband is too tight. Re-aim or re-calibrate the sensor and widen the deadband.
+    - id: LT4-C01-Q08
+      type: multi
+      q: Which steps are part of commissioning an NLC zone? (Select all that apply.)
+      choices:
+        - Verify discovered devices match the device schedule and name each device
+        - Functionally test each sequence of operation and record results
+        - Back up or export the configuration and record as-left settings
+        - Skip documentation if all lights turn on
+      answer: [0, 1, 2]
+      explanation: Commissioning includes discovery, naming, grouping, setting parameters, functional testing and documentation. "The lights turn on" is not commissioning.
+    - id: LT4-C01-Q09
+      type: single
+      q: Which emergency-lighting condition found during NLC commissioning is a life-safety deficiency?
+      choices:
+        - Emergency luminaires named per the project convention
+        - Egress luminaires on a dimmed zone that go to full output on loss of normal power through a UL 924 device
+        - Egress luminaires on a dimmable zone with no UL 924 device, so they can stay dimmed or off during a power failure
+        - Exit signs on an unswitched circuit
+      answer: 2
+      explanation: Emergency luminaires that can be dimmed or switched must be forced to full output on loss of normal power by listed equipment (such as a UL 924 device). Without it egress lighting may fail.
+      ref: NEC Article 700; UL 924; NFPA 101
+    - id: LT4-C01-Q10
+      type: single
+      q: In BACnet, what must be unique for every BACnet device on the internetwork?
+      choices:
+        - The object name of each zone
+        - The device instance number
+        - The priority array
+        - The PICS document
+      answer: 1
+      explanation: Each BACnet device needs a unique device instance number. Duplicates cause devices to disappear or behave erratically.
+      ref: ASHRAE Standard 135 (BACnet)
+    - id: LT4-C01-Q11
+      type: single
+      q: A zone ON/OFF command point exposed to the BMS would most commonly be which BACnet object type?
+      choices:
+        - Analog Input
+        - Binary Input
+        - Multi-state Input
+        - Binary Value or Binary Output
+      answer: 3
+      explanation: Commandable on/off points are Binary Value or Binary Output objects. Inputs are read-only status.
+    - id: LT4-C01-Q12
+      type: single
+      q: After the BMS commands a zone ON, occupants find the wallstations no longer turn the lights off. What should be checked first?
+      choices:
+        - Whether the BMS is writing at a high priority and never relinquishing the command
+        - Whether the drivers are failing
+        - Whether the occupancy sensor lens is dirty
+        - Whether the circuit breaker is undersized
+      answer: 0
+      explanation: BACnet uses a 16-level priority array. A command written at a high priority and not relinquished overrides local control indefinitely.
+    - id: LT4-C01-Q13
+      type: multi
+      q: Which are good cybersecurity practices when installing NLC gateways on an owner's network? (Select all that apply.)
+      choices:
+        - Change default passwords and store credentials in the approved company system
+        - Connect only to the network/VLAN assigned by the owner's IT department
+        - Install a remote-access tool so the office can reach the system later without telling the owner
+        - Keep firmware updated under the owner's change-control process
+      answer: [0, 1, 3]
+      explanation: Default credentials, unapproved network connections and unapproved remote access are common attack paths. Coordinate with owner IT.
+    - id: LT4-C01-Q14
+      type: single
+      q: A sequence of operations says "manual-ON to 50%, automatic OFF 15 minutes after vacancy." Which sensor mode matches?
+      choices:
+        - Occupancy (auto-ON) mode with 15-minute timeout
+        - Vacancy (manual-ON) mode with 15-minute timeout and wallstation ON level 50%
+        - Daylight-only mode
+        - Schedule-only mode
+      answer: 1
+      explanation: Manual-ON with automatic OFF is vacancy mode. The wallstation ON level and timeout are set from the SOO.
+    - id: LT4-C01-Q15
+      type: single
+      q: During discovery, two luminaires on the device schedule do not appear in the app. Which is NOT a likely cause?
+      choices:
+        - The devices are unpowered
+        - The devices are out of radio range or beyond the gateway's hop limit
+        - The devices were previously claimed by another network
+        - The high-end trim is set to 85%
+      answer: 3
+      explanation: Trim settings do not affect discovery. Missing devices usually point to power, wiring/bus, range, or previous network enrollment problems.

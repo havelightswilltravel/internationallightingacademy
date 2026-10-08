@@ -1,0 +1,177 @@
+code: LT1-C04
+title: Electrical Fundamentals I
+order: 4
+estimated_hours: 8
+description: >
+  Builds the electrical foundation every lighting technician needs: voltage, current,
+  resistance, and power; Ohm's law and Watt's law with practical lighting calculations; the
+  difference between AC and DC; the common building voltage systems (120, 208, 240, 277, and
+  480 V); and the behavior of series and parallel circuits.
+objectives:
+  - Define voltage, current, resistance, and power with their units and symbols
+  - Identify the parts of a circuit and explain open circuits, short circuits, and ground faults
+  - Use Ohm's law and Watt's law to calculate current, voltage, resistance, and power
+  - Calculate fixture current and energy use in kilowatt-hours
+  - Distinguish AC from DC and identify the common building voltage systems
+  - Match ballast, driver, and fixture input voltage to the supply circuit
+  - Apply series and parallel circuit rules to explain fixture behavior
+lessons:
+  - 01-voltage-current-resistance.md
+  - 02-ohms-law-and-watts-law.md
+  - 03-ac-dc-and-building-voltages.md
+  - 04-series-and-parallel-circuits.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C04-Q01
+      type: single
+      q: Which quantity is the electrical "pressure" that pushes current through a circuit?
+      choices:
+        - Resistance
+        - Power
+        - Voltage
+        - Current
+      answer: 2
+      explanation: Voltage is the potential difference that pushes current. Current is the flow; resistance opposes it.
+    - id: LT1-C04-Q02
+      type: single
+      q: Which wire has the lowest resistance for the same length and material?
+      choices:
+        - 10 AWG
+        - 12 AWG
+        - 14 AWG
+        - 18 AWG
+      answer: 0
+      explanation: In the AWG system, smaller numbers mean larger conductors. 10 AWG is the largest listed and has the lowest resistance.
+    - id: LT1-C04-Q03
+      type: single
+      q: A 120 V circuit supplies a resistive load of 30 Ω. What current flows?
+      choices:
+        - 0.25 A
+        - 3,600 A
+        - 40 A
+        - 4 A
+      answer: 3
+      explanation: I = E ÷ R = 120 ÷ 30 = 4 A.
+    - id: LT1-C04-Q04
+      type: single
+      q: A fixture label shows 54 W input at 277 V. Approximately what current does it draw?
+      choices:
+        - 0.19 A
+        - 5.1 A
+        - 0.45 A
+        - 15 A
+      answer: 0
+      explanation: I = P ÷ E = 54 ÷ 277 ≈ 0.19 A.
+    - id: LT1-C04-Q05
+      type: single
+      q: Why is wet skin more dangerous than dry skin when contacting a 120 V conductor?
+      choices:
+        - Wet skin raises the voltage
+        - Wet skin lowers body resistance, so more current flows
+        - Wet skin changes AC into DC
+        - Wet skin increases body resistance
+      answer: 1
+      explanation: By Ohm's law, lower resistance at the same voltage means higher current. Wet or broken skin can reduce body resistance dramatically.
+    - id: LT1-C04-Q06
+      type: single
+      q: A loose terminal in a lamp socket adds resistance. What is the most likely result?
+      choices:
+        - The lamp gets brighter
+        - The breaker trips immediately
+        - The connection heats up and can discolor or melt the socket
+        - Nothing, because resistance only matters in DC circuits
+      answer: 2
+      explanation: Current through added resistance produces heat (P = I²R). Browned or melted sockets often come from loose or corroded connections.
+    - id: LT1-C04-Q07
+      type: single
+      q: Lighting is a continuous load. In most cases, what is the maximum continuous load allowed on a 20 A branch circuit?
+      choices:
+        - 20 A
+        - 18 A
+        - 10 A
+        - 16 A
+      answer: 3
+      explanation: Continuous loads are generally limited to 80% of the overcurrent device rating; 20 A × 0.80 = 16 A.
+      ref: NFPA 70 (NEC) Article 210
+    - id: LT1-C04-Q08
+      type: single
+      q: Fifty fixtures drawing 100 W each operate 3,000 hours per year. How much energy do they use per year?
+      choices:
+        - 15,000 kWh
+        - 150 kWh
+        - 1,500 kWh
+        - 150,000 kWh
+      answer: 0
+      explanation: 50 × 0.1 kW = 5 kW; 5 kW × 3,000 h = 15,000 kWh.
+    - id: LT1-C04-Q09
+      type: single
+      q: What is the standard utility frequency in North America?
+      choices:
+        - 50 Hz
+        - 120 Hz
+        - 60 Hz
+        - 400 Hz
+      answer: 2
+      explanation: North American utilities supply 60 Hz AC. Much of the rest of the world uses 50 Hz.
+    - id: LT1-C04-Q10
+      type: single
+      q: In a 277/480 V three-phase wye system, what voltage is measured from one phase conductor to the neutral?
+      choices:
+        - 480 V
+        - 277 V
+        - 208 V
+        - 120 V
+      answer: 1
+      explanation: In a 277/480 V wye, phase-to-neutral is 277 V and phase-to-phase is 480 V (277 × 1.732 ≈ 480).
+    - id: LT1-C04-Q11
+      type: single
+      q: What does a ballast label marked "120-277 V" or "UNV" mean?
+      choices:
+        - It works only on 120 V or only on 277 V, set by a jumper
+        - It works only on 480 V systems
+        - It must be connected hot-to-hot
+        - It can operate on any supply voltage from 120 V to 277 V
+      answer: 3
+      explanation: Universal-voltage (UNV) ballasts and drivers accept any input voltage in the marked range, typically 120-277 V.
+    - id: LT1-C04-Q12
+      type: multi
+      q: Which statements about a series circuit are true? (Select all that apply.)
+      choices:
+        - The same current flows through every component
+        - Total resistance equals the sum of the individual resistances
+        - Every component has the full source voltage across it
+        - If one component opens, current stops in the whole circuit
+      answer: [0, 1, 3]
+      explanation: Series circuits have one path, the same current everywhere, and resistances that add. Voltage divides among the components rather than each getting the full source voltage.
+    - id: LT1-C04-Q13
+      type: multi
+      q: Which statements about fixtures connected in parallel on a branch circuit are true? (Select all that apply.)
+      choices:
+        - Each fixture receives the full circuit voltage
+        - Total circuit current is the sum of the fixture currents
+        - If one fixture fails open, the others go out
+        - Adding fixtures increases the total current on the circuit
+      answer: [0, 1, 3]
+      explanation: Parallel branches share the same voltage and their currents add. One open branch does not affect the others.
+    - id: LT1-C04-Q14
+      type: single
+      q: An entire row of fixtures on one switch is out, but other circuits work. Where is the problem most likely located?
+      choices:
+        - In each individual lamp
+        - In a component in series with all the fixtures, such as the breaker, switch, or shared wiring
+        - In the fixture lenses
+        - In the equipment grounding conductor only
+      answer: 1
+      explanation: When all parallel fixtures fail together, the cause is usually something in series with all of them upstream.
+    - id: LT1-C04-Q15
+      type: single
+      q: Approximately what is 120 V multiplied by 1.732?
+      choices:
+        - 240 V
+        - 277 V
+        - 208 V
+        - 480 V
+      answer: 2
+      explanation: 120 × 1.732 ≈ 208 V, the phase-to-phase voltage of a 120/208 V three-phase wye system.

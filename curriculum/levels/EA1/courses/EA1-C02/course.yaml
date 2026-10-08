@@ -1,0 +1,193 @@
+code: EA1-C02
+title: Introduction to the NEC
+order: 2
+estimated_hours: 14
+description: >
+  How the National Electrical Code (NFPA 70) is written, adopted and enforced, and how to find
+  answers in it quickly and correctly. Covers the Code's purpose and limits, adoption and the
+  Authority Having Jurisdiction, chapter arrangement and numbering, mandatory/permissive/
+  explanatory language, Article 100 definitions, a field tour of Chapters 1-4, and a repeatable
+  lookup method with worked examples. Teaches from the 2023 NEC; the AHJ-adopted edition always
+  governs, and the 2026 edition reorganized some content.
+objectives:
+  - Explain the purpose and limits of the NEC as stated in Article 90
+  - Describe how the NEC becomes law through adoption and the role of the AHJ
+  - Explain how Chapters 1-9 relate to each other and decode a section number
+  - Distinguish mandatory rules, permissive rules, exceptions and informational notes
+  - Apply key Article 100 definitions such as approved, listed, identified and readily accessible
+  - Locate common requirements in Articles 110, 210, 240, 300, 314, 358, 404 and 406
+  - Use the index, table of contents and article scopes to answer field code questions
+lessons:
+  - 01-purpose-adoption-and-the-ahj.md
+  - 02-code-structure-and-language.md
+  - 03-chapters-1-through-4-tour.md
+  - 04-code-lookup-practice.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA1-C02-Q01
+      type: single
+      q: According to Article 90, what is the purpose of the NEC?
+      choices:
+        - To serve as a design manual for electrical engineers
+        - To provide an instruction manual for untrained persons
+        - To guarantee an efficient installation with room for future expansion
+        - The practical safeguarding of persons and property from hazards arising from the use of electricity
+      answer: 3
+      explanation: Article 90 states the purpose is practical safeguarding of persons and property. It also says the Code is not a design specification or an instruction manual for untrained persons, and compliance does not guarantee efficiency or room for expansion.
+      ref: NEC Article 90 (90.1)
+    - id: EA1-C02-Q02
+      type: single
+      q: Which edition of the NEC must you follow on a job?
+      choices:
+        - Always the newest edition published by NFPA
+        - The edition (with any amendments) adopted by the jurisdiction where the work is performed
+        - Whichever edition the electrician prefers
+        - The edition printed on the panelboard label
+      answer: 1
+      explanation: The NEC has legal force only where a government adopts it. The edition and local amendments adopted by the jurisdiction, as enforced by the AHJ, govern the work.
+      ref: NEC Article 90; EA1-C02 Lesson 1
+    - id: EA1-C02-Q03
+      type: single
+      q: Under Article 100, what does "approved" mean?
+      choices:
+        - Acceptable to the authority having jurisdiction
+        - Listed by a nationally recognized testing laboratory
+        - Bearing the manufacturer's label
+        - Installed by a licensed electrician
+      answer: 0
+      explanation: Approved means acceptable to the AHJ. Listing and labeling are separate definitions, although AHJs commonly rely on listing when approving equipment.
+      ref: NEC Article 100
+    - id: EA1-C02-Q04
+      type: single
+      q: Which wording in the NEC indicates a permissive rule?
+      choices:
+        - shall
+        - shall not
+        - shall be permitted
+        - Informational Note
+      answer: 2
+      explanation: 'The phrases "shall be permitted" and "shall not be required" indicate permissive rules - allowed but optional. "Shall" and "shall not" are mandatory; informational notes are explanatory and not enforceable.'
+      ref: NEC 90.5
+    - id: EA1-C02-Q05
+      type: single
+      q: How do Chapters 5, 6 and 7 relate to Chapters 1 through 4?
+      choices:
+        - They replace Chapters 1-4 entirely for those installations
+        - They supplement or modify the general rules of Chapters 1-4
+        - They apply only to communications systems
+        - They are informative annexes and not enforceable
+      answer: 1
+      explanation: Chapters 1-4 apply generally. Chapters 5, 6 and 7 apply to special occupancies, equipment and conditions and supplement or modify the general rules.
+      ref: NEC 90.3
+    - id: EA1-C02-Q06
+      type: single
+      q: Listed equipment must be installed and used in accordance with any instructions included in the listing or labeling. Which section requires this?
+      choices:
+        - 110.12
+        - 110.26
+        - 210.8
+        - 110.3(B)
+      answer: 3
+      explanation: 110.3(B) makes the manufacturer's listing and labeling instructions an enforceable Code requirement. 110.12 is workmanship, 110.26 is working space and 210.8 is GFCI protection.
+      ref: NEC 110.3(B)
+    - id: EA1-C02-Q07
+      type: single
+      q: What is the minimum depth of working space in front of a 120/240 V single-phase residential panelboard, regardless of what is on the opposite wall?
+      choices:
+        - 3 ft
+        - 3 1/2 ft
+        - 4 ft
+        - 30 in
+      answer: 0
+      explanation: For 0-150 V to ground, Table 110.26(A)(1) requires 3 ft for Conditions 1, 2 and 3. A 120/240 V system is 120 V to ground. The 30 in figure is the minimum width, not depth.
+      ref: NEC 110.26(A)(1)
+    - id: EA1-C02-Q08
+      type: single
+      q: A 277/480 V panelboard has exposed live parts on one side of the working space and a concrete block wall (grounded) on the other. What working space depth is required?
+      choices:
+        - 3 ft
+        - 3 1/2 ft
+        - 4 ft
+        - 6 1/2 ft
+      answer: 1
+      explanation: 277 V to ground falls in the 151 V-and-up row of Table 110.26(A)(1). Grounded parts opposite live parts is Condition 2, requiring 3 1/2 ft.
+      ref: NEC Table 110.26(A)(1)
+    - id: EA1-C02-Q09
+      type: single
+      q: Unless specifically permitted elsewhere in the Code, what is the maximum overcurrent protection for 12 AWG copper branch-circuit conductors?
+      choices:
+        - 15 A
+        - 25 A
+        - 30 A
+        - 20 A
+      answer: 3
+      explanation: 240.4(D) limits 14 AWG copper to 15 A, 12 AWG to 20 A and 10 AWG to 30 A, even though Table 310.16 lists higher ampacities.
+      ref: NEC 240.4(D)
+    - id: EA1-C02-Q10
+      type: single
+      q: What is the maximum total of bends permitted between pull points in an EMT run?
+      choices:
+        - 180 degrees
+        - 270 degrees
+        - 360 degrees
+        - 540 degrees
+      answer: 2
+      explanation: Article 358 limits bends between pull points to the equivalent of four quarter bends (360 degrees total), including offsets.
+      ref: NEC 358.26
+    - id: EA1-C02-Q11
+      type: single
+      q: A device box contains four insulated 12 AWG conductors, two equipment grounding conductors, one receptacle and no internal clamps. Using 2.25 cubic inches per 12 AWG conductor, what minimum box volume is required?
+      choices:
+        - 13.5 cubic inches
+        - 15.75 cubic inches
+        - 18.0 cubic inches
+        - 11.25 cubic inches
+      answer: 1
+      explanation: Count 4 (conductors) + 1 (EGCs, up to four counted as one) + 2 (device) = 7 allowances. 7 x 2.25 = 15.75 cubic inches.
+      ref: NEC 314.16(B) and Table 314.16(B)
+    - id: EA1-C02-Q12
+      type: single
+      q: What is the minimum length of free conductor required at each outlet, junction and switch point?
+      choices:
+        - 6 in
+        - 3 in
+        - 8 in
+        - 12 in
+      answer: 0
+      explanation: 300.14 requires at least 6 in of free conductor, and where the box opening is less than 8 in in any dimension, at least 3 in must extend outside the opening.
+      ref: NEC 300.14
+    - id: EA1-C02-Q13
+      type: multi
+      q: Which statements about NEC informational notes and exceptions are correct? (Select all that apply.)
+      choices:
+        - Informational notes are explanatory and are not enforceable requirements
+        - An exception applies only to the rule it follows
+        - An informational note can be cited by the inspector to fail an installation
+        - Exceptions may be mandatory (shall) or permissive (shall be permitted)
+      answer: [0, 1, 3]
+      explanation: Informational notes are explanatory material, not requirements. Exceptions modify only the rule they follow and can be written as mandatory or permissive.
+      ref: NEC 90.5
+    - id: EA1-C02-Q14
+      type: multi
+      q: Which of the following are true of the term "readily accessible" as defined in Article 100? (Select all that apply.)
+      choices:
+        - It means capable of being reached quickly for operation or inspection
+        - It excludes locations that require using a portable ladder
+        - A disconnect above a lay-in ceiling reachable only by ladder qualifies
+        - It excludes locations requiring the removal of obstacles to reach
+      answer: [0, 1, 3]
+      explanation: Readily accessible means it can be reached quickly without climbing over or removing obstacles or using portable ladders. A disconnect requiring a ladder may be accessible but is not readily accessible.
+      ref: NEC Article 100
+    - id: EA1-C02-Q15
+      type: single
+      q: In the 2023 NEC, where are most definitions located?
+      choices:
+        - At the beginning of each individual article only
+        - In Informative Annex A
+        - Consolidated in Article 100
+        - In Chapter 9 tables
+      answer: 2
+      explanation: The 2023 edition consolidated definitions into Article 100, with bracketed references to the articles where many terms are used. Always check Article 100 when a question turns on a word.
+      ref: NEC Article 100 (2023)

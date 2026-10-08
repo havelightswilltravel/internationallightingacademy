@@ -1,0 +1,178 @@
+code: LT4-C02
+title: Energy Codes & Standards
+order: 2
+estimated_hours: 7
+description: >
+  Explains how commercial energy codes regulate lighting and what that means for field work:
+  ASHRAE 90.1, the IECC and California Title 24 Part 6, code adoption and compliance paths,
+  alteration triggers, lighting power density calculations, mandatory interior and exterior
+  controls, functional testing, DLC Qualified Products Lists and utility incentive program
+  requirements.
+objectives:
+  - Identify the energy codes that regulate lighting and explain that the AHJ-adopted edition governs.
+  - Recognize when a retrofit or alteration is likely to trigger energy-code requirements.
+  - Calculate installed lighting power density and compare it to code allowances using building area and space-by-space methods.
+  - Identify the mandatory interior and exterior lighting control categories and perform functional tests.
+  - Verify products on the DLC SSL and NLC Qualified Products Lists and distinguish DLC qualification from NRTL safety listing.
+  - Collect the field documentation needed for utility incentive programs.
+lessons:
+  - 01-how-energy-codes-work.md
+  - 02-lighting-power-density.md
+  - 03-mandatory-lighting-controls.md
+  - 04-dlc-and-utility-incentives.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT4-C02-Q01
+      type: single
+      q: A customer asks which version of the energy code applies to their retrofit. What is the correct answer?
+      choices:
+        - The newest edition of ASHRAE 90.1
+        - The edition adopted by the state or local AHJ, including any local amendments
+        - Whatever edition the fixture manufacturer lists on its spec sheet
+        - The edition in effect when the building was originally built
+      answer: 1
+      explanation: Energy codes are enforced as adopted by the jurisdiction. Many jurisdictions lag behind the latest model code and may amend it.
+    - id: LT4-C02-Q02
+      type: single
+      q: Which section of ANSI/ASHRAE/IES Standard 90.1 contains the lighting requirements?
+      choices:
+        - Section 6
+        - Section 7
+        - Section 8
+        - Section 9
+      answer: 3
+      explanation: Section 9 of Standard 90.1 covers lighting. (Section 6 is HVAC, 7 service water heating, 8 power.)
+      ref: ANSI/ASHRAE/IES Standard 90.1, Section 9
+    - id: LT4-C02-Q03
+      type: single
+      q: Which energy code requires lighting control acceptance tests to be performed by a certified Acceptance Test Technician?
+      choices:
+        - California Title 24, Part 6
+        - IECC
+        - NFPA 101
+        - NEC Article 410
+      answer: 0
+      explanation: California's Building Energy Efficiency Standards (Title 24, Part 6) require acceptance testing of lighting controls by certified technicians, documented on specific forms.
+    - id: LT4-C02-Q04
+      type: single
+      q: When calculating installed lighting power density, which wattage should you use for a 2-lamp T8 troffer?
+      choices:
+        - 64 W (two 32 W lamps)
+        - The "equivalent" wattage printed on the replacement lamp carton
+        - The complete luminaire input watts including ballast (roughly 55–60 W, from data or measurement)
+        - The breaker rating divided by the number of fixtures
+      answer: 2
+      explanation: LPD uses luminaire input power including ballast or driver losses, not lamp watts or equivalent watts.
+    - id: LT4-C02-Q05
+      type: single
+      q: A 4,000 ft² space has 2,020 W of installed lighting. What is the installed LPD?
+      choices:
+        - 0.51 W/ft²
+        - 1.98 W/ft²
+        - 0.20 W/ft²
+        - 5.05 W/ft²
+      answer: 0
+      explanation: LPD = 2,020 W ÷ 4,000 ft² = 0.505, about 0.51 W/ft².
+    - id: LT4-C02-Q06
+      type: single
+      q: What is the main advantage of the space-by-space method over the building area method?
+      choices:
+        - It ignores mandatory controls
+        - It allows trade-offs between spaces and better reflects the actual space types in the building
+        - It does not require any calculations
+        - It applies only to exterior lighting
+      answer: 1
+      explanation: Space-by-space assigns allowances per space type and lets savings in one space offset higher power in another, within the total allowance.
+    - id: LT4-C02-Q07
+      type: single
+      q: Your crew wants to substitute a 40 W troffer for the 32 W model listed on the energy compliance documents because it is in stock. What should happen?
+      choices:
+        - Install it; brighter is better for the customer
+        - Install it and update the compliance form after inspection
+        - Install half of each model
+        - Submit the substitution in writing with the spec sheet so the designer can verify LPD compliance before installing
+      answer: 3
+      explanation: Higher-wattage substitutions can push the project over the LPD allowance and may affect incentives. Get approval first.
+    - id: LT4-C02-Q08
+      type: multi
+      q: Which are common mandatory interior lighting control categories in current energy codes? (Select all that apply.)
+      choices:
+        - Local manual control in the space
+        - Automatic shutoff by occupancy sensing or schedule
+        - Daylight-responsive control in daylight zones
+        - Requiring all luminaires to be on a single switch per floor
+      answer: [0, 1, 2]
+      explanation: Energy codes require local control, automatic shutoff, multi-level/daylight control and similar functions. A single switch per floor would violate local-control requirements.
+    - id: LT4-C02-Q09
+      type: single
+      q: What does "restricted ON" (manual-ON or partial auto-ON) accomplish?
+      choices:
+        - It keeps lights from turning on automatically to full output when they may not be needed
+        - It prevents occupants from turning lights off
+        - It forces emergency lights to full output
+        - It sets the maximum installed wattage
+      answer: 0
+      explanation: Restricted ON requires manual-ON or limits automatic-ON to a partial level, saving energy when daylight or partial light is sufficient.
+    - id: LT4-C02-Q10
+      type: multi
+      q: Which exterior lighting control functions are commonly required by energy codes? (Select all that apply.)
+      choices:
+        - Automatic shutoff when daylight is available
+        - Late-night reduction of lighting power
+        - Scheduled shutoff of façade and landscape lighting during late-night hours
+        - Exterior lighting on continuously 24 hours a day
+      answer: [0, 1, 2]
+      explanation: Exterior controls typically include daylight shutoff, scheduled façade/landscape shutoff and late-night reduction (often via motion-sensing dimming).
+    - id: LT4-C02-Q11
+      type: single
+      q: Energy-code automatic shutoff controls are being installed in a stairwell. What is the key life-safety concern?
+      choices:
+        - The sensor color must match the walls
+        - Light levels must still meet egress illumination requirements and emergency lighting must not be disabled
+        - The stairwell must use the building area method
+        - Stairwell lights must be on a time clock only
+      answer: 1
+      explanation: Energy-saving controls must not reduce egress illumination below NFPA 101 requirements or defeat emergency lighting.
+      ref: NFPA 101 (egress illumination)
+    - id: LT4-C02-Q12
+      type: single
+      q: What does DLC qualification of an LED troffer indicate?
+      choices:
+        - It is safety-listed by an NRTL and meets NEC 110.3
+        - It is approved by the AHJ for all installations
+        - It meets DLC performance requirements such as efficacy, lumen maintenance and color quality
+        - It is exempt from energy-code LPD limits
+      answer: 2
+      explanation: DLC is a performance qualification used by incentive programs. Safety listing by an NRTL (e.g., UL 1598/UL 8750) is separate and still required.
+    - id: LT4-C02-Q13
+      type: single
+      q: A troffer model family appears on the DLC QPL. What must you verify before telling the customer it qualifies for an incentive?
+      choices:
+        - The exact model number and configuration (lumen package, CCT, options) is listed and meets the program's rules at the time of purchase
+        - Only that the manufacturer name appears on the list
+        - That the carton says "energy efficient"
+        - That the product is less than 50 W
+      answer: 0
+      explanation: Listings are configuration-specific, products can be delisted, and programs have their own rules. Verify the exact model and save the listing.
+    - id: LT4-C02-Q14
+      type: single
+      q: 100 fixtures are reduced from 112 W to 45 W and operate 4,000 hours per year. What is the annual energy savings?
+      choices:
+        - 6,700 kWh
+        - 268,000 kWh
+        - 2,680 kWh
+        - 26,800 kWh
+      answer: 3
+      explanation: (112 − 45) × 100 × 4,000 ÷ 1,000 = 26,800 kWh per year.
+    - id: LT4-C02-Q15
+      type: single
+      q: A utility prescriptive program requires pre-approval. The crew installs fixtures before approval arrives. What is the most likely consequence?
+      choices:
+        - The incentive is increased for faster installation
+        - The customer may lose the incentive
+        - Nothing; pre-approval is only a suggestion
+        - The AHJ will fail the electrical inspection
+      answer: 1
+      explanation: Many programs deny incentives for equipment purchased or installed before pre-approval. Follow program rules exactly.

@@ -1,0 +1,176 @@
+code: LT4-C05
+title: Advanced Troubleshooting
+order: 5
+estimated_hours: 8
+description: >
+  Takes the systematic troubleshooting method from LT2-C06 to the senior level: structured
+  root-cause analysis (fishbone and 5 Whys), capturing intermittent faults with data logging,
+  thermal imaging and controls event logs, diagnosing system-level and controls interactions,
+  and applying these skills through realistic field case studies.
+objectives:
+  - Distinguish symptom, direct cause and root cause, and write a specific problem statement.
+  - Use a fishbone diagram and 5 Whys to identify correctable root causes.
+  - Select and safely install data-logging instruments to capture intermittent events.
+  - Use thermal imaging and controls event logs as diagnostic evidence.
+  - Diagnose interactions between control inputs, dimming equipment, sensors and the electrical system.
+  - Document corrective and preventive actions in an RCA report.
+lessons:
+  - 01-root-cause-analysis.md
+  - 02-intermittent-faults.md
+  - 03-system-and-controls-interactions.md
+  - 04-case-studies.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT4-C05-Q01
+      type: single
+      q: A driver in the same fixture has been replaced three times this year. What is the best next step?
+      choices:
+        - Replace the driver again with the same model
+        - Perform a root-cause analysis to determine why the drivers are failing
+        - Replace the entire fixture with an identical one
+        - Tell the customer LEDs are unreliable
+      answer: 1
+      explanation: Repeat failures indicate an unaddressed root cause (heat, voltage, surge, wrong product). Replacing parts without finding the cause guarantees recurrence.
+    - id: LT4-C05-Q02
+      type: single
+      q: Which is the best problem statement for an RCA?
+      choices:
+        - Lights keep failing in the warehouse
+        - The new LEDs are junk
+        - Since the March retrofit, 14 of 120 high-bay drivers in Aisles 20–28 have failed, clustered in June–August; other aisles had 1 failure
+        - Somebody needs to fix the lights
+      answer: 2
+      explanation: A good problem statement states what, where, when, how many and how often, which guides evidence collection.
+    - id: LT4-C05-Q03
+      type: single
+      q: What is the purpose of a fishbone (Ishikawa) diagram in troubleshooting?
+      choices:
+        - To organize possible causes into categories so the team does not fixate on the first idea
+        - To calculate voltage drop
+        - To schedule the repair crew
+        - To document BACnet points
+      answer: 0
+      explanation: A fishbone diagram organizes candidate causes (power, equipment, environment, installation, controls, people/process) for systematic evaluation.
+    - id: LT4-C05-Q04
+      type: single
+      q: Why is parts-swapping a poor method for diagnosing a recurring problem?
+      choices:
+        - It is always slower than testing
+        - Manufacturers prohibit it
+        - It requires a MEWP
+        - It costs money, destroys evidence and rarely identifies the root cause
+      answer: 3
+      explanation: Swapping parts until symptoms stop does not reveal why parts fail and can mask intermittent problems.
+    - id: LT4-C05-Q05
+      type: single
+      q: The "5 Whys" technique is used to?
+      choices:
+        - Interview five occupants
+        - Keep asking why until reaching a cause that, if corrected, prevents recurrence
+        - Test five fixtures in a row
+        - Verify five BACnet points
+      answer: 1
+      explanation: Repeatedly asking why moves from the symptom through contributing causes to a correctable root cause, often a process or specification gap.
+    - id: LT4-C05-Q06
+      type: single
+      q: What is the preferred way to install a clamp-on data logger in a lighting panel?
+      choices:
+        - With the circuit de-energized under LOTO and verified dead, then close covers and re-energize; energized installation only by a qualified person in PPE
+        - Energized by any technician wearing safety glasses
+        - Leave the panel cover off so the logger display can be read
+        - Clip voltage leads onto the bus with the panel energized and no PPE
+      answer: 0
+      explanation: Installing instruments in an energized panel is energized work. De-energized installation under LOTO is preferred; otherwise a qualified person with arc-flash PPE must perform it.
+      ref: NFPA 70E
+    - id: LT4-C05-Q07
+      type: single
+      q: A data logger shows a voltage sag on the lighting circuit at the exact times occupants report flicker. What does this suggest?
+      choices:
+        - The drivers are defective
+        - The occupancy sensor timeout is too short
+        - The cause is upstream – for example, a large load starting on a shared feeder or a supply problem
+        - The CCT is incorrect
+      answer: 2
+      explanation: A sag coinciding with events points upstream of the luminaire. Normal voltage during events would point to the luminaire, driver or controls.
+    - id: LT4-C05-Q08
+      type: multi
+      q: Which statements about thermal imaging for lighting troubleshooting are correct? (Select all that apply.)
+      choices:
+        - Connections should be scanned under load to reveal high resistance
+        - Comparing similar components (e.g., three phases) helps identify abnormal heating
+        - Removing an energized panel cover for scanning requires a qualified person and appropriate PPE, or IR windows
+        - Thermal imaging works best with the circuit de-energized
+      answer: [0, 1, 2]
+      explanation: High-resistance connections heat only when carrying current, so scans are done under load and by qualified persons with PPE or through IR windows.
+    - id: LT4-C05-Q09
+      type: single
+      q: Classroom lights turn on at 2 a.m. The NLC event log shows the commands came from the occupancy sensors, coinciding with HVAC operation. What is the most likely cause?
+      choices:
+        - A failed driver
+        - A schedule set to 2 a.m.
+        - An open neutral
+        - HVAC airflow triggering ultrasonic sensing in sensors configured to turn ON when either technology detects motion
+      answer: 3
+      explanation: Airflow can trigger ultrasonic detection. Requiring both technologies for ON, reducing sensitivity or relocating sensors resolves it.
+    - id: LT4-C05-Q10
+      type: single
+      q: A high-impedance DMM reads 40 V on a switched-off switch leg and the LED fixture glows faintly. What is the best next diagnostic step?
+      choices:
+        - Use the meter's low-impedance (LoZ) function to determine whether it is induced ghost voltage or a real backfeed
+        - Assume it is ghost voltage and start work
+        - Replace the driver
+        - Call the utility
+      answer: 0
+      explanation: A LoZ function loads the circuit so capacitively coupled ghost voltage collapses while real voltage remains. Either way, LOTO and verification are required before work.
+    - id: LT4-C05-Q11
+      type: single
+      q: After a retrofit, lights on different circuits of the same 120/208 V MWBC show different brightness that changes as loads switch. What should you suspect?
+      choices:
+        - Wrong CCT
+        - A loose or open shared neutral
+        - Daylight harvesting
+        - Low CRI
+      answer: 1
+      explanation: Unequal, shifting voltages across MWBC circuits are a classic open/high-resistance neutral symptom.
+    - id: LT4-C05-Q12
+      type: single
+      q: A parking lot circuit trips only after heavy rain. What test is most likely to find the cause?
+      choices:
+        - Footcandle survey
+        - Inrush measurement on a dry day
+        - Insulation-resistance testing of underground segments (drivers disconnected, under LOTO) when wet
+        - Checking the photocell CCT
+      answer: 2
+      explanation: Wet-only trips suggest insulation damage plus water. Test when the condition exists, segment by segment, with drivers disconnected.
+    - id: LT4-C05-Q13
+      type: multi
+      q: Which are good steps when diagnosing a controls interaction problem? (Select all that apply.)
+      choices:
+        - Map every input that can command the luminaires
+        - Compare current settings to the as-commissioned record and check the event log
+        - Disable inputs one at a time with permission, then restore them
+        - Permanently disable all sensors so lights stay on
+      answer: [0, 1, 2]
+      explanation: Mapping inputs, checking logs and settings, and isolating inputs one at a time identify the interaction. Disabling sensors permanently violates energy codes and the design.
+    - id: LT4-C05-Q14
+      type: single
+      q: High-bay drivers near furnaces fail far more often than elsewhere. Temperature logging shows ambient of 55 °C, and the fixtures are rated for 40 °C. What is the root cause most likely to prevent recurrence if corrected?
+      choices:
+        - The drivers are from a bad batch
+        - The circuit is overloaded
+        - The audit and product selection did not account for the high-ambient environment
+        - The occupancy sensors are set wrong
+      answer: 2
+      explanation: The product was not rated for the environment. Correcting both the fixtures (corrective) and the audit process (preventive) prevents recurrence.
+    - id: LT4-C05-Q15
+      type: single
+      q: What distinguishes a corrective action from a preventive action in an RCA?
+      choices:
+        - There is no difference
+        - Corrective actions are done by engineers; preventive actions by technicians
+        - Preventive actions are optional and never documented
+        - Corrective action fixes this instance; preventive action stops the same problem occurring elsewhere or in the future
+      answer: 3
+      explanation: Effective RCA includes both: fix the current failure and change the process, design or specification that allowed it.

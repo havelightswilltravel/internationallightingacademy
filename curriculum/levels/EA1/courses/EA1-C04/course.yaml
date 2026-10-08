@@ -1,0 +1,193 @@
+code: EA1-C04
+title: Wiring Devices & Residential Circuits
+order: 4
+estimated_hours: 18
+description: >
+  Installing and testing the devices and branch circuits found in dwelling units. Covers NEMA
+  configurations, receptacle ratings and terminations, torque requirements, tamper- and
+  weather-resistant receptacles, replacement rules, single-pole/3-way/4-way switching and its
+  code rules, GFCI and AFCI operation, required locations, installation and testing, required
+  dwelling branch circuits, and receptacle and lighting outlet layout. Pairs with skills EA1-S04
+  and EA1-S05.
+objectives:
+  - Identify common NEMA receptacle configurations and match receptacle ratings to branch circuits
+  - Terminate devices correctly and torque terminals to manufacturer values
+  - Apply tamper-resistant, weather-resistant and receptacle-replacement requirements
+  - Wire and troubleshoot single-pole, 3-way and 4-way switching in compliance with 200.7 and 404.2
+  - Explain GFCI and AFCI operation and identify where each is required in dwellings
+  - Install and test GFCI receptacles and AFCI breakers per manufacturer instructions
+  - Lay out required dwelling branch circuits, receptacle outlets and lighting outlets
+lessons:
+  - 01-receptacles-and-terminations.md
+  - 02-switching-3way-4way.md
+  - 03-gfci-and-afci-protection.md
+  - 04-dwelling-branch-circuits.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA1-C04-Q01
+      type: single
+      q: Which NEMA configuration is a 125 V, 20 A grounding receptacle with a T-shaped neutral slot?
+      choices:
+        - 6-20R
+        - 5-15R
+        - 5-20R
+        - 14-30R
+      answer: 2
+      explanation: The 5-20R is rated 125 V, 20 A. The 5-15R is 15 A, the 6-20R is 250 V and the 14-30R is a 125/250 V dryer receptacle.
+      ref: NEMA WD 6; EA1-C04 Lesson 1
+    - id: EA1-C04-Q02
+      type: single
+      q: A 20 A branch circuit supplies four duplex receptacles in a dwelling living room. What receptacle ratings are permitted?
+      choices:
+        - 20 A only
+        - 15 A or 20 A
+        - 15 A only
+        - 30 A only
+      answer: 1
+      explanation: Where a circuit supplies two or more receptacles, Table 210.21(B)(3) permits 15 A or 20 A receptacles on a 20 A circuit.
+      ref: NEC 210.21(B)(3)
+    - id: EA1-C04-Q03
+      type: single
+      q: On a standard receptacle, which terminal receives the grounded (neutral) conductor?
+      choices:
+        - Silver (light-colored) screw
+        - Brass screw
+        - Green hex screw
+        - Either brass or silver screw
+      answer: 0
+      explanation: Silver screws are for the grounded conductor, brass for the ungrounded conductor and green for the equipment grounding conductor.
+      ref: EA1-C04 Lesson 1; NEC 200.10
+    - id: EA1-C04-Q04
+      type: single
+      q: Where a receptacle or breaker terminal has a marked tightening torque, what does the 2023 NEC require?
+      choices:
+        - Tighten until snug by feel
+        - Tighten one-quarter turn past snug
+        - Torque only conductors 1/0 AWG and larger
+        - Use a calibrated torque tool to achieve the indicated torque, unless the manufacturer provides another method
+      answer: 3
+      explanation: 110.14(D) requires an approved means such as a calibrated torque tool to achieve indicated tightening torque values, unless the equipment manufacturer provides installation instructions for an alternative method.
+      ref: NEC 110.14(D)
+    - id: EA1-C04-Q05
+      type: single
+      q: When replacing a two-wire receptacle in a box with no equipment grounding conductor, which is a permitted option?
+      choices:
+        - Install a grounding-type receptacle and jumper the ground terminal to the neutral
+        - Install a GFCI receptacle marked "No Equipment Ground"
+        - Install a grounding-type receptacle with nothing connected to the ground terminal and no marking
+        - Connect the ground terminal to a nearby water pipe
+      answer: 1
+      explanation: 406.4(D)(2) permits a non-grounding receptacle, or a GFCI receptacle (or GFCI-protected grounding receptacles) marked "No Equipment Ground." Jumpering ground to neutral (a bootleg ground) is prohibited and dangerous.
+      ref: NEC 406.4(D)(2)
+    - id: EA1-C04-Q06
+      type: single
+      q: In a 3-way switching circuit with power at the first switch, where does the line (hot) conductor connect?
+      choices:
+        - To the common terminal of the first 3-way switch
+        - To either traveler terminal of the first 3-way switch
+        - To a traveler terminal of the 4-way switch
+        - Directly to the luminaire
+      answer: 0
+      explanation: Line goes to the common of the first 3-way; travelers connect between the switches; the common of the second 3-way feeds the switched leg to the luminaire.
+      ref: EA1-C04 Lesson 2
+    - id: EA1-C04-Q07
+      type: single
+      q: How many switches are needed to control a luminaire from four locations?
+      choices:
+        - Four 3-way switches
+        - Two 3-way switches and one 4-way switch
+        - Two 3-way switches and two 4-way switches
+        - Four 4-way switches
+      answer: 2
+      explanation: Always use two 3-way switches (one at each end) and add one 4-way switch for each additional location. Four locations = two 3-ways + two 4-ways.
+      ref: EA1-C04 Lesson 2
+    - id: EA1-C04-Q08
+      type: single
+      q: In a switch loop wired with NM cable, how may the white conductor be used?
+      choices:
+        - As the switched return conductor to the luminaire, without re-identification
+        - It may not be used; a separate cable is required
+        - As the supply to the switch, if permanently re-identified at each location where it is visible and accessible
+        - As the equipment grounding conductor
+      answer: 2
+      explanation: 200.7(C)(1) permits a white conductor in a cable to supply a switch if re-identified, but not to serve as the return conductor from the switch to the outlet.
+      ref: NEC 200.7(C)(1)
+    - id: EA1-C04-Q09
+      type: single
+      q: A Class A GFCI is designed to trip when ground-fault current reaches approximately what level?
+      choices:
+        - 30 mA
+        - 4 to 6 mA
+        - 100 mA
+        - 15 A
+      answer: 1
+      explanation: Class A GFCIs (UL 943) for personnel protection are designed to trip in the 4 to 6 mA range. 30 mA is a common equipment ground-fault threshold, and 15 A is a breaker rating.
+      ref: UL 943; EA1-C04 Lesson 3
+    - id: EA1-C04-Q10
+      type: multi
+      q: Which statements about GFCI and AFCI devices are correct? (Select all that apply.)
+      choices:
+        - A GFCI can function without an equipment grounding conductor present
+        - A combination AFCI detects both series and parallel arcing
+        - A plug-in receptacle tester with a GFCI button can verify that an AFCI breaker is working
+        - When installing an AFCI breaker, the circuit neutral lands on the breaker's neutral terminal
+      answer: [0, 1, 3]
+      explanation: GFCIs compare hot and neutral current and do not need an EGC. Combination AFCIs detect series and parallel arcs. AFCI breakers require the circuit neutral on the breaker. A plug-in GFCI tester cannot verify AFCI operation - use the AFCI's test button.
+      ref: NEC 210.12; EA1-C04 Lesson 3
+    - id: EA1-C04-Q11
+      type: multi
+      q: Under the 2023 NEC, which dwelling-unit locations require GFCI protection for receptacles within the scope of 210.8(A)? (Select all that apply.)
+      choices:
+        - Bathrooms
+        - Garages
+        - Bedrooms (receptacles not near a sink)
+        - Laundry areas
+      answer: [0, 1, 3]
+      explanation: 210.8(A) includes bathrooms, garages and laundry areas, among others. General bedroom receptacles require AFCI protection (210.12) but not GFCI protection unless another condition applies.
+      ref: NEC 210.8(A)
+    - id: EA1-C04-Q12
+      type: single
+      q: A bedroom has 49 ft of continuous wall line (measured around the room from one side of the door to the other). What is the minimum number of receptacles required under the 6 ft rule?
+      choices:
+        - 4
+        - 3
+        - 5
+        - 8
+      answer: 2
+      explanation: No point may be more than 6 ft from a receptacle, so each receptacle covers up to 12 ft of wall line. 49 / 12 = 4.08, which rounds up to 5.
+      ref: NEC 210.52(A)
+    - id: EA1-C04-Q13
+      type: single
+      q: A straight wall countertop is 120 in long with no breaks. What is the minimum number of countertop receptacles?
+      choices:
+        - 2
+        - 3
+        - 4
+        - 5
+      answer: 1
+      explanation: No point along the countertop wall line may be more than 24 in from a receptacle, so each covers 48 in. 120 / 48 = 2.5, which rounds up to 3.
+      ref: NEC 210.52(C)
+    - id: EA1-C04-Q14
+      type: single
+      q: What is the maximum continuous load permitted on a 20 A branch circuit protected by a standard (non-100%-rated) breaker?
+      choices:
+        - 20 A
+        - 18 A
+        - 15 A
+        - 16 A
+      answer: 3
+      explanation: The overcurrent device must be at least 125 percent of the continuous load, so the continuous load may be no more than 80 percent of 20 A = 16 A (1,920 VA at 120 V).
+      ref: NEC 210.20(A)
+    - id: EA1-C04-Q15
+      type: single
+      q: How many 20 A small-appliance branch circuits are required at minimum for a dwelling kitchen and dining area?
+      choices:
+        - One
+        - Two
+        - Three
+        - None if the kitchen has a GFCI
+      answer: 1
+      explanation: 210.11(C)(1) requires two or more 20 A small-appliance branch circuits for the receptacles covered by 210.52(B).
+      ref: NEC 210.11(C)(1)

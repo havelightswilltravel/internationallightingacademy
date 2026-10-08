@@ -1,0 +1,193 @@
+code: EA4-C02
+title: Special Occupancies & Equipment
+order: 2
+estimated_hours: 16
+description: >
+  NEC Chapter 5 and Chapter 6 requirements for locations and equipment where ordinary wiring
+  rules are not enough: hazardous (classified) locations under Articles 500–516, health care
+  facilities under Article 517, and swimming pools, spas, hot tubs, and hydromassage tubs under
+  Article 680. Apprentices learn to read area classification and patient-care-space drawings,
+  select equipment by class, division, zone, group, and temperature code, install and inspect
+  seals and explosionproof fittings, apply redundant grounding and essential electrical system
+  rules, and install and verify pool equipotential bonding and GFCI protection. References are
+  to the 2023 NEC; the AHJ-adopted edition governs.
+objectives:
+  - Identify Class I, II, and III locations, Divisions 1 and 2, Zones 0/1/2 and 20/21/22, material groups, and temperature codes
+  - Select Class I wiring methods and install and inspect conduit seals, threaded joints, and bonding jumpers
+  - Explain patient care space categories, redundant grounding, hospital-grade receptacle requirements, and the branches of the essential electrical system
+  - Describe isolated power systems and line isolation monitors in wet procedure locations
+  - Install and inspect pool and spa equipotential bonding, GFCI protection, and clearance requirements
+lessons:
+  - 01-hazardous-location-classification.md
+  - 02-hazardous-wiring-methods-and-seals.md
+  - 03-health-care-facilities.md
+  - 04-pools-spas-and-hot-tubs.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA4-C02-Q01
+      type: single
+      q: A location where combustible dust is present in the air under normal operating conditions in quantities sufficient to produce ignitable mixtures is classified as which of the following?
+      choices:
+        - Class I, Division 1
+        - Class II, Division 2
+        - Class III, Division 1
+        - Class II, Division 1
+      answer: 3
+      explanation: Class II covers combustible dust. Division 1 applies where the hazard exists under normal operating conditions.
+      ref: 2023 NEC 500.5
+    - id: EA4-C02-Q02
+      type: single
+      q: Gasoline and propane vapors are in which Class I material group?
+      choices:
+        - Group D
+        - Group A
+        - Group B
+        - Group G
+      answer: 0
+      explanation: Group D includes propane, gasoline, natural gas, and many common solvents. Group A is acetylene, Group B hydrogen, and Group G is a dust group.
+      ref: 2023 NEC 500.6
+    - id: EA4-C02-Q03
+      type: single
+      q: A vapor has an autoignition temperature of 180°C. Which equipment temperature code is the highest (hottest) code that is still acceptable?
+      choices:
+        - T2 (300°C)
+        - T4 (135°C)
+        - T3 (200°C)
+        - T1 (450°C)
+      answer: 1
+      explanation: The equipment's maximum surface temperature must be below the autoignition temperature. T3 (200°C) exceeds 180°C; T4 (135°C) is the hottest code listed that is below it.
+      ref: 2023 NEC 500.8
+    - id: EA4-C02-Q04
+      type: single
+      q: In a Class I, Division 1 location, a conduit seal for an enclosure containing a switch must be installed within what distance of the enclosure?
+      choices:
+        - 12 in
+        - 24 in
+        - 18 in
+        - 10 ft
+      answer: 2
+      explanation: Seals for enclosures containing arcing devices must be as close as practicable and not more than 18 in (450 mm) from the enclosure.
+      ref: 2023 NEC 501.15(A)(1)
+    - id: EA4-C02-Q05
+      type: single
+      q: What is the minimum thickness of sealing compound in a 3/4-in sealing fitting?
+      choices:
+        - 1/2 in
+        - 5/8 in
+        - 1 in
+        - 3/4 in
+      answer: 3
+      explanation: Compound must be at least the trade size of the fitting and never less than 5/8 in. For a 3/4-in fitting the minimum is 3/4 in.
+      ref: 2023 NEC 501.15(C)(3)
+    - id: EA4-C02-Q06
+      type: multi
+      q: Which of the following are NOT permitted? (Select all that apply.)
+      choices:
+        - Making a splice inside a conduit sealing fitting
+        - Installing a union between a boundary seal and the Division 1 boundary
+        - Using a bonding jumper instead of a locknut-bushing connection in a Class I location
+        - Relying on a double-locknut connection for bonding in a Class I location
+      answer: [0, 1, 3]
+      explanation: Splices are prohibited in seals, unions are not permitted between the boundary seal and the boundary, and locknut-bushing or double-locknut connections cannot be relied on for bonding in Class I locations. Bonding jumpers are the correct method.
+      ref: 2023 NEC 501.15, 501.30
+    - id: EA4-C02-Q07
+      type: single
+      q: How many full threads must be fully engaged on a threaded joint of explosionproof equipment using NPT threads?
+      choices:
+        - Five
+        - Three
+        - Four
+        - Seven
+      answer: 0
+      explanation: NPT threaded entries into explosionproof equipment must have at least five full threads fully engaged.
+      ref: 2023 NEC 500.8
+    - id: EA4-C02-Q08
+      type: single
+      q: Under 2023 NEC Article 517, an intensive care unit where equipment failure is likely to cause major injury or death is which patient care space category?
+      choices:
+        - Category 2
+        - Category 1
+        - Category 3
+        - Category 4
+      answer: 1
+      explanation: Category 1 (critical care) spaces are those where failure is likely to cause major injury or death.
+      ref: 2023 NEC 517.2
+    - id: EA4-C02-Q09
+      type: single
+      q: Branch circuits in patient care spaces must provide two equipment grounding paths. Which combination satisfies this?
+      choices:
+        - Two bare copper EGCs in nonmetallic cable
+        - Nonmetallic conduit with one insulated copper EGC
+        - EMT plus an insulated copper equipment grounding conductor
+        - Interlocked-armor Type MC whose armor is not an EGC, with a bare aluminum bonding strip only
+      answer: 2
+      explanation: The wiring method must be a metal raceway or cable armor that qualifies as an EGC under 250.118, plus an insulated copper EGC. EMT qualifies as an EGC.
+      ref: 2023 NEC 517.13
+    - id: EA4-C02-Q10
+      type: single
+      q: What is the minimum number of receptacles required at each Category 2 (general care) patient bed location?
+      choices:
+        - 4
+        - 6
+        - 14
+        - 8
+      answer: 3
+      explanation: Category 2 bed locations require at least eight receptacles; Category 1 bed locations require at least 14.
+      ref: 2023 NEC 517.18(B)
+    - id: EA4-C02-Q11
+      type: multi
+      q: Which are branches of a hospital essential electrical system? (Select all that apply.)
+      choices:
+        - Equipment branch
+        - Optional standby branch
+        - Life safety branch
+        - Critical branch
+      answer: [0, 2, 3]
+      explanation: The hospital EES consists of the life safety, critical, and equipment branches. Optional standby is a separate Article 702 system.
+      ref: 2023 NEC 517.31
+    - id: EA4-C02-Q12
+      type: single
+      q: What is the minimum size of the equipotential bonding conductor for a permanently installed swimming pool?
+      choices:
+        - 8 AWG solid copper
+        - 6 AWG stranded aluminum
+        - 10 AWG solid copper
+        - 4 AWG bare copper
+      answer: 0
+      explanation: The equipotential bonding conductor must be solid copper not smaller than 8 AWG (insulated, covered, or bare).
+      ref: 2023 NEC 680.26(B)
+    - id: EA4-C02-Q13
+      type: single
+      q: Perimeter surface bonding for a permanently installed pool must extend how far horizontally beyond the inside walls of the pool?
+      choices:
+        - 18 in
+        - 5 ft
+        - 3 ft
+        - 10 ft
+      answer: 2
+      explanation: Perimeter surfaces extending 1 m (3 ft) horizontally beyond the inside walls of the pool must be bonded.
+      ref: 2023 NEC 680.26(B)(2)
+    - id: EA4-C02-Q14
+      type: single
+      q: What minimum conductive surface area must be in contact with pool water to bond the water?
+      choices:
+        - 4 in²
+        - 6 in²
+        - 12 in²
+        - 9 in²
+      answer: 3
+      explanation: An intentional bond of at least 5800 mm² (9 in²) of corrosion-resistant conductive surface area must be in contact with the pool water.
+      ref: 2023 NEC 680.26(C)
+    - id: EA4-C02-Q15
+      type: single
+      q: For a hot tub at a hotel, the emergency shutoff switch for the recirculation and jet pumps must be located at least how far from the inside walls of the hot tub?
+      choices:
+        - 5 ft
+        - 3 ft
+        - 10 ft
+        - 20 ft
+      answer: 0
+      explanation: The emergency switch must be clearly labeled, readily accessible, within sight of the spa or hot tub, and at least 1.5 m (5 ft) from its inside walls. One-family dwellings are exempt.
+      ref: 2023 NEC 680.41

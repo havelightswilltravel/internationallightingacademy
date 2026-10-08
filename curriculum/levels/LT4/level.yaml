@@ -1,0 +1,177 @@
+code: LT4
+track: LIGHTING
+order: 4
+title: Lighting Technician IV (Senior)
+grade: Grade 4
+typical_duration_months: 6
+description: >
+  The LT4 Senior Lighting Technician works independently on complex commercial and industrial
+  lighting systems and is the go-to technician when a problem crosses the line between the
+  luminaire, the branch circuit, and the controls. An LT4 can commission and troubleshoot
+  networked lighting controls, read and apply energy-code lighting requirements on retrofit
+  work, measure and report light levels against IES recommendations, diagnose power-quality
+  problems such as LED inrush, harmonics and voltage drop, safely troubleshoot multiwire branch
+  circuits, find the root cause of intermittent failures, and look up the NEC rules that govern
+  everyday lighting work. Senior technicians lead retrofit audit walk-throughs and begin
+  guiding LT1–LT3 technicians on the job. All work is performed under the company's electrical
+  safety program (OSHA 29 CFR 1910 Subpart S / 1926 Subpart K, NFPA 70E) and within the scope
+  permitted by state and local licensing rules.
+outcomes:
+  - Commission, program and verify a networked lighting control (NLC) zone, including sensor timeouts, high/low-end trim, daylight calibration and BMS handoff documentation.
+  - Explain the lighting requirements of ASHRAE 90.1, the IECC and California Title 24, determine whether a retrofit triggers code compliance, and check lighting power density and mandatory controls.
+  - Perform an illuminance survey with a calibrated light meter, compare results to IES recommendations, calculate uniformity ratios and write a clear light-level report.
+  - Diagnose nuisance tripping, LED inrush, harmonic and voltage-drop problems using true-RMS instruments and voltage-drop calculations.
+  - Safely troubleshoot multiwire branch circuits and shared neutrals, including recognizing and correcting open-neutral and same-phase faults.
+  - Apply a structured root-cause analysis to intermittent and system-level lighting failures and document the findings and corrective action.
+  - Locate and apply NEC requirements for luminaires, switches, outdoor lighting, grounding, signs and emergency systems, recognizing that the AHJ-adopted edition governs.
+  - Lead a retrofit audit walk-through with a customer, collecting the field data needed for scope, energy-code and incentive decisions.
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 1000
+skills:
+  - code: LT4-S01
+    title: Commission a networked lighting control zone
+    category: Controls
+    critical: false
+    description: >
+      Program, calibrate and functionally test one NLC zone (minimum: occupancy sensing, manual
+      wallstation, dimming trim and daylight harvesting) to match the sequence of operations, and
+      record the as-commissioned settings.
+    equipment: [manufacturer commissioning app or software, tablet or laptop, gateway credentials, sequence of operations, reflected ceiling plan, illuminance meter, ladder, commissioning checklist]
+    criteria:
+      - Reviews the sequence of operations and zoning plan before programming and identifies any conflicts with the installed devices
+      - Confirms every device in the zone is discovered and correctly addressed/named according to the naming convention on the plan
+      - Groups luminaires, sensors and wallstations into the zone exactly as shown on the zoning plan
+      - Sets occupancy/vacancy timeouts and manual-ON or partial-auto-ON behavior to match the sequence of operations and applicable energy code
+      - Sets high-end and low-end trim and verifies the result with an illuminance meter at the task location
+      - Calibrates daylight-responsive control and demonstrates that the daylight zone dims while the non-daylight zone does not
+      - Functionally tests each sequence (occupied, vacant, manual override, after-hours schedule) and records pass/fail for each
+      - Verifies emergency luminaires in the zone go to full output on loss of normal power when UL 924 devices are installed
+      - Backs up or exports the configuration and completes the commissioning record with as-left settings
+  - code: LT4-S02
+    title: Perform a light-level survey and write a report
+    category: Photometry
+    critical: false
+    description: >
+      Measure illuminance on a defined grid in a space, compare results to the target from the
+      specification or current IES recommendations, calculate uniformity and produce a written
+      report.
+    equipment: [calibrated cosine- and color-corrected illuminance meter, measuring tape or laser measure, grid layout sheet, floor plan, camera, report template]
+    criteria:
+      - Confirms the meter is within its calibration interval and zeroes or caps it as the manufacturer directs
+      - Controls or documents daylight (night survey, shades closed, or separate daylight/electric readings)
+      - Confirms lamps/luminaires have been on long enough to stabilize and records lamp condition and any outages
+      - Lays out a measurement grid at an appropriate spacing and work-plane height and records it on the plan
+      - Holds the sensor level at the work plane without shadowing it with the body
+      - Records every reading against its grid location without gaps
+      - Correctly calculates average, maximum, minimum, average-to-minimum and maximum-to-minimum ratios
+      - Compares the results to the stated target and identifies areas that fall short or exceed the target
+      - Produces a report with method, conditions, data table, calculations, photos and recommendations
+  - code: LT4-S03
+    title: Diagnose nuisance tripping on a lighting branch circuit
+    category: Troubleshooting
+    critical: true
+    description: >
+      Determine why a lighting circuit breaker, GFCI or AFCI trips and recommend a corrective
+      action, distinguishing true overload or fault from inrush, leakage or loose-connection causes.
+    equipment: [arc-rated PPE per the arc-flash label or PPE category method, true-RMS clamp meter with inrush function, CAT III/IV DMM, insulation resistance tester, LOTO kit, panel schedule, driver specification sheets, non-contact voltage tester]
+    criteria:
+      - Interviews the customer and records when, how often and under what conditions the device trips
+      - Completes a risk assessment and wears PPE appropriate to the task before opening the panel or taking energized measurements
+      - Measures steady-state load current with a true-RMS clamp meter and compares it to 80 percent of the breaker rating for continuous load
+      - Measures inrush current at switch-on with the meter's inrush function and compares it to driver data or breaker instantaneous trip range
+      - Applies LOTO and verifies absence of voltage (live-dead-live) before opening any connection or performing insulation-resistance testing
+      - Inspects terminations at the breaker and in the circuit for heat damage, looseness or improper conductors
+      - For GFCI/AFCI trips, evaluates cumulative leakage or wiring faults by sectionalizing the circuit
+      - States the root cause supported by measurements and recommends a code-compliant fix (not simply a larger breaker)
+      - Documents readings, cause and corrective action on the work order
+  - code: LT4-S04
+    title: Troubleshoot a multiwire branch circuit
+    category: Troubleshooting
+    critical: true
+    description: >
+      Identify, safely de-energize and troubleshoot a multiwire branch circuit with a shared
+      neutral, finding faults such as an open neutral, same-phase connection or overloaded neutral.
+    equipment: [arc-rated PPE as required, true-RMS clamp meter, CAT III/IV DMM, LOTO kit with handle-tie-compatible lockout devices, panel schedule, wire markers, non-contact voltage tester]
+    criteria:
+      - Identifies every ungrounded conductor sharing the neutral by tracing and labels the MWBC in the panel
+      - Verifies the ungrounded conductors are on different phases by measuring line-to-line voltage between them
+      - Measures and records current on each ungrounded conductor and on the shared neutral and interprets the result
+      - Locks out every circuit breaker of the MWBC (or the common-trip/handle-tied breaker) before opening any neutral
+      - Verifies absence of voltage on all conductors, including the neutral, using live-dead-live
+      - Never opens or disconnects a shared neutral while any circuit of the MWBC is energized
+      - Finds and repairs the fault, including pigtailing neutrals at devices so removal of a device does not open the neutral
+      - Confirms simultaneous disconnecting means and conductor grouping meet NEC 210.4 requirements and reports any deficiency
+      - Re-energizes and verifies correct voltage at loads on every circuit of the MWBC
+  - code: LT4-S05
+    title: Calculate and verify voltage drop on a lighting circuit
+    category: Electrical
+    critical: true
+    description: >
+      Calculate expected voltage drop for a long lighting run, measure actual voltage under load at
+      the source and the far end, and recommend a correction if drop is excessive.
+    equipment: [arc-rated PPE as required, CAT III/IV DMM, true-RMS clamp meter, measuring wheel or plans with run lengths, voltage-drop formula sheet, NEC Chapter 9 Table 8]
+    criteria:
+      - Determines circuit length, conductor size and material, load current and system voltage from plans and field measurement
+      - Selects the correct single-phase or three-phase formula and K value or conductor resistance
+      - Calculates voltage drop in volts and percent without arithmetic error
+      - Wears PPE appropriate to the task and uses a meter rated for the measurement category
+      - Measures voltage at the panel and at the last luminaire with the circuit loaded
+      - Compares measured drop to the calculation and explains any significant difference (loose connection, undersized splice, longer route)
+      - Recommends a correction such as conductor upsizing or circuit splitting with a recalculated result
+  - code: LT4-S06
+    title: Lead a retrofit audit walk-through
+    category: Audit
+    critical: false
+    description: >
+      Lead a customer or project team through a facility to gather existing-conditions data for a
+      lighting retrofit, including fixture counts, wattages, controls, hours, code triggers and
+      incentive eligibility.
+    equipment: [audit form or app, clipboard or tablet, illuminance meter, camera, flashlight, ladder, laser measure, floor plans, DLC Qualified Products List access]
+    criteria:
+      - Holds a short kickoff with the customer covering goals, operating hours, access, hazards and areas that are off limits
+      - Follows a planned route and records space type, dimensions and ceiling height for each area
+      - Counts and identifies existing fixtures, lamps, ballasts/drivers and input wattage accurately (spot-checked by evaluator)
+      - Records existing controls and operating schedules for each space
+      - Takes representative light-level readings and photos, including nameplates and ballast labels
+      - Identifies hazards and special conditions (PCB ballasts, damaged fixtures, emergency circuits, high bays requiring MEWP)
+      - Identifies whether the planned scope is likely to trigger energy-code alteration requirements and notes required controls
+      - Notes where DLC-listed products and utility incentive requirements apply
+      - Delivers a clear verbal summary to the customer and submits complete audit data within the agreed time
+  - code: LT4-S07
+    title: Perform root-cause analysis on an intermittent lighting fault
+    category: Troubleshooting
+    critical: false
+    description: >
+      Investigate a recurring or intermittent failure, gather evidence, identify the root cause
+      using a structured method, and document the corrective and preventive action.
+    equipment: [data-logging meter or power quality recorder, thermal imager, DMM, controls software access, service history, RCA worksheet]
+    criteria:
+      - Collects the service history and defines the problem in specific, measurable terms
+      - Develops at least three candidate causes using a fishbone or similar method
+      - Selects and installs appropriate data logging or monitoring to capture the event, following safe installation practices
+      - Uses evidence (logs, thermal images, measurements) to eliminate causes rather than parts-swapping
+      - Applies "5 Whys" or equivalent to reach a cause that, if corrected, prevents recurrence
+      - Implements or recommends a corrective action and a verification method
+      - Writes an RCA summary that another technician could follow
+  - code: LT4-S08
+    title: Look up and apply NEC requirements for a lighting installation
+    category: Code
+    critical: false
+    description: >
+      Using the NEC (AHJ-adopted edition), find and correctly apply the requirements for a given
+      field scenario involving luminaires, switches, outdoor lighting, grounding, signs or
+      emergency lighting.
+    equipment: [NEC code book (AHJ-adopted edition), job scenario cards, tabs or index]
+    criteria:
+      - Identifies the adopted NEC edition and any local amendments for the job location
+      - Uses the index or table of contents to locate the correct article within a reasonable time
+      - Reads the full rule including exceptions and identifies whether informational notes are enforceable
+      - Correctly applies a Chapter 4 article (for example 404 or 410) to the scenario
+      - Correctly identifies when a Chapter 5–7 article (for example 600 or 700) modifies the general rules
+      - States the answer with the article and section reference
+      - Recognizes when a question must go to the AHJ, engineer or licensed electrician in charge

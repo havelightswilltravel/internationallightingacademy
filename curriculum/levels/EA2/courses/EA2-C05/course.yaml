@@ -1,0 +1,191 @@
+code: EA2-C05
+title: Blueprint Reading II
+order: 5
+estimated_hours: 18
+description: >
+  Reading commercial construction documents as an electrician: organization of a full drawing set
+  and the E-series, title blocks and revisions, symbols and notes, power plans and home runs,
+  one-line and riser diagrams, panel schedules and phase balancing, CSI MasterFormat Division 26
+  specifications, submittals, RFIs and as-built drawings. Builds on LT2-C07 Print Reading I.
+objectives:
+  - Navigate a commercial drawing set using the sheet index, discipline prefixes and title blocks
+  - Interpret symbols legends, general notes, keyed notes and circuit/home-run designations
+  - Read a one-line diagram to identify sources, distribution equipment, OCPD and transformer ratings, and trace a panel to its source for LOTO planning
+  - Distinguish riser diagrams from one-lines and use them to plan feeder routes and closets
+  - Read and update a panel schedule, calculate phase loads and balance new circuits
+  - Locate installation requirements in Division 26 specifications (Part 1, 2 and 3)
+  - Prepare a clear RFI and maintain accurate as-built drawings
+lessons:
+  - 01-commercial-drawing-sets.md
+  - 02-one-line-diagrams.md
+  - 03-riser-diagrams-and-panel-schedules.md
+  - 04-specifications-submittals-and-rfis.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA2-C05-Q01
+      type: single
+      q: Where should you start when looking for a specific electrical sheet in an unfamiliar commercial drawing set?
+      choices:
+        - The last sheet of the E-series
+        - The sheet index on the cover or general sheet
+        - The structural drawings
+        - The specification table of contents only
+      answer: 1
+      explanation: The sheet index lists every sheet and its number. Numbering conventions vary by firm, so start at the index.
+      ref: EA2-C05 Lesson 1
+    - id: EA2-C05-Q02
+      type: single
+      q: On a drawing, a clouded area with a triangle containing the number 3 indicates
+      choices:
+        - A three-phase circuit
+        - A detail on sheet 3
+        - A change made in revision 3
+        - A keyed note number 3
+      answer: 2
+      explanation: Revision clouds with a delta (triangle) and number identify what changed in that revision, matching the title block's revision list.
+      ref: EA2-C05 Lesson 1
+    - id: EA2-C05-Q03
+      type: single
+      q: Why should you not scale a printed drawing to locate a critical item such as a floor box?
+      choices:
+        - Prints may not be printed at true scale; use dimensions or confirm with the foreman
+        - Scaling is prohibited by the NEC
+        - Electrical drawings never have a scale
+        - Scaling only works on architectural drawings
+      answer: 0
+      explanation: Reproduced drawings may be enlarged or reduced. Use written dimensions on plans and enlarged plans, or ask.
+      ref: EA2-C05 Lesson 1
+    - id: EA2-C05-Q04
+      type: single
+      q: A home run is labeled "LP-2A-1,3,5" with "3 #12, 1 #12 N, 1 #12 G." What does this indicate?
+      choices:
+        - Three separate 2-wire circuits each with its own neutral
+        - A single 3-pole motor circuit with no neutral
+        - A 240 V single-phase circuit
+        - A multiwire branch circuit — three phases sharing one neutral, which requires simultaneous disconnection of the hots
+      answer: 3
+      explanation: Circuits 1, 3 and 5 are on phases A, B and C. Sharing one neutral makes this a multiwire branch circuit, which requires simultaneous disconnect per 210.4(B).
+      ref: NEC 2023 210.4(B); EA2-C05 Lesson 1
+    - id: EA2-C05-Q05
+      type: single
+      q: What does "MLO" mean on a one-line or panel schedule?
+      choices:
+        - Main lugs only — the panel has no main breaker and is protected by the upstream feeder device
+        - Maximum load operation
+        - Motor load only
+        - Main lighting output
+      answer: 0
+      explanation: MLO panels have lugs for the feeder but no main overcurrent device; protection comes from the feeder OCPD upstream.
+      ref: EA2-C05 Lesson 2
+    - id: EA2-C05-Q06
+      type: single
+      q: A one-line shows a breaker labeled 400AF/350AT. What is the trip rating?
+      choices:
+        - 400 A
+        - 750 A
+        - 350 A
+        - 50 A
+      answer: 2
+      explanation: AF is the frame size (400 A) and AT is the trip rating (350 A).
+      ref: EA2-C05 Lesson 2
+    - id: EA2-C05-Q07
+      type: single
+      q: Approximately what is the primary full-load current of a 45 kVA, 480 V three-phase transformer?
+      choices:
+        - 94 A
+        - 125 A
+        - 32 A
+        - 54 A
+      answer: 3
+      explanation: I = kVA × 1000 ÷ (1.732 × V) = 45,000 ÷ (1.732 × 480) ≈ 54 A. 125 A is the 208 V secondary current.
+      ref: EA2-C05 Lesson 2
+    - id: EA2-C05-Q08
+      type: multi
+      q: Lighting panel LP-2B is fed from transformer T-2B, which is fed from breaker #7 in DP-2. A standby generator also feeds DP-2 through an ATS. Before working on the supply conductors to LP-2B, which must you do? (Select all that apply.)
+      choices:
+        - Identify every source that can energize the equipment from the one-line, including the generator path
+        - Lock out DP-2 breaker #7 (the device feeding the transformer)
+        - Rely on the panel directory alone and skip voltage verification
+        - Verify absence of voltage at the point of work
+      answer: [0, 1, 3]
+      explanation: Use the one-line to identify all sources, lock out the upstream device, and always verify absence of voltage. Never rely on drawings or directories alone.
+      ref: EA2-C05 Lesson 2; NFPA 70E
+    - id: EA2-C05-Q09
+      type: single
+      q: What does a riser diagram show that a one-line diagram typically does not?
+      choices:
+        - Overcurrent device trip settings
+        - Equipment arranged by floor or room, with vertical feeder routes
+        - Conductor insulation types
+        - Available fault current at each bus
+      answer: 1
+      explanation: Risers show the physical vertical organization of the building — floors, closets and how feeders rise — while one-lines focus on electrical relationships and protection.
+      ref: EA2-C05 Lesson 3
+    - id: EA2-C05-Q10
+      type: single
+      q: In a standard three-phase panelboard, circuit 9 is connected to which phase?
+      choices:
+        - Phase A
+        - Phase B
+        - Phase C
+        - The neutral
+      answer: 1
+      explanation: Phases rotate every two positions — 1-2 A, 3-4 B, 5-6 C, 7-8 A, 9-10 B.
+      ref: EA2-C05 Lesson 3
+    - id: EA2-C05-Q11
+      type: single
+      q: A 208Y/120 V three-phase panel has total connected load of 37,300 VA. What is the average three-phase current?
+      choices:
+        - 103.5 A
+        - 179.3 A
+        - 310.8 A
+        - 62.1 A
+      answer: 0
+      explanation: I = VA ÷ (1.732 × V) = 37,300 ÷ (1.732 × 208) ≈ 103.5 A.
+      ref: EA2-C05 Lesson 3
+    - id: EA2-C05-Q12
+      type: single
+      q: In CSI MasterFormat, which division covers Electrical?
+      choices:
+        - Division 16
+        - Division 27
+        - Division 28
+        - Division 26
+      answer: 3
+      explanation: Current MasterFormat places Electrical in Division 26, Communications in 27, and Electronic Safety and Security in 28. (Division 16 was the older format.)
+      ref: CSI MasterFormat
+    - id: EA2-C05-Q13
+      type: single
+      q: In a specification section, where would you typically find installation requirements such as "provide an insulated EGC in all raceways"?
+      choices:
+        - Part 1 — General
+        - Part 2 — Products
+        - Part 3 — Execution
+        - The drawing title block
+      answer: 2
+      explanation: Part 3 — Execution contains installation methods and field quality control, often including requirements that exceed the NEC.
+      ref: EA2-C05 Lesson 4
+    - id: EA2-C05-Q14
+      type: multi
+      q: Which elements should a good RFI include? (Select all that apply.)
+      choices:
+        - Specific references to the sheet, detail or spec section
+        - A description of the conflict with photos or sketches
+        - A proposed solution
+        - A decision by the apprentice that has already been built so the RFI is just a formality
+      answer: [0, 1, 2]
+      explanation: RFIs should reference the documents, describe the issue clearly, offer a proposed solution and state when a response is needed. Conflicts should not be resolved unilaterally in the field.
+      ref: EA2-C05 Lesson 4
+    - id: EA2-C05-Q15
+      type: single
+      q: A submittal comes back stamped "Revise and Resubmit." What should happen?
+      choices:
+        - Do not order the product; correct the submittal and resubmit it for review
+        - Order the product and install it as submitted
+        - Install it and note the change on the as-builts
+        - Ignore the stamp if the product meets the NEC
+      answer: 0
+      explanation: A revise-and-resubmit stamp means the submittal is not accepted as is; the product should not be ordered until a corrected submittal is reviewed.
+      ref: EA2-C05 Lesson 4

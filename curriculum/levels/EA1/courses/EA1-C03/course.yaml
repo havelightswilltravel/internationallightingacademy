@@ -1,0 +1,193 @@
+code: EA1-C03
+title: Conduit Bending & Raceways
+order: 3
+estimated_hours: 20
+description: >
+  Hands-on and calculation skills for installing raceway systems. Covers raceway types and their
+  NEC articles, EMT installation rules (reaming, support, bends between pull points), hand bender
+  anatomy, take-up, stub-ups and back-to-back 90s, offsets with multipliers and shrink, kicks,
+  rolling offsets, three- and four-point saddles, run planning, and an introduction to bending
+  RMC and PVC. Pairs with skills EA1-S01 through EA1-S03.
+objectives:
+  - Identify common raceway types and their NEC articles, uses and limitations
+  - Apply EMT rules for reaming, securing and supporting, and the 360-degree bend limit
+  - Use take-up to bend stub-ups and the back-of-90 mark for back-to-back 90s
+  - Calculate distance between bends and shrink for offsets using standard multipliers
+  - Calculate rolling offsets using the Pythagorean theorem
+  - Lay out and bend three-point and four-point saddles
+  - Plan a raceway run with pull points, degree counts and support locations
+lessons:
+  - 01-raceway-types-and-emt-rules.md
+  - 02-bender-anatomy-and-90s.md
+  - 03-offsets-kicks-and-rolling-offsets.md
+  - 04-saddles.md
+  - 05-planning-runs-and-other-raceways.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA1-C03-Q01
+      type: single
+      q: You need a 10 in stub-up in 1/2 in EMT using a bender with a 5 in take-up. Where do you place the mark (measured from the end of the conduit)?
+      choices:
+        - 15 in
+        - 5 in
+        - 10 in
+        - 7 in
+      answer: 1
+      explanation: Mark = desired stub height minus take-up = 10 - 5 = 5 in. Align the bender's arrow with the mark.
+      ref: EA1-C03 Lesson 2
+    - id: EA1-C03-Q02
+      type: single
+      q: What is the multiplier for a 30-degree offset?
+      choices:
+        - 1.4
+        - 2.6
+        - 2.0
+        - 6.0
+      answer: 2
+      explanation: Standard field multipliers are 10 deg = 6, 22.5 deg = 2.6, 30 deg = 2, 45 deg = 1.4, 60 deg = 1.2.
+      ref: EA1-C03 Lesson 3
+    - id: EA1-C03-Q03
+      type: single
+      q: An 8 in offset is bent with 45-degree bends. What is the distance between bends?
+      choices:
+        - 9.6 in
+        - 11.2 in
+        - 16 in
+        - 20.8 in
+      answer: 1
+      explanation: Distance between bends = offset x multiplier = 8 x 1.4 = 11.2 in (about 11-3/16 in).
+      ref: EA1-C03 Lesson 3
+    - id: EA1-C03-Q04
+      type: single
+      q: How much shrink results from a 6 in offset bent at 30 degrees?
+      choices:
+        - 1-1/2 in
+        - 3/4 in
+        - 2-1/4 in
+        - 3 in
+      answer: 0
+      explanation: Shrink for 30 degrees is 1/4 in per inch of offset; 6 x 1/4 = 1-1/2 in.
+      ref: EA1-C03 Lesson 3
+    - id: EA1-C03-Q05
+      type: single
+      q: An obstruction begins 40 in from the end of the conduit. You will bend a 6 in, 30-degree offset that must be complete at the obstruction. Where is the mark for the bend nearest the obstruction?
+      choices:
+        - 38-1/2 in
+        - 40 in
+        - 41-1/2 in
+        - 52 in
+      answer: 2
+      explanation: Add the shrink (6 x 1/4 = 1-1/2 in) to the distance to the obstruction - 40 + 1-1/2 = 41-1/2 in. The other mark is 12 in back toward the end, at 29-1/2 in.
+      ref: EA1-C03 Lesson 3
+    - id: EA1-C03-Q06
+      type: single
+      q: A conduit must rise 6 in and roll 8 in. What is the true offset?
+      choices:
+        - 14 in
+        - 12 in
+        - 7 in
+        - 10 in
+      answer: 3
+      explanation: True offset = square root of (6 squared + 8 squared) = square root of 100 = 10 in.
+      ref: EA1-C03 Lesson 3
+    - id: EA1-C03-Q07
+      type: single
+      q: For a 45-degree center / 22.5-degree outside three-point saddle over a 2 in obstruction, how far from the center mark is each outside mark?
+      choices:
+        - 2.5 in
+        - 5 in
+        - 2.8 in
+        - 4 in
+      answer: 1
+      explanation: Outside marks are 2.5 x obstruction height from the center mark = 2.5 x 2 = 5 in on each side.
+      ref: EA1-C03 Lesson 4
+    - id: EA1-C03-Q08
+      type: single
+      q: The center of a 3 in obstruction is 48 in from the end of the conduit. Using a 45/22.5-degree three-point saddle (3/16 in shrink per inch), where is the center mark?
+      choices:
+        - 47-7/16 in
+        - 48 in
+        - 48-9/16 in
+        - 49-1/8 in
+      answer: 2
+      explanation: Shrink = 3 x 3/16 = 9/16 in. Center mark = 48 + 9/16 = 48-9/16 in.
+      ref: EA1-C03 Lesson 4
+    - id: EA1-C03-Q09
+      type: single
+      q: Within what distance of a box must EMT be securely fastened?
+      choices:
+        - 12 in
+        - 3 ft
+        - 4-1/2 ft
+        - 10 ft
+      answer: 1
+      explanation: EMT must be securely fastened within 3 ft of each outlet box, junction box, device box, cabinet, conduit body or other termination, and supported at intervals not exceeding 10 ft (with listed exceptions).
+      ref: NEC 358.30(A)
+    - id: EA1-C03-Q10
+      type: single
+      q: A pull section contains a 90 out of a panel, a 30-degree offset, a 45/22.5 three-point saddle and a 90 down a wall. What is the total, and is it within the EMT limit?
+      choices:
+        - 330 degrees - within the limit
+        - 300 degrees - within the limit
+        - 390 degrees - exceeds the limit
+        - 255 degrees - within the limit
+      answer: 0
+      explanation: 90 + 60 (two 30-degree bends) + 90 (45 + 22.5 + 22.5) + 90 = 330 degrees, which is within the 360-degree maximum between pull points.
+      ref: NEC 358.26
+    - id: EA1-C03-Q11
+      type: multi
+      q: Which of the following are requirements or prohibitions for EMT under Article 358? (Select all that apply.)
+      choices:
+        - Cut ends must be reamed or otherwise finished to remove rough edges
+        - EMT must not be field-threaded
+        - EMT must be supported at least every 10 ft
+        - EMT may be installed with a kink as long as the conductors can still be pulled
+      answer: [0, 1, 2]
+      explanation: 358.28 requires reaming and prohibits threading; 358.30 sets the 10 ft support interval. 358.24 requires bends that don't damage the tubing or reduce its internal diameter, so kinks are not acceptable.
+      ref: NEC 358.24, 358.28, 358.30
+    - id: EA1-C03-Q12
+      type: single
+      q: What is a dog-leg in conduit bending?
+      choices:
+        - A bend made to more than 90 degrees
+        - A twist caused by bends not lying in the same plane
+        - A flattened section of conduit
+        - An offset made with unequal-length legs
+      answer: 1
+      explanation: A dog-leg happens when the conduit is rolled between bends so the bends are not in the same plane - the piece won't lie flat.
+      ref: EA1-C03 Lesson 2
+    - id: EA1-C03-Q13
+      type: single
+      q: Rigid PVC conduit requires expansion fittings where the expected length change due to temperature is at least how much?
+      choices:
+        - 1/8 in
+        - 1/2 in
+        - 1 in
+        - 1/4 in
+      answer: 3
+      explanation: 352.44 requires expansion fittings for PVC where the expected length change between securely mounted points is 1/4 in or greater.
+      ref: NEC 352.44
+    - id: EA1-C03-Q14
+      type: multi
+      q: Which raceway types are threaded? (Select all that apply.)
+      choices:
+        - Rigid metal conduit (RMC)
+        - Intermediate metal conduit (IMC)
+        - Electrical metallic tubing (EMT)
+        - Rigid PVC conduit
+      answer: [0, 1]
+      explanation: RMC and IMC are threaded. EMT is joined with set-screw or compression fittings and must not be threaded; PVC uses solvent-cement joints.
+      ref: NEC Articles 342, 344, 352, 358
+    - id: EA1-C03-Q15
+      type: single
+      q: Which bender mark is used to locate the back of a 90-degree bend, such as the second bend of a back-to-back 90?
+      choices:
+        - The arrow
+        - The rim notch
+        - The star (back-of-90 mark)
+        - The 45-degree sight line
+      answer: 2
+      explanation: The star (or equivalent back-of-90 symbol) marks the back of the 90 and is used for back-to-back bends. The arrow is used for stub-ups; the rim notch is used for saddle center bends on many benders.
+      ref: EA1-C03 Lesson 2

@@ -1,0 +1,193 @@
+code: EA2-C03
+title: Conductor Sizing & Overcurrent Protection
+order: 3
+estimated_hours: 24
+description: >
+  How to select conductors and overcurrent protective devices that are safe and code-compliant:
+  reading Table 310.16, applying termination temperature limits, ambient temperature correction
+  and more-than-three-conductor adjustment, sizing for continuous loads, selecting standard OCPD
+  ratings and applying the next-size-up and small-conductor rules, checking interrupting ratings,
+  and calculating voltage drop. Heavy on worked examples that mirror real commercial branch
+  circuits and feeders. References are to the 2023 NEC; the AHJ-adopted edition governs.
+objectives:
+  - Look up conductor ampacity in Table 310.16 for copper and aluminum in the correct temperature column
+  - Apply the 110.14(C) termination temperature limits to the final ampacity
+  - Apply ambient temperature correction and Table 310.15(C)(1) adjustment factors, counting current-carrying conductors correctly
+  - Size branch-circuit and feeder conductors and OCPDs for continuous and non-continuous loads
+  - Apply 240.4(B), (C) and (D) when selecting the OCPD that protects a conductor
+  - Explain interrupting rating and why it must meet available fault current
+  - Calculate single- and three-phase voltage drop and select a conductor to meet a voltage-drop target
+lessons:
+  - 01-ampacity-tables-and-terminations.md
+  - 02-correction-and-adjustment-factors.md
+  - 03-continuous-loads-and-ocpd-selection.md
+  - 04-putting-it-together-and-voltage-drop.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA2-C03-Q01
+      type: single
+      q: Table 310.16 ampacities are based on which conditions?
+      choices:
+        - Not more than three current-carrying conductors and a 30°C (86°F) ambient
+        - Not more than six current-carrying conductors and a 40°C ambient
+        - Single conductors in free air at 30°C
+        - Any number of conductors at 25°C
+      answer: 0
+      explanation: Table 310.16 applies to not more than three current-carrying conductors in raceway, cable or earth at an ambient of 30°C (86°F). Other conditions require correction and adjustment.
+      ref: NEC 2023 Table 310.16
+    - id: EA2-C03-Q02
+      type: single
+      q: A 3/0 AWG copper THHN feeder terminates on a breaker with 75°C terminals. What ampacity may be used (no derating required)?
+      choices:
+        - 165 A
+        - 225 A
+        - 200 A
+        - 175 A
+      answer: 2
+      explanation: The 90°C value (225 A) is limited by the 75°C terminations, so the 75°C column value of 200 A applies.
+      ref: NEC 2023 Table 310.16; 110.14(C)
+    - id: EA2-C03-Q03
+      type: single
+      q: Unless the equipment is listed and identified otherwise, conductors on a 60 A circuit must be sized using which Table 310.16 column?
+      choices:
+        - 75°C
+        - 90°C
+        - 105°C
+        - 60°C
+      answer: 3
+      explanation: 110.14(C)(1)(a) requires the 60°C column for circuits rated 100 A or less (or 14–1 AWG conductors) unless the equipment is listed and identified for 75°C.
+      ref: NEC 2023 110.14(C)(1)
+    - id: EA2-C03-Q04
+      type: single
+      q: Eight current-carrying 12 AWG THHN copper conductors share a raceway in a 38°C ambient. What is the adjusted ampacity? (90°C ampacity 30 A; correction 0.91; adjustment 70%)
+      choices:
+        - 19.1 A
+        - 21.0 A
+        - 27.3 A
+        - 24.0 A
+      answer: 0
+      explanation: 30 × 0.91 × 0.70 = 19.1 A.
+      ref: NEC 2023 310.15(B), Table 310.15(C)(1)
+    - id: EA2-C03-Q05
+      type: single
+      q: How many current-carrying conductors require a 50% adjustment factor under Table 310.15(C)(1)?
+      choices:
+        - 4–6
+        - 7–9
+        - 10–20
+        - 21–30
+      answer: 2
+      explanation: Table 310.15(C)(1) — 4–6 = 80%, 7–9 = 70%, 10–20 = 50%, 21–30 = 45%.
+      ref: NEC 2023 Table 310.15(C)(1)
+    - id: EA2-C03-Q06
+      type: multi
+      q: Which conductors are counted as current-carrying when applying Table 310.15(C)(1)? (Select all that apply.)
+      choices:
+        - Every ungrounded (hot) conductor
+        - The neutral of a 3-phase, 4-wire wye circuit where the major portion of the load is nonlinear
+        - Equipment grounding conductors
+        - The neutral of a 2-wire, 120 V branch circuit sharing the raceway with other circuits
+      answer: [0, 1, 3]
+      explanation: Hots always count. A neutral counts when it carries harmonic current on a nonlinear 3-phase wye circuit, and the neutral of a 2-wire circuit carries the full circuit current. EGCs never count.
+      ref: NEC 2023 310.15(E), (F)
+    - id: EA2-C03-Q07
+      type: single
+      q: A raceway on a rooftop in direct sunlight is mounted less than 7/8 in. above the roof. What must be done?
+      choices:
+        - Nothing; rooftop installations use the 30°C table directly
+        - Reduce ampacity by an additional 50%
+        - Use the 60°C column only
+        - Add 33°C (60°F) to the outdoor ambient before selecting the correction factor (except for XHHW-2)
+      answer: 3
+      explanation: 310.15(B)(2) requires a 33°C (60°F) temperature adder for raceways or cables less than 7/8 in. above the roof in direct sunlight, with an exception for XHHW-2.
+      ref: NEC 2023 310.15(B)(2)
+    - id: EA2-C03-Q08
+      type: single
+      q: A continuous load is defined as a load where the maximum current is expected to continue for
+      choices:
+        - 1 hour or more
+        - 3 hours or more
+        - 8 hours or more
+        - 24 hours or more
+      answer: 1
+      explanation: Article 100 defines a continuous load as one where the maximum current is expected to continue for 3 hours or more.
+      ref: NEC 2023 Article 100
+    - id: EA2-C03-Q09
+      type: single
+      q: A panel feeder serves 120 A of continuous load and 40 A of non-continuous load. What is the minimum standard OCPD rating?
+      choices:
+        - 160 A → 175 A
+        - 150 A
+        - 190 A → 200 A
+        - 210 A → 225 A
+      answer: 2
+      explanation: (120 × 1.25) + 40 = 190 A. The next standard rating per 240.6(A) is 200 A.
+      ref: NEC 2023 215.3, 240.6(A)
+    - id: EA2-C03-Q10
+      type: single
+      q: What is the maximum overcurrent protection for 12 AWG copper unless specifically permitted elsewhere in the code?
+      choices:
+        - 15 A
+        - 25 A
+        - 30 A
+        - 20 A
+      answer: 3
+      explanation: 240.4(D) limits 14 AWG Cu to 15 A, 12 AWG Cu to 20 A and 10 AWG Cu to 30 A.
+      ref: NEC 2023 240.4(D)
+    - id: EA2-C03-Q11
+      type: multi
+      q: Under 240.4(B), the next higher standard OCPD rating may protect a conductor whose ampacity does not match a standard rating only when (select all that apply)
+      choices:
+        - The OCPD is rated 800 A or less
+        - The conductors are not part of a multi-outlet branch circuit supplying receptacles for cord-and-plug-connected portable loads
+        - The conductor is aluminum
+        - The next higher standard rating (and no larger) is used
+      answer: [0, 1, 3]
+      explanation: 240.4(B) permits the next size up at 800 A or less, not on multi-outlet receptacle branch circuits, and only to the next standard rating. Conductor material is not a condition.
+      ref: NEC 2023 240.4(B)
+    - id: EA2-C03-Q12
+      type: single
+      q: Why must a breaker's interrupting rating be checked before installation?
+      choices:
+        - It must be at least equal to the available fault current at its line terminals, or it may fail violently during a fault
+        - It determines the conductor ampacity
+        - It sets the trip point for overloads
+        - It is only needed for 100%-rated breakers
+      answer: 0
+      explanation: 110.9 requires equipment intended to interrupt fault current to have an interrupting rating not less than the available fault current at its line terminals.
+      ref: NEC 2023 110.9
+    - id: EA2-C03-Q13
+      type: single
+      q: Using VD = 2KIL ÷ CM with K = 12.9, what is the voltage drop for a 16 A load 150 ft (one way) from the panel on 12 AWG copper (6,530 cmil)?
+      choices:
+        - 4.7 V
+        - 9.5 V
+        - 3.6 V
+        - 19.0 V
+      answer: 1
+      explanation: (2 × 12.9 × 16 × 150) ÷ 6,530 = 61,920 ÷ 6,530 ≈ 9.48 V — about 7.9% at 120 V or 3.4% at 277 V.
+      ref: EA2-C03 Lesson 4
+    - id: EA2-C03-Q14
+      type: single
+      q: Which statement about voltage drop in the NEC is correct for general branch circuits and feeders?
+      choices:
+        - A 3% maximum is a mandatory requirement enforced in every jurisdiction
+        - Voltage drop is not addressed at all
+        - The 3% branch / 5% total guidance appears in informational notes and is not enforceable, though specifications and energy codes may require it
+        - Voltage drop only applies to aluminum conductors
+      answer: 2
+      explanation: For general circuits the NEC's voltage-drop guidance is in informational notes, which are explanatory, not requirements. Project specifications and energy codes commonly make limits mandatory.
+      ref: NEC 2023 210.19 and 215.2 Informational Notes
+    - id: EA2-C03-Q15
+      type: single
+      q: A feeder in a 45°C ambient uses three 1/0 AWG THHN copper conductors (90°C ampacity 170 A; correction factor 0.87; 75°C terminations rated 150 A for this size). What is the conductor's ampacity under these conditions?
+      choices:
+        - 170 A
+        - 150 A
+        - 130.5 A
+        - 147.9 A
+      answer: 3
+      explanation: 170 × 0.87 = 147.9 A. This is below the 75°C termination value of 150 A, so 147.9 A governs.
+      ref: NEC 2023 Table 310.16; 310.15(B); 110.14(C)

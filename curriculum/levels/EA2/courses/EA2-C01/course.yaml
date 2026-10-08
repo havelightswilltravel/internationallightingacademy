@@ -1,0 +1,192 @@
+code: EA2-C01
+title: AC Theory
+order: 1
+estimated_hours: 20
+description: >
+  Alternating-current theory for the working apprentice: sine-wave values, inductance and
+  capacitance, inductive and capacitive reactance, impedance in series and parallel circuits,
+  resonance, the power triangle, and power factor correction. Every concept is tied to field
+  equipment — motors, transformers, ballasts, capacitors and drives — and to the safety hazards of
+  stored energy.
+objectives:
+  - Convert between peak, peak-to-peak and RMS values of a sine wave
+  - Calculate inductive reactance (X_L = 2πfL) and capacitive reactance (X_C = 1 ÷ 2πfC)
+  - Combine resistance and reactance into impedance for series and parallel circuits
+  - Explain phase relationships in inductive and capacitive circuits (ELI the ICE man)
+  - Calculate true, reactive and apparent power and power factor for single- and three-phase loads
+  - Size power factor correction capacitance in kVAR for a given load and target power factor
+  - Apply LOTO and verification procedures to equipment that stores energy in capacitors or inductors
+lessons:
+  - 01-ac-waveforms-and-inductance.md
+  - 02-capacitance-and-capacitive-reactance.md
+  - 03-impedance-and-rlc-circuits.md
+  - 04-power-triangle-and-power-factor-correction.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA2-C01-Q01
+      type: single
+      q: A lighting circuit measures 277 V RMS. What is its approximate peak voltage?
+      choices:
+        - 196 V
+        - 320 V
+        - 392 V
+        - 783 V
+      answer: 2
+      explanation: Vp = 1.414 × Vrms = 1.414 × 277 ≈ 392 V. 783 V is the peak-to-peak value (2 × Vp), and 196 V is 0.707 × 277, a common mix-up.
+      ref: EA2-C01 Lesson 1
+    - id: EA2-C01-Q02
+      type: single
+      q: What is the inductive reactance of a 0.2 H coil on a 60 Hz system?
+      choices:
+        - 75.4 Ω
+        - 12.0 Ω
+        - 37.7 Ω
+        - 13.3 Ω
+      answer: 0
+      explanation: X_L = 2πfL = 2 × 3.1416 × 60 × 0.2 ≈ 75.4 Ω.
+      ref: EA2-C01 Lesson 1
+    - id: EA2-C01-Q03
+      type: single
+      q: If the frequency applied to an inductor increases, its inductive reactance will
+      choices:
+        - decrease
+        - stay the same
+        - drop to zero
+        - increase
+      answer: 3
+      explanation: X_L = 2πfL is directly proportional to frequency, so reactance rises as frequency rises.
+      ref: EA2-C01 Lesson 1
+    - id: EA2-C01-Q04
+      type: single
+      q: What is the capacitive reactance of a 50 µF capacitor at 60 Hz?
+      choices:
+        - 18.8 Ω
+        - 53.1 Ω
+        - 106 Ω
+        - 3,000 Ω
+      answer: 1
+      explanation: X_C = 1 ÷ (2πfC) = 1 ÷ (376.99 × 0.000050) ≈ 53.1 Ω.
+      ref: EA2-C01 Lesson 2
+    - id: EA2-C01-Q05
+      type: single
+      q: Two 40 µF capacitors are connected in series. What is the total capacitance?
+      choices:
+        - 80 µF
+        - 40 µF
+        - 20 µF
+        - 1,600 µF
+      answer: 2
+      explanation: Capacitors in series combine by reciprocals; two equal capacitors in series give half the value of one, 20 µF. In parallel they would add to 80 µF.
+      ref: EA2-C01 Lesson 2
+    - id: EA2-C01-Q06
+      type: single
+      q: In a purely capacitive AC circuit, the current
+      choices:
+        - leads the voltage by 90°
+        - lags the voltage by 90°
+        - is in phase with the voltage
+        - lags the voltage by 180°
+      answer: 0
+      explanation: In a capacitive circuit current leads voltage by 90° (the "ICE" in ELI the ICE man).
+      ref: EA2-C01 Lesson 2
+    - id: EA2-C01-Q07
+      type: single
+      q: A series circuit has 30 Ω of resistance and 40 Ω of inductive reactance on a 120 V source. What is the current?
+      choices:
+        - 1.71 A
+        - 4.0 A
+        - 3.0 A
+        - 2.4 A
+      answer: 3
+      explanation: Z = √(30² + 40²) = 50 Ω; I = 120 ÷ 50 = 2.4 A. Adding 30 + 40 = 70 Ω (giving 1.71 A) is the common mistake.
+      ref: EA2-C01 Lesson 3
+    - id: EA2-C01-Q08
+      type: single
+      q: A 40 Ω resistor and a 30 Ω inductive reactance are connected in parallel across 120 V. What current does the supply conductor carry?
+      choices:
+        - 7 A
+        - 5 A
+        - 1 A
+        - 3 A
+      answer: 1
+      explanation: I_R = 120 ÷ 40 = 3 A and I_L = 120 ÷ 30 = 4 A. They are 90° apart, so I_T = √(3² + 4²) = 5 A, not 7 A.
+      ref: EA2-C01 Lesson 3
+    - id: EA2-C01-Q09
+      type: single
+      q: A series RLC circuit is at resonance. Which statement is true?
+      choices:
+        - Impedance is at its maximum
+        - Current is at its minimum
+        - X_L equals X_C and impedance equals the resistance
+        - The power factor is zero
+      answer: 2
+      explanation: At resonance X_L = X_C, the reactances cancel, impedance equals R, current is at its maximum and power factor is 1.
+      ref: EA2-C01 Lesson 3
+    - id: EA2-C01-Q10
+      type: single
+      q: A single-phase load at 240 V draws 20 A and a wattmeter reads 3,840 W. What is the power factor?
+      choices:
+        - 0.60
+        - 0.75
+        - 1.25
+        - 0.80
+      answer: 3
+      explanation: Apparent power S = 240 × 20 = 4,800 VA. PF = P ÷ S = 3,840 ÷ 4,800 = 0.80.
+      ref: EA2-C01 Lesson 4
+    - id: EA2-C01-Q11
+      type: single
+      q: A 480 V three-phase motor draws 52 A at 0.85 power factor. What is its approximate true power?
+      choices:
+        - 36.7 kW
+        - 21.2 kW
+        - 43.2 kW
+        - 25.0 kW
+      answer: 0
+      explanation: P = 1.732 × V × I × PF = 1.732 × 480 × 52 × 0.85 ≈ 36,700 W. 43.2 kVA is the apparent power.
+      ref: EA2-C01 Lesson 4
+    - id: EA2-C01-Q12
+      type: single
+      q: A 100 kW load operates at 0.75 PF. Approximately how many kVAR of capacitance are needed to raise it to 0.95 PF? (tan θ at 0.75 PF = 0.882; at 0.95 PF = 0.329)
+      choices:
+        - 20 kVAR
+        - 55 kVAR
+        - 88 kVAR
+        - 133 kVAR
+      answer: 1
+      explanation: kVAR = P × (tan θ₁ − tan θ₂) = 100 × (0.882 − 0.329) ≈ 55 kVAR.
+      ref: EA2-C01 Lesson 4
+    - id: EA2-C01-Q13
+      type: multi
+      q: Which are benefits of correcting a low lagging power factor? (Select all that apply.)
+      choices:
+        - Reduced current for the same real power
+        - Reduced I²R losses and voltage drop in conductors
+        - Increased real power delivered to the motor shaft without any change in load
+        - Released capacity on transformers and feeders
+      answer: [0, 1, 3]
+      explanation: Correction reduces apparent power and current, which lowers losses and frees capacity. It does not change the real power the load uses.
+      ref: EA2-C01 Lesson 4
+    - id: EA2-C01-Q14
+      type: multi
+      q: Before touching the terminals of a de-energized motor run capacitor or PF correction bank, which steps are required? (Select all that apply.)
+      choices:
+        - Apply lockout/tagout to the source
+        - Wait at least the labeled or manufacturer's discharge time
+        - Verify zero voltage across the capacitor terminals with a properly rated meter
+        - Short the terminals with a screwdriver to be sure
+      answer: [0, 1, 2]
+      explanation: Lock out, allow discharge time, and verify absence of voltage. Discharge only with a tool designed for the purpose — never with a screwdriver.
+      ref: EA2-C01 Lesson 2; NFPA 70E
+    - id: EA2-C01-Q15
+      type: single
+      q: Why must the secondary of an energized current transformer (CT) never be opened?
+      choices:
+        - It will trip the main breaker
+        - It will reverse the power factor of the system
+        - It can develop a dangerously high voltage and damage the CT
+        - It will cause the primary conductor to overheat immediately
+      answer: 2
+      explanation: An open CT secondary has nothing to oppose the magnetizing effect of primary current, so it can develop a very high, potentially lethal voltage. Short the secondary with the shorting block before disconnecting.
+      ref: EA2-C01 Lesson 1

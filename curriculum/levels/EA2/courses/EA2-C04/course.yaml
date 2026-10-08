@@ -1,0 +1,192 @@
+code: EA2-C04
+title: Commercial Wiring Methods
+order: 4
+estimated_hours: 22
+description: >
+  Installation of the wiring methods used on commercial projects — EMT, RMC, IMC, PVC, flexible
+  conduit and MC cable — including uses permitted, fittings, support and securing, bends between
+  pull points, PVC expansion, support above suspended ceilings, plenum considerations, box-fill
+  calculations, conduit-fill calculations and pull-box sizing. References are to the 2023 NEC; the
+  AHJ-adopted edition and the project specifications govern.
+objectives:
+  - Select and install EMT, RMC, IMC, PVC and flexible raceways in accordance with their NEC articles and the specifications
+  - Apply securing and support distances for raceways and MC cable
+  - Limit bends between pull points to 360 degrees and plan pull points
+  - Calculate PVC expansion and determine when expansion fittings are required
+  - Install MC cable with the correct fittings, bending radius, support and grounding path
+  - Calculate box fill using Tables 314.16(A) and 314.16(B)
+  - Calculate conduit fill using Chapter 9 Tables 1, 4 and 5 and size pull boxes for 4 AWG and larger conductors
+lessons:
+  - 01-raceway-types-and-installation.md
+  - 02-mc-cable-and-ceiling-installations.md
+  - 03-box-fill-calculations.md
+  - 04-conduit-fill-and-pull-boxes.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA2-C04-Q01
+      type: single
+      q: EMT must be securely fastened within what distance of each outlet box, junction box, cabinet or conduit body (general rule)?
+      choices:
+        - 12 in.
+        - 3 ft
+        - 5 ft
+        - 10 ft
+      answer: 1
+      explanation: Article 358 requires EMT to be secured within 3 ft of each box, cabinet, conduit body or other termination and supported at intervals not exceeding 10 ft (with an allowance up to 5 ft where structural members do not permit fastening within 3 ft).
+      ref: NEC 2023 358.30
+    - id: EA2-C04-Q02
+      type: single
+      q: What is the maximum total of bends permitted between pull points in an EMT run?
+      choices:
+        - 180°
+        - 270°
+        - 450°
+        - 360°
+      answer: 3
+      explanation: EMT, RMC, IMC, PVC and flexible conduits are limited to the equivalent of four quarter bends (360° total) between pull points.
+      ref: NEC 2023 358.26
+    - id: EA2-C04-Q03
+      type: single
+      q: An EMT run between two boxes has two 90° bends and one offset made with two 30° bends. What is the total bend count?
+      choices:
+        - 240°
+        - 210°
+        - 180°
+        - 300°
+      answer: 0
+      explanation: 90 + 90 + 30 + 30 = 240°, which is within the 360° limit.
+      ref: NEC 2023 358.26
+    - id: EA2-C04-Q04
+      type: single
+      q: Approximately how much will an 80 ft exposed PVC run change in length over a 90°F temperature range? (coefficient 3.38 × 10⁻⁵ in./in./°F)
+      choices:
+        - 0.3 in.
+        - 1.2 in.
+        - 2.9 in.
+        - 8.1 in.
+      answer: 2
+      explanation: ΔL = 0.0000338 × (80 × 12 in.) × 90 ≈ 2.9 in. This is more than 1/4 in., so an expansion fitting is required.
+      ref: NEC 2023 352.44
+    - id: EA2-C04-Q05
+      type: single
+      q: Where raceways contain ungrounded conductors of what size or larger must the conductors be protected by a fitting with a smooth, rounded insulating surface?
+      choices:
+        - 4 AWG
+        - 10 AWG
+        - 1/0 AWG
+        - 250 kcmil
+      answer: 0
+      explanation: 300.4(G) requires insulating bushings or equivalent fittings where raceways contain 4 AWG or larger ungrounded conductors.
+      ref: NEC 2023 300.4(G)
+    - id: EA2-C04-Q06
+      type: single
+      q: Standard interlocked-armor Type MC cable (not listed with an EGC armor combination) must be grounded by
+      choices:
+        - The interlocked armor alone
+        - A separate ground rod at each luminaire
+        - The neutral conductor
+        - The insulated equipment grounding conductor inside the cable
+      answer: 3
+      explanation: The armor of standard interlocked MC is not listed as an EGC under 250.118; the insulated EGC within the cable must be used and terminated.
+      ref: NEC 2023 250.118; 330.108
+    - id: EA2-C04-Q07
+      type: multi
+      q: Which statements about securing and supporting MC cable (four or fewer conductors, 10 AWG and smaller) are correct? (Select all that apply.)
+      choices:
+        - Secure within 12 in. of every box or fitting
+        - Secure at intervals not exceeding 6 ft
+        - In accessible ceilings, up to 6 ft may be unsupported from the last support to connect a luminaire
+        - Cable may be laid directly on ceiling tiles if it is less than 10 ft long
+      answer: [0, 1, 2]
+      explanation: 330.30 requires securing within 12 in. of boxes and at intervals not exceeding 6 ft, with a 6 ft unsupported allowance for luminaire connections in accessible ceilings. Cables may not be laid on ceiling tiles.
+      ref: NEC 2023 330.30; 300.11
+    - id: EA2-C04-Q08
+      type: single
+      q: Within a fire-rated floor-ceiling assembly, independent support wires for electrical wiring must be
+      choices:
+        - Attached to the ceiling grid tees
+        - Distinguishable from the ceiling support wires by color, tagging or other effective means
+        - Made of nonmetallic material
+        - Spaced no more than 3 ft apart
+      answer: 1
+      explanation: 300.11 requires independent support wires in fire-rated assemblies to be distinguishable from the ceiling framing support wires.
+      ref: NEC 2023 300.11
+    - id: EA2-C04-Q09
+      type: single
+      q: A 4 in. square × 1-1/2 in. box (21.0 in³) contains two 12/2 MC cables with 12 AWG EGCs, internal clamps and one duplex receptacle. What volume is required?
+      choices:
+        - 13.50 in³
+        - 15.75 in³
+        - 20.25 in³
+        - 18.00 in³
+      answer: 3
+      explanation: 4 conductors (9.00) + EGCs counted once (2.25) + clamps (2.25) + device yoke counted twice (4.50) = 18.00 in³, which fits in 21.0 in³.
+      ref: NEC 2023 314.16(B); Table 314.16(B)
+    - id: EA2-C04-Q10
+      type: single
+      q: What is the maximum number of 12 AWG conductors permitted in a 4 in. square × 2-1/8 in. box (30.3 in³) with no fittings, devices or EGCs?
+      choices:
+        - 13
+        - 14
+        - 12
+        - 15
+      answer: 0
+      explanation: 30.3 ÷ 2.25 = 13.47; always round down for box fill, giving 13 conductors.
+      ref: NEC 2023 Table 314.16(A), Table 314.16(B)
+    - id: EA2-C04-Q11
+      type: multi
+      q: Which items are NOT counted when calculating box fill? (Select all that apply.)
+      choices:
+        - A pigtail that originates and terminates within the box
+        - An EMT connector whose locknut is inside but whose clamping portion is outside the box
+        - A device yoke
+        - Internal cable clamps
+      answer: [0, 1]
+      explanation: Conductors that do not leave the box and external connectors are not counted. Device yokes count as two conductors and internal clamps count as one.
+      ref: NEC 2023 314.16(B)
+    - id: EA2-C04-Q12
+      type: single
+      q: What maximum percentage fill applies to a raceway containing three or more conductors?
+      choices:
+        - 31%
+        - 53%
+        - 40%
+        - 60%
+      answer: 2
+      explanation: Chapter 9, Table 1 permits 53% for one conductor, 31% for two and 40% for more than two. 60% applies to nipples 24 in. or less.
+      ref: NEC 2023 Chapter 9, Table 1
+    - id: EA2-C04-Q13
+      type: single
+      q: Four 3/0 AWG THHN (0.2679 in² each) and one 6 AWG THHN EGC (0.0507 in²) are to be installed in EMT. What is the minimum trade size? (EMT 40% areas — 1-1/4 in. 0.598; 1-1/2 in. 0.814; 2 in. 1.342; 2-1/2 in. 2.343)
+      choices:
+        - 1-1/4 in.
+        - 1-1/2 in.
+        - 2-1/2 in.
+        - 2 in.
+      answer: 3
+      explanation: Total area = 4 × 0.2679 + 0.0507 = 1.1223 in². 1-1/2 in. (0.814) is too small; 2 in. (1.342) is adequate.
+      ref: NEC 2023 Chapter 9, Tables 1, 4 and 5
+    - id: EA2-C04-Q14
+      type: single
+      q: How many 12 AWG THHN conductors (0.0133 in² each) are permitted in 1/2 in. EMT (40% area 0.122 in²)?
+      choices:
+        - 7
+        - 9
+        - 10
+        - 12
+      answer: 1
+      explanation: 0.122 ÷ 0.0133 = 9.17. The decimal is less than 0.8, so the maximum is 9 conductors — matching Annex C.
+      ref: NEC 2023 Chapter 9, Table 1 Note 7; Annex C
+    - id: EA2-C04-Q15
+      type: single
+      q: A pull box has a straight pull of 4 AWG and larger conductors through 3 in. conduits. What is the minimum length of the box?
+      choices:
+        - 18 in.
+        - 21 in.
+        - 24 in.
+        - 30 in.
+      answer: 2
+      explanation: 314.28(A)(1) requires the length of a straight-pull box to be at least 8 times the trade size of the largest raceway — 8 × 3 = 24 in.
+      ref: NEC 2023 314.28(A)(1)

@@ -1,0 +1,187 @@
+code: LT1-C06
+title: Lockout/Tagout & Safe Relamping
+order: 6
+estimated_hours: 8
+description: >
+  Teaches the company lockout/tagout procedure for lighting circuits, including group
+  lockout, shift changes, and supervised lock removal, then applies it to the core LT1 tasks:
+  de-energized relamping and supervised fluorescent ballast replacement. Also covers broken
+  lamp cleanup, universal waste management of mercury-containing lamps, and identification
+  and handling of PCB ballasts.
+objectives:
+  - Explain the purpose of LOTO and distinguish energy-isolating devices from control devices
+  - Perform the LOTO sequence from preparation through verification and restoration
+  - Apply group lockout using a hasp or group lockbox and describe shift-change and lock-removal rules
+  - Identify special situations such as emergency circuits, contactors, and shared neutrals
+  - Relamp fluorescent and other common fixtures safely and correctly
+  - Replace a fluorescent ballast under supervision, wiring it to the label diagram
+  - Package and label universal waste lamps, clean up broken lamps, and identify PCB ballasts
+lessons:
+  - 01-lockout-tagout-procedure.md
+  - 02-group-lockout-and-special-situations.md
+  - 03-safe-relamping-procedure.md
+  - 04-ballast-replacement-procedure.md
+  - 05-lamp-breakage-universal-waste-and-pcbs.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C06-Q01
+      type: single
+      q: Which of these is an acceptable energy-isolating device for locking out a lighting circuit?
+      choices:
+        - The wall switch
+        - An occupancy sensor
+        - The circuit breaker feeding the circuit
+        - The lighting control panel relay
+      answer: 2
+      explanation: Switches, sensors, relays, and controls are control devices, not energy-isolating devices. Lock out at the breaker or disconnect.
+      ref: OSHA 29 CFR 1910.147
+    - id: LT1-C06-Q02
+      type: single
+      q: What is the correct order of these LOTO steps?
+      choices:
+        - Isolate, notify, verify, lock and tag
+        - Notify, shut down, isolate, lock and tag, verify
+        - Lock and tag, notify, shut down, verify
+        - Verify, isolate, notify, lock and tag
+      answer: 1
+      explanation: Prepare and notify, shut down at the normal control, isolate at the breaker, apply locks and tags, release stored energy, then verify (try and test).
+      ref: OSHA 29 CFR 1910.147(d)
+    - id: LT1-C06-Q03
+      type: single
+      q: After locking out the breaker, what is the purpose of operating the wall switch?
+      choices:
+        - To confirm the fixtures do not energize, as a check that the correct breaker is locked
+        - To discharge the ballast capacitor
+        - To reset the ballast
+        - It has no purpose and should be skipped
+      answer: 0
+      explanation: The "try" step confirms the right source was isolated. The switch is then returned to off, and absence of voltage is verified with a meter.
+    - id: LT1-C06-Q04
+      type: single
+      q: Who may remove a personal lock from a lockout device under normal circumstances?
+      choices:
+        - Any coworker on the crew
+        - The customer's facility manager
+        - The first person who arrives the next day
+        - Only the person who applied it
+      answer: 3
+      explanation: Each lock is removed only by the worker who applied it. Removal by others follows a specific supervisor-directed procedure.
+      ref: OSHA 29 CFR 1910.147(e)(3)
+    - id: LT1-C06-Q05
+      type: single
+      q: Three technicians will relamp fixtures on the same locked-out breaker. How must they be protected?
+      choices:
+        - The lead technician's lock protects everyone
+        - Each technician attaches their own lock to a hasp or group lockbox
+        - One lock and three tags are sufficient
+        - Each technician watches the panel in turns
+      answer: 1
+      explanation: Group lockout must give each worker the same protection as personal lockout, so each exposed worker applies their own lock.
+      ref: OSHA 29 CFR 1910.147(f)(3)
+    - id: LT1-C06-Q06
+      type: single
+      q: During a shift change on a locked-out circuit, what is the correct sequence?
+      choices:
+        - The outgoing worker removes their lock, then the incoming worker applies theirs
+        - Both workers remove their locks and re-lock together
+        - The incoming worker applies their lock before the outgoing worker removes theirs
+        - No lock is needed during shift change if the panel is in a locked room
+      answer: 2
+      explanation: Protection must be continuous, so the incoming lock is applied before the outgoing lock is removed.
+      ref: OSHA 29 CFR 1910.147(f)(4)
+    - id: LT1-C06-Q07
+      type: multi
+      q: With the normal lighting breaker locked out, which of these could still energize a fixture or its conductors? (Select all that apply.)
+      choices:
+        - An integral emergency battery pack
+        - A second circuit feeding the same fixture
+        - A generator-fed emergency circuit from another panel
+        - The open breaker you locked out
+      answer: [0, 1, 2]
+      explanation: Battery packs, additional circuits, and emergency circuits can all remain energized. That is why all feeds are identified and every conductor is tested.
+    - id: LT1-C06-Q08
+      type: single
+      q: How do you remove a medium bi-pin T8 lamp from its sockets?
+      choices:
+        - Pull it straight down firmly
+        - Rotate it a quarter turn until the pins align with the socket slots, then lower it out
+        - Push it toward one end to compress the spring socket
+        - Unscrew it counterclockwise
+      answer: 1
+      explanation: Bi-pin lamps rotate 90 degrees to align the pins with the slots. Compressing a spring socket applies to single-pin and recessed double contact lamps.
+    - id: LT1-C06-Q09
+      type: single
+      q: You install new lamps in a fixture but they still do not light properly. What should you do?
+      choices:
+        - Keep trying different lamps from the truck
+        - Leave the fixture on so the customer can see the problem
+        - Tap the ballast with a screwdriver while energized
+        - Stop, record the issue on the work order, and report it for troubleshooting
+      answer: 3
+      explanation: If correct new lamps do not solve the problem, the cause is likely the ballast, sockets, or wiring. Report it rather than swapping parts or investigating while energized.
+    - id: LT1-C06-Q10
+      type: multi
+      q: Which items must match when selecting a replacement fluorescent ballast? (Select all that apply.)
+      choices:
+        - Lamp type
+        - Number of lamps
+        - Input voltage
+        - The color of the fixture housing
+      answer: [0, 1, 2]
+      explanation: The ballast must match the lamp type, lamp count, and supply voltage (and start type and fit). Housing color does not matter.
+    - id: LT1-C06-Q11
+      type: single
+      q: When wiring a replacement ballast, which wiring diagram should you follow?
+      choices:
+        - The diagram printed on the new ballast
+        - The old ballast's wire colors exactly as they were
+        - A diagram from any other fixture on site
+        - Whichever arrangement makes the lamps light
+      answer: 0
+      explanation: Different ballasts can use different lead colors and socket connections. Always wire to the new ballast's label diagram.
+    - id: LT1-C06-Q12
+      type: single
+      q: A ballast removed from an older fixture has no "No PCBs" statement on its label. How should it be treated?
+      choices:
+        - As ordinary trash
+        - As scrap metal
+        - As if it contains PCBs, following the company PCB procedure
+        - As a universal waste lamp
+      answer: 2
+      explanation: Ballasts without a "No PCBs" label, especially those made before 1979, must be assumed to contain PCBs.
+      ref: EPA TSCA PCB regulations (40 CFR 761)
+    - id: LT1-C06-Q13
+      type: single
+      q: Which is a correct practice for storing spent fluorescent lamps as universal waste?
+      choices:
+        - Tape lamps into bundles to save space
+        - Break lamps into a drum to reduce volume
+        - Leave the box open so it is easy to add lamps
+        - Keep lamps intact in a closed, labeled container marked with the accumulation start date
+      answer: 3
+      explanation: Universal waste lamps must be kept intact in closed, structurally sound, labeled containers, with the accumulation start date documented.
+      ref: EPA Universal Waste Rule (40 CFR 273)
+    - id: LT1-C06-Q14
+      type: single
+      q: A fluorescent lamp breaks on a hard office floor. What is the first thing to do?
+      choices:
+        - Vacuum up the glass right away
+        - Have people leave the area and ventilate it before cleanup
+        - Sweep the debris into the trash can
+        - Turn the HVAC fan to high to clear the air
+      answer: 1
+      explanation: Clear people, ventilate to the outdoors for 5-10 minutes, and shut off forced-air HVAC if possible. Do not vacuum or sweep for the initial cleanup.
+      ref: EPA broken CFL / fluorescent lamp cleanup guidance
+    - id: LT1-C06-Q15
+      type: single
+      q: You open a fixture and find black tar-like material dripping from the ballast. What should you do?
+      choices:
+        - Stop, avoid contact, and notify your supervisor to follow the leaking PCB ballast procedure
+        - Wipe it off with a rag and continue
+        - Remove the ballast barehanded and put it in the trash
+        - Close the fixture and leave it for the next technician
+      answer: 0
+      explanation: A leaking ballast may contain PCBs. It is a stop-work condition; the ballast and anything contaminated must be handled as PCB waste.
+      ref: EPA TSCA PCB regulations (40 CFR 761)

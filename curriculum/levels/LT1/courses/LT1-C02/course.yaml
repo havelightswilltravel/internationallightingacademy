@@ -1,0 +1,188 @@
+code: LT1-C02
+title: Ladders & Fall Protection
+order: 2
+estimated_hours: 5
+description: >
+  Teaches lighting technicians how to select, inspect, set up, and climb portable ladders
+  safely, how to work from a ladder near electrical equipment, and the basics of fall
+  protection systems. Includes awareness-level introduction to mobile elevating work
+  platforms (MEWPs); operator training is covered in LT3-C06.
+objectives:
+  - Select a ladder by type, material, height, and duty rating for a given task
+  - Inspect stepladders and extension ladders and remove defective ladders from service
+  - Set up stepladders correctly and extension ladders at a 4:1 angle with proper extension and securing
+  - Climb and work from a ladder using three points of contact and safe body position
+  - Keep ladders and the body clear of energized parts and overhead power lines
+  - Describe fall protection trigger heights, PFAS components, and harness inspection
+  - Explain MEWP groups and the requirement for training and authorization before operating
+lessons:
+  - 01-ladder-types-and-ratings.md
+  - 02-ladder-inspection-and-setup.md
+  - 03-climbing-and-working-safely.md
+  - 04-fall-protection-and-mewp-awareness.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C02-Q01
+      type: single
+      q: Why must ladders used for lighting and electrical work have fiberglass side rails?
+      choices:
+        - Fiberglass is lighter than aluminum
+        - Fiberglass side rails are nonconductive when clean and dry
+        - Fiberglass ladders never need inspection
+        - Fiberglass ladders have higher duty ratings than all other types
+      answer: 1
+      explanation: OSHA requires nonconductive side rails on portable ladders where the worker or ladder could contact exposed energized parts. Aluminum conducts electricity.
+      ref: OSHA 29 CFR 1910.333(c)(7); 1926.1053(b)(12)
+    - id: LT1-C02-Q02
+      type: single
+      q: A technician weighs 215 lb and will carry 30 lb of tools and materials. Which is the lowest ladder duty rating that is acceptable?
+      choices:
+        - Type III (200 lb)
+        - Type II (225 lb)
+        - Type I (250 lb)
+        - Any type, if the ladder is fiberglass
+      answer: 2
+      explanation: The total load is 245 lb, so a Type I (250 lb) or higher ladder is required. The duty rating includes the worker, clothing, tools, and materials.
+      ref: ANSI A14 ladder standards
+    - id: LT1-C02-Q03
+      type: single
+      q: An extension ladder touches the wall 16 ft above the ground. How far from the wall should the base be?
+      choices:
+        - 2 ft
+        - 8 ft
+        - 6 ft
+        - 4 ft
+      answer: 3
+      explanation: Using the 4:1 rule, the base is 1 ft out for every 4 ft of working length; 16 / 4 = 4 ft.
+      ref: OSHA 29 CFR 1926.1053(b)(5)
+    - id: LT1-C02-Q04
+      type: single
+      q: When an extension ladder is used to reach a roof, how far must the side rails extend above the landing?
+      choices:
+        - At least 3 ft
+        - At least 1 ft
+        - At least 6 ft
+        - It does not need to extend if a coworker holds it
+      answer: 0
+      explanation: Ladder side rails must extend at least 3 ft above the upper landing (or the ladder must be secured and a grab device provided).
+      ref: OSHA 29 CFR 1926.1053(b)(1)
+    - id: LT1-C02-Q05
+      type: single
+      q: What is the correct action when a ladder inspection reveals a cracked side rail?
+      choices:
+        - Wrap the crack with electrical tape and use it carefully
+        - Use the ladder only for short tasks
+        - Tag it "Do Not Use," remove it from service, and notify the supervisor
+        - Return it to the truck for the next person to evaluate
+      answer: 2
+      explanation: Defective ladders must be tagged and removed from service until repaired or discarded. Field repairs are not allowed.
+      ref: OSHA 29 CFR 1926.1053(b)(16)
+    - id: LT1-C02-Q06
+      type: multi
+      q: Which are correct practices while climbing a ladder? (Select all that apply.)
+      choices:
+        - Face the ladder
+        - Keep three points of contact
+        - Carry a box of lamps in one hand
+        - Use a tool pouch or hand line for tools and materials
+      answer: [0, 1, 3]
+      explanation: Face the ladder, keep three points of contact, and do not carry objects that could cause loss of balance. Use a pouch, hand line, or helper.
+      ref: OSHA 29 CFR 1926.1053(b)(21)-(22)
+    - id: LT1-C02-Q07
+      type: single
+      q: On a standard stepladder, which is the highest place you are allowed to stand (unless the manufacturer marks otherwise)?
+      choices:
+        - The top cap
+        - The step directly below the top cap
+        - The pail shelf
+        - The second step below the top cap
+      answer: 3
+      explanation: Do not stand on the top cap or the step directly below it. The pail shelf is never a step.
+      ref: OSHA 29 CFR 1926.1053(b)(13)
+    - id: LT1-C02-Q08
+      type: single
+      q: What is wrong with using a closed stepladder leaned against a wall?
+      choices:
+        - The feet are not designed for that angle and the ladder can slip out
+        - Nothing, if the ladder is fiberglass
+        - It is only wrong outdoors
+        - It reduces the duty rating by half
+      answer: 0
+      explanation: Stepladders are designed to be used fully open with spreaders locked. Used closed, the feet can kick out.
+    - id: LT1-C02-Q09
+      type: single
+      q: An unqualified worker is carrying an extension ladder near an overhead line of 13.8 kV. What minimum distance must the worker and ladder maintain?
+      choices:
+        - 3 ft
+        - 10 ft
+        - 5 ft
+        - 2 ft
+      answer: 1
+      explanation: Unqualified persons and conductive objects they handle must stay at least 10 ft from overhead lines up to 50 kV, plus more for higher voltages.
+      ref: OSHA 29 CFR 1910.333(c)(3)
+    - id: LT1-C02-Q10
+      type: single
+      q: What is the fall protection trigger height at an unprotected edge in construction work?
+      choices:
+        - 4 ft
+        - 10 ft
+        - 6 ft
+        - 15 ft
+      answer: 2
+      explanation: Construction (29 CFR 1926.501) triggers at 6 ft. General industry (29 CFR 1910.28) triggers at 4 ft.
+      ref: OSHA 29 CFR 1926.501(b)(1)
+    - id: LT1-C02-Q11
+      type: single
+      q: Which of these is an acceptable anchorage for a personal fall arrest system?
+      choices:
+        - An electrical conduit run
+        - A sprinkler pipe
+        - A light fixture's support rod
+        - A structural member capable of supporting 5,000 lb per worker
+      answer: 3
+      explanation: Anchorages must support 5,000 lb per worker (or be designed by a qualified person with a safety factor of two). Conduit, piping, and fixtures are never anchors.
+      ref: OSHA 29 CFR 1926.502(d)(15)
+    - id: LT1-C02-Q12
+      type: single
+      q: The impact indicator on a fall arrest lanyard is deployed. What should you do?
+      choices:
+        - Remove the lanyard from service
+        - Reset the indicator and continue using it
+        - Use it only for restraint
+        - Use it only on scissor lifts
+      answer: 0
+      explanation: A deployed impact indicator means the equipment has arrested a fall or been shock-loaded. It must be removed from service.
+    - id: LT1-C02-Q13
+      type: single
+      q: Where should an occupant of a boom lift attach their lanyard?
+      choices:
+        - To the nearest building beam
+        - To the platform guardrail top rail
+        - To the manufacturer's designated anchor point on the platform
+        - To a coworker's harness
+      answer: 2
+      explanation: Boom lift occupants attach to the anchor point designated by the manufacturer on the platform, never to adjacent structures.
+      ref: ANSI A92.22
+    - id: LT1-C02-Q14
+      type: multi
+      q: Which statements about MEWPs are correct for an LT1? (Select all that apply.)
+      choices:
+        - Scissor lifts are Group A MEWPs
+        - Boom lifts are Group B MEWPs
+        - An LT1 may operate any lift after watching a coworker do it once
+        - Operators must be trained, familiarized with the model, and authorized before use
+      answer: [0, 1, 3]
+      explanation: Group A platforms stay within the tipping lines (scissor lifts); Group B can extend beyond them (booms). Training, familiarization, and authorization are required before operating.
+      ref: ANSI A92.22 / A92.24
+    - id: LT1-C02-Q15
+      type: single
+      q: While working on a stepladder, the next fixture is just out of reach to the side. What should you do?
+      choices:
+        - Lean out while keeping one foot on the ladder
+        - Climb down and move the ladder
+        - Shift the ladder by rocking it while standing on it
+        - Stand on the top cap for more reach
+      answer: 1
+      explanation: Keep your belt buckle between the rails. Climb down and reposition the ladder rather than overreaching or "walking" it.

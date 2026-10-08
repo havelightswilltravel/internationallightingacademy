@@ -1,0 +1,190 @@
+code: LT2-C02
+title: Branch Circuits, Wiring Methods & Panelboards
+order: 2
+estimated_hours: 8
+description: >
+  Introduces the structure of the National Electrical Code and the articles a lighting
+  technician touches most (110, 210, 240, 300, 310), then covers panelboards and breakers,
+  panel schedules and circuit directories, conductor types and identification, sizing
+  basics, boxes, listed connectors and splicing, and the installation of fixture whips in
+  suspended ceilings.
+objectives:
+  - Navigate the NEC by chapter, article and section and distinguish mandatory text from informational notes
+  - Identify panelboard components, breaker types and the information on a panel schedule
+  - Identify conductors by type marking and color and state the basic size-to-breaker limits for 14, 12 and 10 AWG copper
+  - Select boxes and listed connectors and make reliable splices with adequate free conductor
+  - Install a fixture whip and support a luminaire in a suspended ceiling in a neat, code-conscious manner
+lessons:
+  - 01-nec-structure-intro.md
+  - 02-panelboards-breakers-schedules.md
+  - 03-conductors-colors-sizing.md
+  - 04-boxes-connectors-splices.md
+  - 05-fixture-whips-and-ceiling-wiring.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C02-Q01
+      type: single
+      q: Which edition of the NEC governs the work you do on a given job?
+      choices:
+        - The newest edition published by NFPA
+        - The edition adopted (with any amendments) by the local Authority Having Jurisdiction
+        - Whatever edition the fixture manufacturer references
+        - The 2023 edition everywhere in the U.S.
+      answer: 1
+      explanation: The NEC is a model code that becomes law only when adopted. The AHJ's adopted edition and local amendments govern.
+      ref: NFPA 70 (2023) Article 90
+    - id: LT2-C02-Q02
+      type: single
+      q: In the NEC, what is the status of an informational note?
+      choices:
+        - It is mandatory and enforceable like any "shall" rule
+        - It overrides the rule it follows
+        - It is explanatory or advisory and is not enforceable by itself
+        - It applies only in dwelling units
+      answer: 2
+      explanation: Informational notes explain or recommend but are not enforceable requirements. Mandatory rules use "shall" or "shall not."
+      ref: NFPA 70 (2023) Article 90
+    - id: LT2-C02-Q03
+      type: single
+      q: Which NEC requirement means you must follow a listed retrofit kit's installation instructions exactly?
+      choices:
+        - Listed equipment shall be installed and used in accordance with its listing and labeling instructions
+        - All work shall be performed by a licensed electrician
+        - Retrofit kits are exempt from the NEC
+        - Working space shall be maintained around equipment
+      answer: 0
+      explanation: NEC 110.3(B) requires listed or labeled equipment to be installed and used per the instructions included in the listing or labeling.
+      ref: NFPA 70 (2023) 110.3(B)
+    - id: LT2-C02-Q04
+      type: single
+      q: What is the minimum height of the working space required in front of a typical panelboard?
+      choices:
+        - 5 ft
+        - 7 ft
+        - 30 in
+        - 6½ ft
+      answer: 3
+      explanation: NEC 110.26 generally requires working space at least 6½ ft high, at least 30 in wide (or the width of the equipment), with depth depending on voltage and conditions.
+      ref: NFPA 70 (2023) 110.26
+    - id: LT2-C02-Q05
+      type: single
+      q: A warehouse uses 277 V panelboard breakers as the daily on/off switches for fluorescent high-bay lighting. What marking must those breakers have?
+      choices:
+        - GFCI
+        - SWD or HID
+        - AFCI
+        - No special marking is required
+      answer: 1
+      explanation: Breakers used to switch 120 V and 277 V fluorescent lighting must be listed and marked SWD or HID. Breakers switching HID lighting must be marked HID.
+      ref: NFPA 70 (2023) 240.83(D)
+    - id: LT2-C02-Q06
+      type: single
+      q: On a typical three-phase panelboard, circuits 1 and 2 are on phase A. Which phase are circuits 7 and 8 on?
+      choices:
+        - Phase A
+        - Phase B
+        - Phase C
+        - Neutral
+      answer: 0
+      explanation: Rows rotate A (1–2), B (3–4), C (5–6), then back to A (7–8).
+    - id: LT2-C02-Q07
+      type: single
+      q: Which circuit directory entry best meets the NEC requirement to identify a circuit's specific purpose?
+      choices:
+        - Lights
+        - Misc.
+        - Lighting – Warehouse Aisles 1–4 (North)
+        - Bob's area
+      answer: 2
+      explanation: NEC 408.4 requires each circuit to be legibly identified as to its specific purpose, distinguishable from all others. Descriptions should not depend on transient conditions like who occupies a space.
+      ref: NFPA 70 (2023) 408.4
+    - id: LT2-C02-Q08
+      type: single
+      q: What is the general maximum overcurrent protection for 12 AWG copper branch-circuit conductors?
+      choices:
+        - 15 A
+        - 25 A
+        - 30 A
+        - 20 A
+      answer: 3
+      explanation: The small-conductor rule limits 14, 12 and 10 AWG copper to 15, 20 and 30 A respectively unless specifically permitted otherwise.
+      ref: NFPA 70 (2023) 240.4(D)
+    - id: LT2-C02-Q09
+      type: single
+      q: Which color identifies an equipment grounding conductor under the NEC?
+      choices:
+        - Gray
+        - Green, green with yellow stripes, or bare
+        - White with a green stripe
+        - Orange
+      answer: 1
+      explanation: EGCs are bare, covered, or insulated green or green with one or more yellow stripes. Gray and white identify grounded (neutral) conductors.
+      ref: NFPA 70 (2023) Article 250
+    - id: LT2-C02-Q10
+      type: single
+      q: What does the "THWN-2" marking on a conductor indicate?
+      choices:
+        - Thermoplastic, heat- and water-resistant, nylon-jacketed, rated 90°C in wet locations
+        - Two conductors twisted together
+        - Rated for 200 V maximum
+        - Suitable only for dry locations at 60°C
+      answer: 0
+      explanation: THWN-2 is thermoplastic insulation with a nylon jacket, heat- and water-resistant, rated 90°C wet or dry.
+      ref: NFPA 70 (2023) Article 310
+    - id: LT2-C02-Q11
+      type: single
+      q: How much free conductor must generally be left at each box for splices or connections?
+      choices:
+        - 2 in
+        - 4 in
+        - 6 in
+        - 12 in
+      answer: 2
+      explanation: NEC 300.14 requires at least 6 in of free conductor, with at least 3 in outside the opening where the box opening is less than 8 in.
+      ref: NFPA 70 (2023) 300.14
+    - id: LT2-C02-Q12
+      type: multi
+      q: Which of the following are signs of a properly made twist-on splice? (Select all that apply.)
+      choices:
+        - No bare copper visible below the connector skirt
+        - Each conductor passes an individual pull test
+        - Connector used within the wire combination printed on its package
+        - Electrical tape wrapped over the connector to hold it on
+      answer: [0, 1, 2]
+      explanation: A good splice uses a listed connector within its rated combination, has no exposed copper, and passes a pull test. Tape is not a substitute for a properly tightened connector.
+      ref: UL 486C; NFPA 70 (2023) 110.14
+    - id: LT2-C02-Q13
+      type: single
+      q: The NEC limits luminaire tap conductors run in raceway or MC/AC cable from an outlet box to a luminaire to what length range?
+      choices:
+        - 6 in to 3 ft
+        - 18 in to 6 ft
+        - 3 ft to 10 ft
+        - Any length if the conductors are 12 AWG
+      answer: 1
+      explanation: Luminaire tap conductors in suitable raceway or AC/MC cable must be at least 18 in and not more than 6 ft long.
+      ref: NFPA 70 (2023) 410.117(C)
+    - id: LT2-C02-Q14
+      type: multi
+      q: Which practices are correct when wiring fixtures above a suspended ceiling? (Select all that apply.)
+      choices:
+        - Secure luminaires to the ceiling grid framing members with listed clips or other approved means
+        - Support MC whips from sprinkler pipe to keep them off the tiles
+        - Lock out and verify every conductor in the junction box, including neutrals
+        - Keep junction boxes accessible and covered
+      answer: [0, 2, 3]
+      explanation: Luminaires must be fastened to the ceiling framing; boxes must be accessible and covered; every conductor must be verified dead. Wiring must not be supported from other trades' piping or ducts.
+      ref: NFPA 70 (2023) Articles 300, 314, 410
+    - id: LT2-C02-Q15
+      type: single
+      q: You find three single-pole breakers feeding lighting circuits that share one neutral, with no handle ties. What should you do?
+      choices:
+        - Nothing; single-pole breakers are always acceptable
+        - Remove the shared neutral and cap it
+        - Report it — a multiwire branch circuit requires a means to simultaneously disconnect all its ungrounded conductors
+        - Swap the breakers to different phases
+      answer: 2
+      explanation: Multiwire branch circuits require multi-pole breakers or listed handle ties so all ungrounded conductors are disconnected together. Opening a shared neutral with any circuit on is a shock hazard.
+      ref: NFPA 70 (2023) 210.4(B)

@@ -1,0 +1,192 @@
+code: EA1-C01
+title: DC Theory & Magnetism
+order: 1
+estimated_hours: 16
+description: >
+  A deeper treatment of DC electrical theory than the lighting track: atomic structure and the
+  nature of current, the factors that determine conductor resistance, series/parallel/combination
+  circuit analysis, Kirchhoff's voltage and current laws, DC voltage-drop calculations, and the
+  principles of magnetism, electromagnetism and induction that underlie relays, breakers, motors
+  and transformers.
+objectives:
+  - Describe atomic structure and explain why conductors, semiconductors and insulators behave differently
+  - Calculate conductor resistance from material, length and circular-mil area
+  - Solve series, parallel and combination circuits for resistance, current, voltage and power
+  - Apply Kirchhoff's current and voltage laws to verify and troubleshoot circuits
+  - Calculate two-wire voltage drop and select a conductor size to meet a target drop
+  - Explain magnetic fields, electromagnets, ampere-turns, induction and Lenz's law
+  - Explain why the NEC requires all conductors of a circuit to be grouped together
+lessons:
+  - 01-atomic-theory-and-resistance.md
+  - 02-series-parallel-combination.md
+  - 03-kirchhoffs-laws-and-voltage-drop.md
+  - 04-magnetism-and-electromagnetism.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA1-C01-Q01
+      type: single
+      q: How many valence electrons does a good conductor such as copper typically have?
+      choices:
+        - 1 to 3
+        - Exactly 4
+        - 5 to 8
+        - None
+      answer: 0
+      explanation: Conductors have 1 to 3 loosely held valence electrons (copper has 1). Semiconductors have 4 and insulators have 5 to 8.
+      ref: EA1-C01 Lesson 1
+    - id: EA1-C01-Q02
+      type: single
+      q: Three resistors of 10, 20 and 30 ohms are connected in series across 120 V DC. What is the voltage drop across the 30-ohm resistor?
+      choices:
+        - 20 V
+        - 40 V
+        - 60 V
+        - 120 V
+      answer: 2
+      explanation: R_T = 60 ohms, so I = 120 / 60 = 2 A. The drop across 30 ohms = 2 x 30 = 60 V.
+      ref: Ohm's law; EA1-C01 Lesson 2
+    - id: EA1-C01-Q03
+      type: single
+      q: Loads of 20, 30 and 60 ohms are connected in parallel across 120 V. What is the total current?
+      choices:
+        - 2 A
+        - 6 A
+        - 10 A
+        - 12 A
+      answer: 3
+      explanation: Branch currents are 120/20 = 6 A, 120/30 = 4 A and 120/60 = 2 A. Total = 12 A (equivalent resistance 10 ohms).
+      ref: EA1-C01 Lesson 2
+    - id: EA1-C01-Q04
+      type: single
+      q: A 4-ohm resistor is in series with a parallel pair of 12 ohms and 6 ohms, supplied by 24 V DC. What is the current through the 6-ohm resistor?
+      choices:
+        - 1 A
+        - 2 A
+        - 3 A
+        - 4 A
+      answer: 1
+      explanation: 12 || 6 = 4 ohms; R_T = 8 ohms; I_T = 3 A; drop across 4-ohm series resistor = 12 V, leaving 12 V across the pair; 12 V / 6 ohms = 2 A.
+      ref: EA1-C01 Lesson 2
+    - id: EA1-C01-Q05
+      type: single
+      q: Which statement correctly describes Kirchhoff's current law?
+      choices:
+        - The sum of voltage drops around a loop equals the source voltage
+        - The current entering a junction equals the current leaving it
+        - Current is the same through every component in a circuit
+        - Resistance is proportional to conductor length
+      answer: 1
+      explanation: KCL states that the sum of currents entering a node equals the sum leaving it. The first choice is Kirchhoff's voltage law.
+      ref: EA1-C01 Lesson 3
+    - id: EA1-C01-Q06
+      type: single
+      q: At a junction box, 16 A enters on the feed conductor. Two branches leave carrying 5 A and 7 A. How much current is on the third branch?
+      choices:
+        - 4 A
+        - 12 A
+        - 28 A
+        - 2 A
+      answer: 0
+      explanation: By KCL, 16 = 5 + 7 + I3, so I3 = 4 A.
+      ref: EA1-C01 Lesson 3
+    - id: EA1-C01-Q07
+      type: single
+      q: Using VD = 2KIL / CM with K = 12.9, what is the approximate voltage drop on a 120 V circuit of 12 AWG copper (6,530 cmil) carrying 16 A to a load 100 ft away?
+      choices:
+        - 3.2 V
+        - 4.0 V
+        - 6.3 V
+        - 12.6 V
+      answer: 2
+      explanation: VD = (2 x 12.9 x 16 x 100) / 6,530 = 41,280 / 6,530 = about 6.3 V, or about 5.3 percent of 120 V.
+      ref: NEC Chapter 9 Table 8 (conductor area); EA1-C01 Lesson 3
+    - id: EA1-C01-Q08
+      type: single
+      q: In the NEC, the commonly quoted recommendation of 3 percent voltage drop on a branch circuit appears as what kind of provision?
+      choices:
+        - A mandatory requirement enforced on every installation
+        - An exception to the ampacity rules
+        - An informational note, which is not an enforceable requirement
+        - A requirement only for aluminum conductors
+      answer: 2
+      explanation: The voltage-drop percentages appear in informational notes (for example, near 210.19 for branch circuits). Informational notes are explanatory and not enforceable, although project specifications or energy codes may make voltage-drop limits mandatory.
+      ref: NEC 90.5(C) (informational notes); 210.19
+    - id: EA1-C01-Q09
+      type: multi
+      q: Which factors increase the resistance of a copper conductor? (Select all that apply.)
+      choices:
+        - Increasing its length
+        - Increasing its circular-mil area
+        - Increasing its temperature
+        - Replacing it with aluminum of the same size
+      answer: [0, 2, 3]
+      explanation: Resistance rises with length, temperature (positive temperature coefficient) and higher-resistivity material such as aluminum. A larger cross-sectional area lowers resistance.
+      ref: EA1-C01 Lesson 1
+    - id: EA1-C01-Q10
+      type: single
+      q: A loose termination adds 0.1 ohm of resistance to a circuit carrying 20 A. How much heat (power) is produced at that termination?
+      choices:
+        - 2 W
+        - 40 W
+        - 200 W
+        - 4 W
+      answer: 1
+      explanation: P = I squared x R = 20 x 20 x 0.1 = 40 W, concentrated at one small point inside a box - a fire hazard. This is why terminations must be torqued properly.
+      ref: Watt's law; NEC 110.14
+    - id: EA1-C01-Q11
+      type: single
+      q: A coil of 500 turns carries 0.2 A. What is its magnetomotive force?
+      choices:
+        - 2,500 ampere-turns
+        - 0.0004 ampere-turns
+        - 100 ampere-turns
+        - 500.2 ampere-turns
+      answer: 2
+      explanation: Magnetomotive force = current x turns = 0.2 x 500 = 100 ampere-turns.
+      ref: EA1-C01 Lesson 4
+    - id: EA1-C01-Q12
+      type: single
+      q: Lenz's law states that an induced voltage produces a current whose magnetic field does what?
+      choices:
+        - Opposes the change in flux that produced it
+        - Aids the change in flux that produced it
+        - Is always at right angles to the original field and has no effect
+        - Exists only in permanent magnets
+      answer: 0
+      explanation: Lenz's law says the induced current always opposes the change that caused it. This opposition is the basis of inductance and of the inductive kick from coils.
+      ref: EA1-C01 Lesson 4
+    - id: EA1-C01-Q13
+      type: multi
+      q: Which of the following increase the strength of an electromagnet? (Select all that apply.)
+      choices:
+        - Increasing the current through the coil
+        - Increasing the number of turns
+        - Replacing an air core with a soft-iron core
+        - Replacing the copper wire with smaller wire of the same number of turns at the same current
+      answer: [0, 1, 2]
+      explanation: Field strength depends on ampere-turns and core permeability. Wire gauge by itself does not change field strength if current and turns stay the same.
+      ref: EA1-C01 Lesson 4
+    - id: EA1-C01-Q14
+      type: single
+      q: Why does the NEC require the ungrounded and grounded conductors of an AC circuit to be installed in the same metal raceway?
+      choices:
+        - To make pulling easier
+        - So their opposing magnetic fields cancel and prevent induced heating of the steel
+        - Because the neutral must be bonded to the raceway
+        - To reduce the number of raceways an inspector must check
+      answer: 1
+      explanation: Grouping all conductors of a circuit lets their equal and opposite currents cancel each other's fields, preventing eddy-current and hysteresis heating in ferrous raceways and enclosures.
+      ref: NEC 300.3(B) and 300.20
+    - id: EA1-C01-Q15
+      type: single
+      q: Two resistors of 1,000 ohms and 3,000 ohms are in series across 120 V. What is the voltage across the 3,000-ohm resistor?
+      choices:
+        - 30 V
+        - 40 V
+        - 80 V
+        - 90 V
+      answer: 3
+      explanation: Voltage divider - E = 120 x (3,000 / 4,000) = 90 V. The 1,000-ohm resistor drops the remaining 30 V.
+      ref: EA1-C01 Lesson 3

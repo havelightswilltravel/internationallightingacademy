@@ -1,0 +1,178 @@
+code: LT4-C03
+title: Photometry & Lighting Quality
+order: 3
+estimated_hours: 7
+description: >
+  Teaches the photometric quantities and laws senior technicians use to measure and explain
+  lighting performance: lumens, candela, footcandles/lux and luminance, the inverse square and
+  cosine laws, IES recommended illuminance, conducting and reporting a light-meter survey,
+  uniformity ratios, glare (including UGR and BUG ratings), and color quality metrics including
+  CCT, CRI, R9 and IES TM-30.
+objectives:
+  - Define luminous flux, intensity, illuminance and luminance and convert between footcandles and lux.
+  - Apply the inverse square and cosine laws to field situations.
+  - Locate appropriate illuminance targets from the project specification or IES Recommended Practices.
+  - Perform a repeatable light-level survey and calculate average and uniformity ratios.
+  - Identify causes of poor uniformity and glare and recommend corrective actions.
+  - Interpret CCT, color consistency, CRI (Ra and R9) and TM-30 (Rf and Rg) on a spec sheet.
+lessons:
+  - 01-photometric-units-and-laws.md
+  - 02-ies-recommendations-and-light-surveys.md
+  - 03-uniformity-and-glare.md
+  - 04-color-quality-cct-cri-tm30.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT4-C03-Q01
+      type: single
+      q: What does a handheld illuminance (light) meter measure?
+      choices:
+        - Luminous flux in lumens
+        - Light arriving on a surface, in footcandles or lux
+        - Luminance of a surface in cd/m²
+        - Color rendering index
+      answer: 1
+      explanation: An illuminance meter measures light falling on the sensor's surface (fc or lux). It does not measure how bright a surface appears (luminance).
+    - id: LT4-C03-Q02
+      type: single
+      q: A reading of 30 fc is approximately how many lux?
+      choices:
+        - 3 lux
+        - 30 lux
+        - 323 lux
+        - 1,000 lux
+      answer: 2
+      explanation: 1 fc = 10.764 lux, so 30 × 10.764 ≈ 323 lux.
+    - id: LT4-C03-Q03
+      type: single
+      q: A downlight delivers 2,000 cd straight down. Approximately what illuminance does it produce on the floor 8 ft below?
+      choices:
+        - 31 fc
+        - 250 fc
+        - 16 fc
+        - 125 fc
+      answer: 0
+      explanation: Inverse square law E = I ÷ d² = 2,000 ÷ 64 ≈ 31 fc.
+    - id: LT4-C03-Q04
+      type: single
+      q: If the distance from a point source to the surface is doubled, the illuminance becomes?
+      choices:
+        - One half
+        - The same
+        - Double
+        - One quarter
+      answer: 3
+      explanation: Illuminance varies with 1/d². Doubling distance gives 1/4 the illuminance.
+    - id: LT4-C03-Q05
+      type: single
+      q: Why must a light meter be cosine-corrected and held level on the work plane?
+      choices:
+        - Illuminance depends on the angle of incidence, and an uncorrected or tilted sensor misreads light arriving at angles
+        - To protect the meter from glare damage
+        - Because the meter measures luminance
+        - So the meter reads CCT correctly
+      answer: 0
+      explanation: Per the cosine law, light arriving at an angle produces less illuminance. A cosine-corrected sensor responds correctly to angled light; tilting it changes the reading.
+    - id: LT4-C03-Q06
+      type: single
+      q: You must survey an office during the day and cannot close the blinds. What is an acceptable method to determine the electric-lighting contribution?
+      choices:
+        - Take readings only near the windows
+        - Take readings with lights on, then lights off at the same points, and subtract
+        - Multiply daytime readings by 0.5
+        - Use a phone app instead
+      answer: 1
+      explanation: Subtracting lights-off readings from lights-on readings at the same points isolates the electric-light contribution when daylight cannot be excluded.
+    - id: LT4-C03-Q07
+      type: multi
+      q: Which practices improve the accuracy of a light-level survey? (Select all that apply.)
+      choices:
+        - Use a meter within its calibration interval
+        - Let the lighting stabilize and record the control state
+        - Stand so your body and shadow stay out of the light path
+        - Wear bright white clothing to reflect more light onto the sensor
+      answer: [0, 1, 2]
+      explanation: Calibration, stabilization, documented control state and avoiding shadows/reflections all improve accuracy. Light clothing can reflect light onto the sensor and bias readings.
+    - id: LT4-C03-Q08
+      type: single
+      q: What measurement plane is typically used for illuminance on desks and tables?
+      choices:
+        - Floor level
+        - 7 ft above floor
+        - About 30 in (2.5 ft) above the floor
+        - At the ceiling
+      answer: 2
+      explanation: The horizontal work plane for desk tasks is commonly taken at about 30 in above floor unless the specification states otherwise.
+    - id: LT4-C03-Q09
+      type: single
+      q: A survey gives average 37.3 fc, maximum 47 fc and minimum 29 fc. What is the average-to-minimum ratio?
+      choices:
+        - 1.62:1
+        - 0.78:1
+        - 1.26:1
+        - 1.29:1
+      answer: 3
+      explanation: avg:min = 37.3 ÷ 29 ≈ 1.29:1. (1.62:1 is the max:min ratio.)
+    - id: LT4-C03-Q10
+      type: single
+      q: After a one-for-one parking lot retrofit, the average meets the target but there are dark areas between poles. The most likely cause is?
+      choices:
+        - The CRI is too low
+        - The new luminaires' distribution (optic type) or spacing does not suit the pole layout, or there are outages
+        - The CCT is too warm
+        - The breaker is undersized
+      answer: 1
+      explanation: Poor uniformity typically comes from wrong optics for the spacing, exceeding spacing criteria or outages. Color metrics do not affect uniformity.
+    - id: LT4-C03-Q11
+      type: single
+      q: What do BUG ratings on an outdoor luminaire spec sheet describe?
+      choices:
+        - Backlight, Uplight and Glare
+        - Ballast, Uniformity and Gain
+        - Brightness, Usage and Grade
+        - Beam, Utilization and Ground
+      answer: 0
+      explanation: IES TM-15 BUG ratings classify backlight, uplight and glare for outdoor luminaires.
+      ref: IES TM-15
+    - id: LT4-C03-Q12
+      type: single
+      q: Which type of glare actually reduces a person's ability to see, such as oncoming headlights?
+      choices:
+        - Discomfort glare
+        - Reflected glare
+        - Disability glare
+        - Spill light
+      answer: 2
+      explanation: Disability glare scatters light in the eye and reduces visibility; discomfort glare causes annoyance without necessarily reducing visibility.
+    - id: LT4-C03-Q13
+      type: single
+      q: A customer says new 4000K fixtures look different from the remaining 4000K fixtures in the same ceiling. What is the most likely explanation?
+      choices:
+        - The new fixtures are on a different circuit
+        - Differences in color consistency (MacAdam/SDCM), Duv, or manufacturer bin even at the same nominal CCT
+        - The footcandle level is too high
+        - The fixtures have different BUG ratings
+      answer: 1
+      explanation: Nominal CCT bins have tolerances; differences in Duv and consistency can make "4000K" products look different side by side.
+    - id: LT4-C03-Q14
+      type: multi
+      q: Which statements about color rendering metrics are correct? (Select all that apply.)
+      choices:
+        - CRI Ra is based on eight pastel color samples and does not include R9
+        - R9 indicates rendering of saturated red
+        - TM-30 Rf is a fidelity index and Rg indicates average saturation shift
+        - A higher CCT always means a higher CRI
+      answer: [0, 1, 2]
+      explanation: Ra averages R1–R8; R9 is saturated red. TM-30 provides Rf (fidelity) and Rg (gamut). CCT and CRI are independent.
+      ref: ANSI/IES TM-30
+    - id: LT4-C03-Q15
+      type: single
+      q: A brand-new LED installation measures 25% above the maintained design target. What is the most reasonable interpretation?
+      choices:
+        - The installation is defective and must be removed
+        - The meter is broken
+        - This is often expected because designs target maintained illuminance after light losses; high-end trim may be used if specified
+        - The CCT is wrong
+      answer: 2
+      explanation: Designs include light loss factors, so initial levels typically exceed maintained targets. High-end trim can tune initial output where the design calls for it.

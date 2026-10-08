@@ -1,0 +1,194 @@
+code: EA2-C02
+title: Grounding & Bonding
+order: 2
+estimated_hours: 20
+description: >
+  Article 250 concepts for the commercial apprentice: the difference between grounding and
+  bonding, the effective ground-fault current path, the grounding electrode system and its
+  installation, grounding electrode conductor sizing, equipment grounding conductor types and
+  sizing (including voltage-drop upsizing and parallel runs), main and system bonding jumpers,
+  separately derived systems, service bonding, intersystem bonding and piping bonding. References
+  are to the 2023 NEC; the AHJ-adopted edition governs.
+objectives:
+  - Distinguish grounding from bonding and explain the purpose of each per 250.4
+  - Trace the effective ground-fault current path and explain why the earth cannot serve as that path
+  - Identify grounding electrodes permitted and not permitted, and the installation requirements for rods
+  - Size a grounding electrode conductor from Table 250.66, applying the rod and concrete-encased electrode limits
+  - Identify which wiring methods qualify as an EGC and size wire-type EGCs from Table 250.122
+  - Increase EGC size proportionally when circuit conductors are upsized for voltage drop
+  - Locate the single neutral-to-ground bond for a service and for a separately derived system
+  - Recognize and safely troubleshoot objectionable current caused by improper bonding
+lessons:
+  - 01-purpose-of-grounding-and-bonding.md
+  - 02-grounding-electrode-system-and-gec.md
+  - 03-equipment-grounding-conductors.md
+  - 04-bonding-services-and-separately-derived-systems.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA2-C02-Q01
+      type: single
+      q: What is the primary purpose of the equipment grounding conductor (EGC) during a ground fault?
+      choices:
+        - To carry fault current into the earth so it dissipates
+        - To provide a low-impedance path back to the source so the overcurrent device opens quickly
+        - To stabilize the system voltage to earth during normal operation
+        - To carry normal neutral current when the neutral is overloaded
+      answer: 1
+      explanation: The EGC is part of the effective ground-fault current path, which returns fault current to the source through the main or system bonding jumper so the OCPD operates. The earth is not an effective fault path.
+      ref: NEC 2023 250.4(A)
+    - id: EA2-C02-Q02
+      type: single
+      q: A metal luminaire on a 120 V, 20 A circuit has a broken EGC and is connected only to a local ground rod measuring 25 Ω. If the hot conductor faults to the housing, approximately how much current flows through the earth path (ignoring other impedance)?
+      choices:
+        - 600 A — the breaker trips instantly
+        - 20 A — the breaker trips after a delay
+        - 4.8 A — the breaker does not trip
+        - 0 A — the rod prevents any current
+      answer: 2
+      explanation: I = E ÷ R = 120 ÷ 25 = 4.8 A, well below the 20 A breaker rating. The housing remains energized, which is why a rod never substitutes for an EGC.
+      ref: EA2-C02 Lesson 1; NEC 2023 250.4(A)(5)
+    - id: EA2-C02-Q03
+      type: multi
+      q: Which of the following may NOT be used as a grounding electrode? (Select all that apply.)
+      choices:
+        - Metal underground gas piping
+        - A concrete-encased electrode of 20 ft of 4 AWG bare copper
+        - Aluminum
+        - A metal underground water pipe in contact with earth for 10 ft or more
+      answer: [0, 2]
+      explanation: 250.52(B) prohibits metal underground gas piping and aluminum as grounding electrodes. The concrete-encased electrode and water pipe (supplemented) are permitted electrodes.
+      ref: NEC 2023 250.52
+    - id: EA2-C02-Q04
+      type: single
+      q: A single rod electrode has not been tested. What does the NEC require?
+      choices:
+        - Nothing further — one 8 ft rod is always sufficient
+        - The rod must be replaced with a 10 ft rod
+        - The rod must be encased in concrete
+        - It must be supplemented by an additional electrode, spaced at least 6 ft away
+      answer: 3
+      explanation: A single rod must be supplemented unless it is shown to have 25 Ω or less resistance to earth. Supplemental rods must be at least 6 ft apart.
+      ref: NEC 2023 250.53(A)
+    - id: EA2-C02-Q05
+      type: single
+      q: A service uses 3/0 AWG copper service-entrance conductors. Using Table 250.66, what is the minimum copper GEC to the metal water pipe electrode?
+      choices:
+        - 4 AWG
+        - 8 AWG
+        - 6 AWG
+        - 2 AWG
+      answer: 0
+      explanation: In Table 250.66, 2/0 or 3/0 AWG copper service conductors require a 4 AWG copper GEC. The 6 AWG limit applies only to the sole connection to rod, pipe or plate electrodes.
+      ref: NEC 2023 Table 250.66
+    - id: EA2-C02-Q06
+      type: single
+      q: A 400 A service uses two parallel sets of 250 kcmil copper per phase. What is the minimum copper GEC to the water pipe per Table 250.66?
+      choices:
+        - 2 AWG
+        - 3/0 AWG
+        - 1/0 AWG
+        - 4 AWG
+      answer: 2
+      explanation: Use the equivalent area of parallel conductors, 2 × 250 = 500 kcmil. Over 350 through 600 kcmil copper requires a 1/0 AWG copper GEC.
+      ref: NEC 2023 Table 250.66
+    - id: EA2-C02-Q07
+      type: single
+      q: Regardless of service size, the portion of a copper GEC that is the sole connection to a ground rod is not required to be larger than
+      choices:
+        - 8 AWG
+        - 6 AWG
+        - 4 AWG
+        - 1/0 AWG
+      answer: 1
+      explanation: 250.66(A) limits the sole connection to rod, pipe or plate electrodes to 6 AWG copper (or 4 AWG aluminum).
+      ref: NEC 2023 250.66(A)
+    - id: EA2-C02-Q08
+      type: single
+      q: What is the minimum copper equipment grounding conductor for a circuit protected by a 60 A breaker?
+      choices:
+        - 12 AWG
+        - 8 AWG
+        - 6 AWG
+        - 10 AWG
+      answer: 3
+      explanation: Table 250.122 requires 10 AWG copper for OCPDs rated up to 60 A.
+      ref: NEC 2023 Table 250.122
+    - id: EA2-C02-Q09
+      type: single
+      q: A 100 A feeder would use 3 AWG Cu (52,620 cmil) for ampacity but is upsized to 1/0 AWG Cu (105,600 cmil) for voltage drop. The Table 250.122 minimum EGC is 8 AWG (16,510 cmil). What is the minimum copper EGC?
+      choices:
+        - 8 AWG
+        - 6 AWG (26,240 cmil)
+        - 4 AWG (41,740 cmil)
+        - 1/0 AWG
+      answer: 2
+      explanation: Ratio = 105,600 ÷ 52,620 ≈ 2.007. Required EGC = 16,510 × 2.007 ≈ 33,140 cmil. 6 AWG (26,240) is too small; 4 AWG (41,740) is the minimum.
+      ref: NEC 2023 250.122(B); Chapter 9 Table 8
+    - id: EA2-C02-Q10
+      type: single
+      q: An 800 A feeder is installed in three parallel raceways. How is the EGC sized?
+      choices:
+        - One 1/0 AWG Cu EGC is installed in each raceway, based on the 800 A OCPD
+        - One-third of the 800 A EGC size is installed in each raceway
+        - One EGC in only one of the three raceways
+        - EGCs are not required because the raceways are parallel
+      answer: 0
+      explanation: Per 250.122(F), each parallel raceway gets its own full-size EGC sized from Table 250.122 using the feeder OCPD rating — 1/0 AWG Cu for 800 A.
+      ref: NEC 2023 250.122(F); Table 250.122
+    - id: EA2-C02-Q11
+      type: single
+      q: Under which condition may standard flexible metal conduit (FMC) serve as the equipment grounding conductor?
+      choices:
+        - Any length, any circuit, as long as fittings are tight
+        - Up to 6 ft total length with listed grounding fittings, on circuits protected at 20 A or less, where not installed for flexibility after installation
+        - Only where installed for vibration isolation
+        - Never — FMC can never be an EGC
+      answer: 1
+      explanation: 250.118 permits FMC as an EGC only within these limits. Otherwise a wire-type EGC must be installed.
+      ref: NEC 2023 250.118
+    - id: EA2-C02-Q12
+      type: single
+      q: In a distribution panel fed from the building service, how should the neutral and equipment grounding bars be configured?
+      choices:
+        - Neutral bar bonded to the enclosure; EGC bar isolated
+        - Both bars bonded to the enclosure with the bonding screw installed
+        - Neutral and EGCs landed together on the same bar
+        - Neutral bar isolated from the enclosure; EGC bar bonded to the enclosure
+      answer: 3
+      explanation: Downstream of the service, the neutral must be isolated from the enclosure and EGCs, which are bonded to the enclosure. Bonding the neutral downstream creates objectionable current on raceways and EGCs.
+      ref: NEC 2023 250.24, 250.142(B)
+    - id: EA2-C02-Q13
+      type: single
+      q: For a separately derived system such as a 480–208Y/120 V dry-type transformer, where is the system bonding jumper installed?
+      choices:
+        - At the transformer and at the first disconnect, for redundancy
+        - At the building service only
+        - At either the transformer or the first disconnecting means, but not both
+        - At every panel fed from the transformer
+      answer: 2
+      explanation: 250.30 requires the system bonding jumper at a single point — the source or the first disconnect. Installing it at both creates a parallel neutral path.
+      ref: NEC 2023 250.30(A)(1)
+    - id: EA2-C02-Q14
+      type: single
+      q: A service has four parallel sets of 500 kcmil copper per phase. What is the minimum size of the copper main bonding jumper?
+      choices:
+        - 3/0 AWG
+        - 250 kcmil
+        - 500 kcmil
+        - 2/0 AWG
+      answer: 1
+      explanation: Above 1100 kcmil Cu, the jumper must be at least 12.5% of the equivalent area — 0.125 × (4 × 500) = 250 kcmil.
+      ref: NEC 2023 250.28(D); Table 250.102(C)(1)
+    - id: EA2-C02-Q15
+      type: multi
+      q: Which are acceptable ways to bond a service raceway where it enters an enclosure through concentric knockouts? (Select all that apply.)
+      choices:
+        - A grounding bushing with a bonding jumper to the enclosure or neutral
+        - A standard locknut on each side of the enclosure wall only
+        - A bonding-type locknut or bonding wedge suitable for the purpose
+        - Wrapping the raceway with electrical tape
+      answer: [0, 2]
+      explanation: Standard locknuts alone are not sufficient for service raceways, especially where concentric or eccentric knockout rings remain. Use bonding bushings with jumpers, bonding locknuts or wedges.
+      ref: NEC 2023 250.92(B)
