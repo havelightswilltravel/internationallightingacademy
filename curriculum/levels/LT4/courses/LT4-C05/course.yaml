@@ -1,7 +1,7 @@
 code: LT4-C05
 title: Advanced Troubleshooting
 order: 5
-estimated_hours: 8
+estimated_hours: 9
 description: >
   Takes the systematic troubleshooting method from LT2-C06 to the senior level: structured
   root-cause analysis (fishbone and 5 Whys), capturing intermittent faults with data logging,
@@ -14,11 +14,13 @@ objectives:
   - Use thermal imaging and controls event logs as diagnostic evidence.
   - Diagnose interactions between control inputs, dimming equipment, sensors and the electrical system.
   - Document corrective and preventive actions in an RCA report.
+  - "Coach technicians through the company troubleshooting procedures using the 1–4 competency scale, catch common shortcut errors, and write effective electrician referrals"
 lessons:
   - 01-root-cause-analysis.md
   - 02-intermittent-faults.md
   - 03-system-and-controls-interactions.md
   - 04-case-studies.md
+  - 05-leading-company-troubleshooting-procedures.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -174,3 +176,33 @@ quiz:
         - Corrective action fixes this instance; preventive action stops the same problem occurring elsewhere or in the future
       answer: 3
       explanation: Effective RCA includes both. Fix the current failure and change the process, design or specification that allowed it.
+    - id: LT4-C05-Q16
+      type: single
+      q: "On the company's 1–4 troubleshooting rating scale, what does a rating of 4 mean?"
+      choices:
+        - "I have seen it"
+        - "I understand it"
+        - "I perform it"
+        - "I can teach it"
+      answer: 3
+      explanation: "The scale runs 1 seen it, 2 understand it, 3 perform it, 4 can teach it. Lead techs aim to reach and develop level 4."
+    - id: LT4-C05-Q17
+      type: single
+      q: "A tech replaced an emergency driver in a troffer that was dark on the wall switch. The fixture still won't work on the switch but lights on the test button. What coaching point applies?"
+      choices:
+        - "The test button result shows the emergency side is good; the normal driver or switched feed is the fault"
+        - "The new emergency driver is defective and must be replaced again"
+        - "The fixture needs a 90-minute test before it will work normally"
+        - "The wall switch should be bypassed"
+      answer: 0
+      explanation: "The company test-button logic splits the fixture. Lights on test means the battery side works and the normal side (driver or switched feed) failed."
+    - id: LT4-C05-Q18
+      type: multi
+      q: "Which items belong in a good electrician referral from a lighting technician? (Select all that apply.)"
+      choices:
+        - "Location and circuit identification"
+        - "Readings taken and what was ruled out"
+        - "The safety status the circuit was left in"
+        - "A recommendation to upsize the breaker so it stops tripping"
+      answer: [0, 1, 2]
+      explanation: "Location, readings, ruled-out causes and safety status let the electrician act efficiently. Techs should never recommend upsizing protection to stop trips."

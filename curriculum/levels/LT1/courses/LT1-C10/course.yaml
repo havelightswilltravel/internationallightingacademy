@@ -1,0 +1,193 @@
+code: LT1-C10
+title: Parts Knowledge & Sourcing
+order: 10
+estimated_hours: 4
+description: >
+  Teaches technicians to identify and source the correct replacement part the first time.
+  Covers reading lamp, ballast, LED driver and fixture labels and ordering codes,
+  cross-referencing between manufacturers, getting spec sheets and installation
+  instructions, photographing labels and measuring parts, working with distributors and
+  manufacturer reps, bringing and requesting samples, van stock, warranties and RMAs,
+  documenting part numbers on the work order, and preventing wrong-part callbacks.
+objectives:
+  - Decode lamp ordering codes such as F32T8/841, F54T5HO, MH400/U and LU150/55
+  - Read fluorescent ballast, HID ballast (ANSI code) and LED driver labels and list the fields that must match
+  - Cross-reference a part between manufacturers and verify the cross against the spec sheet
+  - Obtain spec sheets and installation instructions and take clear, usable label photos
+  - Measure lamps, bases, lenses, cases and recessed cans when labels are missing
+  - Work effectively with distributors and manufacturer reps, and know when to bring or request a sample
+  - Manage van stock, process returns and RMAs, and document part numbers on the work order
+lessons:
+  - 01-reading-labels-and-ordering-codes.md
+  - 02-cross-referencing-spec-sheets-photos-and-measuring.md
+  - 03-supply-houses-reps-samples-and-van-stock.md
+  - 04-warranty-returns-and-avoiding-wrong-part-callbacks.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C10-Q01
+      type: single
+      q: In the lamp code F32T8/841, what does "41" mean?
+      choices:
+        - 41 watts
+        - 4.1 feet long
+        - A color temperature of 4100 K
+        - A CRI of 41
+      answer: 2
+      explanation: The first digit after the slash (8) is the CRI range (80s) and the last two digits (41) are the color temperature, 4100 K.
+      ref: LT1-C10 Lesson 1
+    - id: LT1-C10-Q02
+      type: single
+      q: What is the diameter of a T8 lamp?
+      choices:
+        - 1 inch
+        - 8 inches
+        - 8 millimeters
+        - 5/8 inch
+      answer: 0
+      explanation: T sizes are in eighths of an inch. T8 is 8/8 = 1 inch; T5 is 5/8 inch.
+      ref: LT1-C10 Lesson 1
+    - id: LT1-C10-Q03
+      type: single
+      q: Why can't an F54T5HO lamp be installed in place of a 48-inch T8 lamp?
+      choices:
+        - T5 lamps only come in red
+        - T5 lamps use metric lengths (about 46 in for a "4 ft" lamp), a different base, and need a T5 ballast
+        - T5 lamps run on DC only
+        - They can be swapped freely
+      answer: 1
+      explanation: T5 lamps are shorter, use a miniature bi-pin base and require a ballast designed for T5 lamps.
+      ref: LT1-C10 Lesson 1
+    - id: LT1-C10-Q04
+      type: single
+      q: What does the "/U" mean in MH400/U?
+      choices:
+        - Ultraviolet filtered
+        - Under-cabinet
+        - Unshielded
+        - Universal burning position
+      answer: 3
+      explanation: /U means the lamp can operate in any position. /BU, /BD and /H restrict it to base up, base down or horizontal.
+      ref: LT1-C10 Lesson 1
+    - id: LT1-C10-Q05
+      type: single
+      q: When replacing an HID lamp or ballast, which marking must match between the lamp and ballast?
+      choices:
+        - The brand name
+        - The color of the label
+        - The ANSI code, such as M59
+        - The bulb's glass finish only
+      answer: 2
+      explanation: The ANSI code defines the electrical characteristics. A probe-start lamp on a pulse-start ballast, or the reverse, can fail early or rupture.
+      ref: LT1-C10 Lesson 1
+    - id: LT1-C10-Q06
+      type: multi
+      q: Which LED driver label fields must match when ordering a replacement constant-current driver? (Select all that apply.)
+      choices:
+        - Output current (mA)
+        - Output voltage range
+        - Dimming type
+        - The color of the driver's case
+      answer: [0, 1, 2]
+      explanation: Output current, voltage window, dimming type, input voltage, power and case size all must match. Case color does not matter.
+      ref: LT1-C10 Lessons 1 and 2
+    - id: LT1-C10-Q07
+      type: single
+      q: A cross-reference tool suggests a 40 W driver with a 1050 mA output to replace a 40 W, 700 mA driver. What should you do?
+      choices:
+        - Reject the cross; the output current does not match and could burn out the LED board
+        - Accept it because the wattage matches
+        - Accept it because higher current makes more light
+        - Install it and turn the dimmer down
+      answer: 0
+      explanation: Never cross an LED driver by wattage alone. Too much current can destroy the LEDs. Unless the driver is programmable and set to 700 mA, it is the wrong part.
+      ref: LT1-C10 Lesson 2
+    - id: LT1-C10-Q08
+      type: single
+      q: What is the best way to get the installation instructions for an unfamiliar replacement part?
+      choices:
+        - Guess based on another brand's wiring
+        - Ask the customer
+        - Search the manufacturer's website by catalog number, scan the label QR code, or ask the distributor or rep
+        - Skip the instructions if the colors look familiar
+      answer: 2
+      explanation: Wiring and mounting differ between brands. Get the instructions from the manufacturer, distributor or rep and read them before installing.
+      ref: LT1-C10 Lesson 2
+    - id: LT1-C10-Q09
+      type: multi
+      q: Which practices produce useful label photos? (Select all that apply.)
+      choices:
+        - A wide shot showing the fixture and its location first
+        - The whole label, square to the camera, in focus, without glare
+        - A tape measure in the frame for scale when photographing lenses or lamps
+        - A quick blurry photo you do not check
+      answer: [0, 1, 2]
+      explanation: Every character must be readable. Zoom in to check before moving on.
+      ref: LT1-C10 Lesson 2
+    - id: LT1-C10-Q10
+      type: single
+      q: A ballast label is completely faded and unreadable. What is a good next step?
+      choices:
+        - Order the cheapest ballast the supply house has
+        - Order based on the fixture's color
+        - Leave without doing anything
+        - With approval, bring the old ballast (if it is not a possible PCB ballast) to the supply house as a sample, along with lamp information and measurements
+      answer: 3
+      explanation: When labels are unreadable, a sample plus lamp type, count and measurements lets the counter identify a match. Possible PCB ballasts stay on site.
+      ref: LT1-C10 Lesson 3
+    - id: LT1-C10-Q11
+      type: single
+      q: The company plans to convert 200 recessed cans to LED retrofit kits. What should happen before the full quantity is ordered?
+      choices:
+        - Request a sample to confirm fit, color temperature and dimmer compatibility and get customer approval
+        - Nothing; order all 200 right away
+        - Order 250 to be safe
+        - Ask the customer to install the first one
+      answer: 0
+      explanation: A sample confirms fit and compatibility and gets customer approval, preventing a costly mistake on a large order.
+      ref: LT1-C10 Lesson 3
+    - id: LT1-C10-Q12
+      type: single
+      q: What should you do at the supply house counter before leaving with your parts?
+      choices:
+        - Leave the receipt at the counter
+        - Open the box and compare the new part to your photos or the old part
+        - Throw away the old part as a sample
+        - Pay with your personal card
+      answer: 1
+      explanation: Catching a mismatch at the counter is far easier than discovering it at the customer's site. Keep the receipt for billing and warranty.
+      ref: LT1-C10 Lesson 3
+    - id: LT1-C10-Q13
+      type: single
+      q: What is an RMA?
+      choices:
+        - A type of LED driver
+        - A lamp disposal form
+        - A Return Material Authorization, required before returning a defective part
+        - A restocking fee
+      answer: 2
+      explanation: An RMA number is issued by the distributor or manufacturer and must be on the returned part's tag and box.
+      ref: LT1-C10 Lesson 4
+    - id: LT1-C10-Q14
+      type: multi
+      q: Which information usually supports a warranty claim on a failed driver? (Select all that apply.)
+      choices:
+        - Part number and date code from the label
+        - Install date from the work order or proof of purchase
+        - A description of the failure
+        - The customer's personal phone number
+      answer: [0, 1, 2]
+      explanation: Part numbers, date codes, install dates and a failure description are needed. Personal customer information is not.
+      ref: LT1-C10 Lesson 4
+    - id: LT1-C10-Q15
+      type: single
+      q: Why must you record every part used from van stock on the work order?
+      choices:
+        - It is optional
+        - So the part is billed to the customer and restocked in the van
+        - So the supply house can sell it again
+        - So the warranty is voided
+      answer: 1
+      explanation: Recording van stock usage ensures correct billing, restocking and a record of what is installed for the next tech and for warranty.
+      ref: LT1-C10 Lesson 3
