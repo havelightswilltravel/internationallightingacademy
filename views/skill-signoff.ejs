@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+<p class="crumbs"><a href="/team">Team</a> › <a href="/team/<%= tech.id %>?level=<%= skill.level_code %>"><%= tech.name %></a> › <%= skill.code %></p>
+<section class="card">
+  <p class="eyebrow"><%= skill.category %> · <%= skill.level_code %><%= skill.critical ? ' · ⚠ Critical safety skill' : '' %></p>
+  <h1><%= skill.title %></h1>
+  <p><%= skill.description %></p>
+  <% if (equipment.length) { %><p><strong>Equipment:</strong> <%= equipment.join(', ') %></p><% } %>
+
+  <form method="post" action="/team/<%= tech.id %>/skills/<%= skill.code %>" class="signoff">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <h2>Performance criteria</h2>
+    <p class="muted small">Observe <strong><%= tech.name %></strong> performing the task. Check each criterion only if it was demonstrated correctly. A pass requires every criterion.</p>
+    <% criteria.forEach(function (c, i) { %>
+    <label class="choice"><input type="checkbox" name="met" value="<%= i %>"> <span><%= c %></span></label>
+    <% }) %>
+    <% if (skill.critical) { %>
+    <label class="choice warn"><input type="checkbox" name="safety_deviation" value="1"> <span>A safety deviation was observed (automatic fail for critical skills)</span></label>
+    <% } %>
+    <label>Notes / coaching feedback <textarea name="notes" rows="3" placeholder="Required if not passed"></textarea></label>
+    <div class="row">
+      <button class="btn primary" name="result" value="pass">Record PASS</button>
+      <button class="btn" name="result" value="fail">Record NOT YET</button>
+    </div>
+    <p class="small muted">By signing off you confirm you personally observed this demonstration. Your name and the date are recorded.</p>
+  </form>
+</section>
+<% if (history.length) { %>
+<section class="card">
+  <h2>Assessment history</h2>
+  <table class="table">
+    <% history.forEach(function (h) { %><tr><td><%= fmtDate(h.assessed_at) %></td><td><span class="pill <%= h.result === 'pass' ? 'ok' : 'bad' %>"><%= h.result %></span></td><td><%= h.evaluator %></td><td class="small"><%= h.notes %></td></tr><% }) %>
+  </table>
+</section>
+<% } %>
+<%- include('partials/footer') %>

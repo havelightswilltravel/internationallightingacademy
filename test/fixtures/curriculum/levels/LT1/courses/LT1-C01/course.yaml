@@ -1,0 +1,13 @@
+code: LT1-C01
+title: Course LT1
+order: 1
+description: Test course
+objectives: [Learn]
+lessons: [01-intro.md]
+quiz:
+  pass_score: 80
+  questions_per_attempt: 3
+  questions:
+    - { id: LT1-C01-Q01, type: single, q: "Answer A", choices: [A, B, C], answer: 0, explanation: A }
+    - { id: LT1-C01-Q02, type: single, q: "Answer B", choices: [A, B, C], answer: 1, explanation: B }
+    - { id: LT1-C01-Q03, type: multi, q: "A and C", choices: [A, B, C], answer: [0, 2], explanation: AC }

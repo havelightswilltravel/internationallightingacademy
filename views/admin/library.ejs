@@ -1,0 +1,23 @@
+<%- include('../partials/header') %>
+<h1>Manage library <span class="muted small"><%= scopeOrg ? scopeOrg.name + ' guides' : 'Platform-wide guides' %></span></h1>
+<%- include('../partials/admin-nav') %>
+<p class="muted">
+  Add your own troubleshooting guides, SOPs and reference sheets. Write them in the editor (Markdown) or attach a PDF/Word file.
+  <% if (scopeOrg) { %>Company guides are visible only to your company's users.<% } else { %>Platform-wide guides are visible to every licensed company. Guides imported from the curriculum files are edited in <code>curriculum/library/</code>.<% } %>
+</p>
+<p><a class="btn primary" href="/admin/library/new">+ New guide</a></p>
+<% if (due.length) { %>
+<div class="flash error"><strong><%= due.length %> guide<%= due.length > 1 ? 's are' : ' is' %> due for technical review:</strong> <%= due.map(function (d) { return d.title; }).join(', ') %></div>
+<% } %>
+<table class="table">
+  <tr><th>Title</th><th>Category</th><th>Source</th><th>Last reviewed</th><th>Next review</th><th></th></tr>
+  <% docs.forEach(function (d) { %>
+  <tr>
+    <td><a href="/library/<%= d.id %>"><%= d.title %></a><% if (d.file_name) { %> 📄<% } %></td><td><%= d.category %></td><td><%= d.source %></td>
+    <td><%= fmtDate(d.last_reviewed) %></td><td><%= fmtDate(addMonths(d.last_reviewed, d.review_interval_months)) %></td>
+    <td class="nowrap"><% if (d.source === 'app') { %><a class="btn small" href="/admin/library/<%= d.id %>/edit">Edit</a>
+      <form method="post" action="/admin/library/<%= d.id %>/delete" class="inline" data-confirm="Remove this guide?"><input type="hidden" name="_csrf" value="<%= csrf %>"><button class="btn small">Remove</button></form><% } %></td>
+  </tr>
+  <% }) %>
+</table>
+<%- include('../partials/footer') %>

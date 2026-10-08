@@ -1,0 +1,168 @@
+code: LT5
+track: LIGHTING
+order: 5
+title: Certified Advanced Lighting Technician (CALT)
+grade: Grade 5
+typical_duration_months: 3
+description: >
+  The Certified Advanced Lighting Technician (CALT) is the senior field leader of the lighting
+  track. At this level the technician audits facilities and builds retrofit scopes and estimates,
+  commissions lighting and controls systems with documented functional testing, leads crews
+  safely from job start to closeout, mentors entry-level technicians, and evaluates emerging
+  lighting technology for customers. A CALT can take a lighting project from walk-through to
+  owner turnover with minimal supervision, troubleshoot complete systems (power, drivers,
+  controls, emergency lighting) using a disciplined method, and is eligible to enter the
+  Electrical Development Track. Completion requires a comprehensive certification exam covering
+  LT1 through LT5 and an evaluator-reviewed capstone project.
+outcomes:
+  - Conduct a lighting audit and produce a retrofit scope, material takeoff, labor estimate and simple payback analysis
+  - Plan and lead a lighting job end-to-end, including job hazard analysis, crew assignments, schedule, quality checks and closeout documentation
+  - Commission lighting controls using written functional performance tests, document results, resolve deficiencies and train the owner
+  - Deliver effective toolbox talks and mentor LT1 technicians to documented skill sign-off
+  - Diagnose complex faults across power, drivers, dimming, controls and emergency lighting using a systematic, safety-first method
+  - Explain the capabilities, limits and safety considerations of emerging lighting technologies (PoE, tunable white, UV-C, IoT sensors, solar/off-grid, Li-Fi) to customers and crews
+  - Apply OSHA, NFPA 70E, the NEC, NFPA 101 and energy code requirements to lighting work and recognize when to escalate to a licensed electrician or the AHJ
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 60             # comprehensive certification exam drawn from all LT5 banks (C05 reviews LT1-LT4)
+    time_limit_minutes: 120
+  min_ojt_hours: 500
+skills:
+  - code: LT5-S01
+    title: Conduct a lighting audit and prepare a retrofit proposal package
+    category: Project Planning
+    critical: false
+    description: >
+      Survey an occupied facility (or assigned area of at least 10 spaces), inventory existing
+      lighting and controls, and prepare a retrofit scope, takeoff, labor estimate and simple
+      payback calculation suitable for customer review.
+    equipment: [audit form or tablet app, calibrated illuminance meter, laser distance meter, camera, flashlight, ladder, clamp meter, fixture/lamp identification references, estimating spreadsheet]
+    criteria:
+      - Completes a pre-audit safety check (access, ladder use, no opening of energized equipment without LOTO or a qualified escort)
+      - Records fixture type, lamp/ballast or driver, quantity, mounting height, controls and operating hours for every space surveyed
+      - Takes illuminance readings at task height and records them against IES recommended targets for the space type
+      - Identifies code-required control upgrades for the scope (e.g., occupancy/vacancy sensing, daylight zones) and flags them for confirmation against the adopted energy code
+      - Produces a material takeoff whose fixture counts match the field inventory with zero unexplained discrepancies
+      - Builds a labor estimate showing per-unit labor, access/lift time and contingency
+      - Calculates annual kWh savings, annual cost savings and simple payback correctly (evaluator spot-checks math)
+      - Lists assumptions, exclusions and items needing electrician or AHJ review in the proposal
+  - code: LT5-S02
+    title: Lead a lighting job end-to-end
+    category: Leadership
+    critical: true
+    description: >
+      Act as lead technician on a real lighting job from pre-job planning through closeout,
+      directing at least two crew members while maintaining safety, quality and schedule.
+    equipment: [job packet (scope, drawings, schedule), JHA form, LOTO kit, PPE, crew radios or phones, punch list, closeout forms]
+    criteria:
+      - Reviews scope, drawings and site conditions and confirms materials and equipment before mobilization
+      - Completes a written job hazard analysis with the crew before work begins and each crew member signs it
+      - Verifies that LOTO and live-dead-live verification are performed on every circuit worked, with zero safety deviations
+      - Assigns tasks matched to each crew member's level and authorizations (e.g., MEWP operator training)
+      - Stops work and re-plans when conditions change (new hazard, scope change, unexpected energized circuit)
+      - Communicates progress and issues to the customer and supervisor at agreed intervals
+      - Performs a quality walk-through and completes a punch list before turnover
+      - Submits complete closeout documentation (as-builts, test results, waste manifests, photos, signed work order)
+  - code: LT5-S03
+    title: Commission a lighting control system using functional performance tests
+    category: Commissioning
+    critical: false
+    description: >
+      Execute written functional performance tests (FPTs) on a lighting control system covering
+      occupancy sensing, daylight harvesting, scheduling and manual overrides; document results
+      and track deficiencies to resolution.
+    equipment: [approved FPT forms, sequence of operations, controls programming tool or app, illuminance meter, stopwatch or timer, laptop/tablet, ladder or lift]
+    criteria:
+      - Confirms pre-functional checklist items (installation, wiring, addressing) are complete before functional testing
+      - Tests each occupancy/vacancy zone for correct on, time-out and off behavior against the sequence of operations
+      - Verifies daylight zone response with illuminance measurements and records setpoints
+      - Verifies scheduled on/off and after-hours override operation
+      - Records pass/fail results for every test step with date, time and tester name
+      - Logs each deficiency with location, description, responsible party and retest result
+      - Delivers a hands-on owner training session and documents attendees and topics covered
+  - code: LT5-S04
+    title: Deliver a toolbox talk
+    category: Safety
+    critical: false
+    description: >
+      Prepare and deliver a 10-15 minute toolbox talk on a job-relevant safety topic to a crew,
+      using a real hazard or incident example and checking for understanding.
+    equipment: [toolbox talk outline, visual aid or prop (e.g., damaged ladder, LOTO kit), attendance sign-in sheet]
+    criteria:
+      - Selects a topic tied to the day's actual work or a recent near miss
+      - Delivers the talk in 10-15 minutes in plain language
+      - Uses at least one real example, prop or demonstration
+      - Asks open questions and confirms understanding from at least two participants
+      - States specific actions the crew will take on this job as a result of the talk
+      - Records attendance and topic on the sign-in sheet and files it
+  - code: LT5-S05
+    title: Mentor an LT1 technician to skill sign-off
+    category: Leadership
+    critical: false
+    description: >
+      Coach an LT1 technician through at least two LT1 hands-on skills using demonstrate-practice-
+      feedback, and prepare them for evaluator sign-off.
+    equipment: [LT1 skill criteria sheets, mentoring log, equipment required for the selected LT1 skills]
+    criteria:
+      - Reviews the LT1 skill criteria with the mentee before training begins
+      - Demonstrates the skill correctly while explaining each step and its safety reason
+      - Observes the mentee practice and gives specific, timely feedback
+      - Corrects unsafe actions immediately and explains why
+      - Maintains a mentoring log with dates, skills practiced and progress notes
+      - Mentee passes evaluator sign-off on the coached skills (critical skills with zero deviations)
+  - code: LT5-S06
+    title: Full-system troubleshooting practical
+    category: Troubleshooting
+    critical: true
+    description: >
+      Diagnose and correct multiple planted or real faults in a lighting system that includes
+      branch circuit power, LED drivers, 0-10V dimming, occupancy controls and emergency lighting.
+    equipment: [troubleshooting trainer or live job system, CAT III/IV-rated DMM, clamp meter, non-contact voltage tester, proving unit, LOTO kit, PPE per NFPA 70E risk assessment, manufacturer documentation]
+    criteria:
+      - Gathers symptoms and history and states a testing plan before touching equipment
+      - Selects PPE and identifies when energized diagnostic testing is justified and how it will be performed safely
+      - Applies LOTO and live-dead-live verification before any hands-on repair, with zero safety deviations
+      - Uses measurements (not parts swapping) to isolate each fault to a component or wire
+      - Correctly identifies all planted faults within the allotted time
+      - Repairs or replaces faulted components using correct methods and matching replacement parts
+      - Verifies full system operation after repair, including dimming, sensors and emergency mode
+      - Documents findings, root cause and corrective actions on the work order
+  - code: LT5-S07
+    title: Emergency lighting system inspection and test with corrective action
+    category: Life Safety
+    critical: true
+    description: >
+      Perform and document monthly and annual tests on battery-powered emergency luminaires and
+      exit signs, identify failures and outline corrective actions, without leaving egress paths
+      unprotected.
+    equipment: [emergency lighting test log, building egress plan, illuminance meter, timer, test switch or remote test tool, ladder or lift, replacement batteries/emergency drivers]
+    criteria:
+      - Coordinates with the owner before testing and plans to avoid leaving occupied egress paths without required lighting
+      - Performs the 30-second functional test on each unit and records results
+      - Performs or verifies the 90-minute annual test and records results
+      - Measures egress illuminance at representative points and compares to NFPA 101 requirements
+      - Identifies failed units and recommends correct replacement components (matching UL 924 listing as applicable)
+      - Restores all units to normal charging operation and verifies charge indicators
+      - Completes a written test record suitable for AHJ inspection
+  - code: LT5-S08
+    title: CALT capstone project
+    category: Capstone
+    critical: false
+    description: >
+      Independently plan, execute (or fully simulate where a live project is unavailable) and
+      present an integrated lighting project that demonstrates audit, design/selection, estimating,
+      safety planning, installation oversight, commissioning and closeout. Requirements are
+      defined in LT5-C05.
+    equipment: [approved capstone project proposal, facility or training-lab space, estimating and photometric tools, commissioning forms, presentation equipment]
+    criteria:
+      - Capstone proposal approved by an evaluator before work begins
+      - "Deliverable 1: existing-conditions audit with inventory, illuminance survey and photos"
+      - "Deliverable 2: retrofit scope with product selections justified by efficacy, DLC listing status, CCT/CRI and controls compatibility"
+      - "Deliverable 3: takeoff, labor estimate and simple payback/ROI calculation that the evaluator verifies"
+      - "Deliverable 4: written job hazard analysis and installation plan including LOTO points and access equipment"
+      - "Deliverable 5: commissioning plan with completed functional performance test forms"
+      - "Deliverable 6: closeout package (as-builts, test records, owner training outline, warranty information)"
+      - Delivers a 15-20 minute presentation and correctly answers evaluator questions on code, safety and design decisions
+      - Identifies all items requiring licensed-electrician or AHJ involvement

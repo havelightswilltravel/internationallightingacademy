@@ -1,0 +1,6 @@
+name: Test
+version: test
+tracks:
+  - code: LIGHTING
+    title: Lighting
+    levels: [LT1, LT2]

@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<section class="card narrow">
+  <h1>Certificate verification</h1>
+  <% if (cert) { %>
+    <div class="flash success">✓ Valid certificate</div>
+    <table class="table">
+      <tr><th>Certificate</th><td><%= cert.certificate_no %></td></tr>
+      <tr><th>Technician</th><td><%= cert.name %></td></tr>
+      <tr><th>Level</th><td><%= cert.level_code %> — <%= cert.level_title %> (<%= cert.grade %>)</td></tr>
+      <tr><th>Company</th><td><%= cert.org_name || '' %></td></tr>
+      <tr><th>Awarded</th><td><%= fmtDate(cert.approved_at) %></td></tr>
+    </table>
+  <% } else { %>
+    <div class="flash error">No certificate found with that number.</div>
+  <% } %>
+</section>
+<%- include('partials/footer') %>

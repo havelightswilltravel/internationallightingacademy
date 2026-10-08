@@ -1,0 +1,46 @@
+<%- include('partials/header') %>
+<p class="crumbs"><a href="/levels">Program</a> › <a href="/levels/<%= level.code %>"><%= level.code %></a> › <%= course.code %></p>
+<section class="card">
+  <h1><%= course.code %> — <%= course.title %></h1>
+  <p><%= course.description %></p>
+  <% if (course.estimated_hours) { %><p class="muted small">Estimated study time: <%= course.estimated_hours %> hours</p><% } %>
+  <% if (objectives.length) { %><h3>Objectives</h3><ul><% objectives.forEach(function (o) { %><li><%= o %></li><% }) %></ul><% } %>
+</section>
+
+<section class="card">
+  <h2>Lessons <span class="muted small"><%= cp.lessonsDone %>/<%= cp.lessonsTotal %> complete</span></h2>
+  <ol class="lessons">
+    <% lessons.forEach(function (l) { %>
+    <li class="<%= l.completed_at ? 'done' : '' %>"><a href="/lessons/<%= l.id %>"><%= l.title %></a>
+      <span class="muted small"><% if (l.minutes) { %><%= l.minutes %> min<% } %><% if (l.completed_at) { %> · ✓ done<% } %></span></li>
+    <% }) %>
+  </ol>
+</section>
+
+<section class="card">
+  <h2>Course quiz</h2>
+  <% if (!cp.hasQuiz) { %>
+    <p class="muted">This course does not have a quiz yet. It counts as complete once every lesson is read.</p>
+  <% } else { %>
+    <p><%= course.questions_per_attempt %> questions drawn at random · <%= course.pass_score %>% to pass · retake as often as you need (each attempt draws new questions).</p>
+    <% if (cp.quizPassed) { %><p><span class="pill ok">Passed — best <%= cp.bestScore %>%</span></p><% } %>
+    <% if (access === 'locked') { %>
+      <p class="muted">Unlock this level to take the quiz.</p>
+    <% } else if (openQuiz) { %>
+      <a class="btn primary" href="/exams/<%= openQuiz.id %>">Resume quiz</a>
+    <% } else { %>
+      <% if (cp.lessonsDone < cp.lessonsTotal) { %><p class="muted small">Tip: finish all lessons before attempting the quiz.</p><% } %>
+      <form method="post" action="/exams/start">
+        <input type="hidden" name="_csrf" value="<%= csrf %>"><input type="hidden" name="kind" value="course"><input type="hidden" name="code" value="<%= course.code %>">
+        <button class="btn <%= cp.quizPassed ? '' : 'primary' %>"><%= cp.quizPassed ? 'Practice again' : 'Start quiz' %></button>
+      </form>
+    <% } %>
+    <% if (attempts.length) { %>
+    <h3>Your attempts</h3>
+    <table class="table">
+      <% attempts.forEach(function (a) { %><tr><td><a href="/exams/<%= a.id %>/result"><%= fmtDate(a.submitted_at) %></a></td><td><%= a.score %>%</td><td><span class="pill <%= a.passed ? 'ok' : 'bad' %>"><%= a.passed ? 'Passed' : 'Not passed' %></span></td></tr><% }) %>
+    </table>
+    <% } %>
+  <% } %>
+</section>
+<%- include('partials/footer') %>

@@ -1,0 +1,27 @@
+<%- include('../partials/header') %>
+<h1>Curriculum</h1>
+<div class="subnav"><a href="/platform/orgs">Companies</a><a href="/platform/curriculum" class="on">Curriculum</a></div>
+<% if (result) { %>
+  <% if (result.ok) { %>
+    <div class="flash success">Imported: <%= Object.entries(result.counts).map(function (e) { return e[1] + ' ' + e[0]; }).join(', ') %>.</div>
+  <% } else { %>
+    <div class="flash error"><strong>Import stopped — fix these problems in the curriculum files:</strong><ul><% result.errors.forEach(function (e) { %><li><%= e %></li><% }) %></ul></div>
+  <% } %>
+  <% if (result.warnings && result.warnings.length) { %><div class="flash info"><strong>Warnings:</strong><ul><% result.warnings.forEach(function (w) { %><li><%= w %></li><% }) %></ul></div><% } %>
+<% } %>
+<div class="grid stats">
+  <% Object.entries(stats).forEach(function (e) { %><div class="stat card"><b><%= e[1] %></b><span><%= e[0] %></span></div><% }) %>
+</div>
+<section class="card">
+  <p>Curriculum version <strong><%= meta.curriculum_version || '—' %></strong>, last imported <%= meta.curriculum_imported_at ? fmtDate(meta.curriculum_imported_at) : 'never' %>.</p>
+  <p class="muted">Content lives in the <code>curriculum/</code> folder (YAML + Markdown). After editing or adding content, re-import here or run <code>npm run import-curriculum</code>. Learner progress is preserved; removed items are hidden, not deleted.</p>
+  <form method="post" action="/platform/curriculum/import"><input type="hidden" name="_csrf" value="<%= csrf %>"><button class="btn primary">Re-import curriculum from files</button></form>
+</section>
+<section class="card">
+  <h2>Content by level</h2>
+  <table class="table">
+    <tr><th>Level</th><th>Courses</th><th>Lessons</th><th>Questions</th><th>Skills</th></tr>
+    <% byLevel.forEach(function (l) { %><tr><td><%= l.code %> — <%= l.title %></td><td><%= l.courses %></td><td><%= l.lessons %></td><td><%= l.questions %></td><td><%= l.skills %></td></tr><% }) %>
+  </table>
+</section>
+<%- include('../partials/footer') %>

@@ -1,0 +1,92 @@
+<%- include('partials/header') %>
+<p class="crumbs"><a href="/team">Team</a> › <%= tech.name %></p>
+<section class="card">
+  <h1><%= tech.name %></h1>
+  <p class="muted"><%= tech.email %><% if (tech.employee_id) { %> · #<%= tech.employee_id %><% } %><% if (tech.org_name) { %> · <%= tech.org_name %><% } %></p>
+  <p>Current grade: <strong><%= tech.current_level_code || 'Not yet graded' %></strong>
+    <% if (payRate != null) { %> · Pay rate: <strong><%= money(payRate) %>/hr</strong><% } %>
+    · Working on: <strong><%= working ? working.code + ' — ' + working.title : 'Program complete' %></strong>
+    · <a href="/transcript/<%= tech.id %>">Transcript</a></p>
+</section>
+
+<% if (viewLevel && lp) { %>
+<section class="card">
+  <div class="row-between">
+    <h2><%= viewLevel.code %> — <%= viewLevel.title %></h2>
+    <form method="get" class="inline"><select name="level" data-autosubmit><% levels.forEach(function (l) { %><option value="<%= l.code %>" <%= l.code === viewLevel.code ? 'selected' : '' %>><%= l.code %></option><% }) %></select></form>
+  </div>
+  <%- include('partials/progress', { lp: lp }) %>
+
+  <% if (working && viewLevel.code === working.code) { %>
+    <% if (lp.readyForPromotion) { %>
+    <form method="post" action="/team/<%= tech.id %>/promote" class="promote" data-confirm="Approve promotion to <%= working.code %>? This records the new grade and issues a certificate.">
+      <input type="hidden" name="_csrf" value="<%= csrf %>"><input type="hidden" name="level" value="<%= working.code %>">
+      <label>Promotion notes (optional) <input name="notes"></label>
+      <button class="btn primary">Approve promotion to <%= working.code %></button>
+    </form>
+    <% } else { %><p class="muted small">Promotion becomes available when every requirement above is met.</p><% } %>
+  <% } %>
+</section>
+
+<section class="card">
+  <h2>Hands-on skills</h2>
+  <table class="table">
+    <tr><th>Skill</th><th>Status</th><th>Last assessed</th><th></th></tr>
+    <% lp.skills.forEach(function (s) { %>
+    <tr>
+      <td><strong><%= s.code %></strong> <%= s.title %> <% if (s.critical) { %><span title="Critical safety skill">⚠</span><% } %></td>
+      <td><span class="pill <%= s.status === 'pass' ? 'ok' : s.status === 'fail' ? 'bad' : '' %>"><%= s.status %></span></td>
+      <td class="small"><%= s.assessed_at ? fmtDate(s.assessed_at) + ' · ' + s.evaluator_name : '—' %></td>
+      <td><a class="btn small" href="/team/<%= tech.id %>/skills/<%= s.code %>"><%= s.status === 'pass' ? 'View / reassess' : 'Assess' %></a></td>
+    </tr>
+    <% }) %>
+  </table>
+</section>
+
+<section class="card">
+  <h2>Courses</h2>
+  <table class="table">
+    <tr><th>Course</th><th>Lessons</th><th>Quiz</th><th>Attempts</th></tr>
+    <% lp.courses.forEach(function (c) { %>
+    <tr><td><%= c.code %> — <%= c.title %></td><td><%= c.lessonsDone %>/<%= c.lessonsTotal %></td>
+      <td><%= c.quizPassed ? '✓ ' + c.bestScore + '%' : (c.bestScore != null ? c.bestScore + '%' : '—') %></td><td><%= c.attempts %></td></tr>
+    <% }) %>
+  </table>
+  <p>Final exam: <%= lp.exam.passed ? '✓ Passed (' + lp.exam.bestScore + '%)' : lp.exam.bestScore != null ? 'Best ' + lp.exam.bestScore + '%' : 'Not taken' %></p>
+</section>
+<% } %>
+
+<% if (pendingHours.length) { %>
+<section class="card">
+  <h2>Hours awaiting approval</h2>
+  <table class="table">
+    <% pendingHours.forEach(function (h) { %>
+    <tr><td><%= fmtDate(h.work_date) %></td><td><%= h.level_code %></td><td><%= h.hours %> h</td><td><%= h.description %></td>
+      <td class="nowrap">
+        <form method="post" action="/approvals/<%= h.id %>" class="inline"><input type="hidden" name="_csrf" value="<%= csrf %>"><input type="hidden" name="back" value="/team/<%= tech.id %>"><button class="btn small primary" name="decision" value="approve">Approve</button><button class="btn small" name="decision" value="reject">Reject</button></form>
+      </td></tr>
+    <% }) %>
+  </table>
+</section>
+<% } %>
+
+<section class="card">
+  <h2>Grade history</h2>
+  <% if (!promotions.length) { %><p class="muted">No promotions yet.</p><% } %>
+  <table class="table">
+    <% promotions.forEach(function (p) { %><tr><td><%= fmtDate(p.approved_at) %></td><td><%= p.level_code %> — <%= p.level_title %></td><td class="small"><%= p.approver %><% if (p.notes) { %> · <%= p.notes %><% } %></td><td><a href="/verify/<%= p.certificate_no %>"><%= p.certificate_no %></a></td></tr><% }) %>
+  </table>
+  <% if (user.role === 'admin' || user.role === 'owner') { %>
+  <details>
+    <summary>Placement (experienced hires)</summary>
+    <p class="small muted">Use after a documented placement assessment to grade an experienced technician without repeating lower levels. Recorded in the audit log.</p>
+    <form method="post" action="/team/<%= tech.id %>/place">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <label>Place at grade <select name="level"><option value="">— None —</option><% levels.forEach(function (l) { %><option value="<%= l.code %>" <%= tech.current_level_code === l.code ? 'selected' : '' %>><%= l.code %> — <%= l.title %></option><% }) %></select></label>
+      <label>Reason / assessment reference <input name="reason" required minlength="10"></label>
+      <button class="btn">Record placement</button>
+    </form>
+  </details>
+  <% } %>
+</section>
+<%- include('partials/footer') %>

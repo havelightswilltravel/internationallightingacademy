@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+<h1>Hours awaiting approval</h1>
+<% if (!pending.length) { %><p class="muted">Nothing waiting. 👍</p><% } else { %>
+<table class="table">
+  <tr><th>Technician</th><th>Date</th><th>Level</th><th>Hours</th><th>Work performed</th><th>Supervisor</th><th></th></tr>
+  <% pending.forEach(function (h) { %>
+  <tr>
+    <td><a href="/team/<%= h.user_id %>"><%= h.tech_name %></a></td><td class="nowrap"><%= fmtDate(h.work_date) %></td><td><%= h.level_code %></td><td><%= h.hours %></td><td><%= h.description %></td><td><%= h.supervisor_name || '' %></td>
+    <td>
+      <form method="post" action="/approvals/<%= h.id %>" class="stack">
+        <input type="hidden" name="_csrf" value="<%= csrf %>">
+        <input name="note" placeholder="Note (optional)">
+        <span class="nowrap"><button class="btn small primary" name="decision" value="approve">Approve</button> <button class="btn small" name="decision" value="reject">Reject</button></span>
+      </form>
+    </td>
+  </tr>
+  <% }) %>
+</table>
+<% } %>
+<%- include('partials/footer') %>

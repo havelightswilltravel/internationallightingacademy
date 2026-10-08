@@ -1,0 +1,175 @@
+code: LT5-C01
+title: Lighting Audits, Project Planning & Estimating
+order: 1
+estimated_hours: 8
+description: >
+  Turns field experience into project leadership. Technicians learn to perform a complete
+  lighting audit, translate it into a clear retrofit scope and material takeoff, build labor
+  estimates and schedules from labor units and site conditions, and calculate energy savings,
+  simple payback and ROI that customers can trust.
+objectives:
+  - Plan and perform a room-by-room lighting audit that records input watts, quantities, hours, controls and light levels
+  - Select an appropriate retrofit approach for each fixture type and write a countable scope with inclusions, exclusions and assumptions
+  - Build and reconcile a material takeoff against the audit inventory
+  - Prepare a labor estimate using labor units, condition factors, non-install labor and contingency
+  - Calculate kW reduction, kWh savings, cost savings, simple payback and simple ROI
+lessons:
+  - 01-conducting-lighting-audits.md
+  - 02-retrofit-scopes-and-takeoffs.md
+  - 03-labor-estimating-and-scheduling.md
+  - 04-energy-savings-payback-and-roi.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT5-C01-Q01
+      type: single
+      q: When recording the existing load of a 3-lamp F32T8 troffer during an audit, which value should you use?
+      choices:
+        - 96 W, the sum of the lamp wattages
+        - The fixture input watts from manufacturer or approved wattage tables, which include ballast effects
+        - The wattage printed on the replacement LED product
+        - 32 W, since only one lamp is usually lit
+      answer: 1
+      explanation: Ballast factor and ballast losses change real input power. Savings must be based on input watts from manufacturer data or an approved table, optionally confirmed by measurement.
+    - id: LT5-C01-Q02
+      type: single
+      q: Which single audit input usually has the biggest effect on calculated energy savings?
+      choices:
+        - Fixture color temperature
+        - Ceiling height
+        - Annual operating hours
+        - Lens condition
+      answer: 2
+      explanation: kWh savings equal kW reduction multiplied by hours. An error in hours scales the entire savings figure, which is why light loggers are recommended where hours are uncertain.
+    - id: LT5-C01-Q03
+      type: single
+      q: During a walk-through audit you want to confirm which panel feeds a hallway. What is the appropriate action?
+      choices:
+        - Read the panel schedule on the closed dead-front door, and request a qualified, LOTO-controlled check if more information is needed
+        - Remove the panel dead-front to trace the conductors while it is energized
+        - Open a fixture wiring compartment and test with a non-contact tester
+        - Shut off breakers one at a time until the hallway goes dark, without telling anyone
+      answer: 0
+      explanation: An audit should not involve removing covers from energized equipment. Reading labels and schedules is fine; anything more requires a qualified person following LOTO or an approved energized-work procedure, coordinated with the customer.
+    - id: LT5-C01-Q04
+      type: single
+      q: An older magnetic fluorescent ballast in a building built in the 1970s is not labeled "No PCBs." How should it be handled in the audit?
+      choices:
+        - Ignore it; all ballasts are recycled the same way
+        - Assume it is safe because it still works
+        - Cut it open to check the capacitor
+        - Flag it as potentially PCB-containing so proper handling and disposal can be priced
+      answer: 3
+      explanation: Ballasts manufactured before 1979 that are not marked "No PCBs" should be treated as potentially containing PCBs and disposed of under the applicable regulations.
+    - id: LT5-C01-Q05
+      type: single
+      q: Which scope line is written best?
+      choices:
+        - Upgrade warehouse to LED.
+        - Replace high-bays as needed.
+        - Remove (24) 400 W MH high-bays at 28 ft; install (24) LED high-bays, 24,000 lm, 4000 K, 0-10V, integral occupancy sensor; reuse existing whips; recycle lamps.
+        - Install new lights in Warehouse A per customer preference.
+      answer: 2
+      explanation: A good scope line is specific and countable, stating quantities, existing and proposed equipment, key specifications and related tasks such as disposal.
+    - id: LT5-C01-Q06
+      type: multi
+      q: Which items belong in the exclusions or assumptions section of a retrofit proposal? (Select all that apply.)
+      choices:
+        - Ceiling tile replacement or repair not included
+        - Existing branch circuits assumed to be in good working order
+        - Quantity of LED fixtures to be installed
+        - Asbestos abatement not included
+      answer: [0, 1, 3]
+      explanation: Exclusions and assumptions limit and clarify what is priced. Fixture quantities belong in the scope and takeoff, not exclusions.
+    - id: LT5-C01-Q07
+      type: single
+      q: A fixture being retrofitted contains an emergency battery ballast. What should the scope include?
+      choices:
+        - Nothing; the LED retrofit makes emergency lighting unnecessary
+        - A compatible emergency solution, such as an emergency LED driver or new emergency unit, so egress lighting is maintained
+        - Removal of the battery ballast to save cost
+        - A note that the customer should handle emergency lighting separately later
+      answer: 1
+      explanation: Retrofits must never quietly remove or degrade required egress lighting. Fixtures with emergency ballasts need a matching emergency solution in the scope.
+    - id: LT5-C01-Q08
+      type: single
+      q: The takeoff shows 186 troffer kits but the audit inventory totals 190 troffers. What is the correct response?
+      choices:
+        - Reconcile the difference and document the reason (for example, 4 fixtures removed per a delamping plan) or correct the takeoff
+        - Order 186; extras can be handled later
+        - Order 200 to be safe and do not explain
+        - Average the two numbers
+      answer: 0
+      explanation: Every takeoff count must reconcile with the audit inventory. Any difference must be explained or corrected before pricing.
+    - id: LT5-C01-Q09
+      type: single
+      q: Why should LOTO, verification and lift inspection time be included as separate estimate lines?
+      choices:
+        - They are optional and can be removed if the bid is too high
+        - Customers like to see long lists
+        - If safety tasks are not budgeted, crews are pressured to skip them
+        - Labor manuals require it by law
+      answer: 2
+      explanation: Safety tasks are part of the work. Removing their time from an estimate creates schedule pressure that leads to shortcuts.
+    - id: LT5-C01-Q10
+      type: single
+      q: Install labor for 80 retrofit kits is 0.5 h each. The space is occupied, with a 20% condition factor. What is the adjusted install labor?
+      choices:
+        - 40 h
+        - 44 h
+        - 50 h
+        - 48 h
+      answer: 3
+      explanation: 80 x 0.5 = 40 h; 40 x 1.20 = 48 h. Non-install labor and contingency are then added separately.
+    - id: LT5-C01-Q11
+      type: single
+      q: Twenty fixtures are reduced from 120 input watts to 40 input watts and run 4,000 hours per year. What are the annual kWh savings?
+      choices:
+        - 6,400 kWh
+        - 9,600 kWh
+        - 3,200 kWh
+        - 8,000 kWh
+      answer: 0
+      explanation: (120 - 40) x 20 / 1,000 = 1.6 kW; 1.6 kW x 4,000 h = 6,400 kWh per year.
+    - id: LT5-C01-Q12
+      type: single
+      q: A project costs $20,000 installed, receives $4,000 in rebates, and saves $5,000 per year. What is the simple payback?
+      choices:
+        - 4.0 years
+        - 2.5 years
+        - 3.2 years
+        - 5.0 years
+      answer: 2
+      explanation: Net cost = 20,000 - 4,000 = 16,000. Payback = 16,000 / 5,000 = 3.2 years.
+    - id: LT5-C01-Q13
+      type: single
+      q: How should occupancy sensor savings be added to a fixture retrofit savings calculation?
+      choices:
+        - Apply the control savings percentage to the existing load and add it to the fixture savings
+        - Apply the control savings percentage to the new (proposed) load only
+        - Multiply the fixture savings by the control percentage
+        - Control savings cannot be estimated and should never be included
+      answer: 1
+      explanation: Controls reduce runtime of the new system. Applying the percentage to the existing load double-counts savings.
+    - id: LT5-C01-Q14
+      type: multi
+      q: Which statements about presenting rebates to a customer are correct? (Select all that apply.)
+      choices:
+        - Many utility programs require DLC or ENERGY STAR qualified products
+        - Some programs require pre-approval before equipment is purchased or installed
+        - Rebate amounts should be guaranteed in the proposal to close the sale
+        - Rebate status (estimated vs pre-approved) should be stated as an assumption
+      answer: [0, 1, 3]
+      explanation: Rebates depend on program rules, product qualification and sometimes pre-approval. They should not be guaranteed until confirmed by the utility.
+    - id: LT5-C01-Q15
+      type: single
+      q: A customer asks you to drop the emergency lighting replacements from the scope so the payback looks better. What should you do?
+      choices:
+        - Remove them; the customer is paying
+        - Remove them but do not tell your supervisor
+        - Keep them in as required scope and explain they are life-safety items that must be maintained
+        - Move them to a separate invoice after the job
+      answer: 2
+      explanation: Life-safety and code-required items should not be removed to improve financial metrics. Present them as required and explain why.
+      ref: NFPA 101 (Life Safety Code) means of egress illumination

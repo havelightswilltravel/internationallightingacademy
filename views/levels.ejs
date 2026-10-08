@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+<h1>Program map</h1>
+<p class="muted">Advancement is earned by demonstrated knowledge and hands-on ability — not time on the job. Each grade requires course quizzes, a final exam, verified on-the-job hours, and evaluator-observed skill demonstrations.</p>
+<% tracks.forEach(function (t) { %>
+<section class="track">
+  <h2><%= t.title %></h2>
+  <p class="muted"><%= t.description %></p>
+  <ol class="ladder">
+    <% t.levels.forEach(function (l) { %>
+    <li class="rung <%= l.access %>">
+      <a href="/levels/<%= l.code %>">
+        <span class="code"><%= l.code %></span>
+        <span class="t"><%= l.title %></span>
+        <span class="meta"><%= l.grade %><% if (l.duration_months) { %> · ~<%= l.duration_months %> mo<% } %> · <%= l.courseCount %> courses · <%= l.skillCount %> skills · <%= l.min_ojt_hours %> hrs</span>
+        <span class="state"><%= l.access === 'completed' ? '✓ Achieved' : l.access === 'current' ? '● In progress' : '🔒 Locked' %></span>
+      </a>
+    </li>
+    <% }) %>
+  </ol>
+</section>
+<% }) %>
+<%- include('partials/footer') %>

@@ -1,0 +1,31 @@
+<%- include('../partials/header') %>
+<h1>Licensed companies</h1>
+<div class="subnav"><a href="/platform/orgs" class="on">Companies</a><a href="/platform/curriculum">Curriculum</a></div>
+<% if (created) { %>
+<div class="flash success"><strong><%= created.name %></strong> created. First admin: <%= created.adminEmail %> · temporary password <code><%= created.password %></code> (copy it now — it won't be shown again).</div>
+<% } %>
+<section class="card">
+  <table class="table">
+    <tr><th>Company</th><th>Status</th><th>Plan</th><th>Technician seats</th><th>Users</th><th>License expires</th></tr>
+    <% orgs.forEach(function (o) { %>
+    <tr><td><a href="/platform/orgs/<%= o.id %>"><%= o.name %></a></td><td><span class="pill <%= o.status === 'active' ? 'ok' : 'bad' %>"><%= o.status %></span></td><td><%= o.plan %></td>
+      <td><%= o.techs %> / <%= o.license_seats %></td><td><%= o.users %></td><td><%= o.license_expires_at ? fmtDate(o.license_expires_at) : 'No expiry' %></td></tr>
+    <% }) %>
+  </table>
+</section>
+<section class="card narrow">
+  <h2>License a new company</h2>
+  <form method="post" action="/platform/orgs">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <label>Company name <input name="name" required></label>
+    <div class="grid two">
+      <label>Plan <select name="plan"><option>standard</option><option>professional</option><option>enterprise</option><option>trial</option></select></label>
+      <label>Technician seats <input type="number" name="license_seats" min="1" value="25"></label>
+    </div>
+    <label>License expires (blank = no expiry) <input type="date" name="license_expires_at"></label>
+    <label>Company admin name <input name="admin_name" required></label>
+    <label>Company admin email <input type="email" name="admin_email" required></label>
+    <button class="btn primary">Create company</button>
+  </form>
+</section>
+<%- include('../partials/footer') %>

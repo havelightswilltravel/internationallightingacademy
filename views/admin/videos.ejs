@@ -1,0 +1,32 @@
+<%- include('../partials/header') %>
+<h1>Lesson videos <span class="muted small"><%= scopeOrg ? scopeOrg.name + ' (company videos)' : 'Platform-wide videos' %></span></h1>
+<%- include('../partials/admin-nav') %>
+<p class="muted">
+  Upload an MP4 or paste a YouTube, Vimeo or https video link for any lesson.
+  <% if (scopeOrg) { %>Company videos replace the academy video for your technicians only.<% } else { %>Platform-wide videos are shown to every licensed company unless a company adds its own.<% } %>
+  Each lesson lists a suggested video you can film in-house.
+</p>
+<form method="get" class="inline"><label>Level <select name="level" data-autosubmit><% levels.forEach(function (l) { %><option value="<%= l.code %>" <%= l.code === levelCode ? 'selected' : '' %>><%= l.code %> — <%= l.title %></option><% }) %></select></label></form>
+<% var lastCourse = null; %>
+<% lessons.forEach(function (l) { %>
+  <% if (l.course_code !== lastCourse) { lastCourse = l.course_code; %><h2><%= l.course_code %> — <%= l.course_title %></h2><% } %>
+  <div class="card video-row">
+    <div>
+      <strong><%= l.title %></strong>
+      <p class="small">
+        <% var current = scopeOrg ? (l.org_url || l.global_url || l.video_url) : (l.global_url || l.video_url); %>
+        <% if (current) { %>▶ Current: <a href="<%= current %>" target="_blank" rel="noopener"><%= current %></a><% if (scopeOrg && l.org_url) { %> <span class="pill ok">company</span><% } %><% } else { %><span class="pill">No video yet</span><% } %>
+      </p>
+      <% if (l.video_suggestion) { %><p class="small muted">Suggested: <%= l.video_suggestion %></p><% } %>
+    </div>
+    <form method="post" action="/admin/videos" enctype="multipart/form-data" class="stack">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <input type="hidden" name="lesson_id" value="<%= l.id %>"><input type="hidden" name="level" value="<%= levelCode %>">
+      <input type="url" name="url" placeholder="https://youtube.com/… or https://…mp4" value="<%= scopeOrg ? (l.org_url || '') : (l.global_url || '') %>">
+      <input type="file" name="file" accept="video/mp4,video/webm,video/quicktime">
+      <button class="btn small">Save</button>
+    </form>
+  </div>
+<% }) %>
+<% if (!lessons.length) { %><p class="muted">No lessons in this level yet.</p><% } %>
+<%- include('../partials/footer') %>

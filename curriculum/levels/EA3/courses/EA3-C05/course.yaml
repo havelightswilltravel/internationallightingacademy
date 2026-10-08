@@ -1,0 +1,195 @@
+code: EA3-C05
+title: NFPA 70E & Qualified Worker Safety
+order: 5
+estimated_hours: 10
+description: >
+  Moves the apprentice from NFPA 70E awareness to task-specific qualified-worker practice:
+  the qualified person, the electrical safety program and hierarchy of risk controls, shock and
+  arc-flash risk assessment, approach and arc-flash boundaries, equipment labels, establishing an
+  electrically safe work condition, energized work justification and permits, and selection and
+  care of PPE, insulated tools and test instruments. References NFPA 70E (2024 edition) and OSHA;
+  the employer's adopted edition and electrical safety program govern.
+objectives:
+  - Define a qualified person and explain why qualification is task-specific
+  - Describe the elements of an electrical safety program and apply the hierarchy of risk controls
+  - Perform a shock risk assessment and determine limited and restricted approach boundaries
+  - Perform an arc-flash risk assessment using incident energy analysis or the PPE category method
+  - Interpret arc-flash equipment labels
+  - Establish an electrically safe work condition, including verifying absence of voltage
+  - Determine when energized work is justified and complete an energized electrical work permit
+  - Select, inspect and care for rubber insulating gloves, arc-rated PPE, insulated tools and meters
+lessons:
+  - 01-qualified-persons-and-the-electrical-safety-program.md
+  - 02-shock-and-arc-flash-risk-assessment.md
+  - 03-electrically-safe-work-condition-and-energized-work-permits.md
+  - 04-ppe-tools-and-test-instruments.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA3-C05-Q01
+      type: single
+      q: Which statement about being a "qualified person" under NFPA 70E is correct?
+      choices:
+        - Any licensed electrician is qualified for all electrical tasks
+        - Qualification is task-specific and based on training and demonstrated skills and knowledge
+        - Apprentices can never be considered qualified
+        - Completing an awareness-level class makes a worker qualified
+      answer: 1
+      explanation: A person may be qualified for some tasks and not others. Apprentices who have demonstrated ability and work under direct supervision of a qualified person are considered qualified for those duties.
+      ref: NFPA 70E (2024) Article 100, Article 110
+    - id: EA3-C05-Q02
+      type: single
+      q: At what maximum interval must employees receive retraining in safety-related work practices under NFPA 70E?
+      choices:
+        - Every year
+        - Every 5 years
+        - Every 3 years
+        - Only when hired
+      answer: 2
+      explanation: Retraining is required at intervals not exceeding three years, and sooner if supervision or inspections show it is needed, new technology or procedures are introduced, or job duties change.
+      ref: NFPA 70E (2024) Article 110
+    - id: EA3-C05-Q03
+      type: single
+      q: Which is the most effective control in the NFPA 70E hierarchy of risk controls?
+      choices:
+        - Arc-rated PPE
+        - Administrative controls such as permits
+        - Elimination, such as establishing an electrically safe work condition
+        - Warning labels
+      answer: 2
+      explanation: The hierarchy is elimination, substitution, engineering controls, awareness, administrative controls, then PPE. De-energizing eliminates the hazard.
+      ref: NFPA 70E (2024) Article 110 (hierarchy of risk controls)
+    - id: EA3-C05-Q04
+      type: single
+      q: What is the restricted approach boundary for exposed fixed circuit parts on a 480 V system?
+      choices:
+        - Avoid contact
+        - 3 ft 6 in
+        - 10 ft 0 in
+        - 1 ft 0 in
+      answer: 3
+      explanation: For 151–750 V, NFPA 70E Table 130.4(E)(a) lists a restricted approach boundary of 1 ft 0 in and a limited approach boundary of 3 ft 6 in for exposed fixed circuit parts.
+      ref: NFPA 70E (2024) Table 130.4(E)(a)
+    - id: EA3-C05-Q05
+      type: single
+      q: Who may cross the limited approach boundary?
+      choices:
+        - Qualified persons, and unqualified persons only when continuously escorted by a qualified person and advised of the hazards
+        - Anyone wearing a hard hat and safety glasses
+        - Only the electrical engineer of record
+        - Unqualified persons whenever the panel cover is closed
+      answer: 0
+      explanation: Unqualified persons may cross the limited approach boundary only when advised of the hazards and continuously escorted by a qualified person; they may never cross the restricted approach boundary.
+      ref: NFPA 70E (2024) 130.4
+    - id: EA3-C05-Q06
+      type: single
+      q: The arc-flash boundary is the distance from an arc source at which the incident energy equals
+      choices:
+        - 4 cal/cm²
+        - 1.2 cal/cm²
+        - 8 cal/cm²
+        - 0.5 cal/cm²
+      answer: 1
+      explanation: The arc-flash boundary is where incident energy equals 1.2 cal/cm² (5 J/cm²), the approximate onset of a second-degree burn on unprotected skin.
+      ref: NFPA 70E (2024) Article 100, 130.5
+    - id: EA3-C05-Q07
+      type: single
+      q: Equipment has an arc-flash label based on an incident energy analysis. May the worker instead select PPE using the PPE category table for that equipment?
+      choices:
+        - Yes, whichever gives the lower PPE category
+        - Yes, as long as both methods are documented
+        - No, the two methods may not be used on the same equipment
+        - Yes, but only for voltages below 240 V
+      answer: 2
+      explanation: NFPA 70E permits either the incident energy analysis method or the PPE category method, but not both on the same piece of equipment.
+      ref: NFPA 70E (2024) 130.5, 130.7(C)(15)
+    - id: EA3-C05-Q08
+      type: single
+      q: What is the minimum arc rating of PPE for PPE category 2?
+      choices:
+        - 4 cal/cm²
+        - 25 cal/cm²
+        - 40 cal/cm²
+        - 8 cal/cm²
+      answer: 3
+      explanation: PPE category minimum arc ratings are 1 = 4, 2 = 8, 3 = 25, and 4 = 40 cal/cm².
+      ref: NFPA 70E (2024) Table 130.7(C)(15)(c)
+    - id: EA3-C05-Q09
+      type: multi
+      q: Which conditions must be known and within the table limits before using the PPE category method (Table 130.7(C)(15)(a)) for a piece of equipment? (Select all that apply.)
+      choices:
+        - Available fault current
+        - Fault clearing time of the upstream protective device
+        - Minimum working distance
+        - The color of the equipment enclosure
+      answer: [0, 1, 2]
+      explanation: The PPE category table applies only when the equipment's available fault current and clearing time are within the listed parameters and the stated working distance is maintained. Otherwise an incident energy analysis is required.
+      ref: NFPA 70E (2024) Table 130.7(C)(15)(a)
+    - id: EA3-C05-Q10
+      type: single
+      q: Which is an acceptable justification for performing energized work?
+      choices:
+        - The customer prefers not to lose power during business hours
+        - Troubleshooting a control circuit that requires the circuit to be energized to diagnose it
+        - The job is behind schedule
+        - Overtime for an after-hours shutdown is not in the budget
+      answer: 1
+      explanation: Infeasibility (e.g., diagnostics that require energized circuits) and greater hazard are acceptable justifications. Convenience, schedule and cost are not.
+      ref: NFPA 70E (2024) 130.2(A)
+    - id: EA3-C05-Q11
+      type: multi
+      q: Which items must be included on an energized electrical work permit? (Select all that apply.)
+      choices:
+        - Justification for why the work must be performed energized
+        - Results of the shock risk assessment and the arc-flash risk assessment
+        - Means used to restrict access of unqualified persons
+        - The worker's home address
+        - Evidence of completion of a job briefing and energized work approval signatures
+      answer: [0, 1, 2, 4]
+      explanation: The permit includes the circuit and work description, justification, safe work practices, shock and arc-flash assessment results, access restriction, job briefing evidence and approvals.
+      ref: NFPA 70E (2024) 130.2(B)
+    - id: EA3-C05-Q12
+      type: single
+      q: Which task can a qualified person perform without an energized electrical work permit (while still using appropriate PPE and safe work practices)?
+      choices:
+        - Replacing a breaker in an energized panelboard
+        - Re-terminating a feeder on energized bus
+        - Measuring voltage at a panelboard to verify a supply
+        - Drilling a new knockout in an energized switchboard
+      answer: 2
+      explanation: Testing, troubleshooting and voltage measuring are exempt from the written permit requirement but still require risk assessments, PPE and safe work practices.
+      ref: NFPA 70E (2024) 130.2(B)
+    - id: EA3-C05-Q13
+      type: multi
+      q: When verifying absence of voltage as part of establishing an electrically safe work condition, which practices are required? (Select all that apply.)
+      choices:
+        - Verify the test instrument on a known voltage source before and after testing
+        - Test each phase conductor phase-to-phase and phase-to-ground
+        - Use a non-contact voltage tester as the only verification method
+        - Use an adequately rated test instrument
+      answer: [0, 1, 3]
+      explanation: Absence of voltage is verified with an adequately rated instrument, testing phase-to-phase and phase-to-ground, with the instrument verified on a known source before and after (live-dead-live). Non-contact testers are screening tools only.
+      ref: NFPA 70E (2024) Article 120
+    - id: EA3-C05-Q14
+      type: single
+      q: What is the maximum AC use voltage for Class 0 rubber insulating gloves?
+      choices:
+        - 1,000 V
+        - 500 V
+        - 7,500 V
+        - 17,000 V
+      answer: 0
+      explanation: Class 00 = 500 V, Class 0 = 1,000 V, Class 1 = 7,500 V, Class 2 = 17,000 V maximum use voltage AC.
+      ref: OSHA 29 CFR 1910.137; ASTM D120
+    - id: EA3-C05-Q15
+      type: single
+      q: Rubber insulating gloves in service must be electrically retested at intervals not exceeding
+      choices:
+        - 3 months
+        - 12 months
+        - 6 months
+        - 3 years
+      answer: 2
+      explanation: OSHA 1910.137 requires rubber insulating gloves to be electrically tested before first issue and every 6 months thereafter; they must also be air-tested and inspected before each day's use.
+      ref: OSHA 29 CFR 1910.137

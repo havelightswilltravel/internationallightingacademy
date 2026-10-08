@@ -1,0 +1,14 @@
+<%- include('../partials/header') %>
+<h1>Reports <span class="muted small"><%= scopeOrg.name %></span></h1>
+<%- include('../partials/admin-nav') %>
+<p><a class="btn" href="/admin/reports.csv">⬇ Download CSV</a></p>
+<div class="scroll-x">
+<table class="table small">
+  <tr><th>Name</th><th>Emp. ID</th><th>Active</th><th>Grade</th><th>Working on</th><th>Progress</th><th>Courses</th><th>Final exam</th><th>Hours</th><th>Skills</th><th>Ready</th><th>Pay rate</th><th>Last login</th></tr>
+  <% rows.forEach(function (r) { %>
+  <tr><td><%= r.name %></td><td><%= r.employee_id %></td><td><%= r.active %></td><td><%= r.current_grade %></td><td><%= r.working_on %></td><td><%= r.progress_pct %>%</td>
+    <td><%= r.courses %></td><td><%= r.final_exam %></td><td><%= r.hours %></td><td><%= r.skills %></td><td><%= r.ready_for_promotion %></td><td><%= r.pay_rate !== '' ? money(r.pay_rate) : '' %></td><td><%= fmtDate(r.last_login) %></td></tr>
+  <% }) %>
+</table>
+</div>
+<%- include('../partials/footer') %>

@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+<h1>On-the-job hours</h1>
+<div class="grid two">
+  <section class="card">
+    <h2>Log hours <% if (working) { %><span class="muted small">for <%= working.code %></span><% } %></h2>
+    <% if (working) { %>
+    <form method="post" action="/hours">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <label>Date worked <input type="date" name="work_date" value="<%= today() %>" max="<%= today() %>" required></label>
+      <label>Hours <input type="number" name="hours" step="0.25" min="0.25" max="16" required></label>
+      <label>Work performed <textarea name="description" rows="3" required minlength="10" placeholder="e.g., Replaced 24 fluorescent ballasts with Type B TLED bypass at ACME warehouse"></textarea></label>
+      <label>Supervising tech / lead (optional) <input name="supervisor_name"></label>
+      <button class="btn primary">Submit for approval</button>
+    </form>
+    <% } else { %><p>You have completed every level.</p><% } %>
+  </section>
+  <section class="card">
+    <h2>Totals by level</h2>
+    <table class="table">
+      <tr><th>Level</th><th>Approved</th><th>Pending</th></tr>
+      <% totals.forEach(function (t) { %><tr><td><%= t.level_code %></td><td><%= t.approved %></td><td><%= t.pending %></td></tr><% }) %>
+    </table>
+  </section>
+</div>
+<section class="card">
+  <h2>Entries</h2>
+  <table class="table">
+    <tr><th>Date</th><th>Level</th><th>Hours</th><th>Work</th><th>Status</th><th></th></tr>
+    <% entries.forEach(function (e) { %>
+    <tr>
+      <td><%= fmtDate(e.work_date) %></td><td><%= e.level_code %></td><td><%= e.hours %></td><td><%= e.description %></td>
+      <td><span class="pill <%= e.status === 'approved' ? 'ok' : e.status === 'rejected' ? 'bad' : '' %>"><%= e.status %></span><% if (e.review_note) { %><br><span class="small muted"><%= e.review_note %></span><% } %></td>
+      <td><% if (e.status === 'pending') { %><form method="post" action="/hours/<%= e.id %>/delete"><input type="hidden" name="_csrf" value="<%= csrf %>"><button class="link">Delete</button></form><% } %></td>
+    </tr>
+    <% }) %>
+  </table>
+</section>
+<%- include('partials/footer') %>

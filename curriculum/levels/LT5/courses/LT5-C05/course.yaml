@@ -1,0 +1,289 @@
+code: LT5-C05
+title: Capstone & Comprehensive Review
+order: 5
+estimated_hours: 10
+description: >
+  Integrates the full lighting track. Reviews the highest-priority LT1-LT4 content (electrical
+  safety and LOTO, fall protection, electrical fundamentals, light sources, LED drivers and
+  dimming, lighting controls, emergency and egress lighting, codes and standards, power quality
+  and systematic troubleshooting) in preparation for the comprehensive CALT certification exam,
+  and defines the requirements, deliverables and evaluation criteria for the CALT capstone
+  project.
+objectives:
+  - Apply the steps to establish an electrically safe work condition, including live-dead-live verification
+  - Solve common lighting calculations (Ohm's and Watt's laws, three-phase voltage relationships, voltage drop)
+  - Select and match LED drivers, TLEDs and dimming methods and diagnose common failures
+  - State NFPA 101 emergency lighting performance and testing requirements and the role of UL 924 devices
+  - Navigate the NEC articles and standards most used in lighting work
+  - Plan a capstone project that meets all six deliverable requirements
+lessons:
+  - 01-safety-and-electrical-fundamentals-review.md
+  - 02-light-sources-leds-drivers-and-dimming-review.md
+  - 03-controls-and-emergency-lighting-review.md
+  - 04-codes-and-troubleshooting-review.md
+  - 05-capstone-project-requirements.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT5-C05-Q01
+      type: single
+      q: What is the correct sequence for verifying absence of voltage with a contact tester?
+      choices:
+        - Test the circuit, then test the tester on a known live source
+        - Test the tester on a known live source, test the circuit, then re-test the tester on a known live source
+        - Test the circuit twice with a non-contact tester
+        - Test the tester on a known dead source, then test the circuit
+      answer: 1
+      explanation: Live-dead-live confirms the tester worked before and after the test, so a "dead" reading can be trusted.
+      ref: NFPA 70E; OSHA 29 CFR 1910.333
+    - id: LT5-C05-Q02
+      type: single
+      q: Which device is acceptable as the point of isolation for lockout on a lighting circuit?
+      choices:
+        - The circuit breaker in the panelboard, with a lockout device and your personal lock
+        - The wall switch in the room
+        - The occupancy sensor set to off
+        - The networked control software zone set to off
+      answer: 0
+      explanation: Lockout requires an energy-isolating device such as a breaker or disconnect. Switches, sensors and control software are not isolating devices.
+      ref: OSHA 29 CFR 1910.147
+    - id: LT5-C05-Q03
+      type: single
+      q: Why is a non-contact voltage tester not sufficient to verify absence of voltage before work?
+      choices:
+        - It is too accurate for lighting circuits
+        - It only works on DC circuits
+        - It can miss voltage due to shielding, poor coupling or a weak battery, so it is a screening tool only
+        - It is not allowed on 277 V circuits
+      answer: 2
+      explanation: Non-contact testers can give false negatives. Verification requires a contact tester or meter with live-dead-live checks.
+    - id: LT5-C05-Q04
+      type: single
+      q: An extension ladder is used to reach a roof landing 16 ft above the ground. How far should the base be from the wall, and how far should the ladder extend above the landing?
+      choices:
+        - 2 ft out; 1 ft above
+        - 8 ft out; no extension needed
+        - 3 ft out; 4 ft above
+        - 4 ft out; at least 3 ft above
+      answer: 3
+      explanation: Use 4:1 (16 / 4 = 4 ft out) and extend at least 3 ft above the landing for access.
+      ref: OSHA 29 CFR 1926.1053
+    - id: LT5-C05-Q05
+      type: single
+      q: Which arc-rated PPE category has a minimum arc rating of 8 cal/cm2?
+      choices:
+        - PPE Category 1
+        - PPE Category 2
+        - PPE Category 3
+        - PPE Category 4
+      answer: 1
+      explanation: NFPA 70E PPE categories have minimum arc ratings of 4 (CAT 1), 8 (CAT 2), 25 (CAT 3) and 40 (CAT 4) cal/cm2.
+      ref: NFPA 70E
+    - id: LT5-C05-Q06
+      type: single
+      q: Fourteen LED fixtures at 40 W each are on a 277 V circuit with a power factor near 1.0. Approximately what current does the circuit carry?
+      choices:
+        - 2.0 A
+        - 4.7 A
+        - 0.5 A
+        - 7.8 A
+      answer: 0
+      explanation: 14 x 40 W = 560 W; 560 / 277 = about 2.0 A.
+    - id: LT5-C05-Q07
+      type: single
+      q: On a 120/208 V three-phase wye system, what voltage is measured line-to-line?
+      choices:
+        - 120 V
+        - 240 V
+        - 208 V
+        - 277 V
+      answer: 2
+      explanation: Line-to-line voltage equals line-to-neutral voltage x 1.732; 120 x 1.732 = 208 V.
+    - id: LT5-C05-Q08
+      type: single
+      q: What is the function of the equipment grounding conductor (EGC) on a lighting circuit?
+      choices:
+        - Carry normal return current from the fixtures
+        - Provide a low-impedance path for fault current so the overcurrent device trips
+        - Act as a backup neutral if the neutral opens
+        - Carry the 0-10V dimming signal
+      answer: 1
+      explanation: The EGC carries current only under fault conditions. It must never be used as a neutral.
+      ref: NEC Article 250
+    - id: LT5-C05-Q09
+      type: single
+      q: A 120 V circuit carries 16 A over a one-way distance of 150 ft on 12 AWG copper (6,530 CM, K = 12.9). Approximately what is the voltage drop?
+      choices:
+        - 2.4 V (2%)
+        - 4.7 V (3.9%)
+        - 15.0 V (12.5%)
+        - 9.5 V (7.9%)
+      answer: 3
+      explanation: VD = 2 x 12.9 x 16 x 150 / 6,530 = about 9.5 V, or 7.9% of 120 V, well above the roughly 3% suggested for branch circuits in NEC informational notes.
+    - id: LT5-C05-Q10
+      type: multi
+      q: Which statements about multiwire branch circuits (MWBCs) are correct? (Select all that apply.)
+      choices:
+        - All ungrounded conductors must be simultaneously disconnected at the point of origin
+        - The shared neutral can carry current from other circuits of the MWBC even if one breaker is off
+        - Turning off one breaker of the MWBC makes the shared neutral safe to open
+        - Triplen harmonic currents from nonlinear loads add in the shared neutral
+      answer: [0, 1, 3]
+      explanation: Opening one breaker leaves the shared neutral carrying current from the remaining circuits. NEC 210.4(B) requires simultaneous disconnect, and triplen harmonics add in the neutral.
+      ref: NEC 210.4(B)
+    - id: LT5-C05-Q11
+      type: single
+      q: A space with frequent switching from occupancy sensors still uses fluorescent lamps. Which ballast type is best suited?
+      choices:
+        - Programmed-start
+        - Instant-start
+        - Magnetic preheat
+        - HID reactor ballast
+      answer: 0
+      explanation: Programmed-start ballasts preheat cathodes before striking, minimizing lamp wear from frequent starts.
+    - id: LT5-C05-Q12
+      type: single
+      q: Replacing a failed constant-current LED driver, which combination must match or be compatible?
+      choices:
+        - Only the input voltage
+        - Only the physical size
+        - Output current, an output voltage range that includes the LED load's forward voltage, adequate power, input voltage and dimming type
+        - The driver brand only, since all drivers from one brand interchange
+      answer: 2
+      explanation: CC drivers are matched by output current and voltage range, then power, input voltage, dimming protocol and fit.
+    - id: LT5-C05-Q13
+      type: single
+      q: A single-ended UL Type B TLED is being installed in a fixture with shunted lampholders. What is required?
+      choices:
+        - Nothing; Type B lamps work with any sockets
+        - Keep the existing ballast connected
+        - Install a Type A lamp on the other end
+        - Replace the lampholders with non-shunted lampholders as the lamp instructions require
+      answer: 3
+      explanation: Single-ended Type B lamps place line and neutral on the same end. Shunted sockets would short them, so non-shunted lampholders are required per the instructions.
+      ref: UL 1993; NEC 110.3(B)
+    - id: LT5-C05-Q14
+      type: single
+      q: A row of 0-10V dimmable fixtures stays at full brightness regardless of the dimmer setting. What is the most likely cause?
+      choices:
+        - Shorted control pair
+        - An open (disconnected) control wire or control not landed
+        - Reversed line and neutral
+        - Failed LED arrays
+      answer: 1
+      explanation: Most 0-10V drivers go to full output when the control circuit is open. A short typically drives them to minimum.
+    - id: LT5-C05-Q15
+      type: single
+      q: What does an LED fixture's L70 rating describe?
+      choices:
+        - The time until light output drops to 70% of its initial value
+        - The time until 70% of fixtures fail completely
+        - 70 lumens per watt efficacy
+        - The fixture operates up to 70 degrees C
+      answer: 0
+      explanation: L70 is the lumen maintenance life to 70% of initial output, typically projected using LM-80 data and TM-21.
+    - id: LT5-C05-Q16
+      type: single
+      q: Which occupancy sensor technology is most likely to false-trigger from HVAC airflow?
+      choices:
+        - Passive infrared
+        - Photocell
+        - Ultrasonic
+        - Astronomical time clock
+      answer: 2
+      explanation: Ultrasonic sensors detect Doppler shifts and can respond to moving air. PIR responds to heat movement and is not affected by airflow.
+    - id: LT5-C05-Q17
+      type: single
+      q: What is the difference between an occupancy sensor and a vacancy sensor?
+      choices:
+        - Occupancy sensors are PIR; vacancy sensors are ultrasonic
+        - Vacancy sensors turn lights on automatically and off manually
+        - There is no difference
+        - Occupancy sensors are automatic-on/automatic-off; vacancy sensors are manual-on/automatic-off
+      answer: 3
+      explanation: The difference is the turn-on mode. Vacancy (manual-on) operation often saves more energy and may be required for some spaces by energy codes.
+    - id: LT5-C05-Q18
+      type: single
+      q: Under NFPA 101, what minimum duration must emergency lighting provide after loss of normal power?
+      choices:
+        - 1.5 hours
+        - 30 minutes
+        - 1 hour
+        - 4 hours
+      answer: 0
+      explanation: NFPA 101 requires emergency illumination for at least 1.5 hours (90 minutes).
+      ref: NFPA 101
+    - id: LT5-C05-Q19
+      type: multi
+      q: Which NFPA 101 requirements apply to battery-operated emergency lighting testing? (Select all that apply.)
+      choices:
+        - Monthly functional test of at least 30 seconds
+        - Annual functional test for the full 1.5 hours
+        - Written records of testing kept for the AHJ
+        - Testing only when a unit is visibly damaged
+      answer: [0, 1, 2]
+      explanation: NFPA 101 requires monthly 30-second and annual 90-minute tests with written records (or approved self-testing/computer-based systems).
+      ref: NFPA 101
+    - id: LT5-C05-Q20
+      type: single
+      q: Under NFPA 101, what initial illumination is required along the path of egress during emergency operation?
+      choices:
+        - Average 10 fc, minimum 1 fc
+        - Average 1 fc, minimum 0.1 fc at any point, maximum-to-minimum ratio not exceeding 40:1
+        - Average 0.1 fc, no minimum
+        - Average 5 fc, maximum-to-minimum ratio 10:1
+      answer: 1
+      explanation: The initial requirement is an average of 1 fc and a minimum of 0.1 fc measured at the floor, with uniformity no worse than 40:1. Levels may decline to 0.6 fc average and 0.06 fc minimum at the end of 1.5 hours.
+      ref: NFPA 101
+    - id: LT5-C05-Q21
+      type: single
+      q: Which standard covers emergency lighting equipment, including exit signs and emergency lighting control (transfer) devices?
+      choices:
+        - UL 1598C
+        - ANSI A92.22
+        - UL 924
+        - ASHRAE 90.1
+      answer: 2
+      explanation: UL 924 covers emergency lighting and power equipment. UL 1598C covers LED retrofit kits; A92.22 covers MEWPs; ASHRAE 90.1 is an energy standard.
+    - id: LT5-C05-Q22
+      type: single
+      q: Which NEC article covers luminaires, lampholders and lamps?
+      choices:
+        - Article 700
+        - Article 250
+        - Article 600
+        - Article 410
+      answer: 3
+      explanation: Article 410 covers luminaires, lampholders and lamps. 700 is emergency systems, 250 is grounding and bonding, 600 is signs and outline lighting.
+      ref: NEC Article 410
+    - id: LT5-C05-Q23
+      type: single
+      q: A breaker feeding 30 LED high-bays trips occasionally only at the moment the lights switch on, but holds fine afterward. What is the most likely cause?
+      choices:
+        - Cumulative LED driver inrush current at turn-on
+        - Ground fault in one fixture
+        - Low power factor at full load
+        - Excessive voltage drop
+      answer: 0
+      explanation: Tripping only at switch-on points to inrush. Check driver inrush data and breaker trip curves, reduce fixtures per circuit, or use inrush-rated switching or staggered turn-on.
+    - id: LT5-C05-Q24
+      type: single
+      q: In systematic troubleshooting, what is the purpose of half-splitting?
+      choices:
+        - Replacing half the components at once to save time
+        - Testing at a midpoint to eliminate half of the possible fault locations with each measurement
+        - Splitting the crew into two teams
+        - Reducing the load on the circuit by half
+      answer: 1
+      explanation: Half-splitting narrows the fault location efficiently using measurements rather than parts swapping.
+    - id: LT5-C05-Q25
+      type: multi
+      q: Which items are required deliverables or conditions of the CALT capstone project? (Select all that apply.)
+      choices:
+        - Written evaluator approval of the project proposal before work begins
+        - A written JHA and LOTO plan, with zero safety deviations during field work
+        - Completed functional performance tests and an issues log
+        - A guaranteed utility rebate amount
+      answer: [0, 1, 2]
+      explanation: The capstone requires proposal approval, the six deliverables (including safety plan and commissioning records) and safe field work. Rebates cannot be guaranteed and are not a requirement.

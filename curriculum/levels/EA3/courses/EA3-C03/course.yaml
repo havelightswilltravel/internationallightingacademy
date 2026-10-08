@@ -1,0 +1,193 @@
+code: EA3-C03
+title: Services & Feeders
+order: 3
+estimated_hours: 12
+description: >
+  Service components and definitions, service disconnect rules, working space, service
+  conductor sizing, grounding and bonding at the service, feeder sizing and protection, feeder
+  tap rules, voltage drop, and an introduction to load calculations. References the 2023 NEC
+  (load calculations in Article 220; relocated to new Article 120 in the 2026 NEC); the
+  AHJ-adopted edition governs.
+objectives:
+  - Identify the service point, service drop/lateral, service-entrance conductors and service equipment
+  - Apply rules for number of services, number and location of service disconnects, and GFPE
+  - Determine required working space for service and distribution equipment
+  - Size service-entrance conductors, including the dwelling 83% allowance where it applies
+  - Size the main bonding jumper and grounding electrode conductor and describe the grounding electrode system
+  - Size feeder conductors, feeder OCPD and EGC for continuous and noncontinuous loads
+  - Apply the 10 ft and 25 ft feeder tap rules and calculate voltage drop
+  - Perform an introductory dwelling and small commercial load calculation
+lessons:
+  - 01-service-components-and-definitions.md
+  - 02-service-conductors-grounding-and-bonding.md
+  - 03-feeders-and-taps.md
+  - 04-introduction-to-load-calculations.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA3-C03-Q01
+      type: single
+      q: What is the "service point"?
+      choices:
+        - The location of the main bonding jumper
+        - The point of connection between the utility's facilities and the premises wiring
+        - The first overcurrent device downstream of the meter
+        - The grounding electrode connection
+      answer: 1
+      explanation: The service point is where the serving utility's conductors connect to the premises wiring. Utility rules govern the supply side; the NEC governs the load side.
+      ref: NEC 2023 Article 100 (Service Point)
+    - id: EA3-C03-Q02
+      type: single
+      q: Why must service-entrance conductors inside a building be kept as short as practical?
+      choices:
+        - They are always aluminum
+        - They are not allowed to be in raceway
+        - They have no overcurrent protection on their supply side
+        - They carry only neutral current
+      answer: 2
+      explanation: Service-entrance conductors are protected only by the utility's transformer protection, if at all. 230.70 requires the disconnect outside or nearest the point of entrance.
+      ref: NEC 2023 230.70
+    - id: EA3-C03-Q03
+      type: single
+      q: Under the 2023 NEC, ground-fault protection of equipment is required on each service disconnect rated 1000 A or more on which type of system?
+      choices:
+        - 120/240 V single-phase
+        - 240 V three-phase delta, ungrounded
+        - Solidly grounded wye, more than 150 V to ground and not over 1000 V phase-to-phase (e.g., 480Y/277 V)
+        - 208Y/120 V three-phase
+      answer: 2
+      explanation: 230.95 applies to solidly grounded wye services over 150 V to ground and not exceeding 1000 V phase-to-phase, with disconnects rated 1000 A or more. 208Y/120 V is only 120 V to ground.
+      ref: NEC 2023 230.95
+    - id: EA3-C03-Q04
+      type: single
+      q: What is the minimum working space depth in front of a 480Y/277 V switchboard with exposed live parts on one side and a grounded concrete wall on the other (Condition 2)?
+      choices:
+        - 3 ft
+        - 3½ ft
+        - 4 ft
+        - 6½ ft
+      answer: 1
+      explanation: For 151–600 V to ground, Table 110.26(A)(1) requires 3 ft for Condition 1, 3½ ft for Condition 2, and 4 ft for Condition 3. 277 V to ground falls in this range.
+      ref: NEC 2023 Table 110.26(A)(1)
+    - id: EA3-C03-Q05
+      type: single
+      q: A 200 A, 120/240 V single-phase dwelling service uses the 83% allowance of 310.12. What is the minimum conductor ampacity?
+      choices:
+        - 200 A
+        - 166 A
+        - 150 A
+        - 175 A
+      answer: 1
+      explanation: 200 x 0.83 = 166 A. 2/0 Cu (175 A) or 4/0 Al (180 A) at 75 °C would qualify.
+      ref: NEC 2023 310.12
+    - id: EA3-C03-Q06
+      type: single
+      q: Service-entrance conductors are 3/0 AWG copper. Using the 2023 NEC Table 250.66, what is the minimum copper GEC to the building's water pipe and building steel?
+      choices:
+        - 8 AWG
+        - 6 AWG
+        - 2 AWG
+        - 4 AWG
+      answer: 3
+      explanation: The "2/0 or 3/0" copper row of Table 250.66 requires a 4 AWG copper GEC.
+      ref: NEC 2023 Table 250.66
+    - id: EA3-C03-Q07
+      type: multi
+      q: Which statements about neutral-to-ground bonding in a building's normal (non-separately-derived) system are correct? (Select all that apply.)
+      choices:
+        - The neutral is bonded to the equipment grounding system at the service by the main bonding jumper
+        - Subpanels should have their neutral bars bonded to the enclosure for better grounding
+        - Downstream neutral-to-ground connections put normal neutral current on raceways and EGCs
+        - Subpanel neutrals and equipment grounding conductors are kept separate
+      answer: [0, 2, 3]
+      explanation: The neutral is bonded only at the service (for the normal system). Downstream bonds create objectionable current on grounding paths, so subpanels keep neutrals isolated from EGCs.
+      ref: NEC 2023 250.24, 250.28, 250.142(B)
+    - id: EA3-C03-Q08
+      type: single
+      q: A single ground rod is used as the only electrode and has not been tested to 25 ohms or less. What does the NEC require?
+      choices:
+        - It must be supplemented by an additional electrode
+        - Nothing further
+        - It must be replaced with a 10 ft rod
+        - It must be bonded to the gas pipe as the supplemental electrode
+      answer: 0
+      explanation: 250.53(A)(2) requires a single rod, pipe or plate electrode to be supplemented by an additional electrode unless it has a resistance to earth of 25 ohms or less. Gas piping may not be used as an electrode.
+      ref: NEC 2023 250.53(A)(2), 250.52(B)
+    - id: EA3-C03-Q09
+      type: single
+      q: A feeder serves 100 A of continuous load and 40 A of noncontinuous load. What is the minimum feeder conductor ampacity before adjustment and correction?
+      choices:
+        - 140 A
+        - 175 A
+        - 165 A
+        - 150 A
+      answer: 2
+      explanation: 215.2(A)(1) requires 125% of continuous plus 100% of noncontinuous load. (100 x 1.25) + 40 = 165 A.
+      ref: NEC 2023 215.2(A)(1)
+    - id: EA3-C03-Q10
+      type: single
+      q: A feeder is protected by a 175 A breaker. What is the minimum copper equipment grounding conductor per Table 250.122?
+      choices:
+        - 8 AWG
+        - 6 AWG
+        - 4 AWG
+        - 3 AWG
+      answer: 1
+      explanation: A 175 A OCPD falls in the 200 A row of Table 250.122, which requires 6 AWG copper (4 AWG aluminum).
+      ref: NEC 2023 Table 250.122
+    - id: EA3-C03-Q11
+      type: single
+      q: A 25 ft feeder tap is made from a feeder protected at 400 A. What is the minimum tap conductor ampacity?
+      choices:
+        - 40 A
+        - 100 A
+        - 133.3 A
+        - 400 A
+      answer: 2
+      explanation: The 25 ft tap rule (240.21(B)(2)) requires tap ampacity of at least one-third of the feeder OCPD rating (400 / 3 = 133.3 A), and the tap must terminate in a single OCPD that limits load to the tap ampacity.
+      ref: NEC 2023 240.21(B)(2)
+    - id: EA3-C03-Q12
+      type: single
+      q: What is the approximate voltage drop on a 480 V three-phase feeder carrying 100 A over 200 ft one-way on 1 AWG copper (83,690 cmil, K = 12.9)?
+      choices:
+        - 5.3 V
+        - 3.1 V
+        - 6.2 V
+        - 10.7 V
+      answer: 0
+      explanation: VD = 1.732 x K x I x L / CM = 1.732 x 12.9 x 100 x 200 / 83,690 ≈ 5.3 V, about 1.1% of 480 V.
+      ref: Voltage drop formula (EA3-C03 Lesson 3)
+    - id: EA3-C03-Q13
+      type: single
+      q: A 2,000 ft² dwelling has general lighting (3 VA/ft²), two small-appliance circuits and one laundry circuit. After applying the Table 220.42 demand factors, what is the net general load?
+      choices:
+        - 10,500 VA
+        - 3,675 VA
+        - 6,000 VA
+        - 5,625 VA
+      answer: 3
+      explanation: 6,000 + 3,000 + 1,500 = 10,500 VA. First 3,000 VA at 100% = 3,000; remaining 7,500 at 35% = 2,625. Total 5,625 VA.
+      ref: NEC 2023 Table 220.12, 220.52, Table 220.42
+    - id: EA3-C03-Q14
+      type: single
+      q: In which article of the 2026 NEC is load-calculation content found?
+      choices:
+        - Article 220, unchanged
+        - Article 230
+        - Article 120
+        - Article 310
+      answer: 2
+      explanation: The 2026 NEC relocated branch-circuit, feeder and service load calculations into a new Article 120. The 2023 NEC places them in Article 220. Use the edition the AHJ has adopted.
+      ref: NFPA 70 2026 Article 120; NEC 2023 Article 220
+    - id: EA3-C03-Q15
+      type: multi
+      q: Which statements about the service disconnect under the 2023 NEC are correct? (Select all that apply.)
+      choices:
+        - Up to six service disconnects are permitted per service, subject to the separation rules of 230.71
+        - Opening the service main breaker de-energizes its line-side terminals
+        - Each service disconnect must be permanently marked as a service disconnect
+        - One- and two-family dwellings require an emergency disconnect at a readily accessible outdoor location
+      answer: [0, 2, 3]
+      explanation: Up to six disconnects are permitted with the separation rules of 230.71; each must be marked; 230.85 requires an outdoor emergency disconnect for one- and two-family dwellings. The line side of the main remains energized when it is opened.
+      ref: NEC 2023 230.71, 230.85

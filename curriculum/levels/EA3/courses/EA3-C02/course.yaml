@@ -1,0 +1,193 @@
+code: EA3-C02
+title: Motors & Motor Controls
+order: 2
+estimated_hours: 14
+description: >
+  Three-phase and single-phase motor principles, nameplate data and dual-voltage connections;
+  Article 430 motor circuit sizing using NEC table full-load current for conductors and
+  short-circuit/ground-fault protection and nameplate current for overloads; magnetic starters,
+  overload relays, ladder diagrams and reversing control; and basic variable frequency drive
+  setup and hazards. References the 2023 NEC; the AHJ-adopted edition governs.
+objectives:
+  - Calculate synchronous speed and slip and explain how to reverse a three-phase motor
+  - Interpret motor nameplate data, including FLA, service factor, code letter and design letter
+  - Connect a dual-voltage motor for high or low voltage using its connection diagram
+  - Size motor branch-circuit conductors, SCPD, overloads and disconnects per Article 430
+  - Size feeder conductors and feeder protection for multiple motors
+  - Read and wire three-wire start/stop and forward/reverse ladder diagrams
+  - Troubleshoot motor control circuits methodically and safely
+  - Perform basic VFD setup and safely verify DC bus discharge
+lessons:
+  - 01-motor-principles-and-nameplates.md
+  - 02-article-430-motor-circuit-sizing.md
+  - 03-starters-overloads-and-ladder-diagrams.md
+  - 04-variable-frequency-drives.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA3-C02-Q01
+      type: single
+      q: What is the synchronous speed of a 4-pole motor on a 60 Hz supply?
+      choices:
+        - 3600 rpm
+        - 1200 rpm
+        - 1800 rpm
+        - 900 rpm
+      answer: 2
+      explanation: Ns = 120 x f / P = 120 x 60 / 4 = 1800 rpm. Actual full-load speed is slightly lower because of slip.
+      ref: Synchronous speed formula (EA3-C02 Lesson 1)
+    - id: EA3-C02-Q02
+      type: single
+      q: How is the rotation of a three-phase induction motor reversed?
+      choices:
+        - Swap any two of the three supply leads
+        - Swap all three supply leads in rotation (L1 to L2, L2 to L3, L3 to L1)
+        - Reverse the neutral and ground
+        - Reduce the supply frequency
+      answer: 0
+      explanation: Swapping any two leads reverses the phase sequence and the direction of the rotating field. Rolling all three leads keeps the same sequence.
+      ref: Motor principles (EA3-C02 Lesson 1)
+    - id: EA3-C02-Q03
+      type: single
+      q: When sizing motor branch-circuit conductors and short-circuit/ground-fault protection for a general-purpose three-phase motor, which current does the NEC require you to use?
+      choices:
+        - Nameplate FLA
+        - Locked-rotor current
+        - Measured running current
+        - Full-load current from Table 430.250
+      answer: 3
+      explanation: 430.6(A)(1) requires the table values (430.248 for single-phase, 430.250 for three-phase) for conductors, switches and SCPD. Nameplate FLA is used for overload protection.
+      ref: NEC 2023 430.6(A)(1), Table 430.250
+    - id: EA3-C02-Q04
+      type: single
+      q: A 25 hp, 460 V three-phase motor has a Table 430.250 FLC of 34 A. What is the minimum branch-circuit conductor ampacity?
+      choices:
+        - 34 A
+        - 39.1 A
+        - 42.5 A
+        - 59.5 A
+      answer: 2
+      explanation: 430.22 requires 125% of table FLC for a single continuous-duty motor. 34 x 1.25 = 42.5 A.
+      ref: NEC 2023 430.22
+    - id: EA3-C02-Q05
+      type: single
+      q: For the same 25 hp, 460 V motor (FLC 34 A), what is the maximum standard inverse-time breaker size using Table 430.52 and the next-size-up exception?
+      choices:
+        - 60 A
+        - 90 A
+        - 80 A
+        - 125 A
+      answer: 1
+      explanation: 34 x 250% = 85 A. 85 A is not a standard size, so 430.52(C)(1) Exception No. 1 permits the next standard size, 90 A.
+      ref: NEC 2023 Table 430.52, 430.52(C)(1), 240.6(A)
+    - id: EA3-C02-Q06
+      type: single
+      q: A motor has a nameplate FLA of 32 A and a service factor of 1.15. What is the maximum overload setting under the basic rule of 430.32(A)(1)?
+      choices:
+        - 40 A
+        - 36.8 A
+        - 44.8 A
+        - 32 A
+      answer: 0
+      explanation: Motors with a service factor of 1.15 or greater may have overloads set at not more than 125% of nameplate FLA. 32 x 1.25 = 40 A.
+      ref: NEC 2023 430.32(A)(1)
+    - id: EA3-C02-Q07
+      type: single
+      q: A motor nameplate has no service factor marking and a temperature rise above 40 °C. What is the basic maximum overload setting?
+      choices:
+        - 100% of nameplate FLA
+        - 115% of nameplate FLA
+        - 125% of nameplate FLA
+        - 140% of nameplate FLA
+      answer: 1
+      explanation: For motors not marked with SF 1.15 or greater or a temperature rise of 40 °C or less, the basic maximum is 115% of nameplate FLA.
+      ref: NEC 2023 430.32(A)(1)
+    - id: EA3-C02-Q08
+      type: single
+      q: A 460 V feeder supplies a 25 hp motor (FLC 34 A) and a 10 hp motor (FLC 14 A). What is the minimum feeder conductor ampacity (no other loads)?
+      choices:
+        - 48 A
+        - 60 A
+        - 56.5 A
+        - 51.9 A
+      answer: 2
+      explanation: 430.24 requires 125% of the largest motor FLC plus the FLC of the others. (34 x 1.25) + 14 = 42.5 + 14 = 56.5 A.
+      ref: NEC 2023 430.24
+    - id: EA3-C02-Q09
+      type: single
+      q: In a three-wire start/stop circuit, what is the purpose of the normally open auxiliary contact wired in parallel with the START button?
+      choices:
+        - It provides overload protection
+        - It interlocks the reverse contactor
+        - It seals in (holds) the coil after START is released
+        - It grounds the control circuit
+      answer: 2
+      explanation: The auxiliary (seal-in or holding) contact closes when the coil energizes, maintaining the circuit around the momentary START button.
+      ref: Ladder diagrams (EA3-C02 Lesson 3)
+    - id: EA3-C02-Q10
+      type: single
+      q: After a power outage, a motor controlled by a three-wire start/stop station does not restart when power returns. This feature is called
+      choices:
+        - low-voltage release
+        - low-voltage protection
+        - dynamic braking
+        - plugging
+      answer: 1
+      explanation: Three-wire control provides low-voltage protection — the seal-in drops out and the operator must press START again. Two-wire control provides low-voltage release (automatic restart).
+      ref: Ladder diagrams (EA3-C02 Lesson 3)
+    - id: EA3-C02-Q11
+      type: multi
+      q: Which features prevent both contactors of a reversing starter from closing at the same time? (Select all that apply.)
+      choices:
+        - Mechanical interlock between the contactors
+        - Normally closed auxiliary contacts of each contactor in series with the opposite coil
+        - A larger overload relay
+        - Double-circuit pushbuttons whose NC contacts break the opposite circuit
+      answer: [0, 1, 3]
+      explanation: Mechanical, electrical (auxiliary contact) and pushbutton interlocks all prevent simultaneous closure, which would short two phases. Overload size has nothing to do with it.
+      ref: Forward/reverse control (EA3-C02 Lesson 3)
+    - id: EA3-C02-Q12
+      type: single
+      q: The control circuit of a starter has a grounded X2 conductor. Where should the stop/start buttons be connected?
+      choices:
+        - On the ungrounded (X1) side, with the coil connected to the grounded side
+        - On the grounded (X2) side, between the coil and X2
+        - Either side; it makes no difference
+        - In the 480 V power circuit
+      answer: 0
+      explanation: Placing control devices on the ungrounded side ensures a ground fault in the control wiring opens the control fuse rather than energizing the coil and starting the motor.
+      ref: NEC 2023 430.74 (concept)
+    - id: EA3-C02-Q13
+      type: single
+      q: A VFD's input current rating is 40 A. What is the minimum ampacity of the conductors supplying the drive?
+      choices:
+        - 40 A
+        - 46 A
+        - 70 A
+        - 50 A
+      answer: 3
+      explanation: 430.122(A) requires conductors supplying power conversion equipment to have an ampacity of at least 125% of the equipment's rated input current. 40 x 1.25 = 50 A.
+      ref: NEC 2023 430.122(A)
+    - id: EA3-C02-Q14
+      type: single
+      q: A motor on a new VFD turns the wrong direction. Which correction is valid?
+      choices:
+        - Swap two input leads (L1/L2) on the drive while energized
+        - Swap two input leads with the drive de-energized
+        - Change the drive's direction parameter or swap two output leads with the drive de-energized and verified
+        - Reverse the DC bus connections
+      answer: 2
+      explanation: The rectifier is insensitive to input phase sequence, so swapping input leads does not change motor rotation. Change the direction parameter, or swap two output (T) leads after de-energizing, waiting the discharge time and verifying.
+      ref: VFD setup (EA3-C02 Lesson 4)
+    - id: EA3-C02-Q15
+      type: multi
+      q: Before touching conductors inside a VFD enclosure, which steps are required? (Select all that apply.)
+      choices:
+        - Open and lock out the drive's disconnecting means
+        - Press STOP on the keypad and consider the drive safe once the display goes dark
+        - Wait at least the manufacturer's stated capacitor discharge time
+        - Verify the meter on a known source, measure DC bus voltage, and retest the meter
+      answer: [0, 2, 3]
+      explanation: The keypad STOP is not an isolation point and a dark display does not mean the DC bus is discharged. Lock out, wait the marked discharge time, and measure the bus with a verified meter.
+      ref: VFD stored energy (EA3-C02 Lesson 4); NFPA 70E (2024) Article 120

@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+<h1>My team</h1>
+<input type="search" class="filter" data-filter="#team-table" placeholder="Filter by name or grade…">
+<table class="table" id="team-table">
+  <tr><th>Technician</th><% if (user.role === 'owner') { %><th>Company</th><% } %><th>Grade</th><th>Working on</th><th>Progress</th><th>Courses</th><th>Exam</th><th>Hours</th><th>Skills</th><th></th></tr>
+  <% techs.forEach(function (t) { %>
+  <tr>
+    <td><a href="/team/<%= t.id %>"><%= t.name %></a><% if (t.employee_id) { %> <span class="muted small">#<%= t.employee_id %></span><% } %></td>
+    <% if (user.role === 'owner') { %><td><%= t.org_name %></td><% } %>
+    <td><%= t.current_level_code || '—' %></td>
+    <td><%= t.working ? t.working.code : 'Complete' %></td>
+    <% if (t.lp) { %>
+    <td><span class="bar inline"><span style="width: <%= t.lp.percent %>%"></span></span> <%= t.lp.percent %>%</td>
+    <td><%= t.lp.coursesPassed %>/<%= t.lp.courses.length %></td>
+    <td><%= t.lp.exam.passed ? '✓' : (t.lp.exam.bestScore != null ? t.lp.exam.bestScore + '%' : '—') %></td>
+    <td><%= t.lp.hours.approved %>/<%= t.lp.hours.required %></td>
+    <td><%= t.lp.skillsPassed %>/<%= t.lp.skills.length %></td>
+    <td><% if (t.lp.readyForPromotion) { %><span class="pill ok">Ready</span><% } %></td>
+    <% } else { %><td colspan="6"></td><% } %>
+  </tr>
+  <% }) %>
+</table>
+<% if (!techs.length) { %><p class="muted">No technicians yet. <% if (user.role !== 'evaluator') { %><a href="/admin/users">Add users</a>.<% } %></p><% } %>
+<%- include('partials/footer') %>

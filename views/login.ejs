@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+<section class="auth-card card">
+  <h1>Sign in</h1>
+  <p class="muted">Technician training, testing and skills records.</p>
+  <% if (error) { %><div class="flash error"><%= error %></div><% } %>
+  <form method="post" action="/login">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <input type="hidden" name="next" value="<%= next %>">
+    <label>Email <input type="email" name="email" value="<%= email %>" required autofocus autocomplete="username"></label>
+    <label>Password <input type="password" name="password" required autocomplete="current-password"></label>
+    <button class="btn primary wide">Sign in</button>
+  </form>
+  <p class="muted small">Forgot your password? Ask your company administrator to reset it.</p>
+</section>
+<%- include('partials/footer') %>

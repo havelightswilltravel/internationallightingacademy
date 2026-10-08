@@ -1,0 +1,75 @@
+<%- include('partials/header') %>
+<% if (user.role === 'technician') { %>
+  <section class="hero card">
+    <div>
+      <p class="eyebrow">Your grade</p>
+      <h1><%= current ? current.code + ' — ' + current.title : 'Not yet graded' %></h1>
+      <% if (payRate != null) { %><p class="muted">Pay rate at this grade: <strong><%= money(payRate) %>/hr</strong><% if (nextPayRate != null) { %> · next grade: <strong><%= money(nextPayRate) %>/hr</strong><% } %></p><% } %>
+    </div>
+    <% if (working) { %>
+    <div class="ring" style="--p: <%= lp.percent %>"><span><%= lp.percent %>%</span><small>to <%= working.code %></small></div>
+    <% } %>
+  </section>
+
+  <% if (!working) { %>
+    <section class="card"><h2>🎉 Program complete</h2><p>You have completed every level in the program.</p></section>
+  <% } else { %>
+  <div class="grid two">
+    <section class="card">
+      <h2>Working on: <a href="/levels/<%= working.code %>"><%= working.code %> — <%= working.title %></a></h2>
+      <%- include('partials/progress', { lp: lp }) %>
+      <% if (lp.readyForPromotion) { %><div class="flash success">All requirements met — your evaluator can now approve your promotion.</div><% } %>
+    </section>
+    <section class="card">
+      <h2>Next steps</h2>
+      <ul class="steps">
+        <% if (nextLesson) { %><li>📖 Continue: <a href="/lessons/<%= nextLesson.id %>"><%= nextLesson.title %></a> <span class="muted">(<%= nextLesson.course_title %>)</span></li><% } %>
+        <% lp.courses.filter(function (c) { return c.hasQuiz && !c.quizPassed && c.lessonsDone >= c.lessonsTotal; }).slice(0, 2).forEach(function (c) { %>
+          <li>📝 Take the quiz: <a href="/courses/<%= c.code %>"><%= c.title %></a></li>
+        <% }) %>
+        <% if (lp.exam.eligible) { %><li>🎓 You're eligible for the <a href="/levels/<%= working.code %>">level final exam</a>.</li><% } %>
+        <% if (!lp.hours.met) { %><li>⏱️ <a href="/hours">Log on-the-job hours</a> — <%= lp.hours.approved %> of <%= lp.hours.required %> approved<% if (lp.hours.pending) { %>, <%= lp.hours.pending %> pending<% } %>.</li><% } %>
+        <% var pend = lp.skills.filter(function (s) { return s.status !== 'pass'; }); if (pend.length) { %><li>🛠️ <%= pend.length %> hands-on skill<%= pend.length > 1 ? 's' : '' %> to demonstrate for your evaluator — <a href="/levels/<%= working.code %>#skills">see the checklist</a>.</li><% } %>
+      </ul>
+    </section>
+  </div>
+  <% } %>
+
+  <% if (recent.length) { %>
+  <section class="card">
+    <h2>Recent tests</h2>
+    <table class="table">
+      <tr><th>Test</th><th>Score</th><th>Result</th><th>Date</th></tr>
+      <% recent.forEach(function (a) { %>
+      <tr><td><a href="/exams/<%= a.id %>/result"><%= a.target_title %></a> <span class="muted small"><%= a.kind === 'level' ? 'Final exam' : 'Quiz' %></span></td>
+        <td><%= a.score %>%</td><td><span class="pill <%= a.passed ? 'ok' : 'bad' %>"><%= a.passed ? 'Passed' : 'Not passed' %></span></td><td><%= fmtDate(a.submitted_at) %></td></tr>
+      <% }) %>
+    </table>
+  </section>
+  <% } %>
+<% } else { %>
+  <h1>Dashboard</h1>
+  <div class="grid stats">
+    <% if (user.role === 'owner') { %><a class="stat card" href="/platform/orgs"><b><%= orgCount %></b><span>Licensed companies</span></a><% } %>
+    <a class="stat card" href="/team"><b><%= techCount %></b><span>Active technicians</span></a>
+    <a class="stat card" href="/approvals"><b><%= pendingHours %></b><span>Hour entries awaiting approval</span></a>
+    <a class="stat card" href="/team"><b><%= ready.length %></b><span>Ready for promotion</span></a>
+  </div>
+  <div class="grid two">
+    <section class="card">
+      <h2>Technicians by grade</h2>
+      <table class="table">
+        <tr><td>Not yet graded</td><td class="num"><%= ungraded %></td></tr>
+        <% byLevel.forEach(function (l) { %><tr><td><%= l.code %> — <%= l.title %></td><td class="num"><%= l.n %></td></tr><% }) %>
+      </table>
+    </section>
+    <section class="card">
+      <h2>Ready for promotion</h2>
+      <% if (!ready.length) { %><p class="muted">Nobody yet. Technicians appear here once every requirement for their level is met.</p><% } %>
+      <ul class="steps">
+        <% ready.forEach(function (r) { %><li><a href="/team/<%= r.tech.id %>"><%= r.tech.name %></a> → <%= r.level.code %> <%= r.level.title %></li><% }) %>
+      </ul>
+    </section>
+  </div>
+<% } %>
+<%- include('partials/footer') %>

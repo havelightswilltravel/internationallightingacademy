@@ -1,0 +1,10 @@
+<%# expects: lp (level progress) %>
+<div class="checks">
+  <% lp.checks.forEach(function (c) { %>
+  <div class="check <%= c.met ? 'met' : '' %>">
+    <span class="tick"><%= c.met ? '✓' : '○' %></span>
+    <span class="label"><%= c.label %></span>
+    <span class="bar"><span style="width: <%= Math.round(c.ratio * 100) %>%"></span></span>
+  </div>
+  <% }) %>
+</div>

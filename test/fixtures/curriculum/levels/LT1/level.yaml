@@ -1,0 +1,18 @@
+code: LT1
+track: LIGHTING
+order: 1
+title: Level LT1
+grade: Grade
+description: Test level
+outcomes: [Do things]
+requirements:
+  course_pass_score: 80
+  final_exam: { pass_score: 80, questions: 3, time_limit_minutes: 30 }
+  min_ojt_hours: 8
+skills:
+  - code: LT1-S01
+    title: Safe skill
+    category: Safety
+    critical: true
+    description: Do it safely
+    criteria: [Wears PPE, Verifies absence of voltage]

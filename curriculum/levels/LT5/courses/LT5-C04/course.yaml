@@ -1,0 +1,183 @@
+code: LT5-C04
+title: Emerging Lighting Technology
+order: 4
+estimated_hours: 7
+description: >
+  Introduces technologies that CALTs increasingly encounter and must explain to customers:
+  Power over Ethernet and low-voltage DC lighting, tunable white and circadian-oriented
+  lighting, UV-C germicidal systems and their hazards, IoT sensors and cybersecurity, solar and
+  off-grid lighting, smart-city outdoor lighting networks, and Li-Fi. Content focuses on
+  well-established facts and safe field practice. Because these technologies change quickly,
+  this course must be reviewed by an SME at least annually.
+objectives:
+  - Explain PoE lighting architecture, IEEE power classes, switch power budgets and cabling considerations
+  - Describe how tunable white systems are controlled and the established concepts behind circadian-oriented lighting
+  - Identify UV-C hazards and apply safe service procedures, including LOTO and interlock protection
+  - Apply basic cybersecurity and privacy practices to networked lighting and IoT sensors
+  - Troubleshoot solar/off-grid lighting safely, recognizing PV and battery hazards
+  - Describe smart-city lighting interfaces and Li-Fi, and evaluate new products with a consistent checklist
+lessons:
+  - 01-poe-and-low-voltage-dc-lighting.md
+  - 02-tunable-white-and-circadian-lighting.md
+  - 03-uv-c-disinfection-safety.md
+  - 04-iot-solar-smart-city-and-lifi.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT5-C04-Q01
+      type: single
+      q: In a PoE lighting system, what is the PSE?
+      choices:
+        - The LED luminaire being powered
+        - The power sourcing equipment, usually a PoE network switch
+        - The patch panel
+        - The Category cable
+      answer: 1
+      explanation: Power sourcing equipment (PSE) supplies power; powered devices (PDs) such as luminaires and sensors receive it.
+      ref: IEEE 802.3
+    - id: LT5-C04-Q02
+      type: single
+      q: Which IEEE standard and type provides up to 90 W at the PSE port (about 71 W available at the powered device)?
+      choices:
+        - IEEE 802.3af Type 1
+        - IEEE 802.3at Type 2
+        - IEEE 802.3bt Type 4
+        - IEEE 802.3bt Type 3
+      answer: 2
+      explanation: 802.3bt Type 4 provides up to 90 W at the PSE and 71.3 W at the PD. Type 3 is 60 W at the PSE.
+      ref: IEEE 802.3bt
+    - id: LT5-C04-Q03
+      type: single
+      q: A 48-port PoE switch has a 740 W total power budget. Forty luminaires drawing 25 W each are connected. What is the likely result?
+      choices:
+        - Some ports will not power or will shut off because the 1,000 W load exceeds the budget
+        - All fixtures work because each port is rated 30 W
+        - The switch automatically draws more power from the outlet
+        - Fixtures will run brighter
+      answer: 0
+      explanation: 40 x 25 W = 1,000 W, which exceeds the 740 W budget. Per-port ratings do not matter if the total budget is exceeded.
+    - id: LT5-C04-Q04
+      type: multi
+      q: Which are good cabling practices for PoE lighting? (Select all that apply.)
+      choices:
+        - Use solid copper Category cable rather than copper-clad aluminum
+        - Keep channels within 100 m including patch cords
+        - Bundle as many cables as possible tightly to save space
+        - Label both ends with fixture ID and switch port
+      answer: [0, 1, 3]
+      explanation: Large tight bundles carrying power raise conductor temperature; the NEC limits ampacity for bundled cables carrying power. CCA cable has higher resistance and is not standards-compliant for Category cabling.
+    - id: LT5-C04-Q05
+      type: single
+      q: A building's PoE switches are on a UPS. Does that by itself make the PoE luminaires code-compliant emergency lighting?
+      choices:
+        - Yes, any battery backup counts as emergency lighting
+        - Yes, if the UPS lasts at least 30 minutes
+        - Only if the fixtures are 4000 K
+        - No; emergency lighting requires a listed, engineered design that meets NFPA 101 and the NEC and is accepted by the AHJ
+      answer: 3
+      explanation: Emergency lighting must meet code requirements for duration, illumination, equipment listing and circuit design. A UPS on a network switch is not automatically compliant.
+      ref: NFPA 101; NEC Article 700
+    - id: LT5-C04-Q06
+      type: single
+      q: A tunable-white fixture stays at one color temperature but dims normally. What is the most likely cause?
+      choices:
+        - The LED chips have reached L70
+        - A missing, reversed or misaddressed CCT control channel or group
+        - The branch circuit voltage is too high
+        - The fixture is dim-to-warm
+      answer: 1
+      explanation: Tunable fixtures use separate control of level and CCT. If level works but CCT does not, check the CCT channel wiring, address or grouping.
+    - id: LT5-C04-Q07
+      type: single
+      q: Which statement about circadian-oriented lighting is most accurate?
+      choices:
+        - Any fixture set to 6500 K will improve occupants' health
+        - CCT alone fully determines circadian effect
+        - Effects depend on light reaching the eye, spectrum, timing and duration; CCT alone is an imperfect proxy
+        - Circadian lighting only matters at night
+      answer: 2
+      explanation: Melanopic response depends on spectral content at the eye, intensity, timing and duration. Two sources with the same CCT can differ in melanopic content. Avoid health claims.
+      ref: CIE S 026
+    - id: LT5-C04-Q08
+      type: single
+      q: What is the primary wavelength of a conventional low-pressure mercury germicidal lamp?
+      choices:
+        - 254 nm
+        - 365 nm
+        - 405 nm
+        - 222 nm
+      answer: 0
+      explanation: Low-pressure mercury germicidal lamps emit mainly at 254 nm. 222 nm is krypton-chloride excimer (far-UVC); 365 and 405 nm are UV-A/visible violet.
+    - id: LT5-C04-Q09
+      type: single
+      q: Why is UV-C exposure especially dangerous to technicians?
+      choices:
+        - It causes immediate pain so people overreact
+        - It is invisible and eye and skin injuries often appear hours later without immediate warning
+        - It only affects people with light-colored eyes
+        - It is only hazardous through glass
+      answer: 1
+      explanation: UV-C is invisible and photokeratitis and erythema are typically delayed, so a worker may not realize they are being exposed.
+    - id: LT5-C04-Q10
+      type: single
+      q: An air handler's UV-C lamp interlock turns the lamps off when the door opens. A coworker suggests taping the switch so the lamps stay on for testing. What should you do?
+      choices:
+        - Tape it briefly and avoid looking directly at the lamps
+        - Tape it and wear sunglasses
+        - Remove the interlock permanently to save time on future visits
+        - Refuse; never defeat interlocks, and follow LOTO for both the UV system and the air handler, using a UV meter or indicator to verify operation from a safe position
+      answer: 3
+      explanation: Interlocks protect against UV and mechanical hazards. Operation should be verified with appropriate instruments without exposing anyone.
+    - id: LT5-C04-Q11
+      type: multi
+      q: Which are recommended cybersecurity practices when commissioning networked lighting? (Select all that apply.)
+      choices:
+        - Change default passwords to unique credentials
+        - Place the lighting system on an IT-approved network segment
+        - Write the admin password on the gateway for convenience
+        - Install current firmware in coordination with the owner's IT
+      answer: [0, 1, 3]
+      explanation: Default or posted credentials are a common entry point for attackers. Segmentation and current firmware reduce risk.
+    - id: LT5-C04-Q12
+      type: single
+      q: Before disconnecting wiring on a solar-powered area light during the day, what should you do?
+      choices:
+        - Turn off the LED with the controller; the panel is then dead
+        - Wait until the battery is drained
+        - Cover the PV module or follow the manufacturer's isolation procedure, verify absence of voltage with a DC-rated meter, and never disconnect under load
+        - Disconnect the module connectors quickly while the light is on
+      answer: 2
+      explanation: PV modules produce voltage whenever illuminated. DC arcs are hard to extinguish, so connectors must not be opened under load.
+      ref: NEC Article 690
+    - id: LT5-C04-Q13
+      type: single
+      q: A solar parking lot light turns off a little earlier each night over several months, even in summer. What is the most likely cause?
+      choices:
+        - Battery capacity loss from aging
+        - The LED CCT has shifted
+        - The photocell is too sensitive
+        - The pole is grounded
+      answer: 0
+      explanation: Gradually shorter run times with adequate sun point to a battery losing capacity. Also check for new shading and dirty panels.
+    - id: LT5-C04-Q14
+      type: single
+      q: Which ANSI standard defines the 5-pin and 7-pin streetlight receptacles that add dimming contacts for networked control nodes?
+      choices:
+        - ANSI C136.10
+        - ANSI Z535
+        - ANSI A92.22
+        - ANSI C136.41
+      answer: 3
+      explanation: ANSI C136.41 adds dimming contacts to the locking-type receptacle. C136.10 covers the basic 3-pin photocontrol receptacle. Z535 covers safety signs; A92.22 covers MEWPs.
+    - id: LT5-C04-Q15
+      type: single
+      q: Which is a key limitation of Li-Fi compared with Wi-Fi?
+      choices:
+        - It uses licensed radio spectrum
+        - It needs a line-of-sight or reflected light path and is blocked by people and objects
+        - It passes through walls, reducing security
+        - It cannot carry data
+      answer: 1
+      explanation: Li-Fi uses modulated light (often including infrared). Light does not pass through walls, which helps security but requires a clear optical path.
+      ref: IEEE 802.11bb

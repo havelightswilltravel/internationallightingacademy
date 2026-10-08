@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+<section class="card result <%= attempt.passed ? 'pass' : 'fail' %>">
+  <h1><%= info.title %></h1>
+  <p class="score"><%= attempt.score %>%</p>
+  <p><span class="pill <%= attempt.passed ? 'ok' : 'bad' %>"><%= attempt.passed ? 'PASSED' : 'NOT PASSED' %></span> · Passing score <%= attempt.pass_score %>% · Submitted <%= fmtDate(attempt.submitted_at) %></p>
+  <% if (attempt.note) { %><p class="flash error"><%= attempt.note %></p><% } %>
+  <p><a class="btn" href="<%= info.back %>">Back</a></p>
+</section>
+<% if (review) { %>
+<section class="card">
+  <h2>Review</h2>
+  <% review.forEach(function (q) { %>
+  <div class="review <%= q.correct ? 'right' : 'wrong' %>">
+    <p><strong><%= q.n %>. <%= q.correct ? '✓' : '✗' %></strong> <%= q.prompt %></p>
+    <ul>
+      <% q.choices.forEach(function (c) { %>
+      <li class="<%= c.isAnswer ? 'answer' : '' %> <%= c.picked && !c.isAnswer ? 'picked-wrong' : '' %>"><%= c.text %><%= c.isAnswer ? ' ✓' : '' %><%= c.picked ? ' (your answer)' : '' %></li>
+      <% }) %>
+    </ul>
+    <% if (q.explanation) { %><p class="small"><strong>Why:</strong> <%= q.explanation %></p><% } %>
+    <% if (q.ref) { %><p class="small muted">Reference: <%= q.ref %></p><% } %>
+  </div>
+  <% }) %>
+</section>
+<% } else { %>
+<section class="card"><p class="muted">Final exam answer keys are not shown, to protect the exam. Review the course quizzes for the topics you found difficult, and ask your evaluator to go over your results with you.</p></section>
+<% } %>
+<%- include('partials/footer') %>

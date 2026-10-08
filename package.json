@@ -1,0 +1,30 @@
+{
+  "name": "international-lighting-academy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lighting technician to journeyman electrician training platform (multi-company LMS)",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "import-curriculum": "node --disable-warning=ExperimentalWarning scripts/import-curriculum.js",
+    "validate-curriculum": "node --disable-warning=ExperimentalWarning scripts/validate-curriculum.js",
+    "seed-demo": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js",
+    "create-owner": "node --disable-warning=ExperimentalWarning scripts/create-owner.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ejs": "^7.0.1",
+    "express": "^4.22.3",
+    "express-session": "^1.19.0",
+    "helmet": "^8.3.0",
+    "js-yaml": "^5.4.3",
+    "marked": "^18.1.0",
+    "multer": "^2.4.0",
+    "sanitize-html": "^2.18.0"
+  }
+}

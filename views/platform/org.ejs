@@ -1,0 +1,33 @@
+<%- include('../partials/header') %>
+<p class="crumbs"><a href="/platform/orgs">Companies</a> › <%= org.name %></p>
+<div class="grid two">
+  <section class="card">
+    <h1><%= org.name %></h1>
+    <form method="post" action="/platform/orgs/<%= org.id %>">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <label>Name <input name="name" value="<%= org.name %>" required></label>
+      <div class="grid two">
+        <label>Status <select name="status"><option value="active" <%= org.status === 'active' ? 'selected' : '' %>>active</option><option value="suspended" <%= org.status === 'suspended' ? 'selected' : '' %>>suspended</option></select></label>
+        <label>Plan <input name="plan" value="<%= org.plan %>"></label>
+      </div>
+      <div class="grid two">
+        <label>Technician seats <input type="number" min="0" name="license_seats" value="<%= org.license_seats %>"></label>
+        <label>License expires <input type="date" name="license_expires_at" value="<%= org.license_expires_at || '' %>"></label>
+      </div>
+      <div class="grid two">
+        <label>Billing contact <input name="contact_name" value="<%= org.contact_name || '' %>"></label>
+        <label>Contact email <input type="email" name="contact_email" value="<%= org.contact_email || '' %>"></label>
+      </div>
+      <label>Notes <textarea name="notes" rows="3"><%= org.notes || '' %></textarea></label>
+      <button class="btn primary">Save</button>
+      <a class="btn" href="/admin/users?org=<%= org.id %>">Manage users</a>
+    </form>
+  </section>
+  <section class="card">
+    <h2>Users (<%= users.length %>)</h2>
+    <table class="table small"><% users.forEach(function (u) { %><tr class="<%= u.active ? '' : 'inactive' %>"><td><%= u.name %></td><td><%= u.role %></td><td><%= u.current_level_code || '' %></td><td><%= fmtDate(u.last_login_at) %></td></tr><% }) %></table>
+    <h2>Recent activity</h2>
+    <table class="table small"><% activity.forEach(function (a) { %><tr><td class="nowrap"><%= fmtDate(a.created_at) %></td><td><%= a.name || '' %></td><td><%= a.action %></td></tr><% }) %></table>
+  </section>
+</div>
+<%- include('../partials/footer') %>

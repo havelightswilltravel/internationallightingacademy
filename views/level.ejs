@@ -1,0 +1,73 @@
+<%- include('partials/header') %>
+<p class="crumbs"><a href="/levels">Program</a> › <%= level.code %></p>
+<section class="card">
+  <p class="eyebrow"><%= level.grade %> · <%= access === 'completed' ? 'Achieved' : access === 'current' ? 'Your current level' : 'Locked — complete the previous level first' %></p>
+  <h1><%= level.code %> — <%= level.title %></h1>
+  <p><%= level.description %></p>
+  <% if (outcomes.length) { %>
+  <h3>When you complete this level you will be able to:</h3>
+  <ul><% outcomes.forEach(function (o) { %><li><%= o %></li><% }) %></ul>
+  <% } %>
+</section>
+
+<% if (user.role === 'technician' && access !== 'locked') { %>
+<section class="card">
+  <h2>Requirements <span class="muted small"><%= lp.percent %>% complete</span></h2>
+  <%- include('partials/progress', { lp: lp }) %>
+</section>
+<% } %>
+
+<section class="card">
+  <h2>Courses</h2>
+  <table class="table">
+    <tr><th>Course</th><th>Lessons</th><th>Quiz</th></tr>
+    <% lp.courses.forEach(function (c) { %>
+    <tr>
+      <td><a href="/courses/<%= c.code %>"><%= c.code %> — <%= c.title %></a></td>
+      <td><%= c.lessonsDone %>/<%= c.lessonsTotal %></td>
+      <td><% if (!c.hasQuiz) { %><span class="muted">—</span><% } else if (c.quizPassed) { %><span class="pill ok">Passed <%= c.bestScore %>%</span><% } else if (c.bestScore != null) { %><span class="pill bad">Best <%= c.bestScore %>%</span><% } else { %><span class="muted">Not taken</span><% } %></td>
+    </tr>
+    <% }) %>
+  </table>
+</section>
+
+<section class="card">
+  <h2>Level final exam</h2>
+  <p><%= level.exam_questions %> questions drawn from every course in this level · <%= level.exam_time_limit %> minute time limit · <%= level.exam_pass_score %>% to pass. If you don't pass, you can retake it after 24 hours.</p>
+  <% if (user.role === 'technician' && access === 'current') { %>
+    <% if (lp.exam.passed) { %>
+      <p><span class="pill ok">Passed — <%= lp.exam.bestScore %>%</span></p>
+    <% } else if (openExam) { %>
+      <a class="btn primary" href="/exams/<%= openExam.id %>">Resume final exam</a>
+    <% } else if (lp.exam.eligible) { %>
+      <form method="post" action="/exams/start" data-confirm="Start the timed final exam now? The timer starts immediately.">
+        <input type="hidden" name="_csrf" value="<%= csrf %>"><input type="hidden" name="kind" value="level"><input type="hidden" name="code" value="<%= level.code %>">
+        <button class="btn primary">Start final exam</button>
+      </form>
+    <% } else if (lp.exam.cooldownUntil) { %>
+      <p class="muted">Retake available after <%= lp.exam.cooldownUntil.toLocaleString() %>. Best score so far: <%= lp.exam.bestScore %>%.</p>
+    <% } else { %>
+      <p class="muted">Pass every course quiz in this level to unlock the final exam.</p>
+    <% } %>
+  <% } %>
+</section>
+
+<section class="card" id="skills">
+  <h2>Hands-on skills assessment</h2>
+  <p class="muted">Each skill must be demonstrated on the job or in the shop and signed off by a qualified evaluator. Critical skills (⚠) must be performed with zero safety deviations.</p>
+  <% lp.skills.forEach(function (s) { %>
+  <details class="skill">
+    <summary>
+      <span class="pill <%= s.status === 'pass' ? 'ok' : s.status === 'fail' ? 'bad' : '' %>"><%= s.status === 'pass' ? 'Passed' : s.status === 'fail' ? 'Retry' : 'Pending' %></span>
+      <strong><%= s.code %></strong> <%= s.title %> <% if (s.critical) { %><span title="Critical safety skill">⚠</span><% } %>
+      <span class="muted small"><%= s.category %></span>
+    </summary>
+    <p><%= s.description %></p>
+    <% if (s.equipment.length) { %><p class="small"><strong>Equipment:</strong> <%= s.equipment.join(', ') %></p><% } %>
+    <p class="small"><strong>The evaluator will check that you:</strong></p>
+    <ul class="small"><% s.criteria.forEach(function (c) { %><li><%= c %></li><% }) %></ul>
+    <% if (s.result) { %><p class="small muted">Last assessed <%= fmtDate(s.assessed_at) %> by <%= s.evaluator_name %><% if (s.signoff_notes) { %>: “<%= s.signoff_notes %>”<% } %></p><% } %>
+  </details>
+  <% }) %>
+</section>
+<%- include('partials/footer') %>

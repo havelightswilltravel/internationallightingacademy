@@ -1,0 +1,179 @@
+code: LT5-C02
+title: Commissioning & Functional Testing
+order: 2
+estimated_hours: 8
+description: >
+  Teaches the lighting commissioning process from owner requirements through turnover.
+  Technicians learn to complete pre-functional checklists, write and execute functional
+  performance tests for occupancy, daylight, scheduling, manual and emergency lighting control
+  sequences, manage an issues log to closure, assemble closeout documentation and deliver
+  effective owner training.
+objectives:
+  - Explain the purpose, phases, documents and roles of the commissioning process
+  - Complete pre-functional checklists and correct installation issues safely under LOTO
+  - Write functional performance tests with defined actions, expected results and tolerances from a sequence of operations
+  - Execute functional tests for occupancy, daylight, scheduling, manual and emergency lighting controls
+  - Track deficiencies to verified closure and assemble a complete closeout package
+  - Plan and deliver hands-on owner training
+lessons:
+  - 01-the-commissioning-process.md
+  - 02-prefunctional-checks-and-fpt-design.md
+  - 03-testing-control-sequences.md
+  - 04-deficiencies-documentation-and-owner-training.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT5-C02-Q01
+      type: single
+      q: What is the primary goal of lighting commissioning?
+      choices:
+        - To confirm every fixture lights up when switched on
+        - To verify and document that the system meets the owner's requirements and code under real operating conditions
+        - To program the networked controls for the first time
+        - To obtain the electrical permit
+      answer: 1
+      explanation: Commissioning verifies and documents that systems are installed, tested and operate to meet the owner's project requirements and applicable code, not just that lights turn on.
+      ref: ASHRAE Standard 202
+    - id: LT5-C02-Q02
+      type: single
+      q: Which document defines exactly how lighting controls should behave in each space type and is used to set expected results for functional tests?
+      choices:
+        - Fixture schedule
+        - Panel schedule
+        - Sequence of operations
+        - Warranty certificate
+      answer: 2
+      explanation: The sequence of operations is the controls "script." Functional test expected results come from it.
+    - id: LT5-C02-Q03
+      type: single
+      q: Why are pre-functional checklists completed before functional performance testing?
+      choices:
+        - To confirm devices are installed, wired, addressed and online so testing is not wasted on incomplete work
+        - Because codes prohibit functional testing on weekdays
+        - They replace functional testing on small projects
+        - To calculate energy savings
+      answer: 0
+      explanation: Pre-functional verification confirms installation completeness. Testing an incomplete system wastes time and produces meaningless failures.
+    - id: LT5-C02-Q04
+      type: single
+      q: A pre-functional check finds a miswired 0-10V lead inside a power pack enclosure that also contains line-voltage connections. What is the correct way to fix it?
+      choices:
+        - Fix it live since 0-10V is Class 2 and low voltage
+        - Use a non-contact tester on the purple wire and proceed if it does not beep
+        - Apply LOTO to the power circuit, verify absence of voltage live-dead-live, then correct the wiring
+        - Ask the owner to switch the lights off at the wall station, then fix it
+      answer: 2
+      explanation: The enclosure contains line-voltage conductors. Treat it as energized until LOTO is applied and absence of voltage is verified with a tested meter. A wall switch is not an isolating device for LOTO.
+      ref: NFPA 70E; OSHA 29 CFR 1910.147 / 1910.333
+    - id: LT5-C02-Q05
+      type: single
+      q: Which is the best-written functional test step?
+      choices:
+        - Check that the sensor works.
+        - Exit the office and start timer. Expected - lights turn off at 15 minutes, +/- 1 minute.
+        - Test lights and sensors and daylight.
+        - Verify everything per specs.
+      answer: 1
+      explanation: A good step has a clear action, one expected result and a defined tolerance, so pass/fail is objective.
+    - id: LT5-C02-Q06
+      type: single
+      q: Occupants in a private office report lights turning off while they are seated and typing. Which is the most likely cause?
+      choices:
+        - The daylight sensor is uncalibrated
+        - The schedule is in the wrong time zone
+        - The emergency transfer device failed
+        - A PIR sensor cannot detect small motions at the desk, or sensitivity/time delay is set too low
+      answer: 3
+      explanation: PIR sensors need line-of-sight and detect small motion poorly at range. Relocating, using dual-technology, or adjusting sensitivity and delay are typical fixes.
+    - id: LT5-C02-Q07
+      type: single
+      q: Lights in an open office cycle on and off randomly near an HVAC supply diffuser. Which sensor type is most often responsible?
+      choices:
+        - Ultrasonic
+        - Photocell
+        - Astronomical time clock
+        - Passive infrared with masked lens
+      answer: 0
+      explanation: Ultrasonic sensors detect motion through Doppler shift and can be triggered by moving air from diffusers. Relocate or reduce sensitivity.
+    - id: LT5-C02-Q08
+      type: multi
+      q: Which steps are part of a proper daylight-zone functional test? (Select all that apply.)
+      choices:
+        - Measure illuminance at the task surface with and without daylight
+        - Cover the photosensor (or simulate) and verify fixtures ramp up
+        - Verify interior (non-daylight) fixtures also dim with daylight
+        - Watch for hunting/cycling and adjust deadband or fade rate if needed
+      answer: [0, 1, 3]
+      explanation: Daylight tests verify measured response, correct direction and stability. Interior fixtures outside the daylight zone should not dim with daylight.
+    - id: LT5-C02-Q09
+      type: single
+      q: Controlled emergency fixtures are dimmed to 20% by the normal control system. What must happen when normal power to that area is lost?
+      choices:
+        - They stay at 20% to save battery life
+        - They turn off until normal power returns
+        - They go to their required emergency output regardless of the control state, typically via a UL 924 listed control device
+        - They flash to signal the outage
+      answer: 2
+      explanation: Emergency lighting must provide required egress illumination on loss of normal power regardless of the normal control state. UL 924 listed devices such as emergency lighting transfer devices or shunt relays accomplish this.
+      ref: UL 924; NFPA 101; NEC Article 700
+    - id: LT5-C02-Q10
+      type: single
+      q: What is the correct way to start an emergency lighting control test on a dimmed zone?
+      choices:
+        - Open the emergency system transfer switch without notifying anyone
+        - Cut the 0-10V control wires
+        - Shut off the main building service
+        - Coordinate with the owner, then open the normal power branch circuit breaker monitored by the transfer device, with someone posted and backup lighting ready
+      answer: 3
+      explanation: The test simulates loss of normal power to the area as the device manufacturer specifies, with owner coordination and measures to protect occupied egress paths.
+    - id: LT5-C02-Q11
+      type: single
+      q: When can a commissioning deficiency be marked closed?
+      choices:
+        - After a retest passes, preferably witnessed
+        - When the vendor emails that it is fixed
+        - At the end of the project regardless of status
+        - When the owner moves in
+      answer: 0
+      explanation: Closure requires verified performance. "Vendor says fixed" is not closure.
+    - id: LT5-C02-Q12
+      type: single
+      q: Which deficiency description is most useful?
+      choices:
+        - Sensor broken in 312.
+        - Lights bad.
+        - Room 312 vacancy sensor - lights turned off 4 minutes after vacating; expected 15 minutes per SOO.
+        - Controls vendor messed up programming again.
+      answer: 2
+      explanation: State location, what was expected and what actually happened, without guessing at cause or assigning blame.
+    - id: LT5-C02-Q13
+      type: multi
+      q: Which items belong in a lighting commissioning closeout package? (Select all that apply.)
+      choices:
+        - Completed and signed functional test forms
+        - Final control settings such as sensor delays, daylight setpoints and schedules
+        - The crew's personal timesheets
+        - Training records and emergency lighting test records
+      answer: [0, 1, 3]
+      explanation: Closeout documents help the owner operate and maintain the system and prove testing was performed. Internal timesheets are not part of it.
+    - id: LT5-C02-Q14
+      type: single
+      q: During a functional test you used the sensor's test mode to shorten time-outs. What must you do afterward?
+      choices:
+        - Nothing; test mode exits automatically on all products
+        - Verify the sensor is out of test mode and the final time delay matches the sequence, and record it
+        - Leave it in test mode so the owner can see it working
+        - Replace the sensor
+      answer: 1
+      explanation: Sensors left in test mode or at the wrong delay are a common deficiency. Always confirm and record final settings.
+    - id: LT5-C02-Q15
+      type: single
+      q: Which owner training approach is most effective?
+      choices:
+        - Email the manufacturer's manual and skip the session
+        - A long generic slide presentation about lighting technology
+        - Training only the building owner, not the operators
+        - Hands-on training on the owner's actual system, with each operator performing tasks, plus a quick reference sheet and documented attendance
+      answer: 3
+      explanation: Operators retain what they practice on their own system. Documenting attendance and leaving a quick reference supports long-term operation.

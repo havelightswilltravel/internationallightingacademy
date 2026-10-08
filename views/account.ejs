@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<section class="card narrow">
+  <h1>My account</h1>
+  <p><strong><%= user.name %></strong> · <%= user.email %></p>
+  <% if (force) { %><div class="flash info">Please set a new password before continuing.</div><% } %>
+  <% if (error) { %><div class="flash error"><%= error %></div><% } %>
+  <h2>Change password</h2>
+  <form method="post" action="/account/password">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <label>Current password <input type="password" name="current" required autocomplete="current-password"></label>
+    <label>New password <input type="password" name="password" required minlength="10" autocomplete="new-password"></label>
+    <label>Confirm new password <input type="password" name="confirm" required minlength="10" autocomplete="new-password"></label>
+    <p class="muted small">At least 10 characters, with letters and numbers.</p>
+    <button class="btn primary">Update password</button>
+  </form>
+</section>
+<%- include('partials/footer') %>

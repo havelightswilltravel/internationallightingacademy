@@ -1,0 +1,58 @@
+<%- include('../partials/header') %>
+<h1>Users <span class="muted small"><%= scopeOrg.name %></span></h1>
+<%- include('../partials/admin-nav') %>
+<p>Technician seats: <strong><%= seats.used %> / <%= seats.total %></strong> used.</p>
+
+<% if (newPasswords) { %>
+<div class="flash info">
+  <strong>Temporary passwords — copy these now, they will not be shown again.</strong> Users must change them at first sign-in.
+  <table class="table small"><% newPasswords.forEach(function (p) { %><tr><td><%= p.name %></td><td><%= p.email %></td><td><code><%= p.password %></code></td></tr><% }) %></table>
+</div>
+<% } %>
+
+<div class="grid two">
+  <section class="card">
+    <h2>Add a user</h2>
+    <form method="post" action="/admin/users">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <label>Full name <input name="name" required></label>
+      <label>Email <input type="email" name="email" required></label>
+      <label>Role <select name="role"><option value="technician">Technician</option><option value="evaluator">Evaluator / Supervisor</option><option value="admin">Company Admin</option></select></label>
+      <label>Employee ID (optional) <input name="employee_id"></label>
+      <button class="btn primary">Add user</button>
+    </form>
+  </section>
+  <section class="card">
+    <h2>Bulk add</h2>
+    <form method="post" action="/admin/users/bulk">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <label>One per line: <code>Name, email, role, employee id</code>
+        <textarea name="lines" rows="6" placeholder="Jane Smith, jane@example.com, technician, 1042&#10;Luis Ortega, luis@example.com, evaluator"></textarea></label>
+      <button class="btn">Add all</button>
+    </form>
+  </section>
+</div>
+
+<section class="card">
+  <h2>All users</h2>
+  <table class="table">
+    <tr><th>Name</th><th>Email</th><th>Role</th><th>Grade</th><th>Emp. ID</th><th>Hire date</th><th>Active</th><th></th></tr>
+    <% users.forEach(function (u) { %>
+    <% var f = 'u' + u.id; %>
+    <tr class="<%= u.active ? '' : 'inactive' %>">
+      <td><input form="<%= f %>" name="name" value="<%= u.name %>"></td>
+      <td class="small"><%= u.email %></td>
+      <td><select form="<%= f %>" name="role"><% ['technician','evaluator','admin'].forEach(function (r) { %><option value="<%= r %>" <%= u.role === r ? 'selected' : '' %>><%= r %></option><% }) %></select></td>
+      <td><% if (u.role === 'technician') { %><a href="/team/<%= u.id %>"><%= u.current_level_code || '—' %></a><% } %></td>
+      <td><input form="<%= f %>" name="employee_id" value="<%= u.employee_id || '' %>" size="6"></td>
+      <td><input form="<%= f %>" type="date" name="hire_date" value="<%= u.hire_date || '' %>"></td>
+      <td><select form="<%= f %>" name="active"><option value="1" <%= u.active ? 'selected' : '' %>>Yes</option><option value="0" <%= u.active ? '' : 'selected' %>>No</option></select></td>
+      <td class="nowrap">
+        <form id="<%= f %>" method="post" action="/admin/users/<%= u.id %>" class="inline"><input type="hidden" name="_csrf" value="<%= csrf %>"><button class="btn small">Save</button></form>
+        <form method="post" action="/admin/users/<%= u.id %>/reset-password" class="inline" data-confirm="Reset password for <%= u.name %>?"><input type="hidden" name="_csrf" value="<%= csrf %>"><button class="btn small">Reset password</button></form>
+      </td>
+    </tr>
+    <% }) %>
+  </table>
+</section>
+<%- include('../partials/footer') %>

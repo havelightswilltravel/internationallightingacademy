@@ -1,0 +1,31 @@
+<%- include('../partials/header') %>
+<p class="crumbs"><a href="/admin/library">Manage library</a> › <%= doc ? 'Edit' : 'New' %></p>
+<section class="card">
+  <h1><%= doc ? 'Edit guide' : 'New guide' %></h1>
+  <form method="post" action="/admin/library" enctype="multipart/form-data">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <% if (doc) { %><input type="hidden" name="id" value="<%= doc.id %>"><% } %>
+    <div class="grid two">
+      <label>Title <input name="title" required value="<%= doc ? doc.title : '' %>"></label>
+      <label>Category <input name="category" list="cats" required value="<%= doc ? doc.category : '' %>" placeholder="led, controls, emergency…"></label>
+    </div>
+    <datalist id="cats"><% ['safety','led','fluorescent','hid','controls','dimming','emergency','exterior','electrical','sop'].forEach(function (c) { %><option value="<%= c %>"><% }) %></datalist>
+    <div class="grid two">
+      <label>Tags (comma separated) <input name="tags" value="<%= doc ? doc.tags : '' %>"></label>
+      <label>Relevant levels (hold Ctrl/Cmd for several)
+        <% var sel = doc ? JSON.parse(doc.levels_json || '[]') : []; %>
+        <select name="levels" multiple size="4"><% ['LT1','LT2','LT3','LT4','LT5','EA1','EA2','EA3','EA4','JW'].forEach(function (l) { %><option <%= sel.indexOf(l) >= 0 ? 'selected' : '' %>><%= l %></option><% }) %></select>
+      </label>
+    </div>
+    <div class="grid two">
+      <label>Last technical review <input type="date" name="last_reviewed" value="<%= doc ? doc.last_reviewed : today() %>"></label>
+      <label>Review every (months) <input type="number" name="review_interval_months" min="1" value="<%= doc ? doc.review_interval_months : 12 %>"></label>
+    </div>
+    <label>Guide content (Markdown — use headings like “## Symptoms”, “## Safety first”, “## Step-by-step diagnosis”)
+      <textarea name="body_md" rows="18" class="mono"><%= doc ? doc.body_md : '' %></textarea></label>
+    <label>Attachment (PDF, Word, Excel, image; a .md or .txt file fills the content if it is empty) <input type="file" name="file"></label>
+    <% if (doc && doc.file_name) { %><p class="small">Current attachment: <a href="<%= doc.file_path %>"><%= doc.file_name %></a></p><% } %>
+    <button class="btn primary">Save guide</button>
+  </form>
+</section>
+<%- include('../partials/footer') %>

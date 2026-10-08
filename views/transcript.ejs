@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+<section class="card transcript">
+  <div class="row-between">
+    <div>
+      <p class="eyebrow">Official training transcript</p>
+      <h1><%= tech.name %></h1>
+      <p class="muted"><%= tech.org_name || '' %><% if (tech.employee_id) { %> · Employee #<%= tech.employee_id %><% } %></p>
+    </div>
+    <button class="btn no-print" data-print>Print / save PDF</button>
+  </div>
+  <p>Current grade: <strong><%= current ? current.code + ' — ' + current.title : 'Not yet graded' %></strong> · Total approved on-the-job hours: <strong><%= totalHours %></strong></p>
+  <% if (!rows.length) { %><p class="muted">No training activity yet.</p><% } %>
+  <% rows.forEach(function (r) { %>
+  <h2><%= r.level.code %> — <%= r.level.title %> <% if (r.lp.promoted) { %><span class="pill ok">Achieved <%= fmtDate(r.lp.promoted.approved_at) %></span><% } else { %><span class="pill"><%= r.lp.percent %>% in progress</span><% } %></h2>
+  <% if (r.lp.promoted) { %><p class="small">Certificate <a href="/verify/<%= r.lp.promoted.certificate_no %>"><%= r.lp.promoted.certificate_no %></a><% if (r.lp.promoted.notes) { %> · <%= r.lp.promoted.notes %><% } %></p><% } %>
+  <table class="table small">
+    <tr><th>Course</th><th>Best quiz score</th></tr>
+    <% r.lp.courses.forEach(function (c) { %><tr><td><%= c.code %> <%= c.title %></td><td><%= c.bestScore != null ? c.bestScore + '%' : '—' %> <%= c.quizPassed ? '✓' : '' %></td></tr><% }) %>
+    <tr><td><strong>Level final exam</strong></td><td><%= r.lp.exam.bestScore != null ? r.lp.exam.bestScore + '%' : '—' %> <%= r.lp.exam.passed ? '✓' : '' %></td></tr>
+    <tr><td><strong>Approved OJT hours</strong></td><td><%= r.lp.hours.approved %> / <%= r.lp.hours.required %></td></tr>
+    <tr><td><strong>Hands-on skills passed</strong></td><td><%= r.lp.skillsPassed %> / <%= r.lp.skills.length %></td></tr>
+  </table>
+  <% }) %>
+  <p class="small muted">Generated <%= fmtDate(new Date()) %>. Verify certificates at /verify/&lt;certificate number&gt;.</p>
+</section>
+<%- include('partials/footer') %>

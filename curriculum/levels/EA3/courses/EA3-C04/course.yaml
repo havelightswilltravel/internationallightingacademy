@@ -1,0 +1,193 @@
+code: EA3-C04
+title: Three-Phase Distribution
+order: 4
+estimated_hours: 12
+description: >
+  Three-phase system configurations (208Y/120 V, 480Y/277 V, high-leg delta, ungrounded and
+  corner-grounded delta), neutral current and harmonics, switchboards and panelboards under
+  Article 408, metering and current transformers, and field verification of voltage, high-leg
+  location, phase rotation and voltage unbalance. References the 2023 NEC; the AHJ-adopted
+  edition governs.
+objectives:
+  - Calculate three-phase power and the voltage relationships of common wye and delta systems
+  - Identify and correctly handle the high leg of a 240/120 V delta system
+  - Calculate neutral current for unbalanced linear loads and explain triplen harmonic effects
+  - Read switchboard and panelboard ratings and apply panelboard overcurrent protection rules
+  - Apply phase arrangement, identification and circuit directory requirements
+  - Calculate CT meter multipliers, demand, load factor and power factor, and handle CT circuits safely
+  - Verify L-L, L-N and L-G voltages and phase rotation using safe work practices
+  - Calculate percent voltage unbalance and explain its effect on motors
+lessons:
+  - 01-three-phase-system-configurations.md
+  - 02-switchboards-and-panelboards.md
+  - 03-metering-and-current-transformers.md
+  - 04-voltage-and-phase-rotation-verification.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA3-C04-Q01
+      type: single
+      q: A balanced 480 V three-phase load draws 50 A at 0.9 power factor. What is the true power?
+      choices:
+        - 21.6 kW
+        - 41.6 kW
+        - 24.0 kW
+        - 37.4 kW
+      answer: 3
+      explanation: P = 1.732 x V x I x PF = 1.732 x 480 x 50 x 0.9 ≈ 37,412 W (37.4 kW). 41.6 kVA is the apparent power.
+      ref: Three-phase power (EA3-C04 Lesson 1)
+    - id: EA3-C04-Q02
+      type: single
+      q: On a 240/120 V three-phase high-leg delta system, approximately what voltage is measured from the high leg to the neutral?
+      choices:
+        - 120 V
+        - 208 V
+        - 240 V
+        - 277 V
+      answer: 1
+      explanation: The high leg to neutral is about 120 x 1.732 ≈ 208 V. 120 V loads must never be connected to it.
+      ref: High-leg delta (EA3-C04 Lesson 1)
+    - id: EA3-C04-Q03
+      type: multi
+      q: Which requirements apply to the high leg of a 240/120 V delta system under the 2023 NEC? (Select all that apply.)
+      choices:
+        - It must be identified by an orange outer finish or other effective means where the neutral is present
+        - It must be the B phase in panelboards and switchboards (with an exception for meter equipment)
+        - It may supply 120 V single-pole circuits if the breaker is marked
+        - It must be the C phase in all panelboards
+      answer: [0, 1]
+      explanation: 110.15 requires orange or other effective identification, and 408.3(E)(1) requires the high leg to be the B phase in panelboards and switchboards; metering equipment may place it in the C position. It must not supply 120 V loads.
+      ref: NEC 2023 110.15, 408.3(E)(1)
+    - id: EA3-C04-Q04
+      type: single
+      q: A 208Y/120 V circuit has balanced-type linear loads drawing IA = 80 A, IB = 60 A and IC = 70 A. What is the approximate neutral current?
+      choices:
+        - 17.3 A
+        - 0 A
+        - 30 A
+        - 210 A
+      answer: 0
+      explanation: IN = √(IA² + IB² + IC² − IA·IB − IB·IC − IA·IC) = √(6400 + 3600 + 4900 − 4800 − 4200 − 5600) = √300 ≈ 17.3 A.
+      ref: Neutral current formula (EA3-C04 Lesson 1)
+    - id: EA3-C04-Q05
+      type: single
+      q: Why can the neutral of a 4-wire wye circuit serving mostly LED drivers and computers carry more current than expected?
+      choices:
+        - Fundamental currents add in the neutral
+        - The neutral has higher resistance than phase conductors
+        - Triplen harmonic currents from each phase add in the neutral instead of cancelling
+        - LED drivers are connected line-to-line
+      answer: 2
+      explanation: Triplen harmonics (3rd, 9th, 15th...) are in phase with each other across the three phases and add in the neutral. This is why the neutral is counted as current-carrying when a major portion of the load is nonlinear.
+      ref: NEC 2023 310.15(E); EA3-C04 Lesson 1
+    - id: EA3-C04-Q06
+      type: single
+      q: What happens when a single phase faults to ground on an ungrounded three-phase delta system?
+      choices:
+        - The main breaker trips immediately
+        - Nothing trips, and the other two phases rise to full line voltage to ground
+        - The system becomes a high-leg delta
+        - All three phases drop to zero volts to ground
+      answer: 1
+      explanation: Ungrounded systems do not trip on a first ground fault. The faulted phase goes to ground potential, so the other phases measure line voltage to ground. Ground detectors (250.21(B)) are required to alert personnel.
+      ref: NEC 2023 250.21(B)
+    - id: EA3-C04-Q07
+      type: single
+      q: A 100 A main-lug-only panelboard is fed from a 125 A feeder breaker. Is this compliant?
+      choices:
+        - Yes, because the feeder conductors are rated 125 A
+        - Yes, if the panel has fewer than 42 circuits
+        - No, the panelboard must be protected by an OCPD rated not greater than the panelboard rating
+        - Yes, because MLO panels do not need overcurrent protection
+      answer: 2
+      explanation: 408.36 requires each panelboard to be protected by an overcurrent device with a rating not greater than that of the panelboard. A 100 A main breaker or a 100 A (or smaller) feeder breaker is required.
+      ref: NEC 2023 408.36
+    - id: EA3-C04-Q08
+      type: single
+      q: Under 408.3(E), what is the required phase arrangement on three-phase buses as viewed from the front?
+      choices:
+        - A, B, C from front to back, top to bottom, or left to right
+        - C, B, A from left to right
+        - Any arrangement as long as it is labeled
+        - A, C, B from top to bottom
+      answer: 0
+      explanation: The NEC requires A, B, C arrangement front to back, top to bottom, or left to right as viewed from the front of the equipment.
+      ref: NEC 2023 408.3(E)
+    - id: EA3-C04-Q09
+      type: single
+      q: A meter is connected to 400:5 current transformers and measures 3.2 A of secondary current. What is the primary current?
+      choices:
+        - 125 A
+        - 80 A
+        - 256 A
+        - 320 A
+      answer: 2
+      explanation: The CT ratio 400:5 gives a multiplier of 80. 3.2 A x 80 = 256 A.
+      ref: Current transformers (EA3-C04 Lesson 3)
+    - id: EA3-C04-Q10
+      type: single
+      q: What must be done before disconnecting a meter from an energized CT secondary circuit?
+      choices:
+        - Nothing — CT secondaries are low voltage
+        - Open the CT secondary circuit first
+        - Remove the CT from the conductor
+        - Short the CT secondary using the shorting block or test switch
+      answer: 3
+      explanation: An open CT secondary with primary current flowing can develop thousands of volts. Always short the secondary first.
+      ref: Current transformers (EA3-C04 Lesson 3)
+    - id: EA3-C04-Q11
+      type: single
+      q: A building meter shows 180 kW and 225 kVA. What is the power factor?
+      choices:
+        - 0.80
+        - 1.25
+        - 0.60
+        - 0.90
+      answer: 0
+      explanation: PF = kW / kVA = 180 / 225 = 0.80.
+      ref: Metering (EA3-C04 Lesson 3)
+    - id: EA3-C04-Q12
+      type: single
+      q: Measured line-to-line voltages are 480 V, 470 V and 490 V. What is the percent voltage unbalance by the NEMA method?
+      choices:
+        - 4.17%
+        - 2.08%
+        - 1.04%
+        - 0%
+      answer: 1
+      explanation: Average = 480 V. Maximum deviation = 10 V. Unbalance = 10 / 480 x 100 ≈ 2.08%.
+      ref: NEMA MG 1 unbalance definition (EA3-C04 Lesson 4)
+    - id: EA3-C04-Q13
+      type: multi
+      q: Which steps are required before measuring voltages in an open, energized panelboard? (Select all that apply.)
+      choices:
+        - Review the arc-flash label and risk assessment and don the required PPE
+        - Verify the meter on a known source before (and after) measuring
+        - Use a meter and leads rated for the voltage and measurement category
+        - Remove all branch-circuit breakers to reduce the arc-flash hazard
+      answer: [0, 1, 2]
+      explanation: Voltage measurement is energized work requiring the risk assessment, PPE per the label, a properly rated meter, and verification of the meter on a known source. Removing breakers would itself be hazardous energized work.
+      ref: NFPA 70E (2024) Article 130; EA3-C04 Lesson 4
+    - id: EA3-C04-Q14
+      type: single
+      q: A phase rotation meter shows the wrong rotation on a new service. What is the correct response?
+      choices:
+        - Swap two phases at the panel immediately while energized
+        - Report it; correction is done de-energized and locked out, usually by swapping two phases at the source end under the supervisor's direction
+        - Ignore it; rotation only matters for single-phase loads
+        - Swap the neutral and one phase
+      answer: 1
+      explanation: Rotation correction affects every motor downstream and is done only with direction from the supervisor, in an electrically safe work condition.
+      ref: Phase rotation (EA3-C04 Lesson 4)
+    - id: EA3-C04-Q15
+      type: single
+      q: A building uses 72,000 kWh in a 30-day month with a peak demand of 240 kW. What is the load factor?
+      choices:
+        - 30%
+        - 42%
+        - 58%
+        - 100%
+      answer: 1
+      explanation: Average kW = 72,000 / (30 x 24) = 100 kW. Load factor = 100 / 240 ≈ 42%.
+      ref: Demand and load factor (EA3-C04 Lesson 3)

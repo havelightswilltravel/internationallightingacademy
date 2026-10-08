@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+<p class="crumbs"><a href="/library">Library</a> › <%= doc.category %></p>
+<article class="card lesson">
+  <h1><%= doc.title %></h1>
+  <p class="muted small">
+    <%= doc.org_id ? doc.org_name + ' guide' : 'Academy guide' %>
+    <% if (levels.length) { %> · Levels: <%= levels.join(', ') %><% } %>
+    <% if (doc.last_reviewed) { %> · Last reviewed <%= fmtDate(doc.last_reviewed) %><% if (addMonths(doc.last_reviewed, doc.review_interval_months) <= today()) { %> <span class="pill bad">Review overdue</span><% } %><% } %>
+  </p>
+  <% if (doc.file_path) { %><p><a class="btn" href="<%= doc.file_path %>" target="_blank" rel="noopener">📄 Open attachment: <%= doc.file_name %></a></p><% } %>
+  <div class="prose"><%- renderMarkdown(doc.body_md) %></div>
+</article>
+<%- include('partials/footer') %>

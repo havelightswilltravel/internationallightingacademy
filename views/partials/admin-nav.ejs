@@ -1,0 +1,17 @@
+<div class="subnav">
+  <a href="/admin/users" class="<%= path === '/admin/users' ? 'on' : '' %>">Users</a>
+  <a href="/admin/pay" class="<%= path === '/admin/pay' ? 'on' : '' %>">Pay scale</a>
+  <a href="/admin/videos" class="<%= path === '/admin/videos' ? 'on' : '' %>">Videos</a>
+  <a href="/admin/library" class="<%= path.startsWith('/admin/library') ? 'on' : '' %>">Library</a>
+  <a href="/admin/reports" class="<%= path === '/admin/reports' ? 'on' : '' %>">Reports</a>
+  <% if (user.role === 'owner') { %>
+  <form method="get" class="inline org-picker">
+    <label>Company:
+      <select name="org" data-autosubmit>
+        <option value="0">— Platform-wide —</option>
+        <% allOrgs.forEach(function (o) { %><option value="<%= o.id %>" <%= scopeOrg && scopeOrg.id === o.id ? 'selected' : '' %>><%= o.name %></option><% }) %>
+      </select>
+    </label>
+  </form>
+  <% } %>
+</div>

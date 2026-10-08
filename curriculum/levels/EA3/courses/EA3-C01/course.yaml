@@ -1,0 +1,194 @@
+code: EA3-C01
+title: Transformers
+order: 1
+estimated_hours: 12
+description: >
+  How transformers work and how to install them correctly in the field: turns ratio, nameplate
+  data, full-load current and impedance; single-phase and three-phase (delta/wye) connections;
+  transformer sizing; overcurrent protection using Article 450 concepts together with the
+  Article 240 conductor-protection rules; and separately derived system grounding, installation
+  and verification. References the 2023 NEC; the AHJ-adopted edition governs.
+objectives:
+  - Explain transformer operation, turns ratio and the relationship between voltage and current
+  - Read a transformer nameplate and calculate single- and three-phase full-load current
+  - Estimate maximum secondary fault current from FLA and percent impedance
+  - Connect dual-winding single-phase and delta-wye three-phase transformers and predict output voltages
+  - Determine maximum primary and secondary overcurrent protection using Table 450.3(B) concepts
+  - Apply 240.21(C) and 240.4(F) to secondary conductor protection
+  - Install the system bonding jumper, supply-side bonding jumper and GEC for a separately derived system
+  - Perform pre-energization checks and verify output voltages before loading
+lessons:
+  - 01-transformer-principles-and-ratings.md
+  - 02-single-and-three-phase-connections.md
+  - 03-transformer-sizing-and-overcurrent-protection.md
+  - 04-transformer-installation-grounding-and-verification.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: EA3-C01-Q01
+      type: single
+      q: What is the primary full-load current of a 75 kVA three-phase transformer with a 480 V primary?
+      choices:
+        - 156.3 A
+        - 90.2 A
+        - 52.1 A
+        - 208.2 A
+      answer: 1
+      explanation: Three-phase FLA = kVA x 1000 / (V x 1.732) = 75,000 / (480 x 1.732) = 75,000 / 831.4 ≈ 90.2 A.
+      ref: Transformer FLA formula (EA3-C01 Lesson 1)
+    - id: EA3-C01-Q02
+      type: single
+      q: A single-phase transformer has a 480 V primary and a 120 V secondary. If the secondary load is 60 A, approximately how much current does the primary draw (ignoring losses)?
+      choices:
+        - 240 A
+        - 30 A
+        - 60 A
+        - 15 A
+      answer: 3
+      explanation: The turns ratio is 480/120 = 4. Current changes inversely with voltage, so primary current ≈ 60 / 4 = 15 A.
+      ref: Transformer turns ratio (EA3-C01 Lesson 1)
+    - id: EA3-C01-Q03
+      type: single
+      q: A 75 kVA, 208Y/120 V transformer has a secondary FLA of 208.2 A and a nameplate impedance of 5%. Assuming an infinite primary source, what is the approximate maximum secondary fault current?
+      choices:
+        - 4,164 A
+        - 1,041 A
+        - 10,410 A
+        - 41,640 A
+      answer: 0
+      explanation: Maximum fault current ≈ FLA / (%Z/100) = 208.2 / 0.05 ≈ 4,164 A. Actual fault current will be lower because the source and conductors have impedance.
+      ref: Infinite-bus fault current estimate (EA3-C01 Lesson 1)
+    - id: EA3-C01-Q04
+      type: single
+      q: In a 480 V delta to 208Y/120 V transformer, what voltage appears across each secondary winding?
+      choices:
+        - 208 V
+        - 277 V
+        - 120 V
+        - 240 V
+      answer: 2
+      explanation: The secondary is wye-connected. Line-to-line voltage (208 V) equals winding voltage x 1.732, so each winding produces 208 / 1.732 ≈ 120 V.
+      ref: Delta and wye relationships (EA3-C01 Lesson 2)
+    - id: EA3-C01-Q05
+      type: single
+      q: In a delta connection, how does line current compare to winding (phase) current?
+      choices:
+        - Line current equals phase current
+        - Line current equals phase current x 1.732
+        - Line current equals phase current / 1.732
+        - Line current equals phase current x 3
+      answer: 1
+      explanation: In delta, line voltage equals phase voltage, and line current equals phase current x 1.732. In wye the reverse applies.
+      ref: Delta and wye relationships (EA3-C01 Lesson 2)
+    - id: EA3-C01-Q06
+      type: single
+      q: A single-phase transformer has two 240 V primary windings. How are they connected for a 480 V supply?
+      choices:
+        - In parallel
+        - In series
+        - One winding only, with the other left open
+        - In delta
+      answer: 1
+      explanation: Two 240 V windings in series add to 480 V. Parallel connection is used for a 240 V supply. Always confirm the jumper terminals on the nameplate diagram.
+      ref: Single-phase connections (EA3-C01 Lesson 2)
+    - id: EA3-C01-Q07
+      type: single
+      q: Using primary-only protection under Table 450.3(B) concepts, what is the maximum standard primary OCPD for a 75 kVA, 480 V three-phase transformer (primary FLA 90.2 A)?
+      choices:
+        - 100 A
+        - 110 A
+        - 125 A
+        - 225 A
+      answer: 2
+      explanation: 90.2 x 1.25 = 112.8 A. Because the primary current is 9 A or more and 112.8 A is not a standard size, the next higher standard size (125 A) is permitted.
+      ref: NEC 2023 Table 450.3(B); 240.6(A)
+    - id: EA3-C01-Q08
+      type: single
+      q: When a transformer of 1000 V or less is protected on both primary and secondary (secondary OCPD at not more than 125%), the primary OCPD may be rated up to what percentage of primary FLA?
+      choices:
+        - 125%
+        - 167%
+        - 300%
+        - 250%
+      answer: 3
+      explanation: With secondary protection not over 125% of secondary FLA, Table 450.3(B) permits primary protection up to 250% of primary FLA.
+      ref: NEC 2023 Table 450.3(B)
+    - id: EA3-C01-Q09
+      type: single
+      q: Why can't the primary OCPD of a 480 V delta to 208Y/120 V transformer protect the secondary conductors?
+      choices:
+        - Because the secondary has a higher voltage than the primary
+        - Because 240.4(F) allows primary-side protection of secondary conductors only for single-phase 2-wire and three-phase delta-delta 3-wire secondaries
+        - Because primary breakers are not rated for transformer inrush
+        - Because the secondary is ungrounded
+      answer: 1
+      explanation: 240.4(F) limits primary-side protection of secondary conductors to single-phase 2-wire and three-phase delta-delta 3-wire secondaries. A 4-wire wye secondary must have secondary conductor protection per 240.21(C).
+      ref: NEC 2023 240.4(F), 240.21(C)
+    - id: EA3-C01-Q10
+      type: multi
+      q: Which connections are required for the grounded secondary (separately derived system) of a 480 V delta to 208Y/120 V transformer? (Select all that apply.)
+      choices:
+        - A system bonding jumper at one location (transformer or first disconnect)
+        - A system bonding jumper at both the transformer and the first disconnect
+        - A grounding electrode conductor from the point where the system bonding jumper is installed
+        - A supply-side bonding jumper between the transformer and the first disconnecting means
+        - A neutral conductor landed on the H terminals
+      answer: [0, 2, 3]
+      explanation: The system bonding jumper is installed at one point only; the GEC connects at that same point; a supply-side bonding jumper connects the transformer enclosure and the first disconnect. Bonding at two points creates parallel neutral paths, and a delta primary has no neutral.
+      ref: NEC 2023 250.30(A)
+    - id: EA3-C01-Q11
+      type: single
+      q: Secondary conductors are 4/0 AWG copper. Using the 2023 NEC Table 250.66, what is the minimum copper grounding electrode conductor size for the separately derived system?
+      choices:
+        - 6 AWG
+        - 4 AWG
+        - 2 AWG
+        - 1/0 AWG
+      answer: 2
+      explanation: 4/0 falls in the "over 3/0 through 350 kcmil" row of Table 250.66, which requires a 2 AWG copper GEC (subject to the electrode-specific limits in 250.66(A)–(C)).
+      ref: NEC 2023 Table 250.66
+    - id: EA3-C01-Q12
+      type: single
+      q: A transformer's no-load secondary voltage is about 5% high because the primary supply is high. What is the correct way to correct it?
+      choices:
+        - Change to a tap that adds primary turns, with the transformer de-energized, locked out and verified
+        - Change taps with the transformer energized while wearing arc-rated PPE
+        - Reduce the secondary main breaker size
+        - Remove the system bonding jumper
+      answer: 0
+      explanation: Adding primary turns (e.g., the +5% tap) lowers the secondary voltage. Taps are changed only with the transformer de-energized, locked out and tested for absence of voltage.
+      ref: Transformer taps (EA3-C01 Lessons 1 and 4)
+    - id: EA3-C01-Q13
+      type: multi
+      q: After energizing a new 208Y/120 V transformer with no load, which readings indicate a normal installation? (Select all that apply.)
+      choices:
+        - About 208 V between X1 and X2
+        - About 120 V between X1 and X0
+        - About 120 V between X0 and ground
+        - About 0 V between X0 and ground
+      answer: [0, 1, 3]
+      explanation: Normal readings are about 208 V L-L, 120 V L-N and near 0 V neutral-to-ground. Voltage between X0 and ground indicates a missing system bonding jumper or an open neutral.
+      ref: Field verification (EA3-C01 Lessons 2 and 4)
+    - id: EA3-C01-Q14
+      type: single
+      q: A panel will serve a calculated 52 kVA load and the designer wants 25% spare capacity. Which standard three-phase transformer size should be selected?
+      choices:
+        - 45 kVA
+        - 75 kVA
+        - 112.5 kVA
+        - 150 kVA
+      answer: 1
+      explanation: 52 x 1.25 = 65 kVA. The next standard size up is 75 kVA.
+      ref: Transformer sizing (EA3-C01 Lesson 3)
+    - id: EA3-C01-Q15
+      type: multi
+      q: Which statements about installing a dry-type transformer are correct? (Select all that apply.)
+      choices:
+        - Shipping blocks and bolts should be removed and isolation pads used to reduce noise
+        - Ventilation openings may be blocked if the transformer is lightly loaded
+        - A flexible raceway connection reduces vibration transfer but the equipment grounding path must still be provided
+        - Lug torque values should be applied with an approved means such as a torque tool
+      answer: [0, 2, 3]
+      explanation: Remove shipping restraints and use isolation pads; keep ventilation openings clear (450.9) regardless of load; provide a proper EGC with flexible raceways; and torque connections per 110.14(D) using an approved means.
+      ref: NEC 2023 450.9, 110.14(D)

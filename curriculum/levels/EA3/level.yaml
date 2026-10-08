@@ -1,0 +1,165 @@
+code: EA3
+track: ELECTRICAL
+order: 3
+title: Electrical Apprentice III
+grade: Electrical Apprentice Grade 3
+typical_duration_months: 12
+description: >
+  The third-year apprentice moves from branch-circuit work into the equipment that feeds a
+  building: transformers, motors and their controls, services, feeders, and three-phase
+  distribution gear. Working under the supervision of a licensed electrician, an EA3 apprentice
+  can connect and verify dry-type transformers, wire motor starters and control circuits from a
+  ladder diagram, perform basic VFD setup, assist with service and feeder installations, verify
+  panel voltages and phase rotation, and take part in NFPA 70E risk assessments and energized
+  work permits as a trained (qualified-for-the-task) worker. Content references the 2023 NEC
+  (NFPA 70) and NFPA 70E (2024 edition); the editions adopted by the local Authority Having
+  Jurisdiction (AHJ) always govern.
+outcomes:
+  - Calculate transformer full-load current, turns ratio and secondary fault-current estimates, and select primary and secondary overcurrent protection using Article 450 concepts.
+  - Connect single-phase and three-phase (delta-wye) dry-type transformers, including the separately derived system bonding and grounding connections, and verify output before loading.
+  - Size motor branch-circuit conductors, short-circuit/ground-fault protection and overload protection using NEC motor tables (430.248/430.250) and nameplate data as Article 430 requires.
+  - Read and wire three-wire start/stop, forward/reverse and similar motor control circuits from a ladder diagram, and troubleshoot them methodically.
+  - Perform basic VFD parameter setup and explain the hazards of stored DC-bus energy, reflected wave and harmonics.
+  - Identify service and feeder components, size feeder conductors and OCPD for continuous and noncontinuous loads, and perform an introductory load calculation.
+  - Verify three-phase panel voltages, high-leg identification and phase rotation, and calculate voltage unbalance.
+  - Apply NFPA 70E concepts — qualified person, shock and arc-flash risk assessment, approach boundaries, PPE selection and energized electrical work permits — to real tasks.
+requirements:
+  course_pass_score: 80
+  final_exam:
+    pass_score: 80
+    questions: 50
+    time_limit_minutes: 90
+  min_ojt_hours: 1600
+skills:
+  - code: EA3-S01
+    title: Connect and verify a three-phase dry-type transformer (480V delta to 208Y/120V)
+    category: Transformers
+    critical: true
+    description: >
+      Under supervision, land primary and secondary conductors on a de-energized dry-type
+      transformer, make the separately derived system bonding and grounding connections, set taps,
+      and verify secondary voltages before any load is connected.
+    equipment: [three-phase dry-type transformer, CAT III/IV multimeter, insulation resistance tester, torque screwdriver and wrench, LOTO kit, voltage-rated gloves with leather protectors, arc-rated PPE per label]
+    criteria:
+      - Calculates primary and secondary full-load current from the nameplate kVA and voltages (kVA x 1000 / (V x 1.732)) and confirms conductor and OCPD sizes match the drawings
+      - Establishes an electrically safe work condition (LOTO, test meter on known source, test for absence of voltage, retest meter) before touching terminations
+      - Lands primary conductors on H1-H2-H3 and secondary conductors on X1-X2-X3 and X0 per the nameplate connection diagram
+      - Installs the system bonding jumper at one location only (transformer or first disconnect) and verifies no neutral-to-ground bond exists downstream
+      - Connects the grounding electrode conductor and supply-side bonding jumper as shown on the drawings
+      - Sets taps to the position specified by the supervisor and records it
+      - Torques all terminations to the manufacturer's values and marks them
+      - After energizing, measures L-L (approximately 208 V) and L-N (approximately 120 V) on the secondary and records results within the expected tolerance before loads are connected
+  - code: EA3-S02
+    title: Wire a three-wire start/stop motor control circuit from a ladder diagram
+    category: Motor Controls
+    critical: false
+    description: >
+      Wire a magnetic motor starter with start/stop pushbuttons, seal-in contact, overload relay
+      contact and pilot light from a supplied ladder diagram, then functionally test it.
+    equipment: [magnetic starter with overload relay, control power transformer, start/stop pushbutton station, pilot light, control wire, ferrules and crimper, multimeter, ladder diagram]
+    criteria:
+      - Identifies power circuit and control circuit on the ladder diagram and explains each rung
+      - Wires the stop button (normally closed) in series and the start button (normally open) in parallel with the auxiliary seal-in contact
+      - Places the overload relay contact in series with the coil as shown on the diagram
+      - Fuses or otherwise protects the control circuit as shown and grounds the control transformer secondary where required
+      - Uses correct wire numbers or labels matching the diagram at every termination
+      - Performs a continuity/resistance check of the control circuit with power off before energizing
+      - Demonstrates start, seal-in, stop and overload-trip functions without faults
+      - Sets the overload relay to the value calculated from nameplate FLA and service factor
+  - code: EA3-S03
+    title: Wire and test a reversing starter with electrical and mechanical interlocks
+    category: Motor Controls
+    critical: false
+    description: >
+      Wire a forward/reverse starter, including interlocks, from a ladder diagram and verify
+      that both contactors cannot be energized at the same time.
+    equipment: [reversing contactor assembly with mechanical interlock, overload relay, forward/reverse/stop pushbutton station, three-phase motor or simulator, multimeter, phase rotation meter]
+    criteria:
+      - Explains why two phases are swapped on the load side of the reverse contactor
+      - Wires normally closed electrical interlock contacts of each contactor in series with the opposite coil
+      - Confirms the mechanical interlock is installed and operates
+      - Performs a power-off check that the power circuit has no phase-to-phase short path when either contactor is closed manually
+      - Demonstrates forward, stop and reverse operation and confirms direction with the motor or rotation meter
+      - Demonstrates that pressing the opposite direction button while running does not energize the second contactor (for a stop-before-reverse design)
+  - code: EA3-S04
+    title: Perform basic VFD setup and commissioning
+    category: Motor Controls
+    critical: true
+    description: >
+      Enter motor nameplate data and basic parameters into a variable frequency drive, verify
+      rotation, and demonstrate safe handling of stored DC-bus energy.
+    equipment: [variable frequency drive, three-phase induction motor, manufacturer's manual, CAT III multimeter rated for DC, LOTO kit, PPE per arc-flash label]
+    criteria:
+      - Verifies the drive input voltage and current rating match the supply and motor
+      - Enters motor nameplate voltage, FLA, frequency, rated speed and horsepower/kW correctly
+      - Sets acceleration, deceleration, minimum and maximum frequency to values provided by the supervisor or design
+      - Selects the correct start/stop and speed-reference sources (keypad, terminals or network)
+      - Bumps the motor and corrects rotation by changing a parameter or swapping two output leads with the drive de-energized and verified
+      - After removing power, waits the manufacturer's stated discharge time and measures DC bus voltage at the designated terminals to confirm it is at a safe level before touching any conductor
+      - Records parameter settings and saves or backs up the configuration
+  - code: EA3-S05
+    title: Inspect a service and feeder installation against the drawings and the NEC
+    category: Services and Feeders
+    critical: false
+    description: >
+      Walk a de-energized or newly installed service and feeder system with a supervisor, checking
+      components, sizes, grounding and bonding, working space, and labeling.
+    equipment: [electrical drawings and one-line, current NEC (AHJ-adopted edition), tape measure, flashlight, inspection checklist]
+    criteria:
+      - Identifies the service point, service-entrance conductors, service equipment and service disconnect(s)
+      - Confirms service and feeder conductor sizes, insulation type and OCPD ratings against the one-line and ampacity tables
+      - Verifies the main bonding jumper is installed at the service and neutral and grounds are separated in downstream panels
+      - Checks grounding electrode conductor size and connections to each electrode in the system
+      - Measures working space depth, width and headroom in front of the equipment and compares to 110.26
+      - Confirms required markings such as available fault current, arc-flash label and circuit directories are present
+      - Records deficiencies clearly on the checklist and reports them to the supervisor
+  - code: EA3-S06
+    title: Verify three-phase panel voltages, high-leg and phase rotation
+    category: Three-Phase Distribution
+    critical: true
+    description: >
+      Using appropriate PPE and an approved procedure, measure line-to-line, line-to-neutral and
+      line-to-ground voltages at a three-phase panelboard, identify any high leg, verify phase
+      rotation, and calculate voltage unbalance.
+    equipment: [CAT III/IV multimeter with leads and probe covers, phase rotation meter, voltage-rated gloves with leather protectors, arc-rated PPE per label, face shield/hood as required, energized work documentation]
+    criteria:
+      - Reviews the arc-flash label and the shock/arc-flash risk assessment and dons the required PPE before removing the cover
+      - Verifies meter operation on a known source before and after measurements
+      - Measures and records all L-L, L-N and L-G voltages
+      - Identifies the high leg on a 240/120 V delta system (approximately 208 V to neutral) and confirms it is the B phase in the panelboard and marked orange or otherwise identified
+      - Connects the rotation meter L1-L2-L3 to A-B-C and records the rotation
+      - Calculates percent voltage unbalance (maximum deviation from average divided by average x 100)
+      - Reinstalls covers and leaves the equipment in a safe condition
+  - code: EA3-S07
+    title: Complete a shock and arc-flash risk assessment and energized electrical work permit
+    category: Safety
+    critical: true
+    description: >
+      For an assigned task, determine whether energized work is justified, complete the shock and
+      arc-flash risk assessment, and fill out the employer's energized electrical work permit for
+      supervisor review.
+    equipment: [employer electrical safety program, energized electrical work permit form, arc-flash labels or incident energy study, NFPA 70E (2024) tables, one-line diagram]
+    criteria:
+      - States whether the task can be done de-energized and documents the justification (greater hazard or infeasibility) if not
+      - Identifies the nominal voltage and determines the limited and restricted approach boundaries
+      - Determines the arc-flash boundary and required PPE using the label/incident energy analysis or the PPE category method, not both
+      - Lists the safe work practices, insulated tools and PPE to be used
+      - Identifies how unqualified persons will be kept outside the limited approach boundary (barricades, attendant)
+      - Completes every required field of the permit and obtains supervisor review before work begins
+      - Conducts or participates in a job briefing covering hazards, procedures, energy source controls and emergency response
+  - code: EA3-S08
+    title: Establish an electrically safe work condition on a three-phase feeder
+    category: Safety
+    critical: true
+    description: >
+      Establish an electrically safe work condition on a three-phase feeder or piece of equipment
+      using the employer's procedure, including test for absence of voltage on all phases.
+    equipment: [LOTO devices and tags, adequately rated voltage tester or multimeter, known-voltage source or proving unit, voltage-rated gloves, arc-rated PPE per label, one-line diagram]
+    criteria:
+      - Identifies all possible sources of supply using up-to-date drawings and labels
+      - Notifies affected persons and properly shuts down the load before opening the disconnect
+      - Opens the disconnecting means and visually verifies blade or contact separation where possible
+      - Applies personal lock and tag per the employer's LOTO program
+      - Wears PPE appropriate for the test until absence of voltage is verified
+      - Tests the meter on a known source, tests phase-to-phase and phase-to-ground on every conductor, then retests the meter
+      - Considers induced voltage and stored energy and applies grounding equipment where required by the procedure

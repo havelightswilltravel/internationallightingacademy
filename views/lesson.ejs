@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+<p class="crumbs"><a href="/levels">Program</a> › <a href="/levels/<%= course.level_code %>"><%= course.level_code %></a> › <a href="/courses/<%= course.code %>"><%= course.code %></a> › Lesson <%= position %> of <%= total %></p>
+<article class="card lesson">
+  <h1><%= lesson.title %></h1>
+  <% if (lesson.minutes) { %><p class="muted small"><%= lesson.minutes %> minutes</p><% } %>
+  <% var v = videoEmbed(videoUrl); %>
+  <% if (v && v.type === 'iframe') { %>
+    <div class="video"><iframe src="<%= v.src %>" title="Lesson video" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+  <% } else if (v && v.type === 'file') { %>
+    <div class="video"><video controls preload="metadata" src="<%= v.src %>"></video></div>
+  <% } else if (v) { %>
+    <p><a class="btn" href="<%= v.src %>" target="_blank" rel="noopener">▶ Watch the lesson video</a></p>
+  <% } else if (lesson.video_suggestion && user.role !== 'technician') { %>
+    <div class="flash info small"><strong>Video not yet recorded.</strong> Suggested video: <%= lesson.video_suggestion %> <% if (user.role === 'admin' || user.role === 'owner') { %><a href="/admin/videos?level=<%= course.level_code %>">Add a video</a><% } %></div>
+  <% } %>
+  <div class="prose"><%- renderMarkdown(lesson.body_md) %></div>
+</article>
+<div class="lesson-nav">
+  <% if (prev) { %><a class="btn" href="/lessons/<%= prev.id %>">← <%= prev.title %></a><% } else { %><span></span><% } %>
+  <form method="post" action="/lessons/<%= lesson.id %>/complete">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <button class="btn primary"><%= done ? (next ? 'Next lesson →' : 'Back to course') : (next ? 'Mark complete & continue →' : 'Mark complete') %></button>
+  </form>
+</div>
+<%- include('partials/footer') %>

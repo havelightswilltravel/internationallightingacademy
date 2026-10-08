@@ -1,0 +1,179 @@
+code: LT5-C03
+title: Leadership, Mentoring & Crew Safety
+order: 3
+estimated_hours: 7
+description: >
+  Prepares senior technicians to lead crews safely and effectively. Covers the lead
+  technician's priorities and daily routine, building site-specific job hazard analyses with
+  the hierarchy of controls, stop-work authority and near-miss reporting, planning and
+  delivering toolbox talks, mentoring entry-level technicians to skill sign-off, and resolving
+  conflict on the crew and with customers.
+objectives:
+  - Plan and run a lighting job as lead technician, assigning work by level, training and authorization
+  - Build a site-specific job hazard analysis and select controls using the hierarchy of controls
+  - Exercise and support stop-work authority and use near misses to improve safety
+  - Prepare and deliver a 10-15 minute toolbox talk that engages the crew
+  - Mentor an LT1 technician using demonstrate-practice-feedback and maintain a mentoring log
+  - Resolve crew and customer conflicts professionally without compromising safety or code
+lessons:
+  - 01-leading-a-lighting-crew.md
+  - 02-job-hazard-analysis-and-stop-work.md
+  - 03-delivering-toolbox-talks.md
+  - 04-mentoring-and-conflict-resolution.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT5-C03-Q01
+      type: single
+      q: When safety, quality, customer satisfaction and schedule conflict on a job, what should the lead technician prioritize first?
+      choices:
+        - Finishing on schedule
+        - Keeping the customer happy
+        - Everyone going home uninjured
+        - Staying under budget
+      answer: 2
+      explanation: Safety comes first, then quality and code compliance, then the customer, then schedule and budget.
+    - id: LT5-C03-Q02
+      type: single
+      q: An LT1 on your crew has not completed MEWP operator training. What is an appropriate assignment for them on a high-bay job?
+      choices:
+        - Operating the scissor lift while an LT4 watches from the floor
+        - Ground support, material staging and spotting, under supervision
+        - Replacing drivers alone on the lift
+        - Locking out circuits for the whole crew
+      answer: 1
+      explanation: Workers must be trained and authorized before operating MEWPs. Ground support is appropriate; each worker applies their own lock rather than one person locking for everyone.
+      ref: ANSI A92.22 / A92.24
+    - id: LT5-C03-Q03
+      type: single
+      q: Which control is at the top (most effective level) of the hierarchy of controls?
+      choices:
+        - Elimination
+        - Personal protective equipment
+        - Administrative controls
+        - Engineering controls
+      answer: 0
+      explanation: The hierarchy runs elimination, substitution, engineering controls, administrative controls, then PPE as the last line of defense.
+    - id: LT5-C03-Q04
+      type: single
+      q: Which hierarchy-of-controls level does placing guardrails or barricades around a work zone represent?
+      choices:
+        - Elimination
+        - Administrative control
+        - PPE
+        - Engineering control
+      answer: 3
+      explanation: Engineering controls physically isolate people from the hazard. Procedures and schedules are administrative controls.
+    - id: LT5-C03-Q05
+      type: single
+      q: A customer asks the crew to replace fixtures energized because they do not want an outage. According to NFPA 70E principles, what is the correct response?
+      choices:
+        - Proceed live with rubber gloves
+        - Proceed live since lighting circuits are only 277 V
+        - Decline; customer inconvenience is not a valid justification for energized work, so schedule an outage and establish an electrically safe work condition
+        - Ask the newest crew member to do it quickly
+      answer: 2
+      explanation: Energized work is justified only when de-energizing creates a greater hazard or is infeasible. Convenience or avoiding an outage does not qualify.
+      ref: NFPA 70E
+    - id: LT5-C03-Q06
+      type: multi
+      q: Which situations should trigger a work stop and JHA review? (Select all that apply.)
+      choices:
+        - A circuit that was supposed to be locked out tests live
+        - A forklift enters the barricaded work area
+        - The crew finishes a room ahead of schedule
+        - The installed ceiling type differs from the plan, requiring a different method
+      answer: [0, 1, 3]
+      explanation: New hazards or changed conditions require stopping and re-planning. Being ahead of schedule is not a hazard.
+    - id: LT5-C03-Q07
+      type: single
+      q: A crew member calls a stop because they think a lift is too close to an overhead obstruction. As lead, what should you do first?
+      choices:
+        - Make the area safe, thank them, and assess the concern with the crew before resuming
+        - Overrule them since you have more experience
+        - Tell them to keep working and report it later
+        - Write them up for slowing the job
+      answer: 0
+      explanation: Supporting stop-work authority builds a culture where hazards are raised. Thank the person, assess, update controls, then resume only when safe.
+    - id: LT5-C03-Q08
+      type: single
+      q: Why should near misses be reported even when no one was hurt?
+      choices:
+        - Reports are needed only for insurance
+        - They reveal hazards and allow plans and training to be improved before an injury occurs
+        - OSHA fines companies for every unreported near miss
+        - To identify who should be disciplined
+      answer: 1
+      explanation: Near misses are warnings. Using them to update JHAs and toolbox talks prevents future injuries. Punishing reporting drives problems underground.
+    - id: LT5-C03-Q09
+      type: single
+      q: What is the typical target length of a toolbox talk?
+      choices:
+        - 1-2 minutes
+        - 45-60 minutes
+        - Half a day
+        - 10-15 minutes
+      answer: 3
+      explanation: Toolbox talks are short, focused discussions, typically 10-15 minutes, on one topic.
+    - id: LT5-C03-Q10
+      type: single
+      q: Which question best checks crew understanding at the end of a toolbox talk?
+      choices:
+        - Everyone understand?
+        - Any questions? No? Good.
+        - Which breakers do we lock out for room 205, and how do we verify the circuit is dead?
+        - Did you all sign the sheet?
+      answer: 2
+      explanation: Open, job-specific questions reveal whether people actually understood. Yes/no questions get automatic nods.
+    - id: LT5-C03-Q11
+      type: single
+      q: On a multiwire branch circuit feeding rooms you are working in, what is the correct lockout approach?
+      choices:
+        - Lock out only the breaker for the circuit you are touching
+        - Lock out all ungrounded conductors of the MWBC and verify every conductor, including neutral to ground, live-dead-live
+        - Open the shared neutral first to stop current flow
+        - Turn off the wall switch and test with a non-contact tester only
+      answer: 1
+      explanation: The shared neutral can carry current from other circuits of the MWBC. All ungrounded conductors must be disconnected, and the NEC requires a means to simultaneously disconnect them at the point of origin.
+      ref: NEC 210.4(B)
+    - id: LT5-C03-Q12
+      type: single
+      q: In the demonstrate-practice-feedback method, what should happen first?
+      choices:
+        - The mentee attempts the task alone to see what they know
+        - The evaluator signs off the skill
+        - The mentor and mentee review the written skill criteria and the mentor explains the task and its safety reasons
+        - The mentee watches a video and then works unsupervised
+      answer: 2
+      explanation: Starting with the criteria shows the mentee what passing looks like; explanation and demonstration come before guided practice.
+    - id: LT5-C03-Q13
+      type: single
+      q: Your LT1 mentee skips the "test the tester on a known live source" step during live-dead-live practice. What should you do?
+      choices:
+        - Stop them immediately, explain why the step is critical, demonstrate it, and have them repeat the full procedure
+        - Let it go since the circuit is probably dead
+        - Note it in the log and mention it next week
+        - Finish the test for them
+      answer: 0
+      explanation: Unsafe actions are corrected immediately. Live-dead-live is a critical safety skill with no "close enough."
+    - id: LT5-C03-Q14
+      type: multi
+      q: Which are good practices when resolving a conflict between two crew members? (Select all that apply.)
+      choices:
+        - Address it early before it grows
+        - Talk with each person privately and listen
+        - Focus on specific behaviors and problems, not personalities
+        - Ignore it as long as work is getting done
+      answer: [0, 1, 2]
+      explanation: Early, private, problem-focused conversations resolve most conflicts. Ignoring conflict lets it erode communication and safety.
+    - id: LT5-C03-Q15
+      type: single
+      q: A customer asks you on site to relocate three fixtures that are not in the scope. What should you do?
+      choices:
+        - Do it right away to keep the customer happy
+        - Refuse and walk away
+        - Do it after hours without telling anyone
+        - Write down the request, explain it will be priced or approved, and contact your supervisor
+      answer: 3
+      explanation: Scope changes must be approved and priced. Relocations may also involve wiring or permit issues that need review.

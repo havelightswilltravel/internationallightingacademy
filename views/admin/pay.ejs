@@ -1,0 +1,18 @@
+<%- include('../partials/header') %>
+<h1>Pay scale by grade <span class="muted small"><%= scopeOrg.name %></span></h1>
+<%- include('../partials/admin-nav') %>
+<section class="card narrow">
+  <p class="muted">Optional. Tie compensation to the grade a technician has earned. Technicians see their current rate and the rate at their next grade on their dashboard. Leave blank to hide.</p>
+  <form method="post" action="/admin/pay">
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <table class="table">
+      <tr><th>Grade</th><th>Hourly rate ($)</th></tr>
+      <tr><td>Not yet graded (new hire)</td><td><input type="number" step="0.01" min="0" name="rate_NONE" value="<%= rates.NONE ?? '' %>"></td></tr>
+      <% levels.forEach(function (l) { %>
+      <tr><td><%= l.code %> — <%= l.title %></td><td><input type="number" step="0.01" min="0" name="rate_<%= l.code %>" value="<%= rates[l.code] ?? '' %>"></td></tr>
+      <% }) %>
+    </table>
+    <button class="btn primary">Save pay scale</button>
+  </form>
+</section>
+<%- include('../partials/footer') %>

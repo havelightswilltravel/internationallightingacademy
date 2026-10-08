@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+<section class="card exam">
+  <div class="exam-head">
+    <h1><%= info.title %></h1>
+    <% if (expiresMs) { %><div class="timer" data-expires="<%= expiresMs %>" aria-live="polite">--:--</div><% } %>
+  </div>
+  <p class="muted"><%= paper.length %> questions · <%= attempt.pass_score %>% to pass. Questions marked “select all that apply” need every correct choice.</p>
+  <form method="post" action="/exams/<%= attempt.id %>/submit" id="exam-form" data-confirm-unanswered>
+    <input type="hidden" name="_csrf" value="<%= csrf %>">
+    <% paper.forEach(function (q) { %>
+    <fieldset class="question">
+      <legend><span class="qn"><%= q.n %>.</span> <%= q.prompt %><% if (q.type === 'multi') { %> <em class="muted">(select all that apply)</em><% } %></legend>
+      <% q.choices.forEach(function (c) { %>
+      <label class="choice"><input type="<%= q.type === 'multi' ? 'checkbox' : 'radio' %>" name="q_<%= q.id %>" value="<%= c.shown %>"> <span><%= c.text %></span></label>
+      <% }) %>
+    </fieldset>
+    <% }) %>
+    <button class="btn primary">Submit answers</button>
+  </form>
+</section>
+<%- include('partials/footer') %>
