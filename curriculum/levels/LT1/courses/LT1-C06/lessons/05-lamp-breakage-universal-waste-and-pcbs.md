@@ -105,9 +105,21 @@ original ballasts.
   40 CFR Part 761. Avoid skin contact and do not breathe fumes from an overheated or burned ballast.
 - Document the number of PCB and non-PCB ballasts removed on the work order.
 
+### "No PCBs" Does Not Mean "Trash": DEHP Ballasts
+After PCBs were banned, many manufacturers filled their ballast capacitors with a different
+oil, often **DEHP** (di(2-ethylhexyl) phthalate). Ballasts made roughly from the 1980s into the
+early 1990s commonly contain it, and they are labeled "No PCBs" because that is true. DEHP is
+also a regulated hazardous substance, though. A large retrofit can remove hundreds of these
+ballasts at once, and throwing away that much can trigger federal release-reporting rules.
+Some states regulate them more strictly too. You usually cannot tell DEHP is present from the
+label, so our company rule is simple: **every removed magnetic ballast, PCB or not, goes to
+the approved recycler**, never the dumpster. Keep "No PCBs" ballasts separate from suspect
+PCB ballasts, wear gloves, and count each type on the work order.
+
 ## Key Takeaways
 - Mercury-containing lamps are universal waste: pack intact, keep closed, label, date, and recycle.
 - Do not tape, break, or crush lamps.
 - For a broken lamp: clear and ventilate the area, shut off HVAC, scoop and tape (no vacuum or broom first), seal, label, and report.
 - Ballasts without a "No PCBs" label are assumed to contain PCBs.
+- "No PCBs" ballasts may contain DEHP; send all removed magnetic ballasts to the recycler, kept separate from suspect PCB ballasts.
 - Leaking ballasts are a stop-work condition; get your supervisor and follow the PCB procedure.

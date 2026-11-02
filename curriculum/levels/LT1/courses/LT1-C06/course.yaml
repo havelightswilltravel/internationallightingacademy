@@ -196,3 +196,14 @@ quiz:
       answer: 2
       explanation: Group relamping is an older practice that has been replaced by retrofitting or replacing fixtures with LED. Repeated failures of same-age lamps signal an aging system; recommend a retrofit or replacement and document it on the work order.
       ref: LT1-C06 Lesson 3
+    - id: LT1-C06-Q17
+      type: single
+      q: A magnetic ballast removed during a retrofit is clearly labeled "No PCBs." How should it be handled?
+      choices:
+        - Throw it in the job-site dumpster, since it has no PCBs
+        - Send it to the approved recycler, kept separate from suspect PCB ballasts, and count it on the work order
+        - Put it in the PCB drum with the unlabeled ballasts
+        - Leave it in the ceiling for the next contractor
+      answer: 1
+      explanation: Many "No PCBs" ballasts contain DEHP, which is also regulated. Company rule is that every removed magnetic ballast goes to the recycler, separated by type and counted.
+      ref: LT1-C06 Lesson 5 — DEHP ballasts

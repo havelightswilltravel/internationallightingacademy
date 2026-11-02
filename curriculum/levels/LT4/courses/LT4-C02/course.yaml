@@ -176,3 +176,25 @@ quiz:
         - The AHJ will fail the electrical inspection
       answer: 1
       explanation: Many programs deny incentives for equipment purchased or installed before pre-approval. Follow program rules exactly.
+    - id: LT4-C02-Q16
+      type: single
+      q: A 10,000 ft² warehouse has 8,000 W of lighting that operates 5,000 hours per year. What is its lighting energy-use intensity (EUI)?
+      choices:
+        - 0.8 kWh/ft²·yr
+        - 4.0 kWh/ft²·yr
+        - 40 kWh/ft²·yr
+        - 0.8 W/ft²
+      answer: 1
+      explanation: 8,000 W × 5,000 h ÷ 1,000 = 40,000 kWh per year; 40,000 ÷ 10,000 ft² = 4.0 kWh/ft²·yr. 0.8 W/ft² is the LPD, not the EUI.
+      ref: LT4-C02 Lesson 2 — power vs energy
+    - id: LT4-C02-Q17
+      type: single
+      q: Adding occupancy sensors to an existing LED retrofit (no fixture changes) will most likely
+      choices:
+        - lower the LPD but not the EUI
+        - lower both the LPD and the EUI by the same percentage
+        - lower the EUI but leave the LPD unchanged
+        - leave both unchanged
+      answer: 2
+      explanation: LPD counts only installed watts, so controls don't change it. EUI includes operating hours, so reduced run time lowers it.
+      ref: LT4-C02 Lesson 2 — power vs energy

@@ -28,8 +28,9 @@ Precautions you will see in the field and in manufacturer literature:
 - The NEC (Article 410) requires metal halide luminaires to have a containment barrier or to
   accept only lamps suitable for open fixtures, with limited exceptions.
 - Manufacturers commonly recommend that probe-start MH lamps operated continuously (24/7) be
-  turned off for at least 15 minutes once a week, and that lamps be group-replaced before or
-  at rated life.
+  turned off for at least 15 minutes once a week, and that lamps not be run past rated life.
+  Metal halide systems nearing the end of lamp life are strong candidates for an LED retrofit
+  or fixture replacement; recommend it to the customer rather than continued relamping.
 - **Never** install an "E" lamp in an open fixture, and replace damaged or missing lenses.
 
 > **Safety:** When working on or under an operating HID fixture, wear safety glasses. Never

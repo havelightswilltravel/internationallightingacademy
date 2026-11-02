@@ -78,7 +78,19 @@ may need vertical readings on rack faces, not just the floor.
   possible – light-colored clothing reflects light onto the sensor.
 - Wait for the reading to settle; record it against the grid point immediately.
 
-### 5. Calculate and compare
+### 5. Measure room-surface reflectances
+Reflectances drive how much light bounces back to the task, and you need them for the lumen
+method (lesson 05). With a standard illuminance meter you can estimate a matte surface:
+- Hold the sensor facing the wall (or ceiling, or floor) about 2–4 in away and record the reading
+  (light **reflected** from the surface).
+- Turn the sensor around at the same spot so it faces away from the surface and record again
+  (light **arriving** at the surface).
+- Reflectance ≈ reflected ÷ arriving. Example: 14 fc ÷ 30 fc ≈ 0.47, or about 47%.
+- Take two or three spots per surface and average them; avoid glossy surfaces, which give
+  misleading readings. A gray or white card of known reflectance is a useful cross-check.
+- Record ceiling, wall and floor values in the report.
+
+### 6. Calculate and compare
 - Average = sum of readings ÷ number of readings
 - Maximum, minimum, and uniformity ratios (next lesson)
 - Compare to target and identify areas above or below
@@ -96,7 +108,7 @@ Sum = 447, n = 12, **average = 37.3 fc**, max = 47, min = 29.
 ## Writing the Report
 
 A good light-level report includes: project and space, date and time, surveyor, meter make/model/
-serial and calibration date, daylight condition, control state, lamp condition, grid layout, data
+serial and calibration date, daylight condition, control state, lamp condition, surface reflectances, grid layout, data
 table, calculations, comparison to target, photos and recommendations. The report should allow
 someone else to **repeat the survey** and get comparable results.
 
@@ -110,4 +122,5 @@ someone else to **repeat the survey** and get comparable results.
 - Use a calibrated, cosine- and color-corrected meter.
 - Exclude or subtract daylight, stabilize the lighting and document control state.
 - Lay out a repeatable grid at the correct measurement plane and keep the sensor level and unshadowed.
+- Measure and record ceiling, wall and floor reflectances.
 - Report method, conditions, data, calculations and recommendations so the survey can be repeated.

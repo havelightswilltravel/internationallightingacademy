@@ -80,6 +80,41 @@ zones to high-activity urban zones) and on areas or lengths such as parking area
 building entrance count, and façade area. Some exterior allowances are "tradable" between areas and
 some are not. Use the adopted code's exterior tables.
 
+## Power vs Energy: LPD and Energy-Use Intensity
+
+LPD measures **power** (watts) at one moment. The customer's bill is for **energy**, which is
+power multiplied by **hours of use**. These are the metrics you will see on audits and proposals:
+
+| Metric | Formula | Units | Tells you |
+|---|---|---|---|
+| Total connected load | Sum of luminaire input watts | W or kW | What the lighting draws with everything on |
+| LPD | Watts ÷ floor area | W/ft² | How efficient the design is; what energy codes limit |
+| Annual energy | Watts × annual operating hours ÷ 1,000 | kWh/yr | What the owner pays for |
+| **Energy-use intensity (EUI)** | Annual kWh ÷ floor area | kWh/ft²·yr | Energy used per square foot, so buildings of different sizes can be compared |
+
+LPD only counts the watts. EUI also counts the **hours**, so it shows what controls are worth.
+Occupancy sensors, daylight dimming and scheduling don't change LPD, but they do lower EUI.
+
+**Example:** the 4,000 ft² suite above had 4,400 W of fluorescent lighting that ran about 3,500
+hours a year. The retrofit installs 2,020 W, and new occupancy sensors cut run time to about
+2,800 hours.
+
+| | Before | After |
+|---|---|---|
+| LPD | 4,400 ÷ 4,000 = 1.10 W/ft² | 2,020 ÷ 4,000 = 0.51 W/ft² |
+| Annual energy | 4,400 × 3,500 ÷ 1,000 = 15,400 kWh | 2,020 × 2,800 ÷ 1,000 = 5,656 kWh |
+| Lighting EUI | 15,400 ÷ 4,000 = 3.85 kWh/ft²·yr | 5,656 ÷ 4,000 = 1.41 kWh/ft²·yr |
+
+The LPD fell about 54%, but the lighting EUI fell about 63%. The difference comes from the
+controls.
+
+Two cautions:
+- **Whole-building EUI** (for example, in ENERGY STAR Portfolio Manager benchmarking) covers
+  *all* fuels and is usually reported in **kBtu/ft²·yr**, not kWh. Lighting is only one part
+  of it. When you quote a lighting EUI, say "lighting" so the customer doesn't compare it with
+  their whole-building number.
+- Hours drive the result. Use logged or customer-confirmed operating hours, not guesses.
+
 ## What This Means in the Field
 
 1. **Install what was submitted.** If the compliance document lists 32 W troffers, installing 40 W
@@ -100,4 +135,5 @@ some are not. Use the adopted code's exterior tables.
 - Always use complete-luminaire input watts, not lamp watts or "equivalent" watts.
 - The building area method uses one allowance; the space-by-space method allows trade-offs between spaces.
 - Exterior allowances are based on lighting zones and specific areas or lengths.
+- LPD (W/ft²) measures power; energy-use intensity (annual kWh/ft²) adds operating hours, so it also shows what controls save.
 - Field substitutions and adjustable-wattage settings can break compliance – install what was submitted and document changes.

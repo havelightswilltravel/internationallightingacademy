@@ -57,6 +57,32 @@ standard one, or "temporarily" disconnecting a unit can leave a dark spot on the
 Never reduce emergency lighting without approval from the customer and, where required, the
 AHJ.
 
+## Outside the Door: Exterior Egress Lighting
+The egress path does not end at the exit door. The **exit discharge** is the part of the route
+from the end of the exit (usually the exterior door) to a **public way** or other safe place.
+People leaving in a blackout still have to cross a landing, steps, a sidewalk or a parking lot
+in the dark, so codes may require emergency illumination outside the building too.
+
+How far that requirement reaches is **an AHJ decision**, and it varies:
+- Some jurisdictions want light only at the **exterior landing** right outside each exit door
+  (recent IBC editions, for example, call for emergency illumination at the exterior landing of
+  exit discharge doors in buildings required to have two or more exits).
+- Others want the walkway lit all the way to the street, sidewalk or an approved
+  **safe dispersal area**. What counts as the "public way" on a campus, a strip mall or a
+  building set far back from the street is often a judgment call by the fire marshal.
+
+What this means for you in the field:
+
+| Situation | What to do |
+|---|---|
+| Replacing an exterior wall pack or canopy light next to an exit door | Check whether the old fixture had a battery or was fed from an emergency source; the replacement must do the same |
+| Exterior battery units and emergency drivers | Use products listed for **wet or damp locations** and rated for the site's **low temperature**; standard batteries lose capacity or will not charge in the cold |
+| Exterior egress fixtures on a photocell or time clock | The control must not leave the egress path dark during a night-time outage; use the wiring and listed control devices the manufacturer specifies (Lesson 3) |
+| Unsure whether a fixture is part of the egress lighting | Ask the supervisor or customer before removing, relocating or downsizing it; the AHJ has the final say |
+
+Write it up on the work order if you notice an exit door with no exterior light at all, or an
+exterior emergency fixture that fails its test. Don't redesign it yourself.
+
 ## Ways Emergency Power Is Provided
 | Source | Description | Typical sites |
 |---|---|---|
@@ -93,5 +119,7 @@ AHJ.
 - NFPA 101 (or the IBC/IFC) sets where, how much and how often to test; NEC Article 700 sets how
   to wire and power it; UL 924 lists the products; the AHJ decides what applies.
 - NFPA 101 baseline: 1 fc average, 0.1 fc minimum, 40:1 max-to-min, within 10 seconds.
+- Egress continues outside to the public way; how much exterior emergency lighting is required
+  is an AHJ decision, and exterior units must be rated for wet locations and cold.
 - Emergency circuits are kept independent, marked, and never defeated by local switches.
 - Expect multiple energy sources — LOTO all of them and disconnect batteries.

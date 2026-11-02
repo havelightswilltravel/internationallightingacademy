@@ -105,8 +105,44 @@ pulsing.
 > socket with the ignitor connected and the circuit energized. Use the manufacturer's test
 > procedure (which typically requires disconnecting the ignitor) or test by substitution.
 
+## The Outer Bulb: Breakage, UV and Self-Extinguishing Lamps
+
+Most HID lamps have two glass parts: the small **arc tube** that makes the light, and the
+larger **outer bulb** around it. The outer bulb does more than protect the arc tube. On mercury
+vapor and metal halide lamps it also **blocks most of the ultraviolet (UV)** the arc produces.
+If the outer bulb cracks or breaks, some lamps **keep running**. Because the arc tube is still
+lit, the fixture looks normal, but it is now giving off strong short-wave UV. People under it
+can get painful eye injuries (like "welder's flash") and skin burns, sometimes hours after
+exposure. This has happened in gyms and warehouses where a ball or forklift mast cracked a lamp.
+
+Lamp markings tell you how a lamp behaves when the outer bulb breaks:
+
+| Marking (on lamp or carton) | Meaning | Where it can go |
+|---|---|---|
+| **T** (self-extinguishing) | Built to shut itself off within a short time (typically about 15 minutes) after the outer bulb breaks | Preferred where people are below, especially in open fixtures |
+| **R** (non-self-extinguishing) | Keeps running with a broken outer bulb; the carton carries a UV warning | Only in fixtures with a lens or other shielding, per the label |
+| **O** (open-rated, "protected") | Has an extra shroud around the arc tube that has passed a containment test | May be used in open fixtures (see Lesson 4 for "E" vs "O") |
+
+HPS lamps do not produce dangerous UV the same way, but a broken HPS outer bulb still means
+the lamp must come out. Air reaching the hot parts ruins the lamp, and broken glass can fall.
+
+**Field rules:**
+1. If you see a cracked, broken or missing outer bulb on a **lit** lamp, keep people out from
+   under it and turn the fixture off. Don't look at the lamp while you do it.
+2. Lock out and verify absence of voltage. Let the lamp cool for at least 10 minutes, then
+   remove it with cut-resistant gloves and safety glasses. Put it in a container for broken
+   lamps (LT1-C06).
+3. Replace it with the **same ANSI code**, and the same open/enclosed and T/R rating the
+   fixture label requires. Do not put an "R" or "E" lamp in an open fixture.
+4. Replace any cracked or missing lens or guard. In gyms and other areas where things get hit,
+   recommend wire guards or a retrofit to LED.
+5. Note on the work order what broke the lamp, if you can tell, and tell the site contact if
+   anyone was under the fixture.
+
 ## Key Takeaways
 - HID types: probe-start MH, pulse-start MH, CMH, HPS, and legacy MV; all contain mercury.
+- A broken outer bulb on an MV or MH lamp can leak harmful UV while the lamp still runs. Turn it
+  off, keep people out, and replace it with the correct T/R and open/enclosed rated lamp.
 - HID lamps need minutes to warm up and cannot restrike immediately when hot.
 - Match the ballast to the lamp's ANSI code, not just wattage; probe- and pulse-start parts are not interchangeable.
 - On multi-tap ballasts, connect only the tap matching measured voltage and insulate each unused tap individually.

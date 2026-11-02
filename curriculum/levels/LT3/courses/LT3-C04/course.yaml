@@ -293,3 +293,25 @@ quiz:
       - "Press the test button to drain the battery first, then work live"
     answer: [0, 1, 2]
     explanation: "The battery can energize lamp leads with the breaker off. Lock out, verify, and disconnect the battery before servicing."
+  - id: LT3-C04-Q20
+    type: single
+    q: "You are replacing a failed exterior wall pack directly outside an exit door. The old fixture had a battery pack. What is correct?"
+    choices:
+      - "Install a standard wall pack; exterior lighting is never part of the egress system"
+      - "Install a replacement with emergency capability that is listed for wet locations and rated for the site's low temperatures"
+      - "Put the new fixture on a photocell only, so it never runs during the day"
+      - "Remove the fixture, since the interior exit sign marks the door"
+    answer: 1
+    explanation: "The exit discharge can be part of the required egress lighting. Replace it like for like with a unit rated for the outdoor location and cold, and ask the supervisor or AHJ if unsure. Never reduce it on your own."
+    ref: LT3-C04 Lesson 1 — exterior egress lighting
+  - id: LT3-C04-Q21
+    type: single
+    q: "Who decides how far exterior emergency lighting must extend along the exit discharge toward the public way?"
+    choices:
+      - "The lighting technician on site"
+      - "The fixture manufacturer"
+      - "The authority having jurisdiction (AHJ)"
+      - "The utility company"
+    answer: 2
+    explanation: "Requirements for exterior egress lighting and how 'public way' is interpreted depend on the adopted code and the AHJ's interpretation."
+    ref: LT3-C04 Lesson 1 — exterior egress lighting

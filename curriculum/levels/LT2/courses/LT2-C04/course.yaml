@@ -227,3 +227,25 @@ quiz:
         - "Leave the lamp out for 24 hours so the capacitor can form"
       answer: 1
       explanation: "The old lamp may have caused or been stressed by the failure. Always put a fresh, correctly matched lamp in with a new ballast kit."
+    - id: LT2-C04-Q21
+      type: single
+      q: "In a school gym, a metal halide lamp in an open high-bay still lights, but its outer bulb is cracked. What is the main hazard?"
+      choices:
+        - "The lamp will draw more current and trip the breaker"
+        - "The arc tube can emit harmful ultraviolet radiation that the intact outer bulb would normally block"
+        - "The lamp color will shift slightly toward green"
+        - "There is no hazard as long as the lamp still lights"
+      answer: 1
+      explanation: "The outer bulb blocks most UV. A non-self-extinguishing lamp with a broken outer bulb can keep running and cause eye and skin burns. Keep people out from under it, turn it off and replace it."
+      ref: LT2-C04 Lesson 3 — outer bulb breakage and UV
+    - id: LT2-C04-Q22
+      type: multi
+      q: "Which lamps are appropriate replacements in an open (unlensed) metal halide fixture where people work below? (Select all that apply.)"
+      choices:
+        - "An open-rated (\"O\") lamp of the correct ANSI code"
+        - "An enclosed-only (\"E\") lamp of the same wattage"
+        - "A non-self-extinguishing (\"R\") lamp, since the fixture has no lens"
+        - "A self-extinguishing (\"T\") lamp of the correct ANSI code that the fixture label allows"
+      answer: [0, 3]
+      explanation: "Open fixtures need lamps rated for open use. Self-extinguishing (T) lamps shut off if the outer bulb breaks. 'E' and 'R' lamps require a lens or shielding."
+      ref: LT2-C04 Lessons 3–4; NFPA 70 (2023) Article 410
