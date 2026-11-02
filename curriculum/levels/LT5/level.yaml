@@ -166,3 +166,199 @@ skills:
       - "Deliverable 6: closeout package (as-builts, test records, owner training outline, warranty information)"
       - Delivers a 15-20 minute presentation and correctly answers evaluator questions on code, safety and design decisions
       - Identifies all items requiring licensed-electrician or AHJ involvement
+  - code: LT5-S09
+    title: Build a site asset inventory and failure log
+    category: Service Program Management
+    critical: false
+    description: 'For a real customer site (or an evaluator-assigned area of at least 25 luminaires), build an asset
+      inventory tied to a floor plan, set up a failure log and identify at least one warranty claim or failure trend
+      from the site''s records.
+
+      '
+    equipment:
+    - floor plans
+    - company inventory template or tablet app
+    - camera
+    - flashlight
+    - ladder
+    - LOTO kit
+    - CAT III digital multimeter
+    - proving unit or known live source
+    - PPE
+    - customer service history
+    criteria:
+    - Assigns a unique asset ID to every luminaire (or identical room group) and marks it on the floor plan
+    - Records make, catalog number, date code or install date, wattage, CCT, retrofit status, controls, emergency
+      function, access requirements and warranty terms for each asset
+    - Opens fixtures to read driver labels only after applying LOTO and verifying absence of voltage live-dead-live;
+      otherwise marks driver data as to be verified
+    - Records driver make, model, output current and dimming type wherever fixtures were opened
+    - Counts and records on-site attic stock with catalog numbers and date codes
+    - Enters existing service history into a failure log with symptom, cause found, part and date code, warranty status,
+      labor and access for each event
+    - Identifies at least one trend (by component batch, location, circuit, age or controls) or warranty claim and
+      states the supporting evidence
+    - Lists items still to be verified and hands in a complete inventory with zero untracked fixtures in the assigned
+      area
+  - code: LT5-S10
+    title: Prepare and defend a retrofit/replace/maintain recommendation
+    category: Service Program Management
+    critical: false
+    description: 'For an evaluator-chosen area, assess condition, apply the company decision worksheet, compare life-cycle
+      cost of maintaining, retrofitting and replacing, and present and defend a timed recommendation to the evaluator
+      acting as the customer.
+
+      '
+    equipment:
+    - company decision worksheet
+    - failure log and inventory for the area
+    - calibrated illuminance meter
+    - camera
+    - ladder or lift as required
+    - manufacturer spec sheets and retrofit kit instructions
+    - LCC spreadsheet
+    criteria:
+    - Gathers failure history, light levels and uniformity against target, physical condition, legacy sources, controls,
+      warranty status and access cost for the area
+    - Does not open fixtures or junction boxes without LOTO and live-dead-live verification, and stops for any suspected
+      asbestos-containing material
+    - Identifies listing requirements for any proposed retrofit kit or TLED type and the labeling required
+    - Flags energy-code control requirements and permit needs that the alteration may trigger, for confirmation with
+      the adopted code and the AHJ
+    - Builds a life-cycle cost comparison of all three options over the same period, including first cost, energy,
+      maintenance labor, access and parts, and incentives (evaluator spot-checks math)
+    - Does not offer group relamping as an option
+    - States a clear recommendation and timing (including phasing if needed) and explains the deciding factors when
+      costs are close
+    - Answers the evaluator's customer questions accurately and lists assumptions and items needing electrician or
+      AHJ review
+  - code: LT5-S11
+    title: Perform before/after service verification with a reflectance check
+    category: Service Program Management
+    critical: false
+    description: 'Establish a repeatable light-level baseline in a sample area, perform or observe the service (cleaning
+      or repair), re-measure under the same conditions, check wall reflectance and write a one-page customer report.
+
+      '
+    equipment:
+    - calibrated illuminance meter
+    - floor plan with measurement grid
+    - tape measure or laser distance meter
+    - white or gray reference card of known reflectance
+    - high-visibility vest where vehicles operate
+    - report template
+    criteria:
+    - Confirms the meter's calibration is current and records its model and serial number
+    - Lays out and documents a measurement grid and task points so the after readings use the same locations
+    - Controls or subtracts daylight (night readings, shades closed, or lights-off readings subtracted)
+    - Overrides dimming, allows fixtures to stabilize at full output and records the control state
+    - Takes readings at work height without shadowing the sensor and records outages at the time of measurement
+    - Re-measures after service under the same conditions and calculates average, maximum-to-minimum ratio and percent
+      change correctly
+    - Measures wall reflectance by the meter method or reference-card method and calculates it correctly
+    - Writes a one-page report with before/after results, reflectance findings, outages found and recommendations
+  - code: LT5-S12
+    title: Clean an LED luminaire per the manufacturer's instructions
+    category: Safety
+    critical: true
+    description: 'Identify the lens, reflector and gasket materials of an assigned LED luminaire, select a compatible
+      cleaner from the manufacturer''s instructions and the SDS, and clean it under LOTO with correct access and fall
+      protection, finishing with no damage and seals intact.
+
+      '
+    equipment:
+    - manufacturer installation and maintenance instructions
+    - SDS for the cleaner
+    - mild detergent and clean water
+    - soft lint-free cloths
+    - soft brush or HEPA vacuum
+    - LOTO kit
+    - CAT III digital multimeter
+    - proving unit or known live source
+    - ladder
+    - scaffold or lift with fall protection as required
+    - safety glasses
+    - gloves
+    - barricade
+    criteria:
+    - Identifies the lens, reflector and gasket materials and locates the manufacturer's cleaning instructions for
+      the catalog number
+    - Selects a cleaner compatible with each material and reads the SDS for hazards and PPE; uses no ammonia, alcohol,
+      solvent or abrasive on materials they damage
+    - Barricades the area below and notifies occupants
+    - Applies LOTO at the circuit's energy-isolating device and verifies absence of voltage live-dead-live before
+      opening the luminaire (critical)
+    - Inspects and uses the ladder, scaffold or lift correctly with fall protection as required (critical)
+    - Removes and cleans the lens on both sides and wipes the reflector without touching LED optics or spraying liquid
+      into the housing
+    - Inspects for cracks, yellowing, damaged gaskets, loose wiring and heat damage and logs findings
+    - Reinstalls the lens with gaskets seated and all latches closed, removes LOTO per procedure and confirms normal
+      operation
+    - Leaves the luminaire with no scratches, crazing or broken seals and records the cleaning in the inventory
+  - code: LT5-S13
+    title: Present a retrofit or upgrade proposal with life-cycle cost
+    category: Project Planning
+    critical: false
+    description: 'Using audit data from a real or instructor-provided facility, prepare and present a good/better/best
+      upgrade proposal (strategy, products, controls by space type, life-cycle cost and maintenance plan) to an evaluator
+      playing the customer, and answer the customer''s questions honestly.
+
+      '
+    equipment:
+    - completed audit data
+    - product cut sheets and warranty terms
+    - estimating or LCC spreadsheet
+    - utility incentive program rules
+    - energy code control requirements summary
+    - presentation handout
+    criteria:
+    - Restates the customer's goals and summarizes the existing condition (input watts, hours, cost, light levels,
+      problems found)
+    - States the strategy for each area (match light, right-size down, or deliver-then-trim) and justifies it with
+      light-level data
+    - Presents at least three options (e.g., TLED, retrofit kit, new luminaire) with first cost, annual savings, simple
+      payback and life-cycle cost
+    - Life-cycle cost includes installed cost, energy, service labor and parts, disposal and incentives, with math
+      the evaluator can spot-check
+    - Recommends controls by space type with reasons, and flags energy-code-required controls as required scope, not
+      options
+    - Includes exit signs, emergency units and code-required life-safety items in every option
+    - Shows incentives as estimated until pre-approved and lists assumptions with a simple sensitivity check
+    - Recommends a mock-up or trial install and states what it will verify
+    - Answers customer objections without overstating savings or dropping required scope
+  - code: LT5-S14
+    title: Close out a project waste stream with customer documentation
+    category: Safety
+    critical: true
+    description: 'Package, label, stage and document the lamp, ballast (including PCB and DEHP suspects), battery
+      and broken-lamp waste from a retrofit job or training scenario, and produce the closeout record the customer
+      keeps.
+
+      '
+    equipment:
+    - lamp recycling containers
+    - sealable broken-lamp container
+    - drums or boxes for ballasts
+    - universal waste and PCB labels
+    - spill kit
+    - nitrile gloves
+    - eye protection
+    - waste log
+    - recycler shipping papers
+    - sample certificate of recycling
+    - audit inventory
+    criteria:
+    - Confirms the circuit is locked out and verified live-dead-live before any lamp or ballast is removed in the
+      scenario
+    - Packs intact lamps in closed, protective containers without taping, bundling or crushing, labeled with contents
+      and accumulation start date
+    - Seals broken lamps in a separate labeled container and describes the broken-lamp cleanup procedure
+    - Identifies ballasts without a "No PCBs" label as PCB suspects and separates them from DEHP and other ballasts
+      with correct labels
+    - Stops and follows the spill procedure for a leaking ballast (no bare-hand contact, isolate area, notify supervisor)
+    - Tapes battery terminals and separates batteries by chemistry; identifies any self-luminous exit sign for special
+      return
+    - Keeps a waste log whose counts reconcile with the audit inventory, explaining any difference
+    - States who the waste generator is for the job and completes the shipping papers correctly
+    - Assembles a customer closeout folder with shipping papers, certificates of recycling or disposal and quantities
+    - Zero safety deviations

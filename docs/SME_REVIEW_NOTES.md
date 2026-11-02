@@ -223,3 +223,29 @@ each item, and correct the content if needed.
 - [ ] Write the company **tool policy**, **device/reimbursement policy** and **driving-record standard** the reworded questions refer to.
 - [ ] Each company sets its own service area and state license question (the original named the Wasatch Front and a Utah license).
 - [ ] MGR-C04 is general training, not legal advice. Have counsel review it against your state's rules (salary-history bans, fair-chance laws, drug testing).
+
+---
+
+# Round 3: senior-level gap fill (November 2026)
+
+## Company policy decisions to confirm
+- [ ] **Group relamping retired:** every course now recommends an LED retrofit or fixture replacement for aging systems. Confirm the wording across LT1-C06, LT1-C05, LT2-C04, LT5-C01 and LT5-C06.
+- [ ] **Ballasts:** every removed magnetic ballast goes to the recycler, kept separate from suspect PCB ballasts and counted (LT1-C06 L5, DEHP section).
+- [ ] **Lamps:** all lamps are recycled, including low-mercury ones, and lamps are never crushed unless the company has an approved, state-allowed system (LT5-C03 L6).
+- [ ] **Scaffolds:** "never ride or move a rolling scaffold with anyone on it" is a company rule stricter than OSHA (LT3-C06 L5).
+- [ ] Replace the example rates and costs in LT5-C06 and LT5-C01 with company figures: $95/h labor, $350 lift-day, response-tier times, life-cycle cost examples.
+
+## Technical items to verify
+- [ ] **LT3-C06 L5:**
+  - 29 CFR 1926.451(c)(1), 4:1 height-to-base
+  - 4× intended load
+  - fall protection above 10 ft
+  - no climbing cross braces
+  - power-line clearance
+  - competent-person inspection each shift
+- [ ] **LT4-C03 L5/L6:** illustrative CU and LLF values; the ~10% predicted-vs-measured rule of thumb; IEC 60529 (IP) and IEC 62262 (IK); LM-79 and TM-21.
+- [ ] **LT3-C04 L1:** how far exterior egress lighting must extend (AHJ/IBC edition).
+- [ ] **LT2-C04 L3:** T/R/O lamp markings and the broken outer-bulb (UV) procedure.
+- [ ] **LT1-C06 L5 and LT5-C03 L6:** DEHP reporting described generally; universal-waste one-year storage limit; asbestos (pre-~1981 buildings, 29 CFR 1926.1101); EPA RRP lead rule scope.
+- [ ] **LT5-C06 L5:** cleaner compatibility guidance (manufacturer instructions govern).
+- [ ] **LT4-C02 L2:** the EUI example, and the note that ENERGY STAR whole-building EUI uses kBtu/ft²·yr.

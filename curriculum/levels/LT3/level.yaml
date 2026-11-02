@@ -459,3 +459,36 @@ skills:
     - Correctly decides between replacing the clock/photocell and investigating downstream equipment
     - Identifies nearby light sources and corrects photocell sleeve and orientation, then returns the clock to automatic
       and documents the schedule and repair
+  - code: LT3-S23
+    title: Assemble, inspect and safely use a rolling scaffold
+    category: Aerial Work Platforms
+    critical: true
+    description: 'Assemble a rolling (mobile) scaffold per the manufacturer''s instructions, perform a pre-use inspection,
+      work from it, and move it safely, in compliance with OSHA 29 CFR 1926 Subpart L and company policy.
+
+      '
+    equipment:
+    - rolling scaffold with manufacturer's instructions and load label
+    - casters
+    - outriggers or stabilizers
+    - decks/planks
+    - guardrails and toeboards
+    - scaffold tag
+    - cones or barricade
+    - hard hat
+    - safety glasses
+    - gloves
+    criteria:
+    - Reads the manufacturer's instructions and load/height label and confirms all components are from the same manufacturer
+    - Inspects frames, braces, casters, decks, guardrails and pins and removes any damaged component from service
+    - Checks the floor for level, holes, openings, cords and overhead hazards (including power lines) and barricades
+      the work area
+    - Seats and pins casters and locks every caster before climbing
+    - Levels the base with adjusting screws within the manufacturer's extension limit, never with blocks
+    - Installs outriggers or restraint when the height-to-base ratio exceeds 4:1 or the manufacturer requires them
+    - Fully decks the platform and installs top rails, midrails and toeboards on all open sides before working at
+      height
+    - Climbs only by the built-in or attached ladder, never on cross braces, and stays within the rated load
+    - Has everyone climb down and secures material before moving, pushes at the base, and relocks all casters and
+      re-checks level before reuse
+    - Applies LOTO and verifies absence of voltage at the fixture before working on it from the scaffold

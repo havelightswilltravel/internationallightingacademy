@@ -175,3 +175,36 @@ skills:
       - Correctly identifies when a Chapter 5–7 article (for example 600 or 700) modifies the general rules
       - States the answer with the article and section reference
       - Recognizes when a question must go to the AHJ, engineer or licensed electrician in charge
+  - code: LT4-S09
+    title: Predict a space's average illuminance with the lumen method, then verify with a meter survey
+    category: Photometry
+    critical: false
+    description: 'Use the lumen (simplified zonal-cavity) method and manufacturer photometric data to predict the
+      average illuminance in a regular room, survey the room with a calibrated meter, and explain the difference between
+      predicted and measured values.
+
+      '
+    equipment:
+    - manufacturer photometric report with CU table
+    - tape or laser measure
+    - calculator
+    - calibrated cosine- and color-corrected illuminance meter
+    - grid layout sheet
+    - report template
+    criteria:
+    - Measures room length, width, luminaire mounting height and work-plane height and calculates the room cavity
+      ratio correctly
+    - Estimates or measures ceiling, wall and floor reflectances and selects the matching CU column, interpolating
+      between RCR rows where needed
+    - Uses the delivered lumens and CU for the exact luminaire or kit installed, not a generic or original-fixture
+      value
+    - Selects and justifies light loss factors (LED lumen depreciation, luminaire dirt, room surface dirt) and calculates
+      both initial and maintained averages
+    - Works backward to the number of luminaires needed for a stated target and identifies whether a proposed layout
+      meets it
+    - Performs a survey that controls or subtracts daylight, stabilizes the lighting, sets controls to full output
+      and uses a repeatable grid at the work plane
+    - Compares the measured average to the initial prediction and states the percentage difference
+    - Explains the difference using specific, plausible causes (reflectances, obstructions, wall-adjacent points,
+      meter tolerance, trim or driver settings) and recommends follow-up if the gap exceeds about 10–15%
+    - Applies LOTO and verifies absence of voltage before opening any luminaire to confirm product data

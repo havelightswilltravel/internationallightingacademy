@@ -63,7 +63,7 @@ Hands-on skills: safe voltage measurement on a three-phase panel; identifying/tr
 - **LT3-C03 Lighting Controls I** — occupancy/vacancy sensors (PIR, ultrasonic, dual-tech), photocells, time clocks, relays, contactors, low-voltage control wiring.
 - **LT3-C04 Emergency & Egress Lighting** — life-safety purpose, NFPA 101 testing (monthly 30-second, annual 90-minute), NEC 700 overview, battery packs, inverters, UL 924 transfer devices, exit signs.
 - **LT3-C05 Exterior, Site & Pole Lighting** — area/pole lights, wall packs, photocontrols, pole and base inspection, underground circuits, wet locations, ground faults.
-- **LT3-C06 Aerial Work Platforms** — MEWP types, ANSI A92.22/A92.24 concepts, pre-use and workplace inspection, fall protection, power-line clearances, ground conditions.
+- **LT3-C06 Aerial Work Platforms** — MEWP types, ANSI A92.22/A92.24 concepts, pre-use and workplace inspection, fall protection, power-line clearances, ground conditions, rolling scaffolds and specialty access.
 - **LT3-C07 Contactors, Relays & Lighting Control Panels** — contactor anatomy, electrically vs mechanically held, coil voltages, HOA, relay panels and latching relays, BMS/monitoring-service control, troubleshooting, rebuild vs replace.
 - **LT3-C08 Refrigerated Case Lighting** — case types, defrost cycles, remote ballasts/drivers, harnesses and seals, cold-rated components, LED case retrofits, troubleshooting without breaking seals, working in occupied stores.
 - **LT3-C09 Neon & Cold-Cathode Signage** — how neon works, neon transformers and secondary ground-fault protection, GTO, electrode boots, PK housings, standoffs, exposed vs channel neon, high-voltage safety, safe isolation/split-half methods, LED neon retrofits.
@@ -75,7 +75,7 @@ Hands-on skills: driver replacement and matching; 0–10V dimming troubleshootin
 ### LT4 — Lighting Technician IV (Senior)
 - **LT4-C01 Networked Lighting Controls** — architectures (wired, wireless mesh), gateways, zoning, commissioning, BMS integration, BACnet intro, luminaire-level lighting control.
 - **LT4-C02 Energy Codes & Standards** — ASHRAE 90.1, IECC, Title 24 overview, lighting power density, mandatory controls, DLC qualified products, utility incentive programs.
-- **LT4-C03 Photometry & Lighting Quality** — footcandles/lux, IES recommended illuminance, light meter surveys, uniformity, glare, CCT/CRI/TM-30.
+- **LT4-C03 Photometry & Lighting Quality** — footcandles/lux, IES recommended illuminance, light meter surveys and reflectance checks, uniformity, glare, CCT/CRI/TM-30, the lumen method in the field, luminaire optics, distribution and efficiency, IP/IK ratings.
 - **LT4-C04 Power Quality & Advanced Electrical** — harmonics, LED inrush & nuisance tripping, voltage drop calculations, multiwire branch circuits & shared neutrals, transients & surge protection.
 - **LT4-C05 Advanced Troubleshooting** — intermittent faults, system-level and controls interactions, root-cause analysis, case studies.
 - **LT4-C06 The NEC for Lighting Work** — Art. 410 (luminaires), 411, 404, 225, 250 basics for lighting, 600, 700; navigating the code book.
@@ -83,11 +83,12 @@ Hands-on skills: driver replacement and matching; 0–10V dimming troubleshootin
 Hands-on skills: commissioning an NLC zone; light-level survey and report; diagnosing nuisance tripping; troubleshooting a multiwire branch circuit; leading a retrofit audit walk-through.
 
 ### LT5 — Certified Advanced Lighting Technician
-- **LT5-C01 Lighting Audits, Project Planning & Estimating** — audits, retrofit scopes, takeoffs, labor estimates, simple payback/ROI.
+- **LT5-C01 Lighting Audits, Project Planning & Estimating** — audits, retrofit scopes, takeoffs, labor estimates, simple payback/ROI, upgrade strategy (TLED vs retrofit kit vs new luminaire) with life-cycle cost, recommending controls by space type, kWh/ft² and EUI.
 - **LT5-C02 Commissioning & Functional Testing** — Cx process, functional performance tests, documentation, owner training.
-- **LT5-C03 Leadership, Mentoring & Crew Safety** — leading crews, job hazard analysis, toolbox talks, mentoring, conflict resolution.
+- **LT5-C03 Leadership, Mentoring & Crew Safety** — leading crews, job hazard analysis, toolbox talks, mentoring, conflict resolution, mobilizing a large job, hazardous materials on lighting projects (lamps, PCB/DEHP ballasts, asbestos and lead-paint awareness, recycling paperwork).
 - **LT5-C04 Emerging Lighting Technology** — PoE lighting, tunable white/circadian, UV-C safety, IoT sensors, solar/off-grid, smart-city, Li-Fi.
-- **LT5-C05 Capstone & Comprehensive Review** — integrated review of LT1–LT4 and capstone project requirements.
+- **LT5-C06 LED-Era Maintenance & Retrofit/Replacement Planning** — planned service programs once relamping is gone, how LED systems lose light and fail (L70, drivers, dirt, controls), asset inventory and failure tracking, warranty/RMA management, the retrofit vs replace vs maintain decision with life-cycle cost, luminaire cleaning, selling and verifying a service program (before/after light levels and reflectance).
+- **LT5-C05 Capstone & Comprehensive Review** (taken last) — integrated review of LT1–LT4 and capstone project requirements.
 
 Hands-on skills: capstone project; leading a job end-to-end; delivering a toolbox talk; mentoring sign-off of an LT1; full-system troubleshooting practical.
 

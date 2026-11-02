@@ -11,6 +11,7 @@ That leaves about 12 weeks to get from draft to production-ready.
 - [x] Draft content totals: 55 courses, 223 lessons, 875 questions, 77 hands-on skills
 - [x] Web platform: sign-in, roles, video lessons, quizzes and timed exams, hands-on sign-offs, OJT hours, promotions and certificates, placement, pay scale, library, reports, multi-company licensing
 - [x] Automated tests
+- [x] Round 3 (Nov 2026): senior-level gap fill after a topic-only check against the NALMCO senior textbook — new LT5-C06 LED-Era Maintenance & Retrofit/Replacement Planning, plus additions to LT3–LT5; group relamping retired in favor of retrofit/replacement
 - [x] Round 2: company Master Troubleshooting Guide → Skills Matrix + 17 field procedures; 12 new system courses (case lighting, neon, data cable, track, low voltage, LED signage, parts knowledge, relays/contactors, breakers, 3-way, outlets & switches, incandescent); Manager Module + hiring scorecards from the company interview kits
 
 ## Phase 2 — Review & your content (October 15 – November 15)

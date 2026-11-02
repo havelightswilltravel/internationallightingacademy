@@ -26,10 +26,10 @@ LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior ─► LT5 Certified Adv
 
 | | Lighting track (LT1–LT5) | Electrical track (EA1–EA4, JW) | Manager Module | Total |
 |---|---|---|---|---|
-| Courses | 43 | 24 | 6 | **73** |
-| Lessons | 185 | 94 | 21 | **300** |
-| Quiz/exam questions | 688 | 400 | 90 | **1,178** |
-| Hands-on skills | 58 | 36 | 6 | **100** |
+| Courses | 44 | 24 | 6 | **74** |
+| Lessons | 198 | 94 | 21 | **313** |
+| Quiz/exam questions | 733 | 400 | 90 | **1,223** |
+| Hands-on skills | 66 | 36 | 6 | **108** |
 
 Plus 43 library guides (26 troubleshooting guides and 17 company field procedures), a 20-system
 Skills Matrix, and two interview kits. Screenshots are in [`docs/screenshots/`](docs/screenshots/).
