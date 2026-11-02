@@ -30,8 +30,9 @@ review_interval_months: 12
 - Wear eye protection and gloves. Fluorescent and HID lamps contain mercury: handle
   spent lamps as universal waste; use the broken-lamp cleanup procedure if one breaks.
 - **Metal halide lamps can rupture at end of life.** Use lamps rated for the fixture
-  (open vs enclosed fixture), and follow the manufacturer's guidance on group relamping
-  and on scheduled off-cycles for continuously operated MH lamps.
+  (open vs enclosed fixture), and follow the manufacturer's guidance on scheduled
+  off-cycles for continuously operated MH lamps. Aging MH systems should be recommended for
+  LED retrofit or fixture replacement.
 
 ## Tools needed
 
@@ -44,7 +45,7 @@ review_interval_months: 12
 
 | Cause | How to confirm | Fix |
 |---|---|---|
-| Normal end of life | Hours of use near rated life; symptoms above; group of same-age lamps failing | Replace; recommend group relamp |
+| Normal end of life | Hours of use near rated life; symptoms above; group of same-age lamps failing | Replace; recommend LED retrofit or fixture replacement |
 | Short lamp life from frequent switching (instant-start fluorescent) | Lamps on occupancy sensors failing early with instant-start ballast | Recommend programmed-start ballast or LED for frequently switched areas |
 | Ballast/driver problem mimicking lamp failure | Known-good lamp also fails | Go to the ballast/driver guides |
 | Wrong lamp type | Label vs lamp | Install correct lamp |
@@ -60,7 +61,7 @@ review_interval_months: 12
 4. Install a **known-good** lamp of the correct type. If it works normally, the old lamp was
    at end of life. If not, the problem is the ballast/driver, socket or supply.
 5. Consider age: if one lamp of a group installed at the same time has failed, others will
-   follow. Recommend group relamping to the customer where practical.
+   follow. Recommend an LED retrofit or fixture replacement to the customer.
 6. Dispose of spent lamps per universal waste rules.
 
 ## When to escalate
@@ -74,5 +75,5 @@ review_interval_months: 12
 
 - Fixture locations and lamp types replaced, quantities
 - Symptoms observed and whether known-good lamp test confirmed lamp failure
-- Group relamp recommendation given to customer
+- Retrofit/replacement recommendation given to customer
 - Universal waste container/location used

@@ -42,7 +42,7 @@ review_interval_months: 12
 
 | Cause | How to confirm | Fix |
 |---|---|---|
-| Lamp at end of life | Blackened ends, flicker; known-good lamp works | Replace lamp (consider group relamp) |
+| Lamp at end of life | Blackened ends, flicker; known-good lamp works | Replace lamp (recommend retrofit if the system is aging) |
 | Lamp not seated / rotated in socket | Lamp starts when moved; pins not engaged | Reseat; replace loose sockets |
 | Wrong lamp for ballast (T12 on T8 ballast, wrong wattage, energy-saver lamp on incompatible ballast) | Lamp marking vs ballast label | Install correct lamp |
 | Failed ballast | Known-good lamps won't start; ballast hot, swollen, leaking or burnt smell | Replace ballast with matching type |

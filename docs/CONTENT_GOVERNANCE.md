@@ -66,3 +66,10 @@ questions a new ID.
 Claude can help keep the content current. For example: *"Review LT3-C01 against current DLC
 technical requirements and the latest LED driver practices; propose changes as a pull request."*
 Always have a qualified person review AI-proposed changes before they are published.
+
+## 7. Program-wide practice decisions
+
+These decisions apply to every course and library guide. Writers and reviewers should keep new
+content consistent with them.
+
+- **No group relamping (decided November 2026).** Group relamping is an older practice that has been replaced by retrofitting or replacing fixtures with LED. Teach spot relamping only as a service-call task on fixtures staying in place. For aging fluorescent or HID systems, the recommendation to the customer is a **retrofit or fixture replacement**. Group relamping may appear only as brief historical context.

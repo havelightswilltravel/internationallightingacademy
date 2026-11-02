@@ -134,7 +134,8 @@ Before ordering a fluorescent ballast, ask:
 - **Is this fixture on a retrofit plan?** Many customers prefer converting to LED when a
   ballast fails. Your company may have a standing policy.
 - **How many fixtures have failed?** Many failures in one area at about the same time
-  suggests a group relamp/retrofit makes sense or a voltage/heat problem exists.
+  suggests the system is at end of life (recommend a retrofit or fixture replacement) or that a
+  voltage/heat problem exists.
 - **Is the ballast PCB-containing?** Pre-1979 ballasts without a "No PCBs" marking must be
   treated as PCB-containing (LT1-C06).
 - **Correct replacement:** same lamp type and quantity, same starting method (or one

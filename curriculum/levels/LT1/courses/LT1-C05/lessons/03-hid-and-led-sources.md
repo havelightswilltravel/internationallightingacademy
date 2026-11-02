@@ -40,7 +40,8 @@ contain **mercury**.
 > lamps rated for **open fixtures** (often marked "O" or "protected") are designed to contain a
 > rupture; others must be used **only in enclosed fixtures** with an intact lens. Follow the
 > manufacturer's guidance for continuously operated MH lamps (for example, turning them off for a
-> period each week) and group-relamp near rated life.
+> period each week). Aging MH systems are prime candidates for LED retrofit or fixture
+> replacement rather than continued relamping.
 
 > **Safety: UV exposure.** If the outer bulb of an MH or MV lamp is broken while the lamp still
 > operates, it can emit harmful ultraviolet radiation that burns skin and eyes. Turn it off and

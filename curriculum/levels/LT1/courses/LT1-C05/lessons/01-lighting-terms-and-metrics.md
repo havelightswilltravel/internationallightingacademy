@@ -94,8 +94,9 @@ gives a more detailed picture of color quality (LT4-C03).
   has failed. Life depends on burn hours, starts, and operating conditions.
 - **LEDs** rarely "burn out"; they slowly dim. LED life is often given as **L70**, the hours until
   output falls to 70% of its initial lumens (LT3-C01).
-- All light sources lose output over time and as fixtures get dirty. That is why group relamping
-  and cleaning restore light levels.
+- All light sources lose output over time and as fixtures get dirty. Cleaning restores some of
+  the loss; for aging fluorescent and HID systems, the modern fix is an LED retrofit or a new
+  fixture rather than relamping on a schedule.
 
 ## Reading a Lamp Label or Box
 

@@ -185,3 +185,14 @@ quiz:
       answer: 0
       explanation: A leaking ballast may contain PCBs. It is a stop-work condition; the ballast and anything contaminated must be handled as PCB waste.
       ref: EPA TSCA PCB regulations (40 CFR 761)
+    - id: LT1-C06-Q16
+      type: single
+      q: Several fluorescent fixtures in a warehouse aisle have failed within the same month. What is the current best-practice recommendation to the customer?
+      choices:
+        - Schedule a group relamp of every fixture in the building
+        - Keep spot relamping indefinitely
+        - Recommend an LED retrofit or fixture replacement for the aging system
+        - Remove the failed fixtures and leave the area darker
+      answer: 2
+      explanation: Group relamping is an older practice that has been replaced by retrofitting or replacing fixtures with LED. Repeated failures of same-age lamps signal an aging system; recommend a retrofit or replacement and document it on the work order.
+      ref: LT1-C06 Lesson 3

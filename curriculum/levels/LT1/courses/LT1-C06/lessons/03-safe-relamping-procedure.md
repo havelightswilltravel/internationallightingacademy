@@ -10,14 +10,19 @@ video_suggestion: >
   tombstone socket and a lamp that is not fully seated.
 ---
 
-## Spot Relamping vs. Group Relamping
+## Spot Relamping vs. Retrofit or Replacement
 
-| Method | What it is | When used |
+| Approach | What it is | When used |
 |---|---|---|
-| **Spot relamping** | Replace lamps one at a time as they fail | Small sites, service calls |
-| **Group relamping** | Replace all lamps in an area at once, usually at about 70–80% of rated life, and clean fixtures at the same time | Large facilities; lower labor cost per lamp, uniform light levels and color |
+| **Spot relamping** | Replace a failed lamp (or ballast) in an existing fixture | Service calls on fixtures that are staying in place for now |
+| **Retrofit** | Convert the existing fixture to LED with a retrofit kit or TLEDs | Most fluorescent and HID fixtures that are aging or failing |
+| **Fixture replacement** | Remove the old luminaire and install a new LED luminaire | Damaged, obsolete or poorly performing fixtures, or where a retrofit is not practical |
 
-Group relamping is planned work. Spot relamping is what most service calls involve. Either way,
+**Group relamping** (replacing every lamp in an area at once on a
+schedule) is an older practice that is no longer used. It has been replaced by retrofitting or replacing fixtures with LED,
+which removes the need for routine relamping altogether. When you relamp a failing fluorescent
+or HID fixture, note it on the work order: repeated failures in an area are a sign the customer
+should be offered a retrofit or replacement (see LT2-C05 and LT5-C01). Whatever the approach,
 the safety steps are the same.
 
 ## Before You Go Up the Ladder
