@@ -1,0 +1,454 @@
+<title>Lighting Academy Curriculum</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: spec-sheet reader — sticky header with search, grade ladder nav on the left, reading column on the right; nav folds above content on phones. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --ink: #18212e;
+  --muted: #5d6878;
+  --line: #dde2ea;
+  --accent: #b97800;          /* safety amber, darkened for text contrast on light */
+  --accent-fill: #f2b01e;     /* amber used for fills and bars */
+  --accent-soft: #fdf3dc;
+  --link: #1d5aa6;
+  --ok: #17784a; --ok-soft: #e3f4ea;
+  --warn: #a4370f; --warn-soft: #fbe9e1;
+  --info-soft: #e8f0fb;
+  --code-bg: #eef1f5;
+  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161e; --surface: #18202b; --ink: #e6eaf0; --muted: #9aa5b5; --line: #2a3442;
+    --accent: #f2b01e; --accent-fill: #f2b01e; --accent-soft: #2e2611; --link: #7fb2ff;
+    --ok: #6fd39d; --ok-soft: #14301f; --warn: #ff9f7a; --warn-soft: #3a1d13; --info-soft: #172438; --code-bg: #222c39;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161e; --surface: #18202b; --ink: #e6eaf0; --muted: #9aa5b5; --line: #2a3442;
+  --accent: #f2b01e; --accent-fill: #f2b01e; --accent-soft: #2e2611; --link: #7fb2ff;
+  --ok: #6fd39d; --ok-soft: #14301f; --warn: #ff9f7a; --warn-soft: #3a1d13; --info-soft: #172438; --code-bg: #222c39;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+a { color: var(--link); }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--accent-fill); outline-offset: 2px; }
+code, .mono { font-family: var(--mono); font-size: .86em; }
+.wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* Header */
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+header.top .bar { display: flex; align-items: center; gap: 14px; padding-block: 10px; max-width: 1280px; margin: 0 auto; flex-wrap: wrap; }
+.brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; color: var(--ink); min-width: 0; }
+.brand b { font: 700 1.45rem/1 var(--display); letter-spacing: .02em; text-transform: uppercase; }
+.brand span { font-size: .78rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
+.lamp { width: 12px; height: 12px; border-radius: 50%; background: var(--accent-fill); box-shadow: 0 0 0 3px var(--accent-soft), 0 0 14px var(--accent-fill); align-self: center; }
+.search { flex: 1 1 240px; display: flex; min-width: 0; }
+.search input { width: 100%; font: inherit; font-size: .95rem; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); }
+
+/* Shell */
+.shell { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 28px; max-width: 1280px; margin: 0 auto; padding-block: 22px 60px; }
+nav.side { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 70px); max-height: calc(100vh - 90px); overflow-y: auto; font-size: .92rem; padding-right: 4px; }
+nav.side h4 { font: 600 .74rem/1.2 var(--body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 18px 0 6px; }
+nav.side h4:first-child { margin-top: 0; }
+nav.side a { display: block; text-decoration: none; color: var(--ink); padding: 4px 8px; border-radius: 4px; }
+nav.side a:hover { background: var(--code-bg); }
+nav.side a.on { background: var(--accent-soft); box-shadow: inset 3px 0 0 var(--accent-fill); }
+nav.side .lv { display: grid; grid-template-columns: 44px 1fr; gap: 6px; align-items: baseline; }
+nav.side .lv .c { font: 700 1rem/1 var(--display); color: var(--accent); }
+nav.side .sub { margin: 2px 0 4px 50px; border-left: 1px solid var(--line); }
+nav.side .sub a { font-size: .86rem; color: var(--muted); padding: 3px 8px; }
+nav.side .sub a.on { color: var(--ink); }
+.btn.navtoggle { display: none; }
+
+main { min-width: 0; }
+.crumbs { font-size: .85rem; color: var(--muted); margin-bottom: 10px; }
+.crumbs a { color: var(--muted); }
+h1 { font: 700 2.3rem/1.05 var(--display); letter-spacing: .01em; margin: 0 0 6px; text-wrap: balance; }
+h2 { font: 600 1.55rem/1.15 var(--display); letter-spacing: .01em; margin: 34px 0 10px; text-wrap: balance; }
+h3 { font-size: 1.05rem; margin: 22px 0 6px; }
+.eyebrow { font: 500 .78rem/1.3 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
+.lede { color: var(--muted); max-width: 68ch; font-size: 1.04rem; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; }
+.grid { display: grid; gap: 14px; }
+.g3 { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.g2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.stat { display: flex; flex-direction: column; gap: 2px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.stat b { font: 700 2.2rem/1 var(--display); font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: .86rem; }
+
+/* Ladder */
+.ladder { display: grid; gap: 8px; margin: 10px 0 0; padding: 0; list-style: none; }
+.ladder a { display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; text-decoration: none; color: inherit; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; }
+.ladder a:hover { border-color: var(--accent-fill); }
+.ladder .code { font: 700 1.6rem/1 var(--display); color: var(--accent); grid-row: span 2; }
+.ladder .t { font-weight: 600; }
+.ladder .m { color: var(--muted); font-size: .84rem; font-variant-numeric: tabular-nums; }
+.ladder .n { grid-row: span 2; font: 500 .8rem/1.2 var(--mono); color: var(--muted); text-align: right; white-space: nowrap; }
+
+.reqs { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 14px 0; }
+.reqs div { border-top: 3px solid var(--accent-fill); background: var(--surface); padding: 10px 12px; border-radius: 0 0 6px 6px; font-size: .9rem; }
+.reqs b { display: block; font: 700 1.3rem/1.1 var(--display); }
+
+.list { display: grid; gap: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.list a, .list > div { display: grid; grid-template-columns: 110px minmax(0, 1fr) auto; gap: 12px; align-items: baseline; padding: 11px 16px; text-decoration: none; color: inherit; border-top: 1px solid var(--line); }
+.list > :first-child { border-top: 0; }
+.list a:hover { background: var(--code-bg); }
+.list .k { font: 500 .82rem/1.3 var(--mono); color: var(--accent); }
+.list .d { color: var(--muted); font-size: .84rem; white-space: nowrap; }
+.list .tt { min-width: 0; }
+.list .tt small { display: block; color: var(--muted); font-size: .85rem; }
+.tick { color: var(--ok); font-weight: 700; }
+
+/* Lesson prose */
+.prose { max-width: 72ch; }
+.prose table { border-collapse: collapse; font-size: .92rem; display: block; overflow-x: auto; max-width: 100%; margin: 14px 0; }
+.prose th, .prose td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; vertical-align: top; }
+.prose th { background: var(--code-bg); }
+.prose blockquote { margin: 16px 0; padding: 10px 14px; border-left: 4px solid var(--accent-fill); background: var(--accent-soft); border-radius: 0 6px 6px 0; }
+.prose blockquote p { margin: 4px 0; }
+.prose pre { overflow-x: auto; background: var(--code-bg); padding: 12px; border-radius: 6px; }
+.prose img { max-width: 100%; }
+.video { display: flex; gap: 12px; align-items: flex-start; background: var(--info-soft); border-radius: 8px; padding: 12px 14px; margin: 14px 0 6px; font-size: .92rem; max-width: 72ch; }
+.video .ic { flex: none; width: 34px; height: 24px; border-radius: 5px; background: var(--ink); position: relative; margin-top: 2px; }
+.video .ic::after { content: ""; position: absolute; left: 13px; top: 6px; border: 6px solid transparent; border-left: 10px solid var(--surface); }
+.pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 30px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 6px; font: 500 .92rem/1.2 var(--body); padding: 8px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); text-decoration: none; cursor: pointer; }
+.btn:hover { border-color: var(--accent-fill); }
+.btn.on { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+/* Quiz */
+.q { border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 10px 0; background: var(--surface); }
+.q .qid { font: 500 .76rem/1 var(--mono); color: var(--muted); }
+.q p.stem { margin: 6px 0 8px; font-weight: 500; }
+.q ol { margin: 0; padding-left: 1.4em; }
+.q li { margin: 2px 0; }
+.q li.ans { color: var(--ok); font-weight: 600; }
+.q li.ans::after { content: "  ✓ correct"; font: 500 .74rem var(--mono); }
+.q .why { font-size: .88rem; color: var(--muted); margin-top: 8px; }
+.hide-answers .q li.ans { color: inherit; font-weight: inherit; }
+.hide-answers .q li.ans::after, .hide-answers .q .why { display: none; }
+.pill { display: inline-block; font: 500 .72rem/1.4 var(--mono); padding: 1px 7px; border-radius: 99px; background: var(--code-bg); color: var(--muted); }
+.pill.crit { background: var(--warn-soft); color: var(--warn); }
+.pill.multi { background: var(--info-soft); color: var(--link); }
+
+details.skill { border: 1px solid var(--line); border-radius: 8px; background: var(--surface); margin: 8px 0; }
+details.skill summary { cursor: pointer; padding: 11px 14px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+details.skill summary .k { font: 500 .82rem var(--mono); color: var(--accent); }
+details.skill .body { padding: 0 16px 12px; font-size: .94rem; }
+details.skill ul { padding-left: 1.2em; }
+
+.scale { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 16px; }
+.scale span { font-size: .85rem; padding: 3px 10px; border-radius: 99px; background: var(--code-bg); }
+.scale b { font-family: var(--mono); margin-right: 4px; }
+.kit h3 { font: 600 1.15rem var(--display); letter-spacing: .02em; }
+.kit .note { font-size: .84rem; color: var(--muted); }
+.kit ol li { margin: 6px 0; }
+.empty { color: var(--muted); padding: 20px 0; }
+mark { background: var(--accent-soft); color: inherit; padding: 0 2px; border-radius: 2px; }
+.hit { padding: 10px 0; border-top: 1px solid var(--line); }
+.hit a { font-weight: 600; text-decoration: none; }
+.hit .snip { font-size: .9rem; color: var(--muted); }
+.banner { background: var(--warn-soft); color: var(--warn); border-radius: 8px; padding: 10px 14px; font-size: .9rem; margin: 0 0 18px; max-width: 72ch; }
+footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-width: 1280px; margin: 0 auto; }
+
+@media (max-width: 860px) {
+  .shell { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  nav.side { position: static; max-height: none; display: none; border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: var(--surface); }
+  nav.side.open { display: block; }
+  .btn.navtoggle { display: inline-flex; }
+  h1 { font-size: 1.9rem; }
+  .list a, .list > div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .list .d { white-space: normal; }
+  .ladder a { grid-template-columns: 56px minmax(0, 1fr); }
+  .ladder .n { grid-row: auto; grid-column: 2; text-align: left; }
+}
+@media (prefers-reduced-motion: no-preference) { .lamp { transition: box-shadow .3s; } .brand:hover .lamp { box-shadow: 0 0 0 4px var(--accent-soft), 0 0 22px var(--accent-fill); } }
+</style>
+
+<header class="top"><div class="bar wrap">
+  <a class="brand" href="#home"><i class="lamp" aria-hidden="true"></i><b>Lighting Academy</b><span>Curriculum review</span></a>
+  <button class="btn navtoggle" id="navtoggle" type="button" aria-expanded="false" aria-controls="side">Contents</button>
+  <form class="search" id="searchform" role="search"><input id="q" type="search" placeholder="Search lessons, questions, guides… (e.g. neon, ballast, LOTO)" aria-label="Search the curriculum"></form>
+</div></header>
+
+<div class="shell wrap">
+  <nav class="side" id="side" aria-label="Curriculum contents"></nav>
+  <main id="main" tabindex="-1"></main>
+</div>
+<footer class="wrap" id="foot"></footer>
+
+<script type="application/json" id="data">/*__DATA__*/</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById('data').textContent);
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const main = $('#main');
+  const side = $('#side');
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k) || 'null'); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } },
+  };
+  const reviewed = new Set(store.get('ila-reviewed') || []);
+  let answersHidden = !!store.get('ila-hide-answers');
+
+  const lessonsOf = (c) => D.courses[c].lessons.map((k) => D.lessons[k]);
+  const levelOfCourse = (c) => D.levels[D.courses[c].level];
+
+  // ---------- nav ----------
+  function renderNav(route) {
+    const h = [];
+    for (const t of D.tracks) {
+      h.push(`<h4>${esc(t.title)}</h4>`);
+      for (const code of t.levels) {
+        const l = D.levels[code];
+        const onLevel = route.level === code;
+        h.push(`<a class="lv${route.name === 'lvl' && onLevel ? ' on' : ''}" href="#lvl-${code}"><span class="c">${code}</span><span>${esc(l.title)}</span></a>`);
+        if (onLevel) {
+          h.push('<div class="sub">');
+          for (const c of l.courses) h.push(`<a class="${route.course === c ? 'on' : ''}" href="#crs-${c}">${c.split('-')[1]} · ${esc(D.courses[c].title)}</a>`);
+          h.push('</div>');
+        }
+      }
+    }
+    h.push('<h4>Reference</h4>');
+    const ref = [['lib', 'Troubleshooting library'], ['matrix', 'Skills Matrix'], ['kits', 'Interview kits'], ...D.docs.map((d) => ['doc-' + d.key, d.title])];
+    for (const [k, t] of ref) h.push(`<a class="${route.name === k || (route.name === 'g' && k === 'lib') || (route.name === 'kit' && k === 'kits') ? 'on' : ''}" href="#${k}">${esc(t)}</a>`);
+    side.innerHTML = h.join('');
+  }
+
+  // ---------- views ----------
+  const views = {};
+  views.home = () => {
+    const t = D.meta.totals;
+    return `<p class="eyebrow">Draft for review · generated ${esc(D.meta.generated)}</p>
+      <h1>Technician training, from day one to journeyman</h1>
+      <p class="lede">Every level, course, lesson, quiz question and hands-on skill in the program, in one place for reviewers. Answer keys are shown so subject-matter experts can check them; use “Hide answers” on a course to test yourself.</p>
+      <div class="banner">All content is a draft pending review by a licensed electrician or other subject-matter expert. The SME review checklist lists the specific items to verify.</div>
+      <div class="grid g3" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr))">
+        <div class="stat"><b>${t.levels}</b><span>Levels</span></div>
+        <div class="stat"><b>${t.courses}</b><span>Courses</span></div>
+        <div class="stat"><b>${t.lessons}</b><span>Lessons</span></div>
+        <div class="stat"><b>${t.questions.toLocaleString()}</b><span>Quiz &amp; exam questions</span></div>
+        <div class="stat"><b>${t.skills}</b><span>Hands-on skills</span></div>
+        <div class="stat"><b>${t.guides}</b><span>Library guides</span></div>
+      </div>
+      ${D.tracks.map((tr) => `<h2>${esc(tr.title)}</h2><p class="lede">${esc(tr.description)}</p>
+        <ol class="ladder">${tr.levels.map((code) => { const l = D.levels[code]; const nl = l.courses.reduce((a, c) => a + D.courses[c].lessons.length, 0);
+          return `<li><a href="#lvl-${code}"><span class="code">${code}</span><span class="t">${esc(l.title)}</span><span class="n">${l.courses.length} courses<br>${nl} lessons<br>${l.skills.length} skills</span><span class="m">${esc(l.grade)}${l.duration ? ' · ~' + l.duration + ' months' : ''} · ${l.reqs.hours.toLocaleString()} OJT hours</span></a></li>`; }).join('')}</ol>`).join('')}
+      <h2>Reviewer progress</h2>
+      <p class="lede">Mark lessons as reviewed as you go. Your marks are saved in this browser only. ${reviewed.size} of ${t.lessons} lessons marked so far.</p>`;
+  };
+
+  views.lvl = (r) => {
+    const l = D.levels[r.level];
+    if (!l) return notFound();
+    return `<p class="crumbs"><a href="#home">Program</a> › ${esc(D.trackTitle[l.track])}</p>
+      <p class="eyebrow">${esc(l.code)} · ${esc(l.grade)}${l.duration ? ' · typically ~' + l.duration + ' months' : ''}</p>
+      <h1>${esc(l.title)}</h1>
+      <p class="lede">${esc(l.description)}</p>
+      <div class="reqs">
+        <div><b>${l.reqs.coursePass}%</b>to pass each course quiz</div>
+        <div><b>${l.reqs.examQ} q · ${l.reqs.examMin} min</b>final exam, ${l.reqs.examPass}% to pass</div>
+        <div><b>${l.reqs.hours.toLocaleString()} h</b>verified on-the-job hours</div>
+        <div><b>${l.skills.length}</b>hands-on skills signed off</div>
+      </div>
+      ${l.outcomes.length ? `<h2>Outcomes</h2><ul class="prose">${l.outcomes.map((o) => `<li>${esc(o)}</li>`).join('')}</ul>` : ''}
+      <h2>Courses</h2>
+      <div class="list">${l.courses.map((c) => { const C = D.courses[c]; const done = C.lessons.filter((k) => reviewed.has(k)).length;
+        return `<a href="#crs-${c}"><span class="k">${c}</span><span class="tt">${esc(C.title)}<small>${C.lessons.length} lessons · ${C.questions.length} questions${C.hours ? ' · ~' + C.hours + ' h' : ''}</small></span><span class="d">${done ? `<span class="tick">${done}/${C.lessons.length} reviewed</span>` : ''}</span></a>`; }).join('')}</div>
+      <h2>Hands-on skills</h2>
+      <p class="lede">Each skill is observed and signed off by a qualified evaluator. A pass needs every criterion; critical skills also need zero safety deviations.</p>
+      ${l.skills.map(skillHtml).join('')}`;
+  };
+
+  function skillHtml(s) {
+    return `<details class="skill"><summary><span class="k">${esc(s.code)}</span><strong>${esc(s.title)}</strong>${s.critical ? '<span class="pill crit">critical</span>' : ''}<span class="pill">${esc(s.category)}</span></summary>
+      <div class="body"><p>${esc(s.description)}</p>${s.equipment.length ? `<p><strong>Equipment:</strong> ${esc(s.equipment.join(', '))}</p>` : ''}
+      <p><strong>Pass/fail criteria</strong></p><ul>${s.criteria.map((c) => `<li>${esc(c)}</li>`).join('')}</ul></div></details>`;
+  }
+
+  views.crs = (r) => {
+    const C = D.courses[r.course];
+    if (!C) return notFound();
+    const l = levelOfCourse(r.course);
+    return `<p class="crumbs"><a href="#home">Program</a> › <a href="#lvl-${l.code}">${l.code} ${esc(l.title)}</a></p>
+      <p class="eyebrow">${esc(C.code)}${C.hours ? ' · ~' + C.hours + ' study hours' : ''}</p>
+      <h1>${esc(C.title)}</h1>
+      <p class="lede">${esc(C.description)}</p>
+      ${C.objectives.length ? `<h2>Objectives</h2><ul class="prose">${C.objectives.map((o) => `<li>${esc(o)}</li>`).join('')}</ul>` : ''}
+      <h2>Lessons</h2>
+      <div class="list">${C.lessons.map((k, i) => { const L = D.lessons[k];
+        return `<a href="#les-${k}"><span class="k">Lesson ${i + 1}</span><span class="tt">${esc(L.title)}</span><span class="d">${L.minutes ? L.minutes + ' min' : ''}${reviewed.has(k) ? ' <span class="tick">✓</span>' : ''}</span></a>`; }).join('')}</div>
+      <div class="row" style="justify-content:space-between;margin-top:34px">
+        <h2 style="margin:0">Quiz question bank</h2>
+        <button class="btn" type="button" id="toggleAnswers">${answersHidden ? 'Show answers' : 'Hide answers'}</button>
+      </div>
+      <p class="lede">${C.questions.length} questions; each attempt draws ${C.perAttempt} at random. ${C.pass}% to pass. Choices are shuffled for technicians.</p>
+      <div id="qbank" class="${answersHidden ? 'hide-answers' : ''}">${C.questions.map(qHtml).join('')}</div>`;
+  };
+
+  function qHtml(q, i) {
+    const ans = new Set(q.answer);
+    return `<div class="q"><span class="qid">${esc(q.id)}</span> ${q.type === 'multi' ? '<span class="pill multi">select all that apply</span>' : ''}
+      <p class="stem">${i + 1}. ${esc(q.q)}</p>
+      <ol type="A">${q.choices.map((c, j) => `<li class="${ans.has(j) ? 'ans' : ''}">${esc(c)}</li>`).join('')}</ol>
+      ${q.explanation || q.ref ? `<p class="why">${q.explanation ? '<strong>Why:</strong> ' + esc(q.explanation) : ''}${q.ref ? ` <em>Ref: ${esc(q.ref)}</em>` : ''}</p>` : ''}</div>`;
+  }
+
+  views.les = (r) => {
+    const L = D.lessons[r.lesson];
+    if (!L) return notFound();
+    const C = D.courses[L.course];
+    const l = levelOfCourse(L.course);
+    const i = C.lessons.indexOf(L.key);
+    const prev = C.lessons[i - 1]; const next = C.lessons[i + 1];
+    return `<p class="crumbs"><a href="#home">Program</a> › <a href="#lvl-${l.code}">${l.code}</a> › <a href="#crs-${C.code}">${C.code} ${esc(C.title)}</a> › Lesson ${i + 1} of ${C.lessons.length}</p>
+      <h1>${esc(L.title)}</h1>
+      <div class="row"><span class="pill">${L.minutes ? L.minutes + ' min' : 'Lesson'}</span>
+        <button class="btn ${reviewed.has(L.key) ? 'on' : ''}" type="button" id="markReviewed" aria-pressed="${reviewed.has(L.key)}">${reviewed.has(L.key) ? '✓ Reviewed' : 'Mark as reviewed'}</button></div>
+      ${L.video ? `<div class="video"><span class="ic" aria-hidden="true"></span><div><strong>Suggested in-house video:</strong> ${esc(L.video)}</div></div>` : ''}
+      <article class="prose">${L.html}</article>
+      <div class="pager">${prev ? `<a class="btn" href="#les-${prev}">← ${esc(D.lessons[prev].title)}</a>` : '<span></span>'}
+        ${next ? `<a class="btn" href="#les-${next}">${esc(D.lessons[next].title)} →</a>` : `<a class="btn" href="#crs-${C.code}">Course quiz bank →</a>`}</div>`;
+  };
+
+  views.lib = () => {
+    const cats = {};
+    for (const g of D.library) (cats[g.category] = cats[g.category] || []).push(g);
+    return `<p class="eyebrow">Library · ${D.library.length} guides</p><h1>Troubleshooting library</h1>
+      <p class="lede">Field guides technicians open on the job. The field-procedures category is adapted from the company Master Troubleshooting Guide.</p>
+      ${Object.keys(cats).sort((a, b) => (a === 'field-procedures' ? -1 : b === 'field-procedures' ? 1 : a.localeCompare(b))).map((c) => `<h2>${esc(c.replace(/-/g, ' '))}</h2>
+        <div class="list">${cats[c].map((g) => `<a href="#g-${g.key}"><span class="k">${esc(g.levels.join(' ') || '—')}</span><span class="tt">${esc(g.title)}${g.tags ? `<small>${esc(g.tags)}</small>` : ''}</span><span class="d">${g.reviewed ? 'reviewed ' + esc(g.reviewed) : ''}</span></a>`).join('')}</div>`).join('')}`;
+  };
+
+  views.g = (r) => {
+    const g = D.library.find((x) => x.key === r.guide);
+    if (!g) return notFound();
+    return `<p class="crumbs"><a href="#lib">Library</a> › ${esc(g.category)}</p><h1>${esc(g.title)}</h1>
+      <div class="row">${g.levels.map((l) => `<span class="pill">${esc(l)}</span>`).join('')}${g.reviewed ? `<span class="pill">last reviewed ${esc(g.reviewed)}</span>` : ''}</div>
+      <article class="prose">${g.html}</article>`;
+  };
+
+  views.matrix = () => `<p class="eyebrow">Skills Matrix · ${D.matrix.areas.length} field systems</p><h1>Skills Matrix</h1>
+    <p class="lede">From the company Master Troubleshooting Guide. Technicians rate themselves on each system, write out the troubleshooting steps in order and list every component; an evaluator confirms the rating.</p>
+    <div class="scale">${Object.entries(D.matrix.scale).map(([k, v]) => `<span><b>${k}</b>${esc(v)}</span>`).join('')}</div>
+    <div class="list">${D.matrix.areas.map((a) => `<div><span class="k">${esc(a.title)}</span><span class="tt">${esc(a.components)}<small>Taught in: ${a.courses.map((c) => D.courses[c] ? `<a href="#crs-${c}">${c}</a>` : c).join(', ')}${a.guide ? ` · <a href="#g-${a.guide}">field procedure</a>` : ''}</small></span><span></span></div>`).join('')}</div>`;
+
+  views.kits = () => `<p class="eyebrow">Manager Module · Hiring</p><h1>Interview kits</h1>
+    <p class="lede">Structured behavior-based interviews adapted from the company's Technician and Electrician interview forms. In the app these become digital scorecards; reworded questions carry a note explaining why.</p>
+    <div class="list">${D.kits.map((k) => `<a href="#kit-${k.code}"><span class="k">${esc(k.position)}</span><span class="tt">${esc(k.title)}<small>${k.background.length} background questions · ${k.competencies.reduce((a, c) => a + c.questions.length, 0)} behavior-based questions</small></span><span></span></a>`).join('')}</div>`;
+
+  views.kit = (r) => {
+    const k = D.kits.find((x) => x.code === r.kit);
+    if (!k) return notFound();
+    return `<p class="crumbs"><a href="#kits">Interview kits</a></p><h1>${esc(k.title)}</h1>
+      <div class="video"><div><strong>Interviewer instructions:</strong> ${esc(k.instructions.replace(/\{\{company\}\}/g, 'our company'))}</div></div>
+      <div class="kit prose">
+      <h2>Position and background questions</h2>
+      <ol>${k.background.map((b) => `<li>${esc(b.q.replace(/\{\{company\}\}/g, 'our company'))}${b.note ? `<div class="note">ⓘ ${esc(b.note)}</div>` : ''}</li>`).join('')}</ol>
+      <h2>Behavior-based competencies</h2><p class="note">Each answer is scored 1–9 and marked answered Y/N.</p>
+      ${k.competencies.map((c) => `<h3>${esc(c.competency)}</h3><ul>${c.questions.map((q) => `<li>${esc(q)}</li>`).join('')}</ul>`).join('')}
+      <h3>Closing</h3><p>${esc(k.closing)}</p>
+      <h2>Items to watch for in answers</h2><ul>${k.watch_for.map((w) => `<li>${esc(w)}</li>`).join('')}</ul>
+      <h2>Observe</h2><ul>${k.observe.map((w) => `<li>${esc(w.replace(/\{\{company\}\}/g, 'our company'))}</li>`).join('')}</ul>
+      <h2>Candidate qualities and requirements</h2><ul>${k.requirements.map((w) => `<li>${esc(w)}</li>`).join('')}</ul></div>`;
+  };
+
+  views.doc = (r) => {
+    const d = D.docs.find((x) => x.key === r.doc);
+    if (!d) return notFound();
+    return `<p class="eyebrow">Program document</p><article class="prose">${d.html}</article>`;
+  };
+
+  // ---------- search ----------
+  let index = null;
+  function buildIndex() {
+    const strip = (h) => h.replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s+/g, ' ');
+    index = [];
+    for (const k in D.lessons) { const L = D.lessons[k]; index.push({ kind: 'Lesson', href: '#les-' + k, title: L.title, where: L.course, text: strip(L.html) }); }
+    for (const c in D.courses) for (const q of D.courses[c].questions) index.push({ kind: 'Question', href: '#crs-' + c, title: q.q, where: q.id, text: q.q + ' ' + q.choices.join(' ') + ' ' + (q.explanation || '') });
+    for (const g of D.library) index.push({ kind: 'Guide', href: '#g-' + g.key, title: g.title, where: g.category, text: strip(g.html) });
+    for (const l in D.levels) for (const s of D.levels[l].skills) index.push({ kind: 'Skill', href: '#lvl-' + l, title: s.title, where: s.code, text: s.description + ' ' + s.criteria.join(' ') });
+  }
+  function search(q) {
+    if (!index) buildIndex();
+    const terms = q.toLowerCase().split(/\s+/).filter((t) => t.length > 1);
+    if (!terms.length) return '';
+    const hits = [];
+    for (const it of index) {
+      const hay = (it.title + ' ' + it.text).toLowerCase();
+      if (!terms.every((t) => hay.includes(t))) continue;
+      const score = terms.reduce((a, t) => a + (it.title.toLowerCase().includes(t) ? 5 : 0), 0) + (it.kind === 'Lesson' ? 2 : it.kind === 'Guide' ? 1 : 0);
+      const pos = it.text.toLowerCase().indexOf(terms[0]);
+      const snip = pos >= 0 ? it.text.slice(Math.max(0, pos - 70), pos + 140) : it.text.slice(0, 160);
+      hits.push({ ...it, score, snip });
+    }
+    hits.sort((a, b) => b.score - a.score);
+    const mark = (s) => { let out = esc(s); for (const t of terms) out = out.replace(new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'), '<mark>$1</mark>'); return out; };
+    return `<p class="eyebrow">Search</p><h1>Results for “${esc(q)}”</h1><p class="lede">${hits.length} match${hits.length === 1 ? '' : 'es'}${hits.length > 80 ? ' (showing the first 80)' : ''}.</p>
+      ${hits.length ? hits.slice(0, 80).map((h) => `<div class="hit"><span class="pill">${h.kind}</span> <a href="${h.href}">${mark(h.title.length > 140 ? h.title.slice(0, 140) + '…' : h.title)}</a> <span class="pill">${esc(h.where)}</span><div class="snip">…${mark(h.snip)}…</div></div>`).join('') : '<p class="empty">No matches. Try a shorter or different word.</p>'}`;
+  }
+
+  // ---------- router ----------
+  function notFound() { return '<h1>Page not found</h1><p><a href="#home">Back to the program</a></p>'; }
+  function parse(hash) {
+    const h = (hash || '').replace(/^#/, '') || 'home';
+    let m;
+    if ((m = /^lvl-(.+)$/.exec(h))) return { name: 'lvl', level: m[1] };
+    if ((m = /^crs-(.+)$/.exec(h))) return { name: 'crs', course: m[1], level: D.courses[m[1]] && D.courses[m[1]].level };
+    if ((m = /^les-(.+)$/.exec(h))) { const L = D.lessons[m[1]]; return { name: 'les', lesson: m[1], course: L && L.course, level: L && D.courses[L.course].level }; }
+    if ((m = /^g-(.+)$/.exec(h))) return { name: 'g', guide: m[1] };
+    if ((m = /^kit-(.+)$/.exec(h))) return { name: 'kit', kit: m[1] };
+    if ((m = /^doc-(.+)$/.exec(h))) return { name: 'doc-' + m[1], view: 'doc', doc: m[1] };
+    return { name: views[h] ? h : 'home' };
+  }
+  function render() {
+    const r = parse(location.hash);
+    renderNav(r);
+    const v = views[r.view || r.name] || views.home;
+    main.innerHTML = v(r);
+    side.classList.remove('open');
+    $('#navtoggle').setAttribute('aria-expanded', 'false');
+    window.scrollTo(0, 0);
+    wire(r);
+  }
+  function wire(r) {
+    const t = $('#toggleAnswers');
+    if (t) t.addEventListener('click', () => {
+      answersHidden = !answersHidden; store.set('ila-hide-answers', answersHidden);
+      $('#qbank').classList.toggle('hide-answers', answersHidden); t.textContent = answersHidden ? 'Show answers' : 'Hide answers';
+    });
+    const m = $('#markReviewed');
+    if (m) m.addEventListener('click', () => {
+      if (reviewed.has(r.lesson)) reviewed.delete(r.lesson); else reviewed.add(r.lesson);
+      store.set('ila-reviewed', [...reviewed]);
+      const on = reviewed.has(r.lesson);
+      m.classList.toggle('on', on); m.setAttribute('aria-pressed', on); m.textContent = on ? '✓ Reviewed' : 'Mark as reviewed';
+    });
+  }
+  $('#searchform').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const q = $('#q').value.trim();
+    if (!q) return;
+    renderNav({ name: 'search' });
+    main.innerHTML = search(q);
+    window.scrollTo(0, 0);
+  });
+  $('#navtoggle').addEventListener('click', () => { const open = side.classList.toggle('open'); $('#navtoggle').setAttribute('aria-expanded', open); });
+  $('#foot').textContent = 'International Lighting Academy · curriculum ' + D.meta.version + ' · generated ' + D.meta.generated + ' from the program repository. Draft content pending SME review. Always follow OSHA, NFPA 70E and the code adopted by your Authority Having Jurisdiction.';
+  window.addEventListener('hashchange', render);
+  render();
+})();
+</script>

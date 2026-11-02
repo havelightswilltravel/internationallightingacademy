@@ -90,6 +90,7 @@ Other commands:
 ```bash
 npm test                         # automated tests
 npm run validate-curriculum      # check content files for errors without importing
+npm run build-review-site -- review-site.html   # one-file, read-only review copy of the whole curriculum
 ```
 
 Configuration is through environment variables; see [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).

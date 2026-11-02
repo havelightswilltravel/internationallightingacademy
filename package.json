@@ -14,6 +14,7 @@
     "validate-curriculum": "node --disable-warning=ExperimentalWarning scripts/validate-curriculum.js",
     "seed-demo": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js",
     "create-owner": "node --disable-warning=ExperimentalWarning scripts/create-owner.js",
+    "build-review-site": "node --disable-warning=ExperimentalWarning scripts/review-site/build.js",
     "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
   },
   "license": "UNLICENSED",
