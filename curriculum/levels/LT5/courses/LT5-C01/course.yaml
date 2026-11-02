@@ -138,7 +138,7 @@ quiz:
       explanation: (120 - 40) x 20 / 1,000 = 1.6 kW; 1.6 kW x 4,000 h = 6,400 kWh per year.
     - id: LT5-C01-Q12
       type: single
-      q: A project costs $20,000 installed, receives $4,000 in rebates, and saves $5,000 per year. What is the simple payback?
+      q: In a hypothetical example, a project costs $20,000 installed, receives $4,000 in rebates, and saves $5,000 per year. What is the simple payback?
       choices:
         - 4.0 years
         - 2.5 years

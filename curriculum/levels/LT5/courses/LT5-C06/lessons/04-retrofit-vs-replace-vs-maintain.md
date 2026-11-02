@@ -62,6 +62,10 @@ Simple payback (LT5-C01/04) compares energy savings to project cost. For service
 need **life-cycle cost (LCC)**: first cost + energy + maintenance labor, access and parts − incentives,
 over the same period for every option.
 
+> **Example figures only:** Every rate, price and cost in the examples below is made up for
+> teaching. None of them are any company's actual labor rates, prices, costs or customer pricing.
+> For real estimates and proposals, always use your company's current figures.
+
 **Example:** 40 first-generation LED high-bays, 9 years old, 30 ft mounting, 6,000 hours per year,
 $0.12 per kWh. The failure log shows 7 driver failures last year and rising; readings are 62% of
 initial. Ten-year comparison, not discounted:

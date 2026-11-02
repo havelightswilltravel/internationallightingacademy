@@ -88,7 +88,7 @@ During the audit walk-through (skill LT4-S06) and installation:
 Annual kWh saved = (existing W − new W) × quantity × annual hours ÷ 1,000
 
 Example: replace 100 fixtures at 112 W with 45 W LED troffers, operating 4,000 h/yr:
-(112 − 45) × 100 × 4,000 ÷ 1,000 = **26,800 kWh/yr**. At $0.14/kWh that is about **$3,752 per year**
+(112 − 45) × 100 × 4,000 ÷ 1,000 = **26,800 kWh/yr**. At an example electricity rate of $0.14/kWh (made up for this example), that is about **$3,752 per year**
 before controls savings. Payback and ROI calculations are covered in LT5-C01.
 
 ## Key Takeaways

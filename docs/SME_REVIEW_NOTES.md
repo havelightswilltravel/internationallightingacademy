@@ -229,11 +229,11 @@ each item, and correct the content if needed.
 # Round 3: senior-level gap fill (November 2026)
 
 ## Company policy decisions to confirm
-- [ ] **Group relamping retired:** every course now recommends an LED retrofit or fixture replacement for aging systems. Confirm the wording across LT1-C06, LT1-C05, LT2-C04, LT5-C01 and LT5-C06.
-- [ ] **Ballasts:** every removed magnetic ballast goes to the recycler, kept separate from suspect PCB ballasts and counted (LT1-C06 L5, DEHP section).
-- [ ] **Lamps:** all lamps are recycled, including low-mercury ones, and lamps are never crushed unless the company has an approved, state-allowed system (LT5-C03 L6).
-- [ ] **Scaffolds:** "never ride or move a rolling scaffold with anyone on it" is a company rule stricter than OSHA (LT3-C06 L5).
-- [ ] Replace the example rates and costs in LT5-C06 and LT5-C01 with company figures: $95/h labor, $350 lift-day, response-tier times, life-cycle cost examples.
+- [x] **Group relamping retired** (client direction, Nov 2026): every course now recommends an LED retrofit or fixture replacement for aging systems. Confirm the wording across LT1-C06, LT1-C05, LT2-C04, LT5-C01 and LT5-C06.
+- [x] **Ballasts:** confirmed by the client (Nov 2026). Every removed magnetic ballast goes to the recycler, kept separate from suspect PCB ballasts and counted (LT1-C06 L5, DEHP section).
+- [x] **Lamps:** confirmed by the client (Nov 2026). All lamps are recycled, including low-mercury ones, and lamps are never crushed unless the company has an approved, state-allowed system (LT5-C03 L6).
+- [x] **Scaffolds:** confirmed by the client (Nov 2026). "Never ride or move a rolling scaffold with anyone on it" is a company rule stricter than OSHA (LT3-C06 L5).
+- [x] **Rates and costs are examples only (client decision, Nov 2026).** The company's own rates must NOT appear in the program. Every lesson with dollar figures carries an "Example figures only" note: LT5-C01 L4/L5, LT5-C06 L1/L4, MGR-C06 L4, with inline notes in LT1-C04 L2, LT4-C02 L4 and LT5-C03 L5.
 
 ## Technical items to verify
 - [ ] **LT3-C06 L5:**

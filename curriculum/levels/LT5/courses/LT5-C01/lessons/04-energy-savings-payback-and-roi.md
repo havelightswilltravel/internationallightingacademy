@@ -47,6 +47,10 @@ double-counts.
 ## Step 3: Cost Savings
 **Annual cost savings = kWh savings x blended rate ($/kWh)**
 
+> **Example figures only:** Every rate, price and cost in the examples below is made up for
+> teaching. None of them are any company's actual labor rates, prices, costs or customer pricing.
+> For real estimates and proposals, always use your company's current figures.
+
 The blended rate is total bill dollars divided by total kWh, taken from 12 months of bills.
 It includes energy and demand charges averaged together. At $0.12/kWh:
 - 41,384 x $0.12 = **$4,966/yr**

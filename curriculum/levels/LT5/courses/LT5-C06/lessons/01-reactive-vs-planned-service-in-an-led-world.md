@@ -70,8 +70,14 @@ These are example tiers; the actual times are negotiated and priced in each agre
 
 ## The Owner's Cost Picture
 Customers often compare only the price of a part. Show them the full cost of a repair, which is
-mostly labor and access. Example for one building with high ceilings, using our internal planning
-rates:
+mostly labor and access.
+
+> **Example figures only:** Every rate, price and cost in the examples below is made up for
+> teaching. None of them are any company's actual labor rates, prices, costs or customer pricing.
+> For real estimates and proposals, always use your company's current figures.
+
+Example for one building with high ceilings, using made-up example rates (not real company
+rates):
 
 | | Reactive | Planned (quarterly) |
 |---|---|---|

@@ -103,7 +103,7 @@ with 150 W LED fixtures. The lights run 4,000 hours per year.
 
 - Old: 100 × 0.458 kW × 4,000 h = 183,200 kWh
 - New: 100 × 0.150 kW × 4,000 h = 60,000 kWh
-- Savings: **123,200 kWh per year.** At $0.12 per kWh, about **$14,784 per year.**
+- Savings: **123,200 kWh per year.** At an example electricity rate of $0.12 per kWh (made up for this example), about **$14,784 per year.**
 
 This is how lighting retrofits pay for themselves, and why customers care about watts.
 

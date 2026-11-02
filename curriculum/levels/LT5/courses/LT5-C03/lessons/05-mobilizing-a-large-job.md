@@ -88,7 +88,7 @@ touches conductors. A new day means a new verification.
 ## Tracking Progress Against the Estimate
 Compare daily production with the estimate so problems surface early.
 
-Example: the estimate allows 0.6 hours per retrofit kit for 1,200 kits (720 hours). The crew of
+Example (made-up numbers, not real company labor units): the estimate allows 0.6 hours per retrofit kit for 1,200 kits (720 hours). The crew of
 four works 8-hour shifts (32 hours a day), so the plan is about 53 kits per day. After three
 days the crew has installed 132 kits, which is 44 per day.
 

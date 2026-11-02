@@ -395,3 +395,18 @@ test('hiring: scorecard, averages, company isolation, hire creates technician', 
   assert.match((await admin.get('/admin/users')).text, /Temporary passwords/);
   assert.equal((await ev.get('/hiring/kits/technician')).status, 200);
 });
+
+test('dollar figures in lessons are always labeled as examples (client policy)', () => {
+  const unlabeled = [];
+  for (const level of curriculum.load().levels) {
+    for (const course of level.courses) {
+      for (const lesson of course.lessons) {
+        if (/\$\d/.test(lesson.body_md) && !/example|hypothetical|made[- ]up/i.test(lesson.body_md)) unlabeled.push(lesson.id);
+      }
+      for (const q of course.questions) {
+        if (/\$\d/.test(q.prompt) && !/example|hypothetical/i.test(q.prompt)) unlabeled.push(q.id);
+      }
+    }
+  }
+  assert.deepEqual(unlabeled, []);
+});

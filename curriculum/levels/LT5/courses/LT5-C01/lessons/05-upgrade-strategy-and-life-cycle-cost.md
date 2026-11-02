@@ -81,6 +81,10 @@ will pay over a study period (often 10-15 years):
 
 **LCC = installed cost + energy cost + service labor and parts + disposal - incentives**
 
+> **Example figures only:** Every rate, price and cost in the examples below is made up for
+> teaching. None of them are any company's actual labor rates, prices, costs or customer pricing.
+> For real estimates and proposals, always use your company's current figures.
+
 Example: 100 three-lamp T8 troffers at 88 input watts, 3,500 hours per year, $0.12 per kWh, 12-year
 study. Today's energy cost is 100 x 88 W x 3,500 h / 1,000 x $0.12 = $3,696 per year, plus about
 $900 per year in lamp and ballast service calls.

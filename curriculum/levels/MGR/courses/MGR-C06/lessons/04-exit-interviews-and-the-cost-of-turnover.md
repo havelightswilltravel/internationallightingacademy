@@ -61,6 +61,10 @@ Turnover costs are mostly hidden, which is why they're easy to ignore. Estimates
 hourly roles commonly run from a substantial fraction of annual pay up to the full annual pay or
 more. Build your own estimate with a simple worksheet.
 
+> **Example figures only:** Every rate, price and cost in the examples below is made up for
+> teaching. None of them are any company's actual labor rates, prices, costs or customer pricing.
+> For real estimates and proposals, always use your company's current figures.
+
 | Cost category | What to include | Example estimate |
 |---|---|---|
 | **Separation** | HR and manager time on the exit, final pay processing, unused PTO payout | $400 |

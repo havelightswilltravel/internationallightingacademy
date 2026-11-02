@@ -73,3 +73,9 @@ These decisions apply to every course and library guide. Writers and reviewers s
 content consistent with them.
 
 - **No group relamping (decided November 2026).** Group relamping is an older practice that has been replaced by retrofitting or replacing fixtures with LED. Teach spot relamping only as a service-call task on fixtures staying in place. For aging fluorescent or HID systems, the recommendation to the customer is a **retrofit or fixture replacement**. Group relamping may appear only as brief historical context.
+- **Example figures only (decided November 2026).** Do not put the company's real labor rates, prices, costs or response commitments in the curriculum. Any lesson that uses dollar figures, labor units or response times must label them as made-up examples: use the standard "Example figures only" callout before the first figure, or an inline "example rate" note for a single number. Quiz questions with money use hypothetical wording.
+- **Confirmed company policies (November 2026):**
+  - Every removed magnetic ballast goes to the recycler, kept separate from suspect PCB ballasts and counted.
+  - All lamps are recycled, including low-mercury lamps.
+  - Lamps are never crushed unless the company has an approved, state-allowed system.
+  - Nobody rides or moves a rolling scaffold with anyone on it.
