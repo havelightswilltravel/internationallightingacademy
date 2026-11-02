@@ -1,7 +1,7 @@
 code: LT4-C03
 title: Photometry & Lighting Quality
 order: 3
-estimated_hours: 7
+estimated_hours: 9
 description: >
   Teaches the photometric quantities and laws senior technicians use to measure and explain
   lighting performance: lumens, candela, footcandles/lux and luminance, the inverse square and
@@ -15,11 +15,15 @@ objectives:
   - Perform a repeatable light-level survey and calculate average and uniformity ratios.
   - Identify causes of poor uniformity and glare and recommend corrective actions.
   - Interpret CCT, color consistency, CRI (Ra and R9) and TM-30 (Rf and Rg) on a spec sheet.
+  - Predict average maintained illuminance with the lumen method, check a retrofit proposal against a target, and verify with a meter survey.
+  - Explain how reflectors, lenses, diffusers and louvers shape light, classify luminaire distribution, and compare products by luminaire efficacy and location/IP/IK ratings.
 lessons:
   - 01-photometric-units-and-laws.md
   - 02-ies-recommendations-and-light-surveys.md
   - 03-uniformity-and-glare.md
   - 04-color-quality-cct-cri-tm30.md
+  - 05-lumen-method-in-the-field.md
+  - 06-luminaire-optics-classification-and-efficiency.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -176,3 +180,65 @@ quiz:
         - The CCT is wrong
       answer: 2
       explanation: Designs include light loss factors, so initial levels typically exceed maintained targets. High-end trim can tune initial output where the design calls for it.
+    - id: LT4-C03-Q16
+      type: single
+      q: A 50 ft × 40 ft room has 24 LED troffers of 4,500 delivered lumens each, a CU of 0.70 and a total LLF of 0.85. What is the predicted average maintained illuminance?
+      choices:
+        - About 23 fc
+        - About 32 fc
+        - About 38 fc
+        - About 54 fc
+      answer: 1
+      explanation: (24 × 4,500 × 0.70 × 0.85) ÷ 2,000 ft² = 64,260 ÷ 2,000 ≈ 32 fc. The lumen method multiplies count, lumens, CU and LLF and divides by floor area.
+      ref: LT4-C03 lesson 05
+    - id: LT4-C03-Q17
+      type: single
+      q: Where should you get the coefficient of utilization (CU) when checking an LED retrofit kit proposal?
+      choices:
+        - From the kit manufacturer's photometric data for the kit installed in that housing, at the room's RCR and reflectances
+        - From the original fluorescent fixture's spec sheet
+        - From the IES Recommended Practice for the space type
+        - It is always 1.0 for LED products
+      answer: 0
+      explanation: The CU depends on the optic and the room. A kit changes the optic, so use the kit's own photometric data for the kit-in-housing combination.
+    - id: LT4-C03-Q18
+      type: multi
+      q: Which are light loss factors you would include in a maintained-illuminance calculation for an LED system? (Select all that apply.)
+      choices:
+        - LED lumen depreciation at the design life
+        - Luminaire dirt depreciation
+        - Room cavity ratio
+        - Room surface dirt depreciation
+      answer: [0, 1, 3]
+      explanation: LLF combines losses such as LED lumen depreciation, luminaire dirt and room surface dirt. RCR describes room shape and is used to look up the CU; it is not a loss factor.
+    - id: LT4-C03-Q19
+      type: single
+      q: A new, clean installation was predicted at 40 fc initial and measures 37 fc on a careful night survey. What is the best conclusion?
+      choices:
+        - The installation has failed and must be redone
+        - The meter must be broken
+        - The result is within about 10% and reasonably agrees; note likely causes such as actual reflectances, furniture and grid points near walls
+        - The CU table should be ignored in future
+      answer: 2
+      explanation: A difference under about 10% is normal given reflectances, obstructions, wall-adjacent grid points and meter tolerance. Larger gaps call for investigation.
+    - id: LT4-C03-Q20
+      type: single
+      q: Which metric is the fairest way to compare the energy performance of two integrated LED luminaires?
+      choices:
+        - LED package (source) efficacy
+        - Luminaire efficiency in percent
+        - Luminaire efficacy – delivered lumens divided by total input watts
+        - Rated wattage alone
+      answer: 2
+      explanation: Integrated LED luminaires are tested as complete units (absolute photometry), so luminaire efficacy in lm/W includes driver, thermal and optical losses.
+      ref: IES LM-79
+    - id: LT4-C03-Q21
+      type: multi
+      q: Which statements about optics and ratings are correct? (Select all that apply.)
+      choices:
+        - A prismatic lens controls light mainly by refraction
+        - An opal diffuser hides the source but loses some light to transmission and scattering
+        - An IP66 rating means the luminaire is automatically UL-listed for wet locations
+        - An IES Type V outdoor distribution produces a round or square pattern around the pole
+      answer: [0, 1, 3]
+      explanation: Prisms refract; diffusers trade efficiency for low brightness; Type V is symmetric around the pole. An IP rating does not replace the UL wet-location listing the inspector checks.

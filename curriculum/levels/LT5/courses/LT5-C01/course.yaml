@@ -1,7 +1,7 @@
 code: LT5-C01
 title: Lighting Audits, Project Planning & Estimating
 order: 1
-estimated_hours: 8
+estimated_hours: 9.5
 description: >
   Turns field experience into project leadership. Technicians learn to perform a complete
   lighting audit, translate it into a clear retrofit scope and material takeoff, build labor
@@ -13,11 +13,15 @@ objectives:
   - Build and reconcile a material takeoff against the audit inventory
   - Prepare a labor estimate using labor units, condition factors, non-install labor and contingency
   - Calculate kW reduction, kWh savings, cost savings, simple payback and simple ROI
+  - "Compare TLED, retrofit kit and new luminaire options using life-cycle cost (energy, service labor, disposal, incentives) and present them as good/better/best"
+  - "Recommend control strategies by space type and use pattern, flag energy-code control requirements, and report results in kWh per square foot and EUI"
 lessons:
   - 01-conducting-lighting-audits.md
   - 02-retrofit-scopes-and-takeoffs.md
   - 03-labor-estimating-and-scheduling.md
   - 04-energy-savings-payback-and-roi.md
+  - 05-upgrade-strategy-and-life-cycle-cost.md
+  - 06-recommending-controls-by-space-type.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -173,3 +177,63 @@ quiz:
       answer: 2
       explanation: Life-safety and code-required items should not be removed to improve financial metrics. Present them as required and explain why.
       ref: NFPA 101 (Life Safety Code) means of egress illumination
+    - id: LT5-C01-Q16
+      type: multi
+      q: "Which items belong in a life-cycle cost comparison of retrofit options? (Select all that apply.)"
+      choices:
+        - "Annual energy cost over the study period"
+        - "Service labor and parts for expected failures"
+        - "Disposal of removed lamps, ballasts and housings"
+        - "The color of the existing ceiling grid"
+      answer: [0, 1, 2]
+      explanation: "LCC adds installed cost, energy, service labor and parts, and disposal, then subtracts incentives. Ceiling grid color does not affect the owner's cost of ownership."
+    - id: LT5-C01-Q17
+      type: single
+      q: "Option A costs less to install but has a higher 12-year life-cycle cost than Option B. What is the best way to present this to the customer?"
+      choices:
+        - "Show only Option A because it has the shortest payback"
+        - "Show both with first cost, payback and LCC, state the assumptions, recommend one and let the customer decide"
+        - "Show only Option B because LCC is the only number that matters"
+        - "Average the two options into one price"
+      answer: 1
+      explanation: "Different owners weigh first cost, payback and lifetime cost differently. Present the options side by side honestly, with assumptions, and make a recommendation."
+    - id: LT5-C01-Q18
+      type: single
+      q: "What is the main purpose of a trial install (mock-up) before a large rollout?"
+      choices:
+        - "To let the crew practice energized installation"
+        - "To avoid having to measure light levels later"
+        - "To confirm light levels, occupant acceptance, controls operation and real install time before ordering in volume"
+        - "To meet a utility requirement that every project include a mock-up"
+      answer: 2
+      explanation: "A mock-up proves the option in a real space and corrects the labor estimate. It is still done de-energized with LOTO and live-dead-live verification."
+    - id: LT5-C01-Q19
+      type: single
+      q: "Occupants complain that restroom lights turn off while people are inside the stalls. The sensor is a wall-mounted PIR. What is the best fix?"
+      choices:
+        - "Replace it with an ultrasonic or dual-technology ceiling sensor that can detect motion around partitions"
+        - "Tape over the sensor so the lights stay on"
+        - "Set the sensor to always-on"
+        - "Remove the sensor and install a standard toggle switch"
+      answer: 0
+      explanation: "PIR needs line of sight, which stall partitions block. Ultrasonic or dual-tech sensors detect around obstructions. Defeating the sensor violates the control requirement and wastes energy."
+    - id: LT5-C01-Q20
+      type: single
+      q: "A 50,000 ft² building uses 300,000 kWh per year for lighting. What is its lighting energy intensity?"
+      choices:
+        - "0.6 kWh/ft² per year"
+        - "15 kWh/ft² per year"
+        - "1.67 kWh/ft² per year"
+        - "6.0 kWh/ft² per year"
+      answer: 3
+      explanation: "300,000 kWh / 50,000 ft² = 6.0 kWh/ft² per year. Intensity lets customers compare buildings of different sizes."
+    - id: LT5-C01-Q21
+      type: single
+      q: "Which control approach is the best starting recommendation for a high-bay warehouse aisle with intermittent forklift traffic?"
+      choices:
+        - "A single wall switch at the main entrance"
+        - "Fixture-integral occupancy sensors per aisle that step down to a low level when the aisle is empty"
+        - "Lights on 24/7 for safety"
+        - "A vacancy sensor that requires a driver to get off the forklift and press a switch"
+      answer: 1
+      explanation: "LED high-bays can step down and return to full output instantly. Sensors per aisle save energy while keeping a safe low level for traffic."

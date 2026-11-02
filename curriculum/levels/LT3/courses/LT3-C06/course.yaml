@@ -1,7 +1,7 @@
 code: LT3-C06
 title: Aerial Work Platforms
 order: 6
-estimated_hours: 6
+estimated_hours: 7
 description: 'The knowledge portion of mobile elevating work platform (MEWP) training for lighting
   work: MEWP Groups and Types, the ANSI A92.20/A92.22/A92.24 standards and OSHA requirements, pre-use
   and workplace inspections, fall protection and safe operation, overhead power-line clearances, ground
@@ -21,11 +21,15 @@ objectives:
 - >-
   Evaluate ground conditions, slope, floor load and weather, and describe the elements of a rescue
   plan
+- >-
+  Assemble, inspect, move and use a rolling scaffold safely, and choose specialty access for a
+  retrofit job
 lessons:
 - 01-mewp-types-and-ansi-a92-standards.md
 - 02-pre-use-and-workplace-inspection.md
 - 03-safe-operation-and-fall-protection.md
 - 04-power-line-clearances-ground-conditions-and-rescue.md
+- 05-rolling-scaffolds-and-specialty-access.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -245,3 +249,56 @@ quiz:
       Standard scissors and booms are not insulated. Apply LOTO at the panel and verify absence of
       voltage at the work location (live-dead-live) before work.
     ref: OSHA 29 CFR 1910.147 and 1910.333
+  - id: LT3-C06-Q16
+    type: single
+    q: Your crew needs to move a rolling scaffold 20 ft to the next row of fixtures. What is the correct practice?
+    choices:
+    - One worker stays on the platform to steady the tools while others push
+    - Everyone climbs down, tools are secured, the path is checked, it is pushed from the base, and all casters are relocked before climbing back up
+    - Unlock only the front casters and pull it from the top rail
+    - Move it quickly so the casters do not have time to swivel
+    answer: 1
+    explanation: >-
+      Company rule: never move a scaffold with anyone on it. Secure material, check the path, push at
+      the base and relock every caster before use.
+    ref: OSHA 29 CFR 1926 Subpart L
+  - id: LT3-C06-Q17
+    type: single
+    q: >-
+      A rolling scaffold has a minimum base width of 4 ft. Above what platform height does OSHA require
+      it to be tied, guyed or braced (for example with outriggers) unless the manufacturer is stricter?
+    choices:
+    - 8 ft
+    - 12 ft
+    - 16 ft
+    - 24 ft
+    answer: 2
+    explanation: >-
+      A supported scaffold taller than four times its minimum base width (4:1) must be restrained.
+      4 ft × 4 = 16 ft. Follow the manufacturer's limit if it is stricter.
+    ref: OSHA 29 CFR 1926.451(c)(1)
+  - id: LT3-C06-Q18
+    type: multi
+    q: Which must be in place before anyone works on a rolling scaffold platform? (Select all that apply.)
+    choices:
+    - All casters locked
+    - Platform fully decked with the manufacturer's planks
+    - Guardrails and toeboards on all open sides
+    - Cross braces used as the climbing ladder
+    answer: [0, 1, 2]
+    explanation: >-
+      Casters locked, full decking, and guardrails/toeboards are required. Cross braces must never be
+      used as a means of access; use the built-in ladder or an attached ladder.
+    ref: OSHA 29 CFR 1926 Subpart L
+  - id: LT3-C06-Q19
+    type: single
+    q: You must service a fixture above a stairwell landing. Which access method is acceptable?
+    choices:
+    - A plank laid across two stair treads with a stepladder on top
+    - A stepladder set on boxes to make it level
+    - Standing on the handrail
+    - An extension or articulating ladder with a manufacturer-approved leveling system, or a lift or scaffold designed for stairs
+    answer: 3
+    explanation: >-
+      Only manufacturer-approved levelers, articulating ladders, or equipment designed for stairs are
+      acceptable. Improvised planks and boxes are unstable and prohibited.

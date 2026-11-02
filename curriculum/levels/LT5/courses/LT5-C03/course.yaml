@@ -1,7 +1,7 @@
 code: LT5-C03
 title: Leadership, Mentoring & Crew Safety
 order: 3
-estimated_hours: 7
+estimated_hours: 8.5
 description: >
   Prepares senior technicians to lead crews safely and effectively. Covers the lead
   technician's priorities and daily routine, building site-specific job hazard analyses with
@@ -15,11 +15,15 @@ objectives:
   - Prepare and deliver a 10-15 minute toolbox talk that engages the crew
   - Mentor an LT1 technician using demonstrate-practice-feedback and maintain a mentoring log
   - Resolve crew and customer conflicts professionally without compromising safety or code
+  - "Plan site logistics for a large job (access, staging, material flow, lifts, after-hours work, occupants) and track daily production and punch lists"
+  - "Manage and document a project's hazardous waste stream and recognize asbestos, lead paint and HazCom requirements that require stop-work or specialists"
 lessons:
   - 01-leading-a-lighting-crew.md
   - 02-job-hazard-analysis-and-stop-work.md
   - 03-delivering-toolbox-talks.md
   - 04-mentoring-and-conflict-resolution.md
+  - 05-mobilizing-a-large-job.md
+  - 06-hazardous-materials-on-lighting-projects.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -177,3 +181,65 @@ quiz:
         - Write down the request, explain it will be priced or approved, and contact your supervisor
       answer: 3
       explanation: Scope changes must be approved and priced. Relocations may also involve wiring or permit issues that need review.
+    - id: LT5-C03-Q16
+      type: multi
+      q: "Which items should be settled on the pre-mobilization call or site walk for a large retrofit? (Select all that apply.)"
+      choices:
+        - "Freight elevator size and weight limit"
+        - "Floor load limits for lifts"
+        - "A lockable staging area and a ventilated place to charge lifts"
+        - "The crew members' favorite lunch spots"
+      answer: [0, 1, 2]
+      explanation: "Access, elevator, floor loading, staging and charging problems repeat every day on a large job if they are not solved before mobilizing."
+    - id: LT5-C03-Q17
+      type: single
+      q: "The estimate allows 0.6 h per kit. After three days, a four-person crew working 8-hour shifts has installed 132 kits. What should the lead do?"
+      choices:
+        - "Nothing; production always improves later"
+        - "Skip the daily live-dead-live checks to save time"
+        - "Stop tracking production because it is behind"
+        - "Find the cause of the roughly 0.73 h per kit rate, fix what can be fixed and inform the supervisor early"
+      answer: 3
+      explanation: "96 h / 132 kits = about 0.73 h per kit, about 21% over the estimate. Early reporting allows schedule changes or a change order; safety steps are never cut to catch up."
+    - id: LT5-C03-Q18
+      type: single
+      q: "Where should lift batteries be charged on an occupied-building job?"
+      choices:
+        - "In a ventilated area away from exits and ignition sources, as agreed with the facility"
+        - "In the nearest corridor so lifts are close to the work"
+        - "Inside the locked lamp-waste storage room"
+        - "Anywhere with an outlet"
+      answer: 0
+      explanation: "Lead-acid batteries release hydrogen while charging. Charging belongs in a ventilated area that does not block an exit route."
+    - id: LT5-C03-Q19
+      type: single
+      q: "Which practice is correct for storing spent fluorescent lamps on a large job?"
+      choices:
+        - "Tape lamps into bundles to save space"
+        - "Break lamps into a dumpster to reduce volume"
+        - "Keep them in closed, labeled containers marked with the accumulation start date"
+        - "Leave them in the ceiling until the end of the job"
+      answer: 2
+      explanation: "Universal waste lamps must be kept in closed, structurally sound, labeled containers with a start date and shipped for recycling within the time limit."
+      ref: "EPA universal waste rules (40 CFR Part 273)"
+    - id: LT5-C03-Q20
+      type: single
+      q: "A crew member finds crumbling insulation on a pipe above the ceiling tile they removed in a 1968 building. What should the lead do?"
+      choices:
+        - "Have the crew wet it down and bag it"
+        - "Stop work in the area, keep people out, and notify the supervisor and facility contact; abatement is done by licensed contractors"
+        - "Replace the tile and keep working in the next room"
+        - "Vacuum the debris with a shop vac"
+      answer: 1
+      explanation: "Suspect asbestos must not be disturbed. Stop, isolate, report and resume only after written clearance. Only licensed asbestos contractors perform abatement."
+      ref: "OSHA 29 CFR 1926.1101"
+    - id: LT5-C03-Q21
+      type: single
+      q: "What should the customer receive at closeout to document the project's lamp and ballast waste?"
+      choices:
+        - "Nothing; the recycler keeps all records"
+        - "A photo of the dumpster"
+        - "A verbal confirmation from the lead technician"
+        - "Copies of shipping papers and certificates of recycling (and PCB disposal certificates if any), with quantities reconciled to the audit"
+      answer: 3
+      explanation: "Customers need written proof for environmental files and incentives. Quantities should reconcile with the number of fixtures and lamps removed."
