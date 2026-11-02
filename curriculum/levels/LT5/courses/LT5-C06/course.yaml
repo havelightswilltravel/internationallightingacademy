@@ -1,0 +1,183 @@
+code: LT5-C06
+title: LED-Era Maintenance & Retrofit/Replacement Planning
+order: 5
+estimated_hours: 8
+description: >
+  Prepares senior technicians and crew leads to plan, sell, run and verify a planned lighting
+  service program for LED-era facilities. Covers reactive vs planned service and response tiers,
+  how LED systems lose light and fail, site asset inventories, failure logs and warranty claims,
+  deciding whether to maintain, retrofit or replace each area using condition data and life-cycle
+  cost, cleaning luminaires with materials-compatible methods, and before/after light-level and
+  reflectance verification with customer reporting. Group relamping is treated only as history;
+  the company's practice is LED retrofit or luminaire replacement.
+objectives:
+  - Explain the difference between reactive and planned service and define response tiers for a service agreement
+  - Distinguish recoverable from non-recoverable light loss and identify common LED driver, thermal, surge, optical and controls failures
+  - Build a site asset inventory and failure log, spot failure trends and file complete warranty claims with RMA tracking
+  - Recommend maintaining, retrofitting or replacing an area using condition data, code and listing implications and life-cycle cost
+  - Clean luminaires safely under LOTO using cleaners compatible with the lens, reflector and gasket materials per the manufacturer's instructions
+  - Write a service proposal, schedule work around occupants and verify results with before/after light-level and reflectance measurements
+lessons:
+  - 01-reactive-vs-planned-service-in-an-led-world.md
+  - 02-how-led-systems-lose-light-and-fail.md
+  - 03-asset-inventory-failure-tracking-and-warranty-management.md
+  - 04-retrofit-vs-replace-vs-maintain.md
+  - 05-cleaning-methods-and-materials.md
+  - 06-selling-scheduling-and-verifying-a-service-program.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT5-C06-Q01
+      type: single
+      q: Why does planned service usually cost the owner less per repair than reactive service in a high-ceiling building?
+      choices:
+        - LED parts are cheaper when bought on a schedule
+        - Trips, setup and lift days are shared across many repairs instead of one repair per call
+        - Planned service does not require LOTO
+        - Warranties only apply to planned service
+      answer: 1
+      explanation: Labor and access, not parts, drive most of the cost. Batching repairs into scheduled visits spreads trip and lift costs over many repairs.
+    - id: LT5-C06-Q02
+      type: single
+      q: Under a typical tiered service agreement, which failure belongs in the fastest-response tier?
+      choices:
+        - One downlight out in a brightly lit lobby
+        - A slightly different color temperature on a replaced troffer
+        - Exit signs and emergency lights dark along an egress path
+        - A dirty lens in a storage room
+      answer: 2
+      explanation: Life-safety and security failures, such as dark egress lighting or exit signs, get the fastest response. Single outages in well-lit areas and cosmetic issues are batched.
+    - id: LT5-C06-Q03
+      type: single
+      q: What is the company's position on scheduled group relamping?
+      choices:
+        - It is an older practice; today the company retrofits with LED or replaces the luminaire
+        - It is the preferred practice for all LED fixtures every five years
+        - It is required by the NEC for commercial buildings
+        - It is used only for exit signs
+      answer: 0
+      explanation: Group relamping is historical. The current approach is LED retrofitting or luminaire replacement, managed through a planned service program.
+    - id: LT5-C06-Q04
+      type: single
+      q: An LED fixture is rated "L70 > 60,000 hours." What does this rating NOT account for?
+      choices:
+        - Gradual decline of LED source output
+        - The projected output at 60,000 hours
+        - Testing of the LED packages
+        - Driver, controls and optic failures
+      answer: 3
+      explanation: L70 projects LED source lumen maintenance only. Drivers, controls, optics and heat often end a fixture's life before the sources reach L70.
+      ref: IES LM-80; IES TM-21
+    - id: LT5-C06-Q05
+      type: single
+      q: Several parking-lot LED fixtures on the same circuits failed within days after a thunderstorm. What is the most likely cause, and what should be recommended?
+      choices:
+        - Lumen depreciation; clean the lenses
+        - Voltage surge; replace failed drivers, recommend surge protection and have an electrician check grounding
+        - Dirty optics; increase the cleaning interval
+        - Color shift; order matched attic stock
+      answer: 1
+      explanation: Clustered outdoor failures after storms point to surge damage. Fix the cause with surge protection and a grounding check, not just the parts.
+    - id: LT5-C06-Q06
+      type: single
+      q: In a controlled area with constant-lumen-output fixtures, the space looks fine but the fixtures are running near full output. What should you check first?
+      choices:
+        - Dirt on lenses and room surfaces, which the controls may be compensating for
+        - The breaker's trip curve
+        - Whether the fixtures are Type A TLEDs
+        - The building's elevator schedule
+      answer: 0
+      explanation: Controls that maintain light level can hide dirt by driving harder, using more energy and running hotter. Cleaning recovers the light and lets the fixtures dim back.
+    - id: LT5-C06-Q07
+      type: multi
+      q: Which items belong in a complete warranty claim for a batch of failed drivers? (Select all that apply.)
+      choices:
+        - Catalog numbers, date codes and install date
+        - The test that confirmed the failure, with photos of labels and damage
+        - Quantity and asset IDs of the affected units
+        - The customer's monthly energy bill
+      answer: [0, 1, 2]
+      explanation: Manufacturers need product identification, proof of failure and the affected quantity. Energy bills are not part of a warranty claim. Get the RMA number before shipping parts.
+    - id: LT5-C06-Q08
+      type: single
+      q: Your failure log shows five failures of the same driver model, all with the same date code, in one warehouse within six months. What is the best next step?
+      choices:
+        - Keep replacing drivers one at a time as they fail
+        - Switch the area to a longer cleaning interval
+        - Investigate the cause and file a batch warranty claim with the manufacturer, documenting all affected units
+        - Remove the drivers' date code labels
+      answer: 2
+      explanation: Repeated failures from one batch suggest a defect. Stop one-at-a-time replacement, find the cause and file a documented batch claim.
+    - id: LT5-C06-Q09
+      type: single
+      q: You need to read driver labels inside fixtures while building an inventory. What is required?
+      choices:
+        - Switch the lights off at the wall switch
+        - Use a non-contact tester only
+        - Ask the occupants to leave the room
+        - Lock out the circuit and verify absence of voltage live-dead-live before opening the fixture
+      answer: 3
+      explanation: A wall switch is not an isolating device. Opening a fixture to reach conductors requires LOTO and live-dead-live verification with a tested meter.
+      ref: OSHA 29 CFR 1910.147; NFPA 70E
+    - id: LT5-C06-Q10
+      type: single
+      q: When is a retrofit kit installation a code concern?
+      choices:
+        - When it is not listed for the purpose or is not installed and labeled exactly per the kit instructions
+        - When it uses a different color temperature than the original lamps
+        - When it is installed during occupied hours
+        - When it saves more than 50% energy
+      answer: 0
+      explanation: Retrofit kits must be listed and installed per their instructions and labeling requirements. Installing them any other way can leave the luminaire unlisted.
+      ref: NEC 110.3(B)
+    - id: LT5-C06-Q11
+      type: multi
+      q: Which conditions point toward replacing the luminaire rather than retrofitting it? (Select all that apply.)
+      choices:
+        - Corroded or damaged housing
+        - Distribution or layout that gives poor uniformity for the current use
+        - A sound housing with a good layout and a legacy fluorescent source
+        - A fixture that is not rated for the wet location where it is installed
+      answer: [0, 1, 3]
+      explanation: A retrofit keeps the housing, its distribution and its location rating. A sound housing with a good layout is a retrofit candidate.
+    - id: LT5-C06-Q12
+      type: single
+      q: Which total should be compared when choosing between maintaining, retrofitting and replacing an area?
+      choices:
+        - Energy savings only
+        - Life-cycle cost, including first cost, energy, maintenance labor, access and parts, minus incentives, over the same period
+        - Part price only
+        - First cost only
+      answer: 1
+      explanation: Life-cycle cost captures maintenance labor and access, which are often the deciding costs for hard-to-reach fixtures.
+    - id: LT5-C06-Q13
+      type: single
+      q: The manufacturer's instructions are silent. Which cleaner is the safest default for an acrylic or polycarbonate lens?
+      choices:
+        - Ammonia-based glass cleaner
+        - Acetone
+        - Mild, non-abrasive detergent in water, rinsed and dried with a soft cloth
+        - A scouring pad with powdered cleanser
+      answer: 2
+      explanation: Ammonia, alcohol, solvents and abrasives can craze, cloud or crack plastics. Mild detergent and water is the safe default; always follow the manufacturer's instructions first.
+    - id: LT5-C06-Q14
+      type: multi
+      q: Which practices are correct when cleaning luminaires above a food-processing line? (Select all that apply.)
+      choices:
+        - Coordinate with the facility's sanitation lead and use only approved chemicals
+        - Cover or remove exposed product and food-contact surfaces below the work
+        - Account for every part and tool removed and returned
+        - Pressure-wash any fixture to save time
+      answer: [0, 1, 2]
+      explanation: Food areas require coordination, protection of product and full accountability for parts. Pressure washing is allowed only where the fixture's rating and instructions permit it.
+    - id: LT5-C06-Q15
+      type: single
+      q: During a reflectance check, the meter reads 50 fc facing out from a wall and 20 fc facing the wall a few inches away. What is the approximate wall reflectance?
+      choices:
+        - 20%
+        - 70%
+        - 250%
+        - 40%
+      answer: 3
+      explanation: Reflectance is about reflected ÷ incident = 20 ÷ 50 = 0.40, or 40%.

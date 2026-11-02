@@ -50,8 +50,8 @@ LT4-C03/02 for meter use and survey basics).
 2. **Use a calibrated meter** with a current calibration sticker; record its model and serial.
 3. **Control daylight.** Measure at night or with shades closed. If neither is possible, take a
    reading with the electric lights off at each point and subtract it from the lights-on reading.
-4. **Stabilize.** Let the fixtures run at full output long enough to stabilize (warm-up time per the
-   company procedure) and set controls to full, override any dimming, and record the control state.
+4. **Stabilize.** Override any dimming so the fixtures run at full output, let them warm up long
+   enough to stabilize (time per the company procedure) and record the control state.
 5. **Take readings** at each point, holding the meter level at work height, keeping your body and
    shadow out of the way. Take vertical readings where vertical light matters (shelving, white
    boards).
