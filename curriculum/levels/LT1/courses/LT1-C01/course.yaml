@@ -182,3 +182,25 @@ quiz:
         - Wait until they let go on their own
       answer: 1
       explanation: Touching a person in contact with an energized source can make you a second victim. Remove the source of power if it can be done safely, call 911, and begin CPR/AED if trained and needed.
+    - id: LT1-C01-Q16
+      type: single
+      q: It is raining and your work gloves are soaked. You are about to open a fixture. What should you do?
+      choices:
+        - Keep working; the circuit is probably off
+        - Change into a dry pair of gloves before touching the fixture, and still lock out and verify absence of voltage
+        - Wring the gloves out and continue
+        - Take the gloves off and work bare-handed
+      answer: 1
+      explanation: Water lowers your body's resistance to electric current, so wet gloves greatly increase shock risk. Always change into dry gloves, and remember dry gloves never replace lockout and verifying absence of voltage.
+      ref: OSHA 29 CFR 1910.335; company PPE practice
+    - id: LT1-C01-Q17
+      type: single
+      q: When does the company provide rubber insulating ("hot") gloves?
+      choices:
+        - For every job, instead of lockout
+        - For handling broken lamps
+        - For situations where a fixture cannot be worked dead, used only by trained and authorized technicians
+        - Only for working outdoors in cold weather
+      answer: 2
+      explanation: Working dead is always the first choice. Hot gloves, with leather protectors and a current test date, are for work that cannot be done de-energized, such as testing for absence of voltage, and only by technicians trained and authorized for it.
+      ref: OSHA 29 CFR 1910.137; NFPA 70E

@@ -23,7 +23,8 @@ type**, in **good condition**, and **worn correctly.**
 |---|---|---|
 | Hard hat | ANSI/ISEA Z89.1, **Class E** (electrical) | Falling objects, bumps, limited electrical protection |
 | Safety glasses | ANSI/ISEA **Z87.1** ("Z87" or "Z87+" on frame and lens) | Flying debris, lamp glass, dust from ceilings |
-| Work gloves | Cut-resistance rating (ANSI/ISEA 105 level A1–A9) | Sheet-metal edges, broken glass |
+| Work gloves | Cut-resistance rating (ANSI/ISEA 105 level A1–A9); **dry** at all times | Sheet-metal edges, broken glass; dry gloves also keep your body's resistance to shock as high as possible |
+| Rubber insulating ("hot") gloves | Voltage class (ASTM D120), with leather protectors | Work on a fixture that cannot be made dead, by authorized technicians only |
 | Safety footwear | ASTM F2413, often with **EH** (electrical hazard) rating | Crushing, punctures, some protection from step potential |
 | High-visibility vest | ANSI/ISEA 107 | Being seen in warehouses, parking lots, roadways |
 | Hearing protection | NRR rating on package | Loud plants, power tools |
@@ -59,7 +60,26 @@ not make you safe to touch energized equipment.
 ### Gloves
 1. Look for holes, cuts, worn fingertips, and soaked-in oil or chemicals.
 2. Choose by task: cut-resistant for lamps and sheet metal; leather for rough handling.
-3. Ordinary work gloves provide **no** electrical protection.
+3. **Make sure they are dry.** Swap wet or sweat-soaked gloves for a dry pair before you
+   touch a fixture (see "Dry Gloves, Every Time" below).
+4. Ordinary work gloves provide **no** electrical protection. They are not a substitute for
+   lockout or for rubber insulating gloves.
+
+### Dry Gloves, Every Time
+Your skin is your main resistance to electric current. Dry skin and dry gloves add resistance;
+water, sweat and wet leather take it away, so the same voltage can push far more current
+through your body. **Wet gloves are an accident waiting to happen.**
+
+- Carry at least one spare pair of dry work gloves on the truck, more in rain, snow, heat
+  or on long jobs.
+- Change gloves as soon as they get wet from rain, snow, a dripping fixture, a wet lens or
+  sweat. Do not wring them out and keep going.
+- Wet hands, wet gloves or standing in water are a **stop-work** condition for electrical
+  work until you are dry and the area is dealt with.
+- Store gloves where they can dry out between jobs, not balled up in a wet bucket.
+
+> **Safety:** Dry gloves never make a live circuit safe. Lock out and verify absence of
+> voltage first; dry gloves are an extra layer of protection, not the plan.
 
 ### Footwear
 Check for worn-through soles, punctures, separated soles, and exposed steel. An EH rating
@@ -79,9 +99,13 @@ is reduced by wet conditions and worn soles.
 - **Remove conductive jewelry:** rings, watches with metal bands, bracelets, and necklaces
   can conduct current and cause severe burns.
 
-## Electrical PPE: Awareness Only
+## Electrical PPE: Hot Gloves and Arc-Rated Gear
 
-You will see qualified electricians use specialized electrical PPE:
+The company provides electrical **rubber insulating gloves ("hot gloves")** for the
+situations where a fixture **cannot be worked dead**, for example when the circuit cannot be
+shut off without darkening an area that must stay lit, or when testing for absence of voltage.
+Working dead is always the first choice; hot gloves are for the exceptions, and only for
+technicians the company has trained and authorized to use them.
 
 - **Rubber insulating gloves** with leather protectors. Classes are based on maximum use
   voltage: Class 00 (500 V AC), Class 0 (1,000 V AC), and higher classes for higher voltages.
@@ -102,12 +126,18 @@ task calls for rubber gloves or arc-rated PPE, it is not your task to do alone.
 
 - Store PPE out of direct sunlight and away from heat (not on the truck dashboard).
 - Keep glasses in a case.
-- Wash cut-resistant gloves per the manufacturer.
+- Wash cut-resistant gloves per the manufacturer and let them dry fully before reuse.
+- Store hot gloves in their protective bag, cuffs down, out of sunlight, never folded or with
+  tools on top. Air-test them before every use and keep the test date current.
 - Replace rather than repair.
 
 ## Key Takeaways
 - PPE must be the right type, in good condition, and worn correctly to protect you.
 - Use Class E hard hats and Z87 eye protection on every lighting job.
 - Inspect every item before each use and remove damaged PPE from service.
+- Keep your gloves dry. Change wet or sweaty gloves immediately; wet gloves are an accident
+  waiting to happen.
+- Hot gloves are provided for work that cannot be done dead, and only trained, authorized
+  technicians use them.
 - Wear natural-fiber or arc-rated clothing and remove conductive jewelry.
 - Rubber insulating gloves and arc-rated PPE are used only by workers trained and authorized for the task; an LT1 uses them for supervised voltage verification, never for energized repair work.
