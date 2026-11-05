@@ -37,6 +37,11 @@ The result: on many building-mounted fixtures, **a new fixture is the better val
 customer.** That is the customer's decision, guided by the office - but the office can only offer
 it if your write-up includes what is needed to price both options.
 
+> **Draft policy:** the company is deciding whether to stock a few standard, field-selectable
+> fixtures on the trucks so these swaps can be done on the first visit. Until that's final, use
+> the *Repair or Replace?* decision card in the Troubleshooting Library (LED category) to frame
+> the choice with your supervisor and the customer.
+
 ## What to Capture When You Write Up a Driver
 
 For the driver (Lesson 3, Step 2):
