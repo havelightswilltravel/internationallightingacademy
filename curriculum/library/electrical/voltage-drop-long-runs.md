@@ -2,7 +2,7 @@
 title: Voltage Drop on Long Lighting Runs
 category: electrical
 tags: [electrical, voltage-drop, conductor-sizing, long-runs, site-lighting, calculations]
-levels: [LT2, LT4, EA2]
+levels: [LT2, LT4]
 last_reviewed: 2026-10-08
 review_interval_months: 12
 ---

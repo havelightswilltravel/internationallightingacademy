@@ -12,7 +12,9 @@ description: >
   work, measure and report light levels against IES recommendations, diagnose power-quality
   problems such as LED inrush, harmonics and voltage drop, safely troubleshoot multiwire branch
   circuits, find the root cause of intermittent failures, and look up the NEC rules that govern
-  everyday lighting work. Senior technicians lead retrofit audit walk-throughs and begin
+  everyday lighting work. LT4 technicians are trained as NFPA 70E qualified persons for the specific
+  lighting tasks they are authorized to perform and apply the company's energized work rules and
+  Energized Electrical Work Permit. Senior technicians lead retrofit audit walk-throughs and begin
   guiding LT1–LT3 technicians on the job. All work is performed under the company's electrical
   safety program (OSHA 29 CFR 1910 Subpart S / 1926 Subpart K, NFPA 70E) and within the scope
   permitted by state and local licensing rules.
@@ -24,6 +26,7 @@ outcomes:
   - Safely troubleshoot multiwire branch circuits and shared neutrals, including recognizing and correcting open-neutral and same-phase faults.
   - Apply a structured root-cause analysis to intermittent and system-level lighting failures and document the findings and corrective action.
   - Locate and apply NEC requirements for luminaires, switches, outdoor lighting, grounding, signs and emergency systems, recognizing that the AHJ-adopted edition governs.
+  - Perform shock and arc-flash risk assessments, establish an electrically safe work condition and complete the company Energized Electrical Work Permit as an NFPA 70E qualified person for authorized lighting tasks, escalating work reserved for licensed electricians.
   - Lead a retrofit audit walk-through with a customer, collecting the field data needed for scope, energy-code and incentive decisions.
 requirements:
   course_pass_score: 80
@@ -208,3 +211,60 @@ skills:
     - Explains the difference using specific, plausible causes (reflectances, obstructions, wall-adjacent points,
       meter tolerance, trim or driver settings) and recommends follow-up if the gap exceeds about 10–15%
     - Applies LOTO and verifies absence of voltage before opening any luminaire to confirm product data
+  - code: LT4-S10
+    title: Complete a shock and arc-flash risk assessment and energized electrical work permit
+    category: Safety
+    critical: true
+    description: 'For an assigned task, determine whether energized work is justified, complete the shock and arc-flash
+      risk assessment, and fill out the employer''s energized electrical work permit for supervisor review.
+
+      '
+    equipment:
+    - employer electrical safety program
+    - energized electrical work permit form
+    - arc-flash labels or incident energy study
+    - NFPA 70E (2024) tables
+    - one-line diagram
+    criteria:
+    - States whether the task can be done de-energized and documents the justification (greater hazard or infeasibility)
+      if not
+    - Identifies the nominal voltage and determines the limited and restricted approach boundaries
+    - Determines the arc-flash boundary and required PPE using the label/incident energy analysis or the PPE category
+      method, not both
+    - Lists the safe work practices, insulated tools and PPE to be used
+    - Identifies how unqualified persons will be kept outside the limited approach boundary (barricades, attendant)
+    - Completes every required field of the permit and obtains supervisor review before work begins
+    - Conducts or participates in a job briefing covering hazards, procedures, energy source controls and emergency
+      response
+  - code: LT4-S11
+    title: Complete the company Energized Electrical Work Permit for a scenario
+    category: Safety
+    critical: true
+    description: 'Given an energized-work request scenario, evaluates the justification, completes Part II of the
+      company Energized Electrical Worksheet and the Energized Work Checklist, and either returns the request to the
+      requester or presents it for approval with a job briefing.
+
+      '
+    equipment:
+    - blank company Energized Electrical Worksheet and Energized Work Checklist
+    - scenario sheet with one-line or panel information and arc-flash label
+    - NFPA 70E tables
+    - PPE catalog
+    criteria:
+    - Identifies whether the task is justified energized (greater hazard or infeasibility) and rejects convenience,
+      schedule or customer preference, proposing alternatives (outage, temporary lighting, de-energizing only affected
+      fixtures, after hours)
+    - Identifies when the task is permit-exempt (testing, troubleshooting, voltage measuring) while still requiring
+      PPE and risk assessments
+    - Writes a step-by-step job procedure and the safe work practices to be used
+    - Records the shock risk assessment with correct limited and restricted approach boundaries for the voltage
+    - Records the arc-flash risk assessment from the label (incident energy at working distance or PPE category) and
+      the arc-flash boundary, using current terms for the form's "flash hazard" fields
+    - Selects shock and arc-flash PPE (rated gloves with protectors, arc-rated clothing at or above the incident energy,
+      face protection, insulated tools and blankets)
+    - Describes how unqualified persons are kept out and documents the job briefing topics
+    - Answers the "can this be done safely" question and states that a NO returns the permit to the requester
+    - Lists the four Part III approval signatures and completes the checklist fields (maximum voltage, number of sources,
+      PPE, named workers, start and completion time) noting it is valid only for the named workers and day issued
+    - States company rules that hot panel work is never done alone and requires a supervisor-approved written plan
+      before starting

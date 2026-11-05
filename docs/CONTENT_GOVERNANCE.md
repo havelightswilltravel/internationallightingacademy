@@ -21,8 +21,8 @@ Record each review in the commit message or pull request, e.g. `Reviewed LT2-C05
 
 | What | How often | Trigger for an early review |
 |---|---|---|
-| Safety content (LT1-C01, C02, C06, EA1-C05, EA3-C05, safety guides) | Every 12 months | New OSHA rule or NFPA 70E edition (every 3 years: 2024, 2027, …), any incident or near-miss |
-| Code content (NEC references, EA/JW levels) | When your state adopts a new NEC edition (published every 3 years: 2023, 2026, 2029) | Local amendments |
+| Safety content (LT1-C01, C02, C06, C11, LT3-C06, LT3-C12, LT4-C07, safety guides and toolbox talks) | Every 12 months | New OSHA rule or NFPA 70E edition (every 3 years: 2024, 2027, …), any incident or near-miss |
+| Code content (NEC references, especially LT2-C02, LT4-C06) | When your state adopts a new NEC edition (published every 3 years: 2023, 2026, 2029) | Local amendments |
 | Technology courses (LED/drivers, controls, NLC, emerging tech) | Every 12 months | New product categories, DLC/ENERGY STAR spec changes, manufacturer bulletins |
 | Energy codes (LT4-C02) | Every 12 months | New ASHRAE 90.1 / IECC / Title 24 adoption |
 | Troubleshooting library | Per guide (`review_interval_months`, default 12) | Field feedback, repeat callbacks |
@@ -34,7 +34,7 @@ The app flags library guides past their review date (**Admin → Library**).
 
 Topics that are changing quickly and will need new or updated content:
 
-- **Codes:** 2026 NEC adoption by states (load calculations moved to a new Article 120; other reorganization). Plan the EA/JW update for when your state adopts it.
+- **Codes:** 2026 NEC adoption by states (load calculations moved to a new Article 120; other reorganization). Plan the code-reference update for when your state adopts it.
 - **LED and controls:** networked lighting controls (NLC) and luminaire-level lighting control, wireless mesh protocols, Bluetooth Mesh/Zigbee/Matter in commercial lighting, DLC NLC specifications.
 - **PoE and DC lighting:** Power-over-Ethernet luminaires and DC microgrids.
 - **Human-centric and tunable-white lighting:** circadian metrics, standards updates.
@@ -42,7 +42,6 @@ Topics that are changing quickly and will need new or updated content:
 - **Solar and off-grid site lighting,** battery chemistry and storage safety.
 - **Smart-city and IoT sensors** on poles; cybersecurity for connected lighting.
 - **Fluorescent phase-outs:** state bans on fluorescent lamp sales are expanding, which changes relamping work and adds retrofit volume.
-- **EV charging and energy storage** (feeds the EA4 course).
 
 ## 4. How to update content
 
@@ -79,3 +78,4 @@ content consistent with them.
   - All lamps are recycled, including low-mercury lamps.
   - Lamps are never crushed unless the company has an approved, state-allowed system.
   - Nobody rides or moves a rolling scaffold with anyone on it.
+- **Program scope (decided November 2026).** The program ends at Senior (LT4) and Master Lighting Technician (LT5). It does not lead to a journeyman electrician license, which requires an accredited or state-approved apprenticeship or school. Do not add content that promises an electrician's license path. Work that local law reserves for licensed electricians is taught as "recognize it and escalate." The earlier draft electrical-apprentice levels are archived, unused, in `curriculum/archive/electrical-track/`.

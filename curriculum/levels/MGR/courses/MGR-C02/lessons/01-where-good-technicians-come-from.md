@@ -49,7 +49,7 @@ fair process. Structure:
 5. **Nice to have.** Lighting or electrical experience, trade-school training.
 6. **Realistic preview.** On call, odd hours, travel a few times a year, outdoor work.
 7. **What we offer.** Pay range (required by law in a growing number of states and cities),
-   benefits, the training ladder, pay tied to grade, path toward the electrical track.
+   benefits, the training ladder from day one to Master Lighting Technician, pay tied to grade.
 8. **Equal opportunity statement** as approved by HR.
 9. **How to apply.**
 

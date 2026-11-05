@@ -14,8 +14,9 @@ video_suggestion: >
 At LT1–LT3 you were told what the code requires for the tasks you performed. At LT4 you are expected
 to **find and read the requirement yourself**, apply it to the situation in front of you, and know
 when to escalate to the licensed electrician in charge, the engineer or the inspector. This course
-focuses on the NEC articles that matter most for lighting work. Full code training continues in the
-Electrical track (EA1-C02 and beyond).
+focuses on the NEC articles that matter most for lighting work. Code work outside lighting
+(services, feeders, load calculations and the like) is licensed-electrician work, beyond the scope
+of this program.
 
 > **Note:** This course references the **2023 NEC (NFPA 70)**. The NEC is revised every three years,
 > and states and cities adopt editions on their own schedules, sometimes with amendments. Section

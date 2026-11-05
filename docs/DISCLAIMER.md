@@ -1,7 +1,7 @@
 # Important: Local Codes, Licensing and Scope of Work
 
-This training program covers the **full range** of lighting and electrical work, from an
-entry-level lighting technician through journeyman-electrician exam preparation. It is general
+This training program covers the **full range** of lighting technician work, from an
+entry-level lighting technician to Senior and Master Lighting Technician. It is general
 training. It does not replace the laws, codes or licensing rules that apply where you work.
 
 **Before any skill in this program is performed in the field, the company and the technician are
@@ -19,6 +19,9 @@ responsible for confirming that it is allowed where the work takes place.**
 - **Safety rules still apply in full.** OSHA, state OSHA plans, NFPA 70E, the employer's written
   safety programs and the manufacturer's instructions always apply. Where this training and one of
   those rules differ, follow the stricter requirement and tell your supervisor.
+- **This program does not lead to an electrician's license.** Becoming a licensed (journeyman)
+  electrician requires a state-approved or accredited apprenticeship or school, which this
+  training is not.
 - **Completing a course is not a license.** Passing a quiz, exam or skill sign-off shows training
   completion within this program. It does not qualify anyone to perform work that local law reserves
   for licensed or certified persons, and it does not by itself make someone a "qualified person"

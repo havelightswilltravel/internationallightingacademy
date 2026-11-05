@@ -1,5 +1,8 @@
 # SME Review Notes
 
+> **Scope update (November 2026):** the program now ends at Master Lighting Technician (LT5). The EA1–EA4 and JW sections below refer to the archived electrical-apprentice levels (`curriculum/archive/electrical-track/`) and no longer need review, **except the EA3 NFPA 70E items, which now apply to LT4-C07.**
+
+
 The curriculum writers flagged these specific items for a licensed electrician or other
 subject-matter expert to verify. Work through them during Phase 2 of the roadmap. Check off
 each item, and correct the content if needed.

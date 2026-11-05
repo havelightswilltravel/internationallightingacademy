@@ -2,7 +2,7 @@
 title: "Toolbox Talk: What to Do After a Vehicle Accident"
 category: toolbox-talks
 tags: [toolbox-talk, safety, vehicles, accident, insurance, documentation]
-levels: [LT1, LT2, LT3, EA1]
+levels: [LT1, LT2, LT3]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

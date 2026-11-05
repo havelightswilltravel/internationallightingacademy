@@ -2,7 +2,7 @@
 title: "Toolbox Talk: Electrical Shock - How It Hurts You and How to Help"
 category: toolbox-talks
 tags: [toolbox-talk, safety, electrical-shock, first-aid, fire-extinguisher, electrocution]
-levels: [LT1, LT2, LT3, EA1]
+levels: [LT1, LT2, LT3]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

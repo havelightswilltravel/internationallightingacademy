@@ -12,7 +12,7 @@ areas:
   - code: three-way-switching
     title: 3-Way Switching
     components: Switches (3-way, 4-way), travelers, common terminals, wire, fixtures
-    courses: [LT2-C08, EA1-C04]
+    courses: [LT2-C08]
     guide: fp-3-way-switching
   - code: basic-electrical
     title: Basic Electrical

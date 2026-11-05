@@ -2,7 +2,7 @@
 title: Breaker Nuisance Tripping with LED Loads (Inrush Current)
 category: electrical
 tags: [electrical, breaker, nuisance-tripping, inrush, led, driver, relay, contactor]
-levels: [LT4, LT5, EA2]
+levels: [LT4, LT5]
 last_reviewed: 2026-10-08
 review_interval_months: 12
 ---

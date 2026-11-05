@@ -37,8 +37,7 @@ levels they've already mastered. Use the **placement process**:
    tagout, live-dead-live verification, ladder and lift setup).
 2. **Evaluator review.** A qualified evaluator reviews results and recommends a grade.
 3. **Admin placement.** A company admin records the placement in the app at the appropriate
-   LT grade (or, for qualifying candidates, an electrical track level), with a **written reason**
-   referencing the assessment results. The app requires that reason.
+   LT grade, with a **written reason** referencing the assessment results. The app requires that reason.
 4. **Starting pay** follows the pay scale for that grade.
 5. **Gaps become the training plan.** Any skills not demonstrated during placement are assigned in
    the onboarding plan.

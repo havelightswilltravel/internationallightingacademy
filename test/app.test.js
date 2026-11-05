@@ -323,7 +323,7 @@ test('multipart uploads: lesson video link and library guide with attachment', a
 test('the real curriculum in curriculum/ is valid', () => {
   const data = curriculum.load();
   assert.deepEqual(data.errors, []);
-  assert.equal(data.levels.length, 11);
+  assert.equal(data.levels.length, 6);
 });
 
 test('manager module is standalone: open to staff, hidden from the technician ladder', async () => {

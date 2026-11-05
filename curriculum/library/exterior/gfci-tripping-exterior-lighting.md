@@ -2,7 +2,7 @@
 title: GFCI Tripping on Exterior Lighting Circuits
 category: exterior
 tags: [exterior, gfci, ground-fault, leakage-current, wet-location, landscape-lighting]
-levels: [LT3, LT4, EA1]
+levels: [LT3, LT4]
 last_reviewed: 2026-10-08
 review_interval_months: 12
 ---

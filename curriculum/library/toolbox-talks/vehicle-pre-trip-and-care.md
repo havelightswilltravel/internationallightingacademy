@@ -2,7 +2,7 @@
 title: "Toolbox Talk: The Daily Pre-Trip Inspection (DVIR) and Vehicle Care"
 category: toolbox-talks
 tags: [toolbox-talk, safety, dvir, pre-trip, vehicles, dot, warning-lights, diesel]
-levels: [LT1, LT2, LT3, EA1]
+levels: [LT1, LT2, LT3]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

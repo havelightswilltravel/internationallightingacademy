@@ -24,7 +24,8 @@ instruction book, and it does not become law until a state, county or city **ado
 
 Lighting technicians are not expected to design to the code. You are expected to recognize
 when work you are doing touches the code, to avoid creating violations, and to flag
-conditions that look wrong. EA1 covers the NEC in depth; this lesson gives you the map.
+conditions that look wrong. LT4-C06 goes deeper into the NEC articles for lighting work;
+this lesson gives you the map.
 
 ## Structure of the Code
 
@@ -52,7 +53,7 @@ Three kinds of text matter:
 | 200 | Use and Identification of Grounded Conductors | White/gray neutral identification |
 | 210 | Branch Circuits | Circuit ratings, voltage limits for luminaires, conductor identification |
 | 240 | Overcurrent Protection | Breaker and fuse rules, small-conductor protection |
-| 250 | Grounding and Bonding | EGCs, bonding (EA2 covers in depth) |
+| 250 | Grounding and Bonding | EGCs, bonding (LT4-C06 covers 250 for outdoor lighting) |
 | 300 | General Requirements for Wiring Methods | Protection, securing, boxes at splices, free conductor length |
 | 310 | Conductors for General Wiring | Conductor types, insulation, ampacity tables |
 | 314 | Boxes | Box fill, support, covers |

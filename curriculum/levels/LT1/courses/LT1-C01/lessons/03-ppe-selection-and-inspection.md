@@ -119,7 +119,7 @@ until it is proven dead. An LT1 never performs energized repair work. As part of
 training you will learn to verify absence of voltage on lighting circuits (LT1-C03 and
 LT1-C06), and you will do it **only after you have been trained, issued the PPE required by
 our electrical safety program, and while working under the direct supervision of a qualified
-person.** The full qualified-worker rules come in later levels (EA3-C05). Until then: if a
+person.** The full qualified-worker rules come at LT4 (LT4-C07). Until then: if a
 task calls for rubber gloves or arc-rated PPE, it is not your task to do alone.
 
 Our company's specific rule for when to wear hot gloves ("if you did not personally lock and

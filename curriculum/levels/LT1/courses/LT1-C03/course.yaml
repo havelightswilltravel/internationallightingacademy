@@ -1,7 +1,7 @@
 code: LT1-C03
 title: Tools & Basic Meter Use
 order: 3
-estimated_hours: 6
+estimated_hours: 6.5
 description: >
   Covers the hand and power tools used in lighting service work, the proper use and serious
   limitations of non-contact voltage testers, digital multimeter basics including
@@ -14,11 +14,13 @@ objectives:
   - Set up a DMM correctly for AC voltage and inspect the meter and leads
   - Select meters and leads with appropriate CAT and voltage ratings for building lighting circuits
   - Perform live-dead-live verification at a light fixture and respond correctly to unexpected readings
+  - "Apply the company's tool and PPE inspection, extension cord and meter-first rules on every job"
 lessons:
   - 01-hand-and-power-tools.md
   - 02-non-contact-voltage-testers.md
   - 03-dmm-basics-and-cat-ratings.md
   - 04-live-dead-live-verification.md
+  - 05-company-tool-cord-and-meter-rules.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -178,3 +180,65 @@ quiz:
       answer: 1
       explanation: Building distribution circuits are CAT III locations; for systems up to 480 V, CAT III 600 V is the minimum, and many companies require CAT III 1000 V / CAT IV 600 V.
       ref: IEC 61010-1
+    - id: LT1-C03-Q16
+      type: single
+      q: "Your insulated screwdriver fails the company hand-tool inspection. What is the company rule?"
+      choices:
+        - "Tape the cracked insulation and keep using it until a new one arrives"
+        - "Stop using it, sign it off with your supervisor, and repair or replace it within 30 days"
+        - "Use it only on circuits under 150 V"
+        - "Keep it for non-electrical work without telling anyone"
+      answer: 1
+      explanation: "Company policy is that a failed tool is never used again. It is signed off with your supervisor and must be repaired or replaced within 30 days, and the replacement is shown to the supervisor. Failed PPE is replaced immediately."
+    - id: LT1-C03-Q17
+      type: single
+      q: "According to the company's meter-first rule, what is Step 1 when troubleshooting a dark LED fixture?"
+      choices:
+        - "Replace the driver"
+        - "Check the fixture with a non-contact voltage tester"
+        - "Measure voltage across the hot and neutral with your multimeter"
+        - "Swap the fixture with a known good one"
+      answer: 2
+      explanation: "You cannot troubleshoot with a \"sniffer.\" Measuring hot to neutral at the fixture tells you whether the problem is upstream (no voltage) or in the fixture (correct voltage present)."
+    - id: LT1-C03-Q18
+      type: single
+      q: "Why does the company require you to measure the supply voltage before connecting a new exterior fixture?"
+      choices:
+        - "New fixtures will not work without a meter reading on the work order"
+        - "Fixtures connected to a higher voltage than they are rated for are destroyed on power-up, and the company has lost many new fixtures this way"
+        - "The customer requires a reading for billing"
+        - "It is only needed for 120 V fixtures"
+      answer: 1
+      explanation: "A 120-277 V fixture connected to 480 V (or 347 V) is ruined the instant it is energized. Only the installer's meter can confirm the supply is compatible."
+    - id: LT1-C03-Q19
+      type: single
+      q: "You need power in a back room and the nearest outlet is through a self-closing metal door. What does company policy require?"
+      choices:
+        - "Run the cord under the door; it is only temporary"
+        - "Do not run the cord through the doorway unless you prop the door open yourself and put out cones and caution signs so it cannot be closed"
+        - "Tape the cord to the floor under the door"
+        - "Plug two cords together so the cord reaches around the door"
+      answer: 1
+      explanation: "A door closing on a cord can crush the insulation and energize a metal door. Cords go through doorways only when the door is propped open and coned off. Daisy-chaining cords is also prohibited."
+    - id: LT1-C03-Q20
+      type: multi
+      q: "An extension cord fails inspection because the jacket is cut. Which actions follow company policy? (Select all that apply.)"
+      choices:
+        - "Red tag the cord"
+        - "Cut the ends off so no one can use it"
+        - "Tell the shop so it is replaced"
+        - "Repair the cut with electrical tape and keep using it"
+      answer: [0, 1, 2]
+      explanation: "Failed cords are red tagged, the ends are cut off, and the shop is notified for a replacement. Taped cords are not acceptable."
+      ref: "OSHA 29 CFR 1910.334(a)"
+    - id: LT1-C03-Q21
+      type: single
+      q: "When may compressed air be used to clean off equipment, under the company safety manual?"
+      choices:
+        - "Any time, at full shop pressure"
+        - "Only when the pressure is reduced below 30 psi, with chip guarding and proper PPE"
+        - "Only outdoors"
+        - "Never"
+      answer: 1
+      explanation: "The safety manual follows OSHA - compressed air for cleaning must be reduced to less than 30 psi with effective chip guarding and PPE."
+      ref: "OSHA 29 CFR 1910.242(b)"

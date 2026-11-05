@@ -3,7 +3,7 @@ title: Neutral vs Equipment Grounding Conductor
 minutes: 30
 video:
 video_suggestion: >
-  At a de-energized service panel and a downstream subpanel, a journeyman points out the
+  At a de-energized service panel and a downstream subpanel, a licensed electrician points out the
   main bonding jumper, the neutral bar and the separate equipment grounding bar. Then, on a
   shop demo board, shows how a breaker trips through the EGC during a simulated fault and
   explains why the neutral and ground are not tied together in the subpanel.

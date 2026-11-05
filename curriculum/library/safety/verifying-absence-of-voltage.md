@@ -2,7 +2,7 @@
 title: Verifying Absence of Voltage (Live-Dead-Live)
 category: safety
 tags: [voltage-testing, live-dead-live, meter, multimeter, electrically-safe-work-condition]
-levels: [LT1, LT2, LT3, LT4, LT5, EA1, EA2, EA3, EA4]
+levels: [LT1, LT2, LT3, LT4, LT5]
 last_reviewed: 2026-10-08
 review_interval_months: 12
 ---

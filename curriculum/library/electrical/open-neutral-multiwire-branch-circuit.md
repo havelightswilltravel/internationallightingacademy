@@ -2,7 +2,7 @@
 title: Open Neutral and Multiwire Branch Circuit Symptoms
 category: electrical
 tags: [electrical, open-neutral, multiwire-branch-circuit, mwbc, shared-neutral, overvoltage]
-levels: [LT4, LT5, EA2, EA3]
+levels: [LT4, LT5]
 last_reviewed: 2026-10-08
 review_interval_months: 12
 ---

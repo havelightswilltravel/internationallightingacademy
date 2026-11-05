@@ -2,7 +2,7 @@
 title: "Toolbox Talk: Our Lockout/Tagout Method"
 category: toolbox-talks
 tags: [toolbox-talk, safety, loto, lockout, tagout, de-energize]
-levels: [LT1, LT2, LT3, EA1, EA2]
+levels: [LT1, LT2, LT3]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

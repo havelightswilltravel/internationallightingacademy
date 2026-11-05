@@ -2,7 +2,7 @@
 title: "Toolbox Talk: Distracted and Defensive Driving"
 category: toolbox-talks
 tags: [toolbox-talk, safety, driving, distracted-driving, defensive-driving, vehicles, bucket-truck]
-levels: [LT1, LT2, LT3, EA1]
+levels: [LT1, LT2, LT3]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

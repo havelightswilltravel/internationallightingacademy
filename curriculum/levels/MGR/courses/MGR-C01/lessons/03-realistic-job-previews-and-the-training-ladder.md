@@ -59,9 +59,8 @@ typically include:
 Many employers offer "on-the-job training" that means "follow Joe around." Our program is different,
 and candidates should hear about it:
 
-- **A clear ladder.** Lighting Technician I through V (the fifth is the Certified Advanced Lighting
-  Technician), then an Electrical Development track of four apprentice levels and journeyman exam
-  preparation for those who want to become electricians.
+- **A clear ladder.** Lighting Technician I through V, from day-one technician to Senior Lighting
+  Technician (LT4) and Master Lighting Technician (LT5), the top of the program.
 - **Advancement by competence, not tenure.** Each level requires passing course quizzes, a final
   exam, verified on-the-job hours, and evaluator-observed hands-on skills. A motivated tech controls
   their own pace.
@@ -69,9 +68,10 @@ and candidates should hear about it:
   current rate and the rate at the next grade.
 - **Placement for experienced hires.** An experienced candidate does not restart at the bottom; a
   documented placement assessment can place them at the right grade.
-- **A path to a license.** For candidates who want to become electricians, the electrical track is
-  structured to align with a typical registered apprenticeship. (State rules decide which hours
-  count; do not promise licensure.)
+- **Be honest about licensing.** Our program is lighting-technician training; it does not lead
+  to an electrical license. Candidates who want to become licensed electricians need a
+  state-approved or accredited apprenticeship program outside our training. Do not promise
+  licensure or suggest our hours will count toward it.
 
 How to present it in an interview:
 

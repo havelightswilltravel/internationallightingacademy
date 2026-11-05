@@ -26,7 +26,7 @@ the office.
 
 Techs who are great troubleshooters sometimes struggle on their first projects. That is not a
 skill problem. It is a gear problem. Troubleshooting rewards curiosity and improvising. Projects
-reward planning, repetition, communication and paperwork. Good journeymen learn to shift gears
+reward planning, repetition, communication and paperwork. Good senior techs learn to shift gears
 on purpose.
 
 | | Service call | Project |

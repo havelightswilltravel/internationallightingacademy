@@ -66,8 +66,10 @@ Our program gives managers a built-in retention tool: a visible path with clear 
   and (where the company uses the pay scale) their current rate and the rate at the next grade.
 - **Advancement is in their control.** It depends on demonstrated competence — courses, final
   exam, verified OJT hours, observed skills — not on waiting for seniority.
-- **Long-term path.** From LT1 through the Certified Advanced Lighting Technician level, and for
-  those who want it, into the electrical track toward journeyman exam preparation.
+- **Long-term path.** From LT1 through Senior Lighting Technician (LT4) to Master Lighting
+  Technician (LT5), the top of the program. A tech who wants to become a licensed electrician
+  can pursue that through a state-approved apprenticeship program outside our training; you can
+  support it as a personal-development goal, but our program does not lead to a license.
 
 How managers make the ladder work:
 

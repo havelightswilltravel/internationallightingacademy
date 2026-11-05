@@ -2,7 +2,7 @@
 title: Lockout/Tagout Quick Card for Lighting Work
 category: safety
 tags: [loto, lockout, tagout, electrically-safe-work-condition, safety]
-levels: [LT1, LT2, LT3, LT4, LT5, EA1, EA2, EA3, EA4]
+levels: [LT1, LT2, LT3, LT4, LT5]
 last_reviewed: 2026-10-08
 review_interval_months: 12
 ---

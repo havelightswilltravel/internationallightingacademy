@@ -60,7 +60,7 @@ answers are temporary portable lighting, splitting the work by circuit, or sched
 Our handbook also describes an older method of cutting the hot and neutral leads inside an
 energized fixture and fitting an in-line disconnect. That is **energized work**. An LT1 never
 does it. It is allowed only for a qualified person under our **Energized Electrical Work Permit**
-and written safety plan approved by a supervisor (EA3-C05). For you, the answer is simple:
+and written safety plan approved by a supervisor (LT4-C07). For you, the answer is simple:
 **if you cannot lock it out, you do not work on it. Call your supervisor.**
 
 ## Key Takeaways

@@ -41,8 +41,8 @@ based on size:
 Each conductor that enters and is spliced or terminated counts as one; internal cable clamps,
 devices (yokes) and equipment grounding conductors add allowances. The box's volume is
 stamped inside it. A 4-in square × 1-1/2-in deep steel box is about 21 cu in — roughly nine
-12 AWG conductors before any other allowances. EA2 covers full box-fill calculations. At
-LT2: **if a box is crammed and you cannot fold the conductors in without force, it is
+12 AWG conductors before any other allowances. Full box-fill calculations are
+licensed-electrician work, beyond the scope of this program. At LT2: **if a box is crammed and you cannot fold the conductors in without force, it is
 probably overfilled.** Use a deeper box or an extension ring and tell your lead.
 
 ### Free conductor length

@@ -9,13 +9,11 @@ lives in `curriculum/`; this document is the map. Typical durations are guidance
 | Lighting | LT1 | Lighting Technician I (Entry Level) | Months 0–3 | 400 |
 | Lighting | LT2 | Lighting Technician II | Months 3–9 | 900 |
 | Lighting | LT3 | Lighting Technician III | Months 9–15 | 1,000 |
-| Lighting | LT4 | Lighting Technician IV (Senior) | Months 15–21 | 1,000 |
-| Lighting | LT5 | Certified Advanced Lighting Technician | Months 21–24 | 500 |
-| Electrical | EA1 | Electrical Apprentice I | Year 3 | 1,600 |
-| Electrical | EA2 | Electrical Apprentice II | Year 4 | 1,600 |
-| Electrical | EA3 | Electrical Apprentice III | Year 5 | 1,600 |
-| Electrical | EA4 | Electrical Apprentice IV | Year 6 | 1,600 |
-| Electrical | JW | Journeyman Exam Preparation | Final months | 0 |
+| Lighting | LT4 | Senior Lighting Technician (Lighting Technician IV) | Months 15–21 | 1,000 |
+| Lighting | LT5 | Master Lighting Technician | Months 21–24 | 500 |
+
+The program ends at Master Lighting Technician. It does **not** lead to a journeyman electrician
+license, which requires a state-approved or accredited apprenticeship or school.
 
 Passing a level requires **all** of:
 1. Every course quiz passed (≥ 80%).
@@ -82,10 +80,11 @@ Hands-on skills: driver replacement and matching; 0–10V dimming troubleshootin
 - **LT4-C04 Power Quality & Advanced Electrical** — harmonics, LED inrush & nuisance tripping, voltage drop calculations, multiwire branch circuits & shared neutrals, transients & surge protection.
 - **LT4-C05 Advanced Troubleshooting** — intermittent faults, system-level and controls interactions, root-cause analysis, case studies.
 - **LT4-C06 The NEC for Lighting Work** — Art. 410 (luminaires), 411, 404, 225, 250 basics for lighting, 600, 700; navigating the code book.
+- **LT4-C07 NFPA 70E & Qualified Worker Safety** — qualified persons and the electrical safety program, shock and arc-flash risk assessment, establishing an electrically safe work condition, PPE and test instruments, the company's energized work rules and Energized Electrical Work Permit.
 
 Hands-on skills: commissioning an NLC zone; light-level survey and report; diagnosing nuisance tripping; troubleshooting a multiwire branch circuit; leading a retrofit audit walk-through.
 
-### LT5 — Certified Advanced Lighting Technician
+### LT5 — Master Lighting Technician
 - **LT5-C01 Lighting Audits, Project Planning & Estimating** — audits, retrofit scopes, takeoffs, labor estimates, simple payback/ROI, upgrade strategy (TLED vs retrofit kit vs new luminaire) with life-cycle cost, recommending controls by space type, kWh/ft² and EUI.
 - **LT5-C02 Commissioning & Functional Testing** — Cx process, functional performance tests, documentation, owner training.
 - **LT5-C03 Leadership, Mentoring & Crew Safety** — leading crews, job hazard analysis, toolbox talks, mentoring, conflict resolution, mobilizing a large job, hazardous materials on lighting projects (lamps, PCB/DEHP ballasts, asbestos and lead-paint awareness, recycling paperwork).
@@ -95,53 +94,7 @@ Hands-on skills: commissioning an NLC zone; light-level survey and report; diagn
 
 Hands-on skills: capstone project; leading a job end-to-end; delivering a toolbox talk; mentoring sign-off of an LT1; full-system troubleshooting practical.
 
-**Completing LT5 awards Certified Advanced Lighting Technician status and eligibility to enter the Electrical Development Track.**
-
----
-
-## Electrical Development Track
-
-> Journeyman licensing is regulated by each state (and sometimes city). Most require roughly
-> 8,000 hours of supervised work under a licensed electrician plus classroom hours, and a
-> passing score on a licensing exam. To make hours count, run this track as (or alongside)
-> a **registered apprenticeship** approved by the U.S. DOL or your State Apprenticeship
-> Agency, and confirm what lighting-track hours can be credited.
-
-### EA1 — Electrical Apprentice I
-- **EA1-C01 DC Theory & Magnetism** — atomic theory, DC circuits, Kirchhoff's laws, magnetism, electromagnetism.
-- **EA1-C02 Introduction to the NEC** — code structure, definitions, Chapters 1–4 navigation, AHJ & adoption.
-- **EA1-C03 Conduit Bending & Raceways** — EMT bending (90s, offsets, saddles, kicks), multipliers, shrink, take-up, raceway types.
-- **EA1-C04 Wiring Devices & Residential Circuits** — receptacles, 3-way/4-way switching, GFCI/AFCI, dwelling branch circuits.
-- **EA1-C05 Construction Safety** — OSHA construction topics, trenching, confined space awareness, hazard communication, scaffolds.
-
-### EA2 — Electrical Apprentice II
-- **EA2-C01 AC Theory** — inductance, capacitance, reactance, impedance, power triangle, power factor correction.
-- **EA2-C02 Grounding & Bonding** — Article 250 concepts, grounding electrode system, EGC sizing, bonding, fault paths.
-- **EA2-C03 Conductor Sizing & Overcurrent Protection** — ampacity tables, temperature correction, adjustment factors, OCPD selection.
-- **EA2-C04 Commercial Wiring Methods** — EMT/MC/RMC/PVC, box fill, conduit fill, support and securing.
-- **EA2-C05 Blueprint Reading II** — commercial electrical drawings, one-lines, riser diagrams, specifications.
-
-### EA3 — Electrical Apprentice III
-- **EA3-C01 Transformers** — principles, single-/three-phase connections (delta/wye), sizing, overcurrent protection, Article 450 concepts.
-- **EA3-C02 Motors & Motor Controls** — motor principles, Article 430 concepts, starters, overloads, ladder diagrams, VFDs.
-- **EA3-C03 Services & Feeders** — service components, feeders, introduction to load calculations.
-- **EA3-C04 Three-Phase Distribution** — switchboards, panelboards, distribution systems, metering, high-leg delta.
-- **EA3-C05 NFPA 70E & Qualified Worker Safety** — qualified person, risk assessment, approach and arc-flash boundaries, energized work permits.
-
-### EA4 — Electrical Apprentice IV
-- **EA4-C01 Advanced Load Calculations** — dwelling standard/optional methods, commercial calculations.
-- **EA4-C02 Special Occupancies & Equipment** — hazardous locations, healthcare facilities, pools/spas.
-- **EA4-C03 Fire Alarm & Low-Voltage Systems** — fire alarm circuits, Class 1/2/3 circuits, communications cabling.
-- **EA4-C04 PLCs & Building Automation** — PLC fundamentals, I/O, ladder logic, BAS integration.
-- **EA4-C05 Renewable Energy, Storage & EV Charging** — PV systems, energy storage, EV supply equipment.
-
-### JW — Journeyman Exam Preparation
-- **JW-C01 Exam Strategy & Code Navigation** — exam formats, tabbing the code book, time management.
-- **JW-C02 Calculations Review** — Ohm's law, voltage drop, box/conduit fill, ampacity, motors, transformers, load calcs.
-- **JW-C03 Comprehensive Code Review** — chapter-by-chapter review.
-- **JW-C04 Practice Exams** — full-length timed practice exams.
-
-Each electrical level includes hands-on skills appropriate to the content (e.g., conduit bending to tolerance, 3-way/4-way switching, motor control wiring, service installation, transformer connections).
+**Completing LT5 awards Master Lighting Technician status, the highest grade in the program.**
 
 ---
 

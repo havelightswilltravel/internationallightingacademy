@@ -172,7 +172,7 @@ quiz:
         - Yes, everyone starts at LT1 with no exceptions
         - No; a documented placement assessment can place them at the appropriate grade
         - No; they can choose any grade they want
-        - Only if they have a journeyman license
+        - Only if they hold a state electrical license
       answer: 1
       explanation: The program supports placement of experienced hires at the right grade after a documented assessment.
       ref: MGR-C01 Lesson 3

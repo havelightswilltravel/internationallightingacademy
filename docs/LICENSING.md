@@ -33,8 +33,7 @@ content (your curriculum, videos and library) is shared with every licensee.
 | Professional | Multi-branch service companies | Volume pricing, company-branded videos, onboarding help |
 | Enterprise | National facility-service firms | Custom content, private deployment option, SSO, API access |
 
-Common add-ons: evaluator training, on-site placement assessments, custom content development,
-and apprenticeship-registration support.
+Common add-ons: evaluator training, on-site placement assessments, and custom content development.
 
 ## Before selling — checklist
 
@@ -46,9 +45,9 @@ and apprenticeship-registration support.
 - [ ] **Billing:** invoice manually at first. Online billing (e.g., Stripe) is on the roadmap.
 - [ ] Decide whether licensees may rename or brand the academy.
 
-## Apprenticeship note for licensees
+## Scope note for licensees
 
-Licensees who want electrical-track hours to count toward a journeyman license must register
-their own apprenticeship program, or join yours as a participating employer, with the U.S. DOL
-Office of Apprenticeship or their State Apprenticeship Agency. Supervision must be by licensed
-electricians. Requirements vary by state.
+The program trains lighting technicians from entry level to Senior and Master Lighting Technician.
+It does **not** lead to a journeyman electrician license, which requires a state-approved or
+accredited apprenticeship or school. Licensees remain responsible for confirming which tasks their
+technicians may perform under local licensing rules (see `DISCLAIMER.md`).

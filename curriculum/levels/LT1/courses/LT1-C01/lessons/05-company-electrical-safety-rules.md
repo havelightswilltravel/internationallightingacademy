@@ -39,7 +39,7 @@ the dark.
 
 Working live is the exception, and it is not LT1 work. Only trained, qualified and authorized
 technicians work on energized systems, and only with a written safety plan approved by a
-supervisor and the company's **Energized Electrical Work Permit** (EA3-C05). If a job cannot be
+supervisor and the company's **Energized Electrical Work Permit** (LT4-C07). If a job cannot be
 locked out, you stop and call your supervisor.
 
 ## Hot Gloves: Our Company's Rule

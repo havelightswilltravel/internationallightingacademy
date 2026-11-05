@@ -2,7 +2,7 @@
 title: "Toolbox Talk: Chemicals, Dust, Noise and Fire on the Job"
 category: toolbox-talks
 tags: [toolbox-talk, safety, hazcom, sds, insulation, asbestos, lead, noise, fire-prevention]
-levels: [LT1, LT2, LT3, EA1]
+levels: [LT1, LT2, LT3]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

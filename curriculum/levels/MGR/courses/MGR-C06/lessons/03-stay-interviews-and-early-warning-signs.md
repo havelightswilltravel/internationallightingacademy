@@ -69,7 +69,7 @@ Watch for changes in behavior compared with that person's normal pattern:
 | Complaints about pay compared with others | Feels underpaid or unfairly treated | Review grade, pay, and path; explain honestly |
 | A close coworker or mentor just left | Loss of connection | Check in; assign a new mentor or peer |
 | Conflict with a supervisor or crew member | Relationship breakdown | Address it early; mediate |
-| Grade ceiling reached with no next step | No future here | Discuss the electrical track, lead roles, mentoring |
+| Grade ceiling reached with no next step | No future here | Discuss lead roles, mentoring, LT5-level project work; support outside goals such as a licensed-electrician apprenticeship |
 | Updating certifications or asking for copies of records | May be preparing to leave | Don't punish — ask what they want next |
 
 > **Tip:** Never retaliate or treat someone worse because you suspect they are looking. It

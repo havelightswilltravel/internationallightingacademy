@@ -9,7 +9,8 @@ raised: 2026-11-05
 ## The question
 Before anyone uses the program, it should be clear that **local codes and licensing rules decide
 what a technician may actually do**. They vary by area, and some areas allow a technician only a
-subset of what this program teaches, because the program covers the full range up to journeyman.
+subset of what this program teaches, because the program covers the full range up to Master
+Lighting Technician. (The program does not lead to a journeyman electrician license.)
 
 ## What I did (first version, ready for your review)
 1. **A written notice**, `docs/DISCLAIMER.md`, in plain language. It covers:

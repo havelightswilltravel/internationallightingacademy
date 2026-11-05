@@ -86,8 +86,8 @@ Some older buildings and industrial plants have **delta** systems, including the
 "high-leg" (or "wild-leg") delta, where one phase reads about 208 V to neutral. The NEC
 requires that high leg to be marked orange (or otherwise effectively identified). Connecting
 a 120 V lighting load to the high leg will destroy it. If a panel's readings do not match
-the wye patterns in this lesson, **stop and ask your lead**. Delta systems are covered in
-EA3.
+the wye patterns in this lesson, **stop and ask your lead**. Work on delta systems is
+licensed-electrician work, beyond the scope of this program — write it up and escalate.
 
 ## Predicting Readings Before You Measure
 

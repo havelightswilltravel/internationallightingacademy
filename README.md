@@ -1,16 +1,19 @@
 # International Lighting Academy
 
 A complete training program and web platform that takes field technicians from **day one as an
-entry-level lighting tech to journeyman-electrician exam readiness** — and that you can license
+entry-level lighting tech to Senior and Master Lighting Technician**, and that you can license
 to other companies.
 
 ```
-LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior ─► LT5 Certified Advanced Lighting Technician
-                       ~24 months of lighting grades
-                                                        │
-                                                        ▼
-           EA1 ─► EA2 ─► EA3 ─► EA4 ─► JW Journeyman Exam Prep   (Electrical Development Track)
+LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior Lighting Technician ─► LT5 Master Lighting Technician
+                         about 24 months of lighting grades
+
+Manager Module (separate): hiring and retention for managers and supervisors
 ```
+
+The program does **not** lead to a journeyman electrician license. That requires a state-approved
+or accredited apprenticeship program, which is outside the scope of this training. The earlier
+draft electrical-apprentice levels are kept, unused, in `curriculum/archive/electrical-track/`.
 
 **Advancement is earned, not given for time on the job.** To pass each grade a technician must:
 
@@ -24,8 +27,8 @@ LT1 Entry-Level ─► LT2 ─► LT3 ─► LT4 Senior ─► LT5 Certified Adv
 
 ## Curriculum at a glance
 
-| | Lighting track (LT1–LT5) | Electrical track (EA1–EA4, JW) | Manager Module | Total |
-|---|---|---|---|---|
+| | Lighting track (LT1–LT5) | Manager Module | Total |
+|---|---|---|---|
 | Courses | 44 | 24 | 6 | **74** |
 | Lessons | 198 | 94 | 21 | **313** |
 | Quiz/exam questions | 733 | 400 | 90 | **1,223** |
@@ -99,5 +102,5 @@ Configuration is through environment variables; see [`docs/DEPLOYMENT.md`](docs/
 
 Training content is a **draft until it has been reviewed by a licensed electrician or other
 subject-matter expert**; see [`docs/CONTENT_GOVERNANCE.md`](docs/CONTENT_GOVERNANCE.md).
-Journeyman licensing is regulated by each state. The electrical track is built to align with
-a registered apprenticeship, but your state decides which hours and classroom instruction count.
+Local codes and licensing rules decide which tasks a technician may perform; some areas reserve
+work this program teaches for licensed electricians. See [`docs/DISCLAIMER.md`](docs/DISCLAIMER.md).

@@ -2,7 +2,7 @@
 title: "Toolbox Talk: Arc Flash and Staying Inside Your Qualified Scope"
 category: toolbox-talks
 tags: [toolbox-talk, safety, arc-flash, nfpa-70e, qualified-person, ppe, energized-work, switchgear]
-levels: [LT2, LT3, LT4, EA2, EA3, EA4]
+levels: [LT2, LT3, LT4]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---
@@ -63,4 +63,4 @@ is far beyond anything daily-wear clothing can handle.
 
 - NFPA 70E (2024): Article 110 (program and training), 130.2 (energized work), 130.5 (arc-flash risk assessment), 130.7 (PPE)
 - OSHA 29 CFR 1910.332-.335 (electrical safe work practices)
-- Program courses: LT1-C01; EA3-C05 NFPA 70E & Qualified Worker Safety
+- Program courses: LT1-C01; LT4-C07 NFPA 70E & Qualified Worker Safety

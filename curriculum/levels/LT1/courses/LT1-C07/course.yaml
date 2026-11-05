@@ -1,7 +1,7 @@
 code: LT1-C07
 title: Professionalism, Customer Service & Work Orders
 order: 7
-estimated_hours: 4
+estimated_hours: 4.5
 description: >
   Prepares lighting technicians to represent the company professionally on customer sites.
   Covers job-site conduct, communicating clearly with customers in plain language, handling
@@ -14,11 +14,13 @@ objectives:
   - Complete a work order with accurate locations, findings, materials, waste, and recommendations
   - Take clear, purposeful documentation photos that follow site rules
   - Recognize hazards and out-of-scope problems and escalate them at the right level
+  - "Follow the company's job-site standards - finishing paperwork on site, separating work orders from return sheets, respecting NTEs and leaving the site clean"
 lessons:
   - 01-job-site-conduct.md
   - 02-communicating-with-customers.md
   - 03-work-orders-documentation-and-photos.md
   - 04-reporting-problems-and-escalation.md
+  - 05-company-job-site-standards.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -174,3 +176,63 @@ quiz:
         - Keeping walkways, exits, and fire equipment clear while you work
       answer: 3
       explanation: Keep exits, walkways, and fire equipment clear. Park legally, ask before moving property, and leave customer-owned materials with the customer.
+    - id: LT1-C07-Q16
+      type: single
+      q: "Under company policy, when should the work order, photos, return sheet and signatures be completed?"
+      choices:
+        - "At the end of the week"
+        - "Back at the shop the next morning"
+        - "On site, while still clocked in to the job, before you put the truck in drive"
+        - "Whenever the office asks for them"
+      answer: 2
+      explanation: "Everything about the service is finished on site and on the clock. Only time and pre-pulled parts may be completed later."
+    - id: LT1-C07-Q17
+      type: single
+      q: "What belongs on the work order versus the return sheet?"
+      choices:
+        - "Both list everything, so the customer sees it twice"
+        - "Work order = what you did; return sheet = what is still needed (parts, equipment, people, time)"
+        - "Work order = what is needed; return sheet = what you did"
+        - "Only the return sheet is used for service calls"
+      answer: 1
+      explanation: "Keeping them separate makes the customer's record clean and lets the office turn the return sheet into a quote quickly. End the work order with \"see return.\""
+    - id: LT1-C07-Q18
+      type: single
+      q: "You are close to the NTE and need another hour to finish. What does company policy say?"
+      choices:
+        - "Finish the work and let the office ask for more money later"
+        - "Stop, call from the site for an NTE increase, and get the approver's name and an emailed approval before continuing"
+        - "Leave and write a quote"
+        - "Reduce the hours on your timecard"
+      answer: 1
+      explanation: "A blown NTE can never be billed afterward. Requests made from the site get answered faster, and the name and email protect the company."
+    - id: LT1-C07-Q19
+      type: single
+      q: "What is the company procedure for ceiling tiles when replacing troffers?"
+      choices:
+        - "Remove tiles as you go with whatever hands you have"
+        - "Lift all tiles with clean hands first, do the dirty work, wipe the new fixtures, wash your hands, then replace the tiles"
+        - "Clean the tiles with spray cleaner afterward"
+        - "Leave the tiles out for the customer to replace"
+      answer: 1
+      explanation: "Tiles show fingerprints and do not clean well, so they are handled only with clean hands. Photograph any tiles that were dirty before you started."
+    - id: LT1-C07-Q20
+      type: multi
+      q: "Which of these must be recorded on the work order so the customer is charged correctly? (Select all that apply.)"
+      choices:
+        - "A rented lift or circuit tracer used on the job"
+        - "Job supplies such as caulk, rags or spray paint"
+        - "Type and weight of batteries brought back for recycling"
+        - "The brand of your personal phone"
+      answer: [0, 1, 2]
+      explanation: "Equipment beyond standard ladders and tools, job supplies and recycling are only billed if they are written on the work order."
+    - id: LT1-C07-Q21
+      type: single
+      q: "You upload completion photos to a customer's work-order portal. What must you check?"
+      choices:
+        - "That the photos are marked visible to the customer, not internal only"
+        - "That the photos are in black and white"
+        - "That they are uploaded after you leave the site"
+        - "Nothing; any upload is fine"
+      answer: 0
+      explanation: "Notes and photos saved as internal-only never reach the customer, and some customers deny payment when completion photos are missing."

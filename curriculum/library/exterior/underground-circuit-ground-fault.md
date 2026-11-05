@@ -2,7 +2,7 @@
 title: Underground Lighting Circuit Ground Fault
 category: exterior
 tags: [exterior, underground, ground-fault, insulation-resistance, megohmmeter, fault-locating, 811]
-levels: [LT3, LT4, EA2]
+levels: [LT3, LT4]
 last_reviewed: 2026-10-08
 review_interval_months: 12
 ---

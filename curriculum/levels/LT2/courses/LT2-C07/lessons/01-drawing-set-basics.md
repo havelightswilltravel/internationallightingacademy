@@ -14,8 +14,9 @@ video_suggestion: >
 On service calls you may never see a drawing. On retrofit, renovation and new construction
 jobs, drawings tell you **what goes where, what it is, and what circuit feeds it**. Reading
 them correctly saves trips up the ladder and prevents installing the wrong fixture in the
-wrong place on the wrong circuit. EA2-C05 covers commercial electrical drawings in depth;
-this course gives you what you need for lighting work.
+wrong place on the wrong circuit. Full commercial electrical drawing work (power, risers,
+panel schedules for design) belongs to the electrician and engineer; this course gives you
+what you need for lighting work.
 
 ## How a Drawing Set Is Organized
 

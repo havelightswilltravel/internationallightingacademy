@@ -79,7 +79,7 @@ electrical safety program defines who may do it and how. At LT2:
   them. Gloves must be periodically retested per OSHA 29 CFR 1910.137.
 - Respect **approach boundaries** — the distances inside which shock protection and
   qualification are required. Keep everything but the probe tips outside the restricted
-  approach boundary. EA3 covers boundaries in depth.
+  approach boundary. LT4-C07 (NFPA 70E & Qualified Worker Safety) covers boundaries in depth.
 - **Connect the reference lead first**, then the hot lead; remove the hot lead first.
 - Hold probes like pencils behind the finger guards. Stand to the side of the panel, not
   directly in front of it, where practical.

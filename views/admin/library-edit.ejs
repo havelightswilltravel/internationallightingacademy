@@ -14,7 +14,7 @@
       <label>Tags (comma separated) <input name="tags" value="<%= doc ? doc.tags : '' %>"></label>
       <label>Relevant levels (hold Ctrl/Cmd for several)
         <% var sel = doc ? JSON.parse(doc.levels_json || '[]') : []; %>
-        <select name="levels" multiple size="4"><% ['LT1','LT2','LT3','LT4','LT5','EA1','EA2','EA3','EA4','JW'].forEach(function (l) { %><option <%= sel.indexOf(l) >= 0 ? 'selected' : '' %>><%= l %></option><% }) %></select>
+        <select name="levels" multiple size="4"><% ['LT1','LT2','LT3','LT4','LT5','MGR'].forEach(function (l) { %><option <%= sel.indexOf(l) >= 0 ? 'selected' : '' %>><%= l %></option><% }) %></select>
       </label>
     </div>
     <div class="grid two">

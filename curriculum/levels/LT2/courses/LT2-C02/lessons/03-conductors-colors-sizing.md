@@ -89,7 +89,8 @@ general branch circuit.
 Ampacity must be **adjusted** when more than three current-carrying conductors run together
 in a raceway or cable (common with lighting homeruns), and **corrected** for high ambient
 temperatures (attics, rooftops, near hot equipment). This is where the 90°C rating of THHN
-is useful — derating starts from the 90°C value. EA2 covers these calculations. At LT2,
+is useful — derating starts from the 90°C value. The calculations themselves are licensed-electrician
+work, beyond the scope of this program. At LT2,
 know that **you cannot just keep adding circuits to a conduit** without someone checking the
 derating.
 

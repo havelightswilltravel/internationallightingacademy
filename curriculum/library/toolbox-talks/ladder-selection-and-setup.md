@@ -2,7 +2,7 @@
 title: "Toolbox Talk: Right Ladder, Right Setup"
 category: toolbox-talks
 tags: [toolbox-talk, safety, ladders, stepladder, extension-ladder, falls]
-levels: [LT1, LT2, LT3, EA1]
+levels: [LT1, LT2, LT3]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

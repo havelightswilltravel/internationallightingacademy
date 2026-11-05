@@ -14,7 +14,7 @@ video_suggestion: >
 You do not need to be an engineer to change a ballast, but you do need to understand what
 electricity is doing. Knowing the basics helps you read labels, choose the right parts,
 understand meter readings, and recognize when something is wrong. It is also the foundation
-for every level that follows, all the way to the journeyman exam.
+for every level that follows, all the way to Master Lighting Technician.
 
 ## The Electrical Circuit
 

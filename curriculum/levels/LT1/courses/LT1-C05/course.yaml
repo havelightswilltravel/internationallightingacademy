@@ -1,7 +1,7 @@
 code: LT1-C05
 title: Light Sources & Fixture Basics
 order: 5
-estimated_hours: 8
+estimated_hours: 8.5
 description: >
   Introduces the light sources and fixtures a lighting technician services every day:
   incandescent and halogen, linear and compact fluorescent, HID (mercury vapor, metal halide,
@@ -16,12 +16,14 @@ objectives:
   - Identify common lamp bases and explain the role of ballasts, ignitors, transformers, and drivers
   - Identify common fixture types and read fixture and ballast labels and ratings
   - "Apply the first steps of the company fluorescent/CFL troubleshooting sequence and record parts information for the work order"
+  - "Recognize discontinued and changing lamp, ballast, driver and lens parts and gather the photos, measurements and counts the office needs to replace them"
 lessons:
   - 01-lighting-terms-and-metrics.md
   - 02-incandescent-halogen-and-fluorescent.md
   - 03-hid-and-led-sources.md
   - 04-bases-ballasts-drivers-and-fixtures.md
   - 05-first-response-fluorescent-and-cfl.md
+  - 06-company-field-notes-changing-parts.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -219,3 +221,53 @@ quiz:
         - "Turn the fixture's power off, wait as the ballast label says, and turn it back on to reset the ballast"
       answer: 3
       explanation: "Many T5 ballasts shut down when a lamp fails or is removed and stay off until input power is cycled."
+    - id: LT1-C05-Q20
+      type: single
+      q: "A metal halide ballast has failed and the company no longer stocks that ballast. What are the company's two replacement paths?"
+      choices:
+        - "A new HID ballast or a new HID lamp"
+        - "An LED HID-replacement lamp (where the fixture and customer allow it) or a new LED fixture"
+        - "A higher-wattage HID ballast"
+        - "Leave the fixture off and close the ticket"
+      answer: 1
+      explanation: "Metal halide is being phased out. The company is using up its HID ballast stock and moving to LED replacement lamps or new LED fixtures."
+    - id: LT1-C05-Q21
+      type: single
+      q: "Why must you record the shape and size of the existing HID lamp and photograph the fixture before an LED replacement lamp is ordered?"
+      choices:
+        - "LED replacement lamps come in different body sizes, and the lamp chosen has to fit inside the fixture"
+        - "The customer bills by lamp size"
+        - "LED lamps only come in one size"
+        - "It is required for the recycling log"
+      answer: 0
+      explanation: "HID lamps come in different envelopes (for example BT and ED shapes), and LED replacements have different body sizes. A lamp that does not fit, or blocks the optic, is the wrong lamp."
+    - id: LT1-C05-Q22
+      type: multi
+      q: "A refrigerated case uses a ballast from a discontinued product line. What should you bring back so the office can find an LED option or another ballast? (Select all that apply.)"
+      choices:
+        - "Photos of the case, plug and receptacle"
+        - "Measurements and color temperature"
+        - "Lamp type and quantity per ballast"
+        - "Only the customer's phone number"
+      answer: [0, 1, 2]
+      explanation: "Photos, measurements, color temperature and lamp type and quantity per ballast let the office pick an LED retrofit or a substitute ballast without another visit."
+    - id: LT1-C05-Q23
+      type: single
+      q: "A wrap lens is cracked. Besides tracing the lens and bringing a sample, what does the company want?"
+      choices:
+        - "Nothing else"
+        - "A photo of the fixture and a count of the matching fixtures in the area, in case the lens is unavailable and fixtures must be replaced"
+        - "A price quote from a hardware store"
+        - "Cut a flat lens to fit instead"
+      answer: 1
+      explanation: "Wrap lenses are not guaranteed to be available. If the fix becomes new fixtures, the office needs to know how many are in the area so one new fixture does not look out of place."
+    - id: LT1-C05-Q24
+      type: single
+      q: "What does the company expect when you open a fixture and find bugs and dust inside?"
+      choices:
+        - "Close it; cleaning is not part of service"
+        - "Clean it while it is open (locked out) and note on the work order that you cleaned it"
+        - "Tell the customer to call a cleaning company"
+        - "Clean it only if the customer asks"
+      answer: 1
+      explanation: "Fixture cleaning is still part of the service. Bugs and dust bunnies are the giveaway, and the notes show the customer the work was done."

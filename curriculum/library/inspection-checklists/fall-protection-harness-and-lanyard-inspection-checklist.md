@@ -2,7 +2,7 @@
 title: Fall Protection Harness & Lanyard Pre-Use Checklist
 category: inspection-checklists
 tags: [fall-protection, harness, lanyard, srl, relief-steps, anchorage, inspection, pre-use, safety]
-levels: [LT1, LT2, LT3, LT4, LT5, EA1, EA2, EA3, EA4]
+levels: [LT1, LT2, LT3, LT4, LT5]
 last_reviewed: 2026-11-05
 review_interval_months: 12
 ---

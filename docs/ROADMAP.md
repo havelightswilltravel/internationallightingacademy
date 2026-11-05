@@ -4,7 +4,8 @@ Status as of **October 8, 2026**: platform v0.1 is built and the full draft curr
 That leaves about 12 weeks to get from draft to production-ready.
 
 ## Phase 1 — Foundation ✅ (October 2026)
-- [x] Grade structure: LT1–LT5 lighting track (~24 months) → LT5 → EA1–EA4 + JW electrical track
+- [x] Grade structure: LT1–LT5 lighting track (~24 months), topping out at Senior (LT4) and Master Lighting Technician (LT5)
+- [x] Scope decision (Nov 2026): no journeyman electrician path; the draft electrical-apprentice levels are archived, and the NFPA 70E course moved to LT4-C07
 - [x] Master syllabus and content format
 - [x] Draft curriculum for every level: lessons, question banks, hands-on skill checklists
 - [x] Troubleshooting library (26 starter guides)
@@ -31,7 +32,6 @@ That leaves about 12 weeks to get from draft to production-ready.
 ## Phase 4 — Launch readiness (December 15 – 31)
 - [ ] Company-wide rollout plan and kickoff
 - [ ] License agreement / terms of service and privacy policy, drafted by an attorney (`docs/LICENSING.md`)
-- [ ] Decide on registered apprenticeship for the electrical track (DOL / state agency)
 - [ ] **Program declared developed — December 31, 2026**
 
 ## 2027 and beyond — commercialization & enhancements
@@ -44,5 +44,5 @@ That leaves about 12 weeks to get from draft to production-ready.
 - [ ] Mobile-friendly offline lesson access for field technicians
 - [ ] Photo and video evidence upload on skill sign-offs
 - [ ] PostgreSQL option for large multi-tenant hosting
-- [ ] 2026 NEC update of the electrical track as states adopt it
+- [ ] 2026 NEC update of code references as states adopt it
 - [ ] Annual technology refresh (see `CONTENT_GOVERNANCE.md`, technology watch list)
