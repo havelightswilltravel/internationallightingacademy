@@ -71,6 +71,9 @@ work is done under a written permit (130.2(B)). The permit must include, at a mi
 9. **Energized work approval** signatures (authorizing or responsible management, safety
    officer, or owner, as the employer's program specifies)
 
+Our company's own permit form, its approval signatures and its day-of checklist are covered
+section by section in Lesson 5.
+
 ### Tasks that do not require a permit
 Provided appropriate safe work practices and PPE are used, a permit is **not** required for
 qualified persons performing:

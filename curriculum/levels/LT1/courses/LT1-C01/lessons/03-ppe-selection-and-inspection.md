@@ -122,6 +122,10 @@ our electrical safety program, and while working under the direct supervision of
 person.** The full qualified-worker rules come in later levels (EA3-C05). Until then: if a
 task calls for rubber gloves or arc-rated PPE, it is not your task to do alone.
 
+Our company's specific rule for when to wear hot gloves ("if you did not personally lock and
+tag it, wear them"), the liner/rubber/leather layering, and the examples from our training are
+in Lesson 5.
+
 ## Caring for PPE
 
 - Store PPE out of direct sunlight and away from heat (not on the truck dashboard).

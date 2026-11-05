@@ -16,12 +16,15 @@ objectives:
   - Relamp fluorescent and other common fixtures safely and correctly
   - Replace a fluorescent ballast under supervision, wiring it to the label diagram
   - Package and label universal waste lamps, clean up broken lamps, and identify PCB ballasts
+  - Follow the company's lockout/tagout policy, including its lock and tag, verification, group, forgotten-lock and plug-in equipment rules
 lessons:
   - 01-lockout-tagout-procedure.md
   - 02-group-lockout-and-special-situations.md
   - 03-safe-relamping-procedure.md
   - 04-ballast-replacement-procedure.md
   - 05-lamp-breakage-universal-waste-and-pcbs.md
+  - 06-company-loto-policy-and-field-rules.md
+  - 07-company-loto-crews-removal-and-live-work.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -207,3 +210,92 @@ quiz:
       answer: 1
       explanation: Many "No PCBs" ballasts contain DEHP, which is also regulated. Company rule is that every removed magnetic ballast goes to the recycler, separated by type and counted.
       ref: LT1-C06 Lesson 5 — DEHP ballasts
+    - id: LT1-C06-Q18
+      type: multi
+      q: Under company policy, what information must your lockout tag show? (Select all that apply.)
+      choices:
+        - Your name
+        - The date and time the lock was placed
+        - The company responsible for the lockout
+        - A description of the work being done
+        - The breaker manufacturer's catalog number
+      answer: [0, 1, 2, 3]
+      explanation: Company tags identify the technician who placed the lock (who is the only one allowed to remove it), the date and time, the company responsible, and what work is being done.
+      ref: Company LOTO policy; OSHA 29 CFR 1910.147(c)(5)
+    - id: LT1-C06-Q19
+      type: single
+      q: Your handbook mentions wall-switch locks. In this program, how is a wall-switch lock used?
+      choices:
+        - It is an acceptable isolation point by itself
+        - Only as an extra warning in addition to locking out the breaker
+        - It replaces the need for verification
+        - It is used only on emergency circuits
+      answer: 1
+      explanation: The isolation point is the breaker or disconnect. A switch can be miswired, may control only part of the fixture and does nothing about other circuits in the fixture. A switch lock can be added as a warning to occupants.
+      ref: OSHA 29 CFR 1910.147; 1910.333(b)
+    - id: LT1-C06-Q20
+      type: single
+      q: Why does company policy say to treat all wiring as energized even after you turned the circuit off yourself?
+      choices:
+        - Because breakers always fail
+        - Because other circuits, installation miswiring, battery backups, 24-hour circuits or a back-fed neutral can leave live wiring in a "dead" fixture
+        - Because LED drivers store enough energy to kill for hours
+        - It is only a reminder for new employees
+      answer: 1
+      explanation: The handbook lists these exact causes of live wiring in apparently de-energized fixtures. That is why every lockout ends with verification at the work location.
+      ref: Company electrical safety policy
+    - id: LT1-C06-Q21
+      type: single
+      q: A coworker left the site with their lock still on a lighting breaker, and the work appears finished. What happens next under company policy?
+      choices:
+        - You cut the lock, since the work is done
+        - The supervisor makes every attempt to contact the worker; if unreachable, the lock is removed only after an authorized person physically inspects and confirms the work is complete and safe, and the worker is told before returning to work
+        - The customer removes it
+        - The lock stays on permanently
+      answer: 1
+      explanation: Unauthorized removal of another person's lock is grounds for severe discipline and probable dismissal. Removal follows the supervised procedure only.
+      ref: OSHA 29 CFR 1910.147(e)(3); company LOTO policy
+    - id: LT1-C06-Q22
+      type: single
+      q: Three technicians and the company's crew are working on fixtures under a single group lockbox. Who notifies the supervisor that work has ended?
+      choices:
+        - The first person to remove their lock
+        - The customer's building engineer
+        - The last person to remove their lock
+        - No one; the lights coming on is the signal
+      answer: 2
+      explanation: Each person removes their own lock as soon as their part is finished. The last person off notifies the supervisor or contractor in charge, who confirms all work is done before releasing the equipment.
+      ref: Company LOTO policy
+    - id: LT1-C06-Q23
+      type: single
+      q: According to the company LOTO inspection guide, how is testing for absence of voltage treated?
+      choices:
+        - As dead work, since the breaker is already locked
+        - As work on a live circuit, so the required rubber gloves with protectors, eye protection and a correctly rated meter are used
+        - As optional when the try step worked
+        - As something done only with a non-contact tester
+      answer: 1
+      explanation: A circuit is live until proven dead. Our guide says use gloves during verification and the correct meter for the job, live-dead-live.
+      ref: NFPA 70E Article 120; OSHA 29 CFR 1910.333(b)(2)(iv)
+    - id: LT1-C06-Q24
+      type: single
+      q: How do you control a cord-and-plug tool or piece of equipment before working on it?
+      choices:
+        - Switch it off at its own switch
+        - Unplug it, keep the plug under your control, and attach a DANGER tag to the plug
+        - Ask a coworker to watch it
+        - Tape over the on/off switch
+      answer: 1
+      explanation: Company policy requires that no one can energize plug-in equipment while you work on it. Unplugging and keeping the plug under your exclusive control, with a DANGER tag, meets this.
+      ref: OSHA 29 CFR 1910.147(a)(2)(iii)(A); company LOTO policy
+    - id: LT1-C06-Q25
+      type: single
+      q: A customer wants a failed fixture fixed during business hours and says the circuit cannot be shut off. You are an LT1. What do you do?
+      choices:
+        - Wear dry gloves and work carefully
+        - Cut the hot lead first, then the neutral, and fit an in-line disconnect
+        - Do not work on it; call your supervisor, who can arrange temporary lighting, after-hours work, or a qualified person under the Energized Electrical Work Permit
+        - Use the wall switch as your lockout
+      answer: 2
+      explanation: If an LT1 cannot lock it out, they do not work on it. Energized work is done only by qualified, authorized persons with justification, a written safety plan approved by a supervisor and the company's Energized Electrical Work Permit.
+      ref: OSHA 29 CFR 1910.333(a); NFPA 70E 130.2

@@ -1,0 +1,257 @@
+code: LT3-C12
+title: Rigging & Pole Light Removal
+order: 12
+estimated_hours: 5
+description: >-
+  Basic rigging for lighting technicians and our company's procedure for taking down a pole light.
+  Covers web slings and shackles (the "clevis"), sling and shackle inspection and removal criteria,
+  hitches, working load limits, sling angles, center of gravity and load weight estimation, lift
+  planning, hand signals and staying out of the load zone. Then walks through the company pole-removal
+  procedure step by step, from survey, LOTO and rigging to protecting the base wiring and checking the
+  rest of the lot, and how to record fixture data, pole dimensions and the base and fixture-mount
+  bolt patterns for ordering a replacement. This course does not qualify anyone to operate a crane or
+  to act as a qualified rigger for crane work.
+objectives:
+- >-
+  Identify a twisted-eye web sling and a screw-pin anchor shackle, explain why a rated shackle (not a
+  generic clevis) is used, and read sling tags and shackle markings
+- Inspect slings and shackles before use and apply OSHA and ASME removal criteria
+- >-
+  Select a hitch and confirm the working load limit, accounting for choker reduction and sling angle
+- Estimate the weight and center of gravity of a pole light assembly
+- >-
+  Plan a lift with rated lifting equipment, use standard hand signals and keep everyone out of the
+  load zone
+- >-
+  Remove a pole light using the company procedure, including LOTO, rigging, hardware recovery,
+  protecting base wiring and checking the remaining site lighting
+- >-
+  Measure and record the base bolt pattern, fixture-mount pattern, pole dimensions, color and fixture
+  data needed to order a replacement
+lessons:
+- 01-web-slings-and-shackles.md
+- 02-hitches-wll-sling-angles-and-load-weight.md
+- 03-lift-planning-signals-and-the-load-zone.md
+- 04-pole-light-removal-procedure.md
+- 05-measuring-pole-and-bolt-patterns.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+  - id: LT3-C12-Q01
+    type: single
+    q: >-
+      Our company's pole procedure calls for a "3/4 in clevis." What should you actually bring?
+    choices:
+    - Any 3/4 in trailer-hitch clevis from the hardware store
+    - >-
+      A rated lifting shackle (such as a 3/4 in screw-pin anchor shackle) with the manufacturer and
+      WLL marked on it
+    - A 3/4 in steel bolt and two nuts
+    - A carabiner from the fall protection kit
+    answer: 1
+    explanation: >-
+      "Clevis" is the shop name. For lifting, only a rated shackle marked with its manufacturer and
+      working load limit may be used. Unmarked hitch clevises, bolts and fall-protection hardware are
+      not lifting gear.
+    ref: ASME B30.26
+  - id: LT3-C12-Q02
+    type: single
+    q: The tag on a web sling has worn off and can't be read. What do you do?
+    choices:
+    - Use it if it looks like the same size as the other slings
+    - Use it only in a basket hitch
+    - Remove it from service
+    - Write the capacity on it with a marker from memory
+    answer: 2
+    explanation: >-
+      The tag is the only reliable rating. OSHA requires slings to be marked with rated capacities, and
+      ASME B30.9 removes slings with missing or illegible tags from service.
+    ref: OSHA 29 CFR 1910.184(i); ASME B30.9
+  - id: LT3-C12-Q03
+    type: multi
+    q: Which conditions require a web sling to be removed from service? (Select all that apply.)
+    choices:
+    - A cut on one edge
+    - Melted or charred spots
+    - Broken stitching in the eye splice
+    - Dirt that brushes off
+    - A knot tied in the body
+    answer: [0, 1, 2, 4]
+    explanation: >-
+      Cuts, melting or charring, broken or worn stitches and knots are removal criteria. Surface dirt
+      alone is not, though the sling should be cleaned and inspected.
+    ref: OSHA 29 CFR 1910.184(i)(9); ASME B30.9
+  - id: LT3-C12-Q04
+    type: single
+    q: >-
+      When you use a screw-pin shackle to make a choker on a pole, where should the moving (running) part
+      of the sling bear?
+    choices:
+    - On the pin, so it pulls the pin tight
+    - On the bow, with the pin through the sling eye
+    - On the side of the shackle ear
+    - It doesn't matter as long as the pin is in
+    answer: 1
+    explanation: >-
+      Put the pin through the sling eye and let the running part bear on the bow. Webbing sliding over
+      the pin can rotate and unscrew it.
+  - id: LT3-C12-Q05
+    type: single
+    q: >-
+      Example figures only: a sling tag reads vertical 3,200 lb, choker 2,500 lb, basket 6,400 lb. What is
+      the most you may lift with it in a choker hitch?
+    choices:
+    - 6,400 lb
+    - 3,200 lb
+    - 2,500 lb
+    - 16,000 lb, because of the design factor
+    answer: 2
+    explanation: >-
+      Read the column for the hitch you are using. A choker is rated lower than vertical. The design
+      factor is a safety margin, never extra capacity.
+  - id: LT3-C12-Q06
+    type: single
+    q: >-
+      A 600 lb pole is lifted horizontally with a two-leg hitch, each leg at 30° from horizontal. About how
+      much tension is in each leg?
+    choices:
+    - 300 lb
+    - 425 lb
+    - 600 lb
+    - 1,200 lb
+    answer: 2
+    explanation: >-
+      Each leg carries half the load (300 lb) times the 30° angle factor of 2.0 = 600 lb per leg. Flat
+      sling angles greatly increase leg tension.
+  - id: LT3-C12-Q07
+    type: single
+    q: Where should you choke the sling to lift a pole light upright off its anchor bolts?
+    choices:
+    - At the base, just above the hand hole
+    - Exactly at the middle of the shaft
+    - >-
+      High on the shaft, above the center of gravity, just under the arms or tenon so it can't slide
+      off
+    - Around one fixture head
+    answer: 2
+    explanation: >-
+      A load hangs with its center of gravity under the hook. Choking above the CG keeps the pole
+      upright; choking below it lets the top swing down.
+  - id: LT3-C12-Q08
+    type: single
+    q: >-
+      Example figures only: a steel pole shaft weighs about 6.5 lb per foot. The shaft is 25 ft long, the
+      base plate weighs about 25 lb and the two heads and arms about 80 lb. What weight should you plan
+      for?
+    choices:
+    - About 160 lb
+    - About 185 lb
+    - About 300 lb (about 265 lb, rounded up)
+    - About 1,000 lb
+    answer: 2
+    explanation: >-
+      25 × 6.5 = about 160 lb, plus 25 lb and 80 lb = about 265 lb. Round up for planning.
+  - id: LT3-C12-Q09
+    type: single
+    q: >-
+      The crew wants to hang a pole from the platform guardrail of a boom lift to lower it. What does
+      company policy say?
+    choices:
+    - It's fine if the pole weighs less than the platform rating
+    - >-
+      Not allowed; a lift is never used as a crane unless its manufacturer designed it to lift loads
+      that way
+    - It's fine if the operator stays in the basket
+    - It's fine if a tag line is used
+    answer: 1
+    explanation: >-
+      Suspended loads go only on equipment designed and rated to lift them. Hanging a load from a MEWP
+      platform or rail can overload or side-load it and tip it over.
+    ref: Company policy; ANSI A92.22
+  - id: LT3-C12-Q10
+    type: multi
+    q: Which statements about signals during a pole lift are correct? (Select all that apply.)
+    choices:
+    - One designated signal person gives movement signals
+    - Anyone who sees danger may give a stop signal, and the operator must obey it
+    - The operator should guess what an unclear signal meant to keep the job moving
+    - Standard hand signals are used unless a non-standard signal was agreed on in advance
+    answer: [0, 1, 3]
+    explanation: >-
+      One signal person directs the lift, anyone can call stop, and standard signals are the default.
+      An operator who is unsure of a signal stops.
+    ref: OSHA 29 CFR 1926 Subpart CC; ASME B30
+  - id: LT3-C12-Q11
+    type: single
+    q: The pole is lifted a few inches and starts to rotate. What should you do?
+    choices:
+    - Grab the base plate with your hands to steady it
+    - Step under the pole to guide it from below
+    - Control it from a distance with the tag line, staying out from under the load
+    - Have the operator lift it quickly to get it over with
+    answer: 2
+    explanation: >-
+      Never stand or reach under a suspended load. A tag line lets you control rotation and swing
+      from a safe distance.
+  - id: LT3-C12-Q12
+    type: single
+    q: >-
+      Per our company procedure, what do you do with the anchor nuts and washers after you remove the
+      pole?
+    choices:
+    - Thread them back on the bolts so they don't get lost
+    - Leave them in the hand hole
+    - Bag them and take them with you
+    - Throw them away; new ones come with the pole
+    answer: 2
+    explanation: >-
+      Company rule: take the nuts and washers with you. Left on the base, they tend to disappear before
+      the new pole goes up.
+    ref: Company procedure
+  - id: LT3-C12-Q13
+    type: single
+    q: The pole is down and the conductors at the base are exposed. What does the company procedure require?
+    choices:
+    - Leave them coiled in the base; the circuit is off
+    - >-
+      Remake any feed-through splices with wet-location connectors, cap each dead-end conductor, then
+      lots of tape, a plastic cup over the ends and more tape
+    - Cut them flush with the concrete
+    - Push them back into the conduit with no insulation
+    answer: 1
+    explanation: >-
+      The company rule is lots of tape, a plastic cup and more tape. Conductors that feed other poles
+      will be live when power is restored, so splices and caps must be done properly first.
+    ref: Company procedure; OSHA 29 CFR 1910.147
+  - id: LT3-C12-Q14
+    type: single
+    q: >-
+      After the pole is removed and the circuit is re-energized, what is the next step in our company
+      procedure?
+    choices:
+    - Leave; the job is done
+    - >-
+      Check all the other outdoor lighting, because stress on the wiring from the damaged pole can
+      affect other poles
+    - Wait for the customer to report problems
+    - Replace every photocell in the lot
+    answer: 1
+    explanation: >-
+      A pole that was hit or pulled can break splices or conductors elsewhere. Force the lights on and
+      check the whole lot before leaving.
+    ref: Company procedure
+  - id: LT3-C12-Q15
+    type: single
+    q: >-
+      You measure a square four-bolt base: adjacent center-to-center 11 in. Which diagonal measurement
+      confirms it is correct?
+    choices:
+    - About 11 in
+    - About 13 in
+    - About 15-1/2 in
+    - About 22 in
+    answer: 2
+    explanation: >-
+      On a square pattern the diagonal is about 1.41 times the adjacent: 11 × 1.41 is about 15-1/2 in.
+      The diagonal is also the bolt circle diameter.

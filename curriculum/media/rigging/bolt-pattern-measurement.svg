@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" role="img" aria-labelledby="t d">
+  <title id="t">Measuring a 4-bolt light pole base bolt pattern</title>
+  <desc id="d">Top view of a square pole base plate with four anchor bolts on a bolt circle around the pole opening. Dimensions show the adjacent center-to-center distance, the diagonal center-to-center distance and the bolt diameter.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f3a93" stroke="none"/>
+    </marker>
+    <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b03a00" stroke="none"/>
+    </marker>
+    <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6">
+      <circle cx="5" cy="5" r="4" fill="#333333" stroke="none"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="560" fill="#ffffff" stroke="none"/>
+
+  <!-- Base plate -->
+  <rect x="120" y="100" width="320" height="320" rx="6" fill="#d9dde3" stroke="#4a4f57" stroke-width="3"/>
+  <!-- Bolt circle -->
+  <circle cx="280" cy="260" r="141.4" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <!-- Pole opening -->
+  <circle cx="280" cy="260" r="62" fill="#ffffff" stroke="#4a4f57" stroke-width="3"/>
+  <text x="280" y="255" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">Pole / wire</text>
+  <text x="280" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">opening</text>
+
+  <!-- Anchor bolts (washer + bolt) -->
+  <g fill="#9aa1ab" stroke="#4a4f57" stroke-width="2">
+    <circle cx="180" cy="160" r="20"/>
+    <circle cx="380" cy="160" r="20"/>
+    <circle cx="180" cy="360" r="20"/>
+    <circle cx="380" cy="360" r="20"/>
+  </g>
+  <g fill="#3b4048" stroke="#1f2328" stroke-width="1.5">
+    <circle cx="180" cy="160" r="11"/>
+    <circle cx="380" cy="160" r="11"/>
+    <circle cx="180" cy="360" r="11"/>
+    <circle cx="380" cy="360" r="11"/>
+  </g>
+  <!-- bolt centers -->
+  <g fill="#ffffff" stroke="none">
+    <circle cx="180" cy="160" r="2.5"/>
+    <circle cx="380" cy="160" r="2.5"/>
+    <circle cx="180" cy="360" r="2.5"/>
+    <circle cx="380" cy="360" r="2.5"/>
+  </g>
+
+  <!-- Adjacent center-to-center dimension (top) -->
+  <g stroke="#1f3a93" stroke-width="1.5" fill="none">
+    <line x1="180" y1="146" x2="180" y2="54"/>
+    <line x1="380" y1="146" x2="380" y2="54"/>
+    <line x1="184" y1="62" x2="376" y2="62" marker-start="url(#arr)" marker-end="url(#arr)"/>
+  </g>
+  <text x="280" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1f3a93">Adjacent center-to-center</text>
+
+  <!-- Diagonal center-to-center dimension -->
+  <line x1="184" y1="164" x2="376" y2="356" stroke="#b03a00" stroke-width="2" fill="none" marker-start="url(#arrR)" marker-end="url(#arrR)"/>
+  <line x1="320" y1="300" x2="470" y2="250" stroke="#b03a00" stroke-width="1.2" fill="none" marker-start="url(#dot)"/>
+  <text x="476" y="246" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#b03a00">Diagonal</text>
+  <text x="476" y="266" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#b03a00">center-to-center</text>
+  <text x="476" y="286" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">(also the bolt circle</text>
+  <text x="476" y="302" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">diameter on a 4-bolt</text>
+  <text x="476" y="318" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">square pattern)</text>
+
+  <!-- Bolt diameter dimension (bottom-right bolt) -->
+  <g stroke="#1b6e3a" stroke-width="1.5" fill="none">
+    <line x1="369" y1="366" x2="369" y2="402"/>
+    <line x1="391" y1="366" x2="391" y2="402"/>
+    <line x1="352" y1="396" x2="367" y2="396" marker-end="url(#arrG)"/>
+    <line x1="408" y1="396" x2="393" y2="396" marker-end="url(#arrG)"/>
+    <line x1="408" y1="396" x2="470" y2="396"/>
+  </g>
+  <defs>
+    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1b6e3a" stroke="none"/>
+    </marker>
+  </defs>
+  <text x="476" y="392" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1b6e3a">Bolt diameter</text>
+  <text x="476" y="411" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#333333">(thread size, not the nut)</text>
+
+  <!-- Bolt circle label -->
+  <line x1="139" y1="260" x2="100" y2="260" stroke="#6b7280" stroke-width="1" fill="none"/>
+  <text x="96" y="248" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4a4f57">Bolt</text>
+  <text x="96" y="264" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4a4f57">circle</text>
+  <text x="96" y="280" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#4a4f57">(dashed)</text>
+
+  <!-- Footer notes -->
+  <text x="360" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#222222">Square base plate, 4 anchor bolts (top view, not to scale)</text>
+  <text x="360" y="496" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#333333">Measure center to center: edge of one bolt to the SAME edge of the next bolt.</text>
+  <text x="360" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#333333">Check: diagonal is about 1.41 times the adjacent measurement.</text>
+</svg>

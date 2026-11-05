@@ -9,7 +9,10 @@ description: >
   for 3-way complaints — wiggle the switch arm, check connection points, trace power flow with
   the diagram or write it up — expanded with lockout, live-dead-live verification and
   de-energized continuity tracing. Also covers 3-way dimmers, smart and occupancy controls,
-  neutral-at-switch requirements, parts ordering and when to escalate to an electrician.
+  neutral-at-switch requirements, parts ordering and when to escalate to an electrician. Uses the
+  company 3-way switching diagram to tell legal wiring from the illegal switched-neutral layout.
+  Company practice: LT2 learns 3-way work and troubleshoots it with a lead; LT3 and above
+  troubleshoot 3-way circuits unsupervised.
 objectives:
   - Identify common, traveler and ground terminals on 3-way and 4-way switches and verify them by continuity
   - Draw the power-to-switch, power-to-fixture and 4-way switching diagrams and predict each switch combination
@@ -17,11 +20,13 @@ objectives:
   - Troubleshoot a 3-way circuit using the company procedure with lockout and de-energized continuity methods first
   - Select a compatible 3-way dimmer, smart control or occupancy sensor, including neutral and load requirements
   - Decide when a switching problem must be written up for an electrician and document it properly
+  - Use the company 3-way diagram to tell legal 3-way wiring from the illegal switched-neutral layout and explain why the illegal layout is a shock hazard
 lessons:
   - 01-how-3-way-and-4-way-switches-work.md
   - 02-wiring-configurations-and-diagrams.md
   - 03-troubleshooting-3-way-circuits.md
   - 04-dimmers-smart-and-occupancy-3-way.md
+  - 05-company-3-way-diagram-legal-vs-illegal.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -191,3 +196,58 @@ quiz:
       answer: 0
       explanation: The wiggle-the-arm test that produces flicker points to a bad switch or a loose terminal at that device. Lock out and inspect the connection points.
       ref: Company Master Troubleshooting Guide — 3-way switching
+    - id: LT2-C08-Q16
+      type: single
+      q: On the company 3-way diagram, what makes the LEGAL version legal?
+      choices:
+        - The neutral runs through both switches' traveler terminals
+        - The line hot lands on one common, the travelers carry only the hot, the other common feeds the lamp and the neutral goes straight to the lamp
+        - Both commons connect to the line hot
+        - The lamp is connected between the two commons
+      answer: 1
+      explanation: In legal 3-way wiring all switching is in the hot conductor; the neutral never lands on a switch terminal.
+      ref: LT2-C08 Lesson 5; NEC 404.2(A)
+    - id: LT2-C08-Q17
+      type: single
+      q: In the ILLEGAL version on the company diagram, the hot and neutral are both brought to the traveler terminals and the lamp sits between the two commons. Why is this dangerous even though the light switches normally?
+      choices:
+        - It overloads the switches
+        - With the light off, both lamp terminals can be at line voltage, so the fixture is energized while it looks "off"
+        - It makes the lamp flicker
+        - It only works with incandescent lamps
+      answer: 1
+      explanation: When both switches select the hot traveler, the lamp is dark but the socket and fixture wiring are energized. A tech relying on the switch could be shocked.
+      ref: LT2-C08 Lesson 5
+    - id: LT2-C08-Q18
+      type: single
+      q: Which NEC rule does the switched-neutral 3-way layout violate?
+      choices:
+        - 3-way and 4-way switches must do all switching in the ungrounded (hot) conductor only
+        - Switches must be mounted no higher than 6 ft 7 in
+        - All switches must be dimmer-rated
+        - Travelers must be red
+      answer: 0
+      explanation: NEC 404.2(A) requires 3-way and 4-way switching to be done only in the ungrounded conductor, and 404.2(B) prohibits switches from disconnecting the grounded conductor.
+      ref: NEC 404.2
+    - id: LT2-C08-Q19
+      type: single
+      q: Under company practice, who troubleshoots a 3-way circuit unsupervised?
+      choices:
+        - Any LT1 or LT2 tech
+        - LT3 techs and above; LT2 techs learn and troubleshoot 3-way circuits with a lead or supervisor
+        - Only licensed electricians
+        - Only the customer's maintenance staff
+      answer: 1
+      explanation: The company treats 3-way switching as higher-end tech work. LT2 learns it; LT3 and above troubleshoot it unsupervised. Code violations may still need an electrician.
+      ref: LT2-C08 Lesson 1 company note
+    - id: LT2-C08-Q20
+      type: single
+      q: Your non-contact tester alerts at a fixture's socket with the 3-way switches off. What is the correct next step?
+      choices:
+        - Change the lamp quickly while the switch is off
+        - Flip the other switch and continue working
+        - Stop, lock out and tag out the breaker, verify absence of voltage with a meter, then report and write up the suspected miswiring
+        - Remove the neutral from the fixture
+      answer: 2
+      explanation: A wall switch is never your disconnect. An alert with the switch off suggests miswired switching; lock out, verify live-dead-live, photograph and write it up.
+      ref: LT2-C08 Lesson 5

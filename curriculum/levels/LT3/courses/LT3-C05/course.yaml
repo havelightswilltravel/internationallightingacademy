@@ -21,11 +21,15 @@ objectives:
 - >-
   Explain why the equipment grounding conductor, not a ground rod, provides the fault-current path
   at a pole
+- >-
+  Apply the company's overhead power-line clearance rules, assess a site for overhead and underground
+  line hazards, and request utility locates before digging
 lessons:
 - 01-area-pole-lights-and-wall-packs.md
 - 02-exterior-photocontrols-and-twist-lock-receptacles.md
 - 03-pole-base-and-hand-hole-inspection.md
 - 04-underground-circuits-wet-locations-and-ground-faults.md
+- 05-overhead-and-underground-power-lines.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -247,3 +251,115 @@ quiz:
       State laws require a locate request before digging. Utility locators mark their own facilities;
       privately owned site wiring usually requires drawings or a private locating service.
     ref: OSHA 29 CFR 1926 Subpart P (Excavations)
+  - id: LT3-C05-Q16
+    type: single
+    q: >-
+      Under company policy, how close may aerial equipment (and you, your tools and materials) come
+      to an energized 12 kV distribution line that has not been covered by the utility?
+    choices:
+    - 3 feet
+    - 6 feet
+    - No closer than 10 feet; if you cannot keep that margin, stop and call your supervisor
+    - Any distance, if you are wearing hot gloves
+    answer: 2
+    explanation: >-
+      Company rule: at least 10 feet from lines of 50 kV and under, and never within 10 feet of lines
+      the power company has not covered. OSHA sets the same 10-foot minimum for unqualified workers.
+    ref: OSHA 29 CFR 1910.333(c)(3); company sign/pole lighting practices
+  - id: LT3-C05-Q17
+    type: single
+    q: >-
+      A pole light you need to service sits beneath a 138 kV transmission line. What does company
+      policy require?
+    choices:
+    - Keep 10 feet and proceed
+    - The line must be shielded by the power company before any work under it, and OSHA clearances
+      increase with voltage (15 feet for cranes and boom trucks over 50 to 200 kV)
+    - Work only at night when the load is lower
+    - Use a wooden ladder instead of the truck
+    answer: 1
+    explanation: >-
+      Lines above 50 kV must be shielded by the utility before work under them. Required clearances
+      grow with voltage.
+    ref: OSHA 29 CFR 1926.1408 Table A; 1910.333(c)(3)
+  - id: LT3-C05-Q18
+    type: single
+    q: The utility has installed covers ("boots") on a line near your work. How should you treat it?
+    choices:
+    - As fully insulated, so the boom can rest against it
+    - As if it were not covered, staying well clear
+    - As de-energized
+    - As safe for a fiberglass ladder to touch
+    answer: 1
+    explanation: >-
+      Company policy: always treat lines as if they are not covered. Covers are a precaution, not
+      permission to make contact.
+    ref: Company sign/pole lighting practices
+  - id: LT3-C05-Q19
+    type: single
+    q: What is the spotter's job when a boom truck works near overhead lines?
+    choices:
+    - Guide the load by hand or with a tag line
+    - Watch the clearance and warn the operator; spot, not guide
+    - Operate the truck from the ground
+    - Hold the bucket steady
+    answer: 1
+    explanation: >-
+      Our training says spotters spot, not guide. A person holding a tag line or the load can be
+      shocked if it contacts a line.
+    ref: OSHA 29 CFR 1926.1408; company power line training
+  - id: LT3-C05-Q20
+    type: single
+    q: Your bucket truck's boom contacts an energized line and there is no fire. What should you do?
+    choices:
+    - Climb down the boom immediately
+    - Stay on the equipment, warn others to stay away, move away from the line if possible and have
+      someone call 911 and the utility
+    - Step off with one foot on the truck and one on the ground
+    - Have a coworker pull you off
+    answer: 1
+    explanation: >-
+      The ground around the truck may be energized. If you must leave, jump clear with feet together,
+      never touching truck and ground at once, and shuffle away.
+    ref: Company power line training
+  - id: LT3-C05-Q21
+    type: multi
+    q: Which statements are myths about power lines? (Select all that apply.)
+    choices:
+    - Lines are insulated, so they are safe to touch
+    - A fiberglass ladder is always safe near lines
+    - If you do not touch a line you are safe
+    - Communication lines can become energized by contact with power lines
+    answer: [0, 1, 2]
+    explanation: >-
+      Many lines are bare or only weatherproofed; wet or dirty fiberglass can conduct; high voltage
+      can arc across a gap. Communication lines can be energized, which is why every line is treated
+      as energized.
+    ref: Company power line training
+  - id: LT3-C05-Q22
+    type: single
+    q: You need to drive a new ground rod at a pole base. What is required first?
+    choices:
+    - Nothing; a ground rod is not excavation
+    - Call 811, mark the area in white, wait for marks, and hand-dig or probe carefully inside the
+      tolerance zone
+    - Only check the site lighting drawings
+    - Ask the store manager whether anything is buried there
+    answer: 1
+    explanation: >-
+      Driving rods, setting anchors and trenching all count as digging. State law requires a locate
+      request; private lines need drawings or a private locator too.
+    ref: OSHA 29 CFR 1926.651(b); state one-call law
+  - id: LT3-C05-Q23
+    type: single
+    q: What color locate mark indicates buried electric power lines?
+    choices:
+    - Yellow
+    - Orange
+    - Red
+    - Blue
+    answer: 2
+    explanation: >-
+      Red is electric, yellow is gas/oil, orange is communications, blue is potable water, green is
+      sewer and white marks the proposed excavation.
+    ref: APWA uniform color code

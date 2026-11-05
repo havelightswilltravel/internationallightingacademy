@@ -3,41 +3,79 @@ title: Ladder Types, Ratings & Selection
 minutes: 20
 video:
 video_suggestion: >
-  In the shop, a technician lines up the company's ladders (6-ft and 8-ft stepladders, a
-  multi-position ladder, a 24-ft extension ladder) and reads the side-rail labels on camera:
-  type, duty rating, material, and maximum length. Then show how to calculate the right
-  ladder for a 10-ft ceiling and a 20-ft warehouse fixture.
+  In the shop, a technician lines up the company's ladders (6-ft and 8-ft fiberglass
+  stepladders, a small and a large multi-position ladder, a 24-ft and a 32-ft fiberglass
+  extension ladder) and reads the side-rail labels on camera: type, duty rating, material,
+  and maximum length. Two technicians then show the two-person carry for the large
+  multi-position ladder and the 32-ft extension ladder. End by choosing the right ladder for
+  a 10-ft ceiling and a 20-ft warehouse fixture.
 ---
 
 ## The Ladder Is Your Most Dangerous Tool
 
-Lighting technicians spend more time on ladders than almost any other trade. Falls from
-ladders cause many serious injuries every year, and most happen from **low heights**: six
-to ten feet is more than enough to break bones or cause a head injury. Choosing the right
-ladder is the first step to not becoming one of those statistics.
+The chief hazard on a ladder is falling. A ladder that is poorly maintained or used the
+wrong way can collapse or slide under you. Most ladder falls happen from **low heights**:
+six to ten feet is more than enough to break bones or cause a head injury.
 
-## Common Ladder Types
+Our company's training puts it this way: a ladder **can be your primary means of fall
+protection, but only if it is maintained, set up, and used properly.** That is what this
+course is about.
 
-| Type | Use it for | Notes |
+## Ladder Types We Use
+
+| Type | Use it for | Our company's rules |
 |---|---|---|
-| **Stepladder** (A-frame) | Indoor fixtures at ceiling heights up to about 12–14 ft | Self-supporting; must be fully open with spreaders locked |
-| **Extension ladder** | Reaching high fixtures, roofs, exterior wall packs | Leans against a support; two or more sections |
-| **Multi-position / articulating** | Stairwells, uneven surfaces, unusual setups | Many configurations; follow the label for each mode |
-| **Platform ladder** | Long tasks at one spot, such as ballast work | Standing platform with guardrail; more stable |
-| **Podium / work platform** | Low ceilings, repetitive work | Enclosed platform; low height |
+| **Stepladder** (A-frame) | Indoor fixtures at most ceiling heights | Fully open with spreaders locked; never used closed and leaned |
+| **Extension ladder** | High fixtures, roofs, wall packs, exterior work | Set at 4:1; 32 ft and longer is **two-person work** |
+| **Multi-position / articulating** | Stairwells, uneven floors, odd setups | The large model is **two-person work** to carry and set up |
+| **Platform ladder / podium** | Long tasks at one spot, low ceilings | Stay inside the guardrail |
+| **Single (straight) ladder** | — | **Not used** by our company |
+
+### What the Standards Say About Length
+
+The ANSI A14 ladder standards (and the older OSHA portable ladder rules our training was
+built on) set these maximum lengths:
+
+- **Stepladders:** no longer than **20 ft**.
+- **Single ladders:** no longer than 30 ft.
+- **Extension ladders:** no longer than 60 ft (two-section ladders are shorter still).
+
+The largest ladder our company owns is a **32-ft extension ladder.** Longer ladders have
+been rented in the past, but only after the supervisor decided there was no other way to
+do the job. If a stepladder is not tall enough, the answer is a different means of
+access (an extension ladder, a lift, or another plan), **not** a bigger stepladder.
+
+### Stepladder Spreaders
+
+A stepladder must have a **metal spreader or locking device** strong enough to hold the
+front and back sections fully open. Fiberglass stepladders use metal locking spreaders;
+some large multi-position ladders use webbing straps instead. Some articulating ladders
+have neither because they were **designed by the manufacturer to work without spreaders**.
+Follow the label for each mode of a multi-position ladder.
 
 ## Material: Fiberglass for Electrical Work
 
 | Material | Conducts electricity? | Use on our jobs? |
 |---|---|---|
-| Fiberglass | No (when clean and dry) | **Yes – required** |
-| Aluminum | **Yes** | **No** for electrical work |
-| Wood | Can conduct when wet or dirty; may hide internal damage | Not used |
+| Fiberglass | No (when clean and dry) | **Yes: required near anything electrical** |
+| Aluminum (including most multi-position ladders) | **Yes** | Only where there are **no** exposed electrical parts and the work is locked out |
+| Wood | Can conduct when wet or dirty; hides internal damage | Not used |
 
-OSHA requires that portable ladders have **nonconductive side rails** if the employee or the
-ladder could contact exposed energized parts (29 CFR 1910.333(c)(7); construction: 1926.1053(b)(12)).
-Our policy is simple: **fiberglass ladders only.** Keep fiberglass clean; dirt, grease, and
-moisture can make the surface conductive.
+OSHA requires **nonconductive side rails** on portable ladders where the worker or the
+ladder could contact exposed energized parts (29 CFR 1910.333(c)(7); construction:
+1926.1053(b)(12)).
+
+Our company policy, from the safety handbook:
+
+- **Metal ladders are not used around exposed electrical equipment.**
+- Our aluminum multi-position ladders are **not electrically rated** by the manufacturer.
+  Unless you have been deemed a qualified person, power must be shut down and locked out
+  (LOTO) before you work on or around electrical systems. At LT1, that means you always
+  lock out and verify dead first, whatever ladder you are on.
+- **Painted ladders are not used.** Paint can hide cracks, crushing, and other defects
+  that your inspection needs to see.
+
+Keep fiberglass clean: dirt, grease, and moisture can make the surface conductive.
 
 ## Duty Ratings
 
@@ -52,50 +90,49 @@ carry, including **you, your clothing, PPE, tools, and materials.**
 | Type II | Medium duty | 225 lb |
 | Type III | Light duty | 200 lb |
 
-Work example: a 210-lb technician wearing a 15-lb tool belt and carrying a 10-lb ballast
-and a 5-lb box of lamps totals 240 lb. A Type II (225 lb) ladder is **not** enough. Use Type I
-or better. The company stocks Type IA or IAA ladders for this reason.
+Our stepladders and extension ladders are rated for **300 lb (Type IA)** or more.
+**Never exceed the weight rating of a ladder.**
+
+Work example: a 210-lb technician wearing a 15-lb tool belt and carrying a 10-lb fixture kit
+and a 5-lb box of parts totals 240 lb. A Type II (225 lb) ladder is **not** enough; our
+Type IA (300 lb) ladder is.
 
 ## Choosing the Right Height
 
 ### Stepladders
-You may not stand on the **top cap** or the **step directly below it** (unless the manufacturer
-marks otherwise). A common rule of thumb: the highest standing level is about 2 ft below the
+OSHA says the top or top step of a stepladder is not a step (29 CFR 1926.1053(b)(13)), and
+our company rule is the same: **never stand on the top cap or the top step.** On a standard
+stepladder the label also rules out the step directly below the top cap, unless the
+manufacturer marks it as a standing level. A common rule of thumb: the highest standing level is about 2 ft below the
 top, and a person can reach roughly 4 ft above the height of the ladder.
 
 | Ceiling height | Typical stepladder |
 |---|---|
 | 8 ft | 4 ft |
-| 9 ft | 5 ft |
 | 10 ft | 6 ft |
 | 12 ft | 8 ft |
 | 14 ft | 10 ft |
 
-Always check the manufacturer's highest standing level and reach charts on the label.
-
 ### Extension Ladders
-The ladder's marked length is not its working length. Sections overlap, and the ladder must
-lean at an angle. If you need to get onto a roof, the ladder must extend **at least 3 ft above
-the landing.** As a rough estimate, choose an extension ladder 7 to 10 ft longer than the
-height of the support point you lean against.
+The marked length is not the working length: sections overlap and the ladder leans. If you
+need to get onto a roof or landing, the ladder must extend **at least 3 ft above it.** As a
+rough estimate, choose an extension ladder 7 to 10 ft longer than the support point.
 
-> **Safety:** If the ladder is too short, get the right ladder or a lift. Never stand on a
-> bucket, box, or chair on top of a ladder, and never splice two ladders together.
+> **Safety:** Large multi-position ladders and extension ladders 32 ft and longer are
+> **strictly two-person work** under our company policy, to carry, raise, and position. Do
+> not try it alone. Most ladder-handling injuries (and many power-line contacts) happen
+> while one person wrestles a long ladder.
 
 ## When a Ladder Is the Wrong Tool
 
-Consider a mobile elevating work platform (MEWP), scaffold, or platform ladder when:
-
-- The fixture is higher than a ladder can safely reach.
-- You need both hands for a long time or must handle heavy fixtures.
-- You need to reach far to the side.
-- The floor is uneven or the area has heavy traffic you cannot control.
-
-MEWPs require separate training and authorization (see Lesson 4 and LT3-C06).
+Consider a lift, a platform ladder, or another plan when the fixture is out of safe reach,
+you need both hands for a long time or must handle heavy fixtures, or the floor or traffic
+cannot be controlled. Lifts require separate training and authorization (see Lesson 4 and LT3-C06). Our company
+does not have LT1 technicians set up or work from scaffolding (see Lesson 5).
 
 ## Key Takeaways
-- Use fiberglass ladders with nonconductive side rails for all electrical and lighting work.
-- The duty rating must cover your weight plus clothing, tools, and materials.
-- Do not stand on the top cap or the step just below it on a stepladder.
-- Extension ladders used for access must extend at least 3 ft above the landing.
-- If the ladder is too short or the task too heavy, use a different ladder or a lift.
+- A ladder is fall protection only if it is maintained, set up, and used properly.
+- Fiberglass near anything electrical; metal ladders never around exposed electrical equipment.
+- No painted ladders and no single ladders; stepladders no longer than 20 ft.
+- Our ladders are rated 300 lb; the rating includes you, your tools, and materials.
+- Large multi-position ladders and extension ladders 32 ft and over are two-person work.

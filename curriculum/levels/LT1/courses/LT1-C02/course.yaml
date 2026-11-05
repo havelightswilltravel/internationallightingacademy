@@ -1,25 +1,34 @@
 code: LT1-C02
 title: Ladders & Fall Protection
 order: 2
-estimated_hours: 5
+estimated_hours: 8
 description: >
-  Teaches lighting technicians how to select, inspect, set up, and climb portable ladders
-  safely, how to work from a ladder near electrical equipment, and the basics of fall
-  protection systems. Includes awareness-level introduction to mobile elevating work
-  platforms (MEWPs); operator training is covered in LT3-C06.
+  Teaches our company's ladder and fall protection program: how to select, inspect, set up,
+  and climb portable ladders safely using the company ladder and extension cord inspection
+  checklist; how to work from a ladder near electrical equipment; and the company's fall
+  protection policies for harnesses, lanyards, anchorage, 100% tie-off, fall clearance,
+  working surfaces, falling-object protection, suspension trauma, and rescue. OSHA and ANSI
+  requirements are cited throughout. Includes an awareness-level introduction to mobile
+  elevating work platforms (MEWPs); operator training is covered in LT3-C06.
 objectives:
-  - Select a ladder by type, material, height, and duty rating for a given task
-  - Inspect stepladders and extension ladders and remove defective ladders from service
-  - Set up stepladders correctly and extension ladders at a 4:1 angle with proper extension and securing
-  - Climb and work from a ladder using three points of contact and safe body position
+  - Select a ladder by type, material, height, and duty rating, and apply company rules on metal, painted, and two-person ladders
+  - Inspect stepladders and extension ladders with the company checklist and red tag defective ladders out of service
+  - Set up stepladders correctly and extension ladders at a 4:1 angle with proper extension, spikes, and securing
+  - Climb and work from a ladder using three points of contact, facing the ladder, with the torso between the rails
   - Keep ladders and the body clear of energized parts and overhead power lines
-  - Describe fall protection trigger heights, PFAS components, and harness inspection
+  - Inspect extension cords before use, remove defective cords from service, and complete the company inspection form
+  - Apply company fall protection rules for anchorage, tie-off height, 100% tie-off, and the 18½-ft clearance rule
+  - Describe the four phases of a fall, suspension trauma, relief-step use, and prompt rescue
+  - Protect people below elevated work with housekeeping, toe boards, a controlled work zone, and a spotter
   - Explain MEWP groups and the requirement for training and authorization before operating
 lessons:
   - 01-ladder-types-and-ratings.md
   - 02-ladder-inspection-and-setup.md
   - 03-climbing-and-working-safely.md
   - 04-fall-protection-and-mewp-awareness.md
+  - 05-our-fall-protection-program.md
+  - 06-suspension-trauma-and-rescue.md
+  - 07-ladder-and-extension-cord-inspection-checklist.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -186,3 +195,168 @@ quiz:
         - Stand on the top cap for more reach
       answer: 1
       explanation: Keep your belt buckle between the rails. Climb down and reposition the ladder rather than overreaching or "walking" it.
+    - id: LT1-C02-Q16
+      type: single
+      q: Under our company policy, which ladder is NOT used around exposed electrical equipment?
+      choices:
+        - A clean, dry fiberglass stepladder
+        - An aluminum multi-position ladder
+        - A fiberglass extension ladder with rung locks engaged
+        - A fiberglass platform ladder
+      answer: 1
+      explanation: Metal ladders are not used around exposed electrical equipment, and the aluminum multi-position ladders are not electrically rated by the manufacturer. Power is shut down and locked out before working on or around electrical systems.
+      ref: Company safety handbook; OSHA 29 CFR 1910.333(c)(7)
+    - id: LT1-C02-Q17
+      type: single
+      q: Why does our company not use painted ladders?
+      choices:
+        - Paint makes the ladder conductive
+        - Paint voids the duty rating label
+        - Paint can hide cracks and other defects the inspection needs to find
+        - Painted ladders are too slippery to carry
+      answer: 2
+      explanation: Paint can cover cracks, crushing, and other damage, so a painted ladder cannot be properly inspected.
+      ref: Company safety handbook
+    - id: LT1-C02-Q18
+      type: single
+      q: Which ladder jobs are strictly two-person work under company policy?
+      choices:
+        - Any stepladder over 6 ft
+        - Carrying and setting up the large multi-position ladder and extension ladders 32 ft and longer
+        - Only ladders used outdoors
+        - Only ladders used during business hours
+      answer: 1
+      explanation: The large multi-position ladder and extension ladders 32 ft and over require two people to transport and set up. Do not attempt it alone.
+      ref: Company fall protection training
+    - id: LT1-C02-Q19
+      type: multi
+      q: Which items are on our company's ladder pre-use checklist? (Select all that apply.)
+      choices:
+        - Non-slip material on the bottoms of all four rails
+        - Spreader bars straight and locking securely
+        - All stickers in place and legible
+        - Ladder painted a bright color for visibility
+      answer: [0, 1, 2]
+      explanation: The checklist includes non-slip feet, clean surfaces, tight joints, secure hardware, smooth moving parts, straight locking spreaders, no cracks or crushing, insulator pads on metal ladders, no sharp edges, legible stickers, and non-skid steps. Painted ladders are not used at all.
+      ref: Company ladder and extension cord inspection form
+    - id: LT1-C02-Q20
+      type: single
+      q: An extension ladder is used as a work platform to reach a wall pack and is not used to get onto a roof. Must it extend 3 ft above the point of contact?
+      choices:
+        - Yes, every extension ladder must extend 3 ft above its top support
+        - No, the 3-ft extension applies when the ladder is used for access to an upper landing
+        - Yes, unless a coworker holds the base
+        - No, extension ladders never need to extend past the support
+      answer: 1
+      explanation: The 3-ft rule applies to ladders used to access a roof or landing. A ladder used only as a work platform does not need to extend past the point of contact, but it must still be set at 4:1 and secured.
+      ref: OSHA 29 CFR 1926.1053(b)(1); company fall protection training
+    - id: LT1-C02-Q21
+      type: single
+      q: Using our company rule, how high above the level below must your tie-off point be when you use a 6-ft shock-absorbing lanyard?
+      choices:
+        - 6 ft
+        - 10 ft
+        - 12 ft
+        - 18½ ft
+      answer: 3
+      explanation: 6 ft of lanyard + 3½ ft of shock absorber stretch + 6 ft from D-ring to feet + 3 ft of safety margin = 18½ ft. Closer to the floor, choose another method such as restraint or a short-clearance SRL.
+      ref: Company fall protection training; OSHA 29 CFR 1926.502(d)(16)
+    - id: LT1-C02-Q22
+      type: single
+      q: You need to move from one anchor to another on a platform with no guardrail. What does our 100% tie-off rule require?
+      choices:
+        - Unclip quickly and reclip at the new anchor
+        - Use a double-leg lanyard and connect to the new anchor before disconnecting from the old one
+        - Hold onto the structure while you move
+        - Have a coworker watch you while you are unclipped
+      answer: 1
+      explanation: Company policy requires 100% tie-off at all times. A double-leg lanyard lets you stay connected while transitioning, unless a cage or guardrail protects the move.
+      ref: Company safety handbook
+    - id: LT1-C02-Q23
+      type: single
+      q: How can you tell that an anchor point is rated for fall arrest?
+      choices:
+        - It looks heavy enough
+        - It is a pipe at least 1 in. in diameter
+        - It is an engineered anchor that is listed or tagged with its rating, or approved by a qualified person
+        - It held your weight when you pulled on it
+      answer: 2
+      explanation: Anchors must hold 5,000 lb per worker or be designed by a qualified person. Engineered anchors are tagged. If you cannot confirm the rating, it is not an anchor.
+      ref: OSHA 29 CFR 1926.502(d)(15); 1910.140(c)(13)
+    - id: LT1-C02-Q24
+      type: single
+      q: Where should you tie off whenever possible under company policy?
+      choices:
+        - At foot level, so the lanyard is out of the way
+        - At waist level
+        - As high and tight as the work permits, at shoulder height or above
+        - To the guardrail top rail
+      answer: 2
+      explanation: A high anchor shortens the free fall and the clearance needed. Company policy is high and tight, at shoulder height whenever possible.
+      ref: Company safety handbook
+    - id: LT1-C02-Q25
+      type: single
+      q: Which harness attachment does our company recommend for fall arrest in almost all cases?
+      choices:
+        - The back (dorsal) D-ring between the shoulder blades
+        - A side D-ring
+        - A belt loop
+        - Whichever D-ring is easiest to reach
+      answer: 0
+      explanation: The back D-ring best supports the spine during arrest. Front D-rings are used only for what the manufacturer lists, such as ladder climbing systems.
+      ref: Company fall protection training; ANSI/ASSP Z359.11
+    - id: LT1-C02-Q26
+      type: single
+      q: You have fallen and are hanging in your harness, uninjured. What should you do first?
+      choices:
+        - Unclip and try to climb down
+        - Hang still to save energy
+        - Deploy your relief steps and stand in them, then call for help
+        - Wait quietly until someone notices you
+      answer: 2
+      explanation: Company training is to deploy the relief steps first, then call for help with a whistle or phone. Standing in the steps and moving the legs slows suspension trauma.
+      ref: Company fall protection training
+    - id: LT1-C02-Q27
+      type: single
+      q: What causes suspension trauma?
+      choices:
+        - The shock of the arrest breaking bones
+        - Blood pooling in the legs while hanging upright and still, reducing blood flow back to the heart and brain
+        - Lack of oxygen at height
+        - Low blood sugar from skipping lunch
+      answer: 1
+      explanation: Hanging upright with relaxed legs, and leg straps pressing on veins, lets blood pool in the legs. The worker can faint and cannot fall flat in the harness, which can be fatal within minutes.
+      ref: OSHA Safety and Health Information Bulletin on suspension trauma
+    - id: LT1-C02-Q28
+      type: multi
+      q: Which are our company requirements for protecting people below elevated work? (Select all that apply.)
+      choices:
+        - Take only the tools and materials needed for the task and remove loose items from the platform
+        - Set up and watch a controlled zone below the work with cones, tape, or barricades
+        - Discuss the work and the safety plan with the site manager
+        - Rely on caution tape alone and keep working if someone walks under you
+      answer: [0, 1, 2]
+      explanation: Housekeeping, a controlled zone that you watch the whole time you are elevated, and involving the site manager are company requirements. If someone enters the zone, stop work until they are clear.
+      ref: Company fall protection training
+    - id: LT1-C02-Q29
+      type: single
+      q: A contractor on site offers to let you finish a job from their scaffold. You have not been trained on scaffolds. What do you do?
+      choices:
+        - Use it carefully since someone else set it up
+        - Tell them you have not been trained on that scaffold and call your supervisor
+        - Use it only if it has guardrails
+        - Use it if you stay below 10 ft
+      answer: 1
+      explanation: Company policy is do not use scaffolding unless trained. Scaffold work is allowed only when the supervisor determines there is no other way and the worker is trained.
+      ref: Company safety handbook; OSHA 29 CFR 1926.454
+    - id: LT1-C02-Q30
+      type: single
+      q: During your van inspection, an extension cord has a missing ground pin and electrical tape over a nick in the jacket. What is the correct action?
+      choices:
+        - Use it only for light-duty tools
+        - Add more tape and use it on GFCI-protected outlets only
+        - Tag it "DO NOT USE," remove it from service, report it, and write it on your pull sheet
+        - Use a two-prong adapter
+      answer: 2
+      explanation: A missing ground pin or a taped or spliced jacket is a failed cord. Remove it from service, report it, and order a replacement on your pull sheet.
+      ref: OSHA 29 CFR 1910.334(a)(2)-(3); 1926.416(e)(1); company inspection form

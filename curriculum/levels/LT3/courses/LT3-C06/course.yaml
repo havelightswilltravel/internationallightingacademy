@@ -1,7 +1,7 @@
 code: LT3-C06
 title: Aerial Work Platforms
 order: 6
-estimated_hours: 7
+estimated_hours: 8
 description: 'The knowledge portion of mobile elevating work platform (MEWP) training for lighting
   work: MEWP Groups and Types, the ANSI A92.20/A92.22/A92.24 standards and OSHA requirements, pre-use
   and workplace inspections, fall protection and safe operation, overhead power-line clearances, ground
@@ -24,12 +24,18 @@ objectives:
 - >-
   Assemble, inspect, move and use a rolling scaffold safely, and choose specialty access for a
   retrofit job
+- >-
+  Apply our company's boom and scissor lift policies: authorization, the company minimum inspection
+  and red tag, tie-off rules for booms vs scissors, travel, spotters and power-line rules at signs
+  and poles
 lessons:
 - 01-mewp-types-and-ansi-a92-standards.md
 - 02-pre-use-and-workplace-inspection.md
 - 03-safe-operation-and-fall-protection.md
 - 04-power-line-clearances-ground-conditions-and-rescue.md
 - 05-rolling-scaffolds-and-specialty-access.md
+- 06-company-boom-and-scissor-lift-policies.md
+- 07-company-lift-travel-scissor-boom-and-power-line-rules.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -302,3 +308,120 @@ quiz:
     explanation: >-
       Only manufacturer-approved levelers, articulating ladders, or equipment designed for stairs are
       acceptable. Improvised planks and boxes are unstable and prohibited.
+  - id: LT3-C06-Q20
+    type: single
+    q: >-
+      You are signed off by the company on scissor lifts. The job needs a 45 ft articulating boom.
+      Under company policy, may you run it?
+    choices:
+    - Yes; any company lift authorization covers all lifts
+    - Yes, if you read the manual in the truck first
+    - >-
+      No; you must be trained, qualified and authorized for that type of lift, and familiarized on the
+      model, before you operate it
+    - Yes, if a coworker who is qualified rides with you
+    answer: 2
+    explanation: >-
+      Company policy: only qualified personnel, trained on that particular lift and authorized by the
+      company, operate it. Qualification is separate for each type of lift.
+    ref: Company policy; ANSI A92.22 / A92.24
+  - id: LT3-C06-Q21
+    type: multi
+    q: >-
+      Which items are on the company minimum lift inspection? (Select all that apply.)
+    choices:
+    - Annual inspection tag in place and current
+    - Ground, platform and emergency controls
+    - Visible leaks, hoses, cylinders and valves
+    - Doors, latches, rails, midrails and toe boards
+    - The paint color of the boom
+    answer: [0, 1, 2, 3]
+    explanation: >-
+      The company minimum list covers battery and connections, hydraulics, wiring, all controls,
+      basket and boom stability, outriggers, gates and rails, ladder steps, legible decals and a
+      current annual inspection tag. Paint color is not an inspection item.
+    ref: Company policy; ANSI A92.22
+  - id: LT3-C06-Q22
+    type: single
+    q: >-
+      Under company policy, when must you wear a full-body harness with the lanyard clipped to the
+      anchor point in an articulating boom lift?
+    choices:
+    - Only above 10 ft
+    - Only when the boom is extended past the wheels
+    - >-
+      During all operation of the lift, including when the basket is lowered and you are driving to
+      the next location
+    - Only when working near power lines
+    answer: 2
+    explanation: >-
+      For any lift that can reach out past its wheel base, the company requires the harness and
+      lanyard, clipped to the anchor inside the lift, during all operation of the lift.
+    ref: Company policy; OSHA 29 CFR 1926.453(b)(2)(v)
+  - id: LT3-C06-Q23
+    type: single
+    q: >-
+      Under company policy, what is your fall protection on a scissor lift with a complete guardrail
+      system?
+    choices:
+    - >-
+      The guardrails, with the entry chain or gate closed as soon as you step on and both feet on the
+      deck
+    - A lanyard tied to the nearest roof joist
+    - Nothing is needed below 20 ft
+    - A harness clipped to the top rail
+    answer: 0
+    explanation: >-
+      OSHA treats scissors as mobile scaffolds; the guardrail is the fall protection. Reattach the
+      chain or close the gate immediately. If the manual or site requires a harness, clip only to the
+      designated anchor, never to structure.
+    ref: Company policy; OSHA 29 CFR 1926.451(g)
+  - id: LT3-C06-Q24
+    type: single
+    q: >-
+      A parking-lot pole sits under a 69 kV transmission line. What does company policy require
+      before you work on anything under it?
+    choices:
+    - Stay 10 ft away and proceed
+    - >-
+      The power company must shield the line first; if you can't keep a safe margin, call your
+      supervisor
+    - Work only with the boom fully lowered
+    - Use a fiberglass ladder instead of the lift
+    answer: 1
+    explanation: >-
+      Company rule: 10 ft minimum from lines 50 kV and under, and lines over 50 kV must be shielded by
+      the power company before work under them. OSHA would require more than 10 ft; our rule is
+      stricter.
+    ref: Company policy; OSHA 29 CFR 1910.333(c)(3)
+  - id: LT3-C06-Q25
+    type: single
+    q: >-
+      You are replacing troffers from a scissor lift in a store during business hours. What does
+      company policy require?
+    choices:
+    - Nothing extra; the lift has an alarm
+    - A spotter on the floor
+    - Driving with the platform raised to save time
+    - A harness tied to the ceiling grid
+    answer: 1
+    explanation: >-
+      A spotter is required on most interior service work with mobile platforms, especially during the
+      customer's business hours, to keep people clear and watch blind spots.
+    ref: Company policy
+  - id: LT3-C06-Q26
+    type: multi
+    q: >-
+      Which actions break company lift policy? (Select all that apply.)
+    choices:
+    - Reaching under a raised scissor lift to grab a dropped tool
+    - Driving the elevated lift across the job site to the next work area
+    - Using a lift with a red "Out of Service" tag because the job is small
+    - Lowering the platform completely before driving to the next area
+    - Running the ground controls while a coworker is in the basket, when there is no emergency
+    answer: [0, 1, 2, 4]
+    explanation: >-
+      Never stand or reach under a raised scissor, never travel across the site elevated, never use a
+      red-tagged lift, and don't operate the ground controls on an occupied lift except in an
+      emergency. Lowering before travel is correct.
+    ref: Company policy

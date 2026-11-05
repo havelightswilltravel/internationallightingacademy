@@ -18,11 +18,13 @@ objectives:
   - Establish an electrically safe work condition, including verifying absence of voltage
   - Determine when energized work is justified and complete an energized electrical work permit
   - Select, inspect and care for rubber insulating gloves, arc-rated PPE, insulated tools and meters
+  - Apply the company's energized work rules and complete each part of the company Energized Electrical Work Permit
 lessons:
   - 01-qualified-persons-and-the-electrical-safety-program.md
   - 02-shock-and-arc-flash-risk-assessment.md
   - 03-electrically-safe-work-condition-and-energized-work-permits.md
   - 04-ppe-tools-and-test-instruments.md
+  - 05-company-energized-work-rules-and-permit.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -193,3 +195,93 @@ quiz:
       answer: 2
       explanation: OSHA 1910.137 requires rubber insulating gloves to be electrically tested before first issue and every 6 months thereafter; they must also be air-tested and inspected before each day's use.
       ref: OSHA 29 CFR 1910.137
+    - id: EA3-C05-Q16
+      type: single
+      q: Under company policy, what must be in place before any panel is worked hot?
+      choices:
+        - A verbal OK from the customer
+        - A written safety plan (the Energized Electrical Work Permit) approved by a supervisor
+        - Only a hot glove inspection
+        - Nothing, if the technician is qualified
+      answer: 1
+      explanation: The handbook requires a written safety plan and supervisor approval before work commences on any panel worked hot. The company's permit is that written plan.
+      ref: Company energized work policy; NFPA 70E 130.2(B)
+    - id: EA3-C05-Q17
+      type: single
+      q: Part I of the company's Energized Electrical Worksheet is completed by whom, and what must it justify?
+      choices:
+        - The qualified worker; the PPE category
+        - The requester; why the circuit cannot be de-energized or the work deferred until the next scheduled outage
+        - The customer; the cost of an outage
+        - The safety manager; the arc-flash boundary
+      answer: 1
+      explanation: Part I describes the circuit, equipment, location and work and gives the justification. Convenience or customer preference is not a justification.
+      ref: Company Energized Electrical Work Permit; NFPA 70E 130.2(A)
+    - id: EA3-C05-Q18
+      type: single
+      q: The qualified technician reviewing Part II decides the work cannot be done safely and checks NO. What happens?
+      choices:
+        - The supervisor signs over the NO
+        - The work proceeds with extra PPE
+        - The permit is returned to the requester
+        - The technician finds a coworker who will check YES
+      answer: 2
+      explanation: The form says if NO, return to requester. The qualified worker always has the right to refuse energized work they judge unsafe.
+      ref: Company Energized Electrical Work Permit
+    - id: EA3-C05-Q19
+      type: multi
+      q: Which items does Part II of the company worksheet require the qualified person to complete? (Select all that apply.)
+      choices:
+        - Shock risk assessment results and shock protection boundaries
+        - Arc-flash risk assessment results and the arc-flash boundary
+        - Means used to restrict access of unqualified persons
+        - Evidence of a job briefing covering job-related hazards
+        - The customer's monthly electric bill
+      answer: [0, 1, 2, 3]
+      explanation: Part II also includes the detailed procedure, safe work practices and PPE, and ends with the "can this be done safely" decision.
+      ref: Company Energized Electrical Work Permit; NFPA 70E 130.2(B)(2)
+    - id: EA3-C05-Q20
+      type: single
+      q: The company's Energized Work Checklist is valid for
+      choices:
+        - The whole project
+        - Any qualified worker on the crew for one week
+        - Only the named workers and the day it is issued
+        - Until the panel is replaced
+      answer: 2
+      explanation: The checklist is reviewed by the foreman before work starts and covers only the named workers and the day issued; it also records maximum voltage, number of sources, PPE and completion time.
+      ref: Company Energized Work Checklist
+    - id: EA3-C05-Q21
+      type: single
+      q: The company's older handbook required flame-resistant clothing at 4 cal/cm². What rule does this program follow?
+      choices:
+        - The 4 cal/cm² rule, because it is company policy
+        - Arc-rated clothing and face protection rated at or above the incident energy whenever working inside the arc-flash boundary (1.2 cal/cm²)
+        - No arc-rated clothing below 8 cal/cm²
+        - Cotton work clothes are always enough on lighting panels
+      answer: 1
+      explanation: Where older company material conflicts with current NFPA 70E, the current, safer requirement is followed. The arc-flash boundary is the distance where incident energy reaches 1.2 cal/cm².
+      ref: NFPA 70E (2024) 130.5, 130.7
+    - id: EA3-C05-Q22
+      type: single
+      q: A store manager asks you to replace a fixture driver during business hours without turning the lights off. Which response best follows company policy?
+      choices:
+        - Cut the hot and neutral live and fit an in-line disconnect, since it is quicker
+        - First look for alternatives (temporary lighting, de-energizing only the affected fixtures, after-hours work); energized work proceeds only with a justified, approved permit
+        - Work live wearing dry leather gloves
+        - Refuse and leave the site without telling anyone
+      answer: 1
+      explanation: Removing illumination can be a greater hazard, but if the area can be lit temporarily, the circuit split, or the work scheduled, energized work is not justified.
+      ref: OSHA 29 CFR 1910.333(a)(1); NFPA 70E 130.2(A)
+    - id: EA3-C05-Q23
+      type: multi
+      q: Which are company bus-room rules? (Select all that apply.)
+      choices:
+        - Do not enter or work in a bus room alone
+        - Do not leave bus room doors open
+        - Do not carry tools or materials above your waist in the bus room
+        - Work on bus only after it is de-energized and grounded
+        - Prop the doors open for ventilation
+      answer: [0, 1, 2, 3]
+      explanation: These handbook rules reduce the chance of dropped tools into live bus, unauthorized entry and working on ungrounded bus.
+      ref: Company bus room policy; NFPA 70E Article 120

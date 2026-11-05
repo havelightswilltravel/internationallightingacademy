@@ -20,12 +20,14 @@ objectives:
 - Inspect and replace exit signs, including proper handling of tritium signs
 - Perform and record monthly 30-second and annual 90-minute emergency lighting tests
 - "Troubleshoot battery-backup ballasts and drivers, bug-eye units and exit signs using the company test-button procedure, and decide between battery and unit replacement"
+- "Perform the company 90-minute emergency lighting inspection and complete the company inspection spreadsheet, including photos and replacement information for every failed unit"
 lessons:
 - 01-life-safety-purpose-and-code-framework.md
 - 02-battery-packs-emergency-drivers-and-inverters.md
 - 03-ul924-transfer-devices-and-exit-signs.md
 - 04-nfpa-101-testing-and-records.md
 - 05-troubleshooting-emergency-units.md
+- 06-our-emergency-lighting-inspection-procedure.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -315,3 +317,91 @@ quiz:
     answer: 2
     explanation: "Requirements for exterior egress lighting and how 'public way' is interpreted depend on the adopted code and the AHJ's interpretation."
     ref: LT3-C04 Lesson 1 — exterior egress lighting
+  - id: LT3-C04-Q22
+    type: single
+    q: "During the company 90-minute inspection, the emergency breakers are off but several charge indicators are still lit. What does that tell you?"
+    choices:
+      - "Those units have failed batteries"
+      - "You have not located all of the emergency lighting breakers"
+      - "Those units are self-diagnosing and can be skipped"
+      - "The units are on a generator and pass automatically"
+    answer: 1
+    explanation: "Company procedure: if all the LED indicators do not go out, you have not found all the breakers feeding the emergency units."
+    ref: LT3-C04 Lesson 6 — Step 4
+  - id: LT3-C04-Q23
+    type: single
+    q: "The panel directory does not identify which breakers feed the emergency lighting. What is the company rule?"
+    choices:
+      - "Turn breakers off one at a time until the indicators go out"
+      - "Turn off the main breaker to be sure"
+      - "Do not continue the inspection; write it up for an electrician to identify and label the breakers"
+      - "Test each unit with its test button instead and mark the 90-minute column Pass"
+    answer: 2
+    explanation: "If breakers are not labeled for emergency lighting, the company procedure says stop and write it up for an electrician to identify and label them. Guessing can shut off critical loads, and NEC 408.4 requires circuit identification."
+    ref: LT3-C04 Lesson 6 — Step 4; NEC 408.4
+  - id: LT3-C04-Q24
+    type: single
+    q: "Before the test, a bug eye's charge indicator is dark. A qualified tech confirms the unit is receiving normal power. What is the conclusion?"
+    choices:
+      - "The unit is bad"
+      - "The breaker is off"
+      - "The battery just needs 90 minutes to charge"
+      - "The unit is on a switched leg and is fine"
+    answer: 0
+    explanation: "Company procedure Step 2: if the indicator is not lit, verify power; if power is good, the unit is bad."
+    ref: LT3-C04 Lesson 6 — Step 2
+  - id: LT3-C04-Q25
+    type: single
+    q: "A unit lit when the breakers were turned off but went dark at the 60-minute mark. Its indicator was lit before the test. What is the most likely failed component to record?"
+    choices:
+      - "Charging board"
+      - "Lamp head"
+      - "Battery"
+      - "Panel breaker"
+    answer: 2
+    explanation: "At the end of 90 minutes, units that did not last are recorded as battery failures. A lit indicator before the test shows the charger was working, which supports the battery diagnosis."
+    ref: LT3-C04 Lesson 6 — Step 6
+  - id: LT3-C04-Q26
+    type: multi
+    q: "Which photos does the company procedure require for a failed emergency unit? (Select all that apply.)"
+    choices:
+      - "A full elevation picture of the fixture in its location"
+      - "A close-up of the model and date code label"
+      - "A picture of the failed component"
+      - "A picture of the site manager signing the form"
+    answer: [0, 1, 2]
+    explanation: "Take pictures of all failed components as well as the fixture: a full elevation picture and a close-up of the model and date code tag. Record the picture number on the spreadsheet."
+    ref: LT3-C04 Lesson 6 — Step 8
+  - id: LT3-C04-Q27
+    type: single
+    q: "On the company inspection spreadsheet, what goes in the 'Battery or ballast code' column?"
+    choices:
+      - "The panel and breaker number"
+      - "The battery part number/voltage, or the emergency ballast or LED emergency driver model, needed to quote the replacement part"
+      - "The date the battery was installed"
+      - "The tech's employee number"
+    answer: 1
+    explanation: "Starred columns are needed to order parts for failed units. The battery or emergency ballast/driver code lets the office quote the exact part."
+    ref: LT3-C04 Lesson 6 — spreadsheet columns
+  - id: LT3-C04-Q28
+    type: single
+    q: "Why does the company spreadsheet ask for fixture height, housing color and exit letter color?"
+    choices:
+      - "They are required by OSHA"
+      - "So the replacement matches and the office can plan the ladder or lift the repair needs"
+      - "So the AHJ can calculate illumination"
+      - "They are only used for billing"
+    answer: 1
+    explanation: "Height tells the office what access equipment is needed; housing and letter color make sure the replacement matches the existing units and local requirements."
+    ref: LT3-C04 Lesson 6 — spreadsheet columns
+  - id: LT3-C04-Q29
+    type: single
+    q: "A site has self-diagnosing emergency units. Which statement is correct?"
+    choices:
+      - "They never need inspection or records"
+      - "They may replace our manual timed tests only if they automatically run the monthly and annual-duration tests; indicators still get checked every 30 days and records kept, subject to the AHJ"
+      - "They must still be tested by turning off the breakers every month"
+      - "They only need checking every five years"
+    answer: 1
+    explanation: "NFPA 101 permits self-testing/self-diagnostic units that perform the tests automatically, but status indicators must still be visually checked and written records kept. The AHJ has the final say."
+    ref: NFPA 101, 7.9.3; LT3-C04 Lesson 6

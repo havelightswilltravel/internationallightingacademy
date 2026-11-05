@@ -27,7 +27,8 @@ because a circuit was assumed dead, someone turned it back on, or the wrong brea
 | NFPA 70E Article 120 | Establishing an electrically safe work condition |
 
 Our company has a **written energy control procedure**. This lesson teaches its general steps,
-but you must follow the written procedure for your site.
+but you must follow the written procedure for your site. Our company's own LOTO rules (locks and
+tags, verification checklist, group and forgotten-lock rules) are covered in Lessons 6 and 7.
 
 ## Key Terms
 

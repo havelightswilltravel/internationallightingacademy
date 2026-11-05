@@ -17,6 +17,7 @@ objectives:
   - Recommend maintaining, retrofitting or replacing an area using condition data, code and listing implications and life-cycle cost
   - Clean luminaires safely under LOTO using cleaners compatible with the lens, reflector and gasket materials per the manufacturer's instructions
   - Write a service proposal, schedule work around occupants and verify results with before/after light-level and reflectance measurements
+  - Plan and run exterior and interior surveys with the company survey worksheet and emergency inspection spreadsheet, and turn the results into recommendations
 lessons:
   - 01-reactive-vs-planned-service-in-an-led-world.md
   - 02-how-led-systems-lose-light-and-fail.md
@@ -24,6 +25,7 @@ lessons:
   - 04-retrofit-vs-replace-vs-maintain.md
   - 05-cleaning-methods-and-materials.md
   - 06-selling-scheduling-and-verifying-a-service-program.md
+  - 07-surveying-a-site-with-the-company-checklists.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -181,3 +183,58 @@ quiz:
         - 40%
       answer: 3
       explanation: Reflectance is about reflected ÷ incident = 20 ÷ 50 = 0.40, or 40%.
+    - id: LT5-C06-Q16
+      type: single
+      q: On the company exterior survey worksheet, why do you record the tapered pole size at both the base and the top?
+      choices:
+        - To calculate the pole's wind load rating
+        - So replacement arms, tenon adapters or poles can be ordered to fit; a straight pole has the same size twice
+        - Because OSHA requires it for lift work
+        - To estimate the light level at the ground
+      answer: 1
+      explanation: Pole shape and size at the top decide which arm or adapter fits, and the base size matters for replacement poles. Missing mounting data is a common reason a replacement head arrives and won't fit.
+      ref: LT5-C06 Lesson 7; Library — Exterior Lighting Survey Checklist
+    - id: LT5-C06-Q17
+      type: single
+      q: What is the best time to start an exterior lighting survey when you need both outage counts and mounting details?
+      choices:
+        - Midday, because labels are easiest to read
+        - At dusk, so you see mounting details in daylight and outages and controls problems after dark
+        - After midnight, when the lot is empty
+        - Any time; the time of day does not matter
+      answer: 1
+      explanation: Outages, day-burners and controls problems show up at night; pole condition, mounting and labels are easier in daylight. A dusk start gets both.
+      ref: LT5-C06 Lesson 7
+    - id: LT5-C06-Q18
+      type: single
+      q: During a survey you find a leaning pole with a missing hand-hole cover and exposed wires. What do you do?
+      choices:
+        - Note it in Comments and finish the survey
+        - Open the base and tape the wires
+        - Keep people away, make the area safe and report it the same day
+        - Push the pole back to plumb
+      answer: 2
+      explanation: Hazards found on a survey are made safe and reported the same day. Any work in the hand hole requires LOTO and verification of absence of voltage.
+      ref: LT5-C06 Lesson 7
+    - id: LT5-C06-Q19
+      type: single
+      q: The Voltage column cannot be confirmed from a label or panel schedule without opening an energized fixture. What should you record?
+      choices:
+        - The most common voltage for that fixture type
+        - "\"Not verified,\" and leave confirmation for the visit when it can be done under LOTO or by a qualified person"
+        - 277 V, since most commercial lighting is 277 V
+        - Leave the column blank without comment
+      answer: 1
+      explanation: Never guess voltage. Record "not verified" so the office knows to confirm it before ordering.
+      ref: LT5-C06 Lesson 7
+    - id: LT5-C06-Q20
+      type: multi
+      q: Which items should a senior tech check on a crew member's completed exterior survey sheet? (Select all that apply.)
+      choices:
+        - Every row has quantity, source/watts, height, mounting and voltage (or "not verified")
+        - Pole sizes and mount types are complete
+        - Photo numbers match the photos
+        - The customer's billing rate is written on each row
+      answer: [0, 1, 2]
+      explanation: Complete rows, mounting data and matching photos let the office quote without a return trip. Pricing does not belong on the survey sheet.
+      ref: LT5-C06 Lesson 7

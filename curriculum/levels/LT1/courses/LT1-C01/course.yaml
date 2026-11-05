@@ -14,11 +14,13 @@ objectives:
   - Report injuries, shocks, property damage, and near misses correctly and promptly
   - Select, inspect, wear, and care for standard PPE for lighting service work
   - Describe the effects of electric shock and arc flash and the NFPA 70E approach boundaries that apply to unqualified persons
+  - Apply the company's everyday electrical safety rules for hot gloves, ladders, tools, extension cords, panels and shock rescue
 lessons:
   - 01-safety-culture-and-hazard-recognition.md
   - 02-osha-basics-and-incident-reporting.md
   - 03-ppe-selection-and-inspection.md
   - 04-shock-and-arc-flash-awareness.md
+  - 05-company-electrical-safety-rules.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -204,3 +206,91 @@ quiz:
       answer: 2
       explanation: Working dead is always the first choice. Hot gloves, with leather protectors and a current test date, are for work that cannot be done de-energized, such as testing for absence of voltage, and only by technicians trained and authorized for it.
       ref: OSHA 29 CFR 1910.137; NFPA 70E
+    - id: LT1-C01-Q18
+      type: single
+      q: What is the company's rule for when to wear hot gloves?
+      choices:
+        - Only when the customer asks
+        - If you have not personally locked and tagged out the circuit you are servicing, wear them
+        - Only on circuits over 480 V
+        - Never during verification
+      answer: 1
+      explanation: The company provides hot gloves to electrical and lighting service people. If you did not personally lock and tag the circuit, wear them; for an LT1, the work itself still happens only on circuits you have locked out and verified.
+      ref: Company hot glove policy; OSHA 29 CFR 1910.137
+    - id: LT1-C01-Q19
+      type: single
+      q: How are hot gloves worn, according to company training?
+      choices:
+        - Rubber glove alone, so you can feel the wires
+        - Leather glove alone
+        - Liner, then rubber insulating glove, then leather protector, with the protector worn at all times
+        - Two pairs of work gloves
+      answer: 2
+      explanation: The rubber glove insulates; the leather protector protects the rubber from cuts and punctures and is worn at all times with hot gloves. Inspect before and after each use.
+      ref: OSHA 29 CFR 1910.137; ASTM F696
+    - id: LT1-C01-Q20
+      type: multi
+      q: Which are examples from company training of when hot gloves should be worn? (Select all that apply.)
+      choices:
+        - Working in panels, switchgear or ground boxes
+        - Reaching through a T-bar ceiling or into a hand hole where you could become grounded
+        - Working on neon or climbing inside a sign
+        - Sweeping up the work area
+      answer: [0, 1, 2]
+      explanation: These are the company's listed examples. Use your judgment and ask your supervisor when unsure.
+      ref: Company hot glove policy
+    - id: LT1-C01-Q21
+      type: single
+      q: An extension cord fails your pre-use inspection (cut jacket). What does company policy say to do?
+      choices:
+        - Wrap it with electrical tape and keep using it
+        - Use it only for small tools
+        - Red-tag it and cut the ends off so it can never be used again
+        - Return it to the truck for later
+      answer: 2
+      explanation: The handbook requires failed cords to be red-tagged and have their ends cut off, so a damaged cord cannot come back into service.
+      ref: Company extension cord policy; OSHA 29 CFR 1926.405(g)
+    - id: LT1-C01-Q22
+      type: multi
+      q: Which extension cord practices are against company policy? (Select all that apply.)
+      choices:
+        - Plugging one extension cord into another
+        - Running a cord through a hole in a ceiling or a doorway
+        - Unplugging the cord when finished
+        - Using a cord as permanent power for a fixture
+      answer: [0, 1, 3]
+      explanation: Cords are temporary power only. No daisy-chaining, no running through doorways, walls, ceilings or floors, and always unplug when done.
+      ref: Company extension cord policy; OSHA 29 CFR 1910.305(g)
+    - id: LT1-C01-Q23
+      type: single
+      q: Why does company policy treat rubber feet on an articulating ladder as not enough electrical protection?
+      choices:
+        - Rubber feet wear out in a week
+        - Many have aluminum rails, and wires or conductive material bridging the ladder to ground can still complete a circuit
+        - Rubber conducts electricity
+        - Articulating ladders are banned on all jobs
+      answer: 1
+      explanation: Use non-conductive (fiberglass) ladders for electrical work and talk to your supervisor before using a metal-rail articulating ladder near electrical equipment.
+      ref: OSHA 29 CFR 1926.1053(b)(12); 1910.333(c)(7)
+    - id: LT1-C01-Q24
+      type: single
+      q: You find cloth-insulated wiring in an older fixture. What is the company rule?
+      choices:
+        - Work on it live, since it is low voltage
+        - Always lock out, and wear hot gloves along with your normal PPE; report it
+        - Wrap it in tape and continue
+        - Leave the cover off so it can cool
+      answer: 1
+      explanation: Cloth insulation is brittle and can crumble when moved, exposing bare copper. Lock out, wear hot gloves, and tell your supervisor.
+      ref: Company electrical safety policy
+    - id: LT1-C01-Q25
+      type: single
+      q: A coworker is frozen on an energized conductor. What should you do first?
+      choices:
+        - Grab them and pull them away
+        - Shut off the power if you can do it quickly; if not, separate them with a dry non-conductive item, then call 911
+        - Throw water on them
+        - Wait for the breaker to trip
+      answer: 1
+      explanation: Touching the victim can make you part of the circuit. Stop the current, call for help, then give CPR/first aid if trained.
+      ref: Company electrical safety training

@@ -48,6 +48,13 @@ If anything is unclear, **ask before installing.** Do not "make it work" with a 
 Apply LOTO (Lesson 1). Remove the lamps and place them safely aside. Verify absence of voltage at
 the ballast's supply leads using live-dead-live, testing every conductor.
 
+> **Safety:** Company policy: each time you replace a ballast, driver, socket or emergency
+> battery you must **isolate the power source first**. Older company instructions describe
+> cutting the leads of an energized fixture and fitting an in-line disconnect; that is energized
+> work for qualified persons under the Energized Electrical Work Permit only, never LT1 work
+> (Lessons 6 and 7). Even de-energized, keep yourself from touching grounded metal and check the supply
+> leads' insulation for cuts or bare spots before handling them.
+
 ### 2. Open the Wiring Channel
 Remove the channel cover or reflector. Keep track of screws.
 

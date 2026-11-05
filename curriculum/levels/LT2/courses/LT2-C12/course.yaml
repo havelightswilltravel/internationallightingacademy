@@ -1,0 +1,199 @@
+code: LT2-C12
+title: "Project Readiness: Shifting from Service Calls to Projects"
+order: 12
+estimated_hours: 4
+description: >
+  Teaches technicians to shift gears from troubleshooting service calls to working retrofit and
+  fixture-replacement projects. Built from the company's own project specifics sheets and project
+  checklists, the course explains why projects are a different animal, walks through every section
+  of a project specifics sheet and why it matters, lists the questions a tech should answer before
+  kickoff without being reminded, sets out the kickoff-day and daily routine (game plan with the
+  site contact, before photos, material counts, crew flow, production tracking, quality checks,
+  documentation, customer communication, recycling and the daily recap), and covers closeout
+  (final counts, leftover and recycle material, punch list, sign-off and feedback). Anonymized case
+  studies from past company projects show what went wrong and how to prevent it. Group relamping is
+  retired; lessons from older relamp jobs are applied to retrofits and fixture replacement. Crew
+  leads continue in LT5-C03 Lesson 5 (Mobilizing a Large Job) and LT5-C01.
+objectives:
+  - Explain how a project differs from a service call and what the project mindset requires
+  - Describe each section of a project specifics sheet and why it matters
+  - Prepare for a project by answering pre-kickoff questions on people, schedule, access, lifts, material, tools, special instructions, shutdowns, recycling and reporting
+  - Run kickoff day and the daily routine, including before photos, material counts, crew flow, quality checks and the daily recap
+  - Track production against the bid expectation and report the reasons when behind
+  - Close out a project with correct counts, labeled material, a punch-list walk, signed paperwork and feedback
+  - Apply lessons learned from past company projects to new retrofit and fixture-replacement jobs
+lessons:
+  - 01-projects-are-a-different-animal.md
+  - 02-the-project-specifics-sheet.md
+  - 03-before-kickoff-questions-and-prep.md
+  - 04-running-the-project-day.md
+  - 05-closing-out-and-lessons-learned.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C12-Q01
+      type: single
+      q: What is the main difference between a service call and a retrofit project?
+      choices:
+        - A service call needs no safety steps
+        - On a service call you diagnose an unknown problem; on a project you deliver a scope that was already surveyed, ordered and promised
+        - Projects never involve paperwork
+        - Service calls always involve more fixtures
+      answer: 1
+      explanation: A service call is a diagnosis. A project is the delivery of a known scope, the same way many times, on schedule and without surprises.
+      ref: LT2-C12 Lesson 1
+    - id: LT2-C12-Q02
+      type: single
+      q: According to the company's project sheets, when should you read the project specifics sheet and the survey?
+      choices:
+        - After the first shift
+        - Only if the customer asks a question
+        - Before you leave the shop
+        - At closeout
+      answer: 2
+      explanation: The sheets say "Tech, read me before you leave the shop. Also make sure you understand the attached survey before you go." Questions are easiest to answer at the shop.
+      ref: LT2-C12 Lesson 1
+    - id: LT2-C12-Q03
+      type: single
+      q: The survey lists 120 fixtures in an area, but you find 132. What should you do?
+      choices:
+        - Do only the first 120 and say nothing
+        - Do all 132 and leave the survey alone
+        - Correct the survey and service order totals and tell your supervisor early so material and billing can be adjusted
+        - Leave the area for another crew
+      answer: 2
+      explanation: The company sheets require changes to the survey and the service order totals whenever quantities or types differ. Reporting early prevents a shortage on the last night.
+      ref: LT2-C12 Lesson 2
+    - id: LT2-C12-Q04
+      type: single
+      q: How should parabolic louvers and downlight cans be cleaned on a project, per the company sheets?
+      choices:
+        - With glass cleaner, sprayed directly
+        - Dry wipe only, leaving no fingerprints
+        - With a degreaser
+        - They are never cleaned
+      answer: 1
+      explanation: Reflective surfaces and prismatic lenses get cleaner; parabolic louvers and cans are dry wiped only, without leaving fingerprints.
+      ref: LT2-C12 Lesson 2
+    - id: LT2-C12-Q05
+      type: single
+      q: You find emergency fixtures on a retrofit and the sheet gives no instructions for them. What is the correct action?
+      choices:
+        - Cut out the emergency ballasts to keep the job moving
+        - Install new emergency ballasts from truck stock
+        - Get specific direction first; if none is available, label the fixtures, leave them alone and report how many and what type
+        - Ignore them and do not report them
+      answer: 2
+      explanation: Emergency equipment is often not in the bid and the right answer varies by customer. Never cut out or add emergency equipment without specific direction.
+      ref: LT2-C12 Lesson 2
+    - id: LT2-C12-Q06
+      type: multi
+      q: Which items does the company expect you to write up even when they are outside the project scope? (Select all that apply.)
+      choices:
+        - Yellowed or broken lenses
+        - Missing or broken guards
+        - Objects blocking the light, such as decorations or plants
+        - The brand of the customer's floor wax
+      answer: [0, 1, 2]
+      explanation: Our company is the lighting professional on the job, so anything that would make the finished job look unprofessional gets written up and explained to the site contact.
+      ref: LT2-C12 Lesson 2
+    - id: LT2-C12-Q07
+      type: single
+      q: When is the best time to compare the survey count with the material list?
+      choices:
+        - Before leaving the shop, and again when material is counted on site
+        - On the last night
+        - Only if you run out
+        - After the customer signs off
+      answer: 0
+      explanation: A mismatch found before kickoff is a phone call; one found on the last night is a return trip.
+      ref: LT2-C12 Lesson 3
+    - id: LT2-C12-Q08
+      type: single
+      q: A fixture carton is crushed when you load the project vehicle at the shop. What should you do?
+      choices:
+        - Load it and check it at the top of the lift
+        - Open it at the shop, photograph any damage and report it to your supervisor right away
+        - Return it to the shelf without telling anyone
+        - Tape the box and continue
+      answer: 1
+      explanation: The company sheets require opening damaged boxes before leaving the shop and reporting damage immediately, before a lift trip is wasted.
+      ref: LT2-C12 Lesson 3
+    - id: LT2-C12-Q09
+      type: single
+      q: What is the main purpose of a sample install before kickoff?
+      choices:
+        - To use up extra material
+        - To set the standard every fixture must match, test timing and fit, and get the customer's approval
+        - To replace the survey
+        - To train the customer to install kits
+      answer: 1
+      explanation: The crew leader's sample install becomes the standard for the job and answers real questions about time, fit and wiring before the crew starts.
+      ref: LT2-C12 Lesson 3
+    - id: LT2-C12-Q10
+      type: single
+      q: Why take before photos while walking the job with the manager on kickoff day?
+      choices:
+        - They are only for marketing
+        - They record existing conditions and damage, protecting the customer and our company if questions come up later
+        - They replace the daily recap
+        - The recycler requires them
+      answer: 1
+      explanation: Before photos document what was already broken or stained, so the crew is not blamed and the customer has a clear record.
+      ref: LT2-C12 Lesson 4
+    - id: LT2-C12-Q11
+      type: single
+      q: "Example figures only (hypothetical): a job was bid at 4 kits per tech per hour. A crew of 3 works an 8-hour shift and installs 70 kits. What does the company expect?"
+      choices:
+        - Nothing; production numbers do not matter
+        - Skip quality checks tomorrow to catch up
+        - Step back, ask why the crew is behind, change the strategy or write down the reasons, and give them to the supervisor
+        - Work without lockout to save time
+      answer: 2
+      explanation: The bid assumed about 96 kits. When behind, the company instruction is to take a step back and ask why, then fix the strategy or report the reasons, never cutting safety or quality.
+      ref: LT2-C12 Lesson 4
+    - id: LT2-C12-Q12
+      type: single
+      q: On a kit retrofit, why might the crew leader assign some techs to gut old fixtures and others to install the new kits?
+      choices:
+        - Gutting is dirty work, and separating it keeps dirty fingerprints off new kits and keeps work flowing
+        - It is required by OSHA
+        - It means fewer circuits need to be locked out
+        - It avoids the need for a daily recap
+      answer: 0
+      explanation: Past company sheets suggested this split because gutting old fixtures is dirty and new reflectors show fingerprints. Every circuit is still locked out and verified.
+      ref: LT2-C12 Lesson 4
+    - id: LT2-C12-Q13
+      type: single
+      q: A site manager asks your crew to use a spotter for lift work. What should you do?
+      choices:
+        - Argue that our company does not use spotters
+        - Ignore the request and keep working
+        - Do not argue; do other work that does not need the lift, get the manager's name and request to your supervisor, and use the lift only once it is settled
+        - Leave the site for the day
+      answer: 2
+      explanation: When a site asks for a safety measure, follow it or stop and get your supervisor involved. Never argue a safety requirement down.
+      ref: LT2-C12 Lesson 5
+    - id: LT2-C12-Q14
+      type: multi
+      q: Which steps belong in a project closeout? (Select all that apply.)
+      choices:
+        - Final counts on the service order and a corrected survey
+        - Leftover good material labeled and kept apart from recycle material
+        - Recycle pallets labeled and photographed, and pickups scheduled
+        - Throwing spent lamps in the site dumpster to save time
+      answer: [0, 1, 2]
+      explanation: Closeout includes counts, a corrected survey, separated and labeled material, photographed recycle pallets and scheduled pickups. Lamps are never thrown in the trash; company policy is that all lamps are recycled.
+      ref: LT2-C12 Lesson 5
+    - id: LT2-C12-Q15
+      type: single
+      q: On an early LED cooler retrofit, light bars were not seated properly and later hung by their wires. What is the main lesson?
+      choices:
+        - LED products are unreliable in coolers
+        - Seat and secure every part, keep splices inside an enclosure with slack dressed, remove leftover hardware, and step back to inspect before leaving
+        - Electrical tape over exposed wire nuts is a proper fix
+        - Callbacks are normal and need no prevention
+      answer: 1
+      explanation: The callback cost more than doing it right. Secure every part per the instructions, dress the wiring with splices enclosed (NEC 300.15), and inspect before you leave.
+      ref: LT2-C12 Lesson 5

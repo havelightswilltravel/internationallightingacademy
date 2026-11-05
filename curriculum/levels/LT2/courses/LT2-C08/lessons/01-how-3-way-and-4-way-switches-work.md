@@ -9,6 +9,12 @@ video_suggestion: >
   position. Ends with a working two-location board lighting a lamp from either switch.
 ---
 
+> **Company note — who does 3-way work:** Our company treats 3-way and 4-way switching as
+> higher-end tech work. At **LT2 you learn** how these circuits work, how to read the company
+> 3-way diagram (Lesson 5) and how to troubleshoot them **with a lead or supervisor**. Techs at
+> **LT3 and above troubleshoot 3-way circuits unsupervised.** If you are on your own and the
+> problem goes beyond the switch-arm and connection checks, write it up.
+
 ## Why Multi-Location Switching Exists
 
 A single-pole switch controls a light from one place. Hallways, stairways, large rooms with two

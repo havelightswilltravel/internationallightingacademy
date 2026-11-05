@@ -1,0 +1,197 @@
+code: LT1-C11
+title: Working Safely in Heat, Cold & with Hazardous Materials
+order: 11
+estimated_hours: 4
+description: >
+  Teaches new technicians how our company protects field crews from weather and materials
+  hazards. Covers heat illness prevention (water, rest, shade, acclimatization and the heat
+  index), recognizing and responding to heat exhaustion and heat stroke, sun protection and
+  insects, cold stress and the C-O-L-D layering system, frostbite and hypothermia first aid,
+  winter slips and falls, lifts, ladders, vehicles and batteries in the cold, and the company's
+  hazardous materials training: OSHA Hazard Communication, SDS and labels, lamps and ballasts,
+  site hazards, and DOT awareness for carrying hazardous materials in company vehicles.
+objectives:
+  - Use the heat index and the company's water, rest and shade practices to plan hot-weather work
+  - Explain acclimatization and apply the gradual build-up for new and returning workers
+  - Tell heat exhaustion from heat stroke and give the correct first aid for each
+  - Protect skin and eyes from UV and protect yourself from mosquitoes and stinging insects
+  - Read wind chill, dress using C-O-L-D layering and protect hands and feet in the cold
+  - Recognize frostbite, trench foot and hypothermia and give correct first aid
+  - Prevent winter slips and falls in parking lots, at vehicles, on lifts and on ladders
+  - Read a GHS label and SDS, label secondary containers and follow the company leaking-ballast procedure
+  - Carry lamps, ballasts, batteries and small amounts of fuel and chemicals in a company vehicle safely
+lessons:
+  - 01-heat-illness-prevention.md
+  - 02-heat-illness-recognition-sun-and-insects.md
+  - 03-cold-stress-and-cold-injuries.md
+  - 04-winter-slips-lifts-vehicles-and-equipment.md
+  - 05-hazardous-materials-communication.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT1-C11-Q01
+      type: single
+      q: The heat index chart is based on shade and a light breeze. How much can working in direct sun add to the heat index?
+      choices:
+        - About 2 °F
+        - About 5 °F
+        - Up to about 15 °F
+        - Nothing; sun does not change the heat index
+      answer: 2
+      explanation: Our company's heat chart notes that direct sunlight can raise the heat index by up to about 15 °F, so a "caution" day in the shade can be a "danger" day in a bucket in full sun.
+      ref: NWS heat index; LT1-C11 Lesson 1
+    - id: LT1-C11-Q02
+      type: single
+      q: How much water should you drink while working in the heat?
+      choices:
+        - Only when you feel thirsty
+        - About 1 cup (8 oz) every 15–20 minutes, even if not thirsty
+        - A full gallon at lunch to catch up
+        - One energy drink per hour
+      answer: 1
+      explanation: Thirst shows up late. Steady drinking of about a cup every 15–20 minutes keeps you ahead. Don't try to catch up all at once, and avoid alcohol and heavy caffeine.
+      ref: OSHA heat guidance (Water. Rest. Shade.)
+    - id: LT1-C11-Q03
+      type: single
+      q: A new technician starts work during a heat wave. Following NIOSH acclimatization guidance, what should the lead do?
+      choices:
+        - Nothing special; young workers handle heat fine
+        - Limit the new tech to about 20% of a full heat exposure on day one and increase by no more than about 20% a day
+        - Give the new tech the hardest outdoor tasks so they toughen up quickly
+        - Have the new tech work alone so they learn their limits
+      answer: 1
+      explanation: Most heat deaths happen in a worker's first few days. NIOSH recommends about 20% exposure on day one for new workers, increasing gradually, with extra breaks and a buddy.
+      ref: NIOSH Criteria for a Recommended Standard, Occupational Exposure to Heat and Hot Environments
+    - id: LT1-C11-Q04
+      type: single
+      q: Which statement about federal heat rules is correct?
+      choices:
+        - OSHA has a final heat standard that sets one temperature limit nationwide
+        - There is no way OSHA can cite an employer for heat hazards
+        - OSHA enforces heat hazards under the General Duty Clause; a federal heat rule was proposed but not final, and some states have their own heat rules
+        - Only state rules apply; OSHA has no role in heat
+      answer: 2
+      explanation: Without a final federal heat standard, OSHA uses the General Duty Clause (Section 5(a)(1)) and its heat emphasis program. OSHA proposed a heat rule in 2024. Several states, such as California, Washington and Oregon, have their own rules.
+      ref: OSH Act Section 5(a)(1)
+    - id: LT1-C11-Q05
+      type: single
+      q: A crew member in the heat becomes confused and starts slurring his words. His skin is hot. What do you do first?
+      choices:
+        - Have him drink a large bottle of water and get back to work after 10 minutes
+        - Call 911 and start cooling him immediately with cold water, ice packs and fanning
+        - Let him sleep it off in the van with the engine off
+        - Drive him home
+      answer: 1
+      explanation: Confusion or any change in mental state in the heat means heat stroke until proven otherwise. Call 911 and cool fast. Do not give drinks to someone who is confused or unconscious.
+      ref: OSHA Heat Stress Quick Card; LT1-C11 Lesson 2
+    - id: LT1-C11-Q06
+      type: multi
+      q: Which are typical signs of heat exhaustion (not yet heat stroke)? Select all that apply.
+      choices:
+        - Heavy sweating with cool, clammy skin
+        - Headache, dizziness or light-headedness
+        - Seizures
+        - Nausea or vomiting
+      answer: [0, 1, 3]
+      explanation: Heat exhaustion brings heavy sweating, clammy skin, headache, dizziness, weakness and nausea. Seizures, confusion and loss of consciousness point to heat stroke, a medical emergency.
+      ref: OSHA Heat Stress Quick Card
+    - id: LT1-C11-Q07
+      type: single
+      q: Which is the best sun protection for a tech working a parking lot all day?
+      choices:
+        - A ball cap and no sunscreen on cloudy days
+        - A full-brim hard hat or sunshade, sleeves, broad-spectrum SPF 30+ sunscreen reapplied at least every two hours, and UV-blocking safety glasses
+        - Sunscreen applied once in the morning
+        - Dark, heavy clothing to block the sun
+      answer: 1
+      explanation: Ball caps leave ears and neck exposed. Up to about 80% of UV passes through clouds and pavement reflects it. Reapply sunscreen at least every two hours, more often when sweating.
+      ref: LT1-C11 Lesson 2
+    - id: LT1-C11-Q08
+      type: single
+      q: When using insect repellent for dusk work on outdoor lighting, which practice is correct?
+      choices:
+        - Spray repellent on skin under your shirt for extra protection
+        - Spray it directly on your face
+        - Use DEET or picaridin on exposed skin and the outside of clothing, and wash it off after work
+        - Use it inside the van with the windows closed
+      answer: 2
+      explanation: OSHA's West Nile guidance says to use DEET or picaridin on exposed skin and on the outside of clothing, never on skin under clothing, on the face directly or in enclosed spaces.
+      ref: OSHA West Nile Virus Quick Card
+    - id: LT1-C11-Q09
+      type: single
+      q: What does the cold stress equation in our training say?
+      choices:
+        - Cold only matters below 0 °F
+        - Low temperature + wind speed + wetness = injuries and illness
+        - Wind only matters on the ground
+        - Wet clothing keeps you warmer
+      answer: 1
+      explanation: Temperature, wind and wetness add up. That is why hypothermia can happen above freezing, for example in a cold rain with a breeze.
+      ref: OSHA Cold Stress card
+    - id: LT1-C11-Q10
+      type: single
+      q: In the C-O-L-D system for cold-weather clothing, what does "O" stand for, and why?
+      choices:
+        - Outer shell only, because one layer is enough
+        - Avoid Overheating, because sweat soaks your layers and wet clothing loses insulation
+        - Open your coat all day
+        - Oil your boots
+      answer: 1
+      explanation: C-O-L-D is Clean, avoid Overheating, Loose and in Layers, Dry. Open or remove a layer before you start sweating so your clothing stays dry.
+      ref: LT1-C11 Lesson 3
+    - id: LT1-C11-Q11
+      type: single
+      q: A coworker's fingertips are white, waxy and hard after handling cold metal fixtures. Which first aid is correct?
+      choices:
+        - Rub them hard with snow to get circulation going
+        - Hold them near the van heater vent or a propane heater
+        - Get to a warm place, do not rub, and rewarm gently in warm (not hot) water, unless they could refreeze
+        - Ignore it; numbness goes away
+      answer: 2
+      explanation: Rubbing damages frozen tissue and numb skin burns easily near heaters. Rewarm gently in warm (about 99–104 °F) water or with body heat, do not thaw if it may refreeze, and get medical care.
+      ref: OSHA/NIOSH cold stress guidance
+    - id: LT1-C11-Q12
+      type: single
+      q: A worker who was shivering hard has stopped shivering, is drowsy and is slurring words. What does this mean?
+      choices:
+        - He has warmed up and is fine
+        - Possible serious hypothermia; call 911, get him warm and dry, warm the core gently
+        - He needs a cup of coffee and a cigarette
+        - He should do jumping jacks in the snow
+      answer: 1
+      explanation: Shivering stopping along with confusion or drowsiness is a sign of worsening hypothermia, a medical emergency. Call 911, move to warmth, remove wet clothing, warm the center of the body and give warm sweet drinks only if alert.
+      ref: OSHA Cold Stress card
+    - id: LT1-C11-Q13
+      type: multi
+      q: Which practices help prevent winter slips and falls? Select all that apply.
+      choices:
+        - Short, slow steps with feet pointed slightly outward
+        - Hands in your pockets to keep them warm
+        - Three points of contact getting in and out of the van
+        - Treating any "wet" spot in freezing weather as black ice
+      answer: [0, 2, 3]
+      explanation: Keep your hands free for balance, take short "penguin" steps, use three points of contact at vehicles and assume shaded wet spots are black ice.
+      ref: LT1-C11 Lesson 4
+    - id: LT1-C11-Q14
+      type: single
+      q: You pour electrical contact cleaner from a large can into a small spray bottle for the van. What does company policy and OSHA HazCom require?
+      choices:
+        - Nothing, as long as you remember what is in it
+        - Label the small container with the product name and its hazards
+        - Use an old drink bottle so it is easy to grab
+        - Write your initials on the cap
+      answer: 1
+      explanation: Our company rule, consistent with OSHA 1910.1200, is that any chemical moved into a smaller container is labeled. Never use drink bottles for chemicals.
+      ref: OSHA 29 CFR 1910.1200
+    - id: LT1-C11-Q15
+      type: single
+      q: You find a ballast leaking oil in a customer's fixture. What is the company procedure?
+      choices:
+        - Wipe it up with a rag and throw the ballast in the customer's dumpster
+        - Stop, notify the office and the site contact and get instructions; when removing it, wear chemical-resistant gloves and safety glasses, double-bag it, and put the gloves in the outer bag
+        - Judge it by color; if the oil is black it is harmless, so continue
+        - Leave it and do not mention it on the service order
+      answer: 1
+      explanation: A leaking ballast is a stop-work condition. Notify the office and site contact, follow their instructions, use chemical-resistant gloves and eye protection, double-bag with the gloves in the outer bag, and record it so it is packaged to the recycler's instructions.
+      ref: 40 CFR Part 761; company HazCom training
