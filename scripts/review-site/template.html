@@ -246,6 +246,7 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
   const reviewed = new Set(store.get('ila-reviewed') || []);
   let answersHidden = !!store.get('ila-hide-answers');
 
+  const archBanner = (code) => (D.levels[code] && D.levels[code].archived ? '<div class="banner"><strong>Archived — not part of the program.</strong> Kept for review while you decide what to do with it. See <a href="#disc-004">Discussion 004</a>.</div>' : '');
   const lessonsOf = (c) => D.courses[c].lessons.map((k) => D.lessons[k]);
   const levelOfCourse = (c) => D.levels[D.courses[c].level];
 
@@ -253,7 +254,7 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
   function renderNav(route) {
     const h = [];
     for (const t of D.tracks) {
-      h.push(`<h4>${esc(t.title)}</h4>`);
+      h.push(`<h4>${t.archived ? 'Archived · not in the program' : esc(t.title)}</h4>`);
       for (const code of t.levels) {
         const l = D.levels[code];
         const onLevel = route.level === code;
@@ -304,7 +305,7 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
   views.lvl = (r) => {
     const l = D.levels[r.level];
     if (!l) return notFound();
-    return `<p class="crumbs"><a href="#home">Program</a> › ${esc(D.trackTitle[l.track])}</p>
+    return `${archBanner(l.code)}<p class="crumbs"><a href="#home">Program</a> › ${esc(D.trackTitle[l.track] || 'Archived courses')}</p>
       <p class="eyebrow">${esc(l.code)} · ${esc(l.grade)}${l.duration ? ' · typically ~' + l.duration + ' months' : ''}</p>
       <h1>${esc(l.title)}</h1>
       <p class="lede">${esc(l.description)}</p>
@@ -333,7 +334,7 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
     const C = D.courses[r.course];
     if (!C) return notFound();
     const l = levelOfCourse(r.course);
-    return `<p class="crumbs"><a href="#home">Program</a> › <a href="#lvl-${l.code}">${l.code} ${esc(l.title)}</a></p>
+    return `${archBanner(l.code)}<p class="crumbs"><a href="#home">Program</a> › <a href="#lvl-${l.code}">${l.code} ${esc(l.title)}</a></p>
       <p class="eyebrow">${esc(C.code)}${C.hours ? ' · ~' + C.hours + ' study hours' : ''}</p>
       <h1>${esc(C.title)}</h1>
       <p class="lede">${esc(C.description)}</p>
@@ -364,7 +365,7 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
     const l = levelOfCourse(L.course);
     const i = C.lessons.indexOf(L.key);
     const prev = C.lessons[i - 1]; const next = C.lessons[i + 1];
-    return `<p class="crumbs"><a href="#home">Program</a> › <a href="#lvl-${l.code}">${l.code}</a> › <a href="#crs-${C.code}">${C.code} ${esc(C.title)}</a> › Lesson ${i + 1} of ${C.lessons.length}</p>
+    return `${archBanner(l.code)}<p class="crumbs"><a href="#home">Program</a> › <a href="#lvl-${l.code}">${l.code}</a> › <a href="#crs-${C.code}">${C.code} ${esc(C.title)}</a> › Lesson ${i + 1} of ${C.lessons.length}</p>
       <h1>${esc(L.title)}</h1>
       <div class="row"><span class="pill">${L.minutes ? L.minutes + ' min' : 'Lesson'}</span>
         <button class="btn ${reviewed.has(L.key) ? 'on' : ''}" type="button" id="markReviewed" aria-pressed="${reviewed.has(L.key)}">${reviewed.has(L.key) ? '✓ Reviewed' : 'Mark as reviewed'}</button></div>

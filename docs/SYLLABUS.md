@@ -73,7 +73,7 @@ Hands-on skills: safe voltage measurement on a three-phase panel; identifying/tr
 
 Hands-on skills: driver replacement and matching; 0–10V dimming troubleshooting; occupancy sensor install and adjustment; emergency driver install and test; photocell/contactor troubleshooting; MEWP pre-use inspection and operation (after authorized training).
 
-### LT4 — Lighting Technician IV (Senior)
+### LT4 — Senior Lighting Technician
 - **LT4-C01 Networked Lighting Controls** — architectures (wired, wireless mesh), gateways, zoning, commissioning, BMS integration, BACnet intro, luminaire-level lighting control.
 - **LT4-C02 Energy Codes & Standards** — ASHRAE 90.1, IECC, Title 24 overview, lighting power density, mandatory controls, DLC qualified products, utility incentive programs.
 - **LT4-C03 Photometry & Lighting Quality** — footcandles/lux, IES recommended illuminance, light meter surveys and reflectance checks, uniformity, glare, CCT/CRI/TM-30, the lumen method in the field, luminaire optics, distribution and efficiency, IP/IK ratings.

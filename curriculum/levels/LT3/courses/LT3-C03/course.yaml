@@ -292,3 +292,23 @@ quiz:
       - "Wire the lights to bypass the photocell permanently"
     answer: [0, 1, 2]
     explanation: "Self-cycling is caused by light reaching the photocell. Shield it, re-orient it or relocate it; bypassing the control wastes energy and defeats the design."
+  - id: LT3-C03-Q21
+    type: single
+    q: "A new exterior LED fixture with a factory photocell is installed on a circuit already switched by a time clock and contactor. What happens, and what is the company rule?"
+    choices:
+      - "Nothing changes; the photocell is ignored. Leave it."
+      - "The two controls act in series, so the light only runs when both allow it, creating apparent random faults - disconnect the redundant photocell unless told to keep it"
+      - "The photocell overrides the time clock completely; remove the time clock"
+      - "The fixture will strobe; replace the driver"
+    answer: 1
+    explanation: "A second control wired in series makes behavior hard to diagnose. Company policy is to disconnect the factory photocell unless specifically told otherwise, and note it."
+  - id: LT3-C03-Q22
+    type: single
+    q: "You finish an exterior LED upgrade during the day. How do you meet the company rule to check function?"
+    choices:
+      - "Skip it; exterior lights are only checked at night"
+      - "Operate the lights through their control (photocell cover test, time-clock override or HOA by a qualified person); if impossible, note that function was not tested"
+      - "Wire the fixtures to bypass all controls"
+      - "Ask the customer to call if they do not work"
+    answer: 1
+    explanation: "Exterior upgrades must be tested like interior ones. If the controls cannot be found or operated, the work order must say function was not tested."

@@ -36,8 +36,10 @@ const guideKey = (sourceKey) => slug(sourceKey.replace(/^library\//, '').replace
 const levels = {};
 const courses = {};
 const lessons = {};
-for (const l of data.levels) {
+function addLevels(list, archived) {
+for (const l of list) {
   levels[l.code] = {
+    archived,
     code: l.code, title: l.title, grade: l.grade, track: l.track, description: l.description, duration: l.duration_months,
     outcomes: l.outcomes,
     reqs: { coursePass: l.course_pass_score, examPass: l.exam_pass_score, examQ: l.exam_questions, examMin: l.exam_time_limit, hours: l.min_ojt_hours },
@@ -57,8 +59,17 @@ for (const l of data.levels) {
     }
   }
 }
-
+}
+addLevels(data.levels, false);
 const tracks = (data.program.tracks || []).map((t) => ({ code: t.code, title: t.title, description: (t.description || '').trim(), levels: (t.levels || []).filter((c) => levels[c]) }));
+
+// Archived courses (not in the program) stay readable for review; see docs/discussions/004.
+const ARCHIVE = path.join(ROOT, 'curriculum', 'archive', 'electrical-track');
+if (fs.existsSync(path.join(ARCHIVE, 'program.yaml'))) {
+  const arch = curriculum.load(ARCHIVE);
+  addLevels(arch.levels, true);
+  for (const t of arch.program.tracks || []) tracks.push({ code: t.code, archived: true, title: t.title, description: (t.description || '').trim(), levels: (t.levels || []).filter((c) => levels[c]) });
+}
 const library = data.library.map((g) => ({
   key: guideKey(g.source_key), title: g.title, category: g.category, tags: g.tags, levels: g.levels, reviewed: g.last_reviewed, html: md(g.body_md),
 }));
@@ -87,12 +98,14 @@ const discussions = fs.existsSync(DISC) ? fs.readdirSync(DISC).filter((f) => /^\
   return { key: f.slice(0, 3), title: meta.title || f, status: meta.status || '', raised: meta.raised ? String(meta.raised instanceof Date ? meta.raised.toISOString().slice(0, 10) : meta.raised) : '', html: md(body) };
 }) : [];
 
+const live = Object.values(levels).filter((l) => !l.archived);
+const liveCourses = Object.values(courses).filter((c) => !levels[c.level].archived);
 const totals = {
-  levels: Object.keys(levels).length,
-  courses: Object.keys(courses).length,
-  lessons: Object.keys(lessons).length,
-  questions: Object.values(courses).reduce((a, c) => a + c.questions.length, 0),
-  skills: Object.values(levels).reduce((a, l) => a + l.skills.length, 0),
+  levels: live.length,
+  courses: liveCourses.length,
+  lessons: liveCourses.reduce((a, c) => a + c.lessons.length, 0),
+  questions: liveCourses.reduce((a, c) => a + c.questions.length, 0),
+  skills: live.reduce((a, l) => a + l.skills.length, 0),
   guides: library.length,
 };
 const payload = {

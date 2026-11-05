@@ -154,6 +154,29 @@ or a failed clock.
 tripper style; photocell type (stem, button, twist-lock), voltage and LED load rating, and
 whether a sleeve/shield is available for that model.
 
+## Company Rules: Redundant Photocells and Exterior Function Checks
+
+Two lessons learned from our company's monthly meetings apply whenever exterior lighting is
+installed or upgraded:
+
+- **Beware the factory photocell.** Many new exterior LED fixtures arrive with a button
+  photocell already installed. If the site is already controlled by a time clock, contactor or
+  a building photocell, that second control stays wired in series with the first. Lights then
+  go off when one control says "off" and come on only when both say "on" - which looks like a
+  random fault and makes troubleshooting much harder later. **Company rule: disconnect or remove
+  the redundant factory photocell unless you are specifically told to keep it**, and note it on
+  the work order. Where the fixture photocell *is* the intended control, orient and shield it
+  as described above.
+- **Check function after every exterior upgrade.** Techs check interior upgrades as a matter of
+  course but often skip exterior ones, usually because finding the controls is not part of the
+  project. Operate the lights through their real control: a cover test on the photocell, or the
+  time clock's manual override or the contactor's HOA switch per the procedures in this course.
+  **If you cannot test function, write on the work order that function was not tested** and why.
+
+> **Safety:** Disconnecting a fixture photocell is done locked out and verified dead. Overriding
+> a time clock or operating an HOA switch inside a panel is done only by a qualified person in the
+> required PPE.
+
 ## Key Takeaways
 - Tripper clocks: verify time, don't trust the motor sound, spin the dial without bypass and replace bad trippers.
 - Confirm line and load are on the correct terminals and line voltage is good; force the device on (bypass or cover) and check load voltage — no load voltage means replace it.
@@ -163,3 +186,4 @@ whether a sleeve/shield is available for that model.
 - Check voltage and LED load ratings; use a contactor for large loads.
 - Astronomical time clocks track sunrise/sunset automatically — set location, time zone and DST.
 - Photocell and time clock contacts in series give "dusk-to-time-of-night" control.
+- Company rule: disconnect redundant factory photocells unless told to keep them, test exterior function after every upgrade, and note it if you could not.

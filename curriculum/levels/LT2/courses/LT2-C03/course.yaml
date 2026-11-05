@@ -1,7 +1,7 @@
 code: LT2-C03
 title: Test Instruments & Measurement
 order: 3
-estimated_hours: 6
+estimated_hours: 6.5
 description: >
   Takes the technician from basic LT1 meter use to confident, safe diagnostic measurement:
   meter categories and selection, pre-use inspection, the DMM's voltage, resistance,
@@ -14,11 +14,13 @@ objectives:
   - Use DMM voltage, resistance, continuity and capacitance functions correctly and recognize ghost voltage
   - Measure load, neutral and inrush current with a true-RMS clamp meter and interpret the results
   - Identify the breaker feeding a fixture with a circuit tracer and confirm it by lockout and verification
+  - "Apply the company's required field measurements - supply voltage before installation, hot-to-neutral as step 1 on dark fixtures, and DC checks of equipment battery banks"
 lessons:
   - 01-meter-safety-and-selection.md
   - 02-dmm-in-depth.md
   - 03-clamp-meters.md
   - 04-circuit-tracers-and-breaker-finders.md
+  - 05-company-field-measurements.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -179,3 +181,43 @@ quiz:
         - Tape all conductors white
       answer: 1
       explanation: A forgotten jumper between a conductor and ground or another conductor becomes a dead short when the circuit is energized.
+    - id: LT2-C03-Q16
+      type: single
+      q: "Before connecting a new 120-277 V LED fixture to an existing exterior circuit, what must you do under company policy?"
+      choices:
+        - "Assume 277 V because it is a commercial building"
+        - "Measure the supply (L-N, L-L and L-G) and compare it with the fixture label"
+        - "Check it with a non-contact tester"
+        - "Energize it briefly to see if it lights"
+      answer: 1
+      explanation: "The company has destroyed many new fixtures by assuming the voltage. A fixture fed 480 V line-to-line is ruined instantly if its driver is rated 120-277 V."
+    - id: LT2-C03-Q17
+      type: single
+      q: "You measure 480 V line-to-line at the existing fixture, and the new fixture's driver is rated 120-277 V. What is the correct action?"
+      choices:
+        - "Connect it; LED drivers tolerate overvoltage"
+        - "Connect one hot and the ground instead of the neutral"
+        - "Stop and call your supervisor - a 480 V-rated driver or a transformer is needed"
+        - "Use a dimmer to drop the voltage"
+      answer: 2
+      explanation: "The fixture must be rated for the supply. Never improvise a connection; get the correct product."
+    - id: LT2-C03-Q18
+      type: single
+      q: "A lift truck's boom will not raise or lower, but all other functions work. After checking fuses and relays, what does the company procedure check next?"
+      choices:
+        - "The hydraulic fluid color"
+        - "The 24 V boom battery bank voltage on DC volts, then each battery individually"
+        - "AC voltage at the shop outlet"
+        - "The truck's alternator belt"
+      answer: 1
+      explanation: "Low voltage in the 24 V boom battery bank is a likely cause. 24 V is the minimum; a single weak battery can drag the bank down."
+    - id: LT2-C03-Q19
+      type: single
+      q: "A lift's battery charger shows no charge light when plugged in. What should you check first?"
+      choices:
+        - "Replace the charger"
+        - "Check and reset the GFCI outlet it is plugged into"
+        - "Jump the batteries from the truck"
+        - "Pull the plug out by the cord and try again"
+      answer: 1
+      explanation: "A tripped GFCI is the most common cause. Always unplug chargers by the plug - pulling the cord has ruined chargers."

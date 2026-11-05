@@ -120,7 +120,7 @@ each item, and correct the content if needed.
   - whether LT3 technicians may do energized diagnostic testing (skills S02 and S06)
   - tritium exit-sign return procedure
 
-## LT4 — Lighting Technician IV (Senior)
+## LT4 — Senior Lighting Technician
 - [ ] 2023 NEC sections:
   - 410.16
   - 410.30(B)

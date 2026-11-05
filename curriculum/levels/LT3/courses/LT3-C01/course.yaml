@@ -1,7 +1,7 @@
 code: LT3-C01
 title: LED Technology & Drivers
 order: 1
-estimated_hours: 6
+estimated_hours: 6.5
 description: >-
   How LEDs produce light, why thermal management controls LED and driver life, the difference between
   constant-current and constant-voltage drivers, how to select and install a matching replacement
@@ -18,11 +18,13 @@ objectives:
 - Replace a driver safely under LOTO, including disconnecting emergency batteries
 - Define L70 and the roles of LM-79, LM-80 and TM-21
 - Use symptoms to separate driver, LED module, thermal and control problems
+- "Program wide-range programmable drivers correctly and write up driver failures with the information needed to price repair or fixture replacement"
 lessons:
 - 01-how-leds-work-and-thermal-management.md
 - 02-constant-current-vs-constant-voltage-drivers.md
 - 03-driver-matching-and-replacement.md
 - 04-flicker-lumen-maintenance-and-failure-modes.md
+- 05-company-driver-field-notes.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -245,3 +247,53 @@ quiz:
       The SPD sacrifices itself to protect the driver; a dark indicator means it has done its job
       and needs replacement. Never bypass surge protection. Check and replace the driver if it also
       failed.
+  - id: LT3-C01-Q16
+    type: single
+    q: "When should a wide-range programmable LED driver be programmed with the phone app, according to company field notes?"
+    choices:
+      - "After installation, while the fixture is lit"
+      - "Before installation, with the driver unpowered - the setting takes effect when the driver is powered up"
+      - "Only at the factory"
+      - "Programming is not needed; it detects the LEDs automatically"
+    answer: 1
+    explanation: "Program unpowered to the original output current, then mark and record the setting. The new program shows once the driver is powered."
+  - id: LT3-C01-Q17
+    type: single
+    q: "What output current should you program into a replacement programmable driver?"
+    choices:
+      - "The maximum the driver allows, for the brightest light"
+      - "The original driver's rated output current, within the LED board's rating and with a voltage window covering the board"
+      - "Half the original current, to extend life"
+      - "Any value; the board limits current itself"
+    answer: 1
+    explanation: "Matching the original current keeps the fixture at its designed output. Over-driving shortens LED life and overheats the fixture."
+  - id: LT3-C01-Q18
+    type: multi
+    q: "You are writing up a failed driver in a building-mounted wall pack. What should the write-up include so the office can price both a driver and a new fixture? (Select all that apply.)"
+    choices:
+      - "The driver's complete part code and label photo"
+      - "The fixture label photo and a full-elevation photo"
+      - "A count of matching fixtures in the area and whether any are emergency units"
+      - "Just \"LED driver bad\""
+    answer: [0, 1, 2]
+    explanation: "New fixtures with long warranties are often a better value than a replacement driver, but the office can only quote them with full fixture information and counts."
+  - id: LT3-C01-Q19
+    type: single
+    q: "Why does the company want techs to check exterior wall packs for emergency battery units before a replacement is quoted?"
+    choices:
+      - "Emergency units are cheaper"
+      - "Emergency units must be replaced with emergency-rated fixtures, and a quote that misses them is wrong"
+      - "Emergency units never fail"
+      - "It is only needed for interior fixtures"
+    answer: 1
+    explanation: "On one company job, most of the wall packs quoted as standard turned out to be emergency units and the quote had to be redone."
+  - id: LT3-C01-Q20
+    type: single
+    q: "What should you record for a plug-in LED driver or low-voltage power supply so the right replacement is ordered?"
+    choices:
+      - "Only the wattage"
+      - "The label, output voltage and wattage, and a photo of the output tip or cord cap - ideally with a labeled sample"
+      - "Only the input voltage"
+      - "The color of the housing"
+    answer: 1
+    explanation: "The same wattage comes with many different output connectors. Photos of the tip and cord cap, or a labeled sample, prevent wrong-part callbacks."

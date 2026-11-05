@@ -1,7 +1,7 @@
 code: LT2-C05
 title: LED Retrofit Fundamentals
 order: 5
-estimated_hours: 7
+estimated_hours: 7.5
 description: >
   Prepares technicians to perform safe, code-conscious LED retrofits of fluorescent and HID
   fixtures: UL Type A, B and C TLEDs and dual-mode tubes, retrofit kits evaluated under UL
@@ -14,11 +14,13 @@ objectives:
   - Determine ballast compatibility for Type A tubes and recognize where Type A is a poor choice
   - Test sockets for shunted vs non-shunted construction and perform a Type B conversion with correct labeling
   - Install Type C systems, retrofit kits and LED HID replacement lamps per instructions and verify the installation
+  - "Install retrofits and replacement fixtures to the company's workmanship standards, including drywall mounting, concealed wiring, HID conversion choices and exterior control checks"
 lessons:
   - 01-retrofit-options-and-listings.md
   - 02-type-a-and-dual-mode-tleds.md
   - 03-type-b-ballast-bypass.md
   - 04-type-c-and-retrofit-kits.md
+  - 05-company-install-standards.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -175,3 +177,64 @@ quiz:
         - The fixture has a fluorescent emergency battery ballast whose compatibility hasn't been confirmed
       answer: [0, 2, 3]
       explanation: Incompatible, aging, or emergency-ballast fixtures are poor Type A candidates. New, listed-compatible instant-start ballasts are good candidates.
+    - id: LT2-C05-Q16
+      type: single
+      q: "You are mounting a surface fixture to sound drywall with toggle bolts. What is the company procedure for tightening?"
+      choices:
+        - "Drive them fully tight with an impact driver"
+        - "Bring them close with the drill, then hand-tighten until the fixture is just flush and stop"
+        - "Use self-tapping screws instead; they are faster"
+        - "Leave them loose so the fixture can be adjusted later"
+      answer: 1
+      explanation: "Overtightening crushes the gypsum and the toggle loses its grip. Final tightening is always done by hand."
+    - id: LT2-C05-Q17
+      type: single
+      q: "The drywall around the old fixture is water-damaged and crumbles. How should the new fixture be fastened?"
+      choices:
+        - "Use longer toggle bolts"
+        - "Use wood screws into the drywall"
+        - "Fasten to the framing (joists or blocking), located with a stud finder, or support it from the structure"
+        - "Let the wire nuts help hold it up"
+      answer: 2
+      explanation: "Crumbling drywall will not hold even a toggle. Fasten to structure. Conductors and wire nuts are never supports."
+      ref: "NEC Article 410 (luminaire support)"
+    - id: LT2-C05-Q18
+      type: multi
+      q: "Which are company workmanship rules for fixture installation? (Select all that apply.)"
+      choices:
+        - "All splices and wiring concealed in the box, fixture or a raceway"
+        - "Fixtures centered, or approval obtained before installing off center"
+        - "Ask before installing \"one for one\" if a straight layout is easily possible"
+        - "Leave splices outside the box so the next tech can find them"
+      answer: [0, 1, 2]
+      explanation: "Exposed wiring is a safety issue, and crooked or off-center fixtures are what the customer sees. Question layouts before you install, not after."
+    - id: LT2-C05-Q19
+      type: single
+      q: "A new exterior LED wall pack comes with a factory photocell, and the building already controls its lights with a time clock and contactor. What is the company rule?"
+      choices:
+        - "Leave the photocell connected; more control is better"
+        - "Disconnect or remove the redundant photocell unless told to keep it, and note it on the work order"
+        - "Remove the time clock instead"
+        - "Tape over the photocell window"
+      answer: 1
+      explanation: "A redundant control makes later troubleshooting much harder. Disconnect it unless specifically told otherwise."
+    - id: LT2-C05-Q20
+      type: single
+      q: "You finish an exterior LED upgrade but cannot find the controls to test it before you leave. What should you do?"
+      choices:
+        - "Assume it works"
+        - "Note on the work order that function could not be tested"
+        - "Wire the fixtures on permanently"
+        - "Leave without notes"
+      answer: 1
+      explanation: "Every upgrade should be checked for function. If you truly cannot test it, the work order must say so."
+    - id: LT2-C05-Q21
+      type: single
+      q: "Before choosing an LED replacement lamp for a failed metal halide fixture, what must you confirm?"
+      choices:
+        - "Only the wattage"
+        - "That the lamp body fits the fixture without blocking the optic, the color temperature, and that the customer allows ballast-bypass lamps"
+        - "That the old ballast still works"
+        - "Nothing; all replacement lamps fit all fixtures"
+      answer: 1
+      explanation: "Replacement lamps come in different body sizes and colors, and some customers do not allow bypass lamps in exterior fixtures. Converted fixtures must also be labeled."

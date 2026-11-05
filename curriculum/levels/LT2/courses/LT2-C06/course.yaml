@@ -216,3 +216,43 @@ quiz:
         - "A fluorescent lamp with blackened ends"
       answer: [0, 1, 2]
       explanation: "Breaker and contactor replacement are electrician work and sealed-case harness work goes to a case or refrigeration specialist. Blackened lamps are a routine relamp."
+    - id: LT2-C06-Q20
+      type: single
+      q: "An LED troffer strobes on and off at full brightness. According to company field notes, what is the most likely cause?"
+      choices:
+        - "A failing driver (or a driver cycling on protection)"
+        - "A single bad LED on the board"
+        - "The wall switch"
+        - "Dirty lens"
+      answer: 0
+      explanation: "Full-brightness on/off strobing is usually the driver. Flicker in one section or on a single-diode fixture points to the board or fixture instead. Confirm supply voltage first."
+    - id: LT2-C06-Q21
+      type: single
+      q: "A customer reports flashing fixtures but cannot say which ones, and nothing flashes while you are there. What is the company procedure?"
+      choices:
+        - "Replace every driver in the area"
+        - "Ask the customer to identify the exact fixtures and call in a new ticket, and write detailed notes of what you checked"
+        - "Close the ticket as \"no problem found\" without notes"
+        - "Leave all fixtures disconnected"
+      answer: 1
+      explanation: "Intermittent flashing may not appear for hours. Pinning down the exact fixtures avoids shotgunning parts, and good notes let the next visit pick up where you left off."
+    - id: LT2-C06-Q22
+      type: single
+      q: "You cannot repair a strobing fixture on this trip. What does company policy require?"
+      choices:
+        - "Leave it strobing until the return visit"
+        - "Lock it out, disconnect it safely, label it and write up the return"
+        - "Remove the lamp and leave the wires exposed"
+        - "Tell the customer to turn the lights off at night"
+      answer: 1
+      explanation: "Never leave a fixture strobing. It is a hazard to occupants and makes the job look unfinished."
+    - id: LT2-C06-Q23
+      type: single
+      q: "New exterior fixtures on a contactor-controlled circuit turn on and off at random times. Which company lesson learned should you check for?"
+      choices:
+        - "A redundant factory photocell left connected in the new fixtures"
+        - "Wrong color temperature"
+        - "Missing lens gaskets"
+        - "A dim setting on the driver"
+      answer: 0
+      explanation: "Factory-installed photocells left in service duplicate the site's controls and make troubleshooting much harder. The company rule is to disconnect them unless told otherwise."

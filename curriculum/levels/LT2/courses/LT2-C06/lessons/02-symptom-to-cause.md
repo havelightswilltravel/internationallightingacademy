@@ -101,9 +101,41 @@ simple form of isolation; the next lesson shows how to do it faster with half-sp
 Remember the neutral: a fixture can have full voltage hot-to-ground and nothing hot-to-neutral
 if the **neutral is open**. Always measure hot-to-neutral **and** hot-to-ground.
 
+## Company Field Rules for LED and Intermittent Problems
+
+Our company's monthly meetings keep returning to a few rules for the calls that most often end
+unfinished:
+
+- **Step 1 is always the meter.** "What is Step 1 in troubleshooting an LED fixture?" Measure
+  hot to neutral at the fixture. A non-contact tester ("sniffer") cannot troubleshoot. No voltage
+  means the problem is upstream - do not order a driver.
+- **Read the LED symptom:**
+  - **Strobing on and off at full brightness** is usually a **failing driver** (or a driver
+    cycling on thermal or overvoltage protection).
+  - **Flicker on a single-diode or single-board fixture**, or in one section only, points to the
+    **LED board or the fixture**, not the driver.
+  - **Several fixtures flashing together** points upstream: a loose connection, a failing
+    sensor, photocell or relay, or a dimming mismatch.
+- **Pin down intermittent fixtures.** Flashing may not happen for hours. If the customer cannot
+  show you exactly which fixtures are flashing, **ask them to identify the exact fixtures and call
+  in a new ticket** when they have. A single LED stick in a refrigerated case door counts as a
+  fixture.
+- **Never leave a fixture strobing.** If you cannot repair it on this trip, lock it out,
+  disconnect it safely, label it and write up the return.
+- **Redundant controls hide faults.** A factory photocell left connected on a new exterior
+  fixture that is already controlled by a time clock or contactor makes the fixture appear to
+  fail at random. Look for one.
+- **Make good notes:** which fixtures, what the symptom looked like, how long you watched,
+  readings, and what you replaced or disconnected - so the next tech does not start from zero.
+
+> **Safety:** Troubleshooting with the circuit energized is allowed by our company manual only
+> when it is necessary to identify the failed component, and only by a qualified person in the
+> required PPE. Lock out before you open the driver channel or touch any conductor.
+
 ## Key Takeaways
 - Think of the system as a chain: source → circuit → control → fixture. The pattern of failures points to the failed link.
 - Check neighbors and controls before tearing into a fixture.
 - Flicker that changes when you touch the fixture suggests a loose connection; several fixtures flickering together suggests a neutral problem — treat it as urgent.
 - A breaker that trips immediately on reset indicates a fault — don't keep resetting it.
 - Measure along the chain; the fault lies between the last good point and the first bad one. Measure hot-to-neutral and hot-to-ground.
+- Company rule: Step 1 is hot-to-neutral with a meter; full-brightness strobing usually means a driver, single-board flicker means the fixture; never leave a fixture strobing.

@@ -1,0 +1,11 @@
+# ARCHIVED: not part of the program. Kept for review (see docs/discussions/004).
+name: Archived electrical courses
+version: archive
+tracks:
+  - code: ELECTRICAL
+    title: "Archived: Electrical Development courses (not in the program)"
+    description: >
+      Draft electrical-apprentice courses written before the November 2026 decision that the program
+      ends at Master Lighting Technician. Kept for review: some topics may be reworded as Senior or
+      Master Lighting Technician content. See Discussion 004.
+    levels: [EA1, EA2, EA3, EA4, JW]
