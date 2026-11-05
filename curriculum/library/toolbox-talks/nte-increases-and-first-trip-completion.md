@@ -46,10 +46,11 @@ trip, a longer wait for the customer and more office work. Our company wants mor
 
 ## What happened
 
-On two jobs in two days for the same customer, our crew went past the NTE without calling.
-The overage could not be billed afterward - a loss that a small company cannot absorb. On
-another occasion an office manager was turned down when he asked for an NTE increase by phone;
-a tech calling from the site the same week got a similar increase approved right away.
+On two jobs in two days for the same customer, our crew went past the NTE without calling. The
+overage could not be billed afterward - a loss a small company cannot absorb. On another
+occasion an office manager was turned down when he asked a customer for an NTE increase by
+phone after the tech had left. Our experience is that customers respond faster to a request
+made while the tech is standing at the job, ready to finish.
 
 ## Discussion questions
 
