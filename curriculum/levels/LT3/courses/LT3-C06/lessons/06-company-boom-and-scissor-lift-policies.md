@@ -61,6 +61,8 @@ annual must be no more than 13 months old. No current tag, no lift.
 - **Flat, level ground only.** Set the brakes, and chock the wheels if you must stop on an incline.
 - **Outriggers and stabilizers:** if the lift has them and the manual calls for them, set them on
   solid ground or pads before you raise.
+- **Hard hat:** company policy requires one whenever something could fall on you, or you could
+  strike something overhead while you are being lifted in a bucket truck or lift.
 - **Never override a safety device** and never modify a lift without the manufacturer's written
   approval.
 
@@ -79,6 +81,9 @@ and call your supervisor.
 protection.** Our rules: reattach the entry chain or close the gate **the moment you step on**, keep
 both feet on the deck and stay inside the rails. If the scissor's manual or the site requires a
 harness, wear one and clip only to the manufacturer's designated anchor.
+
+**Site rules:** when a customer's site rules are stricter than ours (a harness in every scissor, a
+spotter for every lift), we follow the site rule. If you can't meet it, stop and call your supervisor.
 
 Our fall protection program: the company provides harnesses, lanyards and **trauma (relief) straps**
 and trains you on them. You inspect your harness before each use and report defects at once; a

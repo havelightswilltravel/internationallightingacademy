@@ -61,6 +61,6 @@ is far beyond anything daily-wear clothing can handle.
 
 ## References
 
-- NFPA 70E (2024): 110.5 (training), 130.2 (energized work), 130.5 (arc-flash risk assessment), 130.7 (PPE)
+- NFPA 70E (2024): Article 110 (program and training), 130.2 (energized work), 130.5 (arc-flash risk assessment), 130.7 (PPE)
 - OSHA 29 CFR 1910.332-.335 (electrical safe work practices)
 - Program courses: LT1-C01; EA3-C05 NFPA 70E & Qualified Worker Safety

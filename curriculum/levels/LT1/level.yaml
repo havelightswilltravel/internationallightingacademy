@@ -317,3 +317,302 @@ skills:
     - States that power present with all lamps out points to the ballast/igniter and some lamps out points to sockets/wiring
     - Records lamp code, ballast label data, socket type and fixture location on the work order and reports anything
       beyond LT1 scope
+  - code: LT1-S21
+    title: Inspect, fit and tie off a company fall-protection harness and lanyard
+    category: Safety
+    critical: true
+    description: 'Inspect a company full-body harness, shock-absorbing lanyard and double-leg lanyard before use,
+      put the harness on and adjust it for a correct fit, and tie off to a rated anchor following the company fall
+      protection policy (5,000-lb or engineered anchor, high and tight, 100% tie-off, 18½-ft clearance rule), per
+      OSHA 29 CFR 1910.140 / 1926.502 and the manufacturer''s instructions.
+
+      '
+    equipment:
+    - full-body harness with relief steps installed
+    - 6-ft shock-absorbing lanyard
+    - double-leg (100% tie-off) lanyard
+    - self-retracting lifeline if issued
+    - tagged engineered anchor or training anchor
+    - manufacturer's instructions
+    - DANGER - DO NOT USE tags
+    - whistle
+    - phone
+    - company harness and lanyard checklist
+    criteria:
+    - Reads the harness and lanyard labels and confirms they are legible and the equipment is company-issued
+    - Inspects all webbing by bending it, and all stitching, D-rings, buckles, grommets and impact indicators, identifying
+      any defect that fails the equipment
+    - Confirms relief steps (trauma straps) are installed on the harness and the lanyard has an intact deceleration
+      device
+    - Checks snap hooks and carabiners self-close and self-lock and that an SRL retracts smoothly and locks on a sharp
+      pull
+    - Tags out and removes from service any failed item, or any item that has arrested a fall, and states that it
+      is reported to the supervisor immediately
+    - Dons the harness without twists, with the back D-ring between the shoulder blades, chest strap at mid-chest,
+      leg straps snug (flat hand fits under) and loose ends in keepers
+    - Connects the lanyard to the back (dorsal) D-ring and states why the company recommends it for fall arrest
+    - Selects an anchor rated 5,000 lb or engineered and tagged, at shoulder height or above where possible, and rejects
+      conduit, pipe, fixtures, ductwork and unrated rails
+    - Calculates required clearance for a 6-ft lanyard (18½ ft) and states an alternative method when clearance is
+      less
+    - Demonstrates moving between two anchors with a double-leg lanyard so at least one leg is connected at all times
+    - States the rescue plan for the task and confirms a whistle and phone are carried
+  - code: LT1-S22
+    title: Perform the company ladder and extension cord pre-use inspection
+    category: Safety
+    critical: true
+    description: 'Inspect the ladders, ladder rack and extension cords on a service vehicle using the company Ladder
+      and Extension Cord Inspection checklists, complete the inspection form, and remove any failed ladder or cord
+      from service per OSHA 29 CFR 1910.23(b)(9)-(10) and 1910.334(a)(2).
+
+      '
+    equipment:
+    - service vehicle with stepladders
+    - extension ladder and ladder rack
+    - numbered extension cords
+    - company Ladder and Extension Cord Inspection Form or app checklist
+    - DANGER - DO NOT USE tags
+    - rags and cleaner
+    - flashlight
+    - GFCI or receptacle tester
+    - pull sheet
+    criteria:
+    - Records date, vehicle or location and each ladder size on the form and has both technicians sign
+    - Checks every ladder against every company checklist line (non-slip feet, clean surfaces, tight joints, secure
+      hardware, moving parts, spreaders, cracks or crushing, insulator pads, sharp edges, legible stickers, non-skid
+      steps) and marks each pass or fail
+    - Checks extension-ladder rung locks, rope, pulley, guide brackets and spur spikes
+    - Identifies painted ladders and metal ladders as not permitted for use around exposed electrical equipment under
+      company policy
+    - Inspects the ladder rack mounts, welds, rollers, locks and straps and records any damage
+    - Uncoils and inspects each extension cord for breaks, burns, cuts, cracks, tape or splices, and checks the plug,
+      ground pin, connector, strain relief and rating label
+    - Lists each cord number on the form and initials each cord inspected
+    - Red tags "DO NOT USE" and removes from service any failed ladder or cord, and cleans and re-inspects a ladder
+      that only failed for contamination
+    - Reports failed equipment or rack damage to the supervisor and writes replacements on the pull sheet
+    - States that a ladder is re-inspected after it is dropped, falls or comes loose, and that any tech may retire
+      an unsafe ladder at any time
+  - code: LT1-S23
+    title: Plan fall protection for an elevated task and deploy harness relief steps
+    category: Safety
+    critical: true
+    description: 'Before an elevated task, walk through the four phases of a fall (before the fall, arrest, suspension,
+      rescue), set up protection for people below, and, at ground level under trainer supervision, demonstrate deploying
+      harness relief steps and the actions to take while suspended, per company fall protection training and OSHA
+      prompt-rescue requirements (29 CFR 1910.140(c)(21); 1926.502(d)(20)).
+
+      '
+    equipment:
+    - inspected harness with relief steps installed
+    - lanyard
+    - training anchor allowing suspension only inches off the floor
+    - trainer spotter
+    - cones
+    - caution tape or barricade
+    - signs
+    - hard hat
+    - whistle
+    - phone
+    - written rescue plan or job safety sheet
+    criteria:
+    - Identifies the fall hazard and applies the order eliminate, guard, restrain, then arrest, including the 4-ft
+      general-industry trigger
+    - States the four phases of a fall and one planning question for each
+    - Confirms anchorage rating and the 18½-ft clearance for a 6-ft lanyard, or selects a different method
+    - Describes how the site manager is involved in the work and safety plan for an occupied space
+    - Sets up a controlled zone below the work with cones, tape, barricades or signs, keeps loose items off the platform,
+      and states that work stops if anyone enters the zone
+    - States that a spotter is required for interior lift work, especially during business hours
+    - Explains suspension trauma (blood pooling in the legs) and why minutes matter
+    - While suspended at ground level under supervision, deploys both relief steps, stands in them and keeps the legs
+      moving before calling for help
+    - Signals for help with a whistle or phone and states what to tell 911 (fall and suspension in a harness, and
+      for how long)
+    - States that untrained coworkers do not climb out to a victim, that rescue follows the plan, and that equipment
+      that arrested a fall is removed from service
+  - code: LT1-S24
+    title: Apply the company lockout/tagout procedure on a lighting circuit, including verification
+    category: Safety
+    critical: true
+    description: 'Following the company LOTO policy, identifies the equipment and every source, de-energizes, locks
+      and tags the breaker with a company personal lock and tag, performs the safety review, and verifies absence
+      of voltage at the fixture wearing the required gloves, then removes LOTO using the company removal sequence.
+
+      '
+    equipment:
+    - company personal lock and danger tags
+    - breaker lockout devices (assorted)
+    - wall-switch lock (optional)
+    - multi-lock hasp or group lockbox
+    - CAT III or higher DMM and proving unit
+    - rubber insulating gloves with leather protectors
+    - safety glasses
+    - Class E hard hat
+    - panel schedule
+    - portable work light
+    criteria:
+    - States the company rule to treat all wiring as live and names at least three causes of live wiring in a "dead"
+      fixture (other circuits, miswiring, battery backup, 24-hour circuits, back-fed neutral)
+    - Identifies the fixtures, every feeding circuit and any controls (time clock, contactor, automation) that could
+      re-energize them, and notifies the site contact
+    - Turns fixtures off at the normal control, then opens the breaker (or has a qualified person do it) while standing
+      to the side
+    - Locks out at the breaker, not the switch; uses a wall-switch lock only as an additional warning
+    - Completes the tag with name, date, time, company and description of work, and places a lock and tag on every
+      point the circuit can be energized
+    - Performs the safety review (breaker physically inoperative, battery packs and capacitors isolated or discharged)
+    - Tries the switch, returns it to off, then verifies absence of voltage on every conductor using live-dead-live
+      while wearing rubber gloves with protectors and eye protection, under direct supervision
+    - Stops and calls the supervisor if the breaker cannot be locked, voltage is found or the circuit behaves unexpectedly
+    - At completion, clears personnel and tools, checks for hazards, notifies affected persons, removes only own lock
+      and tag, and (if last off a group lock) notifies the supervisor
+    - States the forgotten-lock rule and that unauthorized lock removal results in severe discipline and probable
+      dismissal
+  - code: LT1-S25
+    title: Assess overhead and underground power-line hazards before site lighting work
+    category: Safety
+    critical: true
+    description: 'Before pole, sign or other exterior work, walks the site to identify overhead and underground lines,
+      applies the company clearance rules, plans equipment placement, barriers and a spotter, and confirms locate
+      requirements before any digging.
+
+      '
+    equipment:
+    - site drawings
+    - work order
+    - cones or portable barriers
+    - measuring wheel or rangefinder
+    - white marking paint or flags
+    - 811 ticket (or a mock ticket)
+    - PPE
+    criteria:
+    - Looks up and around every pole and sign in the work area, including into trees, and identifies all overhead
+      lines, service drops and communication lines
+    - Treats every line as energized and uncovered, and states the company 10-foot minimum for lines 50 kV and under
+    - States that lines above 50 kV must be shielded by the utility before work under them and that unknown voltages
+      are confirmed with the utility, not guessed
+    - Plans truck position, boom swing and long-object handling to keep the required clearance for the whole job,
+      or stops and calls the supervisor
+    - Sets a clearance boundary with cones or barriers and assigns a spotter whose only job is watching clearance
+      (spot, not guide)
+    - Briefs the crew on line locations and the contact response (stay on equipment, warn others, jump clear and shuffle
+      only if necessary, call 911 and the utility)
+    - Identifies pad-mount transformers and keeps work and digging clear of them
+    - For any digging (trench, base, anchor, ground rod), states that an 811 locate is required before work, white-lines
+      the area, reads the color code, and plans hand-digging inside the tolerance zone
+    - States that private site lighting circuits are not marked by 811 and identifies the drawings or private locate
+      needed
+  - code: LT1-S26
+    title: Perform the company electrical pre-job check of tools, cords, ladders and hot gloves
+    category: Safety
+    critical: false
+    description: 'Inspects the electrical tools, extension cords, ladder and hot gloves for a lighting service call
+      against company rules and removes defective items from service.
+
+      '
+    equipment:
+    - extension cords
+    - power tools
+    - fiberglass ladder
+    - rubber insulating gloves with liners and leather protectors
+    - red tags
+    - Class C fire extinguisher
+    criteria:
+    - Inspects each extension cord for breaks, burns, cuts, cracks and plug condition, and red-tags and cuts the ends
+      off any cord that fails
+    - Confirms tools are grounded (intact ground pin) or double insulated and that cord ratings match the tool
+    - Selects a non-conductive ladder for electrical work and explains why rubber feet on a metal-rail articulating
+      ladder are not shock protection
+    - Inspects and air-tests rubber insulating gloves, checks the test date, and assembles liner, rubber glove and
+      leather protector correctly
+    - States the company hot glove rule (wear them on any circuit you have not personally locked and tagged) and that
+      damaged gloves are reported to the office immediately
+    - Locates the Class C extinguisher on the truck and confirms 3 feet of clear working space in front of the panel
+  - code: LT1-S27
+    title: Perform a heat or cold job-start check
+    category: Safety
+    critical: true
+    description: 'At the start of an outdoor or unconditioned-space job in hot or cold weather, checks the conditions,
+      the crew''s water, clothing and PPE, sets the break and buddy-check plan, and states the warning signs and first
+      aid for heat or cold illness, following the company heat and cold practices taught in LT1-C11.
+
+      '
+    equipment:
+    - weather or OSHA-NIOSH Heat Safety Tool app
+    - heat index and wind chill charts
+    - water cooler and cups
+    - sunscreen
+    - full-brim hard hat or sunshade
+    - UV-rated safety glasses
+    - insect repellent
+    - winter layers
+    - hard-hat liner
+    - liner and insulated gloves
+    - spare dry gloves and socks
+    - ice cleats
+    - pre-task plan form
+    criteria:
+    - Looks up the current and forecast heat index (adding for direct sun) or temperature and wind chill, and states
+      the risk level out loud
+    - States the work that will be in full sun, aloft, in a hot attic, or exposed to wind, and schedules the hardest
+      exposed work for the cooler part of the day where possible
+    - Confirms enough cool water is on the van for the whole crew for the whole day (heat) or warm, non-alcoholic
+      drinks and a heated warm-up space (cold)
+    - 'Heat: states the drinking plan (about a cup every 15–20 minutes), the shade or AC rest location and break schedule,
+      and identifies any new or returning worker who needs a gradual acclimatization schedule'
+    - 'Heat: checks sun protection (full-brim hard hat or sunshade, sleeves, SPF 30+ sunscreen, UV-blocking glasses)
+      and insect repellent for dusk work'
+    - 'Cold: checks C-O-L-D layering with a non-cotton base layer, hard-hat liner that does not affect hard-hat fit,
+      liner and insulated gloves, waterproof boots, and spare dry gloves and socks'
+    - 'Cold: checks the walking surfaces, vehicle steps, lift platform and ladder for ice and snow, confirms wind
+      is within the lift''s rating, and confirms the harness is refit over winter layers'
+    - Sets a buddy-check plan (who checks whom, and how often) for signs of heat illness or frostbite
+    - Correctly states the signs that separate heat exhaustion from heat stroke (or frostbite and hypothermia) and
+      the first aid for each, including when to call 911 and when not to give drinks
+    - States that any crew member can stop work for heat or cold, and records the conditions and controls on the pre-task
+      plan
+  - code: LT1-S28
+    title: Handle, label and load spent lamps, ballasts, batteries and chemicals for transport
+    category: Safety
+    critical: false
+    description: 'At the end of a service call (real or staged), uses the company HazCom practices to read an SDS
+      and label a secondary container, then packs, separates, counts and secures spent lamps, removed ballasts, exit
+      and emergency batteries and materials of trade in the company vehicle, and walks through the company leaking-ballast
+      procedure.
+
+      '
+    equipment:
+    - SDS binder or SDS app
+    - a chemical product with GHS label
+    - small secondary container and blank label
+    - lamp recycling boxes
+    - sealed broken-lamp container
+    - closed ballast container
+    - battery bags or electrical tape
+    - nitrile or rubber chemical-resistant gloves
+    - safety glasses
+    - heavy plastic bags for double-bagging
+    - cargo straps
+    - service order
+    criteria:
+    - Locates the SDS for an assigned product in the shop binder or app and finds the hazard, first-aid, spill and
+      PPE sections
+    - Reads the product label and states the signal word, pictograms and required PPE
+    - Transfers or simulates transferring the product into a smaller container and labels it with the product name
+      and hazards (no drink bottles)
+    - Wears gloves and safety glasses to handle lamps and ballasts
+    - Packs spent lamps intact in closed, sturdy boxes without taping, breaking or crushing them, and places any broken
+      lamp debris in the designated sealed container
+    - Keeps "No PCBs" ballasts separate from ballasts without a "No PCBs" label and records the count of each on the
+      service order
+    - Tapes the terminals of or individually bags each battery, keeps batteries away from metal tools, and sets aside
+      any damaged or swollen lithium battery and reports it
+    - Secures all containers, the gas can and aerosol cans upright and closed in the vehicle so they cannot tip, slide
+      or be crushed
+    - States that lamps, ballasts and batteries never go in the company's or the customer's dumpster and come straight
+      back to the shop
+    - 'Walks through the leaking-ballast procedure: stop, keep people away, notify the office and site contact, get
+      instructions, LOTO and verify dead, chemical-resistant gloves and eye protection, double-bag with the gloves
+      in the outer bag, have the site contact inspect the fixture, and report to the supervisor who handles PCB waste'
+    - States that preparing or signing DOT hazmat shipping papers is done only by staff with DOT hazmat training

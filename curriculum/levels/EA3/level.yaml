@@ -163,3 +163,35 @@ skills:
       - Wears PPE appropriate for the test until absence of voltage is verified
       - Tests the meter on a known source, tests phase-to-phase and phase-to-ground on every conductor, then retests the meter
       - Considers induced voltage and stored energy and applies grounding equipment where required by the procedure
+  - code: EA3-S09
+    title: Complete the company Energized Electrical Work Permit for a scenario
+    category: Safety
+    critical: true
+    description: 'Given an energized-work request scenario, evaluates the justification, completes Part II of the
+      company Energized Electrical Worksheet and the Energized Work Checklist, and either returns the request to the
+      requester or presents it for approval with a job briefing.
+
+      '
+    equipment:
+    - blank company Energized Electrical Worksheet and Energized Work Checklist
+    - scenario sheet with one-line or panel information and arc-flash label
+    - NFPA 70E tables
+    - PPE catalog
+    criteria:
+    - Identifies whether the task is justified energized (greater hazard or infeasibility) and rejects convenience,
+      schedule or customer preference, proposing alternatives (outage, temporary lighting, de-energizing only affected
+      fixtures, after hours)
+    - Identifies when the task is permit-exempt (testing, troubleshooting, voltage measuring) while still requiring
+      PPE and risk assessments
+    - Writes a step-by-step job procedure and the safe work practices to be used
+    - Records the shock risk assessment with correct limited and restricted approach boundaries for the voltage
+    - Records the arc-flash risk assessment from the label (incident energy at working distance or PPE category) and
+      the arc-flash boundary, using current terms for the form's "flash hazard" fields
+    - Selects shock and arc-flash PPE (rated gloves with protectors, arc-rated clothing at or above the incident energy,
+      face protection, insulated tools and blankets)
+    - Describes how unqualified persons are kept out and documents the job briefing topics
+    - Answers the "can this be done safely" question and states that a NO returns the permit to the requester
+    - Lists the four Part III approval signatures and completes the checklist fields (maximum voltage, number of sources,
+      PPE, named workers, start and completion time) noting it is valid only for the named workers and day issued
+    - States company rules that hot panel work is never done alone and requires a supervisor-approved written plan
+      before starting

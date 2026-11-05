@@ -36,6 +36,9 @@ points you must know:
 - A **competent person** inspects the scaffold for visible defects before each shift and after
   anything that could affect it.
 - Workers who erect, move or use the scaffold must be **trained** in its hazards.
+- **Company practice:** we use a scaffold only when a lift or ladder can't do the job safely, and
+  only people trained by a competent person erect, move or take one down. LT1 technicians do not
+  erect scaffolds. Anyone whose work shows they've lost the skill is retrained.
 - Each scaffold and component must support its own weight plus **at least four times** the maximum
   intended load. Never exceed the manufacturer's rated load – people, tools and material together.
 - **Fall protection** (guardrails or personal fall arrest) is required above 10 ft. Many

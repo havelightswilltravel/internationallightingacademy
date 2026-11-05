@@ -492,3 +492,224 @@ skills:
     - Has everyone climb down and secures material before moving, pushes at the base, and relocks all casters and
       re-checks level before reuse
     - Applies LOTO and verifies absence of voltage at the fixture before working on it from the scaffold
+  - code: LT3-S24
+    title: Inspect a web sling and shackle and confirm the working load limit for a pole lift
+    category: Rigging
+    critical: true
+    description: 'Inspect the company pole-removal rigging (web sling and screw-pin anchor shackle, the shop "clevis")
+      before use, remove defective gear from service, estimate the pole assembly weight and confirm the rigging''s
+      WLL in the choker hitch is greater than the load.
+
+      '
+    equipment:
+    - eye-and-eye polyester web sling (6, 8 or 10 ft) with legible tag
+    - rated screw-pin anchor shackle (3/4 in) with manufacturer and WLL markings
+    - corner protectors or wear sleeve
+    - tape measure
+    - pole or fixture spec sheet (if available)
+    - Do Not Use tag
+    - gloves
+    criteria:
+    - Confirms the shackle is a rated lifting shackle marked with manufacturer and WLL and rejects an unmarked hitch
+      clevis
+    - Reads the sling tag and identifies the rated capacity for vertical, choker and basket hitches
+    - Inspects the full sling length, both faces and edges, and identifies all OSHA/ASME B30.9 removal conditions
+      present (tag, cuts, burns, melting, stitching, abrasion, knots, fittings)
+    - Inspects the shackle bow, pin and threads for markings, deformation, cracks, wear, heat damage and full pin
+      engagement
+    - Removes a defective sling or shackle from service (cut or tagged "Do Not Use") and reports it
+    - Estimates the pole assembly weight from spec data or volume x density, including base plate, heads and arms,
+      and rounds up
+    - States the choker-hitch WLL as the limiting value and confirms the sling, shackle and lifting machine each exceed
+      the estimated load
+    - Identifies where to choke the pole (above the center of gravity, below the arms or tenon) and how edge protection
+      will be applied
+  - code: LT3-S25
+    title: Remove a pole light using the company procedure
+    category: Rigging
+    critical: true
+    description: 'As part of a crew, take down a damaged or retired pole light following the company procedure: survey
+      and plan, barricade, LOTO and verify, disconnect, rig, remove the anchor hardware, lift and lay down the pole,
+      make the base safe, restore power and check the rest of the site lighting.
+
+      '
+    equipment:
+    - rated lifting equipment assigned by the supervisor (with qualified operator)
+    - web sling (6, 8 or 10 ft) and rated 3/4 in shackle
+    - tag line (non-conductive near power lines)
+    - very large adjustable wrench and breaker bar (2 in conduit)
+    - penetrating oil and wire brush
+    - LOTO kit
+    - voltage tester and proving unit
+    - wet-location wire connectors, electrical tape, plastic cup
+    - cones and caution tape
+    - blocking (dunnage)
+    - hardware bags
+    - MEWP with harness and lanyard (if heads are removed aloft)
+    - hard hat, safety glasses, gloves, high-visibility vest, safety-toe boots
+    criteria:
+    - Photographs the site and damage, checks overhead lines and confirms the required clearance (10 ft from lines
+      50 kV and under for lifts; power company shielding above 50 kV; Subpart CC distances for cranes and boom trucks)
+      before setup
+    - States the estimated load, the assigned lifting machine, the laydown area and crew roles in a pre-lift talk;
+      never uses a MEWP platform or rail as a lifting point
+    - Barricades a fall zone larger than the pole height and keeps vehicles and the public out
+    - Locks and tags the pole circuit and verifies absence of voltage at the hand hole (live-dead-live), treating
+      any damaged or exposed conductor as live until tested
+    - Records fixture make, model and manufacturer before disassembly and, if removing heads aloft, stays tied off
+      to the platform anchor
+    - Disconnects the pole leads at the hand hole and frees the supply conductors
+    - Chokes the sling above the center of gravity with edge protection, pin through the eye and bow on the running
+      part, hook latch closed, and takes a light strain before removing the last nut
+    - Removes the anchor nuts and washers with a safe stance and wrench technique, bags them and takes them
+    - Lifts straight up off the bolts on the designated signal person's commands, controls the load with a tag line
+      and never stands or reaches under the suspended load
+    - Lays the pole down on blocking, stays clear of the butt, and releases rigging only after the load is set
+    - Remakes feed-through splices with wet-location connectors, caps each dead-end conductor, then tapes, cups and
+      tapes the ends, and protects the anchor bolt threads
+    - Removes LOTO per company procedure, re-energizes and checks every other outdoor light on the site, and reports
+      anything not working
+    - Stops the lift and calls the supervisor when conditions differ from the plan
+  - code: LT3-S26
+    title: Measure and record a pole base bolt pattern and fixture-mount pattern
+    category: Exterior & Site Lighting
+    critical: false
+    description: 'Capture the information needed to order a replacement pole and fixtures: base bolt pattern, fixture-mount
+      pattern, pole height, width and color, and fixture data, using a sketch with measurements and photos.
+
+      '
+    equipment:
+    - tape measure
+    - caliper or bolt gauge
+    - magnet
+    - camera or phone
+    - job form or record sheet and pencil
+    - gloves
+    criteria:
+    - Confirms the base wiring is capped and taped, or which conductors are energized, before working at the base
+    - Counts the anchor bolts and measures adjacent center-to-center using the same-edge method
+    - Measures diagonal center-to-center and checks it is about 1.41 x the adjacent dimension on a square pattern
+      (records both sides on a rectangular pattern)
+    - Measures bolt diameter at the threads (not the nut) and the bolt projection above the concrete, and notes leveling
+      nuts and damaged bolts or concrete
+    - Measures and sketches the fixture-mount pattern (tenon OD and height, or arm hole spacing, hole size and distance
+      from the pole top) and the number and orientation of heads
+    - Measures overall pole height and shaft width at base and top, and records square or round, straight or tapered,
+      material and color
+    - Records fixture make, model or catalog number, manufacturer, wattage and voltage and whether one or both fixtures
+      need replacement
+    - Produces a not-to-scale sketch with all measurements and photos with the tape measure visible, and takes good
+      fixtures and mounting hardware back
+  - code: LT3-S27
+    title: Perform the company minimum lift inspection and set up a boom or scissor lift
+    category: Aerial Work Platforms
+    critical: true
+    description: 'Before use, inspect a boom or scissor lift to the company minimum list and the manufacturer''s checklist,
+      red-tag a lift that fails, and set it up for work following company tie-off, spotter and power-line rules.
+
+      '
+    equipment:
+    - boom or scissor lift with operator's manual
+    - manufacturer pre-use checklist
+    - red "Out of Service" tag
+    - full-body harness and lanyard (boom; scissor if required by manual or site)
+    - trauma (relief) straps
+    - cones or barricade
+    - hard hat
+    - safety glasses
+    criteria:
+    - Confirms the operator's manual is on the machine and that the trainee is qualified and authorized for that lift
+      type
+    - Checks battery and connections, hydraulics (leaks, hoses, cylinders, valves), wiring and connectors, rails,
+      midrails, toe boards, gates or chains, ladder steps, decals and a current annual inspection tag
+    - Function-tests ground, platform and emergency controls, including each function on each panel and emergency
+      lowering
+    - Red-tags and reports a lift that fails any item and does not use it
+    - Performs a workplace inspection (surface, slope, holes, drop-offs, overhead obstructions and power lines) and
+      confirms 10 ft clearance from lines 50 kV and under, or calls the supervisor
+    - Sets brakes and, if equipped and required, outriggers on solid ground or pads before raising
+    - In a boom, inspects and dons a harness and clips to the platform anchor before any operation; in a scissor,
+      closes the chain or gate immediately and stays inside the rails
+    - Arranges a spotter and barricades for interior work during business hours
+    - Lowers the platform before traveling, faces the direction of travel and never travels across the site elevated
+  - code: LT3-S28
+    title: Perform and document a 90-minute emergency lighting inspection with the company spreadsheet
+    category: Emergency Lighting
+    critical: true
+    description: 'Carry out the company 90-minute emergency lighting inspection procedure on a set of exit signs,
+      bug eyes, combo units and battery-backup fixtures, and complete the company 90-minute inspection spreadsheet,
+      map and photos so the record meets NFPA 101 annual-test documentation requirements.
+
+      '
+    equipment:
+    - company 90-minute inspection spreadsheet
+    - site floor plan
+    - timer
+    - flashlight
+    - ladder or remote test wand
+    - camera or phone
+    - failure tags
+    - non-contact tester and meter
+    - PPE for operating breakers per NFPA 70E
+    criteria:
+    - Checks in with the site manager, obtains a floor plan or layout, agrees on timing and warns occupants before
+      turning off any breaker
+    - Walks every unit before the test, checks each charge indicator, and has power verified at any dark unit (power
+      good = bad unit; no power = circuit write-up)
+    - Turns off only breakers labeled for emergency lighting, wearing the required PPE; stops and writes it up for
+      an electrician if the breakers are not labeled
+    - Starts the 90-minute timer immediately, records the start time and confirms every charge indicator went out
+      (identifies a missed breaker if one stays lit)
+    - Writes up and tags units that do not light immediately, identifying the failed component (battery, lamp/head,
+      charging board)
+    - Completes every spreadsheet column for each unit (location, description, height, model/MFG, housing color, letter
+      color, LED, pass/fail, failed component, battery or ballast code, picture number, notes)
+    - Checks every unit at 90 minutes, marks units that did not last the full time as failed and correctly attributes
+      them to the battery after confirming the indicator was lit beforehand
+    - Photographs each failure with a full elevation picture and a close-up of the model and date-code label, and
+      records the picture numbers
+    - Completes the footer (panel voltage 120 or 277, totals and voltage by unit type, surveyed by, title, date) and
+      the test start and end times
+    - Restores every breaker, confirms every unit returns to charging, tells the manager batteries are recharging,
+      and turns in the form, marked-up map and photos the same day
+    - Does not open any unit during the test; any repair is done later under LOTO with live-dead-live verification
+      and the battery disconnected
+  - code: LT3-S29
+    title: Complete an exterior lighting survey with the company survey form
+    category: Inspection & Survey
+    critical: false
+    description: 'Survey a site''s exterior lighting (poles, wall packs, canopies, floods, signs) using the company
+      Lighting Survey Worksheet as a checklist, recording every field needed to quote a retrofit or fixture replacement
+      and to document lights out, damage and controls problems.
+
+      '
+    equipment:
+    - company Lighting Survey Worksheet
+    - site map or aerial printout
+    - camera or phone
+    - tape measure or measuring wheel
+    - laser distance meter
+    - caliper or tape for pole sizes
+    - binoculars
+    - flashlight
+    - high-visibility vest
+    - cones
+    criteria:
+    - Wears high-visibility clothing in parking areas, cones the work vehicle, and keeps away from damaged poles,
+      open hand holes and exposed wiring until made safe
+    - Completes the header (job name, address, date, city/state, location number, surveyed by) and numbers every pole
+      and area on the site map
+    - Records one row per fixture group with location, fixture type, existing lamp type and watts, fixture height,
+      fixture quantity and pole quantity
+    - Records mounting type and size, square or round pole, tapered pole size at base and top, and can size where
+      applicable
+    - Records voltage from a label or panel schedule, or marks it "not verified" rather than guessing; opens nothing
+      energized
+    - Notes lights out, day-burners, cycling, lens and gasket damage, aiming, pole and base condition and control
+      devices in Comments, with matching photo numbers
+    - Completes General Comments (access, lift needs, traffic or hours restrictions, control locations) and the totals,
+      including number out when surveyed
+    - Reports any hazard found (leaning or damaged pole, missing hand-hole cover, exposed wiring) to the supervisor
+      and customer the same day
+    - Turns in a sheet complete enough for the office to quote without a return trip, with customer details kept on
+      the work order only

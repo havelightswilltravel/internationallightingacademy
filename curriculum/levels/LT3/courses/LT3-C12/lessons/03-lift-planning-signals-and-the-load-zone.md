@@ -36,8 +36,17 @@ If the lifting machine is a crane or boom truck covered by **OSHA 29 CFR 1926 Su
 operator must be qualified or certified for it, the rigger must be qualified, and the power-line rules
 are stricter than for a lift: unless the line voltage is confirmed and a larger table distance
 applied, **no part of the crane, load or rigging may come within 20 ft of a line up to 350 kV**
-(1926.1408). Use the rule that gives the most room. Our own 10 ft rule for lifts is the minimum, not
-the target.
+(1926.1408). With the voltage confirmed by the utility, the minimum distances in **Table A of
+1926.1408** apply (for example, 10 ft up to 50 kV and 15 ft over 50 to 200 kV). Use the rule that gives
+the most room. Our own 10 ft rule for lifts is the minimum, not the target.
+
+**Long objects near lines.** A pole is long, and it swings and tips. Plan the whole path, not just the
+starting point: picture the pole at full height, during lay-down and on the truck, and keep **every
+part of it** (and the boom, load line and sling) outside the clearance distance the whole time. A
+**tag-line holder** is touching the load: if the pole or boom contacts a line, the person on the tag
+line is in the path to ground. Use a dry, non-conductive tag line, keep it as long as practical, and
+stop the lift if the load drifts toward a line. Our full overhead and underground line rules, and
+what to do after a contact, are in LT3-C05 Lesson 5 (Overhead & Underground Power Lines on Site Work).
 
 A MEWP still has a job here: technicians use one to reach the heads and the top of the pole. In the
 boom basket you are **tied off to the platform anchor at all times**, never to the pole you are

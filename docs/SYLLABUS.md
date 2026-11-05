@@ -39,6 +39,7 @@ Passing a level requires **all** of:
 - **LT1-C08 Incandescent & Halogen Systems** — lamps, bases and ordering codes, sockets and socket eyes, thermal protectors in recessed cans (IC/non-IC), dimmers, halogen handling, troubleshooting, LED conversion and disposal.
 - **LT1-C09 Outlets & Switches** — device types and ratings (GFCI, AFCI, TR, WR, IG), terminations, inspecting for damage, safe like-for-like replacement, GFCI testing, tester limits, when to write it up.
 - **LT1-C10 Parts Knowledge & Sourcing** — reading lamp/ballast/driver labels and ordering codes, cross-referencing, spec sheets, photos and measurements, getting samples, supply houses and reps, van stock, warranty/RMA, avoiding wrong-part callbacks.
+- **LT1-C11 Working Safely in Heat, Cold & with Hazardous Materials** — heat illness prevention and response, sun and insects, cold stress and cold injuries, winter slips and falls, lifts and vehicles in winter, hazard communication (SDS, labels) and DOT awareness for lamps, ballasts and batteries.
 
 Hands-on skills: PPE inspection & donning; ladder inspection/setup; DMM live-dead-live verification; LOTO application; fluorescent relamp; ballast replacement (supervised); universal waste handling; completing a work order.
 
@@ -54,6 +55,7 @@ Hands-on skills: PPE inspection & donning; ladder inspection/setup; DMM live-dea
 - **LT2-C09 Track Lighting** — H/J/L systems, circuits, live-end feeds and connectors, track heads (incandescent, ballasted, LED, low-voltage), load limits, troubleshooting, parts compatibility.
 - **LT2-C10 Low-Voltage Lighting Systems** — MR16/MR11/PAR36, magnetic vs electronic transformers, loading, MLV/ELV dimming, low-voltage voltage drop, cable/rail and landscape systems, LED MR16 compatibility, Class 2.
 - **LT2-C11 Breakers & Overcurrent Protection for Technicians** — ratings and types (GFCI, AFCI, SWD/HID), trip curves, real vs nuisance trips and weak breakers, panel directories, the 80% rule, overheating signs, the dead-front rule and electrician write-ups.
+- **LT2-C12 Project Readiness: Shifting from Service Calls to Projects** — why projects differ from troubleshooting, the project specifics sheet section by section, pre-kickoff questions and prep, running the project day (production, quality, photos, customer communication), closeout and lessons learned from past projects.
 
 Hands-on skills: safe voltage measurement on a three-phase panel; identifying/tracing a circuit; Type B TLED bypass conversion; HID ballast/ignitor replacement; systematic troubleshooting of a non-working fixture; locating fixtures/circuits from a lighting plan; installing a fixture whip and splices.
 
@@ -69,6 +71,7 @@ Hands-on skills: safe voltage measurement on a three-phase panel; identifying/tr
 - **LT3-C09 Neon & Cold-Cathode Signage** — how neon works, neon transformers and secondary ground-fault protection, GTO, electrode boots, PK housings, standoffs, exposed vs channel neon, high-voltage safety, safe isolation/split-half methods, LED neon retrofits.
 - **LT3-C10 LED Signage & Specialty LED Systems** — sign modules and Class 2 power supplies, connections, tape/cove/linear, RGB controllers, wet locations, voltage drop, troubleshooting, power-supply sizing and module matching.
 - **LT3-C11 Data & Low-Voltage Communications Cabling** — Cat5e/6/6A, T568A/B, crimping and punch-down, testers, PoE, lighting control networks, separation and labeling, troubleshooting.
+- **LT3-C12 Rigging & Pole Light Removal** — web slings and shackles ("clevis"), hitches, working load limits, sling angles and load weight, lift planning, signals and the load zone, the company pole-light removal procedure, and measuring pole base and fixture bolt patterns.
 
 Hands-on skills: driver replacement and matching; 0–10V dimming troubleshooting; occupancy sensor install and adjustment; emergency driver install and test; photocell/contactor troubleshooting; MEWP pre-use inspection and operation (after authorized training).
 

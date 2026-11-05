@@ -342,3 +342,53 @@ skills:
     - Checks ballast winding continuity, voltage-tap selection and socket condition de-energized
     - Identifies the failed component, states that a fresh lamp is installed with any new ballast kit, and documents
       readings and escalates a repeat fuse failure
+  - code: LT2-S21
+    title: Prepare for a project from a project specifics sheet
+    category: Project Readiness
+    critical: false
+    description: Given a project specifics sheet, survey and service order for a retrofit or fixture-replacement project,
+      the technician prepares for kickoff without being reminded, listing the questions, materials, tools, access
+      and safety needs before leaving the shop.
+    equipment:
+    - project specifics sheet, survey and service order (sample or real)
+    - Project Specifics Sheet Template and Project Kickoff Checklist (library)
+    - project vehicle or staged load-out area
+    criteria:
+    - Reads the specifics sheet, survey and service order and explains in their own words the scope, special instructions
+      and what "done" looks like
+    - Compares survey counts with the material list and identifies any mismatch to report
+    - Lists pre-kickoff questions covering people, schedule, access and security, site conditions, lifts, material,
+      tools, special fixture instructions, shutdowns, recycling and reporting, and answers those the packet already
+      covers
+    - Identifies the site contact, the supervisor contact and the after-hours backup
+    - Builds a load-out list with a drill, bits, meter and lockout kit for every crew member, plus spare parts, protection,
+      cleaning and recycling supplies
+    - Identifies lift or ladder needs by area, including fit, storage and any site lift rules such as spotters
+    - States the safety needs for the job (lockout and live-dead-live verification on every circuit, barricades, lift
+      inspection, hazard survey if ceilings are disturbed, work-hour and driving limits)
+    - Inspects new material for shipping damage and reports damage with photos before leaving the shop
+    - States how emergency fixtures will be handled and does not plan to alter them without direction
+  - code: LT2-S22
+    title: Document a project day
+    category: Project Readiness
+    critical: false
+    description: During a project shift (real or simulated), the technician records counts, photos, issues and customer
+      communication, and submits a complete daily recap by the method and time on the specifics sheet.
+    equipment:
+    - service order and survey
+    - daily recap sheet (Project Kickoff Checklist section D)
+    - camera or phone
+    - recycle boxes, labels and marker
+    criteria:
+    - Takes before photos of each work area, including existing damage, and after photos that match them
+    - Records installed counts by area (fixtures or kits, drivers or ballasts, disconnects, sockets, extra hardware)
+      and any parts used from truck stock
+    - Compares production with the bid expectation and writes down specific reasons if behind
+    - Marks and lists skipped or problem fixtures with location and reason
+    - Corrects the survey where quantities, types or areas differ
+    - Records damage found or caused with photos and the name of the manager informed
+    - Records customer comments and out-of-scope requests and passes requests to the supervisor rather than doing
+      the work
+    - Records recycling (boxes or pallets, PCB ballast count kept separate, location) and photographs pallets
+    - Talks with the site contact at the end of the shift about what was done and what is next
+    - Submits a clear, legible recap (done, remaining, counts, problems, plan for next shift) on time

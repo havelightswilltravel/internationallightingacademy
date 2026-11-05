@@ -249,3 +249,69 @@ each item, and correct the content if needed.
 - [ ] **LT1-C06 L5 and LT5-C03 L6:** DEHP reporting described generally; universal-waste one-year storage limit; asbestos (pre-~1981 buildings, 29 CFR 1926.1101); EPA RRP lead rule scope.
 - [ ] **LT5-C06 L5:** cleaner compatibility guidance (manufacturer instructions govern).
 - [ ] **LT4-C02 L2:** the EUI example, and the note that ENERGY STAR whole-building EUI uses kBtu/ft²·yr.
+
+---
+
+# Round 4: company training materials (November 2026)
+
+Built from the company's own fall protection, LOTO and electrical safety, aerial lift, rigging,
+heat and cold, hazmat, emergency lighting inspection, survey, project specifics and safety meeting
+material. Customer and employee names were removed. Where an older company document conflicts with
+a current requirement, the lessons teach the current requirement. **Please confirm each item below,
+and update the source documents where noted.**
+
+## Fall protection, ladders and extension cords (LT1-C02)
+- [ ] **Trigger height:** the decks say 6 ft; the handbook says over 4 ft. The lessons teach 4 ft for general industry (1910.28) and 6 ft for construction.
+- [ ] **Stepladders:** the decks say both 22 ft and 20 ft. The lessons teach 20 ft maximum (ANSI A14).
+- [ ] **Post-rescue positioning:** the old practice of moving the worker from kneeling to sitting to lying over 30–40 minutes has been dropped in newer guidance. The lessons say: treat it as a medical emergency and follow 911 instructions. **Have a medical or first-aid reviewer confirm.**
+- [ ] **"Controlled access zone banned by OSHA":** this is not accurate; the CAZ still exists in 1926.502(g). The company's zone is taught as protecting people below only.
+- [ ] **Fixed ladders over 24 ft:** a ladder safety system or PFAS is required (1910.28(b)(9)); cages are being phased out.
+- [ ] **Ladder repair:** only by the manufacturer's method, never in the field.
+- [ ] **Overlap:** existing skill LT1-S02 and new LT1-S22 both cover ladder inspection. Consider merging them.
+
+## LOTO and electrical safety (LT1-C01, LT1-C06, EA3-C05, LT3-C05)
+- [ ] **Lockout at the light switch:** the handbook allows it. The lessons lock out at the breaker or disconnect only; a switch lock is just an extra warning.
+- [ ] **Cutting hot and neutral live and fitting an in-line disconnect:** the handbook describes it. The lessons treat it as qualified-person energized work under the permit only, never LT1 work.
+- [ ] **Arc-rated clothing:** the handbook requires it only at 4 cal. NFPA 70E requires it anywhere inside the arc-flash boundary (1.2 cal/cm²). The lessons also apply "never alone" to all energized panel work.
+- [ ] **Insulated gloves:** the handbook says above 300 V. The current rule is rated gloves for exposure at 50 V or more inside the restricted approach boundary.
+- [ ] **Each worker's own lock:** the handbook says "each employee or crew." OSHA 1910.147(f)(3) requires a personal lock for each exposed worker.
+- [ ] **Energized Electrical Work Permit form:** it uses older NFPA 70E terms ("flash hazard analysis," "flash protection boundary," "wiremen"). **Update the form** to arc-flash risk assessment, arc-flash boundary and named workers.
+- [ ] **Overhead and underground citations:** the old 1926.955/.956 references were replaced with 1910.333(c)(3), 1926.416(a), 1926.1408 and 1926.651(b).
+- [ ] **Vendor LOTO test answer key is wrong on four items** (Q4, Q6, Q7 and Q10 should be False). **Do not reuse that test as written.**
+- [ ] **Overlap:** existing skill LT1-S04 and new LT1-S24 both cover LOTO. Consider merging them.
+
+## Aerial lifts and rigging (LT3-C06, LT3-C12)
+- [ ] **Lines over 50 kV:** company policy requires the utility to shield the lines (stricter than OSHA, kept). OSHA's figure is shown for reference.
+- [ ] **"Site supervisor picks a tie-off point if the lift has none":** conflicts with ANSI A92.22 and manufacturer rules. The lessons say never tie off outside the platform.
+- [ ] **Hand signals:** the lessons teach standard signals by default (1926 Subpart CC).
+- [ ] **Securing base wiring:** "tape, a cup and more tape" is kept as the outer layer. Splices that feed other poles are remade with wet-location connectors, and dead ends are capped first.
+- [ ] **What lifts the pole:** the company material doesn't say. The lessons say "rated lifting equipment assigned by the supervisor." **Confirm what the company actually uses.**
+- [ ] **Bolt sizes:** "usually 1/2 or 3/4 in" now notes that larger poles use 1 in or more, so always measure.
+
+## Heat, cold and hazmat (LT1-C11)
+- [ ] **Updated from older documents:**
+  - MSDS → SDS (16 sections)
+  - PCB ballasts dated by 1979 (not 1978), and any leak treated as stop-work (not judged by oil color)
+  - nothing by mouth for a confused or unconscious heat victim
+  - heat stroke victims may still sweat
+  - SPF 30+
+  - UV index 3+
+  - frostbite rewarming water at about 99–104 °F
+- [ ] **The cold material was U.S. Army guidance;** it was adapted for civilian crews.
+- [ ] **The 2024 "Hazmat" training was HazCom awareness** (the spreadsheet is a sign-in log). The lessons add DOT awareness only.
+- [ ] **Regulatory status:** the 2024 OSHA heat rule was still a proposal, and state heat rules vary. Recheck yearly.
+
+## Emergency lighting inspections and surveys (LT3-C04, LT5-C06, LT2-C08)
+- [ ] **Self-diagnosing units:** the company note says they need no 90-minute test. The lessons follow NFPA 101 (only if they run the tests automatically, with monthly indicator checks and records kept; the AHJ decides).
+- [ ] **"All that did not last are batteries":** the lessons check the charge indicator first and replace units roughly 10+ years old.
+- [ ] **Turning off EM breakers:** qualified, authorized techs only, in the PPE NFPA 70E requires.
+- [ ] **Inspection spreadsheet:** add NFPA 101 record fields (test start and end times, corrective action, retest date) to the company form.
+- [ ] **Exterior survey form:** it's a relamp-era form (fluorescent and MH lamp tallies); the lessons use the tallies for sizing retrofits. **Consider updating the form.**
+- [ ] **Interior survey form:** not received yet; a placeholder checklist is marked for replacement.
+- [ ] **3-way diagram:** the source is a third-party copyrighted drawing (2006). It is described in our own words, not copied.
+
+## Project readiness (LT2-C12)
+- [ ] **Exposed splices on cooler retrofits:** the lessons require splices inside an enclosure (NEC 300.15). Taping over exposed wire nuts is not a fix.
+- [ ] **Spotters:** follow any site rule stricter than ours, or stop and escalate.
+- [ ] **Spent lamp labels:** the old checklist says "hazardous waste"; lamps are normally universal waste (40 CFR 273). The lessons say to label as the work order or recycler requires. **Confirm with the hazmat owner.**
+- [ ] **Real production rates, bid rates and per diem figures** from the sheets were not copied (example figures only).

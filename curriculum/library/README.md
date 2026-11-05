@@ -22,6 +22,10 @@ library/
   emergency/     emergency fixtures, exit signs, testing
   exterior/      poles, photocells, underground circuits, GFCI
   electrical/    branch-circuit problems: inrush, voltage drop, open neutrals
+  field-procedures/       company troubleshooting procedures (from the Master Troubleshooting Guide)
+  inspection-checklists/  ladder, extension cord, harness, emergency lighting and exterior survey checklists
+  project-readiness/      project specifics sheet template and project kickoff checklist
+  toolbox-talks/          ready-to-present safety meeting topics (from the company's monthly meetings)
 ```
 
 The folder name **is** the category. Use lowercase, hyphenated folder and file names
