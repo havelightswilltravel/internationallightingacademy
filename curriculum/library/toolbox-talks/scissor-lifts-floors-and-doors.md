@@ -44,8 +44,9 @@ door frame or rolls into a customer. Most of our scissor-lift problems are about
 
 ## What happened
 
-Our crews have left cracked floor tile behind a scissor lift, and we have been blamed for damaged doors we did not damage because nobody photographed them
-first. Both are avoidable with a few minutes of planning and a phone camera.
+Our crews have left cracked floor tile behind a scissor lift, and we risk being blamed for
+door damage we did not cause whenever nobody photographs the door first. Both are avoidable
+with a few minutes of planning and a phone camera.
 
 ## Discussion questions
 
