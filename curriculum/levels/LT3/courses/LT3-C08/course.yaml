@@ -222,3 +222,29 @@ quiz:
     explanation: >-
       Moisture and ice cause corrosion and arcing; that is why cases use sealed sockets, gaskets and moisture-rated
       connectors.
+  - id: LT3-C08-Q16
+    type: multi
+    q: A case uses a discontinued ballast line you cannot source. What should you send the office so it can find an LED option or another ballast? (Select all that apply.)
+    choices:
+    - Photos of the case, including the plug and receptacle
+    - Measurements and the color temperature
+    - Lamp type and quantity per ballast
+    - Nothing; just leave the case dark
+    answer: [0, 1, 2]
+    explanation: >-
+      With photos of the plug and receptacle, measurements, CCT, and lamp type and quantity per ballast,
+      the office can choose an LED retrofit or an alternate ballast.
+    ref: Company parts procedure
+  - id: LT3-C08-Q17
+    type: single
+    q: One LED stick in a cooler door is strobing and you cannot repair it on this trip. What do you do?
+    choices:
+    - Leave it strobing; the store can live with it
+    - Lock out, disconnect that stick or its driver safely, label it and write up the return
+    - Unplug the whole case lineup
+    - Cover it with tape
+    answer: 1
+    explanation: >-
+      A door stick counts as a fixture under the flashing-fixture procedure, and a fixture is never left
+      strobing.
+    ref: Company flashing-fixture procedure; LT2-C06

@@ -191,3 +191,36 @@ quiz:
       answer: 1
       explanation: Recording van stock usage ensures correct billing, restocking and a record of what is installed for the next tech and for warranty.
       ref: LT1-C10 Lesson 3
+    - id: LT1-C10-Q16
+      type: single
+      q: You installed a 24 V constant-voltage power supply. What goes on the work order?
+      choices:
+        - '"24 V driver"'
+        - The complete catalog or stock code from the label or box
+        - The color of the box
+        - Nothing, if it came from van stock
+      answer: 1
+      explanation: Company rule - a description like "24 V driver" is not a part code. The full code lets the office bill, restock and reorder the exact part.
+      ref: Company work order and parts procedures
+    - id: LT1-C10-Q17
+      type: single
+      q: Special parts were pulled for your job, but the job was cancelled. What do you do with them?
+      choices:
+        - Keep them on your truck in case they are needed someday
+        - Put them on the parts-return shelf
+        - Give them to the customer
+        - Throw them away
+      answer: 1
+      explanation: Unneeded special parts go on the parts-return shelf. Parts still needed later go back with a tag to the shelf they came from. Parts riding around on a truck are lost to everyone else.
+      ref: Company parts-return procedure
+    - id: LT1-C10-Q18
+      type: single
+      q: Which statement about pull-sheet stock is correct?
+      choices:
+        - Electrical tape and wire nuts belong in your personal tool bag
+        - Pull-sheet items such as tape and wire nuts stay on the truck as stock; each truck carries at least two rolls of tape
+        - You may keep any extra material on the truck you like
+        - Missing items are restocked automatically without being written down
+      answer: 1
+      explanation: The pull sheet is the truck's stock list. Pull-sheet items stay on the truck, and anything missing is written on the pull sheet so it gets restocked.
+      ref: Company pull-sheet procedure

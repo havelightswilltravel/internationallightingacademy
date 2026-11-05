@@ -23,12 +23,14 @@ objectives:
   - Determine when energized work is justified and complete an energized electrical work permit
   - Select, inspect and care for rubber insulating gloves, arc-rated PPE, insulated tools and meters
   - Apply the company's energized work rules and complete each part of the company Energized Electrical Work Permit
+  - Apply the company's electrical scope limits and correct outdated arc-flash PPE and glove practices to current NFPA 70E and OSHA requirements
 lessons:
   - 01-qualified-persons-and-the-electrical-safety-program.md
   - 02-shock-and-arc-flash-risk-assessment.md
   - 03-electrically-safe-work-condition-and-energized-work-permits.md
   - 04-ppe-tools-and-test-instruments.md
   - 05-company-energized-work-rules-and-permit.md
+  - 06-company-scope-limits-and-arc-flash-lessons-learned.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -289,3 +291,58 @@ quiz:
       answer: [0, 1, 2, 3]
       explanation: These handbook rules reduce the chance of dropped tools into live bus, unauthorized entry and working on ungrounded bus.
       ref: Company bus room policy; NFPA 70E Article 120
+    - id: LT4-C07-Q24
+      type: single
+      q: Under company policy, what is the default scope for a qualified technician or electrician working in panels?
+      choices:
+        - Any voltage, if wearing a Category 2 suit
+        - 480 V and below with incident energy of 4 cal/cm² or less, unless management has qualified the person for more
+        - Up to 15 kV switchgear
+        - Lighting fixtures only
+      answer: 1
+      explanation: Company policy limits electricians to panels, switchgear and cabinets at 480 V and below and 4 cal/cm² or less unless management deems them qualified for more. Medium voltage is outside company scope entirely.
+      ref: Company safety manual (qualifications); NFPA 70E 110.2
+    - id: LT4-C07-Q25
+      type: single
+      q: An older company slide says electricians carry a Category 1 suit "without a face shield." What is the current requirement?
+      choices:
+        - The slide is correct; Category 1 needs no face protection
+        - PPE Category 1 includes an arc-rated face shield or arc-flash suit hood; without it the kit is not Category 1
+        - Safety glasses replace the face shield at Category 1
+        - Face shields are needed only above 40 cal/cm²
+      answer: 1
+      explanation: NFPA 70E's PPE category table requires arc-rated face protection at Category 1 (face shield or hood) and Category 2 (face shield plus balaclava, or hood).
+      ref: NFPA 70E Table 130.7(C)(15)(c)
+    - id: LT4-C07-Q26
+      type: single
+      q: The label on a panel shows 6.2 cal/cm². You have an AR shirt rated 4 cal/cm² and AR pants rated 4 cal/cm². Is that enough?
+      choices:
+        - Yes; 4 + 4 = 8 cal/cm²
+        - No; the clothing must be rated at or above 6.2 cal/cm² wherever it covers you, and separate garment ratings are not added together
+        - Yes, if you also wear a cotton T-shirt
+        - Yes, because anything above 1.2 cal/cm² is enough
+      answer: 1
+      explanation: Arc-rated clothing must be rated at or above the incident energy. Ratings are not added; only a tested layered system has a combined rating. A 6.2 cal/cm² label is also above the company's 4 cal/cm² scope limit without management approval.
+      ref: NFPA 70E 130.5(G), 130.7(C)
+    - id: LT4-C07-Q27
+      type: single
+      q: Which gloves meet the current requirement for shock protection on a 277 V lighting circuit inside the restricted approach boundary?
+      choices:
+        - Any "UL approved" insulated work gloves, and only above 300 V
+        - ASTM D120 rubber insulating gloves of the right voltage class with leather protectors, air-tested before use and electrically tested within 6 months
+        - Dry leather gloves
+        - Nitrile gloves under cut-resistant gloves
+      answer: 1
+      explanation: OSHA 1910.137 and NFPA 70E require class-rated rubber insulating gloves with protectors whenever there is shock exposure (50 V and up), not only above 300 V.
+      ref: OSHA 29 CFR 1910.137; ASTM D120; NFPA 70E 130.7(C)(7)
+    - id: LT4-C07-Q28
+      type: single
+      q: The circuit you need is fed from medium-voltage switchgear on the property. What do you do?
+      choices:
+        - Operate it in your Category 2 kit
+        - Stop, photograph the label and call your supervisor; medium-voltage equipment is outside company PPE and scope
+        - Open the cabinet to read the nameplate
+        - Ask a lighting technician to help
+      answer: 1
+      explanation: Our company does not have the PPE, training or scope for medium-voltage equipment. Work is referred to the customer's or utility's qualified personnel.
+      ref: Company safety manual; NFPA 70E 110.2, 130.2

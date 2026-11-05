@@ -28,6 +28,9 @@ objectives:
   Apply our company's boom and scissor lift policies: authorization, the company minimum inspection
   and red tag, tie-off rules for booms vs scissors, travel, spotters and power-line rules at signs
   and poles
+- >-
+  Apply our company's lessons learned on lift trucks, jibs, modifications, field breakdowns and
+  protecting customer floors and doors
 lessons:
 - 01-mewp-types-and-ansi-a92-standards.md
 - 02-pre-use-and-workplace-inspection.md
@@ -36,6 +39,7 @@ lessons:
 - 05-rolling-scaffolds-and-specialty-access.md
 - 06-company-boom-and-scissor-lift-policies.md
 - 07-company-lift-travel-scissor-boom-and-power-line-rules.md
+- 08-bucket-trucks-scissor-floors-and-lessons-learned.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -425,3 +429,67 @@ quiz:
       red-tagged lift, and don't operate the ground controls on an occupied lift except in an
       emergency. Lowering before travel is correct.
     ref: Company policy
+  - id: LT3-C06-Q27
+    type: single
+    q: When is a lift truck's front-mounted bucket most likely to strike something?
+    choices:
+    - Only when the boom is raised
+    - When you turn the steering wheel and when you back up
+    - Only on highways
+    - When the PTO is engaged
+    answer: 1
+    explanation: >-
+      The bucket and step platform overhang the front and swing wide in turns and when backing. One of
+      our trucks was totaled this way. Watch your swing and use an observer to back.
+    ref: Company lessons learned
+  - id: LT3-C06-Q28
+    type: single
+    q: A technician wants to drill drain holes in a bucket so rainwater runs out. What is the rule?
+    choices:
+    - Small holes are fine if they are deburred
+    - No modifications without the manufacturer's written approval; holes can weaken the bucket and fail inspection
+    - Allowed if the supervisor agrees verbally
+    - Allowed only on older trucks
+    answer: 1
+    explanation: >-
+      Aerial devices may be modified only with the manufacturer's (or an equivalent entity's) written
+      certification. Drain holes and screwed-on brackets have failed annual inspections.
+    ref: OSHA 29 CFR 1910.67(b)(2); ANSI A92.2
+  - id: LT3-C06-Q29
+    type: single
+    q: Why must the jib winch line be coiled under tension?
+    choices:
+    - It looks neater
+    - A tight coil followed by a loose coil can slip and let the load drop suddenly
+    - Tension charges the battery
+    - It is required only in winter
+    answer: 1
+    explanation: >-
+      Slack wraps on the drum can let a load drop without warning. Coil with at least hand tension,
+      inspect the line before use, stow the jib before driving, and don't use it unless trained.
+    ref: Company lessons learned; manufacturer's jib instructions
+  - id: LT3-C06-Q30
+    type: single
+    q: The PTO on your lift truck won't engage. On our trucks with a 12 V PTO breaker, how do you reset it?
+    choices:
+    - Press the red button
+    - Push the reset lever; the red button is test only
+    - Disconnect the truck battery
+    - Hold the PTO switch on for a minute
+    answer: 1
+    explanation: >-
+      The red button tests (trips) the breaker; the lever resets it. Check it before calling for help.
+    ref: Company equipment training
+  - id: LT3-C06-Q31
+    type: single
+    q: You are sent to a store with tile floors and a 3,300-lb slab scissor. What should you do?
+    choices:
+    - Drive slowly; tile is strong enough
+    - Write up the lighter man lift, or plywood to spread the scissor's load, and photograph any existing door damage before entering with a spotter
+    - Deflate the tires slightly
+    - Use the scissor only after the store closes
+    answer: 1
+    explanation: >-
+      Concentrated loads crack tile. Use the man lift (about 1,100 lb) or plywood, and protect the
+      company by documenting existing damage and using a spotter at doors.
+    ref: Company lessons learned; ANSI A92.22 (workplace inspection)

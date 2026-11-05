@@ -78,6 +78,16 @@ retrofits, and fixture replacements in occupied buildings, parking lots, and on 
   damaged surfaces, poor housekeeping, improper footwear, unplanned routes (especially on
   team lifts), stairs without handrails, and tight or zigzag paths.
 
+## Elevated Sign Structures and Platforms
+
+Some of our exterior work is on tall sign structures with catwalks or service platforms. Our rule:
+service the lighting **from the ladder or the lift**, or, if you must step onto the platform,
+**wear a harness and stay tied off** to a rated anchor. If an extension ladder will not reach
+safely, **write the job up for the right lift** instead of improvising. Climbing a structure's
+fixed ladder requires a ladder safety (cable-brake) system and rest platforms, and only workers
+trained on that system climb. Some customers have stricter rules for their structures; follow
+the stricter rule.
+
 ## Scaffolding
 
 Our company policy: **do not use scaffolding unless you have been trained** by a competent

@@ -90,6 +90,9 @@ Hands are a lighting tech's tools, and they are the first thing to go numb.
   electrical work.**
 - If your hands go numb, warm them under your clothes (armpits) or in the heated cab before you
   continue.
+- Leave **metal jewelry** at home in winter; rings and watch bands chill fast and conduct cold
+  (and current) into your skin. Pack a full change of **spare dry clothing**, and schedule outdoor
+  work for the **warmest part of the day** when the job allows.
 
 ### Keep the furnace running
 Keep moving, **eat your meals**, and drink water or warm, sweet, non-alcoholic drinks (you still

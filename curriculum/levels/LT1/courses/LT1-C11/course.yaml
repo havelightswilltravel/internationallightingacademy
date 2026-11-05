@@ -195,3 +195,25 @@ quiz:
       answer: 1
       explanation: A leaking ballast is a stop-work condition. Notify the office and site contact, follow their instructions, use chemical-resistant gloves and eye protection, double-bag with the gloves in the outer bag, and record it so it is packaged to the recycler's instructions.
       ref: 40 CFR Part 761; company HazCom training
+    - id: LT1-C11-Q16
+      type: single
+      q: Your crew is setting a pole base in an open parking lot on a 95 °F afternoon. Which company practice provides shade where the work is?
+      choices:
+        - Wait in the store until evening
+        - Set up one of the company's pop-up canopies over the work area and rest in the A/C cab on breaks
+        - Work faster to finish before anyone overheats
+        - Shade is only required above 110 °F
+      answer: 1
+      explanation: The company provides pop-up canopies for unshaded work like digging and pole bases, and idling the truck to cool off with the A/C is an approved reason to idle.
+      ref: OSHA heat illness prevention guidance (water, rest, shade); company heat-stress training
+    - id: LT1-C11-Q17
+      type: single
+      q: In winter you notice hydraulic fluid dripping from a scissor lift onto a tile floor. What do you do?
+      choices:
+        - Keep working and wipe it up at the end of the day
+        - Treat it as an out-of-service item, report it, clean the spill and put out a wet-floor sign until it is clean
+        - Cover it with cardboard and continue
+        - Top off the fluid and keep using the lift
+      answer: 1
+      explanation: A leaking lift is a defect that takes it out of service, and oil on tile or ice is a serious slip hazard. Report it, clean it up and warn others until the floor is dry.
+      ref: ANSI A92.22 (inspection and defects); OSHA 29 CFR 1910.22(a)

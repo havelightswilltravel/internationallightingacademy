@@ -24,12 +24,16 @@ objectives:
 - >-
   Apply the company's overhead power-line clearance rules, assess a site for overhead and underground
   line hazards, and request utility locates before digging
+- >-
+  Apply the company's exterior upgrade rules: meter first, complete replacement write-ups, redundant
+  photocells, function testing and reporting existing damage
 lessons:
 - 01-area-pole-lights-and-wall-packs.md
 - 02-exterior-photocontrols-and-twist-lock-receptacles.md
 - 03-pole-base-and-hand-hole-inspection.md
 - 04-underground-circuits-wet-locations-and-ground-faults.md
 - 05-overhead-and-underground-power-lines.md
+- 06-our-exterior-upgrade-and-replacement-rules.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -363,3 +367,55 @@ quiz:
       Red is electric, yellow is gas/oil, orange is communications, blue is potable water, green is
       sewer and white marks the proposed excavation.
     ref: APWA uniform color code
+  - id: LT3-C05-Q24
+    type: single
+    q: You arrive to install new LED heads on a parking lot. What is the first thing our company requires?
+    choices:
+    - Unbox and install the first head to see if it works
+    - Check for voltage with a non-contact tester
+    - Measure the supply voltage with your meter and compare it with the new fixture's label
+    - Read the old fixture's label and assume the voltage is the same
+    answer: 2
+    explanation: >-
+      Our company has destroyed many new fixtures by assuming voltage. Measure L-N and L-L with a meter
+      at the start of every exterior project; a sniffer cannot measure voltage.
+    ref: Company exterior upgrade rules; NFPA 70E 120.6 (test instruments)
+  - id: LT3-C05-Q25
+    type: multi
+    q: Which items belong on a write-up for a replacement pole fixture? (Select all that apply.)
+    choices:
+    - Measured primary voltage
+    - Location on the property (property line or mid-lot)
+    - Pole shape (round or square) and photos
+    - The color of the building
+    answer: [0, 1, 2]
+    explanation: >-
+      Voltage picks the driver, location picks the distribution, and pole shape and photos pick the
+      mounting. Also note whether a photocell is needed and how many matching fixtures are on site.
+    ref: Company replacement write-up procedure
+  - id: LT3-C05-Q26
+    type: single
+    q: A new wall pack ships with a factory photocell, and the site's exterior lights are already switched by a contactor and time clock. What does company policy say?
+    choices:
+    - Leave both controls in service for redundancy
+    - Disconnect the redundant factory photocell per the manufacturer's instructions unless told otherwise, and note it on the work order
+    - Remove the contactor
+    - Tape over the photocell
+    answer: 1
+    explanation: >-
+      Two controls in series cause fixtures that stay off when the time clock calls for them or cycle at
+      dusk. Disconnect the factory photocell where the site has its own control.
+    ref: Company exterior upgrade rules
+  - id: LT3-C05-Q27
+    type: single
+    q: Before replacing a pole, you notice the concrete base is cracked and an anchor nut is badly corroded. What do you do?
+    choices:
+    - Replace the pole and say nothing
+    - Report the damage to the site manager and the office with photos before doing the work
+    - Patch the base with caulk
+    - Leave without telling anyone
+    answer: 1
+    explanation: >-
+      Reporting existing damage first protects the next person from a pole that could fall and protects
+      the company from being blamed for damage it did not cause.
+    ref: Company exterior upgrade rules; LT3-C05 Lesson 3

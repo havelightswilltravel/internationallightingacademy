@@ -26,6 +26,17 @@ shift,** and a defective cord must be removed from service until repaired or rep
 The checklists in this lesson are also in the Library under **Inspection Checklists**, so
 you can open them on your phone on the job.
 
+## When We Do It
+
+Besides your daily pre-use checks, our company runs the **two-person ladder, ladder-rack and
+extension-cord inspection several times a year, right after the monthly safety meeting**:
+
+- Pair up by vehicle. **Do not pair two people who have never used the form**; one of you should
+  have done it before.
+- Read the reminders printed on the form before you start.
+- It should take about **15 minutes** per vehicle. If it will take much longer, get approval.
+- **Turn the completed form in before you leave** the shop.
+
 ## Filling Out the Form
 
 1. **Date and vehicle or location.**

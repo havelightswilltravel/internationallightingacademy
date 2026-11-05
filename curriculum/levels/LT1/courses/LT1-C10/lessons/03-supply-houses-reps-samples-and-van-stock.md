@@ -101,6 +101,20 @@ calls so you can fix common problems on the first visit.
 4. **Keep parts organized** in labeled bins. A part you cannot find is a part you do not have.
 5. **Do not let wrong or returned parts pile up** in the van. Return them promptly (Lesson 4).
 
+### Our company's pull-sheet rules
+
+- **The pull sheet is your truck's stock list.** Keep what is on it; pull off excess and unused
+  material. If something is missing, write it on the pull sheet so it gets restocked.
+- **Pull-sheet items stay on the truck.** Electrical tape, wire nuts and push-in connectors are
+  truck stock, not tool-bag stock. Every truck carries **at least two rolls of tape**; if you take
+  one for your bag, write it on the pull sheet.
+- **Bag and label sockets.** Each socket type goes in its own bag labeled with its **code**. You
+  find the right one in seconds, and inventory goes faster.
+- **Special parts pulled for your job:** no longer needed, put them on the **parts-return shelf**;
+  still needed but not used yet, return them **with a tag** to the shelf they came from. Keep them on
+  the truck only if you are certain you are going back the next day, and leave your dispatcher a note.
+- **No shopping on the clock** for non-job items without office approval.
+
 > **Safety:** Secure lamps, ladders and heavy boxes in the van so they cannot shift during a
 > stop. Broken fluorescent and HID lamps in a closed van release mercury vapor and glass.
 > If a mercury lamp breaks in the van, ventilate and clean up per company procedure.

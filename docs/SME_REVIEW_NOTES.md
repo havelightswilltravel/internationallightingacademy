@@ -318,3 +318,23 @@ and update the source documents where noted.**
 - [ ] **Spotters:** follow any site rule stricter than ours, or stop and escalate.
 - [ ] **Spent lamp labels:** the old checklist says "hazardous waste"; lamps are normally universal waste (40 CFR 273). The lessons say to label as the work order or recycler requires. **Confirm with the hazmat owner.**
 - [ ] **Real production rates, bid rates and per diem figures** from the sheets were not copied (example figures only).
+
+## Round 5: Safety-meeting material (November 2026)
+New lessons: LT1-C01 L06 (company safety rules, enforcement, incidents) and L07 (vehicles and
+driving), LT2-C11 L05 (breakers and disconnects a tech may operate), LT3-C05 L06 (exterior
+upgrade rules), LT3-C06 L08 (bucket trucks, scissors, lessons learned), LT4-C07 L06 (scope limits
+and arc-flash lessons). Old safety-slide conflicts (AR clothing thresholds, adding cal ratings,
+Category 1 face shields, glove ratings, MSDS, DOT thresholds) are taught at the current
+requirement.
+
+Decisions needed:
+1. **Breakers and disconnects a tech may operate or reset** (LT2-C11 L05): the whole list is a
+   draft marked "per company policy (to be confirmed)". One reset attempt only.
+2. **Never work alone on hot panels:** the old manual said above 2 cal/cm²; the program applies it
+   to all hot panel work.
+3. **Disconnecting factory photocells:** worded as only where the site has its own contactor,
+   time clock or central photocell. Confirm.
+4. **Boom battery workaround:** written as "charge or replace only as the manufacturer and your
+   supervisor allow"; the improvised parts-store fix was left out.
+5. **Long lessons:** LT1-C01 L07, LT1-C02 L01 and LT1-C11 L01–L05 run about 1,400–1,500 words;
+   consider splitting.

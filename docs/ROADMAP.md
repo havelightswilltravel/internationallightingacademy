@@ -1,7 +1,11 @@
 # Roadmap — target: program developed by December 31, 2026 (medium priority)
 
-Status as of **October 8, 2026**: platform v0.1 is built and the full draft curriculum is written.
-That leaves about 12 weeks to get from draft to production-ready.
+Status as of **November 5, 2026**: platform v0.1 is built; the draft curriculum now includes the
+company safety, training and safety-meeting material and ends at Master Lighting Technician.
+About 8 weeks remain to get from draft to production-ready (SME review, video recording, pilot).
+
+## Open discussions
+See [docs/discussions/](discussions/README.md): disclaimer (001), LED driver vs fixture (002), look and branding (003), archived electrical courses (004), video presenters (005).
 
 ## Phase 1 — Foundation ✅ (October 2026)
 - [x] Grade structure: LT1–LT5 lighting track (~24 months), topping out at Senior (LT4) and Master Lighting Technician (LT5)
@@ -9,7 +13,7 @@ That leaves about 12 weeks to get from draft to production-ready.
 - [x] Master syllabus and content format
 - [x] Draft curriculum for every level: lessons, question banks, hands-on skill checklists
 - [x] Troubleshooting library (26 starter guides)
-- [x] Draft content totals: 55 courses, 223 lessons, 875 questions, 77 hands-on skills
+- [x] Draft content totals: 54 courses, 263 lessons, 1,042 questions, 90 hands-on skills, 84 library guides
 - [x] Web platform: sign-in, roles, video lessons, quizzes and timed exams, hands-on sign-offs, OJT hours, promotions and certificates, placement, pay scale, library, reports, multi-company licensing
 - [x] Automated tests
 - [x] Round 3 (Nov 2026): senior-level gap fill after a topic-only check against the NALMCO senior textbook — new LT5-C06 LED-Era Maintenance & Retrofit/Replacement Planning, plus additions to LT3–LT5; group relamping retired in favor of retrofit/replacement

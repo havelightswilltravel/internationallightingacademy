@@ -90,6 +90,15 @@ head type), input voltage (120/277 V), whether the exit is single- or double-fac
 chevron/arrow configuration, mounting (wall, ceiling, end), and for battery-backup ballasts the
 lamp type/quantity or LED emergency output power and voltage range.
 
+### Our company's rules for what you remove and what you quote
+- **Recycle, never trash.** Removed emergency batteries and emergency ballasts or drivers go in the
+  recycle bin. Write the **battery chemistry and weight** on the work order (for example, "3.5 lb
+  Li-ion"); the recycler bills by type and weight.
+- **Count exterior emergency wall packs before quoting.** An EM wall pack looks like a standard one
+  from the ground. On one of our jobs, **13 of 20 wall packs** quoted as standard turned out to be
+  emergency units, and the replacements cost far more. Check each label or test button and list EM
+  units separately.
+
 ## When to Escalate
 
 - No line voltage at the unit and the circuit must be traced inside the panel or walls

@@ -20,11 +20,13 @@ objectives:
   - Use the panel directory and nameplate totals to compare circuit load with the breaker rating and the 80% continuous limit
   - Recognize signs of overheating and know when to stop and escalate immediately
   - Assess a tripping-breaker complaint per the company procedure without removing the dead front and write a complete electrician work-up
+  - Identify which breakers and disconnects a technician may operate or reset under company policy, and which equipment to stay away from
 lessons:
   - 01-breakers-fuses-ratings-and-types.md
   - 02-why-breakers-trip.md
   - 03-panel-schedules-loading-and-overheating.md
   - 04-tripping-breaker-procedure-and-write-ups.md
+  - 05-which-breakers-and-disconnects-you-may-operate.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -194,3 +196,25 @@ quiz:
       answer: 0
       explanation: Large groups of LED drivers draw a brief, very high inrush current at switch-on. Document it and write it up; fixes are design changes.
       ref: LT2-C11 Lesson 2
+    - id: LT2-C11-Q16
+      type: single
+      q: Under NFPA 70E, normal operation of a lighting branch breaker is considered unlikely to cause an arc flash only when which conditions are met?
+      choices:
+        - The breaker is rated 20 A or less
+        - The equipment is properly installed and maintained, doors closed and covers in place, and there is no evidence of impending failure
+        - You are wearing safety glasses
+        - The building is unoccupied
+      answer: 1
+      explanation: NFPA 70E Table 130.5(C) ties the low-likelihood rating to proper installation and maintenance, closed doors and secured covers, and no signs of impending failure. If any condition is missing, it is an arc-flash exposure for a qualified person.
+      ref: NFPA 70E Table 130.5(C)
+    - id: LT2-C11-Q17
+      type: single
+      q: The lighting circuit you need to lock out is fed from a large switchboard in the main electrical room. What do you do?
+      choices:
+        - Open the switchboard and find the right breaker
+        - Operate the main breaker instead
+        - Stop, photograph the equipment and label, and call your supervisor; switchgear and switchboards are not operated by lighting technicians
+        - Ask a store employee to flip it for you
+      answer: 2
+      explanation: Per company policy (to be confirmed), lighting technicians operate only lighting branch breakers and identified lighting disconnects in good condition. Switchgear, switchboards, MCCs, main breakers and medium-voltage equipment are off-limits.
+      ref: Company policy (pending confirmation); NFPA 70E 110.2

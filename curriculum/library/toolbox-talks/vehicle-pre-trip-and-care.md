@@ -65,3 +65,4 @@ under DOT rules.
 - FMCSA 49 CFR 396.11 (driver vehicle inspection reports) and 396.13 (driver inspection)
 - FMCSA 49 CFR 390.5 (commercial motor vehicle definition)
 - Company Safe Driving policy (safety manual appendix)
+- Program courses: LT1-C01 Lesson 7 (Company Vehicles & Driving Safety)

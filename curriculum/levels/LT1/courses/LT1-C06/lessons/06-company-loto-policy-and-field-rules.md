@@ -36,8 +36,10 @@ Our written method for locking and tagging equipment follows these steps.
 
 1. **Identify the equipment.** Determine exactly which fixtures, circuits and controls are
    involved in the work.
-2. **Determine availability.** When needed, the project supervisor works with the customer's
-   representative to make the equipment available, and makes sure normal operation of other
+2. **Determine availability.** Get **site management's approval before you shut down any
+   lighting**, and make sure the affected people (store staff, occupants, other trades) know the
+   lights in that area are going off and for how long. On larger jobs the project supervisor
+   works with the customer's representative to make the equipment available, and makes sure normal operation of other
    equipment (time clocks, lighting control panels, building automation, contactors) will not
    switch the circuit back on while you work.
 3. **De-energize and tag.** Turn the fixtures off at the normal control, then place the
@@ -59,7 +61,10 @@ is: **the isolation point is the breaker or disconnect.** A wall-switch lock may
 extra warning so occupants do not flip the switch, but it never replaces the breaker lock.
 A switch can be miswired, can control only part of the fixture, and does nothing about other
 circuits in the fixture (Lesson 1). If the breaker cannot be locked (no device fits, the panel is
-locked and no one has the key), **stop and call your supervisor.**
+locked and no one has the key), **stop and call your supervisor.** Lock out only at a lighting
+branch breaker or disconnect you are allowed to operate; which panels and disconnects a technician
+may operate, and which to stay away from (switchgear, main breakers), is set by company policy
+(LT2-C11 Lesson 5). When in doubt, call.
 
 ### Our Locks and Tags
 

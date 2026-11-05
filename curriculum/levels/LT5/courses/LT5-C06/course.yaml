@@ -238,3 +238,25 @@ quiz:
       answer: [0, 1, 2]
       explanation: Complete rows, mounting data and matching photos let the office quote without a return trip. Pricing does not belong on the survey sheet.
       ref: LT5-C06 Lesson 7
+    - id: LT5-C06-Q21
+      type: single
+      q: A building-mounted LED wall pack has a failed driver that is hard to match and costs nearly as much as a new fixture. What does our company's field experience suggest?
+      choices:
+        - Always replace the driver; fixtures are never cheaper
+        - Price a new fixture as well; new building-mounted fixtures keep getting cheaper and carry 5- to 7-year warranties, while replacement drivers keep getting costlier and harder to match
+        - Leave the fixture dark until the driver is back in stock
+        - Install any driver with the same wattage
+      answer: 1
+      explanation: When a repair part costs close to a whole fixture with a long warranty, replacement is often the better value. Capture driver and fixture labels, an elevation photo and the fixture count so the office can price both.
+      ref: LT5-C06 Lesson 4; company field data
+    - id: LT5-C06-Q22
+      type: single
+      q: Customers have complained about bugs and dust left in lenses after service calls. What is the company expectation?
+      choices:
+        - Cleaning is a separate job; never clean during service
+        - Clean the fixture you open, wipe the lens and housing, and note the cleaning on the work order
+        - Clean only if the customer watches
+        - Leave the old lens in place unwashed to save time
+      answer: 1
+      explanation: Customers expect clean fixtures as part of service. Cleaning noted on the work order is visible to the customer and billable.
+      ref: LT5-C06 Lesson 5

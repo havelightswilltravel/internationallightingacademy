@@ -116,6 +116,14 @@ label, so our company rule is simple: **every removed magnetic ballast, PCB or n
 the approved recycler**, never the dumpster. Keep "No PCBs" ballasts separate from suspect
 PCB ballasts, wear gloves, and count each type on the work order.
 
+## Batteries, Emergency Drivers and Breakers
+
+Emergency battery packs, emergency ballasts and drivers, and the batteries inside them **never go
+in the trash**. Company rule: put them in the recycle bin and write the **battery chemistry and
+weight** on the work order (for example, "3.5 lb Li-ion"), because the recycler bills by type and
+weight. If you drop items at a recycle bin, note it on that job's work order. Removed breakers go
+in the shop's **breaker recycling bin**.
+
 ## Key Takeaways
 - Mercury-containing lamps are universal waste: pack intact, keep closed, label, date, and recycle.
 - Do not tape, break, or crush lamps.

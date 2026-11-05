@@ -405,3 +405,25 @@ quiz:
     answer: 1
     explanation: "NFPA 101 permits self-testing/self-diagnostic units that perform the tests automatically, but status indicators must still be visually checked and written records kept. The AHJ has the final say."
     ref: NFPA 101, 7.9.3; LT3-C04 Lesson 6
+  - id: LT3-C04-Q30
+    type: single
+    q: You remove a failed lithium-ion emergency battery. What does company policy require?
+    choices:
+      - Put it in the customer's trash
+      - Recycle it and record its chemistry and weight on the work order
+      - Leave it in the ceiling space
+      - Return it to the supply house as a warranty claim without recording it
+    answer: 1
+    explanation: Emergency batteries and EM ballasts or drivers are always recycled, and the chemistry and weight go on the work order because recycling is billed by type and weight.
+    ref: EPA Universal Waste Rule, 40 CFR Part 273; company recycling procedure
+  - id: LT3-C04-Q31
+    type: single
+    q: Why must exterior emergency wall packs be counted individually before a replacement quote?
+    choices:
+      - They are always the same price as standard wall packs
+      - EM wall packs look like standard units from the ground but cost more to replace; on one job 13 of 20 quoted as standard were emergency units
+      - Emergency wall packs never need replacing
+      - The AHJ requires a separate count for every quote
+    answer: 1
+    explanation: Check each label or test button and list EM units separately so the quote and the order are right the first time.
+    ref: Company quoting practice; NFPA 101, 7.9

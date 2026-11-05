@@ -215,3 +215,15 @@ quiz:
     explanation: >-
       The supply's input and the flex carry line voltage. Lock out the disconnect and verify absence
       of voltage; a time clock is not a disconnect. Protect people below when working overhead.
+  - id: LT3-C10-Q16
+    type: single
+    q: During an exterior inspection, one LED in a drive-up OPEN/CLOSED sign is dark. What is company practice?
+    choices:
+    - Pass it; one LED does not matter
+    - Treat it as a failure, photograph the sign face and the label, and write it up because it may be under warranty
+    - Replace the whole sign on the spot
+    - Unplug the sign
+    answer: 1
+    explanation: >-
+      Even one LED out is a failure. Photos of the face and label let the office pursue a warranty claim.
+    ref: Company inspection practice

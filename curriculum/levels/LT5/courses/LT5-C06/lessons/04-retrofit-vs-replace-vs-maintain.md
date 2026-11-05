@@ -35,6 +35,16 @@ For the area, collect:
 6. **Warranty status:** in or out of warranty, and how long remains.
 7. **Access cost:** ladder, lift, after-hours only, food or clean-room restrictions.
 
+**What our field data keeps showing.** Replacement LED drivers keep getting more expensive and
+harder to match exactly, while new building-mounted LED fixtures (wall packs, canopy and area
+lights) keep getting cheaper and now carry **5- to 7-year warranties**. A repair part with no
+warranty can cost about the same as a new fixture with a long one. Whole product lines also
+disappear: refrigerated-case ballast families and programmable fluorescent ballasts have been
+discontinued. When the part is obsolete or the driver costs close to a fixture, lean toward
+**replace** or an **LED retrofit**, and make sure the survey captured what the office needs to price
+both: driver and fixture labels, a full-elevation photo, the count of matching fixtures, and any
+exterior emergency wall packs counted separately.
+
 ## Step 2: Check Code and Listing Implications
 The choice is not only economic.
 

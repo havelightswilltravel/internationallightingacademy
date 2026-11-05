@@ -85,7 +85,10 @@ living a normal life. A day of hot fieldwork adds a lot on top of that.
 - Rotate tasks so one person is not stuck aloft in the sun or in a hot attic all day.
 
 ### Shade
-- Rest in shade or in the air-conditioned cab, not in the sun next to the truck.
+- Rest in shade or in the air-conditioned cab, not in the sun next to the truck. **Company rule:**
+  idling the truck to cool off with the A/C is an approved reason to idle.
+- For long unshaded jobs (digging and setting pole bases, parking-lot work), set up one of the
+  company's **pop-up canopies** so the crew has shade where the work is.
 - Block direct sun or other heat sources where you can. Use fans in hot attics and high bays.
 - Wear **lightweight, light-colored, loose** clothing that breathes, within the PPE the task needs.
 

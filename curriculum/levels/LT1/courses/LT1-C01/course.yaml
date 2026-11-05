@@ -1,7 +1,7 @@
 code: LT1-C01
 title: Orientation, Safety Culture & PPE
 order: 1
-estimated_hours: 6
+estimated_hours: 7
 description: >
   Introduces new lighting technicians to the company's safety culture and the hazards of
   lighting work. Covers hazard recognition and pre-task planning, OSHA basics and worker
@@ -15,12 +15,16 @@ objectives:
   - Select, inspect, wear, and care for standard PPE for lighting service work
   - Describe the effects of electric shock and arc flash and the NFPA 70E approach boundaries that apply to unqualified persons
   - Apply the company's everyday electrical safety rules for hot gloves, ladders, tools, extension cords, panels and shock rescue
+  - Follow the company's ten safety commandments, enforcement policy, incident procedure and fire and health-hazard rules
+  - Inspect, drive and tow with company vehicles safely and follow the company's accident and winter-driving procedures
 lessons:
   - 01-safety-culture-and-hazard-recognition.md
   - 02-osha-basics-and-incident-reporting.md
   - 03-ppe-selection-and-inspection.md
   - 04-shock-and-arc-flash-awareness.md
   - 05-company-electrical-safety-rules.md
+  - 06-company-safety-rules-enforcement-and-incidents.md
+  - 07-company-vehicles-and-driving-safety.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -294,3 +298,135 @@ quiz:
       answer: 1
       explanation: Touching the victim can make you part of the circuit. Stop the current, call for help, then give CPR/first aid if trained.
       ref: Company electrical safety training
+    - id: LT1-C01-Q26
+      type: single
+      q: Under our company's enforcement policy, what happens after a second same or similar violation of a trained-on safety rule within one year?
+      choices:
+        - Another verbal reminder
+        - Suspension
+        - Nothing, if no one was hurt
+        - Retraining only
+      answer: 1
+      explanation: The first violation brings a written warning and refresher training; a second same or similar violation within a year brings suspension; a third within a year brings termination. Willful or life-threatening violations can mean immediate termination.
+      ref: Company safety manual (enforcement policy)
+    - id: LT1-C01-Q27
+      type: single
+      q: You cut your hand on a fixture housing. It needs stitches but is not an emergency. What is the company procedure?
+      choices:
+        - Bandage it and finish the day; report it if it gets infected
+        - Tell your supervisor first, go to the company's designated occupational clinic, and complete the incident investigation form
+        - Go to any urgent care and tell no one, to protect the safety record
+        - Call 911 for every injury
+      answer: 1
+      explanation: Non-emergency injuries are reported to the supervisor first and treated at the designated occupational clinic. Anything beyond first aid needs the incident investigation form. Emergencies go to 911 or the ER.
+      ref: Company incident procedure; OSHA 29 CFR 1904
+    - id: LT1-C01-Q28
+      type: single
+      q: What is the scope of work for a lighting technician under our company's qualification rules?
+      choices:
+        - Any electrical work up to 480 V
+        - Work inside the lighting fixture; anything beyond needs supervisor or management approval
+        - Panel work, as long as gloves are worn
+        - Anything the customer asks for
+      answer: 1
+      explanation: Lighting technicians are limited to working inside the lighting fixture. Branch circuits, panels and building wiring need approval and the right qualification.
+      ref: Company safety manual (qualifications)
+    - id: LT1-C01-Q29
+      type: multi
+      q: Which of these are company fire-prevention rules? (Select all that apply.)
+      choices:
+        - Extinguishers in vehicles and the shop are visible, inspected and charged
+        - Flammable liquids over one gallon go in approved safety cans
+        - Propane may be stored indoors if the cylinder is small
+        - No unvented open-flame heaters in enclosed spaces
+      answer: [0, 1, 3]
+      explanation: Extinguishers must be ready, flammables over one gallon go in safety cans, and unvented salamanders and indoor LPG storage are not allowed.
+      ref: OSHA 29 CFR 1910.157; 1926.150-.152; company safety manual
+    - id: LT1-C01-Q30
+      type: single
+      q: A product on your truck has no Safety Data Sheet in the company binder. What do you do?
+      choices:
+        - Use it carefully
+        - Don't use it until an SDS is available
+        - Pour it into an unlabeled spray bottle
+        - Read the old MSDS from another product
+      answer: 1
+      explanation: Company rule - no SDS, no use. The SDS tells you the hazards, PPE and first aid before you need them.
+      ref: OSHA 29 CFR 1910.1200(g)
+    - id: LT1-C01-Q31
+      type: single
+      q: Who may operate a forklift on a customer's site?
+      choices:
+        - Any technician who has driven one before
+        - Only someone trained and authorized; otherwise stay clear and ask trained staff to move the material
+        - Anyone, for short moves
+        - The lead technician, always
+      answer: 1
+      explanation: Company rule and OSHA 1910.178(l) require training and authorization before operating a powered industrial truck.
+      ref: OSHA 29 CFR 1910.178(l)
+    - id: LT1-C01-Q32
+      type: single
+      q: When must the driver vehicle inspection report (DVIR) be completed?
+      choices:
+        - Only for trips across state lines
+        - Every shift, for every vehicle and every trailer, with defects reported before use
+        - Once a month
+        - Only when a warning light is on
+      answer: 1
+      explanation: The DVIR is company policy every day, whether or not a trip is under DOT jurisdiction. Defects are reported to the supervisor before the vehicle is used.
+      ref: FMCSA 49 CFR 396.11, 396.13; company Safe Driving policy
+    - id: LT1-C01-Q33
+      type: single
+      q: Why does our company follow federal DOT standards even on in-state trips that may fall below the state's threshold?
+      choices:
+        - It doesn't; DVIRs are optional in-state
+        - In-state thresholds vary by state, the rules can change, and a trip can cross a state line
+        - Federal rules apply to every vehicle regardless of weight
+        - Only to avoid parking tickets
+      answer: 1
+      explanation: Federal rules generally apply over 10,000 lb in interstate commerce, and each state sets its own in-state thresholds. Following the federal standards everywhere keeps every truck ready for an inspection.
+      ref: FMCSA 49 CFR 390.5; company Safe Driving policy
+    - id: LT1-C01-Q34
+      type: single
+      q: What is the specific hazard of driving our bucket and lift trucks?
+      choices:
+        - They cannot use mirrors
+        - The front-mounted bucket and step platform overhang and can catch objects when turning and backing
+        - They have no backup alarm
+        - They cannot be parked on a hill
+      answer: 1
+      explanation: A company lift truck was totaled when its front-mounted bucket caught a structure during a turn. Watch your swing and use an observer to back.
+      ref: Company Safe Driving policy
+    - id: LT1-C01-Q35
+      type: single
+      q: Another driver bumps your truck in a parking lot. No one is hurt and the police will not come out. What do you do?
+      choices:
+        - Shake hands and leave, since there is no damage
+        - Call your supervisor, call both insurance companies from the scene, photograph everything and fill out the accident form
+        - Apologize and admit fault to keep things friendly
+        - Wait until the end of the week to report it
+      answer: 1
+      explanation: The other driver may later claim damage or injury. Company procedure is to report to the insurers no matter how minor, document everything, fill out the form and never admit fault.
+      ref: Company vehicle accident procedure
+    - id: LT1-C01-Q36
+      type: multi
+      q: Before towing a lift trailer, which checks are required? (Select all that apply.)
+      choices:
+        - Brake controller installed and its gain set for this truck and trailer
+        - Coupler latched and every hitch pin in place
+        - Safety chains crossed under the coupler and the breakaway cable attached
+        - Spare tire strapped on with wire if its mount is broken
+      answer: [0, 1, 2]
+      explanation: No brake controller means no heavy braked trailer; pins in holes, crossed chains and the breakaway cable are part of the trailer DVIR. A broken mount is repaired the manufacturer's way or the spare comes off - never a homemade fix.
+      ref: FMCSA 49 CFR 393.42-.43, 393.70; company towing rules
+    - id: LT1-C01-Q37
+      type: single
+      q: Why must company diesel trucks be kept at least half full in winter?
+      choices:
+        - To add weight for traction
+        - Diesel fuel lines and filters can gel when the tank runs low in the cold, leaving the truck stranded and needing an expensive repair
+        - Because fuel prices rise in winter
+        - It is a DOT rule for all vehicles
+      answer: 1
+      explanation: Company rule - never run a diesel low or out of fuel in winter, especially overnight or with a lift elevated. Gelled fuel cannot be quickly fixed on site.
+      ref: Company winter driving rules

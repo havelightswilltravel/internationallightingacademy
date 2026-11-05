@@ -62,3 +62,4 @@ were preventable with more time and more space.
 - NHTSA distracted driving resources; FMCSA rules on hand-held phone use for commercial drivers (49 CFR 392.82)
 - National Safety Council defensive driving guidance
 - Company Safe Driving policy (safety manual appendix)
+- Program courses: LT1-C01 Lesson 7 (Company Vehicles & Driving Safety)

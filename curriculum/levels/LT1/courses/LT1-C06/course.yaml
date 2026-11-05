@@ -299,3 +299,36 @@ quiz:
       answer: 2
       explanation: If an LT1 cannot lock it out, they do not work on it. Energized work is done only by qualified, authorized persons with justification, a written safety plan approved by a supervisor and the company's Energized Electrical Work Permit.
       ref: OSHA 29 CFR 1910.333(a); NFPA 70E 130.2
+    - id: LT1-C06-Q26
+      type: single
+      q: Under our company's LOTO method, what must happen before you shut down lighting in an occupied building?
+      choices:
+        - Nothing; just turn the breaker off
+        - Get site management's approval and notify the affected people
+        - Post a sign on the panel only
+        - Wait until a customer complains
+      answer: 1
+      explanation: Step 2 of our method, "determine availability," means getting site-management approval before shutting down lighting and notifying affected personnel. Darkening an occupied area without warning creates its own hazards.
+      ref: Company LOTO method; OSHA 29 CFR 1910.147(d)(1)-(2)
+    - id: LT1-C06-Q27
+      type: single
+      q: Who may place and remove a personal lock on a lighting circuit you are working on?
+      choices:
+        - Any technician on the crew
+        - The site manager
+        - Only you, the employee exposed to the hazard, and you keep control of the key
+        - Whoever has the master key
+      answer: 2
+      explanation: Only the exposed employee places or removes their own lock and keeps personal control of the key. Removing another person's lock is allowed only through the formal forgotten-lock procedure.
+      ref: OSHA 29 CFR 1910.147(d)(4), (e)(3); company LOTO policy
+    - id: LT1-C06-Q28
+      type: single
+      q: You remove an emergency battery pack during a fixture replacement. What does company policy require?
+      choices:
+        - Put it in the customer's dumpster
+        - Leave it in the ceiling
+        - Put it in the recycle bin and write its chemistry and weight on the work order
+        - Throw it in the van's trash bag
+      answer: 2
+      explanation: Batteries and EM ballasts or drivers are always recycled. The chemistry and weight go on the work order because recycling is billed by type and weight.
+      ref: EPA Universal Waste Rule, 40 CFR Part 273 (batteries); company recycling procedure

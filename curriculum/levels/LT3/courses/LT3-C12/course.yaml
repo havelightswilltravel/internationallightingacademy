@@ -255,3 +255,16 @@ quiz:
     explanation: >-
       On a square pattern the diagonal is about 1.41 times the adjacent: 11 × 1.41 is about 15-1/2 in.
       The diagonal is also the bolt circle diameter.
+  - id: LT3-C12-Q16
+    type: single
+    q: Before lifting a pole head with a lift truck's jib and winch, which company rule applies to the winch line?
+    choices:
+    - Inspect it only once a year
+    - Inspect it before each use, replace it if frayed, and coil it under tension when rewinding
+    - Let it coil loosely so it does not wear
+    - Any technician may run the jib if the supervisor is busy
+    answer: 1
+    explanation: >-
+      A frayed line can fail, and a loose wrap under a tight one can let the load drop suddenly. Only
+      trained technicians use the jib, and it is stowed before driving.
+    ref: Company jib rules; ANSI A92.2; manufacturer's jib and winch instructions

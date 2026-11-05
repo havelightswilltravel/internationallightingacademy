@@ -222,11 +222,11 @@ quiz:
       q: Which ladder jobs are strictly two-person work under company policy?
       choices:
         - Any stepladder over 6 ft
-        - Carrying and setting up the large multi-position ladder and extension ladders 32 ft and longer
+        - Carrying and setting up the large multi-position ladder and extension ladders over 30 ft (every 32-ft ladder)
         - Only ladders used outdoors
         - Only ladders used during business hours
       answer: 1
-      explanation: The large multi-position ladder and extension ladders 32 ft and over require two people to transport and set up. Do not attempt it alone.
+      explanation: The large multi-position ladder and extension ladders over 30 ft (every 32-ft ladder) require two people to transport and set up. Do not attempt it alone.
       ref: Company fall protection training
     - id: LT1-C02-Q19
       type: multi
@@ -360,3 +360,36 @@ quiz:
       answer: 2
       explanation: A missing ground pin or a taped or spliced jacket is a failed cord. Remove it from service, report it, and order a replacement on your pull sheet.
       ref: OSHA 29 CFR 1910.334(a)(2)-(3); 1926.416(e)(1); company inspection form
+    - id: LT1-C02-Q31
+      type: single
+      q: According to our company's safety meetings, what is the single most common ladder infraction?
+      choices:
+        - Leaving ladders unlocked on the rack
+        - Using the wrong size ladder
+        - Forgetting to sign the inspection form
+        - Using a ladder outdoors
+      answer: 1
+      explanation: The biggest infraction is using a ladder that is too short or too tall for the task. Every van carries an extension ladder plus 12-ft, 8-ft and 6-ft ladders so the right one is always available. A tech fell from an 8-ft A-frame trying to reach a photocell.
+      ref: Company ladder safety training; OSHA 29 CFR 1926.1053(b)(4)
+    - id: LT1-C02-Q32
+      type: single
+      q: Which ladders are standard in our company's fleet?
+      choices:
+        - Any ladder rated Type II or better
+        - Orange fiberglass Type IA (300 lb) heavy-duty ladders; report any other ladder found in the fleet
+        - Aluminum extension ladders for exterior work
+        - Painted wooden stepladders for indoor work
+      answer: 1
+      explanation: Company standard is orange fiberglass Type IA. Painted ladders are not used, and aluminum multi-position ladders are not electrically rated.
+      ref: ANSI A14.5; company ladder policy
+    - id: LT1-C02-Q33
+      type: single
+      q: You are servicing lights on a tall sign structure and the extension ladder will not reach safely. What does company policy say?
+      choices:
+        - Stand on the top rung and stretch
+        - Climb onto the platform without a harness, since it has a rail
+        - Write the job up for the right lift; if you must step onto the platform, wear a harness and stay tied off
+        - Lash two ladders together
+      answer: 2
+      explanation: Elevated structures are serviced from the ladder or lift, or with a harness on the platform. If a ladder will not reach, write it up for the right lift.
+      ref: Company fall protection program; OSHA 29 CFR 1910.28

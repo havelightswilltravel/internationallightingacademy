@@ -26,7 +26,7 @@ course is about.
 | Type | Use it for | Our company's rules |
 |---|---|---|
 | **Stepladder** (A-frame) | Indoor fixtures at most ceiling heights | Fully open with spreaders locked; never used closed and leaned |
-| **Extension ladder** | High fixtures, roofs, wall packs, exterior work | Set at 4:1; 32 ft and longer is **two-person work** |
+| **Extension ladder** | High fixtures, roofs, wall packs, exterior work | Set at 4:1; over 30 ft (every 32-ft ladder) is **two-person work** |
 | **Multi-position / articulating** | Stairwells, uneven floors, odd setups | The large model is **two-person work** to carry and set up |
 | **Platform ladder / podium** | Long tasks at one spot, low ceilings | Stay inside the guardrail |
 | **Single (straight) ladder** | — | **Not used** by our company |
@@ -90,7 +90,9 @@ carry, including **you, your clothing, PPE, tools, and materials.**
 | Type II | Medium duty | 225 lb |
 | Type III | Light duty | 200 lb |
 
-Our stepladders and extension ladders are rated for **300 lb (Type IA)** or more.
+Our stepladders and extension ladders are rated for **300 lb (Type IA)** or more. Company
+standard is **orange fiberglass, Type IA, heavy duty**; if you find any other ladder in the fleet,
+report it to your supervisor.
 **Never exceed the weight rating of a ladder.**
 
 Work example: a 210-lb technician wearing a 15-lb tool belt and carrying a 10-lb fixture kit
@@ -118,10 +120,23 @@ The marked length is not the working length: sections overlap and the ladder lea
 need to get onto a roof or landing, the ladder must extend **at least 3 ft above it.** As a
 rough estimate, choose an extension ladder 7 to 10 ft longer than the support point.
 
-> **Safety:** Large multi-position ladders and extension ladders 32 ft and longer are
+> **Safety:** Large multi-position ladders and extension ladders over 30 ft (in practice, every 32-ft ladder we own) are
 > **strictly two-person work** under our company policy, to carry, raise, and position. Do
 > not try it alone. Most ladder-handling injuries (and many power-line contacts) happen
 > while one person wrestles a long ladder.
+
+### Our Biggest Ladder Infraction: The Wrong Size
+
+When our safety meetings review ladder problems, the single most common infraction is
+**using the wrong size ladder**. Every van carries an **extension ladder plus a 12-ft, an 8-ft
+and a 6-ft ladder** for exactly this reason. One of our technicians fell from an 8-ft A-frame
+while stretching to cover a photocell that the ladder was too short to reach safely. Walking
+back to the van for the taller ladder takes two minutes; a fall can take months.
+
+National numbers tell the same story. In federal (BLS) surveys of ladder-fall injuries, roughly
+**57%** of the injured workers were carrying something while climbing, about **66%** had never
+been trained to inspect a ladder, and about **73%** had never been trained in safe ladder use.
+This course exists so you are not one of those numbers.
 
 ## When a Ladder Is the Wrong Tool
 
@@ -135,4 +150,5 @@ does not have LT1 technicians set up or work from scaffolding (see Lesson 5).
 - Fiberglass near anything electrical; metal ladders never around exposed electrical equipment.
 - No painted ladders and no single ladders; stepladders no longer than 20 ft.
 - Our ladders are rated 300 lb; the rating includes you, your tools, and materials.
-- Large multi-position ladders and extension ladders 32 ft and over are two-person work.
+- Large multi-position ladders and extension ladders over 30 ft (every 32-ft ladder) are two-person work.
+- Our biggest ladder infraction is the wrong size ladder: take the time to get the right one.

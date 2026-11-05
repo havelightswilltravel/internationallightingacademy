@@ -16,6 +16,11 @@ see damage early. Cleaning done wrong can also destroy a lens, break a wet-locat
 warranty. The rule is simple: **identify the material, follow the manufacturer's instructions and
 use only a compatible cleaner.**
 
+Customers notice dirty fixtures even when every lamp works. Our company has had repeated customer
+complaints about **bugs, cobwebs and dust** left in lenses after a service call. Customers expect
+cleaning as part of the service: clean the fixture you open, wipe the lens and housing, and **note
+the cleaning on the work order** so it is visible and billable.
+
 ## Step 1: Identify the Materials
 | Part | Common materials | How to recognize it in the field |
 |---|---|---|

@@ -27,6 +27,11 @@ to lift loads**, used within its load chart. Depending on the job, our superviso
 bucket truck with a rated material-handling jib and winch, a boom truck or crane service, or a rented
 machine with a rated lifting attachment.
 
+**Company jib rules.** If the job uses a lift truck's jib and winch: only technicians trained on that
+jib use it; **inspect the winch line before each use** and replace it if frayed; keep the load within
+the jib's rating at that extension; **coil the line under tension** (a loose wrap under a tight one
+can let the load drop suddenly); and **stow the jib before driving** (LT3-C06 Lesson 8).
+
 > **Safety:** Company policy, from our lift training: **a lift is never used as a crane unless the
 > manufacturer designed it to lift loads that way.** Never hang a pole from a scissor or boom
 > platform, its guardrails or its basket, and never tie a sling to a MEWP to "help" another machine.

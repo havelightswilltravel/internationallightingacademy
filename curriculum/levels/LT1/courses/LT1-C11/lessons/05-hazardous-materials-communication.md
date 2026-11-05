@@ -40,7 +40,8 @@ current SDS.
 ### Where to find an SDS
 **Company rule:** our shop keeps SDS copies for every product we use in a **marked binder at a
 fixed spot in the warehouse**, and you should know exactly where it is. Many SDS can also be pulled
-up on your phone from the manufacturer.
+up on your phone from the manufacturer. **No SDS, no use:** if a product has no SDS in the binder,
+do not use it until the office gets one.
 
 The SDS sections you will use most:
 | Section | Tells you |

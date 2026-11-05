@@ -60,4 +60,4 @@ multiply that risk, and our trucks are heavy - a loaded bucket truck can weigh 1
 
 - FMCSA and state DOT winter driving guidance; your state's chain/traction law
 - NHTSA winter driving tips
-- Program courses: LT1-C11 (winter: slips, lifts, vehicles and equipment)
+- Program courses: LT1-C01 Lesson 7 (Company Vehicles & Driving Safety); LT1-C11 (winter: slips, lifts, vehicles and equipment)

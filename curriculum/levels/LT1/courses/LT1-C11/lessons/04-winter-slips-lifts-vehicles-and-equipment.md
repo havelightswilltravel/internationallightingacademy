@@ -94,6 +94,9 @@ winter, but the conditions do.
   them. A harness fitted over a T-shirt in summer will not fit right over a parka.
 - Hydraulic oil is thick when cold. Let the lift warm up as the manufacturer directs, and expect
   slower functions. Report any lift that drifts or acts differently.
+- Keep scissor lifts **covered or stored inside** through the winter. Watch for **leaking lift
+  fluid** on floors and platforms; hydraulic oil on ice or tile is a slip hazard, and a leak is an
+  out-of-service item. Put out a wet-floor sign until it is cleaned up.
 - Plastics get **brittle** in the cold. Handle lenses, diffusers and fixture housings gently.
 - Fluorescent lamps may be slow to start or dim in cold outdoor fixtures; that is a cold-start issue,
   not necessarily a bad lamp.
@@ -107,6 +110,9 @@ winter, but the conditions do.
 - Lift batteries also lose capacity. Plan for shorter run time and charge as directed.
 - A **meter or tester** that has been in a freezing van can read erratically or have a weak battery.
   Do your live-dead-live check on a known source as always; never assume a cold meter is accurate.
+
+Winter **driving** (icy roads, our canyon-road policy, keeping diesels at least half full, and what
+to do if you are stranded) is covered in LT1-C01 Lesson 7, Company Vehicles & Driving Safety.
 
 ## Heaters and Carbon Monoxide
 

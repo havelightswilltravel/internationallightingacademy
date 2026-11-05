@@ -74,6 +74,11 @@ Every part that goes in or comes out should be on the work order:
 | Warranty | Old part under warranty? RMA requested? |
 | Photos | Label before, wiring before, completed fixture |
 
+**Company rule: write the full code.** "24 V driver" or "LED lamp" is a description, not a part
+code. Copy the **complete catalog or stock code** of the material you installed from the label or
+the box, so the office can bill it, restock it and order the same part next time. Put your photos in
+the company's service-order photo folder, not just in a text message, so they can be found later.
+
 Why this matters: the next technician on site needs to know what is installed, the office
 needs it for billing and restocking, and warranty claims depend on it.
 

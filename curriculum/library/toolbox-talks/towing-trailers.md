@@ -58,3 +58,4 @@ checked before it went back on the road.
 - FMCSA 49 CFR 393.70 (coupling devices and towing methods) and 393.42-.43 (brakes, breakaway)
 - Your state's trailer brake and safety-chain requirements
 - Company DVIR checklist (pull sheet)
+- Program courses: LT1-C01 Lesson 7 (Company Vehicles & Driving Safety)

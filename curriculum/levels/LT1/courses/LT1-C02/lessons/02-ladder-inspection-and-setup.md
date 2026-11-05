@@ -81,7 +81,7 @@ contact point = base 3 ft out.** That is about a 75-degree angle.
 
 ### Raising and Securing
 1. **Look up first** for power lines, then raise with the fly section retracted. Long ladders
-   (32 ft and over) take **two people**.
+   (over 30 ft, so every 32-ft ladder) take **two people**.
 2. Move the base out to the 4:1 position; on soft ground, **use the spur spikes**.
 3. Extend the fly with the rope and confirm **both rung locks** are engaged and the overlap on
    the label is met.

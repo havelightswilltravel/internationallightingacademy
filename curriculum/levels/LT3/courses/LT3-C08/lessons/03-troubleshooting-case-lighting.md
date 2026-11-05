@@ -87,6 +87,13 @@ or refrigeration contractor**.
 | Intermittent outage on one door | Harness break at hinge, wet connector | Step 7 |
 | Burned smell, melted socket | Moisture arcing, loose contact | LOTO, replace, write up wiring needs |
 
+### Flashing LED door sticks
+Our flashing-fixture procedure (LT2-C06) applies to case lighting too: **a single LED stick in a
+cooler door counts as a fixture**. If the manager reports flashing but cannot show you which doors,
+ask them to mark the exact doors and call in a new ticket rather than replacing parts on a guess.
+**Never leave a stick strobing**: if you cannot fix it on this trip, lock out, disconnect that stick
+or its driver safely, label it and write up the return with notes.
+
 ## Key Takeaways
 - Follow the order: switches, defrost, lamps, sockets, ballast, harness, line voltage.
 - Lock out and verify before touching sockets, ballasts or wiring; case controls are not lockouts.

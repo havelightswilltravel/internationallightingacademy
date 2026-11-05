@@ -26,6 +26,22 @@ gets asked sooner or later: "Can't you just do it live?"
   site) that the work has ended. The supervisor makes sure all work really is finished before the
   equipment is released for normal use.
 
+## Your Lock, Your Key
+
+- **Keep personal control of your key** the whole time your lock is on. Never hand it to a
+  coworker or leave it in the van.
+- **Only the employee exposed to the hazard places and removes their own lock.** Nobody locks out
+  "for" you.
+- After locking out and **confirming nobody is in the fixtures or near the circuit**, try a start-up
+  at the normal control to prove the lockout works, then return the control to off.
+
+Our LOTO reviews end with three self-check questions. If the answer to any is "no," tell your
+supervisor:
+
+1. Can every lock and tag on this job tell someone **who** is working?
+2. Do we have **enough locks and tags** for every person and every isolation point?
+3. If something truly cannot be locked out, is there a **written procedure** for it?
+
 ## The Forgotten-Lock Rule
 
 If someone leaves a lock on, the supervisor must make **every attempt to contact that person**

@@ -73,6 +73,19 @@ strip**: a long sealed strip that mounts on each mullion and lights the shelves 
 LED advantages in cases include less heat in the case, better cold performance and longer life.
 Common LED failures are a failed driver, a wet or loose connector, or a damaged strip.
 
+### Dry-case and low-voltage LED sticks
+Dry (non-refrigerated) display cases and shelves often use **12 V or 24 V LED sticks**. They come in
+many lengths and color temperatures, linked by **jumper cables**, mounted with **magnetic or screw
+brackets**, and fed by plug-in drivers with many different plug styles. Photograph the **plug and the
+receptacle**, note the voltage, and **measure the length each stick needs**. A plug-in driver that
+looks right but has the wrong tip or output voltage will not work, or will damage the sticks.
+
+### When a product line is discontinued
+Whole lines of case ballasts have been discontinued and are close to impossible to find. When you
+meet one, give the office what it needs to find an **LED option**, or another ballast if LED is not
+viable: photos of the case including the **plug and receptacle**, measurements, the **color
+temperature**, the **lamp type and quantity per ballast**, and the number of cases on the lineup.
+
 ## Parts Identification and Ordering
 When you find a failed part, record:
 

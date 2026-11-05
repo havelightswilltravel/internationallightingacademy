@@ -61,4 +61,4 @@ fill out the form.
 
 - Company Safe Driving policy and Vehicle Accident Procedure (safety manual appendix)
 - FMCSA 49 CFR 390.15 (accident register, for vehicles under DOT jurisdiction)
-- Program courses: LT1-C01 (incident reporting)
+- Program courses: LT1-C01 Lesson 6 (incident reporting) and Lesson 7 (Company Vehicles & Driving Safety)

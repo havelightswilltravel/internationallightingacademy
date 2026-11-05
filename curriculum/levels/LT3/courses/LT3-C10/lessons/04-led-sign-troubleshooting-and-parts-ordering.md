@@ -91,6 +91,14 @@ Customers notice a letter that is a different color or brightness. Record and ma
 - Connector type and size for wire gauge and location (IDC, gel-filled, solder and heat shrink).
 - Feed wire gauge and length, mounting tape/straps or screws, sealant, flex and fittings.
 
+## Small LED Signs on Inspections
+
+Exterior inspections often include small **LED message signs**, such as drive-up "OPEN/CLOSED"
+signs. Company practice: **inspect whatever the sign lights up**, and treat **even one LED out as a
+failure**. Many of these signs are still under the manufacturer's warranty, so **photograph the sign
+face (showing the dark LEDs) and the label** (make, model, serial) and write it up. The office can
+then claim the warranty instead of paying for a repair.
+
 ## When to Escalate or Write It Up
 - No line voltage, repeated breaker trips, damaged branch-circuit wiring or a missing/inoperable
   sign disconnect.
