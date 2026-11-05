@@ -54,6 +54,27 @@ router.post('/logout', (req, res) => {
   req.session.destroy(() => res.redirect('/login'));
 });
 
+// Public copy of the disclaimer (linked from the sign-in page).
+router.get('/disclaimer', (req, res) => {
+  res.render('disclaimer', { title: 'Before you use this program', d: require('../disclaimer').current(), ask: false, next: '/' });
+});
+
+router.get('/acknowledge', auth.requireLogin, (req, res) => {
+  const nextUrl = /^\/(?!\/)/.test(req.query.next || '') ? req.query.next : '/';
+  res.render('disclaimer', { title: 'Before you use this program', d: require('../disclaimer').current(), ask: true, next: nextUrl, error: null });
+});
+
+router.post('/acknowledge', auth.requireLogin, (req, res) => {
+  const d = require('../disclaimer').current();
+  const nextUrl = /^\/(?!\/)/.test(req.body.next || '') ? req.body.next : '/';
+  if (req.body.agree !== '1') {
+    return res.status(400).render('disclaimer', { title: 'Before you use this program', d, ask: true, next: nextUrl, error: 'Check the box to confirm you have read and understand this notice.' });
+  }
+  db.run("UPDATE users SET disclaimer_version = ?, disclaimer_accepted_at = datetime('now') WHERE id = ?", d.version, req.user.id);
+  db.audit(req.user, 'disclaimer_acknowledged', { version: d.version });
+  res.redirect(nextUrl);
+});
+
 router.get('/account', auth.requireLogin, (req, res) => {
   res.render('account', { title: 'My account', error: null, force: req.query.force === '1' || !!req.user.must_change_password });
 });

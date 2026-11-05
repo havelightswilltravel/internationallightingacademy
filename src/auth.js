@@ -90,8 +90,13 @@ function loadUser(req, res, next) {
 
 function requireLogin(req, res, next) {
   if (!req.user) return res.redirect('/login?next=' + encodeURIComponent(req.originalUrl));
-  if (req.user.must_change_password && !['/account', '/logout'].includes(req.path)) {
+  const url = req.originalUrl.split('?')[0];
+  if (req.user.must_change_password && !['/account', '/account/password', '/logout'].includes(url)) {
     return res.redirect('/account?force=1');
+  }
+  // Everyone acknowledges the current disclaimer (local codes, licensing, scope) before using the program.
+  if (req.user.disclaimer_version !== require('./disclaimer').current().version && !['/acknowledge', '/logout', '/account', '/account/password'].includes(url)) {
+    return res.redirect('/acknowledge?next=' + encodeURIComponent(req.originalUrl));
   }
   next();
 }

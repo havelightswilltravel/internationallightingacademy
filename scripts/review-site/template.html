@@ -2,7 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Saira+Condensed:ital,wght@0,700;0,800;1,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
 /* Layout: spec-sheet reader — sticky header with search, grade ladder nav on the left, reading column on the right; nav folds above content on phones. */
 :root {
@@ -35,6 +35,16 @@
   --bg: #11161e; --surface: #18202b; --ink: #e6eaf0; --muted: #9aa5b5; --line: #2a3442;
   --accent: #f2b01e; --accent-fill: #f2b01e; --accent-soft: #2e2611; --link: #7fb2ff;
   --ok: #6fd39d; --ok-soft: #14301f; --warn: #ff9f7a; --warn-soft: #3a1d13; --info-soft: #172438; --code-bg: #222c39;
+  color-scheme: dark;
+}
+/* HLWT look: a deliberate single dark look in the style of the company's workflow posters
+   (night-sky navy, glowing safety orange + electric blue, bold condensed italic caps, numbered stage badges). */
+:root[data-brand="hlwt"] {
+  --bg: #0a1222; --surface: #111c33; --ink: #edf2fb; --muted: #9fb0cc; --line: #233455;
+  --accent: #ff9a2e; --accent-fill: #ff8a1f; --accent-soft: #2b1d10; --link: #6fb2ff;
+  --blue: #2f8bff;
+  --ok: #5fd99a; --ok-soft: #0f2c1f; --warn: #ff8f6b; --warn-soft: #34160e; --info-soft: #12264a; --code-bg: #182644;
+  --display: "Saira Condensed", "Barlow Condensed", "Arial Narrow", sans-serif;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -173,11 +183,44 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
   .ladder a { grid-template-columns: 56px minmax(0, 1fr); }
   .ladder .n { grid-row: auto; grid-column: 2; text-align: left; }
 }
+/* Look switch + HLWT treatments */
+.looks { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; flex: none; }
+.looks button { font: 600 .78rem/1 var(--body); letter-spacing: .04em; text-transform: uppercase; padding: 7px 12px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.looks button[aria-pressed="true"] { background: var(--accent-fill); color: #14100a; }
+.wordmark { display: none; }
+.brand .plain { display: contents; }
+[data-brand="hlwt"] .brand .plain { display: none; }
+[data-brand="hlwt"] .wordmark { display: flex; align-items: center; gap: 10px; }
+.wordmark .hex { font: italic 800 1.5rem/1 var(--display); letter-spacing: .04em; color: #fff; padding: 4px 12px 5px; border: 2px solid var(--blue); border-radius: 8px; background: linear-gradient(180deg, #16305e, #0b1a36); box-shadow: 0 0 12px rgba(47,139,255,.55), inset 0 0 8px rgba(47,139,255,.35); }
+.wordmark small { display: block; font: 700 .64rem/1.25 var(--body); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+.wordmark small + small { color: var(--muted); }
+[data-brand="hlwt"] body { background: radial-gradient(1200px 500px at 85% -10%, rgba(47,139,255,.18), transparent 60%), radial-gradient(900px 420px at -10% 10%, rgba(255,138,31,.12), transparent 60%), var(--bg); background-attachment: fixed; }
+[data-brand="hlwt"] header.top { background: rgba(10,18,34,.92); border-bottom: 1px solid #1d3a6b; box-shadow: 0 1px 0 rgba(47,139,255,.25); backdrop-filter: blur(6px); }
+[data-brand="hlwt"] body::before { background: #0a1222; }
+[data-brand="hlwt"] h1, [data-brand="hlwt"] h2 { font-style: italic; font-weight: 800; text-transform: uppercase; letter-spacing: .01em; }
+[data-brand="hlwt"] h1 { font-size: 2.7rem; background: linear-gradient(90deg, #ffffff 0%, #ffd2a1 55%, #ff8a1f 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+[data-brand="hlwt"] h2 { color: #fff; text-shadow: 0 0 18px rgba(47,139,255,.35); }
+[data-brand="hlwt"] .eyebrow { color: var(--blue); }
+[data-brand="hlwt"] .panel, [data-brand="hlwt"] .stat, [data-brand="hlwt"] .list, [data-brand="hlwt"] .q, [data-brand="hlwt"] details.skill, [data-brand="hlwt"] .ladder a { background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0)), var(--surface); border-color: #22406f; }
+[data-brand="hlwt"] .stat b { color: var(--accent); font-style: italic; }
+[data-brand="hlwt"] .ladder a:hover { border-color: var(--accent-fill); box-shadow: 0 0 0 1px var(--accent-fill), 0 0 18px rgba(255,138,31,.25); }
+[data-brand="hlwt"] .ladder .code { display: grid; place-items: center; width: 58px; height: 58px; border-radius: 50%; font-style: italic; font-size: 1.35rem; color: #fff; background: radial-gradient(circle at 35% 30%, #3d9bff, #0f3f8c 70%); box-shadow: 0 0 0 3px #0a1222, 0 0 0 5px var(--blue), 0 0 16px rgba(47,139,255,.6); }
+[data-brand="hlwt"] .ladder li:nth-child(even) .code { background: radial-gradient(circle at 35% 30%, #ffb15c, #c45a00 70%); box-shadow: 0 0 0 3px #0a1222, 0 0 0 5px var(--accent-fill), 0 0 16px rgba(255,138,31,.55); }
+[data-brand="hlwt"] .reqs div { border-top-color: var(--blue); background: var(--surface); }
+[data-brand="hlwt"] .reqs b { color: var(--accent); font-style: italic; }
+[data-brand="hlwt"] .banner { border: 1px solid #5a2a18; }
+[data-brand="hlwt"] .prose blockquote { background: rgba(255,138,31,.10); }
+[data-brand="hlwt"] nav.side a.on { background: rgba(255,138,31,.14); }
+[data-brand="hlwt"] .tagline { display: block; }
+.tagline { display: none; font: italic 800 1.6rem/1.05 var(--display); text-transform: uppercase; color: var(--accent); text-align: right; margin-top: 26px; text-shadow: 0 0 14px rgba(255,138,31,.35); }
+.disc-status { display: inline-block; font: 500 .74rem/1.4 var(--mono); padding: 2px 8px; border-radius: 99px; background: var(--info-soft); color: var(--link); }
 @media (prefers-reduced-motion: no-preference) { .lamp { transition: box-shadow .3s; } .brand:hover .lamp { box-shadow: 0 0 0 4px var(--accent-soft), 0 0 22px var(--accent-fill); } }
 </style>
 
 <header class="top"><div class="bar wrap">
-  <a class="brand" href="#home"><i class="lamp" aria-hidden="true"></i><b>Lighting Academy</b><span>Curriculum review</span></a>
+  <a class="brand" href="#home"><span class="plain"><i class="lamp" aria-hidden="true"></i><b>Lighting Academy</b><span>Curriculum review</span></span>
+    <span class="wordmark" aria-label="HLWT Academy"><span class="hex">HLWT</span><span><small>Technician Academy</small><small>Curriculum review</small></span></span></a>
+  <div class="looks" role="group" aria-label="Look"><button type="button" id="lookHlwt" aria-pressed="true">HLWT look</button><button type="button" id="lookNeutral" aria-pressed="false">Neutral look</button></div>
   <button class="btn navtoggle" id="navtoggle" type="button" aria-expanded="false" aria-controls="side">Contents</button>
   <form class="search" id="searchform" role="search"><input id="q" type="search" placeholder="Search lessons, questions, guides… (e.g. neon, ballast, LOTO)" aria-label="Search the curriculum"></form>
 </div></header>
@@ -222,6 +265,11 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
         }
       }
     }
+    if (D.discussions.length) {
+      h.push('<h4>Discussions</h4>');
+      h.push(`<a class="${route.name === 'discussions' ? 'on' : ''}" href="#discussions">All discussion items</a>`);
+      for (const d of D.discussions) h.push(`<a class="${route.name === 'disc' && route.disc === d.key ? 'on' : ''}" href="#disc-${d.key}">${esc(d.key)} · ${esc(d.title)}</a>`);
+    }
     h.push('<h4>Reference</h4>');
     const ref = [['lib', 'Troubleshooting library'], ['matrix', 'Skills Matrix'], ['kits', 'Interview kits'], ...D.docs.map((d) => ['doc-' + d.key, d.title])];
     for (const [k, t] of ref) h.push(`<a class="${route.name === k || (route.name === 'g' && k === 'lib') || (route.name === 'kit' && k === 'kits') ? 'on' : ''}" href="#${k}">${esc(t)}</a>`);
@@ -247,8 +295,10 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
       ${D.tracks.map((tr) => `<h2>${esc(tr.title)}</h2><p class="lede">${esc(tr.description)}</p>
         <ol class="ladder">${tr.levels.map((code) => { const l = D.levels[code]; const nl = l.courses.reduce((a, c) => a + D.courses[c].lessons.length, 0);
           return `<li><a href="#lvl-${code}"><span class="code">${code}</span><span class="t">${esc(l.title)}</span><span class="n">${l.courses.length} courses<br>${nl} lessons<br>${l.skills.length} skills</span><span class="m">${esc(l.grade)}${l.duration ? ' · ~' + l.duration + ' months' : ''} · ${l.reqs.hours.toLocaleString()} OJT hours</span></a></li>`; }).join('')}</ol>`).join('')}
+      ${D.discussions.length ? `<h2>Open discussion items</h2><div class="list">${D.discussions.map((d) => `<a href="#disc-${d.key}"><span class="k">${esc(d.key)}</span><span class="tt">${esc(d.title)}</span><span class="d"><span class="disc-status">${esc(d.status)}</span></span></a>`).join('')}</div>` : ''}
       <h2>Reviewer progress</h2>
-      <p class="lede">Mark lessons as reviewed as you go. Your marks are saved in this browser only. ${reviewed.size} of ${t.lessons} lessons marked so far.</p>`;
+      <p class="lede">Mark lessons as reviewed as you go. Your marks are saved in this browser only. ${reviewed.size} of ${t.lessons} lessons marked so far.</p>
+      <p class="tagline">Brighter places together</p>`;
   };
 
   views.lvl = (r) => {
@@ -366,6 +416,16 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
       <h2>Candidate qualities and requirements</h2><ul>${k.requirements.map((w) => `<li>${esc(w)}</li>`).join('')}</ul></div>`;
   };
 
+  views.discussions = () => `<p class="eyebrow">For discussion</p><h1>Discussion items</h1>
+    <p class="lede">Topics raised for a deeper look. Each one has background, options and a recommendation, plus questions to decide.</p>
+    <div class="list">${D.discussions.map((d) => `<a href="#disc-${d.key}"><span class="k">${esc(d.key)}</span><span class="tt">${esc(d.title)}<small>${d.raised ? 'Raised ' + esc(d.raised) : ''}</small></span><span class="d"><span class="disc-status">${esc(d.status)}</span></span></a>`).join('')}</div>`;
+
+  views.disc = (r) => {
+    const d = D.discussions.find((x) => x.key === r.disc);
+    if (!d) return notFound();
+    return `<p class="crumbs"><a href="#discussions">Discussion items</a></p><p class="row"><span class="disc-status">${esc(d.status)}</span>${d.raised ? `<span class="pill">raised ${esc(d.raised)}</span>` : ''}</p><article class="prose">${d.html}</article>`;
+  };
+
   views.doc = (r) => {
     const d = D.docs.find((x) => x.key === r.doc);
     if (!d) return notFound();
@@ -412,6 +472,7 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
     if ((m = /^g-(.+)$/.exec(h))) return { name: 'g', guide: m[1] };
     if ((m = /^kit-(.+)$/.exec(h))) return { name: 'kit', kit: m[1] };
     if ((m = /^doc-(.+)$/.exec(h))) return { name: 'doc-' + m[1], view: 'doc', doc: m[1] };
+    if ((m = /^disc-(.+)$/.exec(h))) return { name: 'disc', disc: m[1] };
     return { name: views[h] ? h : 'home' };
   }
   function render() {
@@ -438,6 +499,15 @@ footer { color: var(--muted); font-size: .82rem; padding-block: 0 30px; max-widt
       m.classList.toggle('on', on); m.setAttribute('aria-pressed', on); m.textContent = on ? '✓ Reviewed' : 'Mark as reviewed';
     });
   }
+  function setLook(look) {
+    document.documentElement.setAttribute('data-brand', look === 'neutral' ? 'neutral' : 'hlwt');
+    $('#lookHlwt').setAttribute('aria-pressed', String(look !== 'neutral'));
+    $('#lookNeutral').setAttribute('aria-pressed', String(look === 'neutral'));
+    store.set('ila-look', look);
+  }
+  $('#lookHlwt').addEventListener('click', () => setLook('hlwt'));
+  $('#lookNeutral').addEventListener('click', () => setLook('neutral'));
+  setLook(store.get('ila-look') || 'hlwt');
   $('#searchform').addEventListener('submit', (e) => {
     e.preventDefault();
     const q = $('#q').value.trim();

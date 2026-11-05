@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<section class="card narrow disclaimer">
+  <% if (ask) { %><p class="eyebrow">Please read before continuing</p><% } %>
+  <div class="prose"><%- renderMarkdown(d.text) %></div>
+  <% if (ask) { %>
+    <% if (error) { %><div class="flash error"><%= error %></div><% } %>
+    <form method="post" action="/acknowledge">
+      <input type="hidden" name="_csrf" value="<%= csrf %>">
+      <input type="hidden" name="next" value="<%= next %>">
+      <label class="choice"><input type="checkbox" name="agree" value="1" id="agree"> <span>I have read and understand this notice. I will check local codes, licensing rules and company policy, and work only within the scope I am licensed, trained and authorized for.</span></label>
+      <button class="btn primary">Continue</button>
+    </form>
+    <p class="small muted">Notice version <%= d.version %>. Your acknowledgment is recorded with the date.</p>
+  <% } else { %>
+    <p><a class="btn" href="/">Back</a></p>
+  <% } %>
+</section>
+<%- include('partials/footer') %>

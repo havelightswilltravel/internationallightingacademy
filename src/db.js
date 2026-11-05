@@ -303,6 +303,8 @@ function migrate(d) {
   const has = (table, col) => d.prepare(`PRAGMA table_info(${table})`).all().some((c) => c.name === col);
   if (!has('tracks', 'kind')) d.exec("ALTER TABLE tracks ADD COLUMN kind TEXT NOT NULL DEFAULT 'progression'");
   if (!has('tracks', 'audience')) d.exec("ALTER TABLE tracks ADD COLUMN audience TEXT NOT NULL DEFAULT 'technician'");
+  if (!has('users', 'disclaimer_version')) d.exec('ALTER TABLE users ADD COLUMN disclaimer_version TEXT');
+  if (!has('users', 'disclaimer_accepted_at')) d.exec('ALTER TABLE users ADD COLUMN disclaimer_accepted_at TEXT');
 }
 
 function get() {

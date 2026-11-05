@@ -10,9 +10,25 @@ const ROOT = path.join(__dirname, '..', '..');
 const out = process.argv[2] || path.join(ROOT, 'review-site.html');
 const data = curriculum.load();
 if (data.errors.length) {
-  console.error('Curriculum has errors; run npm run validate-curriculum first.');
-  process.exit(1);
+  if (!process.env.ALLOW_ERRORS) {
+    console.error('Curriculum has errors; run npm run validate-curriculum first.');
+    process.exit(1);
+  }
+  console.warn(`Preview build: ignoring ${data.errors.length} curriculum error(s).`);
 }
+
+// Lessons reference curriculum images as /media/...; the one-file review site embeds them.
+const MEDIA = path.join(ROOT, 'curriculum', 'media');
+const MIME = { '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.gif': 'image/gif', '.webp': 'image/webp' };
+function inlineMedia(html) {
+  return html.replace(/src="\/media\/([^"]+)"/g, (m, rel) => {
+    const file = path.join(MEDIA, rel);
+    if (!file.startsWith(MEDIA) || !fs.existsSync(file)) return m;
+    const type = MIME[path.extname(file).toLowerCase()] || 'application/octet-stream';
+    return `src="data:${type};base64,${fs.readFileSync(file).toString('base64')}"`;
+  });
+}
+const md = (text) => inlineMedia(renderMarkdown(text));
 
 const slug = (s) => s.replace(/\.md$/, '').replace(/[^A-Za-z0-9-]+/g, '-');
 const guideKey = (sourceKey) => slug(sourceKey.replace(/^library\//, '').replace('/', '-'));
@@ -37,14 +53,14 @@ for (const l of data.levels) {
     };
     for (const ls of c.lessons) {
       const key = slug(ls.id.replace('/', '-'));
-      lessons[key] = { key, course: c.code, title: ls.title, minutes: ls.minutes, video: ls.video_suggestion, html: renderMarkdown(ls.body_md) };
+      lessons[key] = { key, course: c.code, title: ls.title, minutes: ls.minutes, video: ls.video_suggestion, html: md(ls.body_md) };
     }
   }
 }
 
 const tracks = (data.program.tracks || []).map((t) => ({ code: t.code, title: t.title, description: (t.description || '').trim(), levels: (t.levels || []).filter((c) => levels[c]) }));
 const library = data.library.map((g) => ({
-  key: guideKey(g.source_key), title: g.title, category: g.category, tags: g.tags, levels: g.levels, reviewed: g.last_reviewed, html: renderMarkdown(g.body_md),
+  key: guideKey(g.source_key), title: g.title, category: g.category, tags: g.tags, levels: g.levels, reviewed: g.last_reviewed, html: md(g.body_md),
 }));
 const scale = { 1: 'I have seen it', 2: 'I understand it', 3: 'I perform it', 4: 'I can teach it' };
 const matrix = {
@@ -61,7 +77,15 @@ const docs = [
   ['evaluator', 'Evaluator guide', 'docs/EVALUATOR_GUIDE.md'],
   ['governance', 'Content governance', 'docs/CONTENT_GOVERNANCE.md'],
   ['sources', 'Reference coverage', 'docs/REFERENCE_COVERAGE.md'],
-].map(([key, title, file]) => ({ key, title, html: renderMarkdown(fs.readFileSync(path.join(ROOT, file), 'utf8')) }));
+  ['disclaimer', 'Local codes & scope notice', 'docs/DISCLAIMER.md'],
+].map(([key, title, file]) => ({ key, title, html: md(fs.readFileSync(path.join(ROOT, file), 'utf8')) }));
+
+// Discussion items (docs/discussions/NNN-*.md with title/status front matter).
+const DISC = path.join(ROOT, 'docs', 'discussions');
+const discussions = fs.existsSync(DISC) ? fs.readdirSync(DISC).filter((f) => /^\d{3}-.*\.md$/.test(f)).sort().map((f) => {
+  const { meta, body } = curriculum.parseFrontMatter(fs.readFileSync(path.join(DISC, f), 'utf8'));
+  return { key: f.slice(0, 3), title: meta.title || f, status: meta.status || '', raised: meta.raised ? String(meta.raised instanceof Date ? meta.raised.toISOString().slice(0, 10) : meta.raised) : '', html: md(body) };
+}) : [];
 
 const totals = {
   levels: Object.keys(levels).length,
@@ -73,7 +97,7 @@ const totals = {
 };
 const payload = {
   meta: { generated: new Date().toISOString().slice(0, 10), version: String(data.program.version || ''), totals },
-  tracks, trackTitle: Object.fromEntries(tracks.map((t) => [t.code, t.title])), levels, courses, lessons, library, matrix, kits, docs,
+  tracks, trackTitle: Object.fromEntries(tracks.map((t) => [t.code, t.title])), levels, courses, lessons, library, matrix, kits, docs, discussions,
 };
 
 // Keep the JSON safe inside a <script> element.

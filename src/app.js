@@ -52,6 +52,8 @@ function createApp() {
 
   // Uploaded videos and documents are only served to signed-in users.
   app.use('/uploads', auth.requireLogin, express.static(UPLOAD_DIR, { fallthrough: false }));
+  // Images and diagrams that ship with the curriculum (referenced from lessons as /media/...).
+  app.use('/media', auth.requireLogin, express.static(path.join(__dirname, '..', 'curriculum', 'media'), { fallthrough: false, maxAge: '1d' }));
 
   app.use(require('./routes/auth'));
   app.use(require('./routes/team')); // first: includes the public /verify route

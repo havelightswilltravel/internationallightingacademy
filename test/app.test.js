@@ -40,9 +40,14 @@ function client() {
     cookie: () => cookie,
     get: (u) => req('GET', u),
     post: (u, f = {}) => req('POST', u, f),
-    async login(email) {
+    async login(email, { acknowledge = true } = {}) {
       await c.get('/login');
-      return c.post('/login', { email, password: PW });
+      const r = await c.post('/login', { email, password: PW });
+      if (acknowledge && r.status === 302) {
+        await c.get('/acknowledge');
+        await c.post('/acknowledge', { agree: '1', next: '/' });
+      }
+      return r;
     },
   };
   return c;
@@ -409,4 +414,26 @@ test('dollar figures in lessons are always labeled as examples (client policy)',
     }
   }
   assert.deepEqual(unlabeled, []);
+});
+
+test('disclaimer must be acknowledged before using the program, and again when it changes', async () => {
+  db.run("INSERT INTO users (org_id, email, name, password_hash, role) VALUES (1, 'newbie@acme.test', 'Newbie', ?, 'technician')", auth.hashPassword(PW));
+  const c = client();
+  await c.login('newbie@acme.test', { acknowledge: false });
+  let r = await c.get('/levels');
+  assert.match(r.location, /^\/acknowledge\?next=%2Flevels/);
+  const page = await c.get(r.location);
+  assert.match(page.text, /Local codes vary/);
+  r = await c.post('/acknowledge', { next: '/levels' });
+  assert.equal(r.status, 400);
+  r = await c.post('/acknowledge', { agree: '1', next: '/levels' });
+  assert.equal(r.location, '/levels');
+  assert.equal((await c.get('/levels')).status, 200);
+  const u = db.one("SELECT * FROM users WHERE email = 'newbie@acme.test'");
+  assert.ok(u.disclaimer_accepted_at);
+  // A changed notice asks again.
+  db.run("UPDATE users SET disclaimer_version = 'old' WHERE id = ?", u.id);
+  assert.match((await c.get('/levels')).location, /^\/acknowledge/);
+  // Public copy is readable without signing in.
+  assert.match((await client().get('/disclaimer')).text, /Completing a course is not a license/);
 });
