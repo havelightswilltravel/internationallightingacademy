@@ -59,7 +59,9 @@ Our safety manual boils safe work down to ten rules:
 ## Health Hazards and Fire Prevention
 
 - **Stay reachable.** Keep cell contact with the office at every site so help can be sent.
-- **Dust and insulation:** wear a mask above ceilings, in attics and when cutting or drilling.
+- **Dust and insulation:** dust masks are available and encouraged above ceilings, in attics and
+  when cutting or drilling. Their use is voluntary at our company (you'll get the OSHA Appendix D
+  handout, 29 CFR 1910.134).
 - **Lead and asbestos:** any demolition or remodel work (drywall, painted surfaces, grinding) is
   assessed **before** work starts. If you suspect asbestos in old ceiling tile or insulation,
   stop and call your supervisor (29 CFR 1926.1101, 1926.62).

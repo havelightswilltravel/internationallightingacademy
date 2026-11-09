@@ -31,7 +31,7 @@ draft electrical-apprentice levels are kept, unused, in `curriculum/archive/elec
 |---|---|---|---|
 | Courses | 48 | 6 | **54** |
 | Lessons | 243 | 21 | **264** |
-| Quiz/exam questions | 963 | 90 | **1,053** |
+| Quiz/exam questions | 964 | 90 | **1,054** |
 | Hands-on skills | 85 | 6 | **91** |
 
 Plus 125 library guides (troubleshooting guides, company field procedures, 34 toolbox talks, 29 case studies, 10 job playbooks,

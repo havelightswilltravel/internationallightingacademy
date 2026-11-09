@@ -29,8 +29,13 @@ type**, in **good condition**, and **worn correctly.**
 | High-visibility vest | ANSI/ISEA 107 | Being seen in warehouses, parking lots, roadways |
 | Hearing protection | NRR rating on package | Loud plants, power tools |
 
-Your job hazard analysis may add other items: respirator for dusty ceilings (requires a
-separate program, fit test, and medical clearance), face shield, or fall protection harness.
+Your job hazard analysis may add other items: a face shield, a fall protection harness, or a dust
+mask for dusty ceilings. **At our company, dust masks above ceilings and in attics are voluntary**:
+they're available and encouraged, but not required. When an employer only *allows* voluntary use of
+a filtering facepiece (dust mask or N95), OSHA requires that the wearer be given the information in
+29 CFR 1910.134 Appendix D. If a respirator is ever *required*, or someone voluntarily uses an
+elastomeric (cartridge) respirator, OSHA requires a written respirator program, medical evaluation
+and fit testing (1910.134(c)).
 
 ### Hard Hat Classes
 

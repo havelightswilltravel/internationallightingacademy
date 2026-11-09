@@ -474,3 +474,14 @@ quiz:
       answer: 1
       explanation: Cold muscles at the start of a shift and the after-lunch slump are the high-risk times. A few minutes of stretching before the first heavy lift helps.
       ref: Company material-handling training; LT1-C01 Lesson 6
+    - id: LT1-C01-Q42
+      type: single
+      q: You're on a three-day out-of-town job and everything is going well. How often should you talk with your supervisor?
+      choices:
+        - Only if something goes wrong
+        - When you get back to the shop
+        - Every day, covering location, progress, vehicle condition and tomorrow's plan
+        - Only at the start of the trip
+      answer: 2
+      explanation: Our company requires a daily check-in on every out-of-town trip, so help can be sent quickly if something goes wrong.
+      ref: Company travel policy

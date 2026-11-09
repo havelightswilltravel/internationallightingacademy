@@ -46,6 +46,8 @@ that should have waited for the shop.
   lowering, then call. Never climb out of an elevated basket.
 - **A bad parking brake is a defect, not a quirk.** Put it on the DVIR and tell your supervisor
   before the truck goes out, especially before an out-of-town trip.
+- **Out of town?** Check in with your supervisor every day: location, progress, vehicle condition
+  and tomorrow's plan.
 - **Winter:** keep diesels at least half full, and follow the stranded-vehicle rules in
   *Winter Driving*.
 

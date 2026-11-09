@@ -114,6 +114,9 @@ outside our agreement, stay polite, write down their name and request, and get y
 - Send the daily recap by the method and time on your sheet: what was done, what remains, counts,
   problems, and how the shift went.
 
+**On out-of-town projects,** the end-of-shift report goes to your supervisor every day without
+being asked: where you are, what got done, any problems, vehicle condition, and tomorrow's plan.
+
 ## Key Takeaways
 - Kickoff day: check in, walk with before photos, agree on a game plan, count material, stage.
 - Organize for flow: split dirty and clean work, feed the lifts, reassess when someone waits.

@@ -213,7 +213,8 @@ and report any damage before leaving the shop.
 
 ### Out-of-town travel runs
 
-When you cannot run back to the shop, carry spares. A local list for a small job might carry
+When you cannot run back to the shop, carry spares, and check in with your supervisor every day you
+are on the road. A local list for a small job might carry
 2 spray bottles and 10 rags; the travel list for the same job added more rags, wire nuts, spare
 sockets and spare drivers or ballasts.
 

@@ -45,6 +45,16 @@ create a greater hazard, and troubleshooting that can only be done with power on
 **only trained, qualified people do the work**, with the PPE and plan the company program
 requires - and the first choice is still to schedule the work so it can be done dead.
 
+> **Company stance; your company decides its own.** Our company allows qualified, authorized
+> technicians to work on energized lighting during business hours when shutting the lighting off
+> would itself create a hazard, for example darkening an occupied store or office. This rests on
+> OSHA 29 CFR 1910.333(a)(1), which lists "removal of illumination for an area" as an example of an
+> increased hazard, and NFPA 70E 130.2(A)(1), which allows energized work when de-energizing
+> introduces additional hazards or increased risk. Other companies using this program must decide
+> their own stance with their safety professional and document it. Either way, NFPA 70E still
+> requires a risk assessment, the right PPE, and an energized electrical work permit
+> (130.2(B)) unless an exemption applies.
+
 ## Ask yourself
 
 - Can everyone tell, from the locks and tags, who is working on this equipment?

@@ -77,6 +77,20 @@ location" section. Because its wording changed, every user will be asked to acce
 - **Our own scope sheet.** Write a one-page sheet listing which flagged tasks *our* techs may do,
   by grade, in each state we work in. Kyle and our licensed electrician should approve it.
 
+## Energized lighting work during business hours (company stance)
+Our company allows qualified, authorized technicians to work on energized lighting during business
+hours when shutting it off would itself create a hazard, such as darkening an occupied store or
+office. The basis:
+- **OSHA 29 CFR 1910.333(a)(1):** live parts must be de-energized unless the employer can show that
+  de-energizing introduces additional or increased hazards, or is infeasible. Its note lists
+  "removal of illumination for an area" as an example of an increased hazard.
+- **NFPA 70E 130.2(A)(1):** energized work is permitted when de-energizing introduces additional
+  hazards or increased risk. NFPA 70E still requires a shock and arc-flash risk assessment, the
+  right PPE, and an energized electrical work permit (130.2(B)) unless an exemption applies.
+
+Because this is a policy choice, every lesson that teaches it carries a "company stance; your
+company decides its own" notice for licensees.
+
 ## Questions for Kyle
 1. In the states we work in, which flagged tasks may our lighting techs do, and at what grade?
    (Retrofit kits, Type B conversions, fixture replacement, switches and receptacles, breakers,
@@ -85,3 +99,7 @@ location" section. Because its wording changed, every user will be asked to acce
 3. Should a licensed electrician on staff sign off our scope sheet each year?
 4. Is the notice wording right in tone, or should it be stricter ("do not perform unless…")?
 5. Who reviews the license-agreement wording: our attorney, our insurer, or both?
+6. **Energized lighting work during business hours:** are we comfortable stating this company stance
+   in the training, citing OSHA 1910.333(a)(1) and NFPA 70E 130.2(A)(1)? Which grade may do it, and
+   does each job need a written permit, or does a standing procedure cover routine relamping and
+   ballast or driver work?

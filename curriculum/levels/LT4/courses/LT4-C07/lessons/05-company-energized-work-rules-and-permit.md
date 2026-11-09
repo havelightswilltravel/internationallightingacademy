@@ -58,6 +58,16 @@ temporary lighting? Can we kill only the fixtures we are working on? Can we do i
 If yes, the work is not justified energized. Troubleshooting with a meter is permit-exempt
 (Lesson 3) but still requires the shock and arc-flash PPE.
 
+> **Company stance; your company decides its own.** Our company allows qualified, authorized
+> technicians to work on energized lighting during business hours when shutting the lighting off
+> would itself create a hazard, for example darkening an occupied store or office. This rests on
+> OSHA 29 CFR 1910.333(a)(1), which lists "removal of illumination for an area" as an example of an
+> increased hazard, and NFPA 70E 130.2(A)(1), which allows energized work when de-energizing
+> introduces additional hazards or increased risk. Other companies using this program must decide
+> their own stance with their safety professional and document it. Either way, NFPA 70E still
+> requires a risk assessment, the right PPE, and an energized electrical work permit
+> (130.2(B)) unless an exemption applies.
+
 > **Safety:** Our older handbook describes cutting the hot and neutral leads inside an
 > energized fixture and fitting an in-line disconnect. That is energized work within the
 > restricted approach boundary. It is done only by a qualified person, with justification, rated

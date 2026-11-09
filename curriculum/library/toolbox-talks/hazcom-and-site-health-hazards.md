@@ -34,7 +34,8 @@ they all come down to: **know what you are working with.**
 - **Stay reachable.** Keep cell contact with the office at every job site so help can be sent
   in an emergency.
 - **Masks around insulation** and other airborne dust - above ceilings, in attics, when cutting
-  or drilling.
+  or drilling. Use is voluntary at our company; anyone who wears one gets the OSHA Appendix D
+  handout (29 CFR 1910.134).
 - **Lead and asbestos:** any demolition or remodeling (drywall, painted surfaces, grinding) is
   assessed for lead and asbestos **before** work starts. Old ceiling tile, pipe insulation and
   some fixture parts can contain asbestos - if you suspect it, stop and call your supervisor.

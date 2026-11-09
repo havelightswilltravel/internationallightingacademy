@@ -75,12 +75,17 @@ This is how the playbooks take the hand-feeding off managers.
    needs instead of a list to maintain.
 
 ## Questions from the second pass on the safety meetings
-4. **Masks above ceilings:** required or voluntary? If required, OSHA 1910.134 needs a full
-   respirator program (medical evaluation and fit testing); if voluntary, workers get Appendix D.
-5. **Live lighting work "during business hours":** the 2025 LOTO slide allows it. NFPA 70E allows
-   energized work only where shutting off creates a greater hazard or isn't feasible. The lessons
-   already limit it to qualified people with a permit. Should the company manual be tightened to match?
-6. **Chainsaws:** should techs use one at all? If yes, what training does the company give?
-7. **Out-of-town breakdown:** what failed, and was the parking brake fixed?
-8. **Second totaled vehicle (August 2024 meeting):** what happened? There's no case study without the cause.
-9. **Photos of other companies' unsafe crews:** OK to use as discussion material (no names or logos)?
+4. ~~Masks above ceilings~~ **Answered: voluntary.** The lessons now say masks are available and
+   encouraged, and that anyone who wears one gets the OSHA Appendix D handout (29 CFR 1910.134).
+5. ~~Live lighting work during business hours~~ **Answered: our company allows it** for qualified,
+   authorized techs, because shutting lighting off in an occupied building creates its own
+   hazards. The lessons (LT1-C06 L7, LT4-C07 L5, LOTO toolbox talk) now carry a "company stance;
+   your company decides its own" notice citing OSHA 29 CFR 1910.333(a)(1) and NFPA 70E
+   130.2(A)(1). **To raise with Kyle** (Discussion 007 and the Kyle deck).
+6. **Chainsaws:** should techs use one at all? If yes, what training does the company give? (Open)
+7. ~~Out-of-town breakdown~~ **Answered:** no case study needed. Instead, techs traveling out of
+   town check in with their supervisor every day (LT1-C01 L7 with quiz question Q42, LT2-C12 L4,
+   the breakdown toolbox talk and the load-list guide).
+8. ~~Second totaled vehicle~~ **Dropped.**
+9. ~~Photos of other companies' crews~~ **Answered: OK** to use these and suitable images from the
+   internet, with names and logos removed (see CONTENT_GOVERNANCE §7).

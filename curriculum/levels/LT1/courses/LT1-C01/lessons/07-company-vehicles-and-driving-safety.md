@@ -134,6 +134,12 @@ The toolbox talk *Vehicle Breakdowns and Roadside Safety* and the case studies *
 Traffic*, *Out-of-Town Breakdown and a Bad Parking Brake* and *Stuck in the Mud, Twice* go with
 this section.
 
+### Traveling out of town: check in every day
+When you're on an out-of-town job, **talk with your supervisor every day**: where you are, how
+the work and the vehicle are doing, any problems, and your plan for tomorrow. If something goes
+wrong on the road, your supervisor already knows where you are and what you're driving, and can
+send help or make decisions quickly.
+
 ## Winter Driving
 
 - Slow down and **triple your following distance**. Bridges, overpasses and shaded spots freeze

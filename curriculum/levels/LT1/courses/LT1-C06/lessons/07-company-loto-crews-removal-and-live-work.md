@@ -73,6 +73,16 @@ when de-energizing is truly not feasible or would create a greater hazard, such 
 occupied area during business hours where the lights are needed for safety. Even then, the first
 answers are temporary portable lighting, splitting the work by circuit, or scheduling after hours.
 
+> **Company stance; your company decides its own.** Our company allows qualified, authorized
+> technicians to work on energized lighting during business hours when shutting the lighting off
+> would itself create a hazard, for example darkening an occupied store or office. This rests on
+> OSHA 29 CFR 1910.333(a)(1), which lists "removal of illumination for an area" as an example of an
+> increased hazard, and NFPA 70E 130.2(A)(1), which allows energized work when de-energizing
+> introduces additional hazards or increased risk. Other companies using this program must decide
+> their own stance with their safety professional and document it. Either way, NFPA 70E still
+> requires a risk assessment, the right PPE, and an energized electrical work permit
+> (130.2(B)) unless an exemption applies.
+
 Our handbook also describes an older method of cutting the hot and neutral leads inside an
 energized fixture and fitting an in-line disconnect. That is **energized work**. An LT1 never
 does it. It is allowed only for a qualified person under our **Energized Electrical Work Permit**
