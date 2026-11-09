@@ -81,21 +81,21 @@ over an area where the public drives and walks. The site usually stays open.
 
 ## Load list
 
-**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts and lever-nut connectors / in-line disconnects, clean rags, drop cloths, vacuum (or the site's), a cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle containers sized to the lamp count (check what each container holds), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded; cleaner and spray bottles if cleaning is in scope. Your own drill, bits, meter and lockout kit for every person. Plan the rest from the project size, the job type and the project specifics, and arrange a project-style vehicle or trailer if the ladders, lifts, material and recycle need it.
 
-**LED canopy add-ons** (from the company's LED canopy retrofit list). Canopy fixtures are expensive: count them when loading and on site, and handle them with care.
+**LED canopy add-ons.** Canopy fixtures are expensive: count them when loading and on site, and handle them with care.
 
 - Canopy fixtures, counted against the survey
 - 2 cordless drills with bits (your own; ask before using the shop's)
 - 12 ft ladders or the lift or bucket truck on the sheet; harness and lanyard
 - Putty knives and adhesive remover for old gaskets and residue
-- Tan wire nuts; wet-location connectors and sealant
+- Wire nuts sized for the fixture leads; wet-location connectors and sealant
 - Tek screws in the sizes the fixture needs; a box of jack chain; approved secondary restraints
 - Extension cords (to charge batteries at the hotel or on site)
 - Clean rags, a booklet of graph paper for canopy layouts
 - Cones, barricade tape and lane-closure signs
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

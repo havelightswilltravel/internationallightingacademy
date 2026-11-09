@@ -201,26 +201,26 @@ quiz:
       explanation: The callback cost more than doing it right. Secure every part per the instructions, dress the wiring with splices enclosed (NEC 300.15), and inspect before you leave.
       ref: LT2-C12 Lesson 5
     - id: LT2-C12-Q16
-      type: single
-      q: What together makes up the loading plan for a project?
+      type: multi
+      q: Which should you use to plan what to load for a project? (Select all that apply.)
       choices:
+        - The project size (small, medium or large)
+        - The job type, such as a full fixture change-out, a kit retrofit or canopy work
+        - The project specifics sheet and survey, including whether any retrofit parts are needed
         - Whatever was loaded for the last job
-        - The project specifics sheet plus the load list
-        - The customer's purchase order only
-        - Whatever the crew leader remembers on the morning of kickoff
-      answer: 1
-      explanation: The specifics sheet gives the scope, site, lifts and material arrangements; the load list says what goes on the truck. Read both and load without being told.
+      answer: [0, 1, 2]
+      explanation: Plan from the project size, the job type and the project specifics. Past load lists are examples of general needs, not lists to copy, and retrofit parts come only when the specifics call for them.
       ref: LT2-C12 Lesson 6
     - id: LT2-C12-Q17
       type: single
-      q: A project will remove 430 lamps. Using the company rule, how many recycle boxes should you load?
+      q: A project will remove 430 four-foot lamps. The recycle boxes on the shelf are a smaller size that hold about 30 four-foot lamps each. How many should you load?
       choices:
-        - "8"
         - "9"
+        - "14"
+        - "15"
         - "43"
-        - "50"
-      answer: 1
-      explanation: Project lamps divided by 50 = boxes needed. 430 / 50 = 8.6, rounded up to 9.
+      answer: 2
+      explanation: Recycle containers come in many sizes, so check what each one holds and calculate. 430 / 30 = 14.3, rounded up to 15. Using a 50-lamp rule here would leave you short.
       ref: LT2-C12 Lesson 6
     - id: LT2-C12-Q18
       type: single
@@ -239,20 +239,20 @@ quiz:
       choices:
         - Reuse new-lamp boxes with both ends taped closed and no lamps showing
         - Label every box OLD/USED LAMPS FOR RECYCLE
-        - Ask before starting a new pallet, and keep recycle on a separate pallet from good material
-        - Shrink-wrap the pallet, note the pickup call on the ticket and always photograph the pallet
+        - Ask before starting a new pallet, and keep all recycle together in the warehouse area management designates
+        - Shrink-wrap the pallet, note it on the ticket and always photograph the pallet
         - Mix recycle lamps with leftover good material to save space
       answer: [0, 1, 2, 3]
-      explanation: These rules come from the company's load lists. The photo matters because our company has been blamed for poor palletizing. Recycle material is never mixed with good material.
+      explanation: What matters is that recycle is boxed and labeled, kept together and apart from good material, and documented. The photo matters because our company has been blamed for poor palletizing.
       ref: LT2-C12 Lesson 6
     - id: LT2-C12-Q20
       type: single
-      q: The company load list for a job includes fluorescent sockets and ballasts, but the project is an LED fixture replacement and the specifics sheet does not mention them. What should you do?
+      q: A medium project needs two 12 ft ladders and a scissor lift, and a large number of old fixtures will come back for recycling. What should you do about the vehicle?
       choices:
-        - Load them anyway and install them where fixtures look old
-        - Leave them off unless the project specifics call for them, and ask your supervisor if unsure
-        - Load double the quantity in case
-        - Install them in the new fixtures
+        - Take the usual van and make extra trips if it fills up
+        - Decide early whether the job needs a project-style vehicle or a trailer, and arrange it with your supervisor before load day
+        - Leave the recycle at the site without asking
+        - Strap the lift on top of the ladders in the van
       answer: 1
-      explanation: Relamp-era items such as fluorescent sockets and ballasts come along only if the project specifics call for them.
+      explanation: Knowing when a job needs a project-style vehicle or a trailer, with room for ladders, lifts, material and recycle, and arranging it in advance, is the critical point of planning the load.
       ref: LT2-C12 Lesson 6

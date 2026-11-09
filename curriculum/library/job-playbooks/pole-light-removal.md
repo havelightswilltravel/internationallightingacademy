@@ -92,7 +92,7 @@ Based on the core kit; no company list yet for this job type. The exterior add-o
 - Cones and caution tape for the fall zone
 - Hard hat, safety glasses, gloves, high-visibility vest
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

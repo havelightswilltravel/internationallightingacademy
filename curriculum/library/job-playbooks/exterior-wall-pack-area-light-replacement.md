@@ -83,19 +83,19 @@ whole lot on a project.
 
 ## Load list
 
-**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts and lever-nut connectors / in-line disconnects, clean rags, drop cloths, vacuum (or the site's), a cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle containers sized to the lamp count (check what each container holds), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded; cleaner and spray bottles if cleaning is in scope. Your own drill, bits, meter and lockout kit for every person. Plan the rest from the project size, the job type and the project specifics, and arrange a project-style vehicle or trailer if the ladders, lifts, material and recycle need it.
 
-**Exterior add-ons** (from the company's outdoor and HID lists; scale to the survey):
+**Exterior add-ons** (scale to the survey):
 
-- Ladders by height (8 ft, 12 ft, BLG (confirm), 24 ft extension) or the lift or bucket truck on the sheet
-- YWN wire nuts and wet-location connectors, sealant and tape
+- Ladders by height (8 ft, 12 ft, an articulating ladder, 24 ft extension) or the lift or bucket truck on the sheet
+- YWN (yellow) wire nuts and wet-location connectors, sealant and tape
 - Cones and caution tape for the full work zone; harness and lanyard, hard hat, high-visibility vest
 - Tested meter and proving unit, lockout kit, personal lock and tags
 - Mounting kits, slip-fitters or arm adapters for the poles on site; photocells or shorting caps per the fixture instructions
-- The 5-gallon cleaner container (at least half full), 50+ rags, garbage bags
-- HID lampholders, metal halide ballast kits and capacitors, only if the project specifics call for it
+- Plenty of rags and garbage bags; cleaner if cleaning is in scope
+- HID lampholders, ballast kits and capacitors, only if the project specifics call for a retrofit instead of new fixtures
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

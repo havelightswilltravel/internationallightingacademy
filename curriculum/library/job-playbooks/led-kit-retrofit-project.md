@@ -92,19 +92,19 @@ From our company's past project files (LT2-C12 Lesson 5) and safety meetings:
 
 ## Load list
 
-**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts and lever-nut connectors / in-line disconnects, clean rags, drop cloths, vacuum (or the site's), a cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle containers sized to the lamp count (check what each container holds), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded; cleaner and spray bottles if cleaning is in scope. Your own drill, bits, meter and lockout kit for every person. Plan the rest from the project size, the job type and the project specifics, and arrange a project-style vehicle or trailer if the ladders, lifts, material and recycle need it.
 
-**LED kit retrofit add-ons** (from the company's LED conversion and retrofit-kit lists; scale to the survey):
+**LED kit retrofit add-ons** (for projects that retrofit instead of replacing fixtures; scale to the survey):
 
-- Kits, drivers and sockets as per the supervisor's instruction and the service order
-- Wire nuts by quantity per fixture or ballast at each location; lever connectors or in-line disconnects where the sheet calls for them
-- Tek screws and butterfly clips (confirm use); #18 solid wire for jumpers per the kit instructions
-- Strip kits for 8 ft fixtures if in scope; 8 ft recycle boxes if 8 ft lamps come out
-- Plenty of tape and 2-3 tape guns per crew, shrink wrap for the recycle pallet, 3-5 extension cords
-- Ladders and lifts for each area; rope locks and a spare plug for scissor-lift repairs if lifts are used
-- Twist-lock or freezer sockets and fluorescent ballasts or sockets, only if the project specifics call for it
+- Kits, drivers and sockets/lampholders as per the supervisor's instruction and the service order
+- Wire nuts by quantity per fixture or ballast at each location; lever-nut connectors or in-line disconnects where the sheet calls for them
+- Tek screws in the sizes the kit needs; #18 solid wire for jumpers per the kit instructions
+- Strip kits for 8 ft fixtures if in scope; 8 ft recycle containers if 8 ft lamps come out
+- Plenty of tape and a tape gun per crew, shrink wrap for the recycle pallet, extension cords
+- Ladders and lifts for each area; a spare plug for scissor-lift repairs, and a trailer with binders and chains, if lifts are used
+- Ballasts and sockets/lampholders (including case sockets), only if the project specifics call for them
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

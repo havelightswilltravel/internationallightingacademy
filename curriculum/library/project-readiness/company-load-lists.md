@@ -1,7 +1,7 @@
 ---
-title: Company Load Lists
+title: "Project Load Lists: What to Bring"
 category: project-readiness
-tags: [project, load-list, load-out, truck, retrofit, fixture-replacement, recycling, pallet, supplies, ladders]
+tags: [project, load-list, load-out, vehicle, trailer, retrofit, fixture-replacement, recycling, pallet, supplies, ladders, seismic]
 levels: [LT2, LT3, LT4, LT5]
 last_reviewed: 2026-11-09
 review_interval_months: 12
@@ -9,57 +9,95 @@ review_interval_months: 12
 
 > **DRAFT - pending SME review.**
 
-*Company guide, generalized from our company's past project load lists (what techs load on the truck
-for each type of job). Most of those lists are from group relamp work, which our company no longer
-does; the items that still apply to LED retrofits and fixture replacement are kept, and relamp-era
-items are marked **only if the project specifics call for it**. Abbreviations are the company's own
-short names, explained at the end; anything marked **(confirm)** is a best guess waiting for an SME.
-Use it with the **Project Specifics Sheet Template** and the **Project Kickoff Checklist**. Taught in
-LT2-C12 Lesson 6. Each job playbook (category **Job Playbooks**) has a short load list that points back
-here.*
+*Company guide to what techs bring to a project, by project size and by job type. It is generalized
+from our company's past project load lists. Those lists were written for real jobs, so treat them as
+**examples of general needs**, not as lists to copy: the goal is that a tech who has worked through
+this guide knows which items to grab to do a job efficiently, without being told. Use it with the
+**Project Specifics Sheet Template** and the **Project Kickoff Checklist**. Taught in LT2-C12 Lesson 6.
+Each job playbook (category **Job Playbooks**) has a short load list that points back here.*
 
-## How to use a load list
+## Full change-outs and retrofits
 
-1. **The project specifics sheet plus the load list is the job's loading plan.** The specifics sheet
-   tells you the scope, the site, the lifts and the material arrangements; the load list tells you
-   what goes on the truck. Read both before you load. Kits, fixtures, drivers and lamps come "as per
-   the supervisor's instruction" or the service order, not from this guide.
-2. **Start from the core kit**, add the size add-on for the project, then add the add-on for each type
-   of work on the job (a store with an LED retrofit, a cooler and a canopy gets all three).
-3. **Quantities scale with the project.** The numbers in the company's lists are examples from real
-   jobs, not standards. Work them out from the survey: connectors and disconnects per fixture or per
-   ballast at each location, recycle boxes from the lamp count, rags and garbage bags from the size of
-   the job. Out-of-town runs carry more spares because the shop is not a short drive away.
-4. **Check items off as they go on the truck,** not from memory afterwards. Note where each item is
-   loaded (truck, trailer, lift trailer) if the job uses more than one vehicle.
-5. **Ask before substituting.** If an item is short or out of stock, do not swap in something else or
-   leave without it. Tell your supervisor before you leave the shop so it can be ordered or sent.
-6. **No list is perfect.** One old list ends with "ANYTHING ELSE THAT I FORGOT." Read the specifics
-   sheet for anything unusual (seismic supports, a cooler, a canopy, a lift) and add what it needs.
+Most of today's projects are **full fixture change-outs**: the old fixture comes down and a new one goes
+up. Some projects still require **retrofitting** existing fixtures (LED kits, or ballasts and
+sockets/lampholders). The retrofit items in this guide still apply in those situations; leave them off
+when the project specifics do not call for them, and ask your supervisor if you are unsure.
 
-> **Shop note: lighting vans.** Some items on a list are standard van stock (marked with \* on the old
-> lists: wire nuts, standard sockets, common ballasts, ladders). When techs go out in lighting vans,
-> the shop does **not** pull those items again; check that your van stock covers the job instead.
+## Project sizes
+
+| Size | Typical length |
+|---|---|
+| Small | A few days |
+| Medium | Up to a few weeks |
+| Large | Takes months |
+
+The longer the job, the more supplies you go through, the more material and recycle you handle, and
+the more likely it is that the job needs a project-style vehicle or a trailer.
+
+## How to plan the load
+
+1. **Plan from three things: the project size, the job type and the project specifics.** The specifics
+   sheet and survey tell you the scope, the site, ceiling heights, lifts and how material and recycling
+   are handled. Fixtures, kits, drivers and lamps come from the supervisor's instruction and the
+   service order; this guide covers everything else.
+2. **Start from the core kit**, add what the project size needs, then add the items for each type of
+   work on the job (a store with a fixture change-out, a cooler and a canopy gets all three).
+3. **Work out the vehicle.** Decide early whether the job needs a project-style vehicle or a trailer
+   (see below), and arrange it with your supervisor before load day.
+4. **Scale quantities from the survey,** not from the last job: connectors and disconnects per fixture,
+   recycle containers from the lamp count and the container size, rags and garbage bags from the size
+   of the job. Out-of-town runs carry more spares because the shop is not a short drive away.
+5. **Check items off as they go on the vehicle,** not from memory afterwards. Note where each item is
+   loaded if the job uses more than one vehicle or a trailer.
+6. **Ask before substituting, and report shortages before you leave.** If an item is short or out of
+   stock, tell your supervisor before you leave the shop so it can be ordered or sent.
+7. **Read the specifics for anything unusual** (seismic support, a cooler, a canopy, a lift, new
+   wiring runs) and add what it needs. One old list ends with "ANYTHING ELSE THAT I FORGOT."
+
+## Vehicle and trailer
+
+Specific vehicles change; what matters is knowing **when the job needs a project-style vehicle or a
+trailer, and arranging it in advance**. Think about capacity for:
+
+- **Ladders**, especially 12 ft, extension and articulating ladders, and how they are strapped
+- **Lifts**: a trailer, load binders and chains; if a trailer holds only one lift, arrange delivery
+  of the second to the site
+- **Material**: fixtures, kits and supplies, unless they are delivered to the site
+- **Recycle**: the old lamps, fixtures and containers coming back, which often take more room than
+  the new material going out
+
+If it will not fit safely, say so before load day. A second trip or an overloaded vehicle costs more
+than arranging the right one.
+
+## Van standard stock
+
+Lighting vans carry standard stock, so the shop does not pull those items again when techs go out in
+vans; check that your van stock covers the job instead. Van stock differs by location but typically
+includes:
+
+- A mix of fluorescent, CFL, LED and HID lamps
+- Drivers, ballasts and sockets/lampholders
+- A few LED fixtures (the company is considering carrying more)
+- Miscellaneous parts specific to the area, such as photocells and time clocks
+- Electrical tape and screws
 
 ## Core kit for every project
 
-Every project load starts here. Example quantities are for a typical mid-size job; scale them.
+Every project load starts here. Scale the quantities to the job.
 
 | Item | Notes |
 |---|---|
-| Ladders: 6 ft and 8 ft step ladders (usually 2 of each) | Add 10 ft, 12 ft, extension or articulating ladders by ceiling height (see add-ons) |
-| Wire nuts (BWN for most splices) | Quantity per fixture or ballast, plus spares |
-| Lever connectors / in-line fixture disconnects (Wago, power disconnects) | One per fixture where the sheet calls for disconnects, plus spares |
-| Spray bottles (2-10) and cleaner concentrate | One list dilutes concentrate 50:1 (confirm); fill bottles before leaving |
-| 5-gallon cleaner container | Full, or at least half full on a travel run |
-| Clean rags (25-150+) | More for large jobs and for anything with lenses or reflectors |
-| Drop cloths (a bag of lightweight cloths) | Protect desks, shelves and merchandise |
+| Ladders: 6 ft and 8 ft step ladders | Add 10 ft, 12 ft, extension or articulating ladders by ceiling height |
+| Wire nuts | Quantity per fixture (or per ballast on a retrofit), plus spares |
+| Lever-nut connectors / in-line disconnects | One disconnect per fixture where the sheet calls for them, plus spares |
+| Clean rags | More for large jobs and for anything with lenses or reflectors |
+| Cleaner and spray bottles, if cleaning is in scope | Less common now; when needed, an all-purpose green cleaner or glass-cleaner concentrate works best. Fill bottles before leaving |
+| Drop cloths | Protect desks, shelves and merchandise |
 | Vacuum cleaner | Or use the site's vacuum when the specifics sheet allows |
-| Red cart (or the job's assigned cart) | Moves material and debris between areas |
-| Trash cans with wheels (1-2) | |
-| Large garbage bags (2-15) | |
-| Tape gun and rolls of tape (2+) | For closing recycle boxes |
-| Empty lamp boxes / recycle boxes | Project lamps divided by 50 = boxes needed (round up) |
+| A cart | Most projects need one to move material and debris between areas |
+| Trash cans with wheels and large garbage bags | |
+| Tape gun and rolls of tape | For closing recycle boxes |
+| Recycle containers, sized to the job | Check how many lamps each container holds and calculate (see Recycling) |
 | Black marker | For labeling recycle boxes |
 | Shrink wrap | For the recycle pallet |
 | Cones and caution tape | Wherever the public can walk under the work |
@@ -67,136 +105,125 @@ Every project load starts here. Example quantities are for a typical mid-size jo
 
 Your own tools are not on these lists because every tech is expected to carry them: drill, driver bits
 and charger, meter and lockout kit, hand tools and PPE for **every person on the crew** (see the
-Project Kickoff Checklist). On one canopy list the company noted that techs should have their own
-drills and should ask before using the shop's.
+Project Kickoff Checklist). Techs should have their own drills and ask before using the shop's.
 
-## Size add-ons
+## What changes with project size
 
-The company kept three general lists by project size. Use them as a starting point and scale from the
-survey. The quantities below are **examples from past lists**, not standards; notice that the
-"standard" list had more recycle boxes than the "large" one, because each was written for a real job.
+The figures below are **examples from past lists** to show the scale; the survey sets the real
+numbers.
 
-| Item | Small project (example) | Standard project (example) | Large project (example) |
+| Need | Small (a few days) | Medium (up to a few weeks) | Large (months) |
 |---|---|---|---|
-| 6 ft ladders | 1 | 2 | 4 |
-| 8 ft ladders | 1 | 2 | 2 |
-| Other ladders | 12 ft if ceilings call for it | 1 LLG (confirm) | 1 x 12 ft |
-| Wire nuts (BWN) | about 200 | about 5,000 | about 3,500 |
-| Spray bottles | 3 | 6 | 8 |
-| Cleaner concentrate | 1 bottle | 2 | 3 |
-| 5-gallon cleaner container | 1 if relamping or travelling | 1 | 1 |
-| Clean rags | 25-35 | 100+ | 150+ |
-| Recycle / empty lamp boxes | lamps / 50 | 75 (example job) | 20 (example job) |
-| Tape | tape gun with 1-2 rolls | tape gun + 2 rolls | tape gun + 2 rolls |
-| Shrink wrap | as needed | as needed | 1 full roll |
-| Vacuum cleaner | site's vacuum if allowed | 1 | 1 |
-| Drop cloths | 1 bag | 1 bag | 1 bag |
-| Red cart | 1 | 1 | 1 |
-| Trash cans (wheels) | 1 | 2 | 2 |
-| Large garbage bags | 2 | 10 | 15 |
-| #18 solid wire | - | half roll | as needed |
-| Spare sockets (LH0044 / LH0045) | 15 each, only if the project specifics call for it | 15 each, only if the project specifics call for it | 15 each (35 each on one very large job), only if the project specifics call for it |
-| Spare fluorescent ballasts | only if the project specifics call for it | only if the project specifics call for it | about 10 each of 4-lamp and 2-lamp, only if the project specifics call for it |
+| Ladders | 1-2 of each step ladder; taller only if ceilings call for it | About 2 of each, plus a taller or articulating ladder as needed | Several of each plus taller ladders, or lifts |
+| Wire nuts and connectors | Hundreds | Thousands | Thousands, resupplied as the job goes |
+| Clean rags | A few dozen | 100 or more | 150 or more |
+| Garbage bags | A few | About 10 | 15 or more |
+| Recycle containers, tape, shrink wrap | Calculated from the lamp count | Calculated; tape gun and spare rolls | Calculated; a full roll of shrink wrap or more, and a plan for regular pallets |
+| Vacuum, cart, trash cans | Site's vacuum if allowed; 1 cart, 1 trash can | 1 vacuum, 1 cart, 2 trash cans | Same, or more for more crews |
+| Vehicle | Usually a van or truck | Often a project-style vehicle | Project-style vehicle and often a trailer; resupply runs |
+| Spares | A few of each type on the survey | More; more again out of town | Planned with the supervisor; resupplied |
 
 ## Job-type add-ons
 
 ### LED kit retrofit (interior)
 
-From the company's LED conversion and T12 retrofit-kit lists. Load per location or per crew as the
-sheet says.
+For projects that retrofit existing fixtures instead of replacing them.
 
-- Kits, drivers and sockets as per the supervisor's instruction and the service order
+- Kits, drivers and sockets/lampholders as per the supervisor's instruction and the service order
 - Screw gun / cordless drill with bits (every person)
-- Wire nuts: quantity per ballast at each location ("per location, quantity per ballast")
-- Lever connectors / in-line disconnects where the sheet calls for them
-- Tek screws (about 1,000 per crew on a large program) and butterfly clips (about 2,000) (confirm use)
-- #18 solid wire (one list: 200 ft, yellow preferred) for jumpers and kit wiring per the instructions
+- Wire nuts: quantity per fixture or per ballast at each location
+- Lever-nut connectors / in-line disconnects where the sheet calls for them
+- Tek screws in the sizes the kit needs
+- #18 solid wire for jumpers and kit wiring per the instructions
 - Strip kits for 8 ft fixtures where the scope includes them
-- Tape: plenty (one program sent 20 rolls and 2-3 tape guns per crew)
-- Extension cords (3-5) for charging and night work
-- Shrink wrap (one program sent 6-8 rolls) and recycle boxes, including 8 ft boxes if 8 ft lamps come out
-- Twist-lock sockets and freezer sockets (one program: 50 and 15), only if the project specifics call
-  for it
-- Fluorescent ballasts (Workhorse 5/6, Icehorse 277) and T8/T12 sockets, only if the project specifics
-  call for it (fixtures left on fluorescent)
+- Plenty of tape and a tape gun per crew; extension cords for charging and night work
+- Shrink wrap and recycle containers, including 8 ft containers if 8 ft lamps come out
+- Ballasts and sockets/lampholders, only if the project specifics call for them (fixtures left on
+  fluorescent, or a retrofit that reuses them)
 
-### Fixture replacement with disconnects
+### Fixture replacement (full change-out)
 
-From the company's "fixture installs with disconnects" and wrap-fixture remove-and-replace lists.
+- New fixtures counted against the survey; report damaged cartons before leaving the shop
+- Wire nuts or lever-nut connectors; in-line disconnects, one per fixture plus spares
+- Mounting hardware for each ceiling type (toggle bolts with washers, anchors); confirm which on the
+  specifics sheet before loading
+- #18 solid wire where the sheet calls for it
+- Supports for new wiring and seismic support material where the job requires them (see below)
+- Containers, boxes and garbage bags for what comes out; drop cloths, vacuum, cart, trash cans
+- Sockets/lampholders or ballasts, only if part of the job is a retrofit
 
-- Wire nuts or lever connectors (one list: 500)
-- In-line fixture disconnects, one per fixture plus spares (one list: 221 for about 200 fixtures)
-- Mounting hardware for each ceiling type: toggle bolts with washers (one wrap-fixture job: 330),
-  anchors; confirm which on the specifics sheet before loading
-- #18 solid wire (one list: 200 ft, yellow preferred)
-- Seismic support material where the site requires it: earthquake ties (one job: 3,000 ft), lag bolts
-  and the matching drill bits (confirm)
-- Empty boxes or recycle boxes for anything coming out, drop cloths, vacuum, cart, trash cans
-- Sockets (LH0044 / LH0045), only if the project specifics call for it
+**Supporting new wiring.** When new fixtures and power are run, support new MC cable and other wiring
+so it does **not lie on the ceiling tile**. Bring clips and supports suited to the job and install them
+per code.
+
+**Seismic support.** Lay-in (T-grid) fixtures require earthquake (seismic) ties: this is a company rule.
+The usual method:
+
+- Lag bolts go into wood beams, and the earthquake tie wires connect to them.
+- A beam clamp can replace a lag in many situations.
+- In some cases you may tie the support wire directly to the beam.
+
+Seismic support requirements depend on the local building code and the seismic area. Follow the
+project specifics and your supervisor. Load: seismic (earthquake tie) wire, and lag bolts with the
+matching bits or beam clamps, as the job requires.
 
 ### Exterior, HID and pole work
 
-From the company's outdoor and indoor HID lists.
-
-- Ladders by height: 8 ft, 12 ft, a BLG (confirm), a 24 ft extension ladder; lift or bucket truck per
-  the sheet
-- YWN wire nuts (one list: 100)
+- Ladders by height (8 ft, 12 ft, an articulating ladder, a 24 ft extension ladder) or the lift or
+  bucket truck on the sheet
+- YWN (yellow wire nuts) and wet-location connectors, sealant and tape
 - Cones and caution tape for the full work zone
-- Spray bottles, the 5-gallon cleaner container (at least half full), 50+ rags, 10 garbage bags
-- HID sockets (SMO8525, SME740-2) (confirm), metal halide ballast kits (M100MLT, M175MLT, M250MLT,
-  M400MLT), HPS ballasts and capacitors (24 uF), only if the project specifics call for it
+- Rags, garbage bags, and cleaner if cleaning is in scope
+- HID lampholders, ballast kits and capacitors, only if the project specifics call for a retrofit
+  instead of new fixtures
 
 ### LED canopy
 
-From the company's LED canopy retrofit list. Canopy fixtures are **expensive**: handle them with care,
-count them when loading and again on site, and report any damage before leaving the shop.
+Canopy fixtures are **expensive**: handle them with care, count them when loading and again on site,
+and report any damage before leaving the shop.
 
 - Canopy fixtures (count matches the survey)
-- 2 cordless drills with bits (your own; ask before using the shop's)
-- 2 x 12 ft ladders (or the lift on the sheet)
-- 2 putty knives and 2 bottles of adhesive remover for old gaskets and residue
-- Tan wire nuts (one list: 150)
-- Tek screws in the sizes the fixture needs (one list: 700 of one size and 300 of 5/16 in x 1 in)
-- 1 box of jack chain
-- 2 extension cords (to charge batteries at the hotel or use on site)
-- 10 clean rags
-- A booklet of graph paper for canopy layouts
+- Cordless drills with bits (your own; ask before using the shop's)
+- 12 ft ladders (or the lift on the sheet)
+- Putty knives and adhesive remover for old gaskets and residue
+- Wire nuts sized for the fixture leads; wet-location connectors and sealant
+- Tek screws in the sizes the fixture needs; jack chain
+- Extension cords (to charge batteries at the hotel or use on site)
+- Clean rags and a booklet of graph paper for canopy layouts
 
 ### Cooler, freezer and refrigerated case
 
-From the company's grocery relamp and retrofit lists, which carried a few case parts on every job.
-
-- Snap-in and bolt-in freezer sockets (one list: 2 of each), Anthony J12 sockets (2) (confirm current use)
-- Twist-lock and freezer sockets for case lighting (one program: 50 and 15)
-- Tube guards with end caps (one high-ceiling job: 100) where lamps or LED tubes are exposed
-- Icehorse (cold-temperature) and Workhorse ballasts, only if the project specifics call for it
+- Cold-weather layers and dry spare gloves
+- Case lampholders (twist-lock, snap-in and bolt-in freezer sockets) for retrofit work, only if the
+  project specifics call for them
+- Tube guards with end caps where lamps or LED tubes are exposed
+- Cold-rated ballasts or drivers, only if the project specifics call for them
 - Drop cloths or plastic to protect food; extra rags
 
 ### High ceilings, lifts and scaffold
 
-- 12 ft ladders (1-2) and a 24 ft extension ladder with extra ratchet straps
-- Baker scaffold sections (one list: 2 1/2 sections)
-- Scissor lifts (one travel run: 2 x 19 ft) with rope locks, and a spare plug for scissor-lift repairs
-- Load binders and chains for lifts on the trailer; hitch, ball lock and hitch-lock keys
+- 12 ft ladders and a 24 ft extension ladder with extra ratchet straps
+- Rolling scaffold sections where the sheet calls for them
+- Scissor lifts per the sheet, and a spare plug for scissor-lift repairs
+- A trailer, load binders and chains for lifts; hitch, ball lock and hitch-lock keys
 - If the trailer holds only one lift, arrange to deliver the second lift to the site; get instruction
   from the shop before loading a lift you have not loaded before
-- 8 ft empty or recycle boxes if 8 ft lamps come out (one high-ceiling job: 60)
+- 8 ft recycle containers if 8 ft lamps come out
 - Cones and caution tape under every lift
 
 ### Out-of-town travel runs
 
-Compare the company's local and out-of-town lists for the same small job: the local list carried
-2 spray bottles and 10 rags; the travel list added the 5-gallon cleaner container, 35 rags, wire nuts,
-15 of each standard socket and spare ballasts. When you cannot run back to the shop, carry spares.
+When you cannot run back to the shop, carry spares. A local list for a small job might carry
+2 spray bottles and 10 rags; the travel list for the same job added more rags, wire nuts, spare
+sockets and spare drivers or ballasts.
 
 - Extra connectors, disconnects, sockets and drivers or ballasts for the types on the survey
-- Rental truck: spare key mounted on the truck and where it is recorded
-- Double trailer with hitch-lock keys and ball lock, when used
+- The project-style vehicle or trailer the job needs, arranged in advance; on a rental, the spare key
+  mounted on the vehicle and where it is recorded
+- Hitch-lock keys and ball lock when towing
 - Tablet or laptop with recaps and timecards loaded
 - Extension cords for charging at the hotel
 - Shrink wrap, black marker and tape for the recycle pallet
-- Company vehicle assignment from the sheet (the old lists name vehicles such as "PV" or a pickup
-  number) (confirm)
 
 ### Material staged at the site or customer-supplied
 
@@ -205,26 +232,26 @@ Compare the company's local and out-of-town lists for the same small job: the lo
   subcontracted electrician takes material out to a site for us, they get a written list, take it out
   with the product already delivered there, and write the date they did it.
 - **Customer-supplied (C/S):** material supplied by the customer is listed on the recap summary. Load or
-  count it per the recap, keep it separate, and do not install company spares (sockets, ballasts) in
-  place of customer-supplied parts without approval.
+  count it per the recap, keep it separate, and do not install company spares in place of
+  customer-supplied parts without approval.
 - **Lamps already on site:** when new lamps or LED tubes are delivered to the site, bring the tape,
   marker and shrink wrap to box the old ones in the new boxes (see below).
 
 ## Recycling and returns rules
 
-These notes come straight from the company's lists and still apply to every project.
-
-- **Recycle boxes:** project lamps divided by 50 = boxes needed. Bring the boxes; customer-supplied
-  boxes may also be on site.
+- **Size the recycle containers before you leave.** Recycle boxes and containers come in many sizes.
+  Check how many lamps each one holds and work out how many the job needs. For example, one common size
+  holds about 50 four-foot lamps: 680 lamps / 50 = 13.6, so load 14. A smaller container, 8 ft lamps or
+  LED tubes change the number. Customer-supplied containers may also be on site.
 - **Reusing new-lamp boxes:** you may reuse the boxes the new lamps or tubes came in for the old ones.
   Tape both ends closed, with no lamps showing, and label every box **OLD/USED LAMPS FOR RECYCLE**.
-- **Separate pallet:** lamps and batteries for recycling go back on a **separate pallet**, apart from
-  good material. When they come back to the shop, they go on their own pallet in the warehouse, not in
-  general storage.
+- **Keep all recycle together.** Recycle never mixes with good material. Back at the shop it goes to
+  the area of the warehouse that management designates; what matters is that all recycle is kept
+  together in one area.
 - **Ask before starting a new pallet.** Sometimes several locations are combined on one pallet. Do not
   create a new pallet without asking.
-- **Shrink-wrap the pallet,** call the office from the site to arrange pickup, and **note on the ticket**
-  that you did.
+- **Shrink-wrap the pallet** and **note it on the ticket** (what was recycled, where it went and any
+  pickup arranged).
 - **Always photograph the recycle pallet.** Our company has been blamed for poor palletizing; the
   photo is our proof that it left in good shape.
 - Lamps never go in the site dumpster. See the toolbox talk *Recycling What We Remove* for ballasts,
@@ -232,55 +259,18 @@ These notes come straight from the company's lists and still apply to every proj
 - **Returns:** leftover good material comes back labeled and separate from recycle material. Report
   what came back on the recap.
 
-## Abbreviations
+## Abbreviations on the old lists
 
 | Short name | Meaning |
 |---|---|
-| BWN | Blue wire nuts (confirm), the most-used splice connector on the lists |
-| YWN | Yellow wire nuts (confirm), used on the exterior list |
-| Tan wire nuts | Tan wire nuts, used on the LED canopy list (size per the fixture) |
-| Wago / Wagos | Lever-type splice connectors |
-| Power disconnects / Wago disconnects / 873-902 | In-line fixture (luminaire) disconnects; 873-902 is a Wago disconnect part number (confirm) |
+| BWN | Blue wire nuts, the most-used splice connector on the lists |
+| YWN | Yellow wire nuts |
+| Lever nuts / in-line disconnects | Lever-type splice connectors and in-line fixture (luminaire) disconnects |
 | C/S | Customer-supplied material |
-| LH0044 / LH0045 | Fluorescent "tombstone" lampholder part numbers (relamp era) |
-| FE1126SW / FE1226SW / FE1650SW, FE314 / FE315, LH0161 / LH0162 | Other fluorescent lampholder part numbers (relamp era); "LBD" after some of them is unknown (confirm) |
-| Workhorse / Longhorse / Icehorse | Fluorescent ballast families; Icehorse is the cold-temperature version (relamp era) |
-| WH5 / Workhorse 5, 6 | Workhorse ballast models |
-| B432 / B232 / EP432 / EP232 / IOP... / ICF-2S26 | Fluorescent and compact fluorescent ballast catalog numbers (relamp era) |
-| M100MLT / M175MLT / M250MLT / M400MLT | Metal halide ballast kits, 100-400 W (relamp era) |
-| 24 uF | Run capacitor for an HID ballast kit |
-| SMO8525 / SME740-2 | HID lampholders (confirm) |
-| Anthony J12 sockets, snap-in / bolt-in freezer sockets | Refrigerated case lampholders (confirm) |
-| LLG / BLG ladder | Likely articulating multi-position ladders (confirm) |
+| LLG / BLG ladder | Articulating multi-position ladders |
 | Ext. ladder | Extension ladder |
-| Baker scaff | Baker-style rolling scaffold sections |
+| Baker scaff | Rolling scaffold sections |
 | s. lift | Scissor lift |
-| Rope lock | Lock for securing lifts (confirm) |
-| Red cart | The shop's material cart |
-| PV / 07PU / 08PU | Company vehicles (confirm) |
 | Tek screws | Self-drilling screws |
-| Butterfly clips | Clips used on LED conversions (confirm use) |
-| Earthquake ties | Seismic support wire or ties for fixtures (confirm) |
+| Earthquake ties | Seismic support wire for fixtures |
 | \* (on a shop list) | Standard lighting-van stock; the shop does not pull it when techs go out in vans |
-
-## Items to confirm
-
-1. BWN = blue wire nuts and YWN = yellow wire nuts, and the wire ranges each covers.
-2. What LLG and BLG ladders are (articulating multi-position ladders?) and whether the company still
-   has them.
-3. Whether "PV", "07PU" and "08PU" are company vehicle designations and how vehicles are assigned now.
-4. Wago 873-902 as the standard in-line luminaire disconnect, and whether "power disconnects" means the
-   same part.
-5. What "LBD" means after FE1126SW and FE1226SW.
-6. SMO8525 / SME740-2 as HID lampholders; Anthony J12 and snap-in / bolt-in freezer sockets as case
-   lampholders, and whether any are still stocked.
-7. What butterfly clips and rope locks are used for on current jobs.
-8. "Earthquake ties" and lag bolts: the seismic support method and when it is required.
-9. Cleaner: which concentrate, and whether 50:1 is the correct dilution.
-10. The recycle-box rule (lamps / 50) for 4 ft lamps; the equivalent for 8 ft lamps and LED tubes.
-11. Where recycle pallets go by default: back to the shop warehouse on a separate pallet, or picked up
-    from the site; and whether batteries share the lamp pallet.
-12. Which items are standard lighting-van stock today (the \* rule).
-13. Current example quantities for small, standard and large projects.
-14. Whether the "red cart" still exists and which cart is assigned to projects.
-15. Who keeps the load lists current (supervisor, operations or warehouse).

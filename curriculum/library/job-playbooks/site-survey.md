@@ -89,9 +89,9 @@ Based on the core kit; no company list yet for this job type. Typical items:
 - High-visibility vest and cones
 - Ladder suited to opening sample fixtures
 
-Record ceiling heights, lift access and anything unusual (seismic supports, coolers, canopies) so the supervisor can build the job's load list.
+Record ceiling heights, lift access and anything unusual (seismic supports, coolers, canopies) so the crew can plan the load (and any project-style vehicle or trailer) for the job.
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

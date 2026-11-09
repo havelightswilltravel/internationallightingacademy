@@ -55,7 +55,7 @@ packet; take the rest to your supervisor.
 
 ## Step 3: Load Out
 
-Load the vehicle the day before if you can (Lesson 6 and the library guide *Company Load Lists* cover
+Load the vehicle the day before if you can (Lesson 6 and the library guide *Project Load Lists: What to Bring* cover
 the company's load lists in detail). Typical project load-out from past company jobs:
 
 - Drills with the right driver bits **for every person on the crew**, plus chargers

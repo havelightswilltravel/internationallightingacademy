@@ -95,7 +95,7 @@ Based on the core kit; no company list yet for this job type. Typical items:
 - Rags and cleaner for sign faces
 - Recycle container for removed batteries (batteries go back on the separate recycle pallet)
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

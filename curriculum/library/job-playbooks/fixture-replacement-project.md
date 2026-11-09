@@ -82,19 +82,20 @@ more demolition and more mounting decisions, and every new fixture must be suppo
 
 ## Load list
 
-**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts and lever-nut connectors / in-line disconnects, clean rags, drop cloths, vacuum (or the site's), a cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle containers sized to the lamp count (check what each container holds), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded; cleaner and spray bottles if cleaning is in scope. Your own drill, bits, meter and lockout kit for every person. Plan the rest from the project size, the job type and the project specifics, and arrange a project-style vehicle or trailer if the ladders, lifts, material and recycle need it.
 
-**Fixture replacement add-ons** (from the company's fixture-install and remove-and-replace lists; scale to the survey):
+**Fixture replacement add-ons** (scale to the survey):
 
 - New fixtures counted against the survey; report damaged cartons before leaving the shop
 - In-line fixture disconnects, one per fixture plus spares; wire nuts or lever connectors
 - Mounting hardware for each ceiling type: toggle bolts with washers and anchors, as the sheet allows
-- #18 solid wire (yellow preferred) where the sheet calls for it
-- Seismic support material (earthquake ties, lag bolts and the matching bits) where the site requires it (confirm)
+- #18 solid wire where the sheet calls for it
+- Clips and supports to keep new MC cable and wiring off the ceiling tile, installed per code, where new fixtures and power are run
+- Seismic support material as the job requires: seismic (earthquake tie) wire, and lag bolts with the matching bits or beam clamps. Lay-in (T-grid) fixtures require earthquake ties (company rule); lags go into wood beams and the tie wires connect to them, a beam clamp can replace a lag in many situations, and in some cases the wire ties directly to the beam. Requirements depend on the local building code and seismic area: follow the project specifics and your supervisor
 - Boxes and garbage bags for removed fixtures; stud finder; floor protection under lifts
-- Spare sockets, only if the project specifics call for it
+- Sockets/lampholders or ballasts, only if part of the job is a retrofit
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

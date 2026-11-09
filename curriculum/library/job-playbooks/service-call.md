@@ -85,7 +85,7 @@ on the first trip.**
 
 ## Load list
 
-Based on the core kit; no company list yet for this job type. Service trucks and lighting vans carry standard stock (wire nuts, common sockets, ladders); check it covers the work order. Typical items:
+Based on the core kit; no company list yet for this job type. Lighting vans carry standard stock, which differs by location but typically includes a mix of fluorescent, CFL, LED and HID lamps, drivers, ballasts and sockets, a few LED fixtures, and local parts such as photocells, time clocks, electrical tape and screws; check it covers the work order. Typical items:
 
 - Tested multimeter and proving unit, non-contact tester (warning only)
 - Lockout kit with personal lock and tags
@@ -97,7 +97,7 @@ Based on the core kit; no company list yet for this job type. Service trucks and
 - Cones and caution tape
 - Phone or camera, work orders and return sheets
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 

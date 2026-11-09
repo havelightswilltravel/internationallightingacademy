@@ -118,6 +118,6 @@ light replacements, LED canopies, cooler and case lighting, pole light removal, 
 inspections, site surveys and sign service. Each one sets out what "done right" looks like, what to
 confirm before you leave the shop, the problems we see most, and the close-out paperwork, so your
 supervisor does not have to repeat it on every job. Each playbook ends with a load list for that job
-type, drawn from the library guide *Company Load Lists* (see Lesson 6). The case studies in this lesson, and other near misses and
+type, drawn from the library guide *Project Load Lists: What to Bring* (see Lesson 6). The case studies in this lesson, and other near misses and
 lessons learned from our safety meetings, are also written up as short discussion cards in the Library
 (category **Case Studies**) for use at safety and operations meetings.

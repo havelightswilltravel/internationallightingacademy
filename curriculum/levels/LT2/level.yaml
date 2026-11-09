@@ -393,24 +393,29 @@ skills:
     - Talks with the site contact at the end of the shift about what was done and what is next
     - Submits a clear, legible recap (done, remaining, counts, problems, plan for next shift) on time
   - code: LT2-S23
-    title: Load the vehicle for a project from the project specifics sheet and load list
+    title: Plan and load for a project from its size, job type and specifics
     category: Project Readiness
     critical: false
-    description: Given a project specifics sheet, survey and company load list (sample or real), the technician loads
-      the project vehicle (or a staged load-out area) for the job without prompting, scaling quantities to the project
-      and following the company's recycling rules.
+    description: Given a project specifics sheet, survey and service order (sample or real), the technician plans and
+      loads for the job without prompting from the supervisor, working from the project size, the job type and the
+      project specifics, arranging the right vehicle or trailer, and following the company's recycling rules.
     equipment:
     - project specifics sheet, survey and service order (sample or real)
-    - Company Load Lists and the job playbook for the job type (library)
+    - Project Load Lists guide and the job playbook for the job type (library)
     - project vehicle or staged load-out area with shop stock
     criteria:
-    - Builds the load from the specifics sheet and load list (core kit, size add-on and job-type add-ons) without
-      prompting from the supervisor, and leaves off relamp-era items the project specifics do not call for
-    - Scales quantities correctly from the survey and shows the working (recycle boxes = project lamps / 50 rounded up;
-      disconnects and connectors per fixture plus spares)
-    - Loads recycling supplies (recycle boxes, tape gun and tape, marker, shrink wrap) and states the recycle box,
-      separate pallet, ask-before-a-new-pallet and pallet photo rules
+    - Builds the load from the project size (small, medium, large), the job type and the project specifics (core kit,
+      size needs and job-type items) without prompting from the supervisor, and brings retrofit parts only when the
+      project specifics call for them
+    - States whether the job needs a project-style vehicle or a trailer (capacity for ladders, lifts, material and
+      recycle) and arranges it with the supervisor before load day
+    - Scales quantities from the survey and shows the working (recycle containers sized from each container's capacity
+      and the lamp count, rounded up; disconnects and connectors per fixture plus spares)
+    - Loads recycling supplies (recycle containers, tape gun and tape, marker, shrink wrap) and states the boxing and
+      labeling, keep-recycle-together, ask-before-a-new-pallet, ticket note and pallet photo rules
+    - Identifies job-specific needs from the specifics (supports to keep new wiring off ceiling tile, seismic wire and
+      lags or beam clamps for lay-in fixtures as the job requires)
     - Loads safety equipment for the job (cones and caution tape, ladders or lift equipment for each ceiling height,
       lockout kit and meter for every person) and secures the load, ladders and any lift
-    - Checks items off the list as they are loaded and counts expensive or customer-supplied material
+    - Checks items off as they are loaded and counts expensive or customer-supplied material
     - Reports shortages or proposed substitutions to the supervisor before leaving the shop

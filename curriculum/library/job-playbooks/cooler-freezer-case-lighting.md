@@ -78,18 +78,18 @@ often in the cold, on circuits that a defrost cycle or a case switch can bring b
 
 ## Load list
 
-**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts and lever-nut connectors / in-line disconnects, clean rags, drop cloths, vacuum (or the site's), a cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle containers sized to the lamp count (check what each container holds), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded; cleaner and spray bottles if cleaning is in scope. Your own drill, bits, meter and lockout kit for every person. Plan the rest from the project size, the job type and the project specifics, and arrange a project-style vehicle or trailer if the ladders, lifts, material and recycle need it.
 
-**Cooler and case add-ons** (from the case parts the company carried on its grocery jobs; scale to the survey):
+**Cooler and case add-ons** (scale to the survey):
 
 - Jacket, dry spare gloves and cold-weather layers
-- Snap-in and bolt-in freezer sockets, twist-lock sockets, Anthony J12 sockets (confirm current use)
+- Case sockets/lampholders (twist-lock, snap-in and bolt-in freezer sockets) for retrofit work, only if the project specifics call for them
 - Moisture-rated connectors; known-good LED sticks or lamps for swap testing
 - Tube guards with end caps and lens covers
 - Plastic sheeting or drop cloths to cover food; cart or cones to block the aisle
-- Icehorse (cold-temperature) or Workhorse ballasts, only if the project specifics call for it
+- Cold-rated ballasts or drivers, only if the project specifics call for them
 
-Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
+Full guide, with needs by project size and job type and the recycling rules: library *Project Load Lists: What to Bring* (category **Project Readiness**).
 
 ## Related training
 
