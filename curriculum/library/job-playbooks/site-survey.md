@@ -78,11 +78,9 @@ from your survey, so a missing field becomes their problem.
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
+Based on the core kit; no company list yet for this job type. Typical items:
 
-Typical items (generic example):
-
-- Survey worksheets, map or floor plan, clipboard and markers
+- Survey worksheets, map or floor plan, clipboard and markers; graph paper for layouts
 - Phone or camera with charged spare battery
 - Tape measure and laser distance meter
 - Light meter (if readings are in scope)
@@ -90,6 +88,10 @@ Typical items (generic example):
 - Flashlight and binoculars for labels at height
 - High-visibility vest and cones
 - Ladder suited to opening sample fixtures
+
+Record ceiling heights, lift access and anything unusual (seismic supports, coolers, canopies) so the supervisor can build the job's load list.
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

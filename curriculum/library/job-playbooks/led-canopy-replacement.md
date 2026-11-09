@@ -81,19 +81,21 @@ over an area where the public drives and walks. The site usually stays open.
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
 
-Typical items (generic example):
+**LED canopy add-ons** (from the company's LED canopy retrofit list). Canopy fixtures are expensive: count them when loading and on site, and handle them with care.
 
-- Lift or bucket truck, inspected; harness and lanyard
+- Canopy fixtures, counted against the survey
+- 2 cordless drills with bits (your own; ask before using the shop's)
+- 12 ft ladders or the lift or bucket truck on the sheet; harness and lanyard
+- Putty knives and adhesive remover for old gaskets and residue
+- Tan wire nuts; wet-location connectors and sealant
+- Tek screws in the sizes the fixture needs; a box of jack chain; approved secondary restraints
+- Extension cords (to charge batteries at the hotel or on site)
+- Clean rags, a booklet of graph paper for canopy layouts
 - Cones, barricade tape and lane-closure signs
-- Tested multimeter, proving unit and lockout kit
-- Drill, bits and charger for every person
-- Approved secondary restraints and extra securing hardware
-- Wet-location connectors, sealant and tape
-- Wire brush and rags for rusted housings
-- Graph paper, clipboard and the survey
-- Recycle boxes, tape and labels
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

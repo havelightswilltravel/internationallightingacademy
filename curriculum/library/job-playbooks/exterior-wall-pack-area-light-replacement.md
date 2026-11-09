@@ -83,19 +83,19 @@ whole lot on a project.
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
 
-Typical items (generic example):
+**Exterior add-ons** (from the company's outdoor and HID lists; scale to the survey):
 
-- Tested multimeter and proving unit
-- Lockout kit, personal lock and tags
-- Harness and lanyard, hard hat, high-visibility vest
-- Cones and caution tape for the full work zone
-- Wet-location connectors, sealant, tape
-- Mounting kits, slip-fitters or arm adapters for the poles on site
-- Photocell shorting caps or caps per the fixture instructions
-- Extension ladder for wall packs where a lift is not needed
-- Rags and cleaner; camera or phone
+- Ladders by height (8 ft, 12 ft, BLG (confirm), 24 ft extension) or the lift or bucket truck on the sheet
+- YWN wire nuts and wet-location connectors, sealant and tape
+- Cones and caution tape for the full work zone; harness and lanyard, hard hat, high-visibility vest
+- Tested meter and proving unit, lockout kit, personal lock and tags
+- Mounting kits, slip-fitters or arm adapters for the poles on site; photocells or shorting caps per the fixture instructions
+- The 5-gallon cleaner container (at least half full), 50+ rags, garbage bags
+- HID lampholders, metal halide ballast kits and capacitors, only if the project specifics call for it
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

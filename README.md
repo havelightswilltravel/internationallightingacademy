@@ -30,9 +30,9 @@ draft electrical-apprentice levels are kept, unused, in `curriculum/archive/elec
 | | Lighting track (LT1–LT5) | Manager Module | Total |
 |---|---|---|---|
 | Courses | 48 | 6 | **54** |
-| Lessons | 242 | 21 | **263** |
-| Quiz/exam questions | 952 | 90 | **1,042** |
-| Hands-on skills | 84 | 6 | **90** |
+| Lessons | 243 | 21 | **264** |
+| Quiz/exam questions | 957 | 90 | **1,047** |
+| Hands-on skills | 85 | 6 | **91** |
 
 Plus 84 library guides (27 troubleshooting guides, 17 company field procedures, 33 toolbox talks,
 5 inspection checklists and 2 project-readiness guides), a 20-system Skills Matrix, and two

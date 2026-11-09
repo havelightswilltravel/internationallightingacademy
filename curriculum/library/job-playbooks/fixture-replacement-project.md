@@ -82,18 +82,19 @@ more demolition and more mounting decisions, and every new fixture must be suppo
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
 
-Typical items (generic example):
+**Fixture replacement add-ons** (from the company's fixture-install and remove-and-replace lists; scale to the survey):
 
-- Drill, bits and charger for every person; stud finder
-- Meter and lockout kit for every person
-- Toggle bolts and approved mounting hardware for each ceiling type
-- Connectors, wire, boxes and covers as the sheet allows
-- Ladders, lifts and plywood or floor protection
-- Plastic sheeting, cleaner, clean rags, clean gloves
-- Carts, trash cans, recycle boxes, tape and labels
-- Survey, recap sheets and the kickoff checklist
+- New fixtures counted against the survey; report damaged cartons before leaving the shop
+- In-line fixture disconnects, one per fixture plus spares; wire nuts or lever connectors
+- Mounting hardware for each ceiling type: toggle bolts with washers and anchors, as the sheet allows
+- #18 solid wire (yellow preferred) where the sheet calls for it
+- Seismic support material (earthquake ties, lag bolts and the matching bits) where the site requires it (confirm)
+- Boxes and garbage bags for removed fixtures; stud finder; floor protection under lifts
+- Spare sockets, only if the project specifics call for it
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

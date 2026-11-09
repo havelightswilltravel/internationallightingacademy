@@ -1,6 +1,6 @@
 ---
 title: "How the safety-meeting, operations and project material is used"
-status: Built (drafts); waiting on load lists and your confirmation of a few events
+status: Built (drafts); load lists added; a few abbreviations and events to confirm
 raised: 2026-11-09
 ---
 
@@ -24,7 +24,7 @@ raised: 2026-11-09
 | Near misses and incidents | **26 case-study cards** (Library → Case studies). Each one covers what happened, why, what we changed, and two or three questions for a safety meeting. Every card names the talk or lesson it came from. |
 | Operations problems | Toolbox talks such as NTE increases and first-trip completion, truck stock and parts returns, finishing paperwork and photos on site, LED driver-or-fixture write-ups, and respecting the customer site. They also appear in the case studies and the playbooks' "Common problems" sections. |
 | Project specifics | LT2-C12 *Project Readiness*, the Project Specifics Sheet template, the kickoff checklist, and **10 job playbooks** |
-| Load lists | A placeholder in each job playbook, **waiting for your files** |
+| Load lists | **Company Load Lists** guide (core kit, size and job-type add-ons, recycling rules), a load list in each playbook, LT2-C12 Lesson 6 *Loading for the Job*, and hands-on skill LT2-S23 |
 
 ## The job playbooks (new)
 A playbook is a one-stop expectations sheet for a type of job:
@@ -50,11 +50,10 @@ A playbook is a one-stop expectations sheet for a type of job:
 This is how the playbooks take the hand-feeding off managers.
 
 ## Still needed from you
-1. **Load lists.** The files didn't come through with your last message. The container was also
-   restarted since your earlier uploads, so I no longer have the original zips. Please re-attach:
-   - the load lists
-   - the safety-meeting files, if you'd like me to make a second pass for operations issues the
-     first pass may have missed
+1. **Load-list items to confirm.** These are listed at the end of the Company Load Lists guide:
+   abbreviations (BWN/YWN, LLG/BLG, PV/07PU, red cart), current van stock, recycle-pallet routing
+   and example quantities. The safety-meeting files would need re-uploading for a second pass on
+   operations issues.
 2. **Which discussion scenarios really happened.** Several toolbox talks have a "scenario for
    discussion" that may be real or may be made up. I only made case studies from events the
    material clearly describes as having happened. The scenarios in question:

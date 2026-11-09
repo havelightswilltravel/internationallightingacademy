@@ -83,9 +83,7 @@ marshal or insurance inspector, so the paperwork is the product.
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
-
-Typical items (generic example):
+Based on the core kit; no company list yet for this job type. Typical items:
 
 - Inspection spreadsheet, floor plan, clipboard and marker
 - Timer and flashlight
@@ -95,7 +93,9 @@ Typical items (generic example):
 - Common replacement batteries and lamp heads (if repairs approved)
 - Failure tags
 - Rags and cleaner for sign faces
-- Recycle container for removed batteries
+- Recycle container for removed batteries (batteries go back on the separate recycle pallet)
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

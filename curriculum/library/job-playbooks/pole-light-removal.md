@@ -80,19 +80,19 @@ If the plan stops matching what you see, **stop, set the load down and call your
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
-
-Typical items (generic example, based on the tools named in LT3-C12 Lesson 4):
+Based on the core kit; no company list yet for this job type. The exterior add-ons (cones and caution tape, extension ladder, YWN wire nuts) apply. Typical items, based on the tools named in LT3-C12 Lesson 4:
 
 - Very large adjustable wrench and a breaker bar (or conduit sleeve for leverage)
 - 6, 8 or 10 ft web sling and a rated 3/4 in screw-pin anchor shackle
-- Tag line and blocking (dunnage)
+- Tag line and blocking (dunnage); load binders and chains for transport
 - Lockout kit, tested meter and proving unit, insulated hand tools
 - Wet-location connectors, insulating caps, lots of electrical tape and a plastic cup
 - Penetrating oil and a wire brush
 - Tape measure, bags for hardware, camera or phone
 - Cones and caution tape for the fall zone
 - Hard hat, safety glasses, gloves, high-visibility vest
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

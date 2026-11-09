@@ -392,3 +392,25 @@ skills:
     - Records recycling (boxes or pallets, PCB ballast count kept separate, location) and photographs pallets
     - Talks with the site contact at the end of the shift about what was done and what is next
     - Submits a clear, legible recap (done, remaining, counts, problems, plan for next shift) on time
+  - code: LT2-S23
+    title: Load the vehicle for a project from the project specifics sheet and load list
+    category: Project Readiness
+    critical: false
+    description: Given a project specifics sheet, survey and company load list (sample or real), the technician loads
+      the project vehicle (or a staged load-out area) for the job without prompting, scaling quantities to the project
+      and following the company's recycling rules.
+    equipment:
+    - project specifics sheet, survey and service order (sample or real)
+    - Company Load Lists and the job playbook for the job type (library)
+    - project vehicle or staged load-out area with shop stock
+    criteria:
+    - Builds the load from the specifics sheet and load list (core kit, size add-on and job-type add-ons) without
+      prompting from the supervisor, and leaves off relamp-era items the project specifics do not call for
+    - Scales quantities correctly from the survey and shows the working (recycle boxes = project lamps / 50 rounded up;
+      disconnects and connectors per fixture plus spares)
+    - Loads recycling supplies (recycle boxes, tape gun and tape, marker, shrink wrap) and states the recycle box,
+      separate pallet, ask-before-a-new-pallet and pallet photo rules
+    - Loads safety equipment for the job (cones and caution tape, ladders or lift equipment for each ceiling height,
+      lockout kit and meter for every person) and secures the load, ladders and any lift
+    - Checks items off the list as they are loaded and counts expensive or customer-supplied material
+    - Reports shortages or proposed substitutions to the supervisor before leaving the shop

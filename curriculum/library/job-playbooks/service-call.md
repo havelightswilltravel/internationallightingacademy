@@ -85,19 +85,19 @@ on the first trip.**
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
-
-Typical items (generic example):
+Based on the core kit; no company list yet for this job type. Service trucks and lighting vans carry standard stock (wire nuts, common sockets, ladders); check it covers the work order. Typical items:
 
 - Tested multimeter and proving unit, non-contact tester (warning only)
 - Lockout kit with personal lock and tags
 - Ladders sized for the reach (check the truck's standard ladders)
 - Hand tools, insulated screwdrivers and strippers
-- Connectors, tape, bagged and labeled sockets
+- Wire nuts, lever connectors, tape, bagged and labeled sockets
 - Common replacement drivers or lamps from the pull sheet
 - Rags, approved cleaner, clean gloves
 - Cones and caution tape
 - Phone or camera, work orders and return sheets
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

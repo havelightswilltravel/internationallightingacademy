@@ -76,9 +76,7 @@ controlled by time clocks and photocells that make a sign look "out" when it is 
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
-
-Typical items (generic example):
+Based on the core kit; no company list yet for this job type. Typical items:
 
 - Bucket truck or ladder; harness and lanyard
 - Cones and caution tape for below the sign
@@ -88,6 +86,8 @@ Typical items (generic example):
 - GTO and neon parts (trained techs only)
 - Rags and cleaner for sign faces
 - Camera or phone for labels and sign face photos
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 

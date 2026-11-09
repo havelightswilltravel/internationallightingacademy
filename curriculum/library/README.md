@@ -24,7 +24,7 @@ library/
   electrical/    branch-circuit problems: inrush, voltage drop, open neutrals
   field-procedures/       company troubleshooting procedures (from the Master Troubleshooting Guide)
   inspection-checklists/  ladder, extension cord, harness, emergency lighting and exterior survey checklists
-  project-readiness/      project specifics sheet template and project kickoff checklist
+  project-readiness/      project specifics sheet template, project kickoff checklist, company load lists
   toolbox-talks/          ready-to-present safety meeting topics (from the company's monthly meetings)
   job-playbooks/          expectations for each job type (service call, retrofit, canopy, survey, signs...)
   case-studies/           anonymized company near misses, incidents and lessons learned for meetings

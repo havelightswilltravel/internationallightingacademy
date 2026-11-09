@@ -1,7 +1,7 @@
 code: LT2-C12
 title: "Project Readiness: Shifting from Service Calls to Projects"
 order: 12
-estimated_hours: 4
+estimated_hours: 4.5
 description: >
   Teaches technicians to shift gears from troubleshooting service calls to working retrofit and
   fixture-replacement projects. Built from the company's own project specifics sheets and project
@@ -10,7 +10,8 @@ description: >
   kickoff without being reminded, sets out the kickoff-day and daily routine (game plan with the
   site contact, before photos, material counts, crew flow, production tracking, quality checks,
   documentation, customer communication, recycling and the daily recap), and covers closeout
-  (final counts, leftover and recycle material, punch list, sign-off and feedback). Anonymized case
+  (final counts, leftover and recycle material, punch list, sign-off and feedback), and shows how to
+  load the truck from the project specifics sheet and the company's load lists. Anonymized case
   studies from past company projects show what went wrong and how to prevent it. Group relamping is
   retired; lessons from older relamp jobs are applied to retrofits and fixture replacement. Crew
   leads continue in LT5-C03 Lesson 5 (Mobilizing a Large Job) and LT5-C01.
@@ -22,12 +23,14 @@ objectives:
   - Track production against the bid expectation and report the reasons when behind
   - Close out a project with correct counts, labeled material, a punch-list walk, signed paperwork and feedback
   - Apply lessons learned from past company projects to new retrofit and fixture-replacement jobs
+  - Load the vehicle for a project from the project specifics sheet and the company load list, scaling quantities and following the recycling rules
 lessons:
   - 01-projects-are-a-different-animal.md
   - 02-the-project-specifics-sheet.md
   - 03-before-kickoff-questions-and-prep.md
   - 04-running-the-project-day.md
   - 05-closing-out-and-lessons-learned.md
+  - 06-loading-for-the-job-company-load-lists.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -197,3 +200,59 @@ quiz:
       answer: 1
       explanation: The callback cost more than doing it right. Secure every part per the instructions, dress the wiring with splices enclosed (NEC 300.15), and inspect before you leave.
       ref: LT2-C12 Lesson 5
+    - id: LT2-C12-Q16
+      type: single
+      q: What together makes up the loading plan for a project?
+      choices:
+        - Whatever was loaded for the last job
+        - The project specifics sheet plus the load list
+        - The customer's purchase order only
+        - Whatever the crew leader remembers on the morning of kickoff
+      answer: 1
+      explanation: The specifics sheet gives the scope, site, lifts and material arrangements; the load list says what goes on the truck. Read both and load without being told.
+      ref: LT2-C12 Lesson 6
+    - id: LT2-C12-Q17
+      type: single
+      q: A project will remove 430 lamps. Using the company rule, how many recycle boxes should you load?
+      choices:
+        - "8"
+        - "9"
+        - "43"
+        - "50"
+      answer: 1
+      explanation: Project lamps divided by 50 = boxes needed. 430 / 50 = 8.6, rounded up to 9.
+      ref: LT2-C12 Lesson 6
+    - id: LT2-C12-Q18
+      type: single
+      q: While loading at the shop you find only half the in-line disconnects the job needs. What should you do?
+      choices:
+        - Load a different connector from the shelf without asking
+        - Leave and sort it out on the last night
+        - Call your supervisor before leaving the shop so more can be ordered or sent
+        - Skip disconnects on half the fixtures
+      answer: 2
+      explanation: Report shortages before you leave the shop and ask before substituting. A shortage found at the shop is a phone call; found on site, it is a return trip.
+      ref: LT2-C12 Lesson 6
+    - id: LT2-C12-Q19
+      type: multi
+      q: Which are company rules for old lamps going back for recycling? (Select all that apply.)
+      choices:
+        - Reuse new-lamp boxes with both ends taped closed and no lamps showing
+        - Label every box OLD/USED LAMPS FOR RECYCLE
+        - Ask before starting a new pallet, and keep recycle on a separate pallet from good material
+        - Shrink-wrap the pallet, note the pickup call on the ticket and always photograph the pallet
+        - Mix recycle lamps with leftover good material to save space
+      answer: [0, 1, 2, 3]
+      explanation: These rules come from the company's load lists. The photo matters because our company has been blamed for poor palletizing. Recycle material is never mixed with good material.
+      ref: LT2-C12 Lesson 6
+    - id: LT2-C12-Q20
+      type: single
+      q: The company load list for a job includes fluorescent sockets and ballasts, but the project is an LED fixture replacement and the specifics sheet does not mention them. What should you do?
+      choices:
+        - Load them anyway and install them where fixtures look old
+        - Leave them off unless the project specifics call for them, and ask your supervisor if unsure
+        - Load double the quantity in case
+        - Install them in the new fixtures
+      answer: 1
+      explanation: Relamp-era items such as fluorescent sockets and ballasts come along only if the project specifics call for them.
+      ref: LT2-C12 Lesson 6

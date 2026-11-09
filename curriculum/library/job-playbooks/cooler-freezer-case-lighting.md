@@ -78,18 +78,18 @@ often in the cold, on circuits that a defrost cycle or a case switch can bring b
 
 ## Load list
 
-> **Company load list pending.** The company's load list for this job type will be added here. Until then, use your supervisor's list.
+**Core kit** (every project): 6 ft and 8 ft ladders, wire nuts (BWN) and lever connectors, spray bottles, cleaner concentrate and the 5-gallon cleaner container, clean rags, drop cloths, vacuum (or the site's), red cart, trash cans with wheels, large garbage bags, tape gun and tape, recycle boxes (project lamps / 50 = boxes), black marker, shrink wrap, cones and caution tape, and a tablet with recaps and timecards loaded. Your own drill, bits, meter and lockout kit for every person.
 
-Typical items (generic example):
+**Cooler and case add-ons** (from the case parts the company carried on its grocery jobs; scale to the survey):
 
 - Jacket, dry spare gloves and cold-weather layers
-- Tested multimeter and lockout kit
-- Step ladder suited to the cases
-- Moisture-rated sockets and connectors
-- Known-good lamps or LED sticks for swap testing
-- Tube guards and lens covers
-- Plastic sheeting to cover food; cart or cones to block the aisle
-- Rags, cleaner and a bag for debris and old lamps
+- Snap-in and bolt-in freezer sockets, twist-lock sockets, Anthony J12 sockets (confirm current use)
+- Moisture-rated connectors; known-good LED sticks or lamps for swap testing
+- Tube guards with end caps and lens covers
+- Plastic sheeting or drop cloths to cover food; cart or cones to block the aisle
+- Icehorse (cold-temperature) or Workhorse ballasts, only if the project specifics call for it
+
+Full guide, with example quantities, abbreviations and the recycling rules: library *Company Load Lists* (category **Project Readiness**).
 
 ## Related training
 
