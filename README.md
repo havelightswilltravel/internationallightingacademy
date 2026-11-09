@@ -35,7 +35,7 @@ draft electrical-apprentice levels are kept, unused, in `curriculum/archive/elec
 | Hands-on skills | 85 | 6 | **91** |
 
 Plus 125 library guides (troubleshooting guides, company field procedures, 34 toolbox talks, 29 case studies, 10 job playbooks,
-5 inspection checklists and 2 project-readiness guides), a 20-system Skills Matrix, and two
+5 inspection checklists and 3 project-readiness guides), a 20-system Skills Matrix, and two
 interview kits. The archived electrical courses (24 courses, 95 lessons) are not counted; see
 [Discussion 004](docs/discussions/004-archived-electrical-courses.md). Screenshots are in
 [`docs/screenshots/`](docs/screenshots/).
