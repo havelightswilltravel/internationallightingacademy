@@ -18,6 +18,12 @@ collects **our company's field rules for exterior upgrades and replacements**, g
 our monthly safety meetings. Most of them exist because the company paid for a mistake: blown
 new fixtures, a second trip, or an argument with a customer about damage we did not cause.
 
+> **Scope varies by state and city.** In some areas a lighting technician may replace exterior and
+> pole-mounted fixtures under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you do
+> this on a job, confirm with your supervisor that it is allowed in that location and that you are
+> authorized for it. When in doubt, stop and ask.
+
 ## Rule 1: Meter First, Every Exterior Project
 
 **Measure the supply voltage with your meter at the start of every exterior project**, before

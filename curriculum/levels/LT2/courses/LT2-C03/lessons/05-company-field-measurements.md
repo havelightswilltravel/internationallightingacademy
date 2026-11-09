@@ -23,6 +23,12 @@ and again because skipping them has cost us fixtures, callbacks and breakdowns.
 > requires and a CAT-rated meter verified on a known source (Lesson 1). Approach-boundary and
 > energized-work requirements are covered in depth in LT4-C07.
 
+> **Scope varies by state and city.** In some areas a lighting technician may take energized voltage
+> and current measurements under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you do
+> this on a job, confirm with your supervisor that it is allowed in that location and that you are
+> authorized for it. When in doubt, stop and ask.
+
 ## Measurement 1: Verify Supply Voltage Before You Install
 
 Our company has **destroyed many brand-new LED fixtures** on power-up because someone assumed

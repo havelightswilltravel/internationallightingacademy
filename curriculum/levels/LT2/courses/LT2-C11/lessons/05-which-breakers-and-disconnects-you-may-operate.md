@@ -37,6 +37,12 @@ qualified person in the right PPE (LT4-C07). OSHA also forbids reclosing a circu
 device opens until it is determined that it is **safe to do so** (29 CFR 1910.334(b)(2)). That is the
 basis for the one-reset rule.
 
+> **Scope varies by state and city.** In some areas a lighting technician may operate or reset
+> breakers and disconnects under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you do
+> this on a job, confirm with your supervisor that it is allowed in that location and that you are
+> authorized for it. When in doubt, stop and ask.
+
 ## Our Company's List (to be confirmed)
 
 **Per company policy (to be confirmed by the safety program owner)**, a lighting technician:

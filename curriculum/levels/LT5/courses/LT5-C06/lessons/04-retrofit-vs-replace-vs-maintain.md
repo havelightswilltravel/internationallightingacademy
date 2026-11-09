@@ -45,6 +45,12 @@ discontinued. When the part is obsolete or the driver costs close to a fixture, 
 both: driver and fixture labels, a full-elevation photo, the count of matching fixtures, and any
 exterior emergency wall packs counted separately.
 
+> **Scope varies by state and city.** In some areas a lighting technician may replace fixtures or
+> install retrofit kits under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you do
+> this on a job, confirm with your supervisor that it is allowed in that location and that you are
+> authorized for it. When in doubt, stop and ask.
+
 ## Step 2: Check Code and Listing Implications
 The choice is not only economic.
 

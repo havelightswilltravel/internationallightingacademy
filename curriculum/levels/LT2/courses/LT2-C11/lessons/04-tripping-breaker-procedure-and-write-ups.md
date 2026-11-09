@@ -38,6 +38,12 @@ Breaker replacement is **write it up for an electrician** unless the company has
 qualified you. Even a qualified person replaces a breaker with the panel de-energized whenever
 feasible, following lockout/tagout.
 
+> **Scope varies by state and city.** In some areas a lighting technician may investigate tripped
+> breakers and do load-side circuit checks under the company's license; in others it must be done
+> by, or under the supervision of, a licensed electrician, and some jobs need a permit and
+> inspection. Before you do this on a job, confirm with your supervisor that it is allowed in that
+> location and that you are authorized for it. When in doubt, stop and ask.
+
 ## Expanded Field Procedure
 
 ### Stage 1 — Gather information

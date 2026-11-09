@@ -18,6 +18,9 @@ linked to cancer and other health effects. Federal and state environmental rules
 materials are stored, shipped, and disposed of. Mishandling them can harm people and lead to fines
 for the company and the customer.
 
+> **Rules vary by state.** Some states regulate lamps, batteries and ballasts more strictly than
+> federal universal-waste rules. Follow your company's recycler instructions and state requirements.
+
 ## Universal Waste Lamps
 
 The U.S. EPA's **Universal Waste Rule (40 CFR Part 273)** allows mercury-containing lamps to be

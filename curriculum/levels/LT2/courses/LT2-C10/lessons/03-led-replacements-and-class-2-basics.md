@@ -37,6 +37,12 @@ This is where most problems occur. Check:
    dimmers).
 3. Whether the transformer is marked as LED compatible.
 
+> **Scope varies by state and city.** In some areas a lighting technician may replace low-voltage
+> transformers under the company's license; in others it must be done by, or under the supervision
+> of, a licensed electrician, and some jobs need a permit and inspection. Before you do this on a
+> job, confirm with your supervisor that it is allowed in that location and that you are authorized
+> for it. When in doubt, stop and ask.
+
 ## Fixing an LED MR16 Compatibility Problem
 
 1. **Confirm the symptom** and which lamps are affected.

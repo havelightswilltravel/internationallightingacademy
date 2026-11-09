@@ -9,6 +9,12 @@ video_suggestion: >
   heat, ballast-bypass wiring and labeling for each.
 ---
 
+> **Scope varies by state and city.** In some areas a lighting technician may install Type C TLED
+> systems and LED retrofit kits under the company's license; in others it must be done by, or under
+> the supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you
+> do this on a job, confirm with your supervisor that it is allowed in that location and that you
+> are authorized for it. When in doubt, stop and ask.
+
 ## Type C: Remote-Driver TLEDs
 
 A **Type C** system replaces the ballast with a separate **LED driver** that powers the tubes

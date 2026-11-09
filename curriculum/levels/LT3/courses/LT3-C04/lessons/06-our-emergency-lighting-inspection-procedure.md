@@ -22,6 +22,13 @@ marshal or insurance inspector, so the paperwork is part of the job.
 The library guide **Emergency Lighting Inspection Checklist** (category: Inspection Checklists)
 mirrors the spreadsheet field by field. Keep it open on your phone while you work.
 
+> **Scope varies by state and city.** In some areas a lighting technician may inspect and test
+> emergency lighting and fill out the inspection records under the company's license; in others it
+> must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit
+> and inspection. The AHJ may also require specific inspectors or its own forms for test and
+> inspection records. Before you do this on a job, confirm with your supervisor that it is allowed
+> in that location and that you are authorized for it. When in doubt, stop and ask.
+
 ## The Company Procedure, Step by Step
 
 ### Step 1: Check in and get a layout

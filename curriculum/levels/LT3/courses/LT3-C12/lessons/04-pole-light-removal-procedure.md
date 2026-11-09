@@ -36,6 +36,13 @@ gloves, high-visibility vest, safety-toe boots).
 > than pushing, keep your footing, and never stand where a slip puts you into the pole or the base.
 > If the nut won't move, use penetrating oil and wait; don't add more pipe.
 
+> **Scope varies by state and city.** In some areas a lighting technician may disconnect and remove
+> light poles under the company's license; in others it must be done by, or under the supervision
+> of, a licensed electrician, and some jobs need a permit and inspection. Lifts with cranes or boom
+> trucks need a certified operator, and local rules may add requirements. Before you do this on a
+> job, confirm with your supervisor that it is allowed in that location and that you are authorized
+> for it. When in doubt, stop and ask.
+
 ## The Procedure
 
 **1. Survey and plan.** Photograph the pole, heads, base and damage before you touch anything. **Look

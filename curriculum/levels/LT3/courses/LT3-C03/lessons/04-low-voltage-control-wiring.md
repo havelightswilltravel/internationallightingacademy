@@ -23,6 +23,13 @@ The NEC covers Class 2 and Class 3 circuits in Article 725 (the 2023 edition reo
 power-limited circuit material across Articles 722, 724 and 725). The AHJ's adopted edition
 governs.
 
+> **Scope varies by state and city.** In some areas a lighting technician may install low-voltage
+> (Class 2) control wiring under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician or a licensed low-voltage (limited-energy) contractor, and
+> some jobs need a permit and inspection. Before you do this on a job, confirm with your supervisor
+> that it is allowed in that location and that you are authorized for it. When in doubt, stop and
+> ask.
+
 ## Class 1 vs Class 2 — Practical Differences
 | | Class 2 | Class 1 |
 |---|---|---|

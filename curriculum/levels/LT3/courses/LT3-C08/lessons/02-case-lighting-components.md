@@ -30,6 +30,13 @@ fails.
 > and lens covers must be in place on every lamp over exposed food. Never leave a case with a missing
 > guard.
 
+> **Scope varies by state and city.** In some areas a lighting technician may replace refrigerated
+> case ballasts, drivers and LED retrofits under the company's license; in others it must be done
+> by, or under the supervision of, a licensed electrician, and some jobs need a permit and
+> inspection. The refrigeration system itself (not the lighting) may require a licensed
+> refrigeration technician. Before you do this on a job, confirm with your supervisor that it is
+> allowed in that location and that you are authorized for it. When in doubt, stop and ask.
+
 ## Remote Ballasts and Drivers
 Many cases keep the ballast or driver **away from the lamp**, because heat and cold both shorten
 ballast life and the cold section has little space. This is called a **remote-mounted ballast**.

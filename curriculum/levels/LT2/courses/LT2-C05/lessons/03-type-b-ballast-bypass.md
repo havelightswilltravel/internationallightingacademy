@@ -53,6 +53,12 @@ end; others to both. Read the label on the tube and the instructions in the box.
 Shunted and non-shunted sockets often look nearly identical. Clues (such as one vs two wire
 holes per side, or part numbers) help but are not proof. **Test.**
 
+> **Scope varies by state and city.** In some areas a lighting technician may perform Type B
+> (ballast-bypass) LED conversions under the company's license; in others it must be done by, or
+> under the supervision of, a licensed electrician, and some jobs need a permit and inspection.
+> Before you do this on a job, confirm with your supervisor that it is allowed in that location and
+> that you are authorized for it. When in doubt, stop and ask.
+
 ## Type B Conversion Procedure (Single-Ended Example)
 
 1. **Prepare.** Confirm the tube model, its wiring diagram (single- or double-ended), voltage

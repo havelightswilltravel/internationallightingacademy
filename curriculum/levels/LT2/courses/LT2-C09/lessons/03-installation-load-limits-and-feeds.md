@@ -16,6 +16,12 @@ replace connectors and dead ends, and re-terminate a live-end feed or floating c
 existing, identified circuit** after lockout. New branch circuits, new junction boxes and changes
 to the circuit are electrician work unless your company has qualified you.
 
+> **Scope varies by state and city.** In some areas a lighting technician may install track lighting
+> and re-terminate track feeds under the company's license; in others it must be done by, or under
+> the supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you
+> do this on a job, confirm with your supervisor that it is allowed in that location and that you
+> are authorized for it. When in doubt, stop and ask.
+
 ## Feeding a Track
 
 | Feed method | Where it connects | Notes |

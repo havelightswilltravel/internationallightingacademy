@@ -33,3 +33,14 @@ responsible for confirming that it is allowed where the work takes place.**
 By using this program you acknowledge that it is your responsibility, and your employer's, to
 check local codes, licensing requirements and company policy, and to work only within the scope
 you are licensed, trained and authorized for.
+
+## Scope varies by location
+
+Some tasks in this program are legal for a lighting technician in one place but reserved for a
+licensed electrician, sign contractor or low-voltage contractor in another, and some need a permit
+and inspection. Lessons that teach those tasks carry a **"Scope varies by state and city"** notice
+just before the task is taught. The program teaches the full range of work a Master Lighting
+Technician may need, but your company, or the location where the job is, may permit only a subset
+of it. The company's written scope of work and the local authority (the AHJ) decide what you may
+do on a given job, not this training. If a notice applies and you are not sure, stop and ask your
+supervisor before you start.

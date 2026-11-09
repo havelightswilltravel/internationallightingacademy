@@ -83,6 +83,13 @@ Things that change for the technician with LLLC:
 2. Sensor coverage is defined by mounting height and lens; high-bay sensors need high-bay lenses.
 3. A failed luminaire may mean a failed controller, a failed driver, or both.
 
+> **Scope varies by state and city.** In some areas a lighting technician may install and terminate
+> networked lighting control bus and sensor wiring under the company's license; in others it must be
+> done by, or under the supervision of, a licensed electrician or a licensed low-voltage (limited-
+> energy) contractor, and some jobs need a permit and inspection. Before you do this on a job,
+> confirm with your supervisor that it is allowed in that location and that you are authorized for
+> it. When in doubt, stop and ask.
+
 ## Power and Safety Boundaries
 
 Most NLC devices live on both sides of a safety line: the controller switches line voltage (120–277

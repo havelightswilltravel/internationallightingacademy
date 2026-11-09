@@ -40,6 +40,12 @@ alone; do not leave bus room doors open; do not carry tools or materials above y
 (they can fall into live bus); and do not work on any bus, bus structure, cable or disconnect
 switch unless it is de-energized and grounded.
 
+> **Scope varies by state and city.** In some areas a lighting technician may perform energized
+> testing and troubleshooting under the company's license; in others it must be done by, or under
+> the supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you
+> do this on a job, confirm with your supervisor that it is allowed in that location and that you
+> are authorized for it. When in doubt, stop and ask.
+
 ### When Our Work Might Be Justified Energized
 The handbook gives two examples: (1) an occupied building during business hours where the
 lighting is needed for the safety of the public and employees, and de-energizing would create

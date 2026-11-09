@@ -10,6 +10,12 @@ video_suggestion: >
   order.
 ---
 
+> **Scope varies by state and city.** In some areas a lighting technician may troubleshoot and
+> repair LED signs under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician or sign contractor, and some jobs need a permit and
+> inspection. Before you do this on a job, confirm with your supervisor that it is allowed in that
+> location and that you are authorized for it. When in doubt, stop and ask.
+
 ## The Company Procedure, in Step Order
 The company guide's LED sign procedure is sound. Below it is expanded into plain steps with the
 safety steps added.

@@ -14,6 +14,13 @@ A dark case can be a defrost cycle, a switch, one lamp, a ballast or driver, a h
 itself. The company procedure moves from the **easiest and most likely** to the **hardest and most
 invasive**. Follow it in order and do not skip the early steps.
 
+> **Scope varies by state and city.** In some areas a lighting technician may troubleshoot and
+> repair refrigerated case lighting under the company's license; in others it must be done by, or
+> under the supervision of, a licensed electrician, and some jobs need a permit and inspection. The
+> refrigeration system itself (not the lighting) may require a licensed refrigeration technician.
+> Before you do this on a job, confirm with your supervisor that it is allowed in that location and
+> that you are authorized for it. When in doubt, stop and ask.
+
 ## The Company Procedure in Plain Step Order
 ### Step 1 — Check the switches
 Most cases have a **light switch** on the case (often at the end panel, in the canopy, or under the

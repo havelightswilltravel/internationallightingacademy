@@ -40,6 +40,13 @@ PoE port may be supplying power.
 > cable only with the customer's or IT department's permission — it may shut off lights or other
 > devices.
 
+> **Scope varies by state and city.** In some areas a lighting technician may install PoE and
+> lighting control network cabling under the company's license; in others it must be done by, or
+> under the supervision of, a licensed electrician or a licensed low-voltage (limited-energy)
+> contractor, and some jobs need a permit and inspection. Before you do this on a job, confirm with
+> your supervisor that it is allowed in that location and that you are authorized for it. When in
+> doubt, stop and ask.
+
 ## Lighting Control Network Cabling
 Different lighting control systems use different cable. Always follow the manufacturer's riser
 diagram and installation guide.

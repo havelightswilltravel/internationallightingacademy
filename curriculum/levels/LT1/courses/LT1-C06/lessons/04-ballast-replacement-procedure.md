@@ -42,6 +42,12 @@ The new ballast must match:
 
 If anything is unclear, **ask before installing.** Do not "make it work" with a different ballast.
 
+> **Scope varies by state and city.** In some areas a lighting technician may replace ballasts and
+> drivers under the company's license; in others it must be done by, or under the supervision of, a
+> licensed electrician, and some jobs need a permit and inspection. Before you do this on a job,
+> confirm with your supervisor that it is allowed in that location and that you are authorized for
+> it. When in doubt, stop and ask.
+
 ## Step-by-Step Replacement
 
 ### 1. Lock Out and Verify

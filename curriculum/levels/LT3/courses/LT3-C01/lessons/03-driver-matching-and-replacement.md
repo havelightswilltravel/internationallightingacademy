@@ -72,6 +72,12 @@ luminaire's listing. Use the manufacturer's approved replacement where possible,
 retrofit kit/driver whose instructions permit the replacement. When in doubt, ask your
 supervisor — the AHJ may care.
 
+> **Scope varies by state and city.** In some areas a lighting technician may replace LED drivers
+> under the company's license; in others it must be done by, or under the supervision of, a licensed
+> electrician, and some jobs need a permit and inspection. Before you do this on a job, confirm with
+> your supervisor that it is allowed in that location and that you are authorized for it. When in
+> doubt, stop and ask.
+
 ## Step 4 — Install
 1. Apply LOTO; verify absence of voltage at the luminaire with a tested meter (live-dead-live).
 2. Disconnect and remove the old driver. Note any emergency driver or sensor wired into the

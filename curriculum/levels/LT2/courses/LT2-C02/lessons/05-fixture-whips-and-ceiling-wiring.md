@@ -30,6 +30,12 @@ building wire.
 | Conductor temperature | Use conductors rated for the temperature marked on the luminaire (often 90°C); recessed fixtures commonly require 90°C supply wire |
 | Support | In an accessible ceiling, a short unsupported length (up to 6 ft) from the last point of support to the luminaire is permitted for FMC and MC — the rest of the run must be secured per the wiring method's article |
 
+> **Scope varies by state and city.** In some areas a lighting technician may install fixture whips
+> and wire fixtures above the ceiling under the company's license; in others it must be done by, or
+> under the supervision of, a licensed electrician, and some jobs need a permit and inspection.
+> Before you do this on a job, confirm with your supervisor that it is allowed in that location and
+> that you are authorized for it. When in doubt, stop and ask.
+
 ## Installing a Whip: Step by Step
 
 1. **Plan.** Confirm the circuit, voltage and fixture type from the work order or lighting

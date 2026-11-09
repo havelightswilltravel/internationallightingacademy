@@ -60,6 +60,13 @@ by facilities staff or a specialty vendor.
 > procedures for operating breakers and wearing PPE. Never leave a breaker off at the end of the
 > test without the customer's knowledge.
 
+> **Scope varies by state and city.** In some areas a lighting technician may test emergency
+> lighting and keep the test records under the company's license; in others it must be done by, or
+> under the supervision of, a licensed electrician, and some jobs need a permit and inspection. The
+> AHJ may also require specific inspectors or its own forms for test and inspection records. Before
+> you do this on a job, confirm with your supervisor that it is allowed in that location and that
+> you are authorized for it. When in doubt, stop and ask.
+
 ## Monthly Test Procedure (Each Unit)
 1. Confirm the charge indicator is lit (normal charging) before testing. Note any unit with no
    indicator.

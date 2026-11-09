@@ -25,6 +25,13 @@ video_suggestion: >
 The company guide calls plugs and jacks **male and female terminals**. A plug is male; a jack (wall
 outlet, patch-panel port, device port) is female.
 
+> **Scope varies by state and city.** In some areas a lighting technician may install, terminate and
+> test data cabling under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician or a licensed low-voltage (limited-energy) contractor, and
+> some jobs need a permit and inspection. Before you do this on a job, confirm with your supervisor
+> that it is allowed in that location and that you are authorized for it. When in doubt, stop and
+> ask.
+
 ## Crimping an RJ45 Plug (T568B)
 1. Cut the cable end square. Strip about 1–2 in of jacket with a proper stripper. Check for nicked
    insulation; cut off and redo if any conductor is nicked.

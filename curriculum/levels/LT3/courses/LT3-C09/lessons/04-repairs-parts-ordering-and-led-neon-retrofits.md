@@ -9,6 +9,12 @@ video_suggestion: >
   retrofit marking label applied inside the sign.
 ---
 
+> **Scope varies by state and city.** In some areas a lighting technician may repair neon signs and
+> retrofit them to LED under the company's license; in others it must be done by, or under the
+> supervision of, a licensed electrician or sign contractor, and some jobs need a permit and
+> inspection. Before you do this on a job, confirm with your supervisor that it is allowed in that
+> location and that you are authorized for it. When in doubt, stop and ask.
+
 ## Typical Repairs
 
 | Repair | Who usually does it | Notes |

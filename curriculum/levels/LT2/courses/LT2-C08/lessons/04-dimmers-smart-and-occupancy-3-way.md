@@ -15,6 +15,12 @@ Customers ask for dimming, smart control and occupancy sensing on existing 3-way
 time. These devices do **not** all wire like ordinary 3-ways, and a wrong choice causes callbacks:
 lights that will not turn off fully, flicker, buzz or work from only one location.
 
+> **Scope varies by state and city.** In some areas a lighting technician may install 3-way dimmers,
+> smart switches and occupancy sensors under the company's license; in others it must be done by, or
+> under the supervision of, a licensed electrician, and some jobs need a permit and inspection.
+> Before you do this on a job, confirm with your supervisor that it is allowed in that location and
+> that you are authorized for it. When in doubt, stop and ask.
+
 ## Traditional 3-Way Dimmers
 
 A standard (non-smart) 3-way dimmer replaces **one** of the two 3-way switches. The other location

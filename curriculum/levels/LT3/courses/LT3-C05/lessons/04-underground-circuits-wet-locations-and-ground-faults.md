@@ -10,6 +10,12 @@ video_suggestion: >
   kit.
 ---
 
+> **Scope varies by state and city.** In some areas a lighting technician may repair exterior,
+> underground and pole wiring under the company's license; in others it must be done by, or under
+> the supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you
+> do this on a job, confirm with your supervisor that it is allowed in that location and that you
+> are authorized for it. When in doubt, stop and ask.
+
 ## Underground Site Circuits
 Site lighting conductors run underground between the panel and poles and from pole to pole. The
 NEC sets underground installation requirements in Article 300 (minimum cover depths in Table

@@ -34,6 +34,12 @@ the safety and verification steps have been added.
 | Breaker trips when a switch is flipped | Traveler or switch leg shorted to ground or neutral, or a miswire putting hot onto neutral — **stop and write it up** |
 | Switch warm, buzzing, discolored | Loose connection or overloaded switch — de-energize and write up if the box or conductors are damaged |
 
+> **Scope varies by state and city.** In some areas a lighting technician may repair 3-way and 4-way
+> switch wiring under the company's license; in others it must be done by, or under the supervision
+> of, a licensed electrician, and some jobs need a permit and inspection. Before you do this on a
+> job, confirm with your supervisor that it is allowed in that location and that you are authorized
+> for it. When in doubt, stop and ask.
+
 ## Step-by-Step Field Procedure
 
 ### Part A — Observe (no tools inside the box yet)
