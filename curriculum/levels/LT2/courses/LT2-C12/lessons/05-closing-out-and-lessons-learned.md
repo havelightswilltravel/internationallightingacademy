@@ -109,3 +109,15 @@ schedule, so keep them informed.
 - Clean the site and vehicle, return equipment and hand in the paperwork.
 - Past jobs teach the same lessons: compare site to survey early, secure everything, ask before skipping,
   never improvise on emergency equipment, and give feedback so the next sheet is better.
+
+## Job playbooks
+
+Each job type our company runs now has a **job playbook** in the Library (category **Job Playbooks**):
+service calls, interior LED kit retrofits, interior fixture replacements, exterior wall pack and area
+light replacements, LED canopies, cooler and case lighting, pole light removal, emergency lighting
+inspections, site surveys and sign service. Each one sets out what "done right" looks like, what to
+confirm before you leave the shop, the problems we see most, and the close-out paperwork, so your
+supervisor does not have to repeat it on every job. The company load list for each job type will be
+added to its playbook when it is received. The case studies in this lesson, and other near misses and
+lessons learned from our safety meetings, are also written up as short discussion cards in the Library
+(category **Case Studies**) for use at safety and operations meetings.

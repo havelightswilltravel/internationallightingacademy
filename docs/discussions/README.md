@@ -13,6 +13,7 @@ becomes a program-wide rule, and apply it to the lessons.
 | 005 | [Who presents which videos](005-video-presenters.md) | Recommendation; open for discussion |
 | 006 | [Twelve grades from Day One to Master](006-twelve-grade-ladder.md) | Proposal; needs decision |
 | 007 | [What a lighting tech may do differs by state](007-state-by-state-scope.md) | First version in lessons; needs Kyle's guidance |
+| 008 | [How the safety-meeting, operations and project material is used](008-safety-meetings-operations-and-job-playbooks.md) | Built; waiting on load lists |
 
 New topics get the next number. Write them in plain language and keep "My recommendation" and
 "Questions for you" at the end, so each item can be read in a few minutes.
