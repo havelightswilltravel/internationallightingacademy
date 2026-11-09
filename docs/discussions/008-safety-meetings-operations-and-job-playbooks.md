@@ -57,18 +57,14 @@ This is how the playbooks take the hand-feeding off managers.
    (small, medium, large), new-wiring support and seismic support are described in general terms.
    The load lists do not need to be kept current: the guide (now *Project Load Lists: What to Bring*),
    LT2-C12 Lesson 6, its quiz and skill LT2-S23 teach the general needs by project size and job type.
-   The safety-meeting files would still need re-uploading for a second pass on operations issues.
-2. **Which discussion scenarios really happened.** Several toolbox talks have a "scenario for
-   discussion" that may be real or may be made up. I only made case studies from events the
-   material clearly describes as having happened. The scenarios in question:
-   - cord pinched under a door
-   - ladder with a cracked rail
-   - heat-stress partner
-   - cold-weather pole
-   - sign catwalk without a harness
-   - socket bin
-   - cracked screwdriver
-   - flashing fixtures
+2. ~~**Which discussion scenarios really happened.**~~ **Checked against the 2024–2025 meeting
+   slides (second pass, 2026-11-09).** None of the eight scenarios (pinched cord, cracked ladder rail,
+   heat-stress partner, cold-weather pole, sign catwalk, socket bin, cracked screwdriver, flashing
+   fixtures) is described as a real event, so they stay labelled teaching examples. The second pass
+   added three real events as case studies (engine died in traffic, an out-of-town breakdown, stuck
+   in the mud twice), a breakdown and roadside-safety toolbox talk, material-handling and
+   breakdown sections in LT1-C01, and tree and chainsaw rules near power lines in LT3-C05. The
+   operations toolbox talks were trimmed to the issue, why it matters and how we deal with it.
 3. **Job types.** Is anything missing from the playbook list (for example, parking garages, high
    bays and warehouses, or night work)?
 
@@ -77,3 +73,14 @@ This is how the playbooks take the hand-feeding off managers.
 2. Should case studies be reviewed in safety meetings on a schedule, for example one a month?
 3. ~~Who keeps the load lists current?~~ **Answered:** no one needs to; the training teaches the general
    needs instead of a list to maintain.
+
+## Questions from the second pass on the safety meetings
+4. **Masks above ceilings:** required or voluntary? If required, OSHA 1910.134 needs a full
+   respirator program (medical evaluation and fit testing); if voluntary, workers get Appendix D.
+5. **Live lighting work "during business hours":** the 2025 LOTO slide allows it. NFPA 70E allows
+   energized work only where shutting off creates a greater hazard or isn't feasible. The lessons
+   already limit it to qualified people with a permit. Should the company manual be tightened to match?
+6. **Chainsaws:** should techs use one at all? If yes, what training does the company give?
+7. **Out-of-town breakdown:** what failed, and was the parking brake fixed?
+8. **Second totaled vehicle (August 2024 meeting):** what happened? There's no case study without the cause.
+9. **Photos of other companies' unsafe crews:** OK to use as discussion material (no names or logos)?

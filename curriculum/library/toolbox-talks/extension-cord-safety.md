@@ -3,7 +3,7 @@ title: "Toolbox Talk: Extension Cords on the Job"
 category: toolbox-talks
 tags: [toolbox-talk, safety, extension-cords, gfci, doorways, trip-hazard]
 levels: [LT1, LT2, LT3]
-last_reviewed: 2026-11-05
+last_reviewed: 2026-11-09
 review_interval_months: 12
 ---
 
@@ -42,10 +42,10 @@ of them comes from a hazard many techs never think about: **a closing metal door
 
 ## Scenario (for discussion)
 
-At a job, a cord was run under a self-closing steel door to reach an outlet in a back room.
-By the end of the day the door had pinched the jacket down to bare copper. Nobody touched the
-door before the damage was found, but the next person might have. Prop the door, cone it, or
-find another outlet.
+*(A teaching example, not a reported company event.)* Picture a cord run under a self-closing
+steel door to reach an outlet in a back room. By the end of the day the door has pinched the
+jacket down to bare copper, and the next person to grab the door handle completes the circuit.
+What should have been done? (Prop the door yourself and cone it, or find another outlet.)
 
 ## Discussion questions
 

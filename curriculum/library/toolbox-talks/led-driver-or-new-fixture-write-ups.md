@@ -3,60 +3,46 @@ title: "Toolbox Talk: Driver Replacement or New Fixture? Writing It Up Right"
 category: toolbox-talks
 tags: [toolbox-talk, task-training, led, driver, programmable-driver, write-up, photos, emergency, warranty]
 levels: [LT2, LT3]
-last_reviewed: 2026-11-05
+last_reviewed: 2026-11-09
 review_interval_months: 12
 ---
 
 > **DRAFT - pending SME review.**
 
-*Toolbox talk (about 10 minutes) - adapted from our company's monthly safety meetings.*
+*Toolbox talk (about 5 minutes) - an operations issue from our company's monthly safety meetings,
+covered as how we handle it when it comes up.*
+
+## The issue
+
+An LED fixture has a failed driver. Replacement drivers keep getting more expensive and harder to
+match, while new building-mounted LED fixtures keep getting cheaper and come with long
+warranties. Sometimes the right answer is a new fixture, but the office can only offer that if
+the write-up has enough information.
 
 ## Why it matters
 
-Replacement LED drivers keep getting more expensive and harder to match exactly, while new
-building-mounted LED fixtures keep getting cheaper and come with **warranties of five years or
-more.** A repair part with no warranty can cost about the same as a whole new fixture with a
-long warranty. The office can only offer the customer the better option if **your write-up
-gives them enough information to price both.**
+A write-up that says "24 V driver" means a second trip just to gather information. A quote that
+misses emergency (battery) units is wrong; on one of our jobs, most of the wall packs sold as
+standard turned out to be emergency units (case study *Emergency Wall Packs Quoted as Standard*).
 
-## Key points - what to capture
+## How we deal with it
 
-- **The driver:** full label photo and the **complete part code** - not "24 V driver." Input
-  voltage, output current or voltage, wattage, dimming type, and the connector type.
-- **The fixture:** label photo (make, model, wattage, voltage), **a full-elevation photo**
-  showing the fixture, mounting and what is around it, and **a count of matching fixtures** in
-  the area. Note their age and condition - are others likely to fail soon?
-- **Plug-in drivers and low-voltage supplies:** photograph the **output connector or tip** and
-  the secondary cord cap - there are many different tips. Best practice: bring back a labeled
-  sample.
-- **Exterior wall packs: check for emergency (battery) units.** A quote for new wall packs that
-  misses the emergency fixtures is wrong - in one of our jobs, most of the wall packs sold as
-  standard turned out to be emergency units.
-- **Location matters for exterior replacements:** primary voltage (measured), where the fixture
-  sits (property line vs. middle of the lot, which drives the light distribution), pole shape
-  (round or square), and whether it needs a photocell.
-
-## Programmable drivers
-
-The company stocks some **programmable constant-current drivers** that cover a wide range of
-output currents and are set with a phone app. Program the output to match the original
-driver's current **before** you power it up; the new setting takes effect when the driver is
-powered. Record the programmed current on the work order and on the driver.
-
-## When parts are discontinued
-
-Whole product lines disappear - including some refrigerated-case ballast lines. Don't be the
-last contractor hunting for an obsolete part. Recommend an LED solution where it fits, and
-collect what the office needs: photos of the plug and receptacle, measurements, color
-temperature, lamp type and quantity per ballast.
+- **Document enough for the office to price both options:** a label photo and full part code for
+  the driver, a label photo and a full-elevation photo of the fixture, the count of matching
+  fixtures in the area, and whether any are emergency units. For plug-in drivers, photograph the
+  connector tip.
+- **Programmable driver from truck stock?** Set it to match the original before power-up and
+  record the setting (LT3-C01 covers how).
+- **Discontinued part?** Write it up with photos and measurements and ask your supervisor about
+  an LED option; don't hunt for obsolete parts on the clock.
+- **Don't** guess at a part code or leave the count off the write-up.
 
 ## Discussion questions
 
-1. What photos would let someone in the office quote a replacement without visiting the site?
-2. Why does a five-year warranty matter more to some customers than the first cost?
-3. How do you spot an emergency wall pack from the ground?
+1. What photos would let the office quote a replacement without a second visit?
+2. How do you spot an emergency wall pack from the ground?
 
 ## References
 
-- Manufacturer driver and fixture data sheets; DLC Qualified Products List
+- Manufacturer driver and fixture data sheets
 - Program courses: LT3-C01 LED Technology & Drivers; LT5-C06 LED-Era Maintenance & Retrofit/Replacement Planning

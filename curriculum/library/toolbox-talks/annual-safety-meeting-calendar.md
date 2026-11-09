@@ -3,7 +3,7 @@ title: "Toolbox Talks: How We Run the Monthly Safety Meeting (and the Annual Cal
 category: toolbox-talks
 tags: [toolbox-talk, safety-meeting, calendar, leadership, training-plan]
 levels: [LT1, LT2, LT3, LT4, LT5]
-last_reviewed: 2026-11-05
+last_reviewed: 2026-11-09
 review_interval_months: 12
 ---
 
@@ -48,7 +48,7 @@ Keep a sign-in sheet; attendance is training documentation.
 | July | Lockout/tagout review; material handling; incident reporting | - |
 | August | Ladders and extension cords; vehicle accident procedure; DVIR | Ladder and cord inspection |
 | September | Fall protection review; bucket trucks and jibs; tools | PPE and hand-tool inspection |
-| October | Winter driving; extension cords through doorways | - |
+| October | Winter driving; vehicle breakdowns and roadside safety; extension cords through doorways | - |
 | November | Material handling; LOTO; cold weather | - |
 | December | Ladder safety; cold weather and getting stranded | Ladder and cord inspection |
 

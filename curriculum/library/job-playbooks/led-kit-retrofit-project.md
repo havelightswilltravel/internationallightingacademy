@@ -42,7 +42,9 @@ bid at a production rate that covers all paid time.
   stored and charged.
 - Load drills and bits, meters and lockout kits **for every person**, plus supplies (see the load list).
 - Open any crushed or torn carton at the shop, photograph damage and report it.
-- Secure the load; check hitch, chains and lights if towing.
+- Secure the load; check hitch, chains and lights if towing. Know the breakdown routine (hazard
+  lights, warning triangles, stay clear of traffic, call your supervisor): see the toolbox talk
+  *Vehicle Breakdowns and Roadside Safety*.
 
 ## On site
 

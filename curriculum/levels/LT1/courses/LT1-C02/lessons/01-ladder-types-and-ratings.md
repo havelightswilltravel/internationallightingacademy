@@ -40,6 +40,9 @@ built on) set these maximum lengths:
 - **Single ladders:** no longer than 30 ft.
 - **Extension ladders:** no longer than 60 ft (two-section ladders are shorter still).
 
+> **Note:** Some older company fall-protection slides said stepladders "must not be over 22 ft."
+> The current limit in the ANSI A14 standards is **20 ft**, and that is the rule we teach.
+
 The largest ladder our company owns is a **32-ft extension ladder.** Longer ladders have
 been rented in the past, but only after the supervisor decided there was no other way to
 do the job. If a stepladder is not tall enough, the answer is a different means of

@@ -3,65 +3,41 @@ title: "Toolbox Talk: Leave It Cleaner - Fingerprints, Bugs and Professionalism"
 category: toolbox-talks
 tags: [toolbox-talk, task-training, professionalism, cleaning, ceiling-tiles, customer-service, language]
 levels: [LT1, LT2, LT3]
-last_reviewed: 2026-11-05
+last_reviewed: 2026-11-09
 review_interval_months: 12
 ---
 
 > **DRAFT - pending SME review.**
 
-*Toolbox talk (about 10 minutes) - adapted from our company's monthly safety meetings.*
+*Toolbox talk (about 5 minutes) - an operations issue from our company's monthly safety meetings,
+covered as how we handle it when it comes up.*
+
+## The issue
+
+Customers notice what we leave behind: bugs and dust in fixtures we just serviced, fingerprints
+on ceiling tiles, damage nobody reported, and language they did not want to hear.
 
 ## Why it matters
 
-Customers pay us to notice what they do not - dirty lenses, bugs in fixtures, dirty sign
-faces - and to tell them before the next lighting company does. When a customer's own
-maintenance staff has to remind us to clean fixtures, or finds our fingerprints all over their
-ceiling tiles, we look like we do not care. **We need to be a cut above our competition.**
+When a customer's own staff has to remind us to clean fixtures, we have already lost ground (case
+study *Bugs in Maintained Fixtures*). Existing damage we do not report becomes damage we are
+blamed for.
 
-## Key points - fixture cleaning
+## How we deal with it
 
-- **Cleaning fixtures is part of the service.** Every truck carries rags and cleaner on the pull
-  sheet - use them.
-- **Signs a fixture needs cleaning:** bugs, cobwebs, dust bunnies, debris - in **indoor and
-  outdoor** fixtures, lenses and sign faces.
-- **Write it in your notes** when you clean fixtures, so the office and the customer know you did.
-
-## Key points - ceiling tiles and finishes
-
-Our company procedure for working in grid ceilings:
-
-1. **Before you start**, photograph any tiles or surfaces that are already dirty or damaged, and
-   note it.
-2. **Lift all the tiles** in your work area **with clean hands**.
-3. **Then do the dirty work** - remove the old fixtures and install the new ones.
-4. **Wipe down the new fixtures**, wash your hands, **then put the tiles back.**
-5. Tiles do not clean well; a dry rag at most. Best practice is never to touch them with dirty
-   hands in the first place.
-
-Check everywhere you put your hands - fixtures, lenses, walls, doors, switch plates.
-
-## Key points - conduct
-
-- **Watch your language.** Swearing carries in public places and is noticed.
-- Arrive before your appointment time.
-- **Notice and report problems you see** - a damaged pole base, other lights out, a hazard. One
-  of our techs replacing a pole reported damage to the base to the customer and the office
-  before starting, which protected everyone.
-- **Pass on leads.** If you see lighting or electrical problems the customer might want fixed,
-  tell the office. Customers often call in to praise techs who are courteous and careful - that
-  is the standard.
-
-## What happened
-
-A customer's maintenance staff told us more than once that bugs "sure do love" the fixtures
-we maintain at their branches, and some locations believed we had never cleaned them. Every
-time a customer has to tell us how to do our job, we have already lost ground.
+- **Clean the fixture while it is open** (locked out, lamps cooled) and **write it in your notes.**
+- **Photograph existing damage or dirt before you start** (tiles, doors, floors, pole bases) and
+  tell the site contact. Report problems you notice, even ones outside your job, to the office.
+- **Keep your hands clean around finishes:** lift the tiles before the dirty work, put them back
+  after you wash up.
+- **Mind your language and your arrival time.**
+- **A customer complains?** Listen, don't argue, note it on the work order and call your
+  supervisor.
 
 ## Discussion questions
 
-1. How long does it take to wipe out a fixture while it is already open?
-2. What goes in your notes when you clean fixtures?
-3. What problems have you noticed on a site lately that you did not report?
+1. How long does it take to wipe out a fixture that is already open?
+2. What have you noticed on a site lately that you did not report?
 
 ## References
 

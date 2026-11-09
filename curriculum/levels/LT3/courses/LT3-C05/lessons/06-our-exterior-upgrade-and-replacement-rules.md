@@ -91,6 +91,25 @@ ladder.** Write it up, take pictures, and come back with the right tool (pole sa
 used only if you are trained on it) and the customer's permission to trim. A ladder against a
 tree limb or a wall full of branches is a fall waiting to happen.
 
+Before anyone trims, check three things:
+
+1. **Is there a power line in or near the tree?** Look up into the canopy and along the
+   service drop. If any branch you would cut, or any part of you, a tool or the lift, could come
+   **within 10 ft of an overhead line**, **stop.** That is line-clearance work. Only qualified
+   line-clearance tree trimmers may do it (29 CFR 1910.269(r) and 1910.333(c)(3)). Tell the
+   customer to call the utility or a line-clearance contractor, note it on the work order, and
+   photograph it. A branch falling onto a line can energize the branch, the ladder and you.
+2. **Are you trained and equipped for the saw?** Our company's rule: **only a tech who has been
+   trained on our chainsaw uses it.** Wear the PPE in the saw's manual: eye and face protection,
+   hearing protection, gloves, **cut-resistant chaps**, sturdy boots, and a hard hat when cutting
+   anything above you. Start the saw on the ground with the chain brake on.
+3. **Where will the cut fall, and who is under it?** Never run a chainsaw from a ladder or above
+   shoulder height, and never cut a limb you are standing on or leaning against. Cone off the drop
+   zone, keep the public and your partner out of it, and cut small pieces you can control. Large or
+   high limbs are a job for a tree service; write it up.
+
+Take before-and-after photos and note what you trimmed and that the customer approved it.
+
 ## HID Calls
 
 Metal halide ballasts in the common wattages are no longer stocked. For a failed HID fixture,
@@ -113,3 +132,5 @@ in LT2-C05.
 - Test function after an upgrade, or write "unable to test" with the reason.
 - Report pole-base and fixture damage before you replace anything.
 - Don't fight branches from a ladder; write it up and come back equipped.
+- Branch within 10 ft of an overhead line: stop; that is work for a line-clearance trimmer or the
+  utility. Chainsaw only if trained, in chaps and face protection, never from a ladder.

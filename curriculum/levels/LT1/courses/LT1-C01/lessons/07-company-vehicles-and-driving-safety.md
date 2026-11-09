@@ -102,6 +102,38 @@ single trip can cross a state line. Ask your supervisor before towing anything u
 5. **Property damage only:** do not decide to settle it yourself; call your supervisor. If the
    owner is not there, leave your name and your supervisor's contact information.
 
+## Breakdowns on the Road
+
+Our trucks have stalled in traffic, broken down out of town and been stuck in mud. A
+breakdown becomes an injury when someone stands in a traffic lane, crawls under a truck that can
+roll, or makes a roadside repair that should have waited.
+
+1. **Get out of traffic.** Signal and coast as far off the road as you safely can. If the engine
+   dies while moving, press hard and hold the brake (see above) and steer for the shoulder.
+2. **Hazard flashers on immediately**, then **set out the three reflective triangles within
+   10 minutes**: on a two-way road, one about 10 ft behind the truck on the traffic side, one
+   about 100 ft behind and one about 100 ft ahead; on a divided or one-way road, at about 10,
+   100 and 200 ft behind. Move the rear triangle back as far as 500 ft if a hill or curve hides
+   the truck (49 CFR 392.22). Wear a high-visibility vest and walk facing traffic.
+3. **Stay clear of traffic while you wait.** On a busy road, the safest place is usually away
+   from the vehicle, off the shoulder and behind a barrier if there is one. If you must stay in
+   the cab, keep your seat belt on.
+4. **Call your supervisor.** The office arranges towing through our fleet service; the contact is
+   in the tech cheat sheets. **Do not run an engine with a broken serpentine belt** while you wait.
+5. **No roadside repairs unless our mechanic or your supervisor has approved them**, the truck is
+   off the road on level ground, and the parking brake holds and the wheels are chocked. Never
+   work under a vehicle held up only by a jack.
+6. **Stuck in mud or snow:** don't spin the wheels. If light rocking and traction material do not
+   free it, call for a proper tow. Do not let a passer-by yank the truck out with a chain or strap
+   tied to whatever is handy; a strap or hook that lets go can kill.
+7. **Lift truck with the boom stuck up:** stay in the basket and use the manufacturer's emergency
+   lowering, then call. Never climb out of an elevated basket (LT3-C06).
+8. **Document it:** location, what happened, photos, and the note on your pull sheet.
+
+The toolbox talk *Vehicle Breakdowns and Roadside Safety* and the case studies *Engine Died in
+Traffic*, *Out-of-Town Breakdown and a Bad Parking Brake* and *Stuck in the Mud, Twice* go with
+this section.
+
 ## Winter Driving
 
 - Slow down and **triple your following distance**. Bridges, overpasses and shaded spots freeze
@@ -129,5 +161,7 @@ LT1-C11 Lesson 4 covers slips at the van door and other winter work hazards.
 - Watch the front-mounted bucket when turning and backing; use an observer to back.
 - Brake controller set, pins in, chains crossed, breakaway attached before towing.
 - Accident: 911 if hurt, supervisor, police and both insurers, photos and the form; never admit fault.
+- Breakdown: off the road, flashers on, triangles out within 10 minutes, stay clear of traffic,
+  call your supervisor; no roadside repairs without approval.
 - Winter: no snowy canyons without supervisor approval; diesels at least half full; stay with a
   stranded vehicle and keep the exhaust clear.

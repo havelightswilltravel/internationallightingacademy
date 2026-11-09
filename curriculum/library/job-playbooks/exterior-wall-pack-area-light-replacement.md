@@ -38,7 +38,9 @@ whole lot on a project.
   measure first and call before installing.
 - Know how the lot is controlled (contactor, time clock, building photocell) and where the controls are.
 - Plan around trees and shrubs: if access needs trimming, it needs the right tool, training and the
-  customer's permission.
+  customer's permission. A branch within 10 ft of an overhead power line is work for a line-clearance
+  trimmer or the utility, not us. A chainsaw is for trained techs only, with chaps and face
+  protection, and never from a ladder (LT3-C05 Lesson 6).
 
 ## On site
 

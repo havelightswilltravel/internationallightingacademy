@@ -3,7 +3,7 @@ title: "Toolbox Talk: Two-Person Ladder and Extension Cord Inspection"
 category: toolbox-talks
 tags: [toolbox-talk, safety, ladders, extension-cords, inspection, red-tag]
 levels: [LT1, LT2, LT3]
-last_reviewed: 2026-11-05
+last_reviewed: 2026-11-09
 review_interval_months: 12
 ---
 
@@ -45,9 +45,10 @@ and extension-cord inspection several times a year**, right after the safety mee
 
 ## Scenario (for discussion)
 
-During an inspection a pair of techs found a stepladder with a cracked rail that had been
-riding on a van for weeks. The tech who normally used it had not noticed - he looked at the
-steps, not the rails. Two people catch what one person misses.
+*(A teaching example, not a reported company event.)* Suppose a pair of techs doing the
+inspection find a stepladder with a cracked rail that has been riding on a van for weeks. The
+tech who normally uses it never noticed, because he looks at the steps, not the rails. What
+happens to the ladder, and why do we inspect in pairs?
 
 ## Discussion questions
 

@@ -419,3 +419,37 @@ quiz:
       Reporting existing damage first protects the next person from a pole that could fall and protects
       the company from being blamed for damage it did not cause.
     ref: Company exterior upgrade rules; LT3-C05 Lesson 3
+  - id: LT3-C05-Q28
+    type: single
+    q: >-
+      A wall pack is hidden by tree branches, and one of the limbs you would need to cut hangs about
+      6 ft from the service drop to the building. What do you do?
+    choices:
+    - Cut it quickly with the pole saw while standing on the ladder
+    - Stop, photograph it and write it up; work within 10 ft of an overhead line is for a qualified
+      line-clearance tree trimmer or the utility
+    - Cut it with the chainsaw from the bucket, since the bucket is insulated
+    - Push the limb away from the line with a fiberglass ladder and cut it
+    answer: 1
+    explanation: >-
+      Trimming a branch that can come within 10 ft of an overhead line is line-clearance work, which
+      only qualified line-clearance tree trimmers may do. A falling branch can energize the branch,
+      the tool and you. Note it on the work order and have the customer call the utility or a
+      line-clearance contractor.
+    ref: OSHA 29 CFR 1910.269(r), 1910.333(c)(3); LT3-C05 Lesson 6
+  - id: LT3-C05-Q29
+    type: multi
+    q: >-
+      You are trained on the company chainsaw and the customer has approved trimming a low limb away
+      from a wall pack. Which practices are required? (Select all that apply.)
+    choices:
+    - Eye and face protection, hearing protection, gloves and cut-resistant chaps
+    - Cone off the drop zone and keep people out of it
+    - Run the saw from the ladder so you can reach higher limbs
+    - Start the saw on the ground with the chain brake on
+    answer: [0, 1, 3]
+    explanation: >-
+      Wear the PPE in the saw's manual, including chaps; control the drop zone; start the saw on the
+      ground with the chain brake on. Never run a chainsaw from a ladder or above shoulder height;
+      high limbs are a job for a tree service.
+    ref: Company exterior rules; chainsaw manufacturer's manual; LT3-C05 Lesson 6

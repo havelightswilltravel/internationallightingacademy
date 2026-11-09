@@ -69,7 +69,8 @@ from your survey, so a missing field becomes their problem.
 
 ## Paperwork and photos at close-out
 
-- Completed worksheet with general comments (access, traffic hours, trees, where controls are) and the
+- Completed worksheet with general comments (access, traffic hours, trees and any power lines running
+  through them, where controls are) and the
   totals block, including the number out when surveyed.
 - Marked map; numbered photos matching the rows.
 - Emergency inspection spreadsheet if included.

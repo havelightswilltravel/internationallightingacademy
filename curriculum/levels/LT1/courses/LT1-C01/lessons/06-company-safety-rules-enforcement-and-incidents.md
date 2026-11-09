@@ -71,6 +71,33 @@ Our safety manual boils safe work down to ten rules:
 - **No unvented open-flame heaters ("salamanders")** in enclosed spaces, and **no propane (LPG)
   stored inside buildings**.
 
+## Material Handling and Team Lifts
+
+Material handling is on our safety-meeting calendar several times a year because ladders,
+fixtures, lift parts and boxes of material are heavy and awkward, and a back injury can end a
+career. Our rules:
+
+- **Size up the load first.** Look for a weight label, sharp corners, nails or other
+  projections. **Get help if the load is over 50 lb or the lifting is repetitive**, or use a cart,
+  dolly, hoist or lift (only one you have been trained to operate).
+- **Team lifts are required** for the large multi-position ladder and for extension ladders over
+  30 ft, to carry, raise and position. Agree on the route and the signals (stop, turn, set down)
+  before you lift, and keep in step. **This rule applies to everyone, managers included**, and
+  anyone may stop a one-person lift.
+- **The squat lift:** clear the path, feet firm with one beside the load and one slightly behind,
+  get close, grip with your fingers under the load, tighten your stomach muscles and lift
+  smoothly with your legs. **Don't twist; step.**
+- **Treat ladders as material.** Carry them balanced and watch both ends around people, doors and
+  vehicles.
+- **Store heavy items low and light items high**, in the warehouse and on the trucks.
+- **Warm up.** Strains happen most at the **start of a shift**, when muscles are cold, and
+  **right after lunch**. A few minutes of stretching before the first heavy lift helps.
+- **Sore or stiff? Tell your supervisor before the shift** so your dispatch can be changed. We
+  would rather move a job than send you to a lifting job hurt.
+- **Hoists, slings and chains:** use only gear that is maintained and rated for the load, inspect
+  it before the lift, and report defects to your supervisor and the maintenance lead (LT3-C12
+  covers rigging).
+
 ## How Our Rules Are Enforced
 
 Our enforcement policy applies to safety rules **you have been trained on**:
@@ -119,6 +146,8 @@ or a concern, take it to your representative or to the monthly safety meeting.
   hazards and injuries immediately.
 - Come fit for duty and prepared for any environment; be trained before operating anything,
   including forklifts.
+- Get help over 50 lb; team-lift the big ladders, whatever your title; warm up, and tell your
+  supervisor before the shift if you are sore.
 - Lighting technicians work inside the fixture; anything beyond needs approval.
 - No SDS, no use. Extinguishers charged; safety cans over one gallon; no salamanders or indoor LPG.
 - Enforcement: warning, then suspension, then termination within a year; willful or

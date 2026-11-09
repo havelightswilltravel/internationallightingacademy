@@ -430,3 +430,47 @@ quiz:
       answer: 1
       explanation: Company rule - never run a diesel low or out of fuel in winter, especially overnight or with a lift elevated. Gelled fuel cannot be quickly fixed on site.
       ref: Company winter driving rules
+    - id: LT1-C01-Q38
+      type: single
+      q: Your box truck breaks down on the shoulder of a two-lane highway. After turning on the hazard flashers, what is next?
+      choices:
+        - Stand behind the truck and wave traffic around it
+        - Within 10 minutes, set the three reflective triangles (about 10 ft and 100 ft behind, 100 ft ahead), then wait clear of traffic and call your supervisor
+        - Crawl under the truck to look for the problem before calling anyone
+        - Leave the truck and walk to the nearest town
+      answer: 1
+      explanation: Flashers first, then triangles within 10 minutes at about 10 ft and 100 ft behind and 100 ft ahead on a two-way road (49 CFR 392.22). Wait clear of traffic and call your supervisor; the office arranges the tow.
+      ref: FMCSA 49 CFR 392.22; company breakdown procedure
+    - id: LT1-C01-Q39
+      type: single
+      q: Your van is stuck in mud at a job site. A helpful customer offers to pull it out with a tow strap tied to his pickup's bumper. What should you do?
+      choices:
+        - Accept, and stand beside the strap to guide him
+        - Spin the wheels harder first to dig out
+        - Thank him, stay clear, and call your supervisor so a proper tow can be arranged
+        - Hook the strap to the van's tie-down loop and let him pull
+      answer: 2
+      explanation: An improvised pull with a strap on whatever is handy can snap or tear off a hook and strike someone. Don't spin the wheels; call for a proper tow. Company vehicles are not driven off road.
+      ref: Company vehicle rules; LT1-C01 Lesson 7
+    - id: LT1-C01-Q40
+      type: multi
+      q: Which of these are company material-handling rules? (Select all that apply.)
+      choices:
+        - Get help when a load is over 50 lb or the lifting is repetitive
+        - The large multi-position ladder and extension ladders over 30 ft are team lifts for everyone, managers included
+        - Tell your supervisor before your shift if you are sore or stiff
+        - Lift with a twist so the load stays balanced
+      answer: [0, 1, 2]
+      explanation: Size up the load and get help over 50 lb; team-lift the big ladders whatever your title; report soreness before the shift. Don't twist - step.
+      ref: Company safety manual (material handling); LT1-C01 Lesson 6
+    - id: LT1-C01-Q41
+      type: single
+      q: According to our company's material-handling training, when are back strains most likely to happen?
+      choices:
+        - In the middle of the afternoon, when you are warmed up
+        - At the start of a shift, when muscles are cold, and right after lunch
+        - Only when lifting more than 100 lb
+        - Only on ladders
+      answer: 1
+      explanation: Cold muscles at the start of a shift and the after-lunch slump are the high-risk times. A few minutes of stretching before the first heavy lift helps.
+      ref: Company material-handling training; LT1-C01 Lesson 6

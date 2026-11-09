@@ -3,55 +3,42 @@ title: "Toolbox Talk: Truck Stock, Pull Sheets and Returning Parts"
 category: toolbox-talks
 tags: [toolbox-talk, task-training, truck-stock, pull-sheet, inventory, parts-return, sockets]
 levels: [LT1, LT2, LT3]
-last_reviewed: 2026-11-05
+last_reviewed: 2026-11-09
 review_interval_months: 12
 ---
 
 > **DRAFT - pending SME review.**
 
-*Toolbox talk (about 10 minutes) - adapted from our company's monthly safety meetings.*
+*Toolbox talk (about 5 minutes) - an operations issue from our company's monthly safety meetings,
+covered as how we handle it when it comes up.*
+
+## The issue
+
+Trucks collect extra material, and parts pulled for one job ride around for days. Other trucks
+run out of basics like electrical tape and wire nuts because they ended up in someone's tool bag.
 
 ## Why it matters
 
-A well-stocked, organized truck finishes jobs on the first trip. A truck full of extra
-material and loose parts wastes time on every call, hides parts someone else is waiting for,
-and turns the yearly inventory into a nightmare.
+A missing part means a second trip; a part riding on your truck is one another tech is waiting
+for. Extra material also hides what you need and turns inventory day into a long day.
 
-## Key points - company rules
+## How we deal with it
 
-- **The pull sheet is your truck's stock list.** Keep only what is listed on it on your vehicle.
-  Pull off excess and unused material.
-- **Pull-sheet items stay on the truck.** Electrical tape, wire nuts and push-in connectors are
-  truck stock, not tool-bag stock - every truck carries at least two rolls of tape. Take a roll
-  for your bag if you want, but write it on the pull sheet so the truck gets restocked.
-- **Missing something?** Write it on the pull sheet so it gets put back.
-- **Standard ladders:** every van carries an extension ladder, a 12-ft, an 8-ft and a 6-ft
-  ladder (some specialty trucks excepted). Check before you leave.
-- **Special parts pulled for your job:**
-  - No longer needed → put them on the **parts-return shelf**.
-  - Still needed but you did not get to them → return them **with a tag** to the shelf they
-    came from.
-  - Leave them on your truck only if you are certain you are going back the next day, or the
-    shop is closed - and then leave your dispatcher a note and unload them on your next shift.
-- **Bag and label sockets.** Put each socket type in its own labeled bag with the code. You will
-  find the right one faster on every call, and inventory goes faster.
-- **Clean out your vehicle every day.**
-- **Inventory day:** everyone works it. Your vehicle's stock must match the quantities on your
-  pull sheet; experienced techs finish a lift truck in a few hours. Write the vehicle you
-  counted on your timecard. Get training first if you have never done one.
-- **Don't shop on the clock** for non-job items without office approval - the office would
-  rather order it so you can work.
-
-## Scenario (for discussion)
-
-You arrive at a job and the socket you need is "somewhere in the bin" with forty loose ones.
-Twenty minutes later you find it. How many times a year does that happen across the crew?
+- **Your pull sheet is your truck's stock list.** Keep what is on it; take off what is not.
+- **Something missing or used up?** Write it on the pull sheet so it gets restocked. Take tape or
+  connectors for your bag if you like, but note it so the truck is restocked.
+- **Special parts you did not use:** not needed any more, put them on the parts-return shelf;
+  still needed, return them with a tag to the shelf they came from. If the shop is closed or you
+  go back tomorrow, **leave your dispatcher a note** and unload them on your next shift.
+- **Need to buy something that is not for a job?** Ask the office first; they would rather order
+  it.
+- **Don't** leave special parts on the truck without telling anyone, and don't strip shared stock
+  off a truck without writing it down.
 
 ## Discussion questions
 
 1. What is on your truck right now that is not on your pull sheet?
-2. What happens to the next tech when special parts ride around on your truck for a week?
-3. What would make the pull sheet more useful?
+2. What happens to the next tech when special parts ride on your truck for a week?
 
 ## References
 

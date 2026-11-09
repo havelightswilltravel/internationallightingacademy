@@ -3,7 +3,7 @@ title: "Toolbox Talk: Beat the Heat"
 category: toolbox-talks
 tags: [toolbox-talk, safety, heat-stress, heat-stroke, hydration, summer]
 levels: [LT1, LT2, LT3]
-last_reviewed: 2026-11-05
+last_reviewed: 2026-11-09
 review_interval_months: 12
 ---
 
@@ -44,10 +44,11 @@ system. Heat illness is preventable if we watch for it - in ourselves and each o
 
 ## Scenario (for discussion)
 
-On a summer parking-lot job, a tech kept working through a headache and nausea to finish a
-pole. His partner noticed he had stopped sweating and was confused about which fixture they
-were on, sat him in the air-conditioned cab, and called the supervisor. He recovered - because
-his partner was watching.
+*(A teaching example, not a reported company event.)* On a summer parking-lot job, a tech keeps
+working through a headache and nausea to finish a pole. His partner notices he is confused about
+which fixture they are on and his skin is hot. What should the partner do? (Treat it as possible
+heat stroke: call 911, move him to shade or the air-conditioned cab, cool him aggressively with
+cold water and ice, and call the supervisor.)
 
 ## Discussion questions
 

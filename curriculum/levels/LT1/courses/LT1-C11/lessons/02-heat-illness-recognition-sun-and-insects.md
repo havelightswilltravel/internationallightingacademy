@@ -85,7 +85,11 @@ and death quickly unless the person is cooled right away. Signs:
 5. Notify your supervisor and report it as an incident.
 
 Our company's old heat card said to give cool drinking water for any heat illness. That is still
-right for an alert person, but **not** for someone who is confused or unconscious.
+right for an alert person, but **not** for someone who is confused or unconscious. Our older
+safety-meeting slides also said to "sprinkle the skin lightly with water" and "elevate the feet"
+for heat stroke. Current OSHA and CDC guidance is to **cool aggressively**: soak the skin and
+clothing with cold water, use ice packs and fanning, or immerse in cold water. Light sprinkling is
+not enough, and raising the feet does not replace cooling.
 
 ## Sun Protection
 
