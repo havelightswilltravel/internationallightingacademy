@@ -338,3 +338,43 @@ Decisions needed:
    supervisor allow"; the improvised parts-store fix was left out.
 5. **Long lessons:** LT1-C01 L07, LT1-C02 L01 and LT1-C11 L01–L05 run about 1,400–1,500 words;
    consider splitting.
+
+## Round 6: Lighting 101 deck and fixture chart (November 2026)
+Sources: the company "Lighting 101" product-training deck and the commercial fixture chart
+(`curriculum/media/fixtures/commercial-fixture-types.jpg`).
+
+Added:
+- **LT1-C05 Lesson 7, Commercial Fixture Types: Indoor & Exterior** (25 min): the chart, all 24
+  fixture types (look, location, legacy/LED sources, access, failures, work-order notes), how to
+  tell similar fixtures apart, and work-order examples. Quiz LT1-C05-Q25 to Q29; new objective;
+  course hours 8.5 to 9.0.
+- **Extended LT1-C05 Lessons 1–3:** fixture efficiency, CRI is not a percentage, average rated
+  life (half a test batch failed), L70 as a service opportunity (L1); fluorescent length-vs-watts
+  rule (F96T12) and the 7/8/9-series color code (L2); MH CRI by type (L3). Quiz LT1-C05-Q30 to Q32.
+- **LT1-S11:** new criterion, "Identifies the fixture type by its common name (e.g. troffer,
+  wraparound, wallpack, area light, canopy) and records it on the work order".
+- **Library (new `reference` category):** `commercial-fixture-identification.md` and
+  `lamp-codes-shapes-and-bases.md`.
+
+Corrections to the deck (taught the corrected way; please confirm):
+- [ ] **Watts** is the power a lamp uses, not something "created when voltage ignites filaments."
+- [ ] **"Average rated life"**, not "rate of life": hours until half of a test batch has failed.
+- [ ] **Color temperature** for fluorescent, HID and LED is *correlated* color temperature (CCT).
+- [ ] **CRI is not a percentage.** "95 = 95% natural" was replaced with a score explanation.
+- [ ] **Incandescent:** general-service A-lamps were phased out in the U.S.; halogen and specialty
+  incandescent lamps are still sold.
+- [ ] **Mercury vapor:** MV ballasts have been banned for sale in the U.S. since 2008; MV lamps are
+  legacy parts only.
+- [ ] **Metal halide CRI:** about 65 for probe-start; pulse-start and ceramic MH reach 80–90+ (the
+  deck gave about 60–70 for all MH).
+- [ ] **Manufacturer charts:** the deck's three-brand cross-reference table and brand-specific
+  codes were not copied. The library shows a generic "Manufacturer A/B/C" example.
+
+Items to verify:
+- [ ] Example ANSI codes in the lamp-codes guide (M57, M59, S55, H39) and the U-bent and circline
+  code formats.
+- [ ] **"S-14" and "rigid loop" bases** from the deck handout: written as S14s/S14d linear lamps
+  (with a note that S14 is also a sign-lamp shape) and "order by sample." Confirm what the deck meant.
+- [ ] HPS life (about 24,000 h) and CRI (about 22) are the deck's figures; actual values vary by lamp.
+- [ ] Fixture "also called" names in the fixture guide reflect common usage; adjust to the names
+  our dispatchers and supply houses use.

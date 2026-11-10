@@ -20,7 +20,7 @@ contain **mercury**.
 | Type | Light color | Typical CRI | Notes |
 |---|---|---|---|
 | **Mercury vapor (MV)** | Bluish-white | ~15–50 | Oldest and least efficient; manufacture and import of MV ballasts was prohibited in the U.S. starting in 2008. Still found in old installations |
-| **Metal halide (MH)** | White | ~65–90 | Common in high-bays, sports lighting, parking lots |
+| **Metal halide (MH)** | White (often 3000 K or 4000 K) | ~65 (probe-start); 80–90+ (pulse-start and ceramic MH) | Common in high-bays, sports lighting, parking lots; about 10 minutes to full brightness |
 | **High-pressure sodium (HPS)** | Orange-gold (~2000–2100 K) | ~20–25 | Very efficient; streetlights and parking lots |
 | Low-pressure sodium (LPS) | Monochromatic yellow | Near 0 | Rare today; some observatory-area street lighting |
 

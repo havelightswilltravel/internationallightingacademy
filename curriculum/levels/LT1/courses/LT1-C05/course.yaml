@@ -1,7 +1,7 @@
 code: LT1-C05
 title: Light Sources & Fixture Basics
 order: 5
-estimated_hours: 8.5
+estimated_hours: 9.0
 description: >
   Introduces the light sources and fixtures a lighting technician services every day:
   incandescent and halogen, linear and compact fluorescent, HID (mercury vapor, metal halide,
@@ -17,6 +17,7 @@ objectives:
   - Identify common fixture types and read fixture and ballast labels and ratings
   - "Apply the first steps of the company fluorescent/CFL troubleshooting sequence and record parts information for the work order"
   - "Recognize discontinued and changing lamp, ballast, driver and lens parts and gather the photos, measurements and counts the office needs to replace them"
+  - "Identify the 24 common indoor and exterior commercial fixture types by name and record the fixture type, access needs and details on the work order"
 lessons:
   - 01-lighting-terms-and-metrics.md
   - 02-incandescent-halogen-and-fluorescent.md
@@ -24,6 +25,7 @@ lessons:
   - 04-bases-ballasts-drivers-and-fixtures.md
   - 05-first-response-fluorescent-and-cfl.md
   - 06-company-field-notes-changing-parts.md
+  - 07-commercial-fixture-types-indoor-and-exterior.md
 quiz:
   pass_score: 80
   questions_per_attempt: 10
@@ -271,3 +273,83 @@ quiz:
         - "Clean it only if the customer asks"
       answer: 1
       explanation: "Fixture cleaning is still part of the service. Bugs and dust bunnies are the giveaway, and the notes show the customer the work was done."
+    - id: LT1-C05-Q25
+      type: single
+      q: "A linear fixture in a stairwell has an acrylic lens that curves around the bottom and both sides. What is it called?"
+      choices:
+        - "Strip light"
+        - "Wraparound"
+        - "Linear slot"
+        - "Troffer"
+      answer: 1
+      explanation: "A wraparound's lens wraps around the bottom and sides. A strip light is narrow with bare lamps or a small lens; a troffer is recessed or set in a grid."
+    - id: LT1-C05-Q26
+      type: single
+      q: "Which fixture is a box fixed flat to a building wall, aimed down and out, and cannot be tilted?"
+      choices:
+        - "Flood light"
+        - "Area light"
+        - "Wallpack"
+        - "Sign light"
+      answer: 2
+      explanation: "A wallpack mounts flat to the wall and is not aimable. A flood sits on a knuckle or yoke and can be aimed; an area light sits on a pole arm."
+    - id: LT1-C05-Q27
+      type: single
+      q: "Dispatch says \"six fixtures out at the canopy\" at a gas station. What should you plan for before you arrive?"
+      choices:
+        - "A stepladder only; canopy lights are mounted at about 8 ft"
+        - "A lift or tall ladder, traffic control around the pumps, and noting the canopy cutout size for any replacement kit"
+        - "A bucket truck to reach the pole tops"
+        - "Nothing special; canopy lights are serviced from the ground"
+      answer: 1
+      explanation: "Canopy lights are mounted in the canopy deck over traffic. You need access equipment and traffic control, and replacement kits must match the cutout size and shape."
+    - id: LT1-C05-Q28
+      type: single
+      q: "A round, flat LED fixture with cooling fins on top hangs from a hook in a warehouse. What is it most likely called?"
+      choices:
+        - "LED high bay (\"UFO\" style)"
+        - "Pendant"
+        - "Recessed can"
+        - "HID high bay"
+      answer: 0
+      explanation: "The round, finned \"UFO\" shape is a typical LED high bay. An HID high bay has a dome reflector under a ballast housing."
+    - id: LT1-C05-Q29
+      type: multi
+      q: "Which of these are written the way the company wants a fixture recorded on a work order? (Select all that apply.)"
+      choices:
+        - "Troffer, 2x4, 3-lamp T8, lens door, office 214"
+        - "Light out by the door"
+        - "Area light, pole P7, 2 heads, about 25 ft, both out"
+        - "Some kind of outside light"
+      answer: [0, 2]
+      explanation: "Start with the common fixture name, then size, count, height and location. Vague descriptions do not tell the office what access or parts are needed."
+    - id: LT1-C05-Q30
+      type: single
+      q: "You find a fluorescent lamp marked F96T12. What does the 96 mean?"
+      choices:
+        - "96 watts"
+        - "96 inches long (an 8-ft lamp)"
+        - "9600 K color temperature"
+        - "A CRI of 96"
+      answer: 1
+      explanation: "For tubes longer than 4 ft, the number after the F is usually the length in inches. For tubes 4 ft and shorter it is usually the wattage (F32T8 = 32 W)."
+    - id: LT1-C05-Q31
+      type: single
+      q: "Two lamps make 5,000 lumens inside a fixture that is 80% efficient. About how much light leaves the fixture?"
+      choices:
+        - "5,000 lumens; fixtures do not lose light"
+        - "6,250 lumens"
+        - "4,000 lumens"
+        - "1,000 lumens"
+      answer: 2
+      explanation: "5,000 x 0.80 = 4,000 lumens. Reflectors, lenses and dirt absorb some light; no fixture is 100% efficient."
+    - id: LT1-C05-Q32
+      type: single
+      q: "On a service call you notice the LED troffers in an office, installed years ago, look dim next to two new ones. What should you do?"
+      choices:
+        - "Nothing; LEDs never lose output"
+        - "Swap the new fixtures for old ones so they match"
+        - "Note the fixture type, location and count on the work order and tell the customer our company can look at it, without promising a price"
+        - "Turn the old fixtures off"
+      answer: 2
+      explanation: "LEDs slowly lose output (L70 is the point where they reach 70% of initial lumens). Customers forget how bright the space was, so noting it is a service opportunity."

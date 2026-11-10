@@ -16,8 +16,9 @@ hot. About 90% of the energy becomes heat, not light.
 
 - Very low efficacy (10–17 lm/W) and short life (about 750–2,000 hours).
 - Excellent color rendering (CRI ~100), warm color (~2700 K), and simple dimming.
-- Federal efficiency standards have removed most general-service incandescent lamps from the
-  market. You will still find them in older buildings and specialty uses.
+- Federal efficiency standards have removed most general-service incandescent A-lamps from the
+  U.S. market. Halogen and specialty incandescent lamps (appliance, some reflector, decorative and
+  rough-service lamps) are still sold, and you will find all of them in older buildings.
 
 ## Halogen Lamps
 
@@ -62,6 +63,18 @@ Example: **F32T8/841**
 - **8** = CRI in the 80s
 - **41** = 4100 K color temperature
 
+**Watts or length?** For linear tubes **4 ft and shorter**, the number after the F is usually the
+**nominal wattage** (F32T8 = 32 W, 4 ft). For tubes **longer than 4 ft**, the number is usually the
+**length in inches**: **F96T12** is a 96-inch (8-ft) T12, and **F96T8** is an 8-ft T8. Read the
+wattage from the rest of the code or the sleeve. A few older codes break this rule, so confirm the
+length with a tape measure when in doubt.
+
+**Color code ("800 series").** On many lamps the three digits after the slash give color: the
+first digit is the CRI range (**7** = 70s, **8** = 80s, **9** = 90s) and the last two digits are the
+color temperature in hundreds of kelvin (**30** = 3000 K, **35** = 3500 K, **41** = 4100 K, **50** =
+5000 K). An "800-series" lamp is any lamp with an 80+ CRI. Manufacturers add their own brand letters
+in the code (for example "F32T8/XYZ841"), but the 841 still means 80s CRI and 4100 K.
+
 Other common suffixes: **/ES** or **/SS** (energy-saving reduced wattage, such as 28 W or 25 W
 T8), **/ALTO** or **/ECO** (reduced mercury), and **HO** (high output). Codes vary by
 manufacturer, so check the catalog when in doubt.
@@ -97,3 +110,4 @@ socket troubleshooting (LT2-C04).
 - Fluorescent lamps need a ballast and contain mercury.
 - T-numbers are diameter in eighths of an inch; T5 lamps are not interchangeable with T8.
 - Read lamp codes (like F32T8/841) to match wattage, diameter, CRI, and CCT.
+- On tubes longer than 4 ft the number after the F is length in inches (F96T12 = 8 ft).

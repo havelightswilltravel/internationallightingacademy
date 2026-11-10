@@ -51,6 +51,17 @@ lamp with a different technology, match lumens (and the other properties below),
 Efficacy figures depend on whether they are for the lamp alone or the whole system (lamp plus
 ballast or fixture losses). **System efficacy** is what matters for energy savings.
 
+### Fixture Efficiency
+
+A fixture never puts out all the light its lamps make. Some light is absorbed by the
+reflector, the housing, the lens and the louvers, and some is trapped inside. **Fixture
+efficiency** is the share of the lamps' lumens that actually leaves the fixture: for example,
+two lamps making 5,000 lumens in a fixture that is 80% efficient deliver about 4,000 lumens to
+the room. No fixture is 100% efficient. Dirty or yellowed lenses, dusty reflectors and bugs in
+the fixture lower it further, which is one reason the company cleans fixtures while they are
+open. Integrated LED fixtures are rated by the lumens the whole fixture delivers, so the
+efficiency is already built into the number on the spec sheet.
+
 The **DesignLights Consortium (DLC)** publishes lists of qualified commercial LED products that
 meet efficacy and quality requirements. Many utility rebate programs require DLC-listed products.
 LT4-C02 covers this in detail.
@@ -77,6 +88,9 @@ cool (bluish). It is measured in **kelvin (K)**. Counterintuitively, **lower kel
 
 **Color rendering index (CRI)**, shown as Ra, measures how accurately a light source shows the
 colors of objects compared with a reference source, on a scale up to 100.
+CRI is a score, **not a percentage**: a 95 CRI lamp does not show colors "95% naturally." It
+means the lamp scored 95 on a set of test colors against a reference source of the same color
+temperature. Use it to compare lamps, not as a percentage of "true" color.
 
 | CRI | Quality | Examples |
 |---|---|---|
@@ -90,10 +104,19 @@ gives a more detailed picture of color quality (LT4-C03).
 
 ## Lamp Life and Lumen Maintenance
 
-- **Rated life** for traditional lamps is usually the hours at which half of a large test group
-  has failed. Life depends on burn hours, starts, and operating conditions.
+- **Average rated life** for traditional lamps is the number of hours at which **half of a large
+  test batch has failed** and half are still burning. It is an average, not a guarantee: some
+  lamps in a group fail well before it. Life depends on burn hours, starts, heat, and operating
+  conditions. (CFLs, for example, often fell short of their rated life in enclosed or hot
+  fixtures because heat shortens the life of their built-in electronics.)
 - **LEDs** rarely "burn out"; they slowly dim. LED life is often given as **L70**, the hours until
   output falls to 70% of its initial lumens (LT3-C01).
+- **L70 is a service opportunity.** LED fixtures installed years ago may still be "working" but
+  are noticeably dimmer than when they were new. Customers see the change so gradually that
+  they forget how bright the space used to be. When you see aging LED fixtures that look dim
+  (or a mix of old and new LED fixtures that do not match), note the fixture type, age if
+  known, location and count on the work order and mention it to the customer as something our
+  company can quote. Do not promise a price or a fix on the spot.
 - All light sources lose output over time and as fixtures get dirty. Cleaning restores some of
   the loss; for aging fluorescent and HID systems, the modern fix is an LED retrofit or a new
   fixture rather than relamping on a schedule.
@@ -110,3 +133,5 @@ and environmental notes (mercury content, "Hg" symbol, or recycling instructions
 - Lower kelvin looks warmer; match the CCT of existing lamps.
 - CRI measures color accuracy; 80+ is typical for offices, 90+ for color-critical spaces.
 - LED life is usually rated as L70, the point where output has dropped to 70%.
+- Average rated life is when half of a test batch has failed; aging, dim LED fixtures are worth noting as a service opportunity.
+- No fixture is 100% efficient; reflectors, lenses and dirt all absorb some light.

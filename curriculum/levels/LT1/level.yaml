@@ -281,6 +281,8 @@ skills:
     - Records all required ballast fields (lamp type and quantity, start method, input voltage, ballast factor, case
       size) or LED driver fields (input voltage, CC/CV, output current, voltage window, power, dimming type, case
       size)
+    - Identifies the fixture type by its common name (e.g. troffer, wraparound, wallpack, area light, canopy) and records
+      it on the work order
     - Copies the complete fixture manufacturer and catalog number from the fixture label
     - Measures lamp length, base, lens or case dimensions when a label is missing or unclear
     - Uses a cross-reference tool or spec sheet to find an equivalent part and verifies every critical field matches,

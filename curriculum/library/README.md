@@ -28,6 +28,7 @@ library/
   toolbox-talks/          ready-to-present safety meeting topics (from the company's monthly meetings)
   job-playbooks/          expectations for each job type (service call, retrofit, canopy, survey, signs...)
   case-studies/           anonymized company near misses, incidents and lessons learned for meetings
+  reference/              field quick references: fixture identification, lamp codes, shapes and bases
 ```
 
 The folder name **is** the category. Use lowercase, hyphenated folder and file names
