@@ -65,6 +65,7 @@ function addLevel(level, archived) {
     g.courses.push({
       key: `c_${c.code}`,
       code: c.code,
+      order: c.sort,
       title: c.title,
       hours: c.estimated_hours,
       grade,
@@ -123,7 +124,14 @@ for (const g of prog.library) {
   });
 }
 
+// Level a returning archived course would join, from its default year (Year 1-4 -> LT2/LT3/LT4/LT5).
+const LEVEL_OF_YEAR = { 1: 'LT2', 2: 'LT3', 3: 'LT4', 4: 'LT5' };
+for (const g of groups) for (const c of g.courses) {
+  c.level = g.archived ? (c.grade ? LEVEL_OF_YEAR[yearOfGrade(c.grade)] : '') : g.code;
+  delete c.grade;
+}
 const data = { built: new Date().toISOString().slice(0, 10), groups };
+fs.writeFileSync(path.join(outDir, 'index-data.json'), JSON.stringify(data));
 const tpl = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 const json = JSON.stringify(data).replace(/</g, '\\u003c');
 fs.writeFileSync(path.join(outDir, 'index.html'), tpl.replace('__INDEX_DATA__', json));

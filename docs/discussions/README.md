@@ -11,7 +11,7 @@ becomes a program-wide rule, and apply it to the lessons.
 | 003 | [A more energetic look, and how much branding](003-visual-style-and-branding.md) | Open; both looks shown in the review site |
 | 004 | [What to do with the archived electrical courses](004-archived-electrical-courses.md) | Open; nothing deleted, all readable in the review site |
 | 005 | [Who presents which videos](005-video-presenters.md) | Recommendation; open for discussion |
-| 006 | [Twelve grades from Day One to Master](006-twelve-grade-ladder.md) | Proposal; needs decision |
+| 006 | [Twelve grades from Day One to Master](006-twelve-grade-ladder.md) | Decided: keep LT1–LT5 |
 | 007 | [What a lighting tech may do differs by state](007-state-by-state-scope.md) | First version in lessons; needs Kyle's guidance |
 | 008 | [How the safety-meeting, operations and project material is used](008-safety-meetings-operations-and-job-playbooks.md) | Built; waiting on load lists |
 

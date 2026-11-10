@@ -192,7 +192,7 @@ dialog.viewer::backdrop { background: rgba(10, 14, 20, .55); }
       <select id="f-year" aria-label="Filter by year"><option value="">Any year</option></select>
       <label class="chk"><input type="checkbox" id="f-changed"> Changed only</label>
       <label class="chk"><input type="checkbox" id="f-arch" checked> Show archived courses</label>
-      <button class="btn" id="export">Export CSV</button>
+      <button class="btn" id="export">Download Excel</button>
     </div>
     <div class="legend" id="legend"></div>
     <div id="groups"></div>
@@ -204,27 +204,20 @@ dialog.viewer::backdrop { background: rgba(10, 14, 20, .55); }
       <h2 style="font-size:22px">To pass a year, a technician must</h2>
       <ol>
         <li>Complete every lesson and pass every course quiz in that year at <b>80% or better</b> (10 random questions per attempt; retakes draw new questions).</li>
-        <li>Pass the grade exam for each grade in that year at <b>80% or better</b> (timed; 24-hour wait before a retake).</li>
-        <li>Log the minimum <b>field hours</b>, approved by a supervisor (proposed: about 1,920 hours a year; see the grade table below).</li>
+        <li>Pass the final exam for each level (LT1–LT5) in that year at <b>80% or better</b> (timed; 24-hour wait before a retake).</li>
+        <li>Log the minimum <b>field hours</b> for each level, approved by a supervisor (see the level table below).</li>
         <li>Show <b>every hands-on skill</b> in that year to an evaluator, criterion by criterion. A <b>critical</b> safety skill fails on any safety deviation.</li>
         <li>Get the promotion approved. Hours are a minimum, not a promotion: advancement is by demonstrated skill.</li>
       </ol>
     </div>
     <div class="years" id="years"></div>
     <div class="rules">
-      <h2 style="font-size:22px">Proposed twelve grades (Discussion 006)</h2>
+      <h2 style="font-size:22px">Requirements by level (LT1–LT5)</h2>
       <div class="tablewrap"><table>
-        <thead><tr><th>Year</th><th>Grade</th><th>Title</th><th>Time</th><th>Field hours</th></tr></thead>
-        <tbody>
-          <tr><td>1</td><td>1</td><td>Lighting Technician Trainee (Day One): safety first</td><td>1 month</td><td>160</td></tr>
-          <tr><td>1</td><td>2</td><td>Lighting Technician I</td><td>2 months</td><td>320</td></tr>
-          <tr><td>1</td><td>3–5</td><td>Lighting Technician II, steps 1–3</td><td>3 months each</td><td>480 each</td></tr>
-          <tr><td>2</td><td>6–8</td><td>Lighting Technician III, steps 1–3</td><td>4 months each</td><td>640 each</td></tr>
-          <tr><td>3</td><td>9–10</td><td>Senior Lighting Technician I and II</td><td>6 months each</td><td>960 each</td></tr>
-          <tr><td>4</td><td>11–12</td><td>Master Lighting Technician I and Master</td><td>6 months each</td><td>960 each</td></tr>
-        </tbody>
+        <thead><tr><th>Level</th><th>Typical time</th><th>Course quizzes</th><th>Final exam</th><th>Min. field hours</th></tr></thead>
+        <tbody id="level-table"></tbody>
       </table></div>
-      <p class="note">Today's app still runs five grades (LT1–LT5, about two years, 3,800 field hours). The twelve-grade restructure waits on your decision; the years you set here will drive it.</p>
+      <p class="note">The program stays at five levels, LT1 to LT5. Hours are minimums; advancement is by demonstrated skill.</p>
     </div>
   </div>
 
@@ -393,7 +386,7 @@ function buildIndex() {
       const t = document.createElement('div');
       t.className = 't';
       t.innerHTML = `<b><span class="mono">${esc(c.code)}</span> ${esc(c.title)}</b>
-        <span class="meta"><span>${c.lessons.length} lessons</span><span>${c.hours} h</span><span>${c.questions} quiz questions</span>${c.grade ? `<span>Proposed grade ${c.grade}</span>` : ''}<span class="moved-tag"></span></span>`;
+        <span class="meta"><span>${c.lessons.length} lessons</span><span>${c.hours} h</span><span>${c.questions} quiz questions</span>${c.group.archived && c.level ? `<span>Would join ${esc(c.level)}</span>` : ''}<span class="moved-tag"></span></span>`;
       s.append(t, yearSelect(c, false));
       d.append(s);
       const b = document.createElement('div');
@@ -487,6 +480,10 @@ function applyFilters() {
 ['q', 'f-kind', 'f-year', 'f-changed', 'f-arch'].forEach(id => $('#' + id).addEventListener('input', applyFilters));
 
 // ---------- requirements ----------
+function renderLevelTable() {
+  const tb = $('#level-table');
+  tb.innerHTML = DATA.groups.filter(g => g.req && /^LT/.test(g.code)).map(g => `<tr><td><b>${esc(g.code)}</b> ${esc(g.title)}</td><td>${g.req.months ? g.req.months + ' months' : ''}</td><td>${g.req.coursePass}% each</td><td>${g.req.examQuestions} questions, ${g.req.examMinutes} min, ${g.req.examPass}%</td><td>${(g.req.ojt || 0).toLocaleString()}</td></tr>`).join('');
+}
 function renderRequirements() {
   const box = $('#years');
   const order = ['1', '2', '3', '4', 'opt', 'mgr'];
@@ -519,17 +516,12 @@ function renderRequirements() {
 
 // ---------- CSV export ----------
 $('#export').addEventListener('click', async () => {
-  const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
-  const out = [['Type', 'Code', 'Title', 'Course', 'Current level', 'Proposed grade', 'Year (as set)', 'Default year', 'Changed'].map(q).join(',')];
-  for (const c of courses) {
-    out.push(['Course', c.code, c.title, '', c.group.code, c.grade || '', YL[yearOf(c)].label, YL[c.def].label, changedFrom(c) ? 'yes' : ''].map(q).join(','));
-    for (const l of c.lessons) out.push(['Lesson', l.id, l.title, c.code, c.group.code, c.grade || '', YL[yearOf(l)].label, YL[yearOf(c)].label, placements[l.key] ? 'yes' : ''].map(q).join(','));
-  }
-  for (const k of skills) out.push(['Skill', k.code, k.title, '', k.group.code, '', YL[yearOf(k)].label, YL[k.def].label, changedFrom(k) ? 'yes' : ''].map(q).join(','));
   const dl = window.claude?.use ? await window.claude.use('downloads') : null;
-  if (!dl) { setSave('Export is not available in this view'); return; }
-  try { await dl.save({ filename: 'lighting-academy-program-index.csv', data: out.join('\n') }); }
-  catch (e) { if (e?.code === 'unavailable') setSave('Export is not available in this view'); }
+  if (!dl) { setSave('Download is not available in this view'); return; }
+  try {
+    const buf = await fetch('program-index.xlsx').then(r => { if (!r.ok) throw new Error(); return r.arrayBuffer(); });
+    await dl.save({ filename: 'Lighting Academy Program Index.xlsx', data: buf });
+  } catch (e) { setSave(e?.code === 'unavailable' ? 'Download is not available in this view' : 'The Excel file could not be downloaded. Try again.'); }
 });
 
 // ---------- views ----------
@@ -743,6 +735,7 @@ $('#newchat').addEventListener('click', () => { ctl?.abort(); turns = []; chat.i
 
 // ---------- boot ----------
 buildIndex();
+renderLevelTable();
 refreshAll();
 setSave('Loading saved changes…');
 initDb();

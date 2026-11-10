@@ -1,10 +1,14 @@
 ---
 title: "Twelve grades from Day One to Master Lighting Technician"
-status: Proposal; needs your and Kyle's decision before the levels are restructured
+status: Decided 2026-11-10 - keep five levels (LT1-LT5); twelve grades not adopted
 raised: 2026-11-09
 ---
 
 # Discussion 006: Twelve grades from Day One to Master Lighting Technician
+
+> **Decision (2026-11-10):** keep the five levels, LT1 to LT5. The twelve-grade proposal below is
+> kept for reference only. Course years and order are now managed in the Program Index tool and
+> the *Lighting Academy Program Index.xlsx* workbook (Manager Updates tab).
 
 ## Why the program has five grades today
 - **The original build had ten grades.** When the program was first built, the request was about
