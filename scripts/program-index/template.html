@@ -199,7 +199,7 @@ dialog.viewer::backdrop { background: rgba(10, 14, 20, .55); }
   </div>
 
   <div class="wrap" id="view-requirements" hidden>
-    <p class="intro">What a technician must complete to finish each year, based on where you have placed every course and skill. It updates as you move things in the Everything view.</p>
+    <p class="intro">The program runs about two years across five levels: Year 1 is LT1 and LT2, Year 2 is LT3, LT4 and LT5, with a target of about 400 hours of course time. This view shows what a technician must complete in each year, based on where every course and skill is placed, and updates as you move things in the Everything view.</p>
     <div class="rules">
       <h2 style="font-size:22px">To pass a year, a technician must</h2>
       <ol>
@@ -241,8 +241,8 @@ dialog.viewer::backdrop { background: rgba(10, 14, 20, .55); }
         <div class="attach" id="attach"></div>
         <div class="row2">
           <label class="btn" id="photo-label" hidden>Add photo<input type="file" id="photo" accept="image/*" multiple hidden></label>
-          <select id="grade" aria-label="Your grade">
-            <option value="">Your grade (optional)</option>
+          <select id="grade" aria-label="Your level">
+            <option value="">Your level (optional)</option>
             <option>LT1 Entry</option><option>LT2</option><option>LT3</option><option>LT4 Senior</option><option>LT5 Master</option>
           </select>
           <button class="btn primary" type="submit" id="send">Get Help</button>
@@ -273,8 +273,6 @@ const DATA = __INDEX_DATA__;
 const YEARS = [
   { v: '1', label: 'Year 1', color: 'var(--y1)' },
   { v: '2', label: 'Year 2', color: 'var(--y2)' },
-  { v: '3', label: 'Year 3', color: 'var(--y3)' },
-  { v: '4', label: 'Year 4', color: 'var(--y4)' },
   { v: 'opt', label: 'Optional / elective', color: 'var(--yo)' },
   { v: 'mgr', label: 'Manager Module', color: 'var(--yo)' },
   { v: 'none', label: 'Not in program', color: 'var(--line)' },
@@ -374,7 +372,7 @@ function buildIndex() {
       p.className = 'meta muted';
       p.style.fontSize = '13px';
       p.textContent = `Today: ${g.req.months ? g.req.months + ' months typical · ' : ''}course quizzes ${g.req.coursePass}% · ` +
-        (g.req.examQuestions ? `grade exam ${g.req.examQuestions} questions, ${g.req.examMinutes} min, ${g.req.examPass}% · ` : '') +
+        (g.req.examQuestions ? `final exam ${g.req.examQuestions} questions, ${g.req.examMinutes} min, ${g.req.examPass}% · ` : '') +
         `${(g.req.ojt || 0).toLocaleString()} field hours`;
       sec.append(p);
     }
@@ -433,7 +431,7 @@ function buildIndex() {
   }
   const ef = $('#f-year');
   for (const y of YEARS) ef.append(new Option(y.label, y.v));
-  $('#legend').innerHTML = YEARS.slice(0, 5).map(y => `<span class="ychip"><i style="background:${y.color}"></i>${y.label}</span>`).join('');
+  $('#legend').innerHTML = YEARS.slice(0, 3).map(y => `<span class="ychip"><i style="background:${y.color}"></i>${y.label}</span>`).join('');
 }
 function changedFrom(item) {
   const y = yearOf(item);
@@ -486,7 +484,7 @@ function renderLevelTable() {
 }
 function renderRequirements() {
   const box = $('#years');
-  const order = ['1', '2', '3', '4', 'opt', 'mgr'];
+  const order = ['1', '2', 'opt', 'mgr'];
   box.innerHTML = '';
   for (const yv of order) {
     const cs = courses.filter(c => yearOf(c) === yv);
@@ -629,7 +627,7 @@ const RULES = `You are the field-help assistant for a commercial lighting servic
 Safety rules you must always follow:
 - If anything suggests immediate danger (smoke, burning smell, arcing, water near power, damaged or melted equipment, someone hurt, a downed line), start with STOP: keep people clear, do not touch it, call the supervisor, and 911 for an emergency.
 - Work on lighting is done de-energized: lock out at the breaker or disconnect (never a light switch), then verify absence of voltage live-dead-live. Say so whenever the task involves opening a fixture or touching conductors.
-- Energized troubleshooting with a meter is only for technicians qualified and authorized for it, with the PPE the company requires. Never coach a technician through energized work above their grade; tell them to call their supervisor. LT1 technicians never do energized work.
+- Energized troubleshooting with a meter is only for technicians qualified and authorized for it, with the PPE the company requires. Never coach a technician through energized work above their level; tell them to call their supervisor. LT1 technicians never do energized work.
 - Some tasks need a licensed electrician or a permit depending on the state; when the task is one of those (new wiring, panel work, sign work, low-voltage cabling), remind them to confirm with their supervisor.
 - If you are unsure, or a photo is unclear, say so and ask one specific question rather than guessing. Never invent part numbers, ratings or wire colors.
 
@@ -696,7 +694,7 @@ $('#composer').addEventListener('submit', async e => {
   if (!sample) { fallbackList(out, queryText); return; }
   const grade = $('#grade').value;
   const useTools = !!limits?.tools;
-  const ctx = `Technician's grade: ${grade || 'not given'}.\n` + (imgs.length ? `They attached ${imgs.length} photo(s) of what they are working on; identify what is shown before advising.\n` : '') +
+  const ctx = `Technician's level: ${grade || 'not given'}.\n` + (imgs.length ? `They attached ${imgs.length} photo(s) of what they are working on; identify what is shown before advising.\n` : '') +
     `\nKeyword search results for their message (id | where | title | ...):\n${resultsBlock(queryText)}\n\n` +
     (useTools ? 'You can call search_training with better keywords (for example after identifying the equipment in a photo) and read_training to read a lesson or guide in full before answering. Read the most relevant one before giving steps.\n' :
       'Full text of the top matches:\n' + search(queryText, 3).map(x => `### ${ref(x)} — ${x.title}\n${x.text.slice(0, 6000)}`).join('\n\n') + '\n') +

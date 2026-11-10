@@ -14,25 +14,13 @@ const root = path.join(__dirname, '../../curriculum');
 const prog = C.load(root);
 const arch = C.load(path.join(root, 'archive/electrical-track'));
 
-// Proposed twelve-grade map (docs/discussions/006-twelve-grade-ladder.md).
-const GRADES = {
-  1: ['LT1-C01', 'LT1-C02', 'LT1-C03', 'LT1-C06', 'LT1-C11'],
-  2: ['LT1-C04', 'LT1-C05', 'LT1-C07', 'LT1-C08', 'LT1-C09', 'LT1-C10'],
-  3: ['LT2-C01', 'LT2-C03', 'LT2-C04', 'LT2-C06'],
-  4: ['LT2-C02', 'LT2-C05', 'LT2-C07', 'LT2-C11'],
-  5: ['LT2-C08', 'LT2-C09', 'LT2-C10', 'LT2-C12'],
-  6: ['LT3-C01', 'LT3-C02', 'LT3-C03', 'LT3-C07'],
-  7: ['LT3-C04', 'LT3-C05', 'LT3-C06', 'LT3-C12', 'EA1-C05'],
-  8: ['LT3-C08', 'LT3-C09', 'LT3-C10', 'LT3-C11'],
-  9: ['LT4-C07', 'LT4-C04', 'LT4-C06', 'EA2-C01', 'EA2-C02'],
-  10: ['LT4-C01', 'LT4-C02', 'LT4-C03', 'LT4-C05', 'EA3-C04'],
-  11: ['LT5-C01', 'LT5-C02', 'LT5-C06', 'EA2-C05', 'EA4-C02'],
-  12: ['LT5-C03', 'LT5-C04', 'LT5-C05', 'EA4-C05'],
+// Two-year program, five levels. Year 1 = LT1-LT2, Year 2 = LT3-LT5.
+const LEVEL_YEAR = { LT1: '1', LT2: '1', LT3: '2', LT4: '2', LT5: '2', MGR: 'mgr' };
+// Archived electrical courses recommended to return (Discussion 004) and the level each would join.
+const RETURNING = {
+  'EA1-C05': 'LT3', 'EA2-C01': 'LT4', 'EA2-C02': 'LT4', 'EA3-C04': 'LT4',
+  'EA2-C05': 'LT5', 'EA4-C02': 'LT5', 'EA4-C05': 'LT5',
 };
-const gradeOf = {};
-for (const [g, list] of Object.entries(GRADES)) for (const c of list) gradeOf[c] = Number(g);
-const yearOfGrade = (g) => (g <= 5 ? 1 : g <= 8 ? 2 : g <= 10 ? 3 : 4);
-const SKILL_YEAR = { LT1: '1', LT2: '1', LT3: '2', LT4: '3', LT5: '4', MGR: 'mgr' };
 
 const lessonKey = (courseCode, sort) => `l_${courseCode}_${String(sort).padStart(2, '0')}`;
 
@@ -57,18 +45,14 @@ function addLevel(level, archived) {
     skills: [],
   };
   for (const c of level.courses) {
-    const grade = gradeOf[c.code] || null;
-    let def;
-    if (level.code === 'MGR') def = 'mgr';
-    else if (grade) def = String(yearOfGrade(grade));
-    else def = 'none';
+    const def = archived ? 'none' : (LEVEL_YEAR[level.code] || 'none');
     g.courses.push({
       key: `c_${c.code}`,
       code: c.code,
       order: c.sort,
       title: c.title,
       hours: c.estimated_hours,
-      grade,
+      level: archived ? (RETURNING[c.code] || '') : level.code,
       def,
       description: (c.description || '').trim(),
       objectives: c.objectives || [],
@@ -104,7 +88,7 @@ function addLevel(level, archived) {
       title: s.title,
       category: s.category,
       critical: !!s.critical,
-      def: archived ? 'none' : SKILL_YEAR[level.code] || 'none',
+      def: archived ? 'none' : LEVEL_YEAR[level.code] || 'none',
       description: (s.description || '').trim(),
       criteria: s.criteria || [],
     });
@@ -124,12 +108,6 @@ for (const g of prog.library) {
   });
 }
 
-// Level a returning archived course would join, from its default year (Year 1-4 -> LT2/LT3/LT4/LT5).
-const LEVEL_OF_YEAR = { 1: 'LT2', 2: 'LT3', 3: 'LT4', 4: 'LT5' };
-for (const g of groups) for (const c of g.courses) {
-  c.level = g.archived ? (c.grade ? LEVEL_OF_YEAR[yearOfGrade(c.grade)] : '') : g.code;
-  delete c.grade;
-}
 const data = { built: new Date().toISOString().slice(0, 10), groups };
 fs.writeFileSync(path.join(outDir, 'index-data.json'), JSON.stringify(data));
 const tpl = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');

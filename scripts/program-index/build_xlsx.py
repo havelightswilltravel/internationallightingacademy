@@ -19,7 +19,7 @@ out = Path(sys.argv[1])
 data = json.loads((out / 'index-data.json').read_text())
 placements = json.loads(Path(sys.argv[2]).read_text()) if len(sys.argv) > 2 else {}
 
-YEAR = {'1': 'Year 1', '2': 'Year 2', '3': 'Year 3', '4': 'Year 4', 'opt': 'Optional / elective',
+YEAR = {'1': 'Year 1', '2': 'Year 2', 'opt': 'Optional / elective',
         'mgr': 'Manager Module', 'none': 'Not in program'}
 YEAR_LIST = list(YEAR.values())
 LEVEL_LIST = ['LT1', 'LT2', 'LT3', 'LT4', 'LT5', 'MGR', 'Optional / elective', 'Not in program']
@@ -78,7 +78,8 @@ rm.column_dimensions['B'].width = 95
 rm['A1'] = 'Lighting Academy Program Index'
 rm['A1'].font = title_font
 rows = [
-    ('Built', f"{data['built']} from the curriculum files. Program levels: LT1 to LT5, plus the Manager Module."),
+    ('Built', f"{data['built']} from the curriculum files."),
+    ('The program', 'Two years, five levels, about 400 hours of course time. Year 1 = LT1 and LT2. Year 2 = LT3, LT4 and LT5. The Manager Module is separate. Advancement is by demonstrated skill, so the years are typical, not fixed.'),
     ('Program Index', 'Every course, lesson and hands-on skill, with its level, course number and year. Read-only reference.'),
     ('Requirements by Level', 'What a technician must complete to pass each level. Counts update from the Program Index tab.'),
     ('Manager Updates', 'Where you change a course: New status (Active, Archived or Optional), New level, New course # (its place in the order), New year and New hours. Leave a cell blank to keep the current value.'),
@@ -109,7 +110,7 @@ for g in ordered:
     lvl = g['code'] if not g['archived'] else f"Archived ({g['code']})"
     for c in sorted(g['courses'], key=lambda c: c['order']):
         cy = year_of(c)
-        status = 'Active' if not g['archived'] else ('Archived, proposed for ' + c['level'] if c.get('level') else 'Archived')
+        status = 'Active' if not g['archived'] else ('Archived (recommended to return in ' + c['level'] + ')' if c.get('level') else 'Archived')
         put(pi, r, ['Course', lvl, c['order'], c['code'], c['title'], '', YEAR[cy], c['hours'],
                     sum(l['minutes'] or 0 for l in c['lessons']), len(c['lessons']), c['questions'], '', status],
             f=bold if not g['archived'] else Font(name=F, size=10, bold=True, color='6B7280'), fill=course_fill)
@@ -149,7 +150,7 @@ r = 5
 lt = [g for g in active if g['code'].startswith('LT')] + [g for g in active if g['code'] == 'MGR']
 for g in lt:
     q = g['req'] or {}
-    yr = YEAR[{'LT1': '1', 'LT2': '1', 'LT3': '2', 'LT4': '3', 'LT5': '4', 'MGR': 'mgr'}[g['code']]]
+    yr = YEAR[{'LT1': '1', 'LT2': '1', 'LT3': '2', 'LT4': '2', 'LT5': '2', 'MGR': 'mgr'}[g['code']]]
     row = [g['code'], g['title'], yr, q.get('months'),
            f'=COUNTIFS({rng("A")},"Course",{rng("B")},A{r})',
            f'=COUNTIFS({rng("A")},"Lesson",{rng("B")},A{r})',
@@ -189,17 +190,16 @@ cols = ['Code', 'Course title', 'Current level', 'Current course #', 'Current ye
         'Suggestion', 'New status', 'New level', 'New course #', 'New year', 'New hours', 'Notes',
         'Final status', 'Final level', 'Final course #', 'Final year', 'Final hours', 'Changed?']
 header(mu, 1, cols, [10, 40, 14, 9, 16, 11, 8, 34, 11, 13, 9, 16, 8, 30, 11, 13, 9, 16, 8, 9])
-RETURNING = {'EA1-C05', 'EA2-C01', 'EA2-C02', 'EA2-C05', 'EA3-C04', 'EA4-C02', 'EA4-C05'}
 r = 2
 for g in ordered:
     for c in sorted(g['courses'], key=lambda c: c['order']):
         if not g['archived']:
             cur_level, status, sugg = g['code'], 'Active', ''
         else:
-            cur_level = c.get('level') or 'Not in program'
+            cur_level = 'Not in program'
             status = 'Archived'
             sugg = (f"Recommended to return as a condensed {c['level']} topic, about 7 h (full course {c['hours']} h)"
-                    if c['code'] in RETURNING else 'Leave archived (licensed-electrician or exam content)')
+                    if c.get('level') else 'Leave archived (licensed-electrician or exam content)')
         put(mu, r, [c['code'], c['title'], cur_level, c['order'] if not g['archived'] else None, YEAR[year_of(c)], status,
                     c['hours'], sugg, None, None, None, None, None, None,
                     f'=IF(I{r}="",F{r},I{r})', f'=IF(J{r}="",C{r},J{r})', f'=IF(K{r}="",D{r},K{r})',
@@ -292,14 +292,26 @@ for col in (3, 4, 5):
 put(hb, 13, ['Hours left in the budget', None, None, None, '=B3-E11'], f=bold)
 hb['E13'].number_format = '0.0;[Red]-0.0'
 put(hb, 14, ['Status', None, None, None, '=IF(E11<=B3,"Within budget","Over budget by "&TEXT(E11-B3,"0.0")&" h")'], f=bold)
+header(hb, 16, ['Year', 'Active courses', 'Course hours', 'New topics (hours)', 'Total hours'], [36, 16, 16, 16, 16])
+for k, yl in enumerate(['Year 1', 'Year 2'], start=17):
+    put(hb, k, [yl,
+                f'=COUNTIFS({MUR("O")},"Active",{MUR("R")},A{k})',
+                f'=SUMIFS({MUR("S")},{MUR("O")},"Active",{MUR("R")},A{k})',
+                f'=SUMIFS({NTR("I")},{NTR("F")},A{k},{NTR("K")},"<>Built",{NTR("K")},"<>Example (ignored)",{NTR("K")},"<>On hold")',
+                f'=C{k}+D{k}'])
+    for col in (3, 4, 5):
+        hb.cell(row=k, column=col).number_format = '0.0'
+put(hb, 19, ['Total (two years)', '=SUM(B17:B18)', '=SUM(C17:C18)', '=SUM(D17:D18)', '=SUM(E17:E18)'], f=bold)
+for col in (3, 4, 5):
+    hb.cell(row=19, column=col).number_format = '0.0'
 notes = [
     'Course hours come from the Final hours column on Manager Updates for courses whose Final status is Active.',
     'Optional (elective) courses are not counted; they are not required for promotion.',
     'New topics count when their Status is Requested or Questions sent. Built topics are already in the course list after the next rebuild.',
     'Course hours include lesson reading, video, the quiz and supervised practice, not field hours.',
-    'Today (before any changes): about 330 hours across LT1-LT5. The 7 recommended electrical courses add 116 hours as written, or about 50 hours if condensed to about 7 hours each.',
+    'Before any changes: about 331 hours across LT1-LT5 (Year 1 about 142 h, Year 2 about 189 h). The 7 recommended electrical courses add 116 hours as written, or about 50 hours if condensed to about 7 hours each (about 381 h total).',
 ]
-for k, t in enumerate(notes, start=16):
+for k, t in enumerate(notes, start=21):
     c = hb.cell(row=k, column=1, value=t)
     c.font, c.alignment = Font(name=F, size=9, italic=True), Alignment(wrap_text=False)
 
