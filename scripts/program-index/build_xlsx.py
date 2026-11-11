@@ -21,6 +21,11 @@ if '--proposal' in args:
     k = args.index('--proposal')
     proposal = json.loads(Path(args[k + 1]).read_text())
     del args[k:k + 2]
+placement = {}
+if '--placement' in args:
+    k = args.index('--placement')
+    placement = json.loads(Path(args[k + 1]).read_text())
+    del args[k:k + 2]
 sys.argv = [sys.argv[0]] + args
 out = Path(sys.argv[1])
 data = json.loads((out / 'index-data.json').read_text())
@@ -78,6 +83,53 @@ def year_of(item, course_year=None):
 
 
 groups = data['groups']
+NOTES = {}
+if placement:
+    # Apply an approved placement: split courses, move courses and skills between levels, renumber.
+    by_code = {g['code']: g for g in groups}
+    pool = {}
+    for g in groups:
+        if g['archived']:
+            continue
+        for c in g['courses']:
+            c['moved_from'] = g['code']
+            pool[c['code']] = c
+    for code, parts in (placement.get('splits') or {}).items():
+        base = pool.pop(code)
+        for part in parts:
+            pc = dict(base)
+            pc.update(code=part['code'], key='c_' + part['code'], title=part['title'], hours=part['hours'],
+                      questions=part.get('questions', base['questions']),
+                      lessons=[base['lessons'][i - 1] for i in part['lessons']],
+                      objectives=[], description=f"Split from {code} {base['title']}.")
+            pool[part['code']] = pc
+    for lvl, spec in placement['levels'].items():
+        newc = []
+        for pos, (code, why) in enumerate(spec['courses'], start=1):
+            c = pool[code]
+            c['order'], c['def'], c['why'] = pos, LEVEL_YEAR[lvl], why
+            newc.append(c)
+        by_code[lvl]['courses'] = newc
+        by_code[lvl]['theme'] = spec.get('theme', '')
+    for g in groups:
+        if not g['archived'] and g['code'] not in placement['levels']:
+            for c in g['courses']:
+                c.setdefault('why', 'Unchanged')
+    skill_pool = {}
+    for g in groups:
+        if g['archived']:
+            continue
+        for sk in g['skills']:
+            sk['moved_from'] = g['code']
+            skill_pool[sk['code']] = (g, sk)
+    for code, (lvl, why) in (placement.get('skills') or {}).items():
+        g, sk = skill_pool[code]
+        g['skills'].remove(sk)
+        sk['def'] = LEVEL_YEAR[lvl]
+        by_code[lvl]['skills'].append(sk)
+    for g in groups:
+        g['skills'].sort(key=lambda sk: sk['code'])
+    NOTES = placement.get('notes') or {}
 active = [g for g in groups if not g['archived']]
 archived = [g for g in groups if g['archived']]
 ordered = active + archived
@@ -93,6 +145,7 @@ rm['A1'] = 'Lighting Academy Program Index'
 rm['A1'].font = title_font
 rows = [
     ('Built', f"{data['built']} from the curriculum files."),
+    ('Updated', placement.get('summary', '') + ' The Current columns now show this placement; the New columns are empty so you can move things again. Course codes stay as they are until the curriculum itself is updated, so a course may show an old code in a new level (for example LT3-C06 in LT1).') if placement else
     ('Proposal', 'The Proposed Sequence tab shows a suggested new order (Nov 11, 2026). It is pre-filled in the yellow New level, New course # and New year cells on Manager Updates and Skill Updates, with the reason in Notes. Change or clear any of it, then send the file back. Nothing in the program changes until you approve.') if proposal else ('Proposal', 'None loaded.'),
     ('The program', 'Two years, five levels, about 400 hours of course time. Year 1 = LT1 and LT2. Year 2 = LT3, LT4 and LT5. The Manager Module is separate. Advancement is by demonstrated skill, so the years are typical, not fixed.'),
     ('Program Index', 'Every course, lesson and hands-on skill, with its level, course number and year. Read-only reference.'),
@@ -226,6 +279,8 @@ for g in ordered:
                 ny = YEAR[LEVEL_YEAR[plvl]]
             if nl or nk or ny:
                 note = 'Proposed: ' + why
+        if c['code'] in NOTES:
+            note = NOTES[c['code']]
         put(mu, r, [c['code'], c['title'], cur_level, c['order'] if not g['archived'] else None, YEAR[year_of(c)], status,
                     c['hours'], sugg, None, nl, nk, ny, None, note,
                     f'=IF(I{r}="",F{r},I{r})', f'=IF(J{r}="",C{r},J{r})', f'=IF(K{r}="",D{r},K{r})',
@@ -335,7 +390,9 @@ notes = [
     'Optional (elective) courses are not counted; they are not required for promotion.',
     'New topics count when their Status is Requested or Questions sent. Built topics are already in the course list after the next rebuild.',
     'Course hours include lesson reading, video, the quiz and supervised practice, not field hours.',
-    'Before any changes: about 331 hours across LT1-LT5 (Year 1 about 142 h, Year 2 about 189 h). The 7 recommended electrical courses add 116 hours as written, or about 50 hours if condensed to about 7 hours each (about 381 h total).',
+    f"As built: about {sum(c['hours'] for g in active if g['code'].startswith('LT') for c in g['courses']):.0f} hours across LT1-LT5 "
+    f"(Year 1 about {sum(c['hours'] for g in active if g['code'] in ('LT1', 'LT2') for c in g['courses']):.0f} h, "
+    f"Year 2 about {sum(c['hours'] for g in active if g['code'] in ('LT3', 'LT4', 'LT5') for c in g['courses']):.0f} h). The 7 recommended electrical courses add 116 hours as written, or about 50 hours if condensed to about 7 hours each.",
 ]
 for k, t in enumerate(notes, start=21):
     c = hb.cell(row=k, column=1, value=t)
@@ -368,16 +425,18 @@ add_list_validation(su, YEAR_LIST, f'G2:G{last_su}', 'Pick a new year, or leave 
 su.freeze_panes = 'C2'
 su.auto_filter.ref = f'A1:K{last_su}'
 
-if PROP:
-    ps = wb.create_sheet('Proposed Sequence')
-    ps['A1'] = 'Proposed course sequence'
+if PROP or placement:
+    ps = wb.create_sheet('Proposed Sequence' if PROP else 'Course Sequence')
+    ps['A1'] = 'Proposed course sequence' if PROP else 'Course sequence'
     ps['A1'].font = title_font
-    ps['A2'] = proposal.get('title', '')
+    ps['A2'] = proposal.get('title', '') if PROP else placement.get('summary', '')
     ps['A2'].font, ps['A2'].alignment = font, wrap
     ps.merge_cells('A2:G2')
     ps.row_dimensions[2].height = 30
     ps['A3'] = ('This tab is a snapshot of the proposal as delivered. The proposal is also pre-filled in the yellow cells on '
-                'Manager Updates and Skill Updates, where you can change it; Hours Budget totals whatever is there.')
+                'Manager Updates and Skill Updates, where you can change it; Hours Budget totals whatever is there.') if PROP else (
+                'The program as now placed. "Moved from" shows each course\'s level before the Nov 11 update. To move things again, '
+                'use the yellow cells on Manager Updates and Skill Updates; Hours Budget totals the result.')
     ps['A3'].font, ps['A3'].alignment = Font(name=F, size=9, italic=True), wrap
     ps.merge_cells('A3:G3')
     ps.row_dimensions[3].height = 28
@@ -387,8 +446,12 @@ if PROP:
     r = 6
     level_rows = {}
     for lvl in ['LT1', 'LT2', 'LT3', 'LT4', 'LT5']:
-        spec = (proposal['levels'].get(lvl) or {})
-        if spec:
+        spec = ((proposal.get('levels') or {}).get(lvl) or {}) if PROP else {}
+        if placement:
+            g = next(x for x in active if x['code'] == lvl)
+            seq = [(c['code'], c.get('why', '')) for c in sorted(g['courses'], key=lambda c: c['order'])]
+            theme = g.get('theme') or 'Unchanged'
+        elif spec:
             seq = [(code, why) for code, why in spec['courses']]
             theme = spec.get('theme', '')
         else:
@@ -404,7 +467,7 @@ if PROP:
         first = r
         for pos, (code, why) in enumerate(seq, start=1):
             c, g = allc[code]
-            moved = g['code'] if g['code'] != lvl else ''
+            moved = (c.get('moved_from') if c.get('moved_from') != lvl else '') if placement else (g['code'] if g['code'] != lvl else '')
             put(ps, r, [lvl, pos, code, c['title'], c['hours'], moved, why],
                 f=Font(name=F, size=10, bold=bool(moved), color='1F5FBF' if moved else '000000'))
             ps.cell(row=r, column=5).number_format = '0.0'
@@ -421,9 +484,13 @@ if PROP:
     ps.freeze_panes = 'A6'
 
 wb.move_sheet('Hours Budget', offset=1 - wb.sheetnames.index('Hours Budget'))
-if 'Proposed Sequence' in wb.sheetnames:
-    wb.move_sheet('Proposed Sequence', offset=2 - wb.sheetnames.index('Proposed Sequence'))
-wb.active = wb.sheetnames.index('Proposed Sequence') if 'Proposed Sequence' in wb.sheetnames else wb.sheetnames.index('Manager Updates')
+for seqname in ('Proposed Sequence', 'Course Sequence'):
+    if seqname in wb.sheetnames:
+        wb.move_sheet(seqname, offset=2 - wb.sheetnames.index(seqname))
+        wb.active = wb.sheetnames.index(seqname)
+        break
+else:
+    wb.active = wb.sheetnames.index('Manager Updates')
 dest = out / 'program-index.xlsx'
 wb.save(dest)
 print('Wrote', dest, 'index rows', last_pi - 1, 'courses', last_mu - 1, 'skills', last_su - 1)
