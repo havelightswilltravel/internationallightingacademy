@@ -258,5 +258,207 @@
  "titles": {
   "LT2-C12": "Project Readiness"
  },
- "owner_changes_internal": "Nov 11: fluorescent split to LT1 #11; HID LT2; Project Readiness to be reframed (projects first, then service calls); Print Reading LT2 #6; Emergency & Egress LT3->LT2 #7."
+ "owner_changes_internal": "Nov 11: fluorescent split to LT1 #11; HID LT2; Project Readiness to be reframed (projects first, then service calls); Print Reading LT2 #6; Emergency & Egress LT3->LT2 #7.",
+ "additions": [
+  {
+   "level": "LT1",
+   "after": "LT1-C01",
+   "kind": "lesson",
+   "target": "LT1-C01",
+   "src": "meeting",
+   "hours": 0.5,
+   "title": "Stop Work, Regroup and Call Your Supervisor",
+   "covers": "Full authority to stop a job for a safety concern or when it can't be done to our quality expectations; how to make the area safe, call the supervisor, regroup and get approval to restart."
+  },
+  {
+   "level": "LT1",
+   "after": "LT1-C01+",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 4,
+   "title": "First Aid, CPR/AED and Emergency Response",
+   "covers": "Recognizing emergencies, calling 911, bleeding control, burns, electrical shock first response, falls, heat and cold illness, eye injuries; where the first-aid kit, AED and fire extinguisher are and how to use them; our incident reporting. Recommend pairing with a certified first aid/CPR/AED class."
+  },
+  {
+   "level": "LT1",
+   "after": "LT1-C02",
+   "kind": "lesson",
+   "target": "LT1-C02",
+   "src": "meeting",
+   "hours": 0.5,
+   "title": "Multi-Position (Articulating) Ladder Setup",
+   "covers": "Each mode (A-frame, extension, stairway, scaffold), locking hinges and confirming they are locked, carrying and setup as two-person work, with a hands-on sign-off."
+  },
+  {
+   "level": "LT1",
+   "after": "LT1-C11",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 3,
+   "title": "Lamp Recycling, Universal Waste and PCB Ballasts",
+   "covers": "Which lamps contain mercury and why all lamps are recycled; packing, labeling, storing and logging lamps, batteries and ballasts; identifying PCB ballasts (no 'No PCBs' label, pre-1979, date codes), handling leaking ballasts, separate packaging and special disposal paperwork; lithium battery handling."
+  },
+  {
+   "level": "LT1",
+   "after": "LT1-C11+",
+   "kind": "course",
+   "src": "claude",
+   "hours": 1,
+   "title": "Biological and Public-Site Hazards",
+   "covers": "Needles and sharps in public areas and fixtures, bird and rodent droppings (histoplasmosis), wasps and insects in fixtures and poles, cleanup PPE and when to stop and report."
+  },
+  {
+   "level": "LT1",
+   "before": "LT1-C03",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 4,
+   "title": "Tool Fundamentals (test-out available)",
+   "covers": "Built for someone who has never used tools: tool identification, drills and impact drivers (batteries, clutch, bits), hand tools, measuring (imperial and metric), ratchet straps, cords and chargers; what a concrete saw, pipe bender and rotary hammer are for (awareness only). The LT1 personal tool list. Techs who pass a hands-on test-out can skip it."
+  },
+  {
+   "level": "LT1",
+   "after": "LT1-C03",
+   "kind": "lesson",
+   "target": "LT1-C03",
+   "src": "meeting",
+   "hours": 0,
+   "title": "Wire Strippers and Cutters: Keep Your Body Off Grounded Metal",
+   "covers": "Added to the existing hand-tools lesson: no part of your hand or arm touching metal (T-bar, fixture housing) while stripping or cutting, using a real 277 V shock as the example."
+  },
+  {
+   "level": "LT1",
+   "after": "LT3-C06",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 6,
+   "title": "Vehicles, Trailers and Load Securement",
+   "covers": "Daily vehicle and trailer inspection; hooking up, inspecting and backing a trailer, with a backing test and supervisor sign-off; choosing and using the right ratchet straps; minor vehicle maintenance (headlight and turn-signal bulbs, battery replacement); cleaning out the vehicle at the end of each day and after each project."
+  },
+  {
+   "level": "LT1",
+   "after": "LT1-C07",
+   "kind": "lesson",
+   "target": "LT1-C07",
+   "src": "claude",
+   "hours": 0.5,
+   "title": "Customer Site Rules: Badging, Escorts, Security and Photos",
+   "covers": "Checking in and out, badges and escorts, restricted areas, alarm and door security, confidentiality, and when photos are and are not allowed."
+  },
+  {
+   "level": "LT1",
+   "after": "LT2-C05",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 3,
+   "title": "Truck Stock, Parts ID and Defective Equipment",
+   "covers": "Identifying common parts on the truck; minimum stock levels; recording what was used each day on the truck stock sheet so it can be replenished; inspecting, red-tagging and reporting defective tools, ladders and equipment."
+  },
+  {
+   "level": "LT2",
+   "after": "LT2-C03",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 3,
+   "title": "Electrical Safety and Arc-Flash Protection, Part 1: Awareness (draft module)",
+   "covers": "See the Electrical Safety Module tab. Boundaries, arc-flash labels and PPE categories, when work must be de-energized, test before touch, first response to a shock or arc flash."
+  },
+  {
+   "level": "LT2",
+   "after": "LT3-C01",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 3,
+   "title": "Repair or Replace: Our Decision Guide",
+   "covers": "What our company does in common situations: failed LED driver, MH400 ballast (corn-cob lamp vs ballast and lamp vs new fixture), aging fluorescent, discontinued parts, standard fixtures on the truck. Built on the mA and voltage basics; licensees can adapt it."
+  },
+  {
+   "level": "LT2",
+   "before": "LT1-C09",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 3,
+   "title": "Installation Tools",
+   "covers": "Tools for installing fixtures: step bits, hole saws, knockout punches, fish tape and rods, anchors and toggles, stud and joist finders, cutting ceiling tile and drywall cleanly. The LT2 personal tool list."
+  },
+  {
+   "level": "LT2",
+   "after": "LT1-C10",
+   "kind": "course",
+   "src": "claude",
+   "hours": 1,
+   "title": "Attics, Crawl Spaces and Tight Spaces",
+   "covers": "Recognizing permit-required confined spaces (stop and call), heat, insulation and dust, footing on joists, lighting and communication, getting out quickly."
+  },
+  {
+   "level": "LT3",
+   "after": "LT3-C05",
+   "kind": "course",
+   "src": "claude",
+   "hours": 2,
+   "title": "Traffic, Public Areas and Night Work",
+   "covers": "Cones and barricades, working in parking lots and drive lanes, spotters and flaggers, high-visibility gear, lighting your work area at night, and keeping the public out from under the work."
+  },
+  {
+   "level": "LT3",
+   "after": "LT3-C12",
+   "kind": "lesson",
+   "target": "LT3-C12",
+   "src": "meeting",
+   "hours": 1,
+   "title": "Pole Installation Rigging: Slings, Shackles (Clevis) and Ratchet Straps",
+   "covers": "Selecting sling type and size, shackles and ratchet straps for setting a pole, working load limits, tag lines and signals for installs (not only removals)."
+  },
+  {
+   "level": "LT5",
+   "before": "LT5-C05",
+   "kind": "course",
+   "src": "meeting",
+   "hours": 4,
+   "title": "Large Tools: Rotary Hammer, Wire Tugger and Basic MIG Welding",
+   "covers": "Large-hole rotary hammer drilling in concrete (silica dust control), wire tugger setup and pulling, minor MIG welding for brackets and bases; hot-work permits, fire watch and PPE. The LT5 personal tool list."
+  }
+ ],
+ "renames": {
+  "LT4-C07": [
+   "Electrical Safety and Arc-Flash Protection, Part 2: Qualified Worker (draft module)",
+   "rename"
+  ]
+ },
+ "module": {
+  "names": [
+   "Electrical Safety and Arc-Flash Protection",
+   "Working Safely Around Energized Equipment",
+   "Shock and Arc-Flash Safety for Lighting Technicians",
+   "Qualified Electrical Worker Safety",
+   "Live-Work Safety and Energy Control"
+  ],
+  "part2": [
+   [
+    "Shock and arc-flash boundaries: what they mean for you",
+    35,
+    "Limited, restricted and arc-flash boundaries in plain language; who may cross each one; why an LT1 or LT2 stays outside."
+   ],
+   [
+    "Reading arc-flash labels and choosing PPE",
+    35,
+    "What a label tells you, PPE categories, arc-rated clothing, face and hand protection, and what to do when there is no label."
+   ],
+   [
+    "When work must be de-energized",
+    30,
+    "De-energize first; the narrow reasons energized work is allowed; energized work permits; our company stance on lighting during business hours."
+   ],
+   [
+    "Test before touch, every time",
+    30,
+    "Live-dead-live under real conditions, meter and lead checks, CAT ratings, and the mistakes that hurt people."
+   ],
+   [
+    "First response to a shock or arc flash",
+    30,
+    "Making the scene safe, never touching someone still in contact, calling 911, burns and cardiac risk, and reporting."
+   ]
+  ]
+ }
 }

@@ -17,6 +17,10 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
+args = sys.argv[1:]
+HIGHLIGHT = '--clean' not in args
+args = [a for a in args if a != '--clean']
+sys.argv = [sys.argv[0]] + args
 out = Path(sys.argv[1])
 placement = json.loads(Path(sys.argv[2]).read_text())
 REVIEWERS = (sys.argv[3].split(',') if len(sys.argv) > 3 else
@@ -54,8 +58,29 @@ for lvl in LEVELS:
         layout[lvl] = [pool[code] for code, _ in spec['courses']]
     else:
         layout[lvl] = sorted(by_code[lvl]['courses'], key=lambda c: c['order'])
-placed = {c['code'] for lvl in LEVELS for c in layout[lvl]}
-missing = set(pool) - placed
+for code, (title, kind) in (placement.get('renames') or {}).items():
+    for lvl in LEVELS:
+        for c in layout[lvl]:
+            if c['code'] == code:
+                c['title'], c['src'] = title, kind
+for n, a in enumerate(placement.get('additions') or [], start=1):
+    item = dict(code=f'ADD-{n}', title=a['title'], hours=a['hours'], lessons=[], questions=None, add=True,
+                kind=a['kind'], src=a['src'], covers=a['covers'], target=a.get('target'))
+    lst = layout[a['level']]
+    codes = [c['code'] for c in lst]
+    if 'before' in a:
+        idx = codes.index(a['before'])
+        item['anchor'] = None
+        lst.insert(idx, item)
+    else:
+        anchor = a['after'].rstrip('+')
+        idx = codes.index(anchor)
+        while idx + 1 < len(lst) and lst[idx + 1].get('anchor') == anchor:
+            idx += 1
+        item['anchor'] = anchor
+        lst.insert(idx + 1, item)
+placed = {c['code'] for lvl in LEVELS for c in layout[lvl] if not c.get('add')}
+missing = set(pool) - placed - {c['code'] for lvl in LEVELS for c in layout[lvl] if c.get('add')}
 assert not missing, f'courses not placed: {missing}'
 
 skills = {lvl: [] for lvl in LEVELS}
@@ -70,11 +95,21 @@ for lvl in LEVELS:
 # renumber
 code_map = {}
 for lvl in LEVELS:
-    for i, c in enumerate(layout[lvl], start=1):
+    i = 0
+    for c in layout[lvl]:
+        if c.get('kind') == 'lesson':
+            continue
+        i += 1
         new = f'{lvl}-C{i:02d}'
-        code_map[c['code']] = new
+        if not c.get('add'):
+            code_map[c['code']] = new
         c['new_code'] = new
         c['pos'] = i
+for lvl in LEVELS:
+    for c in layout[lvl]:
+        if c.get('kind') == 'lesson':
+            c['new_code'] = code_map[c['target']] + ' +'
+            c['pos'] = None
     for i, s in enumerate(skills[lvl], start=1):
         new = f'{lvl}-S{i:02d}'
         code_map[s['code']] = new
@@ -98,6 +133,18 @@ head_fill = PatternFill('solid', start_color='18202E')
 band_fill = PatternFill('solid', start_color='EEF1F5')
 input_fill = PatternFill('solid', start_color='FFFF00')
 note_fill = PatternFill('solid', start_color='FDEEDF')
+SRC_FILL = {'meeting': PatternFill('solid', start_color='F8CBAD'), 'claude': PatternFill('solid', start_color='C6EFCE'),
+            'rename': PatternFill('solid', start_color='BDD7EE')}
+
+
+def fill_for(c):
+    return SRC_FILL.get(c.get('src')) if HIGHLIGHT else None
+
+
+def kind_label(c):
+    if c.get('kind') == 'lesson':
+        return 'Added lesson in ' + c['new_code'].rstrip(' +')
+    return c['title']
 thin = Side(style='thin', color='D0D5DD')
 box = Border(left=thin, right=thin, top=thin, bottom=thin)
 wrap = Alignment(wrap_text=True, vertical='top')
@@ -184,13 +231,16 @@ rows = [
                    'All Suggestions: everyone\'s input in one place (for the program lead).'),
     ('Questions', 'Ask the program lead.'),
 ]
+if HIGHLIGHT:
+    rows.insert(0, ('DRAFT', 'For the program lead\'s approval. Highlighted rows are proposed additions (orange: from the Nov 10 meeting '
+                             'and the program lead; green: Claude recommendations; blue: renamed). Highlights are removed before the team review.'))
 for i, (k, v) in enumerate(rows, start=3):
     st.cell(row=i, column=1, value=k).font = bold
     c = st.cell(row=i, column=2, value=v)
     c.font, c.alignment = font, wrap
     if k == 'Yellow cells':
         st.cell(row=i, column=1).fill = input_fill
-st.row_dimensions[8].height = 120
+st.row_dimensions[3 + [k for k, _ in rows].index('How to fill it in')].height = 120
 
 # ---------------- Program Layout ----------------
 pl = wb.create_sheet('Program Layout')
@@ -198,19 +248,30 @@ pl['A1'] = 'Program layout'
 pl['A1'].font = title_font
 pl['A2'] = 'Two years, five levels, target about 400 hours of course time. Year 1 = LT1 and LT2; Year 2 = LT3, LT4 and LT5.'
 pl['A2'].font = font
-header(pl, 4, ['Level', 'Course #', 'Code', 'Course', 'Year', 'Course hours', 'Lessons', 'Quiz questions'],
-       [9, 9, 11, 50, 10, 12, 9, 10])
+header(pl, 4, ['Level', 'Course #', 'Code', 'Course', 'Year', 'Course hours', 'Lessons', 'Quiz questions', 'What it covers (new and renamed items)'],
+       [9, 9, 11, 50, 10, 12, 9, 10, 80])
+if HIGHLIGHT:
+    pl['D3'] = 'Draft highlights:'
+    pl['D3'].font = bold
+    for col, (txt, key) in zip(('E', 'F', 'G'), [('From the Nov 10 meeting and your list', 'meeting'),
+                                                 ('Claude recommendation', 'claude'), ('Renamed', 'rename')]):
+        c = pl[f'{col}3']
+        c.value, c.fill, c.font, c.alignment = txt, SRC_FILL[key], Font(name=F, size=9), Alignment(wrap_text=True)
+    pl.row_dimensions[3].height = 26
 r = 5
 lvl_total = {}
 for lvl in LEVELS:
-    band(pl, r, f'{lvl} {level_title[lvl]} ({LEVEL_YEAR[lvl]}): {themes[lvl]}', 8)
+    band(pl, r, f'{lvl} {level_title[lvl]} ({LEVEL_YEAR[lvl]}): {themes[lvl]}', 9)
     r += 1
     first = r
     for c in layout[lvl]:
-        put(pl, r, [lvl, c['pos'], c['new_code'], c['title'], LEVEL_YEAR[lvl], c['hours'], len(c['lessons']), c['questions']])
+        title = (f"Added lesson in {c['new_code'].rstrip(' +')}: {c['title']}" if c.get('kind') == 'lesson' else c['title'])
+        lessons = 1 if c.get('kind') == 'lesson' else (len(c['lessons']) or None)
+        put(pl, r, [lvl, c['pos'], c['new_code'], title, LEVEL_YEAR[lvl], c['hours'], lessons, c['questions'],
+                    c.get('covers') if (c.get('add') or c.get('src')) else None], fill=fill_for(c))
         pl.cell(row=r, column=6).number_format = '0.0'
         r += 1
-    put(pl, r, [f'{lvl} total', None, None, f'=COUNTA(C{first}:C{r - 1})&" courses"', None, f'=SUM(F{first}:F{r - 1})',
+    put(pl, r, [f'{lvl} total', None, None, f'=COUNTIF(C{first}:C{r - 1},"LT?-C??")&" courses"', None, f'=SUM(F{first}:F{r - 1})',
                 f'=SUM(G{first}:G{r - 1})', f'=SUM(H{first}:H{r - 1})'], f=bold)
     pl.cell(row=r, column=6).number_format = '0.0'
     lvl_total[lvl] = r
@@ -224,7 +285,7 @@ for k in range(r, r + 5):
     pl.cell(row=k, column=6).number_format = '0.0'
 r += 7
 band(pl, r, f"Manager Module (separate, for supervisors and managers): {len(mgr['courses'])} courses, "
-            f"{sum(c['hours'] for c in mgr['courses']):.0f} hours", 8)
+            f"{sum(c['hours'] for c in mgr['courses']):.0f} hours", 9)
 r += 1
 for c in sorted(mgr['courses'], key=lambda c: c['order']):
     put(pl, r, ['MGR', c['order'], c['code'], c['title'], 'Any time', c['hours'], len(c['lessons']), c['questions']], f=grey)
@@ -246,7 +307,7 @@ header(rq, 4, ['Level', 'Title', 'Year', 'Typical months', 'Courses', 'Course ho
        [8, 32, 9, 10, 9, 10, 10, 9, 10, 20, 10, 11])
 for k, lvl in enumerate(LEVELS, start=5):
     q_ = level_req[lvl]
-    put(rq, k, [lvl, level_title[lvl], LEVEL_YEAR[lvl], q_['months'], len(layout[lvl]),
+    put(rq, k, [lvl, level_title[lvl], LEVEL_YEAR[lvl], q_['months'], sum(1 for c in layout[lvl] if c.get('kind') != 'lesson'),
                 sum(c['hours'] for c in layout[lvl]), len(skills[lvl]), sum(1 for s in skills[lvl] if s['critical']),
                 q_['coursePass'] / 100, f"{q_['examQuestions']} questions, {q_['examMinutes']} min", q_['examPass'] / 100, q_['ojt']])
     for col in (9, 11):
@@ -265,8 +326,13 @@ header(pd, 1, ['Type', 'Level', 'Course #', 'Code', 'Title', 'Course', 'Year', '
 r = 2
 for lvl in LEVELS:
     for c in layout[lvl]:
-        put(pd, r, ['Course', lvl, c['pos'], c['new_code'], c['title'], None, LEVEL_YEAR[lvl], c['hours'],
-                    sum(l['minutes'] or 0 for l in c['lessons']), None], f=bold, fill=band_fill)
+        if c.get('kind') == 'lesson':
+            put(pd, r, ['New lesson', lvl, None, c['new_code'], c['title'], c['new_code'].rstrip(' +'), LEVEL_YEAR[lvl],
+                        c['hours'], None, None], fill=fill_for(c))
+            r += 1
+            continue
+        put(pd, r, ['New course' if c.get('add') else 'Course', lvl, c['pos'], c['new_code'], c['title'], None, LEVEL_YEAR[lvl],
+                    c['hours'], sum(l['minutes'] or 0 for l in c['lessons']) or None, None], f=bold, fill=fill_for(c) or band_fill)
         r += 1
         for i, l in enumerate(c['lessons'], start=1):
             put(pd, r, ['Lesson', lvl, c['pos'], f"{c['new_code']} L{i:02d}", l['title'], c['new_code'], LEVEL_YEAR[lvl],
@@ -287,18 +353,19 @@ widths = [9, 9, 11, 44, 8, 7, 18, 12, 11, 11, 50, 10, 10, 9]
 HR = 7                      # header row
 course_rows = []            # (kind, data) in sheet order, shared by every reviewer tab
 for lvl in LEVELS:
-    course_rows.append(('band', f'{lvl} {level_title[lvl]} ({LEVEL_YEAR[lvl]}): {themes[lvl]}'))
+    course_rows.append(('band', f'{lvl} {level_title[lvl]} ({LEVEL_YEAR[lvl]}): {themes[lvl]}', None))
     for c in layout[lvl]:
-        course_rows.append(('course', (lvl, c['pos'], c['new_code'], c['title'], LEVEL_YEAR[lvl], c['hours'])))
-course_rows.append(('band', 'Not in program: available to add (earlier electrical courses; most could return as a shorter '
+        t = f"Added lesson: {c['title']}" if c.get('kind') == 'lesson' else c['title']
+        course_rows.append(('course', (lvl, c['pos'], c['new_code'], t, LEVEL_YEAR[lvl], c['hours']), fill_for(c)))
+course_rows.append(('band3', 'Not in program: available to add (earlier electrical courses; most could return as a shorter '
                             'senior topic of about 7 hours)'))
 for g in archived:
     for c in sorted(g['courses'], key=lambda c: c['order']):
-        course_rows.append(('course', ('Not in program', None, c['code'], c['title'], 'Not in program', c['hours'])))
-course_rows.append(('band', 'Training you would add that is not listed (pick a level, name it, estimate hours, and say what it should cover)'))
+        course_rows.append(('course', ('Not in program', None, c['code'], c['title'], 'Not in program', c['hours']), None))
+course_rows.append(('band3', 'Training you would add that is not listed (pick a level, name it, estimate hours, and say what it should cover)'))
 NEW_ROWS = 10
 for i in range(NEW_ROWS):
-    course_rows.append(('new', i + 1))
+    course_rows.append(('new', i + 1, None))
 LAST = HR + len(course_rows)
 
 
@@ -323,12 +390,18 @@ def build_reviewer(name):
     c.font = bold
     header(ws, HR, cols, widths)
     r = HR + 1
-    for kind, d in course_rows:
+    for row_ in course_rows:
+        kind, d = row_[0], row_[1]
+        fl = row_[2] if len(row_) > 2 else None
+        kind = 'band' if kind == 'band3' else kind
         if kind == 'band':
             band(ws, r, d, 14)
         elif kind == 'course':
             lvl, pos, code, title, year, hours = d
             put(ws, r, [lvl, pos, code, title, year, hours, None, None, None, None, None], f=grey if lvl == 'Not in program' else font)
+            if fl:
+                for col in range(1, 7):
+                    ws.cell(row=r, column=col).fill = fl
             for col in range(7, 12):
                 ws.cell(row=r, column=col).fill = input_fill
         else:
@@ -378,6 +451,49 @@ def build_reviewer(name):
 for name in REVIEWERS:
     build_reviewer(name)
 
+# ---------------- Electrical Safety Module (draft) ----------------
+mod = placement.get('module')
+if mod:
+    em = wb.create_sheet('Electrical Safety Module')
+    em.column_dimensions['A'].width = 34
+    em.column_dimensions['B'].width = 52
+    for col, w in zip('CDEFG', (9, 9, 70, 14, 34)):
+        em.column_dimensions[col].width = w
+    em['A1'] = 'Electrical safety module (draft)'
+    em['A1'].font = title_font
+    em['A2'] = ('Electrical safety training for every level, built on the industry electrical-safety standard. The content names the '
+                'standard where a rule comes from, but the module is not presented or titled as a certification course. '
+                'Mark each lesson Keep, Remove or Change.')
+    em['A2'].font, em['A2'].alignment = font, wrap
+    em.merge_cells('A2:G2')
+    em.row_dimensions[2].height = 30
+    em['A4'] = 'Module name'
+    em['A4'].font = bold
+    em['B4'].fill = input_fill
+    em['B4'].font = font
+    dv_list(em, [n.replace(',', '') for n in mod['names']], 'B4', 'Pick a name for the module.')
+    em['C4'] = 'Options:'
+    em['C4'].font = bold
+    em['E4'] = '\n'.join(f'{i}. {n}' + (' (recommended)' if i == 1 else '') for i, n in enumerate(mod['names'], start=1))
+    em['E4'].font, em['E4'].alignment = font, wrap
+    em.row_dimensions[4].height = 80
+    header(em, 6, ['Part', 'Lesson', 'Level', 'Minutes', 'What it covers', 'Keep?', 'Notes'])
+    r = 7
+    parts = [('Part 1: Awareness (all techs; already in LT1-C01)', 'LT1',
+              [('Electrical Shock & Arc-Flash Awareness', 25, 'Already taught in LT1-C01 Lesson 4: what shock and arc flash do, why you stay out of panels.')]),
+             ('Part 2: Awareness for working techs (new)', 'LT2', [tuple(x) for x in mod['part2']]),
+             ('Part 3: Qualified worker (existing LT4 course)', 'LT4',
+              [(l['title'], l['minutes'], '') for c in layout['LT4'] if c['code'] == 'LT4-C07' for l in c['lessons']])]
+    for part, lvl, lessons in parts:
+        band(em, r, part, 7)
+        r += 1
+        for title, minutes, covers in lessons:
+            put(em, r, [part.split(':')[0], title, lvl, minutes, covers, None, None])
+            for col in (6, 7):
+                em.cell(row=r, column=col).fill = input_fill
+            r += 1
+    dv_list(em, ['Keep', 'Remove', 'Change'], f'F7:F{r}', 'Keep, Remove or Change this lesson.')
+
 # ---------------- All Suggestions ----------------
 al = wb.create_sheet('All Suggestions')
 al['A1'] = 'All suggestions in one place'
@@ -400,7 +516,10 @@ first_rev_col = get_column_letter(6)
 last_rev_col = get_column_letter(5 + nrev)
 cnt_col = 6 + nrev
 r = AHR + 1
-for kind, d in course_rows:
+for row_ in course_rows:
+    kind, d = row_[0], row_[1]
+    fl = row_[2] if len(row_) > 2 else None
+    kind = 'band' if kind == 'band3' else kind
     src = r   # same row number on every reviewer tab
     if kind == 'band':
         band(al, r, d, len(acols))
@@ -408,6 +527,9 @@ for kind, d in course_rows:
         if kind == 'course':
             lvl, pos, code, title, year, hours = d
             put(al, r, [lvl, pos, code, title, hours], f=grey if lvl == 'Not in program' else font)
+            if fl:
+                for col in range(1, 6):
+                    al.cell(row=r, column=col).fill = fl
         else:
             put(al, r, [None, None, f'New {d}', 'New training suggested (see each reviewer)', None], f=grey)
         for i, name in enumerate(REVIEWERS):
