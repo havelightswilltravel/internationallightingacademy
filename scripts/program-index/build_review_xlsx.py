@@ -51,11 +51,20 @@ for code, parts in (placement.get('splits') or {}).items():
         pool[part['code']] = pc
 for code, t in (placement.get('titles') or {}).items():
     pool[code]['title'] = t
+for code, spec in (placement.get('remove_lessons') or {}).items():
+    c = pool[code]
+    c['lessons'] = [l for i, l in enumerate(c['lessons'], start=1) if i not in spec['lessons']]
+    c['hours'] = c['hours'] - spec.get('hours', 0)
+ADDS = placement.get('additions')
+if isinstance(ADDS, dict):
+    for aid, a in ADDS.items():
+        pool['ADD:' + aid] = dict(code='ADD:' + aid, title=a['title'], hours=a['hours'], lessons=[], questions=None, add=True,
+                                  kind=a.get('kind', 'course'), src=a['src'], covers=a['covers'], target=a.get('target'))
 layout = {}
 for lvl in LEVELS:
     spec = placement['levels'].get(lvl) or {}
     if spec.get('courses'):
-        layout[lvl] = [pool[code] for code, _ in spec['courses']]
+        layout[lvl] = [pool[e if isinstance(e, str) else e[0]] for e in spec['courses']]
     else:
         layout[lvl] = sorted(by_code[lvl]['courses'], key=lambda c: c['order'])
 for code, (title, kind) in (placement.get('renames') or {}).items():
@@ -63,7 +72,7 @@ for code, (title, kind) in (placement.get('renames') or {}).items():
         for c in layout[lvl]:
             if c['code'] == code:
                 c['title'], c['src'] = title, kind
-for n, a in enumerate(placement.get('additions') or [], start=1):
+for n, a in enumerate(ADDS if isinstance(ADDS, list) else [], start=1):
     item = dict(code=f'ADD-{n}', title=a['title'], hours=a['hours'], lessons=[], questions=None, add=True,
                 kind=a['kind'], src=a['src'], covers=a['covers'], target=a.get('target'))
     lst = layout[a['level']]
@@ -101,8 +110,7 @@ for lvl in LEVELS:
             continue
         i += 1
         new = f'{lvl}-C{i:02d}'
-        if not c.get('add'):
-            code_map[c['code']] = new
+        code_map[c['code']] = new
         c['new_code'] = new
         c['pos'] = i
 for lvl in LEVELS:
@@ -114,7 +122,10 @@ for lvl in LEVELS:
         new = f'{lvl}-S{i:02d}'
         code_map[s['code']] = new
         s['new_code'] = new
-(out / 'code-map.json').write_text(json.dumps(code_map, indent=1))
+(out / 'layout.json').write_text(json.dumps({lvl: [dict(code=c['code'], new_code=c['new_code'], title=c['title'], kind=c.get('kind', 'course'),
+    add=bool(c.get('add')), hours=c['hours'], target=c.get('target'),
+    lessons=[dict(id=l['id'], title=l['title'], minutes=l['minutes']) for l in c['lessons']]) for c in layout[lvl]] for lvl in LEVELS}, indent=1))
+(out / 'code-map.json').write_text(json.dumps({k: v for k, v in code_map.items() if not k.startswith('ADD')}, indent=1))
 
 level_title = {g['code']: g['title'] for g in groups}
 level_req = {g['code']: g['req'] for g in groups if g.get('req')}
@@ -248,7 +259,7 @@ pl['A1'] = 'Program layout'
 pl['A1'].font = title_font
 pl['A2'] = 'Two years, five levels, target about 400 hours of course time. Year 1 = LT1 and LT2; Year 2 = LT3, LT4 and LT5.'
 pl['A2'].font = font
-header(pl, 4, ['Level', 'Course #', 'Code', 'Course', 'Year', 'Course hours', 'Lessons', 'Quiz questions', 'What it covers (new and renamed items)'],
+header(pl, 4, ['Level', 'Course #', 'Code', 'Course', 'Year', 'Course hours', 'Lessons', 'Quiz questions', ('What it covers (new and renamed items)' if HIGHLIGHT else 'What it covers (courses still being written)')],
        [9, 9, 11, 50, 10, 12, 9, 10, 80])
 if HIGHLIGHT:
     pl['D3'] = 'Draft highlights:'
@@ -265,7 +276,7 @@ for lvl in LEVELS:
     r += 1
     first = r
     for c in layout[lvl]:
-        title = (f"Added lesson in {c['new_code'].rstrip(' +')}: {c['title']}" if c.get('kind') == 'lesson' else c['title'])
+        title = (f"{'Added lesson' if HIGHLIGHT else 'Lesson'} in {c['new_code'].rstrip(' +')}: {c['title']}" if c.get('kind') == 'lesson' else c['title'])
         lessons = 1 if c.get('kind') == 'lesson' else (len(c['lessons']) or None)
         put(pl, r, [lvl, c['pos'], c['new_code'], title, LEVEL_YEAR[lvl], c['hours'], lessons, c['questions'],
                     c.get('covers') if (c.get('add') or c.get('src')) else None], fill=fill_for(c))
@@ -355,7 +366,7 @@ course_rows = []            # (kind, data) in sheet order, shared by every revie
 for lvl in LEVELS:
     course_rows.append(('band', f'{lvl} {level_title[lvl]} ({LEVEL_YEAR[lvl]}): {themes[lvl]}', None))
     for c in layout[lvl]:
-        t = f"Added lesson: {c['title']}" if c.get('kind') == 'lesson' else c['title']
+        t = f"{'Added lesson' if HIGHLIGHT else 'Lesson'} in {c['new_code'].rstrip(' +')}: {c['title']}" if c.get('kind') == 'lesson' else c['title']
         course_rows.append(('course', (lvl, c['pos'], c['new_code'], t, LEVEL_YEAR[lvl], c['hours']), fill_for(c)))
 course_rows.append(('band3', 'Not in program: available to add (earlier electrical courses; most could return as a shorter '
                             'senior topic of about 7 hours)'))
@@ -459,7 +470,7 @@ if mod:
     em.column_dimensions['B'].width = 52
     for col, w in zip('CDEFG', (9, 9, 70, 14, 34)):
         em.column_dimensions[col].width = w
-    em['A1'] = 'Electrical safety module (draft)'
+    em['A1'] = mod.get('chosen') or 'Electrical safety module (draft)'
     em['A1'].font = title_font
     em['A2'] = ('Electrical safety training for every level, built on the industry electrical-safety standard. The content names the '
                 'standard where a rule comes from, but the module is not presented or titled as a certification course. '
@@ -471,6 +482,9 @@ if mod:
     em['A4'].font = bold
     em['B4'].fill = input_fill
     em['B4'].font = font
+    if mod.get('chosen'):
+        em['B4'] = mod['chosen']
+        em['B4'].font = bold
     dv_list(em, [n.replace(',', '') for n in mod['names']], 'B4', 'Pick a name for the module.')
     em['C4'] = 'Options:'
     em['C4'].font = bold
