@@ -1,11 +1,11 @@
 {
  "applied": "2026-11-11",
- "summary": "Recommended sequence plus the owner's changes (Nov 11, 2026): Fluorescent & HID split, fluorescent moved to LT1 #11; Project Readiness to be reframed from projects to service calls.",
+ "summary": "Program layout for team review, November 2026.",
  "splits": {
   "LT2-C04": [
    {
     "code": "LT2-C04a",
-    "title": "Fluorescent Systems (split from Fluorescent & HID)",
+    "title": "Fluorescent Systems",
     "lessons": [
      1,
      2
@@ -15,7 +15,7 @@
    },
    {
     "code": "LT2-C04b",
-    "title": "HID Systems (split from Fluorescent & HID)",
+    "title": "HID Systems",
     "lessons": [
      3,
      4,
@@ -28,214 +28,235 @@
  },
  "levels": {
   "LT1": {
-   "theme": "Safety, equipment, tools, lighting basics (incandescent and fluorescent), then project and retrofit work",
+   "theme": "Safety, equipment and tools; lighting basics (incandescent, fluorescent); project and retrofit work",
    "courses": [
     [
      "LT1-C01",
-     "Safety first: orientation, safety culture and PPE"
+     ""
     ],
     [
      "LT1-C02",
-     "Safety first: ladders and fall protection"
+     ""
     ],
     [
      "LT1-C11",
-     "Safety first: heat, cold and hazardous materials"
+     ""
     ],
     [
      "LT1-C06",
-     "Safety first: lockout/tagout before any hands-on work"
+     ""
     ],
     [
      "LT1-C03",
-     "Know and own your tools and meter"
+     ""
     ],
     [
      "LT3-C06",
-     "Moved from LT3: equipment operation (scissor, boom, rolling scaffold) early, well before exterior work"
+     ""
     ],
     [
      "LT1-C07",
-     "Customer service and work orders from day one"
+     ""
     ],
     [
      "LT1-C04",
-     "Electrical basics needed before lighting systems"
+     ""
     ],
     [
      "LT1-C05",
-     "Lighting basics and fixture types"
+     ""
     ],
     [
      "LT1-C08",
-     "Lighting basics: incandescent first"
+     ""
     ],
     [
      "LT2-C04a",
-     "Your change: fluorescent systems split out of Fluorescent & HID and moved to LT1, before project and retrofit work"
+     ""
     ],
     [
      "LT2-C12",
-     "Moved from LT2: project-type work is part of a new tech's job"
+     ""
     ],
     [
      "LT2-C05",
-     "Moved from LT2: retrofit work early (builds on the fluorescent basics in LT1-C05)"
+     ""
     ]
    ]
   },
   "LT2": {
-   "theme": "Circuits, HID and LED systems, troubleshooting, service work, then track and low-voltage",
+   "theme": "Circuits and measurement; HID and LED systems; troubleshooting; prints and emergency lighting; service work; track and low-voltage",
    "courses": [
     [
      "LT2-C01",
-     "Electrical fundamentals II"
+     ""
     ],
     [
      "LT2-C03",
-     "Test instruments before troubleshooting"
+     ""
     ],
     [
      "LT2-C04b",
-     "HID systems split out of Fluorescent & HID; stays in LT2 before LED drivers"
+     ""
     ],
     [
      "LT3-C01",
-     "Moved from LT3: lighting progression continues to LED drivers"
+     ""
     ],
     [
      "LT2-C06",
-     "Troubleshooting method"
-    ],
-    [
-     "LT1-C09",
-     "Moved from LT1: switches and receptacles after circuits and meters"
-    ],
-    [
-     "LT2-C11",
-     "Breakers"
-    ],
-    [
-     "LT2-C02",
-     "Branch circuits and panels"
-    ],
-    [
-     "LT2-C08",
-     "3-way and 4-way switching"
-    ],
-    [
-     "LT1-C10",
-     "Moved from LT1: parts knowledge and sourcing once techs know the systems"
+     ""
     ],
     [
      "LT2-C07",
-     "Print reading"
+     ""
+    ],
+    [
+     "LT3-C04",
+     ""
+    ],
+    [
+     "LT1-C09",
+     ""
+    ],
+    [
+     "LT2-C11",
+     ""
+    ],
+    [
+     "LT2-C02",
+     ""
+    ],
+    [
+     "LT2-C08",
+     ""
+    ],
+    [
+     "LT1-C10",
+     ""
     ],
     [
      "LT2-C09",
-     "Lighting progression: track lighting"
+     ""
     ],
     [
      "LT2-C10",
-     "Lighting progression: low-voltage systems"
+     ""
     ]
    ]
   },
   "LT3": {
-   "theme": "Exterior work (aerial lifts already learned), controls, emergency and specialty systems",
+   "theme": "Exterior and pole work; controls; refrigerated case, neon, signage and data cabling",
    "courses": [
     [
      "LT3-C05",
-     "Exterior work now that lifts are mastered"
+     ""
     ],
     [
      "LT3-C12",
-     "Rigging and pole removal follows exterior"
-    ],
-    [
-     "LT3-C04",
-     "Emergency and egress lighting"
+     ""
     ],
     [
      "LT3-C02",
-     "Dimming"
+     ""
     ],
     [
      "LT3-C03",
-     "Lighting controls"
+     ""
     ],
     [
      "LT3-C07",
-     "Contactors, relays and panels"
+     ""
     ],
     [
      "LT3-C08",
-     "Refrigerated case lighting (unchanged)"
+     ""
     ],
     [
      "LT3-C09",
-     "Neon (unchanged)"
+     ""
     ],
     [
      "LT3-C10",
-     "LED signage"
+     ""
     ],
     [
      "LT3-C11",
-     "Data and low-voltage communications cabling"
+     ""
     ]
    ]
+  },
+  "LT4": {
+   "theme": "Senior: networked controls, codes, photometry, power quality, advanced troubleshooting, qualified-worker safety"
+  },
+  "LT5": {
+   "theme": "Master: audits and estimating, commissioning, leadership, emerging technology, maintenance planning, capstone"
   }
  },
  "skills": {
   "LT3-S08": [
    "LT1",
-   "Moves with Aerial Work Platforms"
+   ""
   ],
   "LT3-S09": [
    "LT1",
-   "Moves with Aerial Work Platforms"
+   ""
   ],
   "LT3-S23": [
    "LT1",
-   "Moves with Aerial Work Platforms (rolling scaffold)"
+   ""
   ],
   "LT3-S27": [
    "LT1",
-   "Moves with Aerial Work Platforms (company lift inspection)"
+   ""
   ],
   "LT2-S03": [
    "LT1",
-   "Moves with LED Retrofit Fundamentals"
+   ""
   ],
   "LT2-S21": [
    "LT1",
-   "Moves with Project Readiness"
+   ""
   ],
   "LT2-S22": [
    "LT1",
-   "Moves with Project Readiness"
+   ""
   ],
   "LT2-S23": [
    "LT1",
-   "Moves with Project Readiness (load planning)"
+   ""
   ],
   "LT3-S01": [
    "LT2",
-   "Moves with LED Technology & Drivers"
+   ""
   ],
   "LT1-S10": [
    "LT2",
-   "Moves with Outlets & Switches"
+   ""
   ],
   "LT1-S11": [
    "LT2",
-   "Moves with Parts Knowledge & Sourcing"
+   ""
+  ],
+  "LT3-S04": [
+   "LT2",
+   ""
+  ],
+  "LT3-S05": [
+   "LT2",
+   ""
+  ],
+  "LT3-S20": [
+   "LT2",
+   ""
+  ],
+  "LT3-S28": [
+   "LT2",
+   ""
   ]
  },
- "notes": {
-  "LT2-C04a": "Your note: Separate out Fluorescent training for HID. Split by lesson: L1-L2 fluorescent here; hours and quiz split are estimates until the course is rebuilt.",
-  "LT2-C04b": "Your note: Separate out Fluorescent training for HID. Split by lesson: L3-L5 HID here (HID skills LT2-S04 and LT2-S20 stay in LT2).",
-  "LT2-C12": "Your note: This should be shifting from projects to Service Calls. To do when the content is updated: reframe the course so new techs start on project work in LT1 and learn to shift to service calls later."
- }
+ "titles": {
+  "LT2-C12": "Project Readiness"
+ },
+ "owner_changes_internal": "Nov 11: fluorescent split to LT1 #11; HID LT2; Project Readiness to be reframed (projects first, then service calls); Print Reading LT2 #6; Emergency & Egress LT3->LT2 #7."
 }
