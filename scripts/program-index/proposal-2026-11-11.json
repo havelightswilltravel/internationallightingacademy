@@ -1,0 +1,68 @@
+{
+  "title": "Proposed sequence (Nov 11, 2026): safety, equipment, tools and project work first; lighting from incandescent to LED to track and low-voltage; aerial lifts before exterior work",
+  "levels": {
+    "LT1": {
+      "theme": "Safety, equipment, tools, lighting basics and project work",
+      "courses": [
+        ["LT1-C01", "Safety first: orientation, safety culture and PPE"],
+        ["LT1-C02", "Safety first: ladders and fall protection"],
+        ["LT1-C11", "Safety first: heat, cold and hazardous materials"],
+        ["LT1-C06", "Safety first: lockout/tagout before any hands-on work"],
+        ["LT1-C03", "Know and own your tools and meter"],
+        ["LT3-C06", "Moved from LT3: equipment operation (scissor, boom, rolling scaffold) early, well before exterior work"],
+        ["LT1-C07", "Customer service and work orders from day one"],
+        ["LT1-C04", "Electrical basics needed before lighting systems"],
+        ["LT1-C05", "Lighting basics and fixture types"],
+        ["LT1-C08", "Lighting basics: incandescent first"],
+        ["LT2-C12", "Moved from LT2: project-type work is part of a new tech's job"],
+        ["LT2-C05", "Moved from LT2: retrofit work early (builds on the fluorescent basics in LT1-C05)"]
+      ]
+    },
+    "LT2": {
+      "theme": "Circuits, fluorescent and LED systems, troubleshooting, then track and low-voltage",
+      "courses": [
+        ["LT2-C01", "Electrical fundamentals II"],
+        ["LT2-C03", "Test instruments before troubleshooting"],
+        ["LT2-C04", "Lighting progression: fluorescent and HID systems"],
+        ["LT3-C01", "Moved from LT3: lighting progression continues to LED drivers"],
+        ["LT2-C06", "Troubleshooting method"],
+        ["LT1-C09", "Moved from LT1: switches and receptacles after circuits and meters"],
+        ["LT2-C11", "Breakers"],
+        ["LT2-C02", "Branch circuits and panels"],
+        ["LT2-C08", "3-way and 4-way switching"],
+        ["LT1-C10", "Moved from LT1: parts knowledge and sourcing once techs know the systems"],
+        ["LT2-C07", "Print reading"],
+        ["LT2-C09", "Lighting progression: track lighting"],
+        ["LT2-C10", "Lighting progression: low-voltage systems"]
+      ]
+    },
+    "LT3": {
+      "theme": "Exterior work (aerial lifts already learned), controls, emergency and specialty systems",
+      "courses": [
+        ["LT3-C05", "Exterior work now that lifts are mastered"],
+        ["LT3-C12", "Rigging and pole removal follows exterior"],
+        ["LT3-C04", "Emergency and egress lighting"],
+        ["LT3-C02", "Dimming"],
+        ["LT3-C03", "Lighting controls"],
+        ["LT3-C07", "Contactors, relays and panels"],
+        ["LT3-C08", "Refrigerated case lighting (unchanged)"],
+        ["LT3-C09", "Neon (unchanged)"],
+        ["LT3-C10", "LED signage"],
+        ["LT3-C11", "Data and low-voltage communications cabling"]
+      ]
+    }
+  },
+  "skills": {
+    "LT3-S08": ["LT1", "Moves with Aerial Work Platforms"],
+    "LT3-S09": ["LT1", "Moves with Aerial Work Platforms"],
+    "LT3-S23": ["LT1", "Moves with Aerial Work Platforms (rolling scaffold)"],
+    "LT3-S27": ["LT1", "Moves with Aerial Work Platforms (company lift inspection)"],
+    "LT2-S03": ["LT1", "Moves with LED Retrofit Fundamentals"],
+    "LT2-S21": ["LT1", "Moves with Project Readiness"],
+    "LT2-S22": ["LT1", "Moves with Project Readiness"],
+    "LT2-S23": ["LT1", "Moves with Project Readiness (load planning)"],
+    "LT3-S01": ["LT2", "Moves with LED Technology & Drivers"],
+    "LT1-S10": ["LT2", "Moves with Outlets & Switches"],
+    "LT1-S11": ["LT2", "Moves with Parts Knowledge & Sourcing"]
+  }
+}

@@ -15,10 +15,24 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
+args = sys.argv[1:]
+proposal = {}
+if '--proposal' in args:
+    k = args.index('--proposal')
+    proposal = json.loads(Path(args[k + 1]).read_text())
+    del args[k:k + 2]
+sys.argv = [sys.argv[0]] + args
 out = Path(sys.argv[1])
 data = json.loads((out / 'index-data.json').read_text())
 placements = json.loads(Path(sys.argv[2]).read_text()) if len(sys.argv) > 2 else {}
 
+LEVEL_YEAR = {'LT1': '1', 'LT2': '1', 'LT3': '2', 'LT4': '2', 'LT5': '2', 'MGR': 'mgr'}
+# Proposed placement: course code -> (level, position, reason)
+PROP = {}
+for lvl, spec in (proposal.get('levels') or {}).items():
+    for pos, (code, why) in enumerate(spec['courses'], start=1):
+        PROP[code] = (lvl, pos, why)
+PROP_SKILL = proposal.get('skills') or {}
 YEAR = {'1': 'Year 1', '2': 'Year 2', 'opt': 'Optional / elective',
         'mgr': 'Manager Module', 'none': 'Not in program'}
 YEAR_LIST = list(YEAR.values())
@@ -79,6 +93,7 @@ rm['A1'] = 'Lighting Academy Program Index'
 rm['A1'].font = title_font
 rows = [
     ('Built', f"{data['built']} from the curriculum files."),
+    ('Proposal', 'The Proposed Sequence tab shows a suggested new order (Nov 11, 2026). It is pre-filled in the yellow New level, New course # and New year cells on Manager Updates and Skill Updates, with the reason in Notes. Change or clear any of it, then send the file back. Nothing in the program changes until you approve.') if proposal else ('Proposal', 'None loaded.'),
     ('The program', 'Two years, five levels, about 400 hours of course time. Year 1 = LT1 and LT2. Year 2 = LT3, LT4 and LT5. The Manager Module is separate. Advancement is by demonstrated skill, so the years are typical, not fixed.'),
     ('Program Index', 'Every course, lesson and hands-on skill, with its level, course number and year. Read-only reference.'),
     ('Requirements by Level', 'What a technician must complete to pass each level. Counts update from the Program Index tab.'),
@@ -200,8 +215,19 @@ for g in ordered:
             status = 'Archived'
             sugg = (f"Recommended to return as a condensed {c['level']} topic, about 7 h (full course {c['hours']} h)"
                     if c.get('level') else 'Leave archived (licensed-electrician or exam content)')
+        nl = nk = ny = note = None
+        if c['code'] in PROP and not g['archived']:
+            plvl, ppos, why = PROP[c['code']]
+            if plvl != g['code']:
+                nl = plvl
+            if plvl != g['code'] or ppos != c['order']:
+                nk = ppos
+            if YEAR[LEVEL_YEAR[plvl]] != YEAR[year_of(c)]:
+                ny = YEAR[LEVEL_YEAR[plvl]]
+            if nl or nk or ny:
+                note = 'Proposed: ' + why
         put(mu, r, [c['code'], c['title'], cur_level, c['order'] if not g['archived'] else None, YEAR[year_of(c)], status,
-                    c['hours'], sugg, None, None, None, None, None, None,
+                    c['hours'], sugg, None, nl, nk, ny, None, note,
                     f'=IF(I{r}="",F{r},I{r})', f'=IF(J{r}="",C{r},J{r})', f'=IF(K{r}="",D{r},K{r})',
                     f'=IF(L{r}="",E{r},L{r})', f'=IF(M{r}="",G{r},M{r})',
                     f'=IF(OR(I{r}<>"",J{r}<>"",K{r}<>"",L{r}<>"",M{r}<>""),"Yes","")'],
@@ -324,7 +350,13 @@ r = 2
 for g in ordered:
     for s in g['skills']:
         cur_level = g['code'] if not g['archived'] else 'Not in program'
-        put(su, r, [s['code'], s['title'], cur_level, YEAR[year_of(s)], 'Yes' if s['critical'] else '', None, None, None,
+        snl = sny = snote = None
+        if s['code'] in PROP_SKILL and not g['archived']:
+            snl, why = PROP_SKILL[s['code']]
+            if YEAR[LEVEL_YEAR[snl]] != YEAR[year_of(s)]:
+                sny = YEAR[LEVEL_YEAR[snl]]
+            snote = 'Proposed: ' + why
+        put(su, r, [s['code'], s['title'], cur_level, YEAR[year_of(s)], 'Yes' if s['critical'] else '', snl, sny, snote,
                     f'=IF(F{r}="",C{r},F{r})', f'=IF(G{r}="",D{r},G{r})', f'=IF(OR(F{r}<>"",G{r}<>""),"Yes","")'],
             f=font if not g['archived'] else arch_font)
         for col in (6, 7, 8):
@@ -336,8 +368,62 @@ add_list_validation(su, YEAR_LIST, f'G2:G{last_su}', 'Pick a new year, or leave 
 su.freeze_panes = 'C2'
 su.auto_filter.ref = f'A1:K{last_su}'
 
+if PROP:
+    ps = wb.create_sheet('Proposed Sequence')
+    ps['A1'] = 'Proposed course sequence'
+    ps['A1'].font = title_font
+    ps['A2'] = proposal.get('title', '')
+    ps['A2'].font, ps['A2'].alignment = font, wrap
+    ps.merge_cells('A2:G2')
+    ps.row_dimensions[2].height = 30
+    ps['A3'] = ('This tab is a snapshot of the proposal as delivered. The proposal is also pre-filled in the yellow cells on '
+                'Manager Updates and Skill Updates, where you can change it; Hours Budget totals whatever is there.')
+    ps['A3'].font, ps['A3'].alignment = Font(name=F, size=9, italic=True), wrap
+    ps.merge_cells('A3:G3')
+    ps.row_dimensions[3].height = 28
+    header(ps, 5, ['Level / year', 'Course #', 'Code (today)', 'Course', 'Hours', 'Moved from', 'Why it sits here'],
+           [16, 9, 13, 44, 8, 11, 70])
+    allc = {c['code']: (c, g) for g in active for c in g['courses']}
+    r = 6
+    level_rows = {}
+    for lvl in ['LT1', 'LT2', 'LT3', 'LT4', 'LT5']:
+        spec = (proposal['levels'].get(lvl) or {})
+        if spec:
+            seq = [(code, why) for code, why in spec['courses']]
+            theme = spec.get('theme', '')
+        else:
+            g = next(x for x in active if x['code'] == lvl)
+            seq = [(c['code'], 'Unchanged') for c in sorted(g['courses'], key=lambda c: c['order'])]
+            theme = 'Unchanged'
+        c0 = ps.cell(row=r, column=1, value=f"{lvl} ({YEAR[LEVEL_YEAR[lvl]]}): {theme}")
+        c0.font, c0.fill = bold, course_fill
+        for col in range(2, 8):
+            ps.cell(row=r, column=col).fill = course_fill
+        ps.merge_cells(start_row=r, start_column=1, end_row=r, end_column=7)
+        r += 1
+        first = r
+        for pos, (code, why) in enumerate(seq, start=1):
+            c, g = allc[code]
+            moved = g['code'] if g['code'] != lvl else ''
+            put(ps, r, [lvl, pos, code, c['title'], c['hours'], moved, why],
+                f=Font(name=F, size=10, bold=bool(moved), color='1F5FBF' if moved else '000000'))
+            ps.cell(row=r, column=5).number_format = '0.0'
+            r += 1
+        put(ps, r, [f'{lvl} total', None, None, f'=COUNTA(C{first}:C{r - 1})&" courses"', f'=SUM(E{first}:E{r - 1})', None, None], f=bold)
+        ps.cell(row=r, column=5).number_format = '0.0'
+        level_rows[lvl] = r
+        r += 2
+    put(ps, r, ['Year 1 total', None, None, 'LT1 + LT2', f"=E{level_rows['LT1']}+E{level_rows['LT2']}", None, None], f=bold)
+    put(ps, r + 1, ['Year 2 total', None, None, 'LT3 + LT4 + LT5', f"=E{level_rows['LT3']}+E{level_rows['LT4']}+E{level_rows['LT5']}", None, None], f=bold)
+    put(ps, r + 2, ['Two-year total', None, None, None, f'=E{r}+E{r + 1}', None, None], f=bold)
+    for k in range(r, r + 3):
+        ps.cell(row=k, column=5).number_format = '0.0'
+    ps.freeze_panes = 'A6'
+
 wb.move_sheet('Hours Budget', offset=1 - wb.sheetnames.index('Hours Budget'))
-wb.active = wb.sheetnames.index('Manager Updates')
+if 'Proposed Sequence' in wb.sheetnames:
+    wb.move_sheet('Proposed Sequence', offset=2 - wb.sheetnames.index('Proposed Sequence'))
+wb.active = wb.sheetnames.index('Proposed Sequence') if 'Proposed Sequence' in wb.sheetnames else wb.sheetnames.index('Manager Updates')
 dest = out / 'program-index.xlsx'
 wb.save(dest)
 print('Wrote', dest, 'index rows', last_pi - 1, 'courses', last_mu - 1, 'skills', last_su - 1)
