@@ -1,0 +1,455 @@
+code: LT2-C13
+title: "The Foundation: Safety First, Ownership and Work Ethic"
+order: 13
+estimated_hours: 9
+description: >
+  Opens Lighting Technician II by setting the foundation every later course builds on. Technicians
+  learn that their evolution is in their own hands (work ethic, commitment, attitude, about four hours
+  a week of their own study time, and advancement earned by demonstrated skill), then review all of
+  their LT1 safety training in detail, because nothing else can be built until safety is first and
+  foremost in every task. The course teaches a method for every task: name the hazards and choose
+  controls using the hierarchy of controls (elimination, substitution, engineering, administrative,
+  PPE last), worked through a relamp in an occupied store, a parking lot pole light at night, a
+  high-bay retrofit from a scissor lift, an emergency ballast change and attic work. Technicians learn
+  to stop, call their supervisor and suggest new or revised training when they are not trained to do a
+  task safely; to see the whole job before they start and ask for the full scope when they cannot; to
+  forecast the next seven steps so no one is idle and bottlenecks are removed; to treat questions as
+  their second foundation; to step back and check course; to keep pace only after the safety and task
+  are mastered; and to stay situationally aware so they are never caught off guard. A day-in-the-life
+  lesson ties it all together and introduces skills LT2-S24 and LT2-S25.
+objectives:
+  - Explain how work ethic, commitment, attitude and personal study time drive advancement, and that advancement is earned by demonstrated skill
+  - Describe the LT1 safety foundation in detail, including lockout and live-dead-live, ladders, lifts, heat and cold, hazardous materials, recycling and PCBs, public and biological hazards, vehicles, incident reporting and stop-work
+  - Identify the hazards of each step of a lighting task and select controls in hierarchy order, with PPE last
+  - Stop, make the area safe, call the supervisor and suggest new or revised training when not trained to do a task safely
+  - Envision a task from start to finish before starting, and ask for the full scope of work when any step is unclear
+  - Forecast the next steps of a live job, stage ahead and remove labor, equipment and material bottlenecks so no one is idle
+  - Ask specific, well-timed questions of the right person, including questions that verify what you think you know
+  - Step back during a task to check safety, quality, pace, flow, material and scope, and correct course
+  - Keep up with or exceed the pace of the crew only after the safety factors and the task are fully understood, without shortening any safety step
+  - Maintain situational awareness, adjust work practices and speed to changes, and stop and reassess when caught off guard
+lessons:
+  - 01-your-evolution-is-in-your-hands.md
+  - 02-safety-is-the-foundation.md
+  - 03-hazards-and-the-hierarchy-of-controls.md
+  - 04-when-you-dont-have-the-training.md
+  - 05-see-the-whole-job-before-you-start.md
+  - 06-think-seven-steps-ahead.md
+  - 07-questions-are-your-second-foundation.md
+  - 08-step-back-check-course-keep-the-pace.md
+  - 09-never-caught-off-guard.md
+  - 10-putting-it-together-a-professionals-day.md
+quiz:
+  pass_score: 80
+  questions_per_attempt: 10
+  questions:
+    - id: LT2-C13-Q01
+      type: single
+      q: How does a technician advance from one level to the next in our program?
+      choices:
+        - Automatically after the typical number of months
+        - By demonstrating skill through courses, on-the-job hours and evaluator sign-offs against written criteria
+        - By asking the supervisor for a promotion
+        - By working the most overtime
+      answer: 1
+      explanation: Advancement is earned by demonstrated skill. The typical duration is only a guide; evaluators sign off on what they see you do.
+      ref: LT2-C13 Lesson 1
+    - id: LT2-C13-Q02
+      type: single
+      q: About how much personal study time per week does this course say a technician should plan on, and whose responsibility is it?
+      choices:
+        - None; all learning happens on the job
+        - About 4 hours a week, and it is on you
+        - About 4 hours a month, scheduled by your supervisor
+        - Only the night before a quiz
+      answer: 1
+      explanation: Plan on about 4 hours of study a week on your own time. Investing in yourself is the biggest difference between techs who move up and techs who stall.
+      ref: LT2-C13 Lesson 1
+    - id: LT2-C13-Q03
+      type: single
+      q: You slept badly, feel foggy and are scheduled to work from a 12-ft ladder all morning. What should you do?
+      choices:
+        - Drink extra coffee and say nothing
+        - Tell your supervisor before the work starts so the plan can be adjusted
+        - Wait until you feel dizzy on the ladder, then mention it
+        - Work faster to finish before you get more tired
+      answer: 1
+      explanation: Fitness for duty is a hazard you bring with you. Tell your supervisor before you climb, not after a problem starts.
+      ref: LT2-C13 Lesson 1
+    - id: LT2-C13-Q04
+      type: single
+      q: What is the correct order of the hierarchy of controls, from most to least effective?
+      choices:
+        - PPE, administrative, engineering, substitution, elimination
+        - Elimination, substitution, engineering, administrative, PPE
+        - Engineering, elimination, PPE, administrative, substitution
+        - Administrative, PPE, elimination, engineering, substitution
+      answer: 1
+      explanation: Start at the top by trying to remove the hazard entirely. PPE is the last line of defense.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q05
+      type: single
+      q: You must relamp six troffers over a sales aisle in an open store. Which control is highest in the hierarchy?
+      choices:
+        - Wear safety glasses and gloves
+        - Put up a sign that says "Work Overhead"
+        - Ask whether the work can be done before opening or after close so no public is under you
+        - Tell customers to be careful
+      answer: 2
+      explanation: Doing the work when the store is closed eliminates the public hazard. Barricades, signs and PPE are still used, but they rank lower.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q06
+      type: multi
+      q: For a high-bay retrofit from a scissor lift in a warehouse with forklift traffic, match the controls correctly. Which of these statements are correct? (Select all that apply.)
+      choices:
+        - Asking the site to close the bay to forklift traffic while you work is elimination
+        - Barricading the area around the lift is an engineering control
+        - The lift pre-use inspection and a spotter are administrative controls
+        - A hard hat for the ground crew is the first control you should choose
+      answer: [0, 1, 2]
+      explanation: Removing the forklifts from the bay eliminates the hazard, barricades isolate people physically, inspections and spotters are ways of working, and PPE such as hard hats comes last, not first.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q07
+      type: single
+      q: You turned off and locked out the breaker for a fixture with an emergency battery ballast. What hazard is still present?
+      choices:
+        - None; the fixture is dead once the breaker is locked
+        - The battery can still energize the lamp or LED output leads, so it must be disconnected and the conductors verified
+        - Only the risk of a dropped lens
+        - Only a hazard from the wall switch
+      answer: 1
+      explanation: The breaker does not make an emergency fixture dead. Disconnect the battery before touching wiring, verify every conductor, and reconnect the battery last.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q08
+      type: single
+      q: A trainee says, "The control for falling through the attic ceiling is that I'll be careful where I step." What is wrong with that?
+      choices:
+        - Nothing; being careful is the best control
+        - '"Be careful" is not a control; use a walk board across the joists (engineering) and step only on framing (administrative)'
+        - The trainee should wear a dust mask instead
+        - Attic ceilings cannot be fallen through
+      answer: 1
+      explanation: If the only thing between you and a hazard is your attention, you have not controlled it. Go back up the hierarchy.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q09
+      type: multi
+      q: You are the ground person for a pole fixture replacement in a parking lot at night. Which hazards should you name in the pre-task brief? (Select all that apply.)
+      choices:
+        - Vehicles and pedestrians driving or walking into the work zone
+        - Overhead power lines near the lift
+        - A time clock or photocell turning the lot lighting back on
+        - Dropped parts from the platform
+        - None; the ground person has no hazards to worry about
+      answer: [0, 1, 2, 3]
+      explanation: Traffic, power lines, controls that re-energize the circuit and falling objects are all hazards. The ground person is a control for several of them.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q10
+      type: single
+      q: Which hierarchy level do cones, a vehicle parked to shield the work, beacons and work lights around a parking lot pole belong to?
+      choices:
+        - Elimination
+        - Engineering controls
+        - PPE
+        - Substitution
+      answer: 1
+      explanation: They physically separate people and vehicles from the hazard and improve visibility. They are engineering controls. The hi-vis vest is PPE.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q11
+      type: single
+      q: When a retrofit kit's wiring is simple, you could wear gloves and work with the circuit energized "to save time." What does the hierarchy of controls tell you?
+      choices:
+        - Gloves are enough if they are rated
+        - Start at the top; de-energizing and locking out eliminates the shock hazard and comes before relying on PPE
+        - It depends on how fast the crew is going
+        - The hierarchy only applies to falls
+      answer: 1
+      explanation: Never jump straight to PPE. Lockout and verification remove the voltage; gloves are still worn for verification, but they are not the main control.
+      ref: LT2-C13 Lesson 3
+    - id: LT2-C13-Q12
+      type: single
+      q: You arrive at a job and the lift on site is a boom lift. You have only been trained and familiarized on scissor lifts. What should you do?
+      choices:
+        - Operate it carefully; the controls are probably similar
+        - Watch a video on your phone, then operate it
+        - Stop, do not operate it, and call your supervisor for direction
+        - Ask the customer's maintenance person to show you
+      answer: 2
+      explanation: You may not operate a lift you are not trained, familiarized and authorized on. Stop, make it safe, call your supervisor, and suggest training if it is a gap.
+      ref: LT2-C13 Lesson 4
+    - id: LT2-C13-Q13
+      type: multi
+      q: Which are signs that you do not have the training to do a task safely? (Select all that apply.)
+      choices:
+        - You have never done the task on this type of equipment
+        - You cannot name the hazards and controls for each step
+        - You don't know what the next step is
+        - The task requires an authorization you do not have
+        - You have done the task correctly many times under supervision and your trainer signed you off
+      answer: [0, 1, 2, 3]
+      explanation: A new task or model, missing hazard knowledge, not knowing the next step and missing authorization are all signs to stop and call.
+      ref: LT2-C13 Lesson 4
+    - id: LT2-C13-Q14
+      type: single
+      q: After stopping a task you were not trained for, how should you suggest new or revised training?
+      choices:
+        - You shouldn't; training is decided only by management
+        - Use the feedback/suggestion button in the training app or tell your supervisor, with specific details of what you ran into
+        - Post about it on social media
+        - Wait until your annual review
+      answer: 1
+      explanation: Boots on the ground drive training. A specific suggestion (the task, what was missing, what would have helped, a photo if allowed) helps the next tech.
+      ref: LT2-C13 Lesson 4
+    - id: LT2-C13-Q15
+      type: single
+      q: When you call your supervisor about a task you are not trained for, which message is best?
+      choices:
+        - '"I can''t do this one."'
+        - '"Where you are and the task, what you found, what you are and are not trained for, what you did to make it safe, and the options you see."'
+        - '"The customer wants it done, so I''m going to try."'
+        - '"I''ll explain when I get back to the shop."'
+      answer: 1
+      explanation: Giving the whole picture in that order lets your supervisor make a fast, safe decision.
+      ref: LT2-C13 Lesson 4
+    - id: LT2-C13-Q16
+      type: single
+      q: You started a task and only halfway through realized you had never been trained on that type of equipment. Nobody was hurt. What else should you do besides stopping and calling?
+      choices:
+        - Nothing; nobody was hurt
+        - Report it as a near miss and suggest training to close the gap
+        - Finish quickly so nobody notices
+        - Leave it off the work order
+      answer: 1
+      explanation: It is a near miss. Honest near-miss reports are how our company fixes gaps before someone gets hurt.
+      ref: LT2-C13 Lesson 4
+    - id: LT2-C13-Q17
+      type: single
+      q: Your trainer says, "Go replace the head on pole 7." You can picture the first few steps but not how the old head comes down or where it goes. What should you do?
+      choices:
+        - Start and figure out the rest when you get there
+        - Ask your trainer for the full scope of work before you start
+        - Wait in the truck until someone tells you
+        - Copy what you did on a different kind of job
+      answer: 1
+      explanation: If you can't see the whole job or don't know the next step, ask for the full scope first. If you don't know the next step, you don't know the next hazard.
+      ref: LT2-C13 Lesson 5
+    - id: LT2-C13-Q18
+      type: multi
+      q: Which steps are part of "seeing the whole job" for a task? (Select all that apply.)
+      choices:
+        - Testing, cleanup, recycling, photos and paperwork
+        - Controls such as time clocks, photocells and sensors that could re-energize or affect the fixtures
+        - Where removed fixtures and recycle will go
+        - Only the steps where you are actually holding tools
+      answer: [0, 1, 2]
+      explanation: The end of the job, the controls and where things go are the gaps new techs most often miss.
+      ref: LT2-C13 Lesson 5
+    - id: LT2-C13-Q19
+      type: single
+      q: When is the best time to read the work order and write down your questions about a job?
+      choices:
+        - At the shop, before you leave
+        - In the parking lot at the site
+        - After the first fixture
+        - At the end of the day
+      answer: 0
+      explanation: Answers are easiest to get at the shop, and they change what you load. A gap found at the shop is a phone call; on site it can be a wasted trip.
+      ref: LT2-C13 Lesson 5
+    - id: LT2-C13-Q20
+      type: single
+      q: Your crew lead is on a scissor lift installing high-bay kit 4 of a row. You are the ground person. What is the best thing to be doing right now?
+      choices:
+        - Waiting at the base of the lift until you are asked for something
+        - Pre-assembling kit 5, staging material under the next position and checking the remaining kit count
+        - Checking your phone since the lead is busy
+        - Moving the lift to the next position while the lead is up
+      answer: 1
+      explanation: Forecast the next steps so every bit of manpower is used. Moving the lift is not the ground person's call while the lead is working on the platform.
+      ref: LT2-C13 Lesson 6
+    - id: LT2-C13-Q21
+      type: single
+      q: Midshift, your count shows the crew will run out of connectors about two hours into tomorrow's shift. What should you do?
+      choices:
+        - Wait until you run out, then call
+        - Tell your lead and call your supervisor today so material can be sent before it runs out
+        - Use whatever connectors are in the truck without asking
+        - Skip connectors on some fixtures
+      answer: 1
+      explanation: Call for material before it runs out. The earlier the call, the less likely the crew is to stand idle.
+      ref: LT2-C13 Lesson 6
+    - id: LT2-C13-Q22
+      type: multi
+      q: Which are good ways to remove bottlenecks on a retrofit job? (Select all that apply.)
+      choices:
+        - Stage the next fixture's material and ladder before the current fixture is done
+        - Prep the next area (barricade, material, obstructions) while the lift is moving
+        - Keep the next empty recycle box built and waiting
+        - Skip live-dead-live verification on fixtures in the same row to save time
+      answer: [0, 1, 2]
+      explanation: Staging, prepping ahead and keeping recycle moving remove waiting. Safety steps are never removed to save time.
+      ref: LT2-C13 Lesson 6
+    - id: LT2-C13-Q23
+      type: single
+      q: The site contact asks your crew to move the lift to a different aisle because of a delivery. Besides re-forecasting the work, what must you do?
+      choices:
+        - Nothing; only the location changed
+        - Re-check the hazards and controls for the new aisle, such as the travel path, overhead obstructions, barricades and which circuits are locked out
+        - Keep the old barricades where they were
+        - Work faster to make up the lost time
+      answer: 1
+      explanation: Every change in the plan is a change in the hazards. Re-run the hazard-and-control check for the new location.
+      ref: LT2-C13 Lesson 6
+    - id: LT2-C13-Q24
+      type: single
+      q: "Example figures only (hypothetical): a crew has 60 fixtures left and about 5 hours of work time, and can do about 10 an hour. What is the right response?"
+      choices:
+        - Say nothing and see what happens
+        - Skip quality checks to go faster
+        - Forecast the shortfall now and raise options with the lead, such as better staging or splitting tasks, or tell the supervisor early if the gap remains
+        - Skip lockout on the last few fixtures
+      answer: 2
+      explanation: At 10 an hour the crew finishes about 50 of 60. Forecasting it early lets the crew adjust or the supervisor change the schedule, never by cutting safety or quality.
+      ref: LT2-C13 Lesson 6
+    - id: LT2-C13-Q25
+      type: single
+      q: You are fairly sure the next row of troffers is on the same circuit you already locked out. What should you do?
+      choices:
+        - Start work; you are fairly sure
+        - Ask your trainer to confirm, then verify absence of voltage at the fixture anyway
+        - Only check if the lights look off
+        - Ask after you finish the row
+      answer: 1
+      explanation: Ask even when you think you know, to verify you haven't missed something. Then verify dead at the fixture regardless.
+      ref: LT2-C13 Lesson 7
+    - id: LT2-C13-Q26
+      type: single
+      q: Which question is the best example of a good question to your trainer?
+      choices:
+        - '"How do I do this?"'
+        - '"Why do we always have to box the lamps?"'
+        - '"I think we lock out breakers 14 and 16 because the schedule shows two circuits for this area. Is that right?"'
+        - '"Can you do this one for me?"'
+      answer: 2
+      explanation: A good question is specific and shows your thinking, so your trainer can correct exactly what you have wrong.
+      ref: LT2-C13 Lesson 7
+    - id: LT2-C13-Q27
+      type: single
+      q: The store will have a delivery tonight and you need to know where your crew may stage material and where removed fixtures go. Who should you ask?
+      choices:
+        - The site contact
+        - The fixture manufacturer
+        - Another customer in the store
+        - Nobody; put it wherever there is room
+      answer: 0
+      explanation: The site contact answers questions about the site, such as access, hours, staging and storage, panels and who else is working.
+      ref: LT2-C13 Lesson 7
+    - id: LT2-C13-Q28
+      type: single
+      q: Your trainer is on a ladder verifying absence of voltage in a fixture. You have a non-urgent question about tomorrow's job. What should you do?
+      choices:
+        - Ask right away so you don't forget
+        - Write it on your question list and ask when the trainer has finished the step
+        - Shake the ladder to get their attention
+        - Never ask it
+      answer: 1
+      explanation: Pick your moment for non-urgent questions. Safety questions are always the right time; others wait until the step is finished.
+      ref: LT2-C13 Lesson 7
+    - id: LT2-C13-Q29
+      type: multi
+      q: You are about to start replacing a type of driver you have not installed before. Which questions should you ask before you start? (Select all that apply.)
+      choices:
+        - What is different about this driver from the one we used before, and where are the instructions?
+        - What are the hazards and controls for this task, and when would we stop?
+        - What is the next step after the driver is in, and how do we test it?
+        - Can I skip reading the instructions since drivers are all the same?
+      answer: [0, 1, 2]
+      explanation: Question everything you don't have full working knowledge of, including the product, the hazards, the next steps and the test.
+      ref: LT2-C13 Lesson 7
+    - id: LT2-C13-Q30
+      type: single
+      q: After the first fixture of a 30-fixture row, what should you do?
+      choices:
+        - Keep going; checking takes too long
+        - Step back and look at it from the floor for alignment, security, fit and cleanliness before doing the rest the same way
+        - Wait until the end of the row to check
+        - Ask the customer to check it
+      answer: 1
+      explanation: Step back after the first one. If something is wrong, only one is wrong, and you fix it before it repeats.
+      ref: LT2-C13 Lesson 8
+    - id: LT2-C13-Q31
+      type: single
+      q: When should a new technician start pushing their pace and competing with the trainer on a task?
+      choices:
+        - From the first day, to make a good impression
+        - Only after having a firm grip on the safety factors and fully understanding the task, the next step and the steps beyond
+        - Only when the job is behind schedule
+        - Never; pace does not matter
+      answer: 1
+      explanation: Keep up and compete, but only after you pass the gate. Pace built on shaky safety or a task you don't understand gets people hurt.
+      ref: LT2-C13 Lesson 8
+    - id: LT2-C13-Q32
+      type: multi
+      q: Which steps never speed up, even when you are behind or racing a crew member? (Select all that apply.)
+      choices:
+        - Lockout and live-dead-live verification
+        - Ladder inspection, setup and three points of contact
+        - Walking briskly to the truck for the next box of material
+        - Lift inspection and walking the travel path
+      answer: [0, 1, 3]
+      explanation: Pace comes from planning, forecasting and moving with purpose between steps, never from shortening safety steps. Walking briskly when it is safe is part of keeping pace.
+      ref: LT2-C13 Lesson 8
+    - id: LT2-C13-Q33
+      type: single
+      q: You are working on a locked-out row when the lights in the next row come back on unexpectedly. What should you do?
+      choices:
+        - Keep working; it is a different row
+        - Stop, get clear of the fixture, find out why, and re-verify your circuit is dead before anyone touches it
+        - Remove your lock to check the breaker
+        - Speed up to finish before something else happens
+      answer: 1
+      explanation: A change like this may mean a second circuit, a back-feed, an emergency pack or a removed lock. Stop and reassess.
+      ref: LT2-C13 Lesson 9
+    - id: LT2-C13-Q34
+      type: single
+      q: A store employee moves your caution tape to push a cart into the aisle under your ladder. What is the right response?
+      choices:
+        - Keep working and hope the cart misses the ladder
+        - Stop work and hold on, keep the employee out from under you, restore the barricade, and ask the manager to remind staff before you continue
+        - Climb down and leave the site
+        - Yell at the employee
+      answer: 1
+      explanation: Notice the change, stop, restore the controls (barricade, communication) and reassess whether someone should guard the aisle while you finish.
+      ref: LT2-C13 Lesson 9
+    - id: LT2-C13-Q35
+      type: single
+      q: The course says, "If you are caught off guard, you weren't paying attention." What should you do when it happens?
+      choices:
+        - Ignore it as bad luck
+        - Stop, make the immediate situation safe, reassess what changed, fix the controls, tell the crew and report a near miss if someone could have been hurt
+        - Work faster so it doesn't happen again
+        - Blame the customer
+      answer: 1
+      explanation: Being surprised means something got past your awareness. Stop, reassess, fix it, share it and learn what you missed.
+      ref: LT2-C13 Lesson 9
+    - id: LT2-C13-Q36
+      type: multi
+      q: Which items belong in a pre-task safety and planning brief? (Select all that apply.)
+      choices:
+        - The task and the whole sequence, start to finish
+        - The hazards and the controls, in hierarchy order
+        - Confirmation that everyone is trained and authorized for their part
+        - The equipment and material needed and the next steps
+        - When we would stop
+      answer: [0, 1, 2, 3, 4]
+      explanation: A complete brief covers all of these. You will lead one for skill LT2-S24.
+      ref: LT2-C13 Lessons 3 and 10
+    - id: LT2-C13-Q37
+      type: single
+      q: In an attic, on the way to a recessed fixture, you find the housing buried under loose, pebble-like insulation that may be vermiculite. What should you do?
+      choices:
+        - Push the insulation aside wearing a dust mask
+        - Stop without disturbing it, back out, keep the area safe, call your supervisor, and suggest training if it is a gap
+        - Finish the job quickly before the attic gets hotter
+        - Ask the office worker below whether it is asbestos
+      answer: 1
+      explanation: Suspected asbestos is a stop-and-call. A dust mask (PPE) is not a control for a hazard you are not trained to work around.
+      ref: LT2-C13 Lesson 10

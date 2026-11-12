@@ -419,3 +419,53 @@ skills:
       lockout kit and meter for every person) and secures the load, ladders and any lift
     - Checks items off as they are loaded and counts expensive or customer-supplied material
     - Reports shortages or proposed substitutions to the supervisor before leaving the shop
+  - code: LT2-S24
+    title: Lead a pre-task safety and planning brief for an assigned task
+    category: Safety
+    critical: true
+    description: Given an assigned lighting task (real or a realistic scenario such as a relamp in an occupied store, a
+      parking lot pole light at night, a high-bay retrofit from a scissor lift, an emergency ballast change or attic work),
+      the technician leads the crew's pre-task brief without prompting, covering hazards, controls in hierarchy order,
+      training and authorization, the whole sequence, next steps, material and equipment, and stop points (LT2-C13).
+    equipment:
+    - work order or project specifics sheet for the task
+    - access to the work area or photos and a description of it
+    - the crew (or the evaluator acting as the crew)
+    criteria:
+    - States the task and what done looks like, and walks or describes the work area before the brief
+    - Names the hazards for each step, including electrical, falls, falling objects, the public or traffic, stored energy
+      (emergency batteries, capacitors), environment (heat, cold, weather, attic) and materials (lamps, PCB ballasts)
+    - Chooses controls for each hazard in hierarchy order (elimination, substitution, engineering, administrative, PPE)
+      and explains why PPE is not the first choice; never offers "be careful" as a control
+    - Confirms that each person is trained and authorized for their part (for example lift operation) and states that the
+      task stops and the supervisor is called if anyone is not
+    - Sequences the whole task from arrival to closeout, including lockout and live-dead-live verification, testing,
+      cleanup, recycling and paperwork
+    - States the next steps after the task and what material and equipment are needed and where they will be staged
+    - Identifies what is likely to change during the task (opening time, traffic, weather, darkness, other trades) and how
+      the crew will adjust
+    - States clearly when the crew would stop work and who would be called
+    - Asks the crew for questions and answers or escalates them before work starts
+  - code: LT2-S25
+    title: Forecast and keep the crew productive on a live job
+    category: Work Practices
+    critical: false
+    description: On a live job of at least half a shift with a trainer or crew, the evaluator observes the technician
+      thinking ahead, keeping people, equipment and material moving, asking questions, stepping back to check course,
+      keeping pace safely and reacting to a change in the surroundings (LT2-C13).
+    equipment:
+    - a live multi-fixture job (service or project) with at least one other crew member
+    - the work order or project specifics sheet
+    criteria:
+    - When asked at any point, states the current step and the next several steps, and the material and equipment each
+      needs
+    - Stages fixtures, kits, ladders and material ahead of need so no one waits, and preps the next area while equipment
+      is moving
+    - Is never idle; when about to be idle, says so and takes a useful backlog task (recycle, kits, cleanup, counts)
+    - Identifies at least one labor, equipment or material bottleneck and removes it or reports it to the lead
+    - Tracks material counts and calls for material before it runs out
+    - Asks specific, well-timed questions, including questions that verify what they think they know
+    - Steps back at least twice during the task to check safety, quality, pace and flow, and corrects course
+    - Keeps up with the crew's pace without shortening lockout, verification, ladder, lift or barricade steps
+    - Notices a change in the surroundings (people, vehicles, power, weather), calls it out to the crew, adjusts work
+      practices or speed, and re-checks the affected hazards and controls
