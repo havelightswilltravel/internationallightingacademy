@@ -1,0 +1,1172 @@
+<title>Flashing Pole Light</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{
+  color-scheme:dark;
+  --navy:#0b1426;--navy2:#111d35;--navy3:#18284a;--line:#2a3c62;--line2:#3a5080;
+  --orange:#ff8a1f;--orange-soft:rgba(255,138,31,.14);
+  --text:#e9eef8;--muted:#a3b2cc;--dim:#7586a6;
+  --good:#3fd99a;--good-soft:rgba(63,217,154,.12);
+  --bad:#ff6464;--bad-soft:rgba(255,100,100,.13);
+  --warn:#ffd166;--warn-soft:rgba(255,209,102,.12);
+  --head:'Barlow Condensed','Saira Condensed','Roboto Condensed','Arial Narrow',sans-serif;
+  --body:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--navy);color:var(--text)}
+body{font:16px/1.5 var(--body);-webkit-text-size-adjust:100%;overflow-x:hidden}
+.wrap{max-width:880px;margin:0 auto;padding:14px max(16px,env(safe-area-inset-right,0px)) 48px max(16px,env(safe-area-inset-left,0px))}
+h1,h2,h3{font-family:var(--head);font-stretch:condensed;letter-spacing:.01em;line-height:1.1;margin:0}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px;border-radius:6px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* header */
+.top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:space-between}
+.brand{min-width:0}
+.eyebrow{font:600 12px/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.top h1{font-size:30px;font-weight:700;text-transform:uppercase}
+.top-r{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.pill{background:var(--navy2);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-weight:600;font-size:14px;white-space:nowrap}
+.pill b{font-family:var(--head);font-size:20px;color:var(--orange);margin-left:4px;vertical-align:-1px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:10px 18px;border-radius:10px;border:1.5px solid var(--line2);background:var(--navy3);cursor:pointer;font-weight:600}
+.btn:hover{border-color:var(--orange)}
+.btn.primary{background:var(--orange);border-color:var(--orange);color:#1a0f02}
+.btn.primary:hover{background:#ffa04a}
+.btn.small{min-height:38px;padding:6px 12px;font-size:14px}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.confirm{display:none;margin-top:10px;padding:10px 12px;border:1px solid var(--orange);background:var(--orange-soft);border-radius:10px;font-size:14px}
+.confirm.show{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+
+/* progress */
+.progress{margin:14px 0 10px}
+.prog-row{display:flex;gap:4px}
+.seg{flex:1;height:8px;border-radius:4px;background:var(--navy3);border:1px solid var(--line)}
+.seg.done{background:var(--good);border-color:var(--good)}
+.seg.now{background:var(--orange);border-color:var(--orange)}
+.prog-label{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--muted);margin-top:6px}
+
+/* scene */
+.scene{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#050a18}
+.scene svg{display:block;width:100%;height:auto;max-height:300px}
+.scene-cap{position:absolute;left:10px;top:8px;font-size:12px;color:var(--muted);background:rgba(5,10,24,.7);padding:2px 8px;border-radius:6px}
+.flash-tag{display:none;position:absolute;right:10px;top:8px;font:700 13px/1.2 var(--body);color:#1a0f02;background:var(--warn);padding:4px 8px;border-radius:6px;text-transform:uppercase;letter-spacing:.04em}
+.lamp{transform-box:fill-box}
+svg.pat-cycle .lamp{animation:pcycle 7s infinite}
+svg.pat-dimdrop .lamp{animation:pdim 9s infinite}
+svg.pat-flicker .lamp{animation:pflick 2.8s infinite}
+svg.pat-steady .lamp{animation:none;opacity:1}
+@keyframes pcycle{0%,60%{opacity:1}64%,88%{opacity:.04}92%,100%{opacity:1}}
+@keyframes pdim{0%,45%{opacity:1}55%{opacity:.55}62%{opacity:.25}66%,80%{opacity:.03}86%{opacity:.5}92%,100%{opacity:1}}
+@keyframes pflick{0%,3%{opacity:1}5%{opacity:.25}8%,40%{opacity:1}43%{opacity:.15}47%,70%{opacity:.9}73%{opacity:.3}77%,100%{opacity:1}}
+.fade{transition:opacity .6s}
+.hidden{opacity:0;pointer-events:none}
+@media (prefers-reduced-motion:reduce){
+  svg .lamp{animation:none!important;opacity:.85}
+  .scene:not(.steady) .flash-tag{display:block}
+  .fade{transition:none}
+}
+
+/* values */
+.values{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+.val{font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.val.on{border-color:var(--orange);color:var(--orange);background:var(--orange-soft)}
+
+/* notebook */
+details.notebook{margin:10px 0 0;border:1px solid var(--line);border-radius:12px;background:var(--navy2)}
+details.notebook summary{cursor:pointer;padding:10px 14px;font-weight:600;list-style-position:inside}
+details.notebook ul{margin:0;padding:0 14px 12px 32px;font-size:14px;color:var(--muted)}
+details.notebook li{margin:4px 0}
+details.notebook li b{color:var(--text)}
+
+/* card */
+.card{margin-top:14px;background:var(--navy2);border:1px solid var(--line);border-radius:16px;padding:18px}
+.kicker{font:700 13px/1.2 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin:0 0 6px}
+.card h2{font-size:30px;font-weight:700;margin-bottom:8px}
+.card h2:focus{outline:none}
+.prompt{color:var(--text)}
+.prompt p{margin:6px 0}
+.prompt .muted,.muted{color:var(--muted);font-size:14px}
+.ticket{border:1px dashed var(--line2);border-radius:12px;padding:12px 14px;margin:10px 0;background:var(--navy)}
+.ticket dt{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--dim)}
+.ticket dd{margin:0 0 8px}
+.choices{margin-top:10px}
+.opt{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:var(--navy);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;margin:8px 0;cursor:pointer;line-height:1.35}
+.opt:hover:not([disabled]){border-color:var(--line2)}
+.opt .box{flex:0 0 20px;height:20px;border:2px solid var(--line2);border-radius:5px;margin-top:1px;display:grid;place-items:center;font-size:13px;font-weight:800}
+.opt.radio .box{border-radius:50%}
+.opt[aria-pressed="true"]{border-color:var(--orange);background:var(--orange-soft)}
+.opt[aria-pressed="true"] .box{background:var(--orange);border-color:var(--orange);color:#1a0f02}
+.opt[aria-pressed="true"] .box::after{content:"\2713"}
+.opt[disabled]{cursor:default}
+.opt .txt{flex:1;min-width:0}
+.opt .note{display:block;font-size:13.5px;margin-top:4px;color:var(--muted)}
+.opt.m-good{border-color:var(--good);background:var(--good-soft)}
+.opt.m-bad{border-color:var(--bad);background:var(--bad-soft)}
+.opt.m-miss{border-color:var(--warn);border-style:dashed;background:var(--warn-soft)}
+.opt.m-neutral{opacity:.75}
+.tag{display:inline-block;font:700 11px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:3px 6px;border-radius:4px;margin-right:6px;vertical-align:1px}
+.tag.good{background:var(--good);color:#04241a}.tag.bad{background:var(--bad);color:#2a0505}.tag.miss{background:var(--warn);color:#2a1d00}.tag.neutral{background:var(--line2);color:var(--text)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
+.hint{font-size:13px;color:var(--muted)}
+
+/* feedback */
+.fb{margin-top:14px}
+.fb:empty{display:none}
+.fbox{border-radius:12px;padding:12px 14px;border:1px solid var(--line2);background:var(--navy3)}
+.fbox.good{border-color:var(--good)}
+.fbox.mixed{border-color:var(--warn)}
+.fbox.bad{border-color:var(--bad)}
+.fbox h3{font-size:22px;margin-bottom:4px}
+.fbox p{margin:6px 0}
+.fbox ul{margin:6px 0;padding-left:20px}
+.pts{font-weight:700;color:var(--orange)}
+
+/* stop work */
+.stop{border:2px solid var(--bad);background:linear-gradient(180deg,rgba(255,100,100,.18),rgba(255,100,100,.06));border-radius:14px;padding:16px}
+.stop h3{font-size:30px;color:#ffb3b3;text-transform:uppercase}
+.stop ul{padding-left:20px;margin:8px 0}
+.stop li{margin:6px 0}
+
+/* classify */
+.crow{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:8px 0;background:var(--navy)}
+.crow .ctext{margin-bottom:8px;line-height:1.35}
+.lvls{display:flex;flex-wrap:wrap;gap:6px}
+.lvl{min-height:38px;min-width:58px;padding:6px 10px;border-radius:8px;border:1.5px solid var(--line2);background:var(--navy2);cursor:pointer;font-size:14px;font-weight:600}
+.lvl[aria-pressed="true"]{background:var(--orange);border-color:var(--orange);color:#1a0f02}
+.crow.m-good{border-color:var(--good)}.crow.m-bad{border-color:var(--bad)}
+.crow .note{font-size:13.5px;color:var(--muted);margin-top:6px}
+.pyramid{display:grid;gap:3px;margin:10px 0}
+.pyramid div{padding:5px 10px;border-radius:6px;font-size:13px;font-weight:600;background:var(--navy3);border-left:4px solid var(--orange)}
+
+/* ordering */
+.order-grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:720px){.order-grid{grid-template-columns:1fr 1fr}}
+.order-grid h3{font-size:18px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.olist{list-style:none;margin:0;padding:0;counter-reset:o}
+.olist li{counter-increment:o;display:flex;gap:10px;align-items:flex-start;padding:10px 12px;margin:6px 0;border:1.5px solid var(--orange);border-radius:10px;background:var(--orange-soft);line-height:1.35}
+.olist li::before{content:counter(o);flex:0 0 26px;height:26px;border-radius:50%;background:var(--orange);color:#1a0f02;font-weight:800;display:grid;place-items:center;font-size:14px}
+.olist li.m-good{border-color:var(--good);background:var(--good-soft)}
+.olist li.m-good::before{background:var(--good)}
+.olist li.m-off{border-color:var(--warn);background:var(--warn-soft)}
+.olist li.m-off::before{background:var(--warn)}
+.olist .empty{border-style:dashed;border-color:var(--line);background:none;color:var(--dim)}
+.olist .empty::before{background:var(--line);color:var(--text)}
+
+/* tests */
+.tests .opt .cost{display:block;font-size:12.5px;color:var(--dim);margin-top:3px}
+.log{list-style:none;padding:0;margin:10px 0 0}
+.log li{border-left:4px solid var(--orange);background:var(--navy);padding:8px 12px;margin:6px 0;border-radius:0 8px 8px 0;font-size:14.5px}
+.log li b{display:block;font-size:13px;color:var(--muted);font-weight:600}
+.guide{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}
+.guide th,.guide td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+.guide th{color:var(--muted);font-weight:600}
+.guide td:last-child,.guide th:last-child{text-align:right}
+
+/* report */
+.rows{margin:12px 0}
+.rrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;margin:12px 0}
+.rrow .rn{font-weight:600}
+.rrow .rv{font-family:var(--head);font-size:22px;font-weight:700}
+.bar{grid-column:1/-1;height:10px;border-radius:5px;background:var(--navy3);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--orange)}
+.bar.ok i{background:var(--good)}.bar.no i{background:var(--bad)}
+.rrow .rnote{grid-column:1/-1;font-size:14px;color:var(--muted)}
+.verdict{border-radius:14px;padding:14px 16px;margin:12px 0;border:2px solid var(--good);background:var(--good-soft)}
+.verdict.fail{border-color:var(--bad);background:var(--bad-soft)}
+.verdict h3{font-size:28px;text-transform:uppercase}
+.foot{margin-top:18px;font-size:12.5px;color:var(--dim)}
+@media (max-width:480px){
+  .top h1{font-size:26px}
+  .card{padding:14px}
+  .card h2{font-size:26px}
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;600;700&display=swap">
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <div class="eyebrow">LT3 Exterior · Show me</div>
+      <h1>Flashing Pole Light</h1>
+    </div>
+    <div class="top-r">
+      <span class="pill" id="jobPill">Job #----</span>
+      <span class="pill">Score<b id="scoreNum">0</b></span>
+      <button class="btn small" id="newJobBtn" type="button">New job</button>
+    </div>
+  </header>
+  <div class="confirm" id="confirmNew" role="group" aria-label="Confirm new job">
+    <span>Start over with a new random fault? This run's progress will be lost.</span>
+    <button class="btn small primary" id="confirmYes" type="button">Yes, new job</button>
+    <button class="btn small" id="confirmNo" type="button">Keep going</button>
+  </div>
+
+  <nav class="progress" aria-label="Job stages">
+    <div class="prog-row" id="progRow"></div>
+    <div class="prog-label"><span id="progText">Job brief</span><span id="progCount"></span></div>
+  </nav>
+
+  <div class="scene" id="scene">
+    <svg id="sceneSvg" class="pat-cycle" viewBox="0 0 600 250" preserveAspectRatio="xMidYMax slice" role="img" aria-labelledby="sceneTitle">
+      <title id="sceneTitle">Night parking lot with a flashing pole light</title>
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#040815"/><stop offset="1" stop-color="#0d1a36"/></linearGradient>
+        <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6cf" stop-opacity=".75"/><stop offset="1" stop-color="#fff6cf" stop-opacity=".04"/></linearGradient>
+        <radialGradient id="poolGrad" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff3c0" stop-opacity=".55"/><stop offset="1" stop-color="#fff3c0" stop-opacity="0"/></radialGradient>
+        <linearGradient id="cone2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6cf" stop-opacity=".45"/><stop offset="1" stop-color="#fff6cf" stop-opacity=".02"/></linearGradient>
+        <linearGradient id="wpBeam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#cfe3ff" stop-opacity=".5"/><stop offset="1" stop-color="#cfe3ff" stop-opacity="0"/></linearGradient>
+      </defs>
+      <rect width="600" height="250" fill="url(#sky)"/>
+      <g fill="#c9d6ff" opacity=".6"><circle cx="40" cy="20" r="1"/><circle cx="210" cy="14" r="1.2"/><circle cx="270" cy="40" r=".8"/><circle cx="470" cy="18" r="1"/><circle cx="540" cy="52" r=".8"/><circle cx="120" cy="34" r=".9"/><circle cx="420" cy="60" r=".7"/></g>
+      <!-- overhead utility lines -->
+      <g stroke="#3b4a6b" stroke-width="1.4" fill="none">
+        <path d="M230 26 Q410 40 590 30"/><path d="M230 34 Q410 48 590 38"/>
+      </g>
+      <rect x="584" y="22" width="6" height="190" fill="#3a2e22"/><rect x="574" y="26" width="26" height="4" fill="#3a2e22"/>
+      <!-- building -->
+      <rect x="0" y="70" width="170" height="135" fill="#121c31"/>
+      <rect x="0" y="64" width="176" height="8" fill="#18243d"/>
+      <g fill="#1f3156"><rect x="16" y="90" width="26" height="18"/><rect x="56" y="90" width="26" height="18"/><rect x="96" y="90" width="26" height="18"/><rect x="16" y="124" width="26" height="18"/><rect x="56" y="124" width="26" height="18" fill="#3a4a2a" opacity=".7"/></g>
+      <rect x="130" y="160" width="28" height="45" fill="#0c1424"/>
+      <!-- electrical panel + lock -->
+      <rect x="100" y="150" width="18" height="24" rx="2" fill="#2c3b5a" stroke="#4a5d86"/>
+      <g id="lockIcon" class="fade hidden">
+        <rect x="104" y="166" width="12" height="10" rx="2" fill="#ff3b3b"/>
+        <path d="M106.5 166v-3a3.5 3.5 0 0 1 7 0v3" stroke="#ff3b3b" stroke-width="2" fill="none"/>
+        <rect x="117" y="168" width="10" height="13" rx="1" fill="#ffd166"/>
+      </g>
+      <!-- wall pack -->
+      <rect x="166" y="104" width="10" height="8" rx="1" fill="#9fb6e8"/>
+      <polygon id="wpBeamShape" points="176,104 176,112 345,58 345,40" fill="url(#wpBeam)" class="fade hidden"/>
+      <!-- ground -->
+      <rect x="0" y="204" width="600" height="46" fill="#0e1528"/>
+      <g stroke="#2d3a58" stroke-width="2"><path d="M200 206 L190 248"/><path d="M265 206 L262 248"/><path d="M430 206 L438 248"/><path d="M500 206 L512 248"/></g>
+      <rect x="300" y="200" width="70" height="8" rx="3" fill="#1d2b22"/>
+      <!-- background pole (steady) -->
+      <rect x="518" y="110" width="3" height="96" fill="#56627c"/>
+      <rect x="512" y="107" width="18" height="5" rx="1" fill="#7c8aa6"/>
+      <polygon points="513,112 529,112 556,206 488,206" fill="url(#cone2)"/>
+      <!-- main pole light cone + pool (animated) -->
+      <ellipse class="lamp" cx="368" cy="210" rx="82" ry="12" fill="url(#poolGrad)"/>
+      <polygon class="lamp" points="353,58 383,58 438,208 300,208" fill="url(#cone)"/>
+      <!-- cars -->
+      <g id="cars">
+        <g transform="translate(205 186)"><rect x="0" y="6" width="54" height="16" rx="5" fill="#2b3f6b"/><path d="M9 6 L16 -4 H38 L46 6Z" fill="#22355b"/><rect x="17" y="-2" width="9" height="7" fill="#5b7099" opacity=".6"/><rect x="28" y="-2" width="9" height="7" fill="#5b7099" opacity=".6"/><circle cx="13" cy="22" r="5" fill="#05080f"/><circle cx="42" cy="22" r="5" fill="#05080f"/></g>
+        <g id="carMove" transform="translate(442 186)"><rect x="0" y="6" width="56" height="16" rx="5" fill="#6b2b2b"/><path d="M9 6 L16 -4 H40 L48 6Z" fill="#5a2424"/><rect x="18" y="-2" width="9" height="7" fill="#99705b" opacity=".6"/><rect x="29" y="-2" width="9" height="7" fill="#99705b" opacity=".6"/><circle cx="13" cy="22" r="5" fill="#05080f"/><circle cx="44" cy="22" r="5" fill="#05080f"/></g>
+      </g>
+      <!-- bucket truck -->
+      <g id="truck" class="fade hidden">
+        <rect x="218" y="170" width="92" height="26" rx="3" fill="#e9eef8"/>
+        <rect x="282" y="156" width="28" height="20" rx="3" fill="#e9eef8"/>
+        <rect x="288" y="160" width="16" height="9" fill="#1f3156"/>
+        <rect x="218" y="182" width="92" height="4" fill="#ff8a1f"/>
+        <circle cx="236" cy="198" r="7" fill="#05080f"/><circle cx="292" cy="198" r="7" fill="#05080f"/>
+        <rect x="214" y="196" width="10" height="4" fill="#ff8a1f"/><rect x="304" y="196" width="10" height="4" fill="#ff8a1f"/>
+        <path d="M240 170 L268 112 L326 74" stroke="#cfd6e4" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <rect x="318" y="62" width="20" height="16" rx="2" fill="#ff8a1f"/>
+        <circle cx="328" cy="56" r="4" fill="#ffd166"/>
+      </g>
+      <!-- main pole -->
+      <rect x="325" y="54" width="6" height="152" fill="#8592ad"/>
+      <rect x="328" y="54" width="34" height="4" fill="#8592ad"/>
+      <rect x="350" y="50" width="36" height="9" rx="2" fill="#a9b5cc"/>
+      <rect class="lamp" x="353" y="58" width="30" height="3" rx="1" fill="#fffbe6"/>
+      <circle id="photocell" cx="368" cy="47" r="3.5" fill="#ffd166"/>
+      <!-- hand hole -->
+      <rect x="320" y="188" width="16" height="10" rx="1" fill="#2a3550" stroke="#56627c"/>
+      <g id="water" class="fade hidden"><rect x="321" y="194" width="14" height="3" fill="#4aa3ff"/><circle cx="328" cy="191" r="1.6" fill="#5fd38a"/></g>
+      <!-- cones -->
+      <g id="cones" class="fade hidden" fill="#ff8a1f">
+        <g><polygon points="296,208 302,192 308,208"/><rect x="295" y="198" width="14" height="2" fill="#fff"/></g>
+        <g><polygon points="336,214 342,198 348,214"/><rect x="335" y="204" width="14" height="2" fill="#fff"/></g>
+        <g><polygon points="384,214 390,198 396,214"/><rect x="383" y="204" width="14" height="2" fill="#fff"/></g>
+        <g><polygon points="424,208 430,192 436,208"/><rect x="423" y="198" width="14" height="2" fill="#fff"/></g>
+        <path d="M302 196 L342 202 L390 202 L430 196" stroke="#ffd166" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+      </g>
+    </svg>
+    <span class="scene-cap" id="sceneCap">9:40 pm · Pole 12</span>
+    <span class="flash-tag" id="flashTag">Flashing</span>
+  </div>
+
+  <div class="values" id="values" aria-label="Core values in play"></div>
+
+  <details class="notebook" id="notebook">
+    <summary id="nbSummary">Clue notebook (0)</summary>
+    <ul id="nbList"></ul>
+  </details>
+
+  <main class="card" id="card" aria-live="off"></main>
+
+  <p class="foot">Training simulation. Follow your company's procedures, your supervisor and the manufacturer's instructions on real jobs. Dollar figures are examples.</p>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------- helpers ---------- */
+  const $ = (s) => document.querySelector(s);
+  function mulberry32(a) {
+    return function () {
+      a |= 0; a = (a + 0x6D2B79F5) | 0;
+      let t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function shuffle(arr, rnd) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+    return a;
+  }
+  const clone = (o) => JSON.parse(JSON.stringify(o));
+  const pct = (e, p) => (p > 0 ? Math.round((100 * e) / p) : 100);
+
+  /* ---------- scenario data ---------- */
+  const STAGES = ['Job brief', 'Plan the trip', 'Hazards & controls', 'Forecast', 'Diagnose', 'Fix & decide', 'Verify & close out'];
+  const VALUES = { safety: 'Safety is the foundation', ahead: 'Think ahead', ask: 'Ask questions', check: 'Step back & check', aware: 'Stay aware' };
+  const CATS = { safety: 'Safety', questions: 'Questions asked', planning: 'Planning & forecasting', diagnosis: 'Diagnosis', efficiency: 'Efficiency' };
+  const EFF_MAX = 20;
+
+  const FAULTS = {
+    photocell: { name: 'Photocell cycling', pattern: 'cycle', patternText: 'Flashing: slow off/on cycle', part: 'photocell',
+      summary: (S) => S.variant === 'reflect'
+        ? 'Light from the new wall pack hit the photocell, so it "saw daylight" and switched the fixture off, then back on.'
+        : 'The original photocell was failing and switching the fixture off and on all night.' },
+    driver: { name: 'Failing LED driver (thermal foldback)', pattern: 'dimdrop', patternText: 'Flashing: dims, drops out, comes back', part: 'driver',
+      summary: () => 'The 6-year-old driver overheated after warm-up and folded back to zero output, then recovered as it cooled.' },
+    splice: { name: 'Loose, corroded splice in the hand hole', pattern: 'flicker', patternText: 'Flashing: irregular flicker', part: 'connectors',
+      summary: () => 'Water in the hand hole corroded a splice. The loose connection made the fixture voltage jump, worse with rain and wind.' }
+  };
+
+  const QUESTIONS = [
+    { id: 'when', text: 'When does it flash? Right at dusk, or after it has been on a while?', good: true,
+      a: (S) => ({ photocell: 'From dusk on. It goes off, comes back a few minutes later, all night.',
+                   driver: 'Fine at first. After half an hour or so it dims, cuts out, then comes back. Worse on hot nights.',
+                   splice: 'Random. It flickers and strobes. Some nights it is fine.' })[S.fault] },
+    { id: 'others', text: 'Are other poles on the same circuit doing it?', good: true, a: () => 'No, just this one. The rest are steady.' },
+    { id: 'weather', text: 'Any storm, heavy rain or wind lately?', good: true,
+      a: (S) => ({ photocell: 'No, it has been dry.', driver: 'No rain. It has been a hot week, though.',
+                   splice: 'Big rain last week. It got worse after that, and on windy nights.' })[S.fault] },
+    { id: 'work', text: 'Any recent work on the site or the building?', good: true,
+      a: (S) => S.fault === 'photocell' && S.variant === 'reflect' ? 'Yes. The building got a new wall pack last month, right next to that pole.'
+        : S.fault === 'splice' ? 'Landscapers redid the island around that pole this spring.' : 'Nothing we know of.' },
+    { id: 'age', text: 'How old are the fixtures? Any parts replaced?', good: true,
+      a: (S) => S.fault === 'photocell' && S.variant === 'failing' ? 'About 7 years, all original, photocells too.' : 'About 6 years. Nothing replaced yet.' },
+    { id: 'below', text: 'What is under the pole: traffic, parked cars, people?', good: true,
+      a: () => 'It is on an island by the main drive lane. Cars park on both sides until about 10 pm.' },
+    { id: 'access', text: 'Can we get into the electrical room and lighting panel?', good: true,
+      a: () => 'Yes. The manager has the key. Lighting panel LP-1.' },
+    { id: 'today', text: 'Do you need it fixed today?', good: false, neutral: true, a: () => 'As soon as you can.' },
+    { id: 'skip', text: 'No questions. Just send the truck.', good: false }
+  ];
+
+  const GEAR = [
+    { id: 'bucket', text: 'Bucket truck (aerial lift)', kind: 'safety' },
+    { id: 'ladder', text: '28-ft extension ladder', kind: 'bad' },
+    { id: 'cones', text: 'Cones, barricade tape, signs', kind: 'safety' },
+    { id: 'harness', text: 'Full-body harness + short lanyard', kind: 'safety' },
+    { id: 'ppe', text: 'Hard hat, glasses, gloves, hi-vis', kind: 'safety' },
+    { id: 'meter', text: 'Meter rated CAT III 600 V', kind: 'safety' },
+    { id: 'oldmeter', text: 'Cheap meter, no CAT rating', kind: 'bad' },
+    { id: 'loto', text: 'LOTO kit: personal lock, tag, hasp', kind: 'safety' },
+    { id: 'headlamp', text: 'Headlamp + battery work light', kind: 'safety' },
+    { id: 'photocell', text: 'Spare photocell + shorting cap', kind: 'part' },
+    { id: 'driver', text: 'Matching LED driver (from spec sheet)', kind: 'part' },
+    { id: 'connectors', text: 'Wet-location connectors, sealant, rags', kind: 'part' },
+    { id: 'camera', text: 'Phone/camera for photos', kind: 'admin' },
+    { id: 'wo', text: 'Work order + fixture spec sheet', kind: 'admin' },
+    { id: 'mh', text: '400 W metal halide lamp', kind: 'bad' }
+  ];
+  const GEAR_CRIT = {
+    bucket: 'No aerial lift. The fixture is about 25 ft up over a drive lane. A ladder against a round pole, at night, near traffic, is a fall waiting to happen.',
+    cones: 'No cones or barricade. You cannot set a drop zone or keep cars out from under the bucket.',
+    harness: 'No harness and lanyard. Bucket work needs you tied off to the anchor point.',
+    ppe: 'No basic PPE (hard hat, glasses, gloves, hi-vis). It is the last line of defense, but you still need it.',
+    meter: 'No CAT III rated meter. A non-rated meter can fail violently on a 277 V lighting circuit.',
+    loto: 'No LOTO kit. Without your own lock and tag, you cannot de-energize safely before opening the fixture.'
+  };
+
+  const HAZARDS = [
+    { id: 'traffic', text: 'Traffic and pedestrians below the work', real: true, crit: 'Cars and people will pass under the bucket unless you control the area.' },
+    { id: 'overhead', text: 'Overhead power lines near the pole', real: true, crit: 'Look up: utility lines run past the pole. You must keep the minimum approach distance with the boom and bucket.' },
+    { id: 'energized', text: 'Energized 277 V circuit', real: true, crit: 'The fixture, photocell socket and hand hole splices are live until you lock out and verify.' },
+    { id: 'height', text: 'Working at height in the bucket', real: true, crit: 'A 25-ft fall is often fatal. Harness, tie-off and lift checks start here.' },
+    { id: 'falling', text: 'Dropped tools or parts falling', real: true, crit: 'A dropped driver or wrench from 25 ft can kill. That is why the drop zone is barricaded.' },
+    { id: 'wind', text: 'Weather and wind', real: true },
+    { id: 'dark', text: 'Darkness and low visibility', real: true },
+    { id: 'water', text: 'Water in the hand hole (wet + electricity)', real: true },
+    { id: 'uv', text: 'UV burns from the LED', real: false, note: 'Not a real risk from an LED area light.' },
+    { id: 'confined', text: 'Confined-space entry into the hand hole', real: false, note: 'You reach into a hand hole; you do not enter it.' },
+    { id: 'noise', text: 'Hearing damage from driver hum', real: false, note: 'Driver hum is not a hearing hazard.' }
+  ];
+
+  const LEVELS = [
+    { id: 'elim', short: 'Elim', name: 'Elimination' },
+    { id: 'sub', short: 'Subst', name: 'Substitution' },
+    { id: 'eng', short: 'Eng', name: 'Engineering' },
+    { id: 'admin', short: 'Admin', name: 'Administrative' },
+    { id: 'ppe', short: 'PPE', name: 'PPE' }
+  ];
+  const CONTROLS = [
+    { id: 'deen', text: 'De-energize the circuit, lock and tag it, verify dead (live-dead-live)', ok: ['elim'], why: 'Removes the electrical hazard instead of guarding against it.' },
+    { id: 'day', text: 'Schedule the lift work in daylight or after the lot closes', ok: ['elim', 'admin'], why: 'Removes darkness and most traffic. Often filed as administrative too, so both count.' },
+    { id: 'batt', text: 'Battery LED work light instead of a corded light on wet pavement', ok: ['sub'], why: 'Swaps a hazard (cord + water) for a smaller one.' },
+    { id: 'barr', text: 'Cones and barricade the drop zone; park the truck to shield the work', ok: ['eng'], why: 'A physical barrier between people and the hazard.' },
+    { id: 'out', text: 'Outriggers down on pads, on firm level ground', ok: ['eng'], why: 'Stability built into the setup.' },
+    { id: 'adm', text: 'Spotter; notify the manager; check approach distance to the lines; stop if wind passes the lift limit', ok: ['admin'], why: 'Rules and people. They only work if followed.' },
+    { id: 'ppe', text: 'Hard hat, glasses, gloves, hi-vis; harness tied off in the bucket', ok: ['ppe'], why: 'Last line of defense: it only helps after everything above has failed.' }
+  ];
+
+  const SEQUENCE = [
+    { id: 'cones', text: 'Set cones and barricade the drop zone' },
+    { id: 'truck', text: 'Position the truck; outriggers down on pads' },
+    { id: 'insp', text: 'Pre-use check: bucket controls, harness, lanyard' },
+    { id: 'obs', text: 'Observe the fixture and photocell from the ground' },
+    { id: 'hh', text: 'Open and look in the hand hole' },
+    { id: 'test', text: 'Test: shorting cap and meter readings' },
+    { id: 'loto', text: 'Lock out and verify before opening the fixture' }
+  ];
+  const CLOSEOUT = [
+    { id: 'photos', text: 'After photos: fixture lit, hand hole closed' },
+    { id: 'stow', text: 'Lower and stow the bucket; outriggers up' },
+    { id: 'load', text: 'Load tools; bag removed parts for recycling' },
+    { id: 'cones', text: 'Pick up the cones and barricade' },
+    { id: 'wo', text: 'Complete the work order: cause, readings, parts, photos' },
+    { id: 'tell', text: 'Walk the manager through the fix and what you saw' }
+  ];
+
+  const TESTS = [
+    { id: 'observe', label: 'Watch from the ground for 10 minutes and time it', cost: 'Ground only · 10 min',
+      res: (S) => ({ photocell: S.variant === 'reflect'
+          ? 'Clean OFF about 40 s, ON about 3 min, repeat. No dimming. The new wall pack lights up the photocell side of the head.'
+          : 'Clean OFF about 40 s, ON about 3 min, repeat. No dimming. The photocell lens looks cloudy and sun-faded.',
+        driver: 'Steady for about 25 min, then it dims, drops out, and comes back about 2 min later.',
+        splice: 'Irregular flicker and short strobes. Worse when the wind gusts move the pole.' })[S.fault] },
+    { id: 'handhole', label: 'Open the hand hole and look (gloves, glasses, no touching)', cost: 'Ground · 5 min',
+      res: (S) => S.fault === 'splice' ? 'Standing water. Green corrosion on the line splice; the connector is loose.' : 'Dry and clean. Splices tight, ground wire connected.' },
+    { id: 'volt', label: 'Measure voltage at the hand hole while it flashes', cost: 'Qualified tech · CAT III meter + PPE · 10 min',
+      res: (S) => S.fault === 'splice' ? 'Fluctuates 231 to 277 V, jumping with the wind.' : 'Steady 277 V the whole time, even while the light is off.' },
+    { id: 'cap', label: 'Bucket up: swap the photocell for a shorting cap', cost: 'Bucket · qualified, insulated gloves · 20 min',
+      res: (S) => ({ photocell: 'Light stays steady for 30 min. The photocell circuit is the problem.', driver: 'Still dims and drops out after warm-up.', splice: 'Still flickers.' })[S.fault] },
+    { id: 'newpc', label: 'Bucket up: install a known-good photocell', cost: 'Bucket · qualified, insulated gloves · 20 min',
+      res: (S) => ({ photocell: S.variant === 'reflect' ? 'The new photocell cycles too. Something is lighting it up.' : 'Steady now. The old photocell was failing.',
+        driver: 'Still dims and drops out after warm-up.', splice: 'Still flickers.' })[S.fault] },
+    { id: 'drv', label: 'Check driver input and output during a dropout', cost: 'Bucket · qualified tech, CAT III meter + PPE · 30 min',
+      res: (S) => ({ photocell: 'Input drops to 0 V when the photocell clicks off. The driver is fine.',
+        driver: 'Input steady 277 V. Driver output drops to 0 V as it heats up. The driver is folding back.',
+        splice: 'Driver input itself is unstable. The problem is upstream of the fixture.' })[S.fault] },
+    { id: 'ir', label: 'IR thermometer on the fixture housing', cost: 'Ground · 5 min',
+      res: (S) => S.fault === 'driver' ? 'Driver area reads about 20 °C hotter than the next pole\'s fixture.' : 'Normal, same as the next pole.' },
+    { id: 'swapDrv', label: 'Just swap the driver and see', cost: 'Guess · $140 part · 45 min', guess: true,
+      res: (S) => S.fault === 'driver' ? 'Steady now, but you guessed. No proof, and nothing for the work order.' : 'No change. You burned a $140 driver and 45 minutes.' },
+    { id: 'swapFix', label: 'Just replace the whole fixture', cost: 'Guess · $520 part · 90 min', guess: true,
+      res: (S) => ({ photocell: 'You reused the old photocell and it still cycles. Expensive guess.',
+        driver: 'Steady now, but a $520 fixture without proof is a parts cannon.', splice: 'Still flickers. The problem was never in the head.' })[S.fault] }
+  ];
+  const KEY_TESTS = { photocell: ['cap', 'newpc'], driver: ['drv', 'ir'], splice: ['handhole', 'volt'] };
+
+  const SITE_ISSUES = [
+    { id: 'lid', text: 'Pole 7 hand hole cover is missing', note: 'Trip and shock hazard today. Cone it off and tell the manager now.' },
+    { id: 'lens', text: 'Pole 4 lens is cracked and full of bugs', note: 'Water will follow. Quote a repair.' },
+    { id: 'tree', text: 'Tree branches growing into pole 9\'s light', note: 'Blocks light and can hit the lift next time. Recommend trimming.' },
+    { id: 'base', text: 'Pole 2 concrete base cracked, anchor bolts rusted', note: 'Structural concern. Flag for inspection.' }
+  ];
+
+  const DRIVER_GUIDE = {
+    repair: { rows: [['Matching driver (in stock)', '$140'], ['Labor, 1 h', '$110'], ['Repair total', '$250'], ['New matching fixture + 1.5 h', '$685']],
+      ratio: '36%', facts: 'Fixture is 6 years old; 5-year warranty has ended. Same model is still sold and matches the other 23 poles.' },
+    replace: { rows: [['Universal driver + mounting kit', '$250'], ['Labor, 2 h', '$220'], ['Repair total', '$470'], ['New matching fixture + 1.5 h', '$685']],
+      ratio: '69%', facts: 'Fixture is 6 years old; 5-year warranty has ended. The matching driver is discontinued. The new fixture is the same family and matches the site.' }
+  };
+
+  /* ---------- state ---------- */
+  let S = null;
+  let snapshot = null;
+
+  function newGame(seed) {
+    const rnd = mulberry32(seed);
+    const faults = ['photocell', 'driver', 'splice'];
+    const fault = faults[Math.floor(rnd() * faults.length)];
+    const variant = fault === 'photocell' ? (rnd() < 0.5 ? 'reflect' : 'failing') : fault === 'driver' ? (rnd() < 0.5 ? 'repair' : 'replace') : 'none';
+    S = {
+      seed, jobNo: 1000 + (seed % 9000), fault, variant,
+      surprise: rnd() < 0.5 ? 'car' : 'wind',
+      siteIssues: shuffle(SITE_ISSUES, rnd).slice(0, 2).map((x) => x.id),
+      orderSeed: Math.floor(rnd() * 1e9),
+      stepIdx: 0,
+      cats: { safety: { e: 0, p: 0 }, questions: { e: 0, p: 0 }, planning: { e: 0, p: 0 }, diagnosis: { e: 0, p: 0 } },
+      eff: [], trips: 1,
+      notes: { safety: [], questions: [], planning: [], diagnosis: [], efficiency: [] },
+      flags: { cones: false, truck: false, lock: false, fixed: false, hh: false },
+      clues: [], packed: [], tests: [], prechecked: false, fixTries: 0, done: false,
+      stops: []
+    };
+    enterStep();
+  }
+
+  function award(cat, e, p) { S.cats[cat].e += e; S.cats[cat].p += p; }
+  function deduct(pts, why) { S.eff.push({ pts, why }); S.notes.efficiency.push(why); }
+  function note(cat, t) { S.notes[cat].push(t); }
+  function effScore() { return Math.max(0, EFF_MAX - S.eff.reduce((a, d) => a + d.pts, 0)); }
+  function totalScore() { return Object.values(S.cats).reduce((a, c) => a + c.e, 0) + effScore(); }
+  function addClue(src, text) { S.clues.push({ src, text }); }
+
+  /* ---------- steps ---------- */
+  const single = (o) => Object.assign({ type: 'single' }, o);
+
+  const STEPS = [
+    { id: 'intro', stage: 0, type: 'info', values: ['ask', 'ahead'], title: 'New service call',
+      prompt: (S) => `
+        <dl class="ticket">
+          <dt>Work order</dt><dd>#J-${S.jobNo} · Exterior lighting · Priority: next day</dd>
+          <dt>Customer (property manager)</dt><dd>"One of the lights in our parking lot is flashing at night. Can you send someone?"</dd>
+          <dt>Site</dt><dd>Retail lot · 24 LED area lights on 25-ft poles · 277 V lighting circuit, photocell on each head</dd>
+        </dl>
+        <p>You are the lighting technician on this call. Watch the scene: the flash pattern is your first clue.</p>
+        <p class="muted">Seven stages. Safety misses stop the job until you fix them.</p>`,
+      cta: 'Start the job' },
+
+    { id: 'questions', stage: 1, type: 'multi', values: ['ask'], title: 'Ask before you roll',
+      prompt: () => '<p>Dispatch has the manager on the phone. Which questions do you ask? Pick all you want.</p>',
+      options: () => QUESTIONS.map((q) => ({ id: q.id, text: q.text })),
+      check(S, sel) {
+        const marks = {};
+        if (sel.has('skip')) {
+          award('questions', 0, 14);
+          note('questions', 'Skipped the questions, so you rolled with no clues.');
+          QUESTIONS.forEach((q) => { marks[q.id] = q.id === 'skip' ? ['bad', 'No clues'] : q.good ? ['miss', ''] : ['neutral', '']; });
+          return { tone: 'bad', marks, fb: `<h3>No questions, no clues</h3><p>Questions are the second foundation. Two minutes on the phone can save a wasted trip. Your notebook stays empty.</p><p class="pts">Questions +0</p>` };
+        }
+        let good = 0;
+        QUESTIONS.forEach((q) => {
+          if (q.id === 'skip') { marks[q.id] = ['neutral', '']; return; }
+          if (sel.has(q.id)) {
+            const ans = q.a(S);
+            addClue('Customer', `<b>${q.text}</b> ${ans}`);
+            if (q.good) { good++; marks[q.id] = ['good', '"' + ans + '"']; } else marks[q.id] = ['neutral', '"' + ans + '" (fine, but no clue)'];
+          } else if (q.good) marks[q.id] = ['miss', 'You could have asked this.'];
+        });
+        const e = Math.min(14, good * 2);
+        award('questions', e, 14);
+        if (good < 7) note('questions', `Asked ${good} of 7 useful questions.`);
+        const tone = good >= 6 ? 'good' : good >= 4 ? 'mixed' : 'bad';
+        return { tone, marks, fb: `<h3>${good} of 7 useful questions</h3><p>Answers are in your clue notebook. The flash timing, weather and recent work point toward a cause. Traffic and panel access shape your plan.</p><p class="pts">Questions +${e}</p>` };
+      } },
+
+    { id: 'gear', stage: 2, type: 'multi', values: ['ahead', 'safety'], title: 'What goes on the truck?',
+      prompt: () => '<p>Envision the job from start to finish. You do not know the cause yet. Pick everything you will bring.</p>',
+      options: (S) => shuffle(GEAR, mulberry32(S.orderSeed)).map((g) => ({ id: g.id, text: g.text })),
+      check(S, sel) {
+        const marks = {}; const crit = [];
+        let se = 0, sp = 0, pe = 0, pp = 0, bad = 0;
+        GEAR.forEach((g) => {
+          const has = sel.has(g.id);
+          if (g.kind === 'safety') {
+            sp += 2; if (has) se += 2;
+            if (!has && GEAR_CRIT[g.id]) crit.push(GEAR_CRIT[g.id]);
+            marks[g.id] = has ? ['good', ''] : [GEAR_CRIT[g.id] ? 'bad' : 'miss', GEAR_CRIT[g.id] ? 'Critical' : 'Night work needs light.'];
+          } else if (g.kind === 'part') {
+            pp += 3; if (has) pe += 3;
+            marks[g.id] = has ? ['good', 'Could be the fix.'] : ['miss', 'If this is the cause, that is a second trip.'];
+          } else if (g.kind === 'admin') {
+            pp += 2; if (has) pe += 2;
+            marks[g.id] = has ? ['good', ''] : ['miss', 'Needed to document the job.'];
+          } else if (has) {
+            bad++;
+            marks[g.id] = ['bad', g.id === 'ladder' ? 'Wrong tool for a 25-ft pole.' : g.id === 'oldmeter' ? 'Leave it. Use the CAT III meter.' : 'These are LED fixtures. Dead weight.'];
+          } else marks[g.id] = ['neutral', ''];
+        });
+        if (sel.has('oldmeter') && !sel.has('meter')) crit.push('A meter with no CAT rating is not acceptable on 277 V. Bring the CAT III meter.');
+        if (crit.length) return { critical: crit, title: 'Missing critical safety gear' };
+        S.packed = Array.from(sel);
+        award('safety', se, sp);
+        pe = Math.max(0, pe - bad); award('planning', pe, pp);
+        if (se < sp) note('safety', 'Forgot the headlamp and battery work light for night work.');
+        ['photocell', 'driver', 'connectors'].forEach((p) => { if (!sel.has(p)) note('planning', `Left the ${GEAR.find((g) => g.id === p).text.toLowerCase()} at the shop.`); });
+        if (bad) note('planning', 'Packed items the job cannot use.');
+        const tone = se === sp && pe === pp ? 'good' : 'mixed';
+        return { tone, marks, fb: `<h3>Truck loaded</h3><p>You do not know the cause yet, so bring the parts for each likely fault. A missing part means a second trip and an idle crew.</p><p class="pts">Safety +${se} · Planning +${pe}</p>` };
+      } },
+
+    single({ id: 'crew', stage: 2, values: ['safety', 'ahead'], title: 'Who goes, and when?',
+      prompt: () => '<p>The light only misbehaves at night, and the lot is busy until 10 pm.</p>',
+      options: () => [
+        { id: 'dusk', text: 'Two-person crew. Arrive before dusk, set up in the last daylight, watch the fault as it starts.' },
+        { id: 'solo', text: 'One tech, solo, after 10 pm when the lot is empty.' },
+        { id: 'day', text: 'Two-person crew at 2 pm. Cover the photocell to force the light on.' }
+      ],
+      check(S, id) {
+        if (id === 'solo') return { critical: ['Never work an aerial lift alone near traffic. Nobody spots traffic, and nobody can lower the bucket or call for help if you are hurt.'], title: 'Solo bucket work at night' };
+        award('safety', 5, 5);
+        if (id === 'dusk') { award('planning', 3, 3); return { tone: 'good', marks: { dusk: ['good', ''], day: ['neutral', 'Safer light, but the fault may not show.'] }, fb: '<h3>Good plan</h3><p>Set up while you can still see, and you are there when the fault shows. Two people means a spotter and a rescuer.</p><p class="pts">Safety +5 · Planning +3</p>' }; }
+        award('planning', 1, 3); note('planning', 'Daytime visit: a heat or rain-related fault may not show, risking a return trip.');
+        return { tone: 'mixed', marks: { day: ['good', 'Safe choice.'], dusk: ['miss', 'Better fit for this fault.'] }, fb: '<h3>Safe, but you may miss the fault</h3><p>Daylight is safer. But a fault that needs 30 minutes of warm-up or a gusty night may not show at 2 pm. Arriving before dusk gets you both.</p><p class="pts">Safety +5 · Planning +1</p>' };
+      } }),
+
+    single({ id: 'stock', stage: 2, values: ['ahead'], title: 'Remove the bottleneck',
+      prompt: () => '<p>Drivers and fixtures for this model can be special-order. What do you do before you roll?</p>',
+      options: () => [
+        { id: 'call', text: 'Check the spec sheet, call the supplier, confirm a driver and a matching fixture are in stock, and put them on hold.' },
+        { id: 'later', text: 'Diagnose first. Order whatever it needs afterwards.' },
+        { id: 'all', text: 'Grab one of everything from the warehouse.' }
+      ],
+      check(S, id) {
+        if (id === 'call') { S.prechecked = true; award('planning', 5, 5); return { tone: 'good', marks: { call: ['good', ''] }, fb: '<h3>Bottleneck removed</h3><p>A five-minute call now beats a crew waiting days on a part. Material is the most common bottleneck on service calls.</p><p class="pts">Planning +5</p>' }; }
+        if (id === 'all') { award('planning', 2, 5); note('planning', 'Over-stocked the truck instead of checking supply.'); return { tone: 'mixed', marks: { all: ['miss', ''], call: ['good', 'Best'] }, fb: '<h3>Heavy truck, same risk</h3><p>The warehouse may not have this model either. Check the spec sheet and the supplier.</p><p class="pts">Planning +2</p>' }; }
+        award('planning', 0, 5); note('planning', 'Did not check part availability before rolling.');
+        return { tone: 'bad', marks: { later: ['bad', ''], call: ['good', 'Best'] }, fb: '<h3>Potential idle crew</h3><p>If it needs a special-order part, you find out on site and the job stalls. Think ahead: check supply before you roll.</p><p class="pts">Planning +0</p>' };
+      } }),
+
+    { id: 'hazards', stage: 3, type: 'multi', values: ['safety', 'aware'], title: 'Spot the hazards',
+      prompt: () => '<p>Tailboard talk before setup. Look at the scene. Select every real hazard on this job.</p>',
+      options: () => HAZARDS.map((h) => ({ id: h.id, text: h.text })),
+      check(S, sel) {
+        const crit = HAZARDS.filter((h) => h.crit && !sel.has(h.id)).map((h) => `<b>Missed: ${h.text}.</b> ${h.crit}`);
+        if (crit.length) return { critical: crit, title: 'Hazards missed' };
+        const marks = {}; let e = 0, p = 0, decoys = 0;
+        HAZARDS.forEach((h) => {
+          if (h.real) { p += 2; if (sel.has(h.id)) { e += 2; marks[h.id] = ['good', '']; } else { marks[h.id] = ['miss', 'Real hazard here.']; note('safety', `Missed hazard: ${h.text.toLowerCase()}.`); } }
+          else if (sel.has(h.id)) { decoys++; marks[h.id] = ['bad', h.note]; } else marks[h.id] = ['neutral', ''];
+        });
+        award('safety', e, p);
+        if (decoys) { award('planning', 0, 2); note('planning', 'Listed hazards that are not real. Focus attention on the real ones.'); } else award('planning', 2, 2);
+        return { tone: e === p && !decoys ? 'good' : 'mixed', marks, fb: `<h3>${e / 2} of 8 hazards found</h3><p>Every hazard needs a control. Next you choose them, strongest first.</p><p class="pts">Safety +${e}</p>` };
+      } },
+
+    { id: 'controls', stage: 3, type: 'classify', values: ['safety'], title: 'Hierarchy of controls',
+      prompt: () => '<p>Sort each control into its level. Strongest at the top: eliminate first, PPE last.</p>',
+      check(S, asg) {
+        const marks = {}; let e = 0;
+        CONTROLS.forEach((c) => {
+          const ok = c.ok.includes(asg[c.id]);
+          if (ok) e += 2; else note('safety', `Misfiled control: "${c.text.split(';')[0]}" is ${LEVELS.find((l) => l.id === c.ok[0]).name}.`);
+          marks[c.id] = [ok ? 'good' : 'bad', (ok ? '' : `Belongs in ${c.ok.map((x) => LEVELS.find((l) => l.id === x).name).join(' or ')}. `) + c.why];
+        });
+        award('safety', e, 14);
+        return { tone: e === 14 ? 'good' : 'mixed', marks, fb: `<h3>${e / 2} of 7 sorted correctly</h3>
+          <div class="pyramid" aria-label="Hierarchy, most to least effective">${LEVELS.map((l, i) => `<div style="margin-left:${i * 12}px">${l.name}</div>`).join('')}</div>
+          <p>Use the strongest control you can, then layer the rest. PPE never replaces the controls above it.</p><p class="pts">Safety +${e}</p>` };
+      } },
+
+    single({ id: 'qualified', stage: 3, values: ['safety'], title: 'Live readings: who and how?',
+      prompt: () => '<p>Some faults only show while energized. To take readings on a live 277 V circuit:</p>',
+      options: () => [
+        { id: 'q', text: 'Only a qualified, authorized tech: CAT III meter, voltage-rated gloves, arc-rated face shield per the risk assessment. Testing only, no repairs live.' },
+        { id: 'any', text: 'Anyone on the crew can take a quick reading. It is only 277 V.' },
+        { id: 'swap', text: 'Skip readings. Swap parts until it stops.' },
+        { id: 'wiggle', text: 'Open the fixture live and wiggle wires to find the bad one.' }
+      ],
+      check(S, id) {
+        if (id === 'any') return { critical: ['277 V can kill and can cause an arc flash. Only qualified, authorized people test live circuits, with rated PPE.'], title: 'Unqualified live work' };
+        if (id === 'wiggle') return { critical: ['Disturbing live conductors is energized work, not testing. Lock out before you put hands in the fixture.'], title: 'Hands in a live fixture' };
+        award('safety', 5, 5);
+        if (id === 'q') { award('diagnosis', 3, 3); return { tone: 'good', marks: { q: ['good', ''] }, fb: '<h3>The qualified path</h3><p>Live testing is allowed only to find the fault, by a qualified tech in proper PPE. Repairs happen de-energized, under lockout.</p><p class="pts">Safety +5 · Diagnosis +3</p>' }; }
+        award('diagnosis', 0, 3); note('diagnosis', 'Planned to swap parts instead of measuring.');
+        return { tone: 'mixed', marks: { swap: ['miss', 'Safe, but costly.'], q: ['good', 'Best'] }, fb: '<h3>Safe, but a parts cannon</h3><p>Guessing wastes parts and trips. A qualified tech with the right PPE gets proof.</p><p class="pts">Safety +5 · Diagnosis +0</p>' };
+      } }),
+
+    { id: 'sequence', stage: 4, type: 'order', values: ['ahead'], title: 'Forecast the next 7 steps',
+      items: SEQUENCE,
+      prompt: () => '<p>Tap the steps in the order you will do them on site. Use Undo to fix a tap.</p>',
+      check(S, order) {
+        const frac = pairScore(order, SEQUENCE.map((x) => x.id));
+        const e = Math.round(10 * frac);
+        award('planning', e, 10);
+        if (e < 10) note('planning', `Job sequence was ${Math.round(frac * 100)}% in order.`);
+        return { tone: e >= 9 ? 'good' : e >= 6 ? 'mixed' : 'bad', fb: `<h3>Sequence ${Math.round(frac * 100)}% in order</h3>
+          <ol>${SEQUENCE.map((x) => `<li>${x.text}</li>`).join('')}</ol>
+          <p>Control the area first, then the truck, then check the lift before you trust it. Look before you test, test before you touch, and lock out before you open anything.</p><p class="pts">Planning +${e}</p>` };
+      } },
+
+    single({ id: 'crew2', stage: 4, values: ['ahead'], title: 'No idle hands',
+      prompt: () => '<p>While you do the pre-use check on the bucket, what does your partner do?</p>',
+      options: () => [
+        { id: 'wait', text: 'Waits in the truck until you need a hand.' },
+        { id: 'prep', text: 'Gets the panel key, finds the lighting breaker, preps the LOTO, then takes the spotter spot.' },
+        { id: 'ladder', text: 'Grabs a ladder and starts opening the fixture to save time.' }
+      ],
+      check(S, id) {
+        if (id === 'ladder') return { critical: ['A ladder on a round pole over a drive lane, into a fixture that has not been locked out. Two critical hazards at once.'], title: 'Unsafe shortcut' };
+        S.flags.cones = true; S.flags.truck = true;
+        if (id === 'prep') { award('planning', 5, 5); return { tone: 'good', marks: { prep: ['good', ''] }, fb: '<h3>Two people, both productive</h3><p>Your partner removes the next bottleneck (panel access) and is ready to spot. You are now set up on site.</p><p class="pts">Planning +5</p>' }; }
+        award('planning', 0, 5); deduct(4, 'Partner sat idle during setup.');
+        return { tone: 'bad', marks: { wait: ['bad', ''], prep: ['good', 'Best'] }, fb: '<h3>Idle crew</h3><p>Paid time with nothing moving. Forecast the next need (panel key, breaker, LOTO) and have your partner on it.</p><p class="pts">Planning +0 · Efficiency -4</p>' };
+      } }),
+
+    { id: 'tests', stage: 5, type: 'tests', values: ['check', 'ask'], title: 'Find the cause',
+      prompt: () => '<p>You are set up. Run tests one at a time. Each result goes in your notebook. Fewer, smarter tests score higher. When the evidence is clear, name the cause.</p>' },
+
+    single({ id: 'name', stage: 5, values: ['check'], title: 'Name the cause',
+      prompt: (S) => `<p>Based on your evidence${S.tests.length ? '' : ' (you ran no tests)'}, what is causing the flashing?</p>`,
+      options: () => [
+        { id: 'photocell', text: 'Photocell cycling (failing, or seeing light)' },
+        { id: 'driver', text: 'Failing LED driver (thermal foldback)' },
+        { id: 'splice', text: 'Loose, corroded splice in the hand hole' },
+        { id: 'spd', text: 'Failed surge protector or LED board' },
+        { id: 'breaker', text: 'Bad breaker in the panel' }
+      ],
+      check(S, id) {
+        const keys = KEY_TESTS[S.fault];
+        const keyRun = S.tests.some((t) => keys.includes(t));
+        const ev = keyRun ? 10 : S.tests.includes('observe') ? 5 : 0;
+        award('diagnosis', ev, 10);
+        if (!keyRun) note('diagnosis', 'Named a cause without a test that proves it.');
+        const real = S.tests.filter((t) => !TESTS.find((x) => x.id === t).guess).length;
+        if (real > 3) deduct(2 * (real - 3), `Ran ${real} tests; 2 or 3 well-chosen ones were enough.`);
+        const right = id === S.fault;
+        award('diagnosis', right ? 10 : 0, 10);
+        if (!right) note('diagnosis', `Called it "${this.options().find((o) => o.id === id).text}". It was ${FAULTS[S.fault].name.toLowerCase()}.`);
+        const keyTxt = keys.map((k) => TESTS.find((t) => t.id === k)).map((t) => `<li><b>${t.label}:</b> ${t.res(S)}</li>`).join('');
+        return { tone: right ? (keyRun ? 'good' : 'mixed') : 'bad', marks: right ? { [id]: ['good', ''] } : { [id]: ['bad', ''], [S.fault]: ['miss', 'This is it'] },
+          fb: `<h3>${right ? 'Correct' : 'Not quite'}: ${FAULTS[S.fault].name}</h3><p>${FAULTS[S.fault].summary(S)}</p><p>The proving tests:</p><ul>${keyTxt}</ul><p class="pts">Diagnosis +${ev + (right ? 10 : 0)}</p>` };
+      } }),
+
+    single({ id: 'loto', stage: 6, values: ['safety'], title: 'Before you open anything',
+      prompt: () => '<p>The repair means hands inside the fixture or the hand hole. How do you make it safe?</p>',
+      options: () => [
+        { id: 'wait', text: 'Wait until the photocell turns the light off, then work.' },
+        { id: 'flip', text: 'Flip the breaker off. Your partner will guard the panel.' },
+        { id: 'dark', text: 'Open the breaker and lock it. The light went dark, so it is dead.' },
+        { id: 'ok', text: 'Open the breaker, apply your own lock and tag, then test live-dead-live with the CAT III meter.' }
+      ],
+      check(S, id) {
+        const why = {
+          wait: 'The photocell only switches the load. The line side and hand hole splices are still at 277 V.',
+          flip: 'No lock, no tag, no verify. Someone can turn it back on, and you never proved it was dead.',
+          dark: 'Dark is not dead. The panel could be mislabeled, or another circuit could feed it. Verify: test a known live source, test the circuit, test the known live source again.'
+        };
+        if (why[id]) return { critical: [why[id]], title: 'Not locked out and verified' };
+        S.flags.lock = true; award('safety', 5, 5);
+        return { tone: 'good', marks: { ok: ['good', ''] }, fb: '<h3>Locked, tagged, verified</h3><p>Your lock, your key. Live-dead-live proves the meter works before and after you trust its "zero".</p><p class="pts">Safety +5</p>' };
+      } }),
+
+    { id: 'fix', stage: 6, type: 'retry', values: ['check'], title: 'Make the repair',
+      prompt: (S) => `<p>Cause: <b>${FAULTS[S.fault].name}</b>. Choose the repair.</p>`,
+      options: () => [
+        { id: 'photocell', text: 'New photocell, aimed away from the wall pack and the fixture\'s own light; add a shield if needed.' },
+        { id: 'driver', text: 'Replace the failed driver or the fixture, per the company decision guide.' },
+        { id: 'splice', text: 'Remake the splices with wet-location connectors; dry and seal the hand hole; check the ground.' },
+        { id: 'tape', text: 'Tape over the photocell so the light stays on.' },
+        { id: 'breaker', text: 'Install a bigger breaker.' },
+        { id: 'spd', text: 'Add a surge protector and see if it helps.' }
+      ],
+      wrongWhy: {
+        tape: 'It runs 24/7, wastes energy and hides the real problem.',
+        breaker: 'The breaker is not tripping, and upsizing one is a code violation.',
+        spd: 'Nothing points to a surge. Hope is not a diagnosis.',
+        photocell: 'The photocell tested fine.', driver: 'The driver tested fine.', splice: 'The hand hole is dry and tight.'
+      } },
+
+    single({ id: 'decide', stage: 6, values: ['ahead', 'check'], title: 'Repair or replace?', when: (S) => S.fault === 'driver',
+      prompt: (S) => { const g = DRIVER_GUIDE[S.variant]; return `<p><b>Company decision guide:</b> repair if repair costs 50% or less of replacement and parts match the site; otherwise replace. Age and warranty inform the call but do not decide it alone.</p>
+        <table class="guide"><tr><th>Item</th><th>Cost</th></tr>${g.rows.map((r) => `<tr><td>${r[0]}</td><td>${r[1]}</td></tr>`).join('')}<tr><th>Repair as % of replace</th><th>${g.ratio}</th></tr></table><p class="muted">${g.facts}</p>`; },
+      options: () => [
+        { id: 'repair', text: 'Replace the driver: repair is under half the cost of a new fixture, and the same model matches the site.' },
+        { id: 'replace', text: 'Replace the fixture: the matching driver is discontinued and repair is over half the cost of new.' },
+        { id: 'warranty', text: 'Replace the fixture because the warranty ended.' },
+        { id: 'all', text: 'Replace all 24 fixtures today.' }
+      ],
+      check(S, id) {
+        const right = id === S.variant;
+        award('diagnosis', right ? 5 : 0, 5);
+        const marks = { [S.variant]: ['good', right ? '' : 'Per the guide'] };
+        if (!right) { marks[id] = ['bad', id === 'warranty' ? 'Warranty alone does not decide it.' : id === 'all' ? 'Not justified by one failure. Recommend a survey instead.' : 'Check the ratio again.']; note('diagnosis', 'Repair-or-replace call did not follow the decision guide.'); }
+        const partReady = S.variant === 'repair' ? (S.packed.includes('driver') || S.prechecked) : S.prechecked;
+        const onTruck = S.variant === 'repair' && S.packed.includes('driver');
+        let partTxt;
+        if (onTruck) partTxt = 'The matching driver is on the truck. Done tonight.';
+        else if (partReady) { deduct(2, 'Short supply-house pickup for the part (it was on hold).'); partTxt = 'The part was on hold at the supplier. A short pickup while your partner preps. Efficiency -2.'; }
+        else { deduct(6, 'Second trip: part not on the truck or on hold.'); S.trips++; partTxt = 'The part was not on the truck or on hold. Second trip. Efficiency -6.'; }
+        return { tone: right ? 'good' : 'bad', marks, fb: `<h3>${right ? 'Sound call' : 'Check the guide'}</h3><p>${S.variant === 'repair' ? 'Repair is 36% of replacement with a matching part available: replace the driver.' : 'Repair is 69% of replacement and needs a non-matching universal driver: replace the fixture.'}</p><p>${partTxt}</p><p class="pts">Diagnosis +${right ? 5 : 0}</p>` };
+      } }),
+
+    single({ id: 'unlock', stage: 7, values: ['safety'], title: 'Time to re-energize',
+      prompt: () => '<p>Repair done, tools out of the fixture. Two locks are on the breaker: yours and your partner\'s. Your partner is at the truck.</p>',
+      options: () => [
+        { id: 'both', text: 'Remove both locks yourself to save time.' },
+        { id: 'first', text: 'Turn the breaker on through the hasp, then tell everyone.' },
+        { id: 'ok', text: 'Confirm everyone is clear, remove only your own lock and tag, and ask your partner to remove theirs.' }
+      ],
+      check(S, id) {
+        if (id === 'both') return { critical: ['Only the person who applied a lock removes it. Their lock is their life. They must confirm they are clear.'], title: 'Removed someone else\'s lock' };
+        if (id === 'first') return { critical: ['Never re-energize before every lock is off and every person has confirmed they are clear.'], title: 'Energized before all clear' };
+        S.flags.lock = false; award('safety', 5, 5);
+        return { tone: 'good', marks: { ok: ['good', ''] }, fb: '<h3>Each person, their own lock</h3><p>Everyone clear, each lock removed by its owner, then power on.</p><p class="pts">Safety +5</p>' };
+      } }),
+
+    { id: 'verify', stage: 7, type: 'multi', values: ['check'], title: 'Prove the fix',
+      prompt: () => '<p>Power is back on. How do you verify the repair before you call it done?</p>',
+      options: () => [
+        { id: 'cover', text: 'Cover and uncover the photocell to confirm it switches properly' },
+        { id: 'run', text: 'Let it run 30+ minutes through warm-up and watch for drop-outs' },
+        { id: 'volt', text: 'Record the voltage at the fixture' },
+        { id: 'others', text: 'Confirm the other poles on the circuit still work' },
+        { id: 'quick', text: 'It came on. That is enough, pack up.' },
+        { id: 'cones', text: 'Pull the cones first so the customer can park' }
+      ],
+      check(S, sel) {
+        const goods = ['cover', 'run', 'volt', 'others']; const marks = {}; let e = 0;
+        goods.forEach((g) => { if (sel.has(g)) { e++; marks[g] = ['good', '']; } else marks[g] = ['miss', g === 'run' && S.fault === 'driver' ? 'Critical for a heat fault: it only fails after warm-up.' : '']; });
+        ['quick', 'cones'].forEach((b) => { if (sel.has(b)) { e--; marks[b] = ['bad', b === 'cones' ? 'Cones come off last.' : 'Intermittent faults hide. Prove it.']; } else marks[b] = ['neutral', '']; });
+        if (S.fault === 'driver' && !sel.has('run')) e = Math.min(e, 2);
+        e = Math.max(0, Math.round((e / 4) * 5));
+        award('diagnosis', e, 5); if (e < 5) note('diagnosis', 'Verification was incomplete.');
+        S.flags.fixed = true;
+        return { tone: e === 5 ? 'good' : 'mixed', marks, fb: `<h3>Light is steady</h3><p>An intermittent fault can look fixed for five minutes. Simulate night, run it through warm-up, take a reading, and check its neighbors.</p><p class="pts">Diagnosis +${e}</p>` };
+      } },
+
+    single({ id: 'surprise', stage: 7, values: ['aware', 'safety'], title: 'Heads up',
+      prompt: (S) => S.surprise === 'car'
+        ? '<p>You are in the bucket for one last look at the fixture door latch. A car starts backing out of a stall toward your barricade. The driver cannot see the cones.</p>'
+        : '<p>You are about to go up for one last look at the fixture door latch. Gusts are now 32 mph. Your lift is rated to 28 mph.</p>',
+      options: (S) => S.surprise === 'car' ? [
+        { id: 'go', text: 'Keep going. You are almost done.' },
+        { id: 'stop', text: 'Stop. Hold the bucket. Partner gets the driver\'s attention from a safe spot, then adjust the barricade. Reassess, then continue.' },
+        { id: 'step', text: 'Partner steps behind the car to wave it off.' }
+      ] : [
+        { id: 'go', text: 'Go up fast between gusts.' },
+        { id: 'stop', text: 'Stop. Stay down, secure loose items, wait for gusts under the limit or reschedule, and tell the manager.' },
+        { id: 'step', text: 'Tie off tighter and go up anyway.' }
+      ],
+      check(S, id) {
+        const crit = S.surprise === 'car'
+          ? { go: 'A car can hit the cones, the outrigger or the truck and throw you from the bucket.', step: 'Stepping behind a reversing car is how ground workers get struck. Signal from a safe spot.' }
+          : { go: 'Above the rated wind speed, the lift can tip or the bucket can be thrown. "Between gusts" is not a control.', step: 'A harness does not stop a lift from tipping over. PPE cannot fix a hazard that higher controls should stop.' };
+        if (crit[id]) return { critical: [crit[id]], title: 'Kept working after conditions changed' };
+        award('safety', 5, 5);
+        return { tone: 'good', marks: { stop: ['good', ''] }, fb: '<h3>Stopped, reassessed, adjusted</h3><p>Conditions changed, so the plan changes. Anyone can stop the job when something changes. Never be caught off guard.</p><p class="pts">Safety +5</p>' };
+      } }),
+
+    { id: 'closeorder', stage: 7, type: 'order', values: ['ahead', 'check'], title: 'Close out in order',
+      items: CLOSEOUT,
+      prompt: () => '<p>Tap the close-out steps in order.</p>',
+      check(S, order) {
+        const frac = pairScore(order, CLOSEOUT.map((x) => x.id));
+        const e = Math.round(5 * frac); award('planning', e, 5);
+        if (e < 5) note('planning', 'Close-out order needs work (cones come off last on site).');
+        return { tone: e >= 4 ? 'good' : 'mixed', fb: `<h3>Close-out ${Math.round(frac * 100)}% in order</h3><ol>${CLOSEOUT.map((x) => `<li>${x.text}</li>`).join('')}</ol><p>The cones protect the area until the truck is stowed. Removed drivers, photocells and LED parts go to e-waste recycling per company policy, not the customer's dumpster.</p><p class="pts">Planning +${e}</p>` };
+      } },
+
+    { id: 'walk', stage: 7, type: 'multi', values: ['check', 'aware'], title: 'Step back: anything else?',
+      prompt: () => '<p>Before you leave, walk the lot. What goes on the work order for the manager?</p>',
+      options: (S) => shuffle([
+        ...S.siteIssues.map((id) => ({ id, text: SITE_ISSUES.find((x) => x.id === id).text })),
+        { id: 'steady', text: 'Other poles on the circuit are all steady' },
+        { id: 'readings', text: 'Cause, readings, parts used, before/after photos' },
+        { id: 'none', text: 'Nothing. The job is done.' }
+      ], mulberry32(S.orderSeed + 7)),
+      check(S, sel) {
+        const marks = {}; let e = 0;
+        S.siteIssues.forEach((id) => { const it = SITE_ISSUES.find((x) => x.id === id); if (sel.has(id)) { e += 2; marks[id] = ['good', it.note]; } else { marks[id] = ['miss', it.note]; note('diagnosis', `Walked past: ${it.text.toLowerCase()}.`); } });
+        if (sel.has('readings')) { e += 1; marks.readings = ['good', '']; } else marks.readings = ['miss', 'Always document.'];
+        marks.steady = [sel.has('steady') ? 'good' : 'neutral', 'Good baseline to note.'];
+        if (sel.has('none')) { e = Math.max(0, e - 3); marks.none = ['bad', 'Stepping back is part of the job.']; } else marks.none = ['neutral', ''];
+        award('diagnosis', e, 5);
+        return { tone: e === 5 ? 'good' : 'mixed', marks, fb: `<h3>Site walk done</h3><p>Stepping back finds the next problem before it becomes a call, or an injury. Customers remember the tech who noticed.</p><p class="pts">Diagnosis +${e}</p>` };
+      } }
+  ];
+
+  function pairScore(order, correct) {
+    const pos = {}; correct.forEach((id, i) => { pos[id] = i; });
+    let good = 0, total = 0;
+    for (let i = 0; i < order.length; i++) for (let j = i + 1; j < order.length; j++) { total++; if (pos[order[i]] < pos[order[j]]) good++; }
+    return total ? good / total : 1;
+  }
+
+  /* ---------- flow ---------- */
+  function currentStep() { return STEPS[S.stepIdx]; }
+
+  function enterStep() {
+    while (S.stepIdx < STEPS.length && STEPS[S.stepIdx].when && !STEPS[S.stepIdx].when(S)) S.stepIdx++;
+    if (S.stepIdx >= STEPS.length) { S.done = true; renderAll(); renderReport(); return; }
+    const { stops, ...rest } = S;
+    snapshot = clone(rest);
+    renderAll();
+    renderStep();
+  }
+  function nextStep() { S.stepIdx++; enterStep(); focusHeading(); }
+  function backUp() {
+    const stops = S.stops;
+    S = Object.assign(clone(snapshot), { stops });
+    renderAll(); renderStep(); focusHeading();
+  }
+  function focusHeading() { const h = $('#card h2'); if (h) { h.focus({ preventScroll: true }); $('#card').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' }); } }
+
+  /* ---------- rendering: chrome ---------- */
+  function renderAll() {
+    $('#jobPill').textContent = 'Job #J-' + S.jobNo;
+    $('#scoreNum').textContent = totalScore();
+    const st = S.done ? 8 : currentStep().stage;
+    $('#progRow').innerHTML = STAGES.map((n, i) => `<div class="seg ${i + 1 < st ? 'done' : i + 1 === st ? 'now' : ''}" title="${n}"></div>`).join('');
+    $('#progText').textContent = S.done ? 'Report card' : st === 0 ? 'Job brief' : `Stage ${st}: ${STAGES[st - 1]}`;
+    $('#progCount').textContent = S.done ? 'Complete' : st === 0 ? 'Not started' : `${st} of 7`;
+    const vals = S.done ? [] : (currentStep().values || []);
+    $('#values').innerHTML = Object.entries(VALUES).map(([k, v]) => `<span class="val ${vals.includes(k) ? 'on' : ''}">${v}</span>`).join('');
+    renderScene();
+    renderNotebook();
+  }
+
+  function renderScene() {
+    const f = FAULTS[S.fault];
+    const svg = $('#sceneSvg');
+    svg.setAttribute('class', S.flags.fixed ? 'pat-steady' : 'pat-' + f.pattern);
+    $('#scene').classList.toggle('steady', S.flags.fixed);
+    $('#flashTag').textContent = f.patternText;
+    $('#sceneTitle').textContent = 'Night parking lot. Pole 12 light is ' + (S.flags.fixed ? 'steady after the repair.' : f.patternText.toLowerCase().replace('flashing: ', 'flashing with ') + '.');
+    const show = (id, on) => $(id).classList.toggle('hidden', !on);
+    show('#cones', S.flags.cones);
+    show('#truck', S.flags.truck);
+    show('#lockIcon', S.flags.lock);
+    show('#water', S.flags.hh && S.fault === 'splice');
+    show('#wpBeamShape', S.fault === 'photocell' && S.variant === 'reflect' && !S.flags.fixed);
+    const parts = [S.flags.fixed ? 'Light steady' : '9:40 pm', 'Pole 12'];
+    if (S.flags.lock) parts.push('Locked out');
+    $('#sceneCap').textContent = parts.join(' · ');
+  }
+
+  function renderNotebook() {
+    $('#nbSummary').textContent = `Clue notebook (${S.clues.length})`;
+    $('#nbList').innerHTML = S.clues.length ? S.clues.map((c) => `<li><span class="tag neutral">${c.src}</span>${c.text}</li>`).join('') : '<li>No clues yet. Ask questions and run tests.</li>';
+  }
+
+  /* ---------- rendering: step ---------- */
+  function cardShell(step) {
+    const st = step.stage;
+    return `<p class="kicker">${st === 0 ? 'Job brief' : `Stage ${st} · ${STAGES[st - 1]}`}</p>
+      <h2 tabindex="-1">${step.title}</h2>
+      <div class="prompt">${step.prompt(S)}</div>
+      <div class="choices" id="choices"></div>
+      <div class="actions" id="actions"></div>
+      <div class="fb" id="fb" aria-live="polite"></div>`;
+  }
+
+  function renderStep() {
+    const step = currentStep();
+    $('#card').innerHTML = cardShell(step);
+    const R = { info: renderInfo, single: renderSingle, multi: renderMulti, classify: renderClassify, order: renderOrder, tests: renderTests, retry: renderRetry }[step.type];
+    R(step);
+  }
+
+  function optBtn(o, kind) {
+    return `<button type="button" class="opt ${kind === 'radio' ? 'radio' : ''}" data-id="${o.id}" aria-pressed="false"><span class="box" aria-hidden="true"></span><span class="txt">${o.text}<span class="note"></span></span></button>`;
+  }
+
+  function applyMarks(marks) {
+    document.querySelectorAll('#choices .opt').forEach((b) => {
+      b.disabled = true;
+      const m = marks && marks[b.dataset.id];
+      if (!m) { if (b.getAttribute('aria-pressed') !== 'true') b.classList.add('m-neutral'); return; }
+      const [kind, txt] = m;
+      b.classList.add(kind === 'good' ? 'm-good' : kind === 'bad' ? 'm-bad' : kind === 'miss' ? 'm-miss' : 'm-neutral');
+      const label = { good: 'Good', bad: 'No', miss: 'Missed', neutral: '' }[kind];
+      b.querySelector('.note').innerHTML = (label ? `<span class="tag ${kind}">${label}</span>` : '') + (txt || '');
+    });
+  }
+
+  function showResult(res) {
+    if (res.critical) return showStop(res);
+    applyMarks(res.marks);
+    $('#fb').innerHTML = `<div class="fbox ${res.tone || ''}">${res.fb}</div>`;
+    $('#actions').innerHTML = '<button type="button" class="btn primary" id="contBtn">Continue</button>';
+    $('#contBtn').addEventListener('click', nextStep);
+    $('#scoreNum').textContent = totalScore();
+    renderNotebook();
+    renderScene();
+    $('#contBtn').focus({ preventScroll: true });
+  }
+
+  function showStop(res) {
+    S.stops.push({ step: currentStep().title, title: res.title, why: res.critical });
+    document.querySelectorAll('#choices button').forEach((b) => { b.disabled = true; });
+    $('#actions').innerHTML = '';
+    $('#fb').innerHTML = `<div class="stop" role="alert">
+      <h3>Stop work. Reassess.</h3>
+      <p><b>${res.title}</b></p>
+      <ul>${res.critical.map((c) => `<li>${c}</li>`).join('')}</ul>
+      <p class="muted">You cannot move past this stage with a critical safety miss. This counts on your report card.</p>
+      <button type="button" class="btn primary" id="backBtn">Back up one step</button></div>`;
+    $('#backBtn').addEventListener('click', backUp);
+    $('#backBtn').focus({ preventScroll: true });
+    $('#fb').scrollIntoView({ block: 'nearest' });
+  }
+
+  function renderInfo(step) {
+    $('#actions').innerHTML = `<button type="button" class="btn primary" id="contBtn">${step.cta || 'Continue'}</button>`;
+    $('#contBtn').addEventListener('click', nextStep);
+  }
+
+  function renderSingle(step) {
+    const opts = step.options(S);
+    $('#choices').innerHTML = opts.map((o) => optBtn(o, 'radio')).join('');
+    $('#choices').setAttribute('role', 'group');
+    $('#actions').innerHTML = '<span class="hint">Tap one answer.</span>';
+    document.querySelectorAll('#choices .opt').forEach((b) => b.addEventListener('click', () => {
+      b.setAttribute('aria-pressed', 'true');
+      showResult(step.check(S, b.dataset.id));
+    }));
+  }
+
+  function renderMulti(step) {
+    const opts = step.options(S); const sel = new Set();
+    $('#choices').innerHTML = opts.map((o) => optBtn(o)).join('');
+    $('#actions').innerHTML = '<button type="button" class="btn primary" id="checkBtn" disabled>Check</button><span class="hint" id="selCount">Select all that apply.</span>';
+    document.querySelectorAll('#choices .opt').forEach((b) => b.addEventListener('click', () => {
+      const id = b.dataset.id;
+      if (sel.has(id)) sel.delete(id); else sel.add(id);
+      b.setAttribute('aria-pressed', sel.has(id));
+      $('#checkBtn').disabled = sel.size === 0;
+      $('#selCount').textContent = sel.size ? `${sel.size} selected` : 'Select all that apply.';
+    }));
+    $('#checkBtn').addEventListener('click', () => showResult(step.check(S, sel)));
+  }
+
+  function renderClassify(step) {
+    const asg = {};
+    const order = shuffle(CONTROLS, mulberry32(S.orderSeed + 3));
+    $('#choices').innerHTML = order.map((c) => `<div class="crow" data-id="${c.id}"><div class="ctext" id="ct-${c.id}">${c.text}</div>
+      <div class="lvls" role="group" aria-labelledby="ct-${c.id}">${LEVELS.map((l) => `<button type="button" class="lvl" data-c="${c.id}" data-l="${l.id}" aria-pressed="false" aria-label="${l.name}">${l.short}</button>`).join('')}</div><div class="note"></div></div>`).join('');
+    $('#actions').innerHTML = '<button type="button" class="btn primary" id="checkBtn" disabled>Check</button><span class="hint" id="selCount">0 of 7 sorted</span>';
+    document.querySelectorAll('#choices .lvl').forEach((b) => b.addEventListener('click', () => {
+      asg[b.dataset.c] = b.dataset.l;
+      document.querySelectorAll(`#choices .lvl[data-c="${b.dataset.c}"]`).forEach((x) => x.setAttribute('aria-pressed', x === b));
+      const n = Object.keys(asg).length;
+      $('#selCount').textContent = `${n} of 7 sorted`;
+      $('#checkBtn').disabled = n < CONTROLS.length;
+    }));
+    $('#checkBtn').addEventListener('click', () => {
+      const res = step.check(S, asg);
+      document.querySelectorAll('#choices .lvl').forEach((b) => { b.disabled = true; });
+      document.querySelectorAll('#choices .crow').forEach((r) => {
+        const m = res.marks[r.dataset.id];
+        r.classList.add(m[0] === 'good' ? 'm-good' : 'm-bad');
+        r.querySelector('.note').innerHTML = `<span class="tag ${m[0]}">${m[0] === 'good' ? 'Good' : 'No'}</span>${m[1]}`;
+      });
+      showResult(Object.assign({}, res, { marks: null }));
+    });
+  }
+
+  function renderOrder(step) {
+    const items = shuffle(step.items, mulberry32(S.orderSeed + step.items.length));
+    const picked = [];
+    $('#choices').innerHTML = `<div class="order-grid"><div><h3>Steps</h3><div id="pool"></div></div><div><h3>Your order</h3><ol class="olist" id="olist"></ol></div></div>`;
+    $('#actions').innerHTML = '<button type="button" class="btn primary" id="checkBtn" disabled>Check order</button><button type="button" class="btn" id="undoBtn" disabled>Undo</button><button type="button" class="btn" id="resetBtn" disabled>Reset</button>';
+    function draw() {
+      $('#pool').innerHTML = items.filter((i) => !picked.includes(i.id)).map((i) => optBtn(i)).join('') || '<p class="hint">All placed. Check your order.</p>';
+      $('#olist').innerHTML = picked.map((id) => `<li data-id="${id}">${step.items.find((x) => x.id === id).text}</li>`).join('') +
+        (picked.length < items.length ? `<li class="empty">Tap step ${picked.length + 1}</li>` : '');
+      $('#checkBtn').disabled = picked.length < items.length;
+      $('#undoBtn').disabled = $('#resetBtn').disabled = picked.length === 0;
+      document.querySelectorAll('#pool .opt').forEach((b) => b.addEventListener('click', () => {
+        picked.push(b.dataset.id); draw();
+        const nxt = $('#pool .opt'); (nxt || $('#checkBtn')).focus({ preventScroll: true });
+      }));
+    }
+    draw();
+    $('#undoBtn').addEventListener('click', () => { picked.pop(); draw(); });
+    $('#resetBtn').addEventListener('click', () => { picked.length = 0; draw(); });
+    $('#checkBtn').addEventListener('click', () => {
+      const res = step.check(S, picked.slice());
+      const correct = step.items.map((x) => x.id);
+      document.querySelectorAll('#olist li').forEach((li, i) => li.classList.add(correct[i] === li.dataset.id ? 'm-good' : 'm-off'));
+      showResult(res);
+    });
+  }
+
+  function renderTests(step) {
+    $('#choices').innerHTML = `<div class="tests">${TESTS.map((t) => `<button type="button" class="opt" data-id="${t.id}" aria-pressed="false"><span class="box" aria-hidden="true"></span><span class="txt">${t.label}<span class="cost">${t.cost}</span></span></button>`).join('')}</div><ul class="log" id="log" aria-live="polite"></ul>`;
+    $('#actions').innerHTML = '<button type="button" class="btn primary" id="contBtn">Name the cause</button><span class="hint" id="tcount">Tests run: 0</span>';
+    function drawLog() {
+      $('#log').innerHTML = S.tests.map((id) => { const t = TESTS.find((x) => x.id === id); return `<li><b>${t.label}</b>${t.res(S)}</li>`; }).join('');
+      $('#tcount').textContent = `Tests run: ${S.tests.length}`;
+      S.tests.forEach((id) => { const b = $(`#choices .opt[data-id="${id}"]`); b.disabled = true; b.setAttribute('aria-pressed', 'true'); });
+    }
+    drawLog();
+    document.querySelectorAll('#choices .opt').forEach((b) => b.addEventListener('click', () => {
+      const t = TESTS.find((x) => x.id === b.dataset.id);
+      S.tests.push(t.id);
+      if (t.id === 'handhole') S.flags.hh = true;
+      if (t.guess) deduct(4, `Guessed: "${t.label.toLowerCase()}" without evidence.`);
+      addClue('Test', `<b>${t.label}:</b> ${t.res(S)}`);
+      drawLog(); renderNotebook(); renderScene();
+      $('#scoreNum').textContent = totalScore();
+      const items = $('#log').children; items[items.length - 1].scrollIntoView({ block: 'nearest' });
+    }));
+    $('#contBtn').addEventListener('click', nextStep);
+  }
+
+  function renderRetry(step) {
+    const opts = step.options(S);
+    $('#choices').innerHTML = opts.map((o) => optBtn(o, 'radio')).join('');
+    $('#actions').innerHTML = '<span class="hint">Tap one repair.</span>';
+    document.querySelectorAll('#choices .opt').forEach((b) => b.addEventListener('click', () => {
+      const id = b.dataset.id;
+      b.setAttribute('aria-pressed', 'true');
+      if (id !== S.fault) {
+        S.fixTries++; S.trips++;
+        deduct(6, 'Wrong repair: wasted part and a return trip.');
+        b.disabled = true; b.classList.add('m-bad'); b.setAttribute('aria-pressed', 'false');
+        b.querySelector('.note').innerHTML = `<span class="tag bad">No</span>${step.wrongWhy[id]}`;
+        $('#fb').innerHTML = `<div class="fbox bad"><h3>That will not fix it</h3><p>${step.wrongWhy[id]} The light is still flashing. Efficiency -6. Look at your evidence and try again.</p></div>`;
+        $('#scoreNum').textContent = totalScore();
+        return;
+      }
+      const e = S.fixTries === 0 ? 10 : S.fixTries === 1 ? 5 : 0;
+      award('diagnosis', e, 10);
+      if (S.fixTries) note('diagnosis', `Took ${S.fixTries + 1} tries to pick the right repair.`);
+      let partTxt = '';
+      if (S.fault !== 'driver') {
+        const part = FAULTS[S.fault].part;
+        if (S.packed.includes(part)) partTxt = 'The parts were on the truck. Fixed in one trip.';
+        else { S.trips++; deduct(6, 'Second trip: needed part was left at the shop.'); partTxt = 'The part was not on the truck. Second trip. Efficiency -6.'; }
+      }
+      const why = { photocell: 'A new photocell, aimed north and away from other light sources, stops the false "daylight" signal. Never just tape it on.', driver: 'The driver failed under heat. Next, decide: driver or whole fixture.', splice: 'Wet-location connectors, a dry sealed hand hole and a solid ground stop the intermittent connection. Note the drainage issue for the customer.' }[S.fault];
+      showResult({ tone: e === 10 ? 'good' : 'mixed', marks: { [id]: ['good', ''] }, fb: `<h3>Right repair</h3><p>${why}</p>${partTxt ? `<p>${partTxt}</p>` : ''}<p class="pts">Diagnosis +${e}</p>` });
+    }));
+  }
+
+  /* ---------- report ---------- */
+  function renderReport() {
+    const c = S.cats;
+    const rows = [
+      ['safety', c.safety.e, c.safety.p],
+      ['questions', c.questions.e, c.questions.p],
+      ['planning', c.planning.e, c.planning.p],
+      ['diagnosis', c.diagnosis.e, c.diagnosis.p],
+      ['efficiency', effScore(), EFF_MAX]
+    ];
+    const safetyPct = pct(c.safety.e, c.safety.p);
+    const total = totalScore(); const max = rows.reduce((a, r) => a + r[2], 0);
+    const overall = pct(total, max);
+    const pass = safetyPct === 100 && S.stops.length === 0 && overall >= 70;
+    const fb = {
+      safety: S.stops.length ? `${S.stops.length} stop-work reset${S.stops.length > 1 ? 's' : ''}: ${Array.from(new Set(S.stops.map((s) => s.title.toLowerCase()))).join('; ')}.` : (S.notes.safety[0] || 'No safety misses. That is the foundation.'),
+      questions: S.notes.questions[0] || 'You asked the questions that point to the cause.',
+      planning: S.notes.planning.slice(0, 2).join(' ') || 'Whole job envisioned; no bottlenecks.',
+      diagnosis: S.notes.diagnosis.slice(0, 2).join(' ') || 'Proved the cause, fixed it once, and checked the site.',
+      efficiency: `${S.trips} trip${S.trips > 1 ? 's' : ''}, ${S.tests.length} test${S.tests.length === 1 ? '' : 's'}. ` + (S.notes.efficiency.slice(0, 2).join(' ') || 'No idle time, no wasted parts.')
+    };
+    $('#card').innerHTML = `<p class="kicker">Job #J-${S.jobNo} complete</p><h2 tabindex="-1">Report card</h2>
+      <div class="verdict ${pass ? '' : 'fail'}"><h3>${pass ? 'Pass' : 'Not yet'}</h3>
+      <p>${pass ? 'Safe, prepared and proven. Nice work.' : safetyPct < 100 || S.stops.length ? 'A pass needs 100% safety and no stop-work resets. Every reset was a moment someone could have been hurt.' : 'Safety was solid. Tighten up planning and diagnosis to pass (70% overall).'}</p>
+      <p><b>Total: ${total} of ${max} (${overall}%)</b> · Safety ${safetyPct}%</p></div>
+      <p><b>The cause:</b> ${FAULTS[S.fault].name}. ${FAULTS[S.fault].summary(S)}</p>
+      <div class="rows">${rows.map(([k, e, p]) => { const v = pct(e, p); const cls = k === 'safety' ? (v === 100 && !S.stops.length ? 'ok' : 'no') : ''; return `<div class="rrow"><span class="rn">${CATS[k]}</span><span class="rv">${v}%</span><div class="bar ${cls}" role="img" aria-label="${CATS[k]} ${v} percent"><i style="width:${v}%"></i></div><span class="rnote">${fb[k]}</span></div>`; }).join('')}</div>
+      <div class="actions"><button type="button" class="btn primary" id="againBtn">Play a new job</button><span class="hint">New random fault each time.</span></div>`;
+    $('#againBtn').addEventListener('click', () => { newGame(freshSeed()); focusHeading(); });
+    focusHeading();
+  }
+
+  /* ---------- boot ---------- */
+  function freshSeed() { return (Date.now() ^ Math.floor(Math.random() * 1e9)) >>> 0; }
+  $('#newJobBtn').addEventListener('click', () => { $('#confirmNew').classList.add('show'); $('#confirmYes').focus(); });
+  $('#confirmNo').addEventListener('click', () => { $('#confirmNew').classList.remove('show'); $('#newJobBtn').focus(); });
+  $('#confirmYes').addEventListener('click', () => { $('#confirmNew').classList.remove('show'); newGame(freshSeed()); focusHeading(); });
+
+  const m = /seed=(\d+)/.exec(location.hash || '');
+  newGame(m ? Number(m[1]) >>> 0 : freshSeed());
+})();
+</script>
