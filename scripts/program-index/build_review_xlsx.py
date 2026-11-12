@@ -129,6 +129,8 @@ for lvl in LEVELS:
 
 level_title = {g['code']: g['title'] for g in groups}
 level_req = {g['code']: g['req'] for g in groups if g.get('req')}
+for lvl, ov in (placement.get('level_overrides') or {}).items():
+    level_req[lvl] = dict(level_req[lvl], months=ov.get('months', level_req[lvl]['months']), ojt=ov.get('ojt', level_req[lvl]['ojt']))
 themes = {lvl: (placement['levels'].get(lvl) or {}).get('theme', '') for lvl in LEVELS}
 
 # ---------------- styles ----------------

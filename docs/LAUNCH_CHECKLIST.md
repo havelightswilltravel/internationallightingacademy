@@ -1,5 +1,8 @@
 # Launch checklist (publishing gate)
 
+Live, editable version: the **Academy Launch Tracker** artifact (link in the README). This file is the
+record in the repository.
+
 Nothing is published to technicians until every **BLOCKING** item below is checked. Claude will not
 publish the program, or help publish it, while a blocking item is open.
 
@@ -10,6 +13,10 @@ publish the program, or help publish it, while a blocking item is open.
 - [ ] Every new course in the layout written, with quizzes and hands-on sign-offs.
 - [ ] Safety content signed off by the safety lead (SME review notes, rounds 1-6).
 - [ ] Scope-by-state disclaimer and license wording reviewed (attorney and/or insurer).
+- [ ] **Copyright and ownership of the program** settled with the attorney before publishing: who owns the
+      content (company vs. individual authors, AI-assisted material), copyright notices on every page and
+      export, registration (optional), terms of use for trainees and licensees, and confirmation that no
+      third-party material (photos, diagrams, standards text, vendor manuals) is used without permission.
 
 ## Before launch (decided Nov 20, 2026)
 - [ ] Quiz integrity: block copy/paste and flag leaving the page during quizzes and exams; "this is my own

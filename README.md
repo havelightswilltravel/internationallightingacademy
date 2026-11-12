@@ -40,6 +40,18 @@ interview kits. The archived electrical courses (24 courses, 95 lessons) are not
 [Discussion 004](docs/discussions/004-archived-electrical-courses.md). Screenshots are in
 [`docs/screenshots/`](docs/screenshots/).
 
+## Where to find things
+
+| What | Where |
+|---|---|
+| **Launch tracker** (living checklist of every open item, including the publishing gate) | https://claude.ai/artifact/X7gXNQZDJYAivq8jQWX2PZ |
+| Publishing gate (record in the repo) | [`docs/LAUNCH_CHECKLIST.md`](docs/LAUNCH_CHECKLIST.md) |
+| Program Index tool (every course, lesson and skill; Get Help) | https://claude.ai/artifact/PZ2HcPm76rwMmi2X8BD3WS |
+| Curriculum review site | https://claude.ai/artifact/YJhfNMe3qtws53ZXBzp7Ss |
+| Layout draft for team review | [`docs/Lighting Program Layout - DRAFT for approval.xlsx`](docs/) |
+| Training video list | [`docs/Training Video List.xlsx`](docs/) |
+| Discussion items | [`docs/discussions/`](docs/discussions/README.md) |
+
 ## What's in this repository
 
 | Path | What it is |
