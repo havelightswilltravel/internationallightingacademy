@@ -122,6 +122,8 @@ for lvl in LEVELS:
         new = f'{lvl}-S{i:02d}'
         code_map[s['code']] = new
         s['new_code'] = new
+(out / 'layout-skills.json').write_text(json.dumps({lvl: [dict(code=sk['code'], new_code=sk['new_code'], title=sk['title'], category=sk.get('category'),
+    critical=bool(sk.get('critical')), description=sk.get('description', ''), criteria=sk.get('criteria', [])) for sk in skills[lvl]] for lvl in LEVELS}, indent=1))
 (out / 'layout.json').write_text(json.dumps({lvl: [dict(code=c['code'], new_code=c['new_code'], title=c['title'], kind=c.get('kind', 'course'),
     add=bool(c.get('add')), hours=c['hours'], target=c.get('target'),
     lessons=[dict(id=l['id'], title=l['title'], minutes=l['minutes']) for l in c['lessons']]) for c in layout[lvl]] for lvl in LEVELS}, indent=1))
@@ -297,12 +299,22 @@ put(pl, r + 4, ['Room left', None, None, 'Hours available for anything added', N
 for k in range(r, r + 5):
     pl.cell(row=k, column=6).number_format = '0.0'
 r += 7
-band(pl, r, f"Manager Module (separate, for supervisors and managers): {len(mgr['courses'])} courses, "
-            f"{sum(c['hours'] for c in mgr['courses']):.0f} hours", 9)
+MB = placement.get('manager_partB')
+band(pl, r, "Manager Module (separate; technicians never see it)" + (f": {len(mgr['courses']) + len(MB['courses'])} courses, about "
+     f"{sum(c['hours'] for c in mgr['courses']) + sum(h for _, h in MB['courses']):.0f} hours" if MB else ''), 9)
 r += 1
+if MB:
+    put(pl, r, [None, None, None, MB['partA']], f=bold)
+    r += 1
 for c in sorted(mgr['courses'], key=lambda c: c['order']):
     put(pl, r, ['MGR', c['order'], c['code'], c['title'], 'Any time', c['hours'], len(c['lessons']), c['questions']], f=grey)
     r += 1
+if MB:
+    put(pl, r, [None, None, None, MB['title']], f=bold)
+    r += 1
+    for i, (t, h) in enumerate(MB['courses'], start=1):
+        put(pl, r, ['OPS', i, f'OPS-C{i:02d}', t, 'Any time', h, None, None], f=grey)
+        r += 1
 pl.freeze_panes = 'A5'
 
 # ---------------- Requirements by Level ----------------

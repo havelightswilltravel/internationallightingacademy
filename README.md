@@ -48,7 +48,7 @@ interview kits. The archived electrical courses (24 courses, 95 lessons) are not
 | Publishing gate (record in the repo) | [`docs/LAUNCH_CHECKLIST.md`](docs/LAUNCH_CHECKLIST.md) |
 | Program Index tool (every course, lesson and skill; Get Help) | https://claude.ai/artifact/PZ2HcPm76rwMmi2X8BD3WS |
 | Curriculum review site | https://claude.ai/artifact/YJhfNMe3qtws53ZXBzp7Ss |
-| Layout draft for team review | [`docs/Lighting Program Layout - DRAFT for approval.xlsx`](docs/) |
+| Program layout for team review | [`docs/Lighting Program Layout - Team Review.xlsx`](docs/) |
 | Training video list | [`docs/Training Video List.xlsx`](docs/) |
 | Show me module: flashing pole light (playable sample) | https://claude.ai/artifact/KeMrtGXT3uQGrb1eovMb7s |
 | Discussion items | [`docs/discussions/`](docs/discussions/README.md) |

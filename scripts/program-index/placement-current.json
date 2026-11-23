@@ -174,13 +174,43 @@
    "hours": 3,
    "title": "Industrial and High-Security Customer Sites",
    "covers": "Using a real plant project as the example: site orientation, training cards and badging; customer-controlled lockout (customer locks first, then the contractor, then each of us); daily JSA, toolbox talk and the customer's task analysis, and redoing them when conditions change; barricades (red vs yellow chain, gates, signs); first-fixture approval before production; delivery checks, material staging and asset control; site conduct (no photos without approval, approved knives only, phones, food); hot work and confined space only with the customer's permit."
+  },
+  "mindset1": {
+   "kind": "lesson",
+   "src": "meeting",
+   "hours": 0.5,
+   "target": "LT1-C01",
+   "title": "The Job Mindset: Safe, Planned, Ahead",
+   "covers": "Introduced on day one: safety first (hazards and the hierarchy of controls); plan the whole job before you leave the shop, worst cases included (tools, equipment, manpower, parts); think several steps ahead; keep every hand busy; never be caught off guard."
+  },
+  "refreshLT3": {
+   "kind": "course",
+   "src": "meeting",
+   "hours": 0.5,
+   "title": "Job Mindset Refresher (LT3)",
+   "covers": "Opens the level: the five Job Mindset habits applied to the work in this level, with a scenario from this level's tasks."
+  },
+  "refreshLT4": {
+   "kind": "course",
+   "src": "meeting",
+   "hours": 0.5,
+   "title": "Job Mindset Refresher (LT4)",
+   "covers": "Opens the level: the five Job Mindset habits applied to the work in this level, with a scenario from this level's tasks."
+  },
+  "refreshLT5": {
+   "kind": "course",
+   "src": "meeting",
+   "hours": 0.5,
+   "title": "Job Mindset Refresher (LT5)",
+   "covers": "Opens the level: the five Job Mindset habits applied to the work in this level, with a scenario from this level's tasks."
   }
  },
  "levels": {
   "LT1": {
-   "theme": "Safety foundation: safety, first aid, ladders and lifts, tools, vehicles, customer service and project readiness",
+   "theme": "Safety foundation: safety, first aid, ladders and lifts, tools, vehicles, customer service, basic electricity and project readiness",
    "courses": [
     "LT1-C01",
+    "ADD:mindset1",
     "ADD:firstaid",
     "LT1-C02",
     "ADD:mpladder",
@@ -194,73 +224,76 @@
     "ADD:vehicles",
     "LT1-C07",
     "ADD:siterules",
+    "LT1-C04",
     "LT3-C06",
     "LT2-C12",
     "ADD:stopwork"
    ]
   },
   "LT2": {
-   "theme": "Foundation (safety first, ownership and work ethic); lighting basics from incandescent to fluorescent, HID and LED; circuits and measurement; parts and repair-or-replace; troubleshooting; installation; track, low-voltage and prints",
+   "theme": "Lighting systems: the Foundation course, light sources from incandescent to LED, measurement, parts, LED drivers, repair or replace, truck stock and troubleshooting",
    "courses": [
     "LT2-C13",
-    "LT1-C04",
     "LT1-C05",
-    "LT2-C05",
     "LT1-C08",
     "LT2-C04a",
     "LT2-C04b",
+    "LT2-C05",
     "LT2-C01",
     "LT2-C03",
     "LT1-C10",
     "LT3-C01",
     "ADD:repair",
     "ADD:truckstock",
-    "LT2-C06",
-    "LT3-C04",
+    "LT2-C06"
+   ]
+  },
+  "LT3": {
+   "theme": "Installation, circuits and exterior: installation tools, devices, breakers and branch circuits, prints, switching, track, low-voltage and data, emergency lighting, exterior, traffic, industrial sites and rigging",
+   "courses": [
+    "ADD:refreshLT3",
     "ADD:insttools",
     "LT1-C09",
     "LT2-C11",
     "LT2-C02",
     "ADD:esafety1",
-    "ADD:attics",
+    "LT2-C07",
+    "LT2-C08",
     "LT2-C09",
     "LT2-C10",
-    "LT2-C07"
-   ]
-  },
-  "LT3": {
-   "theme": "Exterior, traffic and industrial sites; rigging; switching, dimming and controls; refrigerated case, neon, signage and data cabling",
-   "courses": [
+    "LT3-C11",
+    "LT3-C04",
+    "ADD:attics",
     "LT3-C05",
     "ADD:traffic",
     "ADD:industrial",
-    "LT3-C12",
-    "LT2-C08",
-    "LT3-C02",
-    "LT3-C03",
-    "LT4-C01",
-    "LT3-C07",
-    "LT3-C08",
-    "LT3-C09",
-    "LT3-C10",
-    "LT3-C11"
+    "LT3-C12"
    ]
   },
   "LT4": {
-   "theme": "Senior: energy codes, photometry, advanced troubleshooting, the NEC for lighting, qualified-worker electrical safety, large tools and pole installation",
+   "theme": "Senior: dimming and controls, networked controls, refrigerated case, neon and signage, energy codes, advanced troubleshooting, qualified-worker electrical safety, large tools",
    "courses": [
+    "ADD:refreshLT4",
+    "LT3-C02",
+    "LT3-C03",
+    "LT3-C07",
+    "LT4-C01",
+    "LT3-C08",
+    "LT3-C09",
+    "LT3-C10",
     "LT4-C02",
-    "LT4-C03",
     "LT4-C05",
-    "LT4-C06",
     "LT4-C07",
     "ADD:largetools",
     "ADD:poleinstall"
    ]
   },
   "LT5": {
-   "theme": "Master: audits and estimating, commissioning, power quality, leadership, emerging technology, maintenance planning, capstone",
+   "theme": "Master: photometry, the NEC for lighting, audits and estimating, commissioning, power quality, leadership, emerging technology, maintenance planning, capstone",
    "courses": [
+    "ADD:refreshLT5",
+    "LT4-C03",
+    "LT4-C06",
     "LT5-C01",
     "LT5-C02",
     "LT4-C04",
@@ -289,7 +322,7 @@
    ""
   ],
   "LT2-S03": [
-   "LT1",
+   "LT2",
    ""
   ],
   "LT2-S21": [
@@ -309,7 +342,7 @@
    ""
   ],
   "LT1-S10": [
-   "LT2",
+   "LT3",
    ""
   ],
   "LT1-S11": [
@@ -317,27 +350,27 @@
    ""
   ],
   "LT3-S04": [
-   "LT2",
+   "LT3",
    ""
   ],
   "LT3-S05": [
-   "LT2",
+   "LT3",
    ""
   ],
   "LT3-S20": [
-   "LT2",
+   "LT3",
    ""
   ],
   "LT3-S28": [
-   "LT2",
+   "LT3",
    ""
   ],
   "LT2-S04": [
-   "LT1",
+   "LT2",
    ""
   ],
   "LT2-S20": [
-   "LT1",
+   "LT2",
    ""
   ],
   "LT2-S09": [
@@ -345,7 +378,7 @@
    ""
   ],
   "LT4-S01": [
-   "LT3",
+   "LT4",
    ""
   ],
   "LT4-S03": [
@@ -357,6 +390,98 @@
    ""
   ],
   "LT4-S05": [
+   "LT5",
+   ""
+  ],
+  "LT1-S05": [
+   "LT2",
+   ""
+  ],
+  "LT1-S06": [
+   "LT2",
+   ""
+  ],
+  "LT1-S09": [
+   "LT2",
+   ""
+  ],
+  "LT1-S20": [
+   "LT2",
+   ""
+  ],
+  "LT2-S02": [
+   "LT3",
+   ""
+  ],
+  "LT2-S06": [
+   "LT3",
+   ""
+  ],
+  "LT2-S07": [
+   "LT3",
+   ""
+  ],
+  "LT2-S08": [
+   "LT3",
+   ""
+  ],
+  "LT2-S10": [
+   "LT3",
+   ""
+  ],
+  "LT2-S11": [
+   "LT3",
+   ""
+  ],
+  "LT2-S12": [
+   "LT3",
+   ""
+  ],
+  "LT3-S02": [
+   "LT4",
+   ""
+  ],
+  "LT3-S03": [
+   "LT4",
+   ""
+  ],
+  "LT3-S06": [
+   "LT4",
+   ""
+  ],
+  "LT3-S10": [
+   "LT4",
+   ""
+  ],
+  "LT3-S21": [
+   "LT4",
+   ""
+  ],
+  "LT3-S22": [
+   "LT4",
+   ""
+  ],
+  "LT3-S11": [
+   "LT4",
+   ""
+  ],
+  "LT3-S13": [
+   "LT4",
+   ""
+  ],
+  "LT3-S14": [
+   "LT4",
+   ""
+  ],
+  "LT4-S02": [
+   "LT5",
+   ""
+  ],
+  "LT4-S08": [
+   "LT5",
+   ""
+  ],
+  "LT4-S09": [
    "LT5",
    ""
   ]
@@ -400,24 +525,70 @@
  },
  "level_overrides": {
   "LT1": {
-   "months": 4,
-   "ojt": 640
+   "months": 5,
+   "ojt": 760
   },
   "LT2": {
-   "months": 8,
-   "ojt": 1260
+   "months": 5,
+   "ojt": 760
   },
   "LT3": {
-   "months": 4,
-   "ojt": 630
+   "months": 5,
+   "ojt": 760
   },
   "LT4": {
-   "months": 4,
-   "ojt": 630
+   "months": 5,
+   "ojt": 760
   },
   "LT5": {
    "months": 4,
-   "ojt": 640
+   "ojt": 760
   }
+ },
+ "manager_partB": {
+  "title": "Part B: Operations Leadership (for OMs and senior leadership; purchasing and inventory courses also open to purchasing staff). Being written.",
+  "partA": "Part A: Hiring & Retention (managers and supervisors). Behavior-based interviewing being strengthened: detail probing, contrast questions, independent scoring by multiple interviewers.",
+  "courses": [
+   [
+    "The Operations Manager's Job",
+    3
+   ],
+   [
+    "Following the Work Order Workflows Exactly",
+    4
+   ],
+   [
+    "The Project Hand-Off (PHO)",
+    3
+   ],
+   [
+    "Scheduling, Dispatch and Production",
+    4
+   ],
+   [
+    "Purchasing and Vendor Management",
+    3
+   ],
+   [
+    "Inventory and Truck Stock",
+    3
+   ],
+   [
+    "Fleet, Lifts and Equipment",
+    3
+   ],
+   [
+    "Never Caught Off Guard: Planning at the Manager Level",
+    2
+   ],
+   [
+    "Quality, Safety and Field Visits",
+    3
+   ],
+   [
+    "One Playbook Across Offices",
+    2
+   ]
+  ]
  }
 }

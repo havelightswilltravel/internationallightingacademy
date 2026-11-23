@@ -39,3 +39,11 @@ Fluorescent, HID, about 37.5 h) to the start of LT2.
 - Repair-or-replace answers for common situations.
 - Regional truck stock sheets (mentioned as uploaded; not received in this session).
 - HeyGen template.
+
+## November 23, 2026: rebalance and Job Mindset approved
+- Levels rebalanced to about 76 h each (LT1 78.5, LT2 74.5, LT3 74.5, LT4 76.5, LT5 79.5 = 383.5 h); 5/5/5/5/4 months; 760 field hours each.
+- Electrical Fundamentals I moved into LT1; installation and circuit courses to LT3; controls and specialty systems to LT4; photometry and the NEC to LT5.
+- Job Mindset (Safe, Planned, Ahead): new LT1 lesson, 30-minute refreshers opening LT3, LT4 and LT5, and prompts in every task lesson, quiz, sign-off, show-me module and video.
+- Manager Module Part B, Operations Leadership (10 courses, about 30 h), outline approved; to be written.
+- The Nov 23 uploads were identical to files already worked in (Nov 20 layout, Nov 11 index).
+- Program Index app now shows this layout with the new course numbers.

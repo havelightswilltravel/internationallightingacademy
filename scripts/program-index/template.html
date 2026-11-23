@@ -520,7 +520,7 @@ $('#export').addEventListener('click', async () => {
     const b64 = (await fetch('program-index-xlsx.txt').then(r => { if (!r.ok) throw new Error(); return r.text(); })).trim();
     const bin = atob(b64); const buf = new Uint8Array(bin.length);
     for (let i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
-    await dl.save({ filename: 'Lighting Academy Program Index.xlsx', data: buf });
+    await dl.save({ filename: 'Lighting Program Layout - Team Review.xlsx', data: buf });
   } catch (e) { setSave(e?.code === 'unavailable' ? 'Download is not available in this view' : 'The Excel file could not be downloaded. Try again.'); }
 });
 
