@@ -54,6 +54,9 @@ review_interval_months: 12
    relay panel, BMS, HOA switch) and where the coil gets its power.
 2. Check the HOA selector. If switching to **Hand** brings the lights on, the contactor and
    load are probably good - the fault is in the automatic control (photocell/clock/BMS).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. If Hand does nothing: **(qualified, energized, with PPE)** measure coil voltage at the
    coil terminals with the control calling for on. Expected: the coil's rated voltage
    (e.g. 120 V or 277 V AC; some are 24 V).

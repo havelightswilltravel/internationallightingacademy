@@ -76,6 +76,9 @@ review_interval_months: 12
    lights come on, the photocell is bad; if not, the problem is downstream (contactor, fixture,
    supply). Remove the shorting cap when done - do not leave lights burning 24/7 without
    the customer's agreement.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 6. **(Qualified, energized, with PPE)** At the receptacle: line-to-neutral should be circuit
    voltage. With the photocell calling for on (covered), load-to-neutral should also be
    circuit voltage.

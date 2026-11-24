@@ -64,6 +64,8 @@ calls end here.
 
 If the fixture is still dark with a good lamp and a good-looking socket:
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 5. **Check power.** A qualified person measures voltage at the socket (center contact to
    screw shell) with the switch on. About 120 V means power is reaching the socket, so suspect
    socket contact or the lamp again. No voltage means the problem is upstream.

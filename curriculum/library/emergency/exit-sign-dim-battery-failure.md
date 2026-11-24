@@ -55,6 +55,9 @@ review_interval_months: 12
    photoluminescent, or self-luminous.
 2. Observe on AC power: fully lit, partially lit or dark? Check the charge indicator.
 3. Press the test switch (or use the remote test) for at least 30 seconds. Note when it fails.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. If dark on AC: **(qualified, energized, with PPE)** verify input voltage at the sign.
    Expected: nominal line voltage on the lead used (120 V or 277 V). No voltage = supply problem.
 5. **De-energize, LOTO, verify absence of voltage,** disconnect the battery and inspect: loose

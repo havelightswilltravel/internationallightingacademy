@@ -108,6 +108,8 @@ the load connected, as the company LED procedure warns.
 
 ## Primary vs Secondary Troubleshooting Logic
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 1. Measure **primary** (line) voltage. None → the problem is upstream.
 2. Measure **secondary** voltage under the correct conditions (with load for electronic supplies).
 3. Primary good, secondary missing → check secondary connections, fuses/breakers on the

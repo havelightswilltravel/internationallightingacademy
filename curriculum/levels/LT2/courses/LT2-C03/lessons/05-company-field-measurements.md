@@ -18,6 +18,8 @@ The first four lessons taught how test instruments work. This lesson is about **
 company expects you to use them** - three measurements that our monthly meetings return to again
 and again because skipping them has cost us fixtures, callbacks and breakdowns.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** Every voltage reading on an exposed energized circuit is energized work under
 > NFPA 70E. Only qualified persons take these readings, with the PPE your company program
 > requires and a CAT-rated meter verified on a known source (Lesson 1). Approach-boundary and

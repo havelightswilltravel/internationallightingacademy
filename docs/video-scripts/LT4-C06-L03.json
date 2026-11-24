@@ -4,7 +4,7 @@
   "course": "LT4-C06",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 252,
+  "target_seconds": 261,
   "scenes": [
     {
       "scene": 1,
@@ -42,9 +42,9 @@
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "Tech opens the door frame header to expose the remote ballast; qualified tech in PPE takes the input voltage reading. Step overlay.",
-      "on_screen": "5. Locate the ballast. Test line voltage at the input (qualified + PPE).",
-      "says": "Step five, sockets look good. Open the case only as far as needed to find the ballast: canopy, raceway, header, hood or door. Then test for proper line voltage at the ballast input. That's energized diagnostic work, for qualified people in the required PPE. Not qualified? Do the de-energized checks under LOTO and have a qualified person take the reading.",
-      "seconds": 25
+      "on_screen": "5. Locate the ballast. Test line voltage at the input (qualified + PPE). | Qualified persons only",
+      "says": "Step five, sockets look good. Open the case only as far as needed to find the ballast: canopy, raceway, header, hood or door. Then test for proper line voltage at the ballast input. That's energized diagnostic work, for qualified people in the required PPE. Not qualified? Do the de-energized checks under LOTO and have a qualified person take the reading. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 6,

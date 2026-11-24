@@ -59,6 +59,8 @@ the switch to AUTO and confirm automatic operation before leaving.
 ## Troubleshooting a Contactor Circuit
 The question is always: **is the coil getting voltage, and are the contacts passing it?**
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** These measurements are energized diagnostic work in panels that may have high
 > available fault current. Do them only if you are authorized by your employer, with the PPE,
 > boundaries and meter (CAT III/IV, rated for the voltage) required by its NFPA 70E program.

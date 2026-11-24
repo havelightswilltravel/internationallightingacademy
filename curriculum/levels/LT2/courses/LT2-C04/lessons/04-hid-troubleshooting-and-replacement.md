@@ -43,6 +43,8 @@ HID fixtures are often mounted high. Plan access first: ladder (LT1-C02) or MEWP
 an authorized operator (LT3-C06). Lowering fixtures with built-in hoists is ideal where
 available.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 | Step | Action | What it tells you |
 |---|---|---|
 | 1 | Verify complaint; wait out restrike time | Rule out a normal restrike delay after a power blip |

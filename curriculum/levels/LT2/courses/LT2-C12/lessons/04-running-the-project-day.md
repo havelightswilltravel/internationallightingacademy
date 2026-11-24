@@ -69,7 +69,10 @@ When you are behind, our company's instruction has always been the same: **take 
 why.** Then either change the strategy or write down the reasons (obstructions, material not staged,
 waiting on shutdowns, fixtures over partitions that need extra time) on a separate note and give it
 to your supervisor after the shift. Some projects are bid or paid by the piece; the same habit applies.
-Never make up the gap by skipping lockout, quality checks or cleanup.
+Never make up the gap by skipping lockout, quality checks or cleanup. If the crew cannot do the job
+to our standard with the labor, material or equipment on site, that is an efficiency or quality
+reason to call the job: get your manager's buy-off **before** calling it. Stopping for a safety
+reason never needs permission.
 
 ## Quality Checks as You Go
 
@@ -103,6 +106,8 @@ Talk to the site contact at the start and end of each shift. Tell them what was 
 and anything you need from them. If they ask for extra work outside the survey, do not just do it:
 write it down and pass it to your supervisor. If they ask you to do something you think is unsafe or
 outside our agreement, stay polite, write down their name and request, and get your supervisor involved.
+If it is a safety issue, you have full authority to stop the work right there; you do not need
+anyone's permission (LT2-C13 Lesson 2).
 
 ## End of Every Shift
 

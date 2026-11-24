@@ -46,6 +46,9 @@ blackened or corroded contacts, loose lamp fit. Moisture and arcing cause most s
 damaged sockets with matching moisture-rated sockets.
 
 ### Step 5 — If the sockets look good, locate the ballast and test
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 Open the case only as far as needed to **locate the ballast** — canopy, raceway, header, hood or door.
 Then test for **proper line voltage at the ballast input**.
 

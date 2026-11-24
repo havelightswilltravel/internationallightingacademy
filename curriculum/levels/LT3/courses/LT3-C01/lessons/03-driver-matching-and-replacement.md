@@ -19,6 +19,9 @@ Follow the LT2-C06 troubleshooting method before buying parts:
 
 1. Verify the complaint. Is it one fixture or the whole zone? (A whole zone usually points to
    the circuit or control, not a driver.)
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. With proper PPE, verify input voltage at the driver input leads. No voltage = upstream
    problem.
 3. With input present, measure output. For a CC driver, a DC voltage reading across the LED

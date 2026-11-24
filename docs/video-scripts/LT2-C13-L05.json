@@ -4,7 +4,7 @@
   "course": "LT2-C13",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 213,
+  "target_seconds": 231,
   "scenes": [
     {
       "scene": 1,
@@ -18,9 +18,9 @@
       "scene": 2,
       "speaker": "Matthew Berrett",
       "background": "On-screen safety callout over a shot of a CAT-rated meter being checked on a known source.",
-      "on_screen": "Energized checks: qualified + PPE + verified meter. Then LOTO, live-dead-live.",
-      "says": "First, the safety rule that covers every card. Every check power, line voltage, switch leg or socket voltage step is energized diagnostic work, for persons qualified under the employer's NFPA 70E program, with the required PPE and a verified CAT-rated meter. Before touching conductors, sockets or components: lock out, tag out, verify dead live-dead-live. Panel interiors, breakers, contactors and branch circuits are electrician work unless we've qualified you.",
-      "seconds": 27
+      "on_screen": "Energized checks: qualified + PPE + verified meter. Then LOTO, live-dead-live. | Qualified persons only",
+      "says": "First, the safety rule that covers every card. Every check power, line voltage, switch leg or socket voltage step is energized diagnostic work, for persons qualified under the employer's NFPA 70E program, with the required PPE and a verified CAT-rated meter. Before touching conductors, sockets or components: lock out, tag out, verify dead live-dead-live. Panel interiors, contactors and branch circuits are electrician work unless we've qualified you; a dead front or breaker swap only under an electrician's supervision. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 41
     },
     {
       "scene": 3,
@@ -34,7 +34,7 @@
       "scene": 4,
       "speaker": "Matthew Berrett",
       "background": "Clip: qualified tech in PPE reads HID socket voltage against a chart; presenter voice-over.",
-      "on_screen": "HID: wait out restrike → socket voltage vs chart",
+      "on_screen": "HID: wait out restrike → socket voltage vs chart | Qualified persons only",
       "says": "HID: wait out the restrike, and check the photocell and the neighbors. Then the decisive split: socket open-circuit voltage against the chart and the ballast label, with the ignitor disconnected on pulse-start and sodium. Good voltage points to the lamp. Then line voltage, then pole-base fuses. Fuse blows again, or no voltage at the hand hole? Escalate.",
       "seconds": 23
     },
@@ -42,9 +42,9 @@
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "Clip: tech presses an emergency fixture's test button; lamps light. Then a second unit stays dark.",
-      "on_screen": "Emergency: press TEST. Lights → normal side. Dark → emergency side.",
-      "says": "Emergency: check the lamp, line voltage on both the switched and unswitched sides, the charge indicator, and the battery plug. Then press the test button. Lights on test? The problem's on the normal side, likely the standard ballast or driver. No light? Emergency-side wiring, sockets or the battery unit. No voltage on the emergency circuit, or several units out at once? Escalate.",
-      "seconds": 25
+      "on_screen": "Emergency: press TEST. Lights → normal side. Dark → emergency side. | Qualified persons only",
+      "says": "Emergency: check the lamp, test for power with a meter on both the switched and unswitched sides, the charge indicator, and the battery plug. Then press the test button. Lights on test? The problem's on the normal side, likely the standard ballast or driver. No light? Emergency-side wiring, sockets or the battery unit. No voltage on the emergency circuit, or several units out at once? Escalate.",
+      "seconds": 26
     },
     {
       "scene": 6,
@@ -67,8 +67,8 @@
       "speaker": "Matthew Berrett",
       "background": "Matthew in front of a closed panel and a contactor enclosure; on-screen escalate list.",
       "on_screen": "Escalate: panels, breakers, contactors, relays, branch circuits, neon, sealed cases, networks",
-      "says": "Know when to stop. Contactor or coil replacement, relay panels, breakers that trip within tolerance or feel loose or hot, neon glass and secondary work, harness repairs that break a refrigerated case seal, and network equipment all go to the electrician, specialist or controls provider. For breakers: never open the dead front unless you're trained. For relays, start by calling the facility's controls monitoring service.",
-      "seconds": 26
+      "says": "Know when to stop. Contactor or coil replacement, relay panels, breakers that trip within tolerance or feel loose or hot, neon glass and secondary work, harness repairs that break a refrigerated case seal, and network equipment all go to the electrician, specialist or controls provider. For breakers: open the dead front or swap a breaker only under an electrician's supervision, our company's policy. For relays, start by calling the facility's controls monitoring service.",
+      "seconds": 29
     },
     {
       "scene": 9,

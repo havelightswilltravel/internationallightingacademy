@@ -4,7 +4,7 @@
   "course": "LT2-C01",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 242,
+  "target_seconds": 243,
   "scenes": [
     {
       "scene": 1,
@@ -65,10 +65,10 @@
     {
       "scene": 8,
       "speaker": "Matthew Berrett",
-      "background": "Chapter title card; truck being restocked, a damaged cord tagged out; then the tech at home at night writing in a notebook.",
+      "background": "Chapter title card; truck being restocked, a damaged cord cut at both ends and thrown away; then the tech at home at night writing in a notebook.",
       "on_screen": "End of day",
-      "says": "End of day. Recycle boxes labeled, PCB ballasts counted and separate, the truck restocked, a damaged cord tagged out and reported, work orders done with photos and the attic hold. She asks her trainer what he'd have done differently, and writes down the time clock she missed. At home, thirty minutes of study and three questions for tomorrow. Your evolution is in your hands.",
-      "seconds": 26
+      "says": "End of day. Recycle boxes labeled, PCB ballasts counted and separate, the truck restocked, a damaged cord cut at both ends, thrown away and reported, work orders done with photos and the attic hold. She asks her trainer what he'd have done differently, and writes down the time clock she missed. At home, thirty minutes of study and three questions for tomorrow. Your evolution is in your hands.",
+      "seconds": 27
     },
     {
       "scene": 9,

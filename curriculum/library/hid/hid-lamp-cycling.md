@@ -46,7 +46,7 @@ review_interval_months: 12
 | Fixture overheating (thermal protector) | Fixture/ballast hot; dirty or blocked ventilation; wrong lamp wattage | Correct ventilation, wattage; replace ballast if damaged |
 | Low supply voltage | Measured voltage below ballast tap rating; voltage dips when lamps start | Use correct ballast tap; correct voltage drop |
 | Wrong lamp (wattage or ANSI code mismatch, probe-start lamp on pulse-start ballast) | Lamp marking vs ballast label | Install the correct lamp |
-| Failing capacitor | Capacitance out of tolerance; swollen or leaking case | Replace with same µF and voltage rating |
+| Failing capacitor | Capacitance out of tolerance; swollen or leaking case | Replace with same µF and an equal or higher voltage rating |
 | Failing ballast | Known-good lamp and capacitor, still cycling | Replace ballast kit |
 
 ## Step-by-step diagnosis
@@ -66,6 +66,9 @@ review_interval_months: 12
    meter. Expected: within the tolerance printed on it (commonly ±6% or ±10%).
 7. Inspect for heat damage, blocked vents, and correct lamp wattage. Check the ballast tap
    matches the supply voltage.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 8. **(Qualified, energized, with PPE)** Measure input voltage at the ballast with the lamp
    running. Expected: within the ballast's specified range for the tap used. Low voltage
    that drops further when lamps start indicates a supply problem.

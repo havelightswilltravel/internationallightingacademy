@@ -42,8 +42,11 @@ marshal or insurance inspector, so the paperwork is the product.
 ## On site
 
 1. Check in with the site manager, get the layout and mark each unit on the map as you go.
-2. Walk every unit and check the charge indicator. Dark indicator with good power means a bad unit;
-   no power is a circuit problem to write up.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
+2. Walk every unit and check the charge indicator. At a dark indicator, test for power at the unit
+   with your meter: good power means a bad unit; no power is a circuit problem to write up.
 3. With permission, warn occupants, turn off the labeled emergency breakers and **start the 90-minute
    timer**. Write the start time.
 4. Walk the route quickly: every indicator should be off and every unit lit. Indicators still on mean

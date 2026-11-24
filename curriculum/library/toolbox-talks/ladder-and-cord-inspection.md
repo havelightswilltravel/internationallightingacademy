@@ -38,8 +38,8 @@ and extension-cord inspection several times a year**, right after the safety mee
   multi-position ladder is always locked to the rack, in the shop and on the truck - unlocked,
   it falls off or walks away.
 - **Extension cords:** check the jacket for cuts, burns, cracks and crushing, the plug and
-  ground pin, and the strain relief. A failed cord is red tagged, **the ends are cut off** so
-  nobody uses it again, and you tell the shop so it is replaced.
+  ground pin, and the strain relief. A failed cord gets **both ends cut off and goes in
+  the garbage** so nobody uses it again, and you tell the shop so it is replaced.
 - **Store ladders right:** in racks or on hooks where they cannot be damaged or warp, with
   nothing hung on them.
 
@@ -54,7 +54,7 @@ happens to the ladder, and why do we inspect in pairs?
 
 1. Which item on the form do people skip most often?
 2. What do you do if you find a damaged ladder on a job, far from the shop?
-3. Why do we cut the ends off a failed cord instead of taping it?
+3. Why do we cut both ends off a failed cord and throw it away instead of taping it?
 
 ## References
 

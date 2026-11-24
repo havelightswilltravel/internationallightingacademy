@@ -21,6 +21,8 @@ card follows the seven-step method from Lesson 1 in compressed form:
 - **Escalate when** — stop and write it up for an electrician, specialist or lead.
 - **In depth** — the course that teaches the full procedure, components, parts and safety.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** Every "check power," "line voltage," "switch leg" or "socket voltage" step is
 > energized diagnostic work for persons qualified under the employer's NFPA 70E program, with
 > the required PPE and a CAT-rated meter verified on a known source. Before touching conductors,
@@ -67,7 +69,7 @@ card follows the seven-step method from Lesson 1 in compressed form:
 ### Emergency
 | | |
 |---|---|
-| First checks | Lamp good; line voltage (unswitched and switched); charge indicator; battery plug |
+| First checks | Lamp good; test for power with a meter (unswitched and switched); charge indicator; battery plug |
 | Isolate | Press test button: lights on test → normal side; no light → emergency-side wiring/sockets/battery unit |
 | Common fix | Standard ballast/driver (lights on test); battery backup or listed battery (no light, wiring good); bug eye/exit unit if line voltage good |
 | Escalate when | No voltage on the emergency circuit; inverter or generator-fed circuits; several units out at once |
@@ -133,8 +135,10 @@ card follows the seven-step method from Lesson 1 in compressed form:
 | First checks | Trip pattern; load compared with breaker rating; signs of heat at the panel exterior |
 | Isolate | Measure load current (qualified); half-split the circuit to find a fault (Lesson 3) |
 | Common fix | Remove the overload or fault cause |
-| Escalate when | Breaker trips within its tolerance, feels loose or hot, or panel shows overheating — never open the dead front unless trained |
+| Escalate when | Breaker trips within its tolerance, feels loose or hot, or panel shows overheating — open the dead front or swap a breaker only under an electrician's supervision |
 | In depth | LT2-C11 Breakers & Overcurrent Protection |
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 ### 3-way switching
 | | |

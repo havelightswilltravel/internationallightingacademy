@@ -4,15 +4,15 @@
   "course": "LT4-C04",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 213,
+  "target_seconds": 215,
   "scenes": [
     {
       "scene": 1,
       "speaker": "Matthew Berrett",
       "background": "Training room with a de-energized lighting relay panel open (locked out, tag visible) and a contactor enclosure with an HOA switch. Medium shot.",
       "on_screen": "Job Mindset: Relay Panel & HOA Calls",
-      "says": "Relay panels put Class 2 controls and line-voltage relays in the same cabinet, and an HOA in the wrong spot can leave a parking lot dark at night. Barriers and dead fronts stay on unless you're qualified and the panel is locked out and verified. Plan ahead: get the monitoring service's contact before you go, and tell the customer before you touch an HOA.",
-      "seconds": 25
+      "says": "Relay panels put Class 2 controls and line-voltage relays in the same cabinet, and an HOA in the wrong spot can leave a parking lot dark at night. Barriers and dead fronts stay on unless you're working under an electrician's supervision, with the panel locked out whenever feasible. Plan ahead: get the monitoring service's contact before you go, and tell the customer before you touch an HOA.",
+      "seconds": 27
     },
     {
       "scene": 2,

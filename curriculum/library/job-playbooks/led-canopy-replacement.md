@@ -47,6 +47,9 @@ over an area where the public drives and walks. The site usually stays open.
 2. Barricade the lane under the lift; keep vehicles and people out of the zone. Stop work if people
    keep walking in.
 3. Before work, photograph each canopy and any existing damage.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. **Meter first**, then **lock out and verify live-dead-live** on each circuit.
 5. Do the sample install first and confirm the fit and the time per fixture.
 6. Check every housing for rust and looseness before installing into it.

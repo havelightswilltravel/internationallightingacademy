@@ -4,8 +4,8 @@ minutes: 30
 video:
 video_suggestion: >
   A supervisor on a service truck goes through the company's everyday electrical rules: showing
-  where the fire extinguisher is mounted, inspecting an extension cord and red-tagging a damaged
-  one, checking a tool's ground pin, choosing the fiberglass ladder, and laying out a pair of hot
+  where the fire extinguisher is mounted, inspecting an extension cord and cutting both ends off a
+  damaged one before putting it in the garbage, checking a tool's ground pin, choosing the fiberglass ladder, and laying out a pair of hot
   gloves in three layers (liner, rubber, leather protector) and air-testing the rubber glove.
   End at a panel showing the 3-foot clear space and explaining "if you didn't lock it, gloves on,
   and if you can't lock it, call me."
@@ -92,7 +92,7 @@ an intact three-prong ground pin, and **ground pins are never removed.** Before 
 extension cord, follow our handbook's checklist:
 
 1. Inspect for breaks, burns, cuts, cracks and the condition of the plug. **A cord that fails
-   gets red-tagged and its ends cut off** so it can never be used again.
+   gets both ends cut off and goes in the garbage** so it can never be used again.
 2. Make sure the tool's rating does not exceed the cord's rating.
 3. Do not run cords through doorways or holes in ceilings, walls or floors, and do not attach
    them to walls, ceilings or doors.
@@ -131,6 +131,6 @@ fuse and cord sizes right for the load? Check these on every job.
 - De-energize and lock out first; working live is for qualified people with a permit, never LT1.
 - Company rule: if you did not personally lock and tag it, wear hot gloves, with leather
   protectors, inspected before and after each use.
-- Fiberglass ladders, grounded or double-insulated tools, and inspected cords; red-tag and cut bad cords.
+- Fiberglass ladders, grounded or double-insulated tools, and inspected cords; cut both ends off bad cords and throw them in the garbage.
 - Keep 3 feet clear in front of panels, know where your truck's extinguisher is, and never touch
   a shock victim who is still in contact.

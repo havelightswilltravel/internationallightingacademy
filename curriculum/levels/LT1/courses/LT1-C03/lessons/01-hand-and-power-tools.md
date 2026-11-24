@@ -87,8 +87,8 @@ band saws for strut and threaded rod.
 - Use **GFCI protection** for corded tools and temporary power. On construction sites, OSHA
   requires GFCIs or an assured equipment grounding conductor program for temporary
   receptacles (29 CFR 1926.404(b)(1)).
-- Inspect cords for cuts, crushed areas, missing ground pins, and taped repairs. Remove damaged
-  cords from service.
+- Inspect cords for cuts, crushed areas, missing ground pins, and taped repairs. A damaged
+  extension cord gets both ends cut off and goes in the garbage (company policy).
 - Do not run cords through doorways or windows where they can be pinched, or across aisles
   without protection.
 
@@ -102,5 +102,5 @@ band saws for strut and threaded rod.
 - Know every tool in your kit and use it only for its intended purpose.
 - Match the stripper notch to the wire size; nicked conductors are a failure point.
 - Plastic handles are not shock protection. Lock out and verify every time.
-- Inspect hand tools, power tools, batteries, and cords before use; tag out anything damaged.
+- Inspect hand tools, power tools, batteries, and cords before use; tag out damaged tools, and cut both ends off a damaged cord and throw it away.
 - Use GFCI protection for corded tools and temporary power, and secure tools at height.

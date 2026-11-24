@@ -127,7 +127,7 @@ quiz:
         - The drivers have high CRI
         - A high-resistance connection such as a loose or corroded splice
       answer: 3
-      explanation: A drop far greater than calculated usually indicates a high-resistance connection. Locate by measuring at intermediate points and repair under LOTO.
+      explanation: "A drop far greater than calculated usually indicates a high-resistance connection. Locate by measuring at intermediate points and repair under LOTO. Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
     - id: LT4-C04-Q11
       type: single
       q: On a 120/208 V MWBC, you measure 0 V between the two hot conductors. What does this indicate?

@@ -12,8 +12,11 @@ video_suggestion: >
 At the LT3 level you are the person who **finds the problem and describes it accurately**. In most
 companies, replacing a contactor, a coil or a relay card, working behind a panel dead front, and
 changing branch-circuit wiring belong to an electrician — unless your employer has trained and
-qualified you for that specific task. A good write-up lets the electrician arrive with the right
-part and finish in one trip.
+qualified you for that specific task. At our company, you may remove a panel's dead front and
+swap a breaker while working under an electrician's supervision. A good write-up lets the
+electrician arrive with the right part and finish in one trip.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 ## Identifying and Ordering Parts
 Record everything from the nameplate (see Lesson 1) and add the field information:
@@ -55,7 +58,7 @@ Write it up for an electrician when you find:
 - Voltage on load terminals with the contactor open (welded contacts or back-feed)
 - Missing arc chutes, missing covers, or water inside the enclosure
 - Any relay-panel hardware fault the monitoring service cannot clear
-- Anything requiring removal of a dead front or work on branch circuits
+- Anything requiring removal of a dead front with no electrician supervising, or work on branch circuits
 
 Stop work and notify your supervisor and the customer immediately if you find signs of active
 arcing, smoke, or an enclosure that is energized where it should not be.

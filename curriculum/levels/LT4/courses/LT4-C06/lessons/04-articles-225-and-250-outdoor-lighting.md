@@ -85,6 +85,8 @@ A pole with a ground rod but no EGC can become energized by a fault and **stay e
 the breaker never trips – the pole sits at a dangerous voltage until someone touches it. Every metal
 pole and luminaire must be bonded to an EGC that runs back to the panel.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** Treat every metal pole and its handhole contents as energized until proven otherwise. A
 > missing or broken EGC can leave a pole energized with no tripped breaker. Before opening the
 > handhole, check for voltage between the pole and earth with a non-contact tester and a properly rated

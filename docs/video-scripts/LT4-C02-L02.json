@@ -4,7 +4,7 @@
   "course": "LT4-C02",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 228,
+  "target_seconds": 238,
   "scenes": [
     {
       "scene": 1,
@@ -50,9 +50,9 @@
       "scene": 6,
       "speaker": "Matthew Berrett",
       "background": "Energized: qualified tech in PPE measures DC volts between violet and gray at the control as the slider moves; meter readout inset falls from about 10 V toward 1 V. Presenter voice-over.",
-      "on_screen": "About 10 V at full, falling smoothly = normal",
-      "says": "Now energized, by a qualified tech in the required PPE, fingers behind the probe barriers. Meter on DC volts, violet to gray. With the control at full, about 10 to 11 volts. That's normal: drivers sourcing, control not sinking. Move the slider down and the voltage falls smoothly toward 0 to 1 volt. That's what a healthy zone looks like.",
-      "seconds": 24
+      "on_screen": "About 10 V at full, falling smoothly = normal | Qualified persons only",
+      "says": "Now energized, by a qualified tech in the required PPE, fingers behind the probe barriers. Meter on DC volts, violet to gray. With the control at full, about 10 to 11 volts. That's normal: drivers sourcing, control not sinking. Move the slider down and the voltage falls smoothly toward 0 to 1 volt. That's what a healthy zone looks like. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 7,

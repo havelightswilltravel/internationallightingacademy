@@ -75,6 +75,9 @@ Why drivers fail (find the cause, or the new driver will fail too):
 4. Install the driver, matching polarity on DC output leads (+ to +, - to -). Reversed
    polarity typically results in no light; it can damage some modules.
 5. Make sure dim leads, sensor auxiliary leads and unused leads are connected or capped per the diagram.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 6. Restore power. **(Qualified, energized, with PPE)** Verify output: DC voltage across
    the LED load within the driver's range and stable; light output matches neighboring fixtures.
 7. Test dimming across the full range, and test the sensor/emergency function if present.

@@ -78,6 +78,9 @@ can shorten dimmer life; observe derating guidance.
 > of voltage before working in the enclosure.
 
 ## Field Troubleshooting Shortcuts
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 | Symptom | Check first |
 |---|---|
 | LED fixture dead | Input voltage at driver (under safe procedures), driver output, LED board connections, thermal damage |

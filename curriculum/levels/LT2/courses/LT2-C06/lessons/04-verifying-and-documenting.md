@@ -34,6 +34,9 @@ fixture long enough to pass the point where it used to fail (often 15–30 minut
 for HID warm-up). For intermittent problems, discuss a follow-up check with your lead.
 
 ### 4. Measure
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 Take and record readings that prove the system is healthy:
 
 | Reading | Where | Why |

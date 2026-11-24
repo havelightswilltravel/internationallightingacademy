@@ -26,6 +26,8 @@ voltage, and exterior upgrades nobody checked after dark.
 
 ## Step 1: Measure Before You Mount
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 Before installing any replacement fixture or retrofit kit - and always on exterior jobs -
 **measure the supply voltage** (L-N, L-L, L-G) and compare it with the new product's label
 (LT2-C03). Our company has destroyed many new fixtures by assuming. If the reading does not match

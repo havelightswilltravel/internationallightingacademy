@@ -68,6 +68,9 @@ review_interval_months: 12
    land on the same end.
 6. Compare wiring with the manufacturer diagram: which end receives line and neutral, and
    whether the ballast was fully removed (no ballast leads left connected).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 7. **(Qualified, energized, with PPE)** For Type B, voltage at the powered socket should be
    the branch circuit voltage (e.g. 120 V or 277 V). For Type C, measure the external
    driver's input and output against its label.

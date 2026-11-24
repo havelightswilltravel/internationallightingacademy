@@ -25,6 +25,9 @@ the hot and the neutral.
 - **You cannot troubleshoot with a "sniffer."** A non-contact voltage tester (NCVT) only hints
   that voltage may be present. It cannot tell you how much, it can beep on induced voltage, and
   it can stay silent on a live wire. Use it as a quick warning, never as a measurement.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 - **Step 1 on any dark fixture: measure supply voltage at the fixture** - hot to neutral (and
   hot to ground). No voltage? The problem is upstream (breaker, switch, control, wiring), and a
   new driver will not help. Correct voltage? Now you can move to the driver and the LEDs.

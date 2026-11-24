@@ -59,6 +59,9 @@ review_interval_months: 12
    almost always dimming related - go to the dimming guides.
 3. Check whether other loads starting causes the flicker. Note what equipment shares the
    circuit, panel or transformer.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. **(Qualified, energized, with PPE)** Measure supply voltage L-N at the fixture or nearest
    accessible point. Use min/max mode for several minutes. Expected: steady near nominal
    (e.g. 118-122 V on a 120 V circuit). Swings of several volts that line up with the

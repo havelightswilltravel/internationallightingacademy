@@ -390,8 +390,8 @@ skills:
     - Uncoils and inspects each extension cord for breaks, burns, cuts, cracks, tape or splices, and checks the plug,
       ground pin, connector, strain relief and rating label
     - Lists each cord number on the form and initials each cord inspected
-    - Red tags "DO NOT USE" and removes from service any failed ladder or cord, and cleans and re-inspects a ladder
-      that only failed for contamination
+    - Red tags "DO NOT USE" and removes from service any failed ladder, cuts both ends off any failed cord and puts it
+      in the garbage, and cleans and re-inspects a ladder that only failed for contamination
     - Reports failed equipment or rack damage to the supervisor and writes replacements on the pull sheet
     - States that a ladder is re-inspected after it is dropped, falls or comes loose, and that any tech may retire
       an unsafe ladder at any time
@@ -521,8 +521,8 @@ skills:
     - red tags
     - Class C fire extinguisher
     criteria:
-    - Inspects each extension cord for breaks, burns, cuts, cracks and plug condition, and red-tags and cuts the ends
-      off any cord that fails
+    - Inspects each extension cord for breaks, burns, cuts, cracks and plug condition, and cuts both ends off any
+      cord that fails and puts it in the garbage
     - Confirms tools are grounded (intact ground pin) or double insulated and that cord ratings match the tool
     - Selects a non-conductive ladder for electrical work and explains why rubber feet on a metal-rail articulating
       ladder are not shock protection

@@ -60,6 +60,9 @@ review_interval_months: 12
 1. Confirm the pattern: far-end fixtures affected more than near-end ones.
 2. Gather data: conductor size and material, one-way length to the last fixture, total load
    current, system voltage. Calculate the expected drop.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. **(Qualified, energized, with PPE)** With the circuit fully loaded (all lights on),
    measure voltage at the panel (breaker load side to neutral) and at the farthest fixture.
    The difference is the actual drop. Expected: roughly what you calculated; much more

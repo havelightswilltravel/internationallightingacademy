@@ -4,7 +4,7 @@
   "course": "LT4-C04",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 224,
+  "target_seconds": 234,
   "scenes": [
     {
       "scene": 1,
@@ -26,15 +26,15 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Qualified trainer in arc-rated PPE proves the meter on a known live source, then measures L1, L2, L3 at the line terminals. On-screen step overlay. Matthew voice-over.",
-      "on_screen": "Step 1: Line-side voltage",
-      "says": "Our procedure checks three things in order: line side, coil, load side. Step one, line side. Measure at each pole's line terminal, phase to neutral for 120 or 277, phase to phase for 208 or 480. No voltage on a pole? The problem's upstream. If a breaker's tripped, don't keep resetting it. A trip means a fault may exist. If it trips again, write it up.",
-      "seconds": 26
+      "on_screen": "Step 1: Line-side voltage | Qualified persons only",
+      "says": "Our procedure checks three things in order: line side, coil, load side. Step one, line side. Measure at each pole's line terminal, phase to neutral for 120 or 277, phase to phase for 208 or 480. No voltage on a pole? The problem's upstream. If a breaker's tripped, don't keep resetting it. A trip means a fault may exist. If it trips again, write it up. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 4,
       "speaker": "Matthew Berrett",
       "background": "Trainer turns HOA to HAND, measures across coil terminals A1 and A2. Meter inset. Step overlay.",
-      "on_screen": "Step 2: Coil voltage with controls engaged (A1-A2)",
+      "on_screen": "Step 2: Coil voltage with controls engaged (A1-A2) | Qualified persons only",
       "says": "Step two, coil voltage with the controls engaged. That means HAND, or AUTO with the photocell covered, the clock in an on period, or the service commanding the zone on. Measure across the coil terminals, often A1 and A2. Correct voltage and pulled in, the coil's good. Correct voltage but not pulled in or buzzing, the coil's open or the armature's jammed.",
       "seconds": 25
     },
@@ -50,7 +50,7 @@
       "scene": 6,
       "speaker": "Matthew Berrett",
       "background": "Trainer measures T1, T2, T3 with the contactor closed; one pole reads zero. Close-up of a burned terminal. Step overlay.",
-      "on_screen": "Step 3: Every load terminal. Line in + nothing out = burned contact",
+      "on_screen": "Step 3: Every load terminal. Line in + nothing out = burned contact | Qualified persons only",
       "says": "Step three, load side. With the coil energized and the contactor closed, every load terminal should match its line terminal. Line in but nothing out on a closed pole means the contact is burned or open. Our procedure: write it up for an electrician to replace the contactor. Voltage on all load terminals but lights still off? The contactor's fine. Move to the field.",
       "seconds": 25
     },

@@ -93,6 +93,8 @@ instead of drivers - another reason your write-ups must include fixture informat
 
 ## Diagnose Before You Replace
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 All of this assumes the driver is actually the problem. Company rules from Lesson 4 and LT2-C06
 apply: measure hot to neutral first; **full-brightness strobing** usually means the driver, while
 **flicker on a single-diode or single-board fixture** points to the board or fixture; never leave

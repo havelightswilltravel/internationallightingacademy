@@ -35,6 +35,9 @@ review_interval_months: 12
 2. **Spin the clock dial** (manual advance; only where the dial is reachable without exposing live terminals, otherwise lock out first) **to verify the trippers kick the switch on and off without using bypass.** Replace trippers if needed.
 3. **Listen for the clock motor, but don't rely only on the sound** to decide it works - watch the dial move or check the time again later in the visit.
 4. **Isolate line and load: verify the line is connected to the line side** of the time clock or photocell (a reversed hookup can damage the device or prevent operation).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 5. **Verify good line voltage across hot and neutral.** Expected: the device's rated voltage (e.g., 120 or 277 V).
 6. **Cover the photocell** (opaque cap or tape) **or turn the time clock to bypass/manual on, and verify voltage on the load side.** Allow for the photocell's built-in turn-on delay (several seconds to a couple of minutes depending on model).
 7. **If there is no load voltage, replace the time clock or photocell.**

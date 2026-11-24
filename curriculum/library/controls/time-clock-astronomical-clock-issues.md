@@ -58,6 +58,9 @@ review_interval_months: 12
 4. Check for overrides: front-panel override, HOA selector switch, BMS/network override.
 5. Note the clock's behavior after power loss. If it loses time, the backup battery or
    carryover has failed.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 6. Force the output on (per manufacturer's manual override) and confirm the contactor or
    relay responds. If the clock indicates "on" but the load does not energize:
    **(qualified, energized, with PPE)** check for voltage on the clock's output terminal to

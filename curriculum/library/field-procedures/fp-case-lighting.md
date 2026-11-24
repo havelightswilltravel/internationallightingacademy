@@ -40,6 +40,9 @@ review_interval_months: 12
 2. **If the case may be defrosting, mark the location and come back in ½ hour.** Many cases turn lights off during defrost.
 3. **Check the lamps** - try a known-good lamp.
 4. **If not the lamps, check the sockets** for breaks and burns (locked out).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 5. **If the sockets look good, open the case to locate the ballast and test for proper line voltage** (qualified persons for energized testing). Expected: rated line voltage at the ballast input.
 6. **If line voltage is correct and the ballast is not located in the hood or door, verify it is a remote ballast.**
 7. **Replace the ballast with the correct remote ballast for the lamp application.** A standard ballast may not start lamps over the longer remote lead lengths or at cold temperatures.

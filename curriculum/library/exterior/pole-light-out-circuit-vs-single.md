@@ -72,6 +72,9 @@ review_interval_months: 12
 4. **Downstream group out:** the open is between the last working pole and the first dead one.
 5. **De-energize, LOTO, verify absence of voltage.** Open the handhole. Inspect splices for
    corrosion, water, burned insulation. Test fuses for continuity (expected ~0 Ω; open = blown).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 6. **(Qualified, energized, with PPE)** Measure voltage at the handhole terminals (line to
    neutral, or line to line on 480 V/208 V circuits). Expected: circuit voltage at a working
    pole's handhole; zero where the feed is open.

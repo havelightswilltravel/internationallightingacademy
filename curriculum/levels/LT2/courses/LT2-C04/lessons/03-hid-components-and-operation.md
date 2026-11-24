@@ -74,8 +74,9 @@ is a common lead and one lead per voltage.
 Most CWA-type HID ballasts use a capacitor in the lamp circuit to help regulate lamp current
 and improve power factor.
 
-- Rated in **microfarads (µF)** and **AC voltage** (for example "24 µF 400 VAC" — use the
-  exact rating specified for the ballast).
+- Rated in **microfarads (µF)** and **AC voltage** (for example "24 µF 400 VAC"). A replacement must
+  **match the µF rating** specified for the ballast; its **voltage rating may be equal or
+  higher**, never lower.
 - Often has a stated tolerance (commonly ±6%).
 - Failure signs: bulging or split case, leaking, burnt terminals; lamp won't start, runs dim,
   or ballast runs hot.

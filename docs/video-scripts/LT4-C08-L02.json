@@ -4,7 +4,7 @@
   "course": "LT4-C08",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 212,
+  "target_seconds": 220,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Qualified tech in PPE measures input voltage at the supply leads; meter inset. Presenter voice-over.",
-      "on_screen": "Input: qualified person, energized test",
-      "says": "Here a qualified tech, in the required PPE, measures input at the supply. It matches the nameplate, so power's getting in. Now the output.",
-      "seconds": 11
+      "on_screen": "Input: qualified person, energized test | Qualified persons only",
+      "says": "Here a qualified tech, in the required PPE, measures input at the supply. It matches the nameplate, so power's getting in. Now the output. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 19
     },
     {
       "scene": 4,

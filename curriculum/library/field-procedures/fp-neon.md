@@ -39,6 +39,9 @@ review_interval_months: 12
 **Exposed neon**
 
 1. With the sign on, **look and listen** to each unit (glow, buzz). Do not touch.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. If no units are lit, **go back to the transformer and check switches and incoming power** (qualified persons for energized primary testing).
 3. If power is good, **check for broken neon - start with the first piece off the transformer** (de-energized and locked out).
 4. **Change the transformer if it will not reset/send power with the secondary leads disconnected** (de-energize to disconnect leads; observe the transformer's status indicator or use an approved tester). Many modern transformers have secondary ground-fault protection that shuts them down on a fault - a trip may point to a GTO or glass problem, not a bad transformer.

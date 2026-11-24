@@ -66,6 +66,9 @@ review_interval_months: 12
    shunted socket's two contacts reads near 0 Ω; non-shunted reads open.
 7. Check wiring against the ballast diagram: correct colors to correct sockets, no loose
    push-in connections.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 8. **(Qualified, energized, with PPE)** Verify input voltage at the ballast leads matches
    the label (e.g. 120 V or 277 V). Good input + known-good lamps + good sockets and wiring
    = failed ballast.

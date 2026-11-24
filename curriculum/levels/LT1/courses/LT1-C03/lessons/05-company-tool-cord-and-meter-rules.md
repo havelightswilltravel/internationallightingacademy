@@ -6,7 +6,7 @@ video_suggestion: >
   At a monthly safety meeting, a supervisor runs the PPE and hand-tool inspection: two techs lay
   out their tools, find a screwdriver with cracked handle insulation and a pair of torn gloves,
   and the supervisor signs off the failed tool. Cut to two techs doing the two-person extension
-  cord inspection with the company form, red-tagging a cord and cutting the ends off. End at a
+  cord inspection with the company form, cutting both ends off a failed cord and putting it in the garbage. End at a
   dark LED wall pack: the tech holds up a non-contact tester ("this is not a troubleshooting
   tool"), then measures hot to neutral with the DMM and writes the reading on the work order.
 ---
@@ -59,8 +59,8 @@ Our company rules:
 
 Our safety manual has a specific list for extension cords:
 
-1. **Inspect before use** - jacket, plug, ground pin, strain relief. A cord that fails is red
-   tagged and **the ends are cut off** so nobody uses it again; tell the shop so it is replaced.
+1. **Inspect before use** - jacket, plug, ground pin, strain relief. A cord that fails gets
+   **both ends cut off and goes in the garbage** so nobody uses it again; tell the shop so it is replaced.
 2. **Match the cord to the tool.** The tool's rating must not exceed the cord's. Company rule of
    thumb: a 50-ft 14-gauge, three-wire cord handles about **12 A (1,440 W) sustained**, and a
    100-ft cord about 15% less. Use a heavier cord for bigger loads.
@@ -86,6 +86,9 @@ LED fixture?"** The answer is: **put your meter across the hot and the neutral.*
 
 - **You cannot troubleshoot with a "sniffer."** A non-contact voltage tester gives a warning, not
   a measurement (Lesson 2). It cannot tell 120 V from 277 V, and it can be fooled both ways.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 - **Use your meter every time.** No voltage at the fixture means the problem is upstream, and a
   new driver will not fix it.
 - **Measure before you connect a new fixture.** Our company has destroyed many brand-new fixtures
@@ -104,6 +107,6 @@ LED fixture?"** The answer is: **put your meter across the hot and the neutral.*
 - Keep gloves dry and with your tools; use them until they are worn out.
 - Power tools: off and stopped before setting down; unplugged before changing bits; guards on; air under 30 psi.
 - No modifications to company equipment without the manufacturer's written approval.
-- Cords: inspect, red-tag and cut failed cords, no daisy chains, never through doorways unless the door is propped and coned.
+- Cords: inspect; cut both ends off failed cords and throw them in the garbage; no daisy chains, never through doorways unless the door is propped and coned.
 - Step 1 on a dark fixture is your meter across hot and neutral - never a sniffer.
 - Measure the supply voltage before connecting any new fixture.

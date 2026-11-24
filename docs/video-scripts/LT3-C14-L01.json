@@ -4,7 +4,7 @@
   "course": "LT3-C14",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 201,
+  "target_seconds": 210,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Close-up: area light voltage label showing 277-480 V and 'suitable for wet locations'.",
-      "on_screen": "Assume 480 V until you measure. Meter and PPE rated for it.",
-      "says": "Site lighting is often on 277 volts, or 480 line-to-line, to cut voltage drop over long runs. Treat every exterior luminaire as potentially 480 volts until you measure, and make sure your meter and PPE are rated for it. Long runs mean real voltage drop, and low voltage at the last pole can make drivers shut down or flicker.",
-      "seconds": 24
+      "on_screen": "Assume 480 V until you measure. Meter and PPE rated for it. | Qualified persons only",
+      "says": "Site lighting is often on 277 volts, or 480 line-to-line, to cut voltage drop over long runs. Treat every exterior luminaire as potentially 480 volts until you measure, and make sure your meter and PPE are rated for it. Long runs mean real voltage drop, and low voltage at the last pole can make drivers shut down or flicker. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 33
     },
     {
       "scene": 4,

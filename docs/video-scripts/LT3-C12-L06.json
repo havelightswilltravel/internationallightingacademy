@@ -4,7 +4,7 @@
   "course": "LT3-C12",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 218,
+  "target_seconds": 229,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Danny Smith",
       "background": "Tech gets a floor plan from the manager, then walks to exit signs, bug eyes and battery-backup fixtures, marking each on the map and checking its charge LED.",
-      "on_screen": "Step 1: Check in, get a layout | Step 2: Check every charge indicator",
-      "says": "Step one, check in with the site manager and ask for a floor plan. Mark every unit on the map. Step two, before you turn anything off, walk to every exit, bug eye, combo and battery fixture and look at the charge indicator. Lit means a working charger. Dark? A qualified tech checks the supply. Power good and still dark, the unit is bad. No power is a circuit problem to write up.",
-      "seconds": 29
+      "on_screen": "Step 1: Check in, get a layout | Step 2: Check every charge indicator | Qualified persons only",
+      "says": "Step one, check in with the site manager and ask for a floor plan. Mark every unit on the map. Step two, before you turn anything off, walk to every exit, bug eye, combo and battery fixture and look at the charge indicator. Lit means a working charger. Dark? Test for power at the unit with your meter. Power good and still dark, the unit is bad. No power is a circuit problem to write up. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 40
     },
     {
       "scene": 4,

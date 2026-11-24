@@ -59,6 +59,8 @@ with the **lighter** load sees the **higher** voltage. Example (120/208 V): 4 A 
 
 ## Step-by-step diagnosis
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 1. **(Qualified, energized, with PPE)** Measure line-to-neutral voltage on each circuit of the
    suspect MWBC at the panel and at fixtures, while switching loads. Expected: near nominal
    (e.g. about 120 V or 277 V) on all circuits, steady. Readings far above and below nominal

@@ -4,7 +4,7 @@
   "course": "LT3-C10",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 216,
+  "target_seconds": 226,
   "scenes": [
     {
       "scene": 1,
@@ -18,7 +18,7 @@
       "scene": 2,
       "speaker": "Matthew Berrett",
       "background": "On-screen: the company's six steps.",
-      "on_screen": "1 Lamp continuity  2 Socket  3 Line voltage  4 Continuity socket-to-transformer  5 Replace transformer or fixture  6 Intermittent? Connections",
+      "on_screen": "1 Lamp continuity  2 Socket  3 Line voltage  4 Continuity socket-to-transformer  5 Replace transformer or fixture  6 Intermittent? Connections | Qualified persons only",
       "says": "Our company procedure. Check lamp continuity. Check the socket for burns, breakage, wear or connection issues. Test line voltage across hot and neutral. Test continuity from socket to transformer. If the lamp, socket, continuity and line voltage are all good, replace the transformer or the fixture. And if it's intermittent, look for connection issues inside the fixture.",
       "seconds": 23
     },
@@ -42,9 +42,9 @@
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "Above-ceiling remote transformer; a qualified coworker in PPE measures at the primary while the tech stands back.",
-      "on_screen": "Line voltage = ENERGIZED test. Qualified person only.",
-      "says": "Step three is an energized test. A qualified person under our NFPA 70E program, with the required PPE, measures hot to neutral at the primary. If you're not qualified, use indirect evidence: other loads on the circuit work, the breaker's on, the switch is on. Then lock out and continue de-energized. If you can't establish supply, write it up. Never rely on a non-contact tester to prove dead.",
-      "seconds": 27
+      "on_screen": "Line voltage = ENERGIZED test. Qualified person only. | Qualified persons only",
+      "says": "Step three is an energized test. A qualified person under our NFPA 70E program, with the required PPE, measures hot to neutral at the primary. If you're not qualified, use indirect evidence: other loads on the circuit work, the breaker's on, the switch is on. Then lock out and continue de-energized. If you can't establish supply, write it up. Never rely on a non-contact tester to prove dead. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 37
     },
     {
       "scene": 6,

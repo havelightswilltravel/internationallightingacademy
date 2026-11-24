@@ -4,7 +4,7 @@
   "course": "LT4-C03",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 221,
+  "target_seconds": 230,
   "scenes": [
     {
       "scene": 1,
@@ -58,9 +58,9 @@
       "scene": 7,
       "speaker": "Matthew Berrett",
       "background": "Panel energized; qualified trainer in arc-rated PPE measures coil voltage, then line and load on each pole; meter readout inset. Matthew's voice-over.",
-      "on_screen": "No coil voltage: fuse, HOA | Voltage but no pull-in: coil | Line but no load on closed pole: burned contact",
-      "says": "Nothing in HAND? Measure coil voltage. No voltage, check the control fuse and the HOA. Voltage but no clunk, the coil is open or the mechanism's stuck. If it pulls in, measure line side on each pole, then load side. Line present but nothing on the load side of a closed pole means a burned or pitted contact. Both good? Look downstream.",
-      "seconds": 25
+      "on_screen": "No coil voltage: fuse, HOA | Voltage but no pull-in: coil | Line but no load on closed pole: burned contact | Qualified persons only",
+      "says": "Nothing in HAND? Measure coil voltage. No voltage, check the control fuse and the HOA. Voltage but no clunk, the coil is open or the mechanism's stuck. If it pulls in, measure line side on each pole, then load side. Line present but nothing on the load side of a closed pole means a burned or pitted contact. Both good? Look downstream. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 8,

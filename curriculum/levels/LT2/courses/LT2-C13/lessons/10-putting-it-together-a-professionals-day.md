@@ -156,7 +156,7 @@ lot, take photos, and tell the site contact.
 ## End of the Day
 
 - Recycle boxes labeled and loaded, PCB ballasts counted and kept separate.
-- Truck cleaned out and restocked for tomorrow; one damaged cord tagged out and reported.
+- Truck cleaned out and restocked for tomorrow; one damaged cord cut at both ends, thrown in the garbage and reported.
 - Work orders completed with counts, photos, the attic hold and the reason.
 - A quick talk with your trainer: "What would you have done differently?" Your trainer says you
   forgot the time clock at the lot. You write it in your notebook.

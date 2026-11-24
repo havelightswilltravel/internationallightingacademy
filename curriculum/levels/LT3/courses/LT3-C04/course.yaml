@@ -280,11 +280,11 @@ quiz:
     q: "A bug-eye unit does not light when its test button is pressed. What is the next step in the company procedure?"
     choices:
       - "Replace the unit"
-      - "Test the line voltage at the unit"
+      - "Test for power with a meter at the unit"
       - "Replace the lamp heads with brighter ones"
       - "Hold the test button for 90 minutes"
     answer: 1
-    explanation: "Test line voltage next. If voltage is good, replace the unit (or listed battery); if not, the emergency lighting circuit is the problem."
+    explanation: "Test for power with a meter next. If voltage is good, replace the unit (or listed battery); if not, the emergency lighting circuit is the problem. Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
   - id: LT3-C04-Q19
     type: multi
     q: "Before working on the sockets of a fixture with a battery-backup ballast, which steps are required? (Select all that apply.)"
@@ -341,14 +341,14 @@ quiz:
     ref: LT3-C04 Lesson 6 — Step 4; NEC 408.4
   - id: LT3-C04-Q24
     type: single
-    q: "Before the test, a bug eye's charge indicator is dark. A qualified tech confirms the unit is receiving normal power. What is the conclusion?"
+    q: "Before the test, a bug eye's charge indicator is dark. A tech deemed qualified tests with a meter and confirms the unit is receiving normal power. What is the conclusion?"
     choices:
       - "The unit is bad"
       - "The breaker is off"
       - "The battery just needs 90 minutes to charge"
       - "The unit is on a switched leg and is fine"
     answer: 0
-    explanation: "Company procedure Step 2: if the indicator is not lit, verify power; if power is good, the unit is bad."
+    explanation: "Company procedure Step 2: if the indicator is not lit, test for power with a meter; if power is good, the unit is bad. Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
     ref: LT3-C04 Lesson 6 — Step 2
   - id: LT3-C04-Q25
     type: single

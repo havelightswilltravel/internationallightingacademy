@@ -87,6 +87,8 @@ The pattern of what works and what doesn't tells you which link failed.
 
 ## Using Voltage Readings to Find the Link
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 With PPE and a tested meter, measuring voltage at points along the chain tells you where
 power stops:
 
@@ -105,6 +107,8 @@ if the **neutral is open**. Always measure hot-to-neutral **and** hot-to-ground.
 
 Our company's monthly meetings keep returning to a few rules for the calls that most often end
 unfinished:
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
 
 - **Step 1 is always the meter.** "What is Step 1 in troubleshooting an LED fixture?" Measure
   hot to neutral at the fixture. A non-contact tester ("sniffer") cannot troubleshoot. No voltage

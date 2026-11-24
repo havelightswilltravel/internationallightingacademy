@@ -36,11 +36,13 @@ review_interval_months: 12
 
 ## Company troubleshooting procedure
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 1. **Test socket voltage with your meter** and compare with the **company socket voltage chart** for that lamp type and wattage.
 2. **If socket voltage is correct, change the lamp** (correct type, wattage and ANSI code).
 3. **If socket voltage is not correct, test line voltage** at the ballast input. Expected: the supply voltage matching the ballast tap in use (e.g., 120, 208, 240, 277 or 480 V), within about 10%.
 4. **If line voltage is not correct, test the fuses and check for fuses at the base of the pole.** De-energize and test fuses with an ohmmeter (near 0 ohms good, OL blown). Find out *why* a fuse blew before replacing it. Opening a panel to check breakers is **only if qualified; otherwise write it up.**
-5. **If line voltage is correct, test the voltage from the ballast to the capacitor.** If correct voltage reaches the capacitor but is not leaving it, **change the capacitor** (same µF and voltage rating).
+5. **If line voltage is correct, test the voltage from the ballast to the capacitor.** If correct voltage reaches the capacitor but is not leaving it, **change the capacitor** (same µF rating; voltage rating equal or higher).
 6. **If the ballast is not sending the correct voltage, change the ballast kit.**
 7. **If the capacitor and ballast are good, check the socket** for carbon tracking, a flattened center contact, or burns.
 8. **If the socket is good, change the igniter.**

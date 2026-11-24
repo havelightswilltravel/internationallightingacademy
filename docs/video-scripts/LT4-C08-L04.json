@@ -4,7 +4,7 @@
   "course": "LT4-C08",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 255,
+  "target_seconds": 264,
   "scenes": [
     {
       "scene": 1,
@@ -34,9 +34,9 @@
       "scene": 4,
       "speaker": "Matthew Berrett",
       "background": "Qualified lead in PPE confirms line voltage at the supply input; tech then back-probes secondary at the first module with the string connected. Meter insets.",
-      "on_screen": "B. Whole sign: line voltage (qualified) > secondary with modules connected > connections",
-      "says": "If the whole sign or a whole letter is out, a qualified lead checks line voltage at the supply input. No line voltage, the problem's upstream; write it up. Line good? Test secondary with the modules connected. Secondary good? Test the low-voltage connections out to the letters. Secondary bad? Lock out, verify and remake the secondary connections, then retest before you ever replace the supply.",
-      "seconds": 27
+      "on_screen": "B. Whole sign: line voltage (qualified) > secondary with modules connected > connections | Qualified persons only",
+      "says": "If the whole sign or a whole letter is out, a qualified lead checks line voltage at the supply input. No line voltage, the problem's upstream; write it up. Line good? Test secondary with the modules connected. Secondary good? Test the low-voltage connections out to the letters. Secondary bad? Lock out, verify and remake the secondary connections, then retest before you ever replace the supply. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 5,
@@ -58,7 +58,7 @@
       "scene": 7,
       "speaker": "Matthew Berrett",
       "background": "Tech secures a module with a screw, closes the letter, removes the lock, restores power; the whole sign lights evenly; tech measures voltage at the far module.",
-      "on_screen": "D. Match parts | Secure modules | Drain holes clear | Restore and verify | Record",
+      "on_screen": "D. Match parts | Secure modules | Drain holes clear | Restore and verify | Record | Qualified persons only",
       "says": "Repair and close up. Replace failed parts with matching parts and location-rated connectors. Secure modules mechanically where the adhesive failed and keep drain holes clear. Remove your lock, restore power, and verify the whole sign lights evenly. If the far end looks dim, measure voltage at the farthest module. Then record what you found and replaced.",
       "seconds": 24
     },

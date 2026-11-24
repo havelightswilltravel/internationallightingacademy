@@ -83,11 +83,15 @@ label, it is telling you how dangerous the equipment is with the cover off. If y
 ## What You Can Do Right Now
 
 1. Treat every conductor and fixture as energized until it has been locked out and tested.
-2. Never remove a panel cover (dead front) or reach into an open panel.
+2. Never remove a panel cover (dead front) or reach into an open panel on your own. At our
+   company, a dead front comes off only while you are working under an electrician's
+   supervision.
 3. Do not operate a breaker that shows signs of damage, heat, or burning smell; report it.
 4. Stand to the side when a qualified person operates a disconnect.
 5. Watch for warning signs: buzzing, burning smell, discoloration, melted insulation.
 6. Keep metal tools, tape measures, and ladders away from exposed energized parts.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 ## Key Takeaways
 - Current through the body causes injury; even 120 V and 277 V circuits can kill.

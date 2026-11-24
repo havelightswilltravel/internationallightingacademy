@@ -28,20 +28,22 @@ review_interval_months: 12
 
 - **LOTO and verify absence of voltage (live-dead-live)** before opening any fixture. **A battery unit stays energized after you turn the breaker off** - disconnect the battery connector (per manufacturer) before working inside.
 - These are life-safety devices: tell the customer before taking units out of service and restore them the same visit, or report it so they can arrange temporary coverage.
-- Energized line-voltage tests are **qualified persons only**. Check breakers **only if qualified; otherwise write it up.**
+- Testing for power with a meter is allowed once your supervisor has deemed you qualified; energized line-voltage tests are **qualified persons only**. Check breakers **only if qualified; otherwise write it up.**
 
 ## Company troubleshooting procedure
 
 **Battery backup ballast**
 
-1. **Make sure the lamp is good** (known-good lamp) **and test the line voltage** at the fixture. Expected: rated line voltage on the *unswitched* feed to the emergency unit.
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
+1. **Make sure the lamp is good** (known-good lamp) **and test for power with your meter** (line voltage) at the fixture. Expected: rated line voltage on the *unswitched* feed to the emergency unit.
 2. **If the lamp is good, press the test button.** If the lamp comes on while the button is held, **the battery backup is good - replace the standard ballast.**
 3. **If the lamp(s) do not come on while pressing the test button, check the wiring and sockets.** If the wiring is good, **replace the battery backup.**
 
 **Bug eyes and exit signs**
 
 1. **Press the test button.** The unit should switch to battery and light.
-2. **If it does not come on, test the line voltage.**
+2. **If it does not come on, test for power with your meter** (line voltage at the unit).
 3. **If voltage is good, replace the unit.** If there is no voltage, trace the circuit or write it up.
 
 **Tips:** a new battery or unit typically needs about 24 hours of charging before it will pass a full-duration test. Building codes (e.g., NFPA 101) generally call for a monthly 30-second test and an annual 90-minute test - log what you did.

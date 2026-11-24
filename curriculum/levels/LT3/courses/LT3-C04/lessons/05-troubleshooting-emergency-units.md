@@ -27,8 +27,12 @@ The company procedure uses the **test button** to split the fixture in two: the 
 side (battery, emergency ballast, lamps/LEDs, sockets) and the normal side (supply, switch,
 standard ballast/driver).
 
-1. **Confirm the lamp is good** (known-good lamp, or LED module visibly undamaged) and **test the
-   line voltage** — both the unswitched hot and, on two-feed units, the switched hot.
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
+1. **Confirm the lamp is good** (known-good lamp, or LED module visibly undamaged) and **test for
+   power with your meter** at the unit's supply leads (line voltage, hot to neutral) — both the
+   unswitched hot and, on two-feed units, the switched hot. If you have not been deemed qualified,
+   a qualified tech takes the reading.
 2. **Press and hold the test button.**
 3. **Lamp comes on with the button pressed:** the battery backup, its battery, the sockets and the
    lamp are working. The fault is on the normal side. If the switched supply is present and the
@@ -52,12 +56,17 @@ standard ballast/driver).
 ## The Company Procedure: Bug Eyes and Exit Signs
 
 1. **Press the test button.** The heads or EXIT legend should switch to battery operation.
-2. **If it does not come on,** test the **line voltage** at the unit.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
+2. **If it does not come on,** **test for power with your meter** at the unit (line voltage, hot to
+   neutral on the unswitched feed).
 3. **Line voltage good → replace the unit** (or its battery or lamp heads, where the
    manufacturer sells listed replacement parts and it is cost-effective — follow company
    policy).
 4. **Line voltage missing →** the problem is the emergency lighting circuit: check the breaker
-   (from the outside of the panel — do not open the dead front unless qualified), look for a
+   (from the outside of the panel — do not open the dead front unless you are working under an
+   electrician's supervision), look for a
    switched feed or an open splice, and write it up for an electrician if the circuit must be
    traced in the panel or walls.
 
@@ -108,7 +117,7 @@ lamp type/quantity or LED emergency output power and voltage range.
 
 ## Key Takeaways
 - Use the test button to split the fixture: lights on test → normal side (standard ballast/driver or switched feed); no light on test → emergency side.
-- Confirm the lamp and line voltage first; check the battery plug and charge indicator before replacing parts.
-- Bug eyes and exits: test button → line voltage → replace the unit (or listed battery) if voltage is good.
+- Confirm the lamp, and test for power with a meter (once deemed qualified), first; check the battery plug and charge indicator before replacing parts.
+- Bug eyes and exits: test button → test for power with a meter → replace the unit (or listed battery) if voltage is good.
 - Unplug the battery connector and verify absence of voltage before servicing — the battery can energize the lamps.
 - Record test results and repairs in the emergency lighting log.

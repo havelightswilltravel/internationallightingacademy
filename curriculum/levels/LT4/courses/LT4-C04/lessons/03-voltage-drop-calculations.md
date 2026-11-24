@@ -97,6 +97,9 @@ proportionally – NEC 250.122(B)).
 
 1. Calculate expected drop first.
 2. Complete the risk assessment and wear the required PPE. Use a CAT III/CAT IV DMM.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. With the circuit **loaded** (lights on and stabilized), measure voltage at the panel breaker
    (line-to-neutral for a 277 V circuit).
 4. Measure at the farthest luminaire's supply terminals – only through accessible test points or with

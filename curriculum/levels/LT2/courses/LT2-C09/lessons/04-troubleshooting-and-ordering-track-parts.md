@@ -22,6 +22,9 @@ The Master Troubleshooting Guide gives this order for track lighting:
 4. If moving the fixture does not correct the problem, test continuity (incandescent or halogen
    only) between the track connection points on the fixture and the socket.
 5. If the fixture is ballasted, replace the ballast if other fixtures on the track are operating.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 6. If the entire track is out, check power and connections at the entrance fitting (live-end feed
    or floating canopy).
 
@@ -50,6 +53,9 @@ the field.
    remove it, inspect the adapter contacts for bending, burning or dirt, and reinstall it fully
    locked. **Move the head a few inches** to a different spot on the track; a bad spot in the
    track conductor or debris in the slot can prevent contact.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 8. **Check for power at the socket** — especially when outages are sporadic (company step 2).
    - De-energized method (preferred for techs): with the head removed from the track, check
      continuity from adapter contacts to socket contacts (incandescent/halogen only — see step 9).

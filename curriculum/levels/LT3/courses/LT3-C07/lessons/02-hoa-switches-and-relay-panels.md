@@ -89,9 +89,11 @@ order:
    name, relay or circuit numbers, what the service saw, and what you observed.
 
 > **Safety:** The Class 2 side of a relay panel is low voltage, but line-voltage relays and branch
-> circuits are in the same cabinet. Do not remove barriers or dead fronts unless you are qualified and
-> the panel is locked out and verified de-energized. Relay replacement is electrician work unless
-> your company has qualified you for it.
+> circuits are in the same cabinet. Do not remove barriers or dead fronts unless you are working
+> under an electrician's supervision, and lock out and verify the panel de-energized whenever
+> feasible. Relay replacement is electrician work unless your company has qualified you for it.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 ## Key Takeaways
 - HAND/OFF/AUTO splits a problem into "controls" versus "contactor and circuits" in seconds.

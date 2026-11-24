@@ -4,7 +4,7 @@
   "course": "LT3-C09",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 214,
+  "target_seconds": 224,
   "scenes": [
     {
       "scene": 1,
@@ -18,7 +18,7 @@
       "scene": 2,
       "speaker": "Matthew Berrett",
       "background": "On-screen: the company's six steps.",
-      "on_screen": "1 One good lamp  2 Sporadic? Check socket power  3 Head switch, connection, move it  4 Continuity (halogen only)  5 Ballasted? Replace ballast  6 Whole track out? Check the feed",
+      "on_screen": "1 One good lamp  2 Sporadic? Check socket power  3 Head switch, connection, move it  4 Continuity (halogen only)  5 Ballasted? Replace ballast  6 Whole track out? Check the feed | Qualified persons only",
       "says": "Our company procedure, in order. Verify at least one good lamp in the track. If outages are sporadic, check for power at the sockets before replacing parts. No power at a socket but others work: check the head's switch, the connection, or move it. Then continuity, halogen only. Ballasted head: replace the ballast. Whole track out: check the entrance fitting.",
       "seconds": 24
     },
@@ -50,9 +50,9 @@
       "scene": 6,
       "speaker": "Matthew Berrett",
       "background": "Matthew in the store, medium close-up.",
-      "on_screen": "Energized socket testing = qualified persons only. Non-contact tester = screening only.",
-      "says": "Measuring voltage at an exposed socket is energized diagnostic work. Only qualified persons do it, with the PPE and procedures our NFPA 70E program requires. A non-contact tester is a screening tool. It doesn't prove absence of voltage. For you, the de-energized continuity method is the preferred way.",
-      "seconds": 19
+      "on_screen": "Energized socket testing = qualified persons only. Non-contact tester = screening only. | Qualified persons only",
+      "says": "Measuring voltage at an exposed socket is energized diagnostic work. Only qualified persons do it, with the PPE and procedures our NFPA 70E program requires. A non-contact tester is a screening tool. It doesn't prove absence of voltage. For you, the de-energized continuity method is the preferred way. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 29
     },
     {
       "scene": 7,

@@ -21,7 +21,7 @@ applies**.
 
 | Role | Scope under company policy |
 |---|---|
-| Lighting technician (LT1–LT3) | **Inside the lighting fixture.** Anything outside it needs supervisor or management approval. |
+| Lighting technician (LT1–LT3) | **Inside the lighting fixture.** Anything outside it needs supervisor or management approval. Exception: while working under the supervision of an electrician, a technician may remove a lighting panel's dead front and replace a breaker. |
 | Qualified technician / electrician (LT4–LT5) | Panels, switchgear and cabinets **480 V and below** with an incident energy of **4 cal/cm² or less**, unless management has deemed the person qualified for more |
 | Nobody at our company | **Medium-voltage equipment** (over 1,000 V). We do not have the PPE, training or scope for it. |
 
@@ -31,6 +31,8 @@ position.** If lighting you need is fed from equipment outside your scope, stop,
 label and call your supervisor. Which breakers and disconnects lighting technicians may operate
 is listed in LT2-C11 Lesson 5 (company policy, pending confirmation); qualified technicians
 should know that list so they can back it up on site.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 ## Hot Work Rules From Our Manual
 

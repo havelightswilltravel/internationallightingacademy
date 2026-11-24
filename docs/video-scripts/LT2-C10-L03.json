@@ -4,7 +4,7 @@
   "course": "LT2-C10",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 226,
+  "target_seconds": 235,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Qualified senior tech in PPE measures at the driver input and output leads; presenter voice-over. Insert: meter display.",
-      "on_screen": "Step 1: Prove it's the driver",
-      "says": "Step one, prove the driver's the problem. One fixture, or the whole zone? A whole zone points to the circuit or controls. If your employer authorizes energized readings, with the PPE from its NFPA 70E program, check input at the driver. No voltage means upstream. Input good and zero output? Driver. Output in range but LEDs dark? Often an open board. And a shorted 0-10 volt pair can hold it at minimum.",
-      "seconds": 29
+      "on_screen": "Step 1: Prove it's the driver | Qualified persons only",
+      "says": "Step one, prove the driver's the problem. One fixture, or the whole zone? A whole zone points to the circuit or controls. If your employer authorizes energized readings, with the PPE from its NFPA 70E program, check input at the driver. No voltage means upstream. Input good and zero output? Driver. Output in range but LEDs dark? Often an open board. And a shorted 0-10 volt pair can hold it at minimum. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 38
     },
     {
       "scene": 4,

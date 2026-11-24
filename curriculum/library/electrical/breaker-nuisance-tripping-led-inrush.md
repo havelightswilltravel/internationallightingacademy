@@ -54,7 +54,9 @@ also stresses relay and contactor contacts.
 | Too many drivers on one circuit switched at once (inrush) | Trips only at switch-on; total drivers exceed manufacturer's recommended count per breaker | Reduce drivers per circuit; stagger switching; add inrush limiters per manufacturer |
 | Relay/contactor not rated for LED/electronic ballast inrush | Welded or pitted contacts; relay rating | Replace with a device rated for the LED load |
 | AFCI/GFCI sensitivity to driver electronics | Trips on AFCI/GFCI devices only | Verify fault-free; consult device and driver manufacturers; split circuits |
-| Weak or worn breaker | Trips below rating; heat at breaker | Replace breaker with same type and rating (qualified) |
+| Weak or worn breaker | Trips below rating; heat at breaker | Replace breaker with same type and rating (an electrician, or a technician working under an electrician's supervision) |
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 ## Step-by-step diagnosis
 

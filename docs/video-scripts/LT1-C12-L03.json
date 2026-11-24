@@ -4,7 +4,7 @@
   "course": "LT1-C12",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 197,
+  "target_seconds": 210,
   "scenes": [
     {
       "scene": 1,
@@ -66,18 +66,18 @@
       "scene": 8,
       "speaker": "Matthew Berrett",
       "background": "Close-up of a burned, discolored 120 V-only ballast (removed from service) in Matthew's hand.",
-      "on_screen": "120 V-only ballast on 277 V = destroyed",
-      "says": "Here's the common mistake. A 120 volt-only ballast connected to 277 gets destroyed, often immediately, sometimes with smoke or a pop. Go the other way, a 277-only ballast on 120, and the lamps usually just won't start. So always read the label and verify the circuit voltage before you order or install parts.",
-      "seconds": 23
+      "on_screen": "120 V-only ballast on 277 V = destroyed. Measure with a meter. Qualified persons only",
+      "says": "Here's the common mistake. A 120 volt-only ballast connected to 277 gets destroyed, often immediately, sometimes with smoke or a pop. Go the other way, a 277-only ballast on 120, and the lamps usually just won't start. So always read the label and measure the circuit voltage with a meter before you order or install parts. Never trust the panel schedule, a supervisor's word or a label alone. Check live voltage only once your supervisor has deemed you qualified, in the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 9,
       "speaker": "Matthew Berrett",
       "background": "Matthew in the electrical room, medium shot.",
       "on_screen": "",
-      "says": "Know your system, read the label, verify the voltage. Now read the lesson and take the quiz.",
+      "says": "Know your system, read the label, measure the voltage with a meter. Now read the lesson and take the quiz.",
       "seconds": 8
     }
   ],
-  "production_notes": "Electrical room filming with a qualified electrician present; all panels stay closed, nameplates only. Props: emergency battery pack, LED driver, cordless tool battery, DMM, labeled 120 V, 277 V and 120-277 V UNV ballasts or drivers, a failed 120 V-only ballast. No building or customer identifiers in frame. Theory lesson, one-sentence safety connection instead of a Job Mindset opener. Lesson file: curriculum/levels/LT1/courses/LT1-C04/lessons/03-ac-dc-and-building-voltages.md."
+  "production_notes": "Electrical room filming with a qualified electrician present; all panels stay closed, nameplates only. Any live voltage reading shown is taken by a qualified person in PPE with a CAT-rated meter verified live-dead-live. Props: emergency battery pack, LED driver, cordless tool battery, DMM, labeled 120 V, 277 V and 120-277 V UNV ballasts or drivers, a failed 120 V-only ballast. No building or customer identifiers in frame. Theory lesson, one-sentence safety connection instead of a Job Mindset opener. Lesson file: curriculum/levels/LT1/courses/LT1-C04/lessons/03-ac-dc-and-building-voltages.md."
 }

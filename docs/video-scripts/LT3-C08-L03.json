@@ -4,7 +4,7 @@
   "course": "LT3-C08",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 227,
+  "target_seconds": 237,
   "scenes": [
     {
       "scene": 1,
@@ -66,9 +66,9 @@
       "scene": 8,
       "speaker": "Matthew Berrett",
       "background": "Tech re-terminates on screw terminals, reinstalls, removes lock, restores power, runs all four combinations twice.",
-      "on_screen": "Prove the fix: every combination, twice. Every flip changes the light.",
-      "says": "Part D. Repair within your scope: move wires off push-in holes onto screw terminals, replace a worn switch with the right type and rating. Reinstall, remove your locks per procedure, restore power. Then prove it: run every combination twice and wiggle each arm again. Energized voltage tracing is only for qualified persons under our NFPA 70E program with the right PPE.",
-      "seconds": 24
+      "on_screen": "Prove the fix: every combination, twice. Every flip changes the light. | Qualified persons only",
+      "says": "Part D. Repair within your scope: move wires off push-in holes onto screw terminals, replace a worn switch with the right type and rating. Reinstall, remove your locks per procedure, restore power. Then prove it: run every combination twice and wiggle each arm again. Energized voltage tracing is only for qualified persons under our NFPA 70E program with the right PPE. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 9,

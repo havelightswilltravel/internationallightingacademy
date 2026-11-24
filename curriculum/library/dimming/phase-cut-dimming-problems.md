@@ -66,6 +66,9 @@ review_interval_months: 12
 5. Check whether the lamps are all the same model; replace odd ones.
 6. **De-energize, LOTO, verify absence of voltage.** Pull the dimmer and check connections,
    neutral (if required), and conductor condition. Look for heat damage.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 7. **(Qualified, energized, with PPE)** At full brightness, the voltage to the load should be
    close to line voltage (a true-RMS meter may read slightly lower because of the dimmer's
    conduction angle). With the dimmer off, a 2-wire dimmer may show a misleading voltage on a

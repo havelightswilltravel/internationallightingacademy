@@ -20,6 +20,8 @@ which fixture it is, we replace the wrong part or leave without fixing anything.
 
 ## Key points - company procedure
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 - **Step 1 is still the meter.** Measure supply voltage at the fixture (hot to neutral) before
   changing anything. Flashing across a whole area points to supply or controls, not to every
   driver at once.

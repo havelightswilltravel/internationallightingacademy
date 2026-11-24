@@ -103,7 +103,7 @@ quiz:
         - Test continuity between the socket and the transformer
         - Check lamp continuity
       answer: 3
-      explanation: The company procedure starts with lamp continuity, then socket condition, then line voltage, then continuity from socket to transformer.
+      explanation: "The company procedure starts with lamp continuity, then socket condition, then line voltage, then continuity from socket to transformer. Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
       ref: Company Master Troubleshooting Guide — Low voltage lighting systems
     - id: LT2-C10-Q08
       type: single

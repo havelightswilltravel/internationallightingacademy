@@ -90,8 +90,11 @@ means comparing the **actual load** on the circuit with the breaker's rating:
 - If the load is **over** the rating (or over 80% for continuous lighting loads), the breaker is
   doing its job — the problem is overload, and the fix is reducing or splitting the load.
 - If the load is **well within** the rating and the breaker still trips intermittently, suspect a
-  **weak breaker** (or a loose connection heating the breaker). The company procedure: **write it
-  up for an electrician to replace the breaker.**
+  **weak breaker** (or a loose connection heating the breaker). The company procedure: **replace
+  the breaker while working under an electrician's supervision, or write it up for an
+  electrician to replace it.**
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 How to determine the load **without opening the dead front** is covered in Lesson 4.
 

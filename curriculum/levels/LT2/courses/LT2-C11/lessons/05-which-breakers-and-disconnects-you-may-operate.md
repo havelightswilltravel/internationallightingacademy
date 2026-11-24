@@ -12,7 +12,8 @@ video_suggestion: >
 > **DRAFT - pending SME review.** The company list in this lesson is a proposed policy that
 > **must be confirmed by our company's electrical safety program owner** before it is taught as
 > final. Until it is confirmed, the rule is: **if you are not sure, do not operate it. Call your
-> supervisor.**
+> supervisor.** One item is already decided by the program owner (November 2026): removing a
+> dead front and replacing a breaker under an electrician's supervision, marked below.
 
 ## Why This Lesson Exists
 
@@ -55,6 +56,13 @@ basis for the one-reset rule.
   face turned away, after the Lesson 4 checks and only if nothing looks, smells or sounds wrong.
   If it trips again, **stop and write it up** for an electrician.
 
+**May do while working under the supervision of an electrician** (confirmed company policy):
+- **Remove a lighting panelboard's dead front** and **replace (swap) a lighting branch breaker**
+  with a listed breaker of the same type and rating, with the panel de-energized and locked out
+  whenever feasible.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
+
 **May not operate** (write it up and call your supervisor):
 - **Switchgear, switchboards, motor control centers and main breakers** of any size.
 - Anything labeled **medium voltage** (over 1,000 V). Our company does not have the PPE or the
@@ -63,6 +71,7 @@ basis for the one-reset rule.
   **no label** on equipment large enough to need one.
 - Any panel with a **missing dead front, missing breaker blanks, open slots, damage, heat or
   burning smell**.
+- Removing a dead front or swapping a breaker **with no electrician supervising**.
 - **Fused disconnects** that need fuses pulled or replaced; fuse work is for qualified persons.
 - Breakers that serve **anything other than lighting** (HVAC, refrigeration, computers, life-safety
   systems) unless the site contact has approved it in writing.
@@ -82,5 +91,7 @@ rescheduled.
   signs of failure (NFPA 70E Table 130.5(C)).
 - Per company policy (to be confirmed): lighting branch breakers and identified lighting
   disconnects in good condition only, with one reset attempt at most.
+- Confirmed company policy: under an electrician's supervision, you may remove a lighting panel's
+  dead front and swap a branch breaker; PPE and the qualified-person rule still apply.
 - Stay away from switchgear, switchboards, MCCs, main breakers and anything medium voltage.
 - Damaged, hot, unlabeled or open panels are a stop: photograph, write up, call.

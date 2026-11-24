@@ -4,7 +4,7 @@
   "course": "LT2-C10",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 189,
+  "target_seconds": 199,
   "scenes": [
     {
       "scene": 1,
@@ -66,9 +66,9 @@
       "scene": 8,
       "speaker": "Matthew Berrett",
       "background": "Matthew back at the bench, to camera.",
-      "on_screen": "Diagnose before you replace",
-      "says": "All of this assumes the driver is actually the problem. Measure hot to neutral first. Full-brightness strobing usually means the driver; flicker on a single-board fixture points to the board or fixture. Never leave a fixture strobing. When it's a close call, use the Repair or Replace decision card with your supervisor. Now read the lesson and take the quiz.",
-      "seconds": 24
+      "on_screen": "Diagnose before you replace | Qualified persons only",
+      "says": "All of this assumes the driver is actually the problem. Measure hot to neutral first. Full-brightness strobing usually means the driver; flicker on a single-board fixture points to the board or fixture. Never leave a fixture strobing. When it's a close call, use the Repair or Replace decision card with your supervisor. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live. Now read the lesson and take the quiz.",
+      "seconds": 34
     }
   ],
   "production_notes": "Bench and exterior-wall segments per the lesson's video suggestion. Do not show prices, brand names or app branding; blur the app logo. Programming shown on an unpowered driver; installation shown with LOTO in place. The 'Repair or Replace?' card is referenced in the lesson as a draft-policy tool in the Troubleshooting Library; confirm it exists before release."

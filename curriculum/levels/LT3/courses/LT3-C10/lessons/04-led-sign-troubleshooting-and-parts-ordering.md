@@ -29,6 +29,9 @@ safety steps added.
    electrician if it trips again or shows signs of damage — do not keep resetting it.
 
 ### B. Whole sign out
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. **Check line voltage** at the power supply input (qualified person, energized test under the
    employer's NFPA 70E program). No line voltage → the problem is upstream (breaker, clock,
    photocell, wiring); write branch-circuit work up for an electrician.

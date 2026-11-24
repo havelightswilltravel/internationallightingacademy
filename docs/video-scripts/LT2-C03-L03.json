@@ -4,7 +4,7 @@
   "course": "LT2-C03",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 200,
+  "target_seconds": 209,
   "scenes": [
     {
       "scene": 1,
@@ -58,9 +58,9 @@
       "scene": 7,
       "speaker": "Matthew Berrett",
       "background": "Qualified coworker in PPE measures voltage at the socket with the switch on while the new tech watches.",
-      "on_screen": "About 120 V at the socket = power is there | none = upstream",
-      "says": "Many calls end there: good lamp in, remove your lock per procedure, test. Still dark? A qualified person measures voltage at the socket, center contact to shell, switch on. About 120 volts means power's there, so suspect the socket contact or lamp again. No voltage means upstream. The switch can be checked for continuity with the circuit locked out and verified dead.",
-      "seconds": 25
+      "on_screen": "About 120 V at the socket = power is there | none = upstream | Qualified persons only",
+      "says": "Many calls end there: good lamp in, remove your lock per procedure, test. Still dark? A qualified person measures voltage at the socket, center contact to shell, switch on. About 120 volts means power's there, so suspect the socket contact or lamp again. No voltage means upstream. The switch can be checked for continuity with the circuit locked out and verified dead. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 8,

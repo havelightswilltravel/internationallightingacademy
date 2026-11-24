@@ -24,6 +24,8 @@ The installer assumed the supply voltage was compatible instead of measuring it.
 
 ## What we changed
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 - On every exterior project, and any replacement where you did not install the original, measure the voltage with your meter before you connect the new fixture.
 - Measure L-N and L-L (and L-G); compare with the new fixture's label.
 - A non-contact tester is a warning device, not a measurement.

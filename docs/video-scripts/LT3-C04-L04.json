@@ -4,15 +4,15 @@
   "course": "LT3-C04",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 231,
+  "target_seconds": 240,
   "scenes": [
     {
       "scene": 1,
       "speaker": "Matthew Berrett",
       "background": "Office building lobby; a manager points at ceiling fixtures. Matthew in foreground, medium shot.",
       "on_screen": "Job Mindset: The Tripping-Breaker Call",
-      "says": "The lobby lights keep going off. Hazards: arc flash and shock at the panel, and a load-side fault that may still be there. Top controls: the dead front stays on, and you lock out before touching any part of the circuit. A tripped breaker is not a lockout. Plan ahead: lock and tag, meter, thermal camera, fixture data to total the load, and a helper to watch the lights.",
-      "seconds": 28
+      "says": "The lobby lights keep going off. Hazards: arc flash and shock at the panel, and a load-side fault that may still be there. Top controls: the dead front stays on during the assessment, and you lock out before touching any part of the circuit. A tripped breaker is not a lockout. Plan ahead: lock and tag, meter, thermal camera, fixture data to total the load, and a helper to watch the lights.",
+      "seconds": 29
     },
     {
       "scene": 2,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Panel with dead front installed; on-screen two-column table: Lighting tech may / Qualified person may.",
-      "on_screen": "Never remove the dead front unless trained, qualified and authorized",
-      "says": "The dead front covers the bus and terminals. Take it off, and energized parts are exposed. As a lighting tech, you may open the door, read the directory, operate handles unless there's damage or heat, look, listen, feel the dead-front surface, scan from outside, and use a tracer. Removing the dead front and energized measurements are for qualified, authorized people. Breaker replacement is a write-up for an electrician.",
-      "seconds": 27
+      "on_screen": "Dead front off or breaker swap: only under an electrician's supervision (our company's policy)",
+      "says": "The dead front covers the bus and terminals. Take it off, and energized parts are exposed. As a lighting tech, you may open the door, read the directory, operate handles unless there's damage or heat, look, listen, feel the dead-front surface, scan from outside, and use a tracer. At our company, removing the dead front and swapping a breaker are allowed only while you work under an electrician's supervision, in PPE; other companies may be stricter. With no electrician supervising, write it up.",
+      "seconds": 33
     },
     {
       "scene": 4,
@@ -59,8 +59,8 @@
       "speaker": "Matthew Berrett",
       "background": "Clipboard: fixture nameplate total vs breaker rating; result table on screen.",
       "on_screen": "Stage 4: Load vs rating (80% continuous)",
-      "says": "Stage four, the tolerance check. Without opening the dead front, total the fixture input watts from nameplates. Clamping a single conductor outside the panel without exposing energized parts is rare. Over the rating or over 80 percent continuous? Overload. Well within rating and tripping intermittently? Likely a weak breaker or heating connection, so write it up to replace. Trips instantly? Leave it off and tagged.",
-      "seconds": 26
+      "says": "Stage four, the tolerance check. Without opening the dead front, total the fixture input watts from nameplates. Clamping a single conductor outside the panel without exposing energized parts is rare. Over the rating or over 80 percent continuous? Overload. Well within rating and tripping intermittently? Likely a weak breaker or heating connection, so replace it under an electrician's supervision, or write it up. Trips instantly? Leave it off and tagged.",
+      "seconds": 28
     },
     {
       "scene": 8,
@@ -79,5 +79,5 @@
       "seconds": 26
     }
   ],
-  "production_notes": "Field footage per the lesson's video suggestion; narrator stresses the dead front is never removed. Wiggle test shown gently within ON. Load-side segment shows LOTO and live-dead-live before any box is opened. Sample work-up text on screen is quoted from the lesson. Sanitize panel names and building identifiers."
+  "production_notes": "Field footage per the lesson's video suggestion; narrator notes the dead front stays on during the assessment; removing it or swapping the breaker happens only under an electrician's supervision (company stance; licensees set their own). Wiggle test shown gently within ON. Load-side segment shows LOTO and live-dead-live before any box is opened. Sample work-up text on screen is quoted from the lesson. Sanitize panel names and building identifiers."
 }

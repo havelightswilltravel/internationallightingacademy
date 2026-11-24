@@ -52,7 +52,7 @@ system, LED, or supplementary lighting), not a repair.
 |---|---|---|
 | Failed lamp | Known-good lamp starts | Replace lamp |
 | Failed ignitor (HPS, pulse-start MH) | Known-good lamp, good capacitor, good voltage; still no start | Replace ignitor with the type specified on the ballast label |
-| Failed capacitor | Out of tolerance or open on capacitance meter; bulged case | Replace with same µF and voltage rating |
+| Failed capacitor | Out of tolerance or open on capacitance meter; bulged case | Replace with same µF and an equal or higher voltage rating |
 | Lamp/ballast mismatch (probe-start vs pulse-start, wrong wattage or ANSI code) | Lamp marking vs label | Install correct lamp |
 | Lamp still hot (normal restrike) | Recently interrupted; lamp hot | Wait for cooling; inform customer |
 | Loose or damaged socket (carbon tracking, burned center contact) | Visual; high-voltage pulse damage | Replace with a pulse-rated socket |
@@ -73,6 +73,9 @@ system, LED, or supplementary lighting), not a repair.
 7. Check ballast windings for continuity with the ohmmeter (de-energized, leads disconnected).
    Expected: low resistance continuity on each winding; open = failed. Exact values vary -
    follow manufacturer data if available.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 8. **(Qualified, energized, with PPE)** Verify ballast input voltage matches the tap in use.
    Do not measure ignitor output with a standard meter.
 9. If lamp, capacitor, socket, windings and supply are good, replace the ignitor. Replace

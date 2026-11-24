@@ -4,7 +4,7 @@
   "course": "LT1-C01",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 229,
+  "target_seconds": 230,
   "scenes": [
     {
       "scene": 1,
@@ -57,10 +57,10 @@
     {
       "scene": 7,
       "speaker": "Danny Smith",
-      "background": "Danny runs an extension cord hand over hand, finds a cut jacket, red-tags it and cuts off the ends. Then holds a metal-housed drill plug, ground pin intact.",
-      "on_screen": "Failed cord: red-tag it and cut the ends off",
-      "says": "Tools and cords. We use only grounded or double-insulated tools, and ground pins are never removed. Inspect every cord for breaks, burns, cuts and plug damage. A cord that fails gets red-tagged and its ends cut off so nobody uses it again. Match the cord rating to the tool. Don't plug one cord into another, don't run them through doorways or ceilings, and unplug when you're done.",
-      "seconds": 27
+      "background": "Danny runs an extension cord hand over hand, finds a cut jacket, cuts off both ends and drops it in the garbage. Then holds a metal-housed drill plug, ground pin intact.",
+      "on_screen": "Failed cord: cut both ends off, into the garbage",
+      "says": "Tools and cords. We use only grounded or double-insulated tools, and ground pins are never removed. Inspect every cord for breaks, burns, cuts and plug damage. A cord that fails gets both ends cut off and goes in the garbage so nobody uses it again. Match the cord rating to the tool. Don't plug one cord into another, don't run them through doorways or ceilings, and unplug when you're done.",
+      "seconds": 28
     },
     {
       "scene": 8,
@@ -79,5 +79,5 @@
       "seconds": 24
     }
   ],
-  "production_notes": "Danny presents; a qualified tech performs the hot-glove layering and air test on camera. Use the company truck with extinguisher on its mount. Cloth-wiring close-up uses a de-energized prop or a removed fixture. Extension cord to be red-tagged and cut should be a cord already scheduled for disposal. The panel stays closed. Check the line \"call me\" is understood as the supervisor; optional lower third: Danny Smith, Operations Manager."
+  "production_notes": "Danny presents; a qualified tech performs the hot-glove layering and air test on camera. Use the company truck with extinguisher on its mount. Cloth-wiring close-up uses a de-energized prop or a removed fixture. Extension cord to be cut at both ends and thrown away should be a cord already scheduled for disposal. The panel stays closed. Check the line \"call me\" is understood as the supervisor; optional lower third: Danny Smith, Operations Manager."
 }

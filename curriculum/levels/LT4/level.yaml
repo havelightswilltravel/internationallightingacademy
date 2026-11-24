@@ -102,6 +102,7 @@ skills:
     equipment: [arc-rated PPE as required, true-RMS clamp meter, CAT III/IV DMM, LOTO kit with handle-tie-compatible lockout devices, panel schedule, wire markers, non-contact voltage tester]
     criteria:
       - Identifies every ungrounded conductor sharing the neutral by tracing and labels the MWBC in the panel
+      - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
       - Verifies the ungrounded conductors are on different phases by measuring line-to-line voltage between them
       - Measures and records current on each ungrounded conductor and on the shared neutral and interprets the result
       - Locks out every circuit breaker of the MWBC (or the common-trip/handle-tied breaker) before opening any neutral
@@ -123,6 +124,7 @@ skills:
       - Selects the correct single-phase or three-phase formula and K value or conductor resistance
       - Calculates voltage drop in volts and percent without arithmetic error
       - Wears PPE appropriate to the task and uses a meter rated for the measurement category
+      - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
       - Measures voltage at the panel and at the last luminaire with the circuit loaded
       - Compares measured drop to the calculation and explains any significant difference (loose connection, undersized splice, longer route)
       - Recommends a correction such as conductor upsizing or circuit splitting with a recalculated result

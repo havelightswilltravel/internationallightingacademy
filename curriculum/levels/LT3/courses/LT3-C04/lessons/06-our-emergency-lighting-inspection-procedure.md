@@ -40,8 +40,12 @@ need up to 24 hours to recharge afterward.
 ### Step 2: Walk every unit and check the indicator
 Before turning anything off, walk to every exit sign, bug eye, combo unit and battery-backup
 fixture and **look for the charge (LED) indicator**.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 - Indicator lit: the unit has power and the charger is working.
-- Indicator dark: **verify the unit is receiving power** (a qualified tech checks the supply). If
+- Indicator dark: **test for power at the unit with your meter** (or have a qualified tech take
+  the reading if you have not been deemed qualified). If
   power is good and the indicator is still dark, **the unit is bad**. If there is no power, it is a
   circuit problem to write up, not a unit failure.
 

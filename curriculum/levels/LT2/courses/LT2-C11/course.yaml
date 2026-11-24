@@ -9,9 +9,10 @@ description: >
   trip-curve basics; telling an overload from a short circuit, ground fault, nuisance trip or
   weak breaker; reading and correcting panel directories; the 80% continuous-load concept; and
   signs of overheating. Teaches the company procedure — check the load against the breaker's
-  tolerance, never open the dead front unless trained and qualified, check for loose
-  connections and overheating, wiggle the breaker handle, and write it up for an electrician
-  to replace a breaker that trips intermittently within tolerance — and how to document a
+  tolerance, open the dead front only while working under an electrician's supervision (our
+  company's policy), check for loose connections and overheating, wiggle the breaker handle,
+  and replace a breaker that trips intermittently within tolerance under an electrician's
+  supervision or write it up for an electrician — and how to document a
   complete electrician work-up.
 objectives:
   - Explain how thermal-magnetic breakers and fuses protect circuits and read breaker ratings including AIC and voltage
@@ -19,7 +20,7 @@ objectives:
   - Distinguish overload, short circuit, ground fault, nuisance trip and weak breaker from field clues
   - Use the panel directory and nameplate totals to compare circuit load with the breaker rating and the 80% continuous limit
   - Recognize signs of overheating and know when to stop and escalate immediately
-  - Assess a tripping-breaker complaint per the company procedure without removing the dead front and write a complete electrician work-up
+  - Assess a tripping-breaker complaint per the company procedure with the dead front on, know when a breaker may be swapped under an electrician's supervision, and write a complete electrician work-up
   - Identify which breakers and disconnects a technician may operate or reset under company policy, and which equipment to stay away from
 lessons:
   - 01-breakers-fuses-ratings-and-types.md
@@ -121,25 +122,25 @@ quiz:
       ref: NEC 2023 Article 100 (Continuous Load)
     - id: LT2-C11-Q09
       type: single
-      q: Under the company procedure, who may remove the dead front of a panel?
+      q: Under our company's policy, who may remove the dead front of a panel?
       choices:
         - Any technician who brings a flashlight
-        - Only a person with specific electrical training who is qualified and authorized under the company's NFPA 70E program
+        - An electrician, or a technician working under the supervision of an electrician, with the required PPE
         - Anyone, as long as the customer gives permission
         - Any technician wearing safety glasses
       answer: 1
-      explanation: The company rule is not to open the dead front unless you have specific electrical training. Removing it exposes energized bus and is qualified-person work.
+      explanation: At our company, a technician working under an electrician's supervision may remove a dead front and replace a breaker; other companies may be stricter. Removing it exposes energized bus, so the qualified-person rule, PPE and approach boundaries still apply.
       ref: Company Master Troubleshooting Guide — Breakers
     - id: LT2-C11-Q10
       type: single
       q: A 20 A lighting breaker trips intermittently, but the nameplate total shows only 5 A of load. What does the company procedure call for?
       choices:
-        - Write it up for an electrician to replace the breaker
+        - Replace the breaker under an electrician's supervision, or write it up for an electrician to replace it
         - Install a 30 A breaker
-        - Remove the dead front and tighten the terminal yourself
+        - Remove the dead front on your own and tighten the terminal
         - Close the call — the load is fine
       answer: 0
-      explanation: A breaker that trips intermittently within its tolerance range is likely weak; write it up for an electrician to replace it and check the terminations.
+      explanation: A breaker that trips intermittently within its tolerance range is likely weak. At our company it is replaced by, or under the supervision of, an electrician; with no electrician supervising, write it up and note the terminations to check.
       ref: Company Master Troubleshooting Guide — Breakers
     - id: LT2-C11-Q11
       type: single

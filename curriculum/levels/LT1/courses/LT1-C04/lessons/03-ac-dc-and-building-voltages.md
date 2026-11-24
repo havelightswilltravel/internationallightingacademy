@@ -83,8 +83,13 @@ Every ballast, driver, and fixture label lists its input voltage:
 
 Connecting a 120 V-only ballast or driver to 277 V will destroy it, often immediately and
 sometimes with smoke or a pop. Connecting a 277 V-only ballast to 120 V usually means the lamps
-will not start. Always **read the label and verify the circuit voltage** with your supervisor or
-the panel schedule before ordering or installing parts.
+will not start. Always **read the label and measure the circuit voltage with a meter** before
+ordering or installing parts. Never rely on the panel schedule, a supervisor's word or a label
+alone to know the voltage; schedules and labels are often wrong. If you have not yet been deemed
+qualified to measure live voltage, a qualified person takes the reading while you watch and
+record it.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
 
 ## Key Takeaways
 - DC flows one direction; AC reverses direction 60 times per second in North America.
@@ -92,3 +97,4 @@ the panel schedule before ordering or installing parts.
 - Common systems: 120/240 V single-phase, 120/208 V three-phase, and 277/480 V three-phase.
 - 277 V lighting is common in commercial buildings; 208 = 120 × 1.732 and 480 = 277 × 1.732.
 - Always match ballast, driver, and fixture input voltage to the circuit; "UNV" means 120–277 V.
+- Always measure the circuit voltage with a meter; never rely on the panel schedule, a supervisor's word or labels alone.

@@ -4,7 +4,7 @@
   "course": "LT3-C14",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 221,
+  "target_seconds": 231,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Tech measures at the first pole with a meter; display reads 277 V L-N then 480 V L-L; compares to the new fixture label; writes on the work order.",
-      "on_screen": "RULE 1: Meter first. 277 V L-N, 480 V L-L. Compare to the NEW label.",
-      "says": "Rule one: meter first, every exterior project, before you install or energize anything. We've destroyed many brand-new fixtures by assuming the voltage. A 120 to 277 volt fixture on 480 or 347 is ruined the instant power comes on. Measure line-to-neutral and line-to-line, compare to the new fixture's label, and write it down. You can't verify voltage with a sniffer. Then lock out and verify dead.",
-      "seconds": 26
+      "on_screen": "RULE 1: Meter first. 277 V L-N, 480 V L-L. Compare to the NEW label. | Qualified persons only",
+      "says": "Rule one: meter first, every exterior project, before you install or energize anything. We've destroyed many brand-new fixtures by assuming the voltage. A 120 to 277 volt fixture on 480 or 347 is ruined the instant power comes on. Measure line-to-neutral and line-to-line, compare to the new fixture's label, and write it down. You can't verify voltage with a sniffer. Then lock out and verify dead. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 4,

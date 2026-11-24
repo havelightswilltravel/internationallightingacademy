@@ -125,6 +125,8 @@ Two cautions:
 4. **Audits need real numbers.** When you collect existing-conditions data (skill LT4-S06), record
    actual ballast factor/lamp counts or measured input watts so the "before" LPD and savings are real.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** Measuring luminaire input watts in the field means energized measurement. Use a
 > properly rated meter, follow the company's energized-work rules and PPE requirements, and never
 > open a luminaire wiring compartment energized to attach clamps – de-energize, apply LOTO, verify

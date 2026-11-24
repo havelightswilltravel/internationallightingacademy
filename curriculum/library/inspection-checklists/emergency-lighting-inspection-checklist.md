@@ -42,7 +42,10 @@ meter (qualified tech for supply checks), PPE for operating breakers.
 - [ ] Header filled in: site name and number, S/O (service order) #, address, city, state, zip, contact, phone
 - [ ] Every unit walked and marked on the map
 - [ ] Charge (LED) indicator checked on every unit; dark indicators noted
-- [ ] For each dark indicator: power verified by a qualified tech (power good = bad unit; no power = circuit write-up)
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
+- [ ] For each dark indicator: power tested with a meter by a tech deemed qualified (power good = bad unit; no power = circuit write-up)
 - [ ] Emergency breakers identified and labeled (if not: **stop**, write up for an electrician)
 
 ## Starting the test

@@ -6,8 +6,9 @@ video_suggestion: >
   A tech responds to "the lobby lights keep going off." With the dead front left on, she
   interviews the manager, checks the breaker type, feels for warmth, gently wiggles the
   handle and sees the lights flicker, totals the fixture load against the breaker rating,
-  then writes a clear electrician work-up with photos and readings. A narrator stresses that
-  she never removes the dead front.
+  then writes a clear electrician work-up with photos and readings. A narrator notes that the
+  dead front stays on during the assessment; removing it and swapping the breaker happen only
+  with an electrician supervising.
 ---
 
 ## The Company Procedure
@@ -15,9 +16,9 @@ video_suggestion: >
 The Master Troubleshooting Guide gives this procedure for breakers:
 
 1. Check for breaker amperage tolerance levels. **Do not open the dead front of a panel unless you
-   have specific electrical training.**
-2. Write it up for an electrician to replace the breaker if it trips intermittently **within the
-   tolerance range**.
+   are working under the supervision of an electrician** (company policy below).
+2. If it trips intermittently **within the tolerance range**, replace the breaker while working
+   under an electrician's supervision, or write it up for an electrician to replace it.
 3. Check for loose connection or overheating of wire, breaker or panel.
 4. Wiggle the switch arm (breaker handle). This can sometimes be an indicator of a weak breaker.
 
@@ -31,12 +32,16 @@ energized bus and lugs are exposed — a shock and **arc flash** hazard.
 
 | You are... | You may |
 |---|---|
-| A lighting technician (not qualified for panel work) | Open the panel **door**, read the directory, operate breaker handles (unless signs of damage/heat), look, listen, feel the dead-front surface, scan with a thermal camera from outside, use a circuit tracer receiver on the handles |
-| A qualified person under the company's NFPA 70E program, with training, PPE and authorization for the task | Remove the dead front, take energized measurements, perform thermography of terminations, and — if also authorized for the repair — replace breakers |
+| A lighting technician with no electrician supervising | Open the panel **door**, read the directory, operate breaker handles (unless signs of damage/heat), look, listen, feel the dead-front surface, scan with a thermal camera from outside, use a circuit tracer receiver on the handles |
+| A technician working under the supervision of an electrician, with the training and PPE for the exposure | Remove the dead front and replace (swap) a breaker with a listed breaker of the same type and rating |
+| A qualified person under the company's NFPA 70E program, with training, PPE and authorization for the task | Take energized measurements and perform thermography of terminations |
 
-Breaker replacement is **write it up for an electrician** unless the company has specifically
-qualified you. Even a qualified person replaces a breaker with the panel de-energized whenever
-feasible, following lockout/tagout.
+At our company, breaker replacement is done by an electrician or by a technician working under an
+electrician's supervision. With no electrician supervising, **write it up for an electrician.**
+Whoever does the swap replaces the breaker with the panel de-energized whenever feasible,
+following lockout/tagout.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 > **Scope varies by state and city.** In some areas a lighting technician may investigate tripped
 > breakers and do load-side circuit checks under the company's license; in others it must be done
@@ -71,7 +76,7 @@ feasible, following lockout/tagout.
    - Lights flicker or drop out = loose connection at the breaker or a weak breaker/bus connection.
    - Handle feels loose, sloppy or does not stay firmly in ON = worn mechanism.
 10. Record what you observed. Either finding goes on the write-up — the repair is behind the dead
-    front.
+    front (an electrician, or you working under an electrician's supervision).
 
 ### Stage 4 — Check the load against the rating (the "tolerance" check)
 
@@ -86,7 +91,7 @@ feasible, following lockout/tagout.
 | Result | Conclusion | Action |
 |---|---|---|
 | Load over rating or over 80% continuous | Overload — breaker doing its job | Recommend reducing/splitting load or a new circuit (electrician) |
-| Load within rating; trips intermittently | Likely weak breaker or heating connection | **Write it up for an electrician to replace the breaker** and check terminations |
+| Load within rating; trips intermittently | Likely weak breaker or heating connection | **Replace the breaker under an electrician's supervision, or write it up for an electrician** to replace it; check terminations |
 | Trips instantly on reset | Short or ground fault on the load side | Leave off and tagged; investigate de-energized on the load side or write up |
 | GFCI/AFCI trips | Leakage, arcing or possible nuisance | Inspect the load side de-energized (wet fixtures, damaged cable, loose splices); write up if not found |
 
@@ -124,8 +129,8 @@ without SWD/HID marking, missing knockouts or filler plates, blocked working spa
 panel.
 
 ## Key Takeaways
-- Never remove the dead front unless you are trained, qualified and authorized for that task.
+- At our company, remove a dead front or swap a breaker only while working under an electrician's supervision, with PPE and the qualified-person rule applied.
 - Wiggle the breaker handle gently within the ON position; flicker or a loose handle points to a weak breaker or loose connection.
-- Compare actual load to the rating; intermittent trips well within tolerance mean write it up for an electrician to replace the breaker.
+- Compare actual load to the rating; intermittent trips well within tolerance mean the breaker is replaced (under an electrician's supervision) or written up for an electrician.
 - Stop and escalate immediately on burning smell, melting, soot or arcing.
 - A complete work-up has location, circuit, complaint, load, observations, work done and a specific recommendation.

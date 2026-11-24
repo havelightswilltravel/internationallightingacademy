@@ -94,6 +94,8 @@ the safety and verification steps have been added.
 17. **Prove the fix:** run every switch combination twice. Wiggle each switch arm again. The
     light must change state on every single flip.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** Energized voltage tracing (meter readings with the circuit live and switches being
 > operated) is diagnostic work on exposed energized conductors. Do it only if you are a qualified
 > person under the company's NFPA 70E program, with the required PPE and an energized work

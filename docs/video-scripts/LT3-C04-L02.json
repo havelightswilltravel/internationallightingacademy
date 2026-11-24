@@ -4,7 +4,7 @@
   "course": "LT3-C04",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 195,
+  "target_seconds": 201,
   "scenes": [
     {
       "scene": 1,
@@ -58,9 +58,9 @@
       "scene": 7,
       "speaker": "Matthew Berrett",
       "background": "Field story 4: warehouse panel with breakers used as daily switches; clamp-meter reading shown well under rating.",
-      "on_screen": "Story 4: load well within rating, still trips → weak breaker → write it up",
-      "says": "Story four. An old breaker used as a light switch for years trips well below its rating. Our company procedure says check the breaker's tolerance, meaning compare the actual load with its rating. Load over the rating, or over 80 percent for continuous lighting? Overload. Load well within rating and it still trips? Suspect a weak breaker or a loose connection, and write it up for an electrician to replace.",
-      "seconds": 28
+      "on_screen": "Story 4: load well within rating, still trips → weak breaker → swap under an electrician's supervision, or write it up",
+      "says": "Story four. An old breaker used as a light switch for years trips well below its rating. Our company procedure says check the breaker's tolerance, meaning compare the actual load with its rating. Load over the rating, or over 80 percent for continuous lighting? Overload. Load well within rating and it still trips? Suspect a weak breaker or a loose connection, and replace it under an electrician's supervision, or write it up for an electrician. That's our company's policy; other companies may be stricter.",
+      "seconds": 34
     },
     {
       "scene": 8,

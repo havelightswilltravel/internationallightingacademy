@@ -4,7 +4,7 @@
   "course": "LT2-C05",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 200,
+  "target_seconds": 204,
   "scenes": [
     {
       "scene": 1,
@@ -43,8 +43,8 @@
       "speaker": "Matthew Berrett",
       "background": "Capacitor close-up with its label; then discharge tool across terminals and a meter reading 0 V.",
       "on_screen": "Capacitor: microfarads + AC voltage | discharge, then verify 0 V",
-      "says": "The capacitor regulates lamp current and improves power factor. It's rated in microfarads and AC volts; use the exact rating specified. Failure signs: bulging, leaking, burnt terminals. And it stores charge. After lockout and verification, discharge it, best through a discharge resistor tool, then verify zero volts with your meter. Never assume a bleed resistor did its job.",
-      "seconds": 23
+      "says": "The capacitor regulates lamp current and improves power factor. It's rated in microfarads and AC volts; a replacement must match the microfarads specified, with a voltage rating equal or higher. Failure signs: bulging, leaking, burnt terminals. And it stores charge. After lockout and verification, discharge it, best through a discharge resistor tool, then verify zero volts with your meter. Never assume a bleed resistor did its job.",
+      "seconds": 27
     },
     {
       "scene": 6,

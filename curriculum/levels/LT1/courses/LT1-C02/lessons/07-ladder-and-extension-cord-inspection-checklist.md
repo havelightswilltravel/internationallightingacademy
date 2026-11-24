@@ -6,8 +6,8 @@ video_suggestion: >
   Two technicians do the company ladder and extension cord inspection on their service van:
   they write the date and vehicle on the form, check each ladder by size against every line,
   inspect the ladder rack and its straps, then uncoil and number each extension cord and run
-  it hand over hand checking the jacket and plug. One cord with a missing ground pin is
-  tagged, cut off at the plug, and set aside; both technicians sign the form.
+  it hand over hand checking the jacket and plug. One cord with a missing ground pin gets both
+  ends cut off and goes in the garbage; both technicians sign the form.
 ---
 
 ## Why We Use a Written Form
@@ -21,7 +21,8 @@ OSHA supports both habits. Ladders must be inspected before first use in each sh
 defective ones tagged and removed (29 CFR 1910.23(b)(9)–(10)). Portable cord-and-plug
 equipment, including extension cords, must be **visually inspected before use on any
 shift,** and a defective cord must be removed from service until repaired or replaced
-(1910.334(a)(2)).
+(1910.334(a)(2)). Our company is stricter: a failed cord is never repaired. Both ends are cut
+off and it goes in the garbage.
 
 The checklists in this lesson are also in the Library under **Inspection Checklists**, so
 you can open them on your phone on the job.
@@ -107,7 +108,7 @@ through your hands from end to end:
 |---|---|
 | **Ladder** with a structural defect | **Red tag it "DO NOT USE,"** take it off the truck or set it aside where nobody will grab it, report it to your supervisor, and write it on your pull sheet. It is repaired the manufacturer's way or replaced. |
 | **Ladder** that is only dirty or slippery | Clean it before use, then re-inspect. |
-| **Extension cord** | Tag it "DO NOT USE" and remove it from service. If your supervisor directs, **cut off the plug** so nobody uses it by mistake. Report it and write it on your pull sheet. |
+| **Extension cord** | Unplug it, **cut off both ends** (plug and connector) so nobody can use it, and **put it in the garbage**. Report it and write the replacement on your pull sheet. |
 | **Ladder rack** | Do not load a ladder onto a damaged rack. Report it; the vehicle may need to be taken out of service. |
 
 Never leave a defective ladder or cord on the van "for the next guy to decide." The next guy
@@ -117,5 +118,5 @@ might be you, in the dark, in a hurry.
 - Inspect every ladder and every cord before use on every shift; the form records it per vehicle.
 - Both techs sign; one column per ladder size; check the ladder rack; number and initial each cord.
 - Cords fail for any cut, burn, crack, tape, splice, missing ground pin, or damaged plug.
-- Red tag "DO NOT USE" and remove failed equipment from service; report it and write it on your pull sheet.
+- Red tag "DO NOT USE" and remove a failed ladder from service; a failed cord gets both ends cut off and goes in the garbage. Report it and write it on your pull sheet.
 - Never remove a ground pin; use GFCI protection and keep cords out of walkways.

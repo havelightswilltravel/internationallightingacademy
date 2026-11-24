@@ -36,6 +36,9 @@ enough."
    ground; current listed devices generally require a **neutral** and must not use the ground as
    a return path. Confirm the device's instructions, and verify both the grounding conductor and
    neutral (if required) are present and properly connected in the box.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **Check the incoming power.** Measure voltage **across the hot and neutral** at the device's line
    terminal (qualified person, PPE). No voltage → the problem is upstream (breaker, splice).
 3. **Verify the settings** — vacancy mode needs a button press to turn on; a light-level setting

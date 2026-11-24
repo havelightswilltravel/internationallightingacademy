@@ -4,7 +4,7 @@
   "course": "LT3-C12",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 211,
+  "target_seconds": 219,
   "scenes": [
     {
       "scene": 1,
@@ -18,9 +18,9 @@
       "scene": 2,
       "speaker": "Matthew Berrett",
       "background": "Flowchart overlay: Press test > Lights? Yes = normal side. No = emergency side.",
-      "on_screen": "Test button splits the fixture: emergency side vs normal side",
-      "says": "Our procedure uses the test button to split the fixture in two. First, confirm the lamp is good and test the line voltage, the unswitched hot and, on two-feed units, the switched hot. Energized testing is for qualified persons under our NFPA 70E program. Then press and hold the test button.",
-      "seconds": 20
+      "on_screen": "Test button splits the fixture: emergency side vs normal side | Qualified persons only",
+      "says": "Our procedure uses the test button to split the fixture in two. First, confirm the lamp is good and test for power with your meter, the unswitched hot and, on two-feed units, the switched hot. Then press and hold the test button. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 26
     },
     {
       "scene": 3,
@@ -50,9 +50,9 @@
       "scene": 6,
       "speaker": "Matthew Berrett",
       "background": "Fault 3: bug-eye with no charge light; test button does nothing; qualified person checks line voltage, none present. Tech checks the breaker from outside the panel.",
-      "on_screen": "Bug eye/exit: test > line voltage > good = replace unit | missing = circuit problem",
-      "says": "Fault three, a bug-eye with no charge light. Press test: nothing. Next, test line voltage at the unit. If voltage is good, replace the unit, or its listed battery or heads where that's cost-effective. Here, there's no voltage. That's the emergency lighting circuit. Check the breaker from outside the panel, look for a switched feed or open splice, and write it up if it needs tracing in the panel or walls.",
-      "seconds": 28
+      "on_screen": "Bug eye/exit: test > test for power with a meter > good = replace unit | missing = circuit problem | Qualified persons only",
+      "says": "Fault three, a bug-eye with no charge light. Press test: nothing. Next, test for power with your meter at the unit. If voltage is good, replace the unit, or its listed battery or heads where that's cost-effective. Here, there's no voltage. That's the emergency lighting circuit. Check the breaker from outside the panel, look for a switched feed or open splice, and write it up if it needs tracing in the panel or walls.",
+      "seconds": 30
     },
     {
       "scene": 7,

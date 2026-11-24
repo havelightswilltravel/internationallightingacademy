@@ -36,6 +36,9 @@ most calls before anyone opens a ballast channel.
 2. **Look at the lamp ends.** Blackened ends mean the lamp is worn out. **If the ends are
    black, change the lamps.** Replace with the exact type on the ballast label (for example
    F32T8/841 or a 4-pin 26 W CFL with the same base).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. **If the ends are not black,** the lamps may still be bad, but the next question is
    whether power is reaching the fixture. A **voltage check with a meter** is required. At
    LT1, that reading is taken by a qualified technician unless your employer has trained and

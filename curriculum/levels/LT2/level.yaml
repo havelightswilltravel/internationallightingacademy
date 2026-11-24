@@ -45,6 +45,7 @@ skills:
       - Inspects meter, leads and gloves (including glove air test) and confirms the meter CAT/voltage rating meets or exceeds the panel
       - Dons all required PPE correctly before removing the cover or opening the dead-front door
       - Verifies meter operation on a known source before and after measuring (live-dead-live)
+      - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
       - Measures and records all three line-to-line and all three line-to-neutral voltages plus line-to-ground for each phase
       - Keeps one hand clear where practical, keeps body parts outside the restricted approach boundary except probe tips, and uses probe guards
       - Correctly states whether readings are within roughly ±5% of nominal and identifies any abnormal reading
@@ -111,6 +112,7 @@ skills:
       - Gathers information from the customer/work order and verifies the complaint personally
       - States a test plan that checks easy and likely causes first and identifies which steps are energized
       - Uses appropriate PPE and live-dead-live verification for every energized measurement and LOTO for every repair step
+      - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
       - Measures supply voltage at the fixture and correctly interprets the reading
       - Isolates the fault to a component (lamp, ballast/driver, socket, connection, switch/control, or supply) using measurements, not guesswork
       - Changes one variable at a time and does not replace parts without evidence
@@ -275,8 +277,8 @@ skills:
     critical: true
     description: 'Respond to a tripping lighting breaker complaint by gathering information, inspecting the panel
       from outside the dead front, performing the wiggle test, comparing the circuit load with the breaker rating,
-      and writing a complete electrician work-up — without removing the dead front unless the evaluator confirms the
-      tech is trained, qualified and authorized for that task.
+      and writing a complete electrician work-up — with the dead front left on. At our company the dead front comes off
+      (and a breaker is swapped) only while the tech works under an electrician''s supervision.
 
       '
     equipment:
@@ -291,8 +293,8 @@ skills:
     - work order or write-up form
     - safety glasses
     criteria:
-    - Does not remove the dead front or expose energized parts at any point (zero deviations), and states the company
-      rule and why it exists
+    - Keeps the dead front on during the assessment and does not expose energized parts unless working under an
+      electrician's supervision with the required PPE (zero deviations), and states the company rule and why it exists
     - Interviews the customer and records which lights go off, how often, and whether trips are instant, delayed or
       only at switch-on
     - Identifies the breaker from the directory and records its rating, poles, type (standard, GFCI, AFCI, dual-function)
@@ -332,6 +334,7 @@ skills:
     - Checks photocell/control status and allows for restrike time before testing
     - Locks out and verifies absence of voltage, then disconnects the ignitor pulse lead on pulse-start MH or HPS
       before any open-circuit voltage reading
+    - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
     - Under qualified supervision and in required PPE, measures socket open-circuit voltage with the lamp removed
       and compares it to the ballast label (using the chart only as a typical guide)
     - Correctly decides lamp vs ballast circuit from the OCV result and, if OCV is absent, measures line voltage at

@@ -72,6 +72,8 @@ Fixes:
    much lower.
 4. Mount the power supply closer to the load where the enclosure and code allow.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 **Measuring:** with the system running, compare voltage at the power supply output with voltage
 at the farthest module. The difference is the voltage drop. Follow the module manufacturer's
 minimum voltage spec; as a field guide, a drop of more than about 5–10 % is usually visible.

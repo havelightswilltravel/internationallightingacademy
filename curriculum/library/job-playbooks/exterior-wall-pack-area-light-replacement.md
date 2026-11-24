@@ -48,6 +48,9 @@ whole lot on a project.
    manager's agreement.
 2. **Look up** for overhead lines and keep company clearances. Cone off the whole area around the truck.
 3. Inspect and photograph the pole, base, anchor bolts, hand hole and wall before you start.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. **Meter first:** measure line-to-neutral and line-to-line. Never rely on a non-contact tester.
 5. **Lock out and verify live-dead-live** before touching conductors.
 6. Install per the manufacturer's instructions with wet-location connectors; seal entries.

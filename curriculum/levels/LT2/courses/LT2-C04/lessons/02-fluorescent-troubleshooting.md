@@ -40,6 +40,9 @@ This follows the general method in LT2-C06, applied to fluorescent fixtures.
 3. **Inspect.** With the circuit locked out and verified dead: open the wireway, look for
    burnt, cracked or loose sockets; scorched or loose wiring; discolored or leaking ballast;
    loose splices.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. **Check supply voltage.** Remove your lock (following your company's procedure for
    temporary re-energizing for testing), wear PPE for energized work, and measure at the
    ballast input leads: hot-to-neutral and hot-to-ground. No voltage → the problem is
@@ -71,6 +74,9 @@ Use it as your checklist on every fluorescent and compact fluorescent (CF) call:
 
 1. **Look at the lamp ends.** Blackened ends mean the cathodes are worn out — change those
    lamps first. Change every lamp on the same ballast if the others are close behind.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **No blackened ends → check for power with a meter** at the ballast input (qualified person,
    PPE, as in Step 4 above).
 3. **Power present and *all* lamps out → change the ballast** (or, on HID and some CF fixtures,

@@ -4,7 +4,7 @@
   "course": "LT2-C05",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 209,
+  "target_seconds": 220,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Qualified tech, arc-rated PPE, measures OCV at a probe-start MH socket with the lamp removed; reading compared to the ballast label and the company chart.",
-      "on_screen": "Typical 400 W probe-start MH (M59): about 285-340 V | the ballast label governs",
-      "says": "Here a qualified tech, in PPE, with a CAT III meter rated above the expected voltage and insulated probes, reads OCV at a probe-start metal halide socket, lamp removed. Compare it to the ballast label. Our chart gives typical figures, like about 285 to 340 volts for a 400 watt probe-start. But the ballast label and the manufacturer's data govern. Near the label value? Replace the lamp.",
-      "seconds": 27
+      "on_screen": "Typical 400 W probe-start MH (M59): about 285-340 V | the ballast label governs | Qualified persons only",
+      "says": "Here a qualified tech, in PPE, with a CAT III meter rated above the expected voltage and insulated probes, reads OCV at a probe-start metal halide socket, lamp removed. Compare it to the ballast label. Our chart gives typical figures, like about 285 to 340 volts for a 400 watt probe-start. But the ballast label and the manufacturer's data govern. Near the label value? Replace the lamp. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 4,
@@ -42,9 +42,9 @@
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "Bench: capacitor discharged through a resistor tool, 0 V verified, one lead removed, meter on capacitance reading against the label.",
-      "on_screen": "Capacitor: de-energized capacitance test | within tolerance (often +/-6%) = good | replace with exact uF and voltage",
-      "says": "Test the capacitor de-energized. Lock out and verify. Discharge it through a resistor tool and verify zero volts. Look for bulging, leaking or burnt terminals. Remove at least one lead, set the meter to microfarads and read. Within the marked tolerance, commonly plus or minus six percent, it's good. Outside it, or open or shorted, replace it with the exact microfarad and voltage rating.",
-      "seconds": 26
+      "on_screen": "Capacitor: de-energized capacitance test | within tolerance (often +/-6%) = good | replace: same uF, voltage equal or higher",
+      "says": "Test the capacitor de-energized. Lock out and verify. Discharge it through a resistor tool and verify zero volts. Look for bulging, leaking or burnt terminals. Remove at least one lead, set the meter to microfarads and read. Within the marked tolerance, commonly plus or minus six percent, it's good. Outside it, or open or shorted, replace it with the same microfarad rating and an equal or higher voltage rating.",
+      "seconds": 28
     },
     {
       "scene": 6,

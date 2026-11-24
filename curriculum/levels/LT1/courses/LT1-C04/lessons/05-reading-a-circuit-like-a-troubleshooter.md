@@ -50,6 +50,8 @@ confirming line and load are on the correct terminals.
 A voltmeter shows the **difference** in voltage between its two probes. That leads to rules
 that sound backward at first but solve many calls:
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 | Where you measure | Reading | What it means |
 |---|---|---|
 | Hot to neutral at the fixture | Full circuit voltage (e.g., 120 or 277 V) | Power is reaching the fixture |
@@ -102,6 +104,9 @@ The company's incandescent sequence — check the lamp, check power, check the s
 the socket, check the thermal protector — is a walk along the path:
 
 1. **Lamp**: continuity test or swap with a known-good lamp.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **Power**: hot to neutral at the fixture (qualified person).
 3. **Switch**: switch leg voltage with switch on (qualified person), or continuity with power off.
 4. **Socket**: with power off, check that the center contact (socket eye) springs up to touch the

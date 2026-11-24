@@ -4,7 +4,7 @@
   "course": "LT2-C07",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 194,
+  "target_seconds": 204,
   "scenes": [
     {
       "scene": 1,
@@ -42,9 +42,9 @@
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "Qualified tech in proper PPE measures voltage at the panel, then at the last fixture on the loaded garage circuit; readings shown on screen.",
-      "on_screen": "Measure under load: panel vs farthest fixture | energized work = PPE, CAT-rated meter, verify meter before and after",
-      "says": "Now voltage drop. Every wire has resistance, so some voltage gets used up before it reaches the load. Measure it under load: at the panel, then at the farthest fixture, at about the same time. This is energized work. Wear the PPE the label or our PPE table requires, use a CAT-rated meter, verify it on a known source before and after, and work under your lead's direction at any panelboard.",
-      "seconds": 28
+      "on_screen": "Measure under load: panel vs farthest fixture | energized work = PPE, CAT-rated meter, verify meter before and after | Qualified persons only",
+      "says": "Now voltage drop. Every wire has resistance, so some voltage gets used up before it reaches the load. Measure it under load: at the panel, then at the farthest fixture, at about the same time. This is energized work. Wear the PPE the label or our PPE table requires, use a CAT-rated meter, verify it on a known source before and after, and work under your lead's direction at any panelboard. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 38
     },
     {
       "scene": 6,

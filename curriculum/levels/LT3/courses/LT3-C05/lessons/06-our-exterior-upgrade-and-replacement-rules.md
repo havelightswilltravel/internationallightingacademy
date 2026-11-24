@@ -26,6 +26,8 @@ new fixtures, a second trip, or an argument with a customer about damage we did 
 
 ## Rule 1: Meter First, Every Exterior Project
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 **Measure the supply voltage with your meter at the start of every exterior project**, before
 you install or energize anything. Our company has destroyed many brand-new fixtures by assuming
 the voltage. A 120–277 V fixture on a 480 V or 347 V circuit is ruined the instant power comes

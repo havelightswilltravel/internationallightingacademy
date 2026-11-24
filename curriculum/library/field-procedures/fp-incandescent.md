@@ -34,6 +34,9 @@ review_interval_months: 12
 ## Company troubleshooting procedure
 
 1. **Check the lamp.** De-energized, measure lamp continuity across the base (center contact to shell). Expected: low resistance (a few to a few tens of ohms cold). OL = open filament. Or simply install a **known-good lamp** of the same type and wattage.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **Check power.** If a good lamp does not light, verify voltage at the fixture (qualified persons only for energized testing; otherwise confirm the circuit is on and the switch is on). Expected: about 120 V hot to neutral (or the voltage on the label).
 3. **Check the light switch.** De-energized and locked out, check the switch for continuity: near 0 ohms in ON, OL in OFF. Look for loose or burned terminals.
 4. **Check the socket and socket eye.** After LOTO, look for scorching or a flattened center eye. A flattened eye can be gently lifted (about 1/8 in.) with an insulated tool *only while de-energized*. Replace scorched or cracked sockets.

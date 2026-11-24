@@ -4,15 +4,15 @@
   "course": "LT4-C04",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 196,
+  "target_seconds": 204,
   "scenes": [
     {
       "scene": 1,
       "speaker": "Matthew Berrett",
       "background": "Matthew sitting in the open side door of a service van with a phone and tablet. Medium shot.",
       "on_screen": "Parts, Escalation & Documentation",
-      "says": "At this level, you're the person who finds the problem and describes it accurately. Replacing a contactor, coil or relay card, working behind a dead front, and changing branch wiring usually belong to an electrician, unless your employer has qualified you for that task. A good write-up lets the electrician show up with the right part and finish in one trip. That's planning ahead for someone else.",
-      "seconds": 26
+      "says": "At this level, you're the person who finds the problem and describes it accurately. Replacing a contactor, coil or relay card, working behind a dead front, and changing branch wiring usually belong to an electrician, unless your employer has qualified you for that task. At our company, you may remove a dead front and swap a breaker while working under an electrician's supervision. A good write-up lets the electrician show up with the right part and finish in one trip. That's planning ahead for someone else.",
+      "seconds": 34
     },
     {
       "scene": 2,

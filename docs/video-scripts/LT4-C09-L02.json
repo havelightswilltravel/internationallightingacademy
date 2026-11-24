@@ -4,7 +4,7 @@
   "course": "LT4-C09",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 210,
+  "target_seconds": 220,
   "scenes": [
     {
       "scene": 1,
@@ -74,9 +74,9 @@
       "scene": 9,
       "speaker": "Matthew Berrett",
       "background": "Matthew at a training luminaire with a power meter on the bench; covers closed.",
-      "on_screen": "Never open a wiring compartment energized to attach clamps",
-      "says": "If you measure input watts in the field, that's energized measurement. Use a properly rated meter and follow our energized-work rules and PPE. Never open a luminaire wiring compartment energized to attach clamps. De-energize, apply LOTO, verify absence of voltage, install the meter connections, then restore power with covers closed.",
-      "seconds": 20
+      "on_screen": "Never open a wiring compartment energized to attach clamps | Qualified persons only",
+      "says": "If you measure input watts in the field, that's energized measurement. Use a properly rated meter and follow our energized-work rules and PPE. Never open a luminaire wiring compartment energized to attach clamps. De-energize, apply LOTO, verify absence of voltage, install the meter connections, then restore power with covers closed. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 30
     },
     {
       "scene": 10,

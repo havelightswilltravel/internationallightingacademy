@@ -25,6 +25,9 @@ means understanding what the meter is telling you — and when it is misleading 
 **Procedure for an AC voltage measurement at a fixture:**
 1. Select V AC (or auto-V). Leads in COM and V jacks.
 2. Verify the meter on a known source.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. Measure hot-to-neutral, hot-to-ground and neutral-to-ground.
 4. Verify on the known source again if you were confirming absence of voltage.
 5. Interpret: compare to nominal (LT2-C01).

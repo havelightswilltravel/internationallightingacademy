@@ -4,7 +4,7 @@
   "course": "LT4-C10",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 203,
+  "target_seconds": 217,
   "scenes": [
     {
       "scene": 1,
@@ -42,17 +42,17 @@
       "scene": 5,
       "speaker": "Danny Smith",
       "background": "Same pole; Danny with a clipboard listing the corrections.",
-      "on_screen": "Energized readings: qualified persons only, in PPE\nCapacitor: de-energized capacitance test after discharge\nSensors: verify ground AND neutral",
-      "says": "Lead techs make sure the procedure is followed as corrected. Energized readings like 'check power' or socket voltage are taken only by persons qualified under our NFPA 70E program, in the required PPE. Everyone else works de-energized, then verifies live-dead-live. The HID capacitor check is a de-energized capacitance test after discharging. And motion sensors never use ground as a current return.",
-      "seconds": 24
+      "on_screen": "Energized readings: qualified persons only, in PPE\nCapacitor: de-energized capacitance test after discharge\nSensors: verify ground AND neutral | Qualified persons only",
+      "says": "Lead techs make sure the procedure is followed as corrected. Energized readings like 'check power' or socket voltage are taken only by persons qualified under our NFPA 70E program, in the required PPE. Everyone else works de-energized, then verifies live-dead-live. The HID capacitor check is a de-energized capacitance test after discharging. And motion sensors never use ground as a current return. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 6,
       "speaker": "Danny Smith",
       "background": "Office corridor; emergency troffer. Newer tech unplugs the battery connector before opening the fixture.",
-      "on_screen": "Battery fixtures are energized until the battery connector is unplugged\nPanels & breakers: write it up unless qualified",
-      "says": "Emergency call. Battery-equipped fixtures, like emergency ballasts, bug eyes and exits, are treated as energized until the battery connector is unplugged. And breakers, contactors, panels and relays stay 'write it up for an electrician' unless our company has qualified you.",
-      "seconds": 16
+      "on_screen": "Battery fixtures are energized until the battery connector is unplugged\nDead front or breaker swap: only under an electrician's supervision",
+      "says": "Emergency call. Battery-equipped fixtures, like emergency ballasts, bug eyes and exits, are treated as energized until the battery connector is unplugged. And contactors, panels and relays stay 'write it up for an electrician' unless our company has qualified you. A dead front or breaker swap happens only under an electrician's supervision.",
+      "seconds": 20
     },
     {
       "scene": 7,

@@ -4,7 +4,7 @@
   "course": "LT4-C08",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 204,
+  "target_seconds": 214,
   "scenes": [
     {
       "scene": 1,
@@ -42,9 +42,9 @@
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "System running: tech measures DC volts at the feed point, then at the far end; two meter readings shown side by side.",
-      "on_screen": "Drop = voltage at supply - voltage at far end | More than about 5–10% is usually visible",
-      "says": "Now measure voltage drop with the system running. Voltage at the feed point, then at the far end. The difference is the drop. Losing 2 volts on a 12-volt system is over 16 percent, enough to dim the end, turn whites pinkish or yellowish, or make it flicker. Follow the maker's minimum voltage. As a field guide, more than about 5 to 10 percent usually shows.",
-      "seconds": 26
+      "on_screen": "Drop = voltage at supply - voltage at far end | More than about 5–10% is usually visible | Qualified persons only",
+      "says": "Now measure voltage drop with the system running. Voltage at the feed point, then at the far end. The difference is the drop. Losing 2 volts on a 12-volt system is over 16 percent, enough to dim the end, turn whites pinkish or yellowish, or make it flicker. Follow the maker's minimum voltage. As a field guide, more than about 5 to 10 percent usually shows. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 6,

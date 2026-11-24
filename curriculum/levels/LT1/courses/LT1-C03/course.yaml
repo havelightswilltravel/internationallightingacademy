@@ -199,7 +199,7 @@ quiz:
         - "Measure voltage across the hot and neutral with your multimeter"
         - "Swap the fixture with a known good one"
       answer: 2
-      explanation: "You cannot troubleshoot with a \"sniffer.\" Measuring hot to neutral at the fixture tells you whether the problem is upstream (no voltage) or in the fixture (correct voltage present)."
+      explanation: "You cannot troubleshoot with a \"sniffer.\" Measuring hot to neutral at the fixture tells you whether the problem is upstream (no voltage) or in the fixture (correct voltage present). Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
     - id: LT1-C03-Q18
       type: single
       q: "Why does the company require you to measure the supply voltage before connecting a new exterior fixture?"
@@ -209,7 +209,7 @@ quiz:
         - "The customer requires a reading for billing"
         - "It is only needed for 120 V fixtures"
       answer: 1
-      explanation: "A 120-277 V fixture connected to 480 V (or 347 V) is ruined the instant it is energized. Only the installer's meter can confirm the supply is compatible."
+      explanation: "A 120-277 V fixture connected to 480 V (or 347 V) is ruined the instant it is energized. Only the installer's meter can confirm the supply is compatible. Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
     - id: LT1-C03-Q19
       type: single
       q: "You need power in a back room and the nearest outlet is through a self-closing metal door. What does company policy require?"
@@ -224,12 +224,12 @@ quiz:
       type: multi
       q: "An extension cord fails inspection because the jacket is cut. Which actions follow company policy? (Select all that apply.)"
       choices:
-        - "Red tag the cord"
-        - "Cut the ends off so no one can use it"
+        - "Cut both ends off the cord"
+        - "Put the cord in the garbage"
         - "Tell the shop so it is replaced"
         - "Repair the cut with electrical tape and keep using it"
       answer: [0, 1, 2]
-      explanation: "Failed cords are red tagged, the ends are cut off, and the shop is notified for a replacement. Taped cords are not acceptable."
+      explanation: "A failed or damaged cord gets both ends cut off and goes in the garbage, and the shop is notified for a replacement. Taped or repaired cords are not acceptable."
       ref: "OSHA 29 CFR 1910.334(a)"
     - id: LT1-C03-Q21
       type: single

@@ -104,7 +104,7 @@ quiz:
         - Tripped breaker
         - Missing equipment ground
       answer: 1
-      explanation: Voltage to ground proves the hot is live; no voltage to neutral means the neutral path is open. Always measure both.
+      explanation: "Voltage to ground proves the hot is live; no voltage to neutral means the neutral path is open. Always measure both. Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
     - id: LT2-C06-Q09
       type: single
       q: Several fixtures on different circuits in one area flicker together, sometimes when other equipment starts. What should you suspect and how urgent is it?
@@ -225,7 +225,7 @@ quiz:
         - "The wall switch"
         - "Dirty lens"
       answer: 0
-      explanation: "Full-brightness on/off strobing is usually the driver. Flicker in one section or on a single-diode fixture points to the board or fixture instead. Confirm supply voltage first."
+      explanation: "Full-brightness on/off strobing is usually the driver. Flicker in one section or on a single-diode fixture points to the board or fixture instead. Confirm supply voltage first. Qualified persons only: check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live."
     - id: LT2-C06-Q21
       type: single
       q: "A customer reports flashing fixtures but cannot say which ones, and nothing flashes while you are there. What is the company procedure?"

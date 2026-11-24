@@ -86,6 +86,8 @@ found. You can also disconnect each driver's dimming leads one at a time.
 5. **Fixtures won't turn fully off:** expected — the switching function (relay/power pack)
    is missing, wired wrong, or failed.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** The 0–10V pair is low voltage, but you will measure it inside fixtures and boxes
 > containing 120–277V conductors. Only take energized measurements when authorized, using the
 > PPE and procedures from your employer's NFPA 70E program, and keep fingers behind the probe

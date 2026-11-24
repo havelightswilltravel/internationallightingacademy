@@ -19,6 +19,8 @@ company's own HID troubleshooting sequence, which is built around one fast measu
 ballast puts across the socket when no lamp is drawing current. If the ballast is producing
 correct OCV, the ballast circuit is very likely working and the lamp is the suspect.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 | Step | Company step | How we do it safely |
 |---|---|---|
 | 1 | Test socket voltage with a meter and compare to the socket voltage chart | Lamp removed; qualified person only, PPE per the employer's NFPA 70E program; ignitor disconnected first on pulse-start MH and HPS (see below) |
@@ -26,7 +28,7 @@ correct OCV, the ballast circuit is very likely working and the lamp is the susp
 | 3 | No proper socket voltage → test line voltage at the fixture | Measure at ballast input leads: hot-to-neutral (or line-to-line on 208/240/480 V) |
 | 4 | No proper line voltage → test fuses, including fuses in the pole base | Lock out the circuit, then check in-line fuses out of their holders (continuity) |
 | 5 | Line voltage correct → check the capacitor | De-energized capacitance test is the standard method (see below) |
-| 6 | Capacitor bad → replace the capacitor | Exact µF and voltage rating |
+| 6 | Capacitor bad → replace the capacitor | Same µF rating; voltage rating equal or higher |
 | 7 | Ballast not producing output → replace the ballast kit | Kit = core and coil, capacitor, ignitor matched to the lamp ANSI code |
 | 8 | Capacitor and ballast good → check the socket | Burnt, pitted, loose center contact, cracked porcelain, heat-damaged leads |
 | 9 | Socket good → replace the ignitor | Ignitor failure is common on HPS and pulse-start MH |
@@ -64,6 +66,8 @@ measurable OCV; follow their manufacturer's test instructions.
 - **Zero OCV with good line voltage:** open ballast winding, open capacitor circuit, broken lead,
   or a failed socket connection.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** OCV is often 200–480 V and is present the moment the circuit is energized with
 > no lamp in the socket. Only a person qualified under the employer's NFPA 70E program takes
 > this reading, using a CAT III or CAT IV meter rated above the expected voltage, insulated
@@ -87,7 +91,7 @@ capacitance test**:
 4. Remove at least one lead so other parts of the circuit don't affect the reading.
 5. Set the meter to capacitance (µF) and read across the terminals.
 6. Compare to the label. Within the marked tolerance (commonly ±6%) is good; outside it, or a
-   reading of zero/open/short, means replace with the **exact** µF and voltage rating.
+   reading of zero/open/short, means replace with the **same µF** rating and an **equal or higher** voltage rating.
 
 Energized voltage comparisons across the capacitor may be done by qualified persons when the
 manufacturer's procedure calls for it.

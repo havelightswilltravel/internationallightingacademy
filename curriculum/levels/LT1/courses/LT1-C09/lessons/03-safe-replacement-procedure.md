@@ -33,6 +33,8 @@ At LT1:
 The company guide says: **look for damaged, burned or loose parts; check connections; and
 replace if line voltage is good.**
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 "Replace if line voltage is good" means: before you blame the device, confirm that proper
 voltage is **reaching** it. If voltage is good at the incoming (line) conductors, the device is
 the problem and can be replaced. If voltage is **not** good, a new device will not fix
@@ -50,12 +52,19 @@ The replacement itself is always done with the circuit locked out and verified d
 2. **Identify the device and the replacement.** Read the old device: type, amps, voltage,
    color, TR/WR/GFCI/IG features. Confirm the replacement is the **same type and rating or an
    approved upgrade** (for example, adding TR where it is now required).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. **Confirm line voltage** (qualified person only), or confirm that a qualified person has
    done so and recorded it.
 
 ### De-energize and verify
 4. **Identify the correct breaker.** Use the panel schedule, a circuit tracer, or have a
-   qualified person identify it. Do not open the panel dead front.
+   qualified person identify it. Do not open the panel dead front unless you are working under
+   an electrician's supervision.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
+
 5. **Lock out and tag** the breaker per company LOTO procedure.
 6. **Verify absence of voltage** at the device with a tested meter, **live-dead-live**:
    hot-to-neutral, hot-to-ground and neutral-to-ground. Check every conductor in the box; a box

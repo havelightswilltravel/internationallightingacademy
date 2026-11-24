@@ -55,6 +55,9 @@ How to reduce it:
 1. Use heavier cable (lower AWG number) per the maker's charts.
 2. Shorten runs — move the transformer closer to the lamps or feed from the center.
 3. Split the load into **multiple home runs** (or a "hub" layout) instead of one long daisy chain.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. On magnetic landscape transformers, use a **higher tap** (13, 14, 15 V) for long runs, then
    measure at the lamps — target is close to the lamp's rated voltage (typically about 10.5–12 V
    for halogen; check LED lamp specs).

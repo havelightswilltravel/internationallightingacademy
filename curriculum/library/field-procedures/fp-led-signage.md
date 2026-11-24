@@ -33,6 +33,8 @@ review_interval_months: 12
 
 ## Company troubleshooting procedure
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 1. **If the whole sign is out, check line voltage** at the power supply input. Expected: about 120 or 277 V per the label.
 2. **If line voltage is good, test the secondary (output) voltage** off the power supply. Expected: the label rating, commonly 12 V DC or 24 V DC, within about 5%.
 3. **If secondary voltage is good, test the low-voltage connections** along the module chain.

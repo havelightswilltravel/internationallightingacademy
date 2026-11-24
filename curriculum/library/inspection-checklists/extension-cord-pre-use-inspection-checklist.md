@@ -36,7 +36,7 @@ review_interval_months: 12
 ## Tools needed
 
 - Company Ladder and Extension Cord Inspection Form (or the app checklist)
-- "DANGER - DO NOT USE" tags and ties
+- Cable cutters (to cut both ends off a failed cord)
 - Plug-in GFCI tester or receptacle tester (for checking the GFCI you plug into)
 - Dry work gloves
 
@@ -67,10 +67,9 @@ Uncoil the cord completely and run it hand over hand from plug to connector.
 ## If an item fails
 
 1. **Stop using it.** Unplug it at the plug.
-2. **Tag it "DANGER - DO NOT USE"** and **remove it from service** (out of the van's cord
-   bin).
-3. If your supervisor directs, **cut off the plug** so the cord cannot be used by mistake.
-   Field-taped or spliced cords are not returned to service.
+2. **Cut off both ends** (plug and connector) so the cord cannot be used by mistake.
+3. **Put it in the garbage.** Failed cords are never repaired; field-taped or spliced cords
+   are not returned to service.
 4. **Report it to your supervisor** and **write the replacement on your pull sheet.**
 5. Record the cord number as failed on the inspection form.
 
@@ -87,5 +86,5 @@ Uncoil the cord completely and run it hand over hand from plug to connector.
 
 - Cord numbers on the van, initials for each cord inspected, date, and both technicians'
   signatures on the form.
-- Any cord removed from service: number, defect, and who it was reported to.
+- Any cord cut and thrown away: number, defect, and who it was reported to.
 - Replacement written on your pull sheet.

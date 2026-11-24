@@ -57,6 +57,9 @@ review_interval_months: 12
    the whole site? A group failure points to shared infrastructure (gateway, bus, power).
 2. Ask what changed recently: power outage, renovation, IT work, fixture replacement.
 3. Check the device's physical state: indicator LEDs, fixture lit/unlit, wall station LEDs.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. Check power: is the circuit on? **(Qualified, energized, with PPE)** measure supply
    voltage at the device or its node if needed.
 5. Check communication: for wired systems, verify cable connections, polarity, terminations

@@ -61,6 +61,9 @@ edition and the AHJ.
 ## Step-by-step diagnosis
 
 1. Record the unit location and what happened on test (no light, dim, went out at X seconds).
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. Check the charge indicator. If off: **(qualified, energized, with PPE)** verify AC voltage at
    the unit's input. Expected: nominal line voltage (e.g. 120 V or 277 V), present even when
    the normal lights are switched off.

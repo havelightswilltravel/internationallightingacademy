@@ -48,6 +48,9 @@ sensors.
   energized. Check it first when an entire bus stops responding.
 
 **Basic DALI troubleshooting:**
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 1. Measure bus voltage (DC) at the controller and at the problem fixture: roughly 16V is
    normal; near zero means bus power supply failure or a short; low voltage at the far end can
    mean voltage drop or overload (too many devices).

@@ -20,6 +20,8 @@ all day." Gather facts first:
 5. Look at the outside of the enclosure: HOA position, pilot light, smell of burning, heat, rust,
    water stains.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 > **Safety:** Measuring voltage inside an energized contactor enclosure is **energized diagnostic
 > work**. Only a person qualified under the employer's NFPA 70E program, wearing the PPE that
 > program requires, may do it. If you are not qualified, do the visual and HOA checks, then write

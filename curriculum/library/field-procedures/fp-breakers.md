@@ -24,26 +24,28 @@ review_interval_months: 12
 
 ## Safety first
 
-- **Do not open the dead front of a panel unless you have specific electrical training and are qualified** under your company's NFPA 70E program. Otherwise **write it up for an electrician.**
-- Breaker replacement is electrician work at the lighting levels.
+- **Do not open the dead front of a panel unless you are working under the supervision of an electrician.** Otherwise **write it up for an electrician.**
+- Breaker replacement is done by an electrician, or by a technician working under an electrician's supervision, with the panel de-energized and locked out whenever feasible.
 - Stand to the side of the panel when operating a breaker, use the PPE your program requires, and never reset a breaker more than once - if it trips again, stop and write it up.
 - If you see scorching, smell burning, or feel heat on the panel cover, do not operate breakers; report it immediately.
 
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
+
 ## Company troubleshooting procedure
 
-1. **Check the load against the breaker's amperage tolerance.** Add up the connected lighting load (fixture wattage or amps). A continuous lighting load should generally not exceed about 80% of the breaker rating (e.g., about 16 A on a 20 A breaker). Clamp-on measurement on the conductor requires opening the dead front - **qualified persons only.**
-2. **If the breaker trips intermittently while the load is within tolerance, write it up for an electrician to replace the breaker.**
-3. **Check for loose connections and overheating** of wire, breaker and panel - look and feel the outside of the panel cover; an infrared thermometer helps. Inside the panel is **qualified only; otherwise write it up.**
+1. **Check the load against the breaker's amperage tolerance.** Add up the connected lighting load (fixture wattage or amps). A continuous lighting load should generally not exceed about 80% of the breaker rating (e.g., about 16 A on a 20 A breaker). Clamp-on measurement on the conductor requires opening the dead front - **qualified persons only**, under an electrician's supervision.
+2. **If the breaker trips intermittently while the load is within tolerance, replace the breaker under an electrician's supervision, or write it up for an electrician to replace it.**
+3. **Check for loose connections and overheating** of wire, breaker and panel - look and feel the outside of the panel cover; an infrared thermometer helps. Inside the panel is **qualified persons under an electrician's supervision only; otherwise write it up.**
 4. **Wiggle the switch arm (handle) with the dead front in place.** A loose or mushy handle can be a sign of a weak breaker.
 
 **Tips:** note when it trips (at turn-on may mean LED inrush; after hours of operation may mean overload or heat). Check whether other loads were added to the circuit.
 
 ## Escalate / write it up when
 
-- Intermittent trips within the tolerance range - electrician replaces the breaker.
+- Intermittent trips within the tolerance range and no electrician supervising you - electrician replaces the breaker.
 - Overloaded circuit - electrician to split or add circuits.
 - Signs of overheating, burning, or loose bus connections.
-- Any time the dead front would need to come off and you are not qualified.
+- Any time the dead front would need to come off and no electrician is supervising you.
 
 ## Parts & information
 

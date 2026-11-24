@@ -4,7 +4,7 @@
   "course": "LT4-C02",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 214,
+  "target_seconds": 223,
   "scenes": [
     {
       "scene": 1,
@@ -42,9 +42,9 @@
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "Meter on DC volts measuring the bus at the controller, then at the far driver; readout inset.",
-      "on_screen": "About 16 V normal | near 0 = supply failed or short | low at far end = drop or overload",
-      "says": "Basic DALI troubleshooting. Measure bus voltage at the controller and at the problem fixture. Roughly 16 volts is normal. Near zero means a failed bus power supply or a short. Low at the far end means voltage drop or too many devices. One driver not responding? Check its bus connections, then whether it lost its address. A whole group acting wrong is configuration. Call the controls tech.",
-      "seconds": 27
+      "on_screen": "About 16 V normal | near 0 = supply failed or short | low at far end = drop or overload | Qualified persons only",
+      "says": "Basic DALI troubleshooting. Measure bus voltage at the controller and at the problem fixture. Roughly 16 volts is normal. Near zero means a failed bus power supply or a short. Low at the far end means voltage drop or too many devices. One driver not responding? Check its bus connections, then whether it lost its address. A whole group acting wrong is configuration. Call the controls tech. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 6,

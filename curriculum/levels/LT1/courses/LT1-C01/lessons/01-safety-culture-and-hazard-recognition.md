@@ -101,7 +101,9 @@ Use stop-work authority whenever you see:
 
 How to do it: say clearly and calmly, "Stop, I have a safety concern." Make the area safe if
 you can do so without risk, explain what you saw, and contact your supervisor. Then the team
-fixes the issue before restarting.
+fixes the issue before restarting. **For safety, you do not need anyone's permission to stop.**
+Calling a job for efficiency or quality reasons (the wrong labor, materials or equipment) is
+different: you get your manager's buy-off first (LT2-C13 Lesson 2).
 
 ## Key Takeaways
 - Electricity, falls, and people or vehicles below you are the big three lighting hazards.

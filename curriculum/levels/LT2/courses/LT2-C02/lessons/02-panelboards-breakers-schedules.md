@@ -28,8 +28,10 @@ receptacle panel, although names vary by designer).
 > **Safety:** Opening the door to operate a breaker is normal work. **Removing the dead front
 > exposes energized parts.** That is energized work requiring an arc-flash/shock risk
 > assessment, PPE per the equipment label or company PPE table, and a qualified person.
-> At LT2 you remove dead fronts only under direct supervision of a qualified lead, or after
-> the panel is de-energized, locked out and verified.
+> At our company you remove a dead front (or replace a breaker) only while working under the
+> supervision of an electrician. De-energize, lock out and verify the panel whenever feasible.
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 ## Breakers
 
@@ -101,7 +103,7 @@ The NEC requires every circuit and circuit modification to be legibly identified
 
 ## Key Takeaways
 - Know panel parts: main lugs/main, bus, neutral bar, ground bar, dead front, directory, label.
-- Removing the dead front is energized work — supervised, with PPE, by qualified persons only.
+- Removing the dead front is energized-work exposure: at our company, only under an electrician's supervision, with PPE and the qualified-person rule applied.
 - Breakers used as regular switches must be SWD (fluorescent) or HID (HID) marked.
 - Install only breakers listed or classified for that panel.
 - Multiwire branch circuits need simultaneous disconnect — handle ties or a multi-pole breaker.

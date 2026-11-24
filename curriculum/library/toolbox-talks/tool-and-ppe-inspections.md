@@ -22,6 +22,8 @@ several times a year, and every tech inspects their own gear before each use.
 - **A tool that fails inspection is not used again.** You have **30 days to repair or replace
   it**, and you show the replacement to your supervisor. Failed tools are signed off with your
   supervisor.
+- **Extension cords are never repaired.** A failed or damaged cord gets both ends cut off and
+  goes in the garbage; tell the shop so it is replaced.
 - **Failed PPE is replaced immediately** - you do not work without it.
 - **Your own tools must meet OSHA and ANSI requirements** just like company tools.
 - **PPE you are expected to have and use:** safety glasses; a **non-conductive (Class E) hard

@@ -44,6 +44,8 @@ last working fixture (4) and the first dead one (5). Check, in order:
 2. The whip or conductors from that box toward fixture 5.
 3. The splice at fixture 5's box.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 Look for: a loose connector, a backstabbed conductor that pulled out, a burned splice.
 Measure voltage (energized, PPE) at fixture 4's outgoing conductors and fixture 5's input,
 then lock out and repair.

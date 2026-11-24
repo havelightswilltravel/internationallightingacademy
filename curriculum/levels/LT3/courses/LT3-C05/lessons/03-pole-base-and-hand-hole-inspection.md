@@ -37,6 +37,9 @@ concrete and steel poles. These rot or corrode at the ground line.
 Start from a distance and work in.
 
 **1. Approach and contact-voltage check**
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 - Before touching the pole, use a non-contact voltage tester near the pole and hand-hole cover
   (and a meter if your company procedure includes it). A failed splice or conductor touching the
   inside of a pole with a missing ground can energize the whole pole. **Any indication of voltage

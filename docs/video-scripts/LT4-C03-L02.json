@@ -4,7 +4,7 @@
   "course": "LT4-C03",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 271,
+  "target_seconds": 281,
   "scenes": [
     {
       "scene": 1,
@@ -66,9 +66,9 @@
       "scene": 8,
       "speaker": "Matthew Berrett",
       "background": "Qualified tech in PPE measures line voltage hot to neutral at the clock, then sets bypass ON and measures the load terminal; meter readout inset. Presenter voice-over.",
-      "on_screen": "Line on line terminal? | Line voltage good? | Force ON | Load voltage? None = replace",
-      "says": "Line and load checks. First, confirm line is landed on the line terminal. Swapped line and load is a common reason a device never works after someone else replaced it. A qualified tech verifies line voltage hot to neutral. Then force it on: bypass on the clock, or cover the photocell and wait. Line present but no load voltage, replace the device. Load voltage but lights off, look downstream.",
-      "seconds": 27
+      "on_screen": "Line on line terminal? | Line voltage good? | Force ON | Load voltage? None = replace | Qualified persons only",
+      "says": "Line and load checks. First, confirm line is landed on the line terminal. Swapped line and load is a common reason a device never works after someone else replaced it. A qualified tech verifies line voltage hot to neutral. Then force it on: bypass on the clock, or cover the photocell and wait. Line present but no load voltage, replace the device. Load voltage but lights off, look downstream. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 37
     },
     {
       "scene": 9,

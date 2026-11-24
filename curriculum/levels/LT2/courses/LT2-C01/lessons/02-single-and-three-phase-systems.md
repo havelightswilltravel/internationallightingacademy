@@ -91,6 +91,8 @@ licensed-electrician work, beyond the scope of this program — write it up and 
 
 ## Predicting Readings Before You Measure
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 Before opening a panel, write down what you expect. Example for a 480Y/277 V panel:
 
 | Measure between | Expected |

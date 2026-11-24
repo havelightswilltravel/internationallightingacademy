@@ -4,7 +4,7 @@
   "course": "LT3-C14",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 196,
+  "target_seconds": 206,
   "scenes": [
     {
       "scene": 1,
@@ -18,9 +18,9 @@
       "scene": 2,
       "speaker": "Matthew Berrett",
       "background": "Close-up: tech holds a non-contact voltage tester near the pole and the hand-hole cover before touching.",
-      "on_screen": "Voltage on a pole = EMERGENCY. Keep people away. Barricade. De-energize.",
-      "says": "Step one, before touching the pole, use a non-contact tester near the pole and the hand-hole cover, and a meter if our procedure on that job includes it. A failed splice or conductor touching the inside of a pole with a missing ground can energize the whole pole. Any indication of voltage on a pole is an emergency. Keep people away, barricade, and de-energize the circuit before investigating.",
-      "seconds": 27
+      "on_screen": "Voltage on a pole = EMERGENCY. Keep people away. Barricade. De-energize. | Qualified persons only",
+      "says": "Step one, before touching the pole, use a non-contact tester near the pole and the hand-hole cover, and a meter if our procedure on that job includes it. A failed splice or conductor touching the inside of a pole with a missing ground can energize the whole pole. Any indication of voltage on a pole is an emergency. Keep people away, barricade, and de-energize the circuit before investigating. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 37
     },
     {
       "scene": 3,

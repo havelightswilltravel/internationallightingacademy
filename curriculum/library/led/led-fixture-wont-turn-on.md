@@ -61,6 +61,9 @@ review_interval_months: 12
    Photograph the driver label.
 4. Check continuity of the internal wiring and connectors (de-energized, ohms):
    expected near **0 Ω** through each conductor.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 5. **(Qualified, energized, with PPE)** Measure input voltage at the driver input leads:
    expected roughly the nominal voltage (e.g. 120 V or 277 V L-N, typically within about
    ±5-10%). If there is no input voltage, trace upstream: splice, whip, box, switch,

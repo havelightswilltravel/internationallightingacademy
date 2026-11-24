@@ -4,7 +4,7 @@
   "course": "LT1-C01",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 201,
+  "target_seconds": 209,
   "scenes": [
     {
       "scene": 1,
@@ -67,8 +67,8 @@
       "speaker": "Danny Smith",
       "background": "Danny standing to the side of the panel as a qualified electrician operates a disconnect, demonstrating position.",
       "on_screen": "Treat every conductor as live until locked out and tested",
-      "says": "What you can do right now. Treat everything as live until it's locked out and tested. Never take off a panel cover or reach into an open panel. Don't operate a breaker that's damaged, hot or smells burnt. Report it. Stand to the side when a disconnect is operated. Watch for buzzing, discoloration and melted insulation. Keep metal tools and tapes away from live parts.",
-      "seconds": 26
+      "says": "What you can do right now. Treat everything as live until it's locked out and tested. Never take off a panel cover or reach into an open panel on your own. At our company, a dead front comes off only while you work under an electrician's supervision. Don't operate a breaker that's damaged, hot or smells burnt. Report it. Stand to the side when a disconnect is operated. Watch for buzzing, discoloration and melted insulation. Keep metal tools and tapes away from live parts.",
+      "seconds": 34
     },
     {
       "scene": 9,

@@ -31,6 +31,8 @@ review_interval_months: 12
 
 ## Company troubleshooting procedure
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 1. **Verify line-side voltage** on each pole. Expected: the system voltage (e.g., 120, 208, 277 or 480 V) on each line terminal.
 2. **Verify coil voltage while the controls are calling for on** (photocell covered, clock in bypass, HOA in Hand). Expected: the coil's rated voltage.
    - **Note:** some coils engage on the **absence** of power (normally-closed or mechanically held designs). Read the label and wiring diagram before deciding the coil should be energized.

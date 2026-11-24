@@ -53,6 +53,9 @@ minutes) to prevent switching from lightning or passing headlights. To test:
 1. Cover the window completely with opaque tape or a photocell test cap.
 2. Wait for the delay. The lights should come on.
 3. Uncover; after the delay, lights should go off.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. If nothing happens, measure (energized, authorized, proper PPE) line voltage at the black and
    white leads, then voltage at the red lead when covered. Line present but no output when
    covered = failed photocell.
@@ -125,6 +128,9 @@ or a failed clock.
    lights or contactor coil, and verify the **line is landed on the line terminal** (on a
    photocell, usually black = line, red = load, white = neutral). Swapped line and load is a common
    cause of a device that "never works" after someone else replaced it.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 6. **Verify good line voltage across the hot and neutral** at the device (qualified person, PPE).
    No line voltage → the problem is upstream.
 7. **Force the device on and check the load side.** Turn the time clock to **bypass/manual ON**,

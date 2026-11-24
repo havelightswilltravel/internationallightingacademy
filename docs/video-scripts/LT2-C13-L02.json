@@ -4,7 +4,7 @@
   "course": "LT2-C13",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 229,
+  "target_seconds": 238,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Whiteboard tree for 'one fixture dark'; cut to field clip of a burnt socket, inspected locked out.",
-      "on_screen": "One fixture dark",
-      "says": "One fixture dark. Try a known-good lamp. Check the socket and splices with power locked out; here's a burnt socket. Check for voltage at the fixture input. Supply good, lamps and sockets good? Then substitute the ballast or driver. And our company rule: Step 1 on an LED fixture is always the meter, hot to neutral. No voltage means upstream. Don't order a driver.",
-      "seconds": 26
+      "on_screen": "One fixture dark | Qualified persons only",
+      "says": "One fixture dark. Try a known-good lamp. Check the socket and splices with power locked out; here's a burnt socket. Check for voltage at the fixture input. Supply good, lamps and sockets good? Then substitute the ballast or driver. And our company rule: Step 1 on an LED fixture is always the meter, hot to neutral. No voltage means upstream. Don't order a driver. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 35
     },
     {
       "scene": 4,
@@ -50,7 +50,7 @@
       "scene": 6,
       "speaker": "Matthew Berrett",
       "background": "Senior tech in PPE with a tested meter at a switch and a fixture input; on-screen numbered test points.",
-      "on_screen": "Fault = between last good point and first bad point",
+      "on_screen": "Fault = between last good point and first bad point | Qualified persons only",
       "says": "Use voltage readings to find the link, with PPE and a tested meter. Breaker load terminal, which is qualified or supervised panel work. Switch line side. Switch load side with the switch on. Fixture input. The fault is between the last point with voltage and the first without. And measure hot to neutral and hot to ground. An open neutral can show full voltage to ground and nothing to neutral.",
       "seconds": 28
     },

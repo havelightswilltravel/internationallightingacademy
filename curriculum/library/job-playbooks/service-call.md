@@ -49,6 +49,9 @@ on the first trip.**
 1. Check in with the site contact. Ask exactly which fixtures are out or flashing and since when.
 2. Look before you touch: note existing damage (tiles, lenses, poles, doors) and photograph it.
 3. Set up: cones or barricade below the ladder or lift, out of entrances and walkways.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. Diagnose: controls first (switch, sensor, clock, photocell), then **meter hot to neutral** at the
    fixture. No voltage at the fixture means an upstream problem; a new driver will not fix it.
 5. **Lock out and verify live-dead-live** before you open the wiring compartment. Treat every fixture as

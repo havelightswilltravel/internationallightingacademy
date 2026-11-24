@@ -33,6 +33,9 @@ review_interval_months: 12
 ## Company troubleshooting procedure
 
 1. **Verify there is at least one good lamp in the track** - this proves the track has power.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **If outages are sporadic, check for power at the sockets before replacing lamps or ballasts.**
 3. **If there is no power at a socket but other fixtures on the track work, check for a switch on the track fixture, check for a good connection to the track, or move the fixture to a slightly different spot on the track.**
 4. **If moving the fixture does not fix it, test continuity** (incandescent or halogen heads only, de-energized and removed from the track) **between the fixture's track contacts and the socket.** Expected: near 0 ohms; OL = broken connection.

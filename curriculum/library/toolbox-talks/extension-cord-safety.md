@@ -19,8 +19,8 @@ of them comes from a hazard many techs never think about: **a closing metal door
 
 ## Key points
 
-- **Inspect before each use**: jacket, plug, ground pin, strain relief. Failed cords are red
-  tagged and the **ends are cut off**; tell the shop so it gets replaced. Never use a cut or
+- **Inspect before each use**: jacket, plug, ground pin, strain relief. A failed or damaged
+  cord gets **both ends cut off and goes in the garbage**; tell the shop so it gets replaced. Never use a cut or
   damaged cord.
 - **Grounded cords only.** Cords must be three-wire (two conductors plus ground) with the
   ground pin intact, except for double-insulated tools. Never remove, bend or modify a prong.

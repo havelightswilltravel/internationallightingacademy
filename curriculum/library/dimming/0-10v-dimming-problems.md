@@ -64,6 +64,9 @@ review_interval_months: 12
 1. Note the symptom: stuck full, stuck min, poor range, or won't turn off. Each points to
    a different cause in the table above.
 2. Check the control settings (trim, scene, schedule, network override) before opening anything.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. **(Qualified, energized, with PPE)** At the dimmer, measure DC volts across violet (+)
    and gray (-) while moving the slider. Expected: about **10 V at full**, falling to
    about **1 V or less at minimum**.

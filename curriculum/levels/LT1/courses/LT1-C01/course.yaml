@@ -249,10 +249,10 @@ quiz:
       choices:
         - Wrap it with electrical tape and keep using it
         - Use it only for small tools
-        - Red-tag it and cut the ends off so it can never be used again
+        - Cut both ends off and put it in the garbage so it can never be used again
         - Return it to the truck for later
       answer: 2
-      explanation: The handbook requires failed cords to be red-tagged and have their ends cut off, so a damaged cord cannot come back into service.
+      explanation: Company policy is that a failed or damaged cord gets both ends cut off and goes in the garbage, so it cannot come back into service. Tell the shop so it is replaced.
       ref: Company extension cord policy; OSHA 29 CFR 1926.405(g)
     - id: LT1-C01-Q22
       type: multi

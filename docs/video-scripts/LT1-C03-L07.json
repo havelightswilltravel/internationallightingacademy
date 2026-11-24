@@ -11,8 +11,8 @@
       "speaker": "Danny Smith",
       "background": "Shop yard after the monthly safety meeting. A service van with ladders on the rack and coiled extension cords on the tailgate; two techs with a clipboard. Danny medium shot.",
       "on_screen": "Job Mindset: van ladder & cord inspection",
-      "says": "Job Mindset for the van inspection. The hazards are a ladder that fails under you, a cord that shocks you, and a ladder that bounces off the rack on the highway. The control is catching it here, in the yard, before it ever gets to a job. Bring the form, cleaning supplies, DO NOT USE tags and cutters. Two people, one who's done it before. About fifteen minutes.",
-      "seconds": 27
+      "says": "Job Mindset for the van inspection. The hazards are a ladder that fails under you, a cord that shocks you, and a ladder that bounces off the rack on the highway. The control is catching it here, in the yard, before it ever gets to a job. Bring the form, cleaning supplies, DO NOT USE tags for ladders, and cutters for cords. Two people, one who's done it before. About fifteen minutes.",
+      "seconds": 29
     },
     {
       "scene": 2,
@@ -57,10 +57,10 @@
     {
       "scene": 7,
       "speaker": "Danny Smith",
-      "background": "Close-up of a plug with a missing ground pin. Tech hangs a DO NOT USE tag on it, then, after a nod from the supervisor, cuts off the plug and sets the cord aside.",
-      "on_screen": "Never remove a ground pin",
-      "says": "Here's one with a missing ground pin. That pin is what clears a fault through the breaker instead of through you. Never remove or bend it back to fit an old two-prong outlet. This cord gets tagged DO NOT USE and pulled. When your supervisor directs, cut off the plug so nobody uses it by mistake. Report it and write it on your pull sheet.",
-      "seconds": 26
+      "background": "Close-up of a plug with a missing ground pin. Tech unplugs the cord, cuts off both ends with cable cutters, and drops it in the garbage.",
+      "on_screen": "Never remove a ground pin. Failed cord: cut both ends, garbage.",
+      "says": "Here's one with a missing ground pin. That pin is what clears a fault through the breaker instead of through you. Never remove or bend it back to fit an old two-prong outlet. This cord fails. Cut off both ends so nobody can use it, and put it in the garbage. Report it and write the replacement on your pull sheet.",
+      "seconds": 24
     },
     {
       "scene": 8,
@@ -79,5 +79,5 @@
       "seconds": 7
     }
   ],
-  "production_notes": "Two techs perform the inspection; Danny narrates. Props: blank Ladder and Extension Cord Inspection Form, numbered cords, one retired cord with a missing ground pin (already scheduled for disposal), DO NOT USE tags, cutters. Note for review: this lesson says to cut off the plug when the supervisor directs, while LT1-C01 Lesson 5 says a failed cord is red-tagged and its ends cut off; align the two lessons before filming."
+  "production_notes": "Two techs perform the inspection; Danny narrates. Props: blank Ladder and Extension Cord Inspection Form, numbered cords, one retired cord with a missing ground pin (already scheduled for disposal), DO NOT USE tags for ladders, cable cutters, garbage can. Failed cords: both ends cut off and into the garbage (owner decision, November 2026; matches LT1-C01 Lesson 5)."
 }

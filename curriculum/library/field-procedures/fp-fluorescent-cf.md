@@ -35,6 +35,9 @@ review_interval_months: 12
 ## Company troubleshooting procedure
 
 1. **Look at the lamp ends.** If they are black, replace the lamps with the correct type.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **If the ends are not black, check for power with your meter** (qualified persons): measure at the ballast input. Expected: line voltage within about 10% of the ballast label (120 V or 277 V).
 3. **If there is power and all lamps are out, replace the ballast** (or the igniter/starter on systems that use one). Lock out before replacing.
 4. **If some lamps work and some don't, check the wiring and sockets.** Look for cracked or burned tombstones, loose push-in wires, and lamps not seated. Confirm instant-start ballasts use **shunted** sockets and rapid/programmed-start use **non-shunted**.

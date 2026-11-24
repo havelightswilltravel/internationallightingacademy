@@ -34,6 +34,9 @@ review_interval_months: 12
 
 1. **Check lamp continuity** (de-energized). Expected: very low resistance (a few ohms or less for halogen); OL = open.
 2. **Check the socket for burns, breakage, excessive wear and connection issues.**
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. **Test line voltage across the hot and neutral** at the transformer input (qualified). Expected: about 120 V (or the label rating).
 4. **Test continuity between the socket and the transformer** (de-energized). Expected: near 0 ohms on each conductor.
 5. **If you have a good lamp, good socket, continuity and line voltage, replace the transformer or the fixture.**

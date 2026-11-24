@@ -4,7 +4,7 @@
   "course": "LT4-C11",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 206,
+  "target_seconds": 213,
   "scenes": [
     {
       "scene": 1,
@@ -19,8 +19,8 @@
       "speaker": "Danny Smith",
       "background": "On-screen table over Danny.",
       "on_screen": "LT1-LT3: inside the fixture\nLT4-LT5 qualified: 480 V and below, 4 cal/cm² or less\nNobody here: medium voltage (over 1,000 V)",
-      "says": "Lighting techs at LT1 through LT3 work inside the fixture. Anything outside it needs supervisor or management approval. Qualified techs and electricians at LT4 and LT5 work panels, switchgear and cabinets 480 volts and below with an incident energy of 4 calories or less, unless management has qualified them for more. Nobody at our company works on medium voltage, over 1,000 volts.",
-      "seconds": 25
+      "says": "Lighting techs at LT1 through LT3 work inside the fixture. Anything outside it needs supervisor or management approval. One exception: under an electrician's supervision, a tech may remove a lighting panel's dead front and swap a breaker. Qualified techs and electricians at LT4 and LT5 work panels, switchgear and cabinets 480 volts and below with an incident energy of 4 calories or less, unless management has qualified them for more. Nobody at our company works on medium voltage, over 1,000 volts.",
+      "seconds": 32
     },
     {
       "scene": 3,

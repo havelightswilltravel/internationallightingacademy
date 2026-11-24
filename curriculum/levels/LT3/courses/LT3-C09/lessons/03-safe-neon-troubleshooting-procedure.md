@@ -56,6 +56,9 @@ stop), and puts the technician at lethal risk. In this program that step is repl
 
 ### B. If no units are lit — go to the transformer
 5. Check the sign switch, time clock, photocell and the sign disconnect position.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 6. A qualified person verifies **incoming (primary) voltage** at the transformer with the meter
    on a primary range. No primary voltage = a supply problem (breaker, switch, control, wiring);
    write branch-circuit problems up for an electrician.

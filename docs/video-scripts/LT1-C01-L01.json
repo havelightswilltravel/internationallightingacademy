@@ -4,7 +4,7 @@
   "course": "LT1-C01",
   "presenter": "Kyle McClelland",
   "source": "lesson",
-  "target_seconds": 196,
+  "target_seconds": 204,
   "scenes": [
     {
       "scene": 1,
@@ -67,8 +67,8 @@
       "speaker": "Kyle McClelland",
       "background": "Back in the warehouse aisle. A tech starts to climb; another tech raises a hand. Kyle voice-over, then cut to Kyle on camera.",
       "on_screen": "\"Stop, I have a safety concern.\"",
-      "says": "Every person here has the authority and the duty to stop work, from your first day. An unexpected voltage reading. A damaged ladder or meter. Someone without their PPE. Anything that makes you uneasy. Say it calmly: Stop, I have a safety concern. Make the area safe if you can, explain what you saw, call your supervisor. Nobody gets disciplined for a good-faith stop.",
-      "seconds": 26
+      "says": "Every person here has the authority and the duty to stop work, from your first day. An unexpected voltage reading. A damaged ladder or meter. Someone without their PPE. Anything that makes you uneasy. Say it calmly: Stop, I have a safety concern. Make the area safe if you can, explain what you saw, call your supervisor. For safety, you don't need anyone's permission. Nobody gets disciplined for a good-faith stop. Calling a job for efficiency or quality is different: get your manager's buy-off first.",
+      "seconds": 34
     },
     {
       "scene": 9,

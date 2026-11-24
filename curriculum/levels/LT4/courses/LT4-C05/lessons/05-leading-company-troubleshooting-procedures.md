@@ -43,7 +43,9 @@ power → split the system in half → replace the part the readings point to �
 | Motion sensors | Line in vs switch leg out; pack output vs sensor input | Swapping sensors when the pack failed; using ground as a neutral |
 | Time clock / photocell | Line vs load; forced on (bypass/cover) vs automatic | Leaving a clock in bypass; condemning a photocell blinded by a new sign |
 | LED signage | Primary vs secondary; connections vs modules | Condemning a supply that cuts out with no load connected |
-| Contactors / breakers / relays | Coil vs contacts; within tolerance vs not | Opening dead fronts or replacing breakers without qualification |
+| Contactors / breakers / relays | Coil vs contacts; within tolerance vs not | Opening dead fronts or replacing breakers with no electrician supervising |
+
+> **Company stance; your company decides its own.** At our company, a technician working under the supervision of an electrician may remove a panel's dead front and replace a breaker. Other companies may set a stricter rule, and local licensing may require more; follow your company's written policy. Opening a panel is energized-work exposure: the qualified-person rule, PPE and approach boundaries still apply.
 
 When a tech skips a step, ask what the skipped step would have proven. That question teaches
 the logic far better than repeating the rule.
@@ -51,6 +53,8 @@ the logic far better than repeating the rule.
 ## Where the Written Procedure Needs Safety Context
 
 Lead techs make sure the procedure is followed **as corrected** in the training program:
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
 
 1. **Energized readings** ("check power," "test line voltage," "test the switch leg," socket
    voltage) are taken only by persons qualified under the employer's NFPA 70E program, in the

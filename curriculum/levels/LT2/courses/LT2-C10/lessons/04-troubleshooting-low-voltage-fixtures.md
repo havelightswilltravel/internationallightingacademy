@@ -16,6 +16,9 @@ The Master Troubleshooting Guide gives this procedure for low-voltage lighting s
 
 1. Check lamp continuity.
 2. Check the socket for burns, breakage, excessive wear or connection issues.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. Test line voltage across the hot and neutral.
 4. Test continuity between the socket and the transformer.
 5. If you have a good lamp, a good socket, continuity, and line voltage, replace the transformer
@@ -55,6 +58,8 @@ done by a qualified person, or replaced with indirect checks described below.
    exact-match part (base type, temperature rating, lead length) or replace the fixture.
 
 ### Stage 3 — Supply (company step 3)
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
 
 7. **Confirm line voltage reaches the transformer primary.**
    - **Qualified person** (per the company's NFPA 70E program, with required PPE): measure

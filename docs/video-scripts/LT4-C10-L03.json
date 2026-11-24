@@ -4,7 +4,7 @@
   "course": "LT4-C10",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 198,
+  "target_seconds": 207,
   "scenes": [
     {
       "scene": 1,
@@ -50,9 +50,9 @@
       "scene": 6,
       "speaker": "Matthew Berrett",
       "background": "Senior tech at a switch leg with a meter: high-impedance reading shows voltage, LoZ reading collapses. Then lock applied and live-dead-live test.",
-      "on_screen": "Ghost voltage does NOT prove a conductor is safe\nLOTO + live-dead-live before work",
-      "says": "Fourth, electrical interactions: sags when elevators or compressors start, MWBC neutral problems, and ghost voltage. A high-impedance meter can read voltage on an 'off' conductor from capacitive coupling, and drivers may glow. A LoZ function helps tell it from real backfeed. But ghost voltage doesn't prove anything is safe. Lock out and verify absence of voltage, live-dead-live. Treat unexplained voltage as real.",
-      "seconds": 25
+      "on_screen": "Ghost voltage does NOT prove a conductor is safe\nLOTO + live-dead-live before work | Qualified persons only",
+      "says": "Fourth, electrical interactions: sags when elevators or compressors start, MWBC neutral problems, and ghost voltage. A high-impedance meter can read voltage on an 'off' conductor from capacitive coupling, and drivers may glow. A LoZ function helps tell it from real backfeed. But ghost voltage doesn't prove anything is safe. Lock out and verify absence of voltage, live-dead-live. Treat unexplained voltage as real. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 7,

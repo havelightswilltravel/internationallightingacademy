@@ -4,7 +4,7 @@
   "course": "LT3-C04",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 204,
+  "target_seconds": 224,
   "scenes": [
     {
       "scene": 1,
@@ -19,8 +19,8 @@
       "speaker": "Matthew Berrett",
       "background": "Same room; on-screen DRAFT banner.",
       "on_screen": "DRAFT policy: not sure? Don't operate it. Call your supervisor.",
-      "says": "One important note first. The company list in this lesson is a proposed policy that must be confirmed by our company's electrical safety program owner before it's final. Until then, the rule is simple: if you're not sure, don't operate it. Call your supervisor. And scope varies by state and city, so confirm you're allowed and authorized in that location. When in doubt, stop and ask.",
-      "seconds": 26
+      "says": "One important note first. Most of the company list in this lesson is a proposed policy that must be confirmed by our company's electrical safety program owner before it's final. Until then, the rule is simple: if you're not sure, don't operate it. Call your supervisor. And scope varies by state and city, so confirm you're allowed and authorized in that location. When in doubt, stop and ask.",
+      "seconds": 27
     },
     {
       "scene": 3,
@@ -35,8 +35,8 @@
       "speaker": "Matthew Berrett",
       "background": "Supervisor demonstrates at the lighting panel: stands to the side, face turned away, one reset on a tripped lighting branch breaker. Presenter voice-over.",
       "on_screen": "ONE reset. Trips again? Stop. Write it up.",
-      "says": "Under the proposed policy, you may operate a lighting branch breaker with the door closed and dead front intact, to lock out or restore power. You may operate a lighting disconnect you've identified that's in good condition. And one reset attempt on a tripped lighting breaker: stand to the side, face away, after your checks, only if nothing looks, smells or sounds wrong. If it trips again, stop and write it up.",
-      "seconds": 29
+      "says": "Under the proposed policy, you may operate a lighting branch breaker with the door closed and dead front intact, to lock out or restore power. You may operate a lighting disconnect you've identified that's in good condition. And one reset attempt on a tripped lighting breaker: stand to the side, face away, after your checks, only if nothing looks, smells or sounds wrong. If it trips again, stop and write it up. One item is confirmed company policy: while working under an electrician's supervision, you may remove a lighting panel's dead front and swap a branch breaker. Other companies may be stricter; follow your company's written policy.",
+      "seconds": 43
     },
     {
       "scene": 5,
@@ -75,8 +75,8 @@
       "speaker": "Matthew Berrett",
       "background": "Matthew to camera outside the electrical room.",
       "on_screen": "",
-      "says": "Lighting branch breakers and identified lighting disconnects in good condition, one reset at most. Everything else: photograph, write up, call. Now read the lesson and take the quiz.",
-      "seconds": 11
+      "says": "Lighting branch breakers and identified lighting disconnects in good condition, one reset at most. Dead front off or a breaker swap only under an electrician's supervision. Everything else: photograph, write up, call. Now read the lesson and take the quiz.",
+      "seconds": 16
     }
   ],
   "production_notes": "DRAFT - the lesson is pending SME review; the company list must be confirmed by the electrical safety program owner before this video is produced or released. Re-check the may/may-not lists against the final policy. Electrical room filmed with all doors closed and covers on; no one operates switchgear, switchboards or medium-voltage equipment on camera. The supervisor's quoted line is from the lesson's video suggestion."

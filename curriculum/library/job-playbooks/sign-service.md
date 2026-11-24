@@ -44,6 +44,9 @@ controlled by time clocks and photocells that make a sign look "out" when it is 
 2. Barricade below the work; do not work over entrances without the manager's agreement.
 3. Check clock, photocell, switches and breaker position. A breaker that trips again goes to an
    electrician; do not keep resetting it.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. **LED:** line voltage at the supply input (qualified person), then secondary with modules connected,
    then the low-voltage connections. Swap dark modules with known-good ones.
 5. **Neon:** observe and listen energized; then **lock out and verify** before handling glass, GTO or

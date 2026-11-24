@@ -4,7 +4,7 @@
   "course": "LT2-C06",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 188,
+  "target_seconds": 197,
   "scenes": [
     {
       "scene": 1,
@@ -18,9 +18,9 @@
       "scene": 2,
       "speaker": "Danny Smith",
       "background": "Lower third: Danny Smith, Operations Manager. Danny at the panel.",
-      "on_screen": "Measure L-N, L-L, L-G | compare to the label | doesn't match? Stop.",
-      "says": "I'm Danny. These standards come from problems we've seen in photos at our monthly meetings. Here's how we do it. Step one, before you mount anything, and always on exterior jobs, measure the supply: line to neutral, line to line, line to ground. Compare it with the new product's label. We've destroyed many new fixtures by assuming. If it doesn't match, stop.",
-      "seconds": 25
+      "on_screen": "Measure L-N, L-L, L-G | compare to the label | doesn't match? Stop. | Qualified persons only",
+      "says": "I'm Danny. These standards come from problems we've seen in photos at our monthly meetings. Here's how we do it. Step one, before you mount anything, and always on exterior jobs, measure the supply: line to neutral, line to line, line to ground. Compare it with the new product's label. We've destroyed many new fixtures by assuming. If it doesn't match, stop. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 34
     },
     {
       "scene": 3,

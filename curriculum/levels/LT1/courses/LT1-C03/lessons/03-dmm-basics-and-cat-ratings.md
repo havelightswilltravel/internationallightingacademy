@@ -12,6 +12,8 @@ video_suggestion: >
 
 ## What a DMM Measures
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 A **digital multimeter (DMM)** measures several electrical quantities. At LT1 you will mainly
 use it to measure **AC voltage** and, on de-energized circuits only, **continuity and resistance**.
 LT2-C03 covers measurement in depth.

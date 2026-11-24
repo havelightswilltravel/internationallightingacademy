@@ -4,7 +4,7 @@
   "course": "LT4-C11",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 215,
+  "target_seconds": 225,
   "scenes": [
     {
       "scene": 1,
@@ -26,9 +26,9 @@
       "scene": 3,
       "speaker": "Danny Smith",
       "background": "Danny kneels at the restricted line holding voltage-rated gloves with leather protectors and a rated meter.",
-      "on_screen": "480Y/277 V panel voltage test → gloves with leather protectors + rated meter",
-      "says": "Example: measuring voltage in a 480Y/277 panelboard. Your hands will cross the restricted boundary. So you need voltage-rated gloves with leather protectors and properly rated test equipment. For panels and switchboards, use the fixed circuit part column. The movable conductor column is for things like overhead lines that can swing.",
-      "seconds": 20
+      "on_screen": "480Y/277 V panel voltage test → gloves with leather protectors + rated meter | Qualified persons only",
+      "says": "Example: measuring voltage in a 480Y/277 panelboard. Your hands will cross the restricted boundary. So you need voltage-rated gloves with leather protectors and properly rated test equipment. For panels and switchboards, use the fixed circuit part column. The movable conductor column is for things like overhead lines that can swing. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 30
     },
     {
       "scene": 4,

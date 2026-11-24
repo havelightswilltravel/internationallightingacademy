@@ -58,6 +58,7 @@ skills:
     equipment: [CAT III digital multimeter with DC volts and mA ranges, LOTO kit, insulated tools, lighting plan or control riser, driver spec sheets, PPE per job hazard assessment]
     criteria:
       - Identifies the line-voltage hazards in the luminaire and control enclosures and applies LOTO before any wiring is disturbed
+      - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
       - Measures DC voltage between the dimming leads at the control and at the luminaire and interprets the reading (about 10V open, near 0–1V at minimum)
       - Explains and demonstrates the effect of an open (full bright) and a short (minimum) on the dimming pair
       - Checks dimming-lead polarity (violet/purple +, gray −, or as marked) at each device
@@ -126,6 +127,7 @@ skills:
       - Reviews the control diagram or traces the circuit to identify line, coil, control and load conductors before opening the enclosure
       - Wears PPE required by the employer's NFPA 70E assessment for diagnostic testing in the enclosure
       - Tests the photocontrol by covering it (allowing for its turn-on delay) or uses a shorting cap/known-good unit to isolate it
+      - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
       - Measures coil voltage at the contactor and determines whether the coil, the control circuit, or the HOA switch is at fault
       - Measures line and load voltage across contactor poles to identify failed contacts
       - Applies LOTO and verifies absence of voltage before replacing any component
@@ -209,6 +211,7 @@ skills:
     - Proves the meter on a known live source before and after testing
     - Uses the HOA switch to determine whether the fault is in the automatic control path or in the contactor and
       load circuits, after informing the customer
+    - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
     - Measures line-side voltage on each pole and correctly interprets a missing phase as an upstream problem
     - Measures coil voltage with the controls engaged and correctly interprets results, including NC or fail-safe
       coils that engage on absence of power and mechanically held coils
@@ -361,6 +364,7 @@ skills:
     - PPE per job hazard assessment
     criteria:
     - Checks time clock, photocell, switches, breaker and sign disconnect before testing components
+    - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
     - Has line voltage at the power supply input verified by a qualified person (or performs it if qualified under
       the employer's NFPA 70E program)
     - Measures secondary voltage with modules or a known-good test load connected and does not condemn a supply on
@@ -394,13 +398,14 @@ skills:
     - emergency lighting log
     - manufacturer instructions
     criteria:
-    - Confirms the lamp is good and checks unswitched and switched line voltage (qualified, in required PPE)
+    - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
+    - Confirms the lamp is good and tests for power with a meter on the unswitched and switched feeds
     - Checks the charge indicator and battery connector before replacing parts
     - Uses the test button to determine whether the fault is on the normal side or the emergency side and states the
       correct replacement part for each result
     - Locks out the normal circuit, verifies absence of voltage and unplugs the battery connector before servicing
       sockets, wiring or the unit
-    - For a bug eye or exit, tests the line voltage after a failed test-button check and decides between unit or listed
+    - For a bug eye or exit, tests for power with a meter after a failed test-button check and decides between unit or listed
       battery replacement versus a circuit problem
     - Restores power, confirms charging, performs a test-button check and notes any required initial charge period
       before a 90-minute test
@@ -427,6 +432,7 @@ skills:
     - Locks out every circuit in the box and verifies absence of voltage before removing or re-landing devices
     - Verifies the equipment ground and neutral (where required) are present and correctly connected, and never uses
       the ground as a neutral
+    - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
     - Measures line voltage across hot and neutral and the switch-leg output to decide whether a wall sensor has failed
     - On a ceiling system, measures line input and Class 2 low-voltage output at the power pack and low voltage at
       the sensor terminals
@@ -454,6 +460,7 @@ skills:
     - Spins a mechanical dial through the trippers without the bypass and identifies loose, misplaced or broken trippers
     - Checks a digital/astronomical clock's date, time, time zone, DST, location, program and override status
     - Identifies line and load conductors and confirms line is landed on the line terminal
+    - "Qualified persons only: checks for live voltage only after the supervisor has deemed them qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live"
     - Measures line voltage across hot and neutral, then forces the device on (bypass or covered photocell, allowing
       for delay) and checks load voltage
     - Correctly decides between replacing the clock/photocell and investigating downstream equipment

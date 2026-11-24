@@ -4,7 +4,7 @@
   "course": "LT3-C03",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 219,
+  "target_seconds": 231,
   "scenes": [
     {
       "scene": 1,
@@ -26,17 +26,17 @@
       "scene": 3,
       "speaker": "Matthew Berrett",
       "background": "Qualified tech in PPE measures line voltage at the device before lockout; presenter voice-over.",
-      "on_screen": "Replace if line voltage is good (qualified, energized check)",
-      "says": "Our company guide says replace if line voltage is good. That means confirm proper voltage is reaching the device before you blame it. No voltage? A new device won't fix it; the problem's upstream, like a tripped breaker, an upstream GFCI or a loose splice, and you write it up. That voltage check is energized work, done by a qualified person in the required PPE, before lockout.",
-      "seconds": 27
+      "on_screen": "Replace if line voltage is good (qualified, energized check) | Qualified persons only",
+      "says": "Our company guide says replace if line voltage is good. That means confirm proper voltage is reaching the device before you blame it. No voltage? A new device won't fix it; the problem's upstream, like a tripped breaker, an upstream GFCI or a loose splice, and you write it up. That voltage check is energized work, done by a qualified person in the required PPE, before lockout. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 36
     },
     {
       "scene": 4,
       "speaker": "Matthew Berrett",
       "background": "At a closed panel: senior tech identifies the breaker from the schedule, applies lock and tag. Then live-dead-live at the receptacle: meter on a known source, at the device, on the known source again.",
       "on_screen": "Identify → Lock & tag → Verify H-N, H-G, N-G on EVERY conductor",
-      "says": "Now the replacement, filmed start to finish. Confirm scope on the work order. Read the old device and confirm the replacement is the same type and rating, or an approved upgrade. Identify the breaker from the schedule or a tracer; don't open the dead front. Lock and tag. Verify live-dead-live: hot to neutral, hot to ground, neutral to ground, on every conductor, because a box can hold more than one circuit.",
-      "seconds": 28
+      "says": "Now the replacement, filmed start to finish. Confirm scope on the work order. Read the old device and confirm the replacement is the same type and rating, or an approved upgrade. Identify the breaker from the schedule or a tracer; don't open the dead front unless an electrician is supervising you. Lock and tag. Verify live-dead-live: hot to neutral, hot to ground, neutral to ground, on every conductor, because a box can hold more than one circuit.",
+      "seconds": 31
     },
     {
       "scene": 5,

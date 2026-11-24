@@ -61,6 +61,9 @@ review_interval_months: 12
    mounting screws.
 5. Read the label: input voltage, lamp type/wattage, PCB status, sound rating, Tc.
 6. Check that the lamps match the label and are not at end of life.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 7. **(Qualified, energized, with PPE)** If the ballast looks normal, measure input voltage.
    Expected: within the label's range. Over-voltage overheats ballasts quickly.
 8. Replace the ballast (and lamps if needed). Ensure it is screwed tightly to the housing

@@ -57,6 +57,9 @@ review_interval_months: 12
    including occupant work positions. Watch the sensor's indicator LED for detection.
 4. Adjust delay, sensitivity and aim. Mask the lens or relocate if it sees outside the
    room. Keep time delays within the energy code's maximum for automatic shutoff.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 5. If the sensor doesn't switch the lights at all: **(qualified, energized, with PPE)** check
    the power pack. Typically the power pack provides a low-voltage DC supply to the sensor
    (often 24 VDC) and switches its relay when the sensor sends an occupied signal.

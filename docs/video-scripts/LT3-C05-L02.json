@@ -4,7 +4,7 @@
   "course": "LT3-C05",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 209,
+  "target_seconds": 217,
   "scenes": [
     {
       "scene": 1,
@@ -18,9 +18,9 @@
       "scene": 2,
       "speaker": "Matthew Berrett",
       "background": "On-screen safety callout over the panel door.",
-      "on_screen": "Door open = normal. Dead front off = energized work unless locked out.",
-      "says": "Opening the door to operate a breaker is normal work. Removing the dead front exposes energized parts, and that's energized work requiring an arc-flash and shock risk assessment, PPE per the label or company table, and a qualified person. You remove dead fronts only under direct supervision of a qualified lead, or after the panel is de-energized, locked out and verified.",
-      "seconds": 24
+      "on_screen": "Dead front off = energized-work exposure. Our company: only under an electrician's supervision.",
+      "says": "Opening the door to operate a breaker is normal work. Removing the dead front exposes energized parts, and that's energized work requiring an arc-flash and shock risk assessment, PPE per the label or company table, and a qualified person. At our company, a tech working under an electrician's supervision may remove a dead front and swap a breaker, with the panel locked out whenever feasible. That's our company's stance; other companies may be stricter, so follow your company's written policy.",
+      "seconds": 32
     },
     {
       "scene": 3,
@@ -71,5 +71,5 @@
       "seconds": 25
     }
   ],
-  "production_notes": "Panel de-energized and locked out, per the lesson's video suggestion; lead tech is a qualified person in PPE. Show the lock at the upstream disconnect and live-dead-live before the dead front comes off. CONFLICT TO RESOLVE BEFORE PRODUCTION: this lesson permits dead-front removal under direct supervision of a qualified lead, while LT3-C04 Lessons 4-5 say never remove the dead front unless trained, qualified and authorized, and techs may not operate main breakers or switchgear (often the upstream lockout point). Align the script with the final company rule."
+  "production_notes": "Panel de-energized and locked out, per the lesson's video suggestion; lead tech is a qualified person in PPE. Show the lock at the upstream disconnect and live-dead-live before the dead front comes off. Resolved (owner decision, November 2026): at our company a tech working under an electrician's supervision may remove a dead front and swap a breaker; this is a company stance that licensees must set for themselves, so re-record scene 2 if their policy differs. Techs still may not operate main breakers or switchgear (often the upstream lockout point); an electrician operates the upstream lockout."
 }

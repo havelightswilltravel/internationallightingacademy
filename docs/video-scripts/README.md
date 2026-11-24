@@ -20,3 +20,4 @@ on-screen text, the exact words the presenter (avatar) says, and seconds.
 6. Lessons that moved levels still say "At LT1..." and cite old course numbers; fixed when the layout is applied to the curriculum.
 7. Placeholder people's names in a few lesson examples (kept out of the videos); brand names in the track lighting lesson.
 8. Small items: a failure count (7 vs 8) in the retrofit-vs-replace lesson; a clamp-meter "closed panel" reading to confirm; a 300 VA low-voltage demo should use 35 W or LED lamps.
+- Resolved November 24, 2026 by the owner decisions in `docs/CONTENT_GOVERNANCE.md` §7 (items 1–6: dead front and breaker swap under an electrician's supervision as a company stance, "Qualified persons only" notice on live voltage checks, stop-work authority, cut-both-ends-and-discard cords, same-µF/equal-or-higher-voltage capacitors, always measure voltage with a meter). This covers issues 1–5 above; lessons and affected scripts were updated to match.

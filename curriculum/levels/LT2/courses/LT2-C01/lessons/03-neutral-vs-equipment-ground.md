@@ -92,6 +92,8 @@ bonding screw or strap removed) and a separate ground bar bonded to the enclosur
 
 ## A Quick Field Test
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 With the circuit **loaded** and proper PPE for energized testing:
 
 | Reading | Likely meaning |

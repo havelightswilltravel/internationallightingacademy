@@ -4,7 +4,7 @@
   "course": "LT2-C01",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 210,
+  "target_seconds": 220,
   "scenes": [
     {
       "scene": 1,
@@ -58,9 +58,9 @@
       "scene": 7,
       "speaker": "Matthew Berrett",
       "background": "Site contact approaches and says 'Just skip the lockout, we can't lose these lights.' The tech politely declines, makes the area safe and calls the supervisor.",
-      "on_screen": "Anyone can stop work. Calling a job: make it safe, tell the site, call your supervisor.",
-      "says": "Last stop of the day. The site contact asks them to skip the lockout. That's a stop. Anyone on our crew can stop work when something's unsafe, and nobody gets in trouble for using it in good faith. To call a job, make the area safe, tell the site contact and call your supervisor. It's agreed with your manager and documented. You never just walk off, and you never keep going under pressure.",
-      "seconds": 28
+      "on_screen": "Safety: full authority to stop, no permission needed. Efficiency or quality: manager's buy-off first.",
+      "says": "Last stop of the day. The site contact asks them to skip the lockout. That's a stop. Anyone on our crew can stop work when something's unsafe, and nobody gets in trouble for using it in good faith. To call a job, make the area safe, tell the site contact and call your supervisor. For safety, you don't need anyone's permission. Calling a job for efficiency or quality, like the wrong materials or equipment, needs your manager's buy-off first. Document it either way. You never just walk off, and you never keep going under pressure.",
+      "seconds": 38
     },
     {
       "scene": 8,

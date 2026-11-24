@@ -4,7 +4,7 @@
   "course": "LT1-C09",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 249,
+  "target_seconds": 258,
   "scenes": [
     {
       "scene": 1,
@@ -49,10 +49,10 @@
     {
       "scene": 6,
       "speaker": "Danny Smith",
-      "background": "Two techs inspect an extension cord together with the company form on a clipboard; one red-tags it and cuts both ends off with cable cutters.",
-      "on_screen": "Failed cord: red tag, cut the ends, tell the shop",
-      "says": "Extension cords get inspected before use: jacket, plug, ground pin, strain relief. A cord that fails is red tagged and the ends are cut off so nobody uses it again, and you tell the shop. Several times a year, ladders, racks and cords on every vehicle get a two-person inspection with the company form. Two sets of eyes catch what one misses.",
-      "seconds": 26
+      "background": "Two techs inspect an extension cord together with the company form on a clipboard; one cuts both ends off with cable cutters and drops it in the garbage.",
+      "on_screen": "Failed cord: cut both ends, garbage, tell the shop",
+      "says": "Extension cords get inspected before use: jacket, plug, ground pin, strain relief. A cord that fails gets both ends cut off and goes in the garbage so nobody uses it again, and you tell the shop. Several times a year, ladders, racks and cords on every vehicle get a two-person inspection with the company form. Two sets of eyes catch what one misses.",
+      "seconds": 25
     },
     {
       "scene": 7,
@@ -66,9 +66,9 @@
       "scene": 8,
       "speaker": "Danny Smith",
       "background": "Building exterior at dusk, a dark LED wall pack. Senior tech holds up a non-contact tester to camera, then sets it aside and measures hot to neutral with a DMM under a qualified supervisor; presenter voice-over.",
-      "on_screen": "Step 1 on a dark LED fixture: meter across hot and neutral",
-      "says": "The question we ask most at safety meetings: what's step one in troubleshooting an LED fixture? Put your meter across the hot and the neutral. This sniffer is not a troubleshooting tool. It gives a warning, not a measurement, and it can't tell 120 from 277. No voltage at the fixture means the problem is upstream, and a new driver won't fix it. Write the reading on the work order.",
-      "seconds": 28
+      "on_screen": "Step 1 on a dark LED fixture: meter across hot and neutral | Qualified persons only",
+      "says": "The question we ask most at safety meetings: what's step one in troubleshooting an LED fixture? Put your meter across the hot and the neutral. This sniffer is not a troubleshooting tool. It gives a warning, not a measurement, and it can't tell 120 from 277. No voltage at the fixture means the problem is upstream, and a new driver won't fix it. Write the reading on the work order. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 38
     },
     {
       "scene": 9,
@@ -87,5 +87,5 @@
       "seconds": 9
     }
   ],
-  "production_notes": "Props: laid-out hand tools including a screwdriver with cracked handle insulation, torn gloves, company tool inspection form, extension cord and company two-person cord inspection form, red tag, cable cutters, cones and caution signs, non-contact tester, DMM. Scene 8: any energized measurement on camera must be by a qualified person in required PPE; otherwise film the reading as an insert. Lesson file: curriculum/levels/LT1/courses/LT1-C03/lessons/05-company-tool-cord-and-meter-rules.md."
+  "production_notes": "Props: laid-out hand tools including a screwdriver with cracked handle insulation, torn gloves, company tool inspection form, extension cord and company two-person cord inspection form, cable cutters, garbage can, cones and caution signs, non-contact tester, DMM. Scene 8: any energized measurement on camera must be by a qualified person in required PPE; otherwise film the reading as an insert. Lesson file: curriculum/levels/LT1/courses/LT1-C03/lessons/05-company-tool-cord-and-meter-rules.md."
 }

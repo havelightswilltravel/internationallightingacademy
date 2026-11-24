@@ -4,7 +4,7 @@
   "course": "LT1-C12",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 205,
+  "target_seconds": 213,
   "scenes": [
     {
       "scene": 1,
@@ -34,15 +34,15 @@
       "scene": 4,
       "speaker": "Matthew Berrett",
       "background": "Board energized behind a clear guard. A trainer in required PPE, using a CAT-rated meter, takes readings; presenter voice-over. Meter display in close-up.",
-      "on_screen": "Safety: Energized readings only by trained, authorized persons. At LT1: assist and record.",
-      "says": "Now the board is energized behind a guard, and the trainer is in proper PPE with a meter checked on a known source first. Remember: energized measurements are taken only by persons trained and authorized under our NFPA 70E program. At LT1, you assist and record. Before touching any conductor, lock out and verify live-dead-live.",
-      "seconds": 24
+      "on_screen": "Safety: Energized readings only by trained, authorized persons. At LT1: assist and record. | Qualified persons only",
+      "says": "Now the board is energized behind a guard, and the trainer is in proper PPE with a meter checked on a known source first. Remember: energized measurements are taken only by persons trained and authorized under our NFPA 70E program. At LT1, you assist and record. Before touching any conductor, lock out and verify live-dead-live. Check live voltage only once your supervisor has deemed you qualified for this task, wearing the required PPE, with a CAT-rated meter verified live-dead-live.",
+      "seconds": 32
     },
     {
       "scene": 5,
       "speaker": "Matthew Berrett",
       "background": "Trainer measures across the switch: switch closed shows about 0 V; switch open shows full voltage. Captions show each reading.",
-      "on_screen": "Closed switch: about 0 V\nOpen switch: full voltage",
+      "on_screen": "Closed switch: about 0 V\nOpen switch: full voltage | Qualified persons only",
       "says": "Across a closed switch: about zero. Same voltage on both sides, so no break. Now open the switch and measure across it again: full circuit voltage. That sounds backward, but it's the key idea. Voltage appears across an open. Current stops, so the whole source voltage shows up across the break.",
       "seconds": 23
     },
@@ -50,7 +50,7 @@
       "scene": 6,
       "speaker": "Matthew Berrett",
       "background": "Trainer measures hot to neutral at a good lamp socket (full voltage), then across an opened thermal protector (full voltage).",
-      "on_screen": "Good socket, hot-neutral: full voltage = power is there\nAcross opened thermal protector: full voltage = break is there",
+      "on_screen": "Good socket, hot-neutral: full voltage = power is there\nAcross opened thermal protector: full voltage = break is there | Qualified persons only",
       "says": "At a good socket, hot to neutral reads full voltage. Power is reaching the fixture. Zero there means an open somewhere upstream. And across a thermal protector that's opened, full voltage again. The break is right there. One more: if you see voltage hot to ground but zero hot to neutral, the neutral is open. That's dangerous. Report it.",
       "seconds": 26
     },

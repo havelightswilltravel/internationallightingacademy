@@ -14,6 +14,8 @@ video_suggestion: >
 Every LED sign diagnosis starts with two questions: **Is power getting into the supply?** and
 **Is the right voltage coming out?**
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 | Test | Where | Expected reading | Who |
 |---|---|---|---|
 | Line (input) voltage | Power supply input terminals or leads | Nameplate voltage, e.g. 120 V or 277 V | Qualified person per NFPA 70E — energized line-voltage test |

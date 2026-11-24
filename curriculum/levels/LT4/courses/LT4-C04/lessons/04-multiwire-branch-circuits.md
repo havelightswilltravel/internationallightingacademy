@@ -43,6 +43,8 @@ carries the **sum** of their currents. Two 16 A circuits on the same phase put 3
 neutral protected by nothing – the breakers protect only the hots. This is a serious fire hazard and
 is common after panel work, breaker replacement or retrofits.
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 **Field test:** with the circuits energized, measure voltage **between** the hots of the MWBC. You
 should read line-to-line voltage (240, 208 or 480 V). **Near 0 V means they are on the same
 phase.** Confirm by clamping the neutral – it will read about the sum of the hot currents.
@@ -75,6 +77,9 @@ the break can be at a dangerous voltage** even though the "neutral" is supposed 
 1. **Identify the whole MWBC.** Trace which hots share the neutral. Check the panel schedule, look for
    handle ties and grouped conductors, and confirm in the field. Do not assume a neutral is "only on
    this circuit."
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **Risk assessment and PPE** for energized measurements.
 3. **Measure** line-to-line voltage between the hots (phase check) and current on each hot and on the
    neutral. Record readings.

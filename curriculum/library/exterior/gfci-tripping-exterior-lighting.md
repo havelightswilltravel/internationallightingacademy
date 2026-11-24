@@ -69,6 +69,9 @@ review_interval_months: 12
 6. Reconnect fixtures one branch at a time, resetting the GFCI after each, until the trip returns.
    The last branch/fixture connected contains the fault.
 7. Inspect that branch for water: fixture lens gaskets, conduit entries, splices, in-ground boxes.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 8. If no fault is found but trips continue with many fixtures, **(qualified, energized, with PPE)**
    measure total leakage with a leakage clamp around the circuit conductors (line and neutral
    together). Several mA of leakage indicates cumulative driver leakage - split the circuit.

@@ -98,6 +98,9 @@ Key points:
    probably the first switch in a power-to-switch layout.
 2. **Label every conductor** on your sketch with its color and which cable it is in.
 3. **Mark the expected function** of each conductor: line hot, traveler, switch leg, neutral.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 4. **Predict the readings.** For each switch position combination, write which conductors should
    show continuity end-to-end (de-energized) or voltage (energized testing by a qualified person).
 5. **Compare actual vs predicted** in Lesson 3.

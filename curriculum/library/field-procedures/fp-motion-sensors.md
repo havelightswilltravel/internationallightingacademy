@@ -35,6 +35,9 @@ review_interval_months: 12
 
 1. **If the switch works but is not sensitive enough, check the settings** on the back or side of the switch (sensitivity, time delay, light level). Adjust and walk-test.
 2. **If the switch does not work at all, first check for a good ground (and neutral)** - many motion sensing switches require it.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 3. **Check incoming power** to verify good voltage across hot and neutral. Expected: about 120 or 277 V per the device rating.
 4. **If line voltage is good, verify the sensitivity settings and test the switch leg** to see whether the switch is sending power when it detects motion. Expected: line voltage on the load lead when occupied.
 5. **If the settings are correct and the switch still sends no power to the fixtures, replace the switch** (locked out).

@@ -32,6 +32,9 @@ review_interval_months: 12
 ## Company troubleshooting procedure
 
 1. **Look for damaged, burned or loose parts** - scorch marks, melted plates, loose devices, plugs that fall out.
+
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 2. **Check for line voltage** at the device (qualified) or with a plug-in tester on receptacles. Expected: about 120 V hot to neutral, about 120 V hot to ground, near 0 V neutral to ground. Check for a tripped GFCI upstream first.
 3. **Lock out, then check the connections** - tighten screws, move backstabbed wires to screw terminals, look for burned conductors.
 4. **If line voltage is good and the device is damaged or fails, replace it** (locked out). Re-test after restoring power.

@@ -70,6 +70,8 @@ wave. On distorted current it can read **low by 30–50%**, hiding an overloaded
 
 Field procedure for checking a lighting feeder or MWBC:
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 1. Complete a risk assessment, confirm you are qualified for the task and wear PPE per the arc-flash
    label or the NFPA 70E table method.
 2. Use a CAT III or CAT IV rated true-RMS clamp meter appropriate for the location.

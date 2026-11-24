@@ -105,6 +105,8 @@ For three-phase circuits, replace the 2 with 1.732. LT4 covers more detailed cal
 
 ### Field check
 
+> **Qualified persons only:** Check for live voltage only after your supervisor has deemed you qualified for this task, wearing the required PPE and using a CAT-rated meter verified live-dead-live.
+
 You can measure voltage drop directly: measure voltage at the panel and at the farthest
 fixture **with the circuit loaded**, at about the same time. The difference is the voltage
 drop. A circuit that reads fine with the lights off can be well below normal with them on.
