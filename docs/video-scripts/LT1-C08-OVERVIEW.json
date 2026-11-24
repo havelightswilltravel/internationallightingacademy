@@ -4,7 +4,7 @@
   "course": "LT1-C08",
   "presenter": "Senior technician (TBD)",
   "source": "outline",
-  "target_seconds": 165,
+  "target_seconds": 109,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Shop workbench covered with tools: drill, impact driver, batteries and charger, screwdrivers, pliers, tape measures, ratchet straps, extension cords. Senior tech behind the bench, medium shot.",
       "on_screen": "Tool Fundamentals",
       "says": "If you've never used tools before, this course is for you. No shame in it. Everybody starts somewhere. The right tool, used the right way, is how you work safe and fast. And knowing your tools is part of planning a job: you can't pack the van right if you don't know what you need.",
-      "seconds": 21
+      "seconds": 22
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Senior tech holds up tools one at a time and sets them down in a row.",
       "on_screen": "Tool identification - Hand tools",
       "says": "First, what everything is called and what it's for. Screwdrivers, nut drivers, pliers, cutters, strippers. You'll learn to pick the right one, use it without hurting yourself, and check it for damage before you use it.",
-      "seconds": 16
+      "seconds": 14
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Close-up: battery clicked onto a drill, clutch collar turned, a bit changed with the battery removed.",
       "on_screen": "Drills and impact drivers: batteries, clutch, bits",
       "says": "Then drills and impact drivers. How batteries work and how to care for them, what the clutch does, which bit goes where, and why the battery comes off before you change a bit.",
-      "seconds": 14
+      "seconds": 13
     },
     {
       "scene": 4,
@@ -44,7 +44,7 @@
       "background": "A concrete saw, a pipe bender and a rotary hammer on a separate table with an \"Awareness only\" sign.",
       "on_screen": "Awareness only: concrete saw, pipe bender, rotary hammer",
       "says": "You'll also see a few bigger tools, like a concrete saw, a pipe bender and a rotary hammer. That part's awareness only. You'll learn what they're for, not how to run them. Don't use them until you've been trained and authorized.",
-      "seconds": 17
+      "seconds": 16
     },
     {
       "scene": 6,
@@ -60,7 +60,7 @@
       "background": "An evaluator with a clipboard watches a tech use a drill at the bench.",
       "on_screen": "Already know your tools? Take the hands-on test-out.",
       "says": "Already know your way around tools? You can take a hands-on test-out. Show an evaluator you can do it safely and correctly, and you can skip this course.",
-      "seconds": 12
+      "seconds": 11
     },
     {
       "scene": 8,

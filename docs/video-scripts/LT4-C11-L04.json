@@ -4,7 +4,7 @@
   "course": "LT4-C11",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 208,
+  "target_seconds": 203,
   "scenes": [
     {
       "scene": 1,
@@ -74,10 +74,10 @@
       "scene": 9,
       "speaker": "Danny Smith",
       "background": "Danny facing camera; senior tech fully kitted in the background.",
-      "on_screen": "Now read the lesson, take the quiz, then show your evaluator",
-      "says": "PPE reduces injury; it doesn't prevent the incident. Inspect it, wear all of it, and stop if it's not right. Now read the lesson and take the quiz, then show your evaluator your glove inspection, kit and live-dead-live test.",
-      "seconds": 16
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "PPE reduces injury; it doesn't prevent the incident. Inspect it, wear all of it, and stop if it's not right. Now read the lesson and take the quiz.",
+      "seconds": 11
     }
   ],
-  "production_notes": "Hands-on demo: senior technician performs glove air-test, dons a category 2 AR kit and hood, inspects meter and leads, and demonstrates live-dead-live on a proving unit and a de-energized training circuit; Danny narrates. No energized panel work on camera. Closing line mentions an evaluator; confirm a hands-on sign-off exists for this lesson before final edit, and drop 'then show your evaluator' if not."
+  "production_notes": "Hands-on demo: senior technician performs glove air-test, dons a category 2 AR kit and hood, inspects meter and leads, and demonstrates live-dead-live on a proving unit and a de-energized training circuit; Danny narrates. No energized panel work on camera."
 }

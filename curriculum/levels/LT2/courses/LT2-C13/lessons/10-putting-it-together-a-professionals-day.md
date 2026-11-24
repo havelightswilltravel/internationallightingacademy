@@ -125,7 +125,8 @@ contain asbestos. You have not been trained to work around it.
    "Task: recessed housing from an attic. Ran into: suspected vermiculite. Suggest: a short lesson with
    photos of what vermiculite looks like and the exact steps to take when we find it."
 
-The job is called with your supervisor's buy-off and documented on the work order. Nobody is upset.
+You stopped on your own authority because it was a safety issue, called your supervisor right away,
+and documented it on the work order. Nobody is upset.
 That is the job done right.
 
 ## Job 3: Parking Lot Pole Light After Dark

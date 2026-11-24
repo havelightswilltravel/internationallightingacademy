@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C07-L01",
+  "title": "Reading a Drawing Set — The Basics",
+  "course": "LT3-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Job-site trailer with a plan table; a sanitized commercial drawing set lies open. Matthew at the table, medium shot.",
+      "on_screen": "Reading a Drawing Set: The Basics",
+      "says": "On retrofit, renovation and new construction jobs, drawings tell you what goes where, what it is, and what circuit feeds it. Read them right, and you save trips up the ladder and avoid putting the wrong fixture in the wrong place on the wrong circuit. That's planning the job before you ever leave the shop.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Project lead flips to the cover sheet and sheet index; on-screen discipline letters.",
+      "on_screen": "G General | A Architectural (RCPs) | S | M | P | E Electrical",
+      "says": "A drawing set is grouped by discipline, and each sheet number starts with a letter. G is general: the cover sheet, sheet index and code summary. A is architectural, including the reflected ceiling plans, room numbers and ceiling heights. S is structural, M mechanical, P plumbing. And E is electrical: lighting plans, power, panel schedules, fixture schedules and details.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the sheet index, then an E2.01 sheet.",
+      "on_screen": "Numbering varies. Always check the sheet index.",
+      "says": "Electrical sheets are often numbered by type, like E2 for lighting and E6 for schedules, but numbering varies by firm. So always check the sheet index on the cover sheet first.",
+      "seconds": 12
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the title block along the right edge: project, firm, sheet title and number, date, revision table.",
+      "on_screen": "Title block: sheet title & number | date | revisions",
+      "says": "Every sheet has a title block, usually along the right edge or the bottom. It shows the project, the design firm and seal, the sheet title and number, like E2.01, Lighting Plan, Level 1, the date and revision history, who drew and checked it, and sometimes the scale.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a revision cloud with a delta triangle; finger traces it to the revision table. Red callout.",
+      "on_screen": "Confirm the current revision. Verify every circuit in the field.",
+      "says": "Drawings change. A revision gets a cloud around the changed area and a delta, a triangle with the revision number, listed in the title block. Here's the safety point. Working from an outdated drawing can mean pulling the wrong circuit or locking out the wrong breaker. Confirm you have the current revision, ask your lead, and verify every circuit in the field. Drawings show design intent, not guaranteed conditions.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Project lead lays an architect's scale on a lighting plan at the 1/8 face, zero on one fixture, reading the distance; then a phone scale app calibrated on a known dimension.",
+      "on_screen": "1/8\" = 1'-0\" → 1 in = 8 ft | Half-size print? Use the scale bar.",
+      "says": "Scale. At an eighth inch equals one foot, one inch on paper is eight feet. Find the face of the architect's scale marked for the drawing, put zero on one point, and read feet at the other. Fractions come from the subdivided end. A phone scale app works on PDFs once calibrated. Watch out: half-size prints aren't at the stated scale. Use the graphic scale bar, or written dimensions.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a north arrow and column grid lines; finger points to grid C-4.",
+      "on_screen": "North arrow | Column grid (C-4) | Room numbers",
+      "says": "Never scale a drawing for anything critical; use written dimensions and verify in the field. To find your way, use the north arrow, room numbers, fixed features like stairs and elevators, and the column grid, letters one way, numbers the other. Column line C-4 is the fastest way to tell someone where you are on a big floor.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of general notes, then a keyed note hexagon on the plan matched to the note list; abbreviations list.",
+      "on_screen": "Read the notes BEFORE the plan | EM | NL | UON | AFF | TYP | (E) (N) (R) (D)",
+      "says": "Read the notes before the plan, because they often hold the most important instructions. General notes apply to the whole sheet or set, like all lighting circuits shall be 20 amp, 277 volt unless otherwise noted. Keyed notes are numbered symbols on the drawing matched to a list. And learn the abbreviations: EM, NL, UON, AFF, TYP, and E, N, R, D for existing, new, relocated and demolish.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the plan table.",
+      "on_screen": "",
+      "says": "Check the index, read the title block, confirm the revision, read the notes, then the plan. And always verify in the field. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Plan-table segment per the lesson's video suggestion using a sanitized commercial drawing set (no project names, firm names, seals or addresses visible). Show both an architect's scale and a phone scale app calibrated to a known dimension. Highlight a revision cloud and delta."
+}

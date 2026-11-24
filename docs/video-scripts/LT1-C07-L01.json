@@ -4,7 +4,7 @@
   "course": "LT1-C07",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 300,
+  "target_seconds": 203,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Electrical room in a commercial building: lighting panel with the door closed, panel schedule taped inside. Danny in front, medium shot, lock and tag on his belt.",
       "on_screen": "Job Mindset: lockout/tagout",
       "says": "Job Mindset for lockout. The hazard is a circuit you think is dead that isn't: the wrong breaker, a second feed, or someone switching it back on. Elimination is the top control, and lockout is how we do it. Plan before you leave: your lock and tags, the right breaker lockout for that panel, a tested meter, your PPE, and work lights for when the lights go out.",
-      "seconds": 28
+      "seconds": 27
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Close-up on Danny holding up a personal lock with its single key and a tag.",
       "on_screen": "Your lock. Your key. Your tag.",
       "says": "Lockout/tagout is the single most important procedure in this program. Most electrical injuries to maintenance workers happen because a circuit was assumed dead, someone turned it back on, or the wrong breaker was opened. You get your own personal lock with one key, and you keep it. Your tag shows your name, company, date, the reason, and how to reach you.",
-      "seconds": 27
+      "seconds": 24
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Close-up of a wall switch, an occupancy sensor and a relay panel, each with a red X graphic.",
       "on_screen": "A switch is NOT an energy-isolating device",
       "says": "Get this one locked in. A wall switch, occupancy sensor, relay or lighting control panel is not an energy-isolating device. They're controls. They may switch just one wire, someone or a time clock can turn them back on, and they can leave wires in the fixture live. You always lock out at the breaker or disconnect.",
-      "seconds": 24
+      "seconds": 22
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Senior tech reads the panel schedule, checks fixture labels, then talks with the site contact (actor). Danny voice-over.",
       "on_screen": "1. Prepare  2. Notify",
       "says": "Here's the sequence, uncut. One: prepare. Identify the fixtures and every circuit that feeds them. Use the panel schedule, but schedules are often wrong. Look for emergency battery packs, generator circuits and stored energy. Two: notify. Tell the site contact what's going off, why, and for how long. Lights going out without warning cause falls and alarm.",
-      "seconds": 27
+      "seconds": 23
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Tech turns the fixtures off at the wall switch. In the electrical room, a qualified person opens the breaker standing to the side, left hand, face turned away; the tech stands beside. Danny voice-over.",
       "on_screen": "3. Shut down  4. Isolate",
       "says": "Three: shut down. Turn the fixtures off at the normal control first. That takes the load off the breaker. Four: isolate. Open the breaker. Stand to the side, use your left hand if practical, and look away as it's operated. At LT1, a qualified person does this, or directly supervises you doing it.",
-      "seconds": 23
+      "seconds": 21
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Close-up: clamp-on breaker lockout installed on the breaker, the tech tries to push the handle (it won't move), then hangs his personal lock and a filled-in tag.",
       "on_screen": "5. Lock and tag  6. Release stored energy",
       "says": "Five: lock and tag. Install the breaker lockout so the handle can't go to on. Try it. It won't move. Then your personal lock and your filled-in tag. More than one person working? Use a hasp. Six: release stored energy. Wait for capacitors to discharge as the labels direct, and isolate emergency battery packs if they affect the work, per the manufacturer.",
-      "seconds": 27
+      "seconds": 25
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Tech flips the wall switch on (lights stay off), back to off. On the ladder at the fixture, he tests his meter on a known live source, tests every conductor in the fixture, then tests the known source again. Danny voice-over.",
       "on_screen": "7. Verify: TRY the switch. TEST live-dead-live.",
       "says": "Seven: verify. Try it: flip the wall switch and make sure nothing comes on. Then switch it back off. Test it: at the fixture, live-dead-live. Prove your meter on a known live source, test every conductor, then prove the meter again. Only now is it an electrically safe work condition.",
-      "seconds": 22
+      "seconds": 20
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Danny back at the panel, close-up.",
       "on_screen": "Restore: tools out - people clear - notify - your lock only",
       "says": "Restoring power. Tools and materials out, fixture fully reassembled. Everyone clear and accounted for. Tell the site contact power's coming back. Each person removes only their own lock. Then the breaker's closed by a qualified person or under supervision, and you test the fixtures. Never remove someone else's lock, and never ask someone to remove yours.",
-      "seconds": 26
+      "seconds": 22
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny at the panel, medium shot.",
       "on_screen": "Skipping \"try\" = a mislabeled breaker goes unnoticed",
       "says": "The mistakes we see: trusting the panel schedule, using the switch as isolation, skipping the try step, skipping live-dead-live, forgetting the battery pack, lending your key. Every one of those has hurt someone. Follow our written procedure for your site. Now read the lesson and take the quiz.",
-      "seconds": 21
+      "seconds": 19
     }
   ],
   "production_notes": "Film as one continuous, uncut LOTO where possible, with a qualified person present and operating the breaker while the tech stands to the side; the panel dead front stays on. Meter test on the fixture is performed only after lockout, with the PPE required by the electrical safety program (hot gloves with protectors per company rule). Site contact is an actor. Generic panel schedule. Reference: company-specific LOTO rules are in lessons 6 and 7 of the source course."

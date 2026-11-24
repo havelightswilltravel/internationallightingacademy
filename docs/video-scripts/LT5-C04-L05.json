@@ -4,7 +4,7 @@
   "course": "LT5-C04",
   "presenter": "Chris Munford",
   "source": "lesson",
-  "target_seconds": 193,
+  "target_seconds": 194,
   "scenes": [
     {
       "scene": 1,
@@ -74,9 +74,9 @@
       "scene": 9,
       "speaker": "Chris Munford",
       "background": "Conference room, wide shot.",
-      "on_screen": "Now read the lesson and take the quiz",
-      "says": "Strategy first, prove it with a mock-up, compare total cost honestly. Now read the lesson and take the quiz.",
-      "seconds": 8
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator",
+      "says": "Strategy first, prove it with a mock-up, compare total cost honestly. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 9
     }
   ],
   "production_notes": "Customer presentation with mock-up segment; knowledge lesson with a short hands-on mock-up shot (LOTO and live-dead-live shown). All dollar amounts are the lesson's made-up example figures; label them 'Example figures only' on screen. Generic products, no brands. Facility manager appears from behind."

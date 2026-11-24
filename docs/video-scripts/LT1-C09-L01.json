@@ -4,7 +4,7 @@
   "course": "LT1-C09",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 290,
+  "target_seconds": 200,
   "scenes": [
     {
       "scene": 1,
@@ -20,7 +20,7 @@
       "background": "Matthew picks up each tool as he names it.",
       "on_screen": "Screwdrivers - Nut drivers - Strippers - Pliers - Cutters - Knife - Tape - Light - Testers - Drill - LOTO kit",
       "says": "The company issues your kit. You keep it clean, complete and safe. Screwdrivers and a multi-bit driver for covers and terminals. Nut drivers for ballast nuts. Wire strippers with AWG markings. Lineman's and needle-nose pliers. Diagonal cutters. A retractable utility knife. Tape measure, flashlight, your non-contact tester, your meter, a cordless drill, and your locks, tags and lockout devices.",
-      "seconds": 29
+      "seconds": 24
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Close-up: senior tech reads \"12 AWG THHN\" on a wire, places it in the 12 notch and strips it; repeats with 18 AWG fixture wire. Comparison shot of a nicked conductor. Matthew voice-over.",
       "on_screen": "Match the notch to the wire size",
       "says": "Wire strippers. Read the wire size on the insulation. This one's 12 AWG. Put it in the matching notch. Too small a notch nicks the copper, and that weak spot can break or overheat. Strip to the length the connector or device specifies, often about a half to five-eighths of an inch for twist-on connectors. Then inspect: no nicks, no stray strands, a clean cut.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Close-up: tech makes a twist-on connector splice and tug-tests each wire, then pushes stripped wires fully into a push-in connector using the strip gauge, and tug-tests. Matthew voice-over.",
       "on_screen": "Strip to the marked length. Tug-test every wire.",
       "says": "Now a twist-on splice. Strip to length, twist the connector on until it's snug, and tug-test each wire. Then a push-in connector. Check the strip gauge on the connector, push each wire in all the way, and tug-test. No bare copper showing outside the connector.",
-      "seconds": 19
+      "seconds": 18
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Matthew holding a screwdriver and a utility knife, close-up.",
       "on_screen": "Never strip wire with a knife",
       "says": "Use the correct screwdriver tip. A worn or wrong-size tip slips and strips screws. Push while you turn. Never use a screwdriver as a pry bar. With a utility knife, cut away from your body, retract the blade every time, and replace dull blades. And never strip wire with a knife. It damages the conductor and causes hand injuries.",
-      "seconds": 25
+      "seconds": 24
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Matthew holds an ordinary plastic-handled screwdriver next to a 1,000 V insulated screwdriver with the double-triangle mark.",
       "on_screen": "Plastic handles are NOT shock protection",
       "says": "Important. Insulated tools rated 1,000 volts, with the double-triangle symbol, are for qualified people doing energized work. The plastic handle on an ordinary tool is for comfort, not shock protection. As an LT1, you never rely on a tool handle to protect you. The circuit is always locked out and verified dead.",
-      "seconds": 23
+      "seconds": 21
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Tech inspects hand tools for cracked handles and worn tips, then a cordless drill, battery and charger for cracks and swelling; removes the battery before changing a bit. Matthew voice-over.",
       "on_screen": "Damaged lithium battery? Out of service, away from flammables.",
       "says": "Inspect before use. Cracked or loose handles, worn tips or jaws, loose rivets. Damaged tools get tagged and turned in. For your cordless drill, check the battery and charger for cracks, swelling or damage. A damaged lithium-ion battery can catch fire, so pull it from service and keep it away from flammables. Safety glasses on, clamp the workpiece, and take the battery off before changing bits.",
-      "seconds": 29
+      "seconds": 26
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Tech on a ladder with a tool pouch, a lanyard on his driver, cones below. Matthew voice-over.",
       "on_screen": "Tool lanyards over people. Nothing left on the ladder or grid.",
       "says": "Before you drill into a wall or ceiling, check for hidden wiring, pipes and sprinklers. Corded tools need an intact ground pin or double insulation, and GFCI protection for temporary power. At height, use a pouch sized for your tools, tool lanyards when you're above people, and never leave tools on top of a ladder or on the ceiling grid.",
-      "seconds": 25
+      "seconds": 24
     },
     {
       "scene": 9,

@@ -4,7 +4,7 @@
   "course": "LT1-C13",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 0,
+  "target_seconds": 187,
   "scenes": [
     {
       "scene": 1,
@@ -60,7 +60,7 @@
       "background": "Senior tech walks the work area, pointing down at a floor opening and a loading dock edge, around at a forklift lane, then up at sprinkler heads and ducts; presenter voice-over.",
       "on_screen": "Look DOWN | AROUND | UP",
       "says": "Now walk the area. Look down: slope versus the decal, drop-offs, docks, floor openings, soft ground, and floor load on mezzanines or finished gym floors. Look around: traffic, forklifts, wind and weather, and carbon monoxide if it's fuel-powered indoors. Look up: power lines, sprinkler pipes and heads, ducts, beams and racking.",
-      "seconds": 25
+      "seconds": 20
     },
     {
       "scene": 8,

@@ -4,7 +4,7 @@
   "course": "LT1-C04",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 295,
+  "target_seconds": 229,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Retail parking lot, early winter morning, plowed snow piles, van and a lift on a trailer. Danny in a hi-vis jacket, medium shot.",
       "on_screen": "Job Mindset: winter site work",
       "says": "Job Mindset for winter work. The top injury isn't frostbite. It's falling on ice. Add a lift on a slick surface, wind aloft, dead batteries and carbon monoxide. Plan it at the shop: ice cleats, a scraper and brush for the platform, warm spare batteries in the cab, a wet-floor sign for the customer's lobby, and the lift's wind rating. Think ahead to every step you'll take.",
-      "seconds": 28
+      "seconds": 27
     },
     {
       "scene": 2,
@@ -28,7 +28,7 @@
       "background": "Tech walking across the icy lot with short steps, feet slightly out, hands free; stops and points to a dark wet-looking patch in the shade of the building.",
       "on_screen": "Walk like a penguin: short steps, feet out, hands free, carry less",
       "says": "Walk like a penguin. Feet slightly outward, short slow steps, feet under you, and use them to probe for slick spots. Hands free and out of your pockets. Carry less, and make two trips. Now see that wet spot in the shade? In freezing weather, that's black ice until proven otherwise. Early morning, north sides of buildings, under canopies, around pole bases. Treat every wet patch as ice.",
-      "seconds": 29
+      "seconds": 27
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "At the store entrance: tech knocks snow off his boots and wipes them on the mat, removes ice cleats, steps onto polished tile with a shorter stride. Wet floor sign by the door.",
       "on_screen": "A sign is a warning, not a fix",
       "says": "Before you go inside, knock off the snow and wipe your boots. Tracking slush onto polished tile is a slip hazard for everybody, including the customer's staff. Take ice cleats off before smooth floors and ladders. Shorten your stride going from carpet to tile. If you make a wet spot, clean it up and put out a wet floor sign until it's dry. A sign is a warning, not a fix.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Tech scraping ice off a lift platform floor, toe board and guardrails, then checking a phone weather app and the lift's operator manual wind rating page.",
       "on_screen": "Clear ice from the platform. Check wind against the lift's rating.",
       "says": "The lift rules don't change in winter, the conditions do. Clear ice and snow off the platform floor, toe board, guardrails, steps and controls. Never stand on ice in a bucket. Check the ground. Frozen ground can thaw and soften under outriggers. Check the wind against the lift's rating in the manual. Many slab scissor lifts are indoor only. And wind is stronger aloft.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 6,
@@ -60,7 +60,7 @@
       "background": "Tech pulls cordless tool and meter batteries from a bag in the warm cab. Then a close-up of a meter being checked on a known source.",
       "on_screen": "Keep batteries warm. Don't charge lithium-ion below 32 F.",
       "says": "Batteries lose capacity in the cold. Keep tool and meter batteries in the warm cab and swap them as they fade. Most lithium-ion batteries shouldn't be charged below freezing, so let them warm up first. And a meter that sat in a freezing van can read wrong. Do your live-dead-live check on a known source, like always. Never assume a cold meter is accurate.",
-      "seconds": 27
+      "seconds": 26
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Danny brushing snow away from the van's exhaust pipe, then sitting in the idling cab with a window cracked.",
       "on_screen": "Carbon monoxide: no smell, no color. Keep the exhaust clear.",
       "says": "Carbon monoxide has no smell and no color. Headache, dizziness, confusion, yawning, drowsiness. Never run the van, a generator or a fuel heater in an enclosed space without ventilation, and never sleep in a running vehicle. Before you warm up in an idling van, make sure the exhaust isn't blocked by snow. If someone shows symptoms, get them to fresh air and call 911.",
-      "seconds": 27
+      "seconds": 26
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny in the lot, close-up.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "If you do fall, don't catch yourself with straight arms, tuck your chin, and report it even if you feel fine. Head injuries can show up later. Now read the lesson and take the quiz.",
-      "seconds": 13
+      "seconds": 14
     }
   ],
   "production_notes": "Film the icy-lot walking on a lightly slick area only, with the performer wearing cleats where appropriate and a spotter nearby; no staged falls. Lift stays parked during the ice-clearing shot. Generic store entrance, no logos. Meter check uses a known source on a training board, not customer equipment. Van idling scene filmed outdoors with the exhaust clear."

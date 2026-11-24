@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C09-L03",
+  "title": "Digital Multimeter Basics & CAT Ratings",
+  "course": "LT1-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Bench with the company-issued DMM, test leads, probe tip covers and a test-lead holder. Matthew behind the bench, medium shot.",
+      "on_screen": "Job Mindset: your meter",
+      "says": "Job Mindset for your meter. The hazards: a meter that fails and explodes in your hand from a voltage spike, an arc from leads in the wrong jack, and a false dead reading from a weak battery. The controls are the right rating, an inspection before every use, and checking your setup every time. Pack spare batteries and the right fuses before you leave.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the meter dial; Matthew's finger moves across V~, V DC, ohms, continuity, amps, LoZ.",
+      "on_screen": "LT1: AC voltage. Continuity and resistance on dead circuits only. No amps.",
+      "says": "At LT1, you'll mostly use your meter for AC voltage, to verify absence of voltage. Resistance and continuity, the beep setting, are for de-energized circuits only. The amps settings aren't used at LT1. Clamp meters are safer, and you'll get those at LT2.",
+      "seconds": 17
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the jacks: black lead plugged into COM, red into V. Then the red lead moved to the A jack with a red X graphic.",
+      "on_screen": "Black in COM. Red in V. Dial on V.",
+      "says": "The jacks. Black lead in COM, always. Red lead in V for voltage, resistance and continuity. The A and milliamp jacks are for current. Here's why that matters. If the red lead is in an amps jack and you touch the probes across a voltage source, you create a near short through the meter. Even with good fuses, that can cause an arc flash in your hands.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Simple building graphic: utility meter and service entrance (CAT IV), lighting panel and branch circuits and hardwired fixtures (CAT III), plug-in lamp at a receptacle (CAT II). Matthew voice-over.",
+      "on_screen": "CAT IV: service entrance | CAT III: panels, branch circuits, fixtures | CAT II: plug-in loads",
+      "says": "CAT ratings. Electrical systems get spikes from lightning and switching, bigger near the service entrance, smaller downstream. CAT ratings show how big a spike a meter survives without failing in your hand. CAT IV is the service entrance and utility meter. CAT III is building wiring: lighting panels, branch circuits, hardwired fixtures. CAT II is plug-in loads.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of CAT markings on the meter and on the leads; an independent lab mark on the case.",
+      "on_screen": "At least CAT III 600 V. Lowest-rated part sets the rating.",
+      "says": "Category and voltage go together. For building lighting circuits, use a meter and leads rated at least CAT III 600 volts. Higher category at the same voltage is better. And the system's only as good as its lowest-rated part. A CAT III 1000-volt meter with CAT II leads is a CAT II system. Look for an independent lab mark, too.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech inspects the meter case, display and battery indicator, runs the leads through his fingers, checks finger guards, snaps on shrouded tip covers, seats the plugs. Matthew voice-over.",
+      "on_screen": "Case - Display and battery - Leads - Probes and guards - Connectors - Fuses",
+      "says": "Inspect before every use. Case: no cracks or signs of overheating. Display clear, no low-battery symbol. A weak battery can give false readings. Leads: no cuts or melted spots. If you see the colored inner layer, replace them. Probes: tips tight, finger guards intact, shrouded tip covers on. Plugs fully seated. Check fuses the maker's way, and replace only with the exact rated fuse.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on Matthew holding the meter, display reading a few volts.",
+      "on_screen": "Never assume it's \"just ghost voltage\"",
+      "says": "Reading the display. OL on voltage means over range. On resistance, it means open. Watch your units. And ghost voltage: a meter can show voltage on a disconnected wire running next to live ones. LoZ mode can make it collapse. But never assume a reading is just ghost voltage. Stop and get a qualified person to evaluate it.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech at a de-energized training panel, standing to the side, using a test-lead holder, fingers behind the guards. Matthew voice-over.",
+      "on_screen": "Fingers behind the guards. Stand to the side.",
+      "says": "Good habits. When one point is a known neutral or ground, black lead on first and off last. Fingers behind the finger guards. Use a test-lead holder where you can, so one hand stays away from grounded metal. And stand to the side of panels and disconnects, not in front.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Right rating, inspected, black in COM, red in V, dial on V. Every time. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "No energized measurements needed; the amps-jack mistake is shown with the meter disconnected and a red X graphic only. The habits demo uses a de-energized training panel. CAT location graphic should be simple and generic. Meter and lead brands not visible; use the licensee's company-issued model if possible."
+}

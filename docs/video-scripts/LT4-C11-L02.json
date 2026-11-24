@@ -4,7 +4,7 @@
   "course": "LT4-C11",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 214,
+  "target_seconds": 215,
   "scenes": [
     {
       "scene": 1,
@@ -82,9 +82,9 @@
       "scene": 10,
       "speaker": "Danny Smith",
       "background": "Danny outside the tape, medium shot.",
-      "on_screen": "Now read the lesson and take the quiz",
-      "says": "Two assessments, three boundaries, one PPE method per piece of equipment. Now read the lesson and take the quiz.",
-      "seconds": 8
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator",
+      "says": "Two assessments, three boundaries, one PPE method per piece of equipment. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 9
     }
   ],
   "production_notes": "Floor-tape demo around a 480 V panelboard kept closed and latched (or a de-energized training panel). Use three tape colors: limited, restricted, arc-flash. Two example arc-flash labels as props (one incident energy, one PPE category; generic, not from a customer site). Distances and values are from the lesson's NFPA 70E 2024 tables; editor should keep them exact. Danny does not open the energized panel on camera."

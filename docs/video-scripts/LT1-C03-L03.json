@@ -4,7 +4,7 @@
   "course": "LT1-C03",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 285,
+  "target_seconds": 183,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Office ceiling with a row of 2x4 troffers. A 6-ft fiberglass stepladder set up under one, cones around the base, a helper holding an LED retrofit kit. Danny medium shot.",
       "on_screen": "Job Mindset: working from a ladder",
       "says": "Job Mindset for ladder work. The hazards are falling, a shock that startles you off the ladder, and things dropping on people below. Lock out and test the fixture first, barricade below, then climb. Plan the sequence before you go up: what comes down, what goes up, who hands it to you. Take only the tools you need. Keep your helper busy, not waiting.",
-      "seconds": 27
+      "seconds": 26
     },
     {
       "scene": 2,
@@ -28,7 +28,7 @@
       "background": "Tech at the troffer supports the door as he releases the latches; belt buckle centered between the rails. Helper hands up the retrofit kit. Danny voice-over.",
       "on_screen": "Torso between the rails. Support the door. Never toss.",
       "says": "At the fixture, keep your torso between the side rails. Belt buckle centered. Many troffer doors swing down on hinges, so support the door as you release the latches. Plan the sequence: old parts out, come down, then go up with the new parts. Don't juggle old and new. And your helper hands the kit up. Never toss anything.",
-      "seconds": 26
+      "seconds": 24
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Tech climbs down, moves the ladder to the next troffer, resets it and checks the spreaders. Danny voice-over.",
       "on_screen": "Move the ladder. Never walk it.",
       "says": "Work's out of reach? Climb down and move the ladder. Never walk it, hopping or shifting it while you're standing on it. It takes thirty seconds. Only one person on the ladder at a time, unless the label says it's built for two. And in busy areas, let a coworker steady it and keep people from walking under.",
-      "seconds": 24
+      "seconds": 23
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Tech lifts a ceiling tile and shines a flashlight into the plenum before reaching. Close-up of an open junction box in the ceiling. Danny voice-over.",
       "on_screen": "Look before you reach. Exposed live parts? Stop and call.",
       "says": "Your fixture's locked out and verified dead, but there may be live parts near you: a fixture on another circuit, an open junction box, busway, power lines outdoors. Fiberglass ladder only. Jewelry off. Before you reach above a tile, look first with a flashlight. If you find exposed live parts within reach, stop and call your supervisor. Don't touch them, even with insulated tools.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 6,

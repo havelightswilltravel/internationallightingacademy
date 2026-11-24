@@ -4,7 +4,7 @@
   "course": "LT4-C10",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 198,
+  "target_seconds": 199,
   "scenes": [
     {
       "scene": 1,
@@ -83,9 +83,9 @@
       "speaker": "Matthew Berrett",
       "background": "Back at the whiteboard, wide shot with the techs.",
       "on_screen": "Now read the lesson and take the quiz",
-      "says": "Find the part, then find the why. Now read the lesson and take the quiz.",
-      "seconds": 8
+      "says": "Find the part, then find the why. Now read the lesson and take the quiz, then show your evaluator your root-cause analysis.",
+      "seconds": 9
     }
   ],
-  "production_notes": "Analysis lesson; scene 1 ties RCA planning to safe, planned work instead of a full Job Mindset opener. Props: whiteboard, markers, tagged failed driver, recording meter/logger. Before/after service-history chart is illustrative (built from the lesson's warehouse example, not a real customer). Two junior techs appear as non-speaking extras."
+  "production_notes": "Analysis lesson; scene 1 ties RCA planning to safe, planned work instead of a full Job Mindset opener. Props: whiteboard, markers, tagged failed driver, recording meter/logger. Before/after service-history chart is illustrative (built from the lesson's warehouse example, not a real customer). Two junior techs appear as non-speaking extras. Closing references hands-on skill LT4-S07 (root-cause analysis on an intermittent fault)."
 }

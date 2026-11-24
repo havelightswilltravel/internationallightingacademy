@@ -4,7 +4,7 @@
   "course": "LT1-C03",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 280,
+  "target_seconds": 201,
   "scenes": [
     {
       "scene": 1,
@@ -20,7 +20,7 @@
       "background": "Close-up on Danny holding the Ladder and Extension Cord Inspection Form.",
       "on_screen": "Ladder and Extension Cord Inspection Form",
       "says": "You inspect every ladder and cord before every use. On top of that, our company does this two-person inspection per vehicle several times a year, right after the monthly safety meeting. The form makes it consistent and catches slow damage a quick look misses: worn feet, a loose rivet, a cord jacket rubbed through on the rack. Turn it in before you leave the shop.",
-      "seconds": 27
+      "seconds": 26
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Tech writes the date and van number on the form; headers each column with a ladder size. Danny voice-over.",
       "on_screen": "Date - Vehicle - One column per ladder - Every line, every ladder",
       "says": "Fill it out right. Date and vehicle at the top. One column per ladder, headed with its size: 6-foot step, 8-foot step, extension, multi-position. Then go down every line for every ladder and mark each one pass or fail. Don't mark a whole column OK without looking.",
-      "seconds": 21
+      "seconds": 19
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Two techs pull the ladders off the rack and work down the checklist: feet, rails, rivets, spreaders, labels, steps. Danny voice-over.",
       "on_screen": "11 ladder lines: feet, clean, joints, hardware, moving parts, spreaders, rails, pads, edges, labels, non-skid",
       "says": "The eleven ladder lines are the same ones from Lesson 2. Non-slip feet. Clean surfaces, and clean it on the spot if it's greasy. Tight joints. No loose rivets, bolts or nuts. Moving parts don't bind. Spreaders straight and locking. No cracks or crushing. Pads on metal ladders. No sharp edges. Labels legible. Non-skid steps.",
-      "seconds": 26
+      "seconds": 22
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Close-ups of the ladder rack: tech checks mounting bolts, welds, rollers, locks and pulls on the straps. Danny voice-over.",
       "on_screen": "Rack: bolts, welds, arms, rollers, locks, straps",
       "says": "Then the ladder rack. Mounting bolts tight. No cracked welds or bent arms. Rollers and locks working. Straps and tie-downs in good shape. A ladder that bounces loose on the highway is damaged before you climb it, and it can kill another driver. Damaged rack? Don't load a ladder on it. Report it.",
-      "seconds": 23
+      "seconds": 21
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Tech uncoils a numbered cord and runs it hand over hand from end to end, then inspects the plug, connector, strain relief and label. Danny voice-over.",
       "on_screen": "Jacket - Tape or splices - Plug - Connector - Strain relief - Label",
       "says": "Extension cords. Number each one, uncoil it, and run it through your hands end to end. Fail it for cuts, burns, melted spots, cracks, crushing or bulges. Any tape or splice fails. A repaired cord is not a safe cord. Check the plug for a missing or bent ground pin and loose blades. Check the connector, the strain relief, and that the label's readable. Initial each cord on the form.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Close-up of a plug with a missing ground pin. Tech hangs a DO NOT USE tag on it, then, after a nod from the supervisor, cuts off the plug and sets the cord aside.",
       "on_screen": "Never remove a ground pin",
       "says": "Here's one with a missing ground pin. That pin is what clears a fault through the breaker instead of through you. Never remove or bend it back to fit an old two-prong outlet. This cord gets tagged DO NOT USE and pulled. When your supervisor directs, cut off the plug so nobody uses it by mistake. Report it and write it on your pull sheet.",
-      "seconds": 27
+      "seconds": 26
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Both techs sign the form on the tailgate. Danny on camera beside them.",
       "on_screen": "Both techs sign. Failures reported the same day.",
       "says": "Both techs sign. You're both vouching for what you'll climb and plug in. Anything that fails is handled the same day and goes on your pull sheet so the replacement is in your next order. Never leave a bad ladder or cord on the van for the next guy to decide. The next guy might be you, in the dark, in a hurry.",
-      "seconds": 26
+      "seconds": 25
     },
     {
       "scene": 9,

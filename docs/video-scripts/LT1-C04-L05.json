@@ -4,7 +4,7 @@
   "course": "LT1-C04",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 300,
+  "target_seconds": 214,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Shop warehouse aisle. A marked SDS binder hangs at a fixed spot on the wall. Danny beside it, medium shot.",
       "on_screen": "Job Mindset: handling and hauling materials",
       "says": "Job Mindset for materials. The hazards are flammable sprays near hot or live fixtures, mercury from broken lamps, PCB ballasts, and batteries shorting in the van. Plan it before you leave: know your products and their SDS, bring the lamp boxes, the ballast bucket, bags and tape for batteries, and chemical gloves. Think ahead to the load coming back, not just the load going out.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Danny opens the SDS binder; cut to a phone pulling up an SDS from a manufacturer site (generic).",
       "on_screen": "No SDS, no use",
       "says": "Our yearly hazmat class is a Hazard Communication class. OSHA gives you the right to know: labels on every container, a Safety Data Sheet for every hazardous chemical, training, and a written program. Old MSDS sheets are now SDS, in 16 sections. Our SDS binder lives right here. You can pull many up on your phone too. Company rule: no SDS, no use.",
-      "seconds": 27
+      "seconds": 25
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Close-up: Danny holds a can of electrical contact cleaner and points to the signal word, the flame pictogram, and the PPE statements.",
       "on_screen": "Signal word: Danger (more severe) / Warning (less severe). SDS sections 2, 4, 6, 8.",
       "says": "Read the label before you use anything for the first time. Signal word: Danger means more severe, Warning means less. These red diamonds are the pictograms. This flame means flammable. Then the hazard and precaution statements. On the SDS, you'll use section 2 for hazards, 4 for first aid, 6 for spills and 8 for PPE.",
-      "seconds": 25
+      "seconds": 22
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Tech fills a small spray bottle from a jug of lens cleaner and writes the product name and hazards on a label. Danny voice-over.",
       "on_screen": "Label every secondary container. Never use drink bottles.",
       "says": "Many aerosol cleaners are extremely flammable. Never spray them into a fixture or panel that's energized or still hot, and let the solvent evaporate fully before power goes back on. And if you pour a chemical into a smaller container, label it with the name and hazards. An unlabeled bottle of clear liquid in a van is how people get hurt. Never use drink bottles.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Close-up on Danny with a closed lamp box and a ballast in hand.",
       "on_screen": "Every lamp is recycled. Never in any dumpster. No \"No PCBs\" label = treat as PCB.",
       "says": "Lamps and ballasts are materials hazards too. Intact lamps are safe to handle, but some hold mercury, sodium or lead. When we pick up spent lamps, we become a co-generator of universal waste. Company policy: every lamp is recycled, and never in our dumpster or the customer's. Ballasts without a No PCBs label are treated as PCB. Write the count of suspect PCB ballasts on the service order.",
-      "seconds": 29
+      "seconds": 27
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Prop: a fixture with an oily stain under the ballast (simulated). Tech steps back, makes a phone call. Danny voice-over.",
       "on_screen": "Leaking ballast = stop work. Notify office + site contact.",
       "says": "A leaking ballast is a stop-work condition. Don't judge it by color. Keep people away and don't touch it bare-handed. Notify the office and the site contact, and get instructions or wait for help. When you're told to remove it: circuit locked out and verified dead, chemical-resistant gloves and glasses, double-bag it, and your used gloves go in the outer bag.",
-      "seconds": 27
+      "seconds": 24
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Close-up on Danny at a customer loading dock (generic).",
       "on_screen": "Customer tells us about their hazards. You follow their instructions.",
       "says": "At customer sites you'll find pool chemicals, fuels, paints, process chemicals, sometimes asbestos or lead. The customer is responsible for telling us about their hazards. You're responsible for following their instructions. Questions? Ask the site contact and call your supervisor. Smell something unusual, see a leak or feel sick? Leave the area and report it.",
-      "seconds": 26
+      "seconds": 22
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Loading the van at the end of a call: closed lamp boxes strapped so they can't slide, a closed ballast bucket, an exit-sign battery with taped terminals going into its own bag, a gas can strapped upright. Tech writes counts on the service order. Danny voice-over.",
       "on_screen": "Closed. Secured. Terminals taped. Counts on the service order.",
       "says": "Now the drive back. Small amounts like a gas can and aerosols ride as materials of trade: proper containers, closed tight, secured so they can't tip or slide. Tape battery terminals or bag each one, away from metal tools. Swollen lithium battery? Set it aside and tell your supervisor. Lamps in closed boxes, ballasts in a closed container, straight back to the shop. Shipping papers are the office's job.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny at the van, close-up.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "Something spills or breaks in the van? Stop somewhere safe, ventilate, and call your supervisor. Now read the lesson and take the quiz. And review the lamp packing lesson in the lockout course with it.",
-      "seconds": 15
+      "seconds": 14
     }
   ],
   "production_notes": "Props: SDS binder, contact cleaner can with a readable GHS label (generic or brand turned away), spray bottle and blank label, closed lamp boxes, ballast bucket, exit-sign battery, electrical tape, gas can, service order. The leaking ballast is simulated with no real oil. Lesson cross-reference: the lamp packing lesson is LT1-C06 lesson 05 in the source files (course numbering may differ in the program catalog)."

@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C07-L04",
+  "title": "Repairs, Parts Ordering & LED Neon Retrofits",
+  "course": "LT4-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 275,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Sign shop bench with a broken neon unit, a transformer and a channel letter mid-retrofit. Matthew beside it. Medium shot.",
+      "on_screen": "Job Mindset: Neon Repairs & Retrofits",
+      "says": "Every repair on the secondary side is done with the sign disconnect locked out, the primary verified dead, live-dead-live, and stored charge discharged. Broken glass cuts, and coated tubes have a little mercury, so cut-resistant gloves, eye protection, and bag the glass. Plan ahead: record every label and measurement on the first visit so the second visit is the fix.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; lower-third callout.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may repair neon signs and retrofit them to LED under our company's license. In others it takes a licensed electrician or sign contractor, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table over b-roll of a boot being replaced on a locked-out sign.",
+      "on_screen": "Boot, PK, GTO: authorized tech | Transformer: qualified/sign specialist | Glass: bender | LED retrofit: sign specialist",
+      "says": "Who does what. Resetting an SGFP transformer after fixing the cause, replacing a boot, PK housing or GTO: an authorized tech or sign specialist. Never reset over and over without finding the fault. Replacing a transformer: a qualified person or sign specialist. Glass is custom-bent by a neon glass bender. And an LED retrofit is a sign specialist job with a listed kit.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of two transformer labels side by side, items highlighted one by one.",
+      "on_screen": "Primary V | Secondary V | Secondary mA | SGFP | Configuration | Indoor/outdoor | Load (tubing length)",
+      "says": "A replacement transformer has to match, not just fit. Primary voltage. Secondary open-circuit voltage; too low and long runs won't strike, too high overdrives the glass. Secondary current, like 30 versus 60 milliamps. SGFP as code requires. Midpoint-grounded or other configuration. Indoor or wet rating. And the load: the sign specialist sizes it to the footage of glass.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Technician photographs a broken neon unit next to a tape measure, measures tube diameter with a caliper, then photographs the transformer label.",
+      "on_screen": "Label | Glass: color/gas, diameter (mm), length, pattern | GTO, boots, PKs | Supports, tie wire | Location, lift",
+      "says": "Before you leave, photograph and record. The full transformer label. The glass: color and gas, tube diameter in millimeters, approximate length, and a pattern or photo for anything that has to be bent. GTO rating and length, number of boots and PK housings, supports and tie wire. Enclosure, flex and the disconnect's condition. And where the sign is, which letter from the left, and what lift you need.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Flexible LED neon lit on the bench next to a glass neon tube; close-up of a sealed cut end.",
+      "on_screen": "LED neon: Class 2, 12 or 24 V DC | Less energy, no gas or mercury | Watch cut ends, supplies, voltage drop",
+      "says": "LED neon, often called neon flex, is an LED strip in a diffused silicone or PVC jacket that looks like a glowing tube. It runs on Class 2 low voltage, commonly 12 or 24 volts DC, not thousands. It uses much less energy, has no gas or mercury, and is far less fragile. Its own failure points: water at cut ends and connectors, mis-sized power supplies, and voltage drop on long runs.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Completed retrofit channel letter: old NST and GTO removed, Class 2 LED power supply in its enclosure, LED modules inside the letter; close-up of the retrofit marking label applied inside.",
+      "on_screen": "Listed kit | Remove unused HV parts | Class 2 supply, disconnect stays | Retrofit label | Drain holes open",
+      "says": "Here's a finished channel-letter retrofit. A listed retrofit kit for signs, installed per its instructions. The old transformer, GTO, boots and PK housings removed, because abandoned high-voltage parts confuse the next tech. A Class 2 LED supply in a proper enclosure, with the sign disconnect still in place. The retrofit marking label applied where the next person will see it. And drain holes kept open.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew writing up a service order on a tablet beside the letter.",
+      "on_screen": "Recommend LED: repeated SGFP trips, multiple failed units, or less maintenance wanted",
+      "says": "Write it up when there's no lockable disconnect, primary wiring or grounding problems, heat or arcing damage, or work beyond your authorization. And when a sign has repeated SGFP trips, multiple failed units, or the customer wants less maintenance, recommend an LED retrofit. Retrofits change the sign's listing and may need a permit, so they go to a sign specialist.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the retrofitted letter, lit.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Locked out for every repair, a complete parts record, and a listed kit with a label for every retrofit. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Sign shop: broken neon unit (handled with cut-resistant gloves and eye protection), tape measure and caliper, transformer label close-up (blur brand), flexible LED neon sample, and a completed LED retrofit channel letter showing removed NST/GTO, installed Class 2 LED power supply, LED modules or flex, and the retrofit marking label. Do not show any real sign customer's name or logo. Technician performs measuring/photographing while Matthew narrates."
+}

@@ -4,7 +4,7 @@
   "course": "LT1-C02",
   "presenter": "Danny Smith",
   "source": "outline",
-  "target_seconds": 160,
+  "target_seconds": 108,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Inside a service van, Danny with the first-aid kit open on the floor and the fire extinguisher visible on its mount. Medium shot.",
       "on_screen": "General First Aid and Emergency Response",
       "says": "Part of planning every job is knowing what you'll do if somebody gets hurt. Where's the first-aid kit? Where's the extinguisher? What's the address you'd give 911? This course makes sure you're never caught off guard when it matters most.",
-      "seconds": 18
+      "seconds": 16
     },
     {
       "scene": 2,
@@ -28,7 +28,7 @@
       "background": "Staged: a tech on a phone at a store entrance waving in an arriving ambulance (or just pointing the way). Danny voice-over.",
       "on_screen": "Call 911 - give the address - send someone to meet help",
       "says": "You'll learn how to call 911 and what to tell them, and how to direct help to the right spot, like sending someone to meet the ambulance at the door of a big warehouse.",
-      "seconds": 13
+      "seconds": 14
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Montage of training props: gauze and a bandage, a burn dressing, an eyewash bottle, a coat for warmth, a water cooler in shade.",
       "on_screen": "Bleeding - Burns - Eye injuries - Falls - Electrical shock - Heat and cold",
       "says": "Then the injuries we actually see on lighting jobs. Bleeding from glass and sheet metal. Burns from hot lamps. Something in your eye. Falls. First response to an electrical shock, starting with never touching someone who's still in contact. And heat and cold illness.",
-      "seconds": 20
+      "seconds": 18
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Danny pointing to the first-aid kit and extinguisher in the van, then at the shop's wall-mounted kit.",
       "on_screen": "Know where the kit and extinguisher are before you start",
       "says": "You'll also learn where the first-aid kit and fire extinguisher are kept, in the shop and on your truck, and how our incident reporting works after the emergency is handled.",
-      "seconds": 13
+      "seconds": 12
     },
     {
       "scene": 6,
@@ -60,7 +60,7 @@
       "background": "Danny closing the van door, medium shot.",
       "on_screen": "Start Lesson 1",
       "says": "Take this one seriously. Someday the person you help may be your partner on the truck. Now start the first lesson, and take each quiz as you go.",
-      "seconds": 12
+      "seconds": 11
     }
   ],
   "production_notes": "Course overview written from the outline only; the lessons are not written yet. Check all first-aid content against the final lessons and current first-aid guidance before production. Do not demonstrate CPR or AED use. No real 911 call footage; staged only. No customer logos."

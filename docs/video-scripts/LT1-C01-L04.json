@@ -4,7 +4,7 @@
   "course": "LT1-C01",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 270,
+  "target_seconds": 201,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Electrical room. Danny stands outside a floor-taped area in front of a closed panelboard. Medium shot.",
       "on_screen": "Electrical Shock & Arc-Flash Awareness",
       "says": "This lesson is about why we plan every job around one fact: electricity in a building can kill you. Not just big switchgear. The 120 and 277 volt lighting circuits you'll be around every day are more than enough.",
-      "seconds": 17
+      "seconds": 16
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Simple animation: a figure on a ladder touching a fixture wire with one hand, the other hand on a metal ceiling grid; current path highlighted.",
       "on_screen": "Current through your body causes the injury",
       "says": "Current flows when your body becomes part of the circuit. One hand on a live wire, the other hand or your feet on something grounded. A metal ceiling grid, conduit, a damp floor, a ladder with metal rails. It's the current through you that does the damage. Voltage is what pushes it.",
-      "seconds": 22
+      "seconds": 21
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Animated scale graphic of milliamp levels; Danny voice-over.",
       "on_screen": "~5 mA startle | 6-30 mA can't let go | 50-150 mA breathing may stop | 20-amp breaker trips at 20,000 mA",
       "says": "It doesn't take much. Around 5 milliamps startles you, and a startle on a ladder causes falls. Somewhere between 6 and 30, you may not be able to let go. At 50 to 150, breathing can stop. Now compare: a 20-amp breaker trips at 20,000 milliamps. The breaker protects the wiring, not you. A GFCI trips at 4 to 6, but most lighting circuits don't have one.",
-      "seconds": 30
+      "seconds": 27
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Close-up on Danny.",
       "on_screen": "Someone being shocked? Don't touch them. Call 911.",
       "says": "If someone is being shocked, do not touch them. De-energize the circuit if you can do it quickly and safely. Use a dry, nonconductive object to separate them only if there's no other option and it's safe. Call 911. Start CPR or use an AED if you're trained and they're not breathing. And anyone who gets shocked gets a medical evaluation.",
-      "seconds": 25
+      "seconds": 24
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Licensed stock footage or animation of an arc-flash test: flash, blast, flying debris. Danny voice-over.",
       "on_screen": "Arc flash: ~35,000 F, blast, molten metal, blinding light",
       "says": "Now arc flash. That's current jumping through the air, say when a tool slips in a panel or a meter on the wrong setting touches a live bus. The arc is commonly cited around 35,000 degrees Fahrenheit. It burns from several feet away, sets clothing on fire, and the blast can throw a worker and launch molten metal. It happens most inside panels and disconnects.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "A qualified electrician stretches a tape measure from the panel to a line of floor tape 3 ft 6 in out. Danny on camera beside the tape line.",
       "on_screen": "Limited approach boundary: 3 ft 6 in (about 50-750 V, fixed parts)",
       "says": "NFPA 70E draws boundaries around exposed live parts. The limited approach boundary, for common building voltages, is 3 feet 6 inches from fixed parts and 10 feet from movable conductors like overhead lines. Unqualified people stay outside it unless a qualified person escorts and advises them. Closer in is the restricted boundary. You never cross that.",
-      "seconds": 27
+      "seconds": 22
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Close-up of an arc-flash label on the panel; electrician points to each line. Danny voice-over.",
       "on_screen": "Label: voltage - arc flash boundary - incident energy or PPE category - approach boundaries - study date",
       "says": "This is an arc-flash label. It can show the voltage, the arc flash boundary, the incident energy or PPE category, the approach boundaries and the study date. It's telling you how dangerous this equipment is with the cover off. Inside the arc flash boundary, arc-rated PPE is required. For you at LT1, it means one thing: I stay outside this line.",
-      "seconds": 27
+      "seconds": 24
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Danny standing to the side of the panel as a qualified electrician operates a disconnect, demonstrating position.",
       "on_screen": "Treat every conductor as live until locked out and tested",
       "says": "What you can do right now. Treat everything as live until it's locked out and tested. Never take off a panel cover or reach into an open panel. Don't operate a breaker that's damaged, hot or smells burnt. Report it. Stand to the side when a disconnect is operated. Watch for buzzing, discoloration and melted insulation. Keep metal tools and tapes away from live parts.",
-      "seconds": 29
+      "seconds": 26
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny outside the taped area, medium shot.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "You're unqualified for energized work at LT1, and that's how it should be. Your work starts after lockout and testing. See an open panel? Stay back and tell your supervisor. Now read the lesson and take the quiz.",
-      "seconds": 16
+      "seconds": 15
     }
   ],
   "production_notes": "Panel stays closed with the dead front on during filming unless a qualified electrician is in full PPE; preferred: closed panel and a de-energized training panel. Arc-flash footage must be licensed stock or animation. Use a generic arc-flash label (no customer or study firm names). The qualified electrician operating the disconnect is shown for positioning only."

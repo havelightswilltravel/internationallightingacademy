@@ -96,8 +96,9 @@ That call takes one minute and gives your supervisor everything they need.
 - **Do not guess.** Guessing is how people get hurt and how equipment gets destroyed.
 - **Do not let pressure decide for you.** Not the schedule, not the customer, not your pride, and not
   a crew member who says "just do it."
-- **Do not leave without telling anyone.** Calling a job is done with the site contact informed and
-  your supervisor's buy-off.
+- **Do not leave without telling anyone.** Stopping for safety needs no one's permission, but the site
+  contact and your supervisor are told right away. Calling a job for efficiency or quality reasons needs
+  your supervisor's buy-off first.
 - **Do not hide it** at the end of the day. If you stopped, write it on the work order.
 
 ## Boots on the Ground Drive the Training

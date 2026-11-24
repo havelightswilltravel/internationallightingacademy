@@ -4,7 +4,7 @@
   "course": "LT1-C03",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 295,
+  "target_seconds": 216,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Shop yard. A tailgate with the fall protection kit laid out: harness with relief steps, 6-ft shock-absorbing lanyard, double-leg lanyard, self-retracting lifeline, tagged engineered anchor. Scissor lift and boom lift in the background.",
       "on_screen": "Job Mindset: working at height",
       "says": "Job Mindset for work at height. The hazard is a fall, and the order of controls matters. First, eliminate it: work from the ground, lower the fixture, or use a lift with guardrails. Then guardrails, then restraint, and fall arrest last. Plan it before you leave: which anchor, enough clearance below, the right harness and lanyard, a trained operator, a spotter, and a rescue plan.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Danny at the tailgate, close-up.",
       "on_screen": "Our rule: fall over 4 ft = guardrail or harness and lanyard",
       "says": "When is fall protection required? OSHA's trigger is 4 feet in general industry and 6 feet in construction. Our handbook keeps it simple: any time there's a potential fall of more than four feet, a guardrail or a harness and lanyard must be used. On service calls, treat 4 feet as the rule. That means mezzanines, roofs, catwalks, open platforms and lifts.",
-      "seconds": 27
+      "seconds": 25
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Graphic of three panels: guardrail, short restraint lanyard that stops short of an edge, arrest system catching a fall. Danny voice-over.",
       "on_screen": "Prevention - Restraint - Arrest",
       "says": "Three ways to protect against a fall. Prevention, like guardrails and hole covers, protects everyone without them doing anything. Restraint is a harness and lanyard rigged short enough that you can't reach the edge. Our policy calls for restraint at open platform edges wherever it can be rigged. Arrest stops you after you fall. And a self-retracting lifeline isn't restraint unless you still can't reach the edge fully extended.",
-      "seconds": 30
+      "seconds": 28
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Danny touches each item on the tailgate as he names it: tagged anchor, harness, lanyard with shock pack, then holds up a rescue plan sheet.",
       "on_screen": "A-Anchorage 5,000 lb  B-Body harness  C-Connector  D-Deceleration and rescue",
       "says": "A personal fall arrest system is A, B, C, D. Anchorage: holds 5,000 pounds per worker, engineered anchors are tagged, and never conduit, sprinkler pipe, fixtures or ductwork. Body: a full-body harness with relief steps installed. Never a body belt. Connector: every arrest lanyard has a shock absorber, locking hooks only. Deceleration, descent and rescue: rescue has to come fast.",
-      "seconds": 28
+      "seconds": 24
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Animated stack graphic beside a mezzanine edge: 6 ft lanyard + 3.5 ft stretch + 6 ft to feet + 3 ft margin = 18.5 ft.",
       "on_screen": "6 ft lanyard needs 18 1/2 ft below the anchor",
       "says": "Here's our 18 and a half foot rule. With a 6-foot lanyard, your tie-off point has to be at least 18 and a half feet above the level below. Six feet of lanyard, three and a half of shock absorber stretch, six from D-ring to your feet, three of margin. Closer than that, you may need restraint, a short-clearance SRL, a higher anchor or a lift. Check the maker's clearance chart.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Two volunteers put on harnesses; Danny checks the back D-ring position, chest strap, and slides a flat hand under a leg strap.",
       "on_screen": "D-ring between shoulder blades. Chest strap mid-chest. Leg straps snug.",
       "says": "Fit check. Back D-ring centered between your shoulder blades. Chest strap at mid-chest. Leg straps snug: a flat hand, about three fingers, fits under. No twisted webbing. Use the back D-ring for fall arrest. And any harness, lanyard or SRL that has stopped a fall, shows a deployed impact indicator, or fails inspection comes out of service right now.",
-      "seconds": 27
+      "seconds": 24
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Walk-around of a scissor lift and a boom lift: Danny points to the toe boards, the gate, and the platform anchor point. Stationary lifts, nobody operating.",
       "on_screen": "Group A: scissor, mast. Group B: boom, bucket truck.",
       "says": "Lifts, also called MEWPs. Group A, like scissor lifts, keep the platform inside the tipping lines. Group B, like boom lifts and bucket trucks, can reach beyond them. On a boom or bucket, wear a harness at all times, clipped to the platform's anchor point, never a nearby structure. On a scissor, the guardrails are your protection. Keep the gate closed.",
-      "seconds": 27
+      "seconds": 24
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Danny beside the boom lift, close-up.",
       "on_screen": "No lift operation until trained, familiarized and authorized",
       "says": "And the rule that matters most: you may not operate a lift until you're trained, familiarized on that model, and authorized. Inspect every lift before use. Never put a ladder on a platform or stand on the rails. Stay at least 10 feet from power lines up to 50 kV. As a ground worker, keep the area clear, spot when asked, and never stand under a raised platform.",
-      "seconds": 28
+      "seconds": 27
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny at the tailgate, medium shot.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "Four feet on service work. Eliminate, guard, restrain, then arrest. Check your clearance before you clip in. Now read the lesson and take the quiz.",
-      "seconds": 11
+      "seconds": 10
     }
   ],
   "production_notes": "Equipment props: full-body harness with relief steps, 6-ft shock-absorbing lanyard, double-leg lanyard, SRL, tagged engineered anchor. Lifts stay parked and lowered; no operation on camera. The 18 1/2 ft graphic must match the lesson's table exactly. Volunteers' fit check performed by a competent trainer."

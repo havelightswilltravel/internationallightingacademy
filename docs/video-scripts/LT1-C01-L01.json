@@ -4,7 +4,7 @@
   "course": "LT1-C01",
   "presenter": "Kyle McClelland",
   "source": "lesson",
-  "target_seconds": 270,
+  "target_seconds": 196,
   "scenes": [
     {
       "scene": 1,
@@ -20,7 +20,7 @@
       "background": "Kyle walking past a crew loading a van, tracking shot.",
       "on_screen": "Safety culture = what you do when nobody is watching",
       "says": "A safety culture is what people do when nobody is watching. Here, it means we plan the job before we start it. We report near misses so the next person doesn't get hurt. We never assume a circuit is dead. We test it. And production never outranks safety. If the schedule and safety conflict, safety wins, and you call your supervisor.",
-      "seconds": 26
+      "seconds": 24
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Close-up on Kyle, direct to camera.",
       "on_screen": "You are not qualified to work on or near exposed energized parts",
       "says": "One rule for you, starting today. As an entry-level technician, you are not qualified to work on or near exposed energized parts. If a task would require it, stop and get your supervisor. No exceptions.",
-      "seconds": 15
+      "seconds": 14
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Customer warehouse aisle with high-bay fixtures, before work starts. A senior tech and a new hire stand with a ladder still on its side. Kyle voice-over.",
       "on_screen": "The Hazard Hunt: 2 minutes, top to bottom",
       "says": "Now let's walk a real job. Before you set up a ladder or open a fixture, take two minutes and scan the area, top to bottom. We call it the hazard hunt. Watch our senior tech do it out loud.",
-      "seconds": 15
+      "seconds": 16
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Senior tech points up at a fixture with a cracked lens next to sprinkler pipe, then down at a wet floor and a forklift aisle, then at a ladder with a missing foot. Presenter voice-over; quick cuts on each hazard.",
       "on_screen": "1. Overhead  2. At the fixture  3. Working height  4. Floor  5. Surroundings  6. People",
       "says": "Overhead: pipes, ductwork, cable trays, open junction boxes. At the fixture: a cracked lens, burn marks, a burning smell, dangling wires. Working height: is this ladder right for the job? That one's missing a foot, so it's tagged out. Floor: level, dry, solid? Here it's wet, and there's a forklift aisle. Surroundings: is the panel reachable? That one's open. And people: who needs to know the lights are going off?",
-      "seconds": 30
+      "seconds": 28
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Crew of three in a tight circle by the van for a pre-task huddle, clipboard with the pre-task plan. Kyle voice-over.",
       "on_screen": "Pre-task plan: Steps? What can go wrong? Controls? Who do we call?",
       "says": "Then the crew does the pre-task plan, also called a job hazard analysis. It's short. What are the steps? What can go wrong at each step? What will we do to prevent it? And who do we call, and where do we go, if someone gets hurt? Fill it out honestly, and update it when anything changes.",
-      "seconds": 24
+      "seconds": 23
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Kyle in front of a whiteboard with an inverted pyramid drawn on it, medium shot.",
       "on_screen": "Elimination > Substitution > Engineering > Administrative > PPE",
       "says": "When we fix a hazard, we start at the top of the hierarchy of controls. Eliminate it, like de-energizing the circuit. Substitute something safer, like a lift instead of a tall ladder. Use engineering controls like barriers and covers. Then procedures and training. PPE is last. It's the last line of defense, not the first. That's why lockout/tagout is the foundation of what we do.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Back in the warehouse aisle. A tech starts to climb; another tech raises a hand. Kyle voice-over, then cut to Kyle on camera.",
       "on_screen": "\"Stop, I have a safety concern.\"",
       "says": "Every person here has the authority and the duty to stop work, from your first day. An unexpected voltage reading. A damaged ladder or meter. Someone without their PPE. Anything that makes you uneasy. Say it calmly: Stop, I have a safety concern. Make the area safe if you can, explain what you saw, call your supervisor. Nobody gets disciplined for a good-faith stop.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Shop floor, close-up on Kyle.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "So: scan top to bottom before every task. Plan the job. De-energizing beats PPE every time. And if something's wrong, stop the work. Now read the lesson and take the quiz.",
-      "seconds": 14
+      "seconds": 12
     }
   ],
   "production_notes": "Senior tech performs the hazard hunt on camera; Kyle narrates scenes 4-6 and 8 as voice-over. Staged hazards: open panel (cover removed by a qualified person, area kept clear, nobody approaches), wet floor without a sign, marked forklift aisle, cracked lens, ladder with a missing foot carrying a DO NOT USE tag. Pre-task plan form as a prop. No customer logos in the warehouse."

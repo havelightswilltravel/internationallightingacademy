@@ -1,0 +1,59 @@
+{
+  "vid": "LT3-C06-OVERVIEW",
+  "title": "Electrical Safety and Arc-Flash Protection, Part 1: Awareness (course overview video)",
+  "course": "LT3-C06",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 123,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Building electrical room; a lighting panelboard with an arc-flash label, door closed. Floor tape marks a boundary in front of it. Danny standing outside the tape, medium shot. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Electrical Safety and Arc-Flash Protection, Part 1",
+      "says": "In LT3 you'll spend more time around panels, breakers and live circuits than ever before. So before you do, we're going to make sure you know exactly where the danger is, and where you stand. This course is about awareness. It's the foundation for everything else you do near energized equipment.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the floor tape lines; on-screen labels for the arc flash, limited and restricted approach boundaries.",
+      "on_screen": "Arc flash boundary | Limited approach | Restricted approach",
+      "says": "First, boundaries. NFPA 70E draws lines around exposed energized parts. The arc flash boundary, where an arc could cause a second-degree burn. The limited approach boundary, which unqualified people stay outside of unless a qualified person escorts them. And the restricted approach boundary, which only qualified people with the right PPE and planning ever cross.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up of an arc-flash label on the panel; fields highlighted one at a time.",
+      "on_screen": "Read the label: voltage | boundary | incident energy or PPE category",
+      "says": "Next, arc-flash labels and PPE categories. You'll learn to read a label: the voltage, the arc flash boundary, the incident energy or the PPE category, and the approach boundaries. That label tells you how dangerous the equipment is with the cover off, and whether the PPE you've been issued covers it.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Tech applies a lock and tag at a lighting breaker, then tests a meter on a known source, at the circuit, and on the known source again.",
+      "on_screen": "De-energize first. Test before touch.",
+      "says": "Then, when work must be de-energized, which for our company is the normal way we work, and how test before touch protects you: lockout, then live-dead-live with a meter you've checked. A circuit isn't dead because a breaker's off or a sniffer stays quiet. It's dead when you've proven it.",
+      "seconds": 20
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Training room: a mannequin on the floor near a training panel; a trainee stops short, looks for the disconnect, then calls 911 on a phone.",
+      "on_screen": "Shock or arc flash: don't touch them. Kill the power if safe. Call 911.",
+      "says": "And finally, first response. If someone's being shocked, don't touch them. De-energize if you can do it quickly and safely, call 911, and start CPR or use an AED if you're trained and they're not breathing. Anyone who's been shocked needs medical evaluation, even if they feel fine. You'll learn what to do after an arc flash too.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny to camera outside the taped boundary.",
+      "on_screen": "Know the line. Stay on the right side of it.",
+      "says": "Know the line, and stay on the right side of it unless you're qualified, equipped and authorized. If you're ever unsure whether you should be inside a boundary, you shouldn't be. Stop and call your supervisor. Now work through the course lessons and take the quizzes.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "SOURCE: outline only; the course is not written yet (outline refers to the 'Electrical Safety Module' tab). Boundary definitions and shock first response follow LT1-C01 Lesson 4; check every statement against the LT3-C06 lessons when written, including any company PPE categories, which this script intentionally does not list. Use a real-looking but generic arc-flash label (no customer or study firm names). Any arc-flash test footage must be licensed stock or animation."
+}

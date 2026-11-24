@@ -4,7 +4,7 @@
   "course": "LT4-C11",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 239,
+  "target_seconds": 242,
   "scenes": [
     {
       "scene": 1,
@@ -82,9 +82,9 @@
       "scene": 10,
       "speaker": "Danny Smith",
       "background": "Danny at the tailgate, medium close-up.",
-      "on_screen": "Now read the lesson and take the quiz",
-      "says": "Disconnect first. Justify honestly. Fill out every part. And say no when it isn't safe. Now read the lesson and take the quiz.",
-      "seconds": 9
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator",
+      "says": "Disconnect first. Justify honestly. Fill out every part. And say no when it isn't safe. Now read the lesson and take the quiz, then show your evaluator a completed permit.",
+      "seconds": 12
     }
   ],
   "production_notes": "Job-site tailgate setting (generic site, no customer branding). Props: printed company Energized Electrical Work Permit (Worksheet Parts I-III and Energized Work Checklist) with example values only; barricade tape. Show one request returned ('schedule it after hours'/weekend outage) per the lesson's worked example. The company stance on energized lighting work is company-specific; licensee companies must decide their own (said in scene 5). No energized work shown on camera."

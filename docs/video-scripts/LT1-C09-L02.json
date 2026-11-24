@@ -4,7 +4,7 @@
   "course": "LT1-C09",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 270,
+  "target_seconds": 176,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Training board on a bench: energized receptacle, a fixture whip, a run of metal conduit, a shielded cable, a pair of side-by-side conductors. Matthew holding a pen-style non-contact voltage tester. Medium shot.",
       "on_screen": "Job Mindset: using a non-contact tester",
       "says": "Job Mindset for voltage testing. The hazard is a shock from a wire you believed was dead. The control is lockout plus a real meter test, not a beep. Plan for it: pack your NCVT with a fresh battery, your meter, and know where you'll find a known live source to prove them. And think ahead: what will you do if the tester says nothing?",
-      "seconds": 25
+      "seconds": 26
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Close-up of the NCVT tip glowing near a wire's insulation.",
       "on_screen": "An NCVT senses an electric field. It doesn't measure voltage.",
       "says": "A non-contact voltage tester, a volt stick, senses the electric field around a live AC wire through the insulation. Above its threshold, it beeps, flashes or vibrates. It doesn't touch metal and it doesn't measure how much voltage is there. It's good for a quick first check, finding which wire in a bundle might be live, and warning you about unexpected voltage.",
-      "seconds": 27
+      "seconds": 25
     },
     {
       "scene": 3,
@@ -36,7 +36,7 @@
       "background": "Tester held against live wire inside metal conduit: silent. Then against a live shielded cable: silent. Red \"LIVE\" label on each. Matthew voice-over.",
       "on_screen": "Live, but no alert: metal conduit, MC armor, shielded cable",
       "says": "Now the failures. This wire inside metal conduit is live. No alert. Grounded metal shields the field. Same with MC cable armor and metal fixture channels. This shielded cable is live too. Nothing. Low voltage and DC? Most testers won't see them at all. And standing on a fiberglass ladder in insulated gloves can weaken the signal.",
-      "seconds": 25
+      "seconds": 23
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Tester alerts on a dead wire lying next to a live one (labels DEAD and LIVE). Then a tester with a dead battery held to the live receptacle: silent, no warning. Matthew voice-over.",
       "on_screen": "Dead wire, false alert. Dead battery, silent failure.",
       "says": "This wire's dead, but it's next to a live one, and the tester alerts anyway. That's a false alert. And here's the scary one. Dead battery, held to a live receptacle. Silence. Many testers can't tell you they've failed. A false no-voltage is the most dangerous reading you can get.",
-      "seconds": 22
+      "seconds": 20
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Close-up on Matthew.",
       "on_screen": "An NCVT is NEVER used to verify absence of voltage",
       "says": "So here's the rule. An NCVT is never used to verify absence of voltage before you touch conductors. That takes a contact tester or meter, used live-dead-live, which is our next lessons. Treat any alert as energized until a meter proves otherwise. Treat no alert as unknown, not dead. The stick didn't beep is the last thing said before a lot of shocks.",
-      "seconds": 27
+      "seconds": 25
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Matthew at the bench with a two-pole tester, a plug-in receptacle tester and a DMM lined up.",
       "on_screen": "Can verify: CAT-rated contact tester or DMM, live-dead-live. Can't: NCVT, plug-in receptacle tester.",
       "says": "Other testers you'll see. A CAT-rated two-pole electronic tester can verify absence of voltage, used live-dead-live. A solenoid tester only if it's CAT-rated, in good shape and allowed by company policy. A three-light plug-in receptacle tester can't verify anything. And your digital multimeter can, used live-dead-live. If your NCVT has two sensitivity modes, keep it on the setting your supervisor specifies.",
-      "seconds": 28
+      "seconds": 24
     },
     {
       "scene": 8,

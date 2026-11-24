@@ -4,7 +4,7 @@
   "course": "LT5-C03",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 194,
+  "target_seconds": 195,
   "scenes": [
     {
       "scene": 1,
@@ -74,9 +74,9 @@
       "scene": 9,
       "speaker": "Matthew Berrett",
       "background": "Matthew at the table, medium close-up.",
-      "on_screen": "Code-compliant can still hurt you: LOTO + verify",
-      "says": "One more thing. The NEC governs how installations are built. NFPA 70E and OSHA govern how you work on them. A code-compliant installation can still hurt you if you work on it energized. De-energize, lock out and verify absence of voltage. Now read the lesson and take the quiz.",
-      "seconds": 20
+      "on_screen": "Code-compliant can still hurt you: LOTO + verify\nNow read the lesson, take the quiz, then show your evaluator",
+      "says": "One more thing. The NEC governs how installations are built. NFPA 70E and OSHA govern how you work on them. A code-compliant installation can still hurt you if you work on it energized. De-energize, lock out and verify absence of voltage. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 21
     }
   ],
   "production_notes": "Knowledge lesson; scene 1 ties code lookups to planning. Props: tabbed 2023 NEC (show cover; avoid long verbatim on-screen quotes of NFPA text), notepad, work order. The video_suggestion calls for a licensed electrician working three questions live; this script works one question with Matthew as presenter and the tech as a non-speaking participant. The other two questions can be added as b-roll if a licensed electrician is available."

@@ -4,7 +4,7 @@
   "course": "LT5-C02",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 193,
+  "target_seconds": 194,
   "scenes": [
     {
       "scene": 1,
@@ -74,9 +74,9 @@
       "scene": 9,
       "speaker": "Matthew Berrett",
       "background": "Training room, wide shot.",
-      "on_screen": "Now read the lesson and take the quiz",
-      "says": "Predict, check before ordering, verify, explain. Now read the lesson, work both examples yourself, and take the quiz.",
-      "seconds": 8
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator",
+      "says": "Predict, check before ordering, verify, explain. Now read the lesson, work both examples yourself, and take the quiz, then show your evaluator.",
+      "seconds": 9
     }
   ],
   "production_notes": "Calculation lesson with a field segment; scene 1 is a short Job Mindset framing (planning before ordering + LOTO before opening fixtures). The video_suggestion specifies a female senior technician performing on camera; presenter voice-over. Props: tape measure, calculator app, printed generic CU table, whiteboard, calibrated meter, painter's tape grid. All numbers are the lesson's example values."

@@ -4,7 +4,7 @@
   "course": "LT1-C04",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 300,
+  "target_seconds": 207,
   "scenes": [
     {
       "scene": 1,
@@ -20,7 +20,7 @@
       "background": "Close-up on Danny.",
       "on_screen": "Sunburn - Heat rash - Heat cramps",
       "says": "Heat illness goes from mild to deadly. Sunburn matters, because burned skin can't release heat well, so it raises your risk the next day too. Heat rash is red bumps where sweat stays on the skin. Heat cramps are painful spasms after heavy sweating. Stop, rest in the shade, drink water or a sports drink. Cramps are an early warning.",
-      "seconds": 25
+      "seconds": 24
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Staged: tech in the bucket rubs his head, snaps at the ground worker. Ground worker calls up; bucket comes down under control. Danny voice-over.",
       "on_screen": "Heat exhaustion: heavy sweat, clammy skin, dizzy, weak, irritable, fast weak pulse",
       "says": "Watch this. He's dizzy and irritable, and his buddy noticed. That's heat exhaustion: heavy sweating, cool clammy skin, headache, dizziness, weakness, nausea, mood changes, a fast weak pulse. Stop work. Bring the bucket down under control. Someone dizzy shouldn't climb down a ladder alone.",
-      "seconds": 23
+      "seconds": 18
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Crew moves him into the van cab with the AC running, removes his hard hat and harness, loosens his shirt, hands him water, wets a cloth. Danny voice-over.",
       "on_screen": "Cool place - Loosen clothing - Sip cool water - Wet cloths, fan - Stay with them",
       "says": "Move him somewhere cool, like the cab with the AC on. Loosen or take off heavy clothing, the harness and the hard hat. Cool water to sip if he's alert and not vomiting. Wet cloths and fanning. Stay with him. If he gets worse, doesn't improve within about an hour, or can't keep water down, get medical care. Either way, he's done with hard work today.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Second staged scenario: a worker sitting on the curb, confused, slurring. The lead on the phone with 911 while two crew members soak him with cold water and put ice packs at his neck and armpits. Danny voice-over.",
       "on_screen": "Any change in mental state = heat stroke until proven otherwise. Call 911.",
       "says": "This is different. He's confused and slurring. That's heat stroke, a medical emergency. Any change in mental state in the heat is heat stroke until proven otherwise. Call 911 now. Cool him fast. Shade or AC, outer clothes off, soak his skin with cold water, ice packs on the neck, armpits and groin, and fan him. Keep cooling until help arrives.",
-      "seconds": 27
+      "seconds": 24
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Close-up on Danny.",
       "on_screen": "Heat stroke: nothing to drink if confused. Cool aggressively.",
       "says": "Don't give anything to drink if they're confused, unconscious or vomiting. They may choke. And don't wait for dry skin. A worker doing hard labor can still be sweating with heat stroke. Our old slides said to sprinkle water lightly and raise the feet. That's been replaced. Cool aggressively. Then tell the paramedics how long you've been cooling, and report it.",
-      "seconds": 27
+      "seconds": 24
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Van kit on the tailgate: full-brim hard hat, UV-rated safety glasses, sunscreen, long-sleeve shirt. Danny picks up each.",
       "on_screen": "Full brim - Long sleeves - SPF 30+ every 2 hours - UV-blocking glasses",
       "says": "Sun protection. Cover up with light, breathable long sleeves. A full-brim hard hat shades your ears and neck. Ball caps don't. Broad-spectrum sunscreen, SPF 30 or higher, 15 minutes before you go out and again at least every two hours. Safety glasses that block 99 to 100 percent of UV. Up to about 80 percent of UV gets through clouds, and the parking lot reflects it back up at you.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Parking lot at dusk, tech in long sleeves spraying repellent on the outside of his clothes, then looking into a pole hand hole with a flashlight before reaching in.",
       "on_screen": "DEET or picaridin. Look before you reach.",
       "says": "Insects. We do a lot of outdoor work at dusk, right when mosquitoes are out, and they can carry West Nile virus. Long sleeves, pants and socks. Repellent with DEET or picaridin on exposed skin and the outside of your clothes, never under clothes or on your face. And wasps love fixtures, hand holes and sign cabinets. Look before you open or reach. Allergic? Tell your lead and carry your epinephrine.",
-      "seconds": 30
+      "seconds": 28
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny at the van, close-up.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "Clammy and dizzy, cool them down. Confused, call 911 and cool them fast. Now read the lesson and take the quiz.",
-      "seconds": 9
+      "seconds": 8
     }
   ],
   "production_notes": "Both medical scenarios are staged with actors; no one is actually overheated. Use real cold water and ice packs. Bucket descent shown under control by a trained operator. Generic sunscreen and repellent, labels turned away or unbranded. Dusk scene: tech uses a flashlight to check the hand hole; no live wasps needed."

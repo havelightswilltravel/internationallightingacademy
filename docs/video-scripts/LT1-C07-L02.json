@@ -4,7 +4,7 @@
   "course": "LT1-C07",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 280,
+  "target_seconds": 186,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Warehouse with rows of fluorescent strip fixtures. A crew of four with ladders and lamp boxes near an electrical room. Danny medium shot.",
       "on_screen": "Job Mindset: group lockout",
       "says": "Job Mindset for a crew job. The hazard is the same as always, a live circuit, but with more people there are more ways for it to go wrong. Somebody working under someone else's lock. Somebody leaving with their lock still on. Plan it before you leave: enough locks, a hasp or a group lockbox, which panels and breakers, and who's the lead.",
-      "seconds": 26
+      "seconds": 25
     },
     {
       "scene": 2,
@@ -28,7 +28,7 @@
       "background": "Lead tech locks out several lighting breakers with company locks, drops the keys into a group lockbox, verifies, and writes it up. Danny voice-over.",
       "on_screen": "Group lockbox: lead locks out, keys in the box, verifies and documents",
       "says": "Lots of breakers, like twelve across three panels? Use a group lockbox. The lead locks and tags each breaker with company locks. Those keys go in the lockbox. The lead verifies isolation and absence of voltage and documents it.",
-      "seconds": 17
+      "seconds": 16
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Each of the four crew members clips a personal lock onto the lockbox, one at a time. One tech tests at his own work location. Danny voice-over.",
       "on_screen": "No lock on the box = not protected",
       "says": "Then each worker puts their personal lock on the lockbox before starting work. You should be able to verify, or have explained to you, that the isolation works. Many companies let you test at your own work location. Adding your lock isn't optional. If your lock isn't on it, you're not protected. Never work under someone else's lock alone.",
-      "seconds": 26
+      "seconds": 24
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Shift change: incoming tech puts his lock on the lockbox while the outgoing tech still has his on; then the outgoing tech removes his. They talk through the job.",
       "on_screen": "Shift change: incoming lock on BEFORE outgoing lock off",
       "says": "Shift changes. Protection has to be continuous. The incoming worker puts their lock on before the outgoing worker takes theirs off, so there's never a moment without a lock. And hand off the information: which circuits are locked out, what's done, and any hazards you found.",
-      "seconds": 20
+      "seconds": 18
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "End of day: one lock still on the box. The supervisor checks the site, calls the tech who left early on the phone, walks the area, then fills in a removal record.",
       "on_screen": "Supervisor directs - Worker not on site - Contact the worker - Area safe - Inform before return - Document",
       "says": "Now the end of the day. One lock's still on, and that tech went home early. Only the supervisor directs removal, never a coworker. Confirm the worker isn't at the facility. Make every reasonable effort to reach them. Check that everyone's clear and the fixtures are assembled. Make sure the worker is told before they come back to work. And document it. Never cut a lock yourself.",
-      "seconds": 28
+      "seconds": 27
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Close-up of a fixture with two feeds (normal and emergency) and a contactor panel with a time clock. Danny voice-over.",
       "on_screen": "Lock out ALL feeds. Contactors and controls are not isolation.",
       "says": "Watch for special cases. Fixtures fed by two circuits, like normal and emergency, or inboard and outboard lamps. Lock out every feed and test every conductor. Emergency circuits are often in a separate panel, so notify the building owner first. A contactor or time clock isn't isolation. Lock out the breaker that feeds it. Find a shared neutral? Stop and get your supervisor.",
-      "seconds": 28
+      "seconds": 25
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Back at the panel, close-up on Danny.",
       "on_screen": "\"Just for a minute\" without your lock? No.",
       "says": "Stop and call your supervisor if the breaker isn't labeled or doesn't match, if fixtures stay on or other things go off, if you measure voltage after lockout, if the lockout device doesn't fit right, or if anyone asks you to work without your lock just for a minute. That last one, the answer is always no. And LT1s never do tag-only lockouts.",
-      "seconds": 27
+      "seconds": 25
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Crew packing up, Danny medium shot.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "Your lock, on every job, every time. Now read the lesson and take the quiz.",
-      "seconds": 7
+      "seconds": 6
     }
   ],
   "production_notes": "Crew of four on camera; Danny narrates. Props: hasp, group lockbox, company locks, personal locks with tags, lock-removal record form. Breakers operated by a qualified person; panel dead fronts stay on. The early-leaving tech's phone call is staged. Generic warehouse, no customer branding."

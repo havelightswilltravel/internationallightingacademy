@@ -4,7 +4,7 @@
   "course": "LT1-C12",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 0,
+  "target_seconds": 194,
   "scenes": [
     {
       "scene": 1,
@@ -68,7 +68,7 @@
       "background": "Whiteboard: 100 x 0.458 kW x 4,000 h = 183,200 kWh; 100 x 0.150 kW x 4,000 h = 60,000 kWh.",
       "on_screen": "kWh = kW x hours\nSavings: 123,200 kWh per year",
       "says": "Customers pay for energy: kilowatts times hours. A warehouse swaps 100 metal halide fixtures drawing 458 watts each for 150 watt LEDs, running 4,000 hours a year. Old: 183,200 kilowatt-hours. New: 60,000. That saves 123,200 kilowatt-hours a year. That's how retrofits pay for themselves, and why customers care about watts.",
-      "seconds": 26
+      "seconds": 20
     },
     {
       "scene": 9,

@@ -4,7 +4,7 @@
   "course": "LT1-C01",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 290,
+  "target_seconds": 208,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Shop workbench, morning. Danny beside a tub of PPE: hard hats, glasses, gloves, boots, hi-vis vest. Medium shot.",
       "on_screen": "Job Mindset: PPE check",
       "says": "Job Mindset first. PPE is the last line of defense, so lock out and plan out the hazard before you count on gear. Then check your PPE at the shop, not on the ladder. Pack a spare pair of dry gloves, more if it's rain, snow or heat. If something fails inspection on site and you have no spare, you're stuck. Don't get caught off guard.",
-      "seconds": 25
+      "seconds": 26
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Overhead shot of the bench with each item laid out and labeled.",
       "on_screen": "Hard hat: Class E | Glasses: Z87 | Boots: ASTM F2413, EH | Vest: ANSI 107",
       "says": "Here's the standard kit for a lighting call. A Class E hard hat. Safety glasses marked Z87. Cut-resistant work gloves, kept dry. Safety boots, often with an EH rating. A hi-vis vest for warehouses and parking lots. Hearing protection around loud equipment. PPE only works if it's the right type, in good shape, and worn right.",
-      "seconds": 26
+      "seconds": 22
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Senior tech at the bench inspecting a hard hat: shell, gentle brim flex, suspension, date stamp. Close-ups. Danny voice-over.",
       "on_screen": "Class E = tested to 20,000 V. Never Class C or vented for electrical work.",
       "says": "Hard hat first. We use Class E, tested to 20,000 volts. Never a Class C or a vented hat for electrical work. Check the shell for cracks, dents and a chalky, faded surface. That's UV damage. Flex the brim gently. Brittle means it's done. Check the suspension straps and clips. Find the date stamp and follow the maker's replacement interval. No drilling, no paint, no solvent stickers.",
-      "seconds": 30
+      "seconds": 27
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Close-ups: glasses held to the light, gloves turned inside out, boot soles flexed. Danny voice-over.",
       "on_screen": "Glasses - Gloves - Boots",
       "says": "Glasses: look for the Z87 mark. Replace them if they're scratched enough to affect your vision, cracked, or missing side shields. Clean with lens cleaner, not your shirt. Gloves: holes, cuts, worn fingertips, soaked-in oil. Remember, regular work gloves give you no electrical protection. Boots: worn-through or separated soles, punctures, exposed steel. Wet conditions and worn soles reduce an EH rating.",
-      "seconds": 30
+      "seconds": 24
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Danny at the bench holding a soaked glove next to a dry spare pair.",
       "on_screen": "Wet gloves are an accident waiting to happen",
       "says": "Now, dry gloves, every time. Your skin is your main resistance to current. Water and sweat take that away, so the same voltage pushes far more current through you. Wet gloves are an accident waiting to happen. Change them the moment they get wet. Wet hands, wet gloves or standing in water is a stop-work condition for electrical work. And dry gloves never make a live circuit safe. Lock out and verify first.",
-      "seconds": 30
+      "seconds": 29
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Side-by-side on the bench: cracked hard hat, chalky UV-damaged shell, scratched glasses, torn glove, each with a red tag.",
       "on_screen": "Damaged PPE: tag it, tell your supervisor, replace it",
       "says": "Here's what out of service looks like. Cracked shell. Chalky shell. Scratched-up glasses. Torn glove. Damaged PPE comes out of service immediately. Tag it, tell your supervisor, and get a replacement. Don't make do.",
-      "seconds": 16
+      "seconds": 14
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Senior tech puts on each item: hard hat brim forward, glasses snug, removes ring and metal watch, cotton long-sleeve shirt. Danny voice-over.",
       "on_screen": "No synthetics. No jewelry.",
       "says": "Wear it right. Hard hat brim forward unless it's marked for reverse wear, with the suspension snug enough to stay on when you bend. Glasses snug to your face. Long pants and sleeves in cotton, wool or arc-rated material. Polyester and nylon can melt onto your skin in a flash. And take off rings, metal watchbands, bracelets and necklaces. They conduct current.",
-      "seconds": 28
+      "seconds": 25
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "A qualified technician holds a rubber insulating glove in its bag beside leather protectors; shows the air-test motion without performing work. Danny voice-over.",
       "on_screen": "Rubber gloves: trained and authorized workers only",
       "says": "Rubber insulating gloves, hot gloves, are for work that can't be done dead, and only for technicians the company has trained and authorized. They're air-tested before every use. As an LT1, you'll learn to verify absence of voltage only after training, with the required PPE, under direct supervision of a qualified person. You never do energized repair work. Our exact hot-glove rule is in Lesson 5.",
-      "seconds": 29
+      "seconds": 26
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny closing the PPE tub, medium shot.",
       "on_screen": "Store out of sun and heat. Replace, don't repair.",
       "says": "Take care of it. Keep PPE out of the sun and off the dashboard. Glasses in a case. Hot gloves in their bag, cuffs down, never folded. Replace, don't repair. Now read the lesson and take the quiz.",
-      "seconds": 16
+      "seconds": 15
     }
   ],
   "production_notes": "Senior tech performs the inspections on camera; Danny narrates. Props: Class E hard hats (one good, one cracked, one chalky/faded), Z87 glasses (good and badly scratched), cut-resistant gloves (dry, soaked, torn), EH boots, hi-vis vest, red tags. Rubber glove segment shows only, does not perform the air test as a training step; performer must be a trained, authorized technician. No energized equipment in the shot."

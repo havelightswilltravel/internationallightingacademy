@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L05",
+  "title": "See the Whole Job Before You Start",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 208,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Dark parking lot at night beside a pole with a failed fixture head; service truck parked, nothing unloaded yet. Matthew facing camera under a work light, medium shot.",
+      "on_screen": "Job Mindset: Run the Movie Before You Roll the Camera",
+      "says": "A pole light at night means traffic, darkness, overhead lines, a lift and a circuit that might come back on by itself. Good technicians do the job twice: once in their head, once with their hands. Before anything comes off this truck, you should be able to play the whole job like a movie, from parking to driving away, with every hazard, tool and part in it.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer and new tech at the pole. Trainer: 'Close your eyes and tell me the whole job.' The tech counts off steps, then stalls at 'then we take the old head off.' Matthew voice-over.",
+      "on_screen": "\"With what? Where's the lift going? Where's the old head going? What's the wire size? Who's watching traffic?\"",
+      "says": "Watch this. The trainer says, close your eyes and tell me the whole job. He gets six steps in and stalls at, then we take the old head off. With what? Where's the lift going? Where's the old head going? What's the wire size? Who's watching traffic? Those gaps are where people take shortcuts, forget a step or get caught off guard.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holding a work order and project paperwork at the truck tailgate.",
+      "on_screen": "1. Read everything at the shop\n2. Walk the job\n3. Say the sequence out loud\n4. Find the gaps",
+      "says": "Here's how you build the movie. Read everything you were given at the shop, not in the parking lot, and write down your questions. When you arrive, walk the job before you unload. Then say the sequence out loud. For each step: the hazards and controls, what you need, and what has to be true before the next step. Anywhere you say 'and then somehow,' that's a gap.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer and tech walk the lot with flashlights: pointing up at overhead lines and trees, down at curbs and soft ground, and at the panel location.",
+      "on_screen": "Walk it: where the work is | access | hazards | power and controls | space | people",
+      "says": "They walk it together. Where's the work, and what's under it? Access for the lift. Hazards: overhead lines, trees, curbs, slopes, soft ground, traffic. Power: where's the panel, and are there time clocks or photocells that could turn the light back on? Space: where the old head and packaging go. People: the site contact, deliveries and busy times.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "The tech retells the job; on-screen numbered steps appear over quick shots of each: check-in, walk, cones and beacons, lockout at the panel, lift inspection.",
+      "on_screen": "1 Check in | 2 Walk | 3 Set up the zone | 4 Lock out | 5 Inspect and position lift | 6 Verify dead",
+      "says": "Now he retells it. Check in with the site contact and get approval for the shutdown. Walk the lot. Set up the zone: cones, truck placement, beacons, work lights, hi-vis. Find the circuit and lock it out, and check the controls. Inspect and position the lift, ten feet from lines, spotter. Verify dead at the fixture, live-dead-live, and watch for an HID capacitor.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Continued steps: old head lowered in the platform, new head mounted and sealed, lock removed, photocell covered for the test, light on, zone torn down, photos taken.",
+      "on_screen": "7 Remove old head | 8 Install new | 9 Restore and test | 10 Tear down | 11 Close out",
+      "says": "Remove the old head with tool lanyards and nobody under the platform, and lower it in the platform. Install the new head per the instructions, correct connectors, sealed against water. All clear, remove your lock, and test, covering the photocell if needed. Keep the zone closed until everything's packed. Then photos, counts, notes and tell the site contact.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Quick cut: the job running smoothly, the ground person handing up the next part, no trips back to the truck.",
+      "on_screen": "Safety: If you don't know the next step, you don't know the next hazard.",
+      "says": "Tell that movie before you park, and you'd have the cones, the work lights, the photocell cover and the right connectors on the first trip. If you can't see the whole job, ask your trainer for the full scope before you start. Can you walk me through it start to finish? What does done look like? Because if you don't know the next step, you don't know the next hazard.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the truck tailgate, medium close-up.",
+      "on_screen": "Step | Hazard | Highest control | What I need staged",
+      "says": "The gaps new techs miss most: the end of the job, the controls, where things go, access, the people, and what changes during the job. For tomorrow, write the steps from parking to driving away, with the main hazard, the highest control and what you need staged. Then load the truck from that list. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Night parking-lot shoot: pole with failed head, service truck, cones, beacons, work lights. Lift operated by an authorized crew member, kept well beyond 10 ft of any overhead line; the lockout is on the actual lot lighting circuit. Trainer and new tech are actors; trainer's lines from the video suggestion are spoken on camera. Lesson file: curriculum/levels/LT2/courses/LT2-C13/lessons/05-see-the-whole-job-before-you-start.md."
+}

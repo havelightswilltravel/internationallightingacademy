@@ -4,7 +4,7 @@
   "course": "LT1-C01",
   "presenter": "Matthew Berrett",
   "source": "outline",
-  "target_seconds": 260,
+  "target_seconds": 184,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Shop training room, whiteboard behind Matthew with five numbered blank lines. Medium shot.",
       "on_screen": "The Job Mindset: Safe, Planned, Ahead",
       "says": "This is the most important idea in the whole program, so we teach it on day one. We call it the Job Mindset. It's five habits, and you'll see them at the start of almost every hands-on lesson from here on. They're what separate a technician who just shows up from one the crew trusts.",
-      "seconds": 21
+      "seconds": 22
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Matthew writes \"1. Safety first\" on the whiteboard, then turns to camera.",
       "on_screen": "1. Safety first: find the hazards, then control them",
       "says": "One: safety first. Before any task, name the hazards. On our jobs, that's usually electricity, falls, and people or traffic below you. Then pick your controls from the top of the hierarchy. Eliminate the hazard if you can, like locking out the circuit. Substitute something safer, like a lift for a tall ladder. Then barriers, then procedures. PPE is last, not first.",
-      "seconds": 28
+      "seconds": 25
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Cut to the shop: a tech loading a van from a printed job checklist. Matthew voice-over.",
       "on_screen": "2. Plan the whole job before you leave the shop",
       "says": "Two: plan the whole job before you leave the shop. Walk it in your head, start to finish. What tools? What equipment, which ladder or lift? How many people? What parts? Then plan the worst case. What if the fixture's a different model? What if the breaker isn't labeled? What if a ballast is leaking? Load for that too.",
-      "seconds": 26
+      "seconds": 24
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "On a job: a tech on a ladder finishes one fixture while the ground person is already staging the next ladder and parts. Matthew voice-over.",
       "on_screen": "3. Think several steps ahead",
       "says": "Three: think several steps ahead. While you're finishing this fixture, you already know where the ladder goes next, what parts you'll need there, and where the people below will be. Good crews never stop and wonder what's next. They already know.",
-      "seconds": 18
+      "seconds": 16
     },
     {
       "scene": 5,
@@ -52,7 +52,7 @@
       "background": "Back at the whiteboard, all five lines filled in.",
       "on_screen": "5. Never be caught off guard",
       "says": "Five: never be caught off guard. Surprises happen on every job. A circuit that should be dead tests live. The site contact moves the schedule. The weather turns. The point isn't that nothing goes wrong. It's that you already thought about it, so you stop, stay calm, and handle it safely.",
-      "seconds": 22
+      "seconds": 20
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Matthew at the whiteboard, pointing to an example written on the board: \"Relamp 20 troffers, office, 2nd floor\".",
       "on_screen": "Example: relamp 20 troffers",
       "says": "Here's a quick example. Twenty troffers to relamp in an office. Safety: lock out the lighting circuit, test before touch, cone off below the ladder. Plan: the right lamps plus spares, a recycling box, the right ladder, your lock and meter, work lights. Ahead: which breakers, who to tell. Hands: one up, one staging. Off guard: what if a socket's cracked? Bring sockets.",
-      "seconds": 28
+      "seconds": 25
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Close-up on Matthew.",
       "on_screen": "Common mistake: planning only the easy version of the job",
       "says": "The most common mistake is planning only the easy version of the job. Then something's different on site, there's no part, and the pressure starts to push you toward a shortcut. That's where people get hurt. Planning for the worst case is what keeps you from ever feeling that pressure.",
-      "seconds": 21
+      "seconds": 20
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Matthew at the whiteboard, medium shot.",
       "on_screen": "Safe. Planned. Ahead. Now read the lesson and take the quiz.",
       "says": "Safety first. Plan the whole job. Think ahead. Keep every hand busy. Never be caught off guard. You'll hear these again and again. Now read the lesson and take the quiz.",
-      "seconds": 14
+      "seconds": 12
     }
   ],
   "production_notes": "Written from the outline only; the lesson has not been written yet. Check every example against the final lesson before production, especially the worked relamping example in scene 7 (it should match LT1-C06/C07 procedures). Whiteboard prop with the five habits. B-roll of a two-person crew on a relamp job, no customer logos."

@@ -4,7 +4,7 @@
   "course": "LT1-C05",
   "presenter": "Danny Smith",
   "source": "outline",
-  "target_seconds": 165,
+  "target_seconds": 103,
   "scenes": [
     {
       "scene": 1,
@@ -20,7 +20,7 @@
       "background": "Close-up of fluorescent tubes, a CFL and an HID lamp on a bench.",
       "on_screen": "Every lamp is recycled",
       "says": "First, which lamps contain mercury and why it matters. Fluorescent tubes, compact fluorescents and HID lamps can all contain it. That's why every lamp we remove is recycled, and none of them go in a dumpster.",
-      "seconds": 16
+      "seconds": 14
     },
     {
       "scene": 3,
@@ -36,7 +36,7 @@
       "background": "Tech packing lamps into a box, labeling it, and writing on a log sheet; batteries with taped terminals going into a separate bucket.",
       "on_screen": "Pack - Label - Store - Log",
       "says": "Then packing, labeling, storing and logging lamps, batteries and ballasts so they get to the recycler safely and the paperwork matches what we ship. That includes lithium batteries, which need their own care so they can't short out or start a fire.",
-      "seconds": 18
+      "seconds": 17
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Close-up of two ballast labels side by side: one marked \"No PCBs,\" one with no such label and an old date code.",
       "on_screen": "No \"No PCBs\" label? Treat it as PCB.",
       "says": "A big part of this course is PCB ballasts. You'll learn how to spot one: no No PCBs label, made before 1979, and how to read the date codes. If there's no label, treat it as PCB. PCB ballasts get packed separately and need special disposal paperwork.",
-      "seconds": 20
+      "seconds": 19
     },
     {
       "scene": 6,
@@ -60,7 +60,7 @@
       "background": "Danny in the recycling area, medium shot.",
       "on_screen": "Start Lesson 1",
       "says": "This is a stand-alone course, separate from lockout and relamping, but you'll use it on almost every service call. Now start the first lesson, and take each quiz as you go.",
-      "seconds": 13
+      "seconds": 12
     }
   ],
   "production_notes": "Course overview written from the outline only; lessons not yet written. Check all content against the final lessons and current EPA universal waste and PCB rules before production (the existing LT1-C06 lesson 05 and LT1-C11 lesson 05 cover parts of this). Do not show an actual broken-lamp cleanup with mercury lamps; use props. Ballast labels generic, no manufacturer names."

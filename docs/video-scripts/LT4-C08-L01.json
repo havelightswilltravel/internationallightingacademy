@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C08-L01",
+  "title": "LED Sign Systems & Components",
+  "course": "LT4-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 255,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Sign shop: an open channel letter and a lighted sign cabinet on the bench, power locked out (lock and tag on the bench disconnect). Matthew beside them. Medium shot.",
+      "on_screen": "LED Sign Systems & Components",
+      "says": "LED has replaced neon and fluorescent in most new signs: channel letters, sign cabinets, monument and pylon signs, menu boards. The system is simple once you see it, and knowing each part is how you plan the call, order the right part, and know where the line voltage is before you open anything.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Animation: branch circuit to sign disconnect (with clock/photocell) to Class 2 power supply to parallel module string.",
+      "on_screen": "Line voltage > disconnect > Class 2 supply (12 or 24 V DC) > modules in parallel",
+      "says": "Here's how it's built. Line voltage, 120 or 277, comes through the sign disconnect, usually controlled by a clock or photocell. A Class 2 LED power supply, which techs and our guide often call the transformer, converts it to low-voltage DC, most often 12 or 24 volts constant voltage. Low-voltage leads run to the modules, connected in parallel like beads on a string.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Animation: one module goes dark and the rest stay lit; then a connector breaks and every module beyond it goes dark.",
+      "on_screen": "One bad module: the rest stay lit | One bad wire or connector: everything beyond it goes dark",
+      "says": "Because modules are in parallel, one failed module usually doesn't darken the rest. That's the opposite of neon. But a break in the wire or a failed connector darkens every module beyond that point on the string. Remember that, because it tells you where to look.",
+      "seconds": 18
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Technician inside the open channel letter points to each component as named: modules, power supply, connectors, wire, mounting tape and straps, flex, enclosure. Presenter voice-over.",
+      "on_screen": "Modules | Power supply | Connectors | Wire | Straps/tape | Flex | Enclosures",
+      "says": "Our component list. LED modules: small boards with a few LEDs, a lens and leads. The power supply. Connectors joining the strings to the supply and each other. Low-voltage wire. Straps and adhesive tape holding modules in place. Flex for the line-voltage wiring to the supply. And the indoor or outdoor enclosure protecting the supply and connections.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a corroded connector with green residue, then a module hanging by its leads where tape let go.",
+      "on_screen": "Connectors and wiring fail far more often than supplies or modules",
+      "says": "How they fail. Modules go dead, dim or shift color from water. Supplies quit, run low, or shut down on overload or heat. Adhesive lets go in heat and modules fall and pull their leads apart. But the most common failure by far is the connector: corrosion, loose or partly pierced wires, water. Connectors and wiring fail far more often than supplies or modules.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Camera zooms in on a power supply label; callouts appear as Matthew reads them.",
+      "on_screen": "Input V range + A | Output 12/24 V DC + max W | Class 2 + outputs | Dry/damp/wet, IP | Listing",
+      "says": "Power supply label. Record the input voltage range and current, like 100 to 277 volts. The output voltage, 12 or 24 DC, and the maximum output wattage, like 60 or 100 watts. The Class 2 marking and number of outputs. The location rating, dry, damp or wet, and IP rating. And the listing marks.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Camera zooms in on a module label; callouts.",
+      "on_screen": "12 V module on a 24 V supply = burned out",
+      "says": "Module label. Manufacturer and series, because modules from different series rarely match. Voltage: a 12-volt module on a 24-volt supply will burn out. Watts per module, color, and for white the color temperature, like 6500 or 7100 kelvin. Lumens, beam angle, and the maximum number of modules per run from one feed point.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of a large sign fed by several supplies; red X over two Class 2 outputs tied together.",
+      "on_screen": "Never parallel two Class 2 outputs. Keep Class 2 separated from line voltage.",
+      "says": "Class 2 matters. A Class 2 supply limits its output, roughly 100 VA per output for typical sign supplies, so the low-voltage wiring is a lower fire and shock risk. That's why big signs use several supplies or multi-output supplies. Never tie two Class 2 outputs together for more power; that defeats the limit. And keep Class 2 wiring separated from line voltage unless the label permits otherwise.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the cabinet, pointing to the supply's input terminals; lock and tag visible.",
+      "on_screen": "Line voltage at the supply input. Lock out the sign disconnect first.",
+      "says": "The output is low voltage, but the supply's input terminals, the flex and the sign disconnect carry line voltage, often in the same cabinet. Lock out the sign disconnect and verify, live-dead-live, before you open the supply compartment. Now read the lesson and take the quiz.",
+      "seconds": 19
+    }
+  ],
+  "production_notes": "Sign shop: open channel letter and lighted sign cabinet with power locked out (lock and tag visible). Technician identifies each component on the company list while Matthew narrates. Zoom close-ups on a power supply label and a module label (blur brand names). Corroded connector and fallen-module props. Animations for system path and parallel string behavior. Knowledge lesson: hook links to planning and safe work instead of a full Job Mindset opener."
+}

@@ -4,7 +4,7 @@
   "course": "LT1-C07",
   "presenter": "Matthew Berrett",
   "source": "lesson",
-  "target_seconds": 295,
+  "target_seconds": 200,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Training room with a 2x4 troffer and an 8-ft strip fixture mounted at ceiling height, a stepladder, a lamp recycling box and cones. Matthew medium shot.",
       "on_screen": "Job Mindset: relamping",
       "says": "Job Mindset for relamping. The hazards are shock from sockets that can carry more than the supply voltage, a fall from the ladder, broken glass and burns from hot lamps. Lock out first, always. Plan it before you leave: the right lamps and some spares, an empty recycling box, your lock and meter, cones, and a spare socket in case one's cracked.",
-      "seconds": 27
+      "seconds": 25
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Close-up of hands holding an old T8 lamp next to the ballast label; Matthew points to the markings.",
       "on_screen": "Match: type - wattage - length and base - CCT/CRI - ballast compatibility",
       "says": "Start by identifying the right lamp. Read the old lamp's markings and the ballast label. Confirm the type and shape, like T8 or T5. The wattage, and watch for reduced-wattage versions. The length and base. The color temperature and CRI, so it matches the room. And the ballast label lists the lamps it's approved for. For LED tubes, the exact type that fixture is set up for.",
-      "seconds": 28
+      "seconds": 27
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Close-up on Matthew.",
       "on_screen": "Never hot relamp",
       "says": "Relamping is done de-energized. Fluorescent sockets can carry more than the supply voltage during starting, some electronic ballasts put several hundred volts at the sockets, and pins go live when one end is seated. Never hot relamp, even if it seems faster, even if the customer asks. Lock out, try the switch, and verify. And look for an emergency battery pack. It can light a lamp with the breaker off.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 4,
@@ -44,7 +44,7 @@
       "background": "At the 8-ft strip fixture: tech pushes a single-pin lamp into the spring-loaded end and swings the other end out; hands it to a helper who puts it straight into the recycling box.",
       "on_screen": "Spring-loaded: compress and swing out. Old lamp straight into the box.",
       "says": "Single-pin and recessed double-contact lamps, like on this 8-foot strip, push toward the spring-loaded socket to compress it, then swing the other end out. Hand it down. Never toss it. The old lamp goes into the recycling container intact, right away. Not on the ceiling grid, not on the floor.",
-      "seconds": 22
+      "seconds": 20
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Close-up of a cracked tombstone socket with burn marks, then a fixture with brittle wiring. Matthew voice-over.",
       "on_screen": "Cracked socket? Report it. No new lamp in a bad socket.",
       "says": "Inspect the sockets, what we call tombstones. Cracks, burn marks, brittleness, loose mounting, or sockets that don't grip the pins. This one's cracked. Report it, and don't put a new lamp in it. Check the fixture too: melted or brittle wiring, burn marks, a burning smell. Report anything unusual.",
-      "seconds": 23
+      "seconds": 20
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Tech inserts a new lamp straight into both sockets and rotates until it locks. Then a close-up comparison of a lamp that is not fully seated, one end hanging slightly. Matthew voice-over.",
       "on_screen": "You should feel it seat",
       "says": "Install the new lamp. Pins straight into both sockets, then a quarter turn until it locks. You should feel it seat. Here's one that isn't fully seated. Look at that end. It may not light, or it'll glow only at the ends. Close the fixture carefully, with no pinched wires.",
-      "seconds": 21
+      "seconds": 20
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Tech removes his lock, turns the lights on; all lamps light. He writes counts on the work order.",
       "on_screen": "New lamps don't fix it? Stop swapping parts. Report it.",
       "says": "Remove your lock following the restore steps, turn the lights on, and check that every lamp lights fully. If new lamps don't fix it, don't keep swapping parts. Report it on the work order for troubleshooting. Then count lamps removed and installed, label and close the recycling box, and leave the area clean.",
-      "seconds": 23
+      "seconds": 21
     },
     {
       "scene": 9,

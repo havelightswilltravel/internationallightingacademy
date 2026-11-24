@@ -4,7 +4,7 @@
   "course": "LT1-C10",
   "presenter": "Danny Smith",
   "source": "outline",
-  "target_seconds": 0,
+  "target_seconds": 133,
   "scenes": [
     {
       "scene": 1,
@@ -20,7 +20,7 @@
       "background": "Danny walks around the truck with a phone open to the fleet app; quick cuts of horn, wipers, mirrors, tires, triangles and fire extinguisher.",
       "on_screen": "Daily pre-trip inspection (DVIR)",
       "says": "First, the daily pre-trip inspection, logged in the fleet app. Your license and medical card, logs, registration and inspection sticker, and a registered weight greater than what you're actually carrying. Then the walk-around: horn, glass, wipers, mirrors, brakes, steering, lights, tires, triangles and fire extinguisher. And the load covered and secured.",
-      "seconds": 26
+      "seconds": 20
     },
     {
       "scene": 3,

@@ -4,7 +4,7 @@
   "course": "LT1-C07",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 290,
+  "target_seconds": 198,
   "scenes": [
     {
       "scene": 1,
@@ -12,7 +12,7 @@
       "background": "Lighting panel in a retail back room; a time clock and a lighting contactor are mounted nearby. Danny with a new tech, medium shot.",
       "on_screen": "Job Mindset: our lockout policy",
       "says": "Job Mindset for every lockout. The hazard is live wiring in a fixture you think is dead. Lockout and verification are how we eliminate it. Plan before you leave: your company lock and tags, a breaker lockout that fits, rubber gloves with protectors, a CAT III meter, and a call to the site manager about when the lights can go off. Think ahead about time clocks that could switch it back on.",
-      "seconds": 28
+      "seconds": 29
     },
     {
       "scene": 2,
@@ -20,7 +20,7 @@
       "background": "Close-up on Danny.",
       "on_screen": "Handle all wiring as if it were energized, even if you turned it off yourself",
       "says": "Our handbook starts with one idea: always handle all wiring as if it's energized, even if you turned it off yourself. Our techs have found live wiring in dead fixtures from other circuits passing through, bad original wiring, battery backup packs, 24-hour night-light circuits, and a back-fed shared neutral. That's why our procedure ends with verification, every time.",
-      "seconds": 27
+      "seconds": 23
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Danny and the new tech talk with the site contact (actor) at the panel, pointing to the fixtures on the schedule; then Danny points at the time clock and contactor.",
       "on_screen": "1. Identify  2. Determine availability",
       "says": "Step one: identify exactly which fixtures, circuits and controls are involved. Step two: determine availability. Get site management's approval before you shut down any lighting, and make sure the people in that area know the lights are going off and for how long. And make sure time clocks, control panels, building automation and contactors won't switch the circuit back on while you work.",
-      "seconds": 28
+      "seconds": 25
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Fixtures turned off at the wall switch. Breaker placed off (qualified person present), breaker lockout installed, company lock and tag hung. Close-up of the tag being filled in.",
       "on_screen": "Tag: name - date - time - company - work description",
       "says": "Step three: turn the fixtures off at the normal control, put the breaker off and tag it. Step four: lock out. The person doing the work puts on the lockout device and their personal lock. Your tag shows your name, date, time, the company, and the work, like replacing drivers, fixtures 12 to 18, east office. More than one place to turn it on? Lock and tag every one.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Close-up on Danny beside the panel, a wall-switch lock in his hand.",
       "on_screen": "The isolation point is the breaker. A switch lock is only an extra warning.",
       "says": "Where do you lock out? The breaker or disconnect. Older handbook versions allowed a wall-switch lock. In this program, a switch lock can be added as an extra warning, but it never replaces the breaker lock. Can't lock the breaker, because no device fits or the panel's locked? Stop and call your supervisor. And a tag is only a warning. For LT1 work, it's always a lock and a tag.",
-      "seconds": 29
+      "seconds": 28
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Tech tries the breaker handle to confirm it's inoperable, checks the emergency battery pack status on the fixture. Danny voice-over.",
       "on_screen": "5. Safety review",
       "says": "Step five: the safety review. Before work starts, confirm the breaker physically can't be operated, and that stored energy, like capacitors and battery packs, is discharged or isolated.",
-      "seconds": 14
+      "seconds": 11
     },
     {
       "scene": 7,
@@ -60,7 +60,7 @@
       "background": "Tech puts on rubber insulating gloves with leather protectors and safety glasses, proves the meter on a known source, tries the switch, then tests at the fixture with a qualified person beside him. Danny voice-over.",
       "on_screen": "Gloves on? Right meter? PPE in place? Equipment-specific procedure?",
       "says": "Step six: verify. Try the switch, put it back off, then test live-dead-live at the work location. Our checklist asks four things. Gloves on? Testing is treated as live work, so rubber gloves with protectors and eye protection, under a qualified person until you're signed off. Right meter? CAT III or higher, proved before and after. A non-contact tester doesn't count. PPE in place? And is there an equipment-specific procedure?",
-      "seconds": 30
+      "seconds": 28
     },
     {
       "scene": 8,
@@ -68,7 +68,7 @@
       "background": "Danny at the panel, close-up.",
       "on_screen": "7. Keep your lock and tag on until your work is done",
       "says": "Step seven: keep your lock and tag on until your work is finished. Then follow the removal sequence in the next lesson. Only lock out at lighting branch breakers and disconnects you're allowed to operate. Stay away from switchgear and main breakers. When in doubt, call.",
-      "seconds": 19
+      "seconds": 18
     },
     {
       "scene": 9,
@@ -76,7 +76,7 @@
       "background": "Danny and the new tech at the panel, medium shot.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "Identify, get approval, de-energize and tag, lock out, safety review, verify. Every job. Now read the lesson and take the quiz.",
-      "seconds": 10
+      "seconds": 8
     }
   ],
   "production_notes": "Supervisor walks a new tech through the steps at a real lighting panel; breaker operated by or under a qualified person, dead front stays on. Rubber gloves with leather protectors must be in test date; meter CAT III or higher. Site contact is an actor; generic retail back room with no logos. Fill-in tag text on screen should match the lesson's example."

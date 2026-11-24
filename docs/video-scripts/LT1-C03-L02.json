@@ -4,7 +4,7 @@
   "course": "LT1-C03",
   "presenter": "Danny Smith",
   "source": "lesson",
-  "target_seconds": 295,
+  "target_seconds": 209,
   "scenes": [
     {
       "scene": 1,
@@ -20,7 +20,7 @@
       "background": "Close-up on Danny.",
       "on_screen": "Inspect every ladder, every time",
       "says": "You inspect every ladder, every time you use it. Two minutes. A competent person also inspects our whole fleet every quarter, but you can retire a ladder any time you think it isn't safe. A ladder with a structural defect gets red-tagged DO NOT USE and comes out of service. Never repair a ladder in the field.",
-      "seconds": 24
+      "seconds": 23
     },
     {
       "scene": 3,
@@ -28,7 +28,7 @@
       "background": "Senior tech goes down the stepladder with the company checklist, touching each item: feet, rungs, joints, rivets, hinges, spreaders, rails, labels. Danny voice-over.",
       "on_screen": "Feet - Clean - Joints tight - Hardware - Moving parts - Spreaders - Rails - Edges - Labels - Non-skid steps",
       "says": "Here's our checklist. Non-slip feet on all four rails. No oil or grease. Joints tight. No loose rivets, bolts or nuts. Moving parts work without binding. Spreaders straight and locking. Rails and steps free of cracks, crushing, bends or splits. Metal ladders have their insulator pads. No sharp edges. Labels in place and legible. Non-skid surfaces on every step.",
-      "seconds": 28
+      "seconds": 24
     },
     {
       "scene": 4,
@@ -36,7 +36,7 @@
       "background": "Tech checks the extension ladder rung locks, rope and pulley, spur spikes; then finds a cracked rail on a second ladder and hangs a red DO NOT USE tag. Danny voice-over.",
       "on_screen": "DO NOT USE",
       "says": "On an extension ladder, add the rung locks, the rope and pulley, the guide brackets, and the swivel feet and spikes. On fiberglass, look for blooming, that's exposed glass fibers, and burn marks. This one's got a cracked rail. Red tag, out of service, tell the supervisor. And a ladder that's been dropped or fell off the rack gets inspected again before anyone climbs it.",
-      "seconds": 28
+      "seconds": 26
     },
     {
       "scene": 5,
@@ -44,7 +44,7 @@
       "background": "Tech looks up at the roofline for overhead lines, then measures with a tape: 12 ft up the wall to the contact point, 3 ft out at the base. Graphic overlay of the 4:1 triangle.",
       "on_screen": "4:1 rule: 12 ft up = 3 ft out. 10 ft from overhead lines.",
       "says": "Setting the extension ladder. Look up first for power lines. Stay at least 10 feet from lines up to 50 kV, and assume every line is live. Raise it with the fly retracted. Then the 4 to 1 rule: base out one-fourth of the height to the contact point. Our example is 12 feet up, 3 feet out. That's about 75 degrees.",
-      "seconds": 26
+      "seconds": 25
     },
     {
       "scene": 6,
@@ -52,7 +52,7 @@
       "background": "Close-ups: spur spikes pushed into soft ground, both rung locks engaged, ladder top extending above the roof edge, rope tie-off at the top. Danny voice-over.",
       "on_screen": "Access: 3 ft above the landing. Tie off against wind.",
       "says": "Soft ground? Use the spur spikes. Extend the fly with the rope and confirm both rung locks are engaged and the overlap on the label is met. If you're using it to get onto the roof, the rails go at least 3 feet above the landing. Then secure it. Tie off extension ladders so wind can't blow them down. Never lean it against a window or a pole without a pole strap.",
-      "seconds": 28
+      "seconds": 29
     },
     {
       "scene": 7,
@@ -76,7 +76,7 @@
       "background": "Danny at the van, close-up.",
       "on_screen": "Now read the lesson and take the quiz",
       "says": "Inspect it, look up, set it at 4 to 1, secure it, and put it away. Now read the lesson and take the quiz.",
-      "seconds": 9
+      "seconds": 10
     }
   ],
   "production_notes": "Senior tech performs the inspection and setup on camera; Danny narrates. Film at a building with no overhead lines within 10 ft of the ladder. Props: company ladder inspection form, a ladder with a cracked rail already retired, red DO NOT USE tags, tape measure, tie-off rope, cones, door sign. Tie-off is shown at the top; tech must be properly positioned per the next lesson when climbing to tie."

@@ -210,9 +210,14 @@ it in good faith. You stop when:
 - You find a hazard you are not trained or equipped to handle.
 - You do not have the training to do the task safely (Lesson 4).
 
-To **call a job**, you make the area safe, tell the site contact, and call your supervisor. A job is
-called with manager buy-off: your supervisor and you agree on it, and the decision is documented.
-You never just walk off. You also never keep going because you feel pressure to finish.
+**For safety, your authority is full.** If something is unsafe, you stop. You don't need anyone's
+permission to stop. Then you make the area safe, tell the site contact, call your supervisor, and
+document it on the work order.
+
+**For efficiency or quality** (the wrong labor, materials or equipment to do the job to our
+standard), you get your manager's buy-off **before** calling the job, then regroup so the next trip
+is productive. Either way, you never just walk off, and you never keep going because you feel
+pressure to finish.
 
 > **Safety check:** Pick any routine task you did last week, such as changing a driver in an office
 > troffer. List every hazard you can think of: shock, fall, dropped parts on someone below, sharp
