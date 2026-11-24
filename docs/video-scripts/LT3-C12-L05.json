@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C12-L05",
+  "title": "Troubleshooting Battery-Backup Ballasts, Bug Eyes & Exit Signs",
+  "course": "LT3-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 211,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training corridor with a troffer, a second troffer and a bug-eye unit, each tagged 1, 2 and 3. Tech with lock kit, meter, known-good lamps. Presenter voice-over.",
+      "on_screen": "Job Mindset: Emergency Unit Faults",
+      "says": "Job mindset. Every unit here has a battery that can energize lamp leads and sockets with the breaker locked off. So it's lock out, verify dead, and unplug the battery before you touch sockets or wiring. Plan ahead: known-good lamps, your meter, lock and tags, listed replacement batteries, and the model numbers from the last inspection so you bring the right units.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Flowchart overlay: Press test > Lights? Yes = normal side. No = emergency side.",
+      "on_screen": "Test button splits the fixture: emergency side vs normal side",
+      "says": "Our procedure uses the test button to split the fixture in two. First, confirm the lamp is good and test the line voltage, the unswitched hot and, on two-feed units, the switched hot. Energized testing is for qualified persons under our NFPA 70E program. Then press and hold the test button.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Fault 1: troffer dark on the wall switch; tech presses test, lamps light.",
+      "on_screen": "Lights on TEST, dark on SWITCH = normal side. Replace the standard ballast/driver.",
+      "says": "Fault one. Dark on the wall switch, but it lights on the test button. That proves the battery backup, its battery, the sockets and the lamps work. The fault is on the normal side. Before you replace parts, confirm the switched hot is actually there, because a wall switch, sensor or relay could be the real fault. Switched supply present? Replace the standard ballast or driver.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks out, verifies dead live-dead-live, unplugs the battery connector, tags the fixture, replaces the normal driver.",
+      "on_screen": "LOTO > live-dead-live > UNPLUG BATTERY > tag it",
+      "says": "Before that repair: lock out the normal circuit, verify absence of voltage live-dead-live, and unplug the battery connector. Tag the fixture so the next person knows it has a battery.",
+      "seconds": 12
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Fault 2: troffer doesn't light on test; close-up of a battery plug left disconnected; after connecting, still brief light; battery pack replaced.",
+      "on_screen": "No light on TEST = emergency side. Check wiring, sockets, battery plug, charge light.",
+      "says": "Fault two. Nothing on the test button. That's the emergency side. Check the wiring and sockets between the emergency unit and the lamps, the battery connector and the charge indicator. Here the battery plug was never connected after install. Remember a new or just-replaced battery needs its initial charge, often 24 hours. Lights only briefly? Battery at end of life. Wiring good and still nothing? Replace the battery backup.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Fault 3: bug-eye with no charge light; test button does nothing; qualified person checks line voltage, none present. Tech checks the breaker from outside the panel.",
+      "on_screen": "Bug eye/exit: test > line voltage > good = replace unit | missing = circuit problem",
+      "says": "Fault three, a bug-eye with no charge light. Press test: nothing. Next, test line voltage at the unit. If voltage is good, replace the unit, or its listed battery or heads where that's cost-effective. Here, there's no voltage. That's the emergency lighting circuit. Check the breaker from outside the panel, look for a switched feed or open splice, and write it up if it needs tracing in the panel or walls.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the bug-eye, medium close-up; a listed replacement battery in hand.",
+      "on_screen": "Battery or unit? Age | charger works | listed battery available | cost",
+      "says": "Battery or whole unit? Replace the battery if the unit is within its expected life, the charger shows charging, and a listed battery is available and much cheaper. Old, discontinued or brittle units, or a dead charger with good supply, get a new unit. Use only the battery type, voltage and capacity the manufacturer lists. A different one can void the UL 924 listing or overheat.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech writes the log entry; removed battery goes into a recycle bin labeled with chemistry and weight.",
+      "on_screen": "Recycle, never trash. Record chemistry and weight. Count EM wall packs before quoting.",
+      "says": "Our company rules. Removed batteries and emergency ballasts or drivers go in the recycle bin, never the trash, with the chemistry and weight on the work order. And count exterior emergency wall packs before you quote. On one of our jobs, 13 of 20 wall packs quoted as standard were emergency units. Check each label or test button.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the corridor, medium shot.",
+      "on_screen": "Escalate: no voltage needing tracing | inverter/generator circuits | several units failing at once",
+      "says": "Escalate when the circuit has to be traced in the panel or walls, when units are on an inverter or generator emergency circuit, when several units fail at once in one area, or for any change to the emergency circuit. Record every result and repair in the emergency lighting log. Now read the lesson and take the quiz.",
+      "seconds": 23
+    }
+  ],
+  "production_notes": "Three staged faults on a training corridor per the lesson's video suggestion. Senior tech performs; a qualified person in required PPE performs any energized line-voltage measurement. Presenter voice-over in scenes 1, 3-6, 8. Flowchart overlay for the test-button logic. Lesson step 1 says 'test the line voltage' without naming who; script adds that energized testing is for qualified persons, consistent with the rest of the program; confirm with curriculum owner."
+}

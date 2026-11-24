@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C08-L03",
+  "title": "Clamp Meters and Load Measurement",
+  "course": "LT2-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 197,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Electrical room with an open lighting panel, dead-front on; qualified lead and a tech in arc-rated PPE; true-RMS clamp meter in hand. Medium shot of Matthew outside the approach boundary.",
+      "on_screen": "Job Mindset: clamping in a panel is energized work | PPE per the label | hands behind the tactile barrier",
+      "says": "Load measurement at a lighting panel. Even though you never open the circuit, clamping a conductor in a panel is energized work. The hazards are shock and arc flash. So: PPE per the equipment label, qualified supervision, hands behind the clamp's tactile barrier. Before you go, plan which circuits you need, bring a true-RMS clamp, and know where you'll measure if you can't reach a single conductor.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a clamp meter's jaws, dial and the tactile barrier.",
+      "on_screen": "Clamp meter: senses the magnetic field | no need to open the circuit | AC clamp vs AC/DC (Hall effect)",
+      "says": "A clamp meter measures current by sensing the magnetic field around a conductor. You don't open the circuit or put the meter in series, which is a big safety and time advantage over a DMM's amps jack. AC clamps measure AC only. AC/DC clamps use a Hall-effect sensor and also read DC. Most also do volts, ohms and continuity through leads, with the same CAT rating rules.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech clamps a single lighting branch-circuit hot conductor, centered in the jaw; reading on screen. Presenter voice-over.",
+      "on_screen": "Clamp ONE conductor | center it | close the jaws fully | true-RMS on LED loads",
+      "says": "The golden rule: clamp one conductor at a time. Here, one lighting branch-circuit hot, centered in the jaw, jaws fully closed. That's the load current on that circuit. Use a true-RMS clamp, because LED drivers and electronic ballasts draw distorted current, and an average-responding clamp can read significantly low. Zero DC clamps first, and record the reading with the circuit number and time.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech clamps hot and neutral together; reading drops to near zero.",
+      "on_screen": "Hot + neutral together = near zero | significant reading = current returning another way",
+      "says": "Now hot and neutral together. Near zero. Equal and opposite currents cancel. That's useful: if you clamp hot and neutral together and get a significant reading, some current's coming back another way. A ground fault, a neutral tied to another circuit, or a neutral-to-ground connection downstream. A dedicated leakage clamp reads milliamps accurately; a standard clamp may not.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech clamps the panel neutral; then phase readings shown side by side.",
+      "on_screen": "80% threshold: 15 A = 12 | 20 A = 16 | 30 A = 24 | neutral higher than any phase = report it",
+      "says": "Now the panel neutral. Compare circuit loads to 80 percent of the breaker: 12 amps on a 15, 16 on a 20, 24 on a 30. A circuit regularly over that should be reported. Check phase balance too. A neutral current higher than any phase current, on a panel with lots of electronic loads, can mean harmonic loading. Report it.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Can't reach a single conductor? Measure elsewhere or get a qualified lead | never pull slack in panel conductors",
+      "says": "Don't force the jaws between tightly packed conductors. If you can't reach a single conductor without disturbing others, measure somewhere else, like at the fixture junction box after de-energizing and installing a test loop, or get help from a qualified lead. For small currents, some techs loop a short test whip through the jaw and divide by the turns. Never pull slack in energized panel conductors.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Fixture junction box with a clamp on the supply conductor in inrush mode; bank of LED fixtures switched on; peak reading captured.",
+      "on_screen": "Inrush: breakers trip at switch-on | welded contacts | sensors failing early -> capture it for your lead",
+      "says": "At the fixture junction box, inrush mode. LED drivers draw a very brief, very high current at switch-on, often many times running current for a fraction of a millisecond. Switch the bank on, and the meter captures the peak. Use it when breakers trip at switch-on but not after, contacts weld, or sensors fail early. At LT2, recognize the symptom and capture the data for your lead.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the electrical room, medium shot.",
+      "on_screen": "Dark + drawing current = internal problem | zero current + good voltage = open input",
+      "says": "One more fast check: a dark fixture drawing near-normal current points to the lamp, LED board or driver output. Zero current with correct input voltage points to an open input. One conductor, true-RMS, PPE in the panel. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Filmed with proper PPE at a lighting panel under supervision, per the lesson's video suggestion: single conductor, hot and neutral together, panel neutral, then inrush at a fixture junction box as a bank of LED fixtures switches on. Keep the presenter outside approach boundaries. Mask meter brands."
+}

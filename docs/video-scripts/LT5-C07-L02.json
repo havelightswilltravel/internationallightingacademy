@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C07-L02",
+  "title": "Job Hazard Analysis and Stop-Work Authority",
+  "course": "LT5-C07",
+  "presenter": "Kyle McClelland",
+  "source": "lesson",
+  "target_seconds": 184,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Kyle McClelland",
+      "background": "Active warehouse aisle with high-bay fixtures overhead, scissor lift staged at the end of the aisle, forklift moving in the distance. Kyle in hard hat and glasses. Medium shot.",
+      "on_screen": "Job Mindset: High-bay replacement over an active floor",
+      "says": "This job has falls, energized conductors, forklift traffic and dropped objects, all at once. So we plan it on paper before anyone climbs. Lock out instead of working live. Use the lift, not a tall ladder. Barricade and spot. Then PPE. And think ahead: what happens when a forklift ignores the barricade? You decide that now, not when it happens.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle close-up in the warehouse.",
+      "on_screen": "JHA = steps + hazards + controls",
+      "says": "A job hazard analysis breaks a job into steps, finds the hazards in each step, and says how each one gets controlled. For electrical work, NFPA 70E also requires a job briefing before each job. A JHA only works if it's specific to today's job and the crew actually talks about it. A generic form signed without reading is paperwork, not safety.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Kyle McClelland",
+      "background": "Lead technician and crew of three gathered around a clipboard JHA at the lift; lead writes steps as the crew calls them out. Presenter voice-over.",
+      "on_screen": "1 List steps  2 Hazards per step  3 Controls (hierarchy)  4 Assign who  5 Review and sign  6 Revisit when things change",
+      "says": "Watch the lead build it. List the steps in order, usually five to twelve, short. For each step, ask what can hurt someone and what energy is there: electrical, gravity, mechanical, stored. Choose controls. Assign who owns each control. Review it with the crew, change it based on what they say, and everyone signs. Revisit it when conditions change.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Kyle McClelland",
+      "background": "Graphic: inverted pyramid of the hierarchy of controls with lighting examples beside each level.",
+      "on_screen": "Elimination: lock out\nSubstitution: lift, not tall ladder\nEngineering: guardrails, barricades\nAdministrative: LOTO, spotters, scheduling\nPPE: last line",
+      "says": "Use the most effective control you can. Elimination: de-energize and lock out instead of working live. Substitution: a lift instead of a tall extension ladder. Engineering: guardrails, barricades, insulated tools. Administrative: LOTO procedure, the JHA, spotters, working when the floor is empty. PPE is the last line of defense, not the first.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Kyle McClelland",
+      "background": "Close-up of JHA rows filled in: set up work zone, inspect lift, lock out, remove fixture, install, restore power. Crew members' hands point to lines.",
+      "on_screen": "Set up zone - inspect lift - lock out - remove - install - restore and test",
+      "says": "On this job: set up the zone with the warehouse manager, barricade and spotter. Inspect the lift and check the floor. Lock out, with personal locks for every worker, live-dead-live at the fixture. Remove the old fixture with tool lanyards and a two-person lift. Restore power only after a headcount, with each worker removing their own lock.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle at the barricade line, medium close-up. Safety callout.",
+      "on_screen": "'It's faster' is not a justification for energized work.",
+      "says": "An electrically safe work condition, lockout plus verification, is the primary electrical control. Energized work is allowed only when de-energizing creates a greater hazard or isn't feasible, and it takes a qualified person, a risk assessment, PPE and usually an energized work permit. 'It's faster' or 'the customer doesn't want an outage' is not a justification.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Kyle McClelland",
+      "background": "Staged stop work: a forklift rolls toward the barricaded zone; the ground spotter raises both hands and calls 'Stop!'; lift operator halts; lead walks over.",
+      "on_screen": "Stop-work: 1 Stop and make safe  2 Thank them  3 Gather the crew  4 Update the JHA  5 Resume when all agree",
+      "says": "Here's a stop. A forklift enters the barricaded area. The spotter calls it. Everything stops and the area is made safe. Then the lead thanks the person who called it. The crew gathers and talks about what changed. The JHA gets updated, with supervisor input if needed. Work resumes only when everyone agrees the hazard is controlled.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle in the warehouse, medium shot.",
+      "on_screen": "Report every near miss.",
+      "says": "Everyone on the crew has the right and the responsibility to stop work. And report every near miss, even when nobody's hurt. A dead circuit that tests live, a tool dropped from a lift. A near miss is a free lesson. Crews that hide them eventually have injuries. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Staged stop-work in scene 7: forklift driven slowly by a certified operator, crew at a safe distance, no one under the lift platform. Lift work shown with guardrails and trained operator. Generic warehouse, no customer branding. JHA content on screen follows the lesson's sample excerpt."
+}

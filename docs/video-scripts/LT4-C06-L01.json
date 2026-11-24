@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C06-L01",
+  "title": "Refrigerated Display Cases & Defrost Cycles",
+  "course": "LT4-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 255,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Grocery store before opening, long reach-in freezer door lineup behind Matthew, lights on. Medium shot.",
+      "on_screen": "Refrigerated Display Cases & Defrost Cycles",
+      "says": "Grocery stores, convenience stores, pharmacies and big-box retailers all sell from refrigerated cases, and the lighting inside is what sells the product. A dark case is a priority call for a store manager. But case lighting lives in a cold, wet, sealed space, and its power is often tied to the refrigeration. Understanding that is how you plan the job and stay safe.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Walk-through: reach-in freezer doors with lights on the mullions; an open multideck dairy case with a canopy light. Matthew points to each light location.",
+      "on_screen": "Reach-in: door mullions (+ canopy) | Open multideck: canopy (+ shelves)",
+      "says": "Reach-in cases have glass doors. The lights are usually on the door mullions, the posts between the doors, and sometimes a top canopy. Open multideck cases are tall, open-front, with an air curtain, for dairy, produce, meat and beverages. The light is in the canopy at the top front, plus optional lights under each shelf.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Island (coffin) freezer, then a curved-glass service deli case. Matthew points out switch location and raceway on one case.",
+      "on_screen": "Island: often no internal light | Deli/service: under top glass or top rail",
+      "says": "An island or coffin case is low, and shoppers look down into it. Sometimes there's a canopy above, often no internal light. A deli or service case has a glass front, and staff serve from the back. The lights are under the top glass or in a top rail, aimed at the product. Cases are installed in lineups, bolted end to end, and one circuit may feed a whole lineup.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a case controller display showing 'DEF'; lights off on one lineup, fans silent, frost melting on the coil.",
+      "on_screen": "Defrost: lights may go off on purpose. Few minutes to about 30–45 min.",
+      "says": "The cooling coil collects frost, so several times a day the controller runs a defrost cycle. Depending on how the case is set up, lights may go off on purpose to cut heat load. Fans stop, and the case warms slightly. Defrost runs from a few minutes to around 30 to 45 minutes, depending on the case and the refrigeration contractor's settings.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew marks the case lineup on a printed store site map, notes aisle and door number, then walks away to other work.",
+      "on_screen": "Company rule: mark it and come back in about 30 minutes",
+      "says": "Our company rule: if there's potential for defrost, mark the location and come back in about half an hour. Ask the manager or check the controller for DEF or a defrost icon. Look for no fan noise, melting frost, or temperature rising. Write down the case or door number. Do other work, come back. If the lights are on, it was defrost. Tell the manager and close the call.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera beside a case controller; lock and tag graphic.",
+      "on_screen": "Defrost is NOT a lockout. Neither is a switch or a controller.",
+      "says": "Here's the safety point. A case in defrost is not de-energized. Lights, heaters and fans can restart any moment on the controller's schedule. Never treat a defrost cycle, an off light switch or a case controller as a lockout. Before touching wiring, lock out the correct breakers and verify absence of voltage, live-dead-live.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of ballast and LED driver labels showing minimum starting temperature and temperature ranges.",
+      "on_screen": "Medium temp: about 28–40 °F | Low temp (frozen): about −20 to 0 °F | Check the label",
+      "says": "Cold is hard on lighting. Fluorescent lamps are dimmer when cold, and ballasts need a rating to start them at low temperature. Every lamp, ballast, driver, socket and LED strip in a case must be rated for that case. Medium-temp cases run roughly 28 to 40 degrees. Frozen cases run around minus 20 to zero. Always check the actual label against the case.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "A freezer door opening, fog rolling out; close-up of a corroded socket with green copper.",
+      "on_screen": "Moisture causes much of the corrosion and socket damage",
+      "says": "Every time a door opens, warm humid air hits cold surfaces and condensation forms. Water and ice get into sockets, connectors and wiring. That's why cases use gaskets, sealed sockets, tube guards and lenses, and why so many failures show corrosion, green copper or burned socket contacts. Anti-sweat heaters in door frames also mean extra wiring in the frame.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back at the freezer lineup, lights on.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Know the case, rule out defrost, and lock out the breaker, never the controller. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Grocery store walk-through before opening (no store branding or product brand labels in focus): reach-in freezer door line, open multideck dairy case, island freezer, service deli case. Case controller display during an actual or simulated defrost (DEF). Printed generic site map for marking the case. Close-ups of a cold-rated ballast label and a corroded socket. Knowledge lesson: hook links the topic to planning and safe work instead of a full Job Mindset opener."
+}

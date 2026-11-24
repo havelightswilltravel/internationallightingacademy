@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C07-L02",
+  "title": "Lighting Plan Symbols and Circuiting",
+  "course": "LT3-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 213,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office floor under renovation, troffers overhead. Matthew holds a rolled lighting plan. Medium shot.",
+      "on_screen": "Lighting Plan Symbols and Circuiting",
+      "says": "A lighting plan is how you plan a job before you ever touch a ladder. It tells you what's in the ceiling, what controls it, and which breaker feeds it. Read it right and you show up with the right parts and the right lockout plan. Read it wrong and you lock out the wrong circuit. Let's walk a real floor with a plan in hand.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the plan's first electrical sheet, finger on the symbol legend.",
+      "on_screen": "Start with the legend. Your project's legend governs.",
+      "says": "First rule: always start with the legend. Symbols are not fully standardized. Every design firm has its own variations, so the legend, usually on the first electrical sheet, is the dictionary for that set. What I'm about to show you are common conventions. Your project's legend is the one that counts.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Over-the-shoulder: tech holds the plan up, then looks up at a 2x4 troffer and a downlight. Presenter voice-over.",
+      "on_screen": "Type tag (A, B2, F1) points to the fixture schedule",
+      "says": "Fixture symbols: a rectangle drawn to scale is a troffer or surface fixture. A small circle is a downlight. A long narrow rectangle is a strip or wrap. Next to each symbol is a type tag, like A, B2 or F1. That tag points to the fixture schedule, which tells you exactly what the fixture is. If you see TYP, every identical fixture in that room is the same type.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Over-the-shoulder: tech walks to the door, matches 'Sa' and 'Sb' on the plan to two wall switches. Presenter voice-over.",
+      "on_screen": "Sa controls the 'a' fixtures. Sb controls the 'b' fixtures.",
+      "says": "Controls. S is a single-pole switch, S3 and S4 are three-way and four-way, OS or OC is an occupancy sensor, PC is a photocell. Watch the lowercase letters. A switch marked Sa controls every fixture with a lowercase a next to it in that room. Sb controls the b fixtures. Some plans use dashed lines or keyed notes instead, so check the legend.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Over-the-shoulder: tech finds a shaded rectangle on the plan, looks up at the matching troffer with a test button in the tile. Presenter voice-over.",
+      "on_screen": "Shaded symbol = emergency fixture. It may have two sources.",
+      "says": "A shaded or partly shaded symbol usually means an emergency fixture. That matters for your safety. An emergency fixture may be fed from the normal circuit plus an unswitched circuit for a battery pack, from a separate emergency panel, or from a central inverter. Locking out the normal lighting circuit may not de-energize it. Use the plan to find every source.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on the plan: a homerun arrow labeled LP-2-7. Graphic highlights the label.",
+      "on_screen": "LP-2-7 = Panel LP-2, circuit 7",
+      "says": "Now the homerun. That's the circuit's run back to the panel, drawn as a line ending in an arrow. The label LP-2-7 means panel LP-2, circuit 7. LP-2-7,9 means two circuits in the same raceway. Some designers add tick marks for the conductors. A common convention is short ticks for hots and long ticks for neutrals, but conventions vary, so use the legend.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Electrical room: tech opens panel LP-2, finds breaker 7, applies lock and tag. Then on a ladder at a troffer, tester shows dead. Presenter voice-over.",
+      "on_screen": "Plan > tracer > lock out > live-dead-live",
+      "says": "Here's the field routine. Confirm the sheet and revision. Read the notes. Look up the type tag and the controls. Find the circuit and panel, and look it up on the panel schedule. Then confirm it in the field with a tracer, lock out, and verify with live-dead-live before you work. Remember, a battery pack can light the LED side even with every circuit off. Follow the manufacturer's instructions to disconnect it.",
+      "seconds": 29
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back on the office floor, plan under his arm. Medium shot.",
+      "on_screen": "Mark discrepancies. Report them.",
+      "says": "The common mistake is trusting the drawing as the final word. The plan tells you where to start. If what you find doesn't match the drawing, mark it on the drawing and report it. That's called a redline, and we'll cover it in lesson four.",
+      "seconds": 18
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same setting, closer shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "So: legend first, type tags to the schedule, subscripts to the switches, shaded means emergency and maybe more than one source, and homerun labels give you panel and circuit. Then verify in the field, every time. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Need a real-looking but generic lighting plan sheet with legend, type tags, Sa/Sb subscripts, shaded emergency symbol and homerun arrow labeled LP-2-7 (create a mock sheet, no firm or customer title block). Senior tech performs plan walk and lockout on camera; presenter voice-over. Use a training panel labeled LP-2. Show tester verification on a known live source before and after (live-dead-live)."
+}

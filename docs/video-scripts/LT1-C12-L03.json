@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C12-L03",
+  "title": "AC vs DC & Common Building Voltages",
+  "course": "LT1-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Commercial electrical room, panels closed, a qualified electrician standing nearby. Matthew in front of two panels, medium shot.",
+      "on_screen": "AC vs DC & Common Building Voltages",
+      "says": "Before you order a part or touch a fixture, you need to know what voltage you're dealing with. Getting it wrong destroys equipment, and treating 277 like 120 can hurt you. Today we're in an electrical room with a qualified electrician. The panels stay closed. We're reading nameplates, not opening anything.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Insert shots: an emergency battery pack, an LED driver, a cordless tool battery. Then a sine wave graphic.",
+      "on_screen": "DC: one direction | AC: reverses 60 times per second",
+      "says": "Direct current flows one way, with a steady plus and minus. You'll find it in emergency packs, exit sign batteries, cordless tools, and inside LED drivers, which convert AC to the DC the LEDs need. Alternating current reverses direction. In North America the utility supplies 60 hertz, 60 cycles a second. Much of the world uses 50.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a DMM dial showing the V~ and V-with-straight-line settings.",
+      "on_screen": "120 V AC = RMS value | Peak about 170 V\nMeter: V~ for AC",
+      "says": "When we say 120 volts AC, we mean the effective, or RMS, value. Your meter displays RMS. The actual peak is higher, about 170 volts on a 120 volt circuit. On your meter, AC volts is the V with the wavy line. DC is the V with the straight line.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a closed panel nameplate reading 120/208 V, 3-phase, 4-wire. Matthew points without opening.",
+      "on_screen": "120/208 V three-phase: 120 V hot-neutral | 208 V hot-hot",
+      "says": "This panel's nameplate says 120/208 volt, three-phase, four-wire. You see it in offices, schools, retail and apartments. Hot to neutral is 120. Hot to hot is 208. Lighting here is mostly 120 volt fixtures, with some 208. Homes and small shops use 120/240 single-phase: 120 to neutral, 240 hot to hot.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the second closed panel's nameplate reading 277/480 V, 3-phase, 4-wire.",
+      "on_screen": "277/480 V three-phase: 277 V hot-neutral | 480 V hot-hot\n208 = 120 x 1.732 | 480 = 277 x 1.732",
+      "says": "And this one: 277/480 volt, three-phase. Larger commercial buildings, warehouses, parking lots. Hot to neutral is 277, and 277 volt lighting is very common. Hot to hot is 480, used for some HID and site lighting. The numbers connect through 1.732, the square root of three. 120 times 1.732 is 208. 277 times 1.732 is 480.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera in front of the 277/480 V panel.",
+      "on_screen": "Safety: Assume lighting circuits may be 277 V until verified",
+      "says": "277 is not just a little more than 120. It's more than twice the voltage, and more shock current through the same body. In commercial buildings, assume lighting circuits may be 277 volts until verified. And remember, a 277/480 panel also has 480 volts between phases. Nominal numbers vary a few percent. 116 or 124 on a 120 volt circuit is normal.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench: three ballasts and drivers with labels in close-up: 120 V, 277 V, and 120-277 V UNV.",
+      "on_screen": "120 V = 120 only | 277 V = 277 only | UNV = 120-277 V",
+      "says": "Every ballast, driver and fixture label lists its input voltage. 120 volt means 120 only. 277 means 277 only. 120 to 277, often marked UNV for universal, works on anything from 120 to 277. You'll also see 347 or 347 to 480 on higher-voltage systems. 347 is common in Canada.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a burned, discolored 120 V-only ballast (removed from service) in Matthew's hand.",
+      "on_screen": "120 V-only ballast on 277 V = destroyed",
+      "says": "Here's the common mistake. A 120 volt-only ballast connected to 277 gets destroyed, often immediately, sometimes with smoke or a pop. Go the other way, a 277-only ballast on 120, and the lamps usually just won't start. So always read the label and verify the circuit voltage before you order or install parts.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the electrical room, medium shot.",
+      "on_screen": "",
+      "says": "Know your system, read the label, verify the voltage. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Electrical room filming with a qualified electrician present; all panels stay closed, nameplates only. Props: emergency battery pack, LED driver, cordless tool battery, DMM, labeled 120 V, 277 V and 120-277 V UNV ballasts or drivers, a failed 120 V-only ballast. No building or customer identifiers in frame. Theory lesson, one-sentence safety connection instead of a Job Mindset opener. Lesson file: curriculum/levels/LT1/courses/LT1-C04/lessons/03-ac-dc-and-building-voltages.md."
+}

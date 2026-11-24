@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C03-L04",
+  "title": "Articles 225, 300 & 250 for Outdoor and Pole Lighting",
+  "course": "LT5-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 193,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking-lot light pole at dusk; senior tech beside the handhole with meter, non-contact tester, LOTO kit, hi-vis. Matthew voice-over.",
+      "on_screen": "Articles 225, 300 & 250: Outdoor & Pole Lighting",
+      "says": "Treat every metal pole and its handhole as energized until proven otherwise. A missing or broken ground can leave a pole live with no tripped breaker. So before opening the handhole, check for voltage between pole and earth with a non-contact tester and a rated meter. Then de-energize, lock out and verify absence of voltage on all conductors before touching splices or fuses.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: overhead span between a building and a pole with clearance heights.",
+      "on_screen": "225.18 (up to 600 V): 10 ft pedestrian (≤150 V)\n12 ft driveways/no truck traffic (≤300 V) • 15 ft (>300 V)\n18 ft streets & lots with truck traffic",
+      "says": "Article 225 covers outside branch circuits and feeders. Overhead clearances, 225.18, summarized: 10 feet over areas only pedestrians use, up to 150 volts to ground. Twelve feet over residential driveways and commercial areas without truck traffic, up to 300. Fifteen over 300. Eighteen feet over streets, alleys and parking areas with truck traffic. And trees never support a span.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Building exterior with wall-mounted 277 V fixtures.",
+      "on_screen": "225.7: conditions for luminaires over 120 V outdoors\nSeparate structure? Disconnect may be required: ask",
+      "says": "225.7 sets conditions for supplying outdoor luminaires over 120 volts, like 277, including distances from windows, platforms and fire escapes. Check it when installing 277 or 480-volt fixtures on exteriors. Circuits to a separate building or structure generally need a disconnect there. Whether that applies to site equipment depends on the AHJ, so ask.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Trench with conduit and a tape measure showing depth; THWN-2 conductor reel.",
+      "on_screen": "300.5: parking lots 24 in, all methods\nUnderground raceway interior = WET location\nProtect emerging conductors to 8 ft",
+      "says": "Underground, 300.5. Burial depth depends on the method: direct-burial cable generally 24 inches, rigid metal conduit 6, listed nonmetallic raceway 18 in general locations. Under streets, driveways and parking lots, 24 inches for all methods. The inside of underground raceways is a wet location, so use wet-rated conductors like THWN-2. Protect direct-buried conductors emerging from grade up to at least 8 feet.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Handhole open (circuit locked out): grounding terminal with green EGC landed; in-pole fuse holder and splices.",
+      "on_screen": "410.30(B): accessible handhole (wet-location cover) • grounding terminal",
+      "says": "Poles used as raceways, 410.30(B), need an accessible handhole with a wet-location cover, with limited exceptions for short or hinged-base poles, and a grounding terminal reachable from the handhole. There's the equipment grounding conductor, landed on that terminal. That wire is what makes this pole safe.",
+      "seconds": 18
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Ground rod at the base of a pole; graphic showing fault current path back to the panel.",
+      "on_screen": "250.4: the EARTH is NOT an effective fault path\nGround rod = auxiliary only (250.54)",
+      "says": "Here's why. 250.4 requires a low-impedance fault path back to the source so the breaker trips fast. The earth is not that path. A ground rod at the base is permitted as an auxiliary electrode, but it doesn't replace the EGC. A pole with a rod and no EGC can become energized by a fault and stay energized until someone touches it.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Panel and pole base; on-screen rules list.",
+      "on_screen": "No neutral used for grounding (250.142(B))\nNo neutral-ground bond downstream of the service\nEGC: Table 250.122 (12 AWG Cu for 20 A); upsize with conductors",
+      "says": "More grounding rules. Don't use the neutral to ground the pole or fixture on the load side of the service disconnect. Don't bond neutral to ground in a pole base or downstream panel. Size the EGC from Table 250.122, for example 12 copper for 20 amps, and increase it proportionally if you upsize the circuit conductors for voltage drop. It's bare, green, or green with yellow stripes.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the pole, medium shot.",
+      "on_screen": "Every metal pole & luminaire bonded to an EGC back to the panel",
+      "says": "Common mistake: someone finds a ground rod and decides the pole is grounded. It isn't, not for fault clearing. Every metal pole and luminaire must be bonded to an EGC that runs back to the panel. If it's missing, write it up for the electrician.",
+      "seconds": 18
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot, wide shot at dusk.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Clearances, burial depth, handhole and grounding terminal, and an EGC all the way back. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Code lesson with field demo; scene 1 states the lesson's pole safety callout exactly. Senior technician opens the handhole only after the pre-check and LOTO with verification on all conductors; presenter voice-over. Film in a generic parking lot at dusk with cones and hi-vis. Overhead-span segment can be a graphic. Paraphrase code text on screen. Writing it up for the electrician in scene 8 follows LT4 scope rules (panel and circuit work escalated)."
+}

@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C04-L03",
+  "title": "Troubleshooting a Contactor Circuit Step by Step",
+  "course": "LT4-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 290,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at dusk, lights dark; an outdoor NEMA 3R contactor enclosure on a wall. Matthew beside it. Medium shot.",
+      "on_screen": "Job Mindset: Contactor Troubleshooting",
+      "says": "Measuring inside an energized contactor enclosure is energized diagnostic work, with arc flash and shock hazards. Only a qualified person, in the PPE your NFPA 70E program requires, with a CAT III or IV meter proved on a known source before and after. Not qualified? Do the visual and HOA checks and write it up. Plan ahead: who's qualified, what PPE, and the panel schedule before you go.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew talks to the site manager (actor), then inspects the closed enclosure: HOA position, pilot light, rust, water stains.",
+      "on_screen": "Which areas? When? Monitoring service? Diagram? Outside of the enclosure?",
+      "says": "Before you open the door, gather facts. Which areas are out? When did it start, and was there a storm, outage, remodel or new schedule? Is there a monitoring service that already knows the zone status? Find the panel schedule or control diagram. And look at the outside: HOA position, pilot light, burning smell, heat, rust or water stains.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified trainer in arc-rated PPE proves the meter on a known live source, then measures L1, L2, L3 at the line terminals. On-screen step overlay. Matthew voice-over.",
+      "on_screen": "Step 1: Line-side voltage",
+      "says": "Our procedure checks three things in order: line side, coil, load side. Step one, line side. Measure at each pole's line terminal, phase to neutral for 120 or 277, phase to phase for 208 or 480. No voltage on a pole? The problem's upstream. If a breaker's tripped, don't keep resetting it. A trip means a fault may exist. If it trips again, write it up.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer turns HOA to HAND, measures across coil terminals A1 and A2. Meter inset. Step overlay.",
+      "on_screen": "Step 2: Coil voltage with controls engaged (A1-A2)",
+      "says": "Step two, coil voltage with the controls engaged. That means HAND, or AUTO with the photocell covered, the clock in an on period, or the service commanding the zone on. Measure across the coil terminals, often A1 and A2. Correct voltage and pulled in, the coil's good. Correct voltage but not pulled in or buzzing, the coil's open or the armature's jammed.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table over the enclosure shot showing coil readings and meanings.",
+      "on_screen": "No V in HAND: fuse, HOA, wiring | No V in AUTO only: control device/BMS | Low V + chatter: weak supply or loose",
+      "says": "No coil voltage in HAND: control fuse, HOA or control wiring. No voltage only in AUTO: the automatic control device or BMS output. No voltage but pulled in and lights on: check for NC contacts or a fail-safe design. Low voltage and chattering: weak control transformer, undersized wire or a loose connection. On a latching contactor, look for a short pulse, not steady voltage.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer measures T1, T2, T3 with the contactor closed; one pole reads zero. Close-up of a burned terminal. Step overlay.",
+      "on_screen": "Step 3: Every load terminal. Line in + nothing out = burned contact",
+      "says": "Step three, load side. With the coil energized and the contactor closed, every load terminal should match its line terminal. Line in but nothing out on a closed pole means the contact is burned or open. Our procedure: write it up for an electrician to replace the contactor. Voltage on all load terminals but lights still off? The contactor's fine. Move to the field.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera, serious tone.",
+      "on_screen": "Voltage on load terminals with contactor OPEN = dangerous. Write it up now.",
+      "says": "One reading to treat as dangerous. Voltage on the load terminals with the contactor open. That's welded contacts or a back-feed from another source. Write it up immediately.",
+      "seconds": 13
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of darkened brittle insulation and a melted wire nut in the enclosure (de-energized prop); service order on a clipboard.",
+      "on_screen": "Step 4: Wiring condition. Note EVERY wiring need.",
+      "says": "Step four, look at the connections and wiring: darkened or brittle insulation, melted wire nuts, discolored terminals, a hot or acrid smell. A loose terminal makes heat, and heat makes it looser. Note every wiring need on the service order, even if it isn't today's problem. And don't tighten, move or tug on anything in an energized enclosure. That's done under LOTO, every source, live-dead-live.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew on the phone with an electrician while looking at the nameplate.",
+      "on_screen": "Step 5: Rebuild or replace? Ask an electrician.",
+      "says": "Step five. Contactors can often be rebuilt with a new coil or contact kit. Before you write that up, check with an electrician. Is the frame still made and are kits available? Is there heat damage that makes a new assembly better? Are the contacts rated for the LED load now connected? And what's the cost and downtime of each?",
+      "seconds": 22
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Back in the lot at night, lights still dark; Matthew closing and latching the enclosure.",
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator",
+      "says": "Line side, coil, load side, wiring, then ask before you rebuild. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Parking-lot contactor in a NEMA 3R enclosure (or training replica). All energized measurements by a qualified trainer in arc-rated PPE per the company NFPA 70E assessment, with approach boundary marked, CAT III/IV meter proved on a known live source before and after. Stage a burned pole (one load terminal reads zero). Burned-wiring close-up uses a de-energized prop. Show the service order write-up at the end. Matches skill sign-off 'Troubleshoot a lighting contactor circuit'."
+}

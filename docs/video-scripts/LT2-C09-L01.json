@@ -1,0 +1,91 @@
+{
+  "vid": "LT2-C09-L01",
+  "title": "Reading Labels & Ordering Codes",
+  "course": "LT2-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 215,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a row of lamps, ballasts and an LED driver laid out on a gray mat. Matthew standing behind it, medium shot.",
+      "on_screen": "Reading Labels & Ordering Codes",
+      "says": "The most common reason for a second trip to a job is the wrong part. One letter off on a lamp, the wrong start method on a ballast, or the wrong output current on a driver, and the job isn't done. Getting the part right is part of planning the job safely and finishing it the first time. Let's read some labels.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Overhead close-up of a 4 ft T8 lamp etching F32T8/841; each segment circled on screen as it is named.",
+      "on_screen": "F32T8/841 = Fluorescent | 32 W | T8 (1 in) | CRI 80s | 4100 K",
+      "says": "Start with F32T8/841. F is fluorescent. 32 is nominal watts. T8 is tubular, eight-eighths of an inch, so one inch across. The 8 after the slash means a color rendering index in the 80s. And 41 is 4100 Kelvin. Suffixes like XL or ECO are brand names. They matter for color and life, but the core code is what has to match.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an F54T5HO lamp laid beside a 48 in T8 with a tape measure along both.",
+      "on_screen": "T5 ≈ 46 in   |   T8 = 48 in",
+      "says": "Here's an F54T5HO: 54 watts, five-eighths inch diameter, high output. Watch the tape. A 4 foot T5 is about 46 inches, because T5s use metric lengths. It won't swap with a 48 inch T8. And reduced-wattage T8s like F28T8 or F25T8 have to be compatible with the ballast, so check the ballast label.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an MH400/U lamp and an LU150/55 HPS lamp; codes circled on screen.",
+      "on_screen": "MH400/U = Metal halide, 400 W, Universal   |   LU150/55 = HPS, 150 W, 55 V",
+      "says": "HID lamps. MH400/U is metal halide, 400 watts, universal burning position. BU, BD or H mean base up, base down or horizontal only. PS means pulse start, which needs a pulse-start ballast. LU150/55 is high-pressure sodium, 150 watts, 55 volt lamp. The bulb shape, like ED28, and the base, like an E39 mogul, also have to match the fixture.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an HID ballast label with M59 circled, held next to the matching lamp.",
+      "on_screen": "Lamp ANSI code = Ballast ANSI code",
+      "says": "Every HID lamp and ballast is built to an ANSI code, and they must match. M59 is 400 watt probe-start metal halide. S55 is the 150 watt, 55 volt sodium lamp. Pulse-start lamps use different codes, so confirm on the labels. A probe-start lamp on a pulse-start ballast, or the reverse, can fail early or even rupture.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an MH lamp sleeve marked for enclosed fixtures; caution callout on screen.",
+      "on_screen": "Never put an enclosed-only lamp in an open fixture",
+      "says": "Safety point. Some metal halide lamps must be used only in enclosed fixtures, because they can rupture at end of life. Match the lamp's enclosed-fixture-only or open-rated marking to the fixture. Never substitute an enclosed-only lamp into an open fixture.",
+      "seconds": 16
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a fluorescent ballast label; fields highlighted one at a time.",
+      "on_screen": "Lamps & qty | IS / RS / PS | Volts | Ballast factor | Case | Diagram",
+      "says": "A fluorescent ballast label tells you the lamp type and quantity, the start method, instant, rapid or programmed, and the input voltage: 120, 277 or universal. Ballast factor affects light output and watts: low is about 0.77, normal about 0.88, high about 1.18. You'll also find case size, lead lengths, the wiring diagram, Class P protection and a sound rating, where A is quietest.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an LED driver label; fields circled: input, CC, 700 mA, 25-54 VDC, 40 W, 0-10 V leads, Class 2.",
+      "on_screen": "Input | CC or CV | mA | Voltage window | Watts | Dimming | Size",
+      "says": "LED drivers are the hardest to match. Record input voltage. Output type: constant current drives LED boards, constant voltage drives 12 or 24 volt tape and modules. Output current, like 700 milliamps. Too much burns the LEDs, too little dims them. The output voltage window, like 25 to 54 volts, has to cover the board. Then power, dimming type, case size, and Class 2 and damp ratings.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Inside a troffer housing: fixture label with a long catalog number; Matthew writes the full string onto an order line on a clipboard.",
+      "on_screen": "Copy the complete catalog number",
+      "says": "If the driver's programmable, the setting is often on the fixture label or the spec sheet, not the driver. So copy the fixture's complete catalog number. It's built from options like size, lumens, color, voltage and dimming. Miss one segment and you can end up with a different driver or board.",
+      "seconds": 20
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the bench, Matthew to camera.",
+      "on_screen": "",
+      "says": "Read every field, translate it, then write the order line. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Use real sample parts (sanitized of any customer marks): F32T8/841, F54T5HO, MH400/U, LU150/55, fluorescent ballast, HID ballast with M59 marking, LED driver. Animate circles around each label field as it is named. Lamps handled only off-circuit on the bench. Verify on-screen T5 length uses the approximate sign (about 46 in)."
+}

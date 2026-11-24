@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C10-L02",
+  "title": "Finding Intermittent Faults",
+  "course": "LT4-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 200,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop staging area; senior tech packs a recording meter, thermal imager, LoZ meter, PPE bag and LOTO kit into a truck. Matthew voice-over.",
+      "on_screen": "Job Mindset: Intermittent Fault Call",
+      "says": "Job Mindset for an intermittent call. The hazards are shock and arc flash at panels, and the pressure to 'just try something.' Plan to work de-energized under lockout, and bring a recording meter, thermal imager, LOTO kit and arc-rated PPE before you leave the shop. Plan for multiple visits, line up the customer contact who'll log event times, and expect the fault to hide when you show up.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in a customer office corridor, medium shot.",
+      "on_screen": "Capture it or provoke it. Don't guess.",
+      "says": "An intermittent fault comes and goes. When you arrive, everything works, earlier techs 'found nothing,' and the temptation is to replace a part and hope. Senior techs don't guess. They capture the event with logging, or they provoke it under controlled conditions.",
+      "seconds": 17
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table over b-roll: heat-discolored wire nut, hot driver, corroded pole base.",
+      "on_screen": "Loose connections • Thermal foldback • Failing capacitor\nVoltage sags • Controls events • Water • Vibration",
+      "says": "Know the usual suspects. Loose connections that change with heat or vibration. Drivers in thermal foldback that dim or shut off after running a while. Failing driver capacitors that won't start when cold. Voltage sags when big loads start. Controls or software turning lights on at odd times. Water intrusion after rain. And vibration near machinery.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech at a lighting panel: lock applied, live-dead-live test, clamps and voltage leads installed, cover closed, re-energized. Matthew voice-over.",
+      "on_screen": "Tool 1: Data logging\nInstall de-energized under LOTO whenever possible",
+      "says": "Tool one: a recording meter. Choose the point, usually the branch circuit at the panel. Install it with the circuit de-energized whenever possible: lock out, verify absence of voltage, connect leads and clamps, route leads so covers close, then re-energize. If it must be installed energized, only a qualified person in appropriate PPE does it.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Laptop screen showing a logged voltage trend with a sag event marked next to a customer's handwritten time log.",
+      "on_screen": "Customer logs event times\nSag at every event → upstream\nNormal voltage → luminaire, driver or controls",
+      "says": "Set the interval and thresholds, for example any voltage below 90 percent of nominal. Ask the customer to log the time of every event, and leave it one to two weeks. Then match. A voltage sag at every event points upstream. Normal voltage during events points to the luminaire, driver or controls.",
+      "seconds": 21
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified senior tech in arc-rated PPE scans a panel through an installed IR window; thermal image shows one hot lug.",
+      "on_screen": "Tool 2: Thermal imaging, under load\nQualified person in PPE, or IR windows. Never reach in.",
+      "says": "Tool two: a thermal imager. Scan under load. A loose connection carrying little current won't show. Compare similar parts; one much hotter than its neighbors is suspect. Opening a panel cover for thermography exposes energized parts. A qualified person in PPE from the arc-flash risk assessment does it, or you scan through IR windows. Never reach into or touch anything in an energized panel.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Screen recording of an NLC event log showing 2:00 a.m. ON events from a sensor.",
+      "on_screen": "Tool 3: Controls event logs",
+      "says": "Tool three: controls event logs. Networked systems and many sensors record who or what turned lights on or off, when, and from which device. Lights 'turning on by themselves' at 2 a.m. often show up as a schedule event, or a sensor triggered by HVAC airflow, security patrols or the cleaning crew.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech with circuit locked out checks splices and tug-tests a wire nut at a troffer.",
+      "on_screen": "Tool 4: Controlled provocation\nNever wiggle wires on energized circuits",
+      "says": "Tool four: provoke it under control. Suspect a loose connection? With the circuit de-energized and locked out, check torque and tug-test splices. Don't wiggle wires on energized circuits. Suspect heat? Run the fixture to full temperature. Cold start? Watch the first start of the morning. Moisture? Insulation-resistance test underground runs after rain, with drivers disconnected.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew with a service ticket clipboard, writing notes.",
+      "on_screen": "Write down times, conditions, readings, what you ruled out",
+      "says": "Intermittents often take several visits by different techs. Write down everything: times, conditions, readings, and what you ruled out. A clear record keeps the next tech from repeating your tests and feeds the root-cause analysis.",
+      "seconds": 14
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, medium close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Capture or provoke, never guess, and stay de-energized whenever you can. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Hands-on demo lesson: senior technician performs logger install (de-energized, LOTO, live-dead-live), thermal scan through an IR window or by a qualified tech in full arc-rated PPE, and splice checks under LOTO; presenter voice-over. Never show anyone reaching into an energized panel. Screen recordings: generic logger software and NLC event log (no customer names)."
+}

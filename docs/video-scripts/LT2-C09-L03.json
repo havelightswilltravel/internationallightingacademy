@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C09-L03",
+  "title": "Supply Houses, Reps, Samples & Van Stock",
+  "course": "LT2-C09",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 213,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Company shop at the open side door of a service van; shelves of labeled bins inside. Danny with a clipboard, medium shot. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Job Mindset: The Parts Run",
+      "says": "A parts run is part of the job, so plan it like one. Biggest hazards: loads shifting in the van and broken lamps. Secure lamps, ladders and heavy boxes before you roll. Then think ahead. Leave with the work order, a written list with complete part numbers and quantities, and your label photos, so one trip covers it.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Electrical distributor counter, generic signage. Senior tech hands a printed parts list and phone photos to the counter person; presenter voice-over.",
+      "on_screen": "Come prepared: WO #, job name, full part numbers, qty, photos",
+      "says": "Here's how we work the counter. Come prepared: work order number, customer or job name, and that written list. Use the company account and the PO process exactly the way the office requires. Never pay personally unless the company tells you to. And if you're unsure about a cross, ask the counter to confirm it and show you the spec sheet.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up at the counter: the new ballast box is opened and held beside the old ballast sample; labels compared.",
+      "on_screen": "Open the box at the counter",
+      "says": "Now the step that saves a second trip. Open the box at the counter and compare it to your photos or the sample: lamp base and length, ballast lamp count and start type, driver output, case size. It's a lot easier to fix a mistake here than at the customer's site. Keep the receipt or packing slip and turn it in with the work order. Billing and warranty both need it.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech sets down a bagged, labeled old ballast on the counter. On-screen list.",
+      "on_screen": "Bring the old part when: label unreadable | unusual part | doubt | no cross found",
+      "says": "Bring the old part as a sample when the label's missing or faded, the part's unusual, your photos leave doubt, or the counter can't find a cross. Get approval before taking anything from a customer's site, note it on the work order, and bag and label it with the job and fixture location. Treat the counter staff with respect. They can save you hours.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Red callout over a photo of a broken lamp and an old magnetic ballast without a No PCBs label.",
+      "on_screen": "Broken lamps, leaking ballasts, possible PCBs: photograph, don't carry",
+      "says": "Some things never ride along as samples. Broken lamps and leaking ballasts: photograph them instead and follow waste procedures. An older magnetic ballast without a No PCBs label stays on site and is handled the way you learned in LT1.",
+      "seconds": 16
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Office desk: a rep's sample LED retrofit kit next to a fixture; tech checks fit and color.",
+      "on_screen": "One wrong fixture = small problem. 200 = large one.",
+      "says": "Manufacturer reps can identify discontinued products, send spec sheets and crosses, help with warranty, and arrange samples. Contact them through your supervisor or the office unless you've been told otherwise. On big jobs or product changes, the office may request a sample first, to confirm fit, show the customer the color and brightness, and check the controls. A wrong product on one fixture is small. On 200, it's large.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Back at the shop van: organized bins, socket bags labeled with codes, lamps in protective sleeves, pull sheet on a clipboard.",
+      "on_screen": "The pull sheet is your truck's stock list",
+      "says": "Van stock is how you fix common problems on the first visit. The pull sheet is your truck's stock list. Keep what's on it, pull off the excess, and write down anything missing. Tape, wire nuts and push-ins are truck stock, not tool-bag stock, and every truck carries at least two rolls of tape. Bag each socket type and label it with its code.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Shop parts-return shelf with tagged boxes. Close-up of a tag being written.",
+      "on_screen": "Record it. Restock it. Rotate it. Return it.",
+      "says": "Record every part you use on the work order so it's billed and restocked. Restock on schedule, rotate older stock forward, and keep boxes dry. Special parts you don't need go to the parts-return shelf. Still need them? Return them with a tag, unless you're sure you're going back tomorrow, and then leave your dispatcher a note. And no shopping on the clock for non-job items without office approval.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Inside the van: lamp boxes strapped in a rack. Danny to camera at the van door.",
+      "on_screen": "Broken mercury lamp in the van? Ventilate. Clean up per procedure.",
+      "says": "Last thing. Broken fluorescent and HID lamps in a closed van release mercury vapor and glass. If one breaks, ventilate and clean up per company procedure. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Distributor counter: generic, no distributor branding; counter person can be an actor. Show socket bags labeled with codes and a pull sheet (use a sanitized template). Lamps in protective sleeves secured in a rack. Do not show prices or the company's account numbers on screen."
+}

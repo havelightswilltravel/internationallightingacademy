@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C07-L04",
+  "title": "Power Factor and Voltage Drop Basics",
+  "course": "LT2-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 194,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Long parking garage with 277 V LED fixtures on the ceiling; a lighting panel in a utility room at one end. Medium shot.",
+      "on_screen": "Power Factor and Voltage Drop Basics",
+      "says": "Two numbers explain a lot of strange lighting problems: power factor and voltage drop. They decide how loaded a circuit really is, and why the last fixture on a long run flickers. Knowing them lets you plan a circuit, or a test, before you're standing at the panel.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard with the formulas.",
+      "on_screen": "PF = W / VA | Watts: real power | VA: volts x amps",
+      "says": "Watt's law, P equals V times I, is exactly true for incandescent lamps. For ballasts and drivers, it's only part of the story. Watts are real power, converted to light and heat. Volt-amps are volts times amps measured in the circuit. Power factor is watts divided by volt-amps. A fixture with power factor 0.5 draws twice the current it needs, and that extra current still heats wire and uses breaker capacity.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Power meter connected to a high-PF LED driver, then to an old normal-power-factor magnetic ballast; watts and VA on screen.",
+      "on_screen": "High PF: commonly 0.9 or above | use the spec sheet's input current, not W / V",
+      "says": "Look at the power meter. On this high power factor LED driver, watts and volt-amps are close. On this old normal power factor magnetic ballast, volt-amps run well above watts. Breakers and wire respond to amps, not watts. So when you estimate circuit load, use the input current from the spec sheet, not watts divided by volts. Commercial specs usually require PF of 0.9 or above.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Clipboard close-up with the current formula worked out.",
+      "on_screen": "I = W / (V x PF) | 40 W at 277 V, PF 0.95 = about 0.15 A | at 120 V = about 0.35 A",
+      "says": "Current, single-phase: watts divided by volts times power factor. A 40 watt troffer at 277 volts, PF 0.95, draws about 0.15 amps. The same fixture at 120 volts draws about 0.35. Higher voltage, less current. And most commercial lighting is a continuous load, three hours or more, so on a standard breaker, keep it to about 80 percent. On a 20 amp breaker, that's 16 amps.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified tech in proper PPE measures voltage at the panel, then at the last fixture on the loaded garage circuit; readings shown on screen.",
+      "on_screen": "Measure under load: panel vs farthest fixture | energized work = PPE, CAT-rated meter, verify meter before and after",
+      "says": "Now voltage drop. Every wire has resistance, so some voltage gets used up before it reaches the load. Measure it under load: at the panel, then at the farthest fixture, at about the same time. This is energized work. Wear the PPE the label or our PPE table requires, use a CAT-rated meter, verify it on a known source before and after, and work under your lead's direction at any panelboard.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Clipboard: VD formula worked step by step.",
+      "on_screen": "VD = 2 x K x I x L / CM | 12 AWG Cu, 12 A, 300 ft: about 14.2 V = 5.1%",
+      "says": "The formula: two, times K, times current, times one-way length, divided by circular mils. K is about 12.9 for copper. Example: a 277 volt circuit, 12 AWG copper, 12 amps, 300 feet one way. Two times 12.9 times 12 times 300 is 92,880. Divide by 6,530 for 12 AWG: about 14.2 volts, or 5.1 percent. With 10 AWG, 3.2 percent. With 8 AWG, 2 percent.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Garage fixture at the end of the run flickering; Matthew points to it.",
+      "on_screen": "NEC recommendation: 3% branch, 5% total | symptoms: hard starts, dimming, cycling, LED dropouts",
+      "says": "The NEC's informational note recommends no more than 3 percent drop on the branch and 5 percent total. That's a recommendation, though energy codes and specs often make it mandatory. Symptoms of too much drop: fluorescent and HID slow to start, HID dimming or cycling, and LED drivers flickering, dropping out or failing early. A circuit that reads fine with the lights off can be low with them on.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the garage, medium shot.",
+      "on_screen": "",
+      "says": "Use input current for load, keep continuous load to about 80 percent, and measure drop under load. Larger wire or higher voltage reduces it. Now read the lesson and take the quiz.",
+      "seconds": 13
+    }
+  ],
+  "production_notes": "Per the lesson's video suggestion: panel and last-fixture readings on a long 277 V garage circuit, filmed with proper PPE by a qualified tech under lead direction; clipboard voltage-drop example must match the lesson's numbers; power meter comparison of a high-PF LED driver and a normal-PF magnetic ballast. Lesson file path is LT2-C01/04 (course code differs from vid LT2-C07)."
+}

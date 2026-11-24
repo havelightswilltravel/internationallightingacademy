@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C02-L06",
+  "title": "Luminaire Optics, Classification & Efficiency",
+  "course": "LT5-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 196,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop bench with four lit luminaires side by side: specular parabolic louver troffer, prismatic lens troffer, opal diffuser troffer, LED high bay with TIR optic; white board behind each. Matthew at the bench.",
+      "on_screen": "Luminaire Optics, Classification & Efficiency",
+      "says": "Two fixtures with the same LED board can put very different amounts of useful light on the floor. The optic decides where the light goes, how much gets lost inside, and how much glare people see. When you recommend a kit, swap a lens or write a scope, you need this vocabulary. And the manufacturer's photometric file is always the source of truth.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of each optic's beam on the white board.",
+      "on_screen": "Reflection (specular • spread • diffuse)\nRefraction (prisms, TIR lenses)\nDiffusion (opal, frosted)",
+      "says": "Optics control light three ways. Reflection: specular, mirror-like surfaces aim light precisely; spread surfaces soften it; matte white scatters it. Refraction: light bends through prisms and shaped lenses, like LED TIR optics. Diffusion: light scatters through opal or frosted material. Every pass or bounce costs some light.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew points at the parabolic louver, then the opal diffuser.",
+      "on_screen": "Diffusers: soft, less efficient\nSpecular: efficient, controlled, can be harsh\nMatch the optic catalog suffix exactly",
+      "says": "Diffusers trade efficiency for a soft look and low brightness. Specular optics are efficient and controlled but can create harsh contrast. Deep parabolic louvers cut screen glare but can leave upper walls dark. On LED products, each LED cluster often has its own small optic, so swapping optics changes the distribution completely. Match the catalog suffix exactly when ordering.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen table over pendant and troffer b-roll.",
+      "on_screen": "Direct 90-100% down • Semi-direct 60-90%\nDirect-indirect 40-60% • Semi-indirect 10-40% • Indirect 0-10%",
+      "says": "Indoors, we classify by how much light goes down. Direct is 90 to 100 percent down: troffers, downlights, most high bays. Semi-direct, 60 to 90. Direct-indirect, 40 to 60. Semi-indirect, 10 to 40. Indirect, 0 to 10, like coves. Distribution can also be symmetric or asymmetric, like wall washers and aisle optics.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Outdoor area light on a bench with its nameplate and spec sheet; graphic of IES Types I-V patterns.",
+      "on_screen": "IES Types: I/II path • III forward throw • IV strong forward • V/VS round/square\n+ BUG rating",
+      "says": "Outdoors, area and roadway lights use IES types. Types I and II are narrow, along a path. Type III is wider forward throw for lot edges. Type IV is strong forward throw from a building or perimeter. Type V is round or square, center of a lot. Add the BUG rating. Replacing a fixture with a different type can put light into a neighbor's windows.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of the comparison table.",
+      "on_screen": "Luminaire efficacy = delivered lm ÷ input W (use this)\nSource efficacy alone can mislead",
+      "says": "Three different things. Source efficacy is lumens from the LED per watt; a bare package can exceed 180. Luminaire efficiency is the old fluorescent-era percentage. Luminaire efficacy is delivered lumens divided by total input watts, and that's the metric to use now. A great LED board in a poor optic can lose. Judge kits and TLEDs by tested output in the real housing, not the rating on the box.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close on the area light nameplate: wet location listing, IP66, IK rating.",
+      "on_screen": "Damp / wet = UL listing (what the inspector checks)\nIP: dust & water • IK: impact (IK10 highest)",
+      "says": "Location ratings. Damp and wet are UL listings, and the listing is what the inspector checks. IP ratings: first digit is dust, second is water; IP66 is dust-tight and handles powerful jets. IK is impact resistance, up to IK10 for gyms, garages and vandal-prone areas. An IP number alone doesn't replace a wet-location listing. Replace with same or better, and keep gaskets intact.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench with a troffer lens removed; lock tag visible on a training circuit.",
+      "on_screen": "Opening a luminaire: LOTO + live-dead-live first\nEye protection • don't stare into LED arrays",
+      "says": "Removing lenses, louvers or optics means opening the luminaire. Apply LOTO and verify absence of voltage, live-dead-live, first. Protect your eyes from glass or acrylic fragments, and never look directly into high-output LED arrays when testing.",
+      "seconds": 14
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Bench, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Describe it right: mounting, size, optic, output, controls, listing. For example, '2 by 4 recessed troffer, prismatic lens, LED 4,000 lumens 3500K, 0 to 10 volt, damp location.' Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Knowledge lesson; scene 1 links optics to scope writing and kit recommendations. Bench demo: four luminaires lit side by side with a white board or light fog behind each to show beam shape (if fog is used, ensure it does not trigger building smoke detectors). Generic area light with nameplate and spec sheet (no brand). Lens-removal shot uses a de-energized, locked-out training circuit."
+}

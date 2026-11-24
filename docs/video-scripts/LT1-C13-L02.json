@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C13-L02",
+  "title": "Pre-Use & Workplace Inspections",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Warehouse floor next to a self-propelled scissor lift, operator's manual box open, a checklist on a clipboard. Danny, medium shot.",
+      "on_screen": "Job Mindset: Inspect Before You Go Up",
+      "says": "The worst lift problems show up forty feet in the air: a hydraulic leak, a dead emergency stop, a sprinkler head right where you're raising. So find them on the ground. Plan time for the inspection in your schedule, know the emergency lowering before you need it, and if the machine fails, have a plan B for the job, not a work-around.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Same location. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "1. Pre-use inspection (every shift)\n2. Workplace inspection",
+      "says": "ANSI A92.22 requires two inspections before you use a MEWP. A pre-use inspection of the machine, including function tests, before each shift or use period. And a workplace inspection of where it'll travel and work. Both follow the manufacturer's manual. Here's how we do it.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Senior tech performs a walk-around following the manufacturer's checklist; presenter voice-over. Close-ups: manual box, decals, inspection decal, tires, hoses, battery terminals, pothole guards.",
+      "on_screen": "Manual and decals | Inspection decal | Tires | Hydraulics | Batteries | Pothole guards",
+      "says": "Start with the walk-around. Manual in its box. Capacity and warning decals legible. A current inspection decal. Tires and wheels for cuts and loose lug nuts. Hydraulics for leaks, damaged hoses and fluid level. Batteries: clean terminals, secure cables, charger cord. Pothole guards move freely. Then the scissor arms, pins, welds and wear pads.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech checks the platform: shakes the guardrails, closes and latches the entry gate, checks the floor and extension deck lock; presenter voice-over.",
+      "on_screen": "Guardrails, midrails, toeboards | Gate latches | Floor clean | Deck locks",
+      "says": "Platform. Guardrails, midrails and toeboards secure, no missing pins. The entry gate or chain closes and latches. The floor is clean, no oil or debris. On a boom, the anchorage points are intact and labeled. The extension deck locks.",
+      "seconds": 17
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Senior tech at the ground control station raises and lowers, hits the emergency stop; then on the platform tests drive, steer, horn and alarms; presenter voice-over.",
+      "on_screen": "Ground controls FIRST, then platform controls",
+      "says": "Function tests. In a clear area, ground controls first. Raise, lower, the selector switch, and the emergency stop, which should stop everything immediately. Then platform controls: the enable switch is required, drive, steer, raise and lower are smooth and in the right direction. Horn and alarms. Brakes hold. Drive speed slows when raised. Pothole guards deploy.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Senior tech tests the tilt alarm per the manual, then operates the emergency lowering valve at the base; presenter voice-over. Close-up of the emergency lowering control.",
+      "on_screen": "Know emergency lowering before you need it",
+      "says": "Tilt alarm, tested the way the manufacturer says. Load sensing, if equipped. And emergency lowering. You must know how to use it before you need it. If any function fails, stop. Lower the platform, tag the machine DO NOT OPERATE and report it. A defect is never worked around.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Senior tech walks the work area, pointing down at a floor opening and a loading dock edge, around at a forklift lane, then up at sprinkler heads and ducts; presenter voice-over.",
+      "on_screen": "Look DOWN | AROUND | UP",
+      "says": "Now walk the area. Look down: slope versus the decal, drop-offs, docks, floor openings, soft ground, and floor load on mezzanines or finished gym floors. Look around: traffic, forklifts, wind and weather, and carbon monoxide if it's fuel-powered indoors. Look up: power lines, sprinkler pipes and heads, ducts, beams and racking.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny standing under a sprinkler line, looking up, then to camera.",
+      "on_screen": "Crush and entrapment kill MEWP operators",
+      "says": "Here's the one that kills people. Getting crushed between the platform and something overhead. Raise slowly near obstructions, keep your body inside the guardrails, and watch above you while you elevate. Then write it down: machine ID, date, hour meter, items checked, defects and your name. A completed checklist is proof the inspection happened.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny next to the scissor lift, medium shot.",
+      "on_screen": "",
+      "says": "Any defect: remove it from service, tag it, report it. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Senior tech performs the complete pre-use inspection on a self-propelled scissor following that machine's manufacturer checklist; use the actual decals and checklist of the filmed model. Workplace walk should include visible floor opening or dock edge (guarded), sprinkler heads and ducts. Blur rental company logos. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/02-pre-use-and-workplace-inspection.md."
+}

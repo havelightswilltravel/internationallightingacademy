@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C02-L02",
+  "title": "0–10V Dimming — Wiring & Troubleshooting",
+  "course": "LT4-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 265,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training ceiling with three LED troffers, a wall dimmer and a power pack above the grid. Matthew on the floor below. Medium shot.",
+      "on_screen": "Job Mindset: Troubleshooting a 0–10V Zone",
+      "says": "The dimming pair is low voltage, but you'll measure it inside fixtures and boxes with 120 to 277 volts in them. So any wire you disconnect or reconnect gets LOTO and a verified dead test first. Energized readings only when you're authorized and in the PPE your company's NFPA 70E program requires. Plan ahead: meter, ladder, LOTO kit, a spare control and a known-good driver.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Animation: driver sourcing current onto a violet/gray pair, dimmer sinking it; voltage readout drops from 10 V toward 1 V.",
+      "on_screen": "Driver sources about 10 V. Control sinks current to dim.",
+      "says": "0–10V uses a separate pair of low-voltage wires. The driver sources a small DC current onto that pair, about 10 volts open circuit. The dimmer pulls the voltage down by sinking current. At about 10 volts the driver runs full. Lower the voltage and it dims. At about 1 volt or below, it goes to its minimum level, like 1 or 10 percent.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a wall control with a relay and power pack; text callout.",
+      "on_screen": "0–10V does NOT turn the lights off",
+      "says": "Here's the part people miss. 0–10V does not turn the lights off. At zero volts the driver's at minimum, not off. Switching off is done by a line-voltage switch, relay or power pack, often built into the wall control or in a separate power pack. If fixtures won't turn fully off, that switching piece is missing, miswired or failed.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Line voltage locked out at the panel (lock and tag visible); senior tech opens a troffer and points to violet and gray leads. Presenter voice-over.",
+      "on_screen": "Violet = + | Gray = − (pink on some). Confirm on the label.",
+      "says": "With the line voltage locked out, here are the leads. Violet is dimming positive, gray is negative, pink on some products. Confirm on the label. Polarity matters: reversed leads usually mean no dimming or erratic behavior. All the violets in a zone connect together and all the grays together, back to the control. No home run per fixture.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a driver label showing Class 1 or Class 2 marking for the dimming leads.",
+      "on_screen": "Any Class 1 driver, or shared raceway without a barrier = wire as Class 1",
+      "says": "Most 0–10V circuits are Class 2. But if any driver on the circuit is marked Class 1 for its dimming leads, or the dimming wires share a raceway or box with power without a permitted barrier, the whole dimming circuit must be wired and insulated as Class 1. Check the driver label and the project specs. And size the zone: the dimmer's sink rating and its relay rating both limit it.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Energized: qualified tech in PPE measures DC volts between violet and gray at the control as the slider moves; meter readout inset falls from about 10 V toward 1 V. Presenter voice-over.",
+      "on_screen": "About 10 V at full, falling smoothly = normal",
+      "says": "Now energized, by a qualified tech in the required PPE, fingers behind the probe barriers. Meter on DC volts, violet to gray. With the control at full, about 10 to 11 volts. That's normal: drivers sourcing, control not sinking. Move the slider down and the voltage falls smoothly toward 0 to 1 volt. That's what a healthy zone looks like.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Split screen: pair opened at the control, troffers go full bright; pair shorted, troffers go to minimum.",
+      "on_screen": "OPEN pair = full bright | SHORT pair = minimum",
+      "says": "Two readings to memorize. About 10 volts that doesn't change when the control moves: the control isn't connected, it's failed, the wiring's open, or polarity's reversed. Near zero at full: a short on the pair, or a failed driver or control pulling it down. Open pair means full bright. Shorted pair means minimum, looks very dim or won't come up.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech disconnects the pair at the control under LOTO, then re-measures at a fixture; diagram shows the zone split in half at a junction box.",
+      "on_screen": "Isolate a short: disconnect at the control, then half-split",
+      "says": "To isolate a short, lock out and disconnect the pair at the control. If the voltage at the fixtures comes back to about 10, the control's at fault. If it stays near zero, separate the zone at junction points, half-splitting until you find the shorted section or driver. You can also disconnect each driver's dimming leads one at a time.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up inside a junction box: violet and gray twisted together, and a cable with a staple through it.",
+      "on_screen": "Stuck at minimum? Look for a staple, screw or crossed pair.",
+      "says": "A real-world one: a whole zone stuck at minimum. Most often it's a short on the pair, a staple or screw through the cable, or violet and gray twisted together in a box. One fixture that won't dim while the rest do? Check that fixture's connection, its polarity, or a non-dimming driver from a past repair.",
+      "seconds": 22
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew under the training ceiling, troffers dimmed evenly.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Open is full, short is minimum, and LOTO before you touch any wire. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Training zone: wall 0–10V dimmer, power pack/relay, three LED troffers. Show lock and tag at the panel for the wire-identification segment. Energized measurement segment: qualified tech in PPE per the company NFPA 70E assessment, meter on DC volts with probe-tip close-up and readout inset. Demonstrate shorted pair (minimum) and open pair (full bright); any lead changes for the demo are made under LOTO and shown as such, or simulate at a Class 2 test board. Matches skill sign-off 'Troubleshoot a 0–10V dimming circuit'."
+}

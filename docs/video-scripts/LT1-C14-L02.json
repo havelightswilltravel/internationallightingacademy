@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C14-L02",
+  "title": "The Project Specifics Sheet, Section by Section",
+  "course": "LT1-C14",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop counter: a printed project specifics sheet, a survey and a service order laid out; a second-year tech with a highlighter. Danny across the counter, medium two-shot.",
+      "on_screen": "Job Mindset: Read the Packet Before You Roll",
+      "says": "On a project, the time to find a problem is here at the counter, not at midnight on site. This packet tells you the hazards, the hours, the lifts, the material and what the customer cares about. Read all three pieces together, plan the tools and manpower, and write your questions in the margin. Every question you answer here saves the crew an hour later.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the three documents side by side.",
+      "on_screen": "Specifics sheet + Survey + Service order = one packet",
+      "says": "I'm Danny. The specifics sheet tells you what's special about this job. The survey is the room-by-room count and scope. The service order is the material and labor record you'll update and get signed. The same sections show up year after year, because the same things go wrong when they're missed. Let's go down it.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "The tech highlights the crew leader line and the scope section; Danny taps the survey.",
+      "on_screen": "Crew leader | Scope: follow the survey, correct it as you go",
+      "says": "First, the crew leader line. One person owns communication, paperwork and quality. If no name is there, everybody assumes someone else is calling the office. Scope: follow the survey and do only the areas listed. If quantities or fixture types differ, correct the survey and the service order totals as you go. That warns the office before the last night.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "The tech writes in the margin: 'Site contact after hours?', 'Lift stored where?', 'Alarm code?'",
+      "on_screen": "Site contact | Hours and access | Protect the site | Cleaning rules | Tools and lifts",
+      "says": "Site contact and game plan: talk to the manager before you start about where to begin, busy areas and where removed material goes. Hours and access: start and stop times, how you get in, how you lock up and set the alarm. Protect the site: plastic over desks, machinery and open food. Tools and equipment: drills for each person, lift types and where the lift's stored.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up: the tech highlights a capitalized line about emergency fixtures and circles 'dry wipe only on parabolic louvers.'",
+      "on_screen": "Emergency fixtures: never cut out or add until you have specific direction",
+      "says": "Cleaning rules: dry wipe only on parabolic louvers and downlight cans, clean gloves on new parts. Material: count it against the order and photograph anything missing or damaged right away. Special fixture instructions change every job: switching patterns, guards over food, a required manufacturer. And emergency fixtures: never start cutting out or adding emergency equipment until you have specific direction.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny points to the recycling section on the sheet; insert of labeled recycle boxes and a separated ballast box.",
+      "on_screen": "All lamps recycled | Every magnetic ballast counted | Suspect PCB ballasts kept separate",
+      "says": "Recycling. This is where crews most often get us in trouble, because it's regulated. Company policy: all lamps are recycled, every removed magnetic ballast goes to the recycler and is counted, and suspect PCB ballasts are kept separate. Wiring details: disconnects where required, and the count recorded, because disconnects and extra parts are billable.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny taps the production and reporting sections.",
+      "on_screen": "Production | Reporting | Be the professional | Vehicle return",
+      "says": "Production: the bid already assumed a pace. If you're falling behind, step back, ask why, change strategy or write down the reasons. Don't fall behind quietly. Reporting: who gets the daily recap, how and when. Be the professional: write up yellowed lenses or missing guards, even outside scope. And bring the vehicle back clean.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Next morning: the tech on the phone with Danny, sheet in hand with three circled questions.",
+      "on_screen": "Safety: Work-hour and driving limits are safety rules, not paperwork",
+      "says": "Anything on the sheet about hours, travel limits and driver logs is a safety rule. Long shifts plus long drives cause crashes. And here's what good looks like: he calls me back the next morning with three questions he found. That's exactly right. Now read the lesson and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Shop counter scene with a printed sample project specifics sheet (based on the library guide 'Project Specifics Sheet Template'), a survey and a service order; no real customer names or prices on the documents. Closing scene: the tech calls Danny the next morning with three questions. Lesson file: curriculum/levels/LT2/courses/LT2-C12/lessons/02-the-project-specifics-sheet.md."
+}

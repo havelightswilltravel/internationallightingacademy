@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C02-L01",
+  "title": "Phase Dimming — Forward (Leading-Edge) & Reverse (Trailing-Edge)",
+  "course": "LT4-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 255,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with two wall-box dimmers on a board, each feeding identical LED downlights. Matthew stands beside it. Medium shot.",
+      "on_screen": "Job Mindset: Replacing a Phase Dimmer",
+      "says": "Replacing a dimmer looks simple, but a dimmer's off position can leave the load energized, and multi-gang boxes often hold more than one circuit. So lock out the breaker and test every conductor in the box. Plan ahead: know the load type and total LED watts before you leave the shop, and bring both a forward and a reverse-phase option in case the first one doesn't match.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Animation overlay of an AC sine wave with part of each half-cycle removed, beside the bench.",
+      "on_screen": "Phase dimmer: chops part of every half-cycle",
+      "says": "A phase dimmer sits in series with the hot, like a switch. But instead of just on or off, it switches power on and off during every half-cycle, cutting off part of the wave. Less wave, lower RMS voltage, dimmer light. The same two wires carry power and the dimming signal, which is why you see phase dimming in so many retrofits.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Oscilloscope screen (or animation) showing forward-phase waveform with a sharp vertical step, then reverse-phase waveform cutting off the end.",
+      "on_screen": "Forward (leading-edge, TRIAC) cuts the START | Reverse (trailing-edge, ELV) cuts the END",
+      "says": "Forward phase, also called leading-edge or TRIAC, turns on part-way into each half-cycle. It cuts the start, and makes a sharp voltage step. Magnetic transformers tolerate that. Many LED drivers don't, and you get buzzing, flicker or overheating. Reverse phase, or trailing-edge, turns on gently at the zero crossing and cuts the end. It's often smoother on LED and electronic loads.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Bench demo: the downlights on the wrong dimmer flicker and drop out as the slider moves; on the compatible dimmer they dim smoothly. Matthew operates the sliders.",
+      "on_screen": "Follow the driver or lamp maker's recommendation",
+      "says": "Watch the difference. Same downlights, wrong dimmer: flicker at the low end, then drop-out. Compatible dimmer: smooth all the way down. Some universal or adaptive dimmers sense the load and pick a mode, or let you select it. Either way, the driver or lamp manufacturer tells you which phase type they recommend. Follow it.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of two dimmers side by side: a two-wire unit and one with a neutral lead; then an LED downlight glowing faintly while 'off'.",
+      "on_screen": "Two-wire dimmer leakage = ghosting. Neutral-wire dimmers help.",
+      "says": "Two-wire dimmers connect only to the hot and switched leg. To power their electronics, they leak a small current through the load even when off. With LEDs that shows up as ghosting, a faint glow, or blinking. Neutral-wire dimmers power their electronics from the neutral and usually work better with LEDs. Just confirm there's actually a neutral in the box before you buy one.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a dimmer's spec sheet: incandescent rating and a much lower LED rating highlighted.",
+      "on_screen": "600 W incandescent rating is NOT 600 W of LED",
+      "says": "Ratings. A 600-watt incandescent dimmer does not support 600 watts of LED. LED drivers pull short current peaks that stress the dimmer, so manufacturers publish a separate LED rating, often far lower. Also check ganging derates when dimmers sit side by side, minimum load, and that the lamp or driver is marked dimmable. Non-dimmable LEDs on a dimmer can flicker and fail early.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech replaces a dimmer in a single-gang box: lock and tag at the breaker, live-dead-live test, identifies line, load, neutral, ground, connects with listed connectors, tests full to minimum. Presenter voice-over.",
+      "on_screen": "Identify load | Choose by LED rating & phase | LOTO + verify | Identify conductors | Connect & bond | Test full to minimum",
+      "says": "The install. Identify the load type and total watts. Choose a dimmer whose LED rating, after any derate, covers it and whose phase type matches. Lock out and verify absence of voltage, live-dead-live, every conductor. Identify line, load, neutral and ground. For 3-way, follow the dimmer's diagram. Connect with listed connectors, bond the ground, restore power, and test from full to minimum.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holding a removed dimmer, medium close-up.",
+      "on_screen": "A dimmer is NOT a disconnecting means",
+      "says": "The mistake I see most: someone turns the dimmer off and starts working on the fixture. A dimmer is not a disconnecting means. Its off position can leave the load conductors energized. Always lock out the breaker and verify absence of voltage before you work on the fixture.",
+      "seconds": 19
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the bench, both downlights dimmed smoothly.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Match the phase type, use the LED rating, and lock out the breaker, not the dimmer. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Bench: one forward-phase and one reverse-phase dimmer feeding identical LED downlights; oscilloscope with isolated/differential probe operated by a qualified person, or use an animation overlay instead. Show flicker/drop-out on the mismatched pairing. Include a two-wire dimmer ghosting shot and a spec sheet showing separate incandescent and LED ratings (blur brand). Senior tech performs the replacement under LOTO while Matthew narrates."
+}

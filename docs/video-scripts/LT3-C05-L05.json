@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C05-L05",
+  "title": "Fixture Whips and Wiring Methods Above the Ceiling",
+  "course": "LT3-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 217,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office with a suspended ceiling; tiles out over a 2x4 LED troffer location; ladder set, lock and tag at the panel. Matthew at ladder base, medium shot.",
+      "on_screen": "Job Mindset: Installing a Fixture Whip",
+      "says": "Fixture whip and troffer install. Hazards: a junction box that may hold several circuits or a shared neutral, a ladder, and a fixture overhead. Controls: lock out, then test every conductor in that box, live-dead-live, and treat anything you can't verify as live. Plan ahead: the right whip, connectors, clips, support wire, and a plan if the box is already full.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Same location, on-screen scope callout.",
+      "on_screen": "Scope varies by state and city",
+      "says": "Scope varies by state and city. In some areas a lighting tech may install fixture whips and wire fixtures above the ceiling under the company's license; in others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a manufactured 6 ft MC whip with connector and stripped tails; on-screen limits.",
+      "on_screen": "Tap: 18 in to 6 ft | 3/8 FMC OK | Company: green EGC in every whip | 90°C wire if marked",
+      "says": "A whip is a short flexible run, usually FMC or MC cable, from a junction box to the fixture. The NEC sets luminaire taps at 18 inches minimum and 6 feet maximum. FMC can serve as a ground only under strict limits, so our company standard is: always include a green ground in every whip. And use conductors rated for the fixture's marked temperature, often 90 degrees.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Above the ceiling: senior tech verifies dead at the junction box, removes a knockout, installs the MC connector and tightens the locknut; presenter voice-over.",
+      "on_screen": "1 Plan  2 Lock out & verify EVERY conductor  3 Connector at the box",
+      "says": "Step one, plan: confirm the circuit, voltage and fixture type, and that the whip conductors suit the circuit. Step two: lock out, open the box, and verify dead on every conductor, including neutrals and other circuits. Step three: remove a knockout, install the whip connector, and tighten the locknut so it bites into the box. MC connectors must be listed for MC, with anti-short bushings where required.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech routes the whip clear of tile backs and hot surfaces; close-up of a whip tied to a grid support wire with a red X.",
+      "on_screen": "Don't tie wiring to grid support wires, ducts, or sprinkler pipe",
+      "says": "Step four, route the whip. Keep it off the backs of tiles where practical, and clear of hot surfaces, sharp edges and moving equipment. Don't tie or support it from the ceiling grid's support wires, or from other trades' pipe, duct or conduit. Secure wiring to structure or to independent support wires identified for that purpose.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Inside the troffer wiring compartment: connector at the knockout, conductors spliced with listed connectors, ground to the green screw.",
+      "on_screen": "Hot → black/driver line | Neutral → white | EGC → green screw",
+      "says": "Step five, at the fixture: remove the wiring compartment cover, open a knockout, install the connector, bring the conductors in. Step six, splice: hot to the fixture's black or the driver input for that voltage, neutral to white, ground to the green screw or lead. On older multi-tap ballasts, use the right tap and cap unused taps individually. Step seven: fold conductors, replace the compartment and box covers.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech sets the troffer in the grid, installs listed grid clips, attaches independent support wires to structure.",
+      "on_screen": "Listed grid clips + independent support wires where required",
+      "says": "Step eight, support the fixture. In a suspended ceiling, it must be securely fastened to the grid with listed clips or other approved means. Many specs and seismic requirements also call for independent support wires from the fixture to the structure. Step nine: remove your lock, energize, and confirm it runs from its normal control and nothing else on the circuit changed.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Service-call B-roll: a whip pulled out of its box connector; missing compartment cover; tape-only splice; open knockout.",
+      "on_screen": "Common finds: pulled whip | missing cover | loose connector | tape splices | open knockouts",
+      "says": "What you'll find on service calls. A whip pulled out of its box, which loses the ground path. A missing compartment cover. Loose connectors at the knockout. Tape-only or unlisted splices; replace them with listed connectors. Open knockouts, a rodent highway and fire path. Whips over 6 feet, or fixtures daisy-chained beyond their listing; only fixtures marked for through-wiring can carry other circuits. Note and report those.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera under the finished troffer.",
+      "on_screen": "",
+      "says": "Every conductor verified, green ground in every whip, fixture clipped to the grid, wiring off the grid wires. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Above-ceiling install per the lesson's video suggestion, de-energized and locked out; show live-dead-live on every conductor in the junction box. Use a manufactured MC whip with a green EGC. Point out independent support wires and what not to tie wiring to. Lesson has no explicit sign-off section; keep 'show your evaluator' only if the course has a whip/fixture installation sign-off."
+}

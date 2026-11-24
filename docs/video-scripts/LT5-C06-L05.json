@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C06-L05",
+  "title": "Transients & Surge Protection",
+  "course": "LT5-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 181,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot the morning after a storm, wet pavement, several dark poles. Matthew beside a pole base. Medium shot.",
+      "on_screen": "Job Mindset: After the storm",
+      "says": "Storm callouts come with their own hazards. Don't work exterior circuits, poles or rooftops during thunderstorms; lightning can induce dangerous voltage even in locked-out conductors. Follow the company lightning policy, commonly stop at the first thunder and wait 30 minutes after the last. Storm damage can create backfeeds, so plan LOTO and verify on every circuit. Bring spare SPD modules and a megohmmeter.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: a voltage line with a sharp microsecond spike reaching thousands of volts; icons for lightning, utility, motors.",
+      "on_screen": "Transient: microseconds - thousands of volts\nMost frequent source: inside the building",
+      "says": "A transient, or surge, is a very short burst of overvoltage, microseconds long, that can reach thousands of volts. Sources include lightning, utility switching, and the most frequent one, switching of motors, transformers and contactors inside the building. Big surges kill electronics right away. Repeated small ones wear them down over time.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Site map graphic with failed poles marked in red, clustered at the end of a long run.",
+      "on_screen": "Surge signs: failures after storms - end of long runs - one feeder - NLC radios dead",
+      "says": "LED drivers and network controls are sensitive. Here's what surge damage looks like: several poles fail after a thunderstorm, often at the end of long runs. Drivers fail but boards are fine. Control radios stop responding. Failures cluster on one feeder or one side of the site. Area lighting surge levels are often specified to ANSI C136.2, like basic 6 kV, 3 kA or enhanced 10 kV, 5 kA.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of a building: SPD at the service, at a lighting panel, and a module inside a pole luminaire.",
+      "on_screen": "UL 1449 - NEC Art. 242\nType 1: service - Type 2: panels - Type 3: point of use - Type 4: components\nLayer them",
+      "says": "Surge protective devices divert surge current to ground. They're listed to UL 1449, and NEC Article 242 covers those rated 1000 volts or less. Type 1 and 2 go at the service, Type 2 at distribution and lighting panels, Type 3 at the point of use, and Type 4 are component modules, like the ones inside luminaires. Layer them from service to fixture.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "At the pole, circuit locked out at the panel. Senior tech opens the handhole, shows the in-line SPD, its status indicator, and its connection to the EGC at the pole ground lug. Presenter voice-over.",
+      "on_screen": "Check: EGC tight to pole lug - SPD indicator - arcing or water",
+      "says": "With the circuit locked out and verified dead, open the pole base. Here's an in-line SPD. Check its status indicator; many SPDs are sacrificial and wear out. Check the equipment grounding conductor is connected and tight to the pole ground lug. A surge can only go to ground through an effective path. A loose EGC in a pole base defeats the protection.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "At a de-energized lighting panel: side-by-side of a Type 2 SPD with short, straight leads and a poor install with long, looped leads.",
+      "on_screen": "Short, straight leads. Every inch adds inductance.",
+      "says": "Installation matters as much as the device. Compare these two. On the left, short straight leads, SPD mounted close. On the right, long looped leads. Every inch of lead adds inductance and lets more voltage through. Also check the voltage rating matches the system, 277/480 versus 120/208, and follow the listing for overcurrent protection and conductor size.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech with a megohmmeter at a pole base, driver leads disconnected. Presenter voice-over.",
+      "on_screen": "1 Map failures  2 Breakers + SPD indicators  3 LOTO, inspect pole bases  4 Insulation test (drivers disconnected)  5 Recommend improvements",
+      "says": "After a storm, map which fixtures failed and where. Check breakers, SPD indicators and burned parts. Under LOTO, inspect pole bases. Insulation-test underground runs with drivers disconnected, because lightning can puncture insulation and cause ground faults later. Then recommend improvements: SPDs at the panel and poles, better bonding, higher surge-rated drivers.",
+      "seconds": 20
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back in the parking lot, medium close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "A common miss is replacing drivers pole after pole and never checking the SPD or the ground connection. Fix the cause, and add SPD checks to maintenance. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Film in clear weather; never stage outdoor work during or near a thunderstorm. Scene 5 must show the lock and tag at the panel before the handhole opens. Scene 6 'poor install' can be a mock-up on a de-energized training panel. Demo performer: senior technician. Generic parking lot, no customer signage."
+}

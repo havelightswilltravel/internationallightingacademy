@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C09-L01",
+  "title": "Track Systems and Components",
+  "course": "LT3-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 181,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Retail store mock-up with track runs overhead and aimed heads. Medium shot.",
+      "on_screen": "Track Systems and Components",
+      "says": "Track lighting is everywhere: retail stores, galleries, restaurants, showrooms. And because store staff move, add and swap heads all the time, compatibility and overloaded tracks are common service calls. If you can identify the system and its parts, you'll order the right part the first time and fix it in one trip.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a track section with a head clipped in.",
+      "on_screen": "Track = powered aluminum channel + movable heads",
+      "says": "A track is an extruded aluminum channel with copper conductors inside. It powers movable track heads that clip in anywhere along the run and can be aimed.",
+      "seconds": 11
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech on a ladder points to each part along the mock-up run: live-end feed, track section, straight connector, L connector, T connector, dead end, floating canopy. Presenter voice-over.",
+      "on_screen": "Live end | Section | Straight / L / T / X connector | Dead end | Floating canopy",
+      "says": "Let's name the parts. The live-end feed is where the branch circuit connects, mounted over a junction box. A floating canopy covers the box and connects anywhere along the track, not just the end. Sections come in 2, 4, 6, 8 and 12 foot lengths. Straight, L, T and X connectors join and turn the run. The dead end caps the far end and covers the conductor ends.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of typical failures: loose live-end terminal, misaligned connector, missing end cap.",
+      "on_screen": "Missing dead end = exposed conductors",
+      "says": "Know where they fail. Live ends and canopies: loose terminal screws and overheated connections. Connectors: loose or misaligned contacts, which leave everything downstream dead. Sections: bent channel, debris in the slot, burrs from a field cut. And a missing dead end leaves conductors exposed.",
+      "seconds": 18
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tech holds H, J and L heads side by side, adapters toward camera.",
+      "on_screen": "H = usually 3 contacts | J = 2 contacts, closer | L = 2 contacts, farther apart",
+      "says": "Track systems are not universally interchangeable. In North America there are three common types. H usually has three contacts on the adapter. J has two, set closer together. L has two, set farther apart. Confirm with the maker's literature. A head for one type may physically fit another track and make poor contact, no contact, or reverse polarity.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the mock-up, medium close-up.",
+      "on_screen": "Never force a head. Never modify an adapter.",
+      "says": "Safety. Never force a head into a track it's not made for, and never modify an adapter. A poorly seated adapter arcs, overheats, and can make the metal head energized. Use only heads and accessories listed for that track system. To identify the type, look for a label in the channel, on the live end or canopy, read the stamp on the adapter, and photograph both for the work order.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a head on 2-circuit track; tech moves its circuit selector lever.",
+      "on_screen": "Multi-circuit track: check the head's circuit selector first",
+      "says": "Single-circuit track has one hot. Two-circuit and three-circuit track carry separate hots, so groups of heads can be switched or dimmed separately. Each head has a circuit selector. Here's the common mistake: a head set to an unpowered or switched-off circuit looks exactly like a dead head. Check the selector first on every outage call.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a track label showing a 20 A rating.",
+      "on_screen": "Stay within BOTH the track rating and the branch circuit. Apply 80%.",
+      "says": "Line-voltage track is usually 120 volts, some 277. Low-voltage rail, monorail and cable systems are usually 12 or 24 volts. Track has its own current rating, commonly 20 amps for commercial line-voltage track. Check the label. The heads on each circuit must stay within both the track rating and the branch circuit, using the 80 percent continuous-load rule.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the mock-up, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Identify the system before you order. Check the selector. Never force an adapter. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Retail mock-up should have no store branding. Use unbranded heads; refer to types only by letter on screen. Senior tech points out components on camera; presenter voice-over for scene 3."
+}

@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C11-L01",
+  "title": "Qualified Persons & the Electrical Safety Program",
+  "course": "LT4-C11",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 214,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop office; Danny at a desk with the company electrical safety program binder open and a training-records folder. Medium shot.",
+      "on_screen": "Qualified Persons & the Electrical Safety Program",
+      "says": "At LT4 you start doing tasks that require you to be a qualified person: measuring voltage in lighting panels, verifying absence of voltage on three-phase circuits, troubleshooting control circuits. That changes how you plan every job. You're qualified only for the specific tasks you've been trained and authorized to do. And work your state or city reserves for licensed electricians stays with them, no matter what.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Graphic over Danny: three stacked labels.",
+      "on_screen": "OSHA = the law\nNFPA 70E = how to work safely (this course: 2024 edition)\nNEC = installation",
+      "says": "Three documents. OSHA is the law: Subpart S for general industry, Subpart K for construction. NFPA 70E explains how to meet it. This course uses the 2024 edition, but our electrical safety program and the edition OSHA and our company reference govern. The NEC covers installation, 70E covers safe work practices, and 70B covers maintenance.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Lighting panel in the shop with two technicians: one at a 208Y/120 V panel, one gesturing to a separate 480 V switchgear photo.",
+      "on_screen": "Qualification is TASK-specific",
+      "says": "Qualified means you've shown the skills and knowledge for that equipment and you've had safety training to identify the hazards and reduce the risk. It's task-specific. You might be qualified to measure voltage on a 208Y/120 panel and not qualified to rack a breaker in 480-volt switchgear. A license or a job title doesn't make you qualified. Training and demonstrated ability do.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny at the binder, flipping to a checklist page.",
+      "on_screen": "Know: energized vs not • nominal voltage • approach distances\nPPE & planning • when to stop • test instruments • ESWC",
+      "says": "You can tell exposed energized parts from other parts, determine nominal voltage and apply approach distances. You select PPE, plan the job and recognize when to stop. You can select, use and verify test instruments. And you know how to establish an electrically safe work condition. A trainee under direct supervision of a qualified person can be qualified for duties they've shown they can do safely.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close on a training record form; on-screen table.",
+      "on_screen": "Retraining: at least every 3 years (sooner if needed)\nEmergency response: annually\nTraining documented: content, name, dates",
+      "says": "Retraining in safe work practices happens at intervals not exceeding three years, and sooner if you're seen not following practices, new technology or procedures come in, or you change jobs. Emergency response training, like contact release and first aid, CPR and AED where expected, is verified annually. And the employer documents the content, name and dates.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny with the binder open to its table of contents.",
+      "on_screen": "ESP: inspection • condition of maintenance • risk assessment • job briefings\nincident investigation • LOTO audited annually • field work audited annually",
+      "says": "Our electrical safety program includes inspecting new or modified equipment, considering condition of maintenance in every risk assessment, hazard identification and risk assessment procedures, job briefings, incident investigation, and a lockout program audited at least annually. The program is audited at least every three years, and field work at least annually.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Customer lighting panel; senior tech performs a voltage test in PPE while an auditor (Danny) watches with a clipboard.",
+      "on_screen": "1. Elimination  2. Substitution  3. Engineering\n4. Awareness  5. Administrative  6. PPE (last)",
+      "says": "That's an annual field audit: I'm watching a senior tech verify voltage to confirm procedures are followed. And every job applies the hierarchy of controls in order: elimination, meaning de-energize; substitution; engineering controls like IR windows and finger-safe covers; awareness like labels and barricades; administrative controls; and PPE last. PPE doesn't prevent an arc or a shock. It only reduces injury.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Customer facility hallway; Danny talking with a facility contact (back to camera).",
+      "on_screen": "Ask the host: site rules, labels, studies, energized-work approvals",
+      "says": "In a customer's facility, the host employer tells us about known hazards and their safety program, and we follow both our rules and theirs. Ask about site-specific rules, labels, studies and energized-work approvals before work starts. Then hold a job briefing: hazards, procedures, special precautions, energy source controls, PPE, and the permit if one's required. Brief again when conditions change.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera, medium close-up.",
+      "on_screen": "Any worker may stop a job they believe is unsafe",
+      "says": "Being qualified includes knowing when to stop. If the equipment doesn't match the drawings, a label is missing, the condition of maintenance is doubtful, or you're unsure of the voltage, stop and ask. Any worker may stop a job they believe is unsafe.",
+      "seconds": 17
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Shop office, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Qualification is earned task by task, and it comes with responsibility. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Knowledge lesson; scene 1 connects qualification to planned work. Props: company electrical safety program binder (generic cover, no customer names), training record form, lighting panel. Field-audit segment: senior technician performs a voltage test in proper PPE with live-dead-live; Danny observes. The video_suggestion mentions a safety manager; this script has Danny cover that role. Facility contact appears only from behind."
+}

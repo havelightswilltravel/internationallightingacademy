@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C10-L02",
+  "title": "Transformer Loading, Voltage Drop and Dimming",
+  "course": "LT3-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 182,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a 12 V cable system, six MR16 lamps and a 300 VA transformer. Medium shot.",
+      "on_screen": "Transformer Loading, Voltage Drop and Dimming",
+      "says": "Low voltage won't shock you the way 120 will, but it can still start a fire. Getting the load, the cable and the dimmer right before you install is how you avoid cycling lights, dim far lamps and callbacks. Here's the math and the rules.",
+      "seconds": 18
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table beside Matthew.",
+      "on_screen": "Total lamp watts must NOT exceed transformer VA. Target 75-80%.",
+      "says": "Transformers are rated in VA. For lamps, treat VA and watts as equal. Total lamp watts must not exceed the VA rating, and a practical target is about 75 to 80 percent for long life. A 300 VA transformer targets about 240 watts. That's four 50-watt MR16s. A 150 VA unit targets about 120 watts, two 50-watt lamps.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: electronic transformer label with '20-60 W' min/max and a single small LED lamp.",
+      "on_screen": "Electronic minimum load: one 5 W LED on a 20-60 W unit = flicker or no start",
+      "says": "Watch the minimum on electronic units. A 20 to 60 watt electronic transformer with a single 5-watt LED lamp is below minimum and will likely flicker or not start. Overloading is the other end. It causes overheating and thermal shutdown: lights go off, cool down, come back on. That's the classic cycling complaint.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: meter reading at the transformer terminals, then at the last lamp on the cable. Presenter voice-over.",
+      "on_screen": "Same cable, 10x the current = about 10x the voltage drop",
+      "says": "Voltage drop. Low voltage carries about ten times the current of 120 volts for the same load, so the same cable loses about ten times the voltage. And one volt is about 8 percent of 12 volts, but under 1 percent of 120. Here's the reading at the transformer, and here's the last lamp. Halogen goes dimmer and yellower. LEDs may flicker or shut off.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech swaps to heavier cable; meter at last lamp shows a higher reading.",
+      "on_screen": "Fix: heavier cable | shorter runs | split home runs | higher tap | tight connections",
+      "says": "Causes: cable too small, runs too long, too many lamps on one run, and poor connections. Fixes: heavier cable per the maker's charts, shorter runs or a center feed, split the load into multiple home runs, and on magnetic landscape units, a higher tap, then measure at the lamps. Halogen targets roughly 10.5 to 12 volts. Check LED lamp specs.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium close-up, holding a melted low-voltage splice.",
+      "on_screen": "Low voltage is NOT 'no hazard.'",
+      "says": "Safety. High current means high heat at a bad connection. A loose low-voltage splice can get hot enough to melt insulation and start a fire, even though 12 volts won't shock you. Low voltage is not 'no hazard.' Make tight, sealed connections.",
+      "seconds": 17
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Side by side: a magnetic transformer flickering and buzzing on the wrong dimmer, next to a smooth one on an MLV dimmer.",
+      "on_screen": "Magnetic = MLV dimmer | Electronic = ELV dimmer (unless label says otherwise)",
+      "says": "Dimming. Magnetic transformers take an MLV dimmer, rated for inductive loads. The wrong dimmer means buzzing and an overheating transformer. Electronic transformers usually take an ELV, reverse-phase dimmer, unless the label allows forward-phase. Read the label, size the dimmer by the transformer VA including ganging derating, and on MLV systems replace burned-out lamps promptly.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "B-roll: cable system with tensioners, a monorail, then a landscape transformer and path lights at dusk.",
+      "on_screen": "Landscape: magnetic multi-tap, direct-burial cable, sealed connectors",
+      "says": "Cable, monorail and low-voltage rail all carry high current, so they have strict length and wattage limits, and long runs are often fed from more than one point. Landscape systems use outdoor-rated magnetic multi-tap transformers, direct-burial cable and sealed connectors. Common problems: corroded or piercing connectors, cables cut by digging, water in fixtures, and overloaded transformers.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Load to 75 to 80 percent, respect the minimum, size the cable, match the dimmer. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Demo setup: six MR16 lamps on a 300 VA transformer must stay within the lesson's ~240 W practical target, so use 35 W lamps (210 W) or LED lamps that meet the transformer minimum, NOT six 50 W lamps (300 W, at maximum). Show actual meter readings; do not script specific voltage numbers on screen unless measured. Wrong-dimmer demo performed by a qualified person on a training board, briefly, to avoid damaging equipment. Melted splice prop for scene 6."
+}

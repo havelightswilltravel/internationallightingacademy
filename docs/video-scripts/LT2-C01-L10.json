@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C01-L10",
+  "title": "Putting It Together: A Professional's Day",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 242,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop floor at start time, trucks and a towable boom lift on a trailer behind. Medium shot of Matthew.",
+      "on_screen": "Putting It Together: A Professional's Day",
+      "says": "You've learned the pieces one at a time. On a real day, you do all of them at once, over and over. Let's follow one LT2 tech and a trainer through a day: an open-store relamp, an attic, and a parking lot pole after dark. The jobs are made up for teaching, but every situation is one our crews have faced. Watch how safety and planning come first in every chapter.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Chapter title card, then a tech at a kitchen table reading work orders on a phone and texting questions.",
+      "on_screen": "The night before",
+      "says": "It starts the night before. She reads all three work orders and runs the movie for each one. Then she writes her questions. Can any store work be done before opening? How do we get into the attic, and how hot will it be? Who's operating the lift? Is there anything here I haven't been trained to do? She texts them, packs water and food, and rests. Fit for duty.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Chapter title card; tech does a vehicle walk-around, checks a trailer hitch and chains, loads work lights and a photocell cover.",
+      "on_screen": "At the shop",
+      "says": "At the shop, she's early and working at start time. Her trainer answers the questions. She does the vehicle walk-around and loads from her what-I-need list: ladders, lamps, ballasts, the lockout kit and meter, cones and tape, a walk board for the attic. The pole job is last, after dark, so the work lights and photocell cover go on the truck now, and the lift's battery or fuel gets checked now.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Chapter title card; open retail store before opening, tech leads a brief at the end of aisle 1 while the trainer listens. Platform ladder, barricades, recycle boxes.",
+      "on_screen": "Store relamp: aisles 1-2 before opening | barricade aisle 3 | lockout and live-dead-live | platform ladder | No-PCB label? Treat as PCB",
+      "says": "Store relamp. She leads the pre-task brief. Public under the ladder: eliminate it by doing aisles one and two before opening, then barricade aisle three. Shock: lockout at the breaker and live-dead-live with gloves. Falls: a platform ladder and three points of contact. Any ballast without a No PCBs label is treated as PCB. And she says when they'd stop: a leaking ballast, work over customers, or anything they're not trained for.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Store aisle: tech staging the next ladder while the trainer relamps; both step back and look from the floor; employees unlocking the front doors.",
+      "on_screen": "No idle hands | step back | ask | keep pace | stay aware",
+      "says": "Watch the habits. While her trainer relamps fixture one, she has the next ladder set and lamps unboxed. They step back after the first fixture and catch a lamp that isn't seated. She asks about an unlabeled ballast to verify. She keeps up between fixtures but sets each ladder at a careful pace. At 9:55 she sees the doors being unlocked, calls it out, and they check the barricades.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Chapter title card; attic with a walk board, fan and work light; flashlight reveals loose gray-brown pebble-like insulation around a housing. Then the tech on the phone in the truck.",
+      "on_screen": "The attic: Stop. Make it safe. Call. Inform. Suggest training.",
+      "says": "The attic. Halfway to the fixture, she finds the housing buried in loose, gray-brown insulation that looks like vermiculite, which can contain asbestos. She's not trained for it, so she stops and doesn't touch it. She backs out, closes the scuttle, keeps power locked out and calls her supervisor. The site contact is told the work's on hold, and she sends a training suggestion from the truck.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Chapter title card; parking lot at dusk, boom lift at a pole, cones, beacons, tech in hi-vis as ground person. Wind moving the trees, light rain.",
+      "on_screen": "Parking lot, after dark: photocell AND time clock",
+      "says": "Parking lot, after dark. Her trainer adds one thing she missed: the lot lights are on a contactor with a photocell and a time clock, so both matter for lockout and testing. She keeps the zone closed and the new fixture ready. Twenty minutes in, the wind picks up and light rain starts. She calls it out. They check the lift's limit, step back, and finish carefully.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Chapter title card; truck being restocked, a damaged cord tagged out; then the tech at home at night writing in a notebook.",
+      "on_screen": "End of day",
+      "says": "End of day. Recycle boxes labeled, PCB ballasts counted and separate, the truck restocked, a damaged cord tagged out and reported, work orders done with photos and the attic hold. She asks her trainer what he'd have done differently, and writes down the time clock she missed. At home, thirty minutes of study and three questions for tomorrow. Your evolution is in your hands.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back at the shop, medium shot.",
+      "on_screen": "LT2-S24 Lead a pre-task brief | LT2-S25 Forecast and keep the crew productive",
+      "says": "Every lesson in the rest of LT2 builds on this. You'll be evaluated on two skills from this course: leading a pre-task safety and planning brief while an evaluator listens, and forecasting and keeping the crew productive on a live job. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Day-in-the-life piece cut into chapters with title cards: The night before, At the shop, Store relamp, Parking lot after dark, The attic, End of day (scene order follows the lesson: store, attic, then parking lot). Performers: one LT2 tech and a trainer; trainer operates the towable boom lift. Vermiculite in the attic scene must be a harmless prop; crew does not disturb it. Lesson file path is LT2-C13/10 (course code differs from vid LT2-C01)."
+}

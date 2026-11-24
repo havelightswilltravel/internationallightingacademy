@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C14-L04",
+  "title": "Kickoff Day and the Daily Project Routine",
+  "course": "LT1-C14",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Grocery or retail store at night, closed to the public; two scissor lifts staged, carts of material, recycle boxes. Danny in an aisle, medium shot.",
+      "on_screen": "Job Mindset: The First Night on a Retrofit",
+      "says": "Night one of a store retrofit: two lifts in the aisles, open food cases, dozens of circuits, and a crew that's tired by 3 a.m. Barricade under every lift and ladder. Lock out and verify every circuit, and lock out again after every shutdown change. And think ahead: where does material stage, where does old material go, and who's waiting on whom.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Time-lapse: the crew checks in with the manager, walks the store taking before photos of existing damage, counts pallets against the order. Pause on a photo of a cracked lens.",
+      "on_screen": "1. Check in\n2. Walk with before photos\n3. Agree on the game plan\n4. Count material\n5. Stage the work",
+      "says": "Here's how a strong first shift goes. Check in with the manager, confirm times and logistics, and write down their name. Walk the job and take before photos, including anything already damaged. Agree on the game plan: where to start and what has to look normal by opening. Count the material, and photograph anything missing or damaged and send it immediately. Then stage the work.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Time-lapse resumes: plastic covers food cases; two lifts working in neighboring aisles while one ground person keeps carts stocked and takes old material away.",
+      "on_screen": "Split dirty and clean work | Feed the lifts | Never work lifts directly over each other",
+      "says": "Projects are won or lost on flow. Split dirty work from clean work. Gutting old fixtures is dirty, and dirty hands leave fingerprints on new reflectors. One ground person can feed two lifts with stocked carts, as long as the lifts are close but never working directly over each other. If someone's waiting, stop and change the setup.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny with a clipboard; graphic shows the example production calculation.",
+      "on_screen": "Example only: 3 techs x 8 hrs x 4 kits/hr = 96 | Installed 70 = about 27% behind",
+      "says": "Every project was bid with a production expectation, and it covers all your time on the clock, so your hands-on pace has to be higher. Made-up example: bid at 4 kits per tech per hour, three techs, eight hours, that's 96. You installed 70. That's about 27 percent behind. Step back and ask why. Change the strategy, or write down the reasons for your supervisor.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny at a lift base, firm tone.",
+      "on_screen": "Safety: Never make up the gap by skipping lockout, quality or cleanup",
+      "says": "Never make up the gap by skipping lockout, quality checks or cleanup. Never let a manager, a schedule or a production target talk you into working hot. If the site requires a spotter or a rule stricter than ours, follow it. If you can't, stop and call your supervisor.",
+      "seconds": 19
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Midway: the crew leader steps back and looks down the aisle at the new fixtures, spots a fingerprint on one lens, goes up and cleans it.",
+      "on_screen": "Step back and look from the floor",
+      "says": "Midway, the crew leader steps back and looks down the row. Alignment, lens and door fit, color match, no wires hanging out, no fingerprints. Found one. Fix it now, before more get done the same wrong way. The crew leader checks everyone's work at least once a shift with the QC checklist. And every fixture is secured per the manufacturer before you leave it.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "A tech writes counts on a recap sheet at a cart; another photographs a fixture over a partition that was skipped and marks its location.",
+      "on_screen": "Document as you go: counts | survey changes | skips | damage",
+      "says": "Keep notes during the shift, not from memory. Counts by area, kits, drivers, disconnects, sockets and extra hardware. Survey changes. Fixtures skipped and why, with the location marked. Damage found or caused, with photos and the manager you told. If the customer asks for extra work, write it down and pass it to your supervisor. Don't just do it.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "End of shift: closed, taped and labeled recycle boxes, a separate PCB ballast box, a swept floor, a photo of the shrink-wrapped pallet, the crew leader sending the recap on a tablet.",
+      "on_screen": "Boxes taped both ends | PCB ballasts separate and counted | Circuits back on | Recap sent",
+      "says": "End of every shift. Removed lamps boxed and taped on both ends so no lamps show. PCB ballasts kept separate and counted. Recycle stacked where agreed. Clean up thoroughly. Confirm every circuit you worked is back on and the lights work. Then send the daily recap by the method and time on your sheet. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "One night shift on a store retrofit in time-lapse with pauses. Production figures in scene 4 are the lesson's made-up example; keep the 'Example only' label on screen and do not present them as company labor units. Lifts barricaded; lifts never working directly over each other. No store logos. Lesson file: curriculum/levels/LT2/courses/LT2-C12/lessons/04-running-the-project-day.md."
+}

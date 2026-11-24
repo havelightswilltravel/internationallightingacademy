@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C03-L04",
+  "title": "GFCI Testing, Plug-in Testers & Their Limits",
+  "course": "LT3-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 209,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training board with GFCI receptacles, downstream receptacles and a plug-in tester. Matthew beside it, medium shot.",
+      "on_screen": "Job Mindset: GFCI Testing",
+      "says": "GFCI calls look simple, but the hazard is trusting the wrong tool. Plan the call: GFCI first, meter second, and know the limits of your plug-in tester before you rely on it. Never use a plug-in tester to prove a circuit is dead for lockout. Use a meter, live-dead-live. And plan to write it up when the problem goes past the device.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Animated graphic: current out on hot, back on neutral; a small leak path through a person; GFCI trips.",
+      "on_screen": "Out ≠ back by about 5 mA → trip",
+      "says": "A GFCI compares current going out on the hot with current coming back on the neutral. If they differ by a few milliamps, about 5 for personnel protection, current's leaking somewhere, maybe through a person, and it trips in a fraction of a second. It protects people from shock. It doesn't protect against overloads; that's the breaker. And it's not an AFCI, which detects arcing.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on the training board: lamp plugged in, TEST pressed, lamp goes out, RESET pressed, lamp returns. Then a GFCI with no power that won't reset.",
+      "on_screen": "Plug in → TEST (off) → RESET (on)",
+      "says": "Testing one. Plug in a lamp or tester so you can see power. Press TEST. It should click and power should go off. Press RESET. Power should return. If it won't trip on TEST, or won't reset, it's failed or has no power, like this one. Most GFCIs made since about 2015 monitor themselves and refuse to reset or show a warning light when protection fails. Manufacturers recommend testing monthly.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Training board labeled 'bathroom': a dead receptacle with a 'GFCI Protected' sticker; presenter finds and resets the upstream GFCI.",
+      "on_screen": "Dead outlet? Find the upstream GFCI first.",
+      "says": "The most common outlet call is a receptacle that stopped working because an upstream GFCI tripped. One GFCI can protect ordinary receptacles wired to its LOAD terminals. Look nearby: same room, bathroom, garage, kitchen, outside wall, basement. Look for GFCI Protected stickers. Press RESET. Trips again right away? Unplug the loads and retry. Still trips with nothing plugged in? Write it up.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: three-light plug-in tester in a receptacle; indication chart on screen.",
+      "on_screen": "Correct | Open ground | Open neutral | Open hot | H/N reversed | H/G reversed = STOP",
+      "says": "A three-light plug-in tester is a quick screening tool. It shows correct, open ground, open neutral, open hot, and hot and neutral reversed. Hot and ground reversed is dangerous miswiring. Stop and write it up. Many testers also have a GFCI button that creates a small fault from hot to ground.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "De-energized, rewired training board only: close-up of a bootleg jumper from neutral to ground screw; then the board re-energized and the tester shows 'Correct'. Caption: training board only.",
+      "on_screen": "Bootleg ground reads \"Correct\"",
+      "says": "But a plug-in tester isn't proof of anything. Watch this. On a training board only, de-energized and rewired, we've jumpered the ground terminal to the neutral. That's a bootleg ground. Power it up, and the tester says correct, even though there's no real equipment ground. A high-resistance or partly broken ground can read correct too.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; on-screen limits list.",
+      "on_screen": "No ground proof | No load test | Misses some faults | GFCI button needs a ground",
+      "says": "It doesn't test under load, so a loose connection can pass, then heat up with a heater plugged in. It misses some faults, like neutral and ground both reversed. Its GFCI button needs a ground; on an ungrounded GFCI it may not trip, so use the GFCI's own TEST button. Any doubt about the ground? Don't assume it's safe. Write it up so a qualified person can test it properly.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the board; on-screen two-column table.",
+      "on_screen": "You may: inspect, reset, test, like-for-like (authorized) | Write up: beyond the device",
+      "says": "Know your scope. If you're trained and authorized, you may inspect devices, reset and test GFCIs, replace switches, receptacles and GFCIs like-for-like de-energized, screen with a plug-in tester, and document. Write up burned wiring or boxes, a GFCI that keeps tripping, no line voltage, no ground or a bootleg ground, aluminum wire, 3-way problems, panels and multiwire circuits, and anything needing a permit.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera.",
+      "on_screen": "",
+      "says": "Find the GFCI before you replace anything, and never let a plug-in tester do a meter's job. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Training-board demonstration per the lesson's video suggestion. The bootleg-ground segment must be built on a de-energized, rewired training board only, clearly captioned as a training demonstration, never shown in a real building. Show 'GFCI Protected' stickers on downstream receptacles."
+}

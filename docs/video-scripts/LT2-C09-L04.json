@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C09-L04",
+  "title": "Warranty, Returns & Avoiding Wrong-Part Callbacks",
+  "course": "LT2-C09",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 201,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Office ceiling, open LED troffer; ladder set, lock and tag visible at the panel. Danny at ladder base, medium shot.",
+      "on_screen": "Job Mindset: Pulling a Failed Part for Warranty",
+      "says": "You're about to pull a failed driver for a warranty claim. Safety first: lock out and verify absence of voltage before you remove anything. Plan ahead too: bring a tag, a marker, a bag and your phone for photos, because the part you remove is evidence. Lose the information now, and the company can't claim the warranty later.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Senior tech photographs the failed driver's label and date code, then wide shot of fixture; presenter voice-over. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Claim needs: part #, date code, install date, failure, the part",
+      "says": "Here's a driver that failed two years after we installed it. LED fixtures, drivers and kits often carry multi-year warranties; the exact terms are on the warranty statement or spec sheet. A claim usually needs the part and catalog numbers, the date code or serial number, the install date or proof of purchase, a description of the failure, sometimes photos, and the failed part itself.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Office desk: an old work order on a tablet showing the install date; office staff member on the phone.",
+      "on_screen": "No install date = maybe no claim",
+      "says": "This is why documentation matters. If you can't show when a part was installed, we may not be able to claim it. Some companies have techs write the install date on new drivers with a permanent marker. Follow your company's practice. And know what voids a warranty: the wrong voltage, location rating or dimmer, an incompatible part, or physical damage or modification.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Shop bench: senior tech fills out a tag and ties it to the failed driver, then writes the RMA number on tag and box and places it in a labeled return bin.",
+      "on_screen": "1 Keep it  2 Tag it  3 Give the office the info  4 RMA # on tag + box  5 Return bin  6 Ship it",
+      "says": "Defective parts need a Return Material Authorization, an RMA, before they ship. Don't throw the part away; keep it intact. Tag it with the job, work order number, location, date installed, date failed and the symptom. Give the office the details so they can request the RMA. Write the RMA number on the tag and the box, put it in the return bin, not loose in the van, and ship as instructed.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Shop parts shelf: an unopened 2-lamp ballast box with a receipt.",
+      "on_screen": "Wrong part? Return it promptly, undamaged, with the receipt.",
+      "says": "The other kind of return is the unused or wrong part. Ordered a 2-lamp ballast and needed a 3-lamp? Return it promptly in the original undamaged box with the receipt. Restocking fees may apply, and opened or special-order items may not be returnable.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Red callout over a broken fluorescent lamp and a leaking ballast.",
+      "on_screen": "Never pack broken lamps or PCB ballasts with returns",
+      "says": "Safety on returns. Don't pack broken lamps with returns; mercury lamps are universal waste. Damaged ballasts that are leaking or may contain PCBs are not returned. They're handled the way you learned in LT1.",
+      "seconds": 14
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Tablet close-up: work order fields filled in: Location, Removed, Installed, Source, Warranty, Photos.",
+      "on_screen": "Write the full code. \"24 V driver\" is not a part code.",
+      "says": "Every part in or out goes on the work order: the location, what you removed, what you installed and how you set it, the source, the warranty status, and your photos. Our rule: write the full code. 24 volt driver is a description, not a part code. Copy the complete catalog or stock code. And put photos in the service-order photo folder, not just a text message.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Senior tech at the truck tailgate fills out a parts order checklist on a tablet before leaving the site.",
+      "on_screen": "Wrong-part checklist: on site AND at the counter",
+      "says": "Most wrong-part callbacks come from the same few mistakes. So before you leave the site, and again at the counter, run the checklist. Did I read the whole label? Clear photos? Measure where in doubt? Count right? Do lamp and ballast match? Is it allowed by the fixture label? Did I confirm the cross on the spec sheet, open the box at the counter, and write it all down?",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny to camera at the truck.",
+      "on_screen": "A 5-minute call is cheaper than a second truck roll",
+      "says": "If you're unsure about any of it, call your supervisor before you order. A five-minute call is cheaper than a second truck roll. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Office-and-field segments per the lesson's video suggestion. Show LOTO and verify before the driver is removed. Use a sanitized work order and a generic RMA tag; no real manufacturer names or customer names. Return bin should be clearly labeled."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C05-L04",
+  "title": "Deficiency Tracking, Documentation and Owner Training",
+  "course": "LT5-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 178,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Finished office near a window daylight zone; fixtures stuck at full brightness. Matthew holds a tablet. Medium shot.",
+      "on_screen": "Deficiency Tracking, Documentation and Owner Training",
+      "says": "Commissioning finds problems. That's its job. What separates a good crew from a bad one is what happens next: problems get logged, fixed, retested and closed, and the owner walks away knowing how to run the system. Let's start with the issues log.",
+      "seconds": 17
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a tablet issues log entry being filled in: Issue L-014, Floor 3 Room 312 daylight zone 1, assigned to controls vendor.",
+      "on_screen": "Issue # - Date/found by - Location - Description - Test reference - Responsible party - Action - Retest - Status",
+      "says": "Every deficiency goes into one issues log. Each entry gets a number, date and who found it, location and system, a description, the test step it failed, the responsible party, the action taken, the retest date and result, and the status. One issue per entry. Don't bundle unrelated problems.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera; text graphic contrasts a bad and good description.",
+      "on_screen": "Weak: 'Sensor broken.'\nStrong: 'Lights off after 4 min; expected 15 min.'",
+      "says": "Write what was expected and what happened, not a guess at the cause. 'Lights turned off after four minutes; expected fifteen' beats 'sensor broken.' Add photos or screenshots when they help. And an issue is closed only after a retest passes, preferably witnessed. 'Vendor says fixed' is not closure.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Quick cutaways: a sensor menu showing default delay, a wall station with a wrong label, a fixture stuck at full, a gateway with a red status light. Presenter voice-over.",
+      "on_screen": "Common deficiencies: default delays - wrong zone - uncalibrated daylight - wrong time zone - bad labels - 0-10V reversed - missing transfer device - offline devices",
+      "says": "You'll see the same problems again and again. Sensor delays left at factory default or stuck in test mode. Fixtures in the wrong zone. Daylight sensors never calibrated, or calibrated at night. Schedules in the wrong time zone. Labels that don't match. 0-10 volt polarity reversed or not landed. Emergency fixtures that don't go to full because the transfer device is missing or miswired. Devices offline from addressing problems.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech at a power pack applies a lock and tag at the panel, verifies absence of voltage with a meter. A facility manager waits in the background checking a watch.",
+      "on_screen": "Never make energized 'quick fixes.' LOTO and verify.",
+      "says": "If the fix involves line-voltage wiring, like a miswired emergency transfer device or a power pack, it takes lockout/tagout and verification of absence of voltage. Don't make quick fixes on energized equipment because the owner is waiting. The owner can wait a few minutes. You can't undo a shock.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Table with an organized closeout binder, a USB drive in a sealed envelope, and as-built drawings. Matthew flips through tabbed sections.",
+      "on_screen": "Closeout: checklists and FPTs - closed issues log - final settings - as-builts - O&M manuals - warranty - emergency test records - training records - software backups and credentials",
+      "says": "At turnover, the owner gets a complete package. Signed checklists and test forms. The final issues log, all closed or accepted by the owner. Final settings: delays, daylight setpoints, schedules, scenes, overrides. As-builts, product data, O&M manuals, warranty contacts, emergency test records and schedule, training records, and software backups and credentials, delivered securely.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Owner training session in a conference room: the tech shows three facility staff how to change a schedule on a laptop, then one staff member adjusts a sensor time delay with the tool. Presenter voice-over.",
+      "on_screen": "Training: overview - daily operation - changing settings - emergency testing - maintenance - troubleshooting - hands-on practice",
+      "says": "Even a perfect system fails if nobody knows how to run it. Train on the owner's actual building and screens. Cover the overview, daily operation, changing schedules and delays, emergency lighting, maintenance, and what to check before calling. Have every operator perform at least one task. Leave a one-page quick reference, and have attendees sign in.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech shows facility staff an emergency fixture test switch in a corridor, then hands the O&M binder to the facility manager.",
+      "on_screen": "NFPA 101: monthly 30-second test - annual 90-minute test",
+      "says": "For emergency lighting, show them where the test switches are and explain the monthly 30-second and annual 90-minute tests under NFPA 101, and how to keep records. Then hand over the binder.",
+      "seconds": 13
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the finished office, medium close-up.",
+      "on_screen": "Post-occupancy visit: 4-8 weeks. Now read the lesson and take the quiz.",
+      "says": "Finally, plan a short visit four to eight weeks after occupancy. That's when you catch sensors timing out on people and schedules that don't match real hours. Adjust, record the new settings, update the documents. Now read the lesson and take the quiz.",
+      "seconds": 17
+    }
+  ],
+  "production_notes": "Scene 2 issues log content comes from the lesson's example; do not show the finder's name on screen. Scene 5 demo by a senior technician (non-speaking). Scene 7-8 facility staff are extras; use a generic building, no logos. Credentials in scene 6 should appear only as a sealed envelope, never readable on screen."
+}

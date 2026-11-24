@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C11-L05",
+  "title": "Our Company's Job-Site Standards: Lessons From the Field",
+  "course": "LT1-C11",
+  "presenter": "Kyle McClelland",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Kyle McClelland",
+      "background": "Office space with a newly finished troffer retrofit, lights on. Kyle standing under the new fixtures, medium shot.",
+      "on_screen": "Our Company's Job-Site Standards",
+      "says": "This lesson is our company's version of professionalism. Every habit in it is here because skipping it once cost us a payment, a callback or a customer's trust. The common thread is simple. We need to be a cut above our competition. That gets decided in the last ten minutes of every job.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Kyle McClelland",
+      "background": "A tech, freshly washed hands, wiping down a new troffer lens, then lifting a clean ceiling tile into place. Kyle voice-over.",
+      "on_screen": "Photograph dirty tiles first | Lift tiles with clean hands | Dirty work | Wipe fixtures, wash up, then tiles",
+      "says": "Ceiling tiles show every fingerprint and don't clean well. So: photograph any tiles that are already dirty and note it. Lift all the tiles with clean hands. Do the dirty work. Then wipe down the new fixtures, wash your hands, and only then put the tiles back. Clean bugs and dust out of fixtures, too, and note it. Only when they're locked out and verified dead.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Kyle McClelland",
+      "background": "The tech takes after photos from the same spot as the before photos, then uploads them in the phone app with the customer-visible setting switched on.",
+      "on_screen": "Right folder. Customer-visible.",
+      "says": "After photos, from the same spot as the before photos. Upload them to the company photo folder for that service order, not some other folder where nobody will find them. If the customer uses a portal, upload there too and set notes and photos so the customer can see them. Some customers deny payment when completion photos are missing.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Kyle McClelland",
+      "background": "Close-up of the work order on the phone: exact part codes typed in, ending with 'see return'; then a paper return sheet being filled in.",
+      "on_screen": "Work order = what you did\nReturn sheet = what is still needed",
+      "says": "The work order describes only what you did, with exact part codes. '24 volt driver' is not a part code. If more is needed, end with 'see return.' The return sheet lists only what's still needed: parts with codes and quantities, equipment, people, time, access notes and photos. Write down lifts, supplies and recycling you used, too. If it's not on the work order, the customer never sees it.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Kyle McClelland",
+      "background": "Intercut: the tech on a phone call in the hallway, notepad in hand, then checking an email approval on the phone.",
+      "on_screen": "Once an NTE is blown, we can never bill it.",
+      "says": "Know the not-to-exceed amount before you start. Once an NTE is blown, we can never bill it afterward. If you're getting close and another hour finishes the job, call for an increase from the site before you do that hour. Approved or denied, get the person's name and ask them to email the approval. Note it on the work order.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Kyle McClelland",
+      "background": "The store manager signs the paperwork on a clipboard and prints her name beneath; the tech completes a phone check-out.",
+      "on_screen": "Signature + printed name | Check-out done",
+      "says": "Signatures on all paperwork, with the signer's printed name. Some customers question every signature they can't read. Then the customer's check-in and check-out. If their system fails, call dispatch or their service desk and write it in your notes, because customers can charge penalties for missed check-ins.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Kyle McClelland",
+      "background": "The tech closes the van doors on an organized cargo area, sits in the driver's seat, and only then shifts into drive.",
+      "on_screen": "Everything done before you drive.",
+      "says": "Our rule: everything about the service gets done while you're on site and still clocked in. Work order, part codes, photos, return sheet, signatures, check-out, receipts, equipment stored, van organized. Then you put the truck in drive. Not before.",
+      "seconds": 19
+    },
+    {
+      "scene": 8,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle back under the new fixtures, medium close-up.",
+      "on_screen": "Arrive before the customer. Photograph damage before you start.",
+      "says": "A few more. Appointments are not suggestions. Arrive before the customer. Watch your language. Center fixtures unless you're approved otherwise, and if a layout looks wrong, ask before you install. Photograph damage you find, like a scuffed door frame, and tell the manager before you start. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Follow one technician through the last ten minutes of a troffer replacement; scene 5 is an intercut phone call. Do not show any real dollar NTE amounts or real customer portal branding; use a generic mock-up. Show the fixture cleaning only on locked-out, verified-dead fixtures. Lesson file: curriculum/levels/LT1/courses/LT1-C07/lessons/05-company-job-site-standards.md."
+}

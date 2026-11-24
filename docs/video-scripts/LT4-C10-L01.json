@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C10-L01",
+  "title": "Root-Cause Analysis for Lighting Systems",
+  "course": "LT4-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 198,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop break room with a whiteboard; Matthew stands at it, two junior techs seated. Medium-wide shot.",
+      "on_screen": "Root-Cause Analysis for Lighting Systems",
+      "says": "Replacing the third driver in the same fixture this year isn't a fix. It's a subscription. Your troubleshooting method finds the failed part. Root-cause analysis finds why it failed, so it doesn't happen again. And like any job, RCA gets planned: what evidence you need, what meters and loggers, and how you'll install them safely.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: four-row ladder Matthew writes top to bottom.",
+      "on_screen": "Symptom → Direct cause → Contributing cause → ROOT cause",
+      "says": "Look at the levels. Symptom: fixture 12 is dark. Direct cause: the driver failed. Contributing cause: the driver ran hot. Root cause: the fixture isn't rated for the 55-degree Celsius ambient above the oven hood. The wrong product was specified. Only fixing that last line stops the failures.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard listing triggers.",
+      "on_screen": "Do a formal RCA for:\nRepeat failures • Many devices at once • Any safety event\nEscalations & warranty claims • Unresolved intermittents",
+      "says": "When do you do a formal RCA? Repeat failures of the same part or location. Many devices failing at once, like after a storm or a software update. Any safety event: shock, arc, burn, fire, a falling fixture. Customer escalations and warranty claims. And intermittent problems previous visits didn't solve.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close on a whiteboard problem statement; Matthew underlines what, where, when, how many, how often.",
+      "on_screen": "Poor: 'Lights keep failing in the warehouse.'\nGood: '14 of 120 drivers, Aisles 20-28, since March, clustered June-August'",
+      "says": "Step one: define the problem precisely: what, where, when, how many, how often. 'Lights keep failing' is useless. 'Since the March retrofit, 14 of 120 high-bay drivers in Aisles 20 to 28 have failed, clustered in June through August, one failure in other aisles' gives you something to work with. Then collect evidence before forming opinions, and keep failed parts tagged.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew draws a fishbone diagram with six labeled bones.",
+      "on_screen": "Power • Equipment • Environment\nInstallation • Controls • People/Process",
+      "says": "Step two: brainstorm with a fishbone diagram so you don't fixate on the first idea. Six lighting categories: power, equipment, environment, installation, controls, and people and process. In the warehouse, heat looks likely: summer clustering, aisles under the HVAC exhaust. But a single feeder with surge exposure is also possible. Keep both until evidence decides.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Junior tech at the board writing hypothesis/test pairs while Matthew watches.",
+      "on_screen": "Test each hypothesis with evidence\nNo parts-swapping",
+      "says": "Step three: for each candidate, decide what evidence would confirm or eliminate it. Overheating: measure ambient at fixture height in summer and check driver case temperature against its tc rating. Surge: compare failure dates to storms and utility events. Overvoltage: log voltage for one to two weeks. Defective batch: compare date codes. Don't parts-swap. It costs money and hides evidence.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew numbers five 'Why?' lines on the whiteboard.",
+      "on_screen": "5 Whys → capacitors dried out → over tc → 50 °C ambient → under HVAC exhaust → audit missed it",
+      "says": "Step four: ask why until you reach something that, if corrected, prevents it. Drivers failed? Capacitors dried out. Why? Case temperature exceeded tc. Why? Ambient hits 50 degrees in summer. Why? Those aisles sit under HVAC exhaust with an uninsulated roof. Why wasn't that considered? The audit didn't record high-ambient areas, so standard fixtures were ordered.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: before/after service history chart for the aisles (illustrative).",
+      "on_screen": "Corrective: high-ambient fixtures in Aisles 20-28\nPreventive: ambient temp added to audit checklist\nVerify: zero failures next summer",
+      "says": "Step five: correct, verify, document. The corrective action fixes this instance: high-ambient-rated fixtures in those aisles. The preventive action stops it elsewhere: ambient temperature goes on the audit checklist. Verify it: zero failures in those aisles next summer. Then write a short report another tech can follow.",
+      "seconds": 19
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at an open panel in the shop training area, cover closed afterward; logger in hand.",
+      "on_screen": "Clamp-on loggers in an energized panel = energized work: qualified + PPE\nPrefer: install under LOTO, close covers, re-energize",
+      "says": "Safety. Installing clamp-on loggers in an energized panel is energized work that requires qualification and PPE per the arc-flash label. Where possible, install loggers with the circuit de-energized under LOTO, close the covers, then re-energize. Keep failed parts, but discharge and handle them safely.",
+      "seconds": 18
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the whiteboard, wide shot with the techs.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Find the part, then find the why. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Analysis lesson; scene 1 ties RCA planning to safe, planned work instead of a full Job Mindset opener. Props: whiteboard, markers, tagged failed driver, recording meter/logger. Before/after service-history chart is illustrative (built from the lesson's warehouse example, not a real customer). Two junior techs appear as non-speaking extras."
+}

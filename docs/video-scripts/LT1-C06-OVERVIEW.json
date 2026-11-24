@@ -1,0 +1,67 @@
+{
+  "vid": "LT1-C06-OVERVIEW",
+  "title": "Public-Site and Biological Hazards (course overview video)",
+  "course": "LT1-C06",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 160,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Busy retail parking lot in the daytime, van and lift set up with cones; shoppers walking past at a distance. Danny medium shot.",
+      "on_screen": "Public-Site and Biological Hazards",
+      "says": "A lot of our work happens where the public is: parking lots, store aisles, lobbies, schools. People don't know what we're doing, and they'll walk right under a ladder. Planning a public job means planning for them too. This course shows you how.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Cones and caution tape around a ladder in a store aisle; a tech stands watching the zone.",
+      "on_screen": "Keep people out from under the work",
+      "says": "First, keeping people out from under the work. Cones, tape, barricades, and someone watching the zone. If anyone walks in, the work stops until they're clear.",
+      "seconds": 12
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny beside the van with the ladder strapped on the rack.",
+      "on_screen": "Never leave equipment unattended unless it's secured and every ladder is stowed",
+      "says": "And one rule you'll hear a lot: never leave equipment unattended in a public space unless it's secured and every ladder is stowed. A ladder left standing is an invitation for someone to climb it. You'll learn what secured looks like.",
+      "seconds": 17
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Tech with a flashlight looking into a pole hand hole and a fixture before reaching in; close-up of a sharps container in the van kit.",
+      "on_screen": "Look before you reach",
+      "says": "Then the things you can't always see. Needles and other sharps in fixtures, ceilings and around poles. Wasps and other insects nesting in fixtures and pole bases. You'll learn to look before you reach, every single time.",
+      "seconds": 17
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Cut-away of a fixture lens with bird droppings (prop), then a tech in gloves, glasses and a disposable respirator.",
+      "on_screen": "Bird and rodent droppings can make you sick",
+      "says": "Bird and rodent droppings are a real hazard in fixtures and above ceilings. Dried droppings can carry a fungus that causes a lung illness called histoplasmosis. You'll learn the cleanup PPE, and when a job is beyond what we clean up ourselves.",
+      "seconds": 19
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny.",
+      "on_screen": "When in doubt, stop and report",
+      "says": "Most important, you'll learn when to stop and report. If you find something you're not equipped or trained to handle, don't push through it. Stop, keep people away, and call your supervisor.",
+      "seconds": 14
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Parking lot, medium shot.",
+      "on_screen": "Start Lesson 1",
+      "says": "Keep the public safe, keep yourself safe, and never be caught off guard by what's inside a fixture. Now start the first lesson, and take each quiz as you go.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Course overview written from the outline only; lessons not yet written. Check cleanup PPE, the unattended-equipment rule wording and histoplasmosis guidance against the final lessons before production. Use props only for sharps and droppings (no real needles or waste). Public extras must be kept outside the work zone. No store logos."
+}

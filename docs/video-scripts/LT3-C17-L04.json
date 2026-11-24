@@ -1,0 +1,107 @@
+{
+  "vid": "LT3-C17-L04",
+  "title": "Removing a Pole Light - Our Company Procedure",
+  "course": "LT3-C17",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 295,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Closed-off parking lot, a vehicle-damaged pole behind Danny, truck and trailer parked outside the cones. Medium shot.",
+      "on_screen": "Job Mindset: Pole Removal",
+      "says": "A hit pole can fall, its wires can be live, and a breaker bar can throw you when the nut lets go. So: barricade, lock out and test before anyone touches it, then rated rigging and a strain before the last nut comes off. Load the truck for the worst case: penetrating oil, longer slings, spare connectors. Nobody gets hurt, the lot keeps working, and we leave with what we need.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Truck tailgate with tools laid out: very large adjustable wrench, 2-inch conduit sleeve, web sling, 3/4-inch shackle, LOTO kit, meter, connectors, tape, plastic cup, bags, cones, tag line, blocking.",
+      "on_screen": "Big wrench | 2 in conduit breaker bar | 6/8/10 ft sling | 3/4 in rated shackle",
+      "says": "Our tool list: a very large adjustable wrench, a piece of 2-inch conduit that slips over the handle as a breaker bar, a 6, 8 or 10 foot web sling, and a 3/4-inch rated shackle. Also your LOTO kit, a tested meter, wet-location connectors, lots of tape and a plastic cup, bags for hardware, cones, a tag line, blocking and your PPE.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny to camera, lower third with title. Plain background of the lot.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may disconnect and remove poles under our company's license. In others it takes a licensed electrician, and some jobs need a permit and inspection. Cranes and boom trucks need a certified operator. Before you do this on a job, confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech photographs the pole, heads and base; looks up at overhead lines; then sets cones in a wide circle. Presenter voice-over.",
+      "on_screen": "1. Survey and plan  2. Barricade",
+      "says": "Step one, survey. Photograph the pole, heads, base and damage before you touch anything. Look up: our 10-foot rule from lines 50 kV and under applies to the lift, the pole and the rigging. Estimate the weight, pick the machine and the laydown spot. Treat a damaged pole as unstable. Step two, cone off a fall zone larger than the pole is tall, and move vehicles out.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "At the lighting panel: senior tech switches off, applies lock and tag; then at the hand hole tests live-dead-live with a meter and proving unit. Presenter voice-over.",
+      "on_screen": "3. Lock out, verify at the hand hole: live-dead-live",
+      "says": "Step three, lock out. Find the circuit, switch it off, lock and tag it, and verify absence of voltage at the hand hole with a tested meter, live-dead-live. A knocked-down pole may have pulled wires loose, so treat every exposed conductor as live until you've tested it. Other poles on the circuit will go dark. Tell the customer.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a fixture label being photographed; then senior tech disconnecting pole leads at the hand hole.",
+      "on_screen": "4. Record the fixtures  5. Disconnect the pole leads",
+      "says": "Step four, before anything comes apart, get the fixture make, model and manufacturer from the label, and note whether one or both need replacing. If the plan calls for it, take the heads off from a MEWP, tied off to the platform anchor. Step five, at the hand hole, disconnect the pole leads from the splices and fuse holders, and free the supply conductors.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Sling choked high on the shaft just under the arms, corner protector in place, shackle pin through the eye, hook latch closed; boom takes a light strain.",
+      "on_screen": "6. Rig above the center of gravity. Take a light strain.",
+      "says": "Step six, rig. Inspect the sling and shackle. Choke the sling high on the shaft, above the center of gravity, just under the arms or tenon so it can't slide off. Protect it from the corners. Pin through the eye, bow on the running part, eye on the hook, latch closed. Then take a light strain, just enough that the pole can't fall when the last nut comes off.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Senior tech wire-brushes and oils threads, seats the wrench fully, slides the conduit over the handle and pulls toward himself with feet planted; drops nuts and washers into a bag.",
+      "on_screen": "7. Pull, don't push. Bag every nut and washer.",
+      "says": "Step seven, the anchor nuts. Work from the side away from any lean. Clean and oil the threads, seat the wrench jaws fully and tight, and pull toward you, keeping your footing. If a nut won't move, oil it and wait; don't add more pipe. Note any leveling nuts. Bag every nut and washer and take them with you.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Signal person gives hoist; pole rises straight up off the bolts, tag line controls swing, base set on blocking, top lowered. Wide shot.",
+      "on_screen": "8. Lift straight up. Tag line. Base on blocking. Clear of the butt.",
+      "says": "Step eight. On the signal person's command, lift straight up until the base plate clears the bolts. Dragging it sideways bends bolts and ruins threads. Control swing with the tag line, set the base end on blocking, then lower the top. Stay clear of the butt.",
+      "seconds": 19
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Close-up at the base: feed-through splices remade with wet-location connectors, dead ends capped, taped, plastic cup taped over the ends, thread caps on bolts, cone set on the base.",
+      "on_screen": "9. Remake feed-through splices | Cap dead ends | Tape, cup, tape",
+      "says": "Step nine, make the base safe. If the circuit feeds other poles, those conductors will be live when power's back, so remake those splices with wet-location connectors. Cap each dead end individually. Then our rule: lots of tape, a plastic cup over the ends, and lots more tape. Protect the bolt threads and leave a cone on the base.",
+      "seconds": 25
+    },
+    {
+      "scene": 11,
+      "speaker": "Danny Smith",
+      "background": "Dusk: senior tech removes locks, re-energizes, covers a photocell, then walks the lot checking every other pole; pole secured and flagged on a trailer.",
+      "on_screen": "10. Restore and check every light  11. Collect and haul",
+      "says": "Step ten, remove your locks and re-energize, then check every other light in the lot. The stress from the hit can break splices at other poles. Step eleven, take the good fixtures with all mounting hardware, the bagged nuts and your measurements. Secure and flag the pole for hauling, and tell the customer what's still energized and what's on order.",
+      "seconds": 25
+    },
+    {
+      "scene": 12,
+      "speaker": "Danny Smith",
+      "background": "Danny beside the empty base with its cone. Medium close-up.",
+      "on_screen": "Plan stops matching what you see? Stop, set it down, call.",
+      "says": "If the plan stops matching what you see, a heavier pole, a closer line, a nut that won't come off, stop, set the load down and call your supervisor. Nobody gets in trouble for stopping a lift. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Real-time pole removal on a closed-off lot with a decommissioned or damaged pole; senior tech and crew perform every step, Danny narrates. Required on camera: cones forming a fall zone larger than pole height; lock and tag at the panel; live-dead-live test with proving unit at the hand hole; MEWP user tied off to platform anchor if heads are removed; rated shackle with visible marking; corner protection; tag line; blocking; nothing under the suspended load. Breaker bar shot must show a pull, not a push, with good footing. Base-safe close-up: wet-location connectors on feed-through, individual caps on dead ends, tape-cup-tape. Matches skill sign-off 'Remove a pole light using the company procedure'."
+}

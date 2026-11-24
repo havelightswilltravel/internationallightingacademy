@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L09",
+  "title": "Never Caught Off Guard: Situational Awareness",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 214,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Working warehouse, scissor lift behind a barricade in an aisle, forklift traffic in the background. Medium shot of Matthew at the barricade.",
+      "on_screen": "Never Caught Off Guard",
+      "says": "On a lift retrofit in a working warehouse, the hazards are moving forklifts, people under you, overhead obstructions and power you thought was off. Your controls are lockout and verification, the barricade, a spotter, and your PPE. But the plan you made at the start was based on conditions at the start. They won't stay the same. Situational awareness is how you see the change coming.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "If you were caught off guard, you weren't paying attention.",
+      "says": "Here's the hard truth our company wants you to take to heart: if you're caught off guard, you weren't paying attention. That's not meant to make you feel bad. It's meant to make you take awareness as seriously as any other safety skill. Situational awareness means always being aware of your surroundings, watching for changes and adjusting your work practices and speed.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic over warehouse footage: three steps.",
+      "on_screen": "1 Notice | 2 Understand | 3 Predict",
+      "says": "Awareness has three levels. Notice: see and hear what's happening, like the forklift or the open dock door. Understand: know what it means for you. The forklift is backing toward your barricade. Predict: think about what happens next. The driver may not see the barricade. Your goal is to reach level three before the change reaches you, so you adjust ahead of time instead of reacting.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "First-person hard-hat camera on the lift. Picture slows and a highlight circles a forklift backing toward the barricade, then a sprinkler pipe overhead, then a dock door opening. Presenter voice-over.",
+      "on_screen": "Forklift | sprinkler pipe overhead | dock door and wind",
+      "says": "Watch through her eyes. A forklift is backing toward the barricade. She says it out loud and her crew talks to the driver and extends the barricade. A sprinkler pipe is getting close overhead. She stops the lift before it gets there. A dock door opens and wind blows in. Each time, she notices, says it out loud and changes what she's doing.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Hard-hat camera continues: lights in the next aisle come back on; tech steps back from the fixture.",
+      "on_screen": "A light coming on is never probably nothing",
+      "says": "Now the lights in the next aisle come back on. That's a stop. A light coming on in a fixture you believe is locked out is never probably nothing. It may mean a second circuit, a back-feed, an emergency pack or someone who removed a lock. Stop, get clear of the fixture, and re-verify before anyone touches it again. Smell hot plastic? Stop and find the source from a safe position.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew walking the aisle, glancing up and around.",
+      "on_screen": "Scan before every climb | look up before moving the lift | every few minutes, lift your eyes | no earbuds, phone away",
+      "says": "Build scan habits. Scan before every climb and every time you come down. Look up before you move a lift and down before you lower it. Look before you reach into a ceiling. Every few minutes, lift your eyes from your hands. Leave the earbuds off. Where hearing protection is needed, wear it and look around more often. Keep the phone in your pocket. And call out changes to your crew.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Store aisle, tech on a stepladder; an employee with a stocking cart moves the caution tape.",
+      "on_screen": "Stop. Reassess. Fix the controls. Tell the crew. Report the near miss.",
+      "says": "If something surprises you anyway, stop and make it safe. Here, an employee moves the caution tape to get a cart through. Stop and hold on. Ask them to wait so they're not under you. Restore the barricade. Ask the manager to remind staff about the closed aisle. Hard hat and glasses stay on. Reassess: should someone stand at the end of the aisle? Tell your crew and report the near miss.",
+      "seconds": 29
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Different crew on a lift, heads down; a forklift horn blares close by. Cut back to Matthew.",
+      "on_screen": "Slowing down or stopping is an adjustment too",
+      "says": "Now watch this crew. Nobody notices the forklift until the horn blares. That's what fatigue, rushing, routine, phones and earbuds do to awareness. When the area gets busier, the weather gets worse or you get tired, slowing down, adding a control or stopping is an adjustment too. Before every task, ask what's likely to change while you're doing it. Now read the lesson and take the quiz.",
+      "seconds": 27
+    }
+  ],
+  "production_notes": "First-person hard-hat camera footage with slow-motion highlight circles per the lesson's video suggestion (forklift, sprinkler pipe, dock door and wind, employee moving caution tape, lights coming back on, smell of hot plastic). Lift operated by an authorized operator; forklift driven by a qualified driver with a spotter for safety of the shoot. Scene 7 follows the lesson's safety-check scenario (10-ft stepladder, store aisle). Lesson file path is LT2-C13/09 (course code differs from vid LT2-C01)."
+}

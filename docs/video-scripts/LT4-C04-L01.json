@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C04-L01",
+  "title": "Contactor Anatomy, Holding Types & Coil Voltages",
+  "course": "LT4-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 265,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a new lighting contactor and a worn-out one side by side, covers on. Matthew behind the bench. Medium shot.",
+      "on_screen": "Contactor Anatomy, Holding Types & Coil Voltages",
+      "says": "Contactors are behind a lot of whole-area-out and lights-on-all-day calls. You'll find them next to the lighting panelboard, inside control panels, in outdoor enclosures for parking lots, and grouped by area in retail stores. Knowing what's inside is how you troubleshoot safely and order the right part the first time.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew taps the enclosure; callout graphic.",
+      "on_screen": "A contactor is NOT a breaker. No overcurrent protection.",
+      "says": "First thing to understand: a contactor is not a breaker. It provides no overcurrent protection. It only opens and closes circuits on command. The circuits it switches are still protected by breakers back in the panelboard.",
+      "seconds": 15
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew removes the cover and arc chutes from the de-energized bench contactor; close-ups of coil, armature, fixed and moving contacts, L and T terminal markings, auxiliary contact block.",
+      "on_screen": "Coil | Armature | Main contacts (L1… line, T1… load) | Arc chutes | Auxiliary contacts | Terminals",
+      "says": "Inside: the coil, an electromagnet that pulls the armature in. The armature carries the moving contacts. The main contacts, or poles, switch each branch circuit: line is L1, L2, load is T1, T2. Arc chutes cool and break the arc when contacts open, and they must never be left off. Auxiliary contacts are small extras for pilot lights or status to a building system.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Extreme close-up: clean silver contacts on the new unit, then pitted, burned contacts on the worn one; discolored insulation at a terminal.",
+      "on_screen": "Pitting | Burning | Welding | Loose terminal = heat",
+      "says": "Compare. These are clean silver contacts. These are pitted and burned. Contacts fail by pitting, burning, welding closed, or one pole going open. Loose terminal screws overheat, and discolored insulation is your warning. An armature that sticks from dirt or rust will buzz loudly because it isn't seating.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera beside a wall-mounted contactor enclosure with two feeds labeled.",
+      "on_screen": "Opening the load breakers does NOT make the enclosure safe",
+      "says": "Safety point. A contactor enclosure can hold several voltages at once: 277 or 480-volt lighting circuits plus a 120 or 24-volt control circuit fed from somewhere else. Opening the load breakers does not make the enclosure safe. Identify every source before you touch anything.",
+      "seconds": 19
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Nameplates of an electrically held and a mechanically held contactor side by side, with comparison graphic.",
+      "on_screen": "Electrically held: coil stays on, hums, drops out on power loss | Mechanically held: pulse, latch, silent, stays put",
+      "says": "Holding types. Electrically held: the coil stays energized, you hear a steady low hum, and on loss of control power the lights go off. Mechanically held, or latching: a short pulse latches it, it's silent, and it stays where it was. It usually has three control wires: common, ON and OFF. So no coil voltage on a latching contactor with the lights on is normal.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of coil label showing voltage; graphic table 24 V / 120 V / 277 V with typical sources.",
+      "on_screen": "24 V: transformer or BMS | 120 V: control breaker | 277 V: tapped from lighting circuit",
+      "says": "Coil voltage is printed on the coil and the nameplate. That's your only reliable source. Common ones: 24 volts AC or DC from a control transformer or BMS output, 120 from a dedicated control breaker through a clock and photocell, and 277 tapped from a lighting circuit in the same enclosure. Too low and it won't pull in, or it chatters and burns the contacts. Too high and it burns up.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew points to NO/NC markings on the contact block.",
+      "on_screen": "Some coils engage when there is an absence of power",
+      "says": "Normally open contacts close when the coil's energized. That's the usual setup: coil on, lights on. But some installs use normally closed contacts so lights come on when control power is lost. Our company procedure warns: some coils engage when there is an absence of power. No coil voltage and the lights are on? Read the nameplate and contact markings before you decide something's broken.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew photographs the nameplate with a phone; checklist graphic.",
+      "on_screen": "Catalog # | Holding type | Poles + NO/NC | Contact rating + load types | Max V | Coil V AC/DC | Aux | NEMA",
+      "says": "Before you order anything, photograph and record the nameplate: full catalog number, holding type, poles and NO or NC, contact rating and load types, max contact voltage, coil voltage and AC or DC, auxiliary contacts and enclosure type. Replacement coils, contact kits and arc hoods fit only the exact frame, which is why the full number matters. Now read the lesson and take the quiz.",
+      "seconds": 27
+    }
+  ],
+  "production_notes": "Bench: one new and one worn-out lighting contactor, both de-energized (unplugged bench units), covers and arc chutes removable; close-ups of clean vs pitted contacts and a discolored terminal. Nameplates of electrically held and mechanically held contactors (blur brand/catalog numbers). Wall-mounted enclosure prop with two labeled feeds for the multiple-sources scene. Knowledge lesson: no Job Mindset opener; the hook connects the topic to safe, planned work."
+}

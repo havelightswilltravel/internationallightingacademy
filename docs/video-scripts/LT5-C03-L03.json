@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C03-L03",
+  "title": "Article 404 Switches & Article 411 Low-Voltage Lighting",
+  "course": "LT5-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 194,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Commercial job site at a two-gang switch box; senior tech with a lock on the panel and a meter. Matthew voice-over.",
+      "on_screen": "Articles 404 & 411",
+      "says": "Before anyone opens this box, it's locked out and verified dead. That's planning, not a formality, because what's inside a switch box is often fed from more than one circuit. Article 404 covers switches, dimmers and sensors in switch boxes. Article 411 covers low-voltage lighting. Senior techs install and troubleshoot both all the time.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech tests live-dead-live, then removes the faceplate.",
+      "on_screen": "404.2: switch only the UNGROUNDED conductor\nNever switch the neutral",
+      "says": "First rule, 404.2. Three-way and four-way switching is done only in the ungrounded conductor. And switches and breakers must not disconnect the grounded conductor unless they open all conductors at once. Why? A switched neutral leaves the fixture energized when it's 'off.' That's a classic shock for the next person who relamps it.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Inside the box: neutral bundle; then an occupancy sensor with a neutral lead.",
+      "on_screen": "404.2(C): neutral at switch locations\n404.22: electronic switches must not put current on the EGC\nDon't 'borrow' the ground",
+      "says": "404.2(C): where switches control lighting, a neutral generally has to be at the switch location, with limited exceptions. That's so sensors, timers and dimmers can be powered without using the ground. Electronic lighting control switches must be listed and must not put current on the equipment grounding conductor. No neutral? Don't borrow the ground. Use a device listed for it, or have a neutral run.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Two-gang box with two 277 V switches and a barrier between them; graphic shows 480 V between phases.",
+      "on_screen": "404.8(B): over 300 V between adjacent devices → identified barrier\n277 V switches, different phases = 480 V",
+      "says": "404.8(B): snap switches can't be ganged in one box if the voltage between adjacent devices exceeds 300 volts, unless there's an identified barrier. Two 277-volt switches on different phases of a 480Y/277 system have 480 volts between them. Barrier required. Same phase, zero volts between them. Two 120-volt switches on a 120/208 system top out at 208.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close on a switch and dimmer packaging showing LED ratings.",
+      "on_screen": "Handles ≤ 6 ft 7 in • Grounded devices & metal plates\nDimmers: incandescent only unless LISTED for other loads",
+      "says": "More 404 rules. Switch handles at their highest position no more than 6 feet 7 inches above the floor or platform. Switches, dimmers and metal faceplates are grounded. General-use dimmers are only for incandescent unless listed for other loads. For LED, use devices listed and rated for electronic drivers, and check the compatibility list. Inrush can weld under-rated contacts. And wet locations need weatherproof enclosures.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Second segment: residential-style landscape with path lights and a listed low-voltage power supply on a wall.",
+      "on_screen": "Article 411: ≤30 V AC / 60 V DC\nListed system or listed parts • branch circuit ≤20 A",
+      "says": "Article 411, low-voltage lighting: not more than 30 volts AC or 60 volts DC, like landscape, cable and rail systems. It must be listed as a complete system, or assembled from listed parts. It's supplied by a branch circuit of 20 amps or less. Bare-conductor systems have height and location limits, there are restrictions near pools and fountains, and secondary wiring through walls needs a permitted wiring method.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close on a burned low-voltage connector.",
+      "on_screen": "Low voltage ≠ low hazard: high current can start fires",
+      "says": "Low voltage doesn't mean low hazard. High current at 12 volts can overheat conductors and start fires. That's why supplies, conductors and connections must be listed and sized right. Common mistake: a 'kit' assembled from different manufacturers with no listing covering the combination. It often fails inspection.",
+      "seconds": 19
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech at the power supply with the branch circuit locked out; removes a ring.",
+      "on_screen": "Primary = line voltage: LOTO first\nSecondary: remove rings and metal jewelry",
+      "says": "Safety. The primary side of a low-voltage power supply is line voltage. De-energize the branch circuit, lock out and verify before working on the supply. On the secondary side, take off rings and metal jewelry. A 12-volt system can push enough current through a ring to cause a severe burn.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Switch the hot, provide the neutral, watch the voltage between devices, use rated devices, and respect low-voltage current. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Code lesson with demo; scene 1 ties code to safe, planned work. Senior technician opens the two-gang box only after the circuit is locked out and verified dead (show live-dead-live); presenter voice-over. Second segment: generic landscape low-voltage system with listed power supply. Paraphrase code; no verbatim NEC text on screen."
+}

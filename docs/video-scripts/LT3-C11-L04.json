@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C11-L04",
+  "title": "Troubleshooting Data & Control Cable",
+  "course": "LT3-C11",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 176,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Electrical room: lighting relay panel with an RJ45 port near its line-voltage section. Tech with a cable tester and a bag of tested patch cords. Presenter voice-over.",
+      "on_screen": "Job Mindset: Controller Offline",
+      "says": "Job mindset. The cable is low voltage, but the port is often inside a relay panel next to live line-voltage terminals. Never reach past live terminals. Lock out and verify, or get a qualified person. Plan before you leave: tester, tested patch cords, plugs, jacks, matching cable, and labels. Know who to call if it isn't the cable.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Monitoring screen showing a controller 'offline'; tech talks to the facility contact.",
+      "on_screen": "Most data problems = the CRIMP or the PIN CONFIGURATION",
+      "says": "The call: a lighting control panel has lost contact with its monitoring service. Our company guide's experience is that most of the time the problem is the crimp or the pin configuration, so check those first. Step one, gather information. What's affected, since when, was anyone working nearby? Find both ends of the cable. And look at the link lights. No link usually means a physical cable problem.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: looking through a clear plug at the panel end, then at the patch-panel punch-down; pin chart on screen.",
+      "on_screen": "Step 2: Pin configuration on BOTH ends. Same standard. Site standard.",
+      "says": "Step two, verify the pin configuration on both ends. Look through the clear plug, or at the jack's punch-down, and compare to the pin chart. Both ends must use the same standard for a straight-through cable, and it should be the site's standard, often T568B. Look for reversed or split pairs.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: plug inspected; conductors short of the end, a broken latch. Tester connected at both ends.",
+      "on_screen": "Step 3: All 8 to the end | all pins down | jacket captured | latch intact",
+      "says": "Step three, the crimp. All eight conductors reach the end of the plug, all eight pins pressed down, jacket under the strain-relief, latch not broken. If you can unplug both ends, test it: wiremap, continuity and length.",
+      "seconds": 15
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech plugs a known-good patch cord between the controller and the network port; link light comes on.",
+      "on_screen": "Step 4: Known-good TEMPORARY patch cable",
+      "says": "Step four, use a known-good temporary patch cable between the device and the network port. If the device now works, the problem is in the original cable or its terminations. That's why you keep a few tested patch cords in the van.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: jack with bent contacts; plug that doesn't click; loose keystone in a plate.",
+      "on_screen": "Step 5: Does the jack receive the plug and lock?",
+      "says": "Step five, verify the jack is receiving the plug and making a good connection. Look for bent or recessed contacts, a plug that doesn't click and lock, debris, corrosion, a broken latch, or a loose keystone jack in the plate or panel.",
+      "seconds": 17
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech terminates a new permanent cable, tests it, confirms the controller shows online, labels both ends, removes temporary cord.",
+      "on_screen": "Step 6: New permanent cable > test > confirm online > label both ends",
+      "says": "Step six. If it works on the temporary cable, replace the original with a new permanent cable, or re-terminate if only the end is bad. Terminate to the site standard. Test it. Confirm the monitoring service sees the device online. Label both ends. Remove the temporary cord, or record it on the service order if it has to stay.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the electrical room, medium close-up.",
+      "on_screen": "Cable tests good, still offline? Escalate to monitoring, controls contractor or IT.",
+      "says": "Know when to escalate. If the cable tests good and the device still won't communicate, call the monitoring service, the controls contractor or the customer's IT. Same for switch configuration or PoE budget problems, runs over 100 meters, new pathway or home runs you're not authorized for, and ports inside enclosures you're not qualified to work in.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same setting, closer.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Crimp and pinout first. Prove it with a known-good cord. Check the jack. Replace, test, confirm online, label. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Trainer (senior tech) performs the procedure on camera at a training relay panel; presenter voice-over in scenes 1-7. If the RJ45 port is inside an enclosure with exposed line voltage, show it locked out and verified de-energized before reaching in. Monitoring screen should be a generic mock-up with no vendor branding."
+}

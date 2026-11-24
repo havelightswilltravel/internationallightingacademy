@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C08-L02",
+  "title": "The Digital Multimeter in Depth",
+  "course": "LT2-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 181,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training board with a switch leg, a de-energized fixture, a ballast and a bank of fixtures on a switch; CAT-rated true-RMS DMM with LoZ mode. Medium shot.",
+      "on_screen": "Job Mindset: hazards = shock, misread meters | prove the meter | lock out before ohms and continuity",
+      "says": "At LT2, you use the meter to diagnose, not just to check if it's live. The hazards: shock, and a meter that misleads you. A ghost reading, a held display, leads in the wrong jack. So prove your meter on a known source, lock out before any ohms or continuity test, and know what each reading really means before you trust it.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of meter dial and jacks; trainer measures at a fixture.",
+      "on_screen": "V AC: supply | V DC: 0-10 V, sensors, driver output | Measure H-N, H-G, N-G",
+      "says": "V AC is for supply and control power. V DC is for low-voltage controls like zero to ten volt dimming, sensor power and LED driver output. For an AC measurement at a fixture: select V AC, leads in COM and V, verify on a known source, measure hot to neutral, hot to ground and neutral to ground, verify again if you were confirming dead, and compare to nominal.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Open switch leg on the training board: meter reads about 50 V in normal mode, then about 0 V in LoZ mode.",
+      "on_screen": "Ghost voltage: about 50 V high-Z, about 0 V LoZ | real source holds up",
+      "says": "Watch this open switch leg. It's not connected to anything, and the meter reads around fifty volts. A standard DMM has about ten megohms of input impedance, so it picks up voltage capacitively coupled from nearby conductors. Switch to LoZ mode. The ghost collapses to near zero. A real source would hold up. A two-pole solenoid tester also loads the circuit.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Treat unexpected voltage as real until proven otherwise",
+      "says": "Never dismiss an unexpected reading as probably ghost voltage without proving it. Treat it as real until a LoZ measurement or a second method shows otherwise. And don't use LoZ mode on sensitive electronic control circuits; it can affect them.",
+      "seconds": 16
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Locked-out ballast with one lead disconnected; meter on ohms across a winding, then across a lamp filament; leads shorted together first.",
+      "on_screen": "Ohms only on locked-out, isolated parts | short leads, subtract lead resistance | OL = open",
+      "says": "Resistance is measured only on de-energized, isolated parts. Lock out and verify. Disconnect at least one end so parallel paths don't skew it. Short the leads together and note the lead resistance, often 0.1 to 0.5 ohms. Here's a magnetic ballast winding: low ohms. OL would mean an open winding. A fluorescent cathode, pin to pin, reads a few ohms; OL means it's broken.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "De-energized fixture: continuity across socket contacts, one beeps, one doesn't.",
+      "on_screen": "Continuity beeps at about 30-50 ohms | quick, not precise",
+      "says": "Continuity is quick. It tells you if a socket's shunted or non-shunted, if a switch opens and closes, or if a fuse is good, out of the circuit. But it beeps even at tens of ohms, so it can't prove a low-resistance connection. When the value matters, use ohms. For capacitors, discharge first, disconnect a lead, and read microfarads against the rating.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Bank of fixtures switched on while the meter records MIN/MAX at the supply; display shows the sag.",
+      "on_screen": "MIN/MAX catches sags | don't use Hold when verifying absence of voltage",
+      "says": "MIN/MAX records the lowest and highest readings over time. Watch: the bank switches on, and the meter catches the voltage sag. Hold freezes the display, and that's dangerous: a held reading from before can make a live circuit look dead. Many safety programs prohibit Hold when verifying absence of voltage.",
+      "seconds": 20
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the training board, medium shot.",
+      "on_screen": "Common mistakes: leads in amps jack | ohms on live circuits | not isolating | average-responding on LED | trusting held or ghost readings",
+      "says": "Common mistakes: leads left in the amps jack on volts, ohms on an energized circuit, not isolating a part, an average-responding meter on LED loads, and trusting a held or ghost reading. Know what your meter's telling you. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Training board per the lesson's video suggestion: ghost voltage on an open switch leg (about 50 V high-Z vs about 0 V LoZ), ballast winding and lamp filament resistance, socket continuity on a de-energized fixture, MIN/MAX catching a sag when a bank of fixtures switches on. Energized measurements by a qualified tech in PPE. Note: video suggestion mentions lamp filament resistance; lesson table gives fluorescent cathode values, which the script uses."
+}

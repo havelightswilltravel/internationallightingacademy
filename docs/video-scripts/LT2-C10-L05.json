@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C10-L05",
+  "title": "Company Field Notes: Programmable Drivers, Repair-or-Replace and Write-Ups",
+  "course": "LT2-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 189,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop training bench: a failed constant-current driver, a wide-range programmable driver, and a phone. Matthew at the bench, medium shot.",
+      "on_screen": "Job Mindset: Programmable Driver Swap",
+      "says": "Before you program and install a driver, plan the whole job. Hazards: line voltage and an overdriven board that overheats. Controls: lock out and verify dead before you program or wire, and never set more current than the board's rating. Think ahead: bring the label data, the app on a charged phone, a marker, and the fixture information the office needs if a new fixture is the better buy.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Same bench, Matthew to camera. On-screen two arrows: driver prices up, fixture prices down.",
+      "on_screen": "Drivers: harder to match. New fixtures: cheaper, 5+ yr warranty.",
+      "says": "Our monthly meetings keep coming back to this. Replacement drivers keep getting more expensive and harder to find, and whole product lines disappear. Meanwhile new LED fixtures, especially wall packs, keep getting cheaper, with warranties of five years or more. A replacement driver usually has a short warranty or none. Real prices come from the office, never from a training video.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: senior tech reads the failed driver's label; output current circled. Presenter voice-over.",
+      "on_screen": "1 Find original mA and voltage range",
+      "says": "Our company stocks wide-range programmable constant-current drivers, set from a phone app, usually through NFC. One stocked part replaces many. Step one: find the original output current and voltage range from the label or fixture data. The new driver's voltage window has to cover the LED board's forward voltage.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: phone held against the unpowered programmable driver; app screen shows the matching mA. Tech writes the current on the driver label with a marker.",
+      "on_screen": "2 Program UNPOWERED  3 Mark it on the driver + work order",
+      "says": "Step two: program the output current with the driver unpowered, before you install it. On most NFC drivers, the new setting is stored right away but doesn't show or take effect until it's powered up. Step three: mark the programmed current on the driver label and write it on the work order, so the next tech knows the setting.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech installs the driver in a locked-out fixture, then restores power and reads the setting back in the app; presenter voice-over.",
+      "on_screen": "4 Install locked out → power up → verify",
+      "says": "Step four: install it locked out and verified dead, restore power, and verify the light output and stability. And remember the safety rule: never program more current than the LED board is rated for. Overdriving shortens LED life and can overheat the fixture.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Exterior building wall with a row of wall packs. Senior tech photographs a fixture label, then steps back for a full-elevation photo; presenter voice-over.",
+      "on_screen": "Write-up: label photo | full elevation | count matching fixtures",
+      "says": "Now the write-up, because it decides which option the customer gets. The office can only offer a new fixture if you give them what they need to price both. For the driver: a full label photo, the complete part code, and the output connector. For the fixture: a label photo, a full-elevation photo of the fixture and what's around it, and a count of matching fixtures and their condition.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on one wall pack with a test switch and indicator light; tech writes on the return sheet.",
+      "on_screen": "Look for test switches, indicator lights, battery labels",
+      "says": "Check for emergency battery units. On one of our jobs, a quote for new wall packs had to be redone because most of the standard wall packs turned out to be emergency units. Emergency units need emergency-rated replacements. For pole fixtures, add the measured primary voltage, the location on the property, the pole shape, and whether a photocell is needed.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back at the bench, to camera.",
+      "on_screen": "Diagnose before you replace",
+      "says": "All of this assumes the driver is actually the problem. Measure hot to neutral first. Full-brightness strobing usually means the driver; flicker on a single-board fixture points to the board or fixture. Never leave a fixture strobing. When it's a close call, use the Repair or Replace decision card with your supervisor. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Bench and exterior-wall segments per the lesson's video suggestion. Do not show prices, brand names or app branding; blur the app logo. Programming shown on an unpowered driver; installation shown with LOTO in place. The 'Repair or Replace?' card is referenced in the lesson as a draft-policy tool in the Troubleshooting Library; confirm it exists before release."
+}

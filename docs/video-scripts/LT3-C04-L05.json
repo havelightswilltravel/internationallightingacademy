@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C04-L05",
+  "title": "Which Breakers and Disconnects You May Operate",
+  "course": "LT3-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Building electrical room: lighting panelboards on one wall, a large switchboard and a fused main disconnect beyond, medium-voltage switchgear lineup in the background. Matthew at the door, medium shot.",
+      "on_screen": "Job Mindset: Before You Touch a Breaker",
+      "says": "Before you put your hand on any breaker or disconnect, plan for the worst case: an arc flash. The best control is staying away from equipment that isn't ours to operate. Know before you arrive what feeds your lights, and who to call if it's fed from big gear. Never be caught off guard in an electrical room.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Same room; on-screen DRAFT banner.",
+      "on_screen": "DRAFT policy: not sure? Don't operate it. Call your supervisor.",
+      "says": "One important note first. The company list in this lesson is a proposed policy that must be confirmed by our company's electrical safety program owner before it's final. Until then, the rule is simple: if you're not sure, don't operate it. Call your supervisor. And scope varies by state and city, so confirm you're allowed and authorized in that location. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Supervisor and technician at a lighting panelboard, door closed, dead front intact; on-screen three conditions.",
+      "on_screen": "Properly installed & maintained | Doors closed, covers on | No sign of failure",
+      "says": "Under NFPA 70E, operating a breaker is treated as unlikely to cause an arc flash only when all three are true: the equipment's properly installed and maintained; all doors are closed and secured with every cover, including the dead front, in place; and there's no sign of impending failure, like arcing, overheating, burning smell or damage. If any one is false, it's an arc-flash exposure for a qualified person.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Supervisor demonstrates at the lighting panel: stands to the side, face turned away, one reset on a tripped lighting branch breaker. Presenter voice-over.",
+      "on_screen": "ONE reset. Trips again? Stop. Write it up.",
+      "says": "Under the proposed policy, you may operate a lighting branch breaker with the door closed and dead front intact, to lock out or restore power. You may operate a lighting disconnect you've identified that's in good condition. And one reset attempt on a tripped lighting breaker: stand to the side, face away, after your checks, only if nothing looks, smells or sounds wrong. If it trips again, stop and write it up.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on screen: OSHA reference.",
+      "on_screen": "OSHA 1910.334(b)(2): don't reclose until it's safe to do so",
+      "says": "That one-reset rule comes from OSHA, which forbids reclosing a circuit after a protective device opens until it's determined to be safe. A breaker that trips again is telling you the fault is still there. Never reset more than once, never hold a handle closed, and never use the breaker as a test switch.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Supervisor points to the switchboard, the fused main disconnect and the medium-voltage lineup with arc-flash labels.",
+      "on_screen": "\"These are not ours. If your lights are fed from here, call me.\"",
+      "says": "Now the may-not list. Switchgear, switchboards, motor control centers and main breakers of any size. Anything labeled medium voltage, over 1,000 volts. Our company doesn't have the PPE or the qualification for it. As the supervisor says here: these are not ours. If the lights you need are fed from here, you call me.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: an arc-flash label; then a panel with a missing breaker blank and an open slot.",
+      "on_screen": "Label above your PPE? No label? Open slots? Fused? Not lighting? → Don't.",
+      "says": "Also off-limits: any device whose arc-flash label shows a hazard above what your issued PPE covers, or big equipment with no label at all. Any panel with a missing dead front, missing blanks, open slots, damage, heat or burning smell. Fused disconnects that need fuses pulled; fuse work is for qualified persons. And breakers serving anything but lighting, unless the site contact approved it in writing.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech photographs equipment and its label with a phone, then calls the supervisor.",
+      "on_screen": "Stop → photograph → call",
+      "says": "When it's on the may-not list, the answer is the same as for energized work. Stop, photograph the equipment and its label, and call your supervisor. A qualified electrician or the customer's facility staff can operate it, or the job gets rescheduled.",
+      "seconds": 17
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera outside the electrical room.",
+      "on_screen": "",
+      "says": "Lighting branch breakers and identified lighting disconnects in good condition, one reset at most. Everything else: photograph, write up, call. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "DRAFT - the lesson is pending SME review; the company list must be confirmed by the electrical safety program owner before this video is produced or released. Re-check the may/may-not lists against the final policy. Electrical room filmed with all doors closed and covers on; no one operates switchgear, switchboards or medium-voltage equipment on camera. The supervisor's quoted line is from the lesson's video suggestion."
+}

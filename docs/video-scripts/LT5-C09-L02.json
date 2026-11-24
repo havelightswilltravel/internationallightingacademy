@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C09-L02",
+  "title": "How LED Systems Lose Light and Fail",
+  "course": "LT5-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 188,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop training bench with failed parts laid out: a driver with a bulged capacitor, a surge-damaged outdoor driver, a yellowed lens next to a new one, a dirty high-bay optic, a sensor with a cracked lens. Matthew behind the bench. Medium shot.",
+      "on_screen": "How LED Systems Lose Light and Fail",
+      "says": "Every one of these parts came off a service call. To diagnose any of them, someone had to open a luminaire or a control device. That always means lockout/tagout at the circuit's isolating device and live-dead-live verification first. Energized testing is only for qualified persons under the NFPA 70E program. Now, let's sort what you see.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew separates the parts into two groups on the bench; labels appear over each group.",
+      "on_screen": "Recoverable: clean, re-aim, re-set, swap a component\nNon-recoverable: source aging, degraded optics, design",
+      "says": "LED systems lose light while working, or fail outright. Sort every loss into two groups. Recoverable: you get the light back by cleaning, re-aiming, re-setting a control or swapping a component. Non-recoverable: it's built into the product or its environment, like aged LEDs or yellowed optics, and only a component or luminaire replacement brings it back.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Spec sheet close-up highlighting 'L70 > 60,000 h'.",
+      "on_screen": "L70 = LED sources only. Not drivers, controls or optics.\n12 h/day = about 4,400 h/yr: 50,000 h in about 11 years\n24 h/day: under 6 years",
+      "says": "L70 at 60,000 hours means the LED sources are projected to keep 70 percent of output. It says nothing about drivers, controls or optics, and it assumes the test temperature, not a hot plenum. A greater-than sign means the projection hit the limit of the data. At 12 hours a day, that's about 4,400 hours a year. A 50,000 hour rating arrives in about 11 years; at 24 hours, under 6.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew picks up the driver with the bulged capacitor, then the surge-damaged outdoor driver.",
+      "on_screen": "Driver failure: replace, match it\nSurge clusters: replace, recommend protection, grounding check by an electrician",
+      "says": "This driver's capacitor dried out and bulged; heat makes that worse. Fix: replace the driver with a matching one. And if the fixture is in insulation or a hot ceiling, fix the installation too. This outdoor driver failed in a cluster after a storm. That's surge. Replace it, recommend surge protection, and have an electrician check grounding.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holds the yellowed lens next to a new one, then the cracked sensor.",
+      "on_screen": "Yellowed or crazed lens: replace lens or luminaire\nControls fault: diagnose controls first",
+      "says": "A yellowed or crazed lens is optical degradation, from UV or chemical attack. Cleaning won't fix it; replace the lens or luminaire. This sensor's lens is cracked. Controls failures show up as lights stuck on, stuck off, stuck dim, or burning in daylight. Diagnose the controls before you blame the fixtures. Moisture, loose connectors and failed LED boards round out the list.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holds up the dirty high-bay optic; cut to a dusty warehouse with a grayed ceiling.",
+      "on_screen": "Constant lumen or daylight controls can hide dirt by driving fixtures harder.",
+      "says": "Dirt is still the fastest thief. A sealed LED high-bay still collects film, and walls and ceilings darken. Here's the trap: fixtures with constant lumen output or daylight controls raise drive current as output falls. The space looks fine, but fixtures draw more power and run hotter. If a controlled system runs near full where it should be dimmed, check for dirt first.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse aisle: senior tech takes an illuminance reading under a high-bay, cleans that fixture from a lift (circuit locked out), then re-measures. Readings shown on screen.",
+      "on_screen": "1 Measure  2 Inspect sample  3 Clean one test fixture  4 Re-measure and compare  5 Record",
+      "says": "Before you recommend anything, test it. Measure the area. Inspect a sample. Clean one test fixture and re-measure under it. Big gain? It's mostly dirt; clean the area. Small gain and a yellowed lens? Optics are gone. Small gain, clear optics, old fixtures? That's lumen depreciation; plan a retrofit or replacement. Dark or flickering fixtures are component failures. Record it all.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back at the bench, medium close-up.",
+      "on_screen": "Fix the cause, not just the part.\nNow read the lesson and take the quiz",
+      "says": "One last thing: replacements from a different batch can look whiter or bluer than their neighbors, so keep matched attic stock and record date codes. Heat, surge, moisture and controls cause most failures. Fix the cause, not just the part. Now read the lesson and take the quiz.",
+      "seconds": 19
+    }
+  ],
+  "production_notes": "All failed parts are de-energized props from service calls. Scene 7: show LOTO applied before cleaning the test fixture; use real before/after meter readings, do not invent numbers. Demo performer: senior technician."
+}

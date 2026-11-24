@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C11-L02",
+  "title": "Crimping Plugs, Punching Down Jacks & Testing Cable",
+  "course": "LT3-C11",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 196,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with Cat6 cable, RJ45 plugs, keystone jacks, a small patch panel, crimp tool, punch tool, wiremap tester. Trainer wearing safety glasses. Presenter voice-over.",
+      "on_screen": "Job Mindset: Terminating Data Cable",
+      "says": "Job mindset. Small job, real hazards: flying wire ends, a punch-tool blade, and line voltage near the panels you work by. Glasses on, blade away from your hand. Plan before you leave: the right plugs for solid or stranded cable, the crimp tool made for them, jacks matching the site, a tester, labels, and spare plugs, because you will waste a few.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium close-up.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may install, terminate and test data cabling under the company's license. In others it must be done by, or under the supervision of, a licensed electrician or a licensed low-voltage contractor, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and that you're authorized.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: cable cut square, jacket stripped 1-2 in, spline and ripcord trimmed, pairs untwisted minimally and arranged in T568B order, contacts up.",
+      "on_screen": "1 Cut square, strip 1-2 in  2 Trim spline  3 Untwist minimum  4 T568B order",
+      "says": "Crimping a plug, T568B. Cut the end square and strip about one to two inches of jacket. Check for nicks; if a conductor's nicked, cut it off and redo it. Trim the spline and ripcord flush. Untwist only as much as you need and straighten each conductor. Arrange them in T568B order, left to right, contacts up.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: load bar, trim straight across, push into plug; view through the plug tip shows all conductors at the end wall; crimp tool cycles.",
+      "on_screen": "Every conductor touches the end wall. Jacket inside the plug.",
+      "says": "If there's a load bar, thread the conductors through in order. Trim straight across, about a half inch past the jacket or as the plug maker says. Push in until every conductor touches the end wall. Look through the tip. The jacket must be inside the plug under the strain-relief. Check the colors once more, then crimp until the tool fully cycles.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a good crimp vs bad crimps: short conductors, jacket outside the plug.",
+      "on_screen": "Bad crimps: short conductors | jacket outside | too much untwist | wrong order | wrong plug type",
+      "says": "Inspect: all eight pins down evenly, jacket captured, no copper showing at the back. Most bad crimps come from conductors that don't reach the end, the jacket not under the strain-relief, too much untwist, pairs out of order, or a plug made for stranded wire on solid cable, or the reverse.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: keystone jack color label (A and B rows), pairs twisted to within 1/2 in, conductors laid in slots, 110 tool seats them with cutting edge out. Then patch panel port.",
+      "on_screen": "Use the B row. Twist to within 1/2 in. Cutting edge OUT.",
+      "says": "Punching down a jack. Strip only as far as you need. Most jacks show both A and B color codes, so use the B row on a T568B job. Keep pairs twisted to within about a half inch of the termination. Lay each conductor in its slot and seat it with the 110 tool, cutting edge toward the outside to trim the excess. Cap it, and secure the cable to the strain-relief.",
+      "seconds": 29
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Wiremap tester connected; screen shows a pass, then open, short, reversed pair and split pair faults.",
+      "on_screen": "Open | Short | Reversed pair | Crossed pairs | Split pair",
+      "says": "Test every termination before you leave: wiremap, continuity and length. Here's what faults look like. Open: a conductor not connected. Short: two conductors touching. Reversed pair: two wires of a pair swapped. Crossed pairs: A on one end, B on the other. And the split pair.",
+      "seconds": 18
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench holding two cables, medium close-up.",
+      "on_screen": "A split pair can PASS continuity and still FAIL in service.",
+      "says": "That split pair is the sneaky one. Wires from different pairs are used together, the same way on both ends. It passes a simple continuity test, then causes noise and failures in service. The only prevention is getting the color order exactly right on both ends. Follow the pin chart, every time.",
+      "seconds": 21
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same bench, closer.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Right plug, right tool, conductors to the end, jacket captured, minimum untwist, and test before you leave. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Trainer (senior tech) performs all terminations in macro close-up; presenter voice-over for scenes 1, 3-7. Safety glasses on the trainer throughout. Prepare pre-made faulted cables to show each wiremap fault on a tester screen (use a generic tester, brand obscured)."
+}

@@ -1,0 +1,91 @@
+{
+  "vid": "LT2-C13-L03",
+  "title": "Half-Splitting and Fault Isolation",
+  "course": "LT2-C13",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 223,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Open-ceiling training area with a row of 12 daisy-chained fixtures and junction boxes; ladders staged. Matthew at floor level, medium shot.",
+      "on_screen": "Job Mindset: Finding a Fault on a Long Circuit",
+      "says": "A breaker that trips the instant you reset it means a short or ground fault, and resetting it again can cause an arc flash. So the top control here is to work it dead: leave it off, lock it out, verify. Plan ahead: meter with fresh batteries, new connectors to remake every splice you open, labels, a ladder for each box, and a way to track which splices you separated.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Animated graphic: a line of 16 points being cut in half four times. Table on screen.",
+      "on_screen": "8 points → 3 tests | 16 → 4 | 32 → 5",
+      "says": "Half-splitting means dividing the system in half, testing which half has the problem, and repeating on that half. Each test eliminates half the possibilities. Test eight points one by one and you might need eight tests. Half-split and the worst case is three. Sixteen points, four tests. On a long circuit, that saves hours and a lot of ladder moves.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Training row: fixtures 1-4 lit, 5-12 dark. Senior tech points to the box at fixture 4; presenter voice-over.",
+      "on_screen": "Pattern first: fault is between last working and first dead",
+      "says": "Sometimes the pattern does the work for you. Fixtures 1 through 4 work, 5 through 12 are out. The break is between the last working fixture and the first dead one. Check the splice at fixture 4's box, the whip toward fixture 5, then fixture 5's splice. Look for a loose connector, a backstabbed conductor that pulled out, or a burned splice. Measure energized with PPE, then lock out and repair.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Same row, all dark. Senior tech locks out the training panel breaker, verifies dead at the first box; presenter voice-over.",
+      "on_screen": "Breaker trips instantly? 1 Leave off, lock out, verify",
+      "says": "Now the same circuit trips instantly. Step one: leave the breaker off, lock it out, and verify absence of voltage at the first box. Step two: disconnect loads where practical, like driver leads at a few fixtures, because a driver input can show resistance hot to neutral that's normal.",
+      "seconds": 20
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech opens splices at the middle box near fixture 6, labels them, measures each half on ohms; on-screen test counter shows 1.",
+      "on_screen": "Split at the middle. Ohms: H-G and H-N. Near 0 Ω = faulted half.",
+      "says": "Step three: split at the middle. Open the splices at the box near fixture 6, labeling as you go. Step four: test each half with your meter's ohms function, hot to ground and hot to neutral. A reading near zero ohms, or a beep, hot to ground means the fault is in that half.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified lead demonstrates an insulation resistance tester on the isolated wiring with drivers disconnected; on-screen caution.",
+      "on_screen": "Insulation tester: qualified lead only. Never with drivers connected.",
+      "says": "For faults a meter can't find, a qualified lead may use an insulation resistance tester. Never use one on circuits with connected drivers or electronics unless the manufacturer allows it.",
+      "seconds": 12
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech splits again at fixture 9, tests, then finds a pinched whip; on-screen test counter climbs to 3.",
+      "on_screen": "Split again → find it in 2-3 splits",
+      "says": "Step five: split the faulted half again, say at fixture 9, and test. Within two or three splits, you're down to one or two fixtures or whips. Inspect for a pinched whip, a screw through a conductor, a damaged lead, or water. Here it is: a pinched whip, found in three tests.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech remakes splices with new connectors, removes lock, restores power; all 12 fixtures light and the breaker holds.",
+      "on_screen": "Never use the breaker as a test instrument",
+      "says": "Repair, remake every splice with new connectors, and verify: the breaker holds and every fixture works. Every step of this was done de-energized, locked out and verified. Never use the breaker as a test instrument by resetting it onto a short to see if it's fixed. Each reset can cause an arc flash and damages the breaker.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up inside an LED troffer: qualified tech in PPE measures at the driver input splice, then at the LED module connector per instructions.",
+      "on_screen": "Driver: input side vs output side",
+      "says": "Half-splitting works inside a fixture too. Correct supply at the troffer but no light? With PPE, measure at the driver input. Then measure DC output at the LED module connector, per the manufacturer's instructions. No output means the driver or its input connection. Output present means the board, connector or wiring. One measurement split the fixture in half.",
+      "seconds": 23
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the training row.",
+      "on_screen": "One change at a time | Track every splice | Verify your meter | Don't ignore the neutral",
+      "says": "Good isolation habits: change one thing at a time, track and remake every splice you open, verify your meter on a known source, don't ignore the neutral, and expect more than one problem. If the fault disappears when you open a box, remake every splice in it. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Open-ceiling training row of 12 daisy-chained fixtures per the lesson's video suggestion; on-screen counter shows the number of tests. Example 2 is entirely de-energized, locked out and verified; insulation tester demo by a qualified lead with drivers disconnected. Energized measurements (Example 1 and inside-fixture) by a qualified tech in PPE."
+}

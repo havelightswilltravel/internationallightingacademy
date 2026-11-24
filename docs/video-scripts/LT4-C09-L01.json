@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C09-L01",
+  "title": "How Energy Codes Work",
+  "course": "LT4-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room whiteboard; Matthew stands beside it, medium shot. A senior tech sits at the table with a printed compliance report.",
+      "on_screen": "How Energy Codes Work",
+      "says": "Electrical codes like the NEC keep an installation safe. Energy codes do something different: they limit how much energy a building may use. Knowing them is part of planning a job right, because a retrofit that skips a required control can fail inspection, lose the utility incentive and leave the customer out of compliance.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close on the whiteboard as Matthew writes two numbered items.",
+      "on_screen": "1. How much lighting power (LPD)\n2. What controls, and how they work",
+      "says": "For lighting, energy codes set two kinds of rules. First, how much lighting power may be installed. We call that lighting power density, or LPD. Second, what controls must be installed and how they have to work. Those are the mandatory controls. Every requirement you'll meet in this course falls into one of those two buckets.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard diagram: three boxes labeled with the code names. Matthew points to each.",
+      "on_screen": "ASHRAE 90.1 (Section 9)\nIECC (Section C405)\nCalifornia Title 24, Part 6",
+      "says": "You'll meet three main codes. ASHRAE 90.1 is the commercial energy standard, updated every three years; lighting is Section 9. The IECC is adopted by many states and cities; lighting is Section C405, and it lets you use 90.1 as the compliance path. California Title 24, Part 6, is among the strictest and requires certified acceptance testing of lighting controls.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew draws an arrow on the whiteboard: model code, state adoption, local amendments, plan reviewer.",
+      "on_screen": "The ADOPTED edition governs, not the newest one",
+      "says": "Here's the part people get wrong. The newest edition is not automatically the law. What governs is the edition your state or city has adopted, plus any local amendments. Many places run several years behind the latest model code. So before you quote a requirement to anyone, confirm which edition the authority having jurisdiction has adopted.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard, two columns: Prescriptive and Performance.",
+      "on_screen": "Prescriptive path: meet each listed rule (COMcheck)\nPerformance path: energy model\nMandatory rules apply on both",
+      "says": "Designers show compliance in one of two ways. The prescriptive path meets each listed requirement, the LPD limits plus mandatory controls. That's what most retrofits use, and the DOE's COMcheck software is common for documenting it. The performance path uses energy modeling for the whole building. Either way, mandatory provisions still apply, and lighting controls are largely mandatory.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech holds up the printed compliance report; camera pushes in on a fixture list (generic, no project names).",
+      "on_screen": "Alterations trigger the code\nLamp- or ballast-only swaps: often exempt, verify",
+      "says": "For existing buildings, the code applies to the parts being altered, and that's where field techs get caught. Replacing a threshold share of luminaires in a space usually means the new lighting must meet LPD and certain control rules. The percentage varies by code and edition. Lamp-only or ballast-only swaps are commonly exempt. When in doubt, read the adopted code or ask the designer, and document what you were told.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew and the senior tech at the table with the report; cutaways to a troffer, a sensor and a daylight zone in an office.",
+      "on_screen": "Install what the compliance documents show",
+      "says": "Your field work connects straight to that report. Fixture wattage and quantity must match it. Sensor location, mode and timeout must meet the mandatory rules. Luminaires in daylight zones go on separate daylight-responsive control. And a 'better' fixture with higher wattage can break LPD compliance, so get approval before you substitute. Final inspection may also need functional testing and documentation.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, medium close-up.",
+      "on_screen": "Energy upgrades are still electrical work: LOTO, verify absence of voltage",
+      "says": "One safety point. Energy codes and electrical safety codes work together, never against each other. Adding sensors or recircuiting for daylight zones is still electrical work. Follow NEC wiring rules, de-energize and apply lockout/tagout, and verify absence of voltage before you touch conductors. And energy-saving controls must never reduce required egress or emergency lighting.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "So: energy codes limit lighting power and require controls. The adopted edition governs. Mandatory controls apply on every path. Alterations above the threshold trigger compliance. And what you install has to match what was submitted. Now read the lesson and take the quiz.",
+      "seconds": 17
+    }
+  ],
+  "production_notes": "Knowledge lesson; no Job Mindset opener (scene 1 ties code knowledge to planned work). Props: whiteboard, printed sample COMcheck-style lighting compliance report with generic or blurred project details (no customer names). B-roll: troffer, occupancy sensor, daylight-zone office. The video_suggestion mentions a project manager; this script keeps the senior tech as the second person on camera with no lines."
+}

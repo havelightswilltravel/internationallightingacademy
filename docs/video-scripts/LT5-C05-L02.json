@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C05-L02",
+  "title": "Pre-Functional Checks and Writing Functional Tests",
+  "course": "LT5-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Newly installed office floor, ceilings complete, furniture partly in. Matthew holds a tablet with a checklist on screen. Medium shot.",
+      "on_screen": "Job Mindset: Pre-functional walk",
+      "says": "Before you walk a new floor, plan it. Hazards here are ladders, lifts, and wiring errors inside enclosures that also carry line voltage. So any wiring fix gets lockout/tagout first, then live-dead-live verification. Bring the checklist, the programming tool, access credentials, and have the electrician of record lined up. Group the walk by floor and space type so you're not moving lifts twice.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in a corridor of the new floor, tablet in hand.",
+      "on_screen": "Pre-functional checks: is it ready to test?",
+      "says": "Functional testing wastes everyone's time if devices are missing, miswired or offline. Pre-functional checklists confirm the installation is complete before testing starts. You complete them space by space.",
+      "seconds": 11
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech walks a private office and open area: looks up at a ceiling occupancy sensor near an HVAC diffuser, checks a labeled wall station, checks a photosensor. Presenter voice-over.",
+      "on_screen": "Fixtures match schedule - Sensors not blocked or near diffusers - Photosensors aimed - Stations labeled and at correct height",
+      "says": "Check fixtures against the drawings and schedule, including CCT, lumen package and driver type. Look at each occupancy sensor. Is it where the drawings show, and not blocked by partitions, shelving or an HVAC diffuser? Ultrasonic sensors can false-trigger from airflow. Confirm photosensors are aimed per the manufacturer, and wall stations are installed, labeled and at the correct height.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech at a power pack above an open ceiling tile: shows lock and tag on the breaker at the panel, then tests the meter on a known source, tests the circuit, retests the known source, then inspects 0-10V terminations. Presenter voice-over.",
+      "on_screen": "Wiring errors: LOTO + live-dead-live. Treat the enclosure as energized until verified.",
+      "says": "Check that low-voltage control wiring is separated from power conductors and terminated correctly. Remember, 0-10 volt wiring is Class 2, but it often lands in a device that also has line-voltage connections. Treat that enclosure as energized until you've verified it. Correct wiring errors only after you've applied lockout/tagout and verified absence of voltage, live-dead-live.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the tablet showing the controls software with a device list; one device flagged offline. Then a panel schedule being checked.",
+      "on_screen": "Devices online - Emergency devices installed - Panel labels updated - Startup report received",
+      "says": "Finish the list. Power packs and room controllers installed and accessible. Emergency fixtures, emergency drivers and UL 924 devices installed per drawings. Networked devices powered, addressed and showing online. Panel schedules updated. And for networked systems, manufacturer startup completed with the report in hand.",
+      "seconds": 18
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a conference table with a printed sequence of operations, highlighter in hand. Over-the-shoulder shot.",
+      "on_screen": "Sequence of Operations = the controls script",
+      "says": "Now the sequence of operations. It's the controls script. A good one tells you, for each space type, how lights turn on, the time delay and what happens at time-out, daylight behavior, schedules and overrides, manual controls, and emergency operation. If it just says 'lights shall be controlled by sensors,' raise a question through your supervisor. You can't test against an undefined result.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Screen recording style: a sequence line at top, and a test table builds below it row by row.",
+      "on_screen": "Private office: vacancy, manual-on, off 15 min after vacated\n1 Enter, wait 30 s: stays off\n2 Press ON: full on\n3 Work 5 min: stays on\n4 Exit, time it: off at 15 min\n6 Press OFF while occupied: stays off",
+      "says": "Here's how one line becomes a test. Private office, vacancy sensor, manual-on, off 15 minutes after vacated. Step one: enter with lights off, wait 30 seconds, lights stay off. Two: press On, full on. Three: work five minutes, lights stay on. Four: leave, start a timer, off at 15 minutes within tolerance. Then test the grace period if there is one, and press Off while occupied: lights stay off.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back at the table, medium close-up.",
+      "on_screen": "One expected result per step - State tolerances - Record test mode - Follow the Cx plan on sampling - Include the reset",
+      "says": "Tips. One expected result per step, so failures are obvious. State tolerances in advance, like plus or minus one minute. If you use a test mode to shorten delays, record it and verify the final delay afterward. The Cx plan decides whether you test a sample or every device. And every test ends with the system back in normal mode with correct final settings.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the corridor again, tablet under his arm.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "A common miss is skipping the reset, so the building gets turned over still in test mode. Don't be that crew. Schedule daylight tests when there's daylight, and emergency tests with the owner. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Demo performer: senior technician (non-speaking) for scenes 3-5. Scene 4 must clearly show LOTO on the power pack circuit and the three-step live-dead-live meter check before any terminal is touched. Use a generic controls software screen; blur any vendor branding. Test table in scene 7 is a motion graphic based on the lesson's FPT example (step 5, grace period, mentioned in voice-over only)."
+}

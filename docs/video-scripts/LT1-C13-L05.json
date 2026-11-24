@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C13-L05",
+  "title": "Rolling Scaffolds & Specialty Access",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "School gymnasium with high fixtures; scaffold frames, braces, casters and decks stacked on a cart; cones around the area. Danny medium shot.",
+      "on_screen": "Job Mindset: Working From a Rolling Scaffold",
+      "says": "A rolling scaffold puts you at arm's reach of the fixture, so you've got a fall hazard, a tip hazard and the electricity. Plan it before you leave the shop: the manufacturer's instructions, every part from the same manufacturer, enough people to move it, cones, your lock and your proving unit. And know how many times it'll move, because every move is time you have to plan for.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Same gym; Danny gestures at the finished floor and the gym doors.",
+      "on_screen": "Our rule: LT1 technicians do not erect scaffolds",
+      "says": "A scaffold beats a lift when the floor can't carry a scissor, the lift won't fit through the door, or you're spending a long time at fixtures close together. Our company practice: we use a scaffold only when a lift or ladder can't do the job safely. Only people trained by a competent person erect, move or take one down. LT1 technicians do not erect scaffolds.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Two trained technicians inspect each frame, brace, caster and deck before assembly; presenter voice-over. Close-ups of a bent brace being set aside.",
+      "on_screen": "Competent person inspects before each shift\nFrames | Braces | Casters | Decks | Guardrails | Base",
+      "says": "These two are trained. Before each shift, a competent person inspects the scaffold. Watch them check every frame and brace for bends, cracks and missing pins. Casters lock and turn freely. Decks aren't cracked or warped, and the hooks and locks are there. Anything damaged comes out of service and gets reported, like this brace.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Assembly sequence: casters pinned and locked, base leveled with adjusting screws, end frames and braces locked, outriggers installed; presenter voice-over.",
+      "on_screen": "1. Read the instructions\n2. Check the floor\n3. Lock every caster\n4. Level with screws\n5. Frames and braces\n6. Outriggers",
+      "says": "Assembly follows the manufacturer's instructions. Never mix brands. Check the floor: level, solid, no holes or cords. Casters seated, pinned and every one locked before anyone climbs. Level the base with the adjusting screws, never blocks or bricks. End frames and braces, every lock engaged. Outriggers when the manufacturer or the height requires them.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Platform being fully decked; top rails, midrails and toeboards installed on all open sides; a green 'ready' tag hung.",
+      "on_screen": "Fully decked | Guardrails and toeboards | 4:1 rule | 4x the intended load",
+      "says": "Deck the platform fully, locked down, no gaps. Top rails, midrails and toeboards on all open sides before anyone works up there. Over four times the minimum base width in height, the scaffold must be restrained, and outriggers widen the base. It has to hold four times the intended load, and never exceed the manufacturer's rating. Then it's tagged.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "A tech climbs inside on the built-in frame ladder; insert with a red X of someone stepping on a cross brace.",
+      "on_screen": "Cross braces are NOT a ladder",
+      "says": "Climb on the built-in frame ladder, an attached ladder or a stair unit. Cross braces are not a way up. And once you're up there, it's the same as a lift. Lock out and verify absence of voltage live-dead-live at the fixture before you work. Metal scaffolds conduct electricity, so keep clear of energized parts and power lines.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "The tech climbs down; both techs clear tools off the deck, unlock casters, and push the scaffold at the base across the gym, then relock casters and check level.",
+      "on_screen": "Never move it with anyone on it",
+      "says": "Time to move. Our company rule: never move it with anyone on it. Everyone climbs down first, even though OSHA allows riding in narrow conditions. Secure tools and material. Check the path for holes, cords and overhead obstacles. Push at or near the base, never from the top, with enough people. Then relock every caster and re-check level before anyone climbs back up.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Quick montage: push-around vertical mast lift in an office, a ladder in a stairwell on a manufacturer leveling system, a luminaire-lowering hanger bringing an atrium fixture to the floor.",
+      "on_screen": "Mast lift = MEWP | Stairwells: approved levelers only | Lowering hangers",
+      "says": "Specialty access. A push-around mast lift is a MEWP, so it needs the training and the pre-use inspection. In stairwells, use only manufacturer-approved levelers or articulating ladders. Never planks across stairs or ladders on boxes. And some atrium fixtures hang on lowering devices that bring the fixture to the floor. Follow the device's instructions.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny back in the gym beside the assembled scaffold.",
+      "on_screen": "",
+      "says": "Pick access by ceiling height, floor, doors and occupancy, and plan the setup and move time into the job. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "The two technicians erecting and moving the scaffold must be trained by a competent person (not LT1s); state this in a lower third if helpful. Use one manufacturer's scaffold and its instructions; show the tag system the company actually uses (lesson example: green = ready, red = do not use). Gym floor protection as needed. Props: rolling scaffold with casters, adjusting screws, braces, outriggers, decks, guardrails, toeboards; push-around mast lift; stairwell ladder leveler; luminaire-lowering hanger. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/05-rolling-scaffolds-and-specialty-access.md."
+}

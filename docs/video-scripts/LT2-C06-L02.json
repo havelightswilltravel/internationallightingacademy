@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C06-L02",
+  "title": "Type A and Dual-Mode TLEDs",
+  "course": "LT2-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 188,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office with 2x4 troffers in a lay-in ceiling; platform ladder, lockout kit, meter, Type A tubes and lamp recycle box on a cart. Medium shot.",
+      "on_screen": "Job Mindset: hazards = shock (277 V), ladder, broken lamps | lock out | confirm compatibility first",
+      "says": "Type A TLED install. The hazards: shock from the fixture, especially on 277 volts, ladder falls and broken fluorescent lamps. Lock out or follow the company relamping procedure; many companies require lockout for all relamping in 277 volt fixtures. And plan the whole job before you leave: confirm compatibility for every fixture type, because fixtures that look the same may have different ballasts.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Tech removes a troffer door and reads the ballast label; then checks the TLED maker's online compatibility list on a tablet.",
+      "on_screen": "Read ballast label: maker | model | start method | BF | Check the exact model on the compatibility list",
+      "says": "A Type A tube has circuitry built to run on an electronic fluorescent ballast. No rewiring, no fixture modification. But compatibility is everything. Read the ballast label: manufacturer, model, starting method, ballast factor. Then check the TLED maker's compatibility list for the exact ballast model, not just the brand. If it's not on the list, don't try it and see. It may work for a while, then flicker, overheat or fail.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic over a magnetic T12 ballast.",
+      "on_screen": "Most Type A: instant-start electronic | not for magnetic | old or failing ballast? Discuss Type B or C",
+      "says": "Watch the restrictions. Many Type A tubes are listed for instant-start electronic ballasts, fewer for programmed or rapid start, and most aren't compatible with magnetic ballasts, so magnetic T12 systems usually aren't candidates. And check the ballast's age. If it's near end of life, the customer will pay for a service call soon anyway. Discuss Type B or C instead.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech performs the steps at the locked-out troffer: removes fluorescent lamps into the recycle box, inspects sockets, seats and rotates the TLEDs; presenter voice-over.",
+      "on_screen": "Lock out | remove lamps (universal waste) | inspect sockets | seat and rotate TLEDs",
+      "says": "Lock out. Remove the fluorescent lamps and manage them as universal waste. Inspect the sockets. Replace any cracked, loose or heat-damaged ones with the same type the ballast requires, shunted for instant start, non-shunted for rapid or programmed start. Install the tubes, seat the pins fully and rotate to lock. Watch for orientation marks.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Power restored; all tubes light. Tech watches for flicker and operates the wall switch; writes on the work order.",
+      "on_screen": "Verify: all lit | no flicker | no buzz | normal control | document ballast + TLED by location",
+      "says": "Restore power and verify: every tube lights, no flicker, no buzzing, and the fixture works from its normal control. Then document the ballast model and the TLED model by location. That makes the next service call a lot easier. Remember, the ballast still fails eventually, and when it does, the tube goes dark too. That's a decision point: a compatible ballast, or a conversion with the customer's approval.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Second segment: dual-mode tube on a failed ballast; tech locks out, verifies dead, removes the ballast and wires per the tube maker's bypass diagram; presenter voice-over.",
+      "on_screen": "Dual-mode bypass = a Type B conversion | follow the diagram exactly",
+      "says": "That's where dual-mode tubes come in. They run on a compatible ballast, or straight on line voltage once the ballast is bypassed. When the ballast fails, you convert instead of buying a new one. But that conversion is a Type B conversion. Follow the tube maker's bypass diagram exactly, single-ended or double-ended, and check the socket type. Some dual-mode products have wiring rules that differ from a dedicated Type B.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the line-voltage and modification labels being applied inside and outside the fixture.",
+      "on_screen": "Apply the labels | never leave a fixture partly converted",
+      "says": "Then apply the line-voltage and modification labels. A fixture that started as Type A and was later bypassed now has line voltage at its sockets. If it's not labeled, the next person relamping will assume ballast output and may handle sockets energized. Labels aren't optional. Never leave a fixture partly converted; every lamp position is wired the same way. Document which fixtures are converted.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the office, medium shot.",
+      "on_screen": "",
+      "says": "Check the exact ballast model, lock out, verify, label every conversion. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Two segments per the lesson's video suggestion: Type A install after a compatibility check (show a generic manufacturer list, brands masked), then a dual-mode bypass conversion with labels applied. Senior tech performs; presenter voice-over. Lockout shown before every removal. Lesson file path is LT2-C05/02 (course code differs from vid LT2-C06)."
+}

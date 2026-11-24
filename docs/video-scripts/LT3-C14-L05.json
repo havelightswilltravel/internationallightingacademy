@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C14-L05",
+  "title": "Overhead & Underground Power Lines on Site Work",
+  "course": "LT3-C14",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 223,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Parking lot, bucket truck stowed near a light pole with a service drop and distribution line overhead, trees nearby. Danny in hi-vis. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Job Mindset: Working Near Power Lines",
+      "says": "I'm Danny. The most common outcome of contacting a power line is electrocution, and most of those are fatal. On a pole-light repair, that's your top hazard before you even get to the light. Survey every line, plan the truck position and boom swing, set barriers, assign a spotter, and know the voltage. If you can't keep your distance, you don't go up.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny looks up at each pole and into the trees; camera reveals a line hidden in foliage.",
+      "on_screen": "Look up at every pole, around signs, and INTO THE TREES",
+      "says": "Here's how we walk a site. Look up at each pole, around signs, and into the trees, because foliage hides lines just like it hides pole lights. Find the voltages and transformers. Then look at the whole path of the equipment: where the truck parks, the swing of the boom, and any long objects you'll raise, like poles, arms or ladders.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Graphic overlay: 10 ft circle around the line; bucket stowed while Danny estimates distance.",
+      "on_screen": "Company rule: 10 ft from lines 50 kV and under. Above 50 kV: utility shields first.",
+      "says": "Our rules. Keep aerial equipment at least 10 feet from lines of 50 kV and under. That's the bucket, the boom, you, your tools and anything you're holding. Lines above 50 kV must be shielded by the power company before any work under them. Never work within 10 feet of lines that haven't been covered by the power company. Can't keep your margin? Stop and call your supervisor.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny close-up by the truck.",
+      "on_screen": "Covered lines: treat as UNCOVERED. Unknown voltage: assume higher distance, call the utility.",
+      "says": "Even when lines are covered, treat them as if they're not. OSHA's distances grow with voltage: 15 feet over 50 up to 200 kV, 20 feet up to 350, and more above that. If you don't know the voltage, assume the higher distance and call the utility. Don't guess from the size of the pole. And phone and cable lines can be energized by contact with power lines. Treat every line as energized.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Cones set as a clearance boundary; spotter stands watching the bucket and line, hands empty; tech in harness with lanyard attached.",
+      "on_screen": "Spotters SPOT, not guide. Harness on, lanyard attached.",
+      "says": "Tell everyone at the pre-job briefing where the lines are. Set a boundary with cones. Use a spotter whose only job is watching the clearance and warning the operator. Spotters spot, they don't guide. Someone holding a tag line can be shocked if it touches a line. De-energize and lock out the pole circuit when you can, harness and lanyard attached before going aloft, and protect people below.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny beside a pad-mount transformer.",
+      "on_screen": "Myths: lines are insulated | fiberglass is safe | no touch, no danger. All FALSE.",
+      "says": "Busting myths. Lines aren't necessarily insulated. Many are bare, and a weatherproof covering isn't rated insulation. Wet or dirty fiberglass ladders can conduct. High voltage can arc across a gap, so not touching isn't enough. And this green box is a pad-mount transformer. Never open it, lean on it or dig beside it.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "White-painted dig area at a pole base; then the same area with red, orange and yellow locate marks; tech hand-digs near a red mark.",
+      "on_screen": "Call 811 > white-line the area > wait for marks > hand-dig in the tolerance zone",
+      "says": "Underground. Driving a ground rod, setting a base or trenching all count as digging. Call 811, describe the area clearly, and mark it with white paint or flags. Wait for marks: red electric, yellow gas, orange communications, blue water, green sewer. Hand-dig inside the tolerance zone, commonly 18 to 24 inches each side, set by state law. Remember, 811 doesn't mark private site circuits.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Staged demo, no power present: tech jumps clear of the truck with feet together, lands, shuffles away with small steps.",
+      "on_screen": "STAY ON unless fire. If you must leave: JUMP CLEAR, feet together, SHUFFLE away.",
+      "says": "If contact happens: stay on the equipment unless there's immediate danger like fire. Warn everyone away, the ground may be energized. Move away from the line if you can, and have someone call 911 and the utility. If you must get off, jump clear, feet together, never touching the truck and ground at once, then shuffle away. Never touch a coworker in contact. Stay 35 feet from fallen lines.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny in the lot, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Ten feet, every line energized and uncovered, a spotter who spots, and 811 before you dig. If you strike a line, stop, move away, call 911 and the utility, and tell your supervisor. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Jump-clear demo is STAGED with no power line present; add on-screen 'Staged demonstration - no power present.' Bucket truck stays stowed while near lines on camera; do not raise the boom near any real line. Use a generic pad-mount transformer exterior shot only. Senior tech performs; Danny on camera for 1, 2, 4, 6, 9 and voice-over elsewhere."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C04-L02",
+  "title": "Troubleshooting Fluorescent Systems",
+  "course": "LT2-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training wall with three staged two-lamp fluorescent fixtures; platform ladder, lockout kit, CAT-rated meter, PPE and known-good lamps on a cart. Medium shot.",
+      "on_screen": "Job Mindset: hazards = shock, high ballast output, ladder falls, broken lamps | lock out | PPE for energized tests",
+      "says": "Fluorescent troubleshooting. The hazards: shock at the ballast input, high voltage at the sockets, ladder falls and broken lamps. Your controls: lock out and verify, PPE for any energized test, eye protection, a good ladder. Before you leave the shop, bring known-good lamps of the right type, correct sockets, a replacement ballast and lamp boxes. Plan for the worst case: a whole circuit out.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic over training wall footage.",
+      "on_screen": "Blackened ends: lamps | power + all out: ballast/igniter | power + some out: sockets/wiring | no power: switch, then first junction box",
+      "says": "Fluorescent problems usually announce themselves, so read the symptom first. Our company's sequence: blackened ends, change the lamps. No blackened ends, check for power at the ballast input. Power and all lamps out, the ballast or igniter. Power and some lamps working, sockets and wiring. No power, check the switch, then trace back to the first junction box with the plan or a circuit tracer.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Fault one: two-lamp fixture with one dim, flickering end. Tech checks neighboring fixtures, then installs a known-good lamp; fixture runs normally.",
+      "on_screen": "Step 1 Verify the complaint | Step 2 Known-good lamps",
+      "says": "Fault one: one dim, flickering lamp. Verify the complaint, and look at the neighbors on the same circuit. If they're all out, suspect the circuit or control. Then substitute a known-good lamp of the correct type for the ballast. It's the cheapest, fastest test, and it solves most calls. This one's fixed.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Fault two: completely dark fixture. Tech locks out, verifies, opens the wireway and inspects; then follows the company procedure to re-energize for testing, in PPE, and measures at the ballast input leads.",
+      "on_screen": "Measure at ballast input: hot-neutral and hot-ground | No voltage = upstream | Correct = in the fixture",
+      "says": "Fault two: completely dark. Lock out, verify, open the wireway and inspect for burnt sockets, scorched wiring or a leaking ballast. Then follow your company's procedure for re-energizing for testing, wear PPE, and measure at the ballast input leads, hot to neutral and hot to ground. No voltage, the problem's upstream. Correct voltage, it's in the fixture.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the meter probes on the input leads only; red X graphic over ballast output leads and sockets.",
+      "on_screen": "Never probe ballast output leads or sockets while energized",
+      "says": "Measure only at accessible input leads or splices, with insulated probes, PPE per our company program and a tested CAT-rated meter. Never probe ballast output leads or sockets while energized. Output voltages are high, and electronic ballasts can be damaged by meter connections.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks out again, checks continuity from ballast output leads to socket contacts, then replaces the ballast per its diagram and restores power; both lamps start.",
+      "on_screen": "Lock out again | check sockets | electronic ballast confirmed by substitution | replace, verify, document",
+      "says": "Lock out again before touching anything inside. With power off, check continuity from each ballast output lead to its socket, and confirm the socket type matches the ballast. If supply is good, sockets and wiring are good, and known-good lamps won't light, it's the ballast. Electronic ballasts are confirmed by substitution. Install per the diagram, restore power, confirm all lamps start, and document it.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Fault three: a fixture with a cracked socket, found during inspection while locked out; tech replaces it with the correct type.",
+      "on_screen": "Cracked socket: replace with the correct type",
+      "says": "Fault three: power's present and one lamp's dark. With the circuit locked out, there it is, a cracked socket. Replace it with the correct type, shunted or non-shunted, to match the ballast. On a parallel instant-start ballast, one dark lamp points to that lamp, its sockets or its leads, not usually the whole ballast.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "T5 fixture: new lamps installed but dark; tech turns power fully off, waits per the label, restores power; lamps start.",
+      "on_screen": "T5 dark after relamp? Cycle input power | coordinate before cycling a shared breaker",
+      "says": "One the lesson calls out: T5s. Most use programmed-start ballasts with end-of-life protection, and many stay shut down until input power is removed and restored. If new lamps don't light, turn power fully off for the time the maker specifies, then restore it. If several fixtures share a breaker, coordinate with the customer first. Only if they still fail, continue the sequence.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the training wall, medium shot.",
+      "on_screen": "Ask why it failed: heat | wrong lamps | instant start on sensors | high voltage | bad sockets | loose connections",
+      "says": "And ask why it failed, or you'll be back next month. Heat, wrong lamps, instant start on an occupancy sensor, high voltage, bad sockets, loose connections. Before ordering a ballast, check the retrofit policy and PCB status. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Three staged faults on a training wall per the lesson's video suggestion. Energized measurement at ballast input only, by a qualified tech in PPE, following the company re-energizing procedure; never at outputs or sockets. Lockout shown before each inspection and repair. Spent lamps boxed as universal waste on camera."
+}

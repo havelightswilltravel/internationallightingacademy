@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C12-L04",
+  "title": "Series & Parallel Circuits",
+  "course": "LT1-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room bench with a training board: three lamps wired in series on the left, three in parallel on the right, all lit. Matthew beside it, medium shot.",
+      "on_screen": "Series & Parallel Circuits",
+      "says": "Every circuit you'll work on is built from two patterns: series and parallel. Once you know them, the pattern of what's out on a job, one lamp, one fixture or a whole row, starts telling you where the problem is. That's where safe, efficient troubleshooting starts.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the series side of the board; Matthew traces the single path with a finger.",
+      "on_screen": "Series: one path | same current | voltages add up | one open stops everything",
+      "says": "In a series circuit, components connect end to end. One path. The current is the same through every part. Resistances add up. The voltage divides among the parts, and the drops add up to the source. Three 40 ohm resistors on 120 volts: 120 ohms total, one amp through each, 40 volts across each one.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Board is de-energized, Matthew removes one lamp from the series side, re-energizes: all three series lamps stay dark.",
+      "on_screen": "One open in series = everything stops",
+      "says": "Now watch. Power off, I pull one lamp from the series string, power back on. All three are out. In series, if one part opens, everything stops, because the only path is broken. That's why a switch or breaker, which is in series with the load, turns the light off.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the parallel side; Matthew traces each branch across the source.",
+      "on_screen": "Parallel: many paths | same voltage | currents add up | one open, the rest keep working",
+      "says": "In a parallel circuit, each component connects directly across the source. Multiple paths. The voltage is the same across every branch. Branch currents add up. Three fixtures at half an amp each on 120 volts: each gets 120, total is 1.5 amps. And total resistance is always less than the smallest branch.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Board de-energized, Matthew removes one lamp from the parallel side, re-energizes: the other two stay lit.",
+      "on_screen": "One open in parallel = the others stay lit",
+      "says": "Same test on the parallel side. Power off, pull a lamp, power on. The other two stay lit. They still have full voltage and still draw their own current. The total just drops, from 1.5 amps to 1.0.",
+      "seconds": 15
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Office ceiling with a row of lit troffers on one circuit; camera pans along the row. Then an insert of an old fluorescent fixture with two lamps out together.",
+      "on_screen": "Fixtures on a branch circuit = parallel",
+      "says": "Look up. These troffers are all on one circuit, wired in parallel. Each gets full circuit voltage, and one burned-out fixture doesn't turn off the rest. Most modern instant-start ballasts wire the lamps in parallel too. But some older ballasts wire lamps in series, so when one lamp fails, the others in that series go out or dim together.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew under the row of troffers, medium shot.",
+      "on_screen": "Safety: Each added fixture increases circuit current. Never add loads without approval.",
+      "says": "Real systems combine both. The breaker and switch are in series, feeding fixtures in parallel. And here's the safety piece. Because fixtures are in parallel, every one you add increases the total current. Adding fixtures without approval can overload the circuit, cause nuisance tripping and overheat the wiring.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table over footage of the troffer row with one fixture dark, then the whole row dark.",
+      "on_screen": "One lamp out -> that lamp and socket\nTwo out together -> series pair or ballast\nWhole row out -> upstream\nOne fixture out -> that fixture",
+      "says": "Use the pattern. One lamp out, others working: check that lamp and socket first. Two lamps out together: a series-wired pair or a ballast failure. A whole row out: the problem is upstream, in series with all of them, like the breaker, switch, sensor or wiring. One fixture out, rest of the row working: it's in that fixture's branch.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the training board, medium shot.",
+      "on_screen": "",
+      "says": "Where is the problem in the circuit? That question is the foundation of troubleshooting. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Training board must be a low-voltage or otherwise safe trainer; show power being removed before each lamp is pulled. Ceiling shot: occupied office or training ceiling with several troffers on one circuit; no customer logos. Theory lesson, no Job Mindset opener. Lesson file: curriculum/levels/LT1/courses/LT1-C04/lessons/04-series-and-parallel-circuits.md."
+}

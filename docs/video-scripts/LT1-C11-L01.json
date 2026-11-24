@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C11-L01",
+  "title": "Job-Site Conduct & Professionalism",
+  "course": "LT1-C11",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Generic office building lobby with a front desk. Chris in company polo, medium shot, standing near the entrance.",
+      "on_screen": "Job-Site Conduct & Professionalism",
+      "says": "I'm Chris. For most customers, you are the only person from our company they will ever meet. The way you dress, talk, drive and leave their building is what they remember. Good technical work done with poor conduct still loses customers. Professional conduct wins repeat work and referrals.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Version one: a service truck pulls into a red-curbed fire lane; the tech walks in past the front desk on a phone call, then leaves lamp boxes in a hallway. Presenter voice-over.",
+      "on_screen": "Take 1",
+      "says": "Watch this service call. Late. Parked in the fire lane. Walks straight past the front desk without checking in. On the phone. Lamp boxes left in the hallway. Maybe the lamps get changed just fine. But ask yourself what the facility manager is going to say about us when they call the office.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Version two: same building. The tech parks in a legal space, in clean uniform with ID badge visible, signs in at the front desk, and talks with the site contact.",
+      "on_screen": "Park legally | Check in | Confirm the scope | Ask about site rules",
+      "says": "Same call, done right. On time, and if you're going to be late, you call before the appointment time. Clean uniform, badge visible. Park legally, never in fire lanes, accessible spaces or loading docks without permission. Check in. Confirm the scope out loud. Then ask about site rules: noisy-work hours, off-limits areas, where to stage materials.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Version two continues: the tech lays a drop cloth under the ladder, places a barricade, and stages boxes neatly in one corner; exit door and extinguisher clearly unobstructed.",
+      "on_screen": "Protect the space | Keep exits clear | Stage in one area",
+      "says": "While you work, protect floors and furniture with drop cloths. Keep walkways, exits, fire equipment and electrical panels clear. Stage materials neatly in one area. Ask before you move customer property. Keep personal calls to your breaks. And respect privacy. Don't read documents or screens, and don't talk about what you see on site.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Open-plan office: the tech barricades under the ladder and tells nearby employees before switching lights off; then politely tells a site contact he needs to lock out the circuit.",
+      "on_screen": "Never let customer pressure push you into an unsafe act",
+      "says": "Lighting work happens around people. Barricade under your ladder and warn people before you turn off lights. And never let customer pressure, schedules or politeness push you into an unsafe act. 'I need to lock out this circuit before I can work on it' is a professional statement. If a customer objects, call your supervisor.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Chris in the lobby, medium close-up.",
+      "on_screen": "Damaged something? Report it immediately.",
+      "says": "Integrity is part of professionalism. Record your time and materials honestly. Spare lamps the customer paid for stay with the customer. If you damage something, report it immediately to the customer and your supervisor. Hiding damage is far worse than the damage itself. And never accept cash or side jobs. Refer those requests to the office.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Version two ending: the tech wipes fingerprints off a lens, picks up packaging, walks the area, reviews the work with the site contact, and signs out. The site contact smiles and shakes hands. Quick cut back to version one: the site contact staring at boxes in the hallway, arms crossed.",
+      "on_screen": "Clean up | Walk the area | Review with the contact | Check out",
+      "says": "Before you leave, clean up completely. Wipe the fingerprints off the lenses, pick up packaging, sweep up dust. Take your waste with you unless other arrangements were made. Walk the area, review the work with the site contact and check out. Look at the two reactions. Same lamps. Very different customer.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Chris in the lobby, medium shot.",
+      "on_screen": "To the customer, you are the company.",
+      "says": "To the customer, you are the company. Leave every space cleaner than you found it. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Contrast video: film the same service call twice with the same actor, same building. Use generic signage only; no customer logos. Take 1 must be staged safely (truck parked briefly in a marked fire lane with permission from the location, or simulated). Props: company uniform, ID badge, drop cloth, barricade/cones, lamp boxes, ladder, sign-in sheet. Lesson file: curriculum/levels/LT1/courses/LT1-C07/lessons/01-job-site-conduct.md."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C05-L01",
+  "title": "NLC Architectures & Components",
+  "course": "LT4-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 265,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room demo board: gateway, wired and wireless sensors, a wallstation and two luminaires with integrated controllers. Matthew beside it. Medium shot.",
+      "on_screen": "Networked Lighting Controls: Architectures & Components",
+      "says": "In LT3 you installed standalone controls. Each device made its own decisions and talked to nobody. A networked lighting control system connects luminaires, sensors, wallstations and a central brain, so every device can be addressed, grouped, scheduled and reprogrammed without rewiring. Knowing how it's built tells you where the line voltage is and where it isn't.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of each component on the board as it's named.",
+      "on_screen": "Luminaire controller | Sensor | Wallstation | Room controller | Gateway | Management software",
+      "says": "The building blocks. A luminaire controller switches and dims one fixture or a small group. Sensors detect occupancy and daylight, often in one device. Wallstations give manual control. A room controller is the local brain for one room. The gateway connects zones to the backbone and the software, and usually needs an IP address and a time source. The management software handles schedules, reports and BMS links.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech presses the wired wallstation; animated path traces from wallstation along the bus cable to the room controller and luminaires. Presenter voice-over.",
+      "on_screen": "Wired: proprietary bus | DALI-2 | 0–10V with digital room controller",
+      "says": "Wired first. Watch the button press travel down the low-voltage bus to the controller and out to the luminaires. Wired types include a proprietary bus on patch cable, DALI-2, which is an open two-wire bus with up to 64 control gear per segment, and 0–10V driven by a networked room controller. Wired systems are reliable and immune to radio interference.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an RJ-45 bus cable plugged into a room controller; red X graphic over a network switch.",
+      "on_screen": "RJ-45 bus cable is NOT Ethernet",
+      "says": "Here's one that damages equipment. Many manufacturers run data and Class 2 power on Cat5e or Cat6 patch cable with RJ-45 plugs. It looks like Ethernet. It is not Ethernet. Plug it into a network switch and you can damage gear. Wired systems also mean running and terminating low-voltage cable, keeping it separated from power, and following the maker's topology limits.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech presses a battery wireless wallstation; animation shows the message hopping node to node across a floor plan to the luminaires. Presenter voice-over.",
+      "on_screen": "Wireless mesh: each powered device relays for its neighbors",
+      "says": "Now wireless mesh. Each powered device relays messages for its neighbors, so the network covers a big floor even though each radio has limited range. Bluetooth mesh, Zigbee and proprietary radios are common. Very little control wiring, so it's ideal for retrofits. Notice the battery wallstation talks to the nearest powered node. Battery devices don't relay.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "B-roll: metal ceiling, concrete wall, full warehouse racks; graphic list.",
+      "on_screen": "Watch: obstructions | battery devices don't relay | gateway limits | interference",
+      "says": "What to watch with mesh. Metal ceilings, concrete, elevator shafts and full racks absorb radio signals, so you need enough powered nodes close together. Each gateway has a maximum device count and distance or hops. Go over and commands get slow or missed. And Wi-Fi, other 2.4 gigahertz gear, or another contractor's mesh can interfere.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech points to the integrated sensor in a troffer on the board; floor graphic shows each fixture's small sensing patch.",
+      "on_screen": "LLLC: sensor + controller in every luminaire",
+      "says": "Luminaire-level lighting control, LLLC, puts an occupancy sensor, a daylight sensor and a networked controller in every fixture. Each one responds to its own patch of floor, which usually saves more energy. For you, it means many more devices to commission, so naming and grouping discipline is critical. Sensor coverage depends on mounting height and lens. And a dead fixture could be the controller, the driver, or both.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; lower-third callout.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may install and terminate NLC bus and sensor wiring under our company's license. In others it takes a licensed electrician or low-voltage contractor, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Lock and tag on a breaker; Matthew beside the demo board luminaire.",
+      "on_screen": "A luminaire controller is NOT a disconnect. LOTO and verify.",
+      "says": "Last, the safety line. The controller switches line voltage while the bus is Class 2. A relay that turned the light off still has line voltage on its input, and maybe on its output. A controller is not a disconnect. Lock out at the breaker and verify, live-dead-live. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Demo board: gateway, wired room controller with RJ-45 bus cables, wired wallstation, wireless battery wallstation, wired and wireless sensors, two luminaires with integrated controllers, one troffer with an LLLC sensor. Senior tech operates the board while Matthew narrates. Animations for wired path and mesh hops. No manufacturer logos. Knowledge lesson: hook instead of a full Job Mindset opener."
+}

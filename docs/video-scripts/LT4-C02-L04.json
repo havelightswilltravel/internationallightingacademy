@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C02-L04",
+  "title": "Compatibility, Low-End Trim & Dimming Troubleshooting",
+  "course": "LT4-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 260,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office conference room with downlights flickering at a low setting; a tech with a tool bag at the wall dimmer. Matthew in foreground.",
+      "on_screen": "Job Mindset: \"Lights Flicker When Dimmed\"",
+      "says": "A flicker call sounds harmless, but the diagnosis puts you in multi-gang dimmer boxes and fixtures with line voltage. Before you remove a dimmer or touch a driver, lock out and verify, and remember a multi-gang box often has more than one circuit. Plan ahead: pull the fixture and dimmer models before you go, and bring a known-good driver for swap testing.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Tech removes the wall plate (de-energized) to view wire colors; graphic table of clues alongside.",
+      "on_screen": "Hot + switched leg = Phase | Violet + gray = 0–10V | DA bus = DALI | XLR/RJ45 data = DMX",
+      "says": "Step one, identify the dimming type. Only hot and switched-leg wires at the control and screw-in LEDs? Phase. Violet and gray at the fixtures and control? 0–10V. A two-wire bus labeled DA and a DALI power supply? DALI. Data cable and start addresses on color-changing fixtures? DMX. Then read the driver label and the control label. They must speak the same language.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech checks a manufacturer compatibility chart on a phone, close-up of the screen next to the dimmer model on the wall.",
+      "on_screen": "Protocol | Phase type | Load rating | Tested pairs | Same products | Minimum level | Curve",
+      "says": "Then run the compatibility checklist. Same protocol. Right phase type. Load rating not exceeded, after ganging derate. Is this pair on the manufacturer's tested list? Same products across the zone? What's the driver's real minimum? A driver rated to dim to 10 percent will never go to 1. And linear and logarithmic curves mixed on one zone dim unevenly.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the downlights at the bottom of the slider: shimmer, one fixture dropping out, then popping on when the slider is raised.",
+      "on_screen": "Low-end trim too low: flicker | drop-out | pop-on",
+      "says": "Low-end trim sets the lowest output the control will send. Set it too low and the driver gets a signal it can't handle. You'll see flicker at the bottom of the slider, drop-out where lights go off before the bottom, pop-on where they won't start low and then jump on, or some fixtures lit and others off.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech enters the dimmer's adjustment mode, sets slider to bottom, raises trim slowly while watching every fixture, then cycles off and on. Presenter voice-over.",
+      "on_screen": "Confirm compatibility | Adjust mode | Bottom | Raise until all stable | Add margin | Cycle off/on | Record",
+      "says": "Follow the dimmer maker's steps. In general: confirm compatibility first, because trim can't fix the wrong product. Enter adjustment mode. Set the dimmer to its lowest position. Raise the low end slowly until every fixture is lit and stable. Add a small margin for temperature and aging. Cycle the lights off and on at the low setting to confirm no pop-on. Exit and record the setting.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table of complaints and first checks over b-roll of the conference room.",
+      "on_screen": "Verify | Gather info | Isolate | Fix | Verify | Document",
+      "says": "Use the same method every time: verify, gather information, isolate, fix, verify, document. Flicker at all levels points to the product, the phase mode or loose connections. Only at the low end, trim or mixed products. Won't dim at all, a protocol mismatch, an open or reversed 0–10V pair, or DALI not addressed. Ghosting when off, two-wire dimmer leakage.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Lock and tag at the breaker; tech swaps a driver between two troffers, both de-energized. Presenter voice-over.",
+      "on_screen": "Swap test: does the problem follow the driver?",
+      "says": "One fixture acting different from the rest? Swap test. With both fixtures locked out, swap its driver with a known-good neighbor's. If the problem follows the driver, it's the driver. If it stays with the location, look at the wiring or connection there.",
+      "seconds": 17
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech dims the room smoothly with the customer (actor, office attire) watching; tech explains with open hands.",
+      "on_screen": "Set expectations: real minimum level, no warm-dim unless rated",
+      "says": "Last, the customer. Many people expect LEDs to dim like incandescent, smooth to nearly zero and warmer when dim. Explain their drivers' realistic minimum, that standard LEDs don't warm in color as they dim unless they're warm-dim products, and what you changed. Clear expectations prevent callbacks.",
+      "seconds": 21
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the conference room, lights dimmed evenly.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Identify the system, confirm compatibility, then trim. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Conference room location with a dimmer and downlights that flicker at the low end (stage by setting low-end trim too low). Phone screen showing a generic compatibility chart (mock up, no real brand names). Dimmer with an accessible low-end trim adjustment. Any dimmer removal or driver swap shown under LOTO with lock and tag in frame. Customer is an actor; no customer branding in the room."
+}

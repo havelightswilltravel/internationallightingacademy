@@ -1,0 +1,67 @@
+{
+  "vid": "LT1-C10-OVERVIEW",
+  "title": "Vehicles, Trailers and Load Securement (course overview video)",
+  "course": "LT1-C10",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop yard at early morning with a row of service trucks, a lift truck and a trailer. Danny standing at the front bumper of a service truck, medium shot.",
+      "on_screen": "Vehicles, Trailers and Load Securement",
+      "says": "I'm Danny. Every job you'll ever do starts and ends with a vehicle. The truck is your shop on wheels, and on the road it's the most dangerous tool you'll use. This course is about getting that truck, its boom and its trailer to the job and back safely, legally and ready to work.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny walks around the truck with a phone open to the fleet app; quick cuts of horn, wipers, mirrors, tires, triangles and fire extinguisher.",
+      "on_screen": "Daily pre-trip inspection (DVIR)",
+      "says": "First, the daily pre-trip inspection, logged in the fleet app. Your license and medical card, logs, registration and inspection sticker, and a registered weight greater than what you're actually carrying. Then the walk-around: horn, glass, wipers, mirrors, brakes, steering, lights, tires, triangles and fire extinguisher. And the load covered and secured.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Lift truck in the yard; close-ups of a battery bank, hoses, ground controls, the basket door and an inspection sticker.",
+      "on_screen": "Daily boom inspection",
+      "says": "If you run a lift truck, the boom gets its own daily inspection: battery, leaks and hoses, wiring, ground and platform controls, basket and door, ladder steps and the inspection stickers. Find a problem in the yard, not forty feet in the air.",
+      "seconds": 18
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "A tech hooks a trailer to a truck: coupler, crossed safety chains, breakaway cable, brake controller, lights check with a second person at the rear.",
+      "on_screen": "Coupler | Crossed chains | Breakaway cable and battery | Brake controller | Lights",
+      "says": "Trailers. You'll learn to hook up and inspect one: coupler, crossed chains, breakaway cable and battery, brake controller and lights. Then you'll learn to back it. You'll take a backing test, and your supervisor signs you off before you tow on your own.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Ratchet straps securing ladders and fixture cartons on a trailer; a tech checking a strap's rating label.",
+      "on_screen": "Know your weights | Right straps, used right | Watch the traffic",
+      "says": "You'll learn to know your vehicle and trailer weights, to pick the right ratchet straps and use them correctly, and to treat traffic awareness as part of every drive, not just the highway. A load that shifts or a driver who isn't paying attention can hurt somebody who never set foot on our job.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Shop bay: a tech replacing a turn-signal bulb, then a truck cab being cleaned out with a trash bag at the end of the day.",
+      "on_screen": "Minor maintenance | Clean out every day and after every project",
+      "says": "You'll also handle minor maintenance like headlight and turn-signal bulbs and battery replacement. And you'll clean out the vehicle at the end of every day and after every project. A clean truck is a safe truck, and it's the first thing a customer sees when you pull up.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny back at the truck's front bumper, medium shot.",
+      "on_screen": "",
+      "says": "Plan the drive like you plan the job. Inspect it, load it right, secure it, and drive like everyone around you is about to make a mistake. Let's get started.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Written from the course outline only; LT1-C10 lessons are not written yet. Must be checked when the lessons are written, especially the DVIR item list, boom inspection items, the backing test and sign-off process, and whether medical cards and logs apply to every vehicle class in the fleet (this depends on vehicle weight and state rules; do not imply every driver needs a medical card unless the lesson says so). Do not show a real fleet app brand on screen; use a generic mock-up. No license plates or company names visible."
+}

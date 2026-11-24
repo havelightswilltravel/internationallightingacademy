@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C08-L03",
+  "title": "UV-C Germicidal Lighting Safety",
+  "course": "LT5-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 171,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room with an upper-room UV-C fixture mounted high on the wall, warning signs posted at the door. Matthew below it, the fixture off. Medium shot.",
+      "on_screen": "Job Mindset: Servicing a UV-C fixture",
+      "says": "UV-C hurts you without warning. No pain until hours later. So plan this job before you go. Read the manufacturer's manual. Identify every UV-C device in the area, including in-duct units. Lock out at the circuit disconnect, verify dead, and confirm the UV is off. Bring a UV-rated face shield, gloves, covered sleeves, and a container for the old mercury lamp.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of the UV spectrum with the 200-280 nm band highlighted; icons for mercury lamp, UV-C LED, and 222 nm excimer.",
+      "on_screen": "UV-C: about 200-280 nm\n254 nm mercury - 260-280 nm LED - 222 nm excimer",
+      "says": "UV-C is roughly 200 to 280 nanometers. It can inactivate microorganisms by damaging their DNA and RNA. That's germicidal irradiation. Common sources are low-pressure mercury lamps at 254 nanometers, UV-C LEDs, and 222 nanometer excimer lamps, sometimes called far-UVC. You'll see upper-room fixtures, in-duct systems, unoccupied-room disinfection, and filtered far-UVC for occupied spaces.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up; hazard list builds beside him.",
+      "on_screen": "Eyes: photokeratitis - Skin: erythema - Ozone - Mercury - Material damage",
+      "says": "The hazards. Eyes: photokeratitis, like welder's flash. Severe pain, tearing, a gritty feeling, usually hours after exposure. Skin: sunburn-like redness. Some lamps below about 240 nanometers make ozone, a respiratory irritant. Mercury lamps need breakage cleanup and proper disposal. And UV-C degrades plastics and fabrics over time.",
+      "seconds": 19
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the fixture. Safety callout fills lower third.",
+      "on_screen": "Never look at an operating UV-C source. 'Looks dim' means nothing.",
+      "says": "Never look at an operating UV-C source. And never judge safety by how dim it looks. UV-C is invisible, and the visible glow of a mercury lamp tells you nothing about its UV output. If any exposure is possible, wear UV-rated face protection and cover all your skin.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech reviews the manual, then applies lock and tag at the circuit disconnect, verifies live-dead-live, and checks the UV indicator is off. Close-up of warning labels and the interlock switch. Presenter voice-over.",
+      "on_screen": "1 LOTO at the circuit disconnect  2 Live-dead-live  3 Confirm UV off  4 Face shield and covered skin",
+      "says": "Here's the procedure. Turn the fixture off and lock out at the circuit disconnect. Don't rely on a local switch or the fixture's own switch. Verify absence of voltage, live-dead-live, before touching wiring. Confirm the UV source is off by the indicator, the interlock, or the manufacturer's check. Wear UV-rated eye and face protection and cover skin if the lamp could be energized at any step, like testing.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech in face shield and gloves removes the cooled lamp, installs a new one handling only with clean gloves, checks louver position, then bags the old lamp and labels it universal waste.",
+      "on_screen": "Let lamps cool - clean gloves on quartz - check louvers - old lamp to universal waste",
+      "says": "Let the lamp cool. Handle the new one with clean gloves; skin oils on the quartz cut output and cause hot spots. After relamping, check the louvers. Misaligned louvers can send UV down into the occupied zone. The old mercury lamp goes out as universal waste or per local rules.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Air handler access door with an interlock switch close-up; a lock on both the UV disconnect and the air handler disconnect.",
+      "on_screen": "Never defeat interlocks. Lock out the UV system AND the air handler.",
+      "says": "In-duct systems. Many air handlers have door interlocks that kill the UV when the door opens. Don't defeat them. Lock out both the UV system and the air handler per the facility's procedure; fans and belts are hazards too. To verify operation, use a UV-C meter or indicator cards, held so you're not exposed. Never check with your eyes or hands.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the training room, medium close-up.",
+      "on_screen": "UV-C supplements ventilation, filtration and cleaning.\nNow read the lesson and take the quiz",
+      "says": "With customers, be clear: UV-C supplements ventilation, filtration and cleaning. It doesn't replace them. Lamps lose UV output while still glowing, so follow the replacement interval. Effectiveness claims belong to the engineer and manufacturer. Now read the lesson and take the quiz.",
+      "seconds": 17
+    }
+  ],
+  "production_notes": "Lesson is flagged for at least annual SME review. Never film with a UV-C lamp energized near crew or cast; the fixture stays locked out for all close shots. Any 'operating' shot must be a non-UV prop glow or filmed remotely per manufacturer guidance. Demo performer: senior technician with UV-rated face shield, gloves and long sleeves. Include close-ups of warning labels and the interlock switch."
+}

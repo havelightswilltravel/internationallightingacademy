@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C08-L03",
+  "title": "Troubleshooting 3-Way Circuits",
+  "course": "LT3-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 227,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Commercial stairwell, bottom landing, tech with a tool bag and meter. Presenter voice-over.",
+      "on_screen": "Job Mindset: Troubleshooting a 3-Way",
+      "says": "Job mindset. A three-way call means opening switch boxes that may hold more than one circuit, often on a stair landing. Plan before you leave the shop: lock, tags, a tested meter, the right three-way and four-way switches, wire nuts. Think ahead: identify every circuit in every box before you open it. Never get surprised by a second hot.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the training corridor, medium shot.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may repair three-way and four-way wiring under the company's license. In others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. Before you do this on a job, confirm with your supervisor that it's allowed there and that you're authorized. When in doubt, stop and ask.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen: the company's three steps.",
+      "on_screen": "1 Wiggle the switch arm  2 Intermittent? Check connection points  3 Trace with the diagram, or write it up",
+      "says": "Our company procedure has three steps. Wiggle the switch arm, because it can indicate a bad switch. If the fixtures get power intermittently, check the connection points on the switch for loose connections. Then use the three-way diagram to trace power flow, or write it up for an electrician. We'll expand that into a safe, full sequence.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Stairwell: tech flips switches top and bottom, writes results on a clipboard table; then gently rocks a toggle with one finger. Presenter voice-over.",
+      "on_screen": "Light works only when bottom switch is UP",
+      "says": "Part A, observe. Run every switch combination and write it down. Rule out the load: is the lamp or driver good, do other lights on the circuit work? Then wiggle each switch arm with your finger, without fully throwing it. Flicker or dropout points to a worn switch or loose terminal. Feel the cover plate with the back of your hand. Warm on a light load suggests a bad connection.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Panel: tech locks and tags the breaker. At the switch box: meter tested on a known live source, every conductor tested, meter re-tested.",
+      "on_screen": "Lock out every circuit in the box. Live-dead-live.",
+      "says": "Part B, de-energize and inspect. Identify the circuit and any other circuits sharing each box. Lock out and tag out. At every box you'll open, test your meter on a known live source, test every conductor, hot to neutral, hot to ground, neutral to ground, then re-test the meter. Pull the switches and inspect every screw, back-wire clamp, push-in hole and splice. Tug-test each conductor.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tech tugs a traveler and it slides out of a back-wire clamp.",
+      "on_screen": "FOUND: loose traveler under a back-wire clamp",
+      "says": "And there it is. A traveler loose under a back-wire clamp. That matches the symptom. One open traveler gives you a light that works only in certain combinations. Other common causes are a swapped common, or a four-way with its pairs landed wrong. A light that never turns off usually means the line hot is landed straight onto the switch leg.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: travelers labeled and disconnected; twisted together at one box; meter at the other box reads near 0 ohms, then open after untwisting.",
+      "on_screen": "Ring out travelers: twist at one end, near 0 ohms at the other, then open",
+      "says": "Part C, when it isn't obvious, trace with continuity. Label and disconnect the travelers at both ends so the switch contacts can't fool you. Twist the two travelers together at one box. At the other box you should read near zero ohms. Untwist, and they should read open. That proves both travelers and identifies the pair. Ring out the switch leg the same way.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech re-terminates on screw terminals, reinstalls, removes lock, restores power, runs all four combinations twice.",
+      "on_screen": "Prove the fix: every combination, twice. Every flip changes the light.",
+      "says": "Part D. Repair within your scope: move wires off push-in holes onto screw terminals, replace a worn switch with the right type and rating. Reinstall, remove your locks per procedure, restore power. Then prove it: run every combination twice and wiggle each arm again. Energized voltage tracing is only for qualified persons under our NFPA 70E program with the right PPE.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the training corridor, medium shot.",
+      "on_screen": "Breaker trips on a flip? Damaged conductors? Shared neutral? Write it up.",
+      "says": "Write it up when the circuit can't be explained or traced, when you find damaged conductors, scorched boxes or a shared neutral, when the breaker trips on a switch flip, or when the fix needs new conductors. Include location, verified circuit, your symptom table, what you checked and found, and your sketch. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Senior tech (can be a woman per suggestion) performs all steps in a training stairwell; presenter voice-over in scenes 1 and 4-8. Show meter readings in close-up. Energized testing is NOT shown; all box work shown de-energized with lock and tag visible. Scene 1 is a Job Mindset opener."
+}

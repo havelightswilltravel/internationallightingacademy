@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C10-L02",
+  "title": "Constant-Current vs Constant-Voltage Drivers",
+  "course": "LT2-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 210,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with two drivers side by side: a constant-current driver and a 24 V constant-voltage tape-light driver. Matthew behind the bench, medium shot.",
+      "on_screen": "Constant-Current vs Constant-Voltage Drivers",
+      "says": "Pick the wrong kind of driver and you can burn up LED boards in a second. Every LED driver turns AC into regulated DC. The difference is what it regulates. One holds current. The other holds voltage. Know which is which before you touch the wiring, and that wiring work always starts with lockout and verifying the driver input is dead.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the constant-current driver label, paused on screen with fields highlighted.",
+      "on_screen": "CC: 700 mA | 25-54 VDC | 38 W max",
+      "says": "This is a constant-current driver. It pushes a set current, and its voltage floats to whatever the LED string needs, as long as it stays inside the range. Read the label. 700 milliamps is what the LEDs get. 25 to 54 volts is the forward-voltage window it can support. 38 watts max is the current times the top voltage.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Animated graphic: three LED boards (36 V @ 700 mA, 60 V @ 700 mA, 350 mA) each tested against the 25-54 V window.",
+      "on_screen": "36 V ✓   60 V ✗ won't light   350 mA board ✗ overdriven",
+      "says": "So, a board that needs 700 milliamps at 36 volts? Works: 36 is inside the window. A board that needs 60 volts? The driver can't reach it, and it won't light properly, or at all. A board that needs 350 milliamps? This driver overdrives it. Very bright for a while, then it fails early.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a programmable driver with DIP switches, then a phone held against an NFC driver.",
+      "on_screen": "Set programmable drivers BEFORE energizing",
+      "says": "Many modern CC drivers are programmable, using DIP switches, a resistor plug, a jumper or an NFC tool on your phone. Great for carrying fewer parts. But you must set them correctly before you energize, because the factory default may not match your module. And on a CC output, boards normally go in series. Put two in parallel and one can be overdriven. Follow the wiring diagram exactly.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the 24 V constant-voltage driver label and a reel of LED tape marked W/ft.",
+      "on_screen": "CV: 24 VDC | 96 W max  |  Load ≤ about 80%",
+      "says": "Now the constant-voltage driver. It holds 12 or 24 volts, sometimes 48, and each load draws what it needs. Tape and modules built for CV have their own current control. Size it with headroom: about 80 percent load unless the manufacturer says otherwise. Sixty feet of tape at 1.5 watts a foot is 90 watts. Divide by 0.8, about 113. So pick 120 watts or larger.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Lit tape run on a bench showing the far end visibly dimmer; then 12 V and 24 V tape reels side by side.",
+      "on_screen": "24 V tape on 12 V = dim  |  12 V tape on 24 V = destroyed",
+      "says": "Watch voltage drop on long low-voltage runs. The far end of a long 12 volt run gets visibly dimmer. Feed it from the middle or both ends, use 24 volts, or use larger wire, per the manufacturer's maximum run length. And match the voltage exactly. 24 volt tape on a 12 volt driver is dim or dark. 12 volt tape on a 24 volt driver is destroyed.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a Class 2 marking on a driver label; inside a fixture, a barrier separating Class 2 leads from line voltage.",
+      "on_screen": "Low voltage ≠ no hazard",
+      "says": "Most drivers have a Class 2 output: limited voltage and power. That wiring has relaxed rules, but it can't share a raceway, cable or compartment with line voltage unless there's a barrier or the NEC otherwise permits it. Some high-power drivers aren't Class 2; the label tells you. Low voltage doesn't mean no hazard. The input side is always line voltage. Lock out and verify before touching any leads.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of driver leads fanned out; each color labeled on screen.",
+      "on_screen": "Line: black/brown | Neutral: white/blue | Ground: green | LED+: red | LED-: blue/black | Dim+: violet | Dim-: gray",
+      "says": "Lead colors vary by manufacturer, so always confirm on the label. But here's what you'll usually see. Black or brown line, white or blue neutral, green ground. Red for LED plus, blue or black for LED minus. Violet for 0-10 volt dimming plus, and gray, sometimes pink, for dimming minus.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the bench, Matthew to camera.",
+      "on_screen": "CC holds current. CV holds voltage.",
+      "says": "CC holds current and lets voltage float. CV holds voltage and lets current vary. Match the right one to the load. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "All meter demonstrations on the bench are de-energized wiring changes only, per the lesson's video suggestion; any powered tape demo uses a manufacturer-supplied low-voltage bench setup with the driver input enclosed. Pause on label close-ups long enough to read. Verify the sizing example on screen: 60 ft x 1.5 W/ft = 90 W; 90 / 0.8 ≈ 113 W; choose 120 W or larger."
+}

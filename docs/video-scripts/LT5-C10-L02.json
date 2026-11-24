@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C10-L02",
+  "title": "Review: Light Sources, LEDs, Drivers and Dimming",
+  "course": "LT5-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 180,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop bench lined up with a fluorescent ballast, an HID ballast with ignitor, a constant-current LED driver and a constant-voltage driver, plus three TLEDs. Matthew behind the bench. Medium shot.",
+      "on_screen": "Review: Light Sources, LEDs, Drivers and Dimming",
+      "says": "This review covers the light source, driver and dimming basics from LT1 through LT3. Every one of these parts comes out of a fixture you've locked out and verified first. Let's go down the bench.",
+      "seconds": 14
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic list over the bench.",
+      "on_screen": "Lumens - watts - efficacy (lm/W) - CCT: 2700-3000 K warm, 3500-4000 K neutral, 5000 K+ cool - CRI - TM-30 - 1 fc = about 10.76 lux",
+      "says": "Vocabulary first. Lumens are light out, watts are power in, and efficacy is lumens per watt. CCT is color appearance: 2700 to 3000 kelvin is warm, 3500 to 4000 neutral, 5000 and up cool. CRI and TM-30 describe color rendering. And one foot-candle is one lumen per square foot, about 10.76 lux.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew picks up the fluorescent ballast and reads its label, then the HID ballast and ignitor.",
+      "on_screen": "Programmed-start: best for frequent switching\nHID end of life: cycling (HPS), color shift, failure to start",
+      "says": "Legacy sources are still out there. Fluorescent: T12, T8, T5. Instant-start ballasts are fast but harder on lamps that switch often. Programmed-start is best for frequent switching, like with occupancy sensors. HID: metal halide has a long restrike; high-pressure sodium is orange and cycles at end of life. Pulse-start metal halide and sodium use ignitors.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holds the constant-current driver, reading output current and voltage range from the label; then the constant-voltage driver.",
+      "on_screen": "CC: match current, voltage range, power, dimming\nCV: match voltage, wattage with margin\nProgrammable: set to original current",
+      "says": "LEDs run on DC current, and heat cuts both life and output. Most LED failures are driver or heat related, not the chip. A constant-current driver, like this 700 milliamp unit, gets matched by current, the LED load's voltage within its range, power, dimming type and input voltage. Constant voltage, 12 or 24 volts, matched by voltage and wattage with margin. Programmable drivers get set to the original current.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Three TLEDs side by side with Type A, B and C labels; close-up of a shunted and a non-shunted socket.",
+      "on_screen": "Type A: on compatible ballast\nType B: ballast bypassed, rewire and label; single-ended needs non-shunted sockets\nType C: remote driver",
+      "says": "TLEDs. Type A runs on a compatible fluorescent ballast, and the ballast is still a failure point. Type B bypasses the ballast; the fixture gets rewired and labeled, and single-ended Type B needs non-shunted sockets. Type C uses a remote driver. Dual-mode works either way, so label how it's wired. Retrofit kits fall under UL 1598C and go in per their instructions.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic comparing phase dimming waveforms; then a DALI bus diagram.",
+      "on_screen": "Forward phase (TRIAC) - reverse phase (ELV) - 0-10V - DALI: 64 addresses, 16 groups - DMX",
+      "says": "Dimming. Forward phase cuts the front of each half-cycle; reverse phase, or ELV, cuts the back and is often smoother on LEDs. 0-10 volt uses a separate low-voltage pair. DALI is a two-wire, polarity-insensitive digital bus with up to 64 addresses and 16 groups. DMX comes from entertainment lighting. Always check compatibility charts and use low-end trim to stop flicker.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Bench demo board with a 0-10V driver and a dimmer: senior tech shows correct polarity (violet to +, gray to -), dimming smoothly; then, with the board de-energized and locked out, reverses the pair and re-energizes; fixture stays at minimum.",
+      "on_screen": "Violet (+), gray (-)\nReversed or shorted: off or minimum\nOpen: full output",
+      "says": "Watch the 0-10 volt demo. Violet to plus, gray to minus, and it dims smoothly. Now the board is locked out, the pair is reversed, and it's re-energized. The fixture sits at minimum. Reversed or shorted leads typically mean off or minimum. Open leads typically go to full. Won't dim all the way? Too many drivers on one control. 0-10 volt is Class 2, but it shares boxes with line voltage, so LOTO and verify.",
+      "seconds": 30
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Mixed colors on one ceiling? Different CCT bins, product series or ages. Flicker when dimmed? Check compatibility, low-end trim, load minimums and mixed drivers on one dimmer. Know these cold for the exam. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Demo performer: senior technician for scene 7. The polarity change must be made with the demo board de-energized, locked out and verified; show this. Labels read on camera should be real parts from the shop with brand names blurred."
+}

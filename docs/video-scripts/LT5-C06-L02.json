@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C06-L02",
+  "title": "LED Inrush Current & Nuisance Tripping",
+  "course": "LT5-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a board: a 20 A breaker, a relay and twenty LED drivers wired in rows. Matthew beside it with a clamp meter. Medium shot.",
+      "on_screen": "Job Mindset: Chasing a tripping breaker",
+      "says": "A breaker that keeps tripping is a warning, not an annoyance. Before you go, plan for the worst case: a real fault. That means arc-flash PPE from the label before the cover comes off, LOTO for inspection, a true-RMS meter with an inrush function, a torque driver and a megohmmeter. And never reset onto a fault over and over.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Animation of a driver's input capacitor charging, with a tall narrow current spike against a low running current line.",
+      "on_screen": "Inrush: microseconds to a few milliseconds - many times running current",
+      "says": "When an LED driver is energized, its input capacitors charge almost instantly. For microseconds to a few milliseconds it can draw many times its running current, sometimes tens of amps for one unit. Switch thirty or forty together and the combined peak can be huge, even though the steady load is only a few amps.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech in proper PPE switches the relay on with the clamp meter on inrush mode; meter display shown full screen. Presenter voice-over.",
+      "on_screen": "Inrush depends on: driver design - point on the wave - source impedance - drivers switched together",
+      "says": "Watch the meter's inrush function capture the spike at switch-on. How big it gets depends on the driver design, where on the AC wave the switch closes, the source impedance, and how many drivers switch at once. Closing at the voltage peak is worst. Closing near zero is least.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a relay cut open showing welded contacts (prop), then an occupancy sensor stuck on.",
+      "on_screen": "Use control devices rated for 'electronic ballast/LED driver' loads (NEMA 410)",
+      "says": "What can inrush do? Trip the breaker's magnetic element at switch-on. Weld relay or sensor contacts so the lights won't turn off. Wear out switches and power packs early. So when you choose control devices, use ratings for electronic ballast or LED driver loads, tested to NEMA 410, not just resistive or incandescent ratings.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the board pointing to the 20 A breaker. Graphic overlay.",
+      "on_screen": "Continuous load max 80%: 16 A on a 20 A breaker (NEC 210.20(A))\nSwitching breakers: SWD or HID (240.83(D))",
+      "says": "Breaker basics. The thermal element handles overload. The magnetic element handles instantaneous current, and that's what inrush hits. Lighting is a continuous load, so keep it at or below 80 percent of a standard breaker: 16 amps on a 20. And breakers used daily to switch 120 or 277 volt fluorescent circuits must be marked SWD or HID; for HID circuits, HID.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Field segment: a real lighting panel with the cover ON; Matthew walks through the checklist with a graphic list building beside him. Narration only.",
+      "on_screen": "1 Interview  2 Risk assessment + PPE  3 Steady-state current  4 Inrush  5 LOTO + inspect  6 Insulation test  7 Fix and verify",
+      "says": "Nuisance tripping is a label, not a diagnosis. Interview first. Trips at switch-on suggest inrush or a short. After running a while, overload or a heating connection. Wet weather, a ground fault outside. Then risk assessment and PPE. Measure steady-state current against 80 percent. Measure inrush against driver data times driver count and the breaker's trip curve.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Same panel; senior tech applies lock and tag, verifies dead, checks breaker terminal torque, then disconnects drivers before connecting a megohmmeter. Presenter voice-over.",
+      "on_screen": "Disconnect drivers before megger testing",
+      "says": "Then de-energize, lock out and verify absence of voltage. Inspect the breaker terminal and bus for heat damage and check torque. A hot, loose termination can trip a breaker on its own. Insulation-test the circuit, with drivers and electronics disconnected per the manufacturer, because megger voltage can damage them. Fix the root cause and verify with repeat measurements.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the training board: tech splits the twenty drivers into two staggered groups; meter shows a lower inrush peak.",
+      "on_screen": "Fixes: fewer drivers per circuit - stagger - zero-cross relays - listed limiters - LED-rated devices",
+      "says": "The fixes. Fewer drivers per circuit or relay is the most reliable. Stagger switching in groups, like we just did. Use zero-cross relays, listed inrush limiters, or LED-rated devices. A different breaker trip curve only if the engineer directs it and listing and code permit. On GFCI circuits, driver leakage adds up, so sectionalize under LOTO to rule out a real ground fault.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera at the training board, medium close-up.",
+      "on_screen": "Never reset repeatedly, tape on, or upsize a breaker to stop trips.\nNow read the lesson and take the quiz",
+      "says": "Here's the mistake I see. Someone resets it again and again, tapes it on, or installs a bigger breaker. Resetting onto a fault can cause an arc flash. And never replace a required GFCI or AFCI with a standard breaker. Find the cause. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Training board demo by a qualified senior technician in appropriate PPE. Display the actual inrush reading on screen as captured; do not invent a number. Field segment (scenes 6-7): panel cover stays on during narration; any cover-off shot must show LOTO applied and verified. Welded relay in scene 4 is a prop."
+}

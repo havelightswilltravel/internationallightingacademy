@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C14-L03",
+  "title": "Pole, Base & Hand-Hole Inspection",
+  "course": "LT3-C14",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 196,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot, tech setting cones around a light pole, wearing hi-vis. Presenter voice-over.",
+      "on_screen": "Job Mindset: Pole Inspection",
+      "says": "Job mindset. A pole can fall, and its metal shaft can become energized. So the top controls come first: cones and barricades to keep people clear, a contact-voltage check before you touch anything, and lockout at the panel before the hand hole. Plan ahead: tester, meter, lock kit, binoculars, camera, gloves, and a way to make a hazard safe if you find one.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tech holds a non-contact voltage tester near the pole and the hand-hole cover before touching.",
+      "on_screen": "Voltage on a pole = EMERGENCY. Keep people away. Barricade. De-energize.",
+      "says": "Step one, before touching the pole, use a non-contact tester near the pole and the hand-hole cover, and a meter if our procedure on that job includes it. A failed splice or conductor touching the inside of a pole with a missing ground can energize the whole pole. Any indication of voltage on a pole is an emergency. Keep people away, barricade, and de-energize the circuit before investigating.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech steps back and sights the pole for lean; binoculars on the arm and luminaire; close-up of a vehicle crease.",
+      "on_screen": "Lean | loose arm or luminaire | vehicle damage | excessive sway",
+      "says": "Step two, from a distance, with binoculars. Is the shaft leaning or bent? That can mean a failing base or bolts. Are arms or luminaires loose or tilted? Any dents or creases from vehicles? A creased steel pole is weakened. Does it sway too much in moderate wind? Vibration fatigues welds.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of the base: anchor bolts and nuts, base plate, welds, concrete. Inserted stills: rusted-through pole base, cracked weld, missing nuts.",
+      "on_screen": "Anchor nuts | base plate corrosion | weld cracks | concrete cracks or spalling",
+      "says": "Step three, the base. Look for missing, loose or corroded anchor nuts, bent or rusted bolts, and corrosion where the shaft meets the plate. Water collects there, and rust-through near the bottom is serious. Check welds at the base plate and around the hand hole, where fatigue cracks start. Check the concrete for cracks, spalling or exposed rebar. Report cracked grout or blocked drains, don't alter them.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Hand hole with cover missing, conductors visible; tech immediately barricades.",
+      "on_screen": "Missing hand-hole cover = make it safe NOW",
+      "says": "Step four, the hand hole. The cover should be present, secured and gasketed. A missing cover leaves energized conductors within reach of the public. Make it safe immediately.",
+      "seconds": 11
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "At the panel: lock applied. At the pole: tech verifies every conductor dead, then shows in-line fuse holders, a gel-filled splice and the grounding terminal.",
+      "on_screen": "Inside: fuse holders | wet-rated splices | grounding terminal bonded to the EGC",
+      "says": "Before opening it: check contact voltage, lock out at the panel, and verify absence of voltage on every conductor. Several circuits may pass through one pole. Inside, in-line fuses let one fixture fault clear without tripping the whole run. Splices must be wet or direct-burial rated, not tape and twist-ons. And the grounding terminal bonds the pole to the circuit's equipment grounding conductor.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the pole, medium close-up.",
+      "on_screen": "The earth is NOT an effective ground-fault path. The EGC is.",
+      "says": "Here's a common misunderstanding. A ground rod at the pole may be there, but it's supplementary. The earth is not an effective ground-fault current path. Without an equipment grounding conductor back to the panel, a fault to the pole may not trip the breaker, and the pole stays energized. Watch for wasps, ants, snakes and sharp edges while you're in there.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic severity scale; tech photographs a defect next to the pole ID tag.",
+      "on_screen": "Immediate hazard: make safe now | Priority: report same day | Routine: note it",
+      "says": "Rate and report. Immediate hazards, like voltage on a pole, a missing cover, a badly leaning or cracked pole, or a hanging luminaire: make it safe now and notify the customer and your supervisor before you leave. Priority, like loose anchor nuts or cracked welds: report the same day with photos. Routine items go on the report. Photograph every defect with the pole ID.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot, medium shot.",
+      "on_screen": "Identify and report. Structural judgment is engineered work.",
+      "says": "Your job is to identify and report, not to judge structural adequacy. Repairs to poles and foundations are engineered work. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Defect examples (rusted-through base, cracked weld, missing nuts) shown as stills; source generic images with no customer identification. Senior tech performs the inspection; presenter voice-over in scenes 1-6 and 8. Missing-cover scene is staged with a de-energized pole."
+}

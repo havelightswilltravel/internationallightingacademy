@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C04-L04",
+  "title": "The Tripping-Breaker Procedure and Electrician Write-Ups",
+  "course": "LT3-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 231,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office building lobby; a manager points at ceiling fixtures. Matthew in foreground, medium shot.",
+      "on_screen": "Job Mindset: The Tripping-Breaker Call",
+      "says": "The lobby lights keep going off. Hazards: arc flash and shock at the panel, and a load-side fault that may still be there. Top controls: the dead front stays on, and you lock out before touching any part of the circuit. A tripped breaker is not a lockout. Plan ahead: lock and tag, meter, thermal camera, fixture data to total the load, and a helper to watch the lights.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen callout over the lobby.",
+      "on_screen": "Scope varies by state and city",
+      "says": "Scope varies by state and city. In some areas a lighting tech may investigate tripped breakers and do load-side checks under the company's license; in others it takes a licensed electrician or their supervision, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed and you're authorized. When in doubt, stop and ask.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Panel with dead front installed; on-screen two-column table: Lighting tech may / Qualified person may.",
+      "on_screen": "Never remove the dead front unless trained, qualified and authorized",
+      "says": "The dead front covers the bus and terminals. Take it off, and energized parts are exposed. As a lighting tech, you may open the door, read the directory, operate handles unless there's damage or heat, look, listen, feel the dead-front surface, scan from outside, and use a tracer. Removing the dead front and energized measurements are for qualified, authorized people. Breaker replacement is a write-up for an electrician.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Female senior tech interviews the manager with a notepad, then finds the breaker on the directory and reads its markings; presenter voice-over.",
+      "on_screen": "Stage 1: Interview | Find the breaker | Read type & markings",
+      "says": "Stage one, gather information. She asks which lights go off, how often, how long after turning on, what changed, the weather, recent work, and writes it down. She finds the breaker from the directory and notes what's visible on the handle: rating, poles, any GFCI or AFCI test button or trip indicator, and SWD or HID marks.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: back of hand near the breaker handle and dead front; thermal camera scan saved.",
+      "on_screen": "Stage 2: Look, smell, feel, listen. Burning/melting/soot/arcing = STOP.",
+      "says": "Stage two, dead front stays on. Look for discoloration, soot, melting or damage. Smell for overheated insulation, listen for buzzing. Feel the handle and dead front with the back of your hand, compared with similar breakers, and save a thermal image if you have a camera. Burning smell, melting, soot, arcing sounds or a handle too hot to touch? Stop. Don't operate that breaker. Write it up immediately.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tech gently moves the breaker handle within ON; cut to lobby fixtures flickering.",
+      "on_screen": "Stage 3: Wiggle within ON. Never toward OFF.",
+      "says": "Stage three, the wiggle test. With the breaker on and loads running, gently move the handle a small amount within its ON position. Don't push it toward OFF, and don't force it. Watch the lights, or have a helper watch. Flicker or drop-out means a loose connection at the breaker or a weak breaker. A loose, sloppy handle means a worn mechanism. Both go on the write-up.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Clipboard: fixture nameplate total vs breaker rating; result table on screen.",
+      "on_screen": "Stage 4: Load vs rating (80% continuous)",
+      "says": "Stage four, the tolerance check. Without opening the dead front, total the fixture input watts from nameplates. Clamping a single conductor outside the panel without exposing energized parts is rare. Over the rating or over 80 percent continuous? Overload. Well within rating and tripping intermittently? Likely a weak breaker or heating connection, so write it up to replace. Trips instantly? Leave it off and tagged.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Above a ceiling: tech locks out, verifies dead live-dead-live, inspects whips and splices. Red callout.",
+      "on_screen": "Stage 5: Lock out → verify → inspect the load side",
+      "says": "Stage five, load-side checks within your scope. Suspect a short or ground fault? Lock out the breaker, verify dead live-dead-live, and inspect for pinched whips, damaged cords, water in fixtures, burned splices, failed drivers. Half-splitting helps. Repair what's in scope, restore and observe. And never hold a breaker handle closed, tape it on, or replace it with a larger size.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tablet close-up: electrician work-up with location, circuit, complaint, load, observations, work done, recommendation, priority and photos.",
+      "on_screen": "\"Replace 20 A 1-pole breaker, circuit 17, panel LP-2. Trips at 4.7 A (24%).\"",
+      "says": "Then write a work-up an electrician can act on the first visit: location, circuit and breaker details, the complaint, the load with total watts, amps and percent of rating, your observations, work done, a specific recommendation and a priority. Any heat damage is urgent. Note code or safety concerns too, like a missing directory or blocked working space. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Field footage per the lesson's video suggestion; narrator stresses the dead front is never removed. Wiggle test shown gently within ON. Load-side segment shows LOTO and live-dead-live before any box is opened. Sample work-up text on screen is quoted from the lesson. Sanitize panel names and building identifiers."
+}

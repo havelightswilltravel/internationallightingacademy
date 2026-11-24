@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C17-L05",
+  "title": "Recording the Pole - Fixture Data & Bolt Patterns",
+  "course": "LT3-C17",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 240,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Parking lot, an empty concrete pole base with four anchor bolts and a cone; the laid-down pole on blocking nearby. Medium shot.",
+      "on_screen": "Job Mindset: Measure Once, Order Once",
+      "says": "One wrong number and the replacement pole doesn't fit, and the customer's lot stays dark while we reorder. Safety first: measure the base only after the conductors are capped and taped and the circuit is locked out, or you've confirmed what's energized. Plan ahead: tape, caliper or bolt gauge, magnet, phone, and the job form. Get it all before you leave the site.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a hand-drawn sketch on the job form with measurements written on it.",
+      "on_screen": "Fixtures | Fixture-mount pattern | Pole height, width, color | Base bolt pattern",
+      "says": "Our procedure says capture four things: fixture make, model and manufacturer and whether one or both need replacing; the bolt pattern where the fixtures mount; the pole's height, width and color; and the concrete base bolt pattern. Our advice: draw it out with the measurements on it. It doesn't need to be to scale. Then take photos with the tape in the frame.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Top-down shot of the four-bolt base; graphic overlay of the bolt circle with adjacent and diagonal lines.",
+      "on_screen": "Adjacent c-c | Diagonal c-c (bolt circle) | Bolt diameter",
+      "says": "Most lot poles sit on a square base plate with four anchor bolts on a circle around the wire opening. Measure three things. Adjacent center-to-center, between two neighboring bolts. Diagonal center-to-center, between two opposite bolts. On a square pattern that's the bolt circle diameter, the number suppliers usually ask for. And bolt diameter.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech hooks a tape on the left edge of one bolt and reads at the left edge of the next. Tight close-up. Presenter voice-over.",
+      "on_screen": "Same edge to same edge = center to center",
+      "says": "You don't have to find the center. Hook the tape on the left edge of one bolt and read at the left edge of the next. Same edge on both. That equals center-to-center, because you skipped half a bolt at each end. Do the adjacent, then the diagonal.",
+      "seconds": 18
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny with a phone calculator; on-screen math overlay.",
+      "on_screen": "Diagonal is about 1.41 x adjacent. 11 in x 1.41 = about 15-1/2 in",
+      "says": "Now check yourself. On a square pattern, the diagonal is about 1.41 times the adjacent. Adjacent 11 inches times 1.41 is about 15 and a half. If you measured 15 and a half, you're right. If you got 14, measure again. If the bolts are a rectangle, record both sides and the diagonal.",
+      "seconds": 21
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Senior tech measures across the threads with a caliper, then measures bolt projection above the concrete; close-up of a rusted thread.",
+      "on_screen": "Bolt dia. (often 1/2 or 3/4 in; measure every time) | Number | Projection | Condition",
+      "says": "Bolt diameter is the threaded rod, not the nut. We usually see half-inch or three-quarter, but bigger poles use an inch or more, so measure every time with a caliper or bolt gauge. Then record the number of bolts, don't assume four, how far they stick up and any leveling nuts, and their condition. Bent bolts may need repair first. Tell your supervisor.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Laid-down pole: tech measures base of plate to top, shaft width at base and top, holds a magnet to the shaft; then measures the arm hole pattern near the top.",
+      "on_screen": "Height | Width base/top | Square/round | Straight/tapered | Steel or aluminum | Color",
+      "says": "On the pole: overall height from the bottom of the base plate to the top. Width at the base and at the top, square or round, straight or tapered. A magnet tells you steel or aluminum. Note the color and finish, with a daylight photo. For the fixture mount, measure hole spacing, hole diameter and distance from the top, or the tenon's outside diameter and height.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a fixture label being read and photographed; tech fills in the record sheet on a clipboard.",
+      "on_screen": "Make | Model/catalog | Watts/V | Source | Replace one or both",
+      "says": "From the fixture label: manufacturer and catalog number, wattage or lumen package, voltage, light source, and any photocell or control. Is it one fixture or both? If the label's gone, photograph it from several angles and record its dimensions. And bring the good fixtures and all the mounting hardware back. They confirm the pattern and may be reused.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny crouched by the base, but not over open wiring; cone placed back on the base at the end.",
+      "on_screen": "Don't kneel over open wiring. Cone stays on the base.",
+      "says": "A common miss: a tech reads one side of the bolt pattern and leaves, and the supplier asks for the bolt circle. Measure both, check with 1.41, and photograph it with the tape. And never kneel over open wiring to read a tape. Leave the cone on the base when you're done. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Location: concrete pole base with four anchor bolts (base wiring already capped, taped and cupped, circuit locked out) and a laid-down pole on blocking. Props: tape measure, caliper or bolt gauge, magnet, phone, clipboard with the record sheet from the lesson, fixture with a legible label (blur brand/model if needed). Graphic overlay of bolt circle matching the lesson's diagram (/media/rigging/bolt-pattern-measurement.svg). Senior tech measures while Danny narrates. The 'common miss' example is illustrative, built from the lesson's own bolt-circle point. Matches skill sign-off 'Measure and record a pole base bolt pattern and fixture-mount pattern'."
+}

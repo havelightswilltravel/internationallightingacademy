@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C08-L02",
+  "title": "Wiring Configurations and Diagrams",
+  "course": "LT3-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 199,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training wall with three mock-up switch boxes and a whiteboard. Medium shot.",
+      "on_screen": "Wiring Configurations and Diagrams",
+      "says": "You can't trace what you can't picture. Our company procedure for a three-way problem ends with: use the switching diagram to trace power flow, or write it up for an electrician. So before you open any box, you sketch the likely layout. And you only open boxes with the circuit locked out, tagged, and verified dead.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: instructor draws Configuration 1, power to first switch. Presenter voice-over.",
+      "on_screen": "Config 1: Power to the first switch",
+      "says": "Configuration one: power to the first switch. The feed lands in the first switch box. Hot goes on switch one's common. Two travelers run to switch two. Switch two's common feeds the switch leg to the light. The neutral is spliced through both switch boxes and continues to the light. Good news: you have a neutral in both boxes.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Mock-up box 1 opened on the training wall (de-energized); camera compares conductors to the drawing.",
+      "on_screen": "Hot on SW1 COM | neutral spliced through | SW2 COM to light",
+      "says": "Here's the real box. One cable from the panel direction, one three-conductor cable leaving toward switch two. Neutrals spliced together, not on the switch. Black on the common. Red and black on the travelers. Compare it to the drawing, wire by wire.",
+      "seconds": 17
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: Configuration 2, power to the fixture. Then mock-up box 2 showing a white conductor re-marked black.",
+      "on_screen": "Config 2: Power to the light. Switch boxes may have NO neutral.",
+      "says": "Configuration two: power to the fixture. The feed lands at the light box first, and switch loops run out to the switches. The light box has the line hot and neutral. The switch boxes may have no neutral at all. Expect whites used as hots or travelers, and in older work they're often not re-identified. Lots of 'never worked right since the last guy changed the switch' calls come from this layout.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: Configuration 3, a 4-way between two 3-ways. Then mock-up box 3 showing the 4-way.",
+      "on_screen": "Config 3: 4-way in the traveler path ONLY. Inputs from SW1, outputs to SW3.",
+      "says": "Configuration three: a four-way in the middle for three locations. The four-way sits only in the traveler path. It never touches the line hot, the switch leg or the neutral. Both conductors from switch one land on the four-way's input pair. Both conductors to switch three land on the output pair. With four locations, chain two four-ways.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Notepad sketch on a clipboard; tech labels conductors by color and cable.",
+      "on_screen": "1 Identify config  2 Label every conductor  3 Mark function  4 Predict readings  5 Compare",
+      "says": "Turn the diagram into a trace plan. Identify the configuration by counting cables in each box, de-energized, covers off. Label every conductor on your sketch with its color and cable. Mark its expected function. Predict the readings for every switch combination. Then compare actual to predicted, which is next lesson.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen truth table: SW1/SW2 Up/Down with alternating Yes/No.",
+      "on_screen": "Every single flip must change the result.",
+      "says": "Here's the rule for your truth table. With the circuit locked out and verified dead, the line hot lifted and capped, and the switch leg disconnected from the fixture, check continuity from switch one's common to the switch leg. Every single flip must change the result. If two neighboring rows give the same answer, a traveler, a common or a four-way pair is wrong or open.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Stairwell gang box with three switches, cover off. Medium close-up.",
+      "on_screen": "A 3-way box can hold MORE THAN ONE CIRCUIT. Verify every conductor.",
+      "says": "Safety. A three-way box can contain conductors from more than one circuit. Stairwell gang boxes often hold switches for different circuits, so shutting off the lighting breaker may not kill everything. Verify every conductor, live-dead-live. And if a shared neutral passes through, never open a neutral splice with the circuit live. It can carry current from another phase's load.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Know the three layouts. Sketch, label and predict before you test. Add your sketch to the work order. It saves the next tech, or the electrician, real time. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Mock-up boxes on the training wall must be shown de-energized (show lock and tag on the training panel in frame). Diagrams match lesson's ASCII diagrams; redraw as clean graphics. Instructor (senior tech) draws and opens boxes; presenter voice-over for scenes 2-6."
+}

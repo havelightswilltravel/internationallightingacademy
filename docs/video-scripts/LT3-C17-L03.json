@@ -1,0 +1,91 @@
+{
+  "vid": "LT3-C17-L03",
+  "title": "Planning the Lift - Equipment, Signals & the Load Zone",
+  "course": "LT3-C17",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 270,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Parking lot, daytime, a damaged leaning pole behind Danny. A boom truck parked nearby. Medium shot.",
+      "on_screen": "Job Mindset: Plan the Lift",
+      "says": "On a lift, the big hazards are a falling or swinging pole, overhead power lines, and people in the wrong place. The best controls come first: keep everyone out of the load zone and keep every part of the pole away from lines. Then the right machine, rated rigging, and one signal person. Plan it before you leave the shop, including what you'll do if it goes wrong.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Crew of three in a circle next to the damaged pole holding a two-minute pre-lift talk; Danny leads. Wide shot.",
+      "on_screen": "Weight | Machine | Rigging | Laydown | Overhead | Roles | What if?",
+      "says": "Every lift gets a plan, even a small one. Before anyone touches the rigging, the crew answers out loud: what does it weigh, rounded up? What's lifting it, and is it rated at this reach? What rigging, and is its limit in this hitch more than the load? Where does it go down, on blocking? What's overhead? Who does what? And what could go wrong?",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Boom truck with a rated material-handling jib; then a boom-lift platform with a red X graphic over it.",
+      "on_screen": "A lift is never used as a crane unless the manufacturer designed it to lift loads",
+      "says": "A pole is a suspended load. It hangs only from equipment rated by its manufacturer to lift loads, used within its load chart. Company policy: a lift is never used as a crane unless the manufacturer designed it to lift loads that way. Never hang a pole from a scissor or boom platform, its guardrails or basket. That's how lifts tip over.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a jib winch line being inspected, then coiled under tension; jib shown stowed.",
+      "on_screen": "Jib: trained users only | inspect line | within rating | coil under tension | stow before driving",
+      "says": "If we use a lift truck's jib and winch, only techs trained on that jib use it. Inspect the winch line before each use and replace it if it's frayed. Stay within the jib's rating at that extension. Coil the line under tension, because a loose wrap under a tight one can let the load drop. And stow the jib before you drive.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny looking up at overhead lines at the lot's edge; graphic shows a pole's full swing path with a clearance boundary.",
+      "on_screen": "Crane or boom truck (Subpart CC): 20 ft from lines up to 350 kV unless voltage confirmed",
+      "says": "Look up. If it's a crane or boom truck under OSHA Subpart CC, no part of the crane, load or rigging comes within 20 feet of a line up to 350 kV, unless the utility confirms the voltage and a table distance applies. Use the rule that gives the most room. Plan the whole path: the pole at full height, during lay-down, and on the truck.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Signal person in a hi-vis vest faces the camera and demonstrates each signal as its name appears on screen.",
+      "on_screen": "Hoist | Lower | Stop | Emergency stop | Move slowly",
+      "says": "Name one signal person before the lift. The operator takes movement signals from that person only, but anyone can give a stop, and the operator stops. Use the standard signals. Hoist: forearm up, finger up, small circles. Lower: arm down, finger down, small circles. Stop: arm out, palm down, swing level. Emergency stop: both arms. Move slowly: other hand held still in front.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Crew sets cones in a wide circle around the pole, clearly larger than the pole's height; a tech ties a tag line to the pole base.",
+      "on_screen": "Fall zone larger than the pole is tall. Never under the load.",
+      "says": "Most rigging injuries happen to people standing in the wrong place. Never stand, walk or reach under a suspended load. Cone off a fall zone larger than the pole is tall, because the heads can bounce farther. Keep cars out. Use a tag line on the base to control swing, a dry non-conductive one near lines, and never wrap it around your hand.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Crew performs a slow test lift a few inches; then sets the pole down on blocking. Presenter voice-over.",
+      "on_screen": "Take a strain | Test lift | Move slowly | Set down on blocking",
+      "says": "Lift smoothly. Take a strain, stop, and check the choke is above the center of gravity, the hook latch is closed and the pin is seated. Test lift a few inches once the pole is free. If it tilts badly, set it back and re-rig. Move slowly, never over people or vehicles. Set it down on blocking and let the slack out before anyone unhooks.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny standing near the laid-down pole, pointing at the butt end. Medium shot.",
+      "on_screen": "Stand clear of the butt. Watch pinch points and wind.",
+      "says": "A mistake I see: someone steadies the base plate with their fingers. Guide with the tag line or flat palms on the side, never fingers under the load or between the plate and the bolts. Stand clear of the butt, it can kick sideways. And if gusts make control hard, stop. Wind catches pole heads like a sail.",
+      "seconds": 22
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Same lot, crew picking up cones in the background.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Plan it, one signal person, nobody under the load. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Location: closed parking lot with a damaged or decommissioned pole, boom truck with rated jib (or crane service), cones and caution tape, dry non-conductive tag line, blocking. Signal person demonstrates the five standard hand signals exactly as described in the lesson table (ASME B30 / OSHA 1926 Subpart CC Appendix A); have a qualified rigger check the signals on camera. If overhead lines are in frame, keep all equipment well outside clearance; do not stage a near-line lift. Animation for pole swing path near lines. Do not show anyone under a suspended load even in a 'wrong way' shot."
+}

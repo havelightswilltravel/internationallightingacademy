@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C05-L02",
+  "title": "HID End-of-Life, Troubleshooting and Ballast Replacement",
+  "course": "LT2-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 203,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse aisle under HPS high-bays; a scissor lift with an authorized operator, barricade, lockout kit, meter and a new ballast kit on a cart. Medium shot.",
+      "on_screen": "Job Mindset: hazards = height, shock, stored charge, hot parts, heavy ballast | access plan | lock out | discharge",
+      "says": "HID ballast replacement. The hazards: working at height, shock, a capacitor that holds a charge, hot parts and a heavy ballast. Plan access first: lower the fixture if it has a hoist, or use a lift run by an authorized operator. Lock out, verify, discharge. Before you leave, bring the kit matched to the ANSI code and voltage, a new lamp, 90 degree connectors and a discharge tool.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "HPS high-bay cycling: starts, warms up, goes out, restarts. Timer on screen.",
+      "on_screen": "HPS end of life = cycling | MH end of life = lumen loss, color shift, rupture risk",
+      "says": "Watch this HPS fixture. It starts, warms up, goes out, cools, restrikes, and repeats. That's cycling, the classic HPS end of life. As the lamp ages, its operating voltage rises until the ballast can't hold the arc. It can also be a failing capacitor, the wrong lamp or low supply voltage, so a known-good lamp settles it. Metal halide shows lumen loss, color shift and slow starting.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Enclosed MH fixture with lens; close-up of E and O markings on lamps.",
+      "on_screen": "Never install an E lamp in an open fixture | replace damaged or missing lenses",
+      "says": "Metal halide near or past rated life has a small risk of arc-tube rupture, throwing hot glass. Lamps are marked for open fixtures, often O, or enclosed only, often E. Never install an E lamp in an open fixture, and replace damaged or missing lenses. Wear safety glasses under an operating HID fixture. Aging metal halide systems are strong candidates for LED; recommend it rather than relamping.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of the troubleshooting steps over warehouse footage.",
+      "on_screen": "Wait out restrike | neighbors and controls | known-good lamp | supply voltage (PPE) | lock out, discharge | inspect | test cap | ballast continuity | ignitor",
+      "says": "Troubleshooting order. Verify the complaint and wait out restrike. Check neighbors and controls like the photocell, contactor and time clock. Substitute a known-good lamp of the correct ANSI code. Measure supply at the ballast input, energized, with PPE. Then lock out, verify and discharge the capacitor. Inspect, test the capacitor on capacitance, check ballast windings for continuity, and substitute the ignitor last.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Lowered fixture at ground level: senior tech locks out, verifies live-dead-live on all conductors, discharges the capacitor with a resistor tool and verifies 0 V; presenter voice-over.",
+      "on_screen": "1 Confirm replacement | 2 Access | 3 Lock out and verify | 4 Discharge cap, verify 0 V | 5 Photograph and label",
+      "says": "Now the replacement, skill LT2-S04. Confirm the kit matches the lamp's ANSI code, wattage and supply voltage, and read its diagram. Access safely. Lock out, and verify absence of voltage at the fixture on all conductors, live-dead-live. Discharge the capacitor and verify zero volts. Photograph and label the connections, and confirm the tap in use matches the measured supply voltage.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech supports the heavy old ballast as the last fastener comes out; mounts the new kit and wires it.",
+      "on_screen": "Supply hot to correct tap | neutral to common | unused taps capped individually | temp-rated connectors | ground it",
+      "says": "Old core-and-coil ballasts are heavy, so support it as the last fastener comes out. Mount the new parts securely, with wires off the hot core. Wire per the diagram: supply hot to the correct voltage tap, neutral to common, capacitor and ignitor as shown, lamp leads to the socket. Insulate each unused tap individually. Use temperature-rated connectors, often 90 degrees C or higher. Ground the ballast and fixture.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "New lamp installed, lens replaced, power restored; lamp strikes and warms up. Tech writes on the work order.",
+      "on_screen": "Always a new lamp with a new kit | verify full start and warm-up | document tap and old capacitor reading",
+      "says": "Our company practice is to always put a new lamp in with a new ballast kit, because the old lamp may have caused the failure or been stressed by it. Replace the lens. Restore power and watch it strike and warm up normally. Document the parts, the voltage tap and the old capacitor reading. Dispose of the lamp as universal waste and recycle the ballast per company policy.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the warehouse aisle, medium shot.",
+      "on_screen": "Mention the LED option",
+      "says": "A ballast kit plus a lamp is often a big fraction of the cost of an LED replacement, which also ends restrike delay and saves energy. Mention the option to your lead and the customer. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 19
+    }
+  ],
+  "production_notes": "Field video at a warehouse per the lesson's video suggestion. Ballast work done at ground level on a lowered fixture, or on a MEWP operated by an authorized operator. Senior tech performs the procedure; presenter voice-over. Energized supply measurement only by a qualified tech in PPE. Skill LT2-S04 sign-off referenced. Lesson file path is LT2-C04/04 (course code differs from vid LT2-C05)."
+}

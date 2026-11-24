@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L08",
+  "title": "Step Back, Check Course, Keep the Pace",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 219,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office floor with a long row of 2x4 troffers mid-retrofit; ladders and a staged cart. Medium shot of Matthew at the end of the row.",
+      "on_screen": "Step Back, Check Course, Keep the Pace",
+      "says": "On a troffer row, the hazards are shock from a fixture on the wrong circuit, falls from the ladder and people walking under you. So before pace means anything, the right circuit is locked out and verified, the ladder is inspected and the area is barricaded. Then two habits: step back to check you're on track, and keep the pace. One keeps the work right. The other keeps it moving.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "When your view gets narrow: close-up of hands on a fixture, then the camera pulls back to show the whole row.",
+      "on_screen": "Step back: after the first one | at every break | when something changes | when it feels off | before you leave",
+      "says": "When you're working, your view gets narrow: the fixture in front of you and the screw in your hand. You won't notice the job drifting. So step back on purpose, several times. After the first fixture, look at it from the floor like the customer will. If it's wrong, only one is wrong. Step back at every break, whenever something changes, when something feels off, and before you leave.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Crew walks to the end of the row on the lead's call of step back; two kits show crooked lenses. Presenter voice-over.",
+      "on_screen": "Check: safety | quality | pace | flow | material | scope | next steps",
+      "says": "Watch this crew. The lead calls step back, they walk to the end of the row and look. Two lenses are crooked. They fix them now, before more get done the same wrong way. The second time, they see they're behind because the ladder keeps getting moved twice. They fix the ladder plan. When you step back, check safety, quality, pace, flow, material, scope and your next steps.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Barricade tape lying on the floor near the lift; tech stops and re-hangs it.",
+      "on_screen": "Safety corrections never wait until after this fixture",
+      "says": "Fix safety first, and immediately. If you step back and find a barricade knocked down, a circuit you're now working on that isn't locked, or a person under the lift, stop the work, fix the control, then continue. Safety corrections never wait until after this fixture. And report what you can't fix to your lead or supervisor early. Remember, a callback costs more than doing it right the first time.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer walks briskly between fixtures with the new tech keeping up; later both work separate halves of the row.",
+      "on_screen": "Keep up with or exceed the pace of others",
+      "says": "Now pace. Our expectation is direct. Keep up with, or exceed, the pace of others on the job. If your trainer walks fast, keep up when it's safe to. Don't stroll back to the truck while the crew waits on a part. And compete. Try to finish your half of the row first. Try to have the next kit ready before they ask. Healthy competition makes good techs better.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside a ladder, checklist graphic.",
+      "on_screen": "The gate: name every hazard and control | done it right enough times | know the next steps | trainer agrees",
+      "says": "But there's a gate first. You push your pace only after you have a firm grip on the safety factors and fully understand the task, the next step and the steps beyond. You've passed the gate when you can name the hazards and controls for every step without looking, you've done it right under supervision enough times, you know what comes next, and your trainer agrees you're ready.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Freeze-frame: new tech setting up a ladder at a normal, careful pace in the middle of the race.",
+      "on_screen": "Pace is in the walking and the planning. Never in the safety steps.",
+      "says": "Fast techs aren't hurrying their hands. Their speed comes from planning, forecasting, no wasted motion and repetition. Some steps never speed up: lockout and live-dead-live verification, ladder setup and three points of contact, the lift inspection and path walk, barricading, reading new instructions, securing and checking the fixture. Never run on site, and never climb or descend a ladder in a hurry.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Edge of the locked-out area; tech pauses at the next fixture with meter in hand.",
+      "on_screen": "One fixture behind? Confirm the circuit. Verify dead.",
+      "says": "Here's a real call. You're one fixture behind your trainer, and the next fixture is on the edge of the locked-out area. It might be on a different circuit. Confirm which circuit feeds it, lock it out if needed, then verify dead. That costs you the race, and it's the right call. A tech who wins the race by skipping a lockout lost. Now read the lesson and take the quiz.",
+      "seconds": 28
+    }
+  ],
+  "production_notes": "Performers: crew lead, trainer and a new technician on an office troffer row. Show two crooked lenses at the first step back and the double ladder move at the second. Use the lesson's freeze-frame text in scene 7. Lesson file path is LT2-C13/08 (course code differs from vid LT2-C01)."
+}

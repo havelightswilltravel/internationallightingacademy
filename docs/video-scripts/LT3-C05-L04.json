@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C05-L04",
+  "title": "Boxes, Connectors and Splices",
+  "course": "LT3-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 205,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with junction boxes, connectors of each type, wire strippers and lineman's pliers. Matthew beside the bench, medium shot.",
+      "on_screen": "Job Mindset: Making Splices",
+      "says": "Loose splices are one of the most common causes of fixture failures, flicker and fires. Before you make one, lock out and verify absence of voltage on every conductor in the box, live-dead-live. Plan ahead: the right connectors for the wire sizes and stranded leads you'll find, a box with room, and time to pull-test every conductor. That extra thirty seconds is the job.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Above-ceiling shot: a splice hanging in the ceiling space, then the same splice properly inside a covered box.",
+      "on_screen": "Every splice in a box. Accessible. Covered.",
+      "says": "Every splice belongs in a box, conduit body, fitting, or a listed fixture wiring compartment. The box contains heat and sparks if a connection fails. So no splices hanging in the ceiling, inside a raceway, or buried in insulation. Boxes stay accessible, every box gets a cover, and unused openings get closed with listed plugs or plates.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: volume stamped inside a 4-in square box; on-screen box-fill table.",
+      "on_screen": "14 AWG 2.00 | 12 AWG 2.25 | 10 AWG 2.50 cu in",
+      "says": "Box fill. Each conductor gets a volume: 2 cubic inches for 14 AWG, 2.25 for 12, 2.5 for 10, plus allowances for clamps, devices and grounds. A 4-inch square, inch-and-a-half deep box holds about 21 cubic inches: roughly nine 12 AWG conductors. Full calculations are electrician work. Your rule: if you can't fold the wires in without force, it's probably overfilled. Use a deeper box or extension ring, and tell your lead.",
+      "seconds": 29
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: ruler showing 6 in of free conductor at a box.",
+      "on_screen": "At least 6 in free conductor (3 in outside small openings)",
+      "says": "Leave at least six inches of free conductor at each box, and where the box opening is less than eight inches, at least three inches has to extend outside it. Don't cut conductors short. The next person needs enough to work with.",
+      "seconds": 17
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Macro: tech strips to the package length, aligns ends, twists on a connector clockwise until firm; then tugs each conductor.",
+      "on_screen": "Strip to package → align → twist clockwise → pull-test each → inspect",
+      "says": "A good twist-on splice. Pick the connector for the number and size of conductors from the package chart. Strip to the length on the package, usually a half to five-eighths of an inch, without nicking the copper. Align the ends. Pre-twisting is optional; follow the instructions. Twist clockwise until the conductors twist together outside the skirt and it's firm. Then pull-test each conductor. Any movement, redo it.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Macro: lever-nut and push-in connectors; a stranded fixture lead extended slightly past solid building wire.",
+      "on_screen": "Stranded to solid: strand leads slightly | Push-in: check stranded listing",
+      "says": "Inspect it: no bare copper below the skirt, no insulation inside. Fixture leads are often stranded and building wire solid. With a twist-on, let the stranded one extend slightly past the solid so it's captured. Many push-ins are listed for solid only, so check, or use a lever-type connector, which takes solid, stranded and fine-stranded. Every connector must be listed and used within its printed combinations.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Three bad splices side by side on the bench: a nicked conductor, exposed copper below a skirt, and a connector too small for the bundle. Red callouts.",
+      "on_screen": "Nicked copper | Exposed copper | Wrong connector size",
+      "says": "Here's why splices fail. A nicked conductor creates a weak, hot spot. Exposed copper below the skirt can contact the box or another conductor. And a connector outside its size combination won't hold, which your pull test should catch. A bad splice on a shared neutral can even cause voltage problems on other circuits.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: conductor wrapped clockwise on a screw terminal, tightened with a torque screwdriver.",
+      "on_screen": "Clockwise. One per screw. Torque to the marking.",
+      "says": "On screws and lugs: wrap solid conductors clockwise so tightening draws the wire in. One conductor per screw unless it's listed for more. Use backstab holes only for the wire they're listed for; many techs avoid them entirely. And torque to the marked value. The NEC requires a calibrated torque tool where a value is specified. Fold conductors neatly, grounds to the back, away from sharp edges.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the bench.",
+      "on_screen": "",
+      "says": "Listed connector, right strip length, no nicks, no bare copper, every conductor pull-tested. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Close-up bench video per the lesson's video suggestion; all splicing on de-energized bench samples. Note: the video suggestion says 'twisted until the skirt covers the insulation'; the lesson says the skirt must cover all bare copper and there must be no insulation inside the connector. The script follows the lesson. Show the three bad splices from the video suggestion."
+}

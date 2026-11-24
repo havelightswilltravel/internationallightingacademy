@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C06-L04",
+  "title": "Type C TLEDs, Retrofit Kits and HID Replacement Lamps",
+  "course": "LT2-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 181,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office troffer in a lay-in grid with a retrofit kit box, a Type C driver and tubes, and a mogul LED HID replacement lamp on a cart; lockout kit and meter. Medium shot.",
+      "on_screen": "Job Mindset: hazards = line voltage at driver input, sharp housing edges, heavy lamps at height | lock out | verify fit first",
+      "says": "Type C, retrofit kits, and LED HID lamps. The hazards: line voltage at the driver input, sharp housing edges, and heavy lamps overhead. Lock out and verify for the whole job. Before you leave the shop, verify the kit fits the housing, the driver and tubes are a matched set, and the HID lamp fits the fixture and the voltage. Flag emergency ballasts early.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Scope varies by state and city: confirm with your supervisor",
+      "says": "Scope varies by state and city. In some areas a lighting technician may install Type C systems and retrofit kits under our company's license. In others, it must be done by or under a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and that you're authorized. When in doubt, stop and ask.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech installs a troffer retrofit kit into a 2x4 housing following the kit instructions: measuring the housing, removing the old parts, mounting the driver and LED strips; presenter voice-over.",
+      "on_screen": "Retrofit kit: verify fit | lock out | remove | install | wire, ground | label | verify",
+      "says": "First, a troffer retrofit kit. Measure the housing and confirm it's on the kit's list of compatible fixtures, and check for rust or damage. Lock out and verify. Remove the parts the instructions say to remove. If the kit calls for drilling, use only its locations and methods, with the supplied grommets. Install the driver and LED assemblies, wire with listed connectors, and ground the housing.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a kit label being applied; Matthew voice-over.",
+      "on_screen": "Don't modify beyond what the kit instructions allow",
+      "says": "Apply the labels where specified, restore power, verify and document. And here's the mistake to avoid: drilling or modifying a fixture beyond what the kit instructions allow takes the installation outside its evaluation. Don't improvise.",
+      "seconds": 14
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Type C conversion: driver mounted in the ballast location, input wired, output wired to sockets with polarity marked.",
+      "on_screen": "Type C: matched driver + tubes | input = line voltage | output polarity +/- | dimming leads per instructions",
+      "says": "Type C. A separate LED driver replaces the ballast and powers the tubes with low-voltage output, so there's no line voltage at the sockets. Mount the driver where the ballast was. Wire line, neutral and ground to its input, and the output to the sockets exactly per the diagram. Output can be polarity-sensitive. Connect or cap the dimming leads per instructions. Never mix tubes and drivers from different makers.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Bench: a heavy mogul-base LED corn-cob lamp next to an HID fixture with its lens; ignitor shown being removed per instructions.",
+      "on_screen": "LED HID lamps: weight and size | enclosed rating and orientation | remove ignitor | voltage rating | bypass = line voltage at socket, label it",
+      "says": "LED HID replacement lamps are ballast-compatible or ballast-bypass. Check weight and size; some are heavy and long. Check heat: is it rated for enclosed fixtures and this orientation? An ignitor left connected can damage the LED, so remove or bypass it per the instructions. After bypass, the mogul socket carries line voltage, often 277 or 480 volts, so check the lamp's rating and apply the labels.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Finished troffer lit; checklist graphic.",
+      "on_screen": "After any retrofit: lit, no flicker | normal control | emergency addressed | labels | grounded, covers on | documented",
+      "says": "After any retrofit, verify: everything lights without flicker or buzzing, it works from its normal switch, sensor or dimmer, any emergency function is addressed per the plan, not just disconnected, every label is on and readable, the housing's grounded, covers and lenses are on, and the work order lists the location, model and conversion type.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the finished troffer, medium shot.",
+      "on_screen": "",
+      "says": "Your lead or the project scope usually picks the product. Your job is to install it exactly per its instructions, flag problems, and document what you installed. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Three segments per the lesson's video suggestion: troffer retrofit kit, Type C remote-driver conversion, mogul LED HID replacement lamp. Senior tech performs; presenter voice-over. Lockout shown before each. 'Scope varies by state and city' note spoken in scene 2 and must stay. Mask brands. Lesson file path is LT2-C05/04 (course code differs from vid LT2-C06)."
+}

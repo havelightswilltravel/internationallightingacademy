@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C04-L04",
+  "title": "Parts, Escalation & Documentation for Contactors and Relay Panels",
+  "course": "LT4-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 250,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew sitting in the open side door of a service van with a phone and tablet. Medium shot.",
+      "on_screen": "Parts, Escalation & Documentation",
+      "says": "At this level, you're the person who finds the problem and describes it accurately. Replacing a contactor, coil or relay card, working behind a dead front, and changing branch wiring usually belong to an electrician, unless your employer has qualified you for that task. A good write-up lets the electrician show up with the right part and finish in one trip. That's planning ahead for someone else.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: Matthew photographs a contactor nameplate with his phone; the photo appears on the tablet.",
+      "on_screen": "Catalog # | Holding type | Poles NO/NC | Rating + load type | Contact V | Coil V AC/DC | Aux | NEMA | Controls",
+      "says": "Start with the nameplate photo and record the full catalog number, holding type, poles and NO or NC, contact rating and load type, contact voltage, coil voltage AC or DC, auxiliary contacts, enclosure type, and the control devices like the HOA, pilot light and control fuse size. For a relay panel, add the panel name, relay number, card model and firmware if it's shown.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew on speakerphone with a parts supplier (voice only), reading the catalog number off the tablet.",
+      "on_screen": "Kits and coils fit only the exact frame",
+      "says": "Why the full number? Coils, contact kits and arc hoods fit only the exact frame. Wrong holding type changes how the controls work. Wrong coil voltage burns up or never pulls in. Relay cards usually get ordered by or through the controls vendor. And never substitute a general-purpose motor contactor for a lighting-rated one without the electrician's approval. LED inrush welds contacts.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic list over a shot of an open contactor enclosure.",
+      "on_screen": "Write it up: dead pole | coil won't pull in | burned wiring | breaker re-trips | voltage with contactor open | missing arc chutes/covers, water | relay-panel fault",
+      "says": "Write it up for an electrician when you find no load voltage on a closed pole, a coil with correct voltage that won't pull in, burned or overheated conductors, a breaker that trips again after one reset, voltage on the load side with the contactor open, missing arc chutes or covers, water in the enclosure, or a relay-panel fault the service can't clear.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera, close shot.",
+      "on_screen": "Arcing, smoke, or energized where it shouldn't be? STOP. Notify now.",
+      "says": "And if you see signs of active arcing, smoke, or an enclosure that's energized where it shouldn't be, stop work and notify your supervisor and the customer immediately.",
+      "seconds": 12
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tablet screen showing a service order; Matthew reads each field aloud as it highlights.",
+      "on_screen": "Location | Equipment | Complaint | Checked and found | Wiring needs | Recommendation | Temporary condition | Photos",
+      "says": "The service order answers what, where, what you measured, and what's needed. Location: building, room, panel, enclosure label. Equipment: make, catalog number, coil voltage, poles, holding type. The complaint in the customer's words. What you checked and found. Every wiring need. Your recommendation and parts list. Any temporary condition you left. And photos of the nameplate, enclosure and damage.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the 'checked and found' field with the lesson's example text typed in.",
+      "on_screen": "\"Line voltage present on L1–L6. Coil 120 V present with HOA in HAND, contactor pulls in. No voltage on T4. Pole 4 contact burned.\"",
+      "says": "Here's what a good finding looks like. Line voltage present on L1 through L6. Coil 120 volts present with the HOA in HAND, contactor pulls in. No voltage on T4. Pole 4 contact burned. An electrician reads that and knows exactly what to bring.",
+      "seconds": 18
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew talking with a store manager (actor) by the van, then closing and latching the enclosure.",
+      "on_screen": "Never leave a cover off or a bypass on without telling the site and writing it down",
+      "says": "Then talk to the customer in plain language: the switch in this box that turns your lot lights on has a burned contact, and an electrician needs to replace it. Tell them about any temporary condition, like a section left in HAND. Never leave an enclosure open, a cover off or a bypass active without telling the person in charge and writing it down. Close and latch every enclosure.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back in the van door, tablet in hand.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Diagnose it, document it, and set the electrician up to finish in one trip. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Service van location with phone and tablet; mock service-order form on the tablet (generic, no customer names). Supplier call is voice only, generic. Nameplate photo should be of a training contactor with brand/catalog blurred in the final edit. Store manager is an actor. Knowledge/documentation lesson: hook connects the topic to planned work instead of a full Job Mindset opener."
+}

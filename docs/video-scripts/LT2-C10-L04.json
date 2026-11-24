@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C10-L04",
+  "title": "Flicker, Lumen Maintenance (L70) & LED Failure Modes",
+  "course": "LT2-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 208,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office ceiling with a row of LED troffers. Matthew holding a phone, medium shot.",
+      "on_screen": "Flicker, Lumen Maintenance (L70) & LED Failure Modes",
+      "says": "Customers call about LEDs for a handful of reasons: flicker, dim fixtures, color shift, and fixtures that just die. This lesson gives you the vocabulary and a symptom table, so you can talk to the customer clearly and diagnose safely instead of guessing.",
+      "seconds": 17
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Phone screen recording in slow-motion: rolling dark bands on a flickering fixture, then a steady image on a low-flicker fixture.",
+      "on_screen": "Slow-mo bands = a clue, not a measurement",
+      "says": "LEDs react almost instantly to current changes. If the driver lets ripple through, the light flickers at 120 hertz here in North America, or at other frequencies when dimmed. Here's a quick field check: slow-motion video on your phone. Rolling dark bands suggest significant flicker. It's only a clue, not a measurement, so compare it with a fixture you know is good.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Classroom or office B-roll; on-screen terms appear.",
+      "on_screen": "Percent flicker | Flicker index | Frequency | IEEE 1789",
+      "says": "Why customers care: visible flicker is annoying, and even flicker you can't consciously see can cause headaches and eyestrain for some people, plus a strobe effect on machinery or video. It's described by percent flicker, how deep the swing is, flicker index, where zero is best, and frequency. IEEE 1789 gives guidance on low-risk levels, and quality spec sheets list flicker performance.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a dimmer wall station and an open fixture with a loose connector, de-energized.",
+      "on_screen": "Driver | Dimmer | Low-end dimming | Loose connection | Voltage swings | Heat",
+      "says": "Field causes. A low-quality or failing driver, where dried-out capacitors increase ripple. A phase dimmer with a driver not designed for it. Dimming near the bottom of the range. Large loads cycling on the same circuit. Thermal cycling. And loose connections, which cause random flashing, not steady flicker. Treat random flashing as a potential fire hazard: lock out, verify dead, and inspect connectors for discoloration or melting.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Spec sheet on a tablet; Matthew circles L70 hours, LM-80/TM-21 notes and warranty terms.",
+      "on_screen": "L70 > 60,000 h = at least 70% of lumens after 60,000 h (projected)",
+      "says": "LEDs rarely burn out. Their light slowly declines. L70 is the hours until output drops to 70 percent of initial. L70 greater than 60,000 hours means the maker projects at least 70 percent after 60,000. L80 and L90 are tougher at the same hours. LM-80 tests the LED packages. TM-21 projects life from that data. LM-79 tests the complete luminaire.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a burned driver next to a fixture; warranty terms on spec sheet.",
+      "on_screen": "The driver often fails before the LEDs reach L70",
+      "says": "Here's the catch. The driver often fails before the LEDs ever reach L70, and driver life depends heavily on temperature. That's why the warranty, commonly 5 or 10 years, and the operating conditions matter as much as the L70 number. And when you replace a few fixtures in a big room, tell the customer the new ones may look brighter or a different color.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Bench with a table of failed parts: burned driver, cracked board, darkened LEDs. On-screen symptom table builds.",
+      "on_screen": "Dark, one | Dark, zone | Dim | Cycling | Part of board dark | Color shift",
+      "says": "Use the symptom table. One fixture dark: driver, open string, loose connector, emergency or sensor part. Whole zone dark: breaker, switch, relay, contactor or control signal, so check those first. Dim next to neighbors: wrong current, thermal foldback, shorted 0-10 leads, or age. Cycling: heat, an aging or overloaded driver, wrong voltage window. Part of a board dark: one failed LED opened the series string.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Exterior area light on a pole; close-up of a surge protective device module with its indicator light out.",
+      "on_screen": "After storms: check the SPD indicator",
+      "says": "Surge damage is a leading cause of exterior and high-bay LED failures. Many exterior fixtures have a replaceable surge protective device. If its indicator light is out, replace it along with any failed driver. Water and corrosion point to seal failure or the wrong location rating.",
+      "seconds": 18
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera in the office row.",
+      "on_screen": "Batch failures: collect data, tell your supervisor",
+      "says": "Many fixtures failing within weeks or months usually means installation conditions, like voltage, heat, surges or the wrong dimmer, or a product defect. Collect location, symptoms, part numbers and date codes, and report to your supervisor so we can make a warranty claim. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Slow-motion phone demo per the lesson's video suggestion; label it on screen as a clue, not a measurement. Spec sheet should be generic or brand-blurred. Failed-parts table on the bench uses de-energized samples. Lesson cross-reference for dimmer incompatibility points to LT3-C02; the video avoids naming the course."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C08-L02",
+  "title": "Tunable White and Circadian-Oriented Lighting",
+  "course": "LT5-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 167,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Demo room with several tunable-white downlights and a white wall; the light shifts slowly from warm 2700 K to cool 6500 K. Matthew in the center. Medium shot.",
+      "on_screen": "Tunable White and Circadian-Oriented Lighting",
+      "says": "Watch the wall. Same light level, but the color goes from warm 2700 kelvin to cool 6500. That's tunable white. Customers are asking for it, and you need to install it, set it up and fix it, without overselling what it does.",
+      "seconds": 17
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Cutaway of a fixture with lens removed (de-energized) showing two LED strings; graphic labels 2700 K and 6500 K channels.",
+      "on_screen": "Tunable white: 2+ LED channels - level and CCT set separately\nDim-to-warm: one input, CCT warms as it dims",
+      "says": "A tunable-white fixture has LEDs of two or more color temperatures on separate channels. Mixing them makes any CCT between the endpoints, and intensity dims separately. Dim-to-warm is different: one control input, and the color warms automatically as it dims, like incandescent. Full-color RGB or RGBW fixtures make colors as well as whites.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a wall panel with labeled control wiring; graphic list of control methods.",
+      "on_screen": "Dual 0-10V - DALI DT8 - DMX/RDM - wireless - PoE",
+      "says": "Before you troubleshoot, identify the control method from the submittal or driver label. It might be two 0-10 volt channels, one for level and one for color. DALI DT8, DMX, wireless, or PoE. A fixture stuck at one color usually has a missing or reversed control channel, or a wrong address or group.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech at a ladder applies LOTO and verifies absence of voltage before opening a driver compartment. Callout over the shot.",
+      "on_screen": "Class 2 control wiring ends in line-voltage drivers. LOTO and verify before opening.",
+      "says": "Safety note. Tunable control wiring is usually Class 2, but it lands in drivers and fixtures that also have line voltage. De-energize with lockout/tagout and verify absence of voltage before you open a fixture or driver compartment.",
+      "seconds": 15
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of an eye with the melanopsin cells highlighted; then a meter held vertically at seated eye height.",
+      "on_screen": "Melanopsin - melanopic EDI (CIE S 026) - vertical illuminance at the eye",
+      "says": "Now circadian lighting. Special cells in the eye containing melanopsin are most sensitive to blue light and help regulate the body clock. Brighter, bluer light by day and dimmer, warmer light in the evening is broadly associated with healthy sleep-wake cycles. Metrics like melanopic EDI, defined in CIE S 026, measure that effect. And because it depends on light reaching the eye, designers measure vertical illuminance at eye height.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, medium close-up.",
+      "on_screen": "Avoid health claims. Refer design questions to a lighting designer.",
+      "says": "Here's the mistake to avoid: overselling. Benefits depend on the whole design: light at the eye, spectrum, timing, duration, daylight. Not just the ability to change color. Two sources with the same CCT can differ in melanopic content. So don't make health claims. Refer design questions to a lighting designer, and cite recognized standards, not marketing.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech measures CCT and illuminance with a spectrometer-type meter at both ends and the middle of the range; then two fixtures from different batches side by side show a visible color mismatch. Presenter voice-over.",
+      "on_screen": "Check color match - measure CCT at ends and middle - check output across range",
+      "says": "In the field, check fixtures side by side at several CCT settings. Mixed batches or product lines can look different at the same setting. Measure CCT at both ends and the middle with a meter that reads CCT. Check light level across the range too; some products lose output at the ends. And stock matching spares, because a different series may not match.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Laptop screen showing a daily color curve schedule, warm in the morning, cooler at midday, warm in the evening.",
+      "on_screen": "Gradual transitions - document CCT and level per time and scene\nNow read the lesson and take the quiz",
+      "says": "Program daily curves to change gradually; abrupt shifts are distracting. Document CCT and level for each time and scene in the closeout package. Tunable fixtures still count toward lighting power density and must meet the same control requirements. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Lesson is flagged for at least annual SME review; health-related research and standards change. Keep all health statements as worded in the lesson; add no claims. Demo performer: senior technician. Spectrometer readings shown on screen should be real captures from the demo room. Blur product branding."
+}

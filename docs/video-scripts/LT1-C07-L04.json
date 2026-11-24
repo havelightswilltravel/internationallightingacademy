@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C07-L04",
+  "title": "Fluorescent Ballast Replacement (Supervised)",
+  "course": "LT1-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 300,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with an 8-ft strip fixture lowered to working height, a new 2-lamp T8 electronic ballast in its box, tools, connectors, phone, nitrile gloves and a sealable bag. Matthew medium shot.",
+      "on_screen": "Job Mindset: ballast replacement",
+      "says": "Job Mindset for a ballast swap. The hazards: shock from a circuit that isn't really dead, a PCB or leaking ballast, and a bad splice that causes a fire later. Lock out and verify first. Plan before you leave: the matching ballast, listed connectors, strippers, your LOTO kit and meter, nitrile gloves and a bag in case it leaks. And make sure your mentor is there.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on Matthew.",
+      "on_screen": "Scope varies by state and city. Confirm you're authorized.",
+      "says": "At LT1, you replace ballasts only under direct supervision, and your work is inspected before power goes back on. And scope varies by state and city. In some places a lighting tech can do this under the company's license. In others it takes a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 29
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the old and new ballast labels side by side; Matthew's finger moves across lamp type, count, voltage, start type.",
+      "on_screen": "Match: lamp type - lamp count - input voltage - start type - size - features",
+      "says": "The new ballast has to match. Lamp type, like F32T8. Number of lamps. Input voltage: 120, 277, or universal, and confirm the circuit voltage. Start type. Physical size and mounting. And features like dimming or emergency. If anything's unclear, ask before installing. Don't make it work with a different ballast. A 120-volt ballast on 277 fails immediately.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "LT1 tech applies lock and tag, removes lamps, then tests the supply leads live-dead-live while the qualified mentor watches. Matthew voice-over.",
+      "on_screen": "Company policy: isolate the power source first. Every time.",
+      "says": "Step one: lock out and verify. Remove the lamps and set them aside safely. Verify absence of voltage at the ballast supply leads with live-dead-live, testing every conductor. Company policy: every time you replace a ballast, driver, socket or emergency battery, isolate the power first. Cutting leads on an energized fixture is energized work for qualified people with a permit. Never LT1 work.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech removes the channel cover, reads the old ballast label for \"No PCBs,\" photographs the label and the wire connections with a phone.",
+      "on_screen": "No \"No PCBs\" label = assume PCBs. Leaking = stop.",
+      "says": "Open the wiring channel and keep track of the screws. Check the old ballast for a No PCBs statement. No label, common on ballasts made before 1979, means you assume it contains PCBs. If it's leaking oily liquid or black tar, stop. Don't touch it bare-handed, and call your supervisor. Then take clear photos of the label and the connections.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tech disconnects the supply leads, cuts ballast leads close to the old ballast, removes it with a firm grip, mounts the new ballast flat with all hardware. Matthew voice-over.",
+      "on_screen": "Cut leads close to the old ballast. Mount flat with ALL hardware.",
+      "says": "Disconnect the supply, hot and neutral. Cut the ballast leads close to the old ballast so the socket wires stay as long as possible. Lift it out with a firm grip. They're heavier than they look. Mount the new one flat against the fixture metal with all its hardware. That helps it shed heat and keeps the case grounded.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups: wire stripper at the connector maker's strip length, a twist-on connector made and tug-tested, a properly made splice with no bare copper showing, unused leads capped. Matthew voice-over.",
+      "on_screen": "Follow the NEW ballast's diagram. No bare copper. Tug-test every wire.",
+      "says": "Wire it to the diagram on the new ballast. Don't copy the old wiring blindly. Color codes can differ. Strip each wire to the length the connector maker specifies. No bare copper outside the connector. Twist until snug and tug-test each wire. Hot to the line lead, neutral to the common, as the label shows. Cap unused leads individually. And confirm the ground is still connected.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "The mentor inspects the wiring with the cover off, nods; tech routes wires clear of edges, closes the channel, reinstalls lamps, removes LOTO, lights come on evenly.",
+      "on_screen": "Supervisor inspects BEFORE the cover goes on",
+      "says": "Route the wires away from sharp edges and hot surfaces. Now, before the cover goes on and before power's restored, your supervisor inspects the wiring. Then reassemble, install lamps, remove LOTO by the restore steps, and test. All lamps should start promptly and burn evenly. Never energize it with the channel open and your hands in it. If it doesn't work, lock out again first.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Match the ballast, check for PCBs, wire to the new label, and get it inspected. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "A qualified technician mentors an LT1 on camera; Matthew narrates. The fixture is locked out and verified before any work; live-dead-live uses a proving unit or known source. Use a new-style ballast with a No PCBs label for the demo; do not use a real PCB or leaking ballast (if shown, a clean prop only). Generic ballast labels with no manufacturer names visible. Include close-ups of correct strip length and a finished splice."
+}

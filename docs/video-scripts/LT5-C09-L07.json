@@ -1,0 +1,67 @@
+{
+  "vid": "LT5-C09-L07",
+  "title": "Surveying a Site with the Company Checklists",
+  "course": "LT5-C09",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 174,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Retail parking lot at dusk, light poles coming on, a service truck parked with cones around it. Danny in a high-visibility vest with a tablet. Medium shot.",
+      "on_screen": "Job Mindset: Site survey",
+      "says": "A survey is still field work. Hi-vis in the lot, cones around the truck, and stay away from leaning poles and open hand holes until they're made safe. Reading a label inside a fixture or hand hole means LOTO and live-dead-live first; otherwise, mark it 'not verified.' Plan it: scope, a printed map, a dusk start, and where the panels are.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny close-up at the truck tailgate.",
+      "on_screen": "Survey forms are checklists: same fields, every time.",
+      "says": "Every decision in this course rests on what someone actually saw on site. Our company uses survey forms as checklists. When every tech records the same fields the same way, the office can quote from the sheet without sending someone back, and the next visit compares to this one. As a senior tech, you'll run surveys and check your crew's sheets.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Lead tech and an LT3 at the tailgate numbering poles on an aerial printout with a marker.",
+      "on_screen": "Exterior Lighting Survey Checklist + Emergency Lighting Inspection Checklist",
+      "says": "Two company forms: the Exterior Lighting Survey Checklist, that's the Lighting Survey Worksheet, and the Emergency Lighting Inspection Checklist for any survey with egress lighting. Both have guides in the Library. First, number every pole and area on the map. Those numbers go in the Fixture Location column. Why dusk? Outages show up at night, and labels and mounting are easier in daylight. You get both.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "The LT3 measures pole size at the base with a tape, then estimates the top; lead reads a wall-pack label from the ground with binoculars; counts dark heads; photographs each group.",
+      "on_screen": "One row per group: location - type - source/watts - height - qty - mount/size - square or round - pole size base and top - voltage - photo# - comments",
+      "says": "One row per group, same fixture type, source and mounting in the same area. Record location, type, existing source and watts, height, fixture and pole quantity, mount type and size, square or round pole, tapered pole size at base and top, can size, voltage or 'not verified,' photo numbers, and comments: outages, day-burners, broken lenses, rust, base condition. Finish with the totals and the number out.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny reviewing a crew's sheet on the tablet, pointing at an empty tenon size cell.",
+      "on_screen": "Missing tenon size = replacement head that won't fit",
+      "says": "Here's what I check on a crew's sheet. Every row has quantity, source, height, mounting and voltage. Pole sizes and mount types are complete. A missing tenon size is the most common reason a replacement head shows up and won't fit. Photo numbers match. And hazards, like a leaning pole or exposed wire, were reported the same day, not just written down.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Inside the store after hours: the pair walks the sales floor and backroom with a floor plan, noting troffers, case lights, exit signs with charge indicators.",
+      "on_screen": "Interior checklist (temporary until the company interior form is provided)",
+      "says": "Inside, the same worksheet has pick lists for interior fixture types and locations. Until the company's separate interior form is supplied, use the checklist in the lesson. Area, type, source, quantity, height and ceiling type. Outages, flicker, mismatched color, bad lenses. Controls. Emergency fixtures and exit signs on the emergency spreadsheet. Access limits. Voltage, photos and comments.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Back at the truck: the lead enters groups into the asset inventory on a laptop and marks a group of old HID heads 'replace'.",
+      "on_screen": "Inventory - sort with the worksheet - flag code and listing - bundle emergency results - repeat each visit",
+      "says": "Then turn it into a recommendation. Enter the groups into the asset inventory. Run the maintain, retrofit or replace worksheet. Lots of outages or cycling on old HID heads usually point to LED replacement, not relamping. Flag listing items and keep emergency lighting working through any change. Bundle the emergency results; those repairs are the easiest to approve. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Generic retail site; no store names, logos or signage visible. Use a non-specific aerial printout. The interior checklist is temporary per the lesson; re-check this script when the company interior survey form is provided. Lead tech and LT3 are non-speaking; Danny narrates. Any hand hole or fixture opened on camera requires visible LOTO and live-dead-live first."
+}

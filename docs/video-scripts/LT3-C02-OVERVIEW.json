@@ -1,0 +1,59 @@
+{
+  "vid": "LT3-C02-OVERVIEW",
+  "title": "Installation Tools (course overview video)",
+  "course": "LT3-C02",
+  "presenter": "Senior technician (TBD)",
+  "source": "outline",
+  "target_seconds": 122,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Senior technician",
+      "background": "Shop workbench laid out with step bits, hole saws, a knockout punch set, fish tape and glow rods, anchors and toggles, a stud finder and a drywall saw. Senior technician standing behind it, medium shot. Lower third: Senior Technician.",
+      "on_screen": "Installation Tools",
+      "says": "Up to now you've mostly been repairing fixtures that are already up. In LT3 you start installing them. That takes a different set of tools, and this course walks you through the ones I reach for every week, what each one is for, and how to use it without wrecking the ceiling, the wall or yourself.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Senior technician",
+      "background": "Close-up: step bit going through a fixture housing in a vise; hole saw on drywall; knockout punch making a clean hole in a box.",
+      "on_screen": "Step bits | Hole saws | Knockout punches",
+      "says": "We'll start with making holes. Step bits for clean holes in sheet metal housings. Hole saws for cans and boxes in drywall and ceiling tile. Knockout punches when you need a clean, sized hole in a box or enclosure. Eye protection every time, clamp the work, and know what's on the other side before you drill.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Senior technician",
+      "background": "Above an open ceiling: tech feeds fish tape and glow rods across to a partner at an opening.",
+      "on_screen": "Fish tape & rods",
+      "says": "Then getting wire where it needs to go. Fish tape and fiberglass rods, and how to work with a partner so one person feeds while the other pulls. Plan the route before you start, check what's already in that cavity, and keep both of you busy. Fish tape is metal, so keep it away from anything that might be live.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Senior technician",
+      "background": "Close-up: stud finder on drywall; tech installs a toggle anchor; a fixture bracket goes up.",
+      "on_screen": "Stud & joist finders | Anchors & toggles",
+      "says": "Next, finding structure and holding things up. Stud and joist finders, and the right anchor or toggle for the load and the wall. A fixture that falls is a hazard to everyone under it, so getting support right matters as much as getting the wiring right. We'll talk about matching the anchor to the weight and the material.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Senior technician",
+      "background": "Tech scores and cuts a ceiling tile cleanly for a downlight; then a neat drywall cutout.",
+      "on_screen": "Cut tile and drywall cleanly",
+      "says": "And we'll cover cutting ceiling tile and drywall cleanly. The customer sees that cut long after you leave. A ragged hole looks like sloppy work, even if everything behind it is perfect.",
+      "seconds": 13
+    },
+    {
+      "scene": 6,
+      "speaker": "Senior technician",
+      "background": "Senior technician at the bench, to camera, holding a well-used step bit.",
+      "on_screen": "No required list. Invest in what your work needs.",
+      "says": "One more thing. From here on, there's no required tool list. You're expected to invest in the tools your work actually needs. Buy good ones, take care of them, and they'll pay you back. Now work through the course lessons and take the quizzes.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "SOURCE: outline only; the course is not written yet. Check every tool use and safety point against the lessons when written (PPE for drilling and cutting, verifying no wiring or piping behind a cut, any power-tool rules). Speaker is a senior technician (TBD); label 'Senior technician'. Use unbranded tools or tape over logos."
+}

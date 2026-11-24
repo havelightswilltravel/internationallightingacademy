@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C11-L06",
+  "title": "Our Company's Scope Limits & Arc-Flash Lessons Learned",
+  "course": "LT4-C11",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 206,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Electrical room: 480Y/277 V lighting panelboard with label, large switchboard, and a medium-voltage switchgear lineup behind. Danny stands with a qualified tech. Wide shot.",
+      "on_screen": "Our Company's Scope Limits & Arc-Flash Lessons Learned",
+      "says": "This lesson is about where our company draws the line. Know your scope before you leave the shop, because the time to find out a job is outside it is not when you're standing in front of the gear. And when an old safety slide disagrees with this lesson, this lesson applies.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "On-screen table over Danny.",
+      "on_screen": "LT1-LT3: inside the fixture\nLT4-LT5 qualified: 480 V and below, 4 cal/cm² or less\nNobody here: medium voltage (over 1,000 V)",
+      "says": "Lighting techs at LT1 through LT3 work inside the fixture. Anything outside it needs supervisor or management approval. Qualified techs and electricians at LT4 and LT5 work panels, switchgear and cabinets 480 volts and below with an incident energy of 4 calories or less, unless management has qualified them for more. Nobody at our company works on medium voltage, over 1,000 volts.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny at the lighting panelboard pointing to a label under 4 cal/cm².",
+      "on_screen": "Ours? YES: 480Y/277 V, label under 4 cal/cm²",
+      "says": "So: ours or not? This lighting panelboard, 480Y/277, label under 4 calories. Ours, for a qualified, authorized tech with a written plan and the right PPE.",
+      "seconds": 10
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny at the switchboard pointing to a label above 4 cal/cm²; then the MV lineup.",
+      "on_screen": "Switchboard above 4 cal/cm²: NOT ours unless management says so\nMedium voltage: NEVER ours",
+      "says": "This switchboard is labeled above 4 calories. Not ours unless management says otherwise. And that medium-voltage lineup? Never ours. We don't have the PPE, training or scope. If lighting you need is fed from equipment outside your scope, stop, photograph the label and call your supervisor. If there's no label on equipment big enough to need one, that's outside your scope too.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Bench: PPE Category 1 kit and Category 2 kit side by side; Danny adds a face shield to each, then a balaclava to Cat 2.",
+      "on_screen": "Cat 1: 4 cal/cm² + AR face shield or hood\nCat 2: 8 cal/cm² + AR face shield AND balaclava, or hood\nNo face protection, no category",
+      "says": "Old slides said electricians carry a Category 1 suit without a face shield. Wrong. Category 1, 4 calories minimum, includes an arc-rated face shield or hood. Category 2, 8 calories, needs an AR face shield and balaclava, or a hood. A kit without its face protection is not that category. And if the label's above 8, Category 2 isn't enough.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Close on AR garment labels.",
+      "on_screen": "AR rating ≥ incident energy\nRatings are NOT added up\nAR (not just 'FR') inside the arc-flash boundary, from 1.2 cal/cm²",
+      "says": "Another old slide said to add up the calorie exposure. Arc-rated clothing must be rated at or above the incident energy, or meet the category minimum. Layered garment ratings are not added; only a tested layered system has a combined rating. And it's arc-rated clothing whenever you're inside the arc-flash boundary, which starts at 1.2 calories.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Close on a rubber insulating glove cuff label showing ASTM D120, class and test date.",
+      "on_screen": "ASTM D120 gloves, class-rated, with protectors\nAir-test before use • retest at least every 6 months\nShock exposure: 50 V and up",
+      "says": "Old slides said 'UL-approved insulated gloves over 300 volts.' The rule: rubber insulating gloves made to ASTM D120, in the right class, Class 00 or 0 for building systems to 480, with leather protectors. Air-test before each use, retest at least every six months. Required whenever the assessment shows shock exposure, 50 volts and up inside the restricted boundary, not only above 300.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Exterior: utility pad-mount transformer at a distance behind barricade cones; Danny in the foreground.",
+      "on_screen": "Arc flash next door: distance is protection",
+      "says": "A lesson learned. On one of our job sites, a utility lineworker was hospitalized after an arc-flash explosion in the utility's equipment while our crew worked nearby. Our crew wasn't involved, but they saw it. Arc flash isn't just a panel hazard; pad-mounts, meter sockets and service gear carry far more fault energy. Stay outside the arc-flash boundary of equipment you're not working on.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera, serious.",
+      "on_screen": "Read the label before you open any cover",
+      "says": "And experience doesn't prevent arc flash. The best-trained people get hurt when equipment fails. The answer is a de-energized, verified, locked-out condition whenever possible. Before you open any cover, read the arc-flash label. Above 4 calories, above your PPE, or no label? It's outside your scope until management says otherwise.",
+      "seconds": 20
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Electrical room, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Know your scope, wear the whole kit, and keep your distance. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Filmed in an electrical room with gear closed and latched; do not open energized equipment. Labels shown should be generic/staged (no customer site info). Medium-voltage switchgear can be shot from a distance or stock. Props: PPE Category 1 and Category 2 kits, AR face shield, balaclava, hood, ASTM D120 glove with visible class and test date. Lessons-learned incident: keep it anonymous as written; no dramatized explosion needed."
+}

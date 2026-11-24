@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C02-L01",
+  "title": "Lighting Terms: Lumens, Watts, Efficacy, CCT & CRI",
+  "course": "LT2-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Dark training room, a row of lamps on a bench, unlit. Matthew stands beside them, medium shot.",
+      "on_screen": "Lighting Terms: Lumens, Watts, Efficacy, CCT & CRI",
+      "says": "Customers, supervisors and product labels use a handful of lighting terms all day long. Know them, and you can read a lamp box, match a replacement right the first time, and answer customer questions with confidence. Get them wrong, and you get mismatched lamps, unhappy customers and return trips. Let's go through them.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: an old 60 W incandescent next to a small LED lamp; both switched on.",
+      "on_screen": "Watts = power used | Lumens = light produced | 60 W incandescent = about 800 lm = 8-10 W LED",
+      "says": "First: watts are not brightness. Watts measure the power a lamp uses. Lumens measure the total visible light it puts out. A 60 watt incandescent makes about 800 lumens, and an LED can do that with eight to ten watts. So when you replace a lamp with a different technology, match the lumens and the other properties, not the watts.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of efficacy ranges over bench footage of lamp types.",
+      "on_screen": "Efficacy = lumens / watts | Incandescent 10-17 lm/W | Fluorescent T8/T5 80-100 | LED 80-180+",
+      "says": "Efficacy is lumens divided by watts. It tells you how efficiently a source turns electricity into light. Incandescent is about ten to seventeen lumens per watt. Linear fluorescent with an electronic ballast, about eighty to a hundred. LED, eighty to a hundred eighty and up. For energy savings, system efficacy, lamp plus ballast or fixture losses, is what matters.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Open troffer with a dusty reflector and yellowed lens; tech wiping it.",
+      "on_screen": "Fixture efficiency: 5,000 lm x 80% = about 4,000 lm",
+      "says": "No fixture puts out all the light its lamps make. The reflector, housing, lens and louvers absorb some of it. Two lamps making 5,000 lumens in an 80 percent efficient fixture deliver about 4,000 lumens to the room. Dirt, yellowed lenses and bugs lower that further, which is one reason our company cleans fixtures while they're open.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Lamps light up one at a time over a fruit bowl, paint chips and a skin-tone card: 2700 K, 3000 K, 4000 K, 5000 K, then an HPS lamp.",
+      "on_screen": "CCT in kelvin: lower K looks warmer | 2700 K warm | 4000 K cool white | 5000 K daylight | HPS about 2000-2100 K",
+      "says": "Color temperature, or CCT, is measured in kelvin, and lower kelvin looks warmer. Watch the fruit bowl. 2700 K is warm, like incandescent. 3000 K, soft white. 4000 K, cool white. 5000 K, crisp daylight. And high-pressure sodium is orange-gold, around 2000 to 2100 K. Field rule: never mix CCTs in the same space or fixture unless the customer asks. Read the CCT on the existing lamp before you order.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Same fruit bowl and skin-tone card under a high-CRI lamp, then under the HPS lamp.",
+      "on_screen": "CRI is a score, not a percentage | 80+ offices | 90+ color-critical | HPS about 20-25",
+      "says": "Color rendering index, or CRI, measures how accurately a source shows the colors of objects, on a scale up to 100. It's a score, not a percentage. Most offices use 80 and up. Color-critical spaces like retail and healthcare exam rooms want 90 plus. HPS scores about twenty to twenty-five. Look at that skin-tone card. CRI and CCT are separate: a 4000 K lamp can be 70 or 95.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Row of aging LED fixtures in a warehouse, one new fixture noticeably brighter.",
+      "on_screen": "Rated life = half of a test batch failed | LED L70 = output down to 70%",
+      "says": "Lamp life. Rated life for traditional lamps is when half of a test batch has failed. LEDs rarely burn out; they slowly dim. Their life is often given as L70, the hours until output drops to 70 percent. Dim, aging LEDs are a service opportunity: note type, location and count on the work order and mention it. Don't promise a price or a fix on the spot.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holds up a lamp box, camera pushes in on the Lighting Facts style label.",
+      "on_screen": "Read the label: lumens | watts | CCT | CRI | base | voltage | rated life | compatibility | dimmable | Hg",
+      "says": "Here's where it all comes together: the box. Lumens, watts, CCT, CRI, rated life. You'll also see the base type, voltage, ballast compatibility for tubes, dimmability, and the Hg symbol or recycling notes. Read it every time you match a replacement. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Dark training room demo per the lesson's video suggestion: same fruit bowl, paint chips and skin-tone card under 2700 K, 3000 K, 4000 K, 5000 K and HPS. HPS lamp needs a proper ballasted fixture behind a guard; allow warm-up time. Use a generic, unbranded lamp box for the label close-up. Lesson file path is LT1-C05/01 (course code differs from vid LT2-C02)."
+}

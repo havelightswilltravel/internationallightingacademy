@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C08-L01",
+  "title": "Meter Safety, CAT Ratings and Selection",
+  "course": "LT2-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 189,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop bench with three meters and their leads laid out, a proving unit beside them; a lighting panel in the background. Medium shot.",
+      "on_screen": "Job Mindset: hazards = shock and arc flash at the panel | right meter, inspected, proven | PPE per the label",
+      "says": "Every time you verify absence of voltage, you're trusting this meter with your life. At LT2 you'll measure on panelboards and 480 volt systems, where a meter that fails during a transient can explode in your hand and start an arc flash. So the meter's part of your plan: the right rating, inspected, proven on a known source, and the right PPE, before you ever leave the shop.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of CAT and voltage markings on each meter and on the leads.",
+      "on_screen": "CAT II: plug-in loads | CAT III: panels, branch circuits, hardwired lighting | CAT IV: service entrance, utility side",
+      "says": "Meters and leads are rated by measurement category and voltage. The closer to the utility, the more transient energy. CAT II is receptacle-connected loads. CAT III is building distribution: panelboards, branch circuits, hardwired fixtures, 277 and 480 volt circuits. CAT IV is the origin of the installation: service entrance, utility meter, overhead feeders to pole lights.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer holds a CAT II 1000 V meter next to a CAT III 600 V meter.",
+      "on_screen": "Company standard: CAT III 1000 V / CAT IV 600 V | never less than CAT III 600 V for panel work",
+      "says": "The meter and leads must both be rated for the highest category and voltage you'll measure. A meter is only as good as its lowest-rated accessory. Our company standard for lighting service is CAT III 1000 volt, CAT IV 600 volt, and never less than CAT III 600 for panel work. CAT II 1000 is not safer than CAT III 600 in a panel.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer inspects the case and runs fingers along the leads; puts a lead in the amps jack with the meter on ohms to read the fuse.",
+      "on_screen": "Pre-use: case | leads (replace, don't tape) | ratings | fuses | battery | known source",
+      "says": "Pre-use inspection, every time. The case: no cracks or missing screws. The leads: no cuts, exposed conductor or loose tips. Replace damaged leads; don't tape them. Ratings for the job. Fuses: many meters let you read the fuse by putting a lead in the amps jack with the meter on ohms. Battery: a low one can cause false readings. Look for a third-party mark, true-RMS and high-energy fuses.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Meter proved on a proving unit, then used, then proved again.",
+      "on_screen": "Live-dead-live: prove on a known source before and after",
+      "says": "Then the function test. Verify the meter on a known source, a proving unit or a known live circuit, before and after you test for absence of voltage. That's live-dead-live. If the meter doesn't read on the known source afterward, your dead reading means nothing.",
+      "seconds": 18
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified tech in arc-rated PPE and rubber gloves with leather protectors at an energized lighting panel, standing to the side, probing.",
+      "on_screen": "Gloves: Class 00 = 500 V AC max use | Class 0 = 1,000 V AC | air-test | leather protectors | reference lead first, hot lead off first",
+      "says": "Panel voltage measurements are energized work under NFPA 70E. At LT2, work under a qualified person's direction, with PPE per the arc-flash label or our PPE table. Class 00 gloves are rated to 500 volts AC max use, Class 0 to 1,000. Air-test them every time and wear leather protectors. Connect the reference lead first, remove the hot lead first. Stand to the side where practical.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up beside the panel.",
+      "on_screen": "Never connect a meter in amps mode across voltage",
+      "says": "Never change meter function or move leads while connected. And never use a meter in amps mode across a voltage source. In amps mode, the meter is a near short circuit. On a lighting panel that can blow the meter's fuse, or with an unfused or under-rated meter, cause an arc flash.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "What's wrong with this meter: cracked leads; probes with missing guards; a CAT II meter held up in front of a 480 V panel. Red circles on each.",
+      "on_screen": "What's wrong? Cracked leads | missing probe guards | CAT II at a 480 V panel",
+      "says": "So, what's wrong with this meter? Cracked leads: replace them. Missing probe guards: many safety programs require minimal exposed tip, about four millimeters or less, for CAT III and IV work. And a CAT II meter in front of a 480 volt panel: wrong category, walk away. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Per the lesson's video suggestion: three meters and leads on a bench, fuse check, lead inspection, full pre-use check on a known source, and a 'what's wrong with this meter' segment. Energized panel footage only with a qualified person in arc-rated PPE and rated gloves. Mask meter brands."
+}

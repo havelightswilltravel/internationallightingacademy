@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C04-L03",
+  "title": "Panel Schedules, Continuous Loads and Signs of Overheating",
+  "course": "LT3-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 221,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Commercial corridor with a closed lighting panel in an electrical closet; panel door open, dead front on, directory card visible. Matthew beside it, medium shot.",
+      "on_screen": "Job Mindset: Working at the Panel",
+      "says": "Today you're at a lighting panel to map a circuit. Hazard: arc flash and shock if the panel's damaged or overheating. Controls: the dead front stays on, look before you touch, and if it's damaged, hot or missing its cover, don't operate anything. Write it up. Plan ahead: get customer permission before shutting anything off, and bring a helper, a tracer and a clipboard.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a faded, handwritten directory card with many entries reading 'LIGHTS'.",
+      "on_screen": "Blank or vague? Identify by test. Old handwriting? Unverified.",
+      "says": "The circuit directory on the door tells you what each breaker feeds. It's how you find the load on a tripping-breaker call. Blank, faded, or LIGHTS for everything? Identify by test and update it. Doesn't match after a renovation? Verify and correct. Numbers off? Odd usually on the left, even on the right, top to bottom, but confirm the maker's numbering. Years of handwritten changes? Treat it as unverified.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Female senior tech, standing to the side of the panel, operates circuit 17's handle with her left hand, looking away; then walks the corridor noting dark fixtures. Presenter voice-over.",
+      "on_screen": "Stand to the side. Left hand. Look away.",
+      "says": "Here's how she identifies circuit 17 without opening the dead front. She has the customer's permission, because turning off a breaker shuts off whatever's on it. Loads on, she turns the breaker off, operating the handle only. She stands to the side, uses her left hand where practical, and looks away. Then she walks the corridor, notes what went dark, turns it back on, and corrects the directory legibly.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: circuit tracer receiver scanned across closed-panel breaker handles.",
+      "on_screen": "Or use a circuit tracer on the handles",
+      "says": "You can also use a circuit tracer. The transmitter goes on the load, and you scan the receiver across the breaker handles of the closed panel, following the tool's instructions. Either way, record the result. The code requires every circuit to be legibly identified by its specific purpose, with the directory at the panel. Keeping it accurate is everybody's job.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Clipboard close-up: tech totals fixture nameplate watts. On-screen table: 15 A / 20 A / 30 A at 80%.",
+      "on_screen": "Continuous load ≤ 80%: 20 A → 16 A → 4,432 W at 277 V",
+      "says": "Next, load. A continuous load runs three hours or more, and most commercial lighting qualifies. A standard breaker should carry no more than 80 percent of its rating continuously. A 20 amp breaker: 16 amps. At 120 volts, that's 1,920 watts; at 277, 4,432 watts. Use the fixture's input watts or VA from its label, because ballast and driver losses count.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Clipboard math on screen: 34 × 38 W = 1,292 W ÷ 277 V ≈ 4.7 A vs 16 A.",
+      "on_screen": "34 × 38 W = 1,292 W ÷ 277 V ≈ 4.7 A",
+      "says": "Here's her circuit 17: a 20 amp breaker on a 277 volt panel feeding 34 LED troffers at 38 watts input. That's 1,292 watts, divided by 277, about 4.7 amps. Well under 16. So if this breaker trips intermittently, overload is unlikely. Suspect a fault, a loose connection, or a weak breaker.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: browned paint on a dead front next to one breaker; tech feels the handle and dead front with the back of her hand.",
+      "on_screen": "Discoloration | Smell | Warmth | Buzzing | Flicker | Damage",
+      "says": "Heat is the enemy of breakers. A loose terminal can make one run hot, trip below its rating, and start a fire. From outside the dead front, look for brown handles or browned paint, smell for hot plastic or a fishy odor, feel for warmth with the back of your hand, and listen for buzzing or crackling. Flicker when the handle's touched, a melted handle or soot? Write it up.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Thermal camera image of a closed panel: one breaker handle noticeably brighter than its neighbors.",
+      "on_screen": "Warmer than neighbors → write it up | Hot spot → urgent",
+      "says": "A thermal camera from outside the closed panel can show unusual warmth compared with similar breakers. Similar to its neighbors: normal. Noticeably warmer: write it up with the image. A hot spot at one breaker or the main lugs: urgent. A full scan with the dead front off is energized work for a qualified person in PPE, often a certified thermographer.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the panel. Red callout.",
+      "on_screen": "Smoke, burning, melting, arcing: don't touch. Move people. Call now.",
+      "says": "And if you see smoke, smell burning, see melting or hear arcing, don't touch the panel. Move people away, notify the customer and your supervisor immediately, and call for emergency help if needed. That's not a write-it-up-later situation. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Field segments per the lesson's video suggestion. Dead front stays on throughout; show the safe stance (side of the panel, left hand, looking away). Thermal image must be taken from outside the closed panel. Verify on-screen math: 34 x 38 W = 1,292 W; 1,292 / 277 ≈ 4.7 A; 80% of 20 A = 16 A; 16 x 277 = 4,432 W. No customer names on the directory card."
+}

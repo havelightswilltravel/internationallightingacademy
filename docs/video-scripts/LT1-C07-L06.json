@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C07-L06",
+  "title": "Company LOTO Rules for Crews, Removal & Live Work",
+  "course": "LT1-C07",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 285,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Office floor at the end of a retrofit day: new LED fixtures installed, ladders folded, a group lockbox at the panel with three personal locks on it. Danny medium shot.",
+      "on_screen": "Job Mindset: crews, removal and live work",
+      "says": "Job Mindset for crew lockouts. The danger at the end of the day is power coming back while someone's still in a fixture, or a lock left behind. Plan ahead: enough locks and tags for every person and every point, everyone knows who's last off, and the supervisor's number is handy. Keep your key on you the whole time.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny holding his key.",
+      "on_screen": "Your lock. Your key. A crew lock never replaces yours.",
+      "says": "Every worker places their own lock and tag before starting, on a hasp or group lockbox. A crew lock never replaces a personal lock for each person exposed. Keep personal control of your key the whole time. Never hand it to a coworker or leave it in the van. Nobody locks out for you. And when your part's done, remove your own lock right away.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Crew members remove their locks one by one from the lockbox. The last tech calls the supervisor, who arrives and walks the area, looking into fixtures and checking lenses before releasing the circuits. Danny voice-over.",
+      "on_screen": "Last lock off: tell the supervisor",
+      "says": "Here's the end of the day. Each tech removes their own lock. The last person off tells the supervisor the work has ended. The supervisor walks the area and makes sure all work really is finished before the circuits are released for normal use.",
+      "seconds": 18
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Supervisor at the panel, graphic list overlay. Danny voice-over.",
+      "on_screen": "1. Clear people and tools  2. Check for hazards  3. Notify  4. Remove only your lock",
+      "says": "Our removal sequence. Clear people and tools: nobody in the fixtures, nothing left inside. Check for hazards: covers and lenses on, no pinched wires, no shorts. Notify the site contact and the people in the area that power's coming back. Then remove your lock and tag, only yours, restore power, and test the fixtures.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny at the lockbox, one lock still on it.",
+      "on_screen": "Unauthorized lock removal = severe discipline, probable dismissal",
+      "says": "Now the forgotten-lock rule. If someone leaves a lock on, the supervisor makes every attempt to reach them. If they can't be reached, the lock comes off only after an authorized person physically inspects the work and confirms it's complete and safe, and the worker is told before they come back. Removing someone else's lock any other way means severe discipline and probable dismissal.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny unplugs a corded tool, puts a plug lockout cover on it and hangs a red DANGER tag.",
+      "on_screen": "Plug-in equipment: unplug, keep control of the plug, DANGER tag",
+      "says": "Plug-in equipment is simpler. Unplug it, keep the plug under your control, in your sight or in a plug lockout cover, and hang a DANGER tag on it so nobody plugs it back in while you're working on it.",
+      "seconds": 16
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny in a lit store aisle (generic), medium close-up.",
+      "on_screen": "\"Can't you just do it live?\"",
+      "says": "Sooner or later a customer will ask, can't you just do it live? Our handbook's clear: the power source is disconnected first. The first answers are portable work lights, splitting the work by circuit, or scheduling after hours. Our company allows qualified, authorized techs to work energized lighting only when shutting it off would itself create a hazard, like darkening an occupied store, and only with a risk assessment, the right PPE and a permit.",
+      "seconds": 30
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Same aisle, close-up on Danny.",
+      "on_screen": "Can't lock it out? You don't work on it. Call your supervisor.",
+      "says": "That's never LT1 work. The old method of cutting leads in an energized fixture and adding an in-line disconnect? That's energized work, for a qualified person under our Energized Electrical Work Permit. For you, the answer is simple. If you can't lock it out, you don't work on it. Call your supervisor.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny at the panel, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Before you leave any lockout, ask: can every lock tell someone who's working? Do we have enough locks and tags? If something can't be locked, is there a written procedure? Any no, tell your supervisor. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Crew and supervisor on camera; Danny narrates. Props: group lockbox, personal locks, DANGER tag, plug lockout cover, corded tool. Licensing note: the lesson marks the energized-lighting stance as this company's own; licensees must confirm their own stance before using scene 7 as written, or re-record that line. No real customer store branding."
+}

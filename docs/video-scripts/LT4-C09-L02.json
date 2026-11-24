@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C09-L02",
+  "title": "Lighting Power Density (LPD)",
+  "course": "LT4-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 210,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office desk with a floor plan, fixture schedule, spec sheet and calculator; Matthew seated, medium shot.",
+      "on_screen": "Lighting Power Density (LPD)",
+      "says": "Today we're doing math at a desk, but it decides whether a job passes inspection. Lighting power density, or LPD, is the number energy codes limit. If you install the wrong fixture because it was on the truck, you can push a whole project over the limit. So let's learn to calculate it and get the inputs right.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close on the calculator and a card with the formula.",
+      "on_screen": "LPD (W/ft²) = luminaire input watts ÷ floor area (ft²)",
+      "says": "LPD is total installed luminaire input watts divided by floor area in square feet. The code sets a maximum, called the lighting power allowance, for each building or space type. Your installed LPD can't be higher than that allowance.",
+      "seconds": 16
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Overhead shot of a spec sheet; Matthew highlights the input watts line. Then a fluorescent lamp box next to it.",
+      "on_screen": "Use: spec sheet input watts, DLC listed watts, measured watts\nDon't use: lamp watts or 'replaces 400 W'",
+      "says": "The watts have to be complete-luminaire input watts: what the whole fixture draws from the circuit, driver or ballast losses included. Use the spec sheet input watts, the DLC listed wattage for the exact model, or a measured value. Never use lamp wattage or the 'equivalent' wattage on a box. A 32-watt T8 lamp? A two-lamp fixture with its ballast draws roughly 55 to 60 watts.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holds up an LED troffer driver with a selector switch (training sample).",
+      "on_screen": "Adjustable wattage: codes generally use the maximum setting",
+      "says": "Watch field-adjustable luminaires. Codes generally require you to count the maximum possible setting, unless the setting is locked or permanently limited in a way the code accepts. Check the adopted code. And if you're told to set a driver to a specific wattage, set it as specified and write the setting down.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Floor plan on desk; Matthew outlines the whole building, then individual rooms.",
+      "on_screen": "Building Area Method: one allowance\nSpace-by-Space Method: allowance per space, trade-offs allowed",
+      "says": "There are two prescriptive methods. The building area method applies one allowance to the whole building based on its type. The space-by-space method gives each space type its own allowance. You multiply each allowance by its area, add them up, and compare the total to the total installed watts. That method allows trade-offs between spaces.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Screen graphic of the worked example tables over the desk shot.",
+      "on_screen": "Allowed: 2,200 W   Installed: 2,020 W\nLPD = 2,020 ÷ 4,000 = 0.51 W/ft²\n(illustrative allowances only)",
+      "says": "Here's the example from your lesson, with illustrative allowances only. A 4,000-square-foot suite: open office, corridor, storage. Total allowed is 2,200 watts. The LED retrofit installs 2,020 watts. Storage alone is over its own allowance, 200 against 160, but the total is under, and the space-by-space method permits that trade-off. Installed LPD is 0.51 watts per square foot.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Same desk; graphic of the before/after table.",
+      "on_screen": "LPD fell ~54%\nLighting EUI fell ~63%\nThe difference: controls",
+      "says": "LPD is power. The customer pays for energy, which is power times hours. Energy-use intensity, or EUI, is annual kilowatt-hours per square foot. In that suite, the old lighting was 4,400 watts for about 3,500 hours. The retrofit, with occupancy sensors, runs about 2,800 hours. LPD dropped about 54 percent; lighting EUI dropped about 63. Sensors don't change LPD, but they lower EUI.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera; cutaway to a stack of 40 W troffer cartons in a stockroom.",
+      "on_screen": "Install what was submitted. Substitutions in writing, with the spec sheet.",
+      "says": "Common mistake: the submittal lists 32-watt troffers, but 40-watt troffers are in stock, so someone installs those. That can push the project over the allowance. Install what was submitted. Submit any substitution in writing with the spec sheet so the designer can re-check LPD. And on audits, record real lamp counts, ballast factor or measured watts.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a training luminaire with a power meter on the bench; covers closed.",
+      "on_screen": "Never open a wiring compartment energized to attach clamps",
+      "says": "If you measure input watts in the field, that's energized measurement. Use a properly rated meter and follow our energized-work rules and PPE. Never open a luminaire wiring compartment energized to attach clamps. De-energize, apply LOTO, verify absence of voltage, install the meter connections, then restore power with covers closed.",
+      "seconds": 20
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the desk, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Input watts, not lamp watts. Know your method. Count the hours for energy. Install what was submitted. Now read the lesson, work the examples yourself, and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Calculation lesson; no full Job Mindset opener. Props: generic office floor plan, fixture schedule, LED troffer spec sheet with input watts visible, fluorescent T8 lamp carton, calculator, a training luminaire with a field-selectable driver, power meter. Show the worked-example tables from the lesson as on-screen graphics, labeled 'illustrative allowances only'. No real prices."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C04-L01",
+  "title": "Fluorescent Ballast Types and Starting Methods",
+  "course": "LT2-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 198,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with three two-lamp T8 fixtures side by side, labeled IS, RS and PS, on a guarded test board. Medium shot.",
+      "on_screen": "Fluorescent Ballast Types and Starting Methods",
+      "says": "To troubleshoot a fluorescent fixture and pick the right replacement, you need to know how the ballast works. Get the ballast, lamp and socket mismatched, and you've built a callback, or a failed ballast. A fluorescent ballast does three things: it gives a high voltage to strike the lamp, it limits current once the arc is lit, and in some designs it heats the cathodes.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Side-by-side: a heavy magnetic ballast and a light electronic ballast in hand.",
+      "on_screen": "Magnetic: 60 Hz, hum, heavy | Electronic: 20 kHz+, quiet, efficient",
+      "says": "Magnetic ballasts run at 60 hertz. They're heavy, can hum and flicker, and federal efficiency standards have largely eliminated new ones for common lamps. Electronic ballasts run at high frequency, typically 20 kilohertz or more. They're quiet, efficient and light. When an old T12 magnetic ballast fails, the usual answer is an LED retrofit or T8 conversion. Discuss options with your lead and the customer.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Three fixtures switched on together; on-screen timers show start delay for each.",
+      "on_screen": "Instant start: instant | Rapid start: about 1 s | Programmed start: about 0.5-1.5 s",
+      "says": "Watch them start. Instant start strikes the lamp with a high voltage, often 600 volts or more, with no preheat. It's the most efficient, but each start wears the cathodes, so it's a poor match for occupancy sensors. Rapid start heats the cathodes continuously and starts in about a second. Programmed start preheats to a controlled temperature, then strikes, in about half a second to a second and a half.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer pulls one lamp from each fixture with power locked out; then restores power: instant-start fixture keeps one lamp lit, the series fixture goes fully dark.",
+      "on_screen": "Parallel (IS): one fails, others stay lit | Series (RS, PS): one fails, both can go out",
+      "says": "Now pull one lamp from each. Instant start is usually wired in parallel, so the other lamp stays lit. Rapid start is traditionally series, so one failed lamp can put out both. Programmed start is usually series too, though parallel versions exist; read the label. That's why programmed start is the best choice for occupancy sensors and frequently switched spaces, and for T5 lamps.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Continuity tester on two sockets: one shunted showing continuity between contacts, one non-shunted showing open.",
+      "on_screen": "IS = shunted sockets | RS and PS = non-shunted sockets",
+      "says": "Sockets have to match. Instant start uses shunted sockets, where the two contacts are tied together. Watch the tester: continuity. Rapid and programmed start need non-shunted sockets, two separate connections to each cathode. Open. Put a rapid or programmed-start ballast on shunted sockets and you short its cathode leads. The lamps won't start, or the ballast fails. Rapid start also needs a grounded fixture.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up beside the test board.",
+      "on_screen": "Ballast output can exceed 600 V at the sockets, even on a 120 V circuit",
+      "says": "Safety. Ballast output voltage can exceed 600 volts at the sockets during starting, even on a 120 volt circuit. Never touch sockets or lamp pins with the circuit energized, and lock out before relamping when the work order or company procedure requires it.",
+      "seconds": 17
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a ballast label, finger tracing each line.",
+      "on_screen": "(2) F32T8 | 120-277 V | PS | BF: low about 0.77, normal about 0.87-0.88, high about 1.15-1.20 | min start temp | diagram | Class P | No PCBs",
+      "says": "Read the label line by line. Lamp type and quantity, like two F32T8. Input voltage. Starting method, which must match the sockets. Ballast factor: low is about 0.77, normal about 0.87, high about 1.15 to 1.20. Swap normal for low, and you lose about ten percent of the light. Minimum starting temperature. The wiring diagram, followed exactly. Class P protection, and a No PCBs marking.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "Match ballast, lamp and socket",
+      "says": "Most fluorescent mystery problems after a repair are mismatches: T8 lamps on a T12 ballast, the wrong socket type, or energy-saver lamps on a ballast not rated for them. Match the ballast, the lamps and the sockets, and match the original ballast factor unless the customer approved a change. Now read the lesson and take the quiz.",
+      "seconds": 23
+    }
+  ],
+  "production_notes": "Bench demo per the lesson's video suggestion with three two-lamp T8 fixtures (IS, RS, PS) on a guarded test board. Lamps pulled and sockets tested only with power locked out; restore power only behind the guard for the series/parallel demonstration. Ballast label close-up with brand masked."
+}

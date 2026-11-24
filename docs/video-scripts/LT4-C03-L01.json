@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C03-L01",
+  "title": "Occupancy & Vacancy Sensors — PIR, Ultrasonic & Dual-Technology",
+  "course": "LT4-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 270,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Private office with a wall-box PIR sensor by the door; Matthew in the doorway, ladder and tool bag beside him. Medium shot.",
+      "on_screen": "Job Mindset: Installing a Sensor",
+      "says": "Installing a sensor means opening wall boxes and junction boxes that often hold more than one circuit. Lock out every circuit in the box and test every conductor, live-dead-live. Plan ahead: check the spec for mode and time delay, confirm there's a neutral, and bring a ladder, masking tabs and a power pack rated for LED loads. Think about placement before you cut anything.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; graphic table of occupancy, vacancy and partial-on modes.",
+      "on_screen": "Occupancy: auto-on / auto-off | Vacancy: manual-on / auto-off",
+      "says": "Both types turn lights off automatically after the room is empty for the time delay. The difference is how they come on. Occupancy is auto-on, used in restrooms, corridors and break rooms. Vacancy is manual-on: you press the switch. That's private offices and conference rooms, and it saves more energy. Follow the spec or the customer's direction. Don't change the mode without approval.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups: a PIR lens with its segmented zones; a ceiling dual-tech sensor; animation of IR zones versus ultrasonic waves wrapping around a stall partition.",
+      "on_screen": "PIR = line of sight | Ultrasonic = around obstacles | Dual-tech = fewer errors",
+      "says": "PIR senses heat moving across the zones of its lens. It's inexpensive with few false-ons, but it needs line of sight and misses small motions like typing. Ultrasonic sends out high-frequency sound and detects motion around obstacles, good in restrooms with stalls, but air currents can fool it. Dual-tech combines them, typically both to turn on and either to stay on.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Coverage diagram from a sensor spec sheet overlaid on an office floor plan: large major-motion pattern, much smaller minor-motion pattern covering the desk.",
+      "on_screen": "Mount so where people SIT is in the minor-motion pattern",
+      "says": "Every sensor has a published coverage diagram for major motion, walking, and minor motion, hand movements at a desk. The minor-motion pattern is much smaller. Mount so the places people sit still fall inside it.",
+      "seconds": 15
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Open restroom ceiling: senior tech points from a ceiling dual-tech sensor to the HVAC supply diffuser, then to the doorway into the corridor. Presenter voice-over.",
+      "on_screen": "Away from diffusers | No hallway view | No cycling heat sources",
+      "says": "Placement is where most problems start. Keep ultrasonic and dual-tech sensors at least the manufacturer's distance from HVAC supply diffusers; moving air causes false-ons. Avoid views out the door into busy corridors, and use masking tabs on PIR lenses if you need to. Don't aim PIR at heaters or sunny windows. In restrooms with stalls, use ultrasonic or dual-tech.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a power pack mounted through a junction-box knockout, Class 2 leads on the outside; wall-box sensor with a neutral connection.",
+      "on_screen": "Neutral present? | Relay rated for LED drivers? | Class 2 kept separate | Never ground as neutral",
+      "says": "Wiring notes. Many sensors need a neutral. Verify it's actually in the box. Never use the ground as a neutral. Check the power pack relay's rating for LED driver loads, because inrush from many drivers can weld the contacts. Keep the low-voltage sensor cable out of line-voltage raceways; the power pack gives you the barrier. And never mix 120 and 277 on one relay unless it's rated for it.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech sets sensor to test mode, walks the room watching the indicator LED, then sits at the desk making small hand motions. Presenter voice-over.",
+      "on_screen": "Test mode | Walk the room | Sit and make small motions | Adjust sensitivity",
+      "says": "Now test. Put the sensor in test mode with a short delay. Walk the room and watch the LED: far corners, desks and the doorway. Then sit at each workstation and make small hand motions. The lights must stay on. False-ons from the hallway or HVAC? Turn sensitivity down. False-offs? Turn it up.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of time-delay dial being set; tech fills in settings on a work order; tech explains vacancy mode to an office occupant (actor).",
+      "on_screen": "Set delay per spec | Set mode | Exit test mode | Record settings",
+      "says": "Set the final time delay per the spec, commonly 10 to 30 minutes in offices, and energy codes limit the maximum. Set the mode and any daylight hold-off. Exit test mode. Record the settings on the work order, and give the customer a quick explanation, like why they press the button to turn lights on in a vacancy room.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Office worker (actor) at a desk typing as the lights shut off; Matthew steps into frame.",
+      "on_screen": "Lights off on people sitting still? Minor motion, delay, sensitivity, location.",
+      "says": "Classic callback: lights go off on someone sitting still at their desk. The PIR can't see minor motion there, the delay's too short, sensitivity's too low, or the sensor's in the wrong spot. Lights that never come on? Check power to the pack, the relay, and whether it's in vacancy mode waiting for a button press.",
+      "seconds": 22
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the office doorway.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Right mode, right spot, walk-tested and written down. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Locations: private office with wall-box PIR sensor; open restroom with ceiling dual-tech sensor and visible HVAC supply diffuser. Props: sensor spec sheet coverage diagram (generic), masking tabs, power pack on junction box, work order. Show lock and tag at the panel for any wiring shots. Senior tech performs install/test steps while Matthew narrates. Actors for office occupant. Matches skill sign-off 'Install and adjust an occupancy/vacancy sensor'. Lesson cross-references energy codes to 'LT4-C02', which may be a stale course number after the Nov 23 renumbering."
+}

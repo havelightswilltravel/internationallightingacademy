@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C01-L03",
+  "title": "Hazards and the Hierarchy of Controls for Every Task",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room whiteboard with an upside-down pyramid drawn: Elimination at the wide top, then Substitution, Engineering, Administrative, PPE at the narrow bottom. Matthew beside it, medium shot.",
+      "on_screen": "Two questions before every task:\n1. What can hurt someone here?\n2. What are we doing about it, strongest fix first?",
+      "says": "Before you touch anything, on any task, answer two questions. What can hurt someone here? And what are we doing about each one, starting with the strongest fix? This pyramid is how safety professionals everywhere answer the second question. It's called the hierarchy of controls, and from now on every task lesson in this program will ask you to use it.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew points down the pyramid level by level.",
+      "on_screen": "1 Elimination | 2 Substitution | 3 Engineering | 4 Administrative | 5 PPE",
+      "says": "Start at the top. Elimination removes the hazard: lock out so there's no voltage, or do the work from the floor. Substitution swaps in something safer: a scissor lift instead of a tall extension ladder. Engineering isolates people: barricades, guardrails, lockout devices. Administrative changes how we work: procedures, spotters, the pre-task brief. PPE is last.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of Matthew holding rubber insulating gloves, then a lock and a barricade cone.",
+      "on_screen": "\"Be careful\" is not a control.",
+      "says": "Why is PPE last? It only works if it's the right kind, in good condition, worn correctly, every second. A barricade works even when you forget about it. Removing the voltage works even if your glove has a pinhole. And real tasks use several layers at once. The order just tells you where to start looking. One more thing: be careful is not a control.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Field segment 1: relamp in an open store; the trainee names hazards aloud, the trainer asks the five questions. Freeze and fill the pyramid on screen.",
+      "on_screen": "Relamp, open store: Can it be done when the store is closed?",
+      "says": "Segment one. Relamping six troffers over an open store aisle. The trainee names the hazards: shoppers under the ladder, shock, a fall, broken glass. The trainer asks: can we get rid of it? Do it before opening or after close, and the biggest public hazard is gone. Can't? Barricade both ends of the aisle, lock out, platform ladder if it fits, gloves and glasses.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Field segment 2: a parking-lot pole at night; trainee as ground person in a hi-vis vest beside cones and a lift. Pyramid fills in.",
+      "on_screen": "Pole light at night: the ground person IS a control",
+      "says": "Segment two. A pole light in a dark parking lot. Can we do it in daylight or close that part of the lot? Then cones and a barricaded zone, the truck parked to shield the work with beacons on, work lights. Lock out the lot lighting circuit and check for time clocks and capacitors. Ten feet from lines up to 50 kV. And the ground person isn't just watching. You're a control.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Field segment 3: high-bay retrofit from a scissor lift in a warehouse with forklifts in the background. Pyramid fills in.",
+      "on_screen": "High-bay from a scissor: close or reroute forklift traffic first",
+      "says": "Segment three. High-bays at 28 feet from a scissor, forklifts nearby. Can the site close or reroute traffic in your bay, or schedule you when forklifts aren't running? Pre-use inspection, authorized operator only. Barricade, walk the travel path, spotter. Lock out every circuit in the zone and verify at each fixture. Lower heavy fixtures with the lift, two people, hard hats below.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Field segment 4: emergency ballast change in an office hallway troffer; close-up of the battery connector being disconnected.",
+      "on_screen": "Breaker off does NOT make an emergency fixture dead",
+      "says": "Segment four. An emergency ballast change. The hazard most people miss is the stored energy in the battery. The breaker off does not make an emergency fixture dead. Lock out the breaker feeding both the switched and unswitched legs, disconnect the battery connector before touching wiring, and verify every conductor, including the output leads. Tell the site the emergency function is out until you finish.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Field segment 5: a hot attic above an office; walk board across joists, a fan and a work light, a partner at the scuttle hole.",
+      "on_screen": "Attic: can it be done from below?",
+      "says": "Segment five. A fixture reached from a hot attic. Can it be done from below, through the ceiling opening, or early before the attic heats up? A walk board across the joists. Look before you reach, and stop for suspected vermiculite or droppings. Fan, work light, short work periods, water, and a partner who knows you're up there. Then lock out and verify, same as always.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the whiteboard; Matthew writes three columns: Step | Hazard | Control.",
+      "on_screen": "Step | Hazard | Control\nMissing a control? Don't start.",
+      "says": "The common mistake is jumping straight to 'I'll wear gloves.' Go back up the list. For tomorrow's first task, write three columns: step, hazard, control. Fill them in before you leave the shop and show your trainer. If a control is missing, the plan isn't done, so don't start. Re-run it when anything changes. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Whiteboard with an upside-down pyramid (Elimination wide at top, PPE narrow at bottom); five short field segments, each paused to fill in the pyramid on screen while the trainer asks 'Can we get rid of it? Can we swap it? Can we guard it? What's the rule? What do we wear?'. Lift work by authorized operators only; pole segment keeps lifts well clear of overhead lines; attic segment on a safe set. Lesson file: curriculum/levels/LT2/courses/LT2-C13/lessons/03-hazards-and-the-hierarchy-of-controls.md."
+}

@@ -1,0 +1,91 @@
+{
+  "vid": "LT1-C01-L07",
+  "title": "Company Vehicles & Driving Safety",
+  "course": "LT1-C01",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 300,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop yard at dawn. Danny beside a bucket truck with a lift trailer hooked up. Medium shot.",
+      "on_screen": "Job Mindset: before you drive",
+      "says": "Counting the hours, driving is the riskiest thing you'll do all day. A loaded bucket truck can weigh around 17,000 pounds, often with a lift behind it. So plan the trip before you roll: inspection done, defects reported, navigation set, route checked for weather, and a plan for a breakdown. Think ahead about where the bucket swings and where you'll park. Never be in a hurry.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Tech walking around the truck with a phone open to the DVIR in the company app. Quick cuts: horn, windshield, mirrors, dash, tires, lights, triangles, extinguisher gauge. Danny voice-over.",
+      "on_screen": "DVIR: every vehicle, every trailer, every shift",
+      "says": "Every vehicle and every trailer gets a pre-trip inspection, a DVIR, every shift, in the company app. About five minutes. Horn. Windshield, no cracks in your view. Mirrors. No warning lights on the dash. Brakes and steering. All the lights. Seat belts. Three reflective triangles. Extinguisher mounted, charged and current. Tires and wheels. Load secured. Defects go to your supervisor before the vehicle's used.",
+      "seconds": 30
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-ups at the hitch: coupler latched with pin in, safety chains crossed, breakaway cable clipped on separately, then the brake controller in the cab being set. Danny voice-over.",
+      "on_screen": "Pins in holes - Chains crossed - Breakaway attached - Controller gain set",
+      "says": "Towing. Coupler latched and pinned. Pins in holes, every pin, every time. Safety chains crossed under the coupler. Breakaway cable attached separately, battery charged. Lights working. And no brake controller, no heavy braked trailer. Set the gain every time you hook up, per the company setup guide. No homemade trailer repairs. Report all trailer damage.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny at the cab door, close-up.",
+      "on_screen": "DOT thresholds vary by state. We follow federal standards everywhere.",
+      "says": "A word on DOT rules. Federal rules generally kick in over 10,000 pounds across state lines, and in-state thresholds vary by state. A heavy trailer can push you over. Our policy is to follow the federal standards everywhere. And act on warning signs. A battery light at start-up can mean a broken belt. Shut it off and call it in.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Inside the cab on the road: phone on its mount, silenced. Dash-cam view of a 3-second gap behind a car, then a slow pass beside a lane of stopped traffic. Danny voice-over.",
+      "on_screen": "Hands-free still distracts. 3-second gap minimum.",
+      "says": "On the road, flip the switch into professional, defensive mode. Phones distract your eyes, your hands and your mind, and hands-free still distracts your mind. Let it go to voicemail or pull over. Keep at least a 3-second gap, more in a heavy truck or bad weather. Slow way down passing a lane of stopped traffic. Someone may step out.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Parking lot. A spotter in a hi-vis vest guides the bucket truck back; camera shows the front-mounted bucket swinging close to a light pole as the wheel turns. Danny voice-over.",
+      "on_screen": "The bucket hangs off the front. Watch your swing.",
+      "says": "Bucket and lift trucks. The bucket and step platform hang off the front. They grab things when you turn the wheel and when you back up. Watch your swing, and use an observer to back whenever you can. Stow the jib before you drive. Park with the brake set every time, chock trucks over 15,000 pounds, and cone off the area at the job.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Roadside shoulder (closed lot staged as a shoulder). Danny in a hi-vis vest places reflective triangles while facing traffic.",
+      "on_screen": "Off the road - flashers - triangles within 10 min - stay clear - call supervisor",
+      "says": "Breakdown. Get as far off the road as you safely can. Flashers on. Triangles out within 10 minutes, vest on, walking facing traffic. Then stay clear of traffic, usually away from the truck, behind a barrier if there is one. Call your supervisor. No roadside repairs unless our mechanic or your supervisor approves them. And never work under a truck held up by a jack.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny beside the truck with an accident investigation form from the paperwork tin.",
+      "on_screen": "Accident: 911 if hurt - supervisor - police - photos - form. Never admit fault.",
+      "says": "If there's an accident: injuries, call 911 first, then your supervisor. Another vehicle or person involved, call the police and report it to our insurance, no matter how minor. Take photos of everything, get witness names, and fill out the accident form. Never admit fault or argue at the scene. Just answer the police honestly.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Cab interior in winter: fuel gauge at half on a diesel, winter kit bag on the seat.",
+      "on_screen": "Diesel: keep at least half a tank in winter",
+      "says": "Winter. Triple your following distance. Bridges and shady spots freeze first. We'd rather you not take snowy canyon roads, so check the weather and talk to your supervisor first. Keep a diesel at least half full so the fuel doesn't gel. Stranded? Stay with the vehicle, run the engine about 10 minutes an hour, with the exhaust clear of snow and a downwind window cracked.",
+      "seconds": 28
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Danny at the truck, close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "A vehicle is a tool like any other. A defect, a brake controller that won't set, a road beyond what the truck can handle: stop and call your supervisor. You have stop-work authority behind the wheel too. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Tech performs the DVIR and hitch checks; Danny narrates. Driving footage on closed roads or in a private lot with a professional driver; phone on a mount, never handled while driving. Backing scene uses a spotter and keeps the bucket clear of the pole. Breakdown triangles filmed in a closed lot, not a live road. Show a generic app screen, no vendor branding."
+}

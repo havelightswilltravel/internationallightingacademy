@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C14-NEW-stopwork",
+  "title": "Calling a Job: Stop, Regroup and Get Your Manager's OK",
+  "course": "LT1-C14",
+  "presenter": "Kyle McClelland",
+  "source": "outline",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Kyle McClelland",
+      "background": "Shop floor in front of the service trucks, morning light. Kyle, medium shot.",
+      "on_screen": "Calling a Job",
+      "says": "Sometimes the right call on a job is to stop. There are two very different reasons to stop, and they come with two different rules. I want you to know both cold, because getting them mixed up either gets someone hurt or wastes a trip.",
+      "seconds": 17
+    },
+    {
+      "scene": 2,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle close-up, direct to camera.",
+      "on_screen": "Safety concern: you have full authority to stop the job",
+      "says": "First, safety. If you see a safety concern, you have full authority to stop the job. You don't need permission. You don't need to be sure. Live voltage where it should be dead, a power line too close, ground that won't hold the lift, someone pressuring you to skip a lockout. Stop, make it safe, and call your manager. Nobody here will ever fault you for that.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Kyle McClelland",
+      "background": "Customer site: a tech steps down from a ladder, puts out cones, and calls on the phone. Kyle voice-over.",
+      "on_screen": "Stop | Make it safe | Call your manager",
+      "says": "Here's what that looks like. He stops, steps back, keeps people clear, and calls. He tells his manager what he found, what he's done to leave it safe and what he needs. Then he writes it down. That's not quitting a job. That's doing the job right.",
+      "seconds": 19
+    },
+    {
+      "scene": 4,
+      "speaker": "Kyle McClelland",
+      "background": "Customer ceiling with a lift that is too short for the fixtures; cartons of the wrong fixture type open on the floor.",
+      "on_screen": "Efficiency or quality problem: get your manager's buy-off BEFORE calling the job",
+      "says": "The second reason is different. Efficiency or quality. You've got the wrong labor, wrong materials or wrong equipment. A lift that's too short. Fixtures that don't match. One person where the job needs two. You might be right that it can't be done well today. But before you call the job, you get your manager's buy-off. That's the rule.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle back at the shop, medium shot.",
+      "on_screen": "Why: your manager may have options you don't see",
+      "says": "Why the difference? Because your manager may have options you can't see from the site. Another crew nearby with the right lift. Parts that can be on site in an hour. Other work at the same location you can do while you wait. Or the customer relationship that needs a phone call before we leave. Calling a job costs a trip. Make sure it's the right call.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Kyle McClelland",
+      "background": "Shop: the tech back at the counter with the work order, writing a return sheet and pulling the right parts with the supervisor.",
+      "on_screen": "Regroup: what's needed so the next trip is productive",
+      "says": "Once a job is called, for either reason, regroup. What exactly do we need so the next trip is productive? Parts with codes and quantities, the right equipment, the right number of people, the time, and the access notes. Write it on the return sheet. A called job only pays off if the next trip finishes it.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Kyle McClelland",
+      "background": "Safety meeting room: a whiteboard reading 'From our safety meetings'. Kyle stands beside it.",
+      "on_screen": "From our safety meetings",
+      "says": "We talk about these calls at our safety meetings, the good ones and the ones we'd do differently. The pattern is always the same. The techs who stopped for safety were right to. The trips that were wasted were the ones where someone called a job without a plan. So: safety, stop now. Everything else, call your manager first.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle in front of the trucks, medium close-up.",
+      "on_screen": "Safety: stop now. Everything else: manager's OK first.",
+      "says": "Nothing we do is worth getting hurt over, and no trip should be wasted. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Written from the outline only (no lesson file yet). Must be checked when the lesson is written: the outline calls for 'real examples from our safety meetings'; scene 7 is deliberately general and should be replaced with one or two approved, anonymized examples once the lesson includes them. The examples of manager options in scene 5 are illustrative and should be confirmed. Related existing content: lesson LT2-C13/02 (stop-work call) and LT1-C07/05 (return sheet)."
+}

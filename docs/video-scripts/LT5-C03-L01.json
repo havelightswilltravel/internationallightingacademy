@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C03-L01",
+  "title": "Navigating the NEC",
+  "course": "LT5-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 194,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop office table with a tabbed NEC code book open; Matthew seated beside a technician with a notepad. Medium shot.",
+      "on_screen": "Navigating the NEC",
+      "says": "Until now, you were told what the code requires for your tasks. From here on, you find and read the requirement yourself, apply it to what's in front of you, and know when to escalate. A code question answered right before the job is part of planning it. This course covers the NEC articles that matter most for lighting work.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close on the book's cover and edition; on-screen note.",
+      "on_screen": "This course: 2023 NEC (NFPA 70)\nThe AHJ-adopted edition governs",
+      "says": "We reference the 2023 NEC. It's revised every three years, and states and cities adopt editions on their own schedules, sometimes with amendments. Section numbers can change between editions. The edition adopted by the local authority having jurisdiction governs, so always confirm which one applies. Services, feeders and load calculations are licensed-electrician work, outside this program.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew flips through chapter tabs; graphic of chapter layout.",
+      "on_screen": "Ch. 1-4: apply generally (404, 410, 411)\nCh. 5-7: special, can MODIFY 1-4 (600, 700)\nCh. 9: tables",
+      "says": "How it's organized. Article 90 explains how to read the rest. Chapter 1 has definitions and general rules, like 110.3(B): install listed equipment per its instructions. Chapters 2 through 4 cover wiring, methods and equipment, including 404 switches, 410 luminaires and 411 low-voltage lighting. Chapters 5 through 7 are special situations, like signs and emergency systems, and they can modify the general rules.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close on a section with an exception and an informational note; Matthew points to each.",
+      "on_screen": "'shall' = mandatory • 'shall be permitted' = optional\nInformational notes: NOT enforceable",
+      "says": "Inside an article you'll see parts, sections and subdivisions. Exceptions follow the rule they modify. Informational notes explain, but they're not enforceable. The 3 and 5 percent voltage-drop recommendation lives in one. 'Shall' is mandatory; 'shall be permitted' is allowed but not required. 'Listed' means in an NRTL's list. 'Approved' means acceptable to the AHJ.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew opens Article 100.",
+      "on_screen": "Look up the definition: many disputes are definition disputes",
+      "says": "In the 2023 NEC, most definitions moved into Article 100. When a term matters, like 'luminaire,' 'wet location' or 'multiwire branch circuit,' look it up. Many code arguments are really arguments about a definition.",
+      "seconds": 14
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew and the tech work a question live: index in the back, then article 410. On-screen steps build.",
+      "on_screen": "1. Restate in code terms\n2. Index or contents\n3. Read the scope\n4. Read the whole section + exceptions\n5. Check Ch. 5-7\n6. Local amendments\n7. Write the reference",
+      "says": "Let's answer 'Can I put this fixture in a closet?' Restate it in code terms: equipment, location, action. Start in the index: 'Luminaires,' then 'closets.' Or use the table of contents if you know the article. Read the scope. Read the whole section, exceptions included. Check for chapter 5 to 7 changes and local amendments. Then write the reference on the work order, like 'NEC 2023 410.16.'",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close on a code book edge with tabs labeled.",
+      "on_screen": "Tabs: 90, 100, 110, 210, 225, 240, 250, 300, 310, 314, 404, 410, 411, 600, 700, 725, Ch. 9",
+      "says": "Tab your book for lighting work: 90, 100, 110, 210, 225, 240, 250, 300, 310, 314, 404, 410, 411, 600, 700, 725 and the Chapter 9 tables. If you'll use it on a test, check what tabs and notes are allowed.",
+      "seconds": 16
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera.",
+      "on_screen": "Not sure? STOP and ask the licensed electrician",
+      "says": "Know your limits. The NEC is a minimum safety standard, not a design manual. You also follow manufacturer instructions, specs, energy codes, NFPA 101, OSHA and state licensing law. If a code question affects whether it's safe or legal and you're not sure, stop and ask the licensed electrician responsible. Don't guess, and don't let schedule pressure decide a code question.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the table, medium close-up.",
+      "on_screen": "Code-compliant can still hurt you: LOTO + verify",
+      "says": "One more thing. The NEC governs how installations are built. NFPA 70E and OSHA govern how you work on them. A code-compliant installation can still hurt you if you work on it energized. De-energize, lock out and verify absence of voltage. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Knowledge lesson; scene 1 ties code lookups to planning. Props: tabbed 2023 NEC (show cover; avoid long verbatim on-screen quotes of NFPA text), notepad, work order. The video_suggestion calls for a licensed electrician working three questions live; this script works one question with Matthew as presenter and the tech as a non-speaking participant. The other two questions can be added as b-roll if a licensed electrician is available."
+}

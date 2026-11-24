@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C09-L05",
+  "title": "Cleaning Methods & Materials for Luminaires",
+  "course": "LT5-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 188,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Light-industrial room with a row of LED troffers and a wet-location vapor-tight on the wall; a cleaning cart with labeled bottles, soft cloths and a HEPA vacuum. Matthew beside it. Medium shot.",
+      "on_screen": "Job Mindset: Cleaning luminaires",
+      "says": "Cleaning puts water and hands inside an electrical device at height. So: lock out at the isolating device and verify live-dead-live; a wall switch or control 'off' is not lockout. Right ladder or lift, barricade below. Before you leave the shop, know every lens material, pick the cleaner for each, read its SDS, and bring spare gaskets, padding and lint-free cloths.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Identify the material. Follow the manufacturer. Use a compatible cleaner.",
+      "says": "Cleaning restores the biggest recoverable loss, keeps controlled fixtures from driving harder, and lets you spot damage early. Done wrong, it destroys a lens, breaks a seal or voids a warranty. And customers notice. We've had repeated complaints about bugs, cobwebs and dust left in lenses after a service call. Clean the fixture you open, and note it on the work order so it's visible and billable.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech applies lock and tag at the panel for the troffer row and the vapor-tight, tests the meter on a known source, tests each fixture, retests the meter. Presenter voice-over.",
+      "on_screen": "LOTO - live-dead-live - barricade - inspect access equipment - PPE per SDS",
+      "says": "Watch the setup. Confirm the scope and the cleaner for each material. Notify occupants and barricade below. Lock out and verify absence of voltage, live-dead-live, with a tested meter. Inspect the ladder or lift. Wear what the SDS and the task call for: safety glasses, gloves, and cut-resistant gloves for sheet-metal edges.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups: tech reads a fixture label, pulls up the manufacturer's maintenance instructions on a phone, then reads a cleaner's SDS sheet.",
+      "on_screen": "Acrylic - polycarbonate - glass - painted or anodized reflector - gaskets - LED optics",
+      "says": "Identify each part. Lenses can be acrylic, polycarbonate, glass or silicone. Polycarbonate is common in vapor-tights and parking fixtures. Reflectors are painted steel or anodized aluminum. Gaskets are silicone, foam or rubber. Not sure? Find the catalog number and pull the manufacturer's cleaning instructions. Then read the SDS for every cleaner you bring. And never mix cleaners.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table over a shot of the cleaning cart.",
+      "on_screen": "Safe default: mild detergent and water, soft cloth\nAvoid on plastics: ammonia, alcohol, solvents, abrasives\nGaskets: damp cloth only\nLED boards: usually don't clean",
+      "says": "Manufacturer's instructions come first. Where they're silent, mild non-abrasive detergent and water is the safe default. On acrylic, avoid ammonia, alcohol, solvents and abrasive pads. On polycarbonate, avoid ammonia, strong alkaline cleaners and solvents like acetone. Anodized aluminum: neutral detergent, light pressure, no bare-hand fingerprints. Gaskets: damp cloth only. LED boards and optics: usually don't touch them at all.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tech removes a troffer lens to a padded cleaning station, HEPA-vacuums the housing, washes both sides of the lens, rinses, dries, inspects, reinstalls with every latch closed.",
+      "on_screen": "Lens down to padded station - vacuum housing - wash both sides, rinse, dry - inspect - reinstall, all latches",
+      "says": "Take the lens down to a padded surface; don't drop dirt into an open housing. Vacuum or brush the housing and reflector. Wash both sides of the lens, rinse with clean water, dry with a lint-free cloth. Inspect for cracks, yellowing, bad gaskets, loose wiring or heat damage, and log it. Reinstall with gaskets seated and every latch closed. Then remove LOTO and confirm it works.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech opens the vapor-tight, inspects the gasket, wipes it with a damp cloth, lets the interior dry before closing.",
+      "on_screen": "No hosing unless the rating allows it - check gaskets - let it dry before closing",
+      "says": "Sealed and wet-location fixtures. Don't pressure-wash or hose a fixture unless its rating and instructions allow it. Inspect the gasket every time you open it; a pinched or hardened gasket lets moisture in, so replace it with the manufacturer's part. Let it dry before you close it. In food areas, follow the facility's chemical and hygiene rules and account for every part and tool.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Side-by-side: a clear acrylic lens next to one crazed with fine cracks from an ammonia cleaner.",
+      "on_screen": "Wrong cleaner = ruined lens\nNow read the lesson and take the quiz",
+      "says": "Here's what the wrong cleaner does. This acrylic lens was wiped with an ammonia-based glass cleaner. Crazed, and it's not coming back. Set cleaning intervals from the environment and measured light loss, not habit. Now read the lesson and take the quiz.",
+      "seconds": 17
+    }
+  ],
+  "production_notes": "Demo performer: senior technician. LOTO and live-dead-live must be shown in full before any lens is removed. The crazed acrylic lens is a pre-damaged prop; do not damage lenses on camera. Show SDS sheets with generic product names only. Lesson mentions customer complaints generically; keep it that way."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C06-L05",
+  "title": "Our Company's Install Standards for Retrofits and Replacement Fixtures",
+  "course": "LT2-C06",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 188,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Office corridor with an old surface fixture on a drywall ceiling; ladder, lockout kit, meter, stud finder, toggles and drill on a cart. Medium shot of Danny.",
+      "on_screen": "Job Mindset: hazards = shock, falling fixture, ladder, wrong voltage | lock out, verify | measure before you mount",
+      "says": "Replacing a fixture or installing a retrofit. The hazards: shock, a fixture that falls, the ladder, and a new fixture destroyed by the wrong voltage. Every step is done locked out and verified dead, except voltage and function checks, which a qualified person takes in the PPE we require. Before you leave the shop, pack a stud finder, toggles and the new fixture's label specs.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Lower third: Danny Smith, Operations Manager. Danny at the panel.",
+      "on_screen": "Measure L-N, L-L, L-G | compare to the label | doesn't match? Stop.",
+      "says": "I'm Danny. These standards come from problems we've seen in photos at our monthly meetings. Here's how we do it. Step one, before you mount anything, and always on exterior jobs, measure the supply: line to neutral, line to line, line to ground. Compare it with the new product's label. We've destroyed many new fixtures by assuming. If it doesn't match, stop.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Senior tech after lockout and verification removes the old fixture; drywall crumbles near the box; stud finder locates the joist. Danny voice-over.",
+      "on_screen": "Drywall: no self-tappers or wood screws | soft or water-damaged? Fasten to framing",
+      "says": "Drywall has almost no holding power for screws. Never use self-tapping metal screws or wood screws in drywall alone. They pull out. See how this drywall's soft near the old box? Old or water-damaged drywall that crumbles won't hold even a toggle. Fasten to the framing, joists or blocking. Carry a stud finder. Without one, you're guessing.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Close-up: toggles drawn up with the drill, then final turns by hand until the fixture is just flush.",
+      "on_screen": "Toggles: drill to bring it close | final tightening by hand | flush, then stop",
+      "says": "In sound drywall, use toggle bolts, and get them snug, not tight. Use the drill only to bring the toggle close. Do the final tightening by hand until the fixture is flush with the ceiling, then stop. Tighten more only if it's still loose. Overtighten, and you crush the gypsum and the toggle loses its grip.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the fixture centered, splices inside the box, no exposed wiring.",
+      "on_screen": "Conductors and wire nuts are never supports | every splice concealed | center it or get approval",
+      "says": "Support the fixture from the box or the structure, as the manufacturer and the NEC require. Conductors and wire nuts are never supports. On one of our jobs, a fixture that pulled loose was held up only because the wire nuts happened to be tight. Every splice goes inside the box or the wiring compartment. Center the fixture. If you can't, get approval first. Crooked row on a one-for-one? Ask.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Exterior wall pack at a building at late afternoon; tech measures supply first, then disconnects the factory photocell on the new fixture.",
+      "on_screen": "Disconnect the factory photocell unless told to keep it | note it on the work order",
+      "says": "Exterior upgrades. Measure the supply first. Many new exterior LED fixtures ship with a photocell. If the site's already controlled by a time clock, contactor or building photocell, that extra control makes troubleshooting much harder later. Our rule: disconnect or remove the factory photocell unless you're specifically told to keep it, and note it on the work order. Count any emergency wall packs before the job is quoted.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Same wall pack at dusk, lit; tech writes on the work order.",
+      "on_screen": "Test function after every exterior upgrade | couldn't test? Say so",
+      "says": "Then test function. We always check interior upgrades, but exterior ones get missed because the controls are hard to find. Operate the lights through their control, or do a cover test on the photocell. If you couldn't test function, say so on the work order. For HID conversions: choose a lamp that fits, set and record the color, follow the customer's standard on bypass, and label every converted fixture.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny back in the corridor under the finished fixture, medium shot.",
+      "on_screen": "",
+      "says": "Measure first, mount it right, hide the wiring, and prove it works. That's our standard. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Per the lesson's video suggestion: drywall surface-fixture replacement (soft drywall found, stud finder, toggles drawn up with drill and finished by hand) and an exterior wall pack (measure supply, disconnect factory photocell, check at dusk). Senior tech performs; Danny Smith presents and voices over. Supply measurements by a qualified person in required PPE. Lesson file path is LT2-C05/05 (course code differs from vid LT2-C06)."
+}

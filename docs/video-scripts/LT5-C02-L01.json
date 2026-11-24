@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C02-L01",
+  "title": "Photometric Units & the Laws of Light",
+  "course": "LT5-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 189,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Dark warehouse aisle under a high bay; Matthew holds a light meter; a portable work light on a stand nearby. Hi-vis vest. Medium shot.",
+      "on_screen": "Photometric Units & the Laws of Light",
+      "says": "In LT1 you learned lumens, watts and efficacy. Now we add the quantities that describe where light goes and how bright surfaces look. You'll use them every time you survey a space, answer a complaint or check whether a retrofit will work. And measuring light in a warehouse is still field work, so plan for forklift traffic and wear your hi-vis.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen table over the aisle.",
+      "on_screen": "Lumen (lm): total output\nCandela (cd): intensity in a direction\nFootcandle (fc) / lux: light ON a surface\nLuminance (cd/m²): brightness seen",
+      "says": "Four quantities. Luminous flux, in lumens, is total output. Luminous intensity, in candelas, is light in one direction. Illuminance, in footcandles or lux, is light arriving on a surface. Luminance is light leaving a surface toward your eye, the brightness you see. One footcandle is 10.764 lux. Ten is fine for conversation, not for a report.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew places the meter on a black mat, then a white sheet under the same light; reading is identical.",
+      "on_screen": "Your meter measures ILLUMINANCE, not brightness",
+      "says": "Your light meter measures illuminance. It doesn't measure how bright a surface looks. Watch: a black floor and a white floor under the same light read the same footcandles, but they look completely different. That's why reflectances matter in design.",
+      "seconds": 16
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Work light on a stand aimed down; meter at 8 ft, then 16 ft. Graphic shows the math.",
+      "on_screen": "E = I ÷ d²\n2,000 cd at 8 ft = 31 fc\n2,000 cd at 16 ft = 7.8 fc",
+      "says": "The inverse square law: illuminance equals intensity divided by distance squared. A downlight putting 2,000 candelas straight down gives 31 footcandles at 8 feet. Double the distance to 16 feet and you get 7.8. Twice as far, one quarter the light. The law is accurate when distance is at least about five times the fixture's largest dimension.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Wide shot of a tall warehouse ceiling with high bays.",
+      "on_screen": "Raise mounting height → much less light below",
+      "says": "In the field: raising mounting height dramatically lowers the light directly below unless the optics or lumens change. Swap a high bay designed for 20 feet into a 35-foot ceiling with the same optics, and the customer will be disappointed. Lower a pendant a couple of feet, and task light and glare both go up noticeably.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew tilts the meter 60 degrees; the reading drops roughly in half. Graphic: cos 60° = 0.5.",
+      "on_screen": "E = (I × cos θ) ÷ d²\nAt 60°: half the light\nHold the meter LEVEL",
+      "says": "The cosine law. Light hitting a surface at an angle spreads out, so illuminance drops by the cosine of the angle. At 60 degrees, cosine is 0.5: half the light. That's why you hold the meter level on the work plane, and why good meters are cosine-corrected, built to read correctly when light arrives from wide angles.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a dusty troffer lens next to a clean one.",
+      "on_screen": "Designs target MAINTAINED light\nLight loss factors often total 0.7-0.9",
+      "says": "Designs are calculated for maintained illuminance, not initial. Output drops from LED lumen depreciation, dirt on lenses and room surfaces, and ballast or driver factor. Design light loss factors often total 0.7 to 0.9. So here's the common mistake: a brand-new installation reading 20 to 30 percent above the maintained target may be exactly right. Don't call it overlit.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holding a printed photometric report with a polar plot.",
+      "on_screen": "LM-79 report: candela distribution • zonal lumens • spacing criterion • CU table\nSC 1.2 at 10 ft → spacing up to ~12 ft",
+      "says": "Manufacturers publish photometry tested to IES LM-79, usually as an IES file and a report. It shows the candela distribution, the zonal lumen summary, the spacing criterion, and the CU table. A spacing criterion of 1.2 at 10 feet above the work plane allows spacing up to about 12 feet. Space a narrow-beam fixture farther than that and you get scalloping.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Aisle, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Readings near forklifts or from a lift follow your LT1 through LT3 safety practices: PPE, traffic awareness and MEWP rules. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Knowledge lesson with a meter demo; scene 1 connects measurement to planned field work. Demo uses a portable work light on a stand (safer than a lift-mounted fixture); on-screen graphics show the lesson's numbers. Hi-vis on camera; aisle coned off from forklift traffic."
+}

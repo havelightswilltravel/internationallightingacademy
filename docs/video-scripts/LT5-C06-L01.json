@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C06-L01",
+  "title": "Harmonics & Neutral Current",
+  "course": "LT5-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 185,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Electrical room with a 277/480 V lighting panel, cover closed. Matthew stands beside it holding a true-RMS clamp meter. Medium shot.",
+      "on_screen": "Job Mindset: Measuring a lighting feeder",
+      "says": "Clamp readings inside a panel are energized work, so plan before you open anything. Do the risk assessment, confirm you're qualified, and wear PPE per the arc-flash label or the NFPA 70E tables. Bring a CAT III or CAT IV true-RMS meter and a thermal imager. And decide now: you will never open a neutral to check it.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard with two waveforms sketched: a smooth sine and a peaky pulsed current. Matthew points to each.",
+      "on_screen": "Linear load: smooth sine\nNonlinear load: current in pulses",
+      "says": "A heater or an incandescent lamp is a linear load. It draws a smooth sine wave of current. LED drivers, electronic ballasts and computers are nonlinear. Their input stage charges a capacitor and draws current only near the voltage peaks, unless the driver has good power factor correction.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of a harmonic spectrum bar chart: 60 Hz tall, 180 Hz large, then 300, 420, 540 Hz smaller.",
+      "on_screen": "3rd = 180 Hz - 5th = 300 Hz - 7th = 420 Hz - 9th = 540 Hz\nTHD: lower is better",
+      "says": "That pulsed wave is the 60 hertz fundamental plus harmonics, currents at whole multiples of 60. The third is 180 hertz, the fifth 300, and so on. Total harmonic distortion, THD, is the harmonic content as a percentage of the fundamental. Lower is better. DLC commonly requires power factor of 0.9 or more and THD of 20 percent or less for many categories, but check current requirements. Dimmed deep, THD usually gets worse.",
+      "seconds": 29
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Animation of a 3-phase 4-wire wye: three phase currents cancel in the neutral; then triplen components stack up in the neutral.",
+      "on_screen": "Triplens (3rd, 9th, 15th) ADD in the neutral",
+      "says": "On a three-phase, four-wire wye, balanced linear loads cancel in the shared neutral, so it carries almost nothing. But triplen harmonics, the third, ninth, fifteenth, are in phase with each other. In the neutral they add. With lots of drivers, the neutral can carry heavy current even with balanced phases, in extreme cases more than the phase current.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a discolored neutral lug (prop), then a transformer nameplate. Matthew voice-over.",
+      "on_screen": "NEC 310.15(E): count the neutral as current-carrying when most of a 4-wire wye load is nonlinear",
+      "says": "The results: overheated shared neutrals, burned terminals and lugs, transformers running hotter than the kVA reading suggests, and neutral-to-ground voltage at loads. The NEC recognizes this. When the major portion of a 4-wire wye load is nonlinear, the neutral counts as a current-carrying conductor for ampacity adjustment, under 310.15(E).",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified senior tech in arc-rated PPE at the open lighting panel clamps each phase conductor, then the neutral; analyzer screen shows the distorted waveform and a large 3rd harmonic. Presenter voice-over.",
+      "on_screen": "1 Risk assessment + PPE  2 CAT III/IV true-RMS  3 Clamp each phase, then neutral  4 Compare  5 Read THD and 3rd  6 Thermal scan",
+      "says": "Here's the procedure. Risk assessment and PPE first. Clamp each phase, then the neutral, one at a time. With balanced phases, a neutral reading that's a large fraction of phase current points to harmonics, or unbalance, so check both. Read THD and the third harmonic if your meter shows them. Then thermal-scan the neutral terminations from outside the arc-flash boundary or in proper PPE.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Side-by-side: the same neutral clamped with a true-RMS meter and an average-responding meter; the average-responding meter shows a noticeably lower number.",
+      "on_screen": "Average-responding meters can read 30-50% LOW on distorted current",
+      "says": "Now the common mistake. An average-responding meter assumes a perfect sine wave. On distorted current it can read low by 30 to 50 percent, hiding an overloaded conductor. Always use true-RMS.",
+      "seconds": 12
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back at the closed panel, medium close-up. Safety callout.",
+      "on_screen": "Never open a neutral under load. LOTO every circuit that shares it.",
+      "says": "And never open a neutral to check it. It may be carrying current, and opening it can put you at full voltage and damage equipment. To service a neutral termination, de-energize every circuit that shares it, apply lockout/tagout, and verify absence of voltage on all conductors, including the neutral.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the electrical room, medium shot.",
+      "on_screen": "High PF, low THD drivers - balance phases - never undersize shared neutrals - report overheating to the engineer\nNow read the lesson and take the quiz",
+      "says": "To reduce problems, specify high power factor, low THD drivers, balance loads, never undersize shared neutrals, and report persistent neutral heating to the engineer. Now read the lesson and take the quiz.",
+      "seconds": 13
+    }
+  ],
+  "production_notes": "Scene 6 performer must be a qualified person in arc-rated PPE appropriate to the panel label; show the arc-flash label briefly. Analyzer screen can be a recorded capture from an LED lighting feeder. Scene 7 meter comparison: real readings preferred; if staged, keep the difference within the lesson's 30-50% range. Discolored lug in scene 5 is a de-energized prop."
+}

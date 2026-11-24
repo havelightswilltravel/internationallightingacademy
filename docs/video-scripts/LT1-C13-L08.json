@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C13-L08",
+  "title": "Bucket Trucks, Scissor Floors & Lift Lessons Learned",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop yard beside a lift truck with the front-mounted bucket and step platform. Danny, medium shot.",
+      "on_screen": "Job Mindset: Lessons From Our Own Fleet",
+      "says": "Every story in this lesson comes from our own safety meetings, and none of them were caused by a broken machine. They were caused by small choices. So plan the job before you leave: how you'll turn and back this truck, how you'll close off the area under the bucket, how a scissor gets across the customer's floor. The small choices are the job.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "The lift truck makes a slow turn in the yard; camera shows the bucket and step platform swinging wide toward a cone line; an observer guides the backing.",
+      "on_screen": "The front end swings wide when you turn and back",
+      "says": "Our lift trucks carry the bucket and a step platform off the front. They swing wide and grab signs, canopies, poles and parked cars when you turn and when you back up. One of our trucks was totaled when its bucket caught a structure during a turn. If you don't drive these often, be extra careful, and use an observer to back whenever you can.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-ups at the truck: the jib stowed and pinned; a hand running along the winch line; then the passenger-side PTO breaker showing the red test button and the reset lever.",
+      "on_screen": "Jib: trained only | inspect the line | coil under tension | stow before driving\nPTO breaker: red button = TEST, lever = RESET",
+      "says": "The jib. Not trained on it? Don't use it. Inspect the winch line before each use. Coil it under tension, because a loose wrap can slip and drop the load. Stow it before you drive. PTO won't engage? On some of our trucks there's a 12 volt breaker on the passenger side. The red button is test only. Reset it with the lever.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech in safety glasses measures the 24 V boom battery bank with a meter; presenter voice-over.",
+      "on_screen": "Boom won't go up or down? Check the 24 V bank. 24 V minimum.",
+      "says": "Boom works but won't go up or down? On trucks with a 24 volt boom battery bank, low voltage is a likely cause. Call the equipment service line and check fuses and relays first. Then measure the bank, 24 volts is the minimum, and each battery. Eye protection around batteries, and charge or replace them only as the manufacturer and your supervisor allow.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a lift basket; graphic shows drilled drain holes and a screwed-on drill bracket with red X marks.",
+      "on_screen": "No modifications without the manufacturer's written approval",
+      "says": "No modifications, ever, without the manufacturer's written approval. We've had drain holes drilled in a bucket to let rain out. That weakens it. We've had a bracket screwed to a basket to hang a drill. Even small screw holes can fail the annual inspection and take the truck out of service. Use the maker's attachment points, and tip the bucket to dump water as the manual allows.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Retail store: tech photographs a scuffed door frame before entering, shows the manager; then plywood sheets laid over tile and a slab scissor rolled across them, a spotter guiding it through a single door.",
+      "on_screen": "Slab scissor: about 3,300 lb | Photograph door damage first | Spotter at doors",
+      "says": "Scissors and the customer's building. Our standard 19-foot slab scissor weighs about 3,300 pounds. Tile cracks under concentrated loads. So write up the man lift, which is about 1,100, or send plywood to spread the load. Before a single door, inspect the door and frame, photograph existing damage and tell the manager. Go slow with a spotter every time.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Store entrance: the bucket truck works overhead; cones and caution tape close the entrance completely; a sign directs customers to another door; the tech speaks with the manager beforehand.",
+      "on_screen": "Cone the WHOLE area under the bucket",
+      "says": "One safety-meeting photo showed a boom working over a store entrance with cones only behind the truck, and customers walking under the bucket. Cone off the whole area around the truck. Talk to the site manager first: close or redirect the entrance, use another door, or work after hours. Harness on in the bucket, always. If people keep walking into your zone, stop work.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny back at the lift truck, medium close-up.",
+      "on_screen": "Every story ended without an injury. That was luck.",
+      "says": "Every story in this lesson ended without an injury. That was luck. Inspect, cone, use a spotter, no modifications, and when the machine does something unexpected, stop and call. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Shop segment: lift truck with front-mounted bucket and step platform, jib stowed and pinned, passenger-side PTO breaker (only on trucks so equipped), 24 V boom battery bank measured by a senior tech in eye protection. Drain-hole and bracket examples shown as graphics, not real modifications. Store segment: plywood over tile, single-door entry with spotter, entrance closed with cones and tape after agreement with the manager; no store logos. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/08-bucket-trucks-scissor-floors-and-lessons-learned.md."
+}

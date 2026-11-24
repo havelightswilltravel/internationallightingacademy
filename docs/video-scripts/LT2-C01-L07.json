@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L07",
+  "title": "Questions Are Your Second Foundation",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 205,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop floor next to a loaded service truck, morning. Medium shot.",
+      "on_screen": "Questions Are Your Second Foundation",
+      "says": "Safety is the foundation of a technician. Questions are your second foundation. Almost every skill you'll build here starts with a question: why is it done this way, what happens next, what could go wrong, what does the customer want? Here's the rule our company wants you to live by: if you're not asking questions, you're not evolving.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Office ceiling retrofit; a trainer with a clipboard follows a new tech who is quietly installing a connector the wrong way. Presenter voice-over.",
+      "on_screen": "Tally: 2 questions",
+      "says": "Watch this trainer keep a tally of every question the new tech asks. Early in the morning, there's almost nothing on the clipboard. And here's the result: a connector installed the wrong way, and a redo. Your trainer can't see inside your head. When they hear no questions, they have to guess, and guessing is how a new tech does a step wrong for months before anyone notices.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Same site later; the tech asks short questions at the ladder base while the trainer adds marks. Presenter voice-over.",
+      "on_screen": "Same circuit as the last row? | Which way does this bracket face? | Next step is the barricade, right?",
+      "says": "After a coaching talk, the tally climbs. Is this the same circuit as the last row? Which way does this kit's bracket face? I think the next step is the barricade, right? Each question takes a few seconds and catches something. Some of those he thinks he already knows. Ask anyway. I think isn't I know. Half the time you're right, and half the time you just caught a mistake.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a work table with a notebook.",
+      "on_screen": "Good questions: specific | show your thinking | right moment | repeat back | write down",
+      "says": "Question everything you don't have full working knowledge of, meaning you could do it right, explain why, and handle it if something goes wrong. And ask good questions. Be specific. Show your thinking: I think we lock out fourteen and sixteen because the schedule shows two circuits, is that right? Repeat the answer back in your own words. Then write it down, so you only have to ask once.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a tech on a ladder with both hands full while another tech waits at the base.",
+      "on_screen": "Safety questions: ask immediately",
+      "says": "Timing matters. Safety questions are always the right time. If you think something is unsafe, ask right now, even if it interrupts. For everything else, pick your moment. Don't distract someone who's verifying a circuit, moving a lift or up a ladder with both hands full. Wait for the step to finish. Save non-urgent questions and batch them at a natural break.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in front of a simple graphic of who to ask.",
+      "on_screen": "Trainer: the task | Supervisor: scope, training gaps, material | Site contact: the site | Instructions: the product",
+      "says": "Know who to ask. Your trainer or crew lead for the task and the next step. Your supervisor for scope changes, training gaps and material shortages. The site contact for access, hours and panels. The instructions for how the product is wired. And if two people give you different answers on a safety question, don't pick the easier one. Ask your supervisor and follow the stricter answer until you hear back.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Troffer row; trainer points down the next row, tech pauses with meter in hand.",
+      "on_screen": "Same circuit as this row, or another lockout?",
+      "says": "Here's a real one. Your trainer says go ahead and do the next row, and you're not sure it's on the same circuit. The hazard is shock from a fixture you think is dead. The best control, locking out and verifying the right circuit, depends on a question you haven't asked yet. So ask: same circuit, or do we need another lockout? Then verify anyway.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer turns the clipboard to camera, full of tally marks.",
+      "on_screen": "41 questions, 0 redos",
+      "says": "Forty-one questions, zero redos. That's a good morning. If you feel awkward asking, know this: on our crews, the techs who don't ask are the ones who worry supervisors. Keep a running question list during the day and work through it at breaks. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Performers: trainer with clipboard and a new technician on a troffer retrofit. Show the tally clearly in scenes 2, 3 and 8. Questions on screen are taken from the lesson's video suggestion. Lesson file path is LT2-C13/07 (course code differs from vid LT2-C01)."
+}

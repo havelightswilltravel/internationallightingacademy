@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C07-L03",
+  "title": "Neutral vs Equipment Grounding Conductor",
+  "course": "LT2-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 186,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "De-energized service panel with the cover off; a downstream subpanel beside it. Medium shot.",
+      "on_screen": "Neutral vs Equipment Grounding Conductor",
+      "says": "New technicians often say neutral and ground like they're the same thing. They're not. Mix them up and you create shock hazards, nuisance problems and code violations. Knowing the difference is also how you avoid getting shocked by a neutral you thought was dead.",
+      "seconds": 18
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic comparing the two conductors over close-ups of white and green wires.",
+      "on_screen": "Neutral: white or gray, carries load current | EGC: green or bare, carries current only during a fault",
+      "says": "The neutral, the NEC's grounded conductor, is white or gray. It carries normal current; it's the return path for the load. On a single fixture circuit, it carries the same current as the hot. The equipment grounding conductor, the EGC, is green, green with yellow, or bare. It carries current only during a fault, so the breaker trips fast and metal parts stay near ground.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a junction box with several circuits inside.",
+      "on_screen": "Treat every neutral as energized | de-energize ALL circuits in the box | verify every conductor, including the neutral",
+      "says": "Here's the danger. A neutral can be carrying current at any time. Open a neutral splice while energized, even with your fixture's breaker off, and you can put yourself in series with the load. Shared neutrals are a common cause of injuries in lighting work. De-energize all circuits in the box, lock out, and verify absence of voltage on every conductor, including the neutral, before opening splices.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Shop demo board: a simulated fault from hot to a fixture housing; breaker trips. Lower third: Licensed electrician.",
+      "on_screen": "Hot touches housing -> current returns on EGC -> breaker trips -> housing de-energized",
+      "says": "Watch the demo board. A hot conductor touches the fixture housing. Current flows into the housing, back through the EGC, a low-impedance path, and the fault current trips the breaker fast. The housing's de-energized before anyone touches it. Without a good EGC, that housing sits at 120 or 277 volts, waiting for a person. And earth alone can't trip a breaker; soil has too much resistance.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Licensed electrician points to the main bonding jumper at the service, then the isolated neutral bar and separate ground bar in the subpanel.",
+      "on_screen": "Neutral and ground bonded only at the service or a separately derived system",
+      "says": "At the service disconnect, the main bonding jumper ties neutral and ground together. A transformer that creates a new system has its own bonding jumper. Downstream, in subpanels, boxes and fixtures, they stay separate. Look at this subpanel: an isolated neutral bar on insulators, and a separate ground bar bonded to the enclosure. Bond them downstream, and normal current flows on raceways and steel.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a fixture whip: neutral to the driver's white lead, green wire to the housing grounding screw.",
+      "on_screen": "Never use the EGC as a neutral | never land neutral on the housing | green wire in every whip",
+      "says": "Field practices. Never use the EGC as a neutral. Some cheater repairs land the driver's neutral on the green wire. The light works, and the housing and conduit carry normal current. That's a code violation and a shock hazard. Never connect neutral to the housing. Keep each circuit's neutral with its own hots. And our company standard is to pull a green wire in every fixture whip.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified tech in PPE takes readings at a loaded circuit; table on screen.",
+      "on_screen": "Normal: N-G 1-3 V | Hot-Ground about 0 V while Hot-Neutral is normal = missing EGC, report immediately",
+      "says": "When troubleshooting a loaded circuit, with PPE for energized testing, check neutral to ground. One to three volts is normal. High readings suggest a loose, overloaded or shared neutral. Hot to ground near zero while hot to neutral is normal means a missing or open EGC. Report it immediately. Near zero neutral to ground far from the panel under heavy load can mean an illegal downstream bond.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the subpanel, medium shot.",
+      "on_screen": "",
+      "says": "The neutral carries load, the ground carries faults, and they meet only at the service. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Per the lesson's video suggestion: a licensed electrician points out the main bonding jumper, neutral bar and separate ground bar on de-energized panels, then demonstrates a simulated fault on a shop demo board. Lower-third the electrician as 'Licensed electrician' (no name). Energized readings only by a qualified person in PPE. Lesson file path is LT2-C01/03 (course code differs from vid LT2-C07)."
+}

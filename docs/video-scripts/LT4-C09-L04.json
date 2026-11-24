@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C09-L04",
+  "title": "DLC Qualified Products & Utility Incentives",
+  "course": "LT4-C09",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Small conference room; Chris at the table with a laptop and a printed incentive application (generic, no utility logo). Medium shot.",
+      "on_screen": "DLC Qualified Products & Utility Incentives",
+      "says": "Let's look at this from the customer's side. Often the utility incentive is what made the project worth doing. If the product on the ceiling doesn't match the approved application, the customer can lose that money, and they'll remember who cost it to them. Your field work protects that incentive.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Screen recording of the DLC website (public QPL search page) over Chris's voice.",
+      "on_screen": "DesignLights Consortium (DLC)\nSSL QPL: LED products\nNLC QPL: networked controls",
+      "says": "The DesignLights Consortium, or DLC, is a non-profit that sets performance requirements and publishes Qualified Products Lists. Utilities across North America use them to decide eligibility. The Solid-State Lighting list covers LED luminaires, retrofit kits and more: efficacy, lumen maintenance, color, power factor, warranty. The Networked Lighting Controls list covers NLC systems.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Screen recording: searching a troffer by manufacturer and model number; highlight model match, wattage, efficacy, listing status.",
+      "on_screen": "1. Full model number, every option code\n2. Search QPL\n3. Exact configuration listed?\n4. Note DLC ID, watts, category\n5. Save dated screenshot/PDF",
+      "says": "Checking a product: get the full model number from the spec sheet or carton, every option code. Search by manufacturer and model. Confirm the exact configuration is listed. A troffer listed at 4000K and 3,500 lumens may not be listed at 5000K and 5,000 lumens. Note the DLC product ID, listed wattage and category. Save a dated screenshot for the project file.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Chris facing camera, laptop closed.",
+      "on_screen": "Check the list at time of purchase\nDLC = performance   NRTL listing = safety",
+      "says": "DLC updates its requirements, and products can be delisted after a transition period. So check at the time of purchase, against that program's rules. And remember: DLC is about performance. The product still needs safety listing from a Nationally Recognized Testing Laboratory, like UL 1598 for luminaires or UL 1598C for retrofit kits, as the NEC and inspector require.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Chris at the table with four printed cards laid out.",
+      "on_screen": "Prescriptive  |  Custom  |  Midstream  |  Controls",
+      "says": "Program types: prescriptive pays a fixed amount per qualifying product. Custom pays on calculated or measured savings. Midstream gives a discount at the distributor counter. Controls incentives add money for networked controls or sensors. Most share four rules: pre-approval before you buy or install, possible pre- and post-inspections, old equipment removed and properly disposed of, and quantities and models that match exactly.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Customer ceiling; senior tech on a ladder photographs a fixture label and a ballast label; then an 'after' photo of a new troffer label. Chris voice-over.",
+      "on_screen": "Before photos: each fixture type, ballast labels, controls\nAfter photos: labels visible",
+      "says": "Here's what you contribute in the field. Accurate existing counts: lamp type, lamps per fixture, ballast type and factor, operating hours, because savings come from those numbers. Before photos of each fixture type, ballast labels and controls. After photos with labels visible. Confirm received products match the approved model numbers, and report any distributor substitution immediately.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Stockroom; senior tech checks carton labels against a printed approval list. Chris voice-over.",
+      "on_screen": "Installed first? The incentive can be forfeited.",
+      "says": "The common mistake is installing before pre-approval comes through, or swapping in what the distributor had on the shelf. Either one can forfeit the incentive. Keep recycling receipts and PCB ballast manifests, and keep commissioning records and screenshots when controls incentives are claimed.",
+      "seconds": 17
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Chris facing camera, serious tone.",
+      "on_screen": "Deadlines never justify shortcuts\nLOTO + live-dead-live before disconnecting",
+      "says": "Incentive deadlines never justify shortcuts. Removing fixtures and ballasts is line-voltage work: de-energize, apply lockout/tagout and verify absence of voltage with live-dead-live before you disconnect anything. Treat ballasts without a 'No PCBs' label as PCB-containing. Handle leaking ballasts with gloves and spill procedures, and keep fluorescent lamps intact for recycling.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Chris Munford",
+      "background": "Graphic of the savings formula over Chris at the table.",
+      "on_screen": "kWh saved = (old W − new W) × qty × hours ÷ 1,000\n(112 − 45) × 100 × 4,000 ÷ 1,000 = 26,800 kWh/yr",
+      "says": "Quick savings math: existing watts minus new watts, times quantity, times annual hours, divided by 1,000. Replace 100 fixtures at 112 watts with 45-watt LED troffers running 4,000 hours, and that's 26,800 kilowatt-hours a year before controls. Payback and ROI come later, in LT5.",
+      "seconds": 18
+    },
+    {
+      "scene": 10,
+      "speaker": "Chris Munford",
+      "background": "Chris, medium close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Verify the exact model, save the listing, follow the program rules, and document everything. That's how you protect the customer's money. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Knowledge lesson with a field documentation segment; no full Job Mindset opener, safety callout kept in scene 8. Screen recording of the public DLC QPL search (generic product; blur manufacturer if needed). Generic incentive application without utility branding. Senior technician on ladder in a customer ceiling for photo segment (show safe ladder use). The lesson's example dollar figure is omitted because the brief bars rates/prices."
+}

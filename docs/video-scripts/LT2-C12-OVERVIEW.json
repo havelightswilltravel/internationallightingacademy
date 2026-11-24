@@ -1,0 +1,67 @@
+{
+  "vid": "LT2-C12-OVERVIEW",
+  "title": "Truck Stock, Parts ID and Defective Equipment (course overview video)",
+  "course": "LT2-C12",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 128,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop office desk with a printed daily stock sheet and a pen; service van visible through the window. Danny seated, medium shot. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Truck Stock, Parts ID and Defective Equipment",
+      "says": "This course is built around one piece of paper: our daily stock sheet. Fill it out right, and your time gets paid correctly, the customer gets billed for what you used, and your truck is stocked when you need it. Skip it, and you'll be standing at a customer's fixture without the part you thought you had.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the stock sheet: time section with job time, travel and an initialed non-job line.",
+      "on_screen": "Job time | Travel | Non-job time (initialed)",
+      "says": "First, your time. You'll record job time, travel, and any non-job time, which gets initialed. Accurate time is how the office bills fairly and how we see where the day really went. Fill it in as you go, not from memory at the end of the week.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a service order with parts listed; then a tech checking bins in the van.",
+      "on_screen": "Parts used on each service order",
+      "says": "Next, parts. Every part you use goes on the service order it was used on. That's how it gets billed, and how it gets replenished on your truck. A part that's used but never written down is a part that's missing next time, and a cost nobody can bill.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Inside the van or lift truck: bins labeled lamps, ballasts, drivers, sockets, emergency lighting, misc.",
+      "on_screen": "Standard stock: lamps | ballasts | drivers | sockets | emergency | misc.",
+      "says": "Then your standard stock, by category: lamps, ballasts, drivers, sockets, emergency lighting and miscellaneous. Each region sets its own standard stock, so learn your region's list, and tell your supervisor when a part you keep needing isn't on it. You'll also learn to identify parts quickly and correctly.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up: a tech's hands pulling a labeled socket bag from an organized bin.",
+      "on_screen": "Know your stock = plan the job",
+      "says": "Keep your stock organized so you can find any part in seconds. Knowing exactly what's on your truck is part of planning the job before you leave the shop, so you're never caught off guard at the customer's ceiling.",
+      "seconds": 16
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Shop floor: a ladder with a cracked rail and a red DO NOT USE tag; a tech writes on the stock sheet.",
+      "on_screen": "Defective? Red-tag it. Report it. Don't use it.",
+      "says": "Finally, defective equipment. You'll learn to inspect your tools, ladders and equipment, red-tag anything that's damaged so nobody uses it, and report it. Vehicle and equipment concerns go on the stock sheet too, so they get fixed before they become a breakdown or an injury.",
+      "seconds": 18
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny to camera at the desk.",
+      "on_screen": "",
+      "says": "Never use a tool or ladder you have doubts about. Tag it, report it, and get a good one. Small habits, big payoff. Now work through the course lessons and take the quizzes.",
+      "seconds": 13
+    }
+  ],
+  "production_notes": "SOURCE: outline only; the course is not written yet. Check against the lessons when written, especially the exact fields on the daily stock sheet, the initialing rule for non-job time, and the red-tag procedure. Use a sanitized stock sheet template; no employee names or rates."
+}

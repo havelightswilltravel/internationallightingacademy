@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C03-L03",
+  "title": "Climbing & Working Safely From a Ladder",
+  "course": "LT1-C03",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 285,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Office ceiling with a row of 2x4 troffers. A 6-ft fiberglass stepladder set up under one, cones around the base, a helper holding an LED retrofit kit. Danny medium shot.",
+      "on_screen": "Job Mindset: working from a ladder",
+      "says": "Job Mindset for ladder work. The hazards are falling, a shock that startles you off the ladder, and things dropping on people below. Lock out and test the fixture first, barricade below, then climb. Plan the sequence before you go up: what comes down, what goes up, who hands it to you. Take only the tools you need. Keep your helper busy, not waiting.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Senior tech climbs the stepladder facing it, two hands and one foot, tool pouch on the belt, empty hands. Danny voice-over.",
+      "on_screen": "Three points of contact. Face the ladder. Hands empty.",
+      "says": "Our rule: three points of contact, and always face the ladder, going up, coming down, and while you work. Two hands and a foot, or two feet and a hand. Nothing in your hands while you climb. Tools ride in a pouch or belt, or a coworker hands them up. One step at a time. No sliding down and no jumping off the last step.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Tech at the troffer supports the door as he releases the latches; belt buckle centered between the rails. Helper hands up the retrofit kit. Danny voice-over.",
+      "on_screen": "Torso between the rails. Support the door. Never toss.",
+      "says": "At the fixture, keep your torso between the side rails. Belt buckle centered. Many troffer doors swing down on hinges, so support the door as you release the latches. Plan the sequence: old parts out, come down, then go up with the new parts. Don't juggle old and new. And your helper hands the kit up. Never toss anything.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Tech climbs down, moves the ladder to the next troffer, resets it and checks the spreaders. Danny voice-over.",
+      "on_screen": "Move the ladder. Never walk it.",
+      "says": "Work's out of reach? Climb down and move the ladder. Never walk it, hopping or shifting it while you're standing on it. It takes thirty seconds. Only one person on the ladder at a time, unless the label says it's built for two. And in busy areas, let a coworker steady it and keep people from walking under.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Tech lifts a ceiling tile and shines a flashlight into the plenum before reaching. Close-up of an open junction box in the ceiling. Danny voice-over.",
+      "on_screen": "Look before you reach. Exposed live parts? Stop and call.",
+      "says": "Your fixture's locked out and verified dead, but there may be live parts near you: a fixture on another circuit, an open junction box, busway, power lines outdoors. Fiberglass ladder only. Jewelry off. Before you reach above a tile, look first with a flashlight. If you find exposed live parts within reach, stop and call your supervisor. Don't touch them, even with insulated tools.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "\"What's wrong with this picture\" segment, staged safely on a ladder 2 ft off the floor with a spotter: freeze-frames of overreaching, standing on the top step, climbing with lamps in hand, a metal tape near an open box. Red X graphics. Danny voice-over.",
+      "on_screen": "What's wrong with this picture?",
+      "says": "What's wrong with this picture? Overreaching. His body's outside the rails. Standing on the top step. Never stand on the top cap, the step below it, or the pail shelf. Climbing with lamps in his hands. And a metal tape measure next to an open junction box. Every one of these has put someone on the floor.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny in a store entrance in winter, a snowy ladder by the door, mat and cones being set out.",
+      "on_screen": "A small shock on a ladder can cause a deadly fall",
+      "says": "Remember: a small shock on a ladder can cause a deadly fall. The startle alone can throw you off. That's why we lock out and test before touch. In winter, snow and ice hitchhike in on ladders. Ask the site manager where to knock it off, put down mats and cones, and clean your boots and rungs before you climb.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Back at the troffer row, close-up on Danny.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Face the ladder, three points, hands free, torso inside the rails, and move the ladder instead of walking it. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Senior tech performs; Danny narrates. Troffer must be locked out and verified dead before the tech opens it (show the lock briefly). The \"what's wrong\" mistakes are staged with the tech no more than 2 ft off the floor, a spotter in frame or just off frame, and no energized parts (junction box is a de-energized prop). LED retrofit kit generic, no brand visible."
+}

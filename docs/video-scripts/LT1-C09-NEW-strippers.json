@@ -1,0 +1,67 @@
+{
+  "vid": "LT1-C09-NEW-strippers",
+  "title": "Wire Strippers and Cutters: Keep Your Body Off Grounded Metal",
+  "course": "LT1-C09",
+  "presenter": "Matthew Berrett",
+  "source": "outline",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training ceiling grid with an open troffer and exposed fixture wiring; ladder in place. Medium shot of Matthew at the ladder base holding wire strippers and diagonal cutters.",
+      "on_screen": "Job Mindset: Stripping and Cutting at the Fixture",
+      "says": "Stripping and cutting wire looks like the easiest part of the job. It's also where people get hit. The hazards: a conductor that's still live, and your own body touching grounded metal like the T-bar or the fixture housing. Lock out and verify first. Then set up so your hands and arms touch nothing but the tool.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the training room, close medium shot, serious tone. Simple graphic of a current path: hand on conductor, forearm on T-bar.",
+      "on_screen": "Your body can complete the circuit",
+      "says": "Here's why it matters. A technician on one of our jobs took a 277 volt shock while working at a fixture. Current needs a path. When one hand is on a conductor and your wrist or forearm is resting on grounded metal, you are that path. The T-bar, the housing and the grid are all grounded, and they're right where your arms want to rest.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up at the open troffer: a tech's forearm resting on the T-bar while stripping (staged on de-energized, locked-out wiring), marked with a red X.",
+      "on_screen": "Wrong: arm resting on T-bar or housing",
+      "says": "This is the habit to break. Leaning your forearm on the grid for balance. Bracing your wrist against the housing to get leverage on the stripper. Holding the fixture edge with your free hand while you cut. Every one of those puts part of your body on grounded metal while your other hand is at the wire.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Same close-up, corrected: the tech draws the conductor down clear of the housing, holds it in one hand, strips with the other; forearms and wrists clear of all metal. Green check.",
+      "on_screen": "Right: hands and arms touch only the wire and the tool",
+      "says": "Here's the right way. Pull the conductor out to where you have room. Hold it clear of the housing. Keep your forearms, wrists and fingers off the T-bar and the fixture body. Stand on the ladder so you don't need to brace against the ceiling. If you can't reach without leaning on metal, move the ladder.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of stripper jaws on 12 AWG wire in the matching notch; then inspection of a clean strip.",
+      "on_screen": "Matching AWG notch | Strip to the marked length | No nicks",
+      "says": "Use the stripper the way it's built. Put the wire in the matching AWG notch. Too small a notch nicks the copper, and a nick is a weak spot that can break or overheat. Strip to the length the connector calls for, then inspect: no nicks, no stray strands. And never strip with a utility knife.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an ordinary plastic-handled stripper next to a 1,000 V rated insulated tool with the double-triangle mark.",
+      "on_screen": "Plastic handles are not shock protection",
+      "says": "Remember from the hand-tools lesson: ordinary plastic handles are for comfort, not shock protection. At LT1 you never rely on tool handles. The circuit is locked out and verified dead, every time. Keeping your body off grounded metal is your backup in case something upstream was missed.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, training room.",
+      "on_screen": "Lock out. Verify. Body off grounded metal.",
+      "says": "Lock out, verify, and keep every part of you off grounded metal while you strip or cut. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Written from the outline only (no lesson file yet). Must be checked against the lesson when it is written, especially scene 2: replace the general description with the approved, anonymized account of the actual 277 V shock incident (no names, no customer). Scene 5-6 facts come from the existing hand-tools lesson (curriculum/levels/LT1/courses/LT1-C03/lessons/01-hand-and-power-tools.md). All close-up stripping shots must be on locked-out, verified de-energized wiring or a bench mock-up. Props: wire strippers with AWG markings, diagonal cutters, insulated 1,000 V tool, open troffer, ladder."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C03-L03",
+  "title": "Troubleshooting Incandescent & Recessed Fixtures",
+  "course": "LT2-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 200,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office lobby with recessed cans in a drywall ceiling, one dark; tech with a ladder, lockout kit and DMM at the base. Medium shot of Matthew.",
+      "on_screen": "Job Mindset: hazards = shock, hot lamps and housings, ladder falls | lock out and verify | let it cool",
+      "says": "A dark recessed can. The hazards: shock from the socket, burns from a hot lamp and housing, and a fall from the ladder. Lock out and verify dead, let it cool, set the ladder right. Before you leave the shop, bring known-good lamps, a socket, your meter and lockout kit. Think ahead: if it's upstream, who's qualified to test it? Plan that now.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic over lobby footage.",
+      "on_screen": "Company order: lamp | power | switch | socket eye | thermal protector",
+      "says": "Our Master Troubleshooting Guide gives the order: check the lamp with continuity or a known-good bulb, check power, check the switch, check the socket and socket eye, check the thermal protector. Start with the cheapest, most likely cause, and work back toward the power. We group the de-energized checks together so you don't switch power on and off more than you need to.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Energized testing = qualified person under NFPA 70E, with required PPE",
+      "says": "Safety first. At LT1 you work de-energized. Voltage measurements on a live circuit are done only by a person qualified under our company's NFPA 70E electrical safety program, wearing the required PPE. If you're not qualified for energized testing, the de-energized checks still find most problems, and the rest gets written up.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech talking to the site contact in the lobby, pointing at the ceiling.",
+      "on_screen": "Step 0: one or many? | off or on-and-off? | recent changes? | read the label",
+      "says": "Step zero, before you touch a ladder: gather information. One fixture or many? A whole row dark points upstream, which is usually a write-up. Off all the time, or on and off? Going out after ten to thirty minutes and coming back points to the thermal protector. Any recent changes, like new lamps, a new dimmer or attic insulation work? And read the fixture label.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech switches off, applies lock and tag at the panel, then verifies live-dead-live at the can. Close-up of the DMM on ohms across a removed lamp's base.",
+      "on_screen": "Good 60 W lamp: about 15-20 ohms cold | open filament: OL",
+      "says": "Step one: switch off, lock out the branch circuit, and verify dead at the fixture with a tested meter, live-dead-live. Let it cool. Step two: check the lamp. DMM on ohms, one probe on the center contact, one on the screw shell. A good 60 watt, 120 volt lamp reads roughly fifteen to twenty ohms cold. An open filament reads OL. Or install a known-good lamp.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Flashlight inside the socket: flattened center tab; then the DMM on continuity across the thermal protector, reached through the aperture.",
+      "on_screen": "Cool protector reads closed (near 0 ohms) | open on a cool protector = failed",
+      "says": "Step three, still locked out: look in the socket. Flattened, pitted or scorched tab? Cracked body? Brittle wire insulation? Lift a lightly flattened tab, or plan a new socket. Step four: once the can has cooled, check the thermal protector on continuity. Cool, it should read closed, near zero ohms. Open on a cool protector means it's failed. And confirm the lamp matches the label.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified coworker in PPE measures voltage at the socket with the switch on while the new tech watches.",
+      "on_screen": "About 120 V at the socket = power is there | none = upstream",
+      "says": "Many calls end there: good lamp in, remove your lock per procedure, test. Still dark? A qualified person measures voltage at the socket, center contact to shell, switch on. About 120 volts means power's there, so suspect the socket contact or lamp again. No voltage means upstream. The switch can be checked for continuity with the circuit locked out and verified dead.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Junction box opened (de-energized) showing brittle, darkened wire insulation.",
+      "on_screen": "Write it up: no power at the switch | burned or brittle wires | non-IC can in insulation | bypassed protector | breaker trips again",
+      "says": "If there's no voltage at the switch, stop. Breakers, panels and branch wiring are written up for an electrician. Same if you find burned or brittle wires, a non-IC can buried in insulation, a bypassed or removed thermal protector, or a breaker that trips again. Document what you tested, the readings, the parts you replaced and what's left. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Start-to-finish recessed can call per the lesson's video suggestion. Lockout and live-dead-live shown in full before any lamp or socket work. Energized voltage check at the socket is performed only by the qualified coworker in required PPE. Use a staged flattened socket tab for the close-up. Lesson file path is LT1-C08/03 (course code differs from vid LT2-C03); its safety callout is written to LT1 scope ('At LT1 you work de-energized'), which may need review for an LT2 course."
+}

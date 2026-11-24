@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C05-L03",
+  "title": "Testing Occupancy, Daylight, Schedule and Emergency Sequences",
+  "course": "LT5-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 175,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training lab built as a finished office with windows, ceiling sensors and a branch panel on the wall. Matthew stands near the panel. Medium shot.",
+      "on_screen": "Job Mindset: Testing control sequences",
+      "says": "Before you test, plan the worst case. The big one is emergency testing: cut normal power and something fails, and an egress path goes dark. So coordinate with the owner, test at low occupancy, post a person in the area, and keep portable lighting on hand. Bring the illuminance meter, a stopwatch, the programming tool and your test forms.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech walks slowly through a private office past partitions, watching the sensor's LED indicator. Presenter voice-over.",
+      "on_screen": "Occupancy: coverage - turn-on - time delay - false triggers - record final settings",
+      "says": "Segment one: occupancy sensors. Walk the space slowly, corners and behind partitions, using test mode or the sensor's LED to confirm detection. Small motions at a desk are hardest for PIR sensors. Confirm manual-on or auto-on. Then leave and time the delay. Recent energy codes commonly cap time-outs at 20 minutes, and the sequence may specify less.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Split screen: hallway foot traffic past an open office door; ceiling diffuser blowing near a sensor. Matthew narrates.",
+      "on_screen": "Lights on from hallway traffic: mask, reduce sensitivity, relocate\nRandom cycling: move away from diffuser",
+      "says": "Check false triggers. Lights shouldn't come on from hallway traffic through an open door, or from HVAC airflow, which is common with ultrasonic sensors. And they shouldn't turn off on someone sitting still. Sensitivity, delay and masking adjustments are part of commissioning. Record the final settings.",
+      "seconds": 18
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech places an illuminance meter on a desk in the window zone, then covers the ceiling photosensor with a card; fixtures ramp up, then down when uncovered. Presenter voice-over.",
+      "on_screen": "Daylight: zones - measure - cover/uncover - watch for hunting - record setpoints",
+      "says": "Segment two: daylight. Confirm the sidelit zone fixtures dim and interior fixtures don't. Put the meter at the task surface and record electric light only and with daylight. Then cover the photosensor and watch the fixtures ramp up; uncover it and they ramp back down. Watch for hunting, that's repeated up-and-down cycling, and adjust deadband or fade rate. Calibrate with typical daylight, not an overcast evening.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the controls software schedule screen on a laptop; then the tech presses an override button on a wall station.",
+      "on_screen": "Schedules: check time, date, time zone, DST - force a sweep - test override duration - restore",
+      "says": "Segment three: schedules. First confirm the controller's time, date, time zone and daylight-saving setting. Review each zone's schedule against the sequence, including holidays. Force a sweep and verify the zones respond, plus any warning flicker. Activate an after-hours override and confirm the duration. Then restore final schedules and record them.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Owner's facility contact stands beside the tech at the branch panel; corridor emergency fixtures visible through a doorway, dimmed. Tech opens the normal power branch breaker; fixtures go to full.",
+      "on_screen": "UL 924 test: set to OFF/dimmed - open normal branch breaker - verify full - restore - 30-second battery test",
+      "says": "Segment four: emergency. Controlled emergency fixtures must go to emergency output on loss of normal power, regardless of control state. With the owner coordinated, set them off or dimmed. Open the normal power branch breaker the UL 924 device monitors, the way the manufacturer specifies. Verify they go to full promptly. Restore power and confirm they return to normal control. For battery units, do the 30-second test.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the panel, medium close-up. Callout graphic.",
+      "on_screen": "Do not open Article 700 emergency circuits or transfer switches unless specifically planned and authorized.",
+      "says": "Two lines you don't cross. Don't open emergency system Article 700 circuits or transfer switches unless that work is specifically planned and authorized. And opening the breaker is a planned test operation only. Any wiring repair needs full lockout/tagout and live-dead-live verification.",
+      "seconds": 17
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tablet close-up showing a completed test form with date, tester, witness, space ID, and an issues log reference.",
+      "on_screen": "Record: date - time - tester - witness - space ID - results - final settings - issue #",
+      "says": "Record every test: date, time, tester, witness, space ID, step results, final settings, and any deficiency with its issues log number. A common mistake is calibrating daylight at night because that's when you had the lift. Plan a return visit instead. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Demo performer: senior technician performs all four segments; presenter voice-over. Scene 6 must show an owner's representative present, a person posted in the corridor, and portable lighting visible. Show only the normal power branch breaker being opened; never show an emergency (Article 700) circuit or transfer switch being operated. Use a generic lab panel with no customer markings."
+}

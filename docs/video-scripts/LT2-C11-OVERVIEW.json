@@ -1,0 +1,59 @@
+{
+  "vid": "LT2-C11-OVERVIEW",
+  "title": "Repair or Replace: Our Decision Guide (course overview video)",
+  "course": "LT2-C11",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 148,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop bench with three items side by side: a failed LED driver, an MH400 ballast with lamp, and a new LED wall pack. Danny standing behind them, medium shot. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Repair or Replace: Our Decision Guide",
+      "says": "Every week you'll stand in front of a failed fixture and face one question: fix it, or replace it? This course is how our company answers that, so every tech gives the customer the same good options. It builds on what you already know about milliamps, voltage and matching parts. And it's written so companies using this program can adapt it to their own way of doing business.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up on the failed LED driver and a programmable replacement; then a new fixture box.",
+      "on_screen": "Failed LED driver: driver or new fixture?",
+      "says": "First, the failed LED driver. Sometimes the answer is a matched or programmable driver; sometimes a new fixture with a better warranty is the better value. You'll learn what we look at, and what you need in your write-up so the office can price both options. Label photos, complete part codes, a whole-fixture photo, and a count of matching fixtures nearby. If several are the same age, more failures are coming.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "High-bay aisle with an older metal halide fixture; inserts of an MH400 lamp and ballast, an LED corn-cob lamp, and a new LED high-bay.",
+      "on_screen": "MH400: corn-cob lamp | ballast + lamp | new fixture",
+      "says": "Then the old 400 watt metal halide. You've got three paths: an LED corn-cob lamp, a new ballast and lamp, or a new fixture. Each one has safety, cost and warranty trade-offs, and we'll walk through when our company picks each. You'll also learn why a lamp-only fix isn't always the safe or lasting answer, and what to check on the fixture before you recommend one.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Office ceiling with aging fluorescent troffers; then a shelf with a discontinued-part note.",
+      "on_screen": "Aging fluorescent | Discontinued parts",
+      "says": "We'll cover aging fluorescent systems, and what to do when the part you need has been discontinued. That happens more every year. When the exact part is gone, you'll learn how to decide between a cross, a retrofit and a new fixture, and when to call your supervisor before promising the customer anything.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Open service-truck side door with a few boxed standard fixtures secured on a shelf.",
+      "on_screen": "Standard fixtures on the truck",
+      "says": "And we'll cover the standard fixtures we carry on the truck, so a lot of these swaps can be done on the first visit. The customer always makes the final call, guided by the office. Your job is to give them the facts and clear options, in plain language, without pressure. A customer who understands why you recommended something trusts the next recommendation too.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny to camera at the bench.",
+      "on_screen": "Your safety rules don't change",
+      "says": "Whatever you choose, the safety rules don't change: lock out, verify dead, and if the job is outside your scope or authorization, stop and ask. Good decisions start with a good diagnosis, so prove what failed before you recommend anything. Now work through the course lessons and take the quizzes.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "SOURCE: outline only; the course is not written yet. Check every statement against the lessons when they are written, especially which option the company prefers in each situation (licensees may adapt the guide). Keep the script general; do not show prices. Use generic, unbranded parts."
+}

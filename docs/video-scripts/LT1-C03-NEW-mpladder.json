@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C03-NEW-mpladder",
+  "title": "Multi-Position (Articulating) Ladder Setup",
+  "course": "LT1-C03",
+  "presenter": "Senior technician (TBD)",
+  "source": "outline",
+  "target_seconds": 255,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Senior technician",
+      "background": "Shop floor. A large multi-position ladder folded on the floor, a second tech standing by. Senior tech medium shot.",
+      "on_screen": "Job Mindset: multi-position ladder setup",
+      "says": "Job Mindset for the multi-position ladder. The hazards: a hinge that isn't fully locked and folds under you, pinched fingers, and a back injury from carrying it alone. Plan for two people before you leave the shop. Know which mode the job needs, check the label for that mode, and look at the floor and stairs you'll be setting it on. Think ahead to the next setup.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Senior technician",
+      "background": "Two techs lift and carry the large multi-position ladder together, one at each end, calling \"lift,\" \"turn,\" \"set down.\"",
+      "on_screen": "Two-person work: carry, raise, position",
+      "says": "First rule: the large multi-position ladder is two-person work. To carry it, raise it and set it up. Agree on your route and your signals before you pick it up. Stop, turn, set down. Keep in step, and watch both ends around people, doors and vehicles.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Senior technician",
+      "background": "Close-up of the ladder's side-rail label and a hinge. Senior tech points to the mode diagrams on the label.",
+      "on_screen": "Read the label for each mode",
+      "says": "This ladder does four jobs: A-frame, extension, stairway and scaffold. Each mode has its own rules on the label: where you can stand, how it's set, the load. Read it for the mode you're using. And remember, most of these have aluminum rails. Rubber feet don't make it safe near electricity. Lock out and verify, and talk to your supervisor first.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Senior technician",
+      "background": "Close-up of the senior tech's hands on a hinge: releasing, rotating, the lock engaging. Then he tugs on the section to show it's locked.",
+      "on_screen": "Lock every hinge. Then check every hinge.",
+      "says": "The hinges are what make this ladder work, and what make it dangerous. Keep your fingers clear of the joint as it moves. Set the position, let the lock engage, and then check it. Look at the indicator if it has one, and pull on the section. Every hinge, every time. A hinge that looks locked but isn't is how people get hurt.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Senior technician",
+      "background": "Ladder set as an A-frame on a level floor; then extended and leaned against a wall at an angle. Senior tech walks around each setup.",
+      "on_screen": "A-frame mode - Extension mode",
+      "says": "A-frame mode. All hinges locked, all four feet flat, no rocking, and the same rules as any stepladder. Don't stand above the highest level the label allows. Extension mode. Straighten it fully, lock every hinge, then set it at the right angle against solid support, just like an extension ladder, and secure it.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Senior technician",
+      "background": "Ladder set on a stairway with uneven legs, feet on different steps; senior tech checks level and footing.",
+      "on_screen": "Stairway mode: every foot on a solid step",
+      "says": "Stairway mode is why we carry this ladder. Set the legs to different lengths so it stands level on the stairs. Every foot on a solid step, every hinge locked, and the ladder level side to side before you climb. Control the stairway below so nobody walks into it.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Senior technician",
+      "background": "Two multi-position ladders set as a scaffold base with a manufacturer-approved plank between them, about 3 ft high.",
+      "on_screen": "Scaffold mode: only the manufacturer's plank and setup",
+      "says": "Scaffold mode uses two ladder sections and a plank. Use only the plank and setup the manufacturer allows, follow the label for height and load, and get your supervisor's OK before using it this way. If it doesn't look right, it isn't. Don't improvise.",
+      "seconds": 19
+    },
+    {
+      "scene": 8,
+      "speaker": "Senior technician",
+      "background": "Close-up on the senior tech.",
+      "on_screen": "Common mistake: skipping the hinge check",
+      "says": "The mistake I see most is somebody changing modes in a hurry and climbing without checking the hinges. It looks locked. It isn't. Take the five seconds. Check every one.",
+      "seconds": 13
+    },
+    {
+      "scene": 9,
+      "speaker": "Senior technician",
+      "background": "Shop floor, ladder folded back up; evaluator with a clipboard in frame.",
+      "on_screen": "Now read the lesson and take the quiz. Then show your evaluator.",
+      "says": "Two people, read the label, lock and check every hinge, and set it right for the mode. Now read the lesson and take the quiz. Then show your evaluator each mode for your hands-on sign-off.",
+      "seconds": 15
+    }
+  ],
+  "production_notes": "Written from the outline only; the lesson is not written yet. All setup steps must be checked against the final lesson and the manufacturer's instructions for the licensee's ladder model (modes, standing levels, scaffold plank, load) before production. Speaker label: Senior technician. Two techs on camera for all carrying. Scaffold mode filmed low to the floor. No brand names visible on the ladder."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C02-L03",
+  "title": "Digital Dimming — DALI & an Introduction to DMX",
+  "course": "LT4-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 250,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a DALI demo board (bus power supply, controller, four DALI drivers with small LED loads). Matthew beside it. Medium shot.",
+      "on_screen": "Digital Dimming: DALI & DMX",
+      "says": "With 0–10V, every fixture on a pair gets the same signal. Digital protocols give each driver an address, so one pair of wires can control fixtures one at a time, in groups or in scenes, and drivers can report back. Your job is to recognize these systems, avoid damaging them, and handle basic wiring troubleshooting, safely and with a plan.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the bus power supply and the two-wire bus daisy-chained to the four drivers, labeled DA+ / DA−.",
+      "on_screen": "DALI: 2-wire bus | about 16 VDC | 64 addresses | 16 groups | 16 scenes | 250 mA max",
+      "says": "DALI is an international standard. DALI-2 is the current certified generation. It's a two-wire bus, often labeled DA plus and DA minus, at about 16 volts DC from a DALI bus power supply. Up to 64 control gear addresses per bus, 16 groups, 16 scenes per device, 250 milliamps max, and roughly 300 meters of cable. Most drivers don't care about polarity, but check the device.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew uses the controller (or a commissioning tool on a laptop) to address the four drivers, place two in a group, then recall a scene; LED loads respond.",
+      "on_screen": "Addressed + programmed = working",
+      "says": "A DALI driver does nothing useful until it's addressed and programmed. Watch: I address the four drivers, put two in a group, and recall a scene. That's why a replacement DALI driver usually has to be addressed and added back to its old groups and scenes, unless the controller supports automatic replacement. Coordinate with whoever maintains the control system.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a five-conductor cable carrying both line voltage and the DALI pair into a fixture.",
+      "on_screen": "DALI bus is NOT automatically Class 2",
+      "says": "Two field facts. First, DALI drivers are powered separately at line voltage, and switching is often done digitally. Second, many installs run the DALI pair in the same cable as line-voltage conductors. That's only allowed when the bus is wired and rated for it. The DALI bus is not automatically Class 2. Follow the manufacturer's and the project's wiring requirements.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Meter on DC volts measuring the bus at the controller, then at the far driver; readout inset.",
+      "on_screen": "About 16 V normal | near 0 = supply failed or short | low at far end = drop or overload",
+      "says": "Basic DALI troubleshooting. Measure bus voltage at the controller and at the problem fixture. Roughly 16 volts is normal. Near zero means a failed bus power supply or a short. Low at the far end means voltage drop or too many devices. One driver not responding? Check its bus connections, then whether it lost its address. A whole group acting wrong is configuration. Call the controls tech.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Second bench: DMX controller, two RGB fixtures daisy-chained with data cable, a terminator plug in the last fixture's output.",
+      "on_screen": "DMX512: RS-485 | 512 channels/universe | daisy chain only | 32 devices/segment | 120 Ω terminator",
+      "says": "DMX512 comes from theater lighting. You'll see it on color-changing fixtures, facades, auditoriums and themed retail. It's one-way RS-485 data, 512 channels per universe, daisy chain only, in to out, fixture to fixture. Up to 32 devices per segment without a splitter, and a 120-ohm terminator at the last fixture. Use data cable rated for RS-485, not microphone cable.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the DMX address switches on each RGB fixture; graphic shows fixture A channels 1-3, fixture B channels 4-6.",
+      "on_screen": "RGB uses 3 channels. A starts at 1, B starts at 4.",
+      "says": "Each fixture gets a start address. An RGB fixture uses three channels in a row: red, green, blue. If fixture A starts at 1, fixture B should start at 4. Two fixtures on the same address just do the same thing. Sometimes that's intended, often it's a mistake.",
+      "seconds": 18
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew pulls the terminator; fixtures begin to flicker randomly. He reinstalls it and they steady.",
+      "on_screen": "Flicker or random response? Check terminator, cable, daisy chain.",
+      "says": "Here's a common one. Fixtures flicker or respond randomly. Check for a missing terminator, the wrong cable, or someone wiring it as a star instead of a daisy chain. Everything dead after one point? A broken cable or a fixture's failed data pass-through. Wrong colors? Address overlap or the wrong channel mode.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew between the two benches, lock and tag visible on a nearby breaker.",
+      "on_screen": "Low-voltage control, line-voltage equipment. LOTO first.",
+      "says": "Remember, the control wiring is low voltage, but DALI drivers, DMX fixtures and controllers are line-voltage equipment. Lock out and verify before you open them, and treat any control cable sharing an enclosure with power as live until verified. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Two bench segments: (1) DALI demo board with bus power supply, controller or commissioning tool, four DALI drivers with small LED loads; show addressing, grouping and scene recall on screen. (2) DMX controller, two daisy-chained RGB fixtures, address switches close-up, 120 ohm terminator. The terminator-pull demo is optional; if the fixtures don't misbehave on camera, use an animation. Keep controller and fixture brand names out of frame."
+}

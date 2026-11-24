@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C04-L01",
+  "title": "Breakers, Fuses, Ratings and Types",
+  "course": "LT3-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 212,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room with a training panel, dead front installed, and a table of loose sample breakers and fuses. Matthew beside the panel, medium shot.",
+      "on_screen": "Breakers, Fuses, Ratings and Types",
+      "says": "Lighting techs work around breakers every day: tracing circuits, reading labels, writing up trips. You'll make safer calls, and better write-ups, if you know what a breaker is actually doing and what its markings mean. Everything in this video is done with the dead front on.",
+      "seconds": 18
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a fuse and a breaker held side by side.",
+      "on_screen": "Protects conductors & equipment, not people (that's GFCI)",
+      "says": "A breaker or fuse opens a circuit when current is higher than the circuit can safely carry. Its main job is to protect the conductors and equipment from overheating and fire, and clear faults fast. It's not designed to protect people from shock. That's GFCI protection. A fuse's element melts and must be replaced with the same type and rating. A breaker unlatches and can be reset once you've found the cause.",
+      "seconds": 29
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Cutaway breaker on a stand; camera pushes in on the bimetal strip, then the magnetic coil.",
+      "on_screen": "Thermal = slow (overload)  |  Magnetic = instant (short, ground fault)",
+      "says": "Most branch breakers are thermal-magnetic. The thermal element is a bimetal strip. A sustained overload heats it until it bends and releases the latch, in seconds to many minutes depending on how far over. The magnetic element responds to high fault current from a short or ground fault and trips in a fraction of a second. That's why a modest overload takes a while, and a dead short trips immediately.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: sample breakers held up to camera; amp rating, voltage, poles and kAIC markings circled.",
+      "on_screen": "Amps | Volts | Poles | AIC (kA) | Listing/type",
+      "says": "Read the ratings. Ampere rating: what it carries continuously. Voltage rating: the maximum system voltage. Poles: one, two or three. Interrupting rating, AIC: the maximum fault current it can safely interrupt, like 10, 14, 22 or 65 thousand amps. And listing: the panel maker and types it's listed for, which must match the panel's label.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Red callout over a breaker marked 120/240 V next to a 480Y/277 V panel label.",
+      "on_screen": "120/240 V breaker ≠ 277 V circuit. \"Fits-in\" ≠ listed.",
+      "says": "Two safety points. A breaker with an interrupting rating lower than the available fault current can explode instead of clearing a fault. Breaker selection, including AIC and panel listing, is electrician work, and never install a fits-in breaker that isn't listed for that panel. And watch 277 volt lighting. A breaker marked only 120/240 isn't rated for a 277 volt circuit on a 480Y/277 panel.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Training panel: instructor points to standard, GFCI, AFCI and dual-function breakers through the dead front; test buttons visible.",
+      "on_screen": "Standard | GFCI | AFCI | Dual-function | GFPE",
+      "says": "Types you'll see. Standard thermal-magnetic, the baseline. GFCI breakers, which trip on about 4 to 6 milliamps to protect people, with a test button and sometimes a pigtail neutral; wet fixtures and damaged cable trip them. AFCI breakers detect arcing; some drivers, dimmers and motors cause nuisance trips. Dual-function does both. GFPE has a higher threshold, often 30 milliamps, to protect equipment, not people.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse at night: staff member flips lighting breakers on at a closed panel. Insert: SWD and HID markings on breaker handles.",
+      "on_screen": "Breakers used as switches must be SWD or HID marked",
+      "says": "In warehouses, gyms and garages, staff often turn lights on and off at the panel. The NEC requires breakers used this way to be listed for it: SWD for fluorescent and similar lighting, HID for HID. Ordinary breakers switched daily wear out and become weak breakers that trip below their rating. If a site uses breakers as switches and they aren't SWD or HID, note it on your write-up.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Pole base with an in-line fuse holder; tech with lock applied upstream uses a fuse puller. Presenter voice-over.",
+      "on_screen": "In-line fuse: same type, amps, volts. Find the cause first.",
+      "says": "Fuses. In-line fixture fuses at pole bases, HID fixtures and signs get replaced with the same type, amperage and voltage, after you find the cause. Cartridge fuses in disconnects and old panels are usually electrician work. Never upsize a fuse. And replacing an in-line fuse is done locked out and verified dead, with a fuse puller for cartridge fuses, never your fingers or a screwdriver.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the training panel.",
+      "on_screen": "",
+      "says": "Know what the breaker protects, read every rating, and leave selection to the electrician. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Training panel with dead front installed at all times, per the lesson's video suggestion. Use a manufacturer cutaway breaker for the thermal/magnetic segment. Loose sample breakers held to camera for markings; blur brand names if needed. Pole-base fuse clip shows LOTO upstream and a fuse puller."
+}

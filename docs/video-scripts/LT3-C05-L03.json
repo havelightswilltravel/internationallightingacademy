@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C05-L03",
+  "title": "Conductors — Types, Colors and Sizing Basics",
+  "course": "LT3-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 211,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop wire rack with spools of THHN/THWN-2 in several colors, MC cable coils and fixture wire. Matthew beside the rack, medium shot.",
+      "on_screen": "Conductors: Types, Colors and Sizing Basics",
+      "says": "Every wire you touch has a story printed on it, and every color is a promise someone else made. Reading the wire tells you where it can be used. But colors only tell you what a conductor is supposed to be, so the safe habit stays the same: verify every conductor with a tested meter before you touch it.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Macro close-up: a senior tech's thumb runs along printing '12 AWG THHN/THWN-2 CU 600V VW-1'; each segment highlighted.",
+      "on_screen": "12 AWG | THHN (90°C dry/damp) | THWN-2 (90°C wet) | CU | 600V | VW-1",
+      "says": "Here's 12 AWG THHN/THWN-2, copper, 600 volt, VW-1. AWG is size, and a smaller number is a larger wire. THHN is thermoplastic, high heat, nylon jacket, 90 degrees in dry or damp locations. THWN-2 adds water resistance, 90 degrees in wet. CU is copper; AL would be aluminum. 600 volts is the insulation rating, and VW-1 is a flame test rating.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of MC cable, AC cable, NM cable, XHHW-2, TFFN fixture wire and SOOW cord, each labeled on screen.",
+      "on_screen": "MC | AC (BX) | NM (Romex) | XHHW-2 | TFFN/TFN | SJOOW/SOOW",
+      "says": "Other types you'll see. MC, metal-clad cable, common for branch circuits and fixture whips in commercial ceilings. AC cable, or BX, with a bonding strip, in older buildings. NM cable in dwellings and some light commercial, where permitted. XHHW-2 for larger feeders and outdoor runs. TFFN and TFN fixture wire inside fixtures. And flexible cord for cord-and-plug fixtures and pendants where permitted.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Side-by-side spools: black/red/blue/white, then brown/orange/yellow/gray; green and bare grounds.",
+      "on_screen": "208Y/120: black, red, blue + white | 480Y/277: brown, orange, yellow + gray",
+      "says": "Identification. Neutrals are white or gray, or three continuous white or gray stripes. Grounds are bare, green, or green with yellow stripes. Hots are any other color, and where there's more than one voltage system, each is identified by phase and system, documented at each panel. Common convention: 208Y/120 is black, red, blue with white neutral. 480Y/277 is brown, orange, yellow with gray. Always verify the posted scheme.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a tech wraps black tape around a white conductor at a switch-loop termination in MC cable.",
+      "on_screen": "White as a hot (cable switch loop): re-identify at every visible end",
+      "says": "Sometimes a white wire is a hot. In NM or MC cable, a white conductor may be used as a hot in certain cases, like a switch loop, if it's permanently re-identified with tape, paint or another effective means everywhere it's visible and accessible. Good practice: wrap both ends in black, red or the right phase color. That's exactly why you never trust color.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "14, 12 and 10 AWG conductors side by side on the bench; on-screen table.",
+      "on_screen": "14 AWG → 15 A | 12 AWG → 20 A | 10 AWG → 30 A",
+      "says": "Sizing basics. Ampacity is the current a conductor can carry continuously without exceeding its temperature rating, from NEC Table 310.16. But terminals have ratings too, and for circuits 100 amps or less the 60 degree column applies unless equipment is marked for 75. And small copper has a max breaker: 14 AWG, 15 amps; 12 AWG, 20 amps, the standard lighting circuit; 10 AWG, 30 amps.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a conduit with several homeruns entering; on-screen caution.",
+      "on_screen": "More than 3 current-carrying conductors or high heat → derating",
+      "says": "So even though 12 AWG THHN has a 90 degree ampacity of 30 amps, it's still protected at 20 for a general branch circuit. Ampacity must be reduced when more than three current-carrying conductors run together, or in high ambient heat like attics and rooftops. Those calculations are licensed-electrician work. What you need to know: you can't just keep adding circuits to a conduit without someone checking.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: aluminum feeder lugs marked AL/CU with antioxidant compound; then an upsized conductor pull.",
+      "on_screen": "Aluminum: AL/CU terminals, proper torque, listed connectors",
+      "says": "Two more. If conductors are upsized for voltage drop, the equipment ground must be upsized proportionally, so mention it to your lead. And aluminum needs terminals marked AL/CU, or CO/ALR on some 15 and 20 amp devices, proper torque, and often antioxidant compound. Never splice aluminum to copper with a connector not listed for that combination.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the wire rack.",
+      "on_screen": "Never trust color. Verify with a meter.",
+      "says": "Read the printing, know the colors, respect the limits, and never trust color over your meter. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Wire-rack segment per the lesson's video suggestion: show real printing on THHN/THWN-2, MC cable and fixture wire, and 14/12/10 AWG side by side. Re-identification demo on a de-energized bench sample. Color conventions on screen are labeled 'common, verify the posted scheme'."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C12-L02",
+  "title": "Battery Units, Emergency LED Drivers & Inverters",
+  "course": "LT3-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 218,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training ceiling with a 2x4 LED troffer lowered, emergency LED driver kit on a cart, lock kit and meter. Presenter voice-over.",
+      "on_screen": "Job Mindset: Installing an Emergency LED Driver",
+      "says": "Job mindset. An emergency driver means two energy sources in one fixture: the branch circuit and a battery. Lock out the circuit, verify dead, check for other emergency sources, and connect the battery last. Plan it before you leave: is the driver compatible with this LED module, is there an unswitched hot at the fixture, and if not, who's running one. Don't improvise.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: bug-eye unit, combo exit, emergency LED driver, mini-inverter laid out on a bench.",
+      "on_screen": "Charger + battery + transfer circuit + test switch/indicator",
+      "says": "Every battery unit has the same parts: a charger, a battery, transfer circuitry that senses loss of power and switches to battery, and a test switch with a charge indicator. You'll see bug-eye units, combo exit signs, remote heads, emergency LED drivers inside fixtures, fluorescent emergency ballasts and fixture-level mini-inverters. Aim bug-eye heads along the egress path, not at the ceiling.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: emergency driver label showing output power and voltage range next to the LED module label.",
+      "on_screen": "Match: output voltage range | emergency watts | UL 924 | temperature rating",
+      "says": "An emergency driver must match the LED module. Its output voltage range must cover the module's forward voltage. Its emergency output power, like 7, 10 or 18 watts, sets how much light you get on battery, usually a fraction of normal. It must be UL 924 listed and rated for the location's temperature, because cold freezers and hot ceilings shorten battery life.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: branch circuit with an unswitched hot tapped ahead of the wall switch, and a switched hot after it.",
+      "on_screen": "Unswitched hot: SAME branch circuit, AHEAD of any switch, dimmer, sensor or relay",
+      "says": "The most important wiring rule. The unit gets an unswitched hot from the same branch circuit as the area's normal lighting, ahead of any switch, dimmer, sensor or relay. That keeps it charged and lets it detect a true failure. Many drivers also get a switched hot so the fixture works with the wall switch. Feed it from a different circuit, and a tripped lighting breaker leaves the area dark.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks out, verifies dead at the troffer live-dead-live, identifies unswitched and switched hots with labels.",
+      "on_screen": "LOTO > live-dead-live > identify unswitched and switched hots",
+      "says": "The install. Confirm compatibility. Lock out the lighting circuit and verify absence of voltage at the fixture, live-dead-live, and check for other emergency sources. Identify the unswitched hot and the switched hot. If there's no unswitched hot at the fixture, one has to be run. Don't improvise.",
+      "seconds": 19
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: emergency driver mounted to the housing, wired between AC driver and LED board; test switch mounted in the ceiling tile; battery plugged in last.",
+      "on_screen": "Wire between AC driver and LED board. Test switch visible from the floor. Battery LAST.",
+      "says": "Mount the emergency driver to the housing and wire it between the AC driver output and the LED module, per its diagram. Mount the test switch and charge indicator where they're visible and reachable from the floor. Buried above the ceiling, it can't be tested monthly. Make the battery connection last, after all wiring is secure.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Power restored: charge indicator glows; tech presses test switch, fixture goes to emergency mode, releases, returns to normal. Tech writes date on a label.",
+      "on_screen": "Charging? Test: emergency mode. Release: normal. Label the date.",
+      "says": "Restore power and confirm the charge indicator shows charging. Press the test switch: the fixture goes to emergency mode. Release: it goes back to normal. Label the unit with the install date, and note on the work order that the battery needs its initial charge, often 24 hours, check the instructions, before a full 90-minute test.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the ceiling, medium close-up, holding a disconnected battery connector.",
+      "on_screen": "Charged battery can energize the LED output with the breaker OFF.",
+      "says": "Safety. A charged emergency driver can energize the LED output, and sometimes other leads, with the breaker locked off. Disconnect the battery before service and tag or note it. Swollen or damaged batteries can leak, vent or catch fire, so follow our battery handling procedure. The classic mistake: both inputs on the switched leg. The unit goes to battery every time the lights go off, and it's dead when it's needed.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Central inverter cabinet in an electrical room.",
+      "on_screen": "Inverter-fed fixtures stay LIVE with the normal breaker off. Lock out inverter output too.",
+      "says": "Central lighting inverters supply normal AC to emergency circuits during an outage, so regular fixtures can serve as emergency lighting. Those are emergency circuits: keep them separated and marked. Fixtures on an inverter stay energized with the normal breaker off, so lock out the inverter output breakers too. Don't add loads without engineering approval. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Senior tech performs the install on a training ceiling; presenter voice-over in scenes 1, 5-7. Use an unbranded emergency driver kit and mock labels. Lock and tag visible at the panel."
+}

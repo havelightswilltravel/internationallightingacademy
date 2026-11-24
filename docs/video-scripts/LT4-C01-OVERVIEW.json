@@ -1,0 +1,67 @@
+{
+  "vid": "LT4-C01-OVERVIEW",
+  "title": "Job Mindset Refresher (LT4) (course overview video)",
+  "course": "LT4-C01",
+  "presenter": "Matthew Berrett",
+  "source": "outline",
+  "target_seconds": 165,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room with a lighting contactor panel, a dimming demo board and a channel-letter sign on a bench behind Matthew. Medium shot.",
+      "on_screen": "Job Mindset Refresher: LT4",
+      "says": "Welcome to LT4. This level moves you into controls and specialty systems: dimming, sensors, contactors and relay panels, networked controls, refrigerated cases, neon and LED signs. The work gets more technical, and the hazards get less obvious. So we start the level the way we start every job: with the Job Mindset. Safe, planned, ahead.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a lighting control panel; graphic overlay of the five habits as a numbered list.",
+      "on_screen": "1. Safety first  2. Plan the whole job  3. Think steps ahead  4. Keep every hand busy  5. Never be caught off guard",
+      "says": "Five habits. Safety first, using the hierarchy of controls: remove the hazard before you reach for PPE. Plan the whole job before you leave the shop, worst cases included. Think several steps ahead. Keep every hand on the crew busy. And never be caught off guard. Let's put them to work on a call from this level.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at dusk, all pole lights dark; a service van pulls up. Wide shot, then Matthew to camera.",
+      "on_screen": "Scenario: whole lot dark at dusk",
+      "says": "Here's the scenario. A customer calls: the whole parking lot is dark at dusk. It's controlled by a photocell, a time clock and a lighting contactor. Habit one, safety first. A contactor panel is energized line-voltage equipment. The first control is de-energizing and locking out. Live testing happens only if you're qualified, authorized, and in the PPE your company's assessment requires.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Inside the service van: Matthew checks a parts bin and a tablet showing the site's past service history.",
+      "on_screen": "Plan: history, parts, meter, LOTO, who's qualified",
+      "says": "Habit two, plan it before you leave. Pull the site history. Bring your tested meter and LOTO kit, and think about the worst case: a burned contactor, a failed clock, a ground fault. Do you have a likely replacement or the information to order one? And who on the crew is qualified for the energized checks?",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Two techs at an exterior panel: one reads a meter, the other photographs the nameplate and records readings. Presenter voice-over.",
+      "on_screen": "Ahead | Every hand busy",
+      "says": "Habit three, think ahead. Before you open the panel, know your test order and what each reading will tell you. Habit four, keep every hand busy. While one tech works the panel, the other covers the photocell, checks the clock, photographs the nameplate and starts the write-up. Two people, no one standing around.",
+      "seconds": 21
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera beside the dark lot, medium close-up.",
+      "on_screen": "Never be caught off guard",
+      "says": "Habit five, never be caught off guard. Expect the panel to be mislabeled. Expect a second source of power. Expect the customer to ask when it'll be fixed. When you've already thought about those, nothing surprises you, and you don't make rushed decisions near energized equipment.",
+      "seconds": 19
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Back in the training room, Matthew in front of the demo boards. Medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "You'll see these five habits at the start of every task lesson in this level. Use them on every call. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Source: outline only; the LT4 Job Mindset refresher lesson is not written yet. Check this script against the lesson when it is written, especially the wording of the five habits and the scenario. The scenario (dark parking lot controlled by photocell, time clock and contactor) is drawn from LT4 course topics; keep it general. Energized work shown only as reading a meter by a tech in appropriate PPE behind a de-energized-looking dead front, or omit live-panel close-ups. No customer logos on the lot or signs."
+}

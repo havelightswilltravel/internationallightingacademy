@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C02-L07",
+  "title": "Commercial Fixture Types: Indoor & Exterior",
+  "course": "LT2-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Commercial site parking lot, daytime; service truck parked, building with wallpacks behind. Matthew walking toward camera.",
+      "on_screen": "Commercial Fixture Types: Indoor & Exterior",
+      "says": "On every call, someone asks what kind of light is it. If you write light out by the door, the office can't tell whether to send a ladder or a lift, what parts to order, or what a replacement should look like. Fixture type tells everyone the access and the hazards before anyone arrives. Let's walk one site and name what we see.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Stockroom strip light, then a stairwell wraparound, then an office linear high bay photo comparison.",
+      "on_screen": "Strip: narrow, 1-2 lamps | Wraparound: lens curves over bottom and sides | Linear high bay: 4-6 lamps, hung high",
+      "says": "Stockroom: a strip light, a narrow channel with one or two bare lamps. Stairwell: a wraparound. It's wider, and the lens curves over the bottom and the sides. A linear high bay is much wider, with four to six lamps or LED bars and a reflector between them, hung high, usually over about twenty feet.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Office: troffers in a lay-in grid and a narrow linear slot; lobby: recessed can and a wall sconce; sales floor: track heads.",
+      "on_screen": "Troffer: 1x4, 2x2, 2x4 | Linear slot | Recessed can: aperture, IC or non-IC | Track: adapter must match the track system",
+      "says": "In the office, troffers recessed in the grid. Note the size, 1x4, 2x2 or 2x4, the door type and lamp count. That narrow line in the ceiling is a linear slot. In the lobby, a recessed can and a wall sconce. For cans, note the aperture size, lamp shape and base, and IC or non-IC. On the sales floor, track heads. The head adapter has to match the track's brand system.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse: LED UFO high bay with cooling fins, an older HID high bay with a dome reflector, and linear high bays; scissor lift parked.",
+      "on_screen": "LED high bay (UFO) | HID high bay | Lift required",
+      "says": "Warehouse. That round, flat disk with fins is an LED high bay, often called a UFO. The dome reflector under a finned ballast housing is an HID high bay, usually metal halide, slow to start, and often written up for LED replacement. Both mean a lift. High bays, area lights, street lights and many floods need a lift or bucket truck and a lift-trained tech.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Exterior: wallpack on the wall, flood on a knuckle aimed at a sign, area light on a pole.",
+      "on_screen": "Wallpack: fixed to wall | Flood: aimable on a knuckle or yoke | Area light: on a pole arm",
+      "says": "Outside. A wallpack is a box fixed flat to the wall, aimed down and out, and you can't tilt it. A flood is a head on a knuckle or yoke that can be aimed, so note the aiming before you remove it. An area light, or shoebox, is on a pole arm and throws a wide pattern onto the lot. Note the pole number, heads per pole and height.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Entrance canopy with recessed square fixtures; walkway bollards and step lights; soffit cans.",
+      "on_screen": "Canopy: traffic control | Exterior can: wet or damp rated | Bollard vs step light",
+      "says": "Canopy lights at the entrance need a lift or tall ladder and traffic control; note the deck height and cutout size. On the walkway, a bollard is a freestanding post you can walk around. A step light is set into a wall or riser. Those soffit cans are exterior recessed cans. Never put an interior trim or a lamp not rated for damp or wet locations in one.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech writing on a work order at the truck tailgate; on-screen examples appear.",
+      "on_screen": "Wallpack, about 14 ft, east wall at dock door 2, LED, no photocell visible",
+      "says": "Now write it like a pro. Common name first, then the details. Troffer, 2x4, three-lamp T8, lens door, office 214. Wallpack, about fourteen feet, east wall at dock door two, LED, no photocell visible. Area light, pole P7, two heads, both out. Not sure of the name? Describe it and attach a photo. The office would rather have a photo than a guess.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew by the truck, medium shot.",
+      "on_screen": "Every fixture: locked out, verified dead",
+      "says": "Whatever the fixture, it's serviced locked out and verified dead, and HID fixtures need time to cool. Learn the common names and use them on every work order. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Drive-and-walk tour of one generic commercial site per the lesson's video suggestion; no customer signage or logos. At each stop show the fixture name as a lower-third. Lesson includes a 24-fixture chart image (/media/fixtures/commercial-fixture-types.jpg) that can be used as a cutaway. Lesson file path is LT1-C05/07 (course code differs from vid LT2-C02)."
+}

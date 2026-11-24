@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C13-L04",
+  "title": "Power-Line Clearances, Ground Conditions & Rescue Planning",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Parking lot with light poles; overhead distribution lines visible along the street behind. A boom lift parked, stowed. Danny facing camera, lines in frame over his shoulder.",
+      "on_screen": "Job Mindset: Look Up Before You Set Up",
+      "says": "On a parking-lot pole job, the hazard that kills is right up there: the power lines. Then the ground under the tires, and nobody able to get you down. So plan it before you leave the shop. Look at the site photos, know if lines are near, line up a dedicated spotter, bring cones, flagging and pads, and know who on the ground can run the emergency lowering.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny points up at the lines; graphic of an arc jumping an air gap and ground-potential rings around a lift.",
+      "on_screen": "Assume every overhead line is energized",
+      "says": "Power lines are the number one killer of lift operators. Voltage arcs across air, so you don't have to touch a line to be electrocuted. And if the lift gets energized, everyone touching it or standing near it is at risk too. Assume every overhead line is energized until the utility confirms otherwise. The covering on those wires won't protect you. Service drops count too.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny standing at the base of the pole, gesturing toward the line; graphic shows a 10-foot radius around the conductors.",
+      "on_screen": "Up to 50 kV: at least 10 ft\nOver 50 kV: 10 ft + 4 in per 10 kV over 50\nDon't know the voltage? Call the utility.",
+      "says": "You're not a qualified line worker. So OSHA says you, the lift and anything conductive you're holding stay at least ten feet away from lines up to 50 kV. Above that, add four inches for every 10 kV. Most street distribution lines fall in the ten-foot range, but transmission lines need much more. If you don't know the voltage, don't guess. Call the utility and stay well beyond ten feet.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech sets up flagging and cones marking a boundary; a dedicated spotter stands watching the boom; presenter voice-over.",
+      "on_screen": "Boundary | Dedicated spotter | Measure from the closest point the machine could reach",
+      "says": "Here's how we set up. Identify every line near the work and the travel route. If the job can't keep clearance, call the utility before the job. Set a visible boundary with flagging and cones. Put a dedicated spotter on it, whose only job is watching clearance. Measure from the closest point the boom could swing or drift, not where you plan to stop. Lines sag and sway too.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny next to the lift, demonstrating a small shuffle step with feet together.",
+      "on_screen": "Contact? Operator stays on. Ground crew: stay 35 ft away, call 911 and the utility. Shuffle, feet together.",
+      "says": "If contact happens: the operator stays on the platform if possible, tries to move away from the line with the controls, and warns everyone off. Ground people stay away, at least 35 feet if you can. Don't touch the lift or anyone touching it. Call 911 and the utility. If you must move away, shuffle with small steps, feet together.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Senior tech checks the ground under the tires and outriggers: soft soil edge, a valve box cover, hot asphalt; places manufacturer-approved pads; presenter voice-over.",
+      "on_screen": "Slope | Soft ground | Curbs and drop-offs | Covers and vaults | Hot asphalt",
+      "says": "Second segment: the ground. Tip-overs happen when the ground fails or the slope's too steep. Check the slope against the decal. Avoid soft soil and mud, or use manufacturer-approved pads. Stay back from curbs and drop-offs. Don't drive over covers that aren't rated for the load. Hot asphalt can sink outriggers. And re-check when rain or wind changes things.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Rescue drill: tech on the elevated platform simulates being incapacitated; the ground person uses the ground controls, then the emergency lowering, to bring the platform down; presenter voice-over.",
+      "on_screen": "Rescue plan: trained ground person | ground controls | emergency lowering | how to call for help",
+      "says": "Every lift job needs a rescue plan. Who on the ground can run the ground controls and emergency lowering for this machine? How do you call for help, with the address and gate codes? A worker hanging in a harness can lose consciousness within minutes as blood pools in the legs, so rescue must be fast. Practice the plan before the job, especially on a new machine.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny at the ground control station, medium close-up.",
+      "on_screen": "\"Watching\" from across the site is not a rescue plan",
+      "says": "The ground person's job is critical. They stay at the machine, keep the area clear, know the controls and emergency lowering, and know how to call for help. Watching from another part of the site is not a rescue plan. And for weather, stay under the wind rating and lower at the first sign of thunderstorms. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Film at a parking lot with overhead distribution lines along the street; keep the boom well beyond 10 ft from any line at all times, measured by a supervisor before filming. Rescue drill: tech on the platform is tied off; the ground person is trained on that machine's ground controls and emergency lowering. The contact scenario (scene 5) is explained only, never staged near lines. Props: flagging, cones, outrigger pads, tape measure or rangefinder. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/04-power-line-clearances-ground-conditions-and-rescue.md."
+}

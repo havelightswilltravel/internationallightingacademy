@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C03-L02",
+  "title": "Terminations & Inspecting Devices",
+  "course": "LT3-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a mock-up board (never energized) holding receptacles and switches. Matthew beside it, medium shot.",
+      "on_screen": "Job Mindset: Inspecting a Device",
+      "says": "Inspecting a suspect device? The hazard is a burned, loose connection that's still energized, and maybe a second circuit in the box. Your top control: inspect from the outside first, then lock out and verify dead before the plate comes off. Plan ahead: bring a plug-in tester, a torque screwdriver and a spec-grade replacement, and know you'll write it up if the damage goes past the device.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on the mock-up: a wire pushed into a backstab hole; then a burned backstab device removed from the field.",
+      "on_screen": "Backstab: fast, small contact, frequent failure",
+      "says": "Method one, the backstab or push-in. The stripped wire pushes into a hole and a small spring clip grips it. It's fast, but the contact area is small, the spring loosens with heat and time, most current devices take 14 AWG only, and it's a frequent cause of failures. Here's what it looks like after a few years.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: hands strip to the strip gauge, form a hook with long-nose pliers, wrap it clockwise under a screw, tighten with a torque screwdriver.",
+      "on_screen": "Strip to gauge → hook → clockwise ¾ wrap → torque",
+      "says": "Method two, the screw terminal. Strip only to the strip gauge, usually about three-quarters of an inch for a hook. Form the hook with long-nose pliers. Wrap it clockwise, the way the screw tightens, about three-quarters around. Tighten to the manufacturer's torque value. The NEC requires a calibrated torque tool where the manufacturer gives one.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: no bare copper past the screw head; then a counterclockwise hook pushed out as the screw tightens.",
+      "on_screen": "One wire per screw unless marked. Pigtail the rest.",
+      "says": "No bare copper past the screw head, and insulation right up to the terminal. Only one wire per screw unless the device is marked for more; otherwise use a pigtail with a listed connector. And watch the direction. Wrap it counterclockwise, and the screw pushes the wire right out as it tightens.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: straight wire inserted behind a back-wire clamp plate; side screw tightened.",
+      "on_screen": "Back-wire clamp: fast, solid, still torque it",
+      "says": "Method three, the back-wire clamp. A straight wire goes behind a pressure plate and the side screw clamps it. Fast and solid, often two wires per terminal, found on spec-grade devices. It still has to be torqued. For replacements, use the screw terminal or the back-wire clamp. Don't use backstabs, even if the old device was backstabbed.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Field: an installed receptacle in an office. Female senior tech looks at the face, uses a plug-in tester to check grip, wiggles a nearby switch handle; presenter voice-over.",
+      "on_screen": "Steps 1-3 from the outside: look & listen | plug grip | wiggle the switch",
+      "says": "Our company guide says look for damaged, burned or loose parts, check connections, and replace if line voltage is good. Steps one to three happen before you open anything. Look and listen: discoloration, a melted face, a burning smell, buzzing, a warm plate. Check plug grip with a plug-in tester or known-good plug, never your fingers. Wiggle the switch. Flickering or a mushy feel means trouble.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech locks out the circuit at the panel, verifies live-dead-live at the receptacle, removes the plate and pulls the device; close-up of findings.",
+      "on_screen": "4 Lock out & verify  5 Pull it and look",
+      "says": "Step four: lock out the circuit and verify absence of voltage at the device, live-dead-live. Step five: remove the plate and gently pull the device. Look for backstabs, loose screws, scorched terminals, melted plastic, brittle insulation, nicked conductors, broken ears or boxes, aluminum or cloth wire, no ground, and more wires than you expected, like two circuits in one box.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: charred, brittle insulation behind a burned device. Red callout.",
+      "on_screen": "Charred wire behind the device? Stop. Write it up.",
+      "says": "Step six: decide. A burned device means a lot of heat has been there, and the damage may go into the wire, the box or the next device. If insulation behind it is brittle or charred, don't just replace the device. Stop, leave it locked out or made safe, and write it up for an electrician. Same for aluminum wiring, missing grounds, shared neutrals, damaged or overfilled boxes, and repeat failures.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the bench.",
+      "on_screen": "",
+      "says": "Screw terminals or clamps, hooked clockwise and torqued. Inspect outside first, then lock out before you pull it. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Mock-up board is never energized, per the lesson's video suggestion. Show real removed devices with burned backstab holes, melted faces and loose screws. Field inspection performed by a senior technician (female per the video suggestion), with LOTO and live-dead-live shown before the plate comes off. Use a torque screwdriver on camera."
+}

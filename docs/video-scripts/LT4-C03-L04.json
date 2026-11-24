@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C03-L04",
+  "title": "Low-Voltage Control Wiring Practices",
+  "course": "LT4-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 270,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Finished office with a few ceiling tiles removed; Matthew on the floor with a ladder set up. Medium shot.",
+      "on_screen": "Job Mindset: Running Control Wiring",
+      "says": "Control wiring is low voltage, but it's almost always next to line voltage in the same ceiling, fixture or panel, and most of it's done on a ladder. Lock out the line-voltage circuits in your work area and verify before you open boxes, packs or fixtures. Plan ahead: plenum-rated cable if it's a return-air ceiling, J-hooks, labels, firestop, and the right small-wire connectors.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; lower third callout.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may install Class 2 control wiring under our company's license. In others it takes a licensed electrician or a licensed low-voltage contractor, and some jobs need a permit and inspection. Before you do this on a job, confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a Class 2 label on a power pack; graphic table Class 2 vs Class 1.",
+      "on_screen": "Class 2: listed limited source, 30 V or less, Class 2 cable, NOT in power raceways",
+      "says": "Sensor cables, 0–10V pairs, wall stations to relay panels, DALI and DMX. Most of these are Class 2. The listed power source limits voltage and power, so the circuit is lower risk. Typically 30 volts or less. Class 2 cable doesn't go in a raceway with power conductors unless it's reclassified and wired as Class 1, where the equipment allows it. Check with your supervisor.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Above the ceiling: camera follows a control cable on J-hooks hung from the structure, clear of grid wires, ducts and sprinkler pipe; label on the cable.",
+      "on_screen": "Support from the structure. Not tiles, grid wires, sprinkler pipe or ducts.",
+      "says": "Support and routing. Hang cable from the building structure with listed supports like bridle rings or J-hooks. Don't lay it on ceiling tiles, and don't tie it to grid wires, sprinkler pipes or ductwork. In a return-air plenum, use plenum-rated cable. Keep it away from long parallel runs of power, motors or VFD wiring, where noise causes erratic dimming or false triggers.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a power pack mounted through a junction-box knockout: line-voltage leads inside the box, Class 2 leads outside.",
+      "on_screen": "Line-voltage leads IN the box. Class 2 leads OUTSIDE.",
+      "says": "Separation. Mount the power pack through a knockout so its line-voltage leads are inside the junction box and its Class 2 leads are outside, the way the manufacturer designed it. In fixtures, route 0–10V and sensor leads through the separate wireway or as the instructions show. Keep Class 2 out of boxes with power unless there's a barrier or the code permits it.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up at a sensor and a wall station: tech strips small stranded wire to length, lands it in a rated connector, labels the cable.",
+      "on_screen": "Rated connector | Correct strip | Match polarity | Label both ends",
+      "says": "Terminations. Use the connectors the manufacturer specifies, rated for small 18 to 22 gauge stranded wire. Strip to the correct length, no stray strands. Match colors and polarity: power, common and signal on sensors, violet plus and gray minus on 0–10V. Label every cable at both ends with the zone, device and panel input. And restore any fire-rated wall you penetrate with a listed firestop system.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Training mock-up ceiling with several deliberate errors. Camera holds a wide shot with a countdown graphic.",
+      "on_screen": "Spot the mistakes",
+      "says": "Okay, spot the mistakes. This mock-up has seven. Take a look before I point them out.",
+      "seconds": 9
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Camera moves to each error as Matthew names it; red circles appear on each.",
+      "on_screen": "Conduit with 277 V | No barrier in box | Cable on tiles/sprinkler | Non-plenum in plenum | 0–10V reversed | No labels | Open fire wall",
+      "says": "Sensor cable pulled into conduit with a 277-volt circuit. A power pack with both its Class 2 and line-voltage leads in the same box, no barrier. Control cable across the tiles and tied to a sprinkler pipe. Non-plenum cable in a return-air plenum. 0–10V reversed at one fixture. Unlabeled cables at the relay panel. And a fire-rated wall penetrated and left open.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech at a ladder fills out an as-built sketch and panel directory on a tablet.",
+      "on_screen": "As-built | Panel directory | Device settings | Schedules",
+      "says": "Last, document it. An as-built sketch with sensor and pack locations, zones and cable routes. A panel directory showing which relay controls which zone. Device settings like time delays, sensitivity and dimmer trim. And the schedules. Good documentation is what makes the next service call fast.",
+      "seconds": 20
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the finished office, ceiling closed.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Support it, separate it, label it, document it. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Two sets: (1) finished office ceiling with correct routing on J-hooks from structure, labeled cables, power pack through knockout, sensor and wall station terminations; (2) mock-up ceiling with the seven errors from the lesson's spot-the-mistake checklist. Use generic cable and device brands. Ladder use must follow LT1 ladder safety (three points of contact, proper setup). Line-voltage circuits in the work area shown locked out."
+}

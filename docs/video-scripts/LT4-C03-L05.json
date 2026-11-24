@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C03-L05",
+  "title": "Troubleshooting Wall-Switch and Ceiling Motion Sensors",
+  "course": "LT4-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 285,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training wall with a wall-switch PIR sensor, and a ceiling section with a dual-tech sensor and a power pack; ladder and meter. Matthew in front. Medium shot.",
+      "on_screen": "Job Mindset: Motion Sensor Troubleshooting",
+      "says": "Sensor calls put you in wall boxes and junction boxes that often hold more than one circuit. Lock out every circuit present and verify, live-dead-live, before you remove a device or re-land a wire. Line-voltage readings are for qualified people in PPE. Plan ahead: a replacement sensor and power pack, a short test lead, and the old settings so the new one matches.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the wall-switch sensor, faceplate off showing the settings dials.",
+      "on_screen": "Turns off on people? Check settings and placement first.",
+      "says": "First, the easy one. The lights work but turn off on people, or respond slowly. The switch works, it's just not sensitive enough. Check the settings: sensitivity, time delay, mode, and any light-level hold-off. Walk-test in test mode. And check placement. A sensor that can't see the desk will never be sensitive enough.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Fault 1 staged: wall-switch sensor, lights dead. Lock and tag on the breaker; tech opens the box and finds the neutral not connected. Presenter voice-over.",
+      "on_screen": "Dead wall sensor: 1. Ground and neutral",
+      "says": "Now, lights don't work at all. Step one, check for a good ground and neutral. Current listed devices generally need a neutral and must not use the ground as a return path. Lock out, open the box, and confirm both are present and connected. Here's our first staged fault: the neutral was never connected. Reconnect, restore, retest.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Fault 2 staged: neutral is good but still dead. Qualified tech in PPE measures hot to neutral at the line terminal, checks settings, then measures switch leg to neutral while waving a hand. Meter inset reads zero on the switch leg.",
+      "on_screen": "2. Line voltage hot-neutral | 3. Settings | 4. Switch leg | No output = replace",
+      "says": "Second fault. A qualified tech measures across hot and neutral at the line terminal. Good voltage. Check the settings: vacancy mode needs a button press, and a light-level setting can hold lights off. Then, with motion present, measure the switch leg to neutral. Good line, right settings, and no voltage on the switch leg? The device isn't passing power. Replace it.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech replaces the wall sensor under LOTO; close-up of the new device's label showing voltage, load rating and neutral requirement.",
+      "on_screen": "Match voltage, LED load rating, neutral requirement, single-pole or 3-way",
+      "says": "Replace it with a compatible device: right voltage, load type and rating, neutral requirement, single-pole or 3-way. And if the switch leg does have voltage but the fixtures are still dark, the problem is between the switch and the fixtures, or in the fixtures themselves.",
+      "seconds": 18
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Ceiling system: tech measures line hot to neutral at the power pack leads, then sets meter to DC volts and measures red and black at the pack output. Meter shows line present, 0 VDC.",
+      "on_screen": "Line in? 24 VDC out? Line in + no low voltage out = replace the pack",
+      "says": "Ceiling system. Your job is to isolate the power pack from the sensor. First, is the pack receiving line power? Measure across its hot and neutral. Next, is it sending low voltage? Meter on DC volts at the Class 2 output, commonly red plus 24 and black common, confirm on the label. Line in but no low voltage out: replace the power pack. That's our staged fault.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic flowchart over the ceiling shot: pack output, sensor terminals, LED activity, relay.",
+      "on_screen": "At sensor: 24 V + no switching = sensor | 24 V leaves pack, not at sensor = cable",
+      "says": "If the pack is sending low voltage, measure at the sensor terminals. Voltage there means the cable's good. Voltage at the sensor but no switching, and no LED activity in test mode? Replace the sensor. Low voltage leaves the pack but doesn't reach the sensor? The cable or a connection is open or shorted. Repair it. Sensor LED lights on motion but lights stay off? Check the pack relay.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a known-good sensor on a short test lead connected at the pack; then multiple sensors being disconnected one at a time.",
+      "on_screen": "Substitute a known-good sensor | Disconnect sensors one at a time",
+      "says": "Two quick tricks. Substitution: a known-good sensor on a short test lead at the pack separates a sensor problem from a cable problem. Multiple sensors on one pack? Disconnect them one at a time. A shorted sensor can hold down the supply for all of them.",
+      "seconds": 18
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech writes the sensor model, technology, voltage, pack output and final time delay and sensitivity on a work order.",
+      "on_screen": "Record: model, technology, mounting, voltage, LED rating, neutral, pack output, settings",
+      "says": "Record everything for the replacement: model, technology, mounting, voltage, LED load rating, neutral requirement, pack output and how many sensors are on it, plus the final time delay and sensitivity so the new one gets set the same way. Escalate a missing neutral, which is an electrician pulling a conductor, and anything tied into a relay panel, BAS or networked system.",
+      "seconds": 25
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the training wall, lights on.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Prove line in, prove low voltage out, then prove it at the sensor. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Training wall with two staged faults: wall-switch PIR with a disconnected neutral, then (neutral restored) a failed sensor with no switch-leg output; ceiling dual-tech sensor with a power pack that has line input but no 24 VDC output. Show lock and tag before every wiring change. Energized readings by a qualified tech in PPE per the company NFPA 70E assessment. Show settings recorded on the work order. Do not show the control-lead-to-+24V jumper trick on camera (lesson says 'per the manufacturer's instructions, with care'; omitted for brevity). Matches skill sign-off 'Troubleshoot a wall-switch sensor and isolate a ceiling sensor power pack'."
+}

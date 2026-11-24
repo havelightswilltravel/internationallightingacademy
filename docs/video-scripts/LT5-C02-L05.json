@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C02-L05",
+  "title": "Predicting Light Levels with the Lumen Method",
+  "course": "LT5-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 193,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Empty training room (generic office) with recessed troffers; senior tech with tape measure, calculator app and printed CU table. Matthew voice-over.",
+      "on_screen": "Job Mindset: Check It Before You Order It",
+      "says": "Job Mindset for a lumen-method check. The planning point: you run the numbers before anyone orders material, so the crew never installs a kit that misses the target. On site, reading labels means opening fixtures: lock out and verify absence of voltage, live-dead-live, first, and use a properly rated, set-up ladder or MEWP. Bring the tape, the CU tables, and plan a night survey to verify.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of the formula over Matthew at a whiteboard in the room.",
+      "on_screen": "Average maintained fc = (N × L × CU × LLF) ÷ Area\nAverage only, not hot spots or uniformity",
+      "says": "A customer asks, 'If we put this lower-wattage kit in all 20 troffers, will it still be bright enough?' The lumen method gives a fast, defensible answer. Average maintained footcandles equals the number of fixtures, times delivered lumens each, times CU, times light loss factor, divided by area. It predicts the average only. Hot spots and uniformity need a point calculation or a survey.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech measures the room and ceiling height; graphic shows RCR math.",
+      "on_screen": "RCR = 5 × h × (L + W) ÷ (L × W)\n40 × 30 ft room, h = 6.5 ft → RCR 1.9",
+      "says": "Step one: room cavity ratio. Five times h, times length plus width, divided by length times width. H is the height from the fixtures down to the work plane. A 9-foot ceiling with 2.5-foot desks gives 6.5 feet. For a 40 by 30 room, RCR is 1.9. Low numbers mean a big open room; seven to ten means a corridor or small tall room.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close on a printed CU table; finger on the RCR 2 row, 80/50/20 column.",
+      "on_screen": "CU from the manufacturer's table for THAT product\nKit in a housing: use the KIT's photometry",
+      "says": "Step two: coefficient of utilization, from the manufacturer's CU table. Rows are RCR; columns are ceiling, wall and floor reflectance, like 80/50/20. Here, CU is 0.68. A retrofit kit in an old troffer has its own photometry. Use the kit maker's table for the kit-in-housing combination. If they can't give you a photometric file, that's a warning sign.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: LLF table, then the worked example.",
+      "on_screen": "LLF = LLD 0.90 × LDD 0.95 = 0.855\n20 × 4,000 × 0.68 × 0.855 ÷ 1,200 = 38.8 fc maintained\nInitial (LLF 1.0) = 45.3 fc",
+      "says": "Step three: light loss factors, multiplied together. Lumen depreciation 0.90 times dirt 0.95 gives 0.855. Twenty troffers at 4,000 delivered lumens, CU 0.68, LLF 0.855, over 1,200 square feet: 38.8 footcandles maintained. New and clean, it's 45.3. That gap is the design cushion, and it's why new installs read high.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard writing the retrofit check.",
+      "on_screen": "Target 30 fc: 20 kits → 32.8 fc (meets)\n16 kits → 26.3 fc (short; don't recommend)\nMinimum: 19 fixtures",
+      "says": "Now the retrofit check. Target: 30 footcandles maintained. A 3,200-lumen kit with CU 0.72 in all 20 housings gives 32.8. It meets the target, so go to a trial install. The rep also suggests removing four fixtures: 16 kits gives 26.3, short of target, and spacing gets worse. Don't recommend it. Worked backward, the minimum is 19 fixtures, if spacing still works.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Night: senior tech runs a meter grid; whiteboard shows predicted vs measured.",
+      "on_screen": "Predicted initial 38.4 fc • Measured 35.6 fc • ~7% low\nWithin ~10%: agrees • 15-20%+: investigate",
+      "says": "Step four: verify with a night survey and compare to the initial prediction, since the system is new. Predicted 38.4; measured 35.6, about 7 percent low. Explanations: lower real reflectances, furniture, grid points near walls, meter tolerance, trim below 100 percent, or voltage and temperature. Within about 10 percent, they agree. A 15 to 20 percent gap means investigate.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, medium shot.",
+      "on_screen": "Write the numbers into the proposal",
+      "says": "Common mistake: trusting the sales sheet and the original fixture's data. Run the numbers with the kit's own photometry, write them into the proposal so the customer and your manager can see the basis, and verify after install.",
+      "seconds": 15
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Training room, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Predict, check before ordering, verify, explain. Now read the lesson, work both examples yourself, and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Calculation lesson with a field segment; scene 1 is a short Job Mindset framing (planning before ordering + LOTO before opening fixtures). The video_suggestion specifies a female senior technician performing on camera; presenter voice-over. Props: tape measure, calculator app, printed generic CU table, whiteboard, calibrated meter, painter's tape grid. All numbers are the lesson's example values."
+}

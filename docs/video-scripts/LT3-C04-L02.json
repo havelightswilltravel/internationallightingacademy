@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C04-L02",
+  "title": "Why Breakers Trip — Overload, Short, Ground Fault, Nuisance and Weak Breakers",
+  "course": "LT3-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room whiteboard with a simplified trip-curve chart drawn: time vs multiples of rating. Matthew at the board, medium shot.",
+      "on_screen": "Why Breakers Trip",
+      "says": "When a breaker trips, it's telling you something. Read it right, and you find the real problem safely. Read it wrong, and someone keeps resetting it onto a fault. This lesson is about reading the clues, starting with the trip curve.",
+      "seconds": 16
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the whiteboard curve; Matthew traces the thermal slope and the magnetic drop.",
+      "on_screen": "≤100%: hold | 110-135%: maybe a long time | 2-3×: seconds-minutes | 5-10×+: instant",
+      "says": "Every breaker has a time-current curve. At or below its rating, it shouldn't trip. Slightly over, say 110 to 135 percent, it may take many minutes to hours, or not trip at all within tolerance. Two to three times over, seconds to a minute or two. Around five to ten times and up, the magnetic trip is essentially instant. And it's really a band, not a line. Hot panels trip sooner.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen table builds; Matthew to camera.",
+      "on_screen": "Overload | Short | Ground fault | Nuisance | Weak breaker",
+      "says": "Five causes to tell apart. Overload: trips after running a while, more on hot days, resets and holds. Short circuit: trips instantly on reset or at switch-on, maybe with a flash or burn marks. Ground fault: instant on a solid fault, or a GFCI tripping on small leakage. Nuisance: no real hazard, like inrush or certain drivers on AFCI. Weak breaker: trips below its rating.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Field story 1: retail space with a track lighting run; on-screen clock passes an hour, lights go out.",
+      "on_screen": "Story 1: trips after an hour → overload",
+      "says": "Story one. A track circuit trips about an hour after the store opens. Someone's been adding track heads. The tech asks what changed, walks the circuit, totals the load, and finds it's over the rating. The breaker's doing its job. The fix is reducing or splitting the load.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Field story 2: ceiling with a pinched fixture whip; panel breaker trips instantly on reset. Red callout.",
+      "on_screen": "Story 2: instant trip → short. Do NOT keep resetting.",
+      "says": "Story two. A breaker trips instantly the moment it's reset. That's a short or a solid ground fault. Here it was a pinched fixture whip. Never reset a breaker more than once without finding the cause. Closing onto a short can damage equipment and create an arc flash hazard at the panel. Leave it off, tag it, and investigate the load side de-energized, or write it up.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Field story 3: landscape fixture in wet mulch after rain; GFCI breaker tripped.",
+      "on_screen": "Story 3: random, wet weather → ground fault / leakage",
+      "says": "Story three. Landscape lighting on a GFCI trips randomly, mostly after rain. That's ground-fault leakage, water in a fixture, damaged cable or a wet pole base. Story four is the tricky one.",
+      "seconds": 13
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Field story 4: warehouse panel with breakers used as daily switches; clamp-meter reading shown well under rating.",
+      "on_screen": "Story 4: load well within rating, still trips → weak breaker → write it up",
+      "says": "Story four. An old breaker used as a light switch for years trips well below its rating. Our company procedure says check the breaker's tolerance, meaning compare the actual load with its rating. Load over the rating, or over 80 percent for continuous lighting? Overload. Load well within rating and it still trips? Suspect a weak breaker or a loose connection, and write it up for an electrician to replace.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard; on-screen five questions.",
+      "on_screen": "When? What changed? What's on it? What type? How does it look and feel?",
+      "says": "On a service call, ask and record: when does it trip? What changed? What's on the circuit? What type of breaker? And how does it look and feel from outside the dead front? One special case: big groups of LED drivers draw a huge, short inrush. Trips only at switch-on, never while running? Write it up with your observations; the fixes are design decisions.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera.",
+      "on_screen": "Never reset repeatedly onto a fault",
+      "says": "Instant means short or ground fault. Delayed means overload or a weak breaker. Switch-on only means a fault or inrush on that load. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Whiteboard trip curve plus four field stories per the lesson's video suggestion. Stories may be dramatized; breakers shown only through a closed panel with the dead front on. Trip-curve numbers on screen are labeled 'general idea only', matching the lesson."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C11-L04",
+  "title": "PPE, Insulated Tools & Test Instruments",
+  "course": "LT4-C11",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 208,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop bench with glove bag, rubber insulating gloves, leather protectors, AR category 2 kit, hood, insulated tools, meter and a proving unit. Senior tech beside Danny. Medium shot.",
+      "on_screen": "Job Mindset: Gearing Up for Energized Measurement",
+      "says": "Job Mindset before any energized measurement. The hazards are shock and arc flash. Elimination comes first, so de-energize if you can; PPE is the last line of defense. If the task truly needs a live reading, plan it before you leave the shop: read the label or study, and pack the gloves, AR kit, insulated tools and a meter rated for the job. Damaged or out-of-date PPE means the task doesn't proceed.",
+      "seconds": 29
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close on glove cuffs showing class labels and colors; on-screen table.",
+      "on_screen": "Class 00: 500 V (beige)\nClass 0: 1,000 V (red)\nUp to 480 V: Class 00 (≤500 V) or Class 0",
+      "says": "Rubber insulating gloves are the most important shock PPE. Class 00 is rated to 500 volts, beige label. Class 0 to 1,000 volts, red label. For building systems up to 480 volts, Class 00 or Class 0 is typical, and many employers standardize on Class 0 for 480. Wear leather protectors over them.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Senior tech rolls and inflates a glove, listening; then points to the test date stamp. Danny voice-over.",
+      "on_screen": "Air-test before each day's use\nElectrical retest: at least every 6 months\nStore in a glove bag",
+      "says": "Inspect and air-test before each day's use and whenever you suspect damage. Roll or inflate the glove and look and listen for leaks, cuts, punctures, ozone cracking, swelling or embedded objects. Check the test date: gloves in service are retested at intervals not exceeding six months. Store them in a glove bag, not crushed in a toolbox, away from heat, sunlight and ozone.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech dons AR shirt and pants, safety glasses, ear inserts, Class E hard hat, then hood. Danny voice-over.",
+      "on_screen": "AR rating ≥ label incident energy or category minimum\nNo melting undergarments\nLayered ratings are NOT added",
+      "says": "Arc-rated clothing carries an arc rating in calories per square centimeter, and the whole system must be at least the label's incident energy or category minimum. Sleeves down and buttoned. Safety glasses under the face shield or hood, ear canal inserts, a Class E hard hat. Undergarments must be cotton, wool or arc-rated; polyester and nylon can melt into skin. And layered ratings aren't simply added up.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close on a 1,000 V insulated screwdriver with the double-triangle mark; tech inspects the insulation.",
+      "on_screen": "1,000 V insulated tools inside the restricted approach boundary",
+      "says": "Inside the restricted approach boundary, use insulated hand tools rated for 1,000 volts, marked with the double-triangle symbol. Inspect them first: no cracks, cuts, nicks or exposed metal. Inspect AR clothing before each use too, and pull it if it's contaminated with grease or oil, or has holes or tears.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Close on meter face showing CAT III 1000 V / CAT IV 600 V; tech inspects leads and probes.",
+      "on_screen": "CAT III: panels, feeders, lighting\nCAT IV: service entrance\nLeads rated equal or higher",
+      "says": "Your meter is safety equipment. A meter failure on a high-energy circuit can cause an arc flash in your hands. CAT III covers building distribution: panelboards, feeders, lighting. CAT IV is the service entrance. For commercial work, CAT III 1000 volt, CAT IV 600 volt is a common choice. Leads must be rated equal or higher. Never measure voltage with leads in the amp jacks.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Senior tech on a proving unit: tests known source, tests a de-energized training circuit, tests known source again.",
+      "on_screen": "LIVE → DEAD → LIVE\nNon-contact testers: screening only",
+      "says": "Live-dead-live. Test your meter on a known live source, test the circuit, then test the known source again. If the meter fails either check, your 'dead' reading means nothing. Non-contact voltage testers are fine for screening, but they are not acceptable for verifying absence of voltage.",
+      "seconds": 18
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny by an electrical room door with an AED cabinet visible down the hall.",
+      "on_screen": "Plan: who calls 911 • nearest AED • upstream disconnect\nNever touch a victim still in contact",
+      "says": "Every energized task needs an emergency plan: who calls 911, where the nearest AED is, and where the upstream disconnect is. Never touch a victim who's still in contact with a conductor. Open the source, or use an insulated hook or non-conductive object. And after any shock, the worker gets a medical evaluation even if they feel fine. Heart rhythm problems can show up later.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera; senior tech fully kitted in the background.",
+      "on_screen": "Now read the lesson, take the quiz, then show your evaluator",
+      "says": "PPE reduces injury; it doesn't prevent the incident. Inspect it, wear all of it, and stop if it's not right. Now read the lesson and take the quiz, then show your evaluator your glove inspection, kit and live-dead-live test.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Hands-on demo: senior technician performs glove air-test, dons a category 2 AR kit and hood, inspects meter and leads, and demonstrates live-dead-live on a proving unit and a de-energized training circuit; Danny narrates. No energized panel work on camera. Closing line mentions an evaluator; confirm a hands-on sign-off exists for this lesson before final edit, and drop 'then show your evaluator' if not."
+}

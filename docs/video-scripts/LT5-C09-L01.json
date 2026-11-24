@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C09-L01",
+  "title": "Reactive vs Planned Service in an LED World",
+  "course": "LT5-C09",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 202,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Facility manager's office in a commercial building: a stack of printed one-off service tickets on the desk. Chris stands beside it. Medium shot.",
+      "on_screen": "Reactive vs Planned Service in an LED World",
+      "says": "Look at it from the customer's side. This stack is last year's lighting service: one call, one trip, one lift, one fixture, over and over. The owner never knew what it would cost, and nobody can tell you what failed or why. There's a better way to take care of a building, and it's how we want our customers served.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Graphic comparison table over a shot of a high-bay aisle.",
+      "on_screen": "Reactive: complaint-driven - high cost per repair - unpredictable - scattered records\nPlanned: scheduled and batched - shared trips - known budget - inventory and reports",
+      "says": "Reactive, or break-fix, starts with a complaint. Every repair carries its own trip, setup and often a lift. The budget is unpredictable, records are scattered, and light levels drift down unnoticed. Planned service runs on a calendar, an inventory and agreed service levels. One trip and one lift day cover many repairs, and everything is tracked.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Chris close-up in the office.",
+      "on_screen": "We don't sell scheduled relamping.",
+      "says": "Why the change? Older buildings relamped whole areas on a schedule because fluorescent and HID lamps burned out at predictable ages. That's been replaced by LED retrofits and new luminaires, so we don't sell scheduled relamping. LED systems still need care. Light fades slowly, drivers and controls fail one at a time, dirt still steals light, and warranties only pay if someone tracks them.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "A senior technician and the facility manager walk the building with a tablet; quick cutaways of an inspection, a sensor check, an emergency test, a lens being cleaned.",
+      "on_screen": "Inventory - inspection - response tiers - controls check - emergency testing - cleaning - warranty - attic stock - roadmap - reporting",
+      "says": "So what's in a modern program? An asset inventory. Scheduled inspection for dark, dim, flickering or damaged fixtures. Repairs under agreed response tiers. A controls health check. Emergency lighting testing and records. Cleaning when the environment calls for it. Warranty claims. Matched attic stock. A retrofit, replace or maintain roadmap. And a report of what was found, fixed and recommended.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Tablet close-up showing the response-tier table from a sample service agreement.",
+      "on_screen": "Tier 1 Life safety/security: same day\nTier 2 Operational: next business day\nTier 3 Routine: next scheduled visit\n(Example tiers; actual times set in each agreement)",
+      "says": "Response tiers go in writing. Tier 1 is life safety and security: exit or emergency lights dark, an egress path or parking lot dark at night, exposed wiring, a hanging fixture. Same day. Tier 2 is operational, like a dark aisle or a zone stuck on: next business day. Tier 3 is routine, batched to the next visit. These are examples; real times are set in each agreement.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Senior tech barricades under a fixture hanging by its wiring, then applies LOTO at the panel. Callout.",
+      "on_screen": "Hanging fixture, broken lens, exposed conductors = Tier 1. Make it safe first.",
+      "says": "A fixture hanging by its wiring, a broken lens over a work area, or exposed conductors are Tier 1, no matter how small the area. Make it safe first: barricade, then de-energize under lockout/tagout with live-dead-live verification. If branch-circuit repair is needed, write it up for an electrician.",
+      "seconds": 19
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Chris at the desk with the ticket stack beside a single quarterly service report. Graphic of trips: 12 vs 4.",
+      "on_screen": "Same 12 repairs: 12 trips reactive vs 4 planned visits\nLabor and access drive the cost, not parts",
+      "says": "Customers tend to compare the price of a part. But parts cost the same either way. The cost is labor and access. Twelve repairs as twelve separate calls means twelve trips and twelve lift setups. Batched into four quarterly visits, the trips and lift days are shared. When you present this, use the customer's real call history and our current rates.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Chris medium close-up.",
+      "on_screen": "Pays best: costly access - dirty environments - indirect light - legacy equipment - failure has consequences",
+      "says": "Be honest about what planned service isn't. It's not a promise nothing fails between visits. It's not a way to keep failing equipment alive forever. And it's not permission to work outside your qualifications. It pays best where access is expensive, the environment is dirty, light is indirect, legacy equipment remains, or failure has real consequences.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Chris Munford",
+      "background": "Chris in the office, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "A small, clean office with new LED fixtures may only need an annual walk-through and emergency testing. Recommend what fits the building. That's what earns trust. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Do not show dollar rates or prices on screen or in dialogue; the lesson's cost table uses made-up figures, and the video uses trip counts only. Senior technician and facility manager are non-speaking. Use a generic building; sample service agreement on the tablet must be generic with no customer name."
+}

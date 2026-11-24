@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C07-L02",
+  "title": "Neon Transformers, SGFP, GTO & Installation Hardware",
+  "course": "LT4-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 275,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Sign shop bench with a de-energized, locked-out bench sign; lock and tag on its disconnect. Matthew beside it. Medium shot.",
+      "on_screen": "Neon Transformers, SGFP, GTO & Hardware",
+      "says": "Every part in this lesson either makes lethal voltage or keeps it where it belongs. That's why this bench sign is locked out at its disconnect. Know these parts before you plan any neon call: what you might need to order, what you're allowed to touch, and what has to go to a sign specialist.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Sign specialist holds a heavy magnetic core-and-coil NST next to a small electronic neon power supply. Presenter voice-over.",
+      "on_screen": "Magnetic NST: heavy, hums, midpoint grounded | Electronic: light, quiet, stores charge",
+      "says": "Two kinds of power source. A magnetic transformer, core and coil, is heavy, hums at line frequency, and is usually midpoint grounded. An electronic neon power supply is a solid-state inverter: light, quiet or a high whine, with built-in protection. Both make lethal secondary voltage. And electronic supplies have capacitors that can hold a charge after power is removed.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the SGFP marking and reset instructions on the transformer label; animation of current leaking through a cracked boot to a letter can.",
+      "on_screen": "SGFP: senses secondary leakage to ground and shuts the output off",
+      "says": "A secondary ground fault is high-voltage current leaking to ground, through a cracked boot to a metal letter, burned GTO to a raceway, or water. These faults are a leading cause of neon sign fires, so most transformers need secondary ground-fault protection, SGFP. It senses the leak and shuts the output off. Many latch off until power is cycled or reset. Some retry on their own.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera, close shot.",
+      "on_screen": "Keeps dying after a few minutes? Probably a real secondary fault, not a bad transformer.",
+      "says": "So a sign with an SGFP transformer that keeps dying after a few seconds or minutes usually has a real secondary fault. Not a bad transformer. Don't replace the part that's doing its job.",
+      "seconds": 13
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a transformer's test switch or indicator light and the manufacturer instruction sheet.",
+      "on_screen": "Test only by the manufacturer's method. Never defeat SGFP.",
+      "says": "Read this part carefully. Our older procedure says change the transformer if it won't send power with the secondary leads disconnected. That doesn't apply to every unit. Many SGFP and electronic units see an open secondary as a fault and won't output. That's designed behavior. Test a transformer only by that manufacturer's method, and never defeat or remove SGFP to make a sign light.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Red X graphic over a still of a screwdriver near a transformer lead.",
+      "on_screen": "Never draw an arc to test a transformer. Prohibited.",
+      "says": "And one old practice you may hear about: drawing an arc off a transformer lead with a screwdriver or pliers to see if it works. That exposes you to lethal voltage, damages the transformer, and it's prohibited in this program.",
+      "seconds": 15
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of GTO-15 printed on cable jacket; then a GTO run with a black carbon-tracked burn spot where it touched metal.",
+      "on_screen": "GTO-5 / GTO-10 / GTO-15. Rating at least the secondary V. Burned GTO is replaced, never taped.",
+      "says": "GTO is the high-voltage wire for neon secondaries, marked GTO-5, 10 or 15 for 5,000, 10,000 or 15,000 volts. Its rating must be at least the transformer's open-circuit voltage; when in doubt, GTO-15. Keep runs short, off sharp metal, on proper supports. Burn-through shows as a carbon track, pinhole or melted spot. Burned GTO is replaced, never taped.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "On the locked-out bench sign, sign specialist slides an electrode boot fully over the electrode and GTO connection, then seats an electrode in a PK housing; close-ups of tube supports and snug tie wire.",
+      "on_screen": "Boot fully covers, snug, no cracks | PK housing sealed | Supports hold glass off surface | Tie wire snug, not tight",
+      "says": "Seating hardware right. The boot slides over the electrode and the GTO connection, fully covering it, snug on glass and cable, no cracks or tracking. The PK housing passes the electrode through the face, with its gasket so water can't get in. Supports hold the glass off the surface, commonly at least a quarter inch. Tie wire is snug, never tight, or the glass cracks as it heats.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Building exterior: channel-letter sign on the facade, sign disconnect mounted within sight; Matthew points to it.",
+      "on_screen": "Sign disconnect: within sight, or lockable open. This is your LOTO point.",
+      "says": "Last, the sign disconnect. The code requires each sign to have a disconnect that opens all ungrounded conductors, generally within sight of the sign or lockable in the open position. That's where your lockout starts. No disconnect, a broken one, or one you can't lock? Write it up for an electrician before work proceeds. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Sign shop: de-energized, locked-out bench sign (lock and tag visible on its disconnect), magnetic NST and electronic neon power supply side by side, SGFP label and reset instructions close-up, GTO-15 cable markings, burned GTO sample, boots, PK housings, tube supports, tie wire. Do not stage or reenact drawing an arc; use a still with a red X or skip the visual. Exterior shot of a channel-letter sign with a visible disconnect (no business name or logo readable). Sign specialist performs the hardware demo while Matthew narrates."
+}

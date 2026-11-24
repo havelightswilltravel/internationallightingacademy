@@ -1,0 +1,107 @@
+{
+  "vid": "LT4-C03-L02",
+  "title": "Photocells & Time Clocks",
+  "course": "LT4-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 295,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training board with a stem-mount photocell, a digital astronomical time clock and a lighting contactor feeding a test lamp. Matthew beside it. Medium shot.",
+      "on_screen": "Job Mindset: Photocell & Time Clock Calls",
+      "says": "Photocells and time clocks usually sit at line voltage, right next to contactors and breakers. Lock out and verify before you replace or re-wire anything. Energized checks are for qualified people in the PPE your NFPA 70E program requires. Plan ahead: bring opaque tape or a test cap, the right trippers, a sleeve, and the clock's make and model in case you need to order.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a stem-mount photocell's three leads with a label callout.",
+      "on_screen": "Black = line in | Red = load out | White = neutral (confirm on label)",
+      "says": "A photocell closes its contact at dusk and opens at dawn. The common three-wire photocell: black is line in, red is load out, white is neutral to power the sensor. Confirm on the label. Check voltage and the LED load rating. When the load is large, the photocell switches a contactor coil, not the lights directly. And know whether it fails on or fails off.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Exterior building wall: photocell window facing north, away from wall packs and a sign; compass graphic.",
+      "on_screen": "Point it north. Away from its own lights and other light.",
+      "says": "Mounting. Point the window north, in the northern hemisphere, so direct sun doesn't hit it. Keep it away from the lights it controls and from signs, wall packs and headlights, or the lights cycle on and off at dusk. And don't mount it where an overhang or tree shades it, or lights come on early.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew covers the photocell completely with a test cap; a timer graphic counts while the lamp stays off, then the lamp comes on.",
+      "on_screen": "Cover it. WAIT for the delay.",
+      "says": "Testing a photocell. Photocells have a built-in delay, from seconds up to a couple of minutes, so lightning or headlights don't switch them. Cover the window completely and wait. The lights should come on. Uncover, wait again, and they should go off. People pull the cap off too soon and call a good photocell bad.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the astronomical clock display as Matthew programs date, time zone, DST, location and events.",
+      "on_screen": "Date/time | Time zone + DST | Location | Events | Holidays | Override | Backup | Label",
+      "says": "Programming an astronomical clock: set the date and time, the time zone and daylight-saving rules. Enter the location the clock asks for. Program the events, for example on at sunset plus 10, off at 11 p.m. Add holidays if needed. Check the override times out back to automatic. Verify the backup. Then write the schedule on the door label and the work order.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Animation: photocell contact and clock contact in series feeding the contactor coil; each opens in turn and the lamp goes off.",
+      "on_screen": "Photocell AND clock both closed = coil on = lights on",
+      "says": "Dusk to midnight. Wire the photocell contact and the clock contact in series in the contactor coil circuit. Photocell closed because it's dark, and clock on: coil energized, lights on. Either one open: lights off. An astronomical clock alone can often replace the photocell, but many specs use both so the photocell catches unusually dark days.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a mechanical tripper clock: tech marks the dial with a pencil, then spins it through ON and OFF trippers without touching the bypass lever.",
+      "on_screen": "Verify time | Don't trust the hum | Spin the dial, no bypass | Replace bad trippers",
+      "says": "Our procedure for mechanical clocks. Verify it's keeping time, and remember daylight saving. A motor can hum and still not turn the dial, so mark the dial and check it moved. Spin the dial through the on and off trippers without using the bypass lever. It should click on and off. Replace loose, bent or missing trippers, then reset to the correct time.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified tech in PPE measures line voltage hot to neutral at the clock, then sets bypass ON and measures the load terminal; meter readout inset. Presenter voice-over.",
+      "on_screen": "Line on line terminal? | Line voltage good? | Force ON | Load voltage? None = replace",
+      "says": "Line and load checks. First, confirm line is landed on the line terminal. Swapped line and load is a common reason a device never works after someone else replaced it. A qualified tech verifies line voltage hot to neutral. Then force it on: bypass on the clock, or cover the photocell and wait. Line present but no load voltage, replace the device. Load voltage but lights off, look downstream.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Exterior: a new wall pack shining on a photocell; tech fits a sleeve (shield) over the photocell and rotates it to face north.",
+      "on_screen": "Nearby light? Sleeve it, re-aim it, or relocate it.",
+      "says": "Then check the photocell's environment. New wall packs, signs, reflective surfaces, or the controlled fixtures themselves make lights cycle at dusk or stay off at night. Adjust the photocell sleeve to block that light, and correct the orientation, facing north and away from its lights. If a sleeve can't solve it, relocate the photocell.",
+      "seconds": 22
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "New LED wall pack on a bench with a factory button photocell visible; Matthew points to it.",
+      "on_screen": "Company rule: remove the redundant factory photocell unless told to keep it",
+      "says": "Two company rules from our monthly meetings. Many new exterior fixtures ship with a button photocell. If the site already has a clock, contactor or building photocell, that second control sits in series and looks like a random fault later. Disconnect or remove the redundant factory photocell, locked out, unless you're told to keep it, and note it on the work order.",
+      "seconds": 25
+    },
+    {
+      "scene": 11,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at dusk after an exterior upgrade; tech covers a photocell and the new fixtures come on.",
+      "on_screen": "Test function after every exterior upgrade. Can't? Write it down.",
+      "says": "Second rule: check function after every exterior upgrade. Operate the lights through their real control: a cover test on the photocell, the clock's override, or the contactor's HOA switch by a qualified person in PPE. If you can't test function, write on the work order that it was not tested, and why.",
+      "seconds": 21
+    },
+    {
+      "scene": 12,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the training board, test lamp on.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Point it north, wait out the delay, force it on and read the load side. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Training board: stem-mount photocell wired to a contactor coil, digital astronomical time clock in the same control circuit (series), test lamp load; a mechanical tripper clock for the procedure segment. Props: photocell test cap or opaque tape, photocell sleeve, LED wall pack with factory button photocell, pencil for dial mark. Energized measurements only by a qualified person in PPE per the company NFPA 70E assessment. Exterior b-roll at dusk with generic building, no signage brands. The 'people pull the cap off too soon' line is a teaching example consistent with the lesson's delay warning. Matches skill sign-off 'Diagnose a time clock and photocell lighting control'."
+}

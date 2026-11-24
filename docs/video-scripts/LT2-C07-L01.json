@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C07-L01",
+  "title": "AC Waveforms, Frequency & RMS",
+  "course": "LT2-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 189,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop bench with a handheld scope connected to an isolated low-voltage AC source; a sine wave on the screen. Medium shot.",
+      "on_screen": "AC Waveforms, Frequency & RMS",
+      "says": "In LT2 you'll start reading voltages on panelboards and meter readings that look wrong. Understanding them is how you test safely and diagnose right the first time. It all starts with the shape of the AC waveform. This is an isolated low-voltage source on a scope, so we can look at it safely.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the scope screen, one cycle highlighted.",
+      "on_screen": "60 Hz | one cycle about 16.7 ms",
+      "says": "AC reverses direction many times a second. Plot it, and you get a smooth repeating curve called a sine wave. One cycle goes up through the positive peak, down through zero to the negative peak and back. In the U.S. that happens sixty times a second, sixty hertz, so one cycle takes about 16.7 milliseconds. Many countries use fifty hertz, which is one reason you always check the nameplate.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Scope screen with peak and RMS levels marked.",
+      "on_screen": "Peak = RMS x 1.414 | RMS = Peak x 0.707 | 120 V peaks about 170 V",
+      "says": "When we say 120 volts, we mean 120 volts RMS, the effective value that does the same heating work as DC. For a pure sine wave, peak equals RMS times 1.414. So a 120 volt circuit peaks around 170 volts. A 277 volt lighting circuit swings to about 392. And 480 line to line peaks near 679. Insulation, meters and surge devices have to be rated for the peaks.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Treat every lighting circuit as capable of a fatal shock",
+      "says": "That's a safety point. The number on your meter is RMS. The actual voltage reaches about 1.4 times that every cycle. A 277 volt circuit is not a small amount of energy. Treat every lighting circuit as capable of causing a fatal shock, and use a meter and leads rated for the system.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Two meters connected to an LED driver input: an average-responding meter and a true-RMS meter showing different current readings.",
+      "on_screen": "LED drivers = nonlinear loads | average-responding meters can read low | company standard: true-RMS only",
+      "says": "Incandescent lamps are linear loads; their current follows the voltage. LED drivers and electronic ballasts are nonlinear. They draw current in short pulses near the peaks, so the waveform's distorted, with harmonics. Watch these two meters on the same driver. The cheap average-responding meter assumes a perfect sine wave and reads low. The true-RMS meter reads the real value. Our company standard: true-RMS meters only for lighting service.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard graphic: two waves 180 degrees apart, then three waves 120 degrees apart.",
+      "on_screen": "Single-phase 120/240: legs 180 deg apart | three-phase: 120 deg apart, line-to-line = 1.732 x line-to-neutral",
+      "says": "Two things nonlinear loads cause: neutral currents higher than you'd expect on three-phase systems, and inrush, a brief, very high spike when drivers charge up. Many fixtures switched together can trip a breaker. Now phase angle. On single-phase 120/240, the two hot legs are 180 degrees apart, so between them you get 240. On three-phase, legs are 120 degrees apart, and line to line is 1.732 times line to neutral.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Meter on a panel reading shown with a table overlay.",
+      "on_screen": "Within about +/-5% is typical | outside about +/-10%: investigate | 277 V: about 263-291 V",
+      "says": "What does normal look like? Utility voltage isn't exact. As a field rule of thumb, readings within about five percent of nominal are typical, and outside about ten percent deserve investigation. For 277, that's about 263 to 291. Persistent high voltage shortens the life of lamps, ballasts and drivers. Low voltage can cause hard starting on fluorescent and HID.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "",
+      "says": "RMS is what you read, the peak is what you're exposed to, and a true-RMS meter tells you the truth on electronic loads. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Bench demo per the lesson's video suggestion: scope on an isolated low-voltage AC source only; average-responding vs true-RMS meter comparison on an LED driver input, set up by a qualified tech with proper PPE and guarding. Lesson file path is LT2-C01/01 (course code differs from vid LT2-C07)."
+}

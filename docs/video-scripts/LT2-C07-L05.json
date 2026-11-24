@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C07-L05",
+  "title": "Coils, Capacitors and Transformers in Lighting Equipment",
+  "course": "LT2-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 186,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a de-energized HID ballast kit, a contactor, a neon transformer, a 12 V landscape transformer and an LED sign power supply, covers off. Medium shot.",
+      "on_screen": "Coils, Capacitors and Transformers",
+      "says": "Almost every system in our Master Troubleshooting Guide has at least one coil, capacitor or transformer. Understanding what each one does explains the readings you'll take, and the hazards you'll face, including a charge that's still there after the power's off. Everything on this bench is de-energized.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups: the HID core and coil, then the contactor coil.",
+      "on_screen": "Coil: limits AC current | ohms de-energized: low | OL = open winding | burnt varnish smell = failing",
+      "says": "A coil is wire wound around an iron core. On AC, its changing magnetic field opposes changes in current, which limits current without much heat. You'll find coils in magnetic ballasts, contactors and relays. De-energized on ohms, a coil reads low, a few ohms to a few hundred. OL means a broken winding. A loud new buzz or a burnt varnish smell is a strong sign of failure.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the HID capacitor; trainer discharges it through a resistor tool, verifies 0 V, removes one lead and reads uF.",
+      "on_screen": "Capacitor: discharge, verify 0 V | test on uF range, one lead off | compare to label tolerance (often +/-6%)",
+      "says": "A capacitor stores charge, and it can hold a dangerous charge after power is removed. Bleed resistors fail. Always discharge through a resistor or insulated tool and verify zero volts before handling. Then test it de-energized on the microfarad range with one lead disconnected, and compare to the label tolerance. Bulged, split or leaking means replace.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holding the capacitor, close-up.",
+      "on_screen": "Same uF, equal or higher voltage | never a different uF on an HID ballast",
+      "says": "Replace with the same microfarads and an equal or higher voltage rating. Never substitute a different microfarad value on an HID ballast; it changes lamp wattage. Coils make current lag, capacitors make it lead, and designers pair them to improve power factor. When an HID capacitor fails open, the lamp may not start or may run dim.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Bench: a step-down transformer behind a clear guard; qualified trainer in PPE measures primary and then secondary; readings on screen.",
+      "on_screen": "More secondary turns = step up | fewer = step down | 10:1 down = about 10x current",
+      "says": "A transformer has a primary on the supply and a secondary on the load, sharing a core. More turns on the secondary steps voltage up, like a neon transformer. Fewer steps it down, like a 12 volt landscape transformer. Power in roughly equals power out, so stepping down ten to one raises available current about ten times. A small loose 12 volt connection can carry a lot of current and overheat.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "LED sign power supply on the bench: meter reads zero output with no load; load connected, output appears.",
+      "on_screen": "Electronic supplies may read 0 V with no load | check secondary connections, test with load",
+      "says": "Open-circuit voltage. With no load, a magnetic ballast or transformer secondary usually reads higher than under load. But many electronic supplies, like this LED sign supply, have a protective cut-out and show no output with no load, or a poor secondary connection. Watch: zero. Connect the load, and there it is. Before you condemn one, check the secondary connections and test with the load connected.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of troubleshooting logic over the bench.",
+      "on_screen": "1 Primary | 2 Secondary (with load for electronic) | 3 Primary good, no secondary: connections, fuses, transformer | 4 Both good: wiring and loads",
+      "says": "Troubleshoot in order. Measure primary voltage; none means upstream. Measure secondary under the right conditions. Primary good, secondary missing: check secondary connections and fuses, then the transformer. Both good: the problem's in the wiring or loads beyond.",
+      "seconds": 15
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Neon transformer close-up with a warning graphic; Matthew beside it.",
+      "on_screen": "Neon secondaries exceed ordinary meter ratings: never probe with a DMM",
+      "says": "Primary measurements on 120 to 480 volts and anything on a neon secondary are energized work: qualified persons only, PPE per our NFPA 70E program, and a meter rated for the voltage. Neon secondary voltages exceed ordinary meter ratings, so never probe them with a DMM. Lock out, verify, and discharge capacitors before you touch windings or terminals. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Bench session per the lesson's video suggestion. All equipment opened de-energized. Step-down transformer measured only behind a guard by a qualified trainer in PPE. No meter on a neon secondary at any time. Note: this lesson says replace HID capacitors with same uF and equal or higher voltage, while LT2-C04 lessons 3 and 5 say exact uF and voltage rating; the script follows this lesson. Lesson file path is LT2-C01/05 (course code differs from vid LT2-C07)."
+}

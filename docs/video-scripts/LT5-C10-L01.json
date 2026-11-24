@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C10-L01",
+  "title": "Review: Safety and Electrical Fundamentals",
+  "course": "LT5-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 173,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training lab with a lighting panel, a whiteboard and a fiberglass extension ladder against a platform. Matthew in front. Medium shot.",
+      "on_screen": "Review: Safety and Electrical Fundamentals",
+      "says": "This is a rapid-fire review of the LT1 to LT4 safety and electrical basics. The LT5 certification exam draws heavily on these. If anything feels unfamiliar, go back to the original course. Let's start where every job starts: an electrically safe work condition.",
+      "seconds": 17
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up; hazard icons appear.",
+      "on_screen": "Shock - Arc flash - Arc blast",
+      "says": "Three electrical hazards. Shock: a few milliamps you feel, tens of milliamps across the chest can cause loss of muscle control and fibrillation. Arc flash: an electrical explosion with intense heat and light that burns at a distance. Arc blast: a pressure wave, molten metal and shrapnel.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech at the panel: identifies the circuit on the schedule, opens the breaker, applies a personal lock to a group lockout hasp alongside other locks, attaches a tag. Presenter voice-over.",
+      "on_screen": "Identify sources - notify - open the disconnect - verify open - release stored energy - your own lock and tag",
+      "says": "The steps. Identify all sources, watching for multiwire circuits, emergency circuits and back-feeds. Notify affected people. Open the disconnecting means, not a wall switch or sensor. Verify visually that it's open. Release stored energy. Apply your own lock and tag. In group lockout, every worker puts on a personal lock, like this.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech tests a DMM on a proving unit, tests phase-to-phase, phase-to-neutral, phase-to-ground and neutral-to-ground, then re-tests on the proving unit.",
+      "on_screen": "Live-dead-live: test the tester - test all conductors - re-test the tester\nNon-contact testers screen. They don't verify.",
+      "says": "Then verify absence of voltage. Test your meter on a known source, here a proving unit. Test every combination: phase to phase, phase to neutral, phase to ground, neutral to ground. Then re-test the meter. Live-dead-live. A non-contact tester is a screening tool only. It can miss voltage or false-alarm. Verification takes a contact tester.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic over a panel arc-flash label.",
+      "on_screen": "Arc-flash boundary: 1.2 cal/cm2\nPPE CAT 1: 4 - CAT 2: 8 - CAT 3: 25 - CAT 4: 40 cal/cm2\nMeters: CAT III for distribution and lighting, CAT IV at service",
+      "says": "NFPA 70E basics. The arc-flash boundary is where incident energy could reach 1.2 calories per square centimeter, the onset of a second-degree burn. PPE categories: CAT 1 at 4, CAT 2 at 8, CAT 3 at 25, CAT 4 at 40. Meters: CAT III for building distribution and lighting, CAT IV at the service, rated at or above system voltage.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech sets up the fiberglass extension ladder at 4:1 against the platform, extended 3 ft above the landing, then climbs with three points of contact.",
+      "on_screen": "Ladders: inspect - 4:1 - 3 ft above landing - 3 points of contact - fiberglass near electrical\nMEWPs: trained, authorized operators only",
+      "says": "Ladders: inspect before use. Set up at 4 to 1, one foot out for every four up. Extend at least three feet above the landing. Three points of contact. Never stand on the top cap or top step of a stepladder. Fiberglass rails near electrical work. Lifts: trained, authorized operators only, pre-use and workplace inspection, required fall protection, stay within capacity.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: Matthew works three quick problems.",
+      "on_screen": "12 x 50 W = 600 W; 600 / 277 = about 2.2 A\n120 x 1.732 = 208 V\nVD = 2 x 12.9 x 16 x 150 / 6,530 = about 9.5 V = 7.9% at 120 V",
+      "says": "Quick math. Twelve 50 watt fixtures on 277 volts: 600 watts, divided by 277, about 2.2 amps. On a 120/208 system, 120 times 1.732 is 208. Voltage drop: 16 amps, 150 feet, 12 AWG copper. Two times 12.9 times 16 times 150, over 6,530, about 9.5 volts. That's 7.9 percent at 120. Way over 3 percent. Upsize or move to a higher voltage.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard, medium close-up.",
+      "on_screen": "Lock out ALL hots of an MWBC - EGC is never a neutral\nNow read the lesson and take the quiz",
+      "says": "Last two. The equipment grounding conductor carries fault current only; never use it as a neutral. And on a multiwire branch circuit, lock out every ungrounded conductor together. Mercury lamps are universal waste, and pre-1979 ballasts without a 'No PCBs' label are treated as PCB. Now read the lesson and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Demo performer: senior technician. Training panel only; proving unit and DMM must be CAT III rated. Ladder setup should visibly show the 4:1 ratio and 3 ft extension (consider an on-screen measurement overlay). Whiteboard numbers must match the lesson exactly."
+}

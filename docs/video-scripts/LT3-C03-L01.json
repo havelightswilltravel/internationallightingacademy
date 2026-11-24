@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C03-L01",
+  "title": "Device Types, Ratings & Markings",
+  "course": "LT3-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 196,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Tabletop with a row of devices: single-pole, 3-way, dimmer, 15 A and 20 A duplex receptacles, GFCI, AFCI, TR, WR, isolated-ground and USB receptacles. Matthew behind the table, medium shot.",
+      "on_screen": "Device Types, Ratings & Markings",
+      "says": "Switches and receptacles are on almost every job, and loose or burned devices are a leading cause of flickering lights, dead outlets and overheating. Before you ever replace one, you have to know exactly what you're looking at. Reading the device right is the first step of planning that job safely.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of each part of the system: outlet, switch, wire, fixture, box. On-screen list.",
+      "on_screen": "Outlet | Switch | Wire | Fixture | Box",
+      "says": "Our company's component list for this system is outlet, switch, wire, fixture and electrical box. Receptacles fail with worn contacts, loose terminals and burned slots. Switches with worn contacts and burned terminals. Wire with loose connections and damaged insulation. Fixtures can overload a switch or dimmer. And boxes break, go missing a cover plate, get overfilled, or sit too deep in the wall.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Overhead close-up: presenter's hands flip a single-pole, then a 3-way switch, then a dimmer, pointing to terminals.",
+      "on_screen": "Single-pole: ON/OFF | 3-way: dark common, no ON/OFF | Dimmer: rated W or VA",
+      "says": "Switches. A single-pole has two brass terminals plus a green ground, with ON and OFF on the toggle. A 3-way has one dark common terminal, two lighter travelers, and no ON/OFF marking. A 4-way has four terminals plus ground. Dimmers are rated in watts or VA and marked for lamp types. Our company guide says trace 3-ways with a diagram or write them up for an electrician.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: 15 A duplex next to 20 A duplex; the T-shaped neutral slot highlighted.",
+      "on_screen": "5-15R = 15 A  |  5-20R = T-slot, 20 A circuit only",
+      "says": "Receptacles are identified by NEMA configuration. A 5-15R is 15 amps, 125 volts: two parallel slots, round ground. A 5-20R is the same, but the wide neutral slot has a sideways T. A 20 amp receptacle goes only on a 20 amp circuit. A 15 amp duplex is allowed on a 20 amp circuit when there's more than one receptacle. Never put a 20 amp receptacle on a 15 amp circuit.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of GFCI, AFCI, TR, WR, isolated-ground (orange triangle) and USB receptacles; each marking circled.",
+      "on_screen": "GFCI | AFCI | TR | WR | IG (orange triangle) | USB",
+      "says": "Special receptacles. GFCI has TEST and RESET and LINE and LOAD terminals. AFCI has a TEST button and protects against arcing faults. TR on the face means tamper-resistant shutters. WR means weather-resistant, for damp and wet locations. An orange triangle means isolated ground. USB combos carry a USB output rating.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; on-screen NEC references.",
+      "on_screen": "GFCI 210.8 | AFCI 210.12 | TR 406.12 | WR 406.9 (2023 NEC)",
+      "says": "You don't need to memorize code sections yet, but know the NEC requires GFCI protection in places like bathrooms, kitchens, outdoors, garages and near sinks, AFCI on many dwelling circuits, and TR and WR receptacles in certain places. It depends on the occupancy and the edition your AHJ adopted. A replacement may have to meet the current rule, so if you're unsure, ask your supervisor before ordering.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Overhead close-up: back of a receptacle and its strap; strip gauge, CU marking, push-in limit, LINE/LOAD and listing mark circled.",
+      "on_screen": "Amps & volts | CU only | CO/ALR | Strip gauge | Push-in 14 AWG | LINE/LOAD | Listing",
+      "says": "Now flip it over and read everything. Amp and voltage rating. CU or CU-clad only means copper only. CO/ALR is rated for aluminum, which is rare, and aluminum wiring is a write-up. The molded strip gauge shows how much to strip. Push-in, 14 AWG solid copper only. LINE and LOAD on GFCIs, where incoming power goes to LINE. And a listing mark. Never install unlisted devices.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a residential switch marked 120 V next to a commercial switch marked 120-277 V AC. Red callout.",
+      "on_screen": "277 V lighting needs a 277 V-rated switch",
+      "says": "Here's the mistake to avoid. Switches on 277 volt lighting circuits must be rated for 277 volts. Many cheap residential switches are rated 120 volts only. Always read the rating before you install a device on commercial lighting.",
+      "seconds": 15
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the table.",
+      "on_screen": "",
+      "says": "Read every marking, every time. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Tabletop video per the lesson's video suggestion; devices off-circuit. Presenter flips each device and the editor circles each marking. Lesson line 40 says 'At LT1, write it up' for 3-way tracing; the course is now in LT3, so the script states the company guide's rule without the level reference. Confirm what LT3 techs may do with 3-way circuits."
+}

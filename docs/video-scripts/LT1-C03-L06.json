@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C03-L06",
+  "title": "The Four Phases of a Fall, Suspension Trauma & Rescue",
+  "course": "LT1-C03",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 290,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop training bay with a training anchor overhead; a tech in a harness standing below, trainer beside him. Danny medium shot.",
+      "on_screen": "Job Mindset: plan the rescue before you clip in",
+      "says": "Job Mindset for any job in a harness. A fall doesn't end when the lanyard catches you. Hanging still can make you pass out in minutes. So before you leave the shop, plan the rescue: who's on site, which lift or ladder reaches you, your whistle and your phone. Never be caught hanging there with no plan.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Graphic of four numbered panels; Danny voice-over.",
+      "on_screen": "1. Before the fall  2. Fall arrest  3. Suspension  4. Rescue",
+      "says": "Our training breaks a fall into four phases. Before the fall. Fall arrest. Suspension. And rescue. You plan for all four before you clip in. Improving one can make another worse, which is why we pick the equipment and train you to use it one specific way.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny with a harness over his arm.",
+      "on_screen": "Inspected? Relief steps? Rated anchor? 18 1/2 ft? Rescue? Whistle? Phone?",
+      "says": "Phase one, before the fall. Compliance is key. Always have fall protection when you're exposed. Then ask: is my harness inspected? Are my relief steps installed? Is my anchor rated, high and tight? With a 6-foot lanyard, do I have 18 and a half feet below? If I fall, how do I get rescued? Do I have my whistle and a phone?",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Slow-motion animation of a worker being caught by a shock-absorbing lanyard on a back D-ring, staying upright.",
+      "on_screen": "Shock absorber + back D-ring",
+      "says": "Phase two, the arrest. The longer the drop, the harder the stop. The shock absorber on every company lanyard spreads that stop out. The back D-ring keeps you upright and spreads the force from your shoulders to your thighs, which best protects your spine.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Simple animation: blood pooling in the legs of a figure hanging in a harness, leg straps pressing on veins. Danny voice-over.",
+      "on_screen": "Plan on about 5 minutes before you could pass out",
+      "says": "Phase three, suspension. Hanging still, your legs relax and the leg straps press on your veins. Blood pools in your legs. Your heart can't pump blood that doesn't come back, and you faint. On the ground, you'd fall flat and recover. In a harness, you stay upright. That's what kills people who survived the fall. Plan on about five minutes.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Tech suspended a few inches off the floor from the training anchor, trainer spotting. He deploys both relief steps, stands in them, pumps his legs, blows a whistle, pulls out his phone. Danny voice-over.",
+      "on_screen": "Relief steps first. Then call for help.",
+      "says": "Here's what you do. Watch him. Deploy your relief steps first, then call for help. Stand in the steps and keep your legs moving. Push down, pump your legs, raise your knees if you can. Then blow your whistle and use your phone. Even an old phone with no service plan will usually still dial 911.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Rooftop before work: crew of three around a tailgate reviewing the written rescue plan; one points to where the lift can reach. Danny voice-over.",
+      "on_screen": "Rescue must be fast and planned before work starts",
+      "says": "Phase four, rescue. It has to be fast. Self-rescue only if you can safely get your weight on a surface, ladder or platform. Don't unclip until you're standing on something safe. Otherwise the crew follows the rescue plan, usually a lift brought up or a ladder placed for you to stand on. And a coworker who isn't trained and equipped doesn't climb out and become a second victim.",
+      "seconds": 29
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Back in the training bay, close-up on Danny.",
+      "on_screen": "Tell 911: fell and was suspended, and for how long",
+      "says": "Call 911 and tell them the person fell and was suspended in a harness, and for how long. Older training taught a slow kneel-then-sit-then-lie-down routine. That's been revised. Treat it like any medical emergency, follow your first aid training and the dispatcher, and never leave them alone. Then the harness and lanyard come out of service, and you report it, even if nobody's hurt.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Training bay, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Plan all four phases. If you fall, relief steps first, then call. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Suspension demo: tech hangs only a few inches off the floor from a rated training anchor, trainer spotting at all times, limited to a short duration. The rescue-plan clip uses a generic written plan prop. Animation of blood pooling should be simple and non-graphic."
+}

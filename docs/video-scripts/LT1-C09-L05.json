@@ -1,0 +1,91 @@
+{
+  "vid": "LT1-C09-L05",
+  "title": "Our Company's Tool, Cord & Meter Rules",
+  "course": "LT1-C09",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop meeting room set up for the monthly safety meeting; folding tables, two techs laying out hand tools and PPE. Danny at the head of the table, medium shot.",
+      "on_screen": "Job Mindset: Your Tools Are Your First Control",
+      "says": "Before any job leaves the shop, your tools and PPE have to be right. A cracked insulated screwdriver, a torn glove or a bad cord turns a routine call into a shock. So inspect before you load the truck, carry your meter every time, and plan for the worst case: a spare cord, the right tool for the brush, not whatever's in the door pocket.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Same room. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Company rules sit on top of OSHA and NFPA 70E. Where ours are stricter, ours win.",
+      "says": "I'm Danny. Lessons one to four taught tools and meters like any good trade school. This one adds our company's own rules, the ones we repeat at our monthly safety meetings because the same mistakes keep showing up in the field. They sit on top of OSHA and NFPA 70E, and where our rules are stricter, ours win.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up: supervisor picks up a screwdriver with cracked handle insulation and a pair of torn gloves from the laid-out tools, then signs a form with the tech.",
+      "on_screen": "Failed tool: never used again. 30 days to repair or replace. Failed PPE: replaced immediately.",
+      "says": "Here's how we do it. A tool that fails inspection is not used again, period. It gets signed off with your supervisor, and you have thirty days to repair or replace it and show the replacement. Failed PPE is replaced immediately. You don't go to work without it. And a cracked insulated tool has failed, even if it still turns screws. Don't tape it and keep using it.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny holds a pair of dry gloves next to an open tool bag; cutaway of gloves stuffed in a truck door pocket with a red X.",
+      "on_screen": "Dry gloves at all times",
+      "says": "Gloves are not disposable. Keep them dry and with your tools, not stuffed in a door pocket. Use them until they're actually worn out, and turn in the old pair when you get a new one. Our rule is dry gloves at all times. Wet gloves around electricity are an accident waiting to happen. Tools you bring from home have to meet OSHA and ANSI requirements too.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Shop workbench: a drill with the battery being removed before a bit change; a grinder with its guard on.",
+      "on_screen": "Off and stopped | Unplug before changing bits | Guards on | Air under 30 psi | No modifications",
+      "says": "Power tools. Turn it off and let it stop before you set it down. Unplug it or pull the battery before changing bits or blades. Guards stay on. Compressed air for cleaning only under thirty psi, with chip guarding and eye protection. No modifications to company equipment without the manufacturer's written approval. And if you need a tool you don't have, ask. Don't fight brush from a ladder.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Two techs inspect an extension cord together with the company form on a clipboard; one red-tags it and cuts both ends off with cable cutters.",
+      "on_screen": "Failed cord: red tag, cut the ends, tell the shop",
+      "says": "Extension cords get inspected before use: jacket, plug, ground pin, strain relief. A cord that fails is red tagged and the ends are cut off so nobody uses it again, and you tell the shop. Several times a year, ladders, racks and cords on every vehicle get a two-person inspection with the company form. Two sets of eyes catch what one misses.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Store back hallway: a cord crossing a propped-open door with cones and caution signs placed on both sides.",
+      "on_screen": "No daisy chains | No cords through doorways unless propped and coned | GFCI on job-site power | Unplug by the plug",
+      "says": "Match the cord to the tool. Grounded three-wire cords only, unless the tool is double-insulated. Never plug one cord into another. Don't run cords through doorways or holes. A closing metal door can crush a cord and energize the door. If you must cross a doorway, prop it yourself and put out cones and signs. No cords in wet conditions, GFCI on job-site power, and unplug by the plug.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Building exterior at dusk, a dark LED wall pack. Senior tech holds up a non-contact tester to camera, then sets it aside and measures hot to neutral with a DMM under a qualified supervisor; presenter voice-over.",
+      "on_screen": "Step 1 on a dark LED fixture: meter across hot and neutral",
+      "says": "The question we ask most at safety meetings: what's step one in troubleshooting an LED fixture? Put your meter across the hot and the neutral. This sniffer is not a troubleshooting tool. It gives a warning, not a measurement, and it can't tell 120 from 277. No voltage at the fixture means the problem is upstream, and a new driver won't fix it. Write the reading on the work order.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Shop floor next to a stack of new exterior fixtures in boxes. Danny holds a meter.",
+      "on_screen": "A 120-277 V fixture on 480 V is ruined instantly. Measure first.",
+      "says": "Here's a real one. We've destroyed a lot of brand-new fixtures, mostly on exterior jobs, because someone assumed the voltage was compatible. A 120 to 277 volt fixture on 480 is ruined the instant it's energized. You're the only one who can verify the voltage. And remember, measuring live is energized work. At LT1, only under direct supervision of a qualified person, in the required PPE.",
+      "seconds": 28
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera in the shop, medium shot.",
+      "on_screen": "",
+      "says": "The meter only works if you turn it on. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Props: laid-out hand tools including a screwdriver with cracked handle insulation, torn gloves, company tool inspection form, extension cord and company two-person cord inspection form, red tag, cable cutters, cones and caution signs, non-contact tester, DMM. Scene 8: any energized measurement on camera must be by a qualified person in required PPE; otherwise film the reading as an insert. Lesson file: curriculum/levels/LT1/courses/LT1-C03/lessons/05-company-tool-cord-and-meter-rules.md."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C07-L05",
+  "title": "Mobilizing a Large Job",
+  "course": "LT5-C07",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 192,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Loading dock of a three-story office building, mid-morning. Danny with a clipboard next to a building engineer. Medium shot.",
+      "on_screen": "Job Mindset: Mobilizing a large job",
+      "says": "On 20 fixtures, a forgotten detail costs an hour. On 2,000, it repeats every day for six weeks. Large jobs fail on logistics: material in the wrong place, a lift that can't reach the floor, a crew waiting for keys. So you plan the worst case one to two weeks out, with a call and a site walk with the facility contact.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Lead tech measures the freight elevator door with a tape and reads the capacity plate; then checks the dock height. Presenter voice-over.",
+      "on_screen": "Access - badging - deliveries - elevator size and weight limit - floor load limits",
+      "says": "Walk it with the building engineer. Which entrance, what hours, keys and alarm codes? Badging and background checks, and how long they take. Where's the dock, what hours, who receives freight? Measure the freight elevator door, and ask the weight limit and whether you need to reserve it. Ask about floor load limits for the lifts, especially raised floors or older slabs.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Lead looks into a lockable storage room, asks who has keys; then finds an outlet in a ventilated room for lift charging; writes badge rules on the clipboard.",
+      "on_screen": "Staging room - charging - waste - occupants - shutdowns - life safety - hazards survey",
+      "says": "Find a lockable staging room close to the work, and ask who else has a key. Find an outlet in a ventilated area to charge lifts. Where do lamp and ballast containers and cardboard go? Occupied hours and sensitive areas? Who approves outages, and how much notice? Fire alarm and hot-work rules. And ask for the asbestos and lead paint survey. Write it all in the job packet.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Staging room: pallets broken down onto carts labeled by floor and zone; a lead checks a delivery receipt against the takeoff.",
+      "on_screen": "Count deliveries - stage by zone - break down packaging at staging - old material out the same way - running count",
+      "says": "Run material like a production line. Count deliveries against the takeoff, and note damage on the receipt before you sign. Break pallets into carts by floor and zone. Break down packaging here, not in occupied spaces. Old lamps and ballasts come back the same way into closed, labeled containers. Never leave old parts in a ceiling or hallway.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Scissor lift charging in a ventilated room with an eyewash station visible; a 'No smoking' sign on the wall.",
+      "on_screen": "Never charge a lift in an exit corridor.",
+      "says": "Lifts. Make sure they fit through the doors and the elevator, and the floor can carry them. Plan the route and protect finished floors. Lead-acid batteries give off hydrogen when charging, so charge in a ventilated area, no smoking or sparks, eyewash where batteries are serviced, and never in a corridor that's an exit route. Trained, authorized operators only, inspected every shift.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "First morning: crew huddle at the staging area around a floor plan marked in colored zones taped to the wall.",
+      "on_screen": "Huddle: JHA - zones, circuits, lifts, carts - shutdown approvals - production target",
+      "says": "First morning. Ten-minute huddle at staging. Review the JHA for today's zones. Assign zones, circuits to lock out, lifts and carts. Confirm shutdown approvals with the customer. State the day's target. Every worker on a circuit puts their lock on it, and it's verified live-dead-live before anyone touches conductors. A new day means a new verification.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Graphic over a shot of the crew working: estimate vs actual. Caption: example numbers only.",
+      "on_screen": "Example only: plan 0.6 hr/kit - actual 0.73 hr/kit - about 21% over",
+      "says": "Track production every day. In the lesson's made-up example, the estimate allows 0.6 hours a kit, but after three days the crew is at 0.73, about 21 percent over. Find the cause: material not staged, waiting on shutdowns, tougher ceilings. Fix it, or tell your supervisor. Don't hide it by cutting safety steps.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "End of day: lead walks a finished area with the facility contact, flipping on fixtures and reviewing a punch list on a tablet.",
+      "on_screen": "Daily handoff: walk it - all circuits re-energized and tested - report findings - confirm tomorrow",
+      "says": "At the end of every shift, walk the finished areas with the facility contact, or send a short summary. Confirm every circuit worked today is back on and every fixture lights. Report damaged ceilings, unlabeled circuits, out-of-scope requests. Confirm tomorrow's areas. Keep a punch list by zone and close items as you go. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Generic three-story office building; no customer signage or logos. Building engineer is a non-speaking extra. The production numbers in scene 7 are the lesson's made-up example; keep the 'example only' caption on screen and do not imply real company labor units. Lead tech is a non-speaking actor; Danny narrates scenes 2-8."
+}

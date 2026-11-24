@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C11-L02",
+  "title": "Shock & Arc-Flash Risk Assessment",
+  "course": "LT4-C11",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 214,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop training area with a 480 V panelboard (cover closed); colored floor tape on the floor around it. Danny stands outside the tape. Wide shot.",
+      "on_screen": "Shock & Arc-Flash Risk Assessment",
+      "says": "Before anyone works on or near exposed energized parts, you do two assessments, not one. Plan them before you leave the shop, so you pack the PPE and rated meter the task actually needs. Shock is current through your body. Arc flash is heat, blast, sound and molten metal. Each assessment considers the equipment's design, its condition of maintenance, the task, and the likelihood and severity.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny walks the tape lines; on-screen distances appear on each line.",
+      "on_screen": "151-750 V, fixed circuit parts:\nLimited approach 3 ft 6 in\nRestricted approach 1 ft 0 in",
+      "says": "Shock boundaries. Unqualified people don't cross the limited approach boundary unless a qualified person continuously escorts them and has told them the hazards. Only qualified people with shock protection and a plan cross the restricted boundary, and crossing it is treated like touching the part. For 151 to 750 volts, fixed parts: limited is 3 feet 6 inches, restricted is 1 foot.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny kneels at the restricted line holding voltage-rated gloves with leather protectors and a rated meter.",
+      "on_screen": "480Y/277 V panel voltage test → gloves with leather protectors + rated meter",
+      "says": "Example: measuring voltage in a 480Y/277 panelboard. Your hands will cross the restricted boundary. So you need voltage-rated gloves with leather protectors and properly rated test equipment. For panels and switchboards, use the fixed circuit part column. The movable conductor column is for things like overhead lines that can swing.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Graphic: arc illustration, then a third tape line farther out.",
+      "on_screen": "Arc-flash boundary = where incident energy = 1.2 cal/cm²",
+      "says": "Arc flash. Incident energy, in calories per square centimeter at a working distance, is the heat that reaches you. About 1.2 calories is the onset of a second-degree burn on bare skin, and the arc-flash boundary is where incident energy equals 1.2. Inside it, you wear arc-flash PPE. Clearing time often matters more than fault current. A low fault current that doesn't trip instantly can produce higher incident energy.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close on Label 1: shows incident energy at a working distance.",
+      "on_screen": "Method 1: Incident energy analysis\nPPE arc rating ≥ incident energy on the label",
+      "says": "Two methods to choose PPE, but never both on the same equipment. Method one: incident energy analysis. An engineer calculates incident energy, commonly with IEEE 1584, and the label shows it at a working distance. You select PPE with an arc rating at least equal to that number.",
+      "seconds": 19
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Close on Label 2: shows a PPE category. Graphic of the category table.",
+      "on_screen": "Method 2: PPE category table, only within its fault-current & clearing-time limits\nCat 1: 4 • Cat 2: 8 • Cat 3: 25 • Cat 4: 40 cal/cm²",
+      "says": "Method two: the PPE category table. If there's no incident energy analysis, the table gives the category and boundary, but only when the equipment's available fault current and clearing time are within the table's limits. If they're unknown or exceeded, you can't use the table. Minimum arc ratings: category 1, 4 calories; category 2, 8; category 3, 25; category 4, 40.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny points to each line on an example label.",
+      "on_screen": "Label: nominal voltage • arc-flash boundary • incident energy OR PPE category\nReviewed at least every 5 years",
+      "says": "Labels show nominal voltage, the arc-flash boundary, and incident energy with working distance, or the PPE category, not both. The assessment is reviewed at least every five years and updated after major changes. If a label looks old, conflicts with the drawings, or the equipment changed, like a new transformer or service, stop and ask.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny at the panel: door closed and latched vs cover removed.",
+      "on_screen": "Likelihood rises with: covers off • interacting with parts • signs of failure • poor maintenance",
+      "says": "Likelihood matters too. Properly installed, maintained equipment with doors closed and secured is unlikely to start an arc. Likelihood rises with covers removed, tasks that interact with parts like voltage testing, signs of failure like arcing sounds, burn marks or overheating, and poor maintenance. Normal operation of a closed, latched, maintained disconnect is permitted with no sign of impending failure.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Helper stands 4 ft from a switchboard; Danny steps in and moves the barricade tape outward.",
+      "on_screen": "The arc-flash boundary is often LARGER than the limited approach boundary. Barricade and attend.",
+      "says": "Here's the one that catches people. The arc-flash boundary is often larger than the limited approach boundary. A helper standing four feet from a 480-volt switchboard can be outside the shock boundary but inside the arc-flash boundary. Barricade and attend the area so nobody wanders in.",
+      "seconds": 18
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Danny outside the tape, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Two assessments, three boundaries, one PPE method per piece of equipment. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Floor-tape demo around a 480 V panelboard kept closed and latched (or a de-energized training panel). Use three tape colors: limited, restricted, arc-flash. Two example arc-flash labels as props (one incident energy, one PPE category; generic, not from a customer site). Distances and values are from the lesson's NFPA 70E 2024 tables; editor should keep them exact. Danny does not open the energized panel on camera."
+}

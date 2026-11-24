@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C07-L02",
+  "title": "Single-Phase and Three-Phase Wye Systems",
+  "course": "LT2-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 191,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room with a whiteboard and a de-energized three-phase mock-up panel, cover off. Medium shot.",
+      "on_screen": "Single-Phase and Three-Phase Wye Systems",
+      "says": "Almost every lighting job you do will be on one of three systems. Recognize them at the panel and predict every voltage before you put a meter on anything. That's how you catch a wrong system, or a bad reading, before it catches you.",
+      "seconds": 18
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: Matthew draws a single transformer winding with a grounded center tap.",
+      "on_screen": "120/240 V single-phase: hot-neutral 120 V | hot-hot 240 V",
+      "says": "First, 120/240 volt single-phase, in homes, small shops and some site lighting. The transformer has one winding with a grounded center tap, which becomes the neutral. Each end is a hot leg. Either hot to neutral, 120. Hot to hot, 240, because the legs are 180 degrees apart. People call it split-phase, but it's still single-phase.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: Matthew draws a wye with three windings joined at a grounded common point, labeled A, B, C.",
+      "on_screen": "Wye: line-to-line = line-to-neutral x 1.732 | 120 -> 208 | 277 -> 480",
+      "says": "A wye transformer has three windings joined at a grounded common point, the neutral. The other ends are phases A, B and C, 120 degrees apart. So line to line is the square root of three, about 1.732, times line to neutral. 120 times 1.732 is 208. 277 times 1.732 is 480. That gives you 208Y/120 in offices and retail, and 480Y/277 in bigger buildings.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "277 V to ground is far more dangerous than 120 V",
+      "says": "Most commercial lighting runs 277 volts, phase to neutral off a 480Y/277 panel. Higher voltage means less current, smaller wire and less voltage drop. But 277 to ground is far more dangerous than 120. Never assume it's just a lighting circuit. Identify the system voltage from the panel label and verify with a properly rated meter before you touch anything.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "De-energized three-phase panel: camera follows breaker positions down the bus; graphic labels A, B, C repeating.",
+      "on_screen": "1-2 = A | 3-4 = B | 5-6 = C | 7-8 = A ... | 1-pole 277 V lighting | 2-pole 208/480 | 3-pole three-phase",
+      "says": "At the panel: read the label first, like 208Y/120 volt, three-phase, four-wire. Three-phase panels have three bus bars, and breaker positions rotate A, B, C down each side. On a typical panel, circuits one and two are on A, three and four on B, five and six on C, then back to A. A 277 volt lighting circuit uses a single-pole breaker. Two-pole for 208 or 480 loads.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of conductor colors in the panel and a posted ID scheme label.",
+      "on_screen": "Common practice: 208Y/120 black, red, blue, white | 480Y/277 brown, orange, yellow, gray | never trust color alone",
+      "says": "Conductor colors. Common practice, not an NEC color mandate, is black, red, blue and white for 208Y/120, and brown, orange, yellow and gray for 480Y/277. Confirm the scheme posted at the panel, and never trust color alone. And if readings don't match these wye patterns, you may have a delta system with a high leg. Stop and ask your lead. Delta work is licensed-electrician work; write it up.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Recorded footage: qualified tech in proper PPE takes readings at an energized 480Y/277 panel; values appear on screen.",
+      "on_screen": "A-B, B-C, C-A: about 480 V | A-N, B-N, C-N: about 277 V | N-G: near 0 V",
+      "says": "Predict, then measure. On a 480Y/277 panel, phase to phase reads about 480. Phase to neutral and phase to ground, about 277. Neutral to ground, near zero, a few volts under load is common. Phase to neutral near zero? Suspect an open breaker, blown fuse or lost phase. High neutral to ground? Suspect a loaded, undersized or loose neutral.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: phase currents 10, 10, 10 A then 15, 10, 10 A with neutral current shown.",
+      "on_screen": "Neutral carries the imbalance + harmonics | it is a current-carrying conductor",
+      "says": "Last, the neutral carries the imbalance. Ten amps on each phase of a linear load, the neutral's near zero. Fifteen, ten and ten, it carries about five. But with LED drivers, some harmonic currents add up on the neutral, even when phases are balanced. Never treat a neutral as dead. Now read the lesson and take the quiz.",
+      "seconds": 23
+    }
+  ],
+  "production_notes": "Training room whiteboard and a de-energized three-phase panel per the lesson's video suggestion. Energized panel readings are recorded footage by a qualified person in proper PPE. Lesson file path is LT2-C01/02 (course code differs from vid LT2-C07)."
+}

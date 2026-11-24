@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C03-L05",
+  "title": "Article 600 Signs & Article 700 Emergency Systems",
+  "course": "LT5-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 199,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Storefront sign at a generic strip center (no real brand), lift parked and set up; Matthew in hi-vis.",
+      "on_screen": "Article 600 Signs & Article 700 Emergency Systems",
+      "says": "Signs and emergency systems are both special articles that change the general rules, and both have hidden energy sources. Plan for them before you go: neon transformers make thousands of volts, and emergency circuits can be fed by generators, UPS or batteries. Know what you'll lock out, and use MEWP and fall-protection rules for elevated signs.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Sign cabinet open (de-energized): Class 2 LED power supply and modules; retrofit label on the sign.",
+      "on_screen": "600.3: signs & retrofit kits LISTED, installed per listing\n600.4: retrofitted sign marked with kit maker & 'modified'",
+      "says": "Article 600. Signs, outline lighting and retrofit kits must be listed and installed per the listing. A sign retrofitted with a field-installed kit must be marked with the kit's manufacturer and that the sign was modified, per the kit instructions. Signs using Class 2 LED power supplies, like this one, have their own secondary wiring rules.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew points to the sign disconnect on the wall within sight of the sign.",
+      "on_screen": "600.6: disconnect opens all ungrounded conductors\nWithin sight, or lockable open\n600.5: 20 A sign circuit at commercial entrances",
+      "says": "The disconnect, 600.6. Each sign is controlled by an externally operable switch or breaker that opens all ungrounded conductors, within sight of the sign, or lockable in the open position if it's out of sight. And 600.5: commercial occupancies need at least one sign outlet at each tenant entrance, on a 20-amp branch circuit with no other load.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Old neon transformer removed; spent lamps boxed for recycling.",
+      "on_screen": "Retrofit: listed kit • old gear removed per instructions\nUniversal waste & PCB rules • apply labels • confirm disconnect",
+      "says": "Retrofit best practice: verify the kit is listed for that sign type and follow the instructions exactly. Remove old ballasts and neon transformers per the instructions, and dispose of lamps and ballasts under universal waste and PCB rules. Apply the retrofit labels. Confirm the sign disconnect is there and within sight or lockable.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera beside the sign.",
+      "on_screen": "Neon secondary = thousands of volts\nCapacitors can store charge",
+      "says": "Neon transformers make thousands of volts on the secondary, and the output can stay hazardous. Sign bodies can also contain capacitors that store charge. De-energize at the sign disconnect and branch circuit, lock out, verify absence of voltage on the primary, and follow manufacturer guidance for secondary circuits before touching tubing, GTO wire or electrodes.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Electrical room: emergency panel with red label; separate raceway marked emergency.",
+      "on_screen": "Article 700: emergency wiring ENTIRELY independent\nIdentified as emergency • tested with written records",
+      "says": "Article 700 covers emergency systems that automatically light egress when normal power fails. Emergency wiring is kept entirely independent: not in the same raceway, cable, box or cabinet as normal wiring, except where specifically permitted. Emergency equipment is marked so it's easy to identify. And the system is witness-tested at installation and tested periodically, with written records.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Lighting control panel; Matthew points to a UL 924 emergency lighting control device.",
+      "on_screen": "700.16: no single lamp failure leaves the space dark\nDimmed/switched emergency luminaires need a listed device (e.g., UL 924)",
+      "says": "700.16: one burned-out lamp can't leave a space that needs emergency light in total darkness. When emergency luminaires are switched or dimmed by networked controls, a listed device, like a UL 924 control device, forces them on at the required level when normal power fails. Battery units connect to the area's normal lighting circuit, ahead of local switches.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Ceiling with a retrofit in progress; on-screen violations list.",
+      "on_screen": "Common violations: normal wiring in emergency raceways • emergency fixtures moved to normal circuits\nadded to dimming zones without UL 924 • battery units after the switch • no test records",
+      "says": "What lighting work breaks most often: normal-power conductors pulled into emergency raceways or boxes. Emergency fixtures reconnected to normal circuits after a replacement. Emergency fixtures added to dimming zones without a UL 924 device. Battery units on the wrong circuit, or after the local switch. And no test records. Your job during any lighting work is to preserve all of it.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, electrical room.",
+      "on_screen": "Treat every emergency circuit as having a second source",
+      "says": "Emergency circuits may be energized when normal power is off. Treat every emergency luminaire and circuit as having a second source. Identify all sources, lock out each one, battery units included where applicable, and verify absence of voltage before work. Now read the lesson and take the quiz.",
+      "seconds": 19
+    }
+  ],
+  "production_notes": "Two segments: storefront sign retrofit (generic sign, no brand; cabinet opened only de-energized and locked out) and an electrical room with an emergency panel, separate emergency raceway and a UL 924 device in a lighting control panel. Show MEWP setup for the sign. Scene 1 is a short safety/planning framing for hidden energy sources. Articles 701/702 from the lesson are omitted for time."
+}

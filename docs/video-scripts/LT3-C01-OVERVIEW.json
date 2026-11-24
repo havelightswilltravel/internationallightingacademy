@@ -1,0 +1,59 @@
+{
+  "vid": "LT3-C01-OVERVIEW",
+  "title": "Job Mindset Refresher (LT3) (course overview video)",
+  "course": "LT3-C01",
+  "presenter": "Matthew Berrett",
+  "source": "outline",
+  "target_seconds": 122,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop floor in front of service trucks and a lift truck, morning. Matthew standing, medium shot. Lower third: Matthew Berrett, Program Lead.",
+      "on_screen": "Job Mindset Refresher (LT3)",
+      "says": "Welcome to LT3. The work gets bigger from here: installing fixtures, replacing switches and receptacles, working around panels and breakers, reading drawings. Before any of that, we're going back to the Job Mindset. Safe, planned, ahead. Five habits that keep you and the people around you safe, and keep the job moving.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Shop workbench with a lockout kit, meter, PPE and a fixture box. On-screen habit 1.",
+      "on_screen": "1 Safety first",
+      "says": "Habit one: safety first. Before every task, name the main hazards, then pick your controls in order. Eliminate the hazard if you can, which at this level usually means de-energize, lock out and verify dead. Then engineering and administrative controls. PPE is the last line, not the first.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech at a truck tailgate checking a written job list against parts, tools and a ladder.",
+      "on_screen": "2 Plan the whole job before you leave the shop",
+      "says": "Habit two: plan the whole job before you leave the shop, including the worst case. Tools, equipment, manpower, parts. What if the box is bad, the circuit's mislabeled, or the ceiling is hard lid? Bring what the worst case needs, or know who you'll call. A second trip to the shop is time the customer didn't get.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Ceiling install scenario: two techs installing a troffer; one hands up the whip while the other holds the fixture.",
+      "on_screen": "3 Think several steps ahead  4 Keep every hand busy",
+      "says": "Habit three: think several steps ahead. Know what comes after this step, and the one after that, so materials are staged before you need them. Habit four: keep every hand busy. If you're working with a helper, they should never be standing around waiting. Plan so both of you are productive.",
+      "seconds": 20
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Scenario: tech on a ladder opens a junction box and finds a second circuit in it; pauses, steps down, re-verifies at the panel.",
+      "on_screen": "5 Never be caught off guard",
+      "says": "Habit five: never be caught off guard. Here's an LT3 example. You lock out the circuit for a new fixture, open the box, and find a second circuit in it you didn't expect. If you planned for it, you test every conductor before you touch it, find that breaker, and lock it out too. No surprises. No shortcuts.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the trucks.",
+      "on_screen": "Safe. Planned. Ahead.",
+      "says": "You'll see a Job Mindset prompt at the start of every task lesson, quiz and sign-off in this level. Take them seriously. They're how the best technicians in our company already think. Now complete the refresher and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "SOURCE: outline only; the refresher course is not written yet. Habits are taken from the program's Job Mindset description (safe, planned, ahead; five habits). Check wording against the LT1 Job Mindset lesson and the LT3 refresher when written, and replace the second-circuit scenario if the course uses a different LT3 example."
+}

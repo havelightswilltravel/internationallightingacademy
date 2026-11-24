@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C09-L03",
+  "title": "Asset Inventory, Failure Tracking & Warranty Management",
+  "course": "LT5-C09",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 186,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Open office floor in a customer building; Danny holds a tablet with a floor plan. Medium shot.",
+      "on_screen": "Job Mindset: Inventorying a site",
+      "says": "An inventory survey looks easy until you want the driver label, and that means opening the fixture. Don't open one unless the circuit's locked out and verified dead, live-dead-live. If LOTO isn't practical on the survey, record what you can see and get the driver data on the first service visit. Bring floor plans, submittals and old tickets before you walk in.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny close-up.",
+      "on_screen": "The records are part of the product.",
+      "says": "In a planned service program, the records are part of what the customer pays for. A good inventory and failure log let you batch repairs, order the right part the first time, prove warranty claims, spot bad batches and back up your recommendations. Without them, it's just reactive work on a schedule.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Lead tech walks the floor in a fixed order, tagging asset IDs on the tablet floor plan, photographing a fixture label; then on a ladder with an open fixture (lock visible at the panel) photographing a driver label. Presenter voice-over.",
+      "on_screen": "Asset ID on floor plan - make and catalog - date code - driver data - controls - emergency - access - circuit - condition - warranty",
+      "says": "Here's how we do it. Walk each area in a fixed order and give every luminaire, or every identical group in a room, an asset ID on the floor plan. Record make, catalog number, date code, driver model and output current, controls, emergency function, access, circuit, condition and warranty terms. Photograph each type's labels once, and every unit only where date codes vary.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Lead counts spare boxes in a storage closet and enters them on the tablet.",
+      "on_screen": "Count attic stock - note hazards - enter it all before you leave",
+      "says": "Record access needs and hazards, like asbestos-flagged ceilings or food areas. Count the attic stock on site with its catalog numbers and date codes. And enter everything into the company's inventory template before you leave the site, with a note of what's still to verify.",
+      "seconds": 18
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Tablet close-up of a failure log row: date, asset ID, symptom, cause found, part with date code, warranty, labor hours, access.",
+      "on_screen": "Write the cause found, and the part's date code.\n'Fixed light' is not a record.",
+      "says": "Every service event gets one line in the failure log, tied to the asset ID. Date, symptom, the cause you found, the part you replaced with its make, model and date code, warranty, labor hours and access. Write the cause, not just the symptom. 'Fixed light' is not a record.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Tablet screen: six months of failure log sorted by driver model; several rows highlight the same date code.",
+      "on_screen": "Same part fails 3+ times in one area in a year? Stop and find out why.",
+      "says": "Review the log at least every quarter. Sort it by part model and date code, location, circuit, age and controls. Watch this sort: a cluster of failures from one driver date code. That points to a batch defect and supports a claim for the whole batch. Our rule: when the same part fails three or more times in one area in a year, stop replacing parts one at a time and find out why.",
+      "seconds": 30
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Lead fills in a warranty claim on a laptop, attaches label photos, then tags a boxed driver with an RMA number.",
+      "on_screen": "Claim: catalog and date codes - proof of purchase - symptom and test - photos - conditions - quantity and asset IDs\nGet the RMA before shipping",
+      "says": "A warranty's only worth something if the claim is complete. Catalog numbers and date codes, install date, proof of purchase, the symptom and the test that confirmed it, photos, and the quantity and asset IDs for a batch claim. Get the RMA number before you ship anything and tag each part. Log the credit when it comes. Many warranties cover the part but not the labor or lift.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny at a storage shelf with labeled matched spares, medium shot.",
+      "on_screen": "Matched attic stock: same catalog number, same batch where possible\nNow read the lesson and take the quiz",
+      "says": "Keep matched attic stock on site, same catalog number and same batch where you can, labeled, dry and secure. When you use it, reorder and note the new date code. Unclaimed warranty credits are lost money, for the customer and for us. Now read the lesson and take the quiz.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Scene 3 fixture opening must show LOTO and live-dead-live first. Failure log and claim screens are generic mock-ups based on the lesson's example (asset IDs like WH-A-022, part DRV-150, date code 2219); use no real manufacturer or customer names. Lead tech is a non-speaking actor; Danny narrates."
+}

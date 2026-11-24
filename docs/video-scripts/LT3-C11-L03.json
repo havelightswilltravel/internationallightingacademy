@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C11-L03",
+  "title": "PoE, Lighting Control Networks & Installation Practices",
+  "course": "LT3-C11",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 196,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Above an open ceiling grid: a PoE luminaire, room controllers with RJ45 patch cables, cable supported on J-hooks. Medium shot.",
+      "on_screen": "PoE, Lighting Control Networks and Installation Practices",
+      "says": "With PoE lighting, a bad termination doesn't just mean no network. It means no light. So the way you install, separate, support and label control cable matters as much as the crimp. Plan your pathway and supports before you start, and know which cables you're not allowed to unplug.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Telecom closet: PoE switch with patch cords; graphic of PSE to PD.",
+      "on_screen": "PSE (switch) > PD (luminaire)  |  af ~15 W | at ~30 W | bt ~60/90 W",
+      "says": "Power over Ethernet sends DC power and data on the same cable. The source, a PoE switch or injector, is the PSE. The device receiving power is the PD. They negotiate power before it's applied. 802.3af is up to about 15 watts at the source, PoE plus about 30, and 802.3bt about 60 or 90. Less arrives at the device because the cable loses some.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: warm cable bundle; PoE-rated jack.",
+      "on_screen": "PoE port may be supplying power. Don't unplug without permission.",
+      "says": "Why it matters for us: one cable carries power, dimming and control. High-power bundles warm up, which is one reason Cat6A and smaller bundles get specified. Use plugs and jacks rated for PoE, because contacts can arc slightly when unplugged under load. System design and power budgets are in LT5-C04. At this level, terminate, test, and respect active PoE ports.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the telecom closet, medium close-up.",
+      "on_screen": "Don't open network equipment. Unplug only with customer or IT permission.",
+      "says": "Safety. PoE is low-voltage DC, generally treated as power-limited, but the switch and its supply are fed from line voltage. Don't open network equipment. Unplug a PoE cable only with the customer's or IT department's permission, because it may shut off lights or other devices. And scope varies by state and city. Confirm with your supervisor that this work is allowed there and that you're authorized.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: lighting room controllers daisy-chained with RJ45 patch cables in the ceiling.",
+      "on_screen": "RJ45 does NOT mean Ethernet. Follow the maker's pinout.",
+      "says": "Common mistake: seeing an RJ45 and assuming it's Ethernet. Many lighting control networks use RJ45 but are not Ethernet. Never plug them into a computer network switch. Follow the maker's riser diagram and pinout. Some use straight-through T568B, some require factory cables. Networked controls that do use Ethernet are often on a network IT owns, so label carefully.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: BACnet MS/TP shielded twisted pair landing on a device, in and out; end-of-line terminator at the last device.",
+      "on_screen": "MS/TP: daisy chain | consistent +/- | no T or star | terminators at the 2 ends only",
+      "says": "BACnet MS/TP is a twisted-pair building automation network linking lighting panels and BMS controllers. It's a daisy chain, in and out of each device, one continuous line. No star or T branches. Keep polarity consistent at every device. Terminating resistors go only at the two physical ends. One reversed or loose connection can drop every device beyond it. Addressing is the controls contractor's job.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Ceiling space: data cable on J-hooks from structure, crossing a power conduit at a right angle; hook-and-loop straps; firestopped wall penetration.",
+      "on_screen": "Separate from power | support from structure | hook-and-loop | firestop",
+      "says": "Installation practices. Keep data cable out of any raceway, box or compartment with line voltage unless a listed barrier separates them. Cross power at right angles and keep away from ballasts, drivers and motors. Support it from structure with listed supports, not on ceiling tiles, grid wires, sprinkler pipes or conduit. Respect bend radius, use hook-and-loop straps, and firestop rated penetrations.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: matching labels on a cable end and a patch-panel port.",
+      "on_screen": "Label BOTH ends with the same ID",
+      "says": "Label both ends of every cable, and every jack and patch-panel port, with the same identifier using the site's scheme. Update the drawing or cable schedule. Unlabeled cable turns a five-minute fix into an afternoon of tracing.",
+      "seconds": 15
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the telecom closet, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "PoE means a bad termination is a dark light. RJ45 isn't always Ethernet. MS/TP is a clean daisy chain. Separate, support and label. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Filmed in a ceiling space and a telecom closet with no customer or IT branding. Trainer (senior tech) points out components; presenter narrates. Do not show the network equipment opened. NEC references (Chapters 7 and 8, 2023 NEC) not voiced; AHJ-adopted edition governs."
+}

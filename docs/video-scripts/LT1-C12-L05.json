@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C12-L05",
+  "title": "Reading a Circuit Like a Troubleshooter",
+  "course": "LT1-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room with a de-energized training board: breaker, switch, junction box, thermal protector and two fixtures. Matthew beside it, medium shot.",
+      "on_screen": "Job Mindset: Troubleshooting Is a Walk Along the Path",
+      "says": "Troubleshooting means working near circuits that may be live, so the hazards are shock and arc flash. Readings on energized circuits are taken only by trained, authorized people, in PPE, with a CAT-rated meter proven on a known source. At LT1 you assist and record. Before the job, picture the whole path from panel to fixture, so you know what each reading will tell you before you take it.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Board de-energized. Matthew applies colored tape as he traces: black tape on the hot, red on the switch leg, white on the neutral, green on the ground.",
+      "on_screen": "Panel/breaker -> Hot -> Switch -> Switch leg -> Junction box -> Fixture -> Neutral back\nGround: carries current only during a fault",
+      "says": "Follow the path. The breaker is the source and protection. The hot, usually black or red, never white, gray or green, carries current to the switch. The wire leaving the switch toward the fixture is the switch leg. Junction boxes branch it to more fixtures. The neutral, white or gray, brings current back. The equipment ground, green or bare, carries current only during a fault.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a switch and a photocell with LINE and LOAD terminal markings.",
+      "on_screen": "Line = power in | Load = power out",
+      "says": "Every control has two sides. Line is where power comes in from the source. Load is where it goes out to the equipment. Wire a device backward and it may not work, may stay energized when it's off, or may get damaged. That's why several of our company procedures start by confirming line and load are on the right terminals.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Board energized behind a clear guard. A trainer in required PPE, using a CAT-rated meter, takes readings; presenter voice-over. Meter display in close-up.",
+      "on_screen": "Safety: Energized readings only by trained, authorized persons. At LT1: assist and record.",
+      "says": "Now the board is energized behind a guard, and the trainer is in proper PPE with a meter checked on a known source first. Remember: energized measurements are taken only by persons trained and authorized under our NFPA 70E program. At LT1, you assist and record. Before touching any conductor, lock out and verify live-dead-live.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer measures across the switch: switch closed shows about 0 V; switch open shows full voltage. Captions show each reading.",
+      "on_screen": "Closed switch: about 0 V\nOpen switch: full voltage",
+      "says": "Across a closed switch: about zero. Same voltage on both sides, so no break. Now open the switch and measure across it again: full circuit voltage. That sounds backward, but it's the key idea. Voltage appears across an open. Current stops, so the whole source voltage shows up across the break.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer measures hot to neutral at a good lamp socket (full voltage), then across an opened thermal protector (full voltage).",
+      "on_screen": "Good socket, hot-neutral: full voltage = power is there\nAcross opened thermal protector: full voltage = break is there",
+      "says": "At a good socket, hot to neutral reads full voltage. Power is reaching the fixture. Zero there means an open somewhere upstream. And across a thermal protector that's opened, full voltage again. The break is right there. One more: if you see voltage hot to ground but zero hot to neutral, the neutral is open. That's dangerous. Report it.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Board de-energized and verified. Trainer removes a fuse and tests continuity: near 0 ohms; a blown fuse shows OL.",
+      "on_screen": "Continuity: power off, verified dead, part isolated",
+      "says": "Continuity testing uses the meter's own battery, so it's done only with power off and verified dead. A good fuse reads near zero ohms. A blown one reads OL, open. Remove the part or disconnect one end first, so other paths don't fool the meter.",
+      "seconds": 18
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holding an opened thermal protector next to a non-IC fixture with insulation packed around it (training prop).",
+      "on_screen": "Fix the cause, not just the part. Never reset a breaker repeatedly.",
+      "says": "A real-world lesson. An open thermal protector usually means the fixture overheated, from a lamp that's too large, or insulation packed around a non-IC fixture. Fix the cause, not just the part. Same with breakers. A breaker that trips again after reset means a short, ground fault or overload is still there. Never reset it over and over. Report it.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the training board, medium shot.",
+      "on_screen": "Voltage appears across an open.",
+      "says": "Every 'check power' step is a question: where along the path does current stop? Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Energized segments (scenes 4-6) must be performed by a qualified trainer authorized under the company NFPA 70E program, in required PPE, with the board behind a guard and a CAT-rated meter proven on a known source first. Colored tape tracing (scene 2) is done de-energized. Props: training board with breaker, switch, junction box, thermal protector and two fixtures; CAT-rated DMM; colored tape; fuses (good and blown); a switch and photocell with LINE/LOAD markings. Lesson file: curriculum/levels/LT1/courses/LT1-C04/lessons/05-reading-a-circuit-like-a-troubleshooter.md."
+}

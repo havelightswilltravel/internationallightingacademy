@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C12-NEW-poleinstall",
+  "title": "Pole Installation Rigging: Slings, Shackles (Clevis) and Ratchet Straps",
+  "course": "LT4-C12",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 188,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Parking lot island with a pole base and anchor bolts; boom truck parked and outriggers set; a new light pole on cribbing. Danny with a crew of three. Wide shot.",
+      "on_screen": "Job Mindset: Setting a Light Pole",
+      "says": "Job Mindset for setting a light pole. The big hazards are a suspended load, struck-by and crushing, overhead lines and traffic. Controls start with keeping people out from under the load and away from lines, then barricades, then a planned lift and PPE. Plan the whole job in the shop: the pole's weight, the rigging, tag lines, crew, and what happens if the bolts don't line up.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny beside the pole, pointing to the manufacturer's data or tag.",
+      "on_screen": "Know the load: pole + arms + fixtures",
+      "says": "Rigging starts with knowing the load. What does the pole weigh, with arms and fixtures if they go up attached? That number comes from the manufacturer's data, not a guess. Every piece of rigging you choose has to be rated for that load, the way you're going to use it.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close on sling tags: synthetic web sling and wire rope sling, tags readable.",
+      "on_screen": "Every sling: readable tag with its working load limit (WLL)",
+      "says": "Slings. Use the type and size your company's rigging plan calls for, and every sling must have a readable tag showing its working load limit. No tag, no lift. Inspect before every use: cuts, burns, broken wires, crushing, damaged fittings. A sling that fails inspection is taken out of service, not set aside for later.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny demonstrates hitches with a training sling on a short pole section: vertical, choker, basket.",
+      "on_screen": "The hitch and the angle change the capacity",
+      "says": "How you hitch it matters. A vertical hitch, a choker and a basket each have different capacities, and sling angle changes the load on each leg. The tag shows capacities for the hitches. Protect slings from sharp edges on the pole or base with softeners. If you're not sure of the capacity in your setup, stop and ask before you lift.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close on a screw-pin shackle (clevis): rated marking on the body, pin fully seated.",
+      "on_screen": "Shackles: rated & marked • pin fully seated • load in line",
+      "says": "Shackles, also called clevises, connect the sling to the hook or the pole's lifting point. Use only rated, marked shackles, sized for the load. Seat the pin fully. Load them in line, the way they're designed. Never use a shackle that's bent, worn or missing its markings.",
+      "seconds": 19
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Pole strapped to the truck bed with ratchet straps; Danny checks a strap's tag and tension.",
+      "on_screen": "Ratchet straps: securing loads, NOT lifting",
+      "says": "Ratchet straps have a job too: securing the pole for transport and holding things in place. They're tie-downs, not lifting slings. Check their rating tags, inspect the webbing and ratchet, and don't use a cut or frayed strap. A pole that shifts on the truck is a load out of control before you even get to the site.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Pole being raised by the boom; two crew members hold tag lines from a distance; one signal person faces the operator.",
+      "on_screen": "Tag lines on every lift\nOne signal person\nNobody under the load",
+      "says": "On installs, not just removals, use tag lines to control the pole as it goes up and swings over the base. Hands stay on the tag line, not the pole, until it's nearly in place. One designated signal person talks to the operator, using the agreed signals, and anyone can call stop. Nobody stands under the load, ever.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Pole lowered onto anchor bolts; crew guides it with tag lines; nuts started before rigging is released.",
+      "on_screen": "Don't release the rigging until the pole is secured",
+      "says": "Here's a common mistake: releasing the rigging as soon as the pole touches the base. Keep the load on the rigging until the pole is set on the bolts and secured the way the plan says. Then release, inspect your gear and put it away properly.",
+      "seconds": 18
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera with the crew behind.",
+      "on_screen": "Now read the lesson, take the quiz, then show your evaluator",
+      "says": "Know the load, check every tag, keep people out from under it, and control it the whole way. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "New lesson; source: outline only. Content is deliberately general and conservative; it must be checked against the written lesson and the company's rigging plan when the lesson exists, including sling types/sizes, WLL tables, hitch capacity factors, signal method, qualified rigger/signal-person requirements, overhead power line clearances and any equipment-specific rules. Do not show numeric capacities on screen until the lesson provides them. Confirm whether the lesson has a hands-on sign-off; drop 'then show your evaluator' if not. Props: boom truck with outriggers set, generic light pole on cribbing, tagged web and wire rope slings, rated screw-pin shackles, ratchet straps, softeners, tag lines, cones/barricades. Film away from overhead lines."
+}

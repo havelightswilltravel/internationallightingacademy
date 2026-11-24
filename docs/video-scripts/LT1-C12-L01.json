@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C12-L01",
+  "title": "Voltage, Current & Resistance",
+  "course": "LT1-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room with a bench holding a clear water-tank-and-hose demonstration and a battery, switch and lamp training board. Matthew standing between them, medium shot.",
+      "on_screen": "Voltage, Current & Resistance",
+      "says": "You don't need to be an engineer to change a ballast. But you do need to understand what electricity is doing. It helps you read labels, choose the right parts, understand your meter, and recognize when something's wrong before it hurts you. Let's start with the circuit.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the training board: battery, switch, lamp and wires. Matthew points to each as it's named.",
+      "on_screen": "Source | Conductors | Load | Control | Protection",
+      "says": "A circuit is a complete path for current, from a source, through a load, and back to the source. The source gives the push. Conductors carry the current. The load, like a lamp or driver, uses the energy. A control, like a switch, opens or closes the path. And protection, a breaker or fuse, opens it on an overload or fault.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew raises the water tank higher; the hose stream gets stronger. Split screen with the battery circuit.",
+      "on_screen": "Voltage = pressure (volts, V or E)",
+      "says": "Voltage is electrical pressure, the push between two points. Think of the height of this tank. Higher tank, more pressure. It's measured in volts, and always between two points, like hot to neutral. Here's the key: voltage can be there even when nothing flows. A switched-off fixture still has voltage on its supply side.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Water flowing out of the hose into a bucket; then Matthew closes the switch on the training board and the lamp lights.",
+      "on_screen": "Current = flow (amps, I)",
+      "says": "Current is the flow, like gallons per minute out of this hose. It's measured in amps. Current only flows when there's a complete circuit. Close the switch, the lamp lights. And remember this: current is what heats wires, trips breakers and injures people.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew swaps a wide nozzle for a narrow one; the flow drops. Insert of wire spools labeled 12 AWG and 14 AWG.",
+      "on_screen": "Resistance = opposition (ohms, R)\nSmaller AWG number = larger wire",
+      "says": "Resistance is opposition to flow, measured in ohms. Narrow the nozzle and less water comes out. More resistance, less current at the same voltage. Longer wire adds resistance. Bigger wire lowers it, and watch out, a smaller AWG number means a larger wire. Twelve gauge is bigger than fourteen.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Training board. Matthew reads volts across the lit lamp with a DMM; then opens the switch, removes the battery, and measures the lamp's resistance in ohms mode.",
+      "on_screen": "Measure resistance only on de-energized components",
+      "says": "Now the meter. Across the lit lamp, I read voltage. To measure the lamp's resistance, I remove the power first. Resistance is measured only on de-energized components. That's a meter rule and a safety rule.",
+      "seconds": 16
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holds a pair of work gloves next to a spray bottle of water; graphic of a body with a current path.",
+      "on_screen": "Safety: Wet or sweaty skin = lower resistance = more current",
+      "says": "Conductors let current flow: copper, aluminum, steel, water with minerals in it, and the human body. No insulator is perfect. And your body's resistance drops sharply when your skin is wet, sweaty or broken. Lower resistance means more current through you at the same voltage. That's why wet locations raise your shock risk.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a browned lamp socket and a melted wire connector held in Matthew's hand (removed parts).",
+      "on_screen": "Browned socket = resistance heating. Report it.",
+      "says": "Here's where this shows up in the field. A loose or corroded connection adds resistance at one small spot. Current through that spot makes heat. Over time it discolors, the insulation melts, and it can start a fire. When you see a browned socket like this, report it. Don't just replace the lamp and walk away.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "Volts = pressure | Amps = flow | Ohms = opposition",
+      "says": "Pressure, flow, opposition. Volts, amps, ohms. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Props: clear water tank on an adjustable stand, hose with interchangeable nozzles, bucket, battery-switch-lamp training board (low-voltage DC), DMM, 12 AWG and 14 AWG wire spools, a browned lamp socket and melted connector removed from service. Theory lesson, so no Job Mindset opener. Lesson file: curriculum/levels/LT1/courses/LT1-C04/lessons/01-voltage-current-resistance.md."
+}

@@ -1,0 +1,67 @@
+{
+  "vid": "LT1-C11-L02",
+  "title": "Communicating With Customers",
+  "course": "LT1-C11",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Generic office conference room. Chris seated at the end of the table, medium shot.",
+      "on_screen": "Communicating With Customers",
+      "says": "Customers rarely judge the technical quality of a ballast replacement. They judge whether you listened, explained clearly, kept them informed and did what you said you would. Most complaints come from poor communication, not poor work. So let's practice the conversations you'll actually have.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Role-play 1: a tech greets a facility manager in an office hallway, introduces himself, listens, and repeats back the problem. Presenter voice-over.",
+      "on_screen": "Introduce | Listen first | Repeat back | Set expectations",
+      "says": "Scene one, the greeting. Introduce yourself with your name and our company. Then listen first. Let them describe the whole problem. Which fixtures? Since when? All the time or only sometimes? Then repeat it back: 'So the four fixtures in the back hallway flicker, mostly in the morning, starting last week.' Then set expectations: what you'll do, how long, and whether lights will be off.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Role-play 2: the tech, at a fixture with an open lens, explains to the facility manager that a part is needed. On-screen jargon-to-plain table.",
+      "on_screen": "\"The ballast is shot.\" -> \"The part inside the fixture that powers the lamps has failed.\"",
+      "says": "Scene two. The fixture needs a ballast he doesn't have on the truck. Customers don't need to know what a programmed-start ballast is. They need to know what's wrong, what you'll do and what it means for them. Not 'the ballast is shot.' Say, 'the part inside the fixture that powers the lamps has failed, so I'll replace it.' And not 'I need to LOTO it.' Say you'll turn off and lock the power.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Role-play 3: an upset warehouse manager whose lights have been out for a week; the tech stands calmly, nodding, notepad in hand.",
+      "on_screen": "L - Listen\nA - Acknowledge\nS - Solve\nT - Thank",
+      "says": "Scene three, an upset customer. Lights out for a week. Use LAST. Listen without interrupting. Acknowledge: 'I understand. Having half the warehouse dark makes it hard to work safely.' Solve what you can, or explain the next step. Thank them, and follow through. Never argue or take it personally. If a customer becomes abusive or threatening, calmly leave the area and call your supervisor.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Role-play 4: the facility manager asks the tech to 'just quickly add an outlet'; the tech smiles and writes a note.",
+      "on_screen": "Don't quote prices. Don't agree to extra work. Refer it to the office.",
+      "says": "Scene four. 'While you're here, can you just quickly add an outlet?' At LT1 you represent the company, but you don't set prices or change scope. Don't quote, don't promise discounts, don't agree to extra work. Say: 'That's a great question. I'll make a note and have the office follow up with you today.' And if you're not sure about something, say so. Don't guess.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Chris in the conference room, medium close-up.",
+      "on_screen": "Before shutdowns | When scope changes | Before you leave",
+      "says": "Keep the customer informed. Before you shut off lights or power, tell the site contact and the people affected. If you find a problem that changes the job, stop and tell your supervisor first, then inform the customer as your supervisor directs. If it'll take longer, say so as soon as you know. And before you leave, review what was done and what happens next.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Chris in the conference room; insert shot of a phone with a short, professional text to a site contact.",
+      "on_screen": "Company-approved channels only. No site photos on social media.",
+      "says": "A common mistake is criticizing the last contractor or the building's wiring. State facts instead: 'This fixture has a damaged socket that needs repair.' Use company-approved channels for texts and email, keep them short and factual, and never post customer information, access codes or site photos on personal social media. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Office role-play scenes with two actors (tech and facility manager). Use a placeholder company name or none; do not show a real customer's name. The upset-customer role-play should show a calm tone; avoid shouting on camera beyond what is needed. Lesson file: curriculum/levels/LT1/courses/LT1-C07/lessons/02-communicating-with-customers.md."
+}

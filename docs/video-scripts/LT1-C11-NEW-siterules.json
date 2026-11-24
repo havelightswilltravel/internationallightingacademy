@@ -1,0 +1,67 @@
+{
+  "vid": "LT1-C11-NEW-siterules",
+  "title": "Customer Site Rules: Badging, Escorts, Security and Photos",
+  "course": "LT1-C11",
+  "presenter": "Chris Munford",
+  "source": "outline",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Generic secure facility entrance with a security desk, visitor badge printer and a sign-in tablet. Chris standing at the desk, medium shot.",
+      "on_screen": "Customer Site Rules",
+      "says": "Every customer site has its own rules, and many of them are strict: schools, hospitals, secure facilities. When you follow their rules without being reminded, the customer trusts us with their building. When you don't, we can lose the account, even if the lighting work was perfect.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "A tech signs in at the security desk, receives a visitor badge, and clips it where it's visible. Presenter voice-over.",
+      "on_screen": "Check in | Wear your badge where it can be seen | Check out",
+      "says": "Start with check-in. Go to the site contact, front desk or security first, every time. Sign in, get your badge and wear it where people can see it. When you leave, check out the same way. Turn the badge back in. And follow our own check-in and check-out on your phone, too. Both matter.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "A facility employee escorts the tech down a corridor; the tech waits at a door marked 'Authorized Personnel Only' until the escort opens it.",
+      "on_screen": "Escort required? Stay with your escort.",
+      "says": "Some sites require an escort. If they do, you stay with your escort. You don't wander off to find the electrical room or the restroom on your own. Restricted areas mean restricted. If your work takes you somewhere you're not cleared for, stop and ask the site contact before you go in.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Close-up of a door being propped with a wedge, then removed; then the tech checking that a secured door latches behind him.",
+      "on_screen": "Never leave a secured door propped or an alarm disabled",
+      "says": "Doors and alarms. Never prop open a secured door and walk away, and never disable an alarm on your own. If you need a door held for materials or a lift, ask the site contact how they want it handled. When you go through a secured door, make sure it latches behind you. Their security is part of your job while you're there.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Office area with monitors and papers on desks; the tech keeps his eyes on the ceiling work and steps around a desk without looking at the screen.",
+      "on_screen": "What you see on site stays on site",
+      "says": "Confidentiality. In offices, hospitals and schools you'll walk past screens, files, patients and students. Don't read documents or screens, and don't talk about what you see on site, not with the customer's people and not with your friends. Never share access codes or building details. If you're asked to sign a confidentiality agreement, tell your supervisor before you sign.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "The tech asks a site contact for permission before photographing a fixture; then frames a close-up that keeps people and screens out of the shot.",
+      "on_screen": "Photos: follow the site's rules. No people, screens or documents. Company system only.",
+      "says": "Photos. We need them for every work order, but some sites prohibit photography or require permission. Ask when you check in. When photos are allowed, keep people, computer screens, documents and security-sensitive areas out of the frame. Upload only to the company system, never to personal social media or messaging apps. If photos aren't allowed, write a clear description and tell your supervisor.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Chris back at the security desk, medium close-up.",
+      "on_screen": "Not sure? Ask before you act.",
+      "says": "If you're ever unsure about a site rule, ask before you act. A thirty-second question at the front desk beats an hour explaining a security incident. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Written from the outline only (no lesson file yet); must be checked against the lesson when it is written, especially scene 5 (confidentiality agreement handling) and scene 6 (what to do when photos are not allowed), which are conservative assumptions. Photo rules in scene 6 follow the existing lesson LT1-C07/03 (curriculum/levels/LT1/courses/LT1-C07/lessons/03-work-orders-documentation-and-photos.md). Use generic security desk and badges; no real facility names or logos."
+}

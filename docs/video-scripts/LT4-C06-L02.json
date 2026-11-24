@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C06-L02",
+  "title": "Case Lighting Components & LED Case Retrofits",
+  "course": "LT4-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 280,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Reach-in door case and an open multideck case, lock and tag visible on the case lighting breaker. Matthew in the aisle. Medium shot.",
+      "on_screen": "Job Mindset: Opening a Case",
+      "says": "Opening a canopy or raceway puts you near line voltage, sharp sheet metal, and food. Lock out the case lighting circuit and verify, because case switches and defrost aren't lockouts. Cover the product and keep guards on. Plan ahead: the case data plate, lamp and ballast details, and a remote-rated, cold-rated replacement before you open anything.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; lower-third callout.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may replace case ballasts, drivers and LED retrofits under our company's license. In others it takes a licensed electrician, and some jobs need a permit and inspection. The refrigeration system itself may need a licensed refrigeration tech. Confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech opens the canopy and raceway on the locked-out case; camera close-ups of each part as named. Presenter voice-over.",
+      "on_screen": "Case | Lamps | Sockets | Ballasts | Wire harness | Reflectors | Tube guards | Lenses | Distribution block",
+      "says": "Our component list: the case, lamps, sockets, ballasts, the wire harness, reflectors, tube guards, lenses and the distribution block. Here's the harness running up the mullion to each socket. Sockets fail from moisture and heat. And here's the distribution block, where the incoming circuit splits to each section. Loose or corroded terminals there overheat.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a fluorescent lamp in a clear tube guard over product.",
+      "on_screen": "Tube guards and lenses on every lamp over food. Never leave one missing.",
+      "says": "Glass lamps over food are a food-safety hazard. Tube guards, those clear shatter-resistant sleeves, and lens covers must be on every lamp over exposed food. They also help keep cold off the tube. Never leave a case with a missing guard.",
+      "seconds": 17
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech locates a remote ballast in the canopy, then one in a reach-in door frame header; close-up of a ballast label wiring diagram and max remote distance.",
+      "on_screen": "Not in the hood or door? Verify it's a REMOTE ballast.",
+      "says": "Many cases keep the ballast away from the lamp. That's a remote-mounted ballast. Look in the canopy, the raceway, the door frame header, the hood or door, or a box at the end of the lineup. Our procedure: if the ballast is not in the hood or the door, verify it's a remote ballast. A standard ballast installed remotely may not start the lamps, especially in the cold.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic checklist over a close-up of two ballast labels side by side.",
+      "on_screen": "Lamp type/watts/count | Remote rating + lead length | Min start temp | Voltage | Start method | Size",
+      "says": "Replace it with the correct remote ballast for the lamp application. Match the lamp type, wattage and count. The remote rating and maximum lead length to the farthest lamp. The minimum starting temperature for the case. Input voltage. The starting method as specified. And the physical size, so it fits the canopy or raceway. Read the label before you order.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Second segment: a door-mullion LED strip kit laid next to the fluorescent lamps it replaces; tech points out single- vs double-sided strips and a sealed plug connector.",
+      "on_screen": "LED mullion strip: length | single/double-sided | temp rating | remote driver | sealed connectors | CCT",
+      "says": "The common LED retrofit for reach-ins is a door-mullion strip. Match the length to the door height. End mullions get single-sided strips, center mullions double-sided. It must be rated for the case temperature. Usually a remote driver in the header feeds several strips. Sealed plug connectors must be fully seated and dry. And stores often specify different color temperatures for frozen, dairy, meat or produce.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Dry display shelf with 12 V LED sticks and a plug-in driver; close-up of the plug tip and receptacle being photographed.",
+      "on_screen": "Photograph the plug AND receptacle. Note voltage. Measure each stick.",
+      "says": "Dry cases often use 12 or 24-volt LED sticks with jumper cables and plug-in drivers in lots of plug styles. Photograph the plug and the receptacle, note the voltage, and measure each stick. A driver that looks right but has the wrong tip or output voltage won't work, or will damage the sticks.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech photographs the case data plate on the end panel, then fills in a parts form.",
+      "on_screen": "Discontinued? Photos, plug/receptacle, measurements, CCT, lamps per ballast, cases in lineup",
+      "says": "Some case ballast lines are discontinued and nearly impossible to find. Give the office what it needs to find an LED option: photos of the case including the plug and receptacle, measurements, color temperature, lamp type and quantity per ballast, and number of cases in the lineup. Always record the case maker, model and serial from the data plate. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Reach-in door case and open multideck case, both with the case lighting circuit locked out (lock and tag shown). Product covered or removed by store staff before canopy opens. Props: remote ballast in canopy and header, door-mullion LED strip kit and fluorescent lamps for comparison, dry-case LED sticks with plug-in driver, case data plate. Blur case and component brands. Senior tech opens the case while Matthew narrates."
+}

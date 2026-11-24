@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C07-L03",
+  "title": "Delivering Effective Toolbox Talks",
+  "course": "LT5-C07",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 160,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Job site staging area by the tailgate of a service truck, crew of four standing around. Danny holds a damaged step ladder. Medium shot.",
+      "on_screen": "Delivering Effective Toolbox Talks",
+      "says": "A toolbox talk is how you get the crew's head in the job before anyone touches a tool. It's a short safety discussion, ten to fifteen minutes, at the site, usually at the start of a shift. It focuses the crew on one hazard they're about to face. It's not a lecture, and it's not a substitute for training.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Version one, the poor talk: a lead reads from a sheet in a monotone; crew members look at phones; he ends with 'Everyone understand?' and gets nods. Danny voice-over.",
+      "on_screen": "What not to do",
+      "says": "Here's how it usually goes wrong. The lead reads a sheet word for word. Nobody looks up. He asks 'everyone understand?' and gets nods, because that question always gets nods. Nobody learned a thing, and the sign-in sheet says they did.",
+      "seconds": 16
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny close-up at the tailgate.",
+      "on_screen": "Pick a topic tied to today's work or a recent event",
+      "says": "Start with the right topic. Tie it to today's work or something that just happened. Lift work, occupied space, emergency lighting tests, pole work. A recent near miss. Heat in attics in summer, early darkness in winter. Or something you saw: no glasses, ladders set up wrong, locks missing.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Version two, the good talk: the lead holds up the damaged ladder, tells a short near-miss story; crew members inspect it and point out a cracked rail and missing foot.",
+      "on_screen": "1 Hook  2 The hazard  3 The controls  4 Connect to today  5 Check and record",
+      "says": "Now the good version. Five parts. A hook: a short real story, a question, or a prop. 'Who's seen a ladder like this?' Then the hazard, concrete. Then the controls, demonstrated if you can. Watch him hand the ladder to the crew and ask them to find the defects. People remember what they see and handle.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Same good talk: the lead points to the ceiling area where today's ladder work will happen, then asks a crew member a question; crew member answers.",
+      "on_screen": "Ask: 'What would you check before getting on this ladder?'",
+      "says": "Then connect it to today: where on this job does it apply, and what exactly will we do? Finish with open questions. 'What would you check before getting on this ladder?' works. Let the crew talk. Experienced techs have stories. New techs have questions they're afraid to ask, so make it safe to ask.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny at the tailgate with a one-page outline in hand, not reading it.",
+      "on_screen": "Talk, don't read - use props - one topic - 10-15 minutes - be honest - respect language needs",
+      "says": "Some tips. Talk, don't read; use a one-page outline in your own words. One topic per talk. Over fifteen minutes, you're covering too much. If you don't know an answer, say so and follow up. And if someone's more comfortable in another language, use bilingual materials or a translator.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny medium close-up. Safety callout.",
+      "on_screen": "A toolbox talk does not qualify anyone to do a task.",
+      "says": "Remember this. A toolbox talk doesn't qualify anybody for anything. If the talk shows someone doesn't have the lift training or qualified-person training a task needs, don't assign them that task until the training is done and documented.",
+      "seconds": 15
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Lead collects signatures on a sign-in sheet at the tailgate; then files it in the job binder.",
+      "on_screen": "Record: date - topic - presenter - attendees\nNow read the lesson and take the quiz",
+      "says": "Record the date, topic, presenter and attendees, and file it per company policy. If a question came up you couldn't answer, follow up the next day. If the talk turned up a hazard or bad equipment, fix it and tell the crew it's fixed. Now read the lesson and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Film two versions of the same ladder talk with the same crew (poor, then good), each under 4 minutes raw; use only short excerpts here. Damaged ladder is a tagged-out prop and must be marked out of service on camera at the end. The lead in versions 1 and 2 is a non-speaking actor except for the quoted lines; Danny narrates."
+}

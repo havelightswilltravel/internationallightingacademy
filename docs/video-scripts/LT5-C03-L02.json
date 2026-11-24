@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C03-L02",
+  "title": "Article 410 – Luminaires",
+  "course": "LT5-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 198,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Building under construction: open ceiling with recessed cans, insulation bats nearby. Matthew with a code book, hard hat and safety glasses. Medium shot.",
+      "on_screen": "Article 410: Luminaires",
+      "says": "Article 410 is the one you'll use most. It covers luminaires, lampholders, LED lamps, retrofit kits and the wiring that's part of them. Know these rules before you plan a job, because a fixture in the wrong place or supported the wrong way has to come back out. Section numbers here are from the 2023 NEC.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close on a retrofit kit carton showing the UL 1598C mark and the retrofit label sheet.",
+      "on_screen": "410.6: luminaires, lampholders & retrofit kits must be LISTED\n110.3(B): install per instructions",
+      "says": "Listing, 410.6. Luminaires, lampholders and retrofit kits must be listed. Combine that with 110.3(B), install listed equipment per its instructions, and here's what it means: a retrofit kit must be listed, UL 1598C, and installed exactly per its instructions, including the retrofit labels. Field modifications outside those instructions can void the listing.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Bathroom rough-in with a tub; tape measure showing 3 ft out and 8 ft up from the tub rim.",
+      "on_screen": "Tub/shower zone: 3 ft horizontal, 8 ft vertical\nNo pendants, track, cord-connected or chain-hung luminaires\nDamp listed, or wet where subject to spray",
+      "says": "Locations, 410.10. Damp locations need luminaires marked for damp or wet. Wet locations need wet-marked luminaires installed so water can't collect in wiring compartments. In the bathtub and shower zone, 3 feet out and 8 feet up from the tub rim or threshold: no cord-connected, chain-, cable- or cord-hung luminaires, track, pendants or paddle fans. Luminaires there are damp-listed, or wet-listed where subject to spray.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Closet framing; Matthew shows the storage space and measures to a surface LED fixture.",
+      "on_screen": "410.16 closets: no open-lamp incandescent, no pendants\nTypical: 12 in surface incandescent/LED • 6 in surface fluorescent & recessed",
+      "says": "Closets, 410.16. Clothes can touch hot lamps. Incandescent with open or partly enclosed lamps, and pendants, aren't allowed. Permitted types keep clearances to the defined storage space. Typical values: 12 inches for surface incandescent or LED, 6 inches for surface fluorescent and recessed. Some types are identified for use inside the storage area. Read 410.16 and the Article 100 storage-space definition first.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Suspended ceiling grid; troffer with listed clips attached to the grid; then a troffer just laid in loose.",
+      "on_screen": "410.36(B): fasten luminaires to ceiling framing mechanically (listed clips, screws, bolts)\nLaid in loose = does NOT comply",
+      "says": "Support. Fixtures over 6 pounds or 16 inches can't hang from a lampholder screw shell, and boxes are generally rated for 50 pounds unless marked for more. In suspended ceilings, the framing is fastened to the structure, and luminaires are fastened to the framing by mechanical means, like screws, bolts, rivets or listed clips. A troffer laid in loose doesn't comply.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Recessed non-IC can with insulation stuffed over it (non-compliant) vs an IC-rated can (compliant).",
+      "on_screen": "Non-IC: ½ in from combustibles, 3 in from insulation, none above\nType IC: contact with insulation OK",
+      "says": "Recessed fixtures. Type IC is identified for contact with insulation. Non-IC fixtures need at least half an inch from combustibles, except at support points, and 3 inches from thermal insulation, with no insulation above. Fixture whips run 18 inches to 6 feet in a raceway or cable. When an insulation contractor blows insulation over non-IC cans, it's a fire hazard and a violation. Report it.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Fluorescent troffer showing an internal disconnect connector; Matthew points to it.",
+      "on_screen": "410.130(G): indoor non-dwelling, double-ended lamps, serviceable ballast → disconnect\nOn an MWBC: must open the neutral too",
+      "says": "Grounding: exposed metal parts connect to an equipment grounding conductor. On an existing outlet without one, check the section and ask. Disconnects, 410.130(G): indoors in non-dwellings, fluorescent fixtures with double-ended lamps and in-place serviceable ballasts need a disconnect. On a multiwire branch circuit, it opens all supply conductors, neutral included. Converted fixtures follow the kit or Type B TLED instructions.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the troffer, meter in hand.",
+      "on_screen": "A fixture disconnect is NOT LOTO\nVerify live-dead-live at the point of work",
+      "says": "Safety. A luminaire disconnect isolates one fixture, but it doesn't replace our lockout program and verification. Before you touch conductors, verify absence of voltage at the point of work with a tested meter, live-dead-live. On MWBCs, confirm the neutral is open too, or lock out every circuit sharing it.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Construction site, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Listed and installed per instructions, right location, right clearances, mechanically supported, and a disconnect that isn't your lockout. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Code lesson; scene 1 ties code to planning. Construction-site tour with five checkpoints; show compliant vs non-compliant examples (staged mock-ups are fine). Hard hats, safety glasses and hi-vis on camera. The lesson's Part V on luminaires as raceways (410.64) is omitted for time. Use on-screen paraphrase, not verbatim NEC text."
+}

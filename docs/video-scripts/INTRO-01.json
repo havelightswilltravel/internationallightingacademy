@@ -1,0 +1,75 @@
+{
+  "vid": "INTRO-01",
+  "title": "Welcome, company vision and how the program works",
+  "course": "Intro",
+  "presenter": "Kyle McClelland",
+  "source": "outline",
+  "target_seconds": 180,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Kyle McClelland",
+      "background": "Shop floor in front of the service trucks, morning light. Kyle standing, medium shot, a bucket truck and a lift trailer behind him.",
+      "on_screen": "Welcome to the Lighting Academy",
+      "says": "Welcome. I'm Kyle McClelland, president of our company. I'm glad you're here. You just joined a team that keeps the lights on for stores, warehouses, offices and parking lots. People count on that light to work safely and get home safely. This program exists so you can do that work well, and so you can build a real career doing it.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle walking slowly along the trucks, tracking shot. Cut-aways of techs loading a van and working from a lift.",
+      "on_screen": "Why this program exists",
+      "says": "Here's why we built it. Good technicians aren't born. They're trained. For too long our trade has learned by watching and hoping. We want something better. A clear path. The same standard on every crew. And a way for you to see exactly what you need to learn next.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle in front of a whiteboard or large monitor in the shop training room, medium shot.",
+      "on_screen": "Five levels: LT1, LT2, LT3, LT4, LT5 - about two years",
+      "says": "The program has five levels, LT1 through LT5, laid out over about two years. Each level is a set of courses. Each course has short lessons, a quiz, and for hands-on skills, a sign-off where you show an evaluator you can do the work. You start at LT1, the foundation: safety, ladders, tools, and the basics of a service call.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Kyle McClelland",
+      "background": "Training bench in the shop. A senior tech watches a newer tech wire a fixture, then nods and signs a clipboard. Kyle voice-over, then back on Kyle.",
+      "on_screen": "You earn your level by showing the skill",
+      "says": "You don't move up by putting in time. You move up by showing you can do the work. Pass the quizzes. Show your evaluator the skill, the right way, the safe way. When you've proven it, you move to the next level. Some people will move faster than others. That's fine. The standard doesn't change.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle in front of a bucket truck with outriggers down and cones set, medium close-up.",
+      "on_screen": "Safety is the foundation",
+      "says": "Safety is the foundation of all of it. Every lighting job mixes electricity, heights, and people moving around below you. Nothing we do is worth getting hurt over. Not a deadline, not a customer, not a shortcut that always worked before. Everyone here has the right and the duty to stop work when something isn't safe.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle at the open side doors of a stocked service van, tools and parts visible on the shelves.",
+      "on_screen": "The Job Mindset: Safety first - Plan the whole job - Think ahead - Keep every hand busy - Never be caught off guard",
+      "says": "You'll hear us talk about the Job Mindset. Safety first. Plan the whole job before you leave the shop, worst cases included: tools, equipment, people, parts. Think several steps ahead. Keep every hand on the crew busy. And never be caught off guard. That's how good crews work, and it's how you'll learn to work.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle back on the shop floor, close-up, direct to camera.",
+      "on_screen": "Show up. Be honest. Keep learning. Pay follows level.",
+      "says": "Here's what we expect. Show up on time and ready. Be honest, especially when you make a mistake. Treat every customer's building like it's your own. Keep learning. And here's what you can expect from us: your pay follows your level. As you earn each level, your pay moves with it.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Kyle McClelland",
+      "background": "Wide shot of the shop, crew walking to the trucks; Kyle in foreground.",
+      "on_screen": "Next: LT1-C01 Orientation, Safety Culture & PPE",
+      "says": "So let's get started. Your first course is orientation, safety culture and PPE. Take it seriously. It's the base everything else stands on. Now read the lesson and take the quiz. Welcome to the team.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Written from the outline only (no lesson file). Check against the final intro lesson and program documents before production, especially the level structure, the two-year timeline and the wording on pay (no amounts or rates on screen). No customer logos in any b-roll. Generic company name only."
+}

@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C10-L03",
+  "title": "System-Level & Controls Interactions",
+  "course": "LT4-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 198,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training controls board in the shop with a sensor, wallstation, 0-10V drivers and a small NLC gateway; senior tech beside it. Matthew voice-over.",
+      "on_screen": "Job Mindset: Controls Interaction Call",
+      "says": "Job Mindset for a controls call where every part tests good. Hazards: unexplained voltage on 'off' conductors and back-fed circuits. Plan the whole job: get the as-commissioned settings and event log access before you leave, bring a meter with a LoZ function and your LOTO kit, and arrange customer permission to disable inputs. Think ahead: who else, BMS or HVAC, may need to be on the call?",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in front of the training board.",
+      "on_screen": "Interaction problems: good parts working against each other",
+      "says": "Some of the hardest calls are interaction problems. The driver passes, the sensor passes, the wiring passes, yet lights flicker, turn on unexpectedly or won't dim right. Two or more parts, settings or systems are working against each other.",
+      "seconds": 16
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Board demo: schedule fires ON at 6:00 a.m. with nobody present; screen shows the event log entries.",
+      "on_screen": "Competing inputs → pull the event log\nWhich input made each change?",
+      "says": "First, competing control inputs. Wallstations, sensors, daylight sensors, schedules, the BMS and demand response can all command the same lights. Lights on at 6 a.m. in an empty space? Maybe a schedule ON plus a sensor in auto-ON mode. Lights won't stay off? Maybe the BMS writing ON at high priority. Pull the event log, find which input acted, then decide which source should be in charge.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Board demo: slider at low end, two fixtures flicker and pop on at different levels.",
+      "on_screen": "Dimming: check compatibility list, low-end trim, 0-10V polarity, control-wire length, same driver on the zone",
+      "says": "Second, dimming compatibility. Symptoms are flicker or 'popcorn' at low end, lights that glow instead of going off, dead travel on the slider, and fixtures on one circuit dimming differently. Check the manufacturer's compatibility list, low-end trim, 0-10 volt polarity, control-pair length and voltage drop, and whether every fixture on the zone uses the same driver.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Office b-roll: dual-tech sensor next to a supply diffuser; daylight sensor over a glossy floor; window blinds.",
+      "on_screen": "Sensor environment: airflow, heat sources, reflections, changed window treatments",
+      "says": "Third, the sensor's environment. Ultrasonic sensors get triggered by HVAC airflow, fans and vibration. PIR sensors react to heaters and sunlight on surfaces, or miss people behind partitions. Daylight sensors get thrown off by snow, glossy floors, new furniture or window treatments that changed after commissioning.",
+      "seconds": 18
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech at a switch leg with a meter: high-impedance reading shows voltage, LoZ reading collapses. Then lock applied and live-dead-live test.",
+      "on_screen": "Ghost voltage does NOT prove a conductor is safe\nLOTO + live-dead-live before work",
+      "says": "Fourth, electrical interactions: sags when elevators or compressors start, MWBC neutral problems, and ghost voltage. A high-impedance meter can read voltage on an 'off' conductor from capacitive coupling, and drivers may glow. A LoZ function helps tell it from real backfeed. But ghost voltage doesn't prove anything is safe. Lock out and verify absence of voltage, live-dead-live. Treat unexplained voltage as real.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic over the gateway: clock icon, firmware icon, metal shelving blocking a wireless signal.",
+      "on_screen": "Firmware & software: updates, uncommissioned replacements, wrong gateway clock, mesh dropouts",
+      "says": "Fifth, software and firmware. An update changes default behavior. A replaced device sits at factory defaults because nobody commissioned it. A gateway clock or time zone resets after a power loss and shifts every schedule. Or new metal shelving blocks a wireless mesh.",
+      "seconds": 17
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the board, step list on screen.",
+      "on_screen": "1. Map every input\n2. Event log + as-commissioned settings\n3. Isolate one input at a time\n4. What changed recently?\n5. Reproduce to confirm\n6. Update the documentation",
+      "says": "Here's the approach. Map every input. Get the event log and as-commissioned settings and compare. Isolate inputs one at a time, with the customer's permission, and restore each afterward. Ask what changed recently. Confirm the fix by reproducing the original conditions. Then update the documentation so the record matches reality.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, holding a printout of an event log.",
+      "on_screen": "Bring evidence to other trades",
+      "says": "Many of these problems sit at the boundary with another trade. 'The BMS is messing up my lights' resolves nothing. 'Your BMS wrote ON to this point at priority 8 at 6 a.m. and never released it' gets fixed. Bring event logs, readings and timestamps.",
+      "seconds": 18
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Wide shot, training board.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Map it, log it, isolate it, prove it, document it. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Hands-on demo on a training controls board (or a generic office after hours); senior technician performs demos, presenter voice-over. Recreate: schedule/sensor conflict, low-end flicker from mixed drivers, ghost-voltage reading vs LoZ reading. Show LOTO and live-dead-live before touching any conductor. Lesson's BMS example names an object ('BV-210'); script keeps it generic."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C13-L06",
+  "title": "Company Lift Policies I: Operators, Inspection & Tie-Off",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop yard with a scissor lift and an articulating boom side by side. Danny with a new technician, medium two-shot.",
+      "on_screen": "Job Mindset: Before You Step On a Lift",
+      "says": "Every lift rule I'm about to give you traces back to how people get hurt on lifts: falls, electrocution, tip-overs and getting crushed. So before the job, confirm you're authorized on that type of lift, the annual tag is current, and you've got your harness, lanyard and trauma straps. If the lift fails inspection on site, know your plan B before you're standing there.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Same location; Danny turns to camera. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Qualified = trained AND authorized, separately for each lift type",
+      "says": "These are our company's lift policies, from the safety handbook every tech signs. Where we're stricter than the standard, our rule applies. Rule one: only qualified people run our lifts. That means trained on that kind of lift and authorized by the company. You're qualified separately for each type. Signed off on a scissor does not mean you can run a boom.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up: Danny points to the annual inspection tag on the scissor, reading the date.",
+      "on_screen": "Annual inspection: no more than 13 months old. No current tag, no lift.",
+      "says": "Read the annual inspection tag first. A qualified mechanic does the annual, and it can't be more than thirteen months old. No current tag, no lift. Then read the operator's manual for the machine in front of you. The manual stays with the machine.",
+      "seconds": 18
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "The new tech performs the company minimum inspection on the scissor, then the boom, while Danny watches; presenter voice-over. Close-ups of battery connections, hoses, wiring, each control panel, rails and decals.",
+      "on_screen": "Power | Hydraulics | Electrical | Controls | Structure | Platform | Labels | Annual tag",
+      "says": "Here's our company minimum inspection. Before you get on, before each shift, and after anything that could've damaged it, like a bump or a curb strike. Battery and connections. Hydraulic leaks, hoses, cylinders and valves. Wiring. Ground, platform and emergency controls, every function on every panel. Boom and basket, outriggers if equipped. Doors, latches, rails, toe boards. Decals readable. Plus the manufacturer's items.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "The tech finds a hydraulic leak under the boom; Danny hangs a red 'Out of Service' tag on the controls.",
+      "on_screen": "Failed inspection: red Out of Service tag. Report it.",
+      "says": "Found a leak. That lift gets a red Out of Service tag, and it gets reported. Never use a red-tagged lift, and never remove someone else's tag. If it's a rental that showed up with a problem, it goes back to the rental company.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "The tech steps onto the scissor and immediately clips the entry chain behind him; close-up of the chain clip.",
+      "on_screen": "Scissors: chain or gate closed the moment you step on",
+      "says": "On a scissor, the guardrails are your fall protection. So the entry chain goes back on, or the gate closes, the moment you step on. Not when you're ready to go up. Both feet on the deck, stay inside the rails. If the manual or the site requires a harness, wear one and clip only to the designated anchor.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Second, serviceable boom: the tech steps into the basket in a full-body harness and clips the lanyard to the anchor point inside the basket before touching the controls.",
+      "on_screen": "Booms: harness clipped inside the basket during ALL operation, even lowered",
+      "says": "Booms are different. Company policy: full-body harness, lanyard clipped to the anchor point inside the basket during all operation. That's from the moment you step in, including when the basket's down and you're driving to the next pole. A pothole can whip the boom and throw you out. No designated anchor point? Don't use that boom. Call your supervisor.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny holding a lanyard near a light pole, shaking his head; then to camera.",
+      "on_screen": "Never tie off outside the platform | 5,000 lb anchors | 6 ft max free fall",
+      "says": "Never tie off outside the platform. Not the pole, the fixture, a beam or a sprinkler pipe. Tie-off points are rated for 5,000 pounds per person, and the lanyard is set so you can't free fall more than six feet. Inspect your harness before each use. Wear a hard hat when something could fall on you or you could hit something overhead.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny and the new tech in front of both lifts.",
+      "on_screen": "Stricter site rule? We follow it.",
+      "says": "One more. If the customer's site rules are stricter than ours, like a harness in every scissor, we follow the site rule. If you can't meet it, stop and call your supervisor. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Supervisor (Danny) walks a new technician through the rules. Use two booms or film the leak on one boom and the tie-off on a second, serviceable boom; never show anyone operating a red-tagged lift. Props: annual inspection tag, red Out of Service tag, full-body harness, lanyard, trauma straps, hard hat. Blur rental logos. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/06-company-boom-and-scissor-lift-policies.md."
+}

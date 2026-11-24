@@ -1,0 +1,91 @@
+{
+  "vid": "LT3-C17-L02",
+  "title": "Hitches, Working Load Limits, Sling Angles & Load Weight",
+  "course": "LT3-C17",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 250,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop yard, a steel pole lying on dunnage (blocking). Danny stands beside it with the sling over his shoulder. Medium shot.",
+      "on_screen": "Job Mindset: Know the Weight Before You Rig",
+      "says": "The hazard in a lift is a load that's heavier than the rigging or the machine can hold. The control starts at the shop: know the pole's weight, read the tag for the hitch you'll use, and bring a longer sling in case the angle is too flat. Think ahead to the lay-down too. If the numbers are close to any limit, you stop and call your supervisor.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a sling tag, then Danny to camera.",
+      "on_screen": "WLL = the most you may lift. Not breaking strength.",
+      "says": "Working load limit, or rated capacity, is the most a piece of rigging is allowed to hold in a given way. It's not breaking strength. Synthetic slings have a 5 to 1 design factor, but that margin is for wear, shock and mistakes you can't see. Never plan to use it. And your rigging is only as strong as its weakest part: sling, shackle, hook or machine.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Senior tech rigs the sling vertical, then basket, on a lifting hook over the pole on dunnage; graphic overlay shows each capacity column on the tag. Presenter voice-over.",
+      "on_screen": "Vertical 100% | Choker about 75-80% | Basket up to 200%",
+      "says": "Three basic hitches. Vertical: one eye on the hook, load on the other eye. That's the base rating. Basket: the sling cradles the load and both eyes go on the hook. Up to twice vertical when both legs hang straight, less as the legs spread. Choker: the sling wraps the load and cinches through its own eye or a shackle. About 75 to 80 percent of vertical.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Senior tech chokes the sling around the pole with the shackle: pin through one eye, other end through the bow up to the hook. Close-up of the choke forming as tension comes on. Presenter voice-over.",
+      "on_screen": "Pole lights: choker. Read the choker column.",
+      "says": "For a pole light we use a choker. It grips the shaft and keeps the sling from sliding. Let the choke form naturally as the load comes on. Don't force it tight with a hammer or by hand; that sharpens the choke angle and lowers capacity. Example only: if the tag reads vertical 3,200 and choker 2,500, your limit is 2,500. Your own tag governs.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Two-leg sling on a test load with a large protractor held against one leg; legs spread from steep to flat. Graphic table overlay.",
+      "on_screen": "90° x1.00 | 60° x1.16 | 45° x1.41 | 30° x2.00",
+      "says": "When two legs hold a load, each leg pulls up and sideways. The flatter the legs, the higher the tension in each, even though the load hasn't changed. Measure the angle from horizontal. At 60 degrees multiply each leg's share by 1.16, at 45 by 1.41, at 30 by 2. Between two angles, use the flatter angle's factor.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Whiteboard in the shop with the worked example written out; Danny points to it.",
+      "on_screen": "600 lb pole, two legs at 45°: 300 x 1.41 = about 425 lb per leg",
+      "says": "Say a 600-pound pole is lifted level with two legs at 45 degrees. Each leg carries half, 300 pounds, times 1.41. That's about 425 pounds per leg. At 30 degrees, it's 600 per leg, as much as the whole pole. Keep angles at 60 or steeper when you can, and never below 30 unless a qualified person approves. Longer slings give steeper angles.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Animation: a pole hanging from a hook, choke point shown above and then below the center of gravity, with the pole flipping in the second case.",
+      "on_screen": "Choke ABOVE the center of gravity",
+      "says": "A load hangs with its center of gravity right under the hook. To lift a pole upright, choke it above the center of gravity, high on the shaft just below the arms or tenon, so it hangs straight and can't flip. Heads still on the pole move that balance point toward the top. To carry a pole level, use two pick points on either side of it.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny measures the pole's side with a tape, then works the numbers on a calculator; whiteboard shows the steps.",
+      "on_screen": "Steel about 490 lb/cu ft. 25 ft x 4 in steel pole: shaft about 160 lb. Total about 265. Plan for 300.",
+      "says": "First choice for weight is the spec sheet. If you don't have it, calculate volume times material weight. Steel is about 490 pounds a cubic foot. A 25-foot, 4-inch square, 11-gauge steel pole works out to about 6.5 pounds a foot, so about 160 for the shaft. Add the base plate and two heads, about 265. Round up and plan for 300.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Knocked-down pole on the ground with a chunk of concrete still attached to the base. Danny crouches beside it.",
+      "on_screen": "1 cu ft of concrete = about 150 lb",
+      "says": "Here's what gets people. A knocked-down pole with a chunk of concrete still stuck to the base. A one-foot cube of concrete is about 150 pounds. Add it. If you can't estimate the weight with confidence, or the numbers come close to any limit, stop and call your supervisor. Never try it and see with a load overhead.",
+      "seconds": 22
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Danny beside the pole on dunnage, sling coiled in hand. Medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Read the right column, keep the angles steep, choke above the balance point, and round the weight up. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Props: steel pole on dunnage; company web sling with legible tag (any real tag numbers on screen must not be presented as our rating; the 3,200/2,500/6,400 lb figures are the lesson's example figures only and must be labeled 'example'); 3/4 in shackle; crane hook or lifting eye for the hitch demos (no actual lift needed); two-leg sling and large protractor on a test load; whiteboard; tape measure; calculator; a knocked-down pole base with concrete attached if available, otherwise b-roll. Animation for center-of-gravity scene. Senior tech performs the rigging while Danny narrates."
+}

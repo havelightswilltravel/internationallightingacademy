@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C09-L02",
+  "title": "Track Heads and Light Sources",
+  "course": "LT3-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 192,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with four track heads laid out: halogen PAR, CMH with ballast, integrated LED, low-voltage MR16. Medium shot.",
+      "on_screen": "Track Heads and Light Sources",
+      "says": "Knowing what's inside a track head tells you what test is valid, what part to bring, and what can burn you. Before you leave the shop, know which head types are on that job, and bring gloves, lamps and the right replacement parts. Let's open four heads and look inside.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tech points to each part on one head. Presenter voice-over.",
+      "on_screen": "Adapter | Stem & swivel | Power component | Lamp holder or LED | Body/heat sink | Optics",
+      "says": "Every head has the same basic parts. The adapter locks into the track, picks up power and, on multi-circuit track, selects the circuit. The stem and swivel let it tilt and rotate and carry the internal wiring. There may be a power component: transformer, ballast or driver. Then the lamp holder or LED module, the body and heat sink, and the optics.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: halogen PAR head opened, socket and swivel wiring shown.",
+      "on_screen": "Halogen: no power component. Continuity test IS valid.",
+      "says": "Head one, incandescent or halogen. PAR20, PAR30, PAR38 or BR30 lamps. No power component: line voltage goes straight from the adapter to the socket. They fail by burned-out lamp, worn socket, broken wiring at the swivel, or poor adapter contact. Because there's nothing in the path, a continuity check from the adapter to the socket is meaningful.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: CMH head opened, electronic ballast label in frame.",
+      "on_screen": "CMH: ballast must match lamp wattage (39 W ballast = 39 W lamp)",
+      "says": "Head two, ceramic metal halide, with an electronic ballast. The ballast must match the lamp wattage and type, like a 39-watt ballast for a 39-watt lamp. Wrong lamps cause short life or no start. CMH lamps need a few minutes to warm up, and a cool-down before restrike after a power blip. Don't condemn a head that's simply restriking.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: LED head and low-voltage MR16 head opened side by side.",
+      "on_screen": "LED: no continuity test through the driver | LV: never bypass the transformer",
+      "says": "Head three, integrated LED. The driver and module are built in. They fail by driver, module, heat or dimming incompatibility. Continuity isn't a valid test, there are electronics in the path. Head four, low-voltage MR16 with a built-in transformer. Lamp, bi-pin socket or transformer. A 12-volt lamp on line voltage fails instantly. Never bypass the transformer.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, gloves on, medium close-up.",
+      "on_screen": "Label wattage is a MAXIMUM. Let heads cool. Use gloves.",
+      "says": "Safety. Halogen and CMH lamps can cause serious burns within seconds of contact. Turn off the head, let it cool, and use gloves. The lamp wattage on the label is a maximum. Over-lamping causes overheating, socket damage and fire risk. And some CMH and halogen lamps must only be used in heads with a lens because they can rupture. Follow the label.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Retail display: tech loosens tilt and rotation locks, aims a head at a product, locks both axes. Presenter voice-over.",
+      "on_screen": "Aim about 30 degrees from vertical. Lock both axes.",
+      "says": "Aiming. A common rule of thumb is about 30 degrees from vertical at the object. Steep enough to keep glare out of people's eyes, shallow enough to avoid deep shadows and reflections on glass. Loosen the tilt and rotation locks, aim at the center, adjust and lock both axes. Use the locks, not the lamp. Then check for glare from normal viewing positions.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a head label; tech photographs it with a phone.",
+      "on_screen": "Record: catalog # | track type | voltage | lamp & max watts | ballast/driver/transformer data",
+      "says": "The common mistake is ordering by looks. Record the label: manufacturer, catalog number, track type, voltage, lamp type and maximum wattage. For ballasted heads, the ballast model and lamp wattage. For LED, wattage, CCT, CRI, beam angle and dimming type. For low-voltage, magnetic or electronic transformer and VA rating.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Know the source, know the valid test, respect the heat. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Use unbranded heads. Heads opened on the bench are disconnected and cool. Senior tech performs disassembly and aiming; presenter voice-over in scenes 2 and 7. Aiming segment at a generic retail display (no brand logos)."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C14-L01",
+  "title": "Area Lights, Pole Lights & Wall Packs",
+  "course": "LT3-C14",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 201,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Commercial parking lot at dusk, LED area lights on square poles coming on. Matthew in a hi-vis vest beside a cone. Medium shot.",
+      "on_screen": "Area Lights, Pole Lights and Wall Packs",
+      "says": "Exterior lighting adds hazards you don't get indoors: higher voltages, long circuits, traffic, weather and height. Before you leave the shop for a site call, know what kind of fixtures are out there, what voltage they're likely on, and what lift and traffic control you'll need. Let's take a tour.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Tour at dusk: trainer points to a wall pack, a shoebox area light on a square pole, a floodlight, a canopy light and a bollard. Presenter voice-over.",
+      "on_screen": "Wall pack | Area light (shoebox) | Floodlight | Canopy | Bollard | Post-top | Roadway",
+      "says": "Wall packs mount on the building, 10 to 20 feet up. Area lights, the shoeboxes, sit on poles 15 to 40 feet high over parking lots, often with a twist-lock photocontrol receptacle. Floodlights are adjustable, so re-aim after service. Canopy lights under gas station or entry canopies. Bollards, which get hit by cars and mowers. And roadway cobra heads, which are often utility-owned. Know who owns it before you touch it.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: area light voltage label showing 277-480 V and 'suitable for wet locations'.",
+      "on_screen": "Assume 480 V until you measure. Meter and PPE rated for it.",
+      "says": "Site lighting is often on 277 volts, or 480 line-to-line, to cut voltage drop over long runs. Treat every exterior luminaire as potentially 480 volts until you measure, and make sure your meter and PPE are rated for it. Long runs mean real voltage drop, and low voltage at the last pole can make drivers shut down or flicker.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: opened LED area light driver compartment on the ground; trainer points to the driver, the surge protector module and the photocontrol receptacle.",
+      "on_screen": "SPD: often 10 kV/10 kA or higher. Failed SPDs are a common service item.",
+      "says": "Inside an LED area light: the driver, a surge protective device, and the photocontrol receptacle. Long outdoor runs collect lightning-induced surges, so most LED area lights include an SPD, often rated 10 kV, 10 kA or higher. Failed SPDs are a common service item. One branch circuit often daisy-chains through many poles, with in-line fuses in each hand hole.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Side-by-side: Type IV forward-throw fixture on a property-line pole vs a Type V symmetric fixture spilling light onto a neighbor's building.",
+      "on_screen": "Match: wet/damp rating | distribution type (II-V) | cutoff | shields",
+      "says": "Replacements must match. Wet-location rating where rain and sprinklers hit, damp under canopies. The same IES distribution type: put a Type V symmetric fixture where a Type IV forward-throw belongs, and you light the neighbor's windows and leave dark spots. Restore house-side shields. Many places have dark-sky ordinances, so never tilt a full-cutoff fixture up to throw it further.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the lot, on-screen symptom table.",
+      "on_screen": "Whole lot dark = control | one pole = fuse, driver, SPD, photocontrol | on in daytime = photocontrol, HOA, shorting cap",
+      "says": "Typical calls. Whole lot dark: suspect the contactor, breaker, photocontrol or time clock. One pole dark: the pole fuse, driver, SPD, photocontrol or a broken conductor. Poles at the end of the run dark: an open between poles. On in the daytime: a failed-on photocontrol, contactor in HAND, welded contacts or a shorting cap. Breaker trips when wet: a ground fault.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot: cones set around a bucket truck; tech in hi-vis; a spotter; close-up of a wasp nest inside a hand hole.",
+      "on_screen": "Cones | hi-vis | spotter | no aerial work in lightning, high wind or ice | look before you reach",
+      "says": "The site hazards. High fixtures need a MEWP or bucket truck with trained operators. Set cones and barricades, wear high-visibility apparel, and use a spotter when needed. No pole or aerial work in lightning, high wind or ice. Wasp nests in fixtures and hand holes are common, so look before you reach. Utility-owned lights near utility lines are for qualified utility workers only.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a panel on the building exterior, medium close-up.",
+      "on_screen": "LOTO at the PANEL, not the photocontrol. Daytime does not mean de-energized.",
+      "says": "Safety. Before opening a luminaire or hand hole, identify the circuit from the panel directory, lock out, and verify absence of voltage at the work location with a meter rated for the voltage, live-dead-live. The common mistake is trusting the photocontrol or contactor being off. Daytime does not mean de-energized, and a contactor can close at any time.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at dusk, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Know the fixture, assume 480, match the replacement, and lock out at the panel. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Shoot at dusk at a generic commercial lot with no tenant signage. Opened luminaire shown on the ground, disconnected. Side-by-side distribution comparison can be an animated graphic. Senior tech points out fixtures; presenter voice-over in scenes 2 and 4."
+}

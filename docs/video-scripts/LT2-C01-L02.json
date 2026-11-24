@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L02",
+  "title": "Safety Is the Foundation: A Detailed Review of Your LT1 Safety Training",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop at dawn, a trainer and an LT2 technician by a service truck. Matthew in the foreground, medium shot.",
+      "on_screen": "Safety Is the Foundation",
+      "says": "A tech who can install a retrofit perfectly but forgets to verify the circuit dead isn't a good technician. They're an accident that hasn't happened yet. So before LT2 teaches anything new, we go back through all of it. Here's the rule for this level: you can't progress until safety is first on your mind in every task. Let's walk one ordinary service day.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Freeze-frame style: the LT2 tech does a fit-for-duty self-check, then a vehicle walk-around and checks the load straps; a label pops up for each LT1 training in play.",
+      "on_screen": "Fit for duty | Vehicle walk-around | Load secured",
+      "says": "Freeze. Fit for duty: rested, fed, water, nothing slowing you down. Walk-around before you drive: tires, lights, fluids, mirrors. Ladders tied at both ends and material strapped so nothing flies forward in a hard stop. Trailer hitch pinned and chains crossed. No phone while driving, and get out and look before you back.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "In an open store: the tech pulls safety glasses and gloves from the PPE bag, barricades an aisle, inspects a fiberglass ladder and sets it up with spreaders locked.",
+      "on_screen": "PPE is the LAST line of defense | Barricade | Inspect the ladder",
+      "says": "At the store. Safety glasses always, and PPE is your last line of defense, not your first. Barricade the aisle, because the public is your hazard and you're theirs. Fiberglass ladder near anything electrical, inspected before every use, spreaders locked, never on the top step. Three points of contact, torso between the rails, and move the ladder instead of overreaching.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "The tech applies a personal lock and tag at the breaker, tries the switch, then tests live-dead-live at the fixture with a meter and rubber insulating gloves.",
+      "on_screen": "Treat all wiring as live | Own lock and tag | Live-dead-live",
+      "says": "The lockout. Treat all wiring as live until you've locked it out and verified it dead yourself, even if you turned it off yourself. Get site approval, de-energize at the control then the breaker, your own lock and tag. Try the switch, return it to off, then live-dead-live with the right meter and gloves. Breaker can't be locked? Stop and call your supervisor. A tag alone is never enough.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Inside the open fixture: an emergency battery pack visible; then a ballast label close-up without a 'No PCBs' marking, set aside in a separate box; a broken lamp being cleaned up without a vacuum.",
+      "on_screen": "No 'No PCBs' label = treat as PCB | Leaking ballast = STOP",
+      "says": "Fixtures surprise people: other circuits passing through, emergency battery packs, night-light circuits, shared neutrals. A broken lamp: keep people away, ventilate, no vacuum or broom on the first pass. A ballast without a No PCBs label is treated as a PCB ballast, kept separate and counted. A leaking ballast is a stop: don't touch it bare-handed and call your supervisor.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "On a hot roof the tech takes a water break in the shade; then above a restroom ceiling a flashlight finds a used needle; the tech lowers the tile and steps down without touching it.",
+      "on_screen": "Heat: water, rest, shade | Look before you reach",
+      "says": "A hot roof: water, rest and shade, and watch each other. Confusion, hot skin or collapse can be heat stroke. Call 911 and cool the person right away. Above a restroom ceiling, a used needle. Look before you reach. Don't touch it. Stop and call your supervisor for the right cleanup. Same for droppings, blood, suspected asbestos and unknown equipment with warning labels.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Site contact approaches and says 'Just skip the lockout, we can't lose these lights.' The tech politely declines, makes the area safe and calls the supervisor.",
+      "on_screen": "Anyone can stop work. Calling a job: make it safe, tell the site, call your supervisor.",
+      "says": "Last stop of the day. The site contact asks them to skip the lockout. That's a stop. Anyone on our crew can stop work when something's unsafe, and nobody gets in trouble for using it in good faith. To call a job, make the area safe, tell the site contact and call your supervisor. It's agreed with your manager and documented. You never just walk off, and you never keep going under pressure.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew with the trainer and the LT2 tech by the truck at the end of the day.",
+      "on_screen": "Firm-grasp checklist: 'Yes, every time, without being reminded'",
+      "says": "None of this is new. What's new is that from now on, you run it yourself. Work through the firm-grasp checklist in this lesson. Yes means every time, without being reminded. If any line is a no or a usually, tell your trainer, and that's what you work on before any new task. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Trainer and LT2 tech walk one service day; freeze each step and pop a label naming the LT1 safety training in play. Needle scene uses a capped, clearly fake prop; broken lamp cleanup uses a simulated broken lamp. Energized verification by a qualified person in required PPE. The trainer's closing line ('None of this is new...') can be delivered by the on-camera trainer. Lesson file: curriculum/levels/LT2/courses/LT2-C13/lessons/02-safety-is-the-foundation.md."
+}

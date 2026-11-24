@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C10-L04",
+  "title": "Troubleshooting Case Studies",
+  "course": "LT4-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 187,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in a shop classroom with a case-file folder; medium shot.",
+      "on_screen": "Troubleshooting Case Studies",
+      "says": "These cases are composites of common field problems. Every one was solved by planning the investigation, working de-energized for inspection, and refusing to just swap parts. Let's walk two of them in detail, then quick hits on three more. As you watch, ask yourself what you'd check first.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Dramatized: office floor, occupants pointing at flickering troffers on the east side; installer with three replaced drivers. Matthew voice-over.",
+      "on_screen": "Case 1: The Flickering Office Floor",
+      "says": "Case one. After an LED troffer retrofit, the east side of an office floor flickers; the west side is fine. The installer replaced three drivers. Still flickering. The event log showed no control commands during the flicker. So something electrical.",
+      "seconds": 16
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Laptop showing logged voltage swinging; then tech locks out three breakers, verifies dead, and opens a junction box revealing a heat-discolored neutral splice.",
+      "on_screen": "105 V ↔ 135 V on different circuits\nShared neutral on a three-circuit MWBC",
+      "says": "A recording meter showed voltage swinging between 105 and 135 volts on different circuits, changing whenever loads switched. Those circuits were a 120/208-volt, three-circuit multiwire branch circuit with a shared neutral. With all three circuits locked out and verified dead, the tech found a loose, heat-discolored neutral splice above the ceiling.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera; on-screen lesson.",
+      "on_screen": "What the first tech missed: different behavior on MWBC circuits points to the NEUTRAL",
+      "says": "Root cause: a shared neutral that wasn't pigtailed properly during the retrofit. The fix: remake and pigtail neutral splices, check every MWBC on the floor, replace overvoltage-damaged drivers, and add a neutral-splice check to the retrofit QC checklist. What the first tech missed: different behavior on circuits of one MWBC points to the neutral.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Dramatized: parking lot after rain; breaker panel with a tripped breaker. Then dry day vs wet day insulation-resistance readings on a tester display.",
+      "on_screen": "Case 2: Lights Out After Rain",
+      "says": "Case two. A parking-lot circuit trips every heavy rain and resets fine on dry days. Previous techs replaced the breaker and two luminaires. With the circuit locked out and verified dead and the luminaires disconnected, the tech insulation-resistance tested each underground segment. Dry day: all high. After rain: one segment, between poles 4 and 5, read very low.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Excavated conduit joint showing separation; damaged conductor insulation close-up.",
+      "on_screen": "What the first tech missed: 'only when it rains' means test when it's wet",
+      "says": "Excavation found conductors nicked during installation and a separated conduit joint letting water in. The fix: new conductors in that segment, raceway repaired, re-tested, and a recommendation to insulation-test new underground lighting circuits at acceptance. What the first techs missed: 'only when it rains' is a strong clue, so test when the condition is present.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Quick-cut montage: classroom at night with lights on; HVAC diffuser beside a sensor; high bays near a furnace; warehouse panel with many breakers.",
+      "on_screen": "Case 3: Night ON events = HVAC airflow + 'either technology' sensor setting\nCase 4: 55 °C ambient vs 40 °C fixture rating\nCase 5: Inrush after circuit consolidation",
+      "says": "Three quick hits. A school's lights came on at 2 a.m.: the event log blamed occupancy sensors, timed to the HVAC night cycle, with dual-tech sensors set to turn on if either technology tripped. High-bay drivers failing near furnaces: 55-degree ambient against a 40-degree fixture rating. Morning breaker trips after a retrofit: combined driver inrush from consolidated circuits, solved with staggered relay groups.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera, serious.",
+      "on_screen": "Inspect & repair only after LOTO + verification on ALL conductors, including shared neutrals",
+      "says": "In every one of these cases, physical inspection and repair of conductors, splices and terminations happened only after lockout and verification of absence of voltage on all conductors, including shared neutrals. Energized work was limited to measurements by qualified persons in PPE selected from the arc-flash risk assessment.",
+      "seconds": 19
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the table with the case folder.",
+      "on_screen": "Fix the part AND the process",
+      "says": "Notice the pattern. Parts were replaced without finding the cause, and it cost money every time. And the best fixes added a preventive process change to an audit, QC check or design review, not just a repair. Now read all five cases in the lesson, work the discussion questions, and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Dramatized reconstructions filmed on generic company job sites (no customer logos or names); senior technician performs, presenter voice-over. Cases are composites per the lesson. Show LOTO and verification before every junction box or splice is opened. Excavation shot can be a staged or stock trench with conduit."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C02-L04",
+  "title": "Lamp Bases, Ballasts, Drivers & Fixture Types",
+  "course": "LT2-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 185,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop parts wall: a board with lamp bases mounted and labeled. Medium shot of Matthew beside it.",
+      "on_screen": "Lamp Bases, Ballasts, Drivers & Fixture Types",
+      "says": "Before you order a part or open a fixture, you need to know what you're looking at. Get the base, the ballast or the rating wrong, and you've got a return trip or a fire hazard. Let's start with the parts wall.",
+      "seconds": 17
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups along the board: E12, E26, E39 screw bases.",
+      "on_screen": "E number = diameter in mm | E12 candelabra | E26 medium | E39 mogul",
+      "says": "Matching the base is the first step in ordering the right lamp. On screw bases, the E number is the diameter in millimeters. E12 is candelabra, for decorative lamps and some exit signs. E26 is medium, the standard for A-lamps, PARs and many LED lamps. E39 is mogul, for HID lamps and large LED HID replacements.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups along the board: G13, G5, Fa8, R17d, G24q, GU24, GU10, GU5.3.",
+      "on_screen": "G13: T8/T12 | G5: T5 | Fa8: 8-ft slimline | R17d: 8-ft HO | GU24 | GU10 | GU5.3: 12 V MR16",
+      "says": "Pin bases. G13 is medium bi-pin for T8, T12 and many TLEDs. G5 is miniature bi-pin for T5. Fa8 is the single pin on eight-foot slimlines, and R17d is the recessed double contact on eight-foot high output. G24q is a four-pin CFL base. GU24 is a twist-lock that keeps screw-in incandescents out. GU10 is line-voltage twist-lock, and GU5.3 is for 12 volt MR16s.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Opened 2x4 troffer with the ballast channel cover off, camera on the ballast.",
+      "on_screen": "Ballast: 1 high voltage to start | 2 limits current | 3 conditions power",
+      "says": "Now inside the fixtures. Fluorescent and HID lamps have negative resistance: once the arc starts, they'd draw more and more current until they destroyed themselves. The ballast provides a high voltage to start the arc, limits the current once it's running, and often conditions the power. In this troffer, it sits in the channel under this cover.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Opened high-bay showing ballast, ignitor and capacitor; opened wall pack and recessed downlight showing an LED driver.",
+      "on_screen": "LED driver: AC to regulated DC | Transformer: steps voltage down",
+      "says": "In this high-bay, the HID ballast works with an ignitor and capacitor. In the wall pack and the downlight, you'll find an LED driver, which converts AC to the regulated DC the LEDs need. Low-voltage halogen and some LED tape use a transformer to step voltage down, for example 120 volts to 12.",
+      "seconds": 21
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a ballast label, finger tracing each line; phone photographing it.",
+      "on_screen": "Label: input voltage | lamp type and quantity | input current and watts | wiring diagram | listing mark | PCBs?",
+      "says": "Read every label. Input voltage, like 120, 277, or 120 to 277 universal. Lamp type and quantity, like two F32T8. Input current and watts. The wiring diagram with wire colors. Start method, listing mark, and on older ballasts, whether it contains PCBs. A replacement must match the lamps, the number of lamps and the supply voltage. Photograph the old label and wiring before you remove it.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Quick montage: troffer, strip, wraparound, can, high-bay, vapor-tight, wall pack, shoebox, flood, track, exit sign.",
+      "on_screen": "Troffer | strip | wraparound | downlight | high-bay | vapor-tight | wall pack | area/pole | flood | track | exit",
+      "says": "The complete unit is called a luminaire. You'll see troffers in office grid ceilings, strips in back rooms, wraparounds in stairwells, recessed downlights in lobbies, high-bays in warehouses, vapor-tights in car washes and garages, wall packs on exteriors, shoebox area lights on poles, floods on signs, track in retail, and exit and emergency units on egress paths.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups: listing mark, damp versus wet label, IC-rated label inside a can, maximum lamp wattage label.",
+      "on_screen": "Never exceed the max lamp wattage | IC vs non-IC | damp is not wet",
+      "says": "Ratings. A listing mark means it was tested to the safety standard. A damp-rated fixture isn't suitable where water can hit it directly; wet locations need wet-rated. IC-rated cans may contact insulation; non-IC need clearance. Never install a lamp above the label wattage, a lamp type the fixture isn't designed for, or a fixture where it isn't rated. Overheating is a fire hazard. Now read the lesson and take the quiz.",
+      "seconds": 28
+    }
+  ],
+  "production_notes": "Parts-wall tour per the lesson's video suggestion. Fixtures opened on the bench are de-energized and unplugged. Read each label aloud on camera; mask brand names. Lesson file path is LT1-C05/04 (course code differs from vid LT2-C02)."
+}

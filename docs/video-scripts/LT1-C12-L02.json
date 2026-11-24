@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C12-L02",
+  "title": "Ohm's Law & Watt's Law",
+  "course": "LT1-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room whiteboard; Matthew with a marker and a calculator. Medium shot.",
+      "on_screen": "Ohm's Law & Watt's Law",
+      "says": "Two formulas run almost everything in this trade. They explain why wet skin is dangerous, why commercial lighting runs on 277 volts, and why you never add a fixture to a circuit without approval. Grab a calculator and work these with me.",
+      "seconds": 17
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew draws a circle split with E on top and I x R on the bottom, then covers each letter with his hand.",
+      "on_screen": "E = I x R\nI = E / R\nR = E / I",
+      "says": "Ohm's law. Voltage equals current times resistance. E equals I times R. Here's the memory aid: a circle with E on top and I times R on the bottom. Cover the one you want. Cover I, and you get E over R. Cover R, and you get E over I. A 120 volt circuit through 24 ohms: 120 divided by 24 is 5 amps.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard table: dry skin 100,000 ohms, wet skin 1,000 ohms. Matthew works the calculator on camera.",
+      "on_screen": "Dry: 120 / 100,000 = 1.2 mA\nWet: 120 / 1,000 = 120 mA",
+      "says": "Now why wet skin matters. Say hand-to-foot resistance is about 100,000 ohms dry, and drops to about 1,000 when wet or broken. Real values vary widely. At 120 volts, dry gives 1.2 milliamps, a tingle. Wet gives 120 milliamps, potentially fatal. Same voltage, a hundred times the current. At 277 volts, wet skin would be about 277 milliamps.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew draws a second circle: P on top, E x I on the bottom.",
+      "on_screen": "P = E x I\nI = P / E",
+      "says": "Watt's law. Power equals voltage times current. P equals E times I. Same circle trick: P on top, E times I on the bottom. For ballasts and drivers it's an approximation, because of power factor, which you'll learn later. So when the label gives you input watts or input current, use the label.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a fixture label reading input watts 60 W; then the whiteboard calculation.",
+      "on_screen": "60 W / 120 V = 0.50 A\n60 W / 277 V = 0.22 A",
+      "says": "A fixture label says 60 watts input. What current does it draw? At 120 volts, 60 divided by 120 is half an amp. At 277 volts, 60 divided by 277 is about 0.22 amps. Higher voltage, less current for the same power. That's one reason commercial buildings use 277 for lighting: more fixtures per circuit and smaller wire.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: 20 A x 0.80 = 16 A; 16 / 0.50 = 32; 16 / 0.22 = about 72.",
+      "on_screen": "Continuous load: 80% of breaker\n20 A x 0.80 = 16 A\n120 V: 32 fixtures | 277 V: about 72",
+      "says": "How many of those fixtures on a 20 amp circuit? Lighting is usually a continuous load, on three hours or more. The NEC limits continuous load to 80 percent of the breaker in most cases. 20 times 0.8 is 16 amps. At 120 volts, 16 divided by 0.5 is 32 fixtures. At 277, about 72. Designers also consider voltage drop, inrush and control zoning.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew turns from the whiteboard to camera.",
+      "on_screen": "Never add fixtures to a circuit without approval",
+      "says": "You won't design circuits at LT1. But now you know why you never add fixtures to a circuit without approval. One more thing, from the same formula: heat in a loose connection rises with the square of the current. That's why a high-resistance connection gets so hot.",
+      "seconds": 19
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: 100 x 0.458 kW x 4,000 h = 183,200 kWh; 100 x 0.150 kW x 4,000 h = 60,000 kWh.",
+      "on_screen": "kWh = kW x hours\nSavings: 123,200 kWh per year",
+      "says": "Customers pay for energy: kilowatts times hours. A warehouse swaps 100 metal halide fixtures drawing 458 watts each for 150 watt LEDs, running 4,000 hours a year. Old: 183,200 kilowatt-hours. New: 60,000. That saves 123,200 kilowatt-hours a year. That's how retrofits pay for themselves, and why customers care about watts.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard, medium shot.",
+      "on_screen": "E = I x R | P = E x I",
+      "says": "E equals I times R. P equals E times I. Practice them until they're automatic. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Whiteboard session with a calculator visible on camera. Uses the lesson's worked examples (60 W fixture, 20 A circuit, 100-fixture warehouse retrofit); the video suggestion's '32 W lamp ballast circuit' is not in the lesson body, so the lesson's 60 W example is used instead. Dollar savings from the lesson's made-up rate are deliberately omitted. Theory lesson, no Job Mindset opener. Lesson file: curriculum/levels/LT1/courses/LT1-C04/lessons/02-ohms-law-and-watts-law.md."
+}

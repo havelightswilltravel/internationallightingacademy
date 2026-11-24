@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L06",
+  "title": "Think Seven Steps Ahead: Forecasting and No Idle Hands",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 216,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse aisle at night under old high-bay fixtures; scissor lift parked behind a barricade, crew of three in the background. Medium shot of Matthew.",
+      "on_screen": "Think Seven Steps Ahead",
+      "says": "Once a job starts, it doesn't sit still. People, the lift and material are all moving. Safety comes first on every step: lockout and verification on the right circuit, a barricade under the lift, and your attention on the hazard in front of you. But while your hands do this step safely, your head should already be working on the next step, and the next seven.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Split screen, Crew A: lift comes down after every fixture, ground person standing with hands in pockets, unopened cartons, a tech walking out to the truck. On-screen counters for fixtures done and idle minutes. Presenter voice-over.",
+      "on_screen": "Crew A: no forecast",
+      "says": "Watch this crew. The lift comes down after every fixture. The ground person is waiting. Nobody has opened the next carton. A tech walks to the truck for connectors, then does it again. And an hour before the end of the shift, they run out of kits, because nobody counted. Nobody here is lazy. Nobody forecast what they should be doing next.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Split screen, Crew B: ground person pre-assembling kits on a cart, next three fixtures staged under the next positions, barricade moved ahead of the lift. Counters running. Presenter voice-over.",
+      "on_screen": "Crew B: thinking ahead",
+      "says": "Same crew, same lift, same night. Now the ground person pre-assembles kits on a cart, stages the next three fixtures under the next positions and moves the barricade ahead of the lift while it travels. At midshift the count shows they'll run short tomorrow, so they call the supervisor today. That's forecasting, and it's what separates techs who run jobs from techs who wait to be told.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a ground tech's clipboard with a numbered list; troffer row behind.",
+      "on_screen": "Next 7 steps (ground tech, troffer row): 1 Hand up kit 5 | 2 Stage kit 6 | 3 Set ladder at 6 | 4 Confirm 6-10 on locked-out circuit | 5 Box old lamps | 6 Count kits | 7 Ask about next shutdown",
+      "says": "A ground tech's list on a troffer row: hand up the kit for fixture five. Open and stage six. Move and set the ladder for six. Check that six through ten are on the circuit that's locked out. Box the old lamps before the box fills. Count the kits left. Ask the lead if the next row needs a new shutdown. The skill is keeping that list running all day.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew walking the aisle past a staged cart, ladder and recycle box.",
+      "on_screen": "Bottlenecks: labor | equipment | material",
+      "says": "There should never be an idle body on the job. If you're about to be idle, say so and find the next task. Keep a backlog ready: breaking down cartons, boxing recycle, labeling, pre-assembling kits. Then remove bottlenecks. Labor: have the next kit ready before the lift comes down. Equipment: check lift and meter batteries at the start. Material: stage kits near the work and call for more before it runs out.",
+      "seconds": 29
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Crew huddle beside the lift; a delivery truck has blocked the planned aisle.",
+      "on_screen": "Plan changed? Re-forecast. Re-check hazards.",
+      "says": "Your forecast is only as good as your last update. A fixture doesn't match the survey, a delivery blocks the aisle, someone has to leave early. Re-forecast right away and tell the crew. And remember, when the plan changes, the hazards change too. A new aisle means a new travel path, new overhead obstructions, a new barricade, maybe a new circuit to lock out and verify. Re-run the hazard check.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a whiteboard with simple numbers written up.",
+      "on_screen": "Example figures only: 60 fixtures, 5 hours = 12/hr needed; crew pace about 10/hr",
+      "says": "Forecasting is partly math. These are made-up teaching numbers: sixty fixtures left, about five hours. That's twelve an hour, and the crew does about ten. They won't finish unless something changes. Raise options with the lead: a second ladder, splitting gutting from installing, staging all the kits now. Or tell the supervisor early. What you never do is close the gap by skipping lockout, verification or quality checks.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Medium shot of Matthew near a ladder set up under a fixture.",
+      "on_screen": "Forecast with your head. Work safely with your hands.",
+      "says": "No idle hands never means rushing, skipping steps or doing two things at once on a ladder. If thinking ahead is pulling your attention off a hazard, stop thinking ahead until you're off the ladder. At every break, take thirty seconds and write down your next seven steps. Compare them with your trainer's. Where they differ, ask why. Now read the lesson and take the quiz.",
+      "seconds": 26
+    }
+  ],
+  "production_notes": "Split-screen comparison of two crews on the same high-bay retrofit shift with on-screen counters (fixtures done, idle minutes); performers: a three-person crew plus a scissor lift operated by an authorized operator. Whiteboard figures are labeled 'example figures only' as in the lesson. Close line from the lesson's video suggestion is used in scene 3. Lesson file path is LT2-C13/06 (course code differs from vid LT2-C01)."
+}

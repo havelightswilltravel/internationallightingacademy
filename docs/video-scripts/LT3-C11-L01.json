@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C11-L01",
+  "title": "Category Cable, T568A/T568B & Straight-Through vs Crossover",
+  "course": "LT3-C11",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 172,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Telecom closet with a lighting relay panel and patch panel in frame. Medium shot.",
+      "on_screen": "Category Cable, T568A/T568B and Straight-Through vs Crossover",
+      "says": "Lighting isn't just power and a switch anymore. Networked controls, relay panels talking to a monitoring service, PoE luminaires, all of it rides on data cable. When a lighting zone drops off the network, the fault is very often a bad cable or termination, not the light. Our troubleshooting guide says most data problems come down to the crimp or the pin configuration.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up bench: trainer strips Cat5e, Cat6 and Cat6A side by side, showing twist rates, the Cat6 spline and the Cat6A shield.",
+      "on_screen": "Cat5e | Cat6 (spline) | Cat6A (often shielded, preferred for higher-power PoE)",
+      "says": "Category cable has four twisted pairs, eight conductors. The twists cancel interference. Cat5e handles 1 gigabit to 100 meters. Cat6 has thicker conductors and often a plastic spline between pairs. Cat6A handles 10 gigabit to 100 meters, is often shielded, and handles heat in bundles better, so it's preferred for higher-power PoE. Plain Cat5 is obsolete.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of printed jacket markings: category and CMP.",
+      "on_screen": "100 m (328 ft) channel: up to 90 m permanent + 10 m patch cords",
+      "says": "Two rules. An Ethernet channel is limited to 100 meters, 328 feet, total. That's usually up to 90 meters in the wall plus up to 10 meters of patch cords. And read the jacket rating: plenum-rated CMP in air-handling spaces, riser CMR between floors, general-purpose CM elsewhere. Use what the job spec and the AHJ require.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: four pairs fanned out on the bench.",
+      "on_screen": "Pair 1 blue | Pair 2 orange | Pair 3 green | Pair 4 brown",
+      "says": "The pairs: blue, orange, green and brown, each with its white-striped partner. Now the plug. Hold an RJ45 with the contacts facing you, the latch away from you, and the cable hanging down. Pin one is on the left.",
+      "seconds": 16
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer arranges conductors in T568B order beside an on-screen pin chart.",
+      "on_screen": "T568B: W/O, O, W/G, BL, W/BL, G, W/BR, BR",
+      "says": "T568B, pins one to eight: white-orange, orange, white-green, blue, white-blue, green, white-brown, brown. Memory aid: orange, green, blue, brown, but green splits around blue. Green is on pins 3 and 6, wrapped around blue on 4 and 5.",
+      "seconds": 15
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen chart compares T568A and T568B with orange and green pairs highlighted.",
+      "on_screen": "T568A = orange and green pairs SWAPPED",
+      "says": "T568A swaps the orange and green pairs. Blue and brown stay put. Both work equally well electrically. What matters is that the site is consistent. Many U.S. commercial installs use T568B, and some government and residential specs call for A. Follow the job spec and match what's already installed.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up comparing the two ends of a straight-through cable, then a crossover cable.",
+      "on_screen": "Straight-through: B to B (or A to A). Crossover: A to B.",
+      "says": "A straight-through cable has the same standard on both ends. That's almost everything: patch cords, device to switch, permanent links. A crossover is A on one end, B on the other, the old way to connect two similar devices. Modern gear usually auto-senses, so crossovers are rarely needed. Common hidden fault: a cable that's A to B by mistake. Some lighting control devices are less forgiving than computers.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the telecom closet beside a relay panel, medium close-up.",
+      "on_screen": "Treat unidentified conductors as energized. Never pull data cable through a power box.",
+      "says": "Safety. Category cable is low voltage, but you'll often be in ceilings and electrical rooms with line-voltage wiring nearby. Treat any unidentified conductor as energized, and never pull data cable through a box or enclosure that contains power conductors.",
+      "seconds": 16
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same setting, closer.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Memorize T568B. Same standard on both ends. Match the site. Keep it under 100 meters. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Bench close-ups require macro lens. Pin chart graphic must exactly match the lesson table. Trainer (senior tech) handles cable on camera; presenter narrates."
+}

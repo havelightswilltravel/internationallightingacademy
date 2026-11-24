@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C06-L04",
+  "title": "Working in Occupied Stores — Food Safety, Customers & Write-Ups",
+  "course": "LT4-C06",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 275,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Grocery store aisle during open hours, shoppers in soft focus behind Chris. Medium shot.",
+      "on_screen": "Job Mindset: Working in an Occupied Store",
+      "says": "In a store, the hazards aren't just electrical. Shoppers walk into ladders, floors are wet in front of cases, and a broken lamp over food means product gets thrown out. Lock and tag the breaker, block your area, and cover the food. Plan ahead with the manager: who moves product, what the circuit feeds, and when the store's slow. That's how the customer sees we're professionals.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Role-play: tech (actor) at the service desk shaking hands with the store manager (actor).",
+      "on_screen": "Check in: who you are | which cases | defrost/recent work | who moves product | policies | panels",
+      "says": "Every call starts at the manager's office or service desk. Introduce yourself, the company and the work order. Ask which cases are affected and about any defrost schedule or recent refrigeration work. Ask whether product needs moving, and who'll do it. Store staff usually handle product, not you. Ask about food-safety and glass policies, areas to avoid, and where the panels are.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Tech sets cones and a cart at a dairy case, keeping the aisle passable; stocking staff (actor) moves product to a cart.",
+      "on_screen": "Block your area. Keep the aisle passable. Attend every ladder.",
+      "says": "Block off your work area with cones or a cart, and keep the aisle passable. A ladder in an aisle must be attended at all times. Never leave one standing alone in a store. Tools stay in a bucket or bag, not on the floor. And coordinate with the stocking staff, so product is protected before you start.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Tech drapes a clean cover over exposed product before opening the canopy; close-up of tube guards on lamps.",
+      "on_screen": "Cover food | Guards on every lamp | Nothing on product | Doors closed",
+      "says": "You're working over food customers will eat. Treat it that way. Keep tube guards and lens covers on every lamp. Cover exposed food before you open a canopy or pull lamps, because dust, debris and screws fall. Never set tools, parts or ladders on product. Keep doors closed as much as you can, and don't leave a case open long, or the store may have to discard product.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Chris to camera, close shot.",
+      "on_screen": "Lamp breaks over food? Stop. Tell the manager.",
+      "says": "If a lamp breaks over food, stop and tell the manager. The manager decides what product gets discarded under store policy, not you. Fluorescent lamps contain a small amount of mercury, so follow our broken-lamp cleanup procedure, keep customers away, and recycle lamps and ballasts through our program. Some older ballasts may contain PCBs. Handle those per company policy.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Role-play: a shopper (actor) asks the tech for an item behind the work area; tech politely hands it over.",
+      "on_screen": "Be courteous. Don't discuss the store's problems, prices or other customers.",
+      "says": "Shoppers will talk to you. Be polite. If someone needs an item behind your work, help them or find a staff member. Don't discuss the store's problems, prices or other customers with shoppers. Keep your language, phone calls and music professional. And if the manager prefers, do big jobs early in the morning, away from peak hours.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Tech tells the manager which breaker he's locking out; lock and tag on the panel; wet floor in front of the case.",
+      "on_screen": "Lockout in a store = lock and tag on the breaker. Tell the manager what it feeds.",
+      "says": "Lockout in a store still means a lock and tag on the breaker. Tell the manager which circuit you're locking out and what else it may feed: other cases, signs, registers. Verify absence of voltage at the work point, live-dead-live. Watch your footing on wet floors, watch for sharp edges in canopies, and never lean on glass doors or step on case parts.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Chris to camera beside a case controller.",
+      "on_screen": "Never adjust refrigeration, defrost or thermostat settings",
+      "says": "Know when it's not yours. Seal-breaking harness work, a case not cooling, a refrigerant smell or controller alarms go to the manager to call the refrigeration contractor or case specialist. Unexplained voltage problems and repeat breaker trips go to an electrician. And never adjust refrigeration controls, defrost settings or thermostats. Changes can spoil product.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Chris Munford",
+      "background": "Tech cleans up debris and old lamps, then shows the manager a completed service order with photos on a tablet.",
+      "on_screen": "Location | Data plate | Steps checked | Parts replaced/needed | Turned over to | Incidents | Photos",
+      "says": "Clean up everything: debris, packaging, old lamps. Then the service order: store, aisle, lineup and door. Case maker, model and serial. The complaint and what you checked, in order. Parts replaced and parts needed with full numbers. Anything turned over to the manager, with their name. Any product or glass incident and what the manager decided. And photos.",
+      "seconds": 24
+    },
+    {
+      "scene": 10,
+      "speaker": "Chris Munford",
+      "background": "Chris in the aisle, store looking clean and normal.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Leave the store looking like you were never there, except the lights work. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Role-play in a grocery store (no store branding or product brand labels in focus): tech checks in with the manager, sets cones and a cart at a dairy case, stocking staff moves product, food is covered before canopy opens, tech answers a shopper politely, cleans up and shows the completed service order with photos. Actors for manager, stocking staff and shopper. Ladder always attended in aisle shots. Show lock and tag on the breaker."
+}

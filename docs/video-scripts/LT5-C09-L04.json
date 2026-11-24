@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C09-L04",
+  "title": "Retrofit vs Replace vs Maintain: Making the Call",
+  "course": "LT5-C09",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 190,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Warehouse aisle with first-generation LED high-bays, some dim. Chris stands with a facility manager and a lead tech holding a tablet. Medium shot.",
+      "on_screen": "Retrofit vs Replace vs Maintain",
+      "says": "Every area in a customer's building eventually needs an answer: what do we do next? Maintain it, retrofit it, or replace it. Group relamping isn't on the list; we retrofit or replace instead. Our job is to bring the customer a recommendation they can trust, backed by their own data.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Graphic with three columns over the aisle shot.",
+      "on_screen": "Maintain: newer LED, low failures, levels OK\nRetrofit: sound housing, good layout, listed kit\nReplace: damaged or obsolete, wrong distribution, high failures, code triggers",
+      "says": "Maintain means keep the fixtures and clean, repair and swap components. It fits newer LED with low failures and acceptable light. Retrofit means keep the housing and install a listed kit or TLEDs per instructions. Replace means a new luminaire, for damaged or obsolete housings, wrong distribution, high failure rates or code triggers.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Lead tech on a lift inspecting a corroded housing (circuit locked out), then reviewing the failure log on the tablet.",
+      "on_screen": "Assess: failure history - light levels - condition - legacy sources - controls - warranty - access cost",
+      "says": "Step one, assess. Failure history and trend from the log. Light levels and uniformity against the target. Physical condition: corrosion, yellowed lenses, bad gaskets. Legacy sources still in service. Controls. Warranty status. And access cost. Condition checks happen above people, so use the right ladder or lift, and don't open fixtures unless the circuit is locked out and verified.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Chris close-up, warehouse behind him.",
+      "on_screen": "New fixtures: 5- to 7-year warranties\nObsolete part or costly driver? Lean toward replace or LED retrofit.",
+      "says": "Here's what our field data keeps showing. Replacement drivers keep getting pricier and harder to match, while new building-mounted LED fixtures get cheaper and carry 5 to 7 year warranties. A repair part with no warranty can cost about what a new fixture costs. When the part is obsolete, lean toward replace or retrofit, and capture labels, a photo and fixture counts so the office can price both.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Chris medium shot; callout banner.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor before you do this work.",
+      "says": "Scope varies by state and city. In some places a lighting tech may replace fixtures or install retrofit kits under the company's license. In others it has to be done by, or under, a licensed electrician, and some jobs need a permit and inspection. Before you do it on a job, confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Close-up of a retrofit kit label and a TLED-converted fixture label.",
+      "on_screen": "Listed kits, installed per instructions (NEC 110.3(B)) - match TLED type - energy code controls - permits - location ratings",
+      "says": "Step two, code and listing. Retrofit kits must be listed and installed exactly per their instructions, or the luminaire can end up unlisted. TLEDs must match the fixture type, and converted fixtures get labeled. Altering lighting can trigger energy code controls, so confirm with the AHJ before pricing. And a retrofit can't change a fixture's wet or damp location rating.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Tablet close-up of a 10-year life-cycle cost comparison with an 'Example figures only' banner.",
+      "on_screen": "EXAMPLE FIGURES ONLY\n10-year LCC: Maintain $97,760 - Retrofit $70,480 - Replace $70,600",
+      "says": "Step three, life-cycle cost: first cost, energy, maintenance labor, access and parts, minus incentives, over the same period. In the lesson's made-up example, 40 aging high-bays, maintaining is clearly the most expensive and light stays low. Retrofit and replace come out almost even. So the decision falls to condition, distribution, warranty and the kit's listing. Always use the customer's real rates and quotes.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Lead tech and facility manager review the decision worksheet on the tablet; then a phased plan graphic over three budget years.",
+      "on_screen": "Phase by: safety first - then LCC savings - failure rate - access cost",
+      "says": "Step four, use the company decision worksheet. Corroded housing in a dusty warehouse points to replace; clean, sound housings make the retrofit defensible. Step five, phase it. Rank areas by safety first, then savings, failure rate and access cost, and spread the work over budget years. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "The LCC totals in scene 7 are the lesson's made-up teaching figures; keep the 'Example figures only' banner visible the whole time and do not show unit prices or rates. Scene 3 lift work shows LOTO before any fixture is opened. Facility manager and lead tech are non-speaking. Generic warehouse, no customer branding."
+}

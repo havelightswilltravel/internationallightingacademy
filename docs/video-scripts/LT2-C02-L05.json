@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C02-L05",
+  "title": "First Response: Dark Fluorescent & CFL Fixtures",
+  "course": "LT2-C02",
+  "presenter": "Senior technician",
+  "source": "lesson",
+  "target_seconds": 210,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Senior technician",
+      "background": "Office with a lay-in grid ceiling; senior tech and new tech beside a platform ladder, lockout kit and meter on a cart. Medium shot.",
+      "on_screen": "First Response: Dark Fluorescent & CFL Fixtures",
+      "says": "Fluorescent call. Hazards: shock from sockets and wiring, a fall off the ladder, broken lamps with mercury. So we lock out, verify dead, use a good ladder and wear eye protection. Before you leave the shop, know the lamp code and bring spares, a known-good lamp, your meter and lockout kit. Think ahead: if it's not the lamp, who's taking the voltage reading?",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Senior technician",
+      "background": "Close-up of the senior tech talking to camera.",
+      "on_screen": "Relamp, inspect, report",
+      "says": "Here's how we do it. Your job on a fluorescent call is to relamp, inspect and report. Deeper testing, like ballast diagnosis and energized measurements, belongs to a qualified technician. But our sequence starts with steps you can do on day one, and doing them in order solves most calls before anybody opens a ballast channel.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Senior technician",
+      "background": "Wide shot of the office: one troffer dark, others lit; then close on blackened lamp ends after lockout. New tech relamps under coaching.",
+      "on_screen": "1 What else is out? | 2 Blackened ends? Change the lamps",
+      "says": "Step one: check what else is out. One fixture, a row, or the whole room? A whole room dark points to the switch, a control or the breaker, so report it before you climb. Step two: look at the lamp ends. Black ends mean the lamp's worn out, so change the lamps, with the exact type on the ballast label. On this first call, that fixes it.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Senior technician",
+      "background": "Second fixture: ends not black. Senior tech takes the energized voltage reading at the fixture while the new tech watches and records.",
+      "on_screen": "3 Ends not black? Voltage check with a meter | qualified tech takes it unless you're trained and authorized",
+      "says": "If the ends aren't black, the next question is whether power's reaching the fixture. That takes a voltage check with a meter. The reading is taken by a qualified technician unless your employer has trained and authorized you. You can assist and record it. Watch where I put the probes, and you write down the number.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Senior technician",
+      "background": "Senior tech explains with the ballast channel closed; on-screen decision tree.",
+      "on_screen": "Power + all lamps out = ballast | Power + some lamps out = sockets/wiring | No power = switch, then first junction box",
+      "says": "Power present and all lamps out? The ballast, or on some fixtures the igniter, is the likely cause. Write it up, or replace it supervised if you're signed off. Power present and some lamps working? Check the sockets and wiring for the dark lamps. No power? Check the switch: wall, occupancy sensor, or on the fixture. Still nothing, the problem's back toward the first junction box. Report what you found.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Senior technician",
+      "background": "Third call: a two-lamp fixture with one dark lamp; after lockout and verification, close-up of a cracked socket.",
+      "on_screen": "Cracked socket: common after a careless relamp",
+      "says": "Like this one. Two-lamp fixture, one lamp dark, power's there. After lockout and verify, look at that socket. Cracked. That's common after a careless relamp, so push lamps straight in and pull straight out. Never touch socket contacts or open a ballast channel on a fixture you haven't locked out and verified dead with a tested meter, live-dead-live.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Senior technician",
+      "background": "T5 fixture relamped but still dark; tech turns it off at the fixture's switch, waits, turns it back on and it lights.",
+      "on_screen": "T5 still dark after relamp? Cycle the ballast power | ask your lead before turning off a breaker",
+      "says": "Now the T5 that's still dark after relamping. Many T5 ballasts shut themselves off when a lamp fails or is removed, and they won't restart until their power's turned off and back on. Turn it off at its switch or disconnect, wait as the ballast label says, and turn it back on. Ask your lead before turning off any breaker that feeds other areas.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Senior technician",
+      "background": "New tech writing on a work order at the cart; close-up of lamp code and a phone photo of a ballast label.",
+      "on_screen": "Write up: lamp code and qty | ballast label | socket type | fixture type and location",
+      "says": "Last, write it up so the next tech brings the right parts: the full lamp code and quantity, the ballast brand, model, input voltage, lamp type and start method, the socket type, and the fixture type and location. Stop and report for a whole circuit dark, a burning smell, scorched wiring, a leaking or very hot ballast, or lamps still dark after a known-good lamp and a T5 reset.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Senior technician",
+      "background": "Senior tech at the ladder, medium shot.",
+      "on_screen": "",
+      "says": "Check what else is out, look at the ends, and work the sequence in order. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Senior technician (TBD) narrates and coaches; a new technician performs the relamp steps. Three staged calls per the video suggestion: blackened ends, T5 needing a power cycle, cracked socket. The energized voltage reading is performed only by the qualified senior tech with appropriate PPE; new tech watches and records. Lockout and verification shown before any socket or channel is touched. Lesson file path is LT1-C05/05; it is written to LT1 scope (relamp, inspect, report), which may need review for an LT2 course."
+}

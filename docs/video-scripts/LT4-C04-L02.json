@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C04-L02",
+  "title": "HOA Switches, Lighting Relay Panels & BMS Control",
+  "course": "LT4-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 265,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room with a de-energized lighting relay panel open (locked out, tag visible) and a contactor enclosure with an HOA switch. Medium shot.",
+      "on_screen": "Job Mindset: Relay Panel & HOA Calls",
+      "says": "Relay panels put Class 2 controls and line-voltage relays in the same cabinet, and an HOA in the wrong spot can leave a parking lot dark at night. Barriers and dead fronts stay on unless you're qualified and the panel is locked out and verified. Plan ahead: get the monitoring service's contact before you go, and tell the customer before you touch an HOA.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an HOA selector switch with pilot light; graphic of the three positions.",
+      "on_screen": "HAND: bypass controls | OFF: coil open | AUTO: normal",
+      "says": "The HOA switch sits in the coil circuit. HAND energizes the coil directly, bypassing the clock, photocell, sensor or BMS. That's for testing or a temporary override the customer approves. OFF opens the coil circuit. AUTO is normal operation. Some panels use ON-AUTO, push buttons or a key switch instead.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic flow over a shot of the HOA: three outcomes.",
+      "on_screen": "Works in HAND, not AUTO = control path | Dead in HAND = power path | On in OFF = welded or other source",
+      "says": "It's the fastest way to split a problem in half. Lights work in HAND but not AUTO: the contactor and circuits are fine, look at the automatic control path. Lights don't work in HAND: control power, the HOA, the coil, the contacts or the load circuits. Lights stay on in OFF: welded contacts, or they're fed from another source.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew turning toward camera from the HOA, finger off the switch.",
+      "on_screen": "Tell the customer first. Leave it in AUTO.",
+      "says": "Before you turn an HOA to HAND or OFF, tell the customer. Turning parking-lot lights off at night, or lights on where someone's cleaning, can create a hazard. Always return it to the position the customer expects, usually AUTO, and confirm it works before you leave.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Pan across the de-energized relay panel: barrier between Class 2 section and line-voltage section, latching relays, relay cards, processor board, override buttons, bypass switch.",
+      "on_screen": "Barrier | Latching relays | Relay cards | Processor | Override buttons | Bypass switch",
+      "says": "A lighting relay panel holds many relays, each switching one branch circuit, plus a processor that tells them when. Here's the barrier separating the Class 2 side from the line-voltage side. Latching relays that hold their position. Relay cards. The processor with the schedules. Manual override buttons on the relays. And the bypass switch, which forces relays on when the controls fail.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a low-voltage wall switch wired to panel input terminals; red X graphic over a standard line-voltage toggle switch.",
+      "on_screen": "Wall switch sends a signal, not the load. Never swap in a line-voltage switch.",
+      "says": "In a relay panel, the wall switch doesn't carry the lighting load. It sends a small signal, often 24 volts, to the panel, which switches the relay. That's why one switch can control circuits on different breakers. And it's why replacing a bad switch with a standard line-voltage switch is a serious mistake.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the bypass switch; then a work order with 'Bypass active' written on it.",
+      "on_screen": "Bypass = stop-gap with customer approval. Not a repair.",
+      "says": "The bypass keeps a store open when the controls fail. It's not a repair. It can override schedules, energy-code shutoff and emergency functions. Use it only with the customer's approval, and note it on the work order so it gets removed later.",
+      "seconds": 18
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Laptop screen showing a generic monitoring-service front end with a zone schedule; tech on the phone in front of the panel.",
+      "on_screen": "Our procedure: call the monitoring service. Troubleshoot by phone.",
+      "says": "Many chains run lighting from a BMS or a remote monitoring service, sometimes hundreds of miles away. The panel may be working perfectly and following a wrong schedule, a holiday setting, or an override someone left in place. So our procedure: get the service's contact, call them, identify yourself and the zones, and troubleshoot by phone until the problem is located.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech listens at the panel as the service commands a zone; relay clicks, lights stay off; tech writes it up.",
+      "on_screen": "Relay clicks, lights stay off = hardware. Usually electrician work.",
+      "says": "Ask them to read the zone status, schedule and overrides, and to command the zone on and off while you watch or listen. If a relay clicks but the lights stay off, or there's a fault they can't clear, it's likely hardware. In most cases that needs an electrician. Write it up with the panel name, relay or circuit numbers, what the service saw and what you saw.",
+      "seconds": 26
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the closed relay panel.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "HOA to split it, the service on the phone, and a clear write-up. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Training room: de-energized, locked-out lighting relay panel with barrier, latching relays, relay cards, processor, override buttons and bypass switch visible; separate contactor enclosure with HOA switch and pilot light. Mock monitoring-service screen (generic, no vendor branding, no real site names). Low-voltage wall switch and a standard toggle for the comparison. Do not show dead-front removal on an energized panel."
+}

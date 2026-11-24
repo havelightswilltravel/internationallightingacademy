@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C10-L01",
+  "title": "Low-Voltage Systems, Lamps and Transformers",
+  "course": "LT3-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 194,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with low-voltage lamps, sockets, a heavy magnetic transformer and a small electronic transformer. Medium shot.",
+      "on_screen": "Low-Voltage Systems, Lamps and Transformers",
+      "says": "Low-voltage lighting is in display cases, under-cabinet lights, cable systems, accent lighting and landscapes. Showing up with the wrong lamp base or the wrong transformer type means a second trip. So today is identification: the lamps, the bases, and the two kinds of transformer, so you can plan the parts before you leave the shop.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table beside Matthew.",
+      "on_screen": "50 W: 0.42 A at 120 V | 4.2 A at 12 V    300 W: 2.5 A at 120 V | 25 A at 12 V",
+      "says": "A low-voltage system steps 120 or 277 volts down to 12 or 24 volts with a transformer. You get small lamps with tight beams and slim fixtures. The trade-off: at low voltage the current is high. Fifty watts is under half an amp at 120 volts, but 4.2 amps at 12. That's why connections, cable size and voltage drop matter so much more.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: instructor lays out MR16, MR11, PAR36, G4, GY6.35 lamps with matching sockets.",
+      "on_screen": "MR16 = GU5.3 | MR11 = GU4 | PAR36 = screw terminals | G4 | GY6.35",
+      "says": "The lamps. MR16, the two-inch reflector, on a GU5.3 bi-pin base. MR11, smaller, on GU4. PAR36, a sealed beam with screw terminals, common in landscapes. G4 and GY6.35 are bi-pin capsules. Base names give pin spacing in millimeters, so GU5.3 is 5.3 millimeters. A G4 won't fit a GY6.35 socket, and the other way around.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: two MR16s with different beam angles; gloved hand holding a G4 capsule with a cloth.",
+      "on_screen": "Match the beam angle. Don't touch halogen capsules with bare fingers.",
+      "says": "Field notes. MR16s come from narrow spot to wide flood, like 10, 24, 36 or 60 degrees. Match the beam angle when you relamp, or you ruin a display. Don't touch halogen capsules with bare fingers. Skin oil shortens their life, so use a clean cloth or gloves. And check whether the fixture is rated for open lamps or needs a lens.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: instructor lifts the heavy magnetic transformer, then reads its label.",
+      "on_screen": "MAGNETIC: heavy, may hum, tolerant of light loads and long runs, MLV dimmer",
+      "says": "Magnetic transformers: iron core and copper windings. Heavy, and they may hum. True sine wave output. Very tolerant of light loads and long secondary runs, and landscape units often have multiple taps. They're dimmed with a magnetic low-voltage, or MLV, dimmer. They fail with an open winding, a tripped thermal protector from overload, or buzzing.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: small electronic transformer label showing min/max load and lead length.",
+      "on_screen": "ELECTRONIC: small, MINIMUM load (e.g. 20 W), short secondary leads, ELV dimmer",
+      "says": "Electronic transformers are small, light and quiet, really a high-frequency power supply. They often have a minimum load, like 20 watts, as well as a maximum. Below the minimum they may not start, or they flicker. Secondary lead length is limited, often a few feet, so check the label. They're usually dimmed with an electronic low-voltage, or ELV, dimmer.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: constant-voltage LED driver next to an electronic transformer; then a recessed fixture with integral transformer and a remote transformer above a ceiling.",
+      "on_screen": "LED driver outputs DC. Not a transformer. Check the label.",
+      "says": "A common mistake: a constant-voltage LED driver for tape light looks similar, but it puts out DC. Never substitute without checking the label. Transformers are either integral, built into the fixture or track head, or remote, mounted above a ceiling, in a cabinet or outdoors. A remote one must stay accessible, and it may feed several fixtures.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, serious tone.",
+      "on_screen": "Primary side = line voltage. Lock out. Live-dead-live.",
+      "says": "Safety. The primary side of every transformer is line voltage, 120 or 277. Lock out and verify absence of voltage, live-dead-live, before you touch primary connections. A remote transformer above a ceiling may be on a different circuit than you expect. Trace it.",
+      "seconds": 17
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a transformer label, items highlighted in turn.",
+      "on_screen": "Read: input | output VA | min/max load | type | dimming | Class 2 | thermal protection",
+      "says": "Before replacing anything, read the label: input voltage, output voltage and VA, minimum and maximum load, magnetic or electronic, dimming type, Class 2, and thermal protection. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Use unbranded lamps and transformers with clear mock labels. All handling is de-energized bench work. Instructor (senior tech) handles items on camera; presenter narrates."
+}

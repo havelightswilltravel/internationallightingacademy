@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C08-OVERVIEW",
+  "title": "Tool Fundamentals (test-out available) (course overview video)",
+  "course": "LT1-C08",
+  "presenter": "Senior technician (TBD)",
+  "source": "outline",
+  "target_seconds": 165,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Senior technician",
+      "background": "Shop workbench covered with tools: drill, impact driver, batteries and charger, screwdrivers, pliers, tape measures, ratchet straps, extension cords. Senior tech behind the bench, medium shot.",
+      "on_screen": "Tool Fundamentals",
+      "says": "If you've never used tools before, this course is for you. No shame in it. Everybody starts somewhere. The right tool, used the right way, is how you work safe and fast. And knowing your tools is part of planning a job: you can't pack the van right if you don't know what you need.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Senior technician",
+      "background": "Senior tech holds up tools one at a time and sets them down in a row.",
+      "on_screen": "Tool identification - Hand tools",
+      "says": "First, what everything is called and what it's for. Screwdrivers, nut drivers, pliers, cutters, strippers. You'll learn to pick the right one, use it without hurting yourself, and check it for damage before you use it.",
+      "seconds": 16
+    },
+    {
+      "scene": 3,
+      "speaker": "Senior technician",
+      "background": "Close-up: battery clicked onto a drill, clutch collar turned, a bit changed with the battery removed.",
+      "on_screen": "Drills and impact drivers: batteries, clutch, bits",
+      "says": "Then drills and impact drivers. How batteries work and how to care for them, what the clutch does, which bit goes where, and why the battery comes off before you change a bit.",
+      "seconds": 14
+    },
+    {
+      "scene": 4,
+      "speaker": "Senior technician",
+      "background": "Tape measure showing imperial and metric markings; then a tech cinching a ratchet strap on a load in the van; then coiling an extension cord and plugging a charger in.",
+      "on_screen": "Measuring (imperial and metric) - Ratchet straps - Cords and chargers",
+      "says": "You'll learn to measure in feet and inches and in metric, read a tape fast and get it right. How to use a ratchet strap so a load doesn't move. And how to handle cords and chargers safely.",
+      "seconds": 15
+    },
+    {
+      "scene": 5,
+      "speaker": "Senior technician",
+      "background": "A concrete saw, a pipe bender and a rotary hammer on a separate table with an \"Awareness only\" sign.",
+      "on_screen": "Awareness only: concrete saw, pipe bender, rotary hammer",
+      "says": "You'll also see a few bigger tools, like a concrete saw, a pipe bender and a rotary hammer. That part's awareness only. You'll learn what they're for, not how to run them. Don't use them until you've been trained and authorized.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Senior technician",
+      "background": "Close-up on a printed LT1 tool list on a clipboard.",
+      "on_screen": "Covers our published LT1 tool list",
+      "says": "The course covers every tool on our published LT1 tool list. By the end, you'll know what's in your kit and how to keep it in good shape.",
+      "seconds": 11
+    },
+    {
+      "scene": 7,
+      "speaker": "Senior technician",
+      "background": "An evaluator with a clipboard watches a tech use a drill at the bench.",
+      "on_screen": "Already know your tools? Take the hands-on test-out.",
+      "says": "Already know your way around tools? You can take a hands-on test-out. Show an evaluator you can do it safely and correctly, and you can skip this course.",
+      "seconds": 12
+    },
+    {
+      "scene": 8,
+      "speaker": "Senior technician",
+      "background": "Senior tech at the bench, close-up.",
+      "on_screen": "Start Lesson 1, or schedule your test-out",
+      "says": "Either way, start the first lesson or schedule your test-out, and take each quiz as you go.",
+      "seconds": 7
+    }
+  ],
+  "production_notes": "Course overview written from the outline only; lessons not yet written. Confirm the tool list, test-out process and awareness-only tools against the final course before production. Speaker label: Senior technician. Tool brands covered or turned away from camera. No one operates the concrete saw, bender or rotary hammer on camera."
+}

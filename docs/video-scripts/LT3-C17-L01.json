@@ -1,0 +1,91 @@
+{
+  "vid": "LT3-C17-L01",
+  "title": "Rigging Hardware - Web Slings & Shackles",
+  "course": "LT3-C17",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 230,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop floor beside a service truck, tailgate down, rigging bag on the tailgate. Medium shot of Danny.",
+      "on_screen": "Job Mindset: Rigging a Pole",
+      "says": "Before we rig a pole, think about what can hurt you: a load of several hundred pounds that drops or swings. The best control is never being under it. Next is rigging that's rated, inspected and right for the load. Plan it at the shop: the right sling length, a rated shackle, edge protection, and a spare sling in case one fails inspection on site.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Training bench. The company kit laid out: yellow 2-inch twisted-eye polyester web sling and a 3/4-inch screw-pin anchor shackle. Overhead shot, then Danny in frame.",
+      "on_screen": "Our kit: 2 in web sling + 3/4 in shackle",
+      "says": "When a pole's been hit, is leaning, or snapped at the base plate, we take it down. A 25-foot steel pole with two heads can weigh several hundred pounds, and it doesn't fall gently. Our kit for this is simple: a web sling and a shackle. Let's look at each one.",
+      "seconds": 18
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up of Danny's hands showing a sewn eye, then the quarter twist in the eye lying flat on the shackle bow.",
+      "on_screen": "2 in wide, eye-and-eye, twisted eyes, polyester. Lengths: 6, 8 or 10 ft",
+      "says": "This is a 2-inch, eye-and-eye polyester web sling with twisted eyes. Each eye is turned a quarter turn, so it lies flat on a hook or shackle and chokes neatly around a pole. Polyester stretches very little. We stock 6, 8 and 10 foot lengths. Pick the one that wraps the pole and still reaches the hook without a steep angle.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Tight close-up of the sling tag, Danny's finger tracing the manufacturer, material and the capacity for each hitch.",
+      "on_screen": "No readable tag = no lift",
+      "says": "The tag is the sling's ID. It shows the manufacturer, the material, and the rated capacity for each type of hitch. If the tag is missing or you can't read it, that sling comes out of service. And don't go by color. One maker's yellow 2-inch sling is not the same as another's. Only the tag tells you the rating.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the shackle bow showing forged manufacturer name and WLL marking; then a generic farm hitch clevis set beside it on the bench.",
+      "on_screen": "Rated lifting shackle: YES. Hitch clevis: NO",
+      "says": "Around the shop you'll hear this called a clevis, and our pole procedure says 3/4-inch clevis. In rigging, the right word is shackle. A rated lifting shackle has the manufacturer and working load limit forged into the bow. A hitch clevis from the farm store often has no markings and is not lifting gear. When the paperwork says clevis, bring a rated, marked shackle.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Senior tech threads the pin into the ear until the shoulder seats, then shows a choker on a short pole section: pin through the sling eye, bow on the running part. Presenter voice-over.",
+      "on_screen": "Pin fully seated. Load in line. Pin through the eye, bow on the running part",
+      "says": "Using a screw-pin shackle: screw the pin all the way in until the shoulder seats, hand-tight, then snug. Load it in line, not from the side. Never replace a lost pin with a bolt. In a choker, the pin goes through the sling eye and the bow bears on the running part. If moving webbing rides on the pin, it can turn the pin and unscrew it.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Senior tech runs the sling hand-over-hand under bright shop lights, flipping it to check both faces and both edges. Presenter voice-over.",
+      "on_screen": "Inspect every time you rig: full length, both faces, both edges",
+      "says": "OSHA requires slings and fittings to be inspected each day before use by a competent person. We do it every time we rig. Run it hand-over-hand the full length, both faces and both edges, under good light. Check the shackle too: markings readable, bow and pin straight, no cracks, heat damage or heavy corrosion, and the pin seats fully.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Side-by-side on the bench: a good sling next to rejected slings (cut edge, burn/melt marks, heavy abrasion, missing tag). Slow pan.",
+      "on_screen": "Remove from service: no tag, cuts, burns, abrasion, broken stitching, knots, red yarns showing",
+      "says": "Here's what takes a sling out of service: a missing or unreadable tag, cuts, tears or snags, acid burns or melting, broken stitching in the splices, heavy abrasion or stiff sun-damaged webbing, knots, red warning yarns showing, or damaged fittings. And anything else that makes you doubt it. A damaged sling looks almost normal until it fails. Never use it one more time.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny cuts a rejected sling in half with a utility knife over the scrap bin. Medium shot.",
+      "on_screen": "Cut it in half, or tag it Do Not Use",
+      "says": "Cut a rejected sling in half so nobody can use it again, or tag it Do Not Use and give it to your supervisor. Rejected shackles go in the scrap bin, not back in the truck. Protect slings from sharp pole corners and base plate edges with pads or a sleeve, and store them dry, out of the sun and away from chemicals.",
+      "seconds": 24
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Back at the truck tailgate, Danny coils the good sling and puts the shackle, pin in place, into the rigging bag.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "The tag is the rating, a hitch clevis is not lifting gear, and you inspect every time. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Props: 2 in x 6 ft twisted-eye polyester eye-and-eye web sling with readable tag; 3/4 in screw-pin anchor shackle with forged WLL; a generic unmarked hitch clevis for comparison; 3-4 rejected slings (cut edge, burned/melted, heavily abraded, missing tag); short pole section or pipe for the choker demo; utility knife; scrap bin; corner protector or wear sleeve. Senior tech performs the hands-on segments while Danny narrates. Do not show any specific WLL value as a rating for our sling; if the shackle's forged WLL is legible, it is fine to show it. No brand logos on the sling tag in close-ups if avoidable."
+}

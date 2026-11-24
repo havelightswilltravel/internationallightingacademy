@@ -1,0 +1,67 @@
+{
+  "vid": "LT1-C11-L03",
+  "title": "Work Orders, Documentation & Photos",
+  "course": "LT1-C11",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Inside a service truck cab, phone mounted on the dash with a generic work order app open. Danny in the driver's seat, medium shot.",
+      "on_screen": "Work Orders, Documentation & Photos",
+      "says": "I'm Danny. If it's not written down, it didn't happen. Your work order bills the customer, proves what you did if there's a warranty question, tracks problems that keep coming back, orders follow-up work, protects you if there's a complaint, and logs your OJT hours. Plan your photos and notes the same way you plan your tools: before you walk in.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Screen recording of the work order app: opening the order, verifying customer and site, tapping arrival time. Picture-in-picture of the tech in the parking lot.",
+      "on_screen": "Verify customer and site | Log arrival as it happens",
+      "says": "Here's how we do it. Open the work order before you go in. Check the customer, address, building and contact are right. Log your arrival time when you arrive, not later. Read the requested work. That's the problem as the customer reported it, and it's what you're there to solve.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "On site: tech takes a wide shot showing a room number sign and the fixture, then a close-up of the problem, then a close-up of a ballast label. Side-by-side insert: a dark, blurry close-up versus a sharp, lit wide shot with room number visible.",
+      "on_screen": "Before: wide shot with location, then close-up\nLabels | Wiring before disconnecting",
+      "says": "Before photos. A wide shot that shows where you are, like the room number sign or a column number, then a close-up of the problem. Photograph ballast, driver and fixture labels. Photograph existing wiring before you disconnect anything. Look at these two. The left one could be anywhere. The right one shows where, what and what condition. Use light, hold steady, fill the frame.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Close-up of an electrical panel door, closed, with the tech stepping back and typing a note instead of photographing.",
+      "on_screen": "Safety: Never reach toward exposed energized parts for a photo",
+      "says": "Safety first on photos. Don't take photos inside energized, open panels or reach toward exposed parts to get a better angle. If the picture needs you close to energized equipment, describe it in writing and let a qualified person document it. And follow site photo rules. No people, screens, documents or security areas, and company system only.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Screen recording: the tech types findings and enters materials with quantity, description and part number.",
+      "on_screen": "Weak: \"Fixed lights.\"\nStrong: \"Rm 214: replaced (3) F32T8/835 lamps in 2x4 troffer at grid C-4. All lamps operating.\"",
+      "says": "Now findings. Write so someone who wasn't there knows exactly what happened. 'Fixed lights' tells nobody anything. 'Room 214, replaced three F32T8 835 lamps in the two-by-four troffer at grid C-4, all lamps operating' tells everybody. Use numbers and units, record facts not guesses, and note anything you couldn't finish and why. Materials get quantity, description and part number.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "On site: after photo of the lit fixture and clean area; then the tech walks the site contact through the work and captures a signature on the phone screen.",
+      "on_screen": "After photos | Walk the contact through it | Signature | Submit same day",
+      "says": "After photos: the completed work, fixture lit, area clean. Record your waste, lamps, ballasts and batteries with quantities. Then walk the site contact through what was done and what wasn't, point out recommendations, get the signature or acknowledgment our policy requires, and thank them. Then submit. Same day.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny back in the truck cab, medium shot.",
+      "on_screen": "Complete it as you go. Never alter records to hide a mistake.",
+      "says": "The most common mistake I see is filling it out from memory at the end of the week. Part numbers are wrong, quantities are wrong, and billing and inventory are wrong. Complete it as you go. If you made an error, correct it promptly and tell the office. Never alter records to hide a mistake. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Use a generic mock-up of the work order app for screen recordings; blur any real customer names, addresses or part numbers that are not generic. The example finding text in scene 5 is from the lesson. Poor vs good photo comparison: same fixture, one dark and blurry close-up, one lit wide shot with room number visible. Lesson file: curriculum/levels/LT1/courses/LT1-C07/lessons/03-work-orders-documentation-and-photos.md."
+}

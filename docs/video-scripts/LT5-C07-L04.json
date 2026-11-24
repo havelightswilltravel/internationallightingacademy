@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C07-L04",
+  "title": "Mentoring New Technicians and Resolving Conflict",
+  "course": "LT5-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 171,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training lab with a fluorescent troffer on a bench mount, ladder set beside it, LOTO station on the wall. Matthew stands next to an LT5 mentor and an LT1 mentee. Medium shot.",
+      "on_screen": "Job Mindset: Teaching a ballast replacement",
+      "says": "When you mentor, you're responsible for two people's safety. Set up a safe practice area, gather the tools and the replacement ballast before you start, and review the LT1 skill criteria together so they know what passing looks like. The hazards are shock and ladder falls, so LOTO and live-dead-live come first, and you watch close enough to stop a mistake before it happens.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Every LT5 was once an LT1.",
+      "says": "Every LT5 was once an LT1 who learned from someone. This program depends on senior techs passing on skills, habits and judgment. And mentoring makes you better, because explaining why forces you to understand it. One of your LT5 skills is mentoring an LT1 to evaluator sign-off.",
+      "seconds": 19
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Mentor explains, then demonstrates: applies lock and tag at the training panel, tests the meter on a known source, tests the fixture, retests the meter, then replaces the ballast, narrating. Presenter voice-over.",
+      "on_screen": "1 Prepare  2 Explain  3 Demonstrate",
+      "says": "Demonstrate-practice-feedback. Prepare, then explain the task, the steps, and why each step matters, especially the safety steps. Then demonstrate. Do it at normal speed, then slowly, narrating each step. Here the mentor locks out, tests his meter on a known live source, tests the fixture, then tests the meter again.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "The LT1 now performs the task while the mentor watches closely from beside the ladder. LT1 tests only hot to ground; mentor stops him.",
+      "on_screen": "4 Guided practice  5 Feedback  6 Independent practice  7 Readiness check",
+      "says": "Guided practice: the mentee does it while you watch and coach. Watch here. He tested hot to ground and skipped the rest. The mentor stops the task, explains, demonstrates, and has him repeat it. For LOTO and live-dead-live, there's no close enough. Then independent practice, until he does it right several times without prompts. That's when you recommend sign-off.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table: weak feedback vs useful feedback.",
+      "on_screen": "Weak: 'That's wrong.'\nUseful: 'Test all three combinations: hot-neutral, hot-ground, neutral-ground.'",
+      "says": "Feedback should be specific and immediate. 'Good job' teaches nothing. 'You tested your meter on a known source before and after. That's exactly right' does. Instead of 'that's wrong,' say 'test all three combinations so you don't miss voltage on a shared neutral.' Talk about the behavior, not the person. Keep a mentoring log: date, skill, time, what went well, next steps.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Role-play in a hallway on a job site: two crew members argue over task assignments; the LT5 lead walks up calmly.",
+      "on_screen": "Conflict hurts safety: people stop communicating",
+      "says": "Now conflict. It's normal on a crew. Methods, workload, schedules, personalities. But unresolved conflict hurts safety, because people stop talking to each other. So act early. Watch how the lead handles this one.",
+      "seconds": 13
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Lead talks privately with each crew member in turn, then brings both together with a notepad and writes down who does what.",
+      "on_screen": "Act early - talk privately - the problem, not the person - common ground - specific actions - follow up",
+      "says": "He talks privately with each person first and listens more than he talks. He keeps it on the problem, not the person. He finds common ground; both want the job done well and to go home on time. They agree on specific actions, who does what by when, and he follows up. Harassment, threats or repeated safety violations go to your supervisor, per company HR policy.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back in the training lab, medium close-up.",
+      "on_screen": "Never trade safety for peace.\nNow read the lesson and take the quiz, then show your evaluator.",
+      "says": "With customers or other trades, stay calm, listen, and don't promise what's outside your authority. And if anyone pressures you to work energized or skip a step, the answer is no, politely and firmly. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Mentor and mentee are actors (LT5 and LT1); Matthew narrates. Ballast replacement must show complete LOTO and live-dead-live. The staged error in scene 4 (incomplete test combinations) happens on a de-energized, locked-out fixture so no actual hazard exists. Role-play in scenes 6-7 should keep the disagreement civil and brief. The closing 'show your evaluator' refers to the LT5 mentoring skill sign-off."
+}

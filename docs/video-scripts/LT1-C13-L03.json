@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C13-L03",
+  "title": "Safe Operation & Fall Protection",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Warehouse with high-bay fixtures; an articulating boom lift coned off on the floor, a harness hanging on the rail. Danny in front of the boom, medium shot.",
+      "on_screen": "Job Mindset: Servicing a High-Bay From a Boom",
+      "says": "A high-bay from a boom stacks two hazards: falling or getting thrown from the basket, and the electricity in the fixture. Plan both before you leave the shop: harness and the manufacturer's lanyard, cones, a spotter, tool lanyards, your lock and your proving unit. Lock out at the panel before you go up. Think about where the boom will be when the fixture comes out.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny holding a full-body harness.",
+      "on_screen": "Electrocution | Tip-over | Falls | Ejection | Crush",
+      "says": "The leading causes of serious lift incidents are power-line contact, tip-overs, falls, ejection from boom platforms, and getting crushed against something overhead. Nearly every one is preventable. In a boom, a full-body harness with a lanyard attached to the manufacturer's designated anchorage on the platform is required. In a scissor, guardrails are primary. Follow the manufacturer and our policy.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Senior tech inspects the harness webbing, stitching, D-ring, buckles, labels and lanyard snap hooks, then dons it; presenter voice-over.",
+      "on_screen": "Webbing | Stitching | D-ring and buckles | Labels | Snap hooks | Impact indicator",
+      "says": "Inspect the harness every time. Webbing for cuts, burns, fraying or chemical damage. Stitching. D-ring and buckles for cracks or distortion. Labels legible. Snap hook gates close and lock. The impact indicator isn't deployed. Any harness that has arrested a fall comes out of service.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the senior tech clipping a short restraint lanyard to the labeled anchorage point in the boom platform.",
+      "on_screen": "Anchor ONLY to the platform's designated anchorage",
+      "says": "He clips a restraint lanyard to the labeled anchorage. Restraint keeps you from reaching the edge, and it's preferred in a boom, because an arrest lanyard may be too long to stop you at low heights. Use the length and type the manufacturer specifies. Never tie off to the fixture, a pole, a beam or a sprinkler pipe. If the platform moves, you get pulled out.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "The boom rises slowly to a high-bay fixture; a spotter on the ground behind cones; tech uses a tool lanyard and verifies absence of voltage at the fixture with a meter and proving unit; presenter voice-over.",
+      "on_screen": "Standard MEWPs are NOT insulated. LOTO and verify at the fixture.",
+      "says": "Spotter on the ground, area coned off. He raises slowly, watching overhead, and positions the platform so the work is in easy reach. Tools on lanyards. With the circuit locked out at the panel, he verifies absence of voltage at the fixture, live-dead-live. A standard scissor or boom is not insulated. And a shock at height can cause a fall.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Staged 'don't' segment, filmed safely at low height with the tech still tied off: leaning over the rail, a foot on the midrail, a lanyard clipped to the fixture. Each marked with a red X.",
+      "on_screen": "DON'T: lean over rails | stand on midrails | anchor to the fixture",
+      "says": "Now the don'ts. Leaning over the rail to reach. Reposition instead. Standing on the midrail for a few more inches. Both feet stay on the floor. No ladders or buckets on the platform. Clipping to the fixture. Anchorage only. Keep the gate closed, never exceed capacity, and remember an LED retrofit pallet can overload a small platform fast.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Boom lift driving slowly across a parking lot with the boom lowered; insert of a pothole and curb.",
+      "on_screen": "Hit a pothole elevated = catapult. Drive slow, boom lowered.",
+      "says": "Driving. Hit a pothole or curb in a boom while elevated, and the platform can whip and catapult you out. That's a big reason harnesses are required in booms. Drive slow, watch the path, and travel with the boom lowered and retracted when you can. Outside, if wind approaches the rating, or there's lightning, lower the platform.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny at the boom's ground control station, pointing at the tilt alarm decal.",
+      "on_screen": "Never disable or bypass a safety device",
+      "says": "Never disable or bypass a safety device. Tilt alarms, load sensing, limit switches, enable switches, interlocks. If one stops a function, it's doing its job. Stop and find out why. At the end, lower and retract fully, park level, shut down, take the key, and charge batteries somewhere ventilated. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Demo performer: senior tech, harnessed and tied off to the platform anchorage throughout, including the 'don't' segment, which is staged at low platform height. Props: full-body harness, restraint lanyard per the boom manufacturer, tool lanyards, cones, lock and tag, DMM, proving unit. Spotter on camera. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/03-safe-operation-and-fall-protection.md."
+}

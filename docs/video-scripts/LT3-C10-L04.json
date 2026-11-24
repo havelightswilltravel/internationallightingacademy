@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C10-L04",
+  "title": "Troubleshooting Low-Voltage Fixtures",
+  "course": "LT3-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 216,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office lobby with recessed MR16 downlights, one dark. Tech with ladder, meter, lock kit and a spare transformer. Presenter voice-over.",
+      "on_screen": "Job Mindset: Dark Low-Voltage Downlight",
+      "says": "Job mindset. The hazards here are a line-voltage primary hidden above the ceiling, hot lamps and sockets, and a ladder in a lobby. Lock out before the primary, let lamps cool, keep people clear. Plan ahead: known good lamps, an exact-match socket, a matched transformer, a true-RMS meter, and know who your qualified person is if you need a live reading.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen: the company's six steps.",
+      "on_screen": "1 Lamp continuity  2 Socket  3 Line voltage  4 Continuity socket-to-transformer  5 Replace transformer or fixture  6 Intermittent? Connections",
+      "says": "Our company procedure. Check lamp continuity. Check the socket for burns, breakage, wear or connection issues. Test line voltage across hot and neutral. Test continuity from socket to transformer. If the lamp, socket, continuity and line voltage are all good, replace the transformer or the fixture. And if it's intermittent, look for connection issues inside the fixture.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech asks the building contact questions, looks across the lobby at other fixtures.",
+      "on_screen": "One fixture out = lamp, socket, lead. Several on one transformer = transformer or its feed.",
+      "says": "Size up first. One fixture or many? Constant or intermittent? Recently relamped with LED? On a dimmer? Several fixtures out on one remote transformer points to the transformer, its feed or its secondary run. One fixture out points to that lamp, socket or lead. Check the switch, dimmer, timer and breaker position.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: cooled MR16 lamp, meter probes on both pins showing a low reading. Then close-up of a GU5.3 socket with blackened contacts.",
+      "on_screen": "Halogen: low ohms = good, open = burned out. LED: swap a known good lamp.",
+      "says": "Let the lamp cool. Meter on ohms, probe both pins. Halogen: a few ohms or less means the filament's good, open means it's burned out. LED lamps can't be checked this way, so swap in a known good lamp. Then inspect the socket: blackened ceramic, burned contacts, pitted pins, brittle leads. A burned socket ruins every new lamp you put in it. Replace it with an exact match.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Above-ceiling remote transformer; a qualified coworker in PPE measures at the primary while the tech stands back.",
+      "on_screen": "Line voltage = ENERGIZED test. Qualified person only.",
+      "says": "Step three is an energized test. A qualified person under our NFPA 70E program, with the required PPE, measures hot to neutral at the primary. If you're not qualified, use indirect evidence: other loads on the circuit work, the breaker's on, the switch is on. Then lock out and continue de-energized. If you can't establish supply, write it up. Never rely on a non-contact tester to prove dead.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks out, verifies dead at the primary live-dead-live, labels and disconnects secondary leads, checks continuity from socket to lead while wiggling.",
+      "on_screen": "LOTO > verify > label leads > continuity > wiggle > no short between secondaries",
+      "says": "Lock out and tag out the circuit feeding the transformer. Verify absence of voltage at the primary, live-dead-live. Label and disconnect the secondary leads. Check continuity from each socket contact to its secondary lead, and wiggle the leads while you test. Heat makes them brittle, and they break inside the insulation. Then, lamp removed, check for no continuity between the two secondary conductors.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech installs a matched replacement transformer, restores power, lamp lights; qualified person checks 12 V at socket with a true-RMS meter under load.",
+      "on_screen": "Good lamp + socket + continuity + supply = transformer",
+      "says": "Good lamp, good socket, continuity and supply? The transformer is the likely failure. Replace it with one matched for type, VA, minimum and maximum load, dimming, Class 2 if applicable, and listed for that fixture. Restore power and verify. Electronic transformers read oddly with no load, so a qualified person tests under load with a true-RMS meter.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the lobby, medium close-up.",
+      "on_screen": "Cycling? Check overload and heat before condemning the transformer.",
+      "says": "Common mistake: replacing a thermally protected transformer that comes and goes without checking why. Check for overload, total watts against VA, and heat, like insulation packed around it. It may be shutting itself off correctly. For intermittent problems, lock out and wiggle-test every connection. If nothing's found and no part fixed it, replace the fixture. A fault you can't find will come back.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same setting, closer.",
+      "on_screen": "Landscape: unplug the transformer from the GFCI and keep the plug in your control.",
+      "says": "One more safety point: on landscape systems, unplug the transformer from its GFCI receptacle and keep the plug in your control before working on its connections. Write it up for upstream problems, an inaccessible remote transformer, heat damage, or mixed Class 2 and line-voltage wiring. Now read the lesson and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Senior tech performs the diagnosis; a second actor plays the qualified coworker wearing the PPE required by the company NFPA 70E program for the energized primary measurement and the energized secondary check (scenes 5 and 7). Presenter voice-over in scenes 1, 4-7. Use an accessible lay-in ceiling with a remote transformer."
+}

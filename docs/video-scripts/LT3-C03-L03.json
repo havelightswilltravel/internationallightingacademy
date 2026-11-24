@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C03-L03",
+  "title": "Safe Replacement of Switches & Receptacles",
+  "course": "LT3-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 219,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Commercial break room; a duplex receptacle with scorch marks on the counter backsplash. Matthew standing beside it, medium shot.",
+      "on_screen": "Job Mindset: Replacing a Receptacle",
+      "says": "Burned receptacle in a break room. Hazards: a branch circuit that may share the box with another circuit, damaged wire behind the device, and people wanting the coffee maker back. Controls: lock out, verify dead live-dead-live on every conductor, never work it energized. Plan ahead: the right spec-grade device, a torque screwdriver, your meter and lock, and a write-up plan if the damage goes past the device.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Same location, on-screen scope callout.",
+      "on_screen": "Scope varies by state and city",
+      "says": "First, scope. You replace a switch or receptacle like-for-like only when our company has trained and authorized you, under supervision until you're signed off. And scope varies by state and city. In some areas a lighting tech can do this under the company's license; in others it takes a licensed electrician or their supervision, and some jobs need a permit and inspection. Confirm with your supervisor. When in doubt, stop and ask.",
+      "seconds": 29
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified tech in PPE measures line voltage at the device before lockout; presenter voice-over.",
+      "on_screen": "Replace if line voltage is good (qualified, energized check)",
+      "says": "Our company guide says replace if line voltage is good. That means confirm proper voltage is reaching the device before you blame it. No voltage? A new device won't fix it; the problem's upstream, like a tripped breaker, an upstream GFCI or a loose splice, and you write it up. That voltage check is energized work, done by a qualified person in the required PPE, before lockout.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "At a closed panel: senior tech identifies the breaker from the schedule, applies lock and tag. Then live-dead-live at the receptacle: meter on a known source, at the device, on the known source again.",
+      "on_screen": "Identify → Lock & tag → Verify H-N, H-G, N-G on EVERY conductor",
+      "says": "Now the replacement, filmed start to finish. Confirm scope on the work order. Read the old device and confirm the replacement is the same type and rating, or an approved upgrade. Identify the breaker from the schedule or a tracer; don't open the dead front. Lock and tag. Verify live-dead-live: hot to neutral, hot to ground, neutral to ground, on every conductor, because a box can hold more than one circuit.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: non-contact tester with a red X over it; then meter reading on a conductor that should be dead. Red callout.",
+      "on_screen": "Voltage after lockout? STOP. Another source. Write it up.",
+      "says": "A non-contact tester is fine for a quick check, but it's never enough to prove dead. Use a meter. And if you find voltage on any conductor after the breaker's locked out, stop. There's another source in that box. Write it up.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech photographs the wiring, removes the old device, inspects conductors; presenter voice-over.",
+      "on_screen": "Photo first. Hot → brass | Neutral → silver | Ground → green",
+      "says": "Photograph the wiring before you disconnect anything. Then transfer conductors one at a time: hot on brass, neutral on silver, ground on green. Inspect the copper. Cut back nicked or darkened conductor only if enough remains, generally about six inches free in the box. Not enough wire, or damage going back into the box? Write it up.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: clockwise hooks on screw terminals of a spec-grade receptacle, torqued with a torque screwdriver; ground pigtail; break-off tab checked.",
+      "on_screen": "Screws or back-wire clamps. Torque. Check the break-off tab.",
+      "says": "Land the new device on screw terminals with a clockwise hook, or back-wire clamps, never backstabs. Strip to the gauge and torque to the manufacturer's value. Several grounds in the box get spliced with a pigtail to the green screw. Check the brass break-off tab. If it was removed on the old device for a split-wired receptacle, remove it on the new one. Unsure? Write it up.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech folds wires neatly, mounts device straight and flush, installs plate; removes lock after checking everyone is clear; tests with a plug-in tester.",
+      "on_screen": "Fold → mount flush → plate → remove LOTO → test → document",
+      "says": "Fold the wires neatly, mount the device straight and flush, and install the plate without overtightening plastic plates. Make sure everyone's clear, then remove your lockout per procedure. Test it: a receptacle tester for a receptacle; TEST, then RESET, for a GFCI; several on-off cycles for a switch. Document the device removed and installed with part number, the line-voltage reading and who took it, test results, and photos.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera beside the finished receptacle.",
+      "on_screen": "Authorized. Locked out. Like-for-like. Tested. Documented.",
+      "says": "Replace devices only when you're authorized, and always locked out and verified dead. Watch for removed tabs, extra circuits and damaged wire. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Real-time replacement per the lesson's video suggestion, performed by a senior technician on a commercial break-room receptacle (no customer branding). Energized line-voltage check only by a qualified person in required PPE, before lockout. Show live-dead-live clearly on a known source. Use a torque screwdriver. The lesson refers to LT1 scope and sign-off LT1-S10 although the course is now LT3-C03; the script avoids the level and skill number; confirm the sign-off ID."
+}

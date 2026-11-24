@@ -1,0 +1,75 @@
+{
+  "vid": "LT4-C05-L02",
+  "title": "Zoning & Sequences of Operation",
+  "course": "LT4-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 260,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Conference table with a printed reflected ceiling plan of an open office and colored markers. Matthew seated. Medium shot.",
+      "on_screen": "Zoning & Sequences of Operation",
+      "says": "An NLC system only does what it's told. Zoning decides which luminaires respond together to which input. Get it wrong and the building wastes energy, annoys people, or fails an energy-code test. As a senior tech, you're often the one who notices the zones on paper don't make sense in the real space. Catch it at the planning stage, not after the owner complains.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech color-codes the plan: blue for control zones, green for occupancy, yellow for daylight. Overhead shot. Presenter voice-over.",
+      "on_screen": "Control | Occupancy | Daylight | Scene/group | Emergency group",
+      "says": "Zone types. A control zone answers a wallstation or schedule. An occupancy zone is the area a sensor can see reliably. A daylight zone is the area daylight reaches from windows or skylights. Scenes cover task or presentation areas. And the emergency group responds to loss of normal power through a UL 924 device. One fixture is usually in several zones at once. That's normal.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "In the real open office: senior tech stands at the window wall, then walks inward, marking the primary and secondary sidelit bands with tape on the floor.",
+      "on_screen": "Primary sidelit | Secondary sidelit | Toplit",
+      "says": "Daylight zones are defined by the energy code. The primary sidelit zone is the band closest to the windows, roughly one window-head height deep. The secondary is the next band in. Toplit is under and around skylights. Your field job: confirm the fixtures in each zone match the drawings, and that primary and secondary are controlled separately when the code or design requires it.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew reads a printed SOO aloud; text appears on screen.",
+      "on_screen": "\"Manual-ON to 50%... high-end trim 85%... OFF 15 minutes after vacancy... maintain 30 fc at the desk... after-hours 5-minute grace with warning flash\"",
+      "says": "The sequence of operations is the written description of how each space behaves. Here's a private office: manual-on to 50 percent, occupant can raise to 100, high-end trim at 85. Vacancy sensor off 15 minutes after vacancy. Daylight dims the primary zone to hold 30 footcandles at the desk. After hours, a 5-minute grace period with a warning flash before shutoff.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Split screen: SOO line on the left, matching software setting on a tablet on the right, one row at a time.",
+      "on_screen": "Manual-ON 50% = vacancy mode + ON level 50% | 85% trim = max output 85% | 15 min = timeout | 30 fc = meter-calibrated setpoint",
+      "says": "Now break every phrase into a setting. Manual-on to 50 percent: sensor mode vacancy, wallstation on level 50. High-end trim 85: maximum output 85. Off 15 minutes after vacancy: timeout 15. Thirty footcandles at the desk: daylight setpoint calibrated with a meter at the desk. Grace period: a schedule event, flash-warn and override duration. If a phrase won't translate, or two conflict, raise it before you program.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Walking the space: an L-shaped room with one sensor; a conference room sensor with a view into the hallway; a break room on the open-office zone.",
+      "on_screen": "Coverage gaps | Seeing through doors | Daylight sensor seeing electric light | Mixed space types",
+      "says": "Mistakes to catch. Coverage gaps: one sensor in an L-shaped room misses the far leg. If people wave their arms to turn lights on, that's bad zoning, not a bad sensor. A conference room sensor that sees hallway traffic keeps the room lit all day. A daylight sensor fooled by its own fixtures. And a break room on the open-office zone keeps the whole office on.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an exit-path luminaire and a UL 924 device label.",
+      "on_screen": "Never rezone or bypass emergency lighting without engineering direction",
+      "says": "The serious one: emergency luminaires on regular zones without a UL 924 device. Egress lights could be dimmed or off during a power failure. That's a life-safety deficiency. Never reprogram, rezone or bypass emergency luminaires to fix a controls issue without the design engineer's direction and a documented test afterward.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tablet screen showing device names like L2-210-LUM-03 and L2-210-OCC-01, one still showing a factory default name highlighted in red.",
+      "on_screen": "L2-210-LUM-03 | L2-210-OCC-01 | No factory default names",
+      "says": "Finally, naming. On a big project you might name thousands of devices. Use the project's convention exactly. A good one encodes floor, room, device type and position, like L2-210-LUM-03. It makes troubleshooting, BMS mapping and rezoning far easier. Never leave a device with its factory default name. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Printed reflected ceiling plan of a generic open office, colored markers; real open office with windows for the daylight-zone walk (tape on the floor for zone bands); tablet showing a generic NLC app with SOO-to-setting mapping (mock screens, no vendor branding). Senior tech does the marker and walk segments while Matthew narrates. Knowledge/planning lesson: hook connects zoning to planned work instead of a full Job Mindset opener."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C07-L04",
+  "title": "Panel Schedules, Load Totals and Redlines",
+  "course": "LT3-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 189,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Jobsite plan table with a drawing set and a red pen. Medium shot.",
+      "on_screen": "Panel Schedules, Load Totals and Redlines",
+      "says": "Every lockout plan starts with knowing which breaker feeds what you're working on. The panel schedule on the drawings gets you most of the way there. And the redlines you keep today are what the next tech, maybe you, will use to find the right breaker years from now.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a panel schedule header on the schedule sheet; graphic highlights each field.",
+      "on_screen": "LP-2 | Elec Rm 204 | 480Y/277 V 3-phase 4W | 225 A bus | Fed from DP-1",
+      "says": "The panel schedule is the designer's version of the panel directory, with more information. The header gives you the panel name, which matches the homerun labels, its location, the system voltage, the bus rating, the main, where it's fed from, and the short-circuit rating. Breakers must be rated for the available fault current.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the panel schedule body; finger runs across one row.",
+      "on_screen": "Spare = breaker, no load. Space = no breaker.",
+      "says": "The body lists each circuit: number, description, VA load, breaker size and poles, and phase. Two words to know. Spare means a breaker is installed but not connected to a load. Space means a position with no breaker at all. At the bottom you'll see connected VA per phase and total load.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard math beside the plan table.",
+      "on_screen": "2,400 VA / 277 V = 8.7 A  (20 A breaker: 16 A continuous limit)",
+      "says": "Reading the load: VA divided by circuit voltage gives approximate amps. Circuit 2 is 2,400 VA at 277 volts, about 8.7 amps on a 20-amp breaker. That's well under 16 amps, which is 80 percent, the limit for continuous lighting loads. Designers also try to keep phases A, B and C close. If you're adding fixtures, your lead picks circuits to keep that balance.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Lead tech traces on the plan: Room 207, type A, homerun LP-2-7, then flips to panel schedule. Presenter voice-over.",
+      "on_screen": "Room 207 > LP-2-7 > Breaker 7, 20/1, phase A, 277 V",
+      "says": "Worked example. Find the breaker for the troffers in Room 207. The plan shows type A fixtures and the homerun label LP-2-7. The general note says all lighting is 277 volts. Panel schedule LP-2, circuit 7: rooms 206 to 209, 20 amp single pole, phase A. Also check for any A-EM emergency units with an unswitched feed from another circuit.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Electrical room: tech uses a tracer, locks out breaker 7, then verifies at a fixture. Presenter voice-over.",
+      "on_screen": "Drawings are where you START, not where you finish.",
+      "says": "Then go to the field. Verify with a tracer, lock out breaker 7, and verify absence of voltage at the fixture with live-dead-live. The drawings are where you start, not where you finish. Renovations, undocumented changes and errors are common. A circuit number from the drawings must always be confirmed by lockout and verification at the point of work.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a redline set: a clouded relocated fixture with note '3 ft east to clear duct - initials/date', a changed circuit number, a corrected panel directory card.",
+      "on_screen": "Redline the SAME DAY: cloud it, note it, initial and date it",
+      "says": "When the field differs from the drawings, a fixture moved to clear a duct, a circuit reassigned, you record it on the redline set. Mark it the day it happens, not from memory at the end of the job. Cloud the change, write a short note, initial and date it. Record circuit changes carefully. And update the panel directory in the field at the same time.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the plan table holding the redline set.",
+      "on_screen": "Redlines become as-builts",
+      "says": "At closeout, the redlines become the as-built drawings the owner keeps. The common mistake is saving redlines for the last day. By then nobody remembers which fixtures moved to which circuit, and the next tech locks out the wrong breaker.",
+      "seconds": 16
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same setting, closer.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Plan, to homerun label, to panel schedule, to field verification with lockout and live-dead-live. Record every change the same day. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Use a mock panel schedule matching the lesson's example (LP-2, circuits 1-8). Redline note in the lesson uses initials 'JS'; use generic initials on camera. Lead tech performs trace and lockout; presenter voice-over in scenes 5-6."
+}

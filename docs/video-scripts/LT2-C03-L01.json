@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C03-L01",
+  "title": "Incandescent & Halogen Lamps, Bases and Ordering Codes",
+  "course": "LT2-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 174,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a tray of lamps: A19, BR30, PAR38, R20, T3 double-ended halogen, T4 single-ended halogen, G9 capsule. Whiteboard behind. Medium shot.",
+      "on_screen": "Incandescent & Halogen Lamps, Bases and Ordering Codes",
+      "says": "New installs are almost all LED, but you'll still find incandescent and halogen lamps in recessed cans, track and display lighting, chandeliers, floodlights and appliances. You'll replace them and often convert them, so you need to read the lamp, name it right and order the right one. Order wrong, and you've wasted a trip, or worse, overheated a fixture.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tape measure across a PAR38 face.",
+      "on_screen": "Shape number = max diameter in eighths of an inch | PAR38 = 38/8 = 4.75 in | A19 = about 2.4 in",
+      "says": "Lamp shapes are a letter for the shape and a number for the maximum diameter in eighths of an inch. Watch: this PAR38 measures four and three-quarter inches. Thirty-eight eighths. An A19 is nineteen eighths, about two point four inches. BR is a bulged reflector with a soft wide beam. PAR is a parabolic reflector with a tight, controlled beam.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "PAR30 short neck and long neck side by side in front of a can trim.",
+      "on_screen": "PAR30 SN vs LN: wrong neck = lamp too deep or sticking out",
+      "says": "PAR lamps also come in short neck and long neck, especially PAR30. Order the wrong neck length, and the lamp sits too deep in the can or sticks out of the trim. Check the old lamp before you order.",
+      "seconds": 16
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Base gauge beside E26, E12, E39 and G9 bases; then a T3 halogen held in its sleeve next to a ruler.",
+      "on_screen": "E26 medium | E12 candelabra | E39 mogul | G9 | R7s ordered by length: 78 mm or 118 mm",
+      "says": "The base must match the socket exactly. E is an Edison screw, and the number is the diameter in millimeters: E26 medium, E12 candelabra, E39 mogul. G9 is a looped two-pin capsule. Double-ended T3 halogens use R7s, and they're ordered by overall length. The common sizes are 78 and 118 millimeters. Measure the old lamp or the space between the socket ends. Don't guess.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: Matthew writes an ordering line and circles each part.",
+      "on_screen": "90PAR38/HAL/FL40/120V = 90 W | halogen PAR38 | flood, 40 deg | 120 V | medium base",
+      "says": "A full ordering line has wattage, shape and size, beam or finish, base, voltage, and features like neck length. Here's one: 90 PAR38 halogen, FL40, 120 volt. That's a 90 watt halogen PAR38, flood beam with a forty degree spread, 120 volts, medium base. And 300 T3 clear, 118 millimeter, is a 300 watt clear double-ended T3 on an R7s base.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard close-up: 120 V vs 130 V.",
+      "on_screen": "130 V lamps: long life, slightly dimmer on 120 V",
+      "says": "One more piece of that line is voltage. A 130 volt lamp is a long-life version that runs slightly dimmer on a 120 volt circuit. Beam codes you'll see: FL for flood, SP for spot, NFL for narrow flood, CL for clear and F for frosted.",
+      "seconds": 18
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Inside of a recessed can: close-up of the fixture label reading a maximum wattage and lamp type.",
+      "on_screen": "Check the fixture's max-wattage label before you order",
+      "says": "Now the label that matters as much as the lamp: the fixture label. Something like, use maximum 75 watt type BR30 or PAR30. It limits wattage, and sometimes lamp type. Ordering a higher wattage than the label allows overheats the fixture and wiring, and it's a fire hazard, even if the lamp fits. A can listed for reflector lamps only must not get a bare A19.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard with complete ordering lines, medium shot.",
+      "on_screen": "Work order: removed lamp + fixture label",
+      "says": "So on every work order, write down both the lamp you removed and the fixture label. Diameter in eighths, base matched exactly, a full ordering line, and never over the label. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Bench video per the lesson's video suggestion. Halogen lamps handled with gloves or sleeves. Whiteboard ordering lines must match the lesson examples exactly (90PAR38/HAL/FL40/120V and 300T3/CL/118mm). Use unbranded lamps. Lesson file path is LT1-C08/01 (course code differs from vid LT2-C03)."
+}

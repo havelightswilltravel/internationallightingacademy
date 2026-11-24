@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C01-L06",
+  "title": "Our Company's Safety Rules, Enforcement & Incident Handling",
+  "course": "LT1-C01",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 290,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Shop wall with the posted Ten Commandments of Safety. Danny standing beside it with a new hire. Medium shot.",
+      "on_screen": "Our Safety Rules, Enforcement & Incident Handling",
+      "says": "This lesson is how our company runs safety day to day. Every rule here traces back to an injury, a near miss or a damaged truck somewhere in our history. Knowing them is part of planning every job, because the rule you remember is the one that keeps you from getting caught off guard.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Slow pan across the posted list; Danny voice-over.",
+      "on_screen": "Learn it first - No horseplay - Inspect before use - Report hazards and injuries immediately",
+      "says": "Our safety manual boils it down to ten rules. A few to burn in. Learn the safe way to do your job before you start. No horseplay. Use equipment only the way you were trained and for what it's meant for. Inspect tools and equipment before you start. Tell your supervisor about unsafe conditions immediately, and report any injury immediately.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny walking the shop: SDS binder, a charged extinguisher with a current tag, a red approved safety can on a shelf.",
+      "on_screen": "No SDS, no use",
+      "says": "Everyday rules. Come fit for duty, rested and dressed for the work. Come ready for any environment. A walk-in freezer job can last all day, even in July. Chemicals: no SDS, no use, and label every secondary container. Extinguishers stay charged and reachable. Flammable liquids over one gallon go in approved safety cans. No unvented heaters in enclosed spaces, and no propane stored inside buildings.",
+      "seconds": 29
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny in the shop.",
+      "on_screen": "We work inside the fixture",
+      "says": "Stay in your scope. Lighting technicians work inside the lighting fixture. The branch circuit, the panel, building wiring, all of that needs supervisor or management approval and the right qualification. Don't run a forklift unless you're trained and authorized. And if you see equipment you don't recognize, like something with a radiation label, don't touch it or work next to it until the site contact says it's safe.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Two techs carry a large multi-position ladder together through the shop door, calling signals. Danny voice-over.",
+      "on_screen": "Over 50 lb or repetitive? Get help. Team lift the big ladders.",
+      "says": "Material handling. Size up the load first. Over 50 pounds, or lifting over and over? Get help or use a cart, dolly or hoist you're trained on. Team lifts are required for the large multi-position ladder and extension ladders over 30 feet. Agree on the route and signals first. That applies to everyone, managers included. Lift with your legs, and don't twist. Step.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny at a desk with a printed enforcement table.",
+      "on_screen": "1st: written warning | 2nd in a year: suspension | 3rd in a year: termination",
+      "says": "Enforcement covers rules you've been trained on. First violation, a written warning and refresher training if needed. A second, same or similar, within a year, suspension. A third within a year, termination. Willful neglect or creating a life-threatening condition can mean immediate termination. This isn't about honest mistakes. Discipline targets unsafe acts, never reports. If anyone tells you not to report, tell the safety committee or management.",
+      "seconds": 30
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Inside a service van: Danny opens the paperwork tin and pulls out a blank incident investigation form.",
+      "on_screen": "Blank incident form lives in the paperwork tin",
+      "says": "Now, when someone's hurt. Emergency, like a serious injury, a shock with symptoms, a fall from height or heat stroke: call 911 or go to the nearest ER, then notify your supervisor. Non-emergency: tell your supervisor first, then go to the company's designated occupational clinic. Anything beyond first aid needs the incident investigation form the same day. A blank one lives right here in your paperwork tin.",
+      "seconds": 30
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Role play: a tech with a cut hand wrapped in gauze calls the supervisor from the van, drives to a generic clinic exterior, then fills out the form at the shop that afternoon. Danny voice-over.",
+      "on_screen": "Supervisor first - clinic - form the same day",
+      "says": "Watch how it should go. He cut his hand on a fixture edge. He calls his supervisor first. He goes to the designated clinic. That afternoon, he fills out the form while it's fresh, with photos he took when it was safe. That's it. No guessing, no waiting until next week.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny back at the posted rules, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Our safety committee meets monthly and digs into root causes, so the fix protects the next person. Got an idea or a concern? Bring it to your rep or the monthly meeting. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Props: posted Ten Commandments of Safety, SDS binder, charged extinguisher with a current inspection tag, approved safety can, van paperwork tin with a blank incident investigation form. Role-play injury is makeup only. Use a generic clinic exterior with no real clinic name. The enforcement table on screen must match the lesson exactly."
+}

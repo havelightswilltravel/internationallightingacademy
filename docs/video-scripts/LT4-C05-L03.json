@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C05-L03",
+  "title": "Commissioning an NLC Zone",
+  "course": "LT4-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 295,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Private office next to an open office with windows; tablet, illuminance meter and ladder on a desk. Matthew standing. Medium shot.",
+      "on_screen": "Job Mindset: Commissioning a Zone",
+      "says": "Commissioning is done with circuits energized. If a device won't respond and you need to open a luminaire, controller or J-box, stop. Lock out and verify before you open anything line voltage. Never just check the wire nut hot. Plan ahead: latest drawings, zoning plan and SOO, the app updated, the gateway online with the right time zone, a calibrated meter and a ladder.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera, checklist graphic.",
+      "on_screen": "Commissioned = programmed + calibrated + functionally tested + documented",
+      "says": "A zone is commissioned when it's programmed, calibrated, functionally tested and documented so it runs exactly as the sequence of operations says. The lights coming on is not commissioning. Also before you start: line-voltage work done and energized by the installing electrician, and the ceiling closed or nearly closed, because open ceilings change sensor coverage and daylight readings.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech runs discovery on the tablet; count of discovered devices shown next to the device schedule. Presenter voice-over.",
+      "on_screen": "1. Discover and verify the device count",
+      "says": "Step one, discover. Run discovery for the zone and compare the count of luminaires, sensors and wallstations to the device schedule. Missing devices usually mean no power, a bus wiring error, a radio range problem, or a device already claimed by another network. Resolve missing devices before you move on.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech taps 'identify' and a troffer blinks overhead; he confirms it, names it L2-210-LUM-03, then builds groups per the zoning plan.",
+      "on_screen": "2. Identify and name  3. Group per the zoning plan",
+      "says": "Step two, identify and name. Make each device blink, physically confirm where it is, and give it the project-standard name. This catches swapped addresses that would make troubleshooting miserable later. Step three, group. Build the control, occupancy, daylight and scene groups exactly as shown on the zoning plan, with primary and secondary daylight zones separate when required.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tablet close-up of settings screen: mode, timeout, ON level, trims, fades, schedule.",
+      "on_screen": "4. Mode | Timeout (never over code max) | ON level | High/low trim | Fades | Schedules",
+      "says": "Step four, parameters. Sensor mode and timeout from the SOO and energy code. In a private office, often vacancy, 15 to 20 minutes, never longer than the code max. Manual-on level, say 50 percent. Low-end trim at the lowest stable level without flicker or dropout. Fade rates. And the schedules, like an after-hours sweep with override.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Night or blinds closed: senior tech sets luminaires to 100%, holds the illuminance meter at the desk, then lowers max output while the reading is watched.",
+      "on_screen": "5. High-end trim with a meter, daylight excluded. Record as-left %.",
+      "says": "Step five, high-end trim, with a meter, not by eye. Exclude daylight, at night or with blinds closed. Set the fixtures to 100 percent and measure at the task. Lower the maximum output until it meets the design target with reasonable margin for lumen depreciation. Record the as-left trim percentage.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Open-office daylight zone during the day: primary row near the window dims more than the secondary row; interior row stays at full.",
+      "on_screen": "6. Daylight: primary dims more than secondary. Non-daylight zones don't dim.",
+      "says": "Step six, calibrate daylight using the manufacturer's method, usually setting the electric-light target at night, then letting the sensor learn with daylight. Verify the primary zone dims more than the secondary and non-daylight zones don't dim. Watch for hunting, lights rising and falling over and over. That means the sensor sees its own fixtures or the deadband is too small.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech enters the private office, presses ON, raises and lowers, walks out; timer graphic; lights turn off at the timeout. Checklist marked pass.",
+      "on_screen": "7. Test every sequence: ON | raise/lower | timeout | grace | sweep | daylight | emergency",
+      "says": "Step seven, functional test every sequence. Press on: manual-on level. Raise and lower: smooth between trims. Walk out and wait: off at the programmed time. Re-enter during grace: lights restore. Schedule sweep: warning flash, then off, and override works. Daylight zone dims, others don't. And on loss of normal power, the UL 924 device forces emergency fixtures to full.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera, holding a commissioning record with one 'fail' line circled.",
+      "on_screen": "A failure means correct and retest. Never mark it passed.",
+      "says": "Record pass or fail for each test. A failed test means you correct it and retest. Never mark a failure as passed. That one shortcut is how a building ends up with lights that never turn off and nobody knows why.",
+      "seconds": 16
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Tablet shows 'Configuration exported'; completed checklist on the desk.",
+      "on_screen": "8. Back up and document",
+      "says": "Step eight, back up. Export or sync the configuration to the gateway or cloud, and save a copy per company procedure. Fill out the commissioning record: device names and addresses, groups, every as-left setting, test results, open issues, your name and the date. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 23
+    }
+  ],
+  "production_notes": "Film one private office and one open-office daylight zone in real time, edited to fit. Props: tablet with generic commissioning app (mock screens or blurred vendor UI), calibrated illuminance meter, ladder, printed zoning plan, SOO and device schedule, commissioning checklist. High-end trim segment filmed at night or with blinds closed. Emergency (UL 924) test shown only if the training site has a safe way to simulate loss of normal power; otherwise use a graphic. No line-voltage compartments opened on camera. Senior tech performs; Matthew narrates. Matches skill sign-off 'Commission a networked lighting control zone' (LT4-S01)."
+}

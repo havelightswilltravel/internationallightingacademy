@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C13-L02",
+  "title": "From Symptom to Cause",
+  "course": "LT2-C13",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 229,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room whiteboard with a drawn chain: Panel → Circuit → Control → Fixture. Senior tech beside it; Matthew narrates. Medium shot.",
+      "on_screen": "From Symptom to Cause",
+      "says": "Every lighting system is a chain. Power flows from the source, the panel and breaker, through the circuit, through the control, like a switch, sensor, relay or photocell, into the fixture. A failure at any link breaks everything downstream. So the pattern of what works and what doesn't tells you which link failed, before you ever open a ceiling.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: senior tech builds the pattern table.",
+      "on_screen": "One out → fixture | Adjacent out → splice/J-box | One control → control | One circuit → breaker/homerun | Many circuits → escalate",
+      "says": "One fixture out while others on the same circuit and control work? Look at that fixture. Several adjacent fixtures out? A splice or junction box between the working and dead ones. Everything on one switch or sensor? The control. Everything on a circuit across several controls? The breaker, homerun, or a splice near the panel. Many circuits out? Upstream. Escalate. Out only at certain times? Clocks, photocells, sensors, schedules, or heat.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard tree for 'one fixture dark'; cut to field clip of a burnt socket, inspected locked out.",
+      "on_screen": "One fixture dark",
+      "says": "One fixture dark. Try a known-good lamp. Check the socket and splices with power locked out; here's a burnt socket. Check for voltage at the fixture input. Supply good, lamps and sockets good? Then substitute the ballast or driver. And our company rule: Step 1 on an LED fixture is always the meter, hot to neutral. No voltage means upstream. Don't order a driver.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard tree for 'whole circuit dark'; cut to field clip of a tripped breaker in a closed panel.",
+      "on_screen": "Trips immediately? Don't keep resetting.",
+      "says": "Whole circuit dark: check the panel. If the breaker's tripped, find out why. Trips immediately on reset? A short or ground fault, so don't keep resetting. A breaker that trips is doing its job, and resetting onto a fault can cause an arc flash. Leave it off, lock it out, and find the fault on the de-energized circuit. Tripping after running a while suggests overload, a loose connection, or a failing breaker.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard tree for 'flickering'; cut to field clip of a loose neutral splice found in a junction box, locked out.",
+      "on_screen": "Several flicker together? Loose neutral. URGENT.",
+      "says": "Flickering. On fluorescent, the lamp at end of life is most common. Flicker that changes when you tap the fixture or move the whip? A loose connection. Flicker with big equipment starting? Voltage fluctuation; use MIN/MAX on your meter. Several fixtures flickering together? Suspect a loose or shared neutral, and treat it as urgent. Also check for dimmer incompatibility and TLED-ballast compatibility.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech in PPE with a tested meter at a switch and a fixture input; on-screen numbered test points.",
+      "on_screen": "Fault = between last good point and first bad point",
+      "says": "Use voltage readings to find the link, with PPE and a tested meter. Breaker load terminal, which is qualified or supervised panel work. Switch line side. Switch load side with the switch on. Fixture input. The fault is between the last point with voltage and the first without. And measure hot to neutral and hot to ground. An open neutral can show full voltage to ground and nothing to neutral.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups: an LED fixture strobing at full brightness; a single-board fixture flickering in one section; several fixtures flashing together. Cut to field clip of a failed occupancy sensor.",
+      "on_screen": "Full-brightness strobe → driver | One board → board/fixture | Many together → upstream",
+      "says": "Read the LED symptom. Strobing on and off at full brightness is usually a failing driver. Flicker on a single-board fixture, or one section, points to the board or fixture. Several flashing together points upstream: a loose connection, a failing sensor, photocell or relay, or a dimming mismatch. Watch for redundant controls too, like a factory photocell left connected on a fixture already run by a time clock.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks out a strobing fixture, disconnects it and applies a label; then writes notes.",
+      "on_screen": "Never leave a fixture strobing",
+      "says": "Never leave a fixture strobing. If you can't fix it this trip, lock it out, disconnect it safely, label it, and write up the return. If the customer can't show you which fixtures are flashing, ask them to identify them and call in a new ticket. Energized troubleshooting is allowed only when needed to find the failed part, by a qualified person in PPE. Lock out before opening the driver channel.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera at the whiteboard.",
+      "on_screen": "",
+      "says": "Make good notes: which fixtures, what it looked like, how long you watched, readings, and what you replaced or disconnected, so the next tech doesn't start from zero. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Whiteboard segment plus short field clips per the lesson's video suggestion (burnt socket, tripped breaker, loose neutral splice, failed occupancy sensor). Show inspection of sockets and splices only with power locked out. Panel clip shows a closed panel with the dead front on. The lesson's cross-references to LT3-C02/C03/C05 for dimming, sensors and photocells look out of date with the current course numbering; the script does not name those courses."
+}

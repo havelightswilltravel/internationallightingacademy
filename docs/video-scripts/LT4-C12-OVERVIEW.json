@@ -1,0 +1,59 @@
+{
+  "vid": "LT4-C12-OVERVIEW",
+  "title": "Large Tools: Rotary Hammer, Wire Tugger and Basic MIG Welding (course overview video)",
+  "course": "LT4-C12",
+  "presenter": "Senior technician",
+  "source": "outline",
+  "target_seconds": 129,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Senior technician",
+      "background": "Shop floor with a large SDS-max rotary hammer, a wire tugger on a stand, and a MIG welder cart lined up; senior tech in front. Medium shot.",
+      "on_screen": "Large Tools: Rotary Hammer, Wire Tugger & Basic MIG Welding",
+      "says": "This course is about the big tools: a rotary hammer for large holes in concrete, a wire tugger for long pulls, and basic MIG welding for brackets and bases. They get real work done fast. They also hurt people fast if you don't respect them. So every one of these starts with the Job Mindset: hazards first, then plan.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Senior technician",
+      "background": "Senior tech at a whiteboard in the shop listing a plan: tools, extension cords, vacuum, bits, PPE, permits, second person.",
+      "on_screen": "Plan it before you leave: tools, power, PPE, permits, people",
+      "says": "These tools change how you plan. A big rotary hammer needs the right bits, power and dust collection on the truck. A tugger needs an anchor point, rope rated for the pull and a second person. Welding needs the permit, a fire watch and an extinguisher on site. Think about the worst case, like hitting rebar or a pull that binds, before you're there.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Senior technician",
+      "background": "Senior tech drills a core-style hole in a concrete pad with a dust shroud and vacuum attached; respirator, glasses, hearing protection.",
+      "on_screen": "Rotary hammer: control silica dust",
+      "says": "Rotary hammer first. Drilling concrete makes silica dust, and that dust damages your lungs. You'll learn how to control it, starting with tools and methods that capture the dust at the bit, before you reach for a respirator. You'll also cover bit selection, handling the torque, and finding what's buried in that slab before you drill.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Senior technician",
+      "background": "Wire tugger anchored at a pull point; rope and cable on a reel; second tech feeding at the other end with a radio.",
+      "on_screen": "Wire tugger: setup, anchoring, communication",
+      "says": "Wire tugger. You'll set it up and anchor it, rig the pull, and run it with a partner feeding the other end. Communication matters here. When a pull goes wrong, the rope and the tugger store a lot of energy, so you'll learn where to stand and when to stop.",
+      "seconds": 20
+    },
+    {
+      "scene": 5,
+      "speaker": "Senior technician",
+      "background": "Welding bay with curtain; tech in welding hood and jacket tacks a bracket; fire extinguisher and a second person standing fire watch.",
+      "on_screen": "MIG welding: hot-work permit • fire watch • PPE",
+      "says": "Basic MIG welding for brackets and bases. Welding is hot work. That means a hot-work permit where required, a fire watch, clearing combustibles, and the right PPE for your eyes, skin and lungs. You'll learn minor welding only: when a weld is structural or beyond your skill, it goes to someone qualified.",
+      "seconds": 21
+    },
+    {
+      "scene": 6,
+      "speaker": "Senior technician",
+      "background": "Senior tech at a truck's tool compartment, pointing to well-kept tools.",
+      "on_screen": "Invest in the tools your work needs",
+      "says": "One more thing. Invest in the tools your work needs, and take care of them. The right tool, in good shape, is safer and faster than the wrong one you borrowed. Now work through the course lessons and take the quizzes.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Course overview (course not written yet; source: outline). Keep general; the script must be checked against the lessons when they are written, especially silica dust control methods, hot-work permit and fire watch requirements, and tugger setup details. Speaker is 'Senior technician' (TBD). Props: large rotary hammer with dust shroud and HEPA vacuum, wire tugger, MIG welder, welding curtain, fire extinguisher. Show all PPE correctly worn."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C14-L05",
+  "title": "Closing Out a Project and Lessons From Past Jobs",
+  "course": "LT1-C14",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Last shift of a retrofit: finished ceiling with new fixtures lit, pallets of recycle and a stack of leftover cartons in a back room. Danny, medium shot.",
+      "on_screen": "Job Mindset: The Last Shift",
+      "says": "The last shift is where projects go wrong quietly: a loose fixture left over an aisle, good material shipped as waste, a pallet nobody photographed. So plan the last night like the first: time for counts, the walk-through and punch items, shrink wrap and labels on the truck, and the rental call-off ready. A project isn't finished when the last fixture lights.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "The crew leader counts leftover good cartons, shrink-wraps them and labels them separately from the recycle pallets, then photographs both.",
+      "on_screen": "Leftover good material: count, pack, label, keep separate\nRecycle pallets: shrink-wrap, label '1 of 3', photograph",
+      "says": "Here's how we do it. Leftover good material: count it, pack it, label it, and keep it apart from recycle. Show the manager where it is so nobody throws it away. Recycle pallets: stack neatly, shrink-wrap well, label each one, like 1 of 3, and photograph every pallet. Those photos protect us if a shipper later says a pallet was packed wrong.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "The crew leader on the phone calling off the rental lift, writing the call-off number on the service order; then filling in final counts.",
+      "on_screen": "Final counts | Survey corrected | Skips listed | Recycling recorded | Rental call-off number",
+      "says": "Paperwork. Final counts on the service order: fixtures or kits, drivers, disconnects, sockets, hardware, and anything from our truck stock. Correct the survey where things changed. List skipped fixtures with location and reason. Record recycling, including the PCB ballast count. Call off the rental lift as directed and write down the call-off number. Schedule pickups or tell your supervisor how many pallets are waiting.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "The crew leader walks the finished space with the manager, fixes two punch items on the spot from a ladder, takes after photos matching the before photos, then gets the service order signed.",
+      "on_screen": "Walk it | Fix punch items | After photos | Signed off",
+      "says": "Walk the finished job with the manager. Fix punch items on the spot when you can. Take after photos that match the before photos. Get the service order and any completion form signed, and stamped if they use a stamp. Write down who walked it with you. Then clean the site, clean out the vehicle and trailer, and hand-deliver the paperwork to your supervisor.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny in the shop with a case-study card in hand; insert of a cooler LED light bar hanging by its wires.",
+      "on_screen": "Case: LED cooler strips hanging by their wires",
+      "says": "Now some lessons from our own project files. On an early LED cooler retrofit, a few light bars weren't seated in their mounts and ended up hanging by their wires. The customer also pointed out loose slack, exposed connectors and a leftover bracket. A tech had to go back. Seat and secure everything, dress the wiring, remove leftover hardware and step back to look. A callback costs more.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Insert: a gas station canopy at dusk with an LED kit and a rusted housing; graph-paper canopy diagram on a clipboard.",
+      "on_screen": "Safety: Not certain it's secure? Don't leave it.",
+      "says": "On a canopy retrofit, some housings didn't match the kit and some were loose or rusted. The crew used the closest fit, added approved secondary restraints, didn't install a kit they weren't sure would stay, and called the supervisor. A loose fixture over a fuel island or a store aisle can fall long after you leave. If you're not certain it's secure, don't leave it. Secure it or make it safe, and call.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny in the shop, medium close-up.",
+      "on_screen": "Compare site to survey on day one | Never improvise on emergency equipment | Site asks for a safety measure? Don't argue.",
+      "says": "A few more. The survey said two-lamp fixtures and many had four. Compare the site to the survey on day one and report it right away. Emergency fixtures nobody planned for? Never cut out or add emergency equipment without specific direction. And when a site manager asks for a spotter, don't argue. Do other work and get it to your supervisor.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Office: the supervisor reads the recap at a desk and looks up at the crew leader. Cut back to Danny.",
+      "on_screen": "\"What would you tell the next crew?\"",
+      "says": "Last step is feedback. What was short, what took longer than bid, what question you wish had been on the sheet. That's how the next project specifics sheet gets better. So, what would you tell the next crew? Now read the lesson and take the quiz.",
+      "seconds": 19
+    }
+  ],
+  "production_notes": "Last shift of a retrofit plus a short office scene (supervisor reads the recap). Case-study inserts (cooler light bar, canopy housing) can be staged mock-ups or still graphics; names and places are removed per the lesson. No customer logos, fuel brands or rental company branding. Lesson file: curriculum/levels/LT2/courses/LT2-C12/lessons/05-closing-out-and-lessons-learned.md."
+}

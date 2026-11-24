@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C03-L02",
+  "title": "Sockets, Thermal Protectors & Dimmers",
+  "course": "LT2-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 185,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a de-energized recessed can removed from a ceiling mock-up, junction box attached. Medium shot.",
+      "on_screen": "Sockets, Thermal Protectors & Dimmers",
+      "says": "When a recessed can won't light, or keeps shutting off, the answer is usually in one of these parts. Knowing how each one fails tells you what to bring and what to check, and every check inside a socket starts with the circuit locked out and verified dead. Our component list is fixture, lamp, socket, wire, switch and thermal protector.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the socket: finger points to the screw shell, then the center contact at the bottom.",
+      "on_screen": "Screw shell = neutral (white) | Center contact (socket eye) = hot",
+      "says": "A screw-base socket has two contacts. The threaded screw shell should connect to the neutral, the white conductor. The center contact at the bottom, the socket eye, connects to the hot. The center contact is energized whenever the switch is on, and the shell may be energized if the fixture was wired backwards. Lock out and verify live-dead-live before you touch anything inside a socket.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Good socket next to a scorched one with a flattened, discolored center tab.",
+      "on_screen": "Flattened tab: works only screwed in tight | flickers when bumped | new lamp won't light | scorching",
+      "says": "Over years of heat and lamp changes, that springy brass tab can flatten. Then the lamp barely touches it. It works only screwed in tight, flickers when bumped, or a new lamp won't light. With the circuit locked out and verified dead, a lightly flattened tab can sometimes be lifted about an eighth of an inch with an insulated screwdriver. Discolored, pitted, cracked, or no spring? Replace the socket.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the thermal protector on the side of the housing, then the IC/non-IC label inside.",
+      "on_screen": "Thermal protector: heat-sensing switch in series with the socket | IC vs non-IC: keep insulation back about 3 in",
+      "says": "Recessed incandescent cans need thermal protection. The thermal protector is a small heat-sensing switch in series with the socket. If the can gets too hot, it opens and the lamp goes out. When it cools, the lamp comes back. IC cans can touch insulation. Non-IC cans need insulation kept back, generally three inches. See insulation packed against a non-IC can? Write it up. Don't move it unless you're assigned to.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Ceiling with one can going dark, then relit minutes later; time-lapse counter.",
+      "on_screen": "Cycling causes: wattage over label | wrong lamp type | insulation | wrong trim | failed protector",
+      "says": "A can that goes off for several minutes, comes back, then goes off again is the classic cycling thermal protector. Common causes: lamp wattage over the label, the wrong lamp type like an A19 in a reflector-only can, insulation against a non-IC can or attic heat, a trim that traps heat, or a failed protector. Fix the cause, not the symptom. The protector is doing its job.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew holding a thermal protector, close-up.",
+      "on_screen": "Never bypass, jumper or remove a thermal protector",
+      "says": "Never bypass, jumper or remove a thermal protector. If the correct lamp is installed and the can still cycles, or the protector has failed open, write it up for fixture or protector replacement, or convert to a listed LED retrofit if the work order allows it.",
+      "seconds": 18
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a wall dimmer label showing its wattage rating and lamp-type compatibility; two dimmers ganged in a box with fins broken off.",
+      "on_screen": "600 W dimmer = 600 W incandescent | broken fins = derated | LED needs an LED-rated dimmer",
+      "says": "Dimmers. Check the wattage rating: a 600 watt dimmer carries 600 watts of incandescent load, but ganged in one box with the side fins broken off, it's derated. The instructions list the derated values. When lamps go to LED, the dimmer must be rated for LED loads, or you get flicker, buzzing or poor low-end dimming. A very hot, discolored or loudly buzzing dimmer gets replaced.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "",
+      "says": "Learn how each part fails, check the label, and fix the cause. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Close-up footage on a de-energized recessed can removed from the ceiling per the lesson's video suggestion. Show the good vs scorched socket comparison clearly. Do not show a protector being bypassed. Lesson file path is LT1-C08/02 (course code differs from vid LT2-C03)."
+}

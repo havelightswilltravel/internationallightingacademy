@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C07-L03",
+  "title": "Fixture Schedules and Specifications",
+  "course": "LT3-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 184,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop staging area, pallets of fixture cartons, a printed schedule sheet on a clipboard. Medium shot.",
+      "on_screen": "Fixture Schedules and Specifications",
+      "says": "Before a single fixture goes in the ceiling, you check that it's the right fixture. That five-minute check in the staging area saves you from pulling fixtures back out, or worse, connecting a fixture to the wrong voltage. Today you'll learn to read the fixture schedule and compare it to what showed up on the truck.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a fixture schedule table on the drawing, camera pans across the columns.",
+      "on_screen": "Type | Description | Catalog # | Source | Volts | Watts | Mounting | Driver/dimming | Notes",
+      "says": "The fixture schedule, sometimes called the luminaire schedule, is a table that describes every fixture type on the project. The type tags on the plan point here. Typical columns: type, description, manufacturer and catalog number, lumens and color temperature, voltage, watts, mounting, driver and dimming, and notes for options like an emergency battery.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech holds the schedule next to a carton label and a submittal cut sheet on a bench. Close-up. Presenter voice-over.",
+      "on_screen": "Series - Size - Lumens - CCT - Voltage - Driver - Options",
+      "says": "Catalog numbers are built from segments: series, size, lumen package, color temperature, voltage, driver, and options. The manufacturer's spec sheet has a decoder table. Here's how we do it: lay the schedule, the carton label and the cut sheet side by side, and compare every segment, one at a time. Don't skim the end of the string. That's where the options live.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: carton label shows a 120 V voltage segment; schedule line shows 120-277. Red circle graphic on the mismatch.",
+      "on_screen": "CAUGHT: 120 V fixture for a 277 V circuit",
+      "says": "Common catches. A 120-volt fixture delivered for a 277-volt circuit. MVOLT or universal is fine for both. A non-dimming driver where 0 to 10 volt is scheduled. 3000 K next to 4000 K, which is very noticeable. A missing emergency option on a fixture shown shaded on the plan. Or the wrong mounting kit, like lay-in grid instead of drywall flange.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, serious tone. Medium close-up.",
+      "on_screen": "Check label voltage against circuit voltage. Every time.",
+      "says": "Safety callout. Installing a 120-volt-only fixture on a 277-volt circuit will destroy the driver and can cause smoke or fire. Check the fixture label voltage against the circuit voltage before connecting, every time.",
+      "seconds": 13
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Lead tech and new tech at a plan table with a binder labeled 'Submittals'.",
+      "on_screen": "Mismatch? Stop and tell your lead.",
+      "says": "The schedule usually names a basis-of-design product. The contractor sends submittals, cut sheets for the exact products being supplied, to the engineer for review. Approved submittals are your best reference for what's actually being installed. If the fixture on site doesn't match the schedule or the approved submittal, stop and tell your lead before installing. Unapproved substitutions can cost the company money and the customer a rebate.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a project manual open to Division 26. On-screen list of sections.",
+      "on_screen": "Division 26: 26 51 00 Interior | 26 56 00 Exterior | 26 09 23 Controls",
+      "says": "Bigger projects also have a project manual, the specifications. Electrical is Division 26. 26 51 00 is interior lighting, 26 56 00 is exterior lighting, 26 09 23 is lighting control devices. Specs tell you what drawings don't: listings and warranty, support methods, wiring method rules, testing and commissioning, and closeout items like attic stock and as-builts.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the plan table, medium shot.",
+      "on_screen": "Drawings vs. specs conflict? Ask. Don't decide in the field.",
+      "says": "When drawings and specs conflict, the contract usually says which one governs. Don't decide that yourself in the field. Note the conflict and ask your lead, who may send an RFI, a request for information, to the engineer.",
+      "seconds": 15
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same setting, closer.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Type tags point to the schedule. Compare every catalog segment, especially voltage, dimming, color temperature and emergency options. Never connect a fixture whose label doesn't match the circuit. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Catalog strings in the lesson are illustrative only; use a mock carton label and mock cut sheet with no real manufacturer branding. Senior tech handles the carton comparison on camera; presenter voice-over for scenes 3-4. Graphic overlay to highlight the mismatched voltage segment."
+}

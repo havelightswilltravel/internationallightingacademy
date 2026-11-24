@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C10-L05",
+  "title": "Leading the Company Troubleshooting Procedures",
+  "course": "LT4-C10",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 203,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Company parking lot by a service truck at dawn; Danny with a newer tech reviewing two work orders. Medium shot.",
+      "on_screen": "Job Mindset: Leading a Ride-Along",
+      "says": "When you lead a ride-along, you own the safety of two people. Before we roll: an HID pole call and an emergency fixture call. Hazards are line voltage up to 480, a bucket truck, ignitor pulses and battery-fed fixtures. Plan for LOTO at the contactor, PPE for whoever is qualified to meter, parts for both jobs, and decide now where you'll stop the newer tech and ask questions.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera with a printed 1-4 rating sheet.",
+      "on_screen": "1 = I have seen it\n2 = I understand it\n3 = I perform it\n4 = I can teach it",
+      "says": "Our Master Troubleshooting Guide has every tech rate themselves on each system: one, I've seen it. Two, I understand it. Three, I perform it. Four, I can teach it. At LT4 you're expected to reach four on most systems and bring other techs up the scale. Rate on evidence, not years on the job, and record it in the tech's training file.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny at a whiteboard in the truck bay drawing the sequence.",
+      "on_screen": "Cheapest, most likely check → prove power → split the system → replace what readings point to → verify",
+      "says": "Every company procedure follows the same skeleton. Cheapest, most likely check first. Prove power. Split the system in half. Replace the part the readings point to. Verify. When a tech skips a step, don't repeat the rule. Ask what the skipped step would have proven. That teaches the logic.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Parking lot pole; newer tech starts to set a meter on an energized pulse-start socket. Danny stops him. Senior technician performs as newer tech; Danny on camera.",
+      "on_screen": "STOP: Ignitor disconnected, circuit locked out, before the open-circuit reading",
+      "says": "Here's the shortcut you have to catch. On pulse-start metal halide and high-pressure sodium, the ignitor gets disconnected, with the circuit locked out, before the open-circuit socket reading. Never meter a pulse-start socket with the ignitor connected. And chart values are typical; the ballast label governs. Then I ask, 'What does that reading tell you?'",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Same pole; Danny with a clipboard listing the corrections.",
+      "on_screen": "Energized readings: qualified persons only, in PPE\nCapacitor: de-energized capacitance test after discharge\nSensors: verify ground AND neutral",
+      "says": "Lead techs make sure the procedure is followed as corrected. Energized readings like 'check power' or socket voltage are taken only by persons qualified under our NFPA 70E program, in the required PPE. Everyone else works de-energized, then verifies live-dead-live. The HID capacitor check is a de-energized capacitance test after discharging. And motion sensors never use ground as a current return.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Office corridor; emergency troffer. Newer tech unplugs the battery connector before opening the fixture.",
+      "on_screen": "Battery fixtures are energized until the battery connector is unplugged\nPanels & breakers: write it up unless qualified",
+      "says": "Emergency call. Battery-equipped fixtures, like emergency ballasts, bug eyes and exits, are treated as energized until the battery connector is unplugged. And breakers, contactors, panels and relays stay 'write it up for an electrician' unless our company has qualified you.",
+      "seconds": 16
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Close on the emergency troffer: test button lights it; wall switch does not.",
+      "on_screen": "Lights on the test button, dark on the switch = normal side is the fault",
+      "says": "Real example. A tech replaced an emergency driver because a troffer stayed dark. Still dark on the wall switch, but it lights on the test button. That test button already proved the emergency side was good. The normal LED driver, or the switched feed, was the fault. My coaching question: what did your first test result mean?",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Truck cab; Danny and newer tech fill out a referral form together.",
+      "on_screen": "Referral: location & circuit • symptom & pattern • readings\nwhat was ruled out • suspected cause • safety status",
+      "says": "When it's beyond us, write a referral the electrician can act on. Location and circuit. Symptom and pattern. Readings. What you ruled out. Suspected cause. And safety status, like 'circuit left locked out at the contactor and tagged, customer informed.' A good referral lets them bring the right parts and skip your troubleshooting.",
+      "seconds": 21
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Truck cab; Danny marks a rating on the 1-4 sheet.",
+      "on_screen": "Rate on evidence",
+      "says": "Afterward, we rate the tech together. A three means they performed it safely with me watching. A four means they can explain it and catch someone else's errors. Show them where the gaps are, and let that drive their next assignments.",
+      "seconds": 16
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Danny outside the truck, medium close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Know why every step is there, catch the shortcuts, apply the safety corrections, and teach. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Ride-along dramatization: Danny on camera as the lead; a senior technician plays the newer tech. HID pole call in a generic parking lot (bucket truck shown parked and set up correctly; no aerial work needed on camera) and an emergency troffer call. Scene 4 must show the stop BEFORE the meter touches the energized socket; do not depict metering with the ignitor connected. Props: 1-4 rating sheet, referral form, LOTO kit, PPE. Example circuit IDs and readings from the lesson are not shown on screen."
+}

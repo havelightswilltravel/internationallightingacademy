@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C02-L03",
+  "title": "HID & LED Light Sources",
+  "course": "LT2-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 180,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at dusk beside a pole with an HID fixture and a nearby LED area light. Medium shot.",
+      "on_screen": "HID & LED Light Sources",
+      "says": "If you don't understand how a light source behaves, you'll troubleshoot a light that isn't broken, or handle a hot lamp that can hurt you. This lesson covers the two families you'll see most on commercial sites: HID and LED. Watch the pole behind me.",
+      "seconds": 18
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "HID pole light strikes dim and slowly warms up; nearby LED fixture snaps on at full output. Time-lapse counter on screen.",
+      "on_screen": "HID: minutes to warm up | LED: instant on",
+      "says": "That HID light just struck, and it'll take several minutes to reach full brightness. The LED next to it came on instantly at full output. HID lamps make light with an arc inside a small high-pressure arc tube, inside an outer bulb. They need a matched ballast, often an ignitor and capacitor, and they contain mercury.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Bench: MV, MH and HPS lamps lined up, close-ups of each arc tube and marking.",
+      "on_screen": "MV: bluish, oldest | MH: white, about 10 min to full | HPS: orange-gold, about 2000-2100 K",
+      "says": "Three types you'll identify by shape, arc tube and markings. Mercury vapor is bluish-white, the oldest and least efficient; manufacture and import of MV ballasts was prohibited in the U.S. starting in 2008, but you'll still find them. Metal halide is white and takes about ten minutes to full brightness. High-pressure sodium is orange-gold and very efficient. Each lamp needs a ballast designed for that type and wattage.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "HID fixture switched off and back on; lamp stays dark, timer runs.",
+      "on_screen": "Restrike: HPS about 1-2 min | MH 10-20 min | wait before you troubleshoot",
+      "says": "Restrike delay. After a power interruption, a hot HID lamp can't restart until it cools. HPS: about a minute or two. Metal halide: ten to twenty minutes. Customers call that a failed light, and you wait before you troubleshoot. End-of-life signs: an HPS lamp cycling on and off, or a metal halide shifting color, dimming or starting slowly.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Enclosed high-bay with an intact lens; close-up of lamp markings.",
+      "on_screen": "MH rupture: open-rated lamps only in open fixtures | others: enclosed fixtures with an intact lens",
+      "says": "Metal halide arc tubes can rupture at end of life; if the outer bulb breaks, hot glass can fall and start fires. Lamps rated for open fixtures are designed to contain a rupture. Others go only in enclosed fixtures with an intact lens. If an MH or MV outer bulb breaks while the lamp runs, it can emit UV that burns skin and eyes. Turn it off and replace it immediately.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Bench: LED fixture opened to show the board, driver and heat sink.",
+      "on_screen": "LED parts: chips | driver (AC to DC) | heat sink | optics | heat is the main enemy",
+      "says": "HID fixtures run very hot, so let them cool, and remember the capacitor can store a charge after power is removed. Now LED. LEDs are semiconductors that make light from DC current. The driver converts AC line voltage to regulated DC. The heat sink pulls heat away, because heat is the main enemy of LED life. LEDs are efficient, long-lived, instant on, and contain no mercury.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Table with a screw-in LED lamp, a TLED, a retrofit kit, an integrated fixture and a corn-cob HID replacement lamp.",
+      "on_screen": "Never install a TLED or LED retrofit lamp without your supervisor's direction",
+      "says": "You'll see LED in many forms: screw-in lamps, tubular LEDs, retrofit kits, integrated fixtures and corn-cob HID replacement lamps. Some tubes and HID replacements require rewiring to bypass the ballast, which changes the fixture and must follow the product instructions and labeling. Installing the wrong type can create shock and fire hazards. Never install a TLED or LED retrofit lamp without your supervisor's direction.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "",
+      "says": "Know the source, respect the heat and the restrike, and match every lamp to its ballast. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Dusk shoot at a pole or warehouse with an HID fixture and an LED fixture near each other. Bench MV/MH/HPS lamps unpowered. Do not show a broken-outer-bulb lamp operating. Lesson file path is LT1-C05/03 (course code differs from vid LT2-C02)."
+}

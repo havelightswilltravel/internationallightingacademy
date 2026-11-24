@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C06-L01",
+  "title": "LED Retrofit Options, Listings and Labels",
+  "course": "LT2-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 194,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop table with a Type A TLED, a Type B single-ended TLED, a Type B double-ended TLED, a Type C lamp-and-driver kit, a troffer retrofit kit and a mogul-base HID replacement lamp, each with its box. Medium shot.",
+      "on_screen": "LED Retrofit Options, Listings and Labels",
+      "says": "LED retrofits are a big share of our service work. A retrofit changes how a fixture was listed to operate. Done right, it's safe, efficient and code-compliant. Done carelessly, it can leave line voltage on lamp sockets with no warning, void the fixture's listing, or create a fire hazard. Choosing the right option and labeling it right is part of planning a safe job.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Camera moves along the table, close on each product.",
+      "on_screen": "Type A: runs on ballast | Type B: ballast bypass | Type C: remote driver | Dual-mode | Retrofit kit | Screw-base LED",
+      "says": "Here are the options. Type A plugs into the existing fluorescent ballast; no fixture change. Type B, ballast bypass, removes the ballast and wires the sockets to line voltage. Type C uses a separate external LED driver that replaces the ballast, with low voltage to the sockets. Dual-mode starts as Type A and can be bypassed later. Retrofit kits install LED panels or strips into the housing. And screw-base LED lamps.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups of packaging markings: UL Type, listing mark, standard numbers.",
+      "on_screen": "UL 1993: lamps | UL 1598C: retrofit kits | UL 8750: drivers and modules | UL 1598: luminaires",
+      "says": "Types B and C, retrofit kits, and dual-mode after bypass all modify the fixture. You don't have to memorize standards, but recognize them on the box. UL 1993 covers lamps and many TLEDs. UL 1598C covers retrofit kits that modify a fixture. UL 8750 covers drivers and LED modules. UL 1598 is the original fixture's standard.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Lead tech unfolds a kit's installation instructions next to the box.",
+      "on_screen": "NEC: retrofit kits must be listed (Art. 410) | install per instructions (110.3(B))",
+      "says": "The NEC requires luminaires, lampholders and retrofit kits to be listed, and listed equipment to be installed per its instructions. A UL 1598C kit's instructions define exactly which fixtures it can go in and how, and they come with labels that must be applied. Skip either one, and the installation isn't compliant, even if it lights up. If a kit has no recognized certification mark, don't install it. Tell your lead.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of labels from a Type B kit being held up: modified fixture, and line voltage at lampholders.",
+      "on_screen": "Labels: fixture modified | line voltage at lampholders | kit ID",
+      "says": "Here are the labels in the box. This fixture has been modified, and it can't use the original lamps. For Type B, a warning that line voltage is present at the lampholders. And the kit's identity. They go where the instructions say, commonly near the lampholders and on the outside, visible during relamping. A missing label is one of the most common retrofit deficiencies inspectors and customers find.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up beside an open troffer.",
+      "on_screen": "Treat any fixture you open as possibly converted until you verify",
+      "says": "That label protects the next person. A tech who assumes it's fluorescent and handles sockets with power on can be shocked at full 120 or 277 volts. Always apply every label supplied with the kit, and treat any fixture you open as possibly converted until you verify otherwise.",
+      "seconds": 19
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a DLC marking on a box; then a decision graphic.",
+      "on_screen": "Rebate job? Install exactly the approved DLC-qualified model",
+      "says": "DLC, the DesignLights Consortium, keeps a list of qualified LED products, and many utility rebates require them. On a rebate job, install exactly the approved model; a substitution can cost the customer the incentive. A first pass at choosing: new, compatible ballasts and a fast install point to Type A. Old or failing ballasts point to Type B or C. Rusted housings point to a kit or a new fixture.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the table, medium shot.",
+      "on_screen": "Emergency ballast present? Plan before converting",
+      "says": "And if there's an emergency battery ballast in the fixture, it needs a compatible LED emergency solution, so plan it before you convert. Follow the instructions exactly, and apply every label. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Table layout per the lesson's video suggestion; show packaging markings (UL Type, listing mark, DLC), instructions and in-box labels. Mask manufacturer brands. Lesson file path is LT2-C05/01 (course code differs from vid LT2-C06)."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C02-L04",
+  "title": "Color Quality – CCT, CRI & TM-30",
+  "course": "LT5-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 173,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Small demo room with a table of fruit, skin-tone cards, a red fire extinguisher and colored fabrics under two switchable LED fixtures. Matthew beside the table.",
+      "on_screen": "Color Quality: CCT, CRI & TM-30",
+      "says": "Color complaints are often blamed on 'bad LEDs' when the real problem is a specification mismatch. A tech who can read the spec sheet saves callbacks. Color comes down to two separate questions. What color is the light itself? That's CCT. And how well does it reveal object colors? That's color rendition: CRI and TM-30. They're independent.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Same objects under 3000K, then 5000K.",
+      "on_screen": "CCT in kelvin: lower = warmer, higher = cooler\n3000K warm white • 4000K neutral • 5000K+ cool",
+      "says": "CCT is in kelvin. Lower is warmer and more yellow-orange; higher is cooler and bluer. Three thousand K is warm white for retail, hospitality and many offices. Four thousand K is neutral for offices, schools and healthcare. Five thousand and up is cool, for industrial and inspection work. ANSI C78.377 defines the standard bins.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Ceiling with mixed troffers showing slightly different whites.",
+      "on_screen": "Consistency: 2-3 step MacAdam/SDCM = tight\nDuv: green (+) or pink (−)",
+      "says": "Two fixtures labeled 4000K can still look different. Consistency is listed in MacAdam steps, or SDCM. Two- or three-step products match; five to seven steps can show visible differences, especially on walls. Duv tells you if the light leans green or pink at the same CCT. If a customer says the new lights look green, Duv is a suspect.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Objects under a low-CRI and a high-CRI LED of the same CCT, side by side; red extinguisher close-up.",
+      "on_screen": "CRI Ra: 8 pastel samples, max 100\n90+ high fidelity • 80-89 typical commercial • 70-79 industrial/exterior\nR9 = saturated red (not in Ra)",
+      "says": "CRI, or Ra, compares eight pastel samples against a reference source; max is 100. Ninety-plus is high-fidelity for retail, exam rooms and museums. Eighty to 89 is typical for offices and schools. Seventy to 79 for industrial and exterior. Look at the red. R9, saturated red, isn't part of Ra, and many LEDs score poorly, making skin, meat and red safety equipment look dull.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: TM-30 color vector graphic with Rf and Rg values.",
+      "on_screen": "TM-30: 99 samples\nRf (fidelity, 0-100) • Rg (gamut, ~100 neutral)\nRf 88 / Rg 104 vs Rf 78 / Rg 92",
+      "says": "ANSI/IES TM-30 is newer and more detailed, using 99 color samples. Rf is fidelity, zero to 100, like CRI but more accurate. Rg is gamut: around 100 is neutral, above means more saturated, below means duller. Rf 88, Rg 104 is good fidelity with a bit more saturation, often preferred in retail. Rf 78, Rg 92 means lower fidelity and duller colors.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a spec sheet; Matthew points to CCT, CRI Ra, R9, TM-30 Rf/Rg and SDCM.",
+      "on_screen": "Spot-replacing? Match CCT, consistency, ideally same manufacturer/series",
+      "says": "On the job: spot-replacing a few fixtures, match CCT and consistency, ideally the same manufacturer and series, or you get a patchwork ceiling. 'New lights look blue or harsh'? Check CCT against the original, glare and high-end trim. 'Food or skin looks gray'? Low R9 or low Rf. A TLED in a gallery or clinic? Confirm CRI or TM-30 meets spec, not just lumens.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew looking at illuminated objects, not the fixture.",
+      "on_screen": "Judge color on objects. Don't stare into the source.",
+      "says": "Safety point. Don't judge color by staring into a fixture. High-luminance LEDs can cause discomfort and temporary visual impairment, which is the last thing you want on a lift. Look at the illuminated objects and surfaces instead.",
+      "seconds": 15
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Demo room, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "CCT is the color of the light. CRI and TM-30 are how well it shows colors. Match all of them, not just lumens. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Knowledge lesson; scene 1 ties color knowledge to fewer callbacks. Demo room with two LED sources of the same CCT but different CRI, plus 3000K and 5000K sources; objects: fruit, skin-tone cards, red fire extinguisher, colored fabrics. Camera white balance must be locked (not auto) so viewers see the real difference; add a note on screen that video can only approximate color. Generic spec sheet, no brand."
+}

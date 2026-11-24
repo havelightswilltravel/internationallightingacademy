@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C05-L01",
+  "title": "HID Lamps, Ballasts, Ignitors and Capacitors",
+  "course": "LT2-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 200,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with an opened, de-energized 400 W pulse-start metal halide high-bay ballast kit; a test fixture behind a clear shield. Medium shot.",
+      "on_screen": "HID Lamps, Ballasts, Ignitors and Capacitors",
+      "says": "Before you can service an HID fixture safely, you need to know what's inside it, because two of these parts can hurt you even with the power off, or destroy your meter with it on. This is a de-energized 400 watt pulse-start metal halide ballast kit. Let's go through it.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic table over bench footage of lamps.",
+      "on_screen": "Probe-start MH: probe, no ignitor | Pulse-start MH: ignitor | CMH | HPS: ignitor | MV: legacy",
+      "says": "The family. Probe-start metal halide uses a starting electrode and no ignitor. Pulse-start metal halide uses an ignitor and restrikes faster. Ceramic metal halide gives good color for retail. High-pressure sodium uses an ignitor and lasts long. Mercury vapor is legacy only. All of them contain mercury and are managed as universal waste.",
+      "seconds": 21
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close on the core-and-coil ballast label, then the lamp's ANSI code.",
+      "on_screen": "Match the lamp's ANSI code, not just wattage | 400 W probe-start and pulse-start are not interchangeable",
+      "says": "This is the core-and-coil ballast. It gives starting voltage and limits lamp current. The most common type for metal halide is constant-wattage autotransformer, or CWA, which holds lamp watts fairly steady over about plus or minus ten percent line voltage. Match the ballast to the lamp's ANSI code, like M codes for metal halide and S codes for HPS. A 400 watt probe-start and pulse-start lamp use different ballasts.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of multi-tap leads labeled 120, 208, 240, 277, 480 and common; each unused lead capped individually.",
+      "on_screen": "Connect common + the ONE tap matching measured voltage | cap each unused tap individually | never twist taps together",
+      "says": "These are the multi-tap leads: quad-tap or five-tap, with a common and one lead per voltage. Connect the common and only the tap that matches the measured supply voltage. Insulate every unused tap individually. Never twist them together; they're at different voltages. Put 277 on the 120 tap and you burn out the ballast and lamp.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Capacitor close-up with its label; then discharge tool across terminals and a meter reading 0 V.",
+      "on_screen": "Capacitor: microfarads + AC voltage | discharge, then verify 0 V",
+      "says": "The capacitor regulates lamp current and improves power factor. It's rated in microfarads and AC volts; use the exact rating specified. Failure signs: bulging, leaking, burnt terminals. And it stores charge. After lockout and verification, discharge it, best through a discharge resistor tool, then verify zero volts with your meter. Never assume a bleed resistor did its job.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Ignitor module close-up showing its three leads.",
+      "on_screen": "Ignitor pulses: a few kV | never meter an energized HID socket with the ignitor connected",
+      "says": "The ignitor sends short high-voltage pulses, typically a few kilovolts, to start pulse-start and HPS lamps. It has distance limits to the lamp, and some are non-cycling. Here's the rule: ignitor pulses can destroy a multimeter and injure you. Never measure at an HID socket with the ignitor connected and the circuit energized. Use the maker's test procedure or test by substitution.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Test fixture behind the shield strikes and warms up; on-screen timer. Trainer switches off and on; lamp stays dark while the restrike timer runs.",
+      "on_screen": "Warm-up and hot restrike: probe-start MH about 10-20 min | pulse-start MH about 2-8 min | HPS about 1 min",
+      "says": "Watch the warm-up: a few minutes to near full output. Now off, and back on. Nothing. A hot HID lamp can't restrike until arc tube pressure drops. Probe-start metal halide is about ten to twenty minutes; pulse-start, about two to eight; HPS, about a minute. Explaining restrike saves unnecessary service calls. It's also why HID is a poor match for occupancy sensors.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Gym ceiling with an open HID fixture; graphic of a cracked outer bulb with UV warning.",
+      "on_screen": "Broken outer bulb on a lit lamp: keep people out, turn it off, don't look at it | T = self-extinguishing | R = needs a lens | O = open-rated",
+      "says": "Last, the outer bulb. On MV and MH lamps it blocks most UV. If it breaks, some lamps keep running and give off UV that burns eyes and skin. Keep people out from under it, turn it off, don't look at it. Lock out, cool at least ten minutes, and remove it with cut-resistant gloves and glasses. Replace it with the same ANSI code and T, R, open or enclosed rating.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "",
+      "says": "Know the parts, discharge the capacitor, and respect the ignitor. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Bench session per the lesson's video suggestion. Ballast kit de-energized for identification. Test fixture energized only behind a shield; show on-screen timers for warm-up and restrike. Do not film an operating lamp with a broken outer bulb; use a graphic. Lesson file path is LT2-C04/03 (course code differs from vid LT2-C05)."
+}

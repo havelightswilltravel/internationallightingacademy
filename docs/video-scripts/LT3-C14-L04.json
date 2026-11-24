@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C14-L04",
+  "title": "Underground Circuits, Wet Locations & Ground Faults",
+  "course": "LT3-C14",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 223,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at a pole base, hand hole open, cones set; tech with insulation resistance tester, lock kit and splice kits. Presenter voice-over.",
+      "on_screen": "Job Mindset: Finding a Ground Fault",
+      "says": "Job mindset. A ground fault means a breaker that wants to trip, maybe a faulted pole, and a tester that puts out its own test voltage. Lock out at the panel, verify dead, keep hands off conductors under test. Plan ahead: drawings showing every pole, keys to the hand holes, listed direct-burial splice kits, and cones for every pole you'll open.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a pole, medium close-up.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may repair exterior, underground and pole wiring under the company's license. In others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and that you're authorized. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Cutaway graphic of underground PVC conduit with water inside; on-screen depth table.",
+      "on_screen": "Underground raceway = WET location. Cover: 24 in direct burial | 18 in PVC | 6 in rigid | 24 in under parking lots",
+      "says": "Underground facts. The inside of an underground raceway is a wet location, so conductors need a wet rating, like the W in THWN-2, and splices must be listed for wet or direct burial. An equipment grounding conductor runs to every pole. Common cover depths from Table 300.5: 24 inches for direct burial, 18 for PVC, 6 for rigid metal, 24 under parking lots and driveways.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen symptom table.",
+      "on_screen": "Trips instantly = solid fault | Trips when wet = moisture | Tingle from a pole = EMERGENCY",
+      "says": "Symptoms. Trips instantly when reset: a solid fault to the ground conductor or pole. Trips only during or after rain: moisture, a flooded hand hole or splice, or water in a luminaire. Breaker holds but some poles are dark: an open or a blown pole fuse. A tingle or shock from a pole is an emergency. Never reset a tripped breaker repeatedly. Each reset onto a fault risks arc flash.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Trainer locks out at the panel, verifies dead at the panel and first hand hole, disconnects each luminaire tap at its fuse holder.",
+      "on_screen": "Megger ONLY de-energized, locked out, verified. Disconnect drivers, photocontrols and SPDs.",
+      "says": "Finding it. Identify every pole on the circuit. Lock out at the panel and verify absence of voltage at the panel and the first hand hole. Disconnect the conductors from the breaker or test from the first hand hole, and disconnect every luminaire tap, so only the underground conductors remain. Drivers, photocontrols and SPDs must be disconnected. The test voltage can damage them and they spoil the reading.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: insulation resistance tester leads on a conductor and the EGC; display shows a reading in megohms.",
+      "on_screen": "High megohms = good | low megohms = moisture | near zero = solid fault",
+      "says": "An insulation resistance tester applies a DC test voltage, commonly 500 or 1,000 volts for 600-volt conductors, per our procedure and the cable rating. Test each conductor to ground and record it. Compare against our acceptance criteria. Hundreds of megohms or more is good. Low megohms means moisture or aging. Near zero is a solid fault. The test voltage can shock you, so hands off, and discharge after.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of the run split at the middle pole; trainer tests both directions from the middle hand hole.",
+      "on_screen": "Half-split at the middle hand hole. The low reading follows the fault.",
+      "says": "Now sectionalize. Open the run at a hand hole near the middle and test both directions. The low reading follows the faulted section. Keep halving until the fault is between two hand holes or in one splice. Inspect splices in the suspect hand holes first, they're the most common failure. If it's buried conductor between hand holes, the fix is usually to pull new conductors.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: repaired splice with a listed direct-burial kit; whole run re-tested; readings written on the work order.",
+      "on_screen": "Listed wet/direct-burial splice | retest the whole run | document before and after",
+      "says": "Repair with listed wet or direct-burial splices, not tape and twist-ons. Retest the whole run, reconnect loads, restore power, and document readings before and after. Don't forget the luminaires: if the underground run tests good, check the tap conductors up the pole with the driver and SPD disconnected, and look for water in the head.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the pole, medium shot.",
+      "on_screen": "Digging? Call 811 first. Private circuits usually aren't marked.",
+      "says": "If the repair needs digging, call 811 first, as state law requires, and follow OSHA excavation rules. Private site circuits often aren't marked by utility locators, so use the drawings or a private locator. Now read the lesson and take the quiz.",
+      "seconds": 17
+    }
+  ],
+  "production_notes": "Trainer (senior tech) performs lockout and testing; presenter voice-over in scenes 1, 5-8. Use a generic insulation resistance tester. Show readings on the display; do not overlay specific megohm pass/fail numbers since acceptance criteria are company-specific. Lot with no tenant signage."
+}

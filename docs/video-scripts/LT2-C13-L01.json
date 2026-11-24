@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C13-L01",
+  "title": "The Systematic Troubleshooting Method",
+  "course": "LT2-C13",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 205,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office hallway outside a conference room with the lights out; two techs with tool bags. Matthew in the foreground, medium shot.",
+      "on_screen": "Job Mindset: The Troubleshooting Call",
+      "says": "Lights out in a conference room. Before you touch anything, think safety: energized circuits, a ladder, people walking in. Measure live only with PPE and a tested meter, and lock out before any repair. Plan before you leave: meter, known-good lamps, a likely driver or ballast, ladder, LOTO kit. And think steps ahead, so a surprise in the ceiling doesn't catch you off guard.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Split screen: Tech A on a ladder swapping a ballast, then a lamp, then another part; Tech B talking to the room's occupant with a notepad. Presenter voice-over.",
+      "on_screen": "Guessing vs. a method",
+      "says": "Two techs, same call. One guesses and swaps parts. The other runs our seven-step method. Experienced techs who seem to just know what's wrong actually have a method they run so often it looks automatic. Without one, you replace parts that weren't bad, miss the real cause, take unsafe shortcuts, and can't explain what you did.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech B interviews the occupant; on-screen questions appear.",
+      "on_screen": "1 Gather information",
+      "says": "Step one, gather information. Which fixtures: all, some, or one? Out, dim, flickering, cycling, buzzing? When did it start, and is it all the time or only sometimes? Has anything changed, like a remodel, new equipment, an outage, or someone who fixed it? Has it happened before? Write it down. Intermittent problems are often solved by the pattern the customer noticed.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech B flips the wall switch, waves at the occupancy sensor, then looks down the corridor at fixtures on the same circuit.",
+      "on_screen": "2 Verify the complaint",
+      "says": "Step two, verify it yourself. Flip the switch, wave at the sensor, check the time clock. Sometimes the problem is a vacancy sensor, a dimmer turned all the way down, or an HID fixture in its restrike delay. And check whether other fixtures on the same circuit work. That one check tells you whether to focus on the fixture or the circuit and controls.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech B reads the panel label and fixture label, sets a ladder, lays out LOTO kit and PPE.",
+      "on_screen": "3 Plan safely",
+      "says": "Step three, plan safely. Identify the voltage. Decide which tests need the circuit energized, like voltage readings, and which must be dead, like resistance, continuity and any repair. Arrange access. Plan your lockout points and PPE. Troubleshooting often needs energized measurements, but repairs never do. Never just quickly swap a ballast with the circuit on.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: Matthew writes a list of causes and circles where Likely, Easy and Safe overlap.",
+      "on_screen": "4 Analyze: Likely + Easy + Safe",
+      "says": "Step four, analyze possible causes. List them, then rank them. Likely: lamps fail most, then ballasts and drivers, then connections and sockets, then controls, then circuits. Easy: a known-good lamp beats a panel investigation. Safe: what can you check without energized exposure? Start where those three overlap.",
+      "seconds": 19
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified Tech B in PPE measures at the fixture; then locks out and replaces one part; presenter voice-over.",
+      "on_screen": "5 Test & isolate  6 Repair the part AND the cause",
+      "says": "Step five, test and isolate. Use measurements, not guesses. Follow power from the source to the load, or half-split. Change one thing at a time. Change two and it works, and you don't know which fixed it. Step six, repair, and ask why it failed. Replace a driver that cooked under insulation on a non-IC fixture, and you'll be back.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Tech B operates the lights from the wall switch, checks neighbors, then fills out the work order. On-screen comparison: Tech A time and parts vs Tech B.",
+      "on_screen": "7 Verify & document",
+      "says": "Step seven, verify and document. Operate it the way the customer does, from the normal switch, sensor, dimmer or time clock. Check the neighbors. Record the symptom, cause, repair and readings. Look at the difference: Tech A used more time and more parts and still might be coming back.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera in the hallway.",
+      "on_screen": "Escalating is not failure. Guessing on energized equipment is.",
+      "says": "Stop and ask your lead when readings don't make sense, the fault's in a panel, feeder or transfer switch beyond your qualification, you find hazards like missing grounds, heat damage or water, or you've run out of likely causes. Escalating is not failure. Guessing on energized equipment is. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Staged two-tech comparison per the lesson's video suggestion; show an on-screen tally of time and parts for each. All energized readings by a qualified tech in PPE with a tested meter; show LOTO before the repair. Tech A's part-swapping should not be shown energized (staged on a de-energized fixture) so the video never models unsafe work."
+}

@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C09-L03",
+  "title": "Mandatory Lighting Controls",
+  "course": "LT4-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 202,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Lobby of a recently retrofitted generic office building; Matthew holds a clipboard checklist. Medium shot.",
+      "on_screen": "Mandatory Lighting Controls",
+      "says": "Before you walk a building to test its controls, plan it: know which control each space should have, bring the compliance documents and a checklist, and confirm the egress lighting design. Testing controls can leave someone in the dark on a stairwell if you're careless. Modern energy codes make most controls mandatory, no matter how efficient the fixtures are.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera in the lobby.",
+      "on_screen": "Categories, not numbers: confirm specifics in the adopted code",
+      "says": "The exact rules, exceptions and numbers vary by code and edition: ASHRAE 90.1, the IECC, Title 24. So this lesson teaches categories you need to recognize in the field. For the specific numbers, always confirm in the adopted code and the project's compliance documents.",
+      "seconds": 18
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Private office; senior tech walks out, lights go off after the timeout. Presenter voice-over.",
+      "on_screen": "Local control\nRestricted ON\nAutomatic shutoff (20 min in several recent editions)",
+      "says": "Private office. Three categories here. Local control: a switch or wallstation in the space where you can see the lights. Restricted ON: manual-ON, or automatic partial-ON, commonly no more than about 50 percent. Automatic shutoff: a sensor turns lights off within the code maximum after the space empties. Several recent editions use 20 minutes. The walk-out test proves it.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Open office near windows; window-row fixtures dim while interior rows stay at full. Senior tech performs; presenter voice-over.",
+      "on_screen": "Daylight-responsive control\nMulti-level / light reduction",
+      "says": "Open office by the windows. Daylight-responsive control reduces electric light when daylight is available, with primary and secondary sidelit zones controlled separately where required. Watch the window row dim while the interior rows don't. That's the test. You'll also see multi-level control here: dimming or bi-level switching so people can reduce the light.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Corridor and stairwell; lights step down to a lower level, not off. Presenter voice-over.",
+      "on_screen": "Partial OFF in corridors and stairwells\nEgress lighting must stay at the life-safety level",
+      "says": "Corridor and stairwell. These can't go fully dark, so they use partial OFF: they step down when unoccupied. Here's the safety rule. Required egress illumination must stay available when the space is occupied. A setback can never leave an egress path below the life-safety requirement or disable emergency lighting. Confirm the minimum level with the design documents.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Restroom, then a building panel room with a time clock or NLC screen. Presenter voice-over.",
+      "on_screen": "Scheduled shutoff, override limited (often ~2 hours)\nSpecial-application control",
+      "says": "Restroom: occupancy shutoff again. At the control panel, scheduled shutoff turns lights off when the building closes, with a limited override, often about two hours. Special-application control means display, task, decorative or plug-in lighting gets its own circuit or zone. Some spaces are exempt, like spaces where automatic shutoff would endanger people. Check the exact list.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at dusk; LED area lights with integral motion sensors. Senior tech covers the photocell to demonstrate.",
+      "on_screen": "Exterior: daylight shutoff, scheduled facade shutoff, late-night reduction",
+      "says": "Parking lot. Exterior rules commonly include daylight shutoff by photocell or astronomic clock, scheduled shutoff of facade and landscape lighting late at night, and late-night reduction of other lighting by a code-set percentage, often with motion sensing. Expect these any time you replace parking lot or wall-pack fixtures.",
+      "seconds": 19
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew on the sidewalk with the clipboard; checklist graphic on screen.",
+      "on_screen": "90.1 & IECC: functional testing\nTitle 24: certified acceptance testing",
+      "says": "ASHRAE 90.1 and the IECC require functional testing of installed controls, with documentation to the owner. Title 24 goes further: a certified Acceptance Test Technician performs acceptance tests on specific forms before final. These tests overlap with NLC commissioning, so do them once and document them to satisfy both.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Office with old toggle switches; Matthew points at a switch.",
+      "on_screen": "Flag control triggers before the bid is final",
+      "says": "Here's the real-world trap. A customer wants troffers in a 20-office suite swapped for LED on the same toggle switches. Depending on the adopted code and how many fixtures you replace, that may be an alteration requiring vacancy sensors, multi-level control and daylight control near windows. Flag it before the bid is final, not after the inspector does.",
+      "seconds": 23
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Lobby, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Recognize the categories, test that they work, document it, and never compromise egress. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Walkthrough of a generic retrofitted office building (no logos). Senior technician performs demonstrations on camera (walk-out test, daylight dimming, photocell cover); presenter voice-over for scenes 3-7. Scene 1 is a short Job Mindset framing for field testing. Film parking lot at dusk. Do not show any setback leaving a stairwell dark."
+}

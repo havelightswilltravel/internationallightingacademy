@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C01-L05",
+  "title": "Our Company's Electrical Safety Rules",
+  "course": "LT1-C01",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 290,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Danny at the open side door of a service truck in the shop yard, medium shot. Fire extinguisher visible on its mount.",
+      "on_screen": "Job Mindset: every electrical job",
+      "says": "Job Mindset before any electrical work. The hazards are shock, arc flash, and a fall when you get startled. The top control is to de-energize and lock it out. Plan it at the shop: your lock and tag, a tested meter, hot gloves, a fiberglass ladder, portable work lights for when the lights go off, and know where this extinguisher is before you roll.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny at the truck.",
+      "on_screen": "Treat every circuit as live",
+      "says": "Our handbook starts with one rule: treat all electrical circuits and equipment as live. Don't adjust or repair anything electrical unless it's your assignment. Never work on a fixture if you feel you can't do it safely. And never try a task you haven't been trained on. Watching someone do it once isn't training. That's a common cause of accidents.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny beside a lighting panel with a lock and tag on a breaker.",
+      "on_screen": "De-energize first. Working live is not LT1 work.",
+      "says": "Company policy is to de-energize every circuit before you work on it and follow our lockout/tagout procedure. Keep fixture and wiring covers on unless an authorized person removes them after the energy is isolated. Working live is the exception, and it's never LT1 work. It takes a qualified technician, a written plan and an Energized Electrical Work Permit. If a job can't be locked out, stop and call your supervisor.",
+      "seconds": 30
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "On the truck tailgate: cotton liner, rubber insulating glove, leather protector laid out in order. A qualified tech rolls the rubber glove cuff to trap air and checks for leaks. Danny voice-over.",
+      "on_screen": "If you didn't personally lock and tag it, wear your hot gloves",
+      "says": "Here's our hot-glove rule. If you have not personally locked and tagged out the circuit you're servicing, wear your hot gloves. That includes panels, neon and signs, anywhere you could become grounded, like reaching through a T-bar ceiling, and testing for absence of voltage. Three layers: cotton liner, rubber glove, leather protector, every time. Inspect and air-test before and after each use. Never use a glove past its test date.",
+      "seconds": 30
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up of brittle cloth-insulated wiring in an old fixture box (de-energized prop). Danny voice-over.",
+      "on_screen": "Cloth wiring: always lock out + hot gloves + report it",
+      "says": "Hot gloves are a backup, not a plan. For you, the answer is still to work only on circuits you've locked out and verified. And watch for cloth-insulated wiring in older buildings. It's brittle and can crumble and expose bare copper. Company policy: always lock out around it, wear hot gloves with your normal PPE, and report it to your supervisor.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny pulls a fiberglass stepladder off the rack, next to a multi-position ladder with aluminum rails.",
+      "on_screen": "Fiberglass ladders for electrical work",
+      "says": "Ladders. Use fiberglass for electrical work. No metal ladders near electrical installations. Rubber feet on a multi-position ladder don't mean you're isolated. Many have aluminum rails, so talk to your supervisor before using one for electrical work. And wherever you could touch grounded metal, like the ceiling grid or conduit, de-energize, or use barriers like insulating mats and gloves.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny runs an extension cord hand over hand, finds a cut jacket, red-tags it and cuts off the ends. Then holds a metal-housed drill plug, ground pin intact.",
+      "on_screen": "Failed cord: red-tag it and cut the ends off",
+      "says": "Tools and cords. We use only grounded or double-insulated tools, and ground pins are never removed. Inspect every cord for breaks, burns, cuts and plug damage. A cord that fails gets red-tagged and its ends cut off so nobody uses it again. Match the cord rating to the tool. Don't plug one cord into another, don't run them through doorways or ceilings, and unplug when you're done.",
+      "seconds": 29
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny in front of a closed panel with floor tape marking 3 ft of clear space; a Class C-rated extinguisher on the wall.",
+      "on_screen": "3 ft clear in front of panels. Class C extinguisher. Never water.",
+      "says": "At the panel. Keep at least 3 feet of clear working space in front of it, more at higher voltages. Nothing stacked there, ever. Report unlabeled breakers. Never use water on an electrical fire. Use a Class C-rated extinguisher and shut off the power if you can. If you didn't lock it, gloves on. If you can't lock it, call me.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny at the panel, close-up.",
+      "on_screen": "Shock: don't touch - power off - dry non-conductive item - call 911",
+      "says": "If someone's shocked, don't touch them. Shut off the power if you can do it quickly. If not, use something dry and non-conductive, like dry rope or a dry wooden stick, to separate them. Call 911. CPR and first aid if you're trained. Then report it, and they get a medical evaluation. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Danny presents; a qualified tech performs the hot-glove layering and air test on camera. Use the company truck with extinguisher on its mount. Cloth-wiring close-up uses a de-energized prop or a removed fixture. Extension cord to be red-tagged and cut should be a cord already scheduled for disposal. The panel stays closed. Check the line \"call me\" is understood as the supervisor; optional lower third: Danny Smith, Operations Manager."
+}

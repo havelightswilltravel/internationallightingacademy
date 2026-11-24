@@ -1,0 +1,99 @@
+{
+  "vid": "LT4-C06-L03",
+  "title": "Troubleshooting a Case Lighting Outage",
+  "course": "LT4-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 300,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Grocery store, a dark reach-in freezer lineup. Matthew with a tool bag and cart. Medium shot.",
+      "on_screen": "Job Mindset: Dark Freezer Lineup",
+      "says": "A dark case could be defrost, a switch, a lamp, a ballast, a harness or the circuit. The hazards: line voltage that defrost and case switches don't remove, glass over food, wet floors. Lock out and verify before you touch a socket or wire. Plan ahead: lamps, sockets, a remote cold-rated ballast, and a plan for when the fix means breaking a refrigeration seal.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; lower-third callout.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may troubleshoot and repair case lighting under our company's license. In others it takes a licensed electrician, and some jobs need a permit and inspection. The refrigeration system may need a licensed refrigeration tech. Confirm with your supervisor that it's allowed and you're authorized. When in doubt, stop and ask.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech checks the light switch at the end panel, then the case controller display. Step overlay.",
+      "on_screen": "1. Switches  2. Defrost: mark it, come back in about 30 min",
+      "says": "Our procedure goes from easiest to hardest. Don't skip steps. Step one, check the switches: the case switch, often at the end panel, canopy or kick plate, and any schedule that might turn the case off. Step two, rule out defrost. Check the controller or ask the manager. If it could be defrost, mark the location and come back in about half an hour.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Lights switched off, lock and tag on the case lighting breaker, live-dead-live test; tech swaps a known-good lamp, then inspects sockets with a flashlight. Step overlay.",
+      "on_screen": "3. Lamps (known-good swap)  4. Sockets: breaks and burns",
+      "says": "Step three, lamps. Look for dark ends, broken tubes or a strip out, and swap in a known-good lamp. Before you touch any socket contact or wiring, lock out the case lighting circuit and verify, live-dead-live. Many case circuits are 120 or 277 volts. Step four, sockets: cracked bodies, melted plastic, blackened or corroded contacts. Replace them with matching moisture-rated sockets.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech opens the door frame header to expose the remote ballast; qualified tech in PPE takes the input voltage reading. Step overlay.",
+      "on_screen": "5. Locate the ballast. Test line voltage at the input (qualified + PPE).",
+      "says": "Step five, sockets look good. Open the case only as far as needed to find the ballast: canopy, raceway, header, hood or door. Then test for proper line voltage at the ballast input. That's energized diagnostic work, for qualified people in the required PPE. Not qualified? Do the de-energized checks under LOTO and have a qualified person take the reading.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Under LOTO, tech replaces the remote ballast with a matching remote, cold-rated unit; restores power; the lineup lights up. Step overlay.",
+      "on_screen": "6. Good line voltage: replace with the correct REMOTE ballast, under LOTO",
+      "says": "Step six. Line voltage is good, so deal with the ballast. If it's not in the hood or the door, verify it's remote-rated. Replace it with the correct remote ballast for the lamp application: lamp type and count, lead length, starting temperature, voltage. Do it under LOTO with absence of voltage verified. Restore power and test.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Under LOTO, tech checks continuity from the ballast leads to a socket with a meter; close-up of a crushed wire at a door hinge.",
+      "on_screen": "7. Harness continuity. Breaking a seal? STOP. Turn it over to the manager.",
+      "says": "Step seven, ballast didn't fix it. Under LOTO, check harness continuity from the ballast to each socket: open conductors, crushed wires at hinges or mullions, corroded plugs. If you can repair it without breaking the seals, do it with moisture-rated connectors. If the seals must be broken, stop. Turn it over to the manager to call a case specialist or refrigeration company.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Cutaway graphic of a case wall showing foam insulation and harness running through it; refrigerant line nearby.",
+      "on_screen": "Seals keep out moisture, protect insulation, and protect the warranty",
+      "says": "Why the seals matter. Cases are built with foam insulation and sealed panels, and the harness may run through them. Break a seal and moisture gets in, turns to ice, damages insulation, causes sweating, and can affect the warranty. Refrigerant lines may run nearby too. That work belongs to a case specialist or refrigeration contractor.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech at the electrical panel looking at breakers with the store manager (actor).",
+      "on_screen": "8. No line voltage: defrost? tripped breaker (reset once, if allowed)? Then electrician.",
+      "says": "Step eight, no proper line voltage. Verify the case isn't in defrost. Check for tripped breakers. Reset once only if your company allows it and nothing looks damaged. If it trips again, there's a fault. If neither explains it, write it up for an electrician.",
+      "seconds": 18
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "A cooler door with one LED stick strobing; tech labels a disconnected stick.",
+      "on_screen": "One LED stick = one fixture. Never leave it strobing.",
+      "says": "One more. A single LED stick in a cooler door counts as a fixture under our flashing-fixture procedure. If the manager can't show you which doors flash, ask them to mark them and call in a new ticket. Never leave a stick strobing. If you can't fix it this trip, lock out, disconnect that stick or its driver safely, label it, and write up the return.",
+      "seconds": 25
+    },
+    {
+      "scene": 11,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in front of the now-lit freezer lineup.",
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator",
+      "says": "Switches, defrost, lamps, sockets, ballast, harness, line voltage. In that order. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Dark reach-in freezer lineup in a store before opening (or a training case). Show lock and tag on the case lighting breaker and live-dead-live before any socket, ballast or harness work. Energized ballast input reading by a qualified tech in PPE per the company NFPA 70E assessment. Stage the fix as a failed remote ballast, then show where harness work would stop at a seal. Cutaway graphic for the seal scene. Product covered or removed by store staff; tube guards stay on. Matches skill sign-off 'Troubleshoot a refrigerated case lighting outage without breaking seals'."
+}

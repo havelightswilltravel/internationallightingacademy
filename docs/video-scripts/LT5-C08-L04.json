@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C08-L04",
+  "title": "IoT Sensors, Solar/Off-Grid, Smart-City Lighting and Li-Fi",
+  "course": "LT5-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 185,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office ceiling with networked luminaires and integrated sensors; Matthew holds a tablet with a commissioning app. Medium shot.",
+      "on_screen": "IoT, Solar, Smart-City Lighting and Li-Fi",
+      "says": "Four technologies you'll run into more and more. Each one brings a new hazard or a new responsibility, so plan for it before the job: who to coordinate with, what's always live, and what you need to secure. Let's start indoors.",
+      "seconds": 16
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech installs a networked luminaire with an integrated sensor, then checks it online in the app. Presenter voice-over.",
+      "on_screen": "Sensors: occupancy - daylight - environment - BLE beacons - energy metering",
+      "says": "Luminaires are everywhere and already have power, so they're perfect hosts for sensors: occupancy and people-counting, daylight, temperature and air quality, Bluetooth beacons, and energy metering. The data helps with space use, HVAC and maintenance. Camera-based sensors raise privacy concerns, so follow the owner's policy and be honest about what a sensor can do.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the app's device settings screen with a password change prompt; graphic of a separate VLAN.",
+      "on_screen": "Change default passwords - current firmware - IT-approved VLAN - deliver credentials securely - report odd behavior",
+      "says": "Every networked device is a way into the building network. Change default passwords and use unique ones, never written on the device. Install current firmware during commissioning with the owner's IT. Keep lighting on an IT-approved network segment. Deliver credentials and backups securely at turnover. Report devices going offline or unknown devices to IT.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Solar parking-lot light, daytime. Senior tech covers the PV panel with an opaque cover, then opens the battery box and checks the charge controller display with a DC-rated meter. Presenter voice-over.",
+      "on_screen": "PV is live whenever light hits it. Cover it. Verify with a DC-rated meter.",
+      "says": "Solar lighting. A PV module makes voltage whenever light hits it; there's no off switch for the sun. Cover the module or follow the manufacturer's isolation procedure, then verify absence of voltage with a DC-rated meter. DC arcs are harder to put out than AC, so never disconnect connectors under load. Batteries store a lot of energy: insulated tools, no jewelry.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Same pole; graphic of PV module, charge controller, battery and LED head with labels.",
+      "on_screen": "Problems: shading - dirty panels - aging batteries - wrong controller settings - damaged wiring - vandalism",
+      "says": "The parts: PV module, charge controller, battery and LED head. When a solar light dies earlier each night, think aging battery. Also check for new shading from trees or buildings, dirty panels, wrong controller settings, damaged wiring and vandalism. Grid-tied and larger PV systems fall under NEC Article 690 and need qualified installers.",
+      "seconds": 21
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Streetlight at dusk from a bucket truck with traffic cones set below; tech plugs a networked node into a 7-pin receptacle on top of the luminaire.",
+      "on_screen": "ANSI C136.10: 3-pin - C136.41: 5- and 7-pin dimming - Zhaga Book 18",
+      "says": "Smart-city lighting. The 3-pin photocontrol receptacle is ANSI C136.10. C136.41 adds dimming contacts in 5- and 7-pin versions, so a networked node plugs in where the photocell goes. Zhaga Book 18 is a smaller connector. Confirm receptacle type and driver dimming compatibility before ordering, and record node IDs and GPS locations at install.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at street level beside the truck, cones visible.",
+      "on_screen": "Traffic control - power line clearances - utility procedures",
+      "says": "Pole work means traffic control, lifts near power lines with required clearances, and circuits that may be fed from utility-owned sources. Follow the owner's or utility's procedures. Their specifications usually govern the equipment, too.",
+      "seconds": 14
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Demo table: a Li-Fi luminaire above a laptop with a receiver dongle showing a data rate; a hand blocks the light and the data drops out.",
+      "on_screen": "Li-Fi: IEEE 802.11bb - needs line of sight",
+      "says": "Li-Fi sends data by modulating light faster than the eye can see. It doesn't use radio spectrum, and light doesn't pass through walls. But watch: block the light path and the data drops. It needs line of sight and compatible receivers. IEEE 802.11bb, approved in 2023, covers it. You'll install these like other networked fixtures, coordinating with IT.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back in the office, medium close-up; checklist graphic.",
+      "on_screen": "Listed? Code? Qualified? Interoperable? Support? Cybersecurity? Third-party data?\nNow read the lesson and take the quiz",
+      "says": "When a customer asks about anything new, run the checklist. Is it listed for the application? Does it meet adopted codes? Is it qualified for rebates? Does it work with existing controls? Will parts be around in ten years? What's the cybersecurity risk? Is there third-party data? Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Lesson is flagged for at least annual SME review (standards, products, cybersecurity guidance). Demo performer: senior technician. Streetlight scene requires proper traffic control and line clearances on camera; use a generic pole with no municipal markings. Do not show real passwords on screen. Li-Fi demo can use any listed demo kit; blur branding."
+}

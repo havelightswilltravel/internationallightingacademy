@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C13-L05",
+  "title": "Systems Troubleshooting Quick Reference",
+  "course": "LT2-C13",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 213,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Inside a service van, side door open; a lead technician seated, flipping through a laminated quick-reference card. Matthew narrates, medium shot of the van.",
+      "on_screen": "Systems Troubleshooting Quick Reference",
+      "says": "This lesson puts our Master Troubleshooting Guide on one card per system. Each card is the seven-step method, compressed: first checks, the one measurement or swap that splits the system in half, the common fix, when to escalate, and where to learn the full procedure. Use it to plan the call before you're on the ladder, so nothing catches you off guard.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen safety callout over a shot of a CAT-rated meter being checked on a known source.",
+      "on_screen": "Energized checks: qualified + PPE + verified meter. Then LOTO, live-dead-live.",
+      "says": "First, the safety rule that covers every card. Every check power, line voltage, switch leg or socket voltage step is energized diagnostic work, for persons qualified under the employer's NFPA 70E program, with the required PPE and a verified CAT-rated meter. Before touching conductors, sockets or components: lock out, tag out, verify dead live-dead-live. Panel interiors, breakers, contactors and branch circuits are electrician work unless we've qualified you.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Clip: tech, locked out, swaps a known-good lamp into a dark fixture; then close-up of blackened fluorescent lamp ends.",
+      "on_screen": "Incandescent: known-good lamp | Fluorescent: blackened ends → change lamps",
+      "says": "Incandescent: first check is a known-good lamp, the switch, and power at the fixture. Fluorescent: blackened lamp ends mean change the lamps, and notice what else is out. All lamps out with power at the ballast? Ballast. Only some out? Sockets or wiring. And after relamping some T5s, the ballast needs a power reset.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Clip: qualified tech in PPE reads HID socket voltage against a chart; presenter voice-over.",
+      "on_screen": "HID: wait out restrike → socket voltage vs chart",
+      "says": "HID: wait out the restrike, and check the photocell and the neighbors. Then the decisive split: socket open-circuit voltage against the chart and the ballast label, with the ignitor disconnected on pulse-start and sodium. Good voltage points to the lamp. Then line voltage, then pole-base fuses. Fuse blows again, or no voltage at the hand hole? Escalate.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Clip: tech presses an emergency fixture's test button; lamps light. Then a second unit stays dark.",
+      "on_screen": "Emergency: press TEST. Lights → normal side. Dark → emergency side.",
+      "says": "Emergency: check the lamp, line voltage on both the switched and unswitched sides, the charge indicator, and the battery plug. Then press the test button. Lights on test? The problem's on the normal side, likely the standard ballast or driver. No light? Emergency-side wiring, sockets or the battery unit. No voltage on the emergency circuit, or several units out at once? Escalate.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Clip at dusk: exterior fixture; tech covers the photocell with a gloved hand and the fixture comes on. Then a time clock face.",
+      "on_screen": "Timeclock/photocell: cover the cell or bypass the clock → load voltage",
+      "says": "Time clocks and photocells: is the clock keeping the right time? Don't trust the motor sound. Check trippers, program, daylight saving, and nearby light sources. To split it, cover the photocell or bypass the clock and look for load voltage. No load voltage when forced on? Replace the clock or cell. Motion sensors: check settings first, and that a ground and neutral are present.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Clip: tech plugs a known-good patch cable into a data jack; then a track fixture adapter being reseated.",
+      "on_screen": "Data: known-good patch cable | Track: reseat the adapter",
+      "says": "Data cable: check the pinout on both ends against the T568A or B chart, then swap in a known-good patch cable. Most problems are the crimp or pinout. Track lighting: make sure at least one lamp in the track is good. Whole track out? Power at the entrance fitting. One head out? Reseat or move the adapter, check the fixture switch.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in front of a closed panel and a contactor enclosure; on-screen escalate list.",
+      "on_screen": "Escalate: panels, breakers, contactors, relays, branch circuits, neon, sealed cases, networks",
+      "says": "Know when to stop. Contactor or coil replacement, relay panels, breakers that trip within tolerance or feel loose or hot, neon glass and secondary work, harness repairs that break a refrigerated case seal, and network equipment all go to the electrician, specialist or controls provider. For breakers: never open the dead front unless you're trained. For relays, start by calling the facility's controls monitoring service.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Back in the van; lead tech tucks the card into the door pocket. Matthew to camera.",
+      "on_screen": "Prove power before replacing parts. Prove the part before ordering it.",
+      "says": "Every system has one decisive split. Prove power before you replace parts, and prove the part before you order it. Every card ends with getting the right replacement part. Now read the lesson and take the quiz.",
+      "seconds": 15
+    }
+  ],
+  "production_notes": "Clips per the lesson's video suggestion: known-good lamp swap, blackened fluorescent ends, HID socket voltage (qualified, PPE), emergency test button, covering a photocell, known-good patch cable, track adapter. Show the quick-reference card as a prop (design from the lesson's cards). The lesson's 'In depth' course references use older course numbers; the video does not name them. Confirm the 'Master Troubleshooting Guide' name before release."
+}

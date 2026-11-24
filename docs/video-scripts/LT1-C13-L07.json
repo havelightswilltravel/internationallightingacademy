@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C13-L07",
+  "title": "Company Lift Policies II: Travel, Scissors, Booms & Power Lines",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Retail store aisle during business hours; a scissor lift coned off, a spotter in a safety vest. Danny in the aisle, medium shot.",
+      "on_screen": "Job Mindset: Lifts Around the Public",
+      "says": "A scissor in a store during business hours means shoppers, carts and your blind side. A boom at a parking-lot pole means power lines. Plan both before you leave the shop: a spotter, enough cones, your lock and tag, a tape or rangefinder, and a decision about what you'll do if the line's too close. Measure before you set up, not after you raise.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Senior tech lowers the scissor fully, tells the spotter 'moving', then drives slowly down the aisle facing the direction of travel; presenter voice-over.",
+      "on_screen": "No traveling across the job site elevated",
+      "says": "Here's how we do it. Lowering the platform is what makes a lift stable for travel. Company rule: no traveling across the job site elevated. Elevated driving is only small moves in the immediate work area, and only if the manufacturer allows it. Drive slowly, face where you're going, know which way the platform's pointed, and tell everyone before you move.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Spotter keeps a shopper with a cart outside the cones while the tech works overhead.",
+      "on_screen": "Spotter required on most interior service work",
+      "says": "A spotter is required on most interior service work, especially during the customer's business hours. The spotter keeps shoppers and carts out and watches your blind side. And scissor rules: don't jump on or off a raised scissor. Never stand or reach under one. Watch the rating, which is often lower with the extension deck out. It's not a hoist or an elevator.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Outside: a boom lift in a parking lot. Danny walks around it, pointing at the boom and basket.",
+      "on_screen": "Never walk under the boom | Hands inside | Basket runs the lift",
+      "says": "Boom rules. Never walk under the boom to get to the platform. Don't rest the boom or basket on steel. Keep your hands inside the basket while it moves. And ground controls are not used on an occupied lift except in an emergency. The person in the basket runs it, but the ground person still has to know how to lower it for rescue.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "The boom operator stops short of a pole with an overhead line nearby, gets out, and measures the distance with a rangefinder, then calls the supervisor on the phone.",
+      "on_screen": "50 kV or less: at least 10 ft\nOver 50 kV: power company shields it first (company rule)",
+      "says": "Now power lines. Stay at least ten feet from lines of 50 kV or less, counting you, your tools and the lift. Company rule: for lines over 50 kV, the power company must shield them before you work under them. That's stricter than OSHA, and it takes the guesswork out. Watch him: he stops before setting up, measures and calls his supervisor.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny at the boom's base with the line overhead in the background.",
+      "on_screen": "Safety: Standard lifts are not insulated. Treat covered lines as bare.",
+      "says": "A standard boom or scissor is not insulated. If any part of the lift, your tools or a fixture you're holding gets inside ten feet, the whole machine can become energized, and anyone touching it from the ground can be killed. Never work within ten feet of a line the power company hasn't covered. Even covered, treat it as bare. If you can't keep the margin, stop and call.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "The tech applies a lock and tag to the pole circuit at the panel, then places cones under the work area around the pole base.",
+      "on_screen": "LOTO the pole circuit | Cone off below",
+      "says": "Then de-energize the sign or pole whenever possible. Lock the circuit off and tag it. And cone off the area below you, because dropped tools and parts hurt people. Keep your lift and material out of exits, stairways, fire equipment and the space in front of panels.",
+      "seconds": 20
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Winter cutaway: a tech clearing ice from a scissor platform and adjusting a harness over a winter coat.",
+      "on_screen": "Winter: clear ice | check wind | refit your harness | recheck pads",
+      "says": "Winter lift work. Clear ice and snow off the platform, steps and controls before you climb on. Check the wind, because winter fronts bring gusts. Refit your harness over your winter layers. And frozen ground can thaw under an outrigger during the day, so use pads and recheck after a few hours. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Retail segment filmed during store hours with the store's permission; generic store, no logos. Parking-lot segment: the boom must stay well beyond 10 ft of any overhead line during filming; the 'stop and measure' is real distance-checking, not a near-approach. The LOTO shot uses a real lock and tag on a training or customer-approved panel. Winter cutaway is optional b-roll. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/07-company-lift-travel-scissor-boom-and-power-line-rules.md."
+}

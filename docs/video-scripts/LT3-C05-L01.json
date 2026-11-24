@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C05-L01",
+  "title": "How the NEC Is Organized (and the Articles Lighting Techs Use)",
+  "course": "LT3-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 198,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop bench with a tabbed 2023 NEC open; a licensed electrician seated at the bench flipping tabs. Matthew narrates; medium shot.",
+      "on_screen": "How the NEC Is Organized",
+      "says": "You're not expected to design to the code. You are expected to recognize when your work touches it, avoid creating violations, and flag conditions that look wrong. Knowing the code is part of doing the job safely and right the first time. This lesson gives you the map.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the NEC cover and spine; on-screen edition years.",
+      "on_screen": "NFPA 70 | Updated every 3 years | Your AHJ's adopted edition governs",
+      "says": "The National Electrical Code is NFPA 70, updated every three years: 2017, 2020, 2023, 2026. It's a minimum safety standard, not a design manual, and it isn't law until a state, county or city adopts it. The Authority Having Jurisdiction, usually the inspector or building department, decides which edition applies and interprets it. Many are an edition or two behind. Your AHJ's edition governs. This program references 2023 unless noted.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Electrician flips to Chapter 2, Article 210; on-screen hierarchy builds: Chapter → Article → Part → Section → Subdivision.",
+      "on_screen": "Chapter → Article → Part → Section (210.19) → Subdivision (210.19(A)(1))",
+      "says": "Structure. Chapters one through four apply generally. Five through seven modify them for special conditions. Eight is communications, and nine is tables. Each article covers one subject, like Article 210, Branch Circuits. Parts group related sections. A section is the article number, a period, and the section number, like 210.19. Subdivisions add letters and numbers in parentheses.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a page; the electrician points to 'shall', an Exception and an Informational Note in turn.",
+      "on_screen": "\"Shall\" = mandatory | Exception | Informational note = not enforceable",
+      "says": "Three kinds of text matter. Mandatory rules use shall or shall not. Exceptions follow a rule and say when it doesn't apply, or applies differently. Informational notes explain or recommend, and they're not enforceable on their own. The 3 percent voltage-drop recommendation you've seen before is an informational note.",
+      "seconds": 20
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Electrician flips to each tab in turn; on-screen article list.",
+      "on_screen": "110 | 210 | 240 | 300 | 310 | also 90, 100, 200, 250, 314, 408, 410",
+      "says": "The articles you'll touch most: 110, requirements for installations. 210, branch circuits. 240, overcurrent protection. 300, general wiring methods, like securing and boxes at splices. 310, conductors and ampacity tables. You'll also use 100 for definitions, 200 for neutral identification, 250 for grounding, 314 for boxes, 408 for panelboards and directories, and 410 for luminaires.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of Article 110; then a retrofit kit's instruction sheet; then a sloppy unsupported whip above a ceiling.",
+      "on_screen": "110.3(B) listed per instructions | 110.12 neat & workmanlike | 110.14 connections",
+      "says": "Article 110 affects almost every call. Listed equipment shall be installed per its listing and instructions, 110.3(B). That's why you follow a retrofit kit's instructions exactly, and why it works isn't the same as it's legal. Work must be neat and workmanlike, 110.12; inspectors reject loose cables, unsupported whips and open knockouts. And 110.14: terminals must suit the conductor material and be tightened properly.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Electrical room: a panel with ladders and carts stored in front; tech moves them away. On-screen dimensions.",
+      "on_screen": "110.26 working space: 3 ft deep (typical) | 30 in wide | 6½ ft high",
+      "says": "Working space, 110.26. Panelboards need clear space in front: generally 3 feet deep for systems up to 150 volts to ground, 3 to 4 feet for 151 to 600 volts depending on what's across, at least 30 inches wide and 6 and a half feet high. Blocked? Clear it, or have the customer clear it, before working. It's a code violation and an escape hazard.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Electrician demonstrates the lookup: index, article scope, whole section, Chapters 5-7. Then a short clip of an inspector at a job site.",
+      "on_screen": "Index → Article scope → Whole section → Chapters 5-7 → Ask",
+      "says": "Finding an answer. Use the index with a keyword. Go to the article and read its scope to confirm you're in the right place. Read the whole section, exceptions and notes included. Check Chapters 5 to 7 if the location's special, like wet, hazardous, healthcare or emergency systems. And when in doubt, ask your lead or the AHJ, and write down the section you looked at.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera.",
+      "on_screen": "",
+      "says": "Minimum safety, adopted locally, interpreted by the AHJ. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Licensed electrician at a bench with a tabbed 2023 NEC per the lesson's video suggestion, plus a short inspector clip on the AHJ's role. Presenter narrates. Do not show copyrighted NEC page text at readable resolution beyond brief section headings. The lesson's working-space figures are 'generally' values; keep the on-screen wording 'typical'."
+}

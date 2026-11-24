@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C04-L03",
+  "title": "Cold Stress, Layering & Cold Injuries",
+  "course": "LT1-C04",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 300,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Winter parking lot at dawn, frost on the pavement, bucket truck under light poles. Danny in winter layers and hard-hat liner at the van, breath visible. Medium shot.",
+      "on_screen": "Job Mindset: winter pole job",
+      "says": "Job Mindset for a winter pole job. The hazards are frostbite, hypothermia, and numb hands doing electrical work forty feet up. Plan it at the shop: read the wind chill, pack your layers, spare dry gloves, socks and a change of clothes in a dry bag, and schedule warm-up breaks in the heated cab. Think ahead to the bucket, where the wind is always worse.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny.",
+      "on_screen": "Low temperature + wind + wetness = injuries and illness",
+      "says": "Here's the cold stress equation. Low temperature plus wind plus wetness equals injuries and illness. Any one makes the others worse. That's why you can get hypothermia above freezing. A cold rain, a damp shirt and a breeze on a 40-degree day will pull heat out faster than you make it. We treat 40 and below as cold, any wetness as a hazard, and wind of 5 miles an hour and up as a hazard.",
+      "seconds": 30
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "The lead reads the wind chill off a phone at the morning huddle and says it out loud. Graphic table overlay. Danny voice-over.",
+      "on_screen": "Wind chill 30 F: reminder | 25 F: gear check, warm-up breaks | 0 F: buddy checks | -10 F: postpone non-essential work",
+      "says": "Read the wind chill at the huddle. Any moving air counts, including riding in an open bucket. At 30 or below, the lead reminds everyone about cold injuries. At 25, the lead checks everyone's gear and schedules warm-up breaks. At zero, buddy checks for frostbite and shorter cycles aloft. At minus 10, non-essential outdoor work is postponed, and essential work is done in pairs. Talk to your supervisor first.",
+      "seconds": 30
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Tech dressing at the van: wicking base layer, fleece, windproof shell, hard-hat liner under the hard hat, liner gloves under insulated gloves. Packs spare socks and gloves in a dry bag. Danny voice-over.",
+      "on_screen": "C-O-L-D: Clean - avoid Overheating - Loose layers - Dry",
+      "says": "Dress C-O-L-D. Clean, because dirt fills the air spaces that hold heat. Avoid overheating; open up a layer before you climb so you don't sweat through. Loose layers. And dry. Base layer of wool, silk or synthetic, never cotton. Fleece or wool in the middle. A windproof shell outside. A hard-hat liner, not a regular hat. Liner gloves under insulated gloves, so you never go bare-handed.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up of a gloved hand on a frosty metal pole and fixture housing; then a tech changing wet gloves for dry ones from the dry bag.",
+      "on_screen": "Never touch cold metal bare-handed. Wet gloves stop electrical work.",
+      "says": "Your hands are your tools. Never touch cold metal with bare skin. Poles, housings, ladders and tools can freeze skin on contact. Carry spare dry gloves, because wet gloves stop electrical work, same rule as always. Hands going numb? Warm them in your armpits or the cab before you continue. Leave metal jewelry at home. Keep eating and drinking warm, sweet drinks. No alcohol.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "After 30 minutes in the bucket, the tech comes down; his buddy looks closely at his face, ears and nose.",
+      "on_screen": "Buddy check: faces, ears, noses on every warm-up break",
+      "says": "The person with frostbite or early hypothermia often doesn't notice it. So on every warm-up break, look at each other's faces, ears and noses. Watch for skin that's pale, waxy, gray or hard, numbness, and for clumsiness, heavy shivering or poor judgment.",
+      "seconds": 19
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "In the heated van cab: one tech gently places another's fingers in a basin of warm water. Inset frames show what not to do with red X: rubbing with snow, holding hands to a heater. Danny voice-over.",
+      "on_screen": "Frostbite: warm water 99-104 F. Never rub. Never a heater. Don't thaw if it may refreeze.",
+      "says": "Frostbitten fingers. Get to a warm, dry place, and don't leave them alone. Take off wet or tight gloves and rings. Do not rub it, and never rub it with snow. Don't thaw it if it might refreeze. Rewarm gently in warm water, about 99 to 104 degrees, or with body heat. Never a heater, flame, hot engine or heating pad. Numb skin burns easily. Then get medical care.",
+      "seconds": 29
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny at the van, close-up.",
+      "on_screen": "Hypothermia: 95 F or lower. Call 911. Warm the core gently.",
+      "says": "Hypothermia is a medical emergency. Body temperature at 95 or lower. Shivering, then slurred speech, confusion, drowsiness, and shivering may stop. That's a bad sign. Call 911. Get them into the warm cab, swap wet clothes for dry or wrap them in blankets. Warm sweet drinks only if they're alert. Warm packs on the chest, armpits, neck and groin. Don't rub them. Handle gently.",
+      "seconds": 29
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny at the van, medium shot, sun coming up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Cold, wind, wet. Dress in layers, stay dry, and check your buddy. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Film the dawn huddle and layering for real, but keep crew exposure short and warm-up breaks real. The frostbite demo is staged (no real injury); the water basin should be warm, not hot. What-not-to-do inserts are staged quickly and clearly marked with a red X. Use a generic weather app screen."
+}

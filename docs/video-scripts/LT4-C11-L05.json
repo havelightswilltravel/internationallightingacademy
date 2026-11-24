@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C11-L05",
+  "title": "Our Company's Energized Work Rules & Permit",
+  "course": "LT4-C11",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 239,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Job-site tailgate of a service truck; Danny with a clipboard holding the company Energized Electrical Work Permit. Medium shot.",
+      "on_screen": "Our Company's Energized Work Rules & Permit",
+      "says": "Before any hot work, plan it like this: can it be de-energized, and if not, is it truly justified? Our handbook says it in field language. Whenever you work on a lighting system, disconnect the power source first. Only trained, qualified, authorized people work in or near live circuits, and never on a task they feel is unsafe. If at all feasible, no work is done until the equipment is de-energized.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny counting on fingers at the tailgate.",
+      "on_screen": "Hot panel work: written plan, supervisor approved\nNever work hot panels alone\nAR clothing inside the arc-flash boundary (from 1.2 cal/cm²)",
+      "says": "Every panel worked hot needs a written safety plan approved by a supervisor before work starts. That plan is this permit. Never work hot panels alone: a second qualified person or a trained attendant is present. Arc-rated clothing and face protection rated at or above the incident energy whenever you're inside the arc-flash boundary. Insulated tools, and rated gloves with protectors.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera; on-screen callout.",
+      "on_screen": "Bus rooms: never alone • doors closed • nothing carried above the waist • work only de-energized and grounded",
+      "says": "Bus rooms and switchgear have their own rules. Don't enter or work in a bus room alone. Don't leave the doors open. Don't carry tools or materials above your waist, because they can fall into live bus. And don't work on any bus, cable or disconnect unless it's de-energized and grounded.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera; callout box.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor first.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may do energized testing and troubleshooting under the company's license. In others, a licensed electrician must do it or supervise it, and some jobs need a permit and inspection. Before you do this on a job, confirm with your supervisor that it's allowed there and that you're authorized. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Occupied office during business hours; Danny gestures at the ceiling lights.",
+      "on_screen": "First ask: temporary lighting? Kill only our fixtures? After hours?",
+      "says": "When might lighting work be justified energized? OSHA lists removing illumination from an area as an example of greater hazard, and our company allows qualified, authorized techs to work energized lighting when darkening an occupied space would itself be a hazard. Your company decides its own stance. But first ask honestly: can we use temporary lighting, kill only our fixtures, or do it after hours? If yes, it's not justified.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Tailgate: supervisor (requester) fills in Part I; Danny reads it and hands it back. Close on the form.",
+      "on_screen": "Part I (Requester): circuit & location • work • justification\n'Customer prefers it' is NOT a justification",
+      "says": "The permit. Part I is completed by the requester, often the project supervisor: the circuit, equipment and location, the work, and the justification for why it can't be de-energized or deferred to the next outage. Watch this one. A 480Y/277 panel, facility runs 24 hours. Asked about a shutdown, they schedule a weekend outage. Permit returned. The work gets done de-energized. That's the most common outcome.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Senior tech checks off Part II items on the form; on-screen list builds.",
+      "on_screen": "Part II: 10 checks by the qualified worker\n#10: Can it be done safely? NO → back to the requester",
+      "says": "Part II is the qualified worker's ten checks: detailed procedure, safe work practices, shock risk assessment, shock boundaries, arc-flash risk assessment, arc-flash boundary, PPE, means to restrict access, evidence of a job briefing, and finally: do you agree the work can be done safely? If the answer is no, the permit goes back to the requester. You always have the right to say no.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Close on Part III signature lines, then the day-of checklist in the foreman's hands.",
+      "on_screen": "Part III: manager • safety/general manager • electrically knowledgeable person • supervisor\nChecklist: valid only for named workers, that day",
+      "says": "Part III is the approvals: the manager, the safety or general manager, an electrically knowledgeable person, and the supervisor. No signatures, no energized work. Then the foreman reviews the day-of checklist before work starts. It records voltage, number of sources, PPE worn, who authorized it, and the completion time. It's valid only for the named workers and the day issued.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Crew circle for a job briefing; barricade tape going up at the arc-flash boundary.",
+      "on_screen": "Conditions change? STOP, back out, reassess",
+      "says": "Then the job briefing, and barricades go up at the arc-flash boundary. If conditions change during the work, like a second source you didn't expect or damaged bus, stop, back out and reassess. The permit covers only the work and conditions it describes. And one more: our older handbook's method of cutting leads inside an energized fixture is never a convenience method. It's permitted energized work, for qualified people only.",
+      "seconds": 28
+    },
+    {
+      "scene": 10,
+      "speaker": "Danny Smith",
+      "background": "Danny at the tailgate, medium close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Disconnect first. Justify honestly. Fill out every part. And say no when it isn't safe. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Job-site tailgate setting (generic site, no customer branding). Props: printed company Energized Electrical Work Permit (Worksheet Parts I-III and Energized Work Checklist) with example values only; barricade tape. Show one request returned ('schedule it after hours'/weekend outage) per the lesson's worked example. The company stance on energized lighting work is company-specific; licensee companies must decide their own (said in scene 5). No energized work shown on camera."
+}

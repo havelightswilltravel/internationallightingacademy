@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C08-L04",
+  "title": "3-Way Dimmers, Smart Switches and Occupancy Controls",
+  "course": "LT3-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 205,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with three boxed products: a 3-way dimmer and standard 3-way, a smart dimmer with wireless companion, an occupancy sensor with companion. Medium shot.",
+      "on_screen": "Job Mindset: Multi-Location Controls",
+      "says": "Job mindset. Before you install a dimmer, smart switch or sensor on a three-way, know the box: is there a neutral, what's the load type, what voltage. Plan the worst case: no neutral at the switch means a different product or a write-up. Bring the matched companion, not just the main. And every box gets opened locked out and verified dead.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium close-up.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may install three-way dimmers, smart switches and occupancy sensors under the company's license. In others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and that you're authorized. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: traditional 3-way dimmer next to a standard 3-way switch; diagram overlay.",
+      "on_screen": "Traditional: ONE dimmer per circuit. Other location stays a standard 3-way.",
+      "says": "A traditional three-way dimmer replaces one of the two switches. The other location stays a regular three-way. Only one dimmer per circuit. Two standard three-way dimmers on the same travelers won't work properly. The dimmer only dims from its own location. Match it to the load type, and for LED you need an LED-rated dimmer and a dimmable lamp or driver listed as compatible.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: smart dimmer box and its companion box side by side.",
+      "on_screen": "Smart systems: main + MATCHED companion. Follow that product's diagram.",
+      "says": "Smart and electronic multi-location systems use a main dimmer plus companion devices. Companions are not ordinary three-ways. A wired companion uses one traveler. A wireless companion is a battery remote in the old box, which is the simplest choice when the travelers are questionable. Always follow that product's wiring diagram. The old traveler roles don't carry over automatically.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up on each product box; camera finds the 'Neutral required' line. Then an open mock-up box with a bundle of spliced whites.",
+      "on_screen": "Spliced whites in back = neutral present. Whites on terminals = used as hots.",
+      "says": "Many smart switches and sensors need a neutral in the box. Some no-neutral models leak a little current through the load, which can make LEDs glow or flicker when off. To check, de-energized after lockout and live-dead-live: a bundle of whites spliced in the back means a neutral is present. One cable with a re-identified white is a switch loop, no neutral.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, serious tone.",
+      "on_screen": "Never borrow a neutral from another circuit. Never use the ground as a neutral.",
+      "says": "Safety. Don't borrow a neutral from a different circuit or another box, and never use the equipment ground as a neutral. Both create shock and fire hazards and violate the code. If the device needs a neutral and the box doesn't have the correct one, choose a no-neutral device listed for the job, or write it up for an electrician.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech installs the smart kit in a power-to-switch mock-up; close-up of minimum-load and LED-compatibility labels. Presenter voice-over.",
+      "on_screen": "Check: voltage | load type | min/max load | neutral required",
+      "says": "Here the tech installs the smart kit in a power-to-switch mock-up, where the neutral is available. Look at the labels: minimum load, maximum load, LED compatibility. Occupancy sensors are the same: check line voltage, load type, minimum and maximum load, and the neutral requirement. Many commercial sensors are 277 volts only or dual-voltage.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen symptom table beside Matthew.",
+      "on_screen": "Glows when off = no-neutral leakage | Works from main only = companion issue | Never turns off = time delay, sensitivity, airflow, or miswire",
+      "says": "Common callbacks. LEDs glow when off: a no-neutral device leaking through the load. Works from the main only: companion not matched, traveler landed wrong, or not paired. Sensor never turns off: long time delay, high sensitivity, HVAC airflow, or a companion miswired to bypass. Use the same discipline as lesson three, and test every location.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same bench, closer.",
+      "on_screen": "Order: main + companion model | voltage | load type | min/max | neutral | color/style | # locations",
+      "says": "When you order, record the main and the matching companion model, voltage, load type, minimum and maximum load, neutral required, color, style and number of locations. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Use generic, unbranded product boxes with mock labels showing 'Neutral required', minimum load and LED compatibility. Mock-up boxes shown de-energized with lock and tag visible on training panel. Senior tech performs install; presenter voice-over in scene 7."
+}

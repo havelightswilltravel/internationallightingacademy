@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C07-L01",
+  "title": "How Neon & Cold-Cathode Lighting Works",
+  "course": "LT4-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 265,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Sign shop: a de-energized exposed-neon display on a backer and a cut-away channel letter on the bench. Matthew beside them. Medium shot.",
+      "on_screen": "How Neon & Cold-Cathode Lighting Works",
+      "says": "Thousands of neon signs are still in service: exposed neon in windows and on canopies, neon hidden in channel letters, and cold-cathode tubes in coves in older buildings. Before you work near one, you need to know how it works, because the voltage inside it is lethal. Understanding it is the first step in planning any neon job safely.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a glass unit showing the electrode sealed in each end; animation of gas ionizing between electrodes.",
+      "on_screen": "Cold cathode: sealed glass + low-pressure gas + electrode at each end",
+      "says": "Neon is cold-cathode gas-discharge lighting. A sealed glass tube with a little gas at low pressure, and a metal electrode sealed in each end. Apply a high voltage and the gas ionizes, conducts and glows. There's no heated filament, that's why it's called cold cathode, so tubes can be bent into letters and shapes and last for decades.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups comparing a red neon tube and phosphor-coated argon/mercury tubes in white, pink and green (unlit, then lit behind a barrier).",
+      "on_screen": "Neon gas = orange-red | Argon + mercury + phosphor = white, pink, green, gold...",
+      "says": "Color. Neon gas glows orange-red, and tinted glass changes the shade. Argon with a drop of mercury glows pale blue, and a phosphor coating inside the glass gives white, pink, green, gold and more. Argon-mercury tubes can be slow or dim in very cold weather until they warm up. That's normal, not always a failure.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Animation: high voltage strikes the tube, then current climbs until the transformer limits it at a set value (e.g. 30 mA).",
+      "on_screen": "Strike (high voltage) | Run (resistance drops) | Limit current (tens of mA)",
+      "says": "Why so much voltage? To start, the gas needs a high voltage to break down and conduct. Longer, thinner tubes need more. Once it's lit, resistance drops sharply, and without a limit it would draw more and more current and destroy itself. The neon transformer or electronic supply does both jobs: high striking voltage and limited current, typically tens of milliamps, like 30 or 60.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Animation of several glass units in series on one transformer; one tube breaks and the whole string goes dark.",
+      "on_screen": "Series string: one open = whole string dark",
+      "says": "The units on one transformer are wired in series, so all the glass carries the same current. If any one tube breaks, loses its gas, or a connection opens, the whole string goes dark, like old series Christmas lights. That one fact drives most of the troubleshooting in this course.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Sign specialist names each part on the de-energized display while camera moves: glass unit, electrode, boot, PK housing, GTO cable, tube support, tie wire, transformer. Presenter voice-over.",
+      "on_screen": "Glass units | Transformer | GTO | Boots | PK housings | Tube supports | Tie wire | Channels | Enclosures | Flex",
+      "says": "Our component list. Glass units. The transformer or electronic power supply. GTO cable, the high-voltage wire. Electrode boots covering each connection. PK housings, which pass an electrode through a sign face to the GTO behind. Tube supports holding glass off the surface. Tie wire. The channel letter cans. Transformer enclosures. And flex for the line-voltage wiring.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-ups: a cracked boot with carbon tracking, GTO with a burned spot, a blackened electrode end, a broken tube support.",
+      "on_screen": "Cracked or tracked boots | GTO burn-through | Blackened ends | Broken supports",
+      "says": "How they fail. Glass cracks or leaks, so a tube goes dim, flickers or changes color. Electrodes burn and blacken. GTO insulation breaks down to metal. Cracked or carbon-tracked boots let in water and allow arcing. Broken supports let glass sag and touch metal. Over-tightened tie wire cracks the glass.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a transformer label; callouts for primary, secondary voltage, secondary current, midpoint ground, SGFP, listing.",
+      "on_screen": "Primary V/A | Secondary open-circuit V | Secondary mA | Midpoint grounded? | SGFP? | Listing, indoor/outdoor",
+      "says": "Before you do anything with a neon sign, read the transformer label and write it down. Primary voltage and current. Secondary open-circuit voltage, like 9,000 or 15,000 volts. Secondary current. Whether it's midpoint grounded; a 15 kV unit puts about 7,500 volts from each lead to ground. Whether it has secondary ground-fault protection. And its listing and indoor or outdoor rating.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "The exposed-neon display energized from behind a barrier; Matthew stands well back behind the barrier, hands at his sides.",
+      "on_screen": "Never touch glass, electrodes, boots, PK housings or GTO on an energized sign",
+      "says": "Here it is lit. Notice where I'm standing. A neon transformer's secondary is lethal, up to 15,000 volts, and high voltage can arc through air, cracked boots and damaged insulation before you touch anything. Never touch glass, electrodes, boots, PK housings or GTO on an energized sign, for any reason. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Sign shop with a de-energized exposed-neon display and a cut-away channel letter. Sign specialist names parts while Matthew narrates. Energize the display only from behind a physical barrier, with the presenter and crew outside the barrier and no one within reach of the glass; a qualified sign specialist controls power. Close-ups of red neon vs coated argon/mercury tubes, failed boots and burned GTO. Transformer label close-up (blur brand). Knowledge lesson: hook connects understanding to safe planning instead of a full Job Mindset opener."
+}

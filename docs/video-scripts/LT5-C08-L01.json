@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C08-L01",
+  "title": "PoE and Low-Voltage DC Lighting",
+  "course": "LT5-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 200,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training lab with a PoE demo board: network switch, patch panel, Category cable runs to ceiling-mounted PoE luminaires and sensors. Matthew beside the rack. Medium shot.",
+      "on_screen": "Job Mindset: PoE lighting",
+      "says": "PoE fixtures run on low-voltage DC, but the switches, UPS units and racks are fed from line voltage. Treat the equipment room like any electrical space: LOTO on the line-voltage feed, and never open a switch or power supply enclosure. Plan the job with IT before you arrive, and bring a cable certifier and labels. Ladder and lift hazards are the same as any fixture install.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: switch (PSE) with individual cables to luminaires, sensors and a wall control (PDs).",
+      "on_screen": "PSE (switch) -> Category cable -> PDs (luminaires, sensors, controls)",
+      "says": "Power over Ethernet sends DC power and data over the same Category cable. The switch is the power sourcing equipment, or PSE. The fixtures, sensors and wall controls are powered devices, PDs. Every fixture gets its own run to a switch port. Owners get individual control and energy data. The trade-offs: more cable, losses in long or bundled runs, and the switch becomes a single point of failure.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Table graphic over the demo board.",
+      "on_screen": "802.3af Type 1: 15.4 W port / 12.95 W device\n802.3at Type 2: 30 W / 25.5 W\n802.3bt Type 3: 60 W / 51 W\n802.3bt Type 4: 90 W / 71.3 W",
+      "says": "IEEE 802.3 defines PoE. Type 1 delivers 15.4 watts at the port, 12.95 at the device. Type 2, 30 and 25.5. Type 3, 60 and 51. Type 4, 90 and 71.3. Power at the device is always lower because of cable losses. PoE runs at roughly 44 to 57 volts DC. Some makers use proprietary PoE-like systems, so confirm compatibility before mixing products.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Screen capture of the switch's web interface showing total power budget and per-port draw; Matthew points at it.",
+      "on_screen": "48 ports x 25.5 W = 1,224 W > 740 W budget",
+      "says": "Here's what catches people. A switch has a total power budget that can be less than the sum of its ports. A 48-port switch with a 740 watt budget can't run 48 luminaires at 25.5 watts each. That's 1,224 watts. Over budget, ports may not power up, or lower-priority ports shut off. Always compare total load to the budget, with margin.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech terminates a cable and runs it through a certifier; then shows a tight bundle of cables and a CL2-LP cable jacket marking. Presenter voice-over.",
+      "on_screen": "Solid copper - no CCA - 100 m max channel - certify each run - label both ends",
+      "says": "Cabling. Many power-carrying cables in a tight bundle heat up. The NEC sets ampacity limits by bundle size, and limited power cable markings like CL2-LP; confirm the section in your adopted edition. Channels are generally limited to 100 meters, including patch cords. Use solid copper; copper-clad aluminum isn't compliant. Poor terminations add heat, so certify or test every run, and label both ends with fixture ID and port.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Demo fault: one luminaire on the board stays dark. Senior tech checks port status in the interface, sees the switch over budget, then swaps ports to isolate. Presenter voice-over.",
+      "on_screen": "1 Port delivering power?  2 Switch over budget?  3 Cable good?  4 Device configured?  5 Swap to isolate  6 Coordinate with IT",
+      "says": "Troubleshooting. Is the port delivering power? Check the interface. Is the switch over budget? Is the cable good: continuity, pair mapping, terminations? Is the fixture commissioned in software? Swap ports or cables to isolate cable, port or fixture. And coordinate with IT before you change switch settings, VLANs or firmware. In this demo, the switch is over budget, so the last fixture won't power.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an LED tape run dim at the far end; then a Class 2 power supply with its listing label.",
+      "on_screen": "LED tape: feed long runs from both ends or the middle",
+      "says": "Other low-voltage DC systems use central Class 2 supplies at 24 or 48 volts, or LED tape on 12 or 24 volt drivers. Long tape runs dim at the far end from voltage drop, so feed from both ends or the middle. Class 2 supplies must be listed and installed per their listing, and Class 2 wiring kept separated from power conductors as the NEC requires.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back at the rack, medium close-up.",
+      "on_screen": "Switch battery backup is NOT code emergency lighting by itself.\nNow read the lesson and take the quiz",
+      "says": "One more. Never assume a PoE system provides code emergency lighting just because the switch has battery backup. It still has to meet NFPA 101 and the NEC, with a listed, engineered solution reviewed by the engineer and the AHJ. Now read the lesson and take the quiz.",
+      "seconds": 19
+    }
+  ],
+  "production_notes": "Lesson is flagged for at least annual SME review (emerging technology); re-check standards, power levels and NEC article references before each re-shoot. Demo performer: senior technician. Use a generic switch interface; blur vendor branding. Over-budget fault in scene 6 is staged on the demo board."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C10-L03",
+  "title": "LED Replacements and Class 2 Basics",
+  "course": "LT3-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 214,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Retail display case with six recessed MR16s; tech on a step stool with a box of LED MR16s. Presenter voice-over.",
+      "on_screen": "Job Mindset: LED MR16 Swap",
+      "says": "Job mindset. An LED MR16 swap looks like a lamp change, but the transformer decides if it works. Before you leave, find out the transformer type, VA and minimum load, and check compatibility. Plan the worst case: a transformer replacement on a line-voltage primary. That means lock, tags, a tested meter, and a listed replacement on the truck.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in front of the display case, medium close-up.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may replace low-voltage transformers under the company's license. In others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and that you're authorized. When in doubt, stop and ask.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech installs six LED lamps; two flicker.",
+      "on_screen": "Flicker | won't start | won't dim | buzz | some work, some don't",
+      "says": "Customers love swapping a 50-watt halogen MR16 for a 6 to 8 watt LED. Many swaps work. Many don't, because the transformer was designed for halogen. You'll see flicker, lamps that won't start or cycle on and off, poor dimming, buzzing, or some lamps working and some not on the same transformer. Two of these six are flickering. Let's find out why.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: transformer label showing 20 W minimum; tech totals LED watts on a notepad; checks the lamp maker's compatibility list on a phone.",
+      "on_screen": "1 Confirm symptom  2 ID transformer  3 Total LED load vs minimum  4 Check compatibility list",
+      "says": "Confirm the symptom and which lamps. Identify the transformer: integral or remote, magnetic or electronic, VA, minimum and maximum, dimming. Total the LED load and compare it to the minimum. This one says 20 watts minimum. Check the lamp maker's compatibility list. Electronic transformers are where most problems happen. Magnetic is more tolerant, but very light loads can push the output above 12 volts.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen fix options beside the display case.",
+      "on_screen": "Fix: compatible lamp | LED-compatible transformer or driver | integrated LED fixture",
+      "says": "Pick a fix. Use a lamp listed as compatible with the existing transformer. Or replace the transformer with an LED-compatible unit, or an LED driver approved for that fixture, sized to the new load. Or replace the fixture with an integrated LED fixture. If it's dimmed, the dimmer has to be on the compatibility list too. Then test at full output and across the dimming range.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks and tags the breaker, verifies dead at the primary, installs a listed LED-compatible driver. All six lamps steady.",
+      "on_screen": "Transformer swap = LINE-VOLTAGE primary. LOTO + live-dead-live.",
+      "says": "Safety. Replacing a transformer means working on its line-voltage primary. Lock out and tag out, verify absence of voltage with a tested meter, live-dead-live, and make sure the replacement is listed for that fixture or location. Modifying a listed fixture with a non-approved component may void its listing. Use the maker's part or a retrofit kit listed for the purpose.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: 'Class 2' marking on a landscape transformer label, with multiple outputs.",
+      "on_screen": "Class 2 = output energy limited (typically about 100 VA per output)",
+      "says": "Class 2. A Class 2 power source limits the voltage and power on its output, so the circuit presents low fire and shock risk. Typical Class 2 lighting transformers are limited to about 100 VA per output. A big landscape transformer may have several Class 2 outputs. But a 600 VA transformer with a single 12-volt output is not Class 2. It has enough energy to start fires.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the landscape transformer, medium close-up.",
+      "on_screen": "Keep Class 2 separate from line voltage. Primary is still line voltage.",
+      "says": "In the field: only a listed Class 2 source makes the circuit Class 2. Keep Class 2 conductors separate from line-voltage conductors unless there's a barrier or the code permits it. And the primary side of a Class 2 transformer is still a line-voltage circuit. Low voltage describes the output only. For wiring-method questions, check with an electrician or the AHJ.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Same setting, closer.",
+      "on_screen": "Record: base | beam | watts | transformer type, VA, min/max, dimming, Class 2",
+      "says": "When you order, record the lamp shape, base, voltage, wattage, beam, CCT and CRI, and the transformer's input, output, VA, type, minimum and maximum load, dimming and Class 2 status. Now read the lesson and take the quiz.",
+      "seconds": 15
+    }
+  ],
+  "production_notes": "Female senior tech performs the swap and transformer replacement in a display-case mock-up; presenter voice-over in scenes 1, 3-6. Use unbranded lamps; compatibility list shown as a generic mock document. Lesson code note: Class 2 is in NEC Article 725 (2023 edition) and LV lighting in Article 411; not voiced, can be added as on-screen footnote if desired."
+}

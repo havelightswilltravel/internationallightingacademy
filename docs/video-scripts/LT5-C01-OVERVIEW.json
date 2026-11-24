@@ -1,0 +1,59 @@
+{
+  "vid": "LT5-C01-OVERVIEW",
+  "title": "Job Mindset Refresher (LT5) (course overview video)",
+  "course": "LT5-C01",
+  "presenter": "Matthew Berrett",
+  "source": "outline",
+  "target_seconds": 128,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Conference room with a building floor plan, light meter and clipboard on the table; Matthew standing. Medium shot.",
+      "on_screen": "Job Mindset Refresher: LT5",
+      "says": "Welcome to LT5, Master Lighting Technician. At this level a lot of your work happens before the crew ever shows up: audits, light-level surveys, code checks, scopes, estimates and recommendations to customers. Your plan becomes everybody's plan. So we start this level the way we start every job, with the Job Mindset.",
+      "seconds": 21
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen list over Matthew.",
+      "on_screen": "1. Safety first  2. Plan the whole job  3. Think steps ahead\n4. Keep every hand busy  5. Never be caught off guard",
+      "says": "Five habits. Safety first, using the hierarchy of controls: remove the hazard before you reach for PPE. Plan the whole job before you leave the shop, worst cases included. Think several steps ahead. Keep every hand busy. And never be caught off guard. Here's how they apply to an audit.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse aisle with high bays; Matthew and a second tech with a lift parked and a clipboard.",
+      "on_screen": "Scenario: audit a warehouse for an LED retrofit",
+      "says": "Scenario: you're auditing a warehouse for a retrofit. Safety first: you'll be near high ceilings, forklifts and maybe energized measurements. Use the lift, not a tall ladder, coordinate with forklift traffic, and leave any energized readings to someone qualified and authorized, in the right PPE. Plan: floor plans, hours of operation, a meter, camera, and a checklist that includes ambient temperature.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew photographing a fixture label from the lift basket while the second tech records data on a tablet.",
+      "on_screen": "Ahead | Every hand busy",
+      "says": "Think ahead: the numbers you collect today become the crew's material list and labor plan. Wrong counts mean wrong parts on install day. Keep every hand busy: one person reads labels and counts, the other records, photographs and checks space types and controls. Nobody waits.",
+      "seconds": 18
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the table, holding up a clipboard with a blank audit form.",
+      "on_screen": "Common mistake: auditing only the easy areas",
+      "says": "The most common mistake at this level is planning only the easy version of the audit. You count the main floor and skip the mezzanine, the freezer or the parking lot. Then the bid is short, the crew is short on parts, and the pressure to cut corners lands on install day. Plan the whole building.",
+      "seconds": 22
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew back in the conference room, facing camera.",
+      "on_screen": "Never be caught off guard. Now begin the course.",
+      "says": "Never be caught off guard: expect hidden fixture types, areas that run 24 hours, and a customer who asks for the payback on the spot. Plan for them, and your crew will never be surprised on install day. Use these five habits on every task in this level. Now work through the lessons and take the quizzes.",
+      "seconds": 23
+    }
+  ],
+  "production_notes": "Course overview for LT5 Job Mindset Refresher (course not written yet; source: outline). The LT5 course list is still in flux; the scenario uses audit work (LT5-C04 in this batch) and must be checked against the LT5 lessons when written. Habits wording matches LT1-C01-NEW-mindset1 and LT4-C01-OVERVIEW. Props: floor plan, light meter, clipboard/tablet, scissor lift or boom lift in a generic warehouse with forklift traffic coned off."
+}

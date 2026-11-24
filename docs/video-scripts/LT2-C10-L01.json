@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C10-L01",
+  "title": "How LEDs Work & Why Heat Matters",
+  "course": "LT2-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 212,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop training bench with a failed LED high-bay opened face up, driver and heat sink visible. Matthew beside it, medium shot.",
+      "on_screen": "How LEDs Work & Why Heat Matters",
+      "says": "At this level, you don't just swap fixtures. You figure out why they failed, so the replacement lasts. And the number one thing that kills LEDs is heat. Before you open any fixture like this one in the field, lock out and verify dead live-dead-live, and remember a fixture that just shut off can be hot enough to burn. Let it cool, or wear gloves.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Animated diagram: AC in, driver, DC out to a board of LEDs in series. Cut back to Matthew.",
+      "on_screen": "LEDs run on DC. Light follows current.",
+      "says": "An LED is a semiconductor. Current flows one way, and the junction gives off light. A few field facts. LEDs run on DC, so the driver converts building AC to DC. LEDs are current devices: a small rise in voltage causes a big rise in current, so the driver has to control current. And polarity matters. Reverse plus and minus on a board and it won't light.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of an LED board label showing 36 V and 700 mA; on-screen callout.",
+      "on_screen": "Vf ≈ 2.7-3.3 V per LED  |  Example module: 36 V @ 700 mA",
+      "says": "Each LED needs roughly 2.7 to 3.3 volts DC to conduct. Manufacturers put many in series and parallel, so a module might need, say, 36 volts at 700 milliamps. That number matters when you pick a driver. Also, most white LEDs are blue chips with phosphor. Overheat them and the phosphor degrades, and you get the fixture that looks green or pink next to its neighbors.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech points to each part of the opened high-bay as it is named; presenter voice-over. On-screen heat path graphic.",
+      "on_screen": "Junction → Board → Thermal pad → Heat sink → Air",
+      "says": "LEDs are efficient, but a big share of the power still turns into heat, and it has to be conducted out the back of the board. Follow the path. The junction inside the chip. The metal-core board, where loose screws leave air gaps. The thermal pad or paste, which can be missing, dried out or reused. The heat sink, blocked by dust or debris. Then the surrounding air.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "IR thermometer or thermal camera view: a clean heat sink vs one packed with dust, temperatures shown side by side.",
+      "on_screen": "Tj controls life. You check Tc and rated ambient.",
+      "says": "The junction temperature controls life, but you can't measure it in the field. Manufacturers give a Tc test point on drivers and sometimes modules, and a rated ambient range for the fixture. Look at the difference here between a clean heat sink and a dusty one. Install a fixture outside its rated ambient range, and expect early failure.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "B-roll montage: recessed can under insulation, sealed vapor-tight with an LED lamp, high-bay near a hot roof deck, grimy garage fixture.",
+      "on_screen": "What cooks LEDs",
+      "says": "Here's what cooks LEDs in the field. A non-IC fixture buried in insulation. LED lamps marked not for totally enclosed fixtures, installed in a sealed vapor-tight or globe. High-ambient spots like a hot warehouse roof deck, kitchen hoods or boiler rooms. Dirty heat sinks. And retrofit boards installed without solid contact, when they should be mounted flat to the metal with any supplied thermal pad.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Time-lapse of a high-bay dimming in afternoon heat, then a cheaper fixture cycling off and on.",
+      "on_screen": "Dims on hot afternoons? Cycles on and off? Think heat.",
+      "says": "Many good drivers have thermal foldback. When it gets too hot, they cut current to protect the LEDs, so the customer sees fixtures that slowly dim on hot afternoons, then recover. Cheaper products may shut off completely and restart as they cool, and that looks like a fixture cycling every few minutes. Before you condemn a driver, ask: is this fixture overheating?",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew with an IR thermometer aimed at two identical fixtures in a warehouse aisle.",
+      "on_screen": "1 Rated ambient  2 Insulation/debris  3 Boards tight, pads in place  4 Compare to a good twin  5 Worse in afternoon?",
+      "says": "Simple checks. Compare the rated ambient to the real space. Look for insulation, debris or added enclosures. Make sure boards are tight and pads are in place. Use an IR thermometer to compare the problem fixture with an identical one that works. A big difference is a clue. And note whether it gets worse in the afternoon or in summer.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the bench, Matthew to camera.",
+      "on_screen": "Check installation conditions before you blame the product",
+      "says": "Check installation conditions before you blame the product. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Bench segment uses a failed, de-energized high-bay. Thermal camera or IR thermometer comparison should use a clean vs dusty heat sink of the same model. Do not show specific temperature numbers as rules; show readings only as a comparison."
+}

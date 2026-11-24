@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C12-L01",
+  "title": "Life-Safety Purpose & the Code Framework",
+  "course": "LT3-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 207,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training building corridor after hours, normal lights off, emergency heads and exit sign lit. Matthew in the glow. Medium shot.",
+      "on_screen": "Life-Safety Purpose and the Code Framework",
+      "says": "This is what a building looks like when normal power fails. Emergency lighting and exit signs are life-safety equipment. They're not convenience lighting, and mistakes on these systems can contribute to injuries or deaths during an evacuation. Treat every emergency lighting job with that in mind.",
+      "seconds": 18
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Camera follows a technician from an interior office along the egress path, past emergency fixtures, to the exterior exit door. Presenter voice-over.",
+      "on_screen": "Automatic | Lights the means of egress | 90 minutes | Exits marked",
+      "says": "Emergency lighting must come on automatically when normal lighting power fails. It must light the means of egress, the exit access, the exit and the exit discharge, well enough for people to move safely. It must last at least 1.5 hours, 90 minutes, under NFPA 101. And exit signs must stay illuminated so people can find the way out.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of the NFPA 101 numbers over the corridor footage.",
+      "on_screen": "1 fc average | 0.1 fc minimum | 40:1 max-to-min | within 10 seconds | 90 minutes",
+      "says": "NFPA 101's baseline: an average of at least 1 footcandle along the egress path at floor level, and at least 0.1 at any point. At the end of 90 minutes it may drop to 0.6 average and 0.06 minimum. Maximum-to-minimum no more than 40 to 1. And light must arrive within 10 seconds of losing normal lighting.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Exterior: tech steps out the exit door onto a landing, steps and a walkway in the dark, lit by an exterior emergency fixture.",
+      "on_screen": "Egress continues OUTSIDE. How far = AHJ decision.",
+      "says": "The path doesn't end at the door. The exit discharge runs from the exit door to a public way or safe place. Some jurisdictions want light just at the exterior landing. Others want the walkway lit to the street. The AHJ decides. Replacing a light by an exit door? Check if the old one had a battery or emergency feed. The new one must too, and be rated for wet locations and cold.",
+      "seconds": 29
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the electrical panel, on camera, medium shot. Graphic stack appears.",
+      "on_screen": "NFPA 101 / IBC-IFC: where, how much, how often | NEC Art. 700: how to wire | UL 924: products | AHJ decides",
+      "says": "Who writes the rules? NFPA 101, or the IBC and IFC, say where emergency lighting is required, how much light, how long and how often to test. NEC Article 700 says how to wire and power emergency systems. UL 924 lists the products. OSHA requires exit routes lit and marked. And the AHJ, usually the fire marshal or building official, decides which editions apply. The local edition governs.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the panel; graphics of unit equipment, central inverter, generator with transfer switch.",
+      "on_screen": "Unit equipment | Central battery/inverter | Generator + transfer switch",
+      "says": "Emergency power comes from unit equipment, like battery packs, bug-eyes and emergency drivers, each with its own battery. Or from a central battery inverter feeding many fixtures. Or from a generator with a transfer switch. Article 700 keeps emergency circuits independent and marked. Don't splice a normal circuit into a box marked emergency. And emergency lighting can't be switched off in a way that leaves it dark during an outage.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the panel, medium close-up.",
+      "on_screen": "Never reduce emergency lighting without approval.",
+      "says": "Here's where techs get it wrong. You won't usually design the layout, but you will replace and relocate fixtures. Moving an emergency head, swapping a battery fixture for a standard one, or temporarily disconnecting a unit can leave a dark spot on the egress path. Never reduce emergency lighting without approval from the customer and, where required, the AHJ. Not sure? Ask, and write it up.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: a locked-out panel, a battery connector being unplugged inside a fixture.",
+      "on_screen": "More than one source. LOTO every source. Disconnect batteries.",
+      "says": "Safety. Emergency equipment can be energized from more than one source. A unit has its own battery. An inverter-fed fixture is live with the normal breaker off. A generator-fed fixture can be re-energized automatically. Identify every source, lock out each one, disconnect batteries per the manufacturer's instructions, and verify absence of voltage before you work.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Back in the dark corridor, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "Automatic, 90 minutes, the right light on the whole path, inside and out. Every source locked out. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Film after hours with normal lighting switched off at the panel by a qualified person; ensure the crew has adequate safe lighting off-camera. Exterior scene at night with a generic building (no signage). Code references: NFPA 101 Section 7.9, NEC Articles 700/701/702, OSHA 1910.37, UL 924, NFPA 110/111; on-screen text may cite them."
+}

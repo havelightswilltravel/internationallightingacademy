@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C02-L03",
+  "title": "Uniformity & Glare",
+  "course": "LT5-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 178,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at night, split view: one side with old HID fixtures (hot spots and dark zones), other with an even LED layout. Matthew with a meter, hi-vis vest.",
+      "on_screen": "Uniformity & Glare",
+      "says": "A space can meet its average and still be poorly lit. Bright spots and dark patches make your eyes keep re-adapting, hide hazards in shadows, and generate complaints. Uniformity describes how even the light is. Glare is light that causes discomfort or reduces visibility. Both matter for safety, which is why we take them seriously.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen formulas over Matthew taking readings at the brightest and darkest points.",
+      "on_screen": "avg:min = average ÷ minimum\nmax:min = maximum ÷ minimum\nLower = more uniform",
+      "says": "Two common ratios. Average-to-minimum is the average divided by the minimum. Maximum-to-minimum is the max divided by the min. For both, lower is more uniform. International practice often uses minimum over average, where higher is better. Always say which ratio you used. 'Uniformity of 3' is meaningless without it.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic using the classroom survey numbers.",
+      "on_screen": "Survey: avg 37.3, max 47, min 29\navg:min = 1.29:1   max:min = 1.62:1",
+      "says": "From last lesson's survey: average 37.3, max 47, min 29. Average-to-min is 1.29 to 1, max-to-min is 1.62 to 1. That's a very uniform interior. Typical guidance: offices and classrooms around 1.5 to 3 to 1 average-to-min; parking lots around 3 or 4 to 1, and max-to-min around 10 to 20 to 1. Confirm in the IES document or spec.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew walks between poles in the HID side; one fixture dark.",
+      "on_screen": "Poor uniformity: spacing too wide • wrong optics • one-for-one retrofits\noutages • mixed sources • new obstructions",
+      "says": "Common causes of poor uniformity: spacing too wide for the distribution, wrong optics, one-for-one retrofits where the new fixture spreads light differently, outages, mixed sources after piecemeal maintenance, and obstructions like new racks or ductwork. One dead fixture in a parking lot can wreck the max-to-min ratio.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Camera at a driver's eye level: unshielded wall pack glaring vs a full-cutoff fixture.",
+      "on_screen": "Discomfort glare • Disability glare • Reflected glare",
+      "says": "Three kinds of glare. Discomfort glare causes squinting or annoyance. Disability glare scatters light in your eye and actually reduces what you can see, like oncoming headlights. Reflected glare is bright images in screens, glossy paper or polished floors. Look at this wall pack from a driver's seat. That's disability glare, and it can hide a pedestrian.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Office: troffers with louvers; graphic of UGR.",
+      "on_screen": "Interior: luminance limits • UGR (~19 common for offices; calculated, not metered) • shielding",
+      "says": "Indoors, designers limit how bright fixtures appear at high angles. The Unified Glare Rating is a calculated index; about 19 is a common office target. It's calculated by designers, not measured with a footcandle meter. Shielding helps: lenses, louvers, baffles, regressed optics, indirect components.",
+      "seconds": 18
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close on an area-light spec sheet highlighting the BUG rating.",
+      "on_screen": "BUG (IES TM-15): Backlight • Uplight • Glare, each 0 and up\nFull cutoff: typically U0",
+      "says": "Outdoors, IES TM-15 defines BUG ratings: Backlight, Uplight and Glare, each rated from 0 upward. They're on many area-light spec sheets and used in some outdoor lighting ordinances. A full-cutoff area light typically has U0, meaning no light above horizontal.",
+      "seconds": 16
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Pole base; senior tech with lock on the circuit and a MEWP set up nearby.",
+      "on_screen": "Field fixes need designer/customer approval\nAdjusting exterior fixtures: LOTO first, MEWP procedures",
+      "says": "Field fixes, with designer or customer approval: diffuse lenses or lower high-end trim for blinding lights, house-side shields or lower-backlight optics for light trespass, repaired outages or the right IES type for dark spots, full-cutoff fixtures for wall-pack glare. When you aim or shield an exterior fixture, de-energize and lock out first, and follow MEWP procedures for pole work.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Report the average, the ratio you used and the glare you saw. Glare at docks, entrances and stairways can hide people and hazards. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Knowledge lesson with field demo; scene 1 ties uniformity and glare to safety. Film at night in a generic parking lot or warehouse with an older HID area and an LED area. Driver's-eye shot of an unshielded wall pack vs full-cutoff fixture. Hi-vis and traffic control on camera. Uniformity criteria are typical ranges from the lesson; keep the 'confirm in IES/spec' wording."
+}

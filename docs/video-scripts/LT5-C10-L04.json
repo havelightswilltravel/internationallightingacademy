@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C10-L04",
+  "title": "Review: Codes, Power Quality and Systematic Troubleshooting",
+  "course": "LT5-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 176,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop classroom table with a tabbed 2023 NEC code book. Matthew flipping tabs. Medium shot.",
+      "on_screen": "Review: Codes, Power Quality and Troubleshooting",
+      "says": "Codes and troubleshooting go together. The code tells you what a safe installation looks like. Troubleshooting tells you why one isn't working. Both start with the same habit: plan before you touch anything. The NEC is a minimum standard, and the authority having jurisdiction has the final say. This program uses the 2023 edition; always confirm what's adopted locally.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the code book tabs being labeled.",
+      "on_screen": "Ch 1-4: general - Ch 5-7: special, can modify 1-4 - Ch 8: communications - Ch 9: tables\nInformational notes are not enforceable",
+      "says": "Structure. Chapters 1 through 4 apply generally. Chapters 5 through 7 cover special occupancies, equipment and conditions, and can modify the first four. Chapter 8 is communications. Chapter 9 is tables. And informational notes explain, but they aren't enforceable requirements.",
+      "seconds": 16
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew tabs articles one by one; list builds on screen.",
+      "on_screen": "110 - 210 - 225 - 240 - 250 - 300 - 310 - 404 - 410 - 411 - 600 - 700\n110.3(B) - 210.4(B) - 410.130(G)",
+      "says": "Tab these: 110, 210, 225 for outdoor and pole lighting, 240, 250, 300, 310, 404, 410 for luminaires, 411, 600 for signs, and 700 for emergency. Remember 110.3(B): listed equipment goes in per its listing and instructions; that's why retrofit kit instructions matter. 210.4(B): multiwire circuits need simultaneous disconnect. And 410.130(G) disconnects make servicing safer, but they don't replace LOTO.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic panel of four icons over a shot of a lighting panel.",
+      "on_screen": "Inrush - Harmonics (triplens add in neutral) - Power factor (above 0.9 at full load) - Surges (SPDs)",
+      "says": "Power quality in one breath. Inrush: drivers draw a big spike at turn-on that trips breakers and welds contacts. Harmonics: on three-phase four-wire, triplens add in the neutral, so use true-RMS meters and watch for hot neutrals. Power factor: good drivers are above 0.9 at full load, lower when dimmed. Surges kill drivers, especially outdoors; SPDs help.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Training panel: Matthew talks with a facility contact (actor) who describes a breaker tripping every morning when lights come on. Matthew takes notes on a work order.",
+      "on_screen": "1 Gather info  2 Verify  3 Plan tests  4 Make it safe  5 Test and isolate  6 Root cause  7 Repair  8 Verify  9 Document",
+      "says": "Let's run a case. A breaker trips every morning when the lights come on. Step one, gather information: when, what changed, what else is affected. Talk to the person who reported it. Step two, see it yourself. Step three, plan your tests, most likely and easiest first. Step four, make it safe: decide what you can test de-energized and what energized testing, if any, is justified.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified senior tech in PPE per the arc-flash label clamps the circuit conductor at the training panel and captures the inrush reading; Matthew compares it to a fixture spec sheet showing inrush data.",
+      "on_screen": "Steady current OK - inrush spike exceeds breaker instantaneous range",
+      "says": "Here, a qualified tech in the right PPE measures current with a clamp meter. Steady current is fine. The inrush at switch-on is the problem. Compare it to the fixtures' inrush data times the fixture count, and the breaker's trip curve. Half-splitting helps on bigger systems: test at a midpoint and eliminate half with each measurement.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew writing root cause and fix on the work order on a clipboard.",
+      "on_screen": "Ask 'why' until you hit the root cause.",
+      "says": "Then ask why until you reach the root cause. Too many drivers on one circuit switched at once. Repair under LOTO, here by splitting the circuit or staggering turn-on, then verify under normal conditions, including dimming, sensors and emergency functions. Document the finding, the cause, the action and the recommendation on the work order.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the training panel, medium close-up. Safety callout.",
+      "on_screen": "Energized diagnostic testing = energized work. Repairs: always de-energized.\nNow read the lesson and take the quiz",
+      "says": "Troubleshooting tempts people to work energized just to check one thing. Diagnostic measurements on energized equipment are energized work: be qualified, use the right meter and PPE, follow NFPA 70E. Repairs are always done in an electrically safe work condition. Now read the lesson and take the quiz.",
+      "seconds": 19
+    }
+  ],
+  "production_notes": "The video suggestion says 'closed panel' for the clamp measurement; clamping a conductor normally requires the cover open, which is energized work. Film it with a qualified person in PPE per the arc-flash label on a training panel, or use a panel with an approved external metering point; confirm the method with the program lead. Do not show unit prices. Facility contact is an actor."
+}

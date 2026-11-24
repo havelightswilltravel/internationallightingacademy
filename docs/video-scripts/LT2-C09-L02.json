@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C09-L02",
+  "title": "Cross-Referencing, Spec Sheets, Photos & Measuring",
+  "course": "LT2-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 169,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office corridor ceiling, LED troffer with door open; ladder in place, lock and tag visible on panel cut-in. Matthew at ladder base, medium shot.",
+      "on_screen": "Cross-Referencing, Spec Sheets, Photos & Measuring",
+      "says": "Getting the right part starts before you leave the fixture. Lock out and verify dead before you photograph or measure inside it, because lamps and drivers can be hot and your hand is close to energized parts. Plan to capture everything once, so nobody has to come back. Here's how.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech on the ladder photographs the fixture tag, then the full label; presenter voice-over. Phone-screen inserts show each shot.",
+      "on_screen": "1 Wide shot  2 Whole label  3 Control glare  4 Zoom to check",
+      "says": "First a wide shot, showing the fixture and its location or tag number. Then the whole label, square to the camera, filling the frame. Control glare: tilt the phone a little or shade the label with your hand, and turn off the flash if it washes out shiny labels. Tap to focus, then zoom in and check. Every character has to be readable.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech photographs the driver label wiring diagram, then a lens with a tape measure laid across it, then the inside of the housing; presenter voice-over.",
+      "on_screen": "5 Wiring diagram  6 Tape for scale  7 The inside",
+      "says": "Include the wiring diagram on ballast and driver labels. Lay a tape measure in the shot for lenses, lamps or sockets. And photograph the inside: sockets, where the driver sits, mounting holes and wiring. If a label's faded, shoot it anyway at several angles. Sometimes the text shows up in one of them.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up hands measuring a lens, a driver case with mounting-hole spacing, and a recessed can aperture.",
+      "on_screen": "No label? Measure it.",
+      "says": "When the label's gone, measurements identify the part. Lamps: overall length with pins, and diameter. Screw bases: a base gauge makes it easy. Lenses: length, width, thickness, pattern and material, and measure the lens, not the door frame. Drivers and ballasts: case size and mounting-hole spacing. Recessed cans: aperture and housing depth.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "At the truck tailgate: senior tech searches a manufacturer website by full catalog number on a tablet, opens the spec sheet and installation instructions; presenter voice-over.",
+      "on_screen": "Spec sheet + installation instructions → save to the job",
+      "says": "Next, get the spec sheet and installation instructions. Search the manufacturer's site by the full catalog number, scan the QR code if there is one, or ask the supply house or rep. Save them to the work order or the customer's folder so the next tech has them. And read the instructions before installing a crossed or unfamiliar part. Wiring colors differ between brands.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tablet screen: a manufacturer cross-reference tool returns an equivalent ballast; senior tech compares the two labels side by side.",
+      "on_screen": "A cross is a starting point, not the answer",
+      "says": "Now cross-referencing. The supply house may stock a different brand, so you use a manufacturer's cross-reference tool or ask the counter or the rep. But the tool is a starting point. For a fluorescent ballast, compare lamp type and quantity, start method, input voltage, ballast factor, case size and mounting, and dimming. If one field doesn't match, ask before ordering.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: two LED drivers side by side, both labeled 40 W; one 700 mA, one 1050 mA. Red callout on screen.",
+      "on_screen": "Never cross an LED driver by wattage alone",
+      "says": "Here's the mistake that costs boards. Never cross an LED driver by wattage alone. These are both 40 watt drivers. But a 1050 milliamp driver will destroy a board designed for 700. Match input voltage, constant current or constant voltage, output current, the output voltage window, power, dimming type, case size and mounting holes.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Back at the corridor, Matthew to camera.",
+      "on_screen": "",
+      "says": "Good photos, the right documents, and a cross you've checked yourself. That's how you save the trip. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Performer is a senior technician; circuit locked out and verified dead before any photos inside the fixture or measuring. Use a generic manufacturer website mock-up or blur brand names on the cross-reference tool screen. Show glare control (tilt, hand shade, flash off) with a before/after insert."
+}

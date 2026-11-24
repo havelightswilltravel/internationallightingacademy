@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L01",
+  "title": "Your Evolution Is in Your Hands",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop floor early morning, service trucks lined up, a few techs loading. Matthew in front of a truck, medium shot.",
+      "on_screen": "Your Evolution Is in Your Hands",
+      "says": "You made it through LT1. That's a real accomplishment. Most people who start in this trade don't get that far. LT2 is where you start becoming a technician instead of a helper. The work gets more technical, the jobs get bigger, and people start depending on you. So before we teach a single new task, two things. Your growth is your responsibility. And safety is the foundation.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Montage over six months: Tech A arrives ten minutes early, checks the truck before the trainer arrives, asks questions on the job, studies the training app at a kitchen table with a notebook. Tech B arrives right at start time, waits by the truck, opens the app the night before a quiz. Matthew voice-over.",
+      "on_screen": "Same start date. Same training.",
+      "says": "Two new techs start the same week. Same training, same trainer, same chances. One shows up ten minutes early with the truck already checked, asks questions all day and studies in the evening with a notebook. The other shows up on time, waits to be told what to do, and opens the app the night before a quiz. Watch where they are in six months.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech A stages the next fixture while the lift moves; finishes cleanup, counts and photos; phone in pocket.",
+      "on_screen": "Work ethic: ready at start time | look for the next task | finish the boring parts | right the first time",
+      "says": "Four things you control every day. First, work ethic. On time means working at start time, not pulling into the lot. Look for the next thing to do. If the lift is moving, stage the next fixture. Finish the boring parts: cleanup, counts, labels, photos, paperwork. Do it right the first time, because a callback costs far more than two extra minutes. And the phone waits for breaks.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech A on the phone to the supervisor before start time; then a trainer correcting her technique and her nodding, 'Got it, why is it done that way?'",
+      "on_screen": "Commitment | Attitude: be coachable",
+      "says": "Second, commitment. Do what you said, when you said, even when nobody's checking. Late or sick? Call before start time, not after. Third, attitude. You'll get corrected a lot in LT2. 'I already know that' holds you back. 'Got it, why is it done that way?' moves you forward. Being coachable, honest, and reporting a mistake right away matters more than almost anything.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at a table with a phone calendar showing four blocked study sessions.",
+      "on_screen": "About 4 hours of study a week. That time is on you.",
+      "says": "Fourth, investing in yourself. Your hours on the job teach you what you see. Study teaches you why, and prepares you for what you haven't seen yet. Plan on about four hours of study a week. That time is on you. It's the biggest difference between techs who move up and techs who stall. Block those hours in your phone calendar now. If you wait to find time, you won't.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "An evaluator with a clipboard watches a tech perform a task; close-up of a skills list on a tablet.",
+      "on_screen": "Advancement = demonstrated skill, not time served",
+      "says": "In our program you don't move up for time served. You move up when you've shown you can do the work. Courses and quizzes prove you understand it. On-the-job hours give you repetitions. Skill sign-offs are where an evaluator watches you do the task against written criteria, and critical skills must be safe and correct with no coaching. Check your transcript at least once a month.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech A at the start of a shift, pausing at the truck door; on-screen self-check questions appear.",
+      "on_screen": "Did I sleep? Eat? Water? On anything that slows me? Distracted?\nIf yes: tell your supervisor before work starts",
+      "says": "The order is always the same: safety first, then the task, then speed. And fitness for duty is a hazard you bring with you. Before every shift: did I sleep, did I eat, do I have water, am I on anything that slows me down, am I upset enough to be distracted? If any answer worries you, tell your supervisor before the work starts. Not when you're on a ladder.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Six months later: Tech A leads a pre-task brief while the trainer listens; Tech B carries ladders in the background. Cut to a supervisor on camera.",
+      "on_screen": "\"Nobody handed that to her. She built it, one day at a time.\"",
+      "says": "Six months later, she's leading the pre-task brief while the trainer listens. He's still carrying ladders. Nobody handed that to her. She built it, one day at a time. Rate yourself on the self-check in this lesson, pick your two lowest, and make them your goals for next month. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Two new-technician actors followed across short cuts spread over six months (use wardrobe and seasonal cues). Supervisor's closing line can be delivered on camera by a supervisor actor or by Matthew. No real employee names. Lesson file: curriculum/levels/LT2/courses/LT2-C13/lessons/01-your-evolution-is-in-your-hands.md."
+}

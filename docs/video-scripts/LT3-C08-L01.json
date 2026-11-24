@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C08-L01",
+  "title": "How 3-Way and 4-Way Switches Work",
+  "course": "LT3-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with a switching board, a 3-way and a 4-way switch on the bench. Medium shot.",
+      "on_screen": "How 3-Way and 4-Way Switches Work",
+      "says": "Three-way problems are one of the most common service calls we get, and one of the most common places a previous worker made a mistake. You can't troubleshoot what you don't understand. So today, no wiring yet. Just how these switches actually work inside.",
+      "seconds": 18
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Same bench. On-screen table appears beside Matthew.",
+      "on_screen": "1 location = single-pole | 2 = two 3-ways | 3 = two 3-ways + one 4-way | N = two 3-ways + (N-2) 4-ways",
+      "says": "A single-pole switch controls a light from one place. Stairwells, corridors and big rooms with two doors need control from two or more places. Two locations takes two three-way switches. Three locations takes two three-ways plus one four-way. Every location past two adds another four-way.",
+      "seconds": 18
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: instructor holds a 3-way switch to the camera, finger on the dark screw, then the two brass screws, then the green screw.",
+      "on_screen": "COMMON = dark screw | TRAVELERS = 2 brass screws | GROUND = green",
+      "says": "A three-way is not an on-off switch. It's single-pole, double-throw. It connects one terminal, the common, to one of two travelers. That's why there's no on or off on the toggle. The common is usually a dark black or bronze screw. The travelers are lighter brass screws. Green is ground.",
+      "seconds": 20
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: meter leads on common and a traveler; meter beeps, toggle flips, leads moved to the other traveler, beeps. Switch is loose on the bench, not connected.",
+      "on_screen": "Never ID a terminal by its position. Read the marking. Confirm with continuity.",
+      "says": "Watch the meter. Common to traveler one: beep. Flip it. Now common to traveler two: beep. Safety point from the lesson: never assume a terminal by its position on the switch body. Manufacturers put the common in different places. Read the screw color or marking, and confirm with a continuity test on a de-energized switch.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Animated diagram: hot to SW1 common, two travelers to SW2, SW2 common to light, neutral to light.",
+      "on_screen": "Both switches on the same traveler = ON. Different travelers = OFF.",
+      "says": "Two three-ways are joined by two travelers. Line hot lands on the first switch's common. The second switch's common feeds the light. The light is on when both switches point to the same traveler, and off when they point to different ones. That's why every flip of either switch changes the light, and why one bad traveler gives you that weird 'only works in certain positions' symptom.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: 4-way switch held to camera, meter showing straight-through then crossed positions.",
+      "on_screen": "4-way: straight through, or crossed. Inputs are a pair. Outputs are a pair.",
+      "says": "A four-way sits between the two three-ways, in the traveler path only. Four terminals: an input pair and an output pair, plus ground. Its only job is to pass the travelers straight through or cross them over. Terminal layout varies by manufacturer. A very common mistake is landing one incoming and one outgoing traveler on the same pair. Follow the markings and verify the pairs with continuity.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a switch box mock-up showing a white conductor with black tape on a traveler.",
+      "on_screen": "Never trust wire color alone.",
+      "says": "Conductors: line hot is often black, travelers are often red and black, or a white re-identified with tape. The switch leg goes from the last common to the light. A white used as a traveler or hot is required to be re-identified, but in older work you'll often find it unmarked. Never trust color alone. Confirm by tracing and testing.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Truck stock bin: a single-pole switch next to a 3-way. Then a two-location training board lights a lamp from either switch.",
+      "on_screen": "Check: function (3-way/4-way) | rating 15 or 20 A, 120/277 V | style | grade",
+      "says": "Common mistake: grabbing a single-pole from the truck to replace a three-way. A single-pole has two brass terminals and an ON-OFF toggle. It can't do the job. Check the function marking, the rating, at least the circuit and load, style, grade, and whether it's back-wire or side-wire. Get it right and the board works from either switch, every time.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium close-up.",
+      "on_screen": "LT2: learn and troubleshoot with a lead. LT3 and up: troubleshoot unsupervised.",
+      "says": "A company note. We treat three-way and four-way switching as higher-end tech work. At LT2 you learn how it works and troubleshoot with a lead or supervisor. At LT3 and above, you troubleshoot three-way circuits unsupervised. If you're on your own and it goes beyond the switch-arm and connection checks, write it up. Now read the lesson and take the quiz.",
+      "seconds": 24
+    }
+  ],
+  "production_notes": "Continuity demos are done on loose, unconnected devices on the bench. Two-location training board must be built and energized by a qualified person. Instructor (senior tech) handles devices on camera; presenter voice-over where noted. Use generic devices with no visible brand."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C12-L03",
+  "title": "UL 924 Control & Transfer Devices and Exit Signs",
+  "course": "LT3-C12",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 210,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Dimmed, sensor-controlled corridor; some fixtures marked with small 'EM' dots. Medium shot.",
+      "on_screen": "UL 924 Control and Transfer Devices and Exit Signs",
+      "says": "Modern buildings dim, schedule and sensor-control almost every fixture, including the ones that are also emergency lighting. In an outage those fixtures must come on at full or design output no matter what the controls are doing. Wall switch off, sensor timed out, dimmer at 10 percent, doesn't matter. The devices that make that happen are listed under UL 924.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: ALCR module in a junction box; labels 'Normal Sense', 'Emergency', 'Load', test button and LED.",
+      "on_screen": "ALCR: normal control day to day, FORCES ON at loss of normal power",
+      "says": "The most common is the automatic load control relay, or ALCR. Day to day, it lets the switch or sensor control an emergency-fed fixture. When it senses loss of normal power, it forces the fixture on, bypassing the local control. You'll also see dimming overrides, transfer switches called BCELTS, and shunt relays in relay panels. Look for a normal-sense lead, an emergency input, a load output, and a UL 924 label.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Corridor demo: wall control set to off; trainer switches off the normal breaker (with occupants warned); generator-fed emergency fixtures snap to full brightness.",
+      "on_screen": "Wall control OFF. Normal breaker OFF. Emergency fixtures: FULL ON.",
+      "says": "Watch. The wall control is off. With permission and the occupants warned, the trainer switches off the normal circuit breaker. The ALCR senses loss of normal, and the emergency fixtures go to full brightness, controls or not. That's also how you test it: interrupt the normal-sense circuit with permission, or use the device's test function.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the corridor, medium close-up.",
+      "on_screen": "Normal-sense = LOCAL normal circuit. Never bypass. Find out why.",
+      "says": "Wiring rules. The normal-sense input must come from the normal branch circuit serving that area, so a local breaker trip triggers it, not just a building outage. Never put a normal switch, sensor or dimmer directly in an emergency circuit without a listed device. And the common mistake: removing an ALCR because 'the lights won't turn off.' Don't. Usually its normal-sense input lost power. Find out why.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the corridor.",
+      "on_screen": "Adding controls near emergency fixtures? Check how they'll be forced on. Involve your supervisor.",
+      "says": "When you add a new sensor, dimmer or networked control to a space with emergency-fed fixtures, check how those fixtures will be forced on during an outage. Involve your supervisor, and the engineer as needed.",
+      "seconds": 14
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Row of exit signs on a training wall: LED, combo, tritium, photoluminescent, edge-lit.",
+      "on_screen": "LED | Combo | Tritium | Photoluminescent | Edge-lit",
+      "says": "Exit signs. Internally lit LED signs run on AC with battery backup or an emergency circuit. Combo units add emergency heads, so test the sign and the heads together. Tritium signs glow from radioactive gas with no power, and fade over their rated life, often 10, 15 or 20 years, so check the expiration date. Photoluminescent signs need a specified level of charging light whenever the building is occupied.",
+      "seconds": 28
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: exit sign chevron knockouts; a sign partly hidden by a banner.",
+      "on_screen": "EXIT legible and lit | chevrons point the right way | never blocked",
+      "says": "Every exit sign: the word EXIT legible and illuminated, continuously while the building is occupied and during power failures where emergency lighting is required. Chevrons pointing the right way, set at install and checked after any relocation. Never blocked by displays, banners or new partitions. To replace one, lock out, verify dead, disconnect the old battery, use an unswitched supply, set chevrons, connect the battery, press test, and log it.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a tritium sign label with radiation markings. Matthew holds it carefully.",
+      "on_screen": "TRITIUM = regulated radioactive material. NEVER in the trash.",
+      "says": "Safety. Tritium exit signs are regulated by the U.S. Nuclear Regulatory Commission or an Agreement State. Never throw them in the trash, break them open or remove them without following our company procedure. They go back to the manufacturer or a licensed recipient, with the transfer documented. A broken tritium sign means you notify your supervisor and follow the label's cleanup and reporting instructions.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the corridor, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "UL 924 devices force emergency lights on, so never bypass them. Exit signs: lit, legible, arrowed right, unblocked. Tritium never goes in the trash. Now read the lesson and take the quiz.",
+      "seconds": 13
+    }
+  ],
+  "production_notes": "Breaker operation for the ALCR demo performed by a qualified person with occupants of the training building notified. Use a sealed, intact tritium sign (or a non-radioactive prop clearly marked as a prop) handled per company procedure. Use generic ALCR module with mock labels."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT5-C09-L06",
+  "title": "Selling, Scheduling & Verifying a Service Program",
+  "course": "LT5-C09",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 169,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Conference room; a lead tech presents a printed service proposal to a facility manager. Chris stands to the side. Medium shot.",
+      "on_screen": "Selling, Scheduling & Verifying a Service Program",
+      "says": "A service proposal has to answer three questions for the customer. What do I get? What does it cost? And how will I know it worked? If you can't answer the third one, you're asking them to take it on faith. Let's build one they don't have to.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Close-up of the proposal pages flipping: site summary, scope, tiers, exclusions, pricing, verification, reporting, roadmap.",
+      "on_screen": "Site summary - scope - response tiers - exclusions - pricing - verification - reporting - roadmap",
+      "says": "Build it from the inventory, failure log and condition data. Site summary. Scope: inspections, cleaning, controls checks, emergency testing, warranty work, attic stock. Response tiers. Exclusions, like branch-circuit and panel work that needs an electrician. Pricing and what's included. How you'll verify light levels. What reports they get. And a roadmap for aging equipment.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Chris close-up.",
+      "on_screen": "Fewer complaints - predictable cost - safer spaces - documented compliance - a plan",
+      "says": "Speak the customer's language. Fewer complaints. Predictable cost. Safer spaces. Documented compliance. A plan for aging equipment. Use their own call history and our cost model, not generic claims. That's what professionals do.",
+      "seconds": 13
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Night: empty warehouse aisle; lead tech and an LT3 in high-visibility vests unload a lift and mark grid points on the floor with tape, checking a floor plan.",
+      "on_screen": "Plan with the customer - work unoccupied hours - logistics - phase by area - batch Tier 3 - confirm the day before",
+      "says": "Schedule around the occupants. Get their hours, shift changes, deliveries and peak seasons. Work unoccupied hours when you can, especially lift work, cleaning and measuring. Sort out badging, keys, elevators, lift delivery and charging ahead of time. Phase by area so every area goes back clean and working at the end of the shift. And confirm the day before.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Same aisle: tech checks a meter's calibration sticker, overrides dimming at a wall station, waits, then takes readings at each taped point holding the meter level at work height, body out of the shadow. Presenter voice-over.",
+      "on_screen": "1 Plan the grid  2 Calibrated meter  3 Control daylight  4 Full output, stabilized  5 Read each point  6 Record outages",
+      "says": "Verification turns a visit into evidence. Mark a grid and record exact points. Use a calibrated meter and record its model and serial. Measure at night or with shades closed. Override dimming so fixtures run full, let them stabilize, and record the control state. Hold the meter level at work height, keep your shadow off it, and note any outages. Wear high-vis where vehicles run.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Tech holds the meter sensor against a wall facing out, then turns it to face the wall a few inches away; then repeats with a white reference card.",
+      "on_screen": "Reflectance = reflected / incident\nExample: 28 fc / 40 fc = about 70%",
+      "says": "Check the room surfaces too. Hold the meter against the wall facing out, then turn it to face the wall a few inches away. Reflected divided by incident is the reflectance. Forty foot-candles in, 28 out, about 70 percent. Or use a white reference card. If reflectance is falling, recommend cleaning or painting the walls. That's usually outside our scope, but the customer should know.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Crew cleans and repairs fixtures from the lift, then re-measures at the same taped points.",
+      "on_screen": "Same points - same conditions - average, max-to-min, percent change",
+      "says": "Then service the area: clean, repair, re-set controls. Re-measure at the same points, under the same conditions. Calculate the average, the max-to-min ratio, and the percent change before and after. Don't open any fixture or panel during the survey without LOTO and live-dead-live verification.",
+      "seconds": 18
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Facility manager's office: lead tech reviews a one-page before/after report with the facility manager, who nods.",
+      "on_screen": "One table and three sentences.\nNow read the lesson and take the quiz",
+      "says": "Report after every visit: work done by asset ID, failures and causes, warranty claims, open items, before and after light levels. Once a year, add trends, credits recovered and an updated roadmap. Write plainly. One table and three sentences often do more than ten pages. Now read the lesson and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Do not show prices or rates on the proposal pages; blur any pricing section. Night measurement scenes: crew in high-visibility clothing, lift operated by a trained operator, LOTO shown before cleaning from the lift. Facility manager and crew are non-speaking. Generic warehouse and office, no customer logos."
+}

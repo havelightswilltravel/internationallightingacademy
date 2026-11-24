@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C13-L01",
+  "title": "MEWP Types & the ANSI A92 Standards",
+  "course": "LT1-C13",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Equipment yard, daytime. Behind Danny, lined up: a slab scissor lift, a rough-terrain scissor, a push-around vertical mast lift and an articulating boom. Wide shot, then medium.",
+      "on_screen": "MEWP Types & the ANSI A92 Standards",
+      "says": "I'm Danny. Lighting techs use lifts constantly: warehouse high-bays, gyms, parking lot poles, atriums. The biggest lift hazards are power lines, tip-overs, falls and getting crushed overhead. A lot of that starts before you ever climb on, with picking the wrong machine. So today, before anyone goes up, you learn to tell these machines apart.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny standing at the platform of the articulating boom, facing camera.",
+      "on_screen": "This course does not authorize you to operate a MEWP",
+      "says": "First, what this course is and isn't. It covers the knowledge. It does not authorize you to operate a lift. You can operate one only after operator training, classroom and a hands-on evaluation by a qualified person for that Group and Type, and familiarization on the specific make and model. Your employer documents both.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Danny walks between the slab scissor and the mast lift, gesturing straight up; graphic of tipping lines on the ground.",
+      "on_screen": "Group A: platform stays within the tipping lines\nGroup B: platform can extend beyond",
+      "says": "MEWP is the ANSI term: mobile elevating work platform. They're grouped by where the platform can go. Group A stays within the machine's tipping lines. It goes straight up, like this scissor and this mast lift. Group B can reach out beyond the tipping lines. That's your telescopic and articulating booms.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny pushes the vertical mast lift a few feet (stowed), then points to the platform controls on the self-propelled scissor.",
+      "on_screen": "Type 1: travel stowed only\nType 3: travel elevated, from the platform\nScissor = 3A | Boom = 3B",
+      "says": "Then by Type, how it travels. Type 1 only travels stowed, like this push-around mast lift. Type 2 travels elevated controlled from the chassis, which is less common. Type 3 travels elevated controlled from the platform. Most self-propelled scissors are 3A. Self-propelled booms are 3B. Your training is specific to the categories you're trained on.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-ups of decals on the rough-terrain scissor: platform capacity (persons and weight), maximum wind speed, and an indoor-only decal on the slab scissor.",
+      "on_screen": "Read the decals: capacity | wind rating | slope | indoor/outdoor",
+      "says": "Read the decals. Capacity shows max persons and weight, and it can differ indoor and outdoor or on an extension deck. Outdoor-rated machines have a max wind speed, commonly 28 miles an hour. Indoor-only machines are rated for zero wind and must not be used outside. Newer machines also have load sensing and tilt alarms with interlocks.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny holding a laminated card listing A92.20, A92.22, A92.24.",
+      "on_screen": "A92.20 = design | A92.22 = safe use | A92.24 = training\nOSHA = legal baseline",
+      "says": "The ANSI family. A92.20 is design, for manufacturers. A92.22 is safe use: the safe use plan, inspections and rescue. A92.24 is training. OSHA's aerial lift and scaffold rules are the legal requirements. In Canada, it's the CSA B354 series. Bucket trucks fall under a separate standard, A92.2, but most of these principles still apply.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Montage: slab scissor in a warehouse aisle, articulating boom over landscaping at a wall pack, mast lift through a narrow door.",
+      "on_screen": "Choose the machine for the job, not the job for the machine you have",
+      "says": "Matching the lift to the job: slab scissor for high-bays over open floor. Articulating boom for gyms with obstructions, or wall packs over landscaping. Push-around mast for low ceilings in tight rooms. The wrong machine is a root cause of lift incidents. An indoor scissor outside. A slab scissor on gravel. A boom that's too short, so you lean out.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny back in front of the lineup, medium shot.",
+      "on_screen": "Knowledge here. Hands-on training and familiarization still required.",
+      "says": "Remember, this is the knowledge portion. Hands-on training and familiarization on each machine are still required before you operate. Now read the lesson and take the quiz.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Yard lineup: slab scissor, rough-terrain scissor, push-around vertical mast lift, articulating boom, with legible decals for close-ups. Blur rental company logos. Knowledge lesson; scene 1 is a short safety-and-selection opener rather than a full Job Mindset. Lesson file: curriculum/levels/LT3/courses/LT3-C06/lessons/01-mewp-types-and-ansi-a92-standards.md."
+}

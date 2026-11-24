@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C06-L03",
+  "title": "Type B Ballast-Bypass Conversions",
+  "course": "LT2-C06",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office with a 2-lamp 4-ft troffer in a lay-in grid; platform ladder, lockout kit, meter, single-ended Type B tubes, non-shunted sockets and labels on a cart. Medium shot.",
+      "on_screen": "Job Mindset: hazards = line voltage at sockets, shorted sockets, ladder | lock out, verify | test sockets",
+      "says": "Type B conversion. When you're done, line voltage sits at these sockets. The hazards: shock, a short or arc from the wrong socket, and the ladder. Lock out, verify, and test every socket. Before you leave the shop, confirm the tube model, its diagram, the voltage rating and the labels, and bring spare non-shunted sockets in the right style. Think ahead: is there an emergency ballast or a second feed?",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew close-up.",
+      "on_screen": "Scope varies by state and city: confirm with your supervisor",
+      "says": "Scope varies by state and city. In some areas a lighting technician may do Type B conversions under our company's license. In others, it must be done by or under a licensed electrician, and some jobs need a permit and inspection. Before you do this on a job, confirm with your supervisor that it's allowed there and that you're authorized. When in doubt, stop and ask.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen graphic contrasting single-ended and double-ended wiring.",
+      "on_screen": "Single-ended: line + neutral at one end, non-shunted powered socket | Double-ended: line one end, neutral the other",
+      "says": "Type B removes the ballast and puts 120 or 277 volts straight to the lampholders. The driver's in the tube. Single-ended tubes take line and neutral at one end, so that powered-end socket must be non-shunted. Double-ended tubes take line at one end and neutral at the other. Never mix them in a fixture, and never guess. The tube's wiring diagram rules.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech performs at the troffer: locks out at the panel, verifies live-dead-live on all conductors at the fixture, removes lamps and wireway cover, removes the ballast; presenter voice-over.",
+      "on_screen": "1 Prepare | 2 Lock out, verify all conductors | 3 Remove lamps, cover | 4 Identify supply | 5 Remove ballast",
+      "says": "Lock out the circuit. At the fixture, verify absence of voltage on all conductors, live-dead-live, and watch for emergency or unswitched feeds and other circuits passing through. Remove the lamps as universal waste and take off the wireway cover. Identify the supply hot, neutral and ground, and the ballast leads. Remove the ballast entirely; check older ones for No PCBs labeling.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Continuity tester across the two contacts of a socket: one beeps, one reads OL.",
+      "on_screen": "Beep = shunted | OL = non-shunted | looks are not proof: TEST",
+      "says": "Now test the sockets. Disconnect the socket's wires, set the meter to continuity, and touch one probe to each contact. Beep means shunted. OL means non-shunted. They often look nearly identical, so test. Put a single-ended tube's powered end in a shunted socket, and you short line to neutral: a tripped breaker, a burned socket or an arc at the lampholder.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech installs non-shunted sockets at the powered end, wires hot and neutral per the diagram with listed connectors, pull-tests each splice, confirms ground.",
+      "on_screen": "6 Non-shunted at powered end | 7 Wire per diagram, pull-test | 8 Ground to EGC",
+      "says": "Install non-shunted sockets at the powered end. Wire per the diagram: hot to one contact, neutral to the other on each powered socket. Leave the non-powered end unwired unless the instructions say otherwise. Listed connectors, no exposed copper, pull-test every splice, and keep conductors off sharp edges. Verify the housing's connected to the equipment grounding conductor.",
+      "seconds": 22
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of labels applied near the sockets and visible during relamping; tubes installed, power restored, all light.",
+      "on_screen": "9 Labels | 10 Tubes, powered end in powered sockets | 11 Verify | 12 Document",
+      "says": "Apply the labels exactly as instructed: modified luminaire, do not use fluorescent lamps, and line voltage at lampholders, risk of shock, visible during relamping. Install the tubes with the powered end in the powered sockets and close the wireway. Restore power: all tubes light, no flicker, and it works from its normal control. Document the location, tube model and conversion.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the finished troffer, medium shot.",
+      "on_screen": "Lock out before relamping any Type B fixture",
+      "says": "Common mistakes inspectors find: no labels, shunted sockets on a single-ended powered end, a fixture half on ballast and half bypassed, and an emergency ballast left on bypassed sockets. And our procedure is to lock out before relamping any Type B fixture. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Step-by-step conversion of a 2-lamp 4-ft troffer to single-ended Type B per the lesson's video suggestion, with on-screen graphics contrasting single-ended and double-ended wiring. Senior tech performs; presenter voice-over. Skill LT2-S03 sign-off. 'Scope varies by state and city' note is spoken in scene 2 and must stay. Lesson file path is LT2-C05/03 (course code differs from vid LT2-C06)."
+}

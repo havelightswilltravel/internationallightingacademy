@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C11-L04",
+  "title": "Reporting Problems & Knowing When to Escalate",
+  "course": "LT1-C11",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Office building corridor with an open ceiling tile and a ladder; Danny stands with an LT1 technician holding a phone. Medium two-shot.",
+      "on_screen": "Job Mindset: Expect to Find Something",
+      "says": "Every time you open a ceiling, expect to find something that isn't on the work order. Scorched wire, an open box, a dark exit sign. The hazard is reaching for it because it looks simple. So plan for it before you leave the shop: your supervisor's number, dispatch and the safety hotline saved in your phone, cones on the truck, and a decision already made. If it's beyond your training, you don't touch it.",
+      "seconds": 28
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Danny at a whiteboard in the shop with three columns.",
+      "on_screen": "Level 1: Stop Now\nLevel 2: Report Today\nLevel 3: Recommend",
+      "says": "Here's how we do it. Three levels. Level one, stop now: immediate danger to people. Level two, report today: not dangerous right now, but it needs attention, like a failing emergency light. Level three, recommend: improvement opportunities, like fixtures that could go LED. Reporting these is part of your job. Saying nothing because it isn't your job can get someone hurt.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Scenario 1: a troffer with scorched, melted wiring visible (de-energized prop). The LT1 explains to Danny on camera; Danny responds.",
+      "on_screen": "Level 1: Stop work | Keep people away | Call supervisor by phone | Tell site contact | Document",
+      "says": "Scenario one: scorched wiring in a fixture. That's level one. Stop work and keep people away. Barricade or post someone. Don't touch it and don't try to repair it. Call your supervisor immediately, by phone. Tell the site contact so they can protect their people. Then document it with notes and, if it's safe, photos.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Scenario 2: a lifted ceiling tile shows an open junction box with wire nuts and exposed copper; a cone sits on the floor below. The LT1 points from the ladder without reaching in.",
+      "on_screen": "Safety: Don't push wires back in. Make it safe from a distance, report, wait.",
+      "says": "Scenario two: an open junction box above a ceiling tile, exposed copper on a splice. Don't push the wires back in. Don't re-terminate it, even if it looks simple. An LT1's job is to make the area safe from a distance, report it and wait for a qualified person. Leave the box undisturbed, put a cone below it and call your supervisor.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Scenario 3: the site contact asks the LT1 to look at extra fixtures in another wing; the LT1 nods and makes a note.",
+      "on_screen": "Extra-work request -> supervisor or office",
+      "says": "Scenario three: the customer asks for extra work. That goes to your supervisor or the office. Don't quote it and don't just do it. Note it, and tell the customer our office will follow up. And state facts, not guesses. Don't alarm a customer with what you think might be wrong. Say what you saw and that a qualified person will evaluate it.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Scenario 4: a dark exit sign over a corridor door. The LT1 photographs it and calls.",
+      "on_screen": "Life safety out of service: tell your supervisor AND the site contact",
+      "says": "Scenario four: a dark exit sign. That's life-safety equipment. You tell your supervisor and the site contact. Same for failed emergency lights and blocked exits. And remember, injury, shock, fire or immediate danger means 911 if needed, then your supervisor. A leaking ballast goes to your supervisor, who brings in our safety lead.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the LT1 typing a problem report on the work order app; Danny reads over the shoulder.",
+      "on_screen": "Who | What | Where | When | What you did",
+      "says": "Now write it down. Verbal reports get forgotten. A good report answers who, what, where, when and what you did. Date and time. Building, floor, room and grid location. What you found. That you didn't touch it, placed a cone and called your supervisor at what time. Who you told on site. Photos attached. Don't wait until the end of the week.",
+      "seconds": 26
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera in the corridor, medium shot.",
+      "on_screen": "",
+      "says": "Every problem you report is a chance to learn. Ask your supervisor what caused it and how it got fixed. That's how you build troubleshooting judgment. Now read the lesson and take the quiz.",
+      "seconds": 14
+    }
+  ],
+  "production_notes": "Four on-site scenarios with a supervisor and an LT1; the LT1 explains, the supervisor (Danny) gives feedback. All hazard props (scorched wiring, open junction box with exposed copper) must be de-energized mock-ups. Do not show real names in the sample report; blur or use 'Supervisor' and 'Site contact'. Lesson file: curriculum/levels/LT1/courses/LT1-C07/lessons/04-reporting-problems-and-escalation.md."
+}

@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C03-L03",
+  "title": "Relays & Lighting Contactors",
+  "course": "LT4-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 275,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training room, lighting contactor panel open, lock and tag on its feeder breaker. Matthew beside it. Medium shot.",
+      "on_screen": "Job Mindset: Contactor Work",
+      "says": "Contactor panels can have high available fault current, and control power may come from a different breaker than the loads. So before you replace a coil, contactor or wire, lock out every source, loads and control, and verify. Energized checks only if you're authorized, in the PPE, boundaries and CAT III or IV meter your NFPA 70E program requires. Plan the parts: coil voltage, poles, ratings.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the de-energized contactor: coil terminals, line terminals on top, load terminals on bottom, the HOA switch and the control devices.",
+      "on_screen": "Small control signal -> coil -> contacts switch big loads",
+      "says": "Control devices like photocells, clocks and sensors have small contacts. Lighting loads are big and spread over several circuits. A relay or contactor lets a small signal switch them. The control energizes the coil, and the coil pulls in the contacts, or poles, that switch the branch circuits. Here are the coil terminals, line on top, load on the bottom.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic comparing an electrically held and a mechanically held contactor, with animation of each on loss of control power.",
+      "on_screen": "Electrically held: drops open on power loss | Mechanically held: stays put",
+      "says": "Two types. Electrically held: the coil stays energized to keep the contacts closed, and they drop open if control power is lost. That's the most common. Mechanically held, or latching: a pulse closes it, a latch holds it, and a separate pulse or coil opens it. It stays in its last position after a power loss.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a contactor nameplate; callouts for coil voltage, poles, current rating and lighting load rating.",
+      "on_screen": "Coil voltage | Poles | Contact rating | Lighting/LED load rating | Voltage | Enclosure",
+      "says": "Replacing one? Match the coil voltage to the control circuit, the number of poles and contact rating, the contact voltage rating, and the enclosure type. And use a lighting-rated contactor. A general-purpose motor contactor can weld its contacts switching lots of LED drivers because of the high inrush.",
+      "seconds": 20
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the HOA selector switch; animation of the control path: fuse, HOA, photocell, clock, coil.",
+      "on_screen": "HAND = on regardless | OFF = coil off | AUTO = controls decide",
+      "says": "The HOA switch. HAND energizes the coil directly, lights on no matter what the controls say. OFF de-energizes the coil. AUTO lets the photocell, clock or control system run it. HOA left in HAND is one of the most common reasons site lights burn all day. Always return it to AUTO and confirm automatic operation before you leave.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera, graphic splitting the circuit into 'control path' and 'power path'.",
+      "on_screen": "Is the coil getting voltage? Are the contacts passing it?",
+      "says": "Troubleshooting always comes down to two questions. Is the coil getting voltage, and are the contacts passing it? Lights won't come on? Put the HOA in HAND. If the lights come on, the contactor and loads are good, and the problem is in the AUTO control path: photocell, clock, sensor or wiring.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Panel energized; qualified trainer in arc-rated PPE measures coil voltage, then line and load on each pole; meter readout inset. Matthew's voice-over.",
+      "on_screen": "No coil voltage: fuse, HOA | Voltage but no pull-in: coil | Line but no load on closed pole: burned contact",
+      "says": "Nothing in HAND? Measure coil voltage. No voltage, check the control fuse and the HOA. Voltage but no clunk, the coil is open or the mechanism's stuck. If it pulls in, measure line side on each pole, then load side. Line present but nothing on the load side of a closed pole means a burned or pitted contact. Both good? Look downstream.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Same panel, trainer turns HOA to OFF; lamps stay on; close-up of a welded contactor.",
+      "on_screen": "Won't turn off? HOA to OFF. Still on = welded contacts or bypassed",
+      "says": "Lights won't turn off? Put the HOA in OFF. If they go off, the AUTO side is holding the coil on, like a failed-on photocell or a clock override. If they stay on with the coil dead, check for welded contacts, or someone wired around the contactor. On a latching contactor, check the control module and the OFF coil. Chattering? Low control voltage or loose connections. Fix it fast.",
+      "seconds": 27
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech photographs wiring, labels wires, locks out load and control breakers, tests every terminal, torques terminals, then tests HAND, OFF, AUTO. Presenter voice-over.",
+      "on_screen": "Photo + label | LOTO all sources | Match ratings | Torque | Test H-O-A | Back to AUTO | Document",
+      "says": "Replacing a contactor: photograph and label all the wiring. Lock out every load circuit and the control circuit, and verify at every terminal. Match coil voltage, poles, ratings and holding type. Install and torque to the manufacturer's spec. Remove LOTO per procedure, test in HAND, OFF and AUTO. Return the HOA to AUTO and document.",
+      "seconds": 24
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew beside the closed panel, HOA visibly in AUTO.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Use HAND, OFF and AUTO to split the problem, lock out both sources, and leave it in AUTO. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Training contactor panel with HOA switch, control fuse, photocell and time clock in the control path, and test lamps as loads. De-energized segment shows lock and tag on both the load and control breakers. Energized segment: qualified trainer in arc-rated PPE per the company NFPA 70E assessment, CAT III/IV meter, approach boundary marked on the floor. Have a welded or burned contactor as a prop. Do not show anyone in normal clothing near the open energized panel. The skill sign-off for contactor troubleshooting is tied to LT4-C04-L03, so this video ends with the quiz only."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C16-OVERVIEW",
+  "title": "Industrial and High-Security Customer Sites (course overview video)",
+  "course": "LT3-C16",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 124,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Outside a generic industrial plant gate with a badge reader; Danny in hard hat, safety glasses and hi-vis. Medium shot. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Industrial and High-Security Customer Sites",
+      "says": "Industrial plants and high-security sites run on their own rules, and they expect you to know them before you walk in. In this course we'll use a real plant project as our example. Plan for the site's rules the same way you plan for the job: before you leave the shop.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Orientation room: a tech watching a safety video, receiving a badge and a training card. Danny voice-over.",
+      "on_screen": "Site orientation | Training cards | Badging",
+      "says": "It starts at the gate. You'll learn about site orientation, the training cards the customer may require, and badging. No orientation, no badge, no work. Plan for it: orientation can take hours, so it goes into the schedule, not on top of it.",
+      "seconds": 17
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up: a lockout hasp with several locks, the customer's lock first, then the contractor's, then individual workers'.",
+      "on_screen": "Customer locks first > then the contractor > then each of us",
+      "says": "Next, lockout. On these sites, lockout is controlled by the customer. The customer locks first, then the contractor, then each of us puts on our own lock. You'll learn how that works and why your own lock still matters. Nobody else's lock protects you.",
+      "seconds": 18
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Crew huddled at a job board with a JSA form, a toolbox talk sheet and the customer's task analysis.",
+      "on_screen": "Daily JSA | Toolbox talk | Customer task analysis | Redo when conditions change",
+      "says": "Every day starts with a job safety analysis, a toolbox talk and the customer's task analysis. And when conditions change, you redo them. You'll learn what goes on each form and what counts as a change.",
+      "seconds": 14
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Close-up: red barricade chain, yellow barricade chain, a gate and signs at a work area.",
+      "on_screen": "Barricades: red vs. yellow chain | gates | signs",
+      "says": "Barricades. You'll learn what red chain and yellow chain mean on a plant site, how gates and signs are used, and what you're allowed to cross.",
+      "seconds": 10
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "A first installed fixture with a customer representative inspecting it; then a staging area with labeled pallets.",
+      "on_screen": "First-fixture approval | Delivery checks | Staging | Asset control",
+      "says": "On the project side: the first fixture gets approved before production starts. You'll check deliveries, stage material properly, and keep track of the customer's assets and ours.",
+      "seconds": 11
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny at the gate, medium close-up.",
+      "on_screen": "No photos without approval | Approved knives only | Phones | Food",
+      "says": "Site conduct. No photos without approval. Approved knives only. The site's rules on phones and food. These are small things that can get you walked off a site, and they can cost our company the customer.",
+      "seconds": 14
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Danny at the gate, closer.",
+      "on_screen": "Hot work and confined space: ONLY with the customer's permit.",
+      "says": "And two hard lines: hot work and confined space entry happen only with the customer's permit. No permit, no work.",
+      "seconds": 8
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Wide shot of the plant gate.",
+      "on_screen": "Start Lesson 1",
+      "says": "Learn the site's rules and follow them every time. That's how we keep the customer and keep everyone safe. Now start the first lesson, and take each quiz as you go.",
+      "seconds": 12
+    }
+  ],
+  "production_notes": "Course overview written from the outline only; the lessons are not written yet. The outline refers to a real plant project as the example: do NOT name the customer, show their logo, or film at their site; use a generic plant exterior. Check lockout sequence, barricade color meanings, permit rules and site-conduct items against the final lessons and the customer-agnostic company procedures before production. Do not show photography inside a real secure facility."
+}

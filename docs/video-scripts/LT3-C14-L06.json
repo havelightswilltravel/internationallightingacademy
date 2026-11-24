@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C14-L06",
+  "title": "Our Company's Exterior Upgrade & Replacement Rules",
+  "course": "LT3-C14",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 221,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Parking lot at a pole base; tech unloading LED heads from the truck, meter in hand. Presenter voice-over.",
+      "on_screen": "Job Mindset: Exterior LED Upgrade",
+      "says": "Job mindset. Exterior upgrades stack hazards: 277 or 480 volts, height, traffic and weather. Meter first, lock out and verify, cone off the work zone, keep your distance from overhead lines. Plan the worst case before you leave: the right mounting kits and distribution, and a plan if the voltage or pole isn't what the order says.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew by the truck, medium close-up.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may replace exterior and pole-mounted fixtures under the company's license. In others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and that you're authorized. Most of these rules exist because we paid for a mistake.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech measures at the first pole with a meter; display reads 277 V L-N then 480 V L-L; compares to the new fixture label; writes on the work order.",
+      "on_screen": "RULE 1: Meter first. 277 V L-N, 480 V L-L. Compare to the NEW label.",
+      "says": "Rule one: meter first, every exterior project, before you install or energize anything. We've destroyed many brand-new fixtures by assuming the voltage. A 120 to 277 volt fixture on 480 or 347 is ruined the instant power comes on. Measure line-to-neutral and line-to-line, compare to the new fixture's label, and write it down. You can't verify voltage with a sniffer. Then lock out and verify dead.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech notes a square pole on the property line, photographs head, label, pole, base and a wide shot.",
+      "on_screen": "RULE 2: Voltage | location | pole shape & mount | photocell? | photos | fixture count",
+      "says": "Rule two: write up replacements so the office orders once. Measured voltage. Location on the property, because a property-line pole shouldn't get a Type V head. Pole shape, round or square, size and mounting. Is a photocell needed, and how is the site controlled now. Photos of the head, label, pole, base and a wide shot. And a count of matching fixtures, so the office can quote the whole site.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech points out a cracked pole base to the site manager before starting; photographs it.",
+      "on_screen": "RULE 6: Report existing damage FIRST, then work.",
+      "says": "Rule six, and it's out of order on purpose: report existing damage first. Look at the base, anchor bolts, hand hole and pole before you replace anything. One of our techs spotted a damaged base during a replacement and reported it to the site manager and the office before the work. That protected the company from blame and protected the next person from a pole that could fall.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a wall pack label marked emergency; tech presses its test button.",
+      "on_screen": "RULE 3: Count emergency wall packs separately. (13 of 20 on one job.)",
+      "says": "Rule three: watch for emergency wall packs. From the ground, they look like standard ones. Check each label or test button and count EM units separately before anything is quoted. On one of our jobs, 13 of 20 wall packs sold as standard were emergency units.",
+      "seconds": 18
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech disconnects the factory photocell per the instructions, notes it; then the site's contactor is overridden and the new head lights; tech writes the result.",
+      "on_screen": "RULE 4: Disconnect the redundant factory photocell | RULE 5: Prove it works, or write 'unable to test' and why",
+      "says": "Rule four: many new heads ship with a factory photocell. If the site already uses a contactor, time clock or central photocell, disconnect it per the instructions, unless you've been told otherwise, and note it. A stand-alone wall pack keeps its photocell. Rule five: prove it works. Cover the photocell, use the contactor override if the site allows, or come back after dark. Can't test? Write 'unable to test' and why.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Wall pack hidden behind tree branches; tech photographs it from the ground instead of climbing; power line visible in the canopy.",
+      "on_screen": "RULE 7: Don't fight branches from a ladder. Branch within 10 ft of a line? STOP.",
+      "says": "Rule seven: don't fight branches from a ladder. Write it up, take pictures, and come back with the right tool and the customer's permission. If any branch, tool or person could come within 10 feet of an overhead line, stop. That's work for a line-clearance trimmer or the utility. Chainsaw only if you're trained on ours, in chaps and face protection, never from a ladder or above shoulder height.",
+      "seconds": 28
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the lot, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "HID calls: metal halide ballasts in common wattages aren't stocked anymore, so our first choice is an LED replacement lamp that fits, or a new fixture. Know the customer's standard on ballast-bypass lamps. Now read the lesson and take the quiz.",
+      "seconds": 16
+    }
+  ],
+  "production_notes": "Senior tech performs; presenter voice-over in scenes 1, 3-8. Rule 1 voltage measurement at the pole is energized testing: film it performed by a qualified person in the PPE required by the company NFPA 70E program (lesson does not state who measures; confirm with curriculum owner). Contactor override performed by a qualified person with site permission. Rules shown in the order 1,2,6,3,4,5,7 to follow the video flow; on-screen text labels each rule's real number."
+}

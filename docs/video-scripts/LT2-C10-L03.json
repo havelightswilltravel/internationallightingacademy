@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C10-L03",
+  "title": "Matching & Replacing an LED Driver",
+  "course": "LT2-C10",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 226,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office ceiling with a dark 2x4 LED troffer; ladder set, cones at the base. Matthew at the ladder, medium shot.",
+      "on_screen": "Job Mindset: Replacing an LED Driver",
+      "says": "Driver swap today. Hazards: line voltage, an emergency battery that can light the LEDs with the breaker off, a hot housing, and the ladder. Controls: lock out, verify dead live-dead-live, unplug that battery. Plan before you leave the shop: the driver data, a programmable replacement and a backup, your meter, PPE, and a plan if it turns out not to be the driver.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Same troffer. On-screen callout box.",
+      "on_screen": "Scope varies by state and city",
+      "says": "First, scope varies by state and city. In some places a lighting tech can replace drivers under the company's license; in others it takes a licensed electrician or their supervision, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified senior tech in PPE measures at the driver input and output leads; presenter voice-over. Insert: meter display.",
+      "on_screen": "Step 1: Prove it's the driver",
+      "says": "Step one, prove the driver's the problem. One fixture, or the whole zone? A whole zone points to the circuit or controls. If your employer authorizes energized readings, with the PPE from its NFPA 70E program, check input at the driver. No voltage means upstream. Input good and zero output? Driver. Output in range but LEDs dark? Often an open board. And a shorted 0-10 volt pair can hold it at minimum.",
+      "seconds": 29
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech photographs the old driver label, the wiring and the LED board label; presenter voice-over.",
+      "on_screen": "Step 2: Photograph label + wiring. Record everything.",
+      "says": "Step two, collect the data. Photograph the driver label and the wiring before you disconnect anything. Record type, output current, voltage range, max power, channels, input voltage, dimming type, form factor and mounting, the LED module's current and forward voltage, and the listing. Check the luminaire label too. The fixture maker's replacement part is the safest choice.",
+      "seconds": 23
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Truck tailgate: senior tech holds the old driver label next to a programmable replacement from truck stock.",
+      "on_screen": "Step 3: Current ✓ Vf inside window ✓ Power ✓ Dimming ✓ Input ✓ Fit & listing ✓",
+      "says": "Step three, check the match. All of these must be true. Output current equals the module's rating, or it can be programmed to it. The module's forward voltage sits inside the window, ideally not at the edge. Power is at least current times Vf. Dimming matches the control. Input covers the circuit; a 120-277 driver won't survive 347 or 480. And it fits, mounts to metal, and suits the location.",
+      "seconds": 28
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: lock on the panel, live-dead-live at the fixture, then the tech unplugs the emergency battery connector.",
+      "on_screen": "Emergency drivers can energize LEDs with the breaker off",
+      "says": "Step four, install. Lock out and verify dead live-dead-live. Remove the old driver, and watch for an emergency driver or sensor. Emergency drivers have batteries and can energize the LEDs even with the breaker off, so unplug the battery connector before you work on the output side. Replacing a driver with a non-original part can affect the listing, so ask your supervisor when in doubt.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech sets output current on the new driver with a phone app, writes it on the driver, mounts it with original screws, lands leads; presenter voice-over.",
+      "on_screen": "Set current → Mount to metal → L/N/G → LED +/- → Violet to +, Gray to -",
+      "says": "If it's programmable, set the output current before connecting LEDs or energizing. Mount it to the housing with the original screws. Don't leave it hanging on its leads. Connect line, neutral and ground, then LED plus and minus with correct polarity, then violet to plus and gray to minus. Cap unused leads individually. Route Class 2 and dimming leads away from line voltage, and dress wiring off sharp edges.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Power restored: troffer at full output beside its neighbors; tech runs a wall dimmer from high to low and back. Then tablet work order.",
+      "on_screen": "Step 5: Full output, matches neighbors, dims smoothly. Document.",
+      "says": "Step five, verify and document. Restore power. Full output, matching its neighbors in brightness and color? Run the dimmer high to low and back, and watch for flicker or drop-out at the bottom. Test any sensor or emergency driver too. On the work order, record old and new part numbers, settings like output current and DIP positions, and test results. Attach photos.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera beside the finished troffer. On-screen list of common mistakes.",
+      "on_screen": "Factory default left | wrong input voltage | reversed polarity | swapped dim leads | not on metal | battery ignored",
+      "says": "The mistakes we see most: a programmable driver left at factory default, a 120-277 driver on a 347 or 480 circuit, reversed polarity, swapped dimming leads, a driver not fastened to metal, and an ignored emergency battery. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 20
+    }
+  ],
+  "production_notes": "Field footage per the lesson's video suggestion. Energized diagnostic readings only by a qualified tech in employer-required PPE; show LOTO and live-dead-live clearly before any wiring work. Show the emergency battery connector being unplugged if the training troffer has one. Lesson has no explicit sign-off section; keep 'show your evaluator' only if the course has a driver-replacement sign-off, otherwise cut it."
+}

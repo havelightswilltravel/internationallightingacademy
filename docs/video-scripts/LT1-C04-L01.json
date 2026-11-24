@@ -1,0 +1,75 @@
+{
+  "vid": "LT1-C04-L01",
+  "title": "Preventing Heat Illness the Company Way",
+  "course": "LT1-C04",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 290,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Summer parking lot, early morning. Bucket truck and van parked under tall light poles. Danny beside the van, medium shot, sun already strong.",
+      "on_screen": "Job Mindset: hot-weather pole job",
+      "says": "Job Mindset for a hot pole job. The hazards are heat exhaustion and heat stroke, and in a bucket, a dizzy tech is also a fall hazard. Plan it at the shop: check the heat index, fill the cooler with enough water for the whole crew all day, pack the canopy, schedule bucket work for the cool morning and plan who rotates up when. Heat illness is preventable.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "The lead checks a heat index app on his phone at the van, then says the number out loud at the morning huddle. Danny voice-over.",
+      "on_screen": "Heat index: 90-103 F extreme caution | 103-124 F danger | Direct sun adds up to 15 F",
+      "says": "Know the number. The heat index is what your body feels with heat and humidity combined. Check it before you leave the shop and again in the afternoon, and say it at the huddle. The chart assumes shade and a light breeze. Direct sun can add up to 15 degrees. 90 to 103 is extreme caution. 103 to 124 is danger. And a dry climate isn't safe either.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny beside the van.",
+      "on_screen": "Who's at risk: new to the heat, hard work, fever, sunburn, some meds, alcohol last night",
+      "says": "Who's at risk? Anyone doing hard work in the heat, even young, healthy people. Folks not used to the heat yet. Anyone with a fever, dehydration or a sunburn. Some prescription drugs, and alcohol the night before. If you're on medication, ask your doctor or pharmacist how it affects heat. You don't have to tell us what it is. Just tell your lead you need extra breaks.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Tech filling a large water cooler at the shop and strapping it upright in the van. Danny voice-over.",
+      "on_screen": "About 1 cup every 15-20 minutes, even if you're not thirsty",
+      "says": "Water. Drink about a cup of cool water every 15 to 20 minutes, even if you're not thirsty. Thirst shows up late. Don't make up for a dry morning by chugging at lunch, and don't go over about 48 ounces an hour for hours on end. Company rule: the van leaves with enough water for the whole crew for the whole day. Refilling the cooler is a work task.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Bucket truck: one tech comes down, another goes up. Then the crew under a pop-up canopy and in the van cab with AC running. Danny voice-over.",
+      "on_screen": "Water. Rest. Shade.",
+      "says": "Rest. Schedule breaks. Don't wait until someone looks bad. Do the bucket work in the morning, save shaded tasks for mid-afternoon, and rotate so nobody's aloft in full sun all day. Shade. Break in the shade or the air-conditioned cab. Idling to run the AC is an approved reason to idle. On long open jobs, put up a company canopy. And wear light, loose, light-colored clothes within your PPE.",
+      "seconds": 29
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "The lead hands a new hire a shaded ground task and pairs him with a buddy while the experienced tech goes up in the bucket.",
+      "on_screen": "New workers: about 20% on day one, add no more than 20% a day",
+      "says": "The first week is the most dangerous. Most heat deaths happen in a worker's first few days or the first heat wave of the year. New workers start at about 20 percent of a full heat day and add no more than 20 percent a day. Experienced folks coming back start around half. So on day one, the new tech gets the shaded tasks, more breaks and a buddy. No bucket in the afternoon.",
+      "seconds": 29
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Close-up on Danny in the shade of the van.",
+      "on_screen": "Heat rules vary by state. Our plan follows the strictest where we work.",
+      "says": "The rules. There's no final federal heat standard yet. OSHA enforces heat under the General Duty Clause, and several states have their own, stricter heat rules. They vary by state. Our written heat plan follows the strictest rule where we work. Working in another state? Ask your lead which rules apply.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Crew on a scheduled break in the van's shade, drinking water. Danny on camera with them.",
+      "on_screen": "You have stop-work authority for heat",
+      "says": "And you have stop-work authority for heat, same as anything else. If you or anyone on the crew is getting sick from the heat, stop, cool down, and tell the lead. No job is worth a heat stroke. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Film in early morning to avoid crew heat stress; actors take real water breaks. Heat index app on screen should be a generic weather app or the OSHA-NIOSH Heat Safety Tool. Bucket truck rotation shown with the truck set up correctly (outriggers, cones). The note on federal heat rules reflects the lesson as written; confirm current OSHA status before release."
+}

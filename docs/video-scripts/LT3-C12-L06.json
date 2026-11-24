@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C12-L06",
+  "title": "Our Emergency Lighting Inspection Procedure",
+  "course": "LT3-C12",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 218,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Retail building back hallway, tech with tablet, flashlight, ladder and camera phone meeting a site manager. Medium shot. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Job Mindset: The 90-Minute Inspection",
+      "says": "I'm Danny. Here's how we do the 90-minute inspection. Hazards: open panels when you operate breakers, and dark stairs and aisles during the test. Follow our NFPA 70E procedures, warn people, carry a flashlight. Plan the day: floor plan, spreadsheet, ladder, camera, and 24 hours of recharge after. The customer is buying the record, so the paperwork is the job.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Same hallway, medium close-up.",
+      "on_screen": "Scope varies by state and city. The AHJ may require its own forms.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may inspect and test emergency lighting and fill out the records under the company's license. In others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. The AHJ may require specific inspectors or its own forms. Confirm with your supervisor first.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Tech gets a floor plan from the manager, then walks to exit signs, bug eyes and battery-backup fixtures, marking each on the map and checking its charge LED.",
+      "on_screen": "Step 1: Check in, get a layout | Step 2: Check every charge indicator",
+      "says": "Step one, check in with the site manager and ask for a floor plan. Mark every unit on the map. Step two, before you turn anything off, walk to every exit, bug eye, combo and battery fixture and look at the charge indicator. Lit means a working charger. Dark? A qualified tech checks the supply. Power good and still dark, the unit is bad. No power is a circuit problem to write up.",
+      "seconds": 29
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Panel with breakers labeled 'EM LTG'; qualified tech in required PPE turns them off; tech starts a 90-minute timer and writes the start time.",
+      "on_screen": "Step 3: Manager's OK > emergency breakers off > START TIMER > write start time",
+      "says": "Step three. With the manager's permission, turn off all the breakers that feed the emergency units, start a 90-minute timer right away, and write the start time on the form. Only operate breakers you're qualified and authorized to operate.",
+      "seconds": 16
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Tech walks quickly; one unit dark, gets a tag; one charge LED still lit.",
+      "on_screen": "Indicators still on = you haven't found every breaker. Not labeled? STOP. Write it up.",
+      "says": "Step four, walk the route fast. Every charge indicator should be off. A unit that doesn't light right away gets written up. If some indicators stay on, you haven't found all the emergency breakers. And our rule: if the breakers aren't labeled for emergency lighting, don't continue. Restore what you turned off and write it up for an electrician. Guessing can drop a cooler or a register lane.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the spreadsheet on a tablet being filled row by row; tech tags a failed fixture.",
+      "on_screen": "Location | Description | Height | Model/MFG | Housing color | Letter color | LED?",
+      "says": "Step five, while the timer runs, fill out the spreadsheet for every unit. Location matching your map number, description, mounting height so the office knows the ladder or lift, model and manufacturer, housing color, exit letter color, and LED or not. Tag each bad fixture with the problem: battery, lamp or head, or charging board. Do approved PM, like cleaning faces and re-aiming, but open nothing energized.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "At 90 minutes: tech walks again, marks Pass/Fail; one unit that lit at start is now dark. Tech photographs the full fixture in place, then a close-up of the model and date code label.",
+      "on_screen": "Step 6: Lit = PASS. Went dark early = FAIL (usually battery).  Step 8: Full elevation + label close-up",
+      "says": "Step six, at 90 minutes walk it again. Still lit passes. Dark or badly dimmed fails. Rule of thumb: lit at the start but didn't last is a battery, if the indicator was lit before the test. A unit over about ten years old usually gets a new unit. Step seven, record model and manufacturer, or the battery data. Step eight, photograph every failure: full elevation plus a label close-up.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Breakers restored; tech walks back, each charge LED is on; tech tells the manager units are recharging.",
+      "on_screen": "Restore EVERY breaker. Confirm EVERY unit is charging.",
+      "says": "Then restore every breaker, confirm each indicator comes back on, and tell the manager the units are recharging. Fill in the footer: panel voltage, totals by type, surveyed by, title and date. Add start and end times, and later the corrective action and retest date. Send the form, map and photos to the office the same day.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny in the hallway, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz.",
+      "says": "One more: self-diagnosing units skip our manual walk only if they automatically run both the monthly and the 90-minute tests. Someone still checks the indicators every 30 days and keeps records, and the AHJ has the final say. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Danny on camera for scenes 1, 2, 9; voice-over for the senior tech's walk in 3-8. Use a mock company inspection spreadsheet showing the lesson's columns (no real site names); mock panel with breakers labeled for emergency lighting. Breaker operation by a qualified person in required PPE. Generic retail setting, no customer branding. Check whether the course has a hands-on sign-off for this procedure; if so, add 'then show your evaluator' to the close."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C09-L04",
+  "title": "Troubleshooting Track Lighting and Ordering Parts",
+  "course": "LT3-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 214,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Boutique sales floor with a track run, three heads dark. Tech enters with a ladder and parts bag. Presenter voice-over.",
+      "on_screen": "Job Mindset: Track Lighting Outage",
+      "says": "Job mindset. You're on a ladder in an open store with hot lamps and live track. Plan for it: cones or a helper to keep shoppers clear, gloves, known-good lamps of each type, your meter, lock and tags, and a likely ballast. Think ahead to the worst case, a dead feed, and have the parts and lockout plan ready before you climb.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen: the company's six steps.",
+      "on_screen": "1 One good lamp  2 Sporadic? Check socket power  3 Head switch, connection, move it  4 Continuity (halogen only)  5 Ballasted? Replace ballast  6 Whole track out? Check the feed",
+      "says": "Our company procedure, in order. Verify at least one good lamp in the track. If outages are sporadic, check for power at the sockets before replacing parts. No power at a socket but others work: check the head's switch, the connection, or move it. Then continuity, halogen only. Ballasted head: replace the ballast. Whole track out: check the entrance fitting.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech talks to the store manager, sketches the run on a notepad numbering heads, connectors and feed.",
+      "on_screen": "Size up: how many, since when, moved or added, constant or intermittent?",
+      "says": "Stage one, size it up. Ask how many heads are out, since when, were heads moved or added, were lamps changed, constant or intermittent. Sketch the run: number the heads, mark the feed, connectors and circuits. Check the switch or dimmer for every circuit. Then put a known good lamp in a working head. That proves the track is powered there.",
+      "seconds": 24
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tech flips a head's local switch, then moves a circuit selector, then slides a head a few inches and it lights.",
+      "on_screen": "Head switch | circuit selector | reseat | move it a few inches",
+      "says": "Stage two, head checks. Is there a local switch on the head, and is it on? On multi-circuit track, is the selector on the right powered circuit? Then turn the head off, remove it, check the adapter contacts for bending, burning or dirt, and reinstall it fully locked. Move it a few inches. A bad spot in the conductor or debris in the slot can stop contact.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: halogen head on the bench, lamp out, meter probing adapter hot to socket center, wiggling the swivel.",
+      "on_screen": "Continuity: halogen/incandescent ONLY, head removed, lamp out. Wiggle the swivel.",
+      "says": "Continuity, incandescent or halogen heads only. Head removed from the track, lamp out. Probe from the adapter's hot contact to the socket center, then neutral contact to the shell. Wiggle the swivel and stem while you test, because conductors often break at the pivot. Open means a broken wire or bad socket. Replace the socket or the head.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the store, medium close-up.",
+      "on_screen": "Energized socket testing = qualified persons only. Non-contact tester = screening only.",
+      "says": "Measuring voltage at an exposed socket is energized diagnostic work. Only qualified persons do it, with the PPE and procedures our NFPA 70E program requires. A non-contact tester is a screening tool. It doesn't prove absence of voltage. For you, the de-energized continuity method is the preferred way.",
+      "seconds": 19
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech removes a CMH head, confirms correct lamp type and wattage, replaces the ballast; head lights.",
+      "on_screen": "CMH: others work + known good lamp = replace the ballast",
+      "says": "The last dark head is ceramic metal halide. Other heads on the track work, and it has a known good lamp of the correct type and wattage, so per our procedure, replace the ballast, or the head if the ballast isn't sold separately. LED heads get no continuity test through the driver: swap in a known good head to prove it. Low-voltage: lamp, bi-pin socket, then transformer.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic: track run with heads dead past a connector; then a live-end feed with cover off and lock visible.",
+      "on_screen": "Dead beyond a joint = connector | Whole track dead = feed",
+      "says": "Stage three, track level. Several heads dead beyond one point, suspect the connector. Whole track out: confirm the breaker and control, then lock out, verify dead live-dead-live, and inspect the feed or canopy. If the breaker trips when you restore power, don't reset it over and over. Find the cause or write it up.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech photographs the head label, adapter and track end with a phone.",
+      "on_screen": "Order by system type and catalog number. Never by appearance.",
+      "says": "Ordering. Compatibility is everything. Record brand, system type H, J or L, number of circuits, finish, and for heads the voltage, source, wattage, CCT, CRI, beam and dimming. Photograph the head label, the adapter and the track end. Heads from different systems can look identical, so get catalog numbers. Now read the lesson and take the quiz.",
+      "seconds": 23
+    }
+  ],
+  "production_notes": "Female senior tech performs the call in a boutique mock-up (no store branding); presenter voice-over in scenes 1, 3-5, 7. Heads removed with head switched off or track de-energized; lamps allowed to cool. Energized socket testing is not shown."
+}

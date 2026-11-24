@@ -1,0 +1,67 @@
+{
+  "vid": "LT1-C14-L03",
+  "title": "Before Kickoff - The Questions to Ask Without Being Reminded",
+  "course": "LT1-C14",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Shop loading area, afternoon. A project vehicle with rear doors open; a printed checklist on a clipboard. Chris beside the vehicle, medium shot.",
+      "on_screen": "Job Mindset: The Day Before Kickoff",
+      "says": "From the customer's side, a project starts the moment your crew walks in, ready or not. The day before is where you prevent the worst cases: a shortage, a damaged fixture found at the top of a lift, a crew standing around with one drill. So load from a checklist, think through the first night step by step, and get your questions answered now.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Chris holding the specifics sheet, survey and service order.",
+      "on_screen": "The goal: nobody has to remind you",
+      "says": "I'm Chris. Our managers used to spend a lot of time reminding crews of the same things before every project. The point of this lesson is to make those reminders unnecessary. Read the packet like an owner. Does the survey match the material list? Does anything look odd? And what does done look like?",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Graphic of the pre-kickoff question categories over footage of a tech making notes at the shop counter.",
+      "on_screen": "People | Schedule | Access | Site conditions | Lifts | Material | Tools | Special instructions | Shutdowns | Recycling | Reporting | Travel",
+      "says": "Work through the pre-kickoff questions yourself. Who's the crew leader, the site contact after hours, the backup? Start and stop times, blackout times? Which door, keys, badges, alarm codes? Ceiling types, food areas, and ask for the asbestos survey if ceilings get disturbed. Who approves circuit outages, and which circuits feed emergency lighting? Bring your supervisor only what you can't answer.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "The tech loads the vehicle, checking items off: drills and chargers for every crew member, spare sockets and connectors, recycle boxes, tape, plastic sheeting, carts.",
+      "on_screen": "Drill, bits, meter and lockout kit for EVERY person",
+      "says": "Load out the day before if you can. Every person on the crew gets their own drill, bits, meter and lockout kit, plus chargers. Spare sockets, connectors, disconnects and approved hardware. Plastic sheeting, cleaner, clean rags and gloves. Empty recycle boxes, tape, carts, cords and task lights for night work. And secure the load. Long fixtures shift when you stop.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "At the shop, the tech opens a crushed fixture carton, photographs a cracked lens on his phone, then calls the supervisor.",
+      "on_screen": "Damaged carton? Open it at the shop. Photograph. Report.",
+      "says": "Check new material before it leaves the shop. Watch him open this crushed carton, find a cracked lens, photograph it and call his supervisor right away. A damaged fixture discovered at the top of a lift is a wasted lift trip and an empty socket, and a customer wondering why one fixture is missing.",
+      "seconds": 21
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "On site: the crew leader does a sample install on one fixture while the customer watches; the customer nods and approves.",
+      "on_screen": "Sample install = the standard every fixture must match",
+      "says": "At the site, the crew leader does a sample install, often with the customer watching. That one fixture becomes the standard: mounting, wire dressing, labeling, cleanliness, lens and trim fit. Use it to check how long one fixture really takes against the production expectation, whether the brackets fit, and where the wires go. Then get the customer's approval before the crew starts.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Chris back at the vehicle, medium close-up.",
+      "on_screen": "\"Contact your supervisor if any part of these procedures does not make sense.\"",
+      "says": "Before the first shift, raise anything that doesn't add up: counts that don't match, kits that don't fit, instructions you don't understand. Our sheets always end the same way: contact your supervisor if any part of this doesn't make sense. That's not a formality. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Afternoon load-out at the shop with a printed checklist (based on the library guide 'Project Kickoff Checklist'); damaged carton with a cracked lens as a prop; sample install on site with a customer actor (no customer branding). Also check trailer hitch, chains, lights and lift tie-downs if a trailer appears. Lesson file: curriculum/levels/LT2/courses/LT2-C12/lessons/03-before-kickoff-questions-and-prep.md."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C02-L02",
+  "title": "Incandescent, Halogen & Fluorescent Lamps",
+  "course": "LT2-C02",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 193,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Training bench with an A19, a halogen PAR, a bi-pin halogen capsule in its sleeve, and T12, T8 and T5 tubes laid side by side with a tape measure. Medium shot.",
+      "on_screen": "Incandescent, Halogen & Fluorescent Lamps",
+      "says": "You'll find every one of these lamps in older buildings. Knowing what you're holding, how it fails and how to handle it safely is what lets you order the right replacement and plan the job before you leave the shop. Let's go through them on the bench.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a glowing A19 filament, then the lamp on the bench.",
+      "on_screen": "Incandescent: about 90% heat | 10-17 lm/W | CRI about 100 | about 2700 K",
+      "says": "An incandescent lamp passes current through a thin tungsten filament until it glows white hot. About 90 percent of the energy becomes heat, not light. Efficacy is low and life is short, but color rendering is excellent and it dims simply. Federal efficiency standards have removed most general-service incandescent A-lamps, but specialty and halogen lamps are still sold.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Gloved hands lift a bi-pin halogen capsule using its sleeve; a halogen PAR beside it.",
+      "on_screen": "Halogen: let it cool | no bare fingers on the quartz | never run with a missing or broken lens",
+      "says": "Halogen is incandescent with a quartz capsule of halogen gas, so the filament runs hotter and lasts longer. You'll see PAR and MR16 reflector lamps, T3 double-ended lamps and G4 and G9 bi-pin capsules. They run extremely hot. Let them cool fully before relamping. Don't touch the quartz with bare fingers; skin oils can make it fail early or even shatter. Use gloves or the sleeve.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tape measure across the ends of T12, T8 and T5 tubes.",
+      "on_screen": "T number = diameter in eighths of an inch | T12 = 1.5 in | T8 = 1 in | T5 = 5/8 in",
+      "says": "Fluorescent tubes hold low-pressure gas and a small amount of mercury, and they need a ballast to start and limit current. The T number is the diameter in eighths of an inch. T12 is an inch and a half. T8 is one inch, the most common commercial lamp. T5 is five-eighths, on a miniature bi-pin base, in metric lengths, and it's not interchangeable with T8.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a T8 and a T12 both on G13 bases; ballast label in hand.",
+      "on_screen": "T8 and T12 share G13 and 4 ft, but need different ballasts",
+      "says": "Here's a trap. T8 and T12 share the G13 base and the four-foot length, but they generally need different ballasts. The wrong lamp on a ballast can cause poor starting, early failure or overheating. Always match the lamp to the ballast label.",
+      "seconds": 17
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen decode builds over a close-up of a printed lamp code.",
+      "on_screen": "F32T8/841: F fluorescent | 32 watts | T8 1 in | 8 = CRI 80s | 41 = 4100 K",
+      "says": "Let's decode F32T8 slash 841. F is fluorescent. 32 is 32 watts nominal. T8 is one-inch diameter. The 8 means CRI in the 80s, and 41 means 4100 K. For tubes four feet and shorter, the number after the F is usually watts. Longer than four feet, it's usually length in inches: F96T12 is an eight-foot T12. When in doubt, use the tape.",
+      "seconds": 25
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Screw-in CFL and pin-based CFLs side by side, close on the bases.",
+      "on_screen": "Screw-in: ballast in base | 2-pin: magnetic ballast | 4-pin: electronic ballast",
+      "says": "Compact fluorescents come screw-in, with the ballast in the base, or pin-based. Two-pin lamps have a starter in the base and run on magnetic ballasts. Four-pin lamps run on electronic ballasts and are often dimmable. Pin-based CFLs must match the socket and ballast exactly. The base keying prevents many mix-ups, but not all.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Row of troffers; one with blackened lamp ends, one flickering, one with ends glowing and middle dark.",
+      "on_screen": "Blackened ends = near end of life | new lamps don't fix it? Report it",
+      "says": "End-of-life signs: blackened ends are normal aging. Flickering, slow starting or swirling can be the lamp, a failing ballast, cold, or a bad socket connection. Ends glowing with the middle dark, report it. If new lamps don't fix the problem, report it for ballast or socket troubleshooting. And handle these lamps so they don't break; they contain mercury and get recycled as universal waste.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "",
+      "says": "Match the lamp to the ballast, read the code every time, and keep your fingers off the quartz. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Bench show-and-tell per the lesson's video suggestion. Halogen capsule handled only with gloves or its sleeve on camera. Decode F32T8/841 with an on-screen graphic. Use unbranded or brand-masked lamps. Lesson file path is LT1-C05/02 (course code differs from vid LT2-C02)."
+}

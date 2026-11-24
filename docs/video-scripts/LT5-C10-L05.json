@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C10-L05",
+  "title": "LT5 Capstone Project Requirements",
+  "course": "LT5-C10",
+  "presenter": "Kyle McClelland",
+  "source": "lesson",
+  "target_seconds": 168,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Kyle McClelland",
+      "background": "Shop floor in front of the service trucks. Kyle holds a thick capstone binder. Medium shot.",
+      "on_screen": "LT5 Capstone Project Requirements",
+      "says": "This is the capstone. It proves you can do what an LT5 does: take a lighting project from existing conditions to a commissioned, documented, safe result, and explain your decisions. It pulls together everything from LT1 to LT5. It's hands-on skill LT5-S08, and a qualified evaluator signs it off.",
+      "seconds": 20
+    },
+    {
+      "scene": 2,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle close-up.",
+      "on_screen": "Minimum: 10 spaces or 40 luminaires - 2+ space types - 1 control strategy to commission - 1 emergency lighting element",
+      "says": "Pick a real project if you can: a customer retrofit you're leading, or an approved in-house space. If there isn't one, an evaluator may approve a fully simulated project. Minimum scope: at least 10 spaces or 40 luminaires, two or more space types, one control strategy that needs commissioning, and one emergency lighting element.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Kyle McClelland",
+      "background": "Staged meeting: a candidate hands a one-page proposal to an evaluator across a table; the evaluator signs it.",
+      "on_screen": "Step 1: Proposal approved in writing before work begins",
+      "says": "Step one is a proposal, one to two pages: location, spaces and why it qualifies, schedule and milestones, approval to use the site, and known hazards or access limits. You don't start until the evaluator approves it in writing.",
+      "seconds": 16
+    },
+    {
+      "scene": 4,
+      "speaker": "Kyle McClelland",
+      "background": "Candidate audits a space with an illuminance meter and tablet, photographing fixtures; then a desk shot with a product selection sheet and an estimate summary on a laptop.",
+      "on_screen": "1 Existing-conditions audit\n2 Retrofit scope and product selection\n3 Takeoff, estimate and financial analysis",
+      "says": "Then six deliverables. One: an existing-conditions audit, space by space, with an illuminance survey and photos. Two: retrofit scope and product selection, with a controls sequence checked against the energy code and an emergency lighting plan. Three: takeoff, labor estimate and financial analysis, with savings, payback and a check on operating hours.",
+      "seconds": 21
+    },
+    {
+      "scene": 5,
+      "speaker": "Kyle McClelland",
+      "background": "Candidate leads a JHA briefing with a small crew at a staging area; then runs an occupancy sensor test with a stopwatch while the evaluator watches.",
+      "on_screen": "4 Safety and installation plan\n5 Commissioning",
+      "says": "Four: the safety and installation plan. A written JHA using the hierarchy of controls, a LOTO plan, access plan, crew assignments, waste handling and a toolbox talk outline. Five: commissioning. Pre-functional checklists, functional tests for every control strategy and the emergency element, and an issues log with retest results.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Kyle McClelland",
+      "background": "Close-up of the organized binder: as-builts, settings sheet, emergency test records, training sign-in, warranty pages, lessons learned.",
+      "on_screen": "6 Closeout package",
+      "says": "Six: the closeout package. As-builts, final control settings, emergency test records, owner training records, warranty information, and lessons learned, including actual versus estimated hours. Keep it all in one organized folder with a table of contents.",
+      "seconds": 14
+    },
+    {
+      "scene": 7,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle medium close-up. Safety callout fills the lower third.",
+      "on_screen": "Any safety deviation = automatic fail of the field portion.",
+      "says": "Hear this clearly. The capstone is real work. Every installation, wiring correction and commissioning step follows LOTO, live-dead-live and the approved JHA. A safety deviation is an automatic fail and a retake, no matter how good the paperwork is. And anything that needs a licensed electrician or a permit is done by, or under, licensed people.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Kyle McClelland",
+      "background": "Conference room: candidate presents slides to the evaluator and a supervisor; the evaluator asks a question and the candidate answers.",
+      "on_screen": "15-20 minutes: problem - solution - financials - crew safety - commissioning - lessons learned",
+      "says": "Then you present for 15 to 20 minutes: the problem, your solution and why, financial results, how you kept the crew safe, commissioning results, and lessons learned. Expect questions on code, safety, products and calculations. Answer correctly, or say where you'd find the answer. Each area is pass or fail.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Kyle McClelland",
+      "background": "Kyle back at the trucks, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator.",
+      "says": "Start early. It usually takes several weeks alongside regular work. Use the LT5 templates, and have your mentor review drafts. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 13
+    }
+  ],
+  "production_notes": "Staged example capstone with actors as candidate, evaluator, crew and supervisor; label it 'staged example' on screen. Highlight each of the six deliverables on screen as it appears. The lesson specifies a 15-20 minute presentation (the original video suggestion said 15 minutes); the script follows the lesson. Use a generic in-house space, no customer names or pricing on screen."
+}

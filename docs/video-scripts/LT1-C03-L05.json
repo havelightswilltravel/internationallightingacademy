@@ -1,0 +1,83 @@
+{
+  "vid": "LT1-C03-L05",
+  "title": "Our Fall Protection Program",
+  "course": "LT1-C03",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 295,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Commercial rooftop near a parapet with a tagged engineered anchor visible; Danny in a harness, medium shot.",
+      "on_screen": "Job Mindset: tying off on the job",
+      "says": "Job Mindset before you tie off. Two hazards: you falling, and what you drop landing on someone below. Guardrails first where they exist, then restraint or arrest, then a controlled zone below. Plan it at the shop: harness and double-leg lanyard inspected, which anchors you'll use, cones and tape, a spotter, and a talk with the site manager before you block anything.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Tailgate of a service truck: senior tech inspects a harness, running webbing through his hands, checking stitching, hardware, labels, impact indicator, relief steps, then the lanyard and hooks. Danny voice-over.",
+      "on_screen": "Inspect before every use. Never modify.",
+      "says": "The company provides your harness with relief steps installed, shock-absorbing lanyards, and double-leg lanyards. You inspect your harness and lanyard before every use. Webbing, stitching, hardware, labels, impact indicator, relief steps, hooks. Defects get tagged and pulled. A competent person also inspects them periodically. And never modify them. No knots, no cutting. If it doesn't fit, tell your supervisor.",
+      "seconds": 28
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Close-up of the tag on the engineered anchor; Danny points to the rating, then to a nearby conduit and roof vent with a red X graphic.",
+      "on_screen": "5,000 lb or engineered and tagged. Can't confirm it? It's not an anchor.",
+      "says": "Anchors. Every tie-off point holds 5,000 pounds per worker, or is designed by a qualified person with a safety factor of two. How do you know? An engineered anchor is listed or tagged. If you can't confirm the rating, it isn't an anchor. Ask your supervisor. Never conduit, sprinkler pipe, fixtures, cable tray, ductwork, roof vents, or guardrails not built as anchors.",
+      "seconds": 28
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Mezzanine: tech clips in at shoulder height, then moves along clipping the second leg of a double-leg lanyard to the next anchor before unclipping the first. Danny voice-over.",
+      "on_screen": "High and tight. 100% tie-off. Clip new before unclipping old.",
+      "says": "Tie off high and tight, at shoulder height or above whenever you can. A low anchor means a longer fall and more clearance. Adjust so a fall is never more than 6 feet. And 100 percent tie-off at all times. Moving between anchors, clip the second leg of your double-leg lanyard to the new anchor before you unclip the first, unless a cage or guardrail protects you.",
+      "seconds": 28
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny at a mezzanine guardrail, touching the top rail and midrail; then a roof hatch being closed.",
+      "on_screen": "Top rail 39-45 in. + midrail. No midrail = not complete.",
+      "says": "Guardrails. A complete system has a top rail 39 to 45 inches high and a midrail. Missing midrail? It's not complete. Report broken or missing rails before you use the area. Holes you create, like an open roof hatch or a tile pulled over an atrium, get covered or barricaded immediately. And never walk on skylights, ceiling grid or suspect decking.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny next to a scaffold frame in a yard, close-up.",
+      "on_screen": "Scaffolding: not unless trained. LT1s don't erect it.",
+      "says": "Two quick rules. Scaffolding: don't use it unless a competent person has trained you on that type. LT1s don't erect it. If a customer offers you their scaffold, tell them you're not trained and call your supervisor. Sign structures: work from the ladder or the lift, or stay tied off on the platform. If the ladder won't reach safely, write it up for the right lift.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Inside a retail store: a lift with toe boards visible, cones and caution tape around the base, a ground worker watching the zone. Danny talking with a store manager (actor, generic store).",
+      "on_screen": "Controlled access zone: you control it the whole time you're up",
+      "says": "Now the people below. Toe boards stop tools from rolling off. Take only what you need up there. Set a controlled access zone with cones, tape and signs, and control it the whole time you're up. If anyone walks in, stop work. Cones alone don't keep people out. And talk to the site manager. Blocking an entrance might cause problems you don't know about. Agree on the plan together.",
+      "seconds": 29
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Same store, close-up on Danny.",
+      "on_screen": "The zone protects people below, not you",
+      "says": "One thing people get wrong: the zone below protects the people below from falling objects. It's not fall protection for you. You still need a guardrail, restraint or arrest system up there.",
+      "seconds": 14
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Back on the rooftop, medium shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Inspect before every use. Rated anchors, high and tight. One leg always connected. Control the zone below. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Rooftop filming: everyone on the roof is tied off or behind guardrails. Use a verified, tagged engineered anchor. Store manager is an actor in a generic store with no logos. Harness inspection follows skill LT1-S21; the lesson's detailed list lives there. Scaffold shown as a prop only."
+}

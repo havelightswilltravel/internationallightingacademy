@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C05-L01",
+  "title": "The Commissioning Process",
+  "course": "LT5-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 203,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Finished open office, lights on, late afternoon. Matthew stands beside a whiteboard with a blank timeline drawn across it. Medium shot.",
+      "on_screen": "The Commissioning Process",
+      "says": "A lighting system can turn on perfectly and still fail commissioning. Sensors time out at the wrong delay, daylight zones never dim, schedules run in the wrong time zone, or emergency fixtures don't go to full when power is lost. Commissioning answers one question: does the system actually do what the owner and the code require, in every space, under real conditions?",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the whiteboard as Matthew writes 'Cx = verify and document' at the top of the timeline.",
+      "on_screen": "Commissioning (Cx): verify and document that systems meet the owner's requirements",
+      "says": "Commissioning, or Cx for short, is a quality process. It verifies and documents that building systems are designed, installed, tested, and able to be operated and maintained to meet the owner's requirements. It is not just turning the lights on.",
+      "seconds": 16
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the whiteboard; quick cutaways of an occupancy sensor, a daylight sensor near a window, and an exit sign in a corridor.",
+      "on_screen": "Why it matters: energy codes - callbacks - savings - life safety",
+      "says": "Why does it matter? Current editions of ASHRAE 90.1 and the IECC require functional testing of lighting controls before the owner accepts the building, so confirm the edition your jurisdiction adopted. Most 'lights keep shutting off on me' complaints trace back to incomplete commissioning. Controls that are never set up save nothing. And emergency lighting controls have to be proven to work.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard timeline now filled in left to right: OPR, Design, Install, Pre-functional checks, Functional testing, Issues log, Training, Turnover. Matthew points to each label.",
+      "on_screen": "OPR - BOD - Sequence of Operations - Cx Plan - Checklists - FPTs - Issues Log - Systems Manual",
+      "says": "Know the documents. The Owner's Project Requirements say what the owner needs. The Basis of Design explains how the design meets it. The sequence of operations says exactly how controls behave in each space. The Cx plan says who does what and when. Then come pre-functional checklists, functional performance tests, the issues log, and the systems manual and training records. ASHRAE Standard 202 shows how they fit together.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Montage of short clips on a project: design review at a table with drawings, a tech on a ladder installing a sensor, a tech with a tablet checklist, a test with a stopwatch, a training session with facility staff. Presenter voice-over.",
+      "on_screen": "1 Design review  2 Construction  3 Pre-functional checks  4 Functional testing  5 Fix and retest  6 Training and turnover  7 Post-occupancy",
+      "says": "The phases run in order. Owner requirements are written and the design is reviewed; you might be asked whether sensors can actually see occupants. Equipment is installed and submittals checked. The installer verifies every device is wired, addressed and online. Each sequence is tested step by step. Failures are fixed and retested until they pass. Operators are trained and documents delivered. A post-occupancy tune-up is optional but valuable.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Same office; an LT5 technician with a tablet runs a test while a commissioning agent with a clipboard watches. Matthew narrates from the side of frame.",
+      "on_screen": "You run the tests. The CxA witnesses.",
+      "says": "On the team, the owner defines requirements and accepts the system. The commissioning provider, the CxA, plans, witnesses and documents. On smaller projects the electrical contractor may do the testing. The designer writes sequences, and the controls manufacturer programs networked systems. As an LT5 technician, you'll often be the one running the tests while the CxA witnesses.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech on a lift near a ceiling sensor; cut to a breaker panel with the owner's facility contact standing by. Callout graphic over the shot.",
+      "on_screen": "Plan it: ladders and lifts - LOTO for wiring fixes - verify absence of voltage - never leave egress paths dark",
+      "says": "Commissioning means ladders, lifts, opening devices, and sometimes cutting normal power to test emergency lighting. Each of those needs a plan. Use lockout/tagout for any wiring correction and verify absence of voltage before you touch conductors. Coordinate every power interruption with the owner so occupied egress paths are never left dark.",
+      "seconds": 20
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a hand signing a functional test form on a tablet, then Matthew back at the whiteboard, medium shot.",
+      "on_screen": "A pass is your signature. Never record a test you didn't perform.",
+      "says": "Here's the part that matters most. A recorded pass is your signature. Never mark a test passed that wasn't performed, and never adjust a result to match the expected value. A failed test that's honestly recorded and fixed is the process working. A fake pass is a liability, and with emergency lighting it can be a life-safety problem.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera in the finished office, whiteboard timeline behind him. Medium close-up.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "So: commissioning proves the system meets the owner's requirements and the code, not just that the lights come on. Know the documents, know the phases, plan the risky steps, and record what you actually see. Now read the lesson and take the quiz.",
+      "seconds": 17
+    }
+  ],
+  "production_notes": "Whiteboard timeline should be pre-drawn in a second take so scene 4 can show it complete. Montage in scene 5 can use any generic finished-office project footage; no customer logos or signage. The commissioning agent and technician in scenes 5-6 are non-speaking extras. Keep ASHRAE/IECC references general; do not show specific code edition years on screen."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C05-L04",
+  "title": "BMS Integration & BACnet Basics",
+  "course": "LT4-C05",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 270,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Building engineering office: two laptops side by side, one with NLC software, one with a BMS front end. Matthew standing behind. Medium shot.",
+      "on_screen": "Job Mindset: Integration Day",
+      "says": "On integration day, the hazard you might not see coming: a remote or BMS command can energize fixtures and relays while someone's working on them. Software off is not energy isolation. Lock out at the breaker, verify, and coordinate with the BMS operator so schedules don't surprise a crew in the ceiling. Plan ahead: get the points list agreed in writing and the network details from IT before you show up.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "BMS screen showing HVAC and lighting status on one page.",
+      "on_screen": "Status | Occupancy to HVAC | Schedules | Demand response | Alarms",
+      "says": "Why integrate? The owner sees lighting status and energy on the same screen as HVAC. Occupancy data lets HVAC set back empty zones. Common schedules and holidays. Shedding lighting load in demand-response events. And alarms for failed devices or offline gateways. You usually don't program the BMS, but you deliver a working, documented interface and prove which side a problem is on.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of a BACnet device containing objects, each with properties; examples labeled.",
+      "on_screen": "Device (unique instance) > Objects (BV, AV, BI...) > Properties (Present-Value)",
+      "says": "BACnet is the most common open protocol for building automation. A device, like the NLC gateway, has a unique device instance number. Inside it are objects, the data points. A binary value is on-off, like a zone command. An analog value is a number, like dim level zero to 100. A binary input is read-only status, like occupancy. BACnet IP runs on the building network.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "The lighting tech shows the points list in the NLC software; close-up of rows.",
+      "on_screen": "Points list = the contract. Name | Object | Instance | R/W | Description",
+      "says": "The points list is the contract between lighting and the BMS. Agree on it in writing before integration day. Every point gets a name, object type, instance number, read or write, and what it does. For example, L2-210-ZONE-CMD is a binary value the BMS writes to turn the zone on and off. L2-210-OCC is a binary input it reads for occupancy.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Lighting tech and BMS tech (actor) side by side; BMS tech's screen shows the same points arriving after discovery.",
+      "on_screen": "1. Network details  2. Configure gateway  3. Expose agreed points only  4. Verify comms",
+      "says": "The procedure. Confirm network details with IT or the BMS contractor: IP address, subnet, VLAN, BACnet network number, and a unique device instance for each gateway. Duplicates make devices disappear or act erratic. Configure the gateway and enable BACnet. Expose only the agreed points; publishing everything clutters the BMS. Then the BMS tech discovers the gateway and reads the points.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "BMS tech commands the zone ON; cut to the office as the lights come on. Then a person walks into the room and the occupancy point flips on the BMS screen in real time.",
+      "on_screen": "5. Point-to-point test every point. Record results.",
+      "says": "Point-to-point test every point. Command from the BMS and watch the lights. There they go. Then change state in the space and watch the BMS value. Someone walks in, and occupancy changes on the BMS screen. Record each result on the points list.",
+      "seconds": 18
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic of the 16-level priority array with the BMS write level highlighted; then a wallstation press that does nothing.",
+      "on_screen": "6. Agree on priority  7. Document addressing, results, contacts",
+      "says": "Agree on priority. BACnet uses a 16-level priority array. Settle which level the BMS writes at so it doesn't permanently override local wallstations or life-safety functions. A classic call: the BMS command works, but afterward the wallstation does nothing. The BMS wrote at a high priority and never released it. Then document final addressing, the tested points list, and who to call for each side.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Both techs discussing over a printed network sheet showing IP addresses and device instances.",
+      "on_screen": "Can't see gateway: IP, VLAN, firewall, cable, instance conflict | Odd on-times: competing schedules",
+      "says": "Whose problem is it? BMS can't see the gateway: IP settings, VLAN or firewall, cable, or a device instance conflict. Sees it but values never change: point mapping or the wrong instance. Lights on at odd times: competing schedules in the BMS and the NLC. Pick one master schedule.",
+      "seconds": 20
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera beside the laptops.",
+      "on_screen": "Change default passwords | IT approval + assigned VLAN | No unapproved remote access | Firmware per change control",
+      "says": "Networked lighting is a computer on the owner's network. Change all default passwords and store them in the company's approved system, not on sticky notes. Connect only with IT approval on the assigned VLAN. No remote-access tools or cloud connections the owner hasn't approved. Now read the lesson and take the quiz.",
+      "seconds": 22
+    }
+  ],
+  "production_notes": "Two techs side by side (lighting tech and an actor as the building's BMS technician) with generic NLC software and a generic BMS front end (mock screens, no vendor branding, fictional IP addresses). Show zone ON commanded from the BMS and an occupancy status change in real time. Printed network sheet with fictional IPs and instance numbers for the ownership discussion. Use the lesson's example point names. Lighting tech performs; Matthew narrates."
+}

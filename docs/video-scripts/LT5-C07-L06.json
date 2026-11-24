@@ -1,0 +1,67 @@
+{
+  "vid": "LT5-C07-L06",
+  "title": "Hazardous Materials on Lighting Projects",
+  "course": "LT5-C07",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 177,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Waste staging area on a large retrofit: rows of closed lamp boxes, a drum, a battery container, a clipboard log on a table. Danny in front. Medium shot.",
+      "on_screen": "Job Mindset: Handling the waste stream",
+      "says": "Plan the waste stream before day one: containers, labels, a spill kit, SDS in the binder, and who the waste generator is, in writing. Think ahead to the worst cases, a leaking ballast or suspect asbestos above a tile, and know you stop for both. Before any ballast comes out, the circuit is locked out and verified.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Lead tech walks a new crew member along the lamp boxes; close-up of a label reading 'Universal Waste - Lamps' with a start date.",
+      "on_screen": "Close it - label it - date it - never crush or tape bundles",
+      "says": "Lamps first. Use containers that close and protect them, original or recycler boxes. Label each one, like 'Universal Waste, Lamps,' and write the start date. Keep them closed except when you're adding lamps. Never tape lamps into bundles or crush them. Broken lamps go in a separate sealed, labeled container. Our company recycles all lamps, even low-mercury ones.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Lead points to a separate drum labeled as possible PCB ballasts, then to a container of exit-sign batteries with taped terminals.",
+      "on_screen": "Pre-1979, no 'No PCBs' label = treat as PCB\nDEHP ballasts: separate, tell the recycler the count\nBatteries: terminals taped",
+      "says": "Ballasts. PCBs were used until 1979. Any ballast from a pre-1979 building without a 'No PCBs' label gets treated as PCB and goes in its own labeled drum. Many 'No PCBs' ballasts contain DEHP instead; keep those separate from scrap and tell the recycler how many. Exit and emergency batteries are universal waste, terminals taped. Tritium exit signs never go in the trash; return them per the label.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Danny close-up. Safety callout.",
+      "on_screen": "Leaking, wet or tarry ballast: STOP. No bare hands.",
+      "says": "If a ballast is leaking, wet or tarry, stop. Don't touch it with bare hands. Keep people away, tell your supervisor and the customer, and follow the company spill procedure. Same idea with a broken HID arc tube: ventilate, keep people out, use the spill kit, never vacuum. And a metal halide with a broken outer bulb can keep running and give off harmful UV. De-energize it.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Office corridor: a crew member on a ladder lifts a ceiling tile and sees damaged pipe insulation; lead calls 'Stop,' crew steps back, lead tapes off the area and calls the facility contact on a phone.",
+      "on_screen": "Asbestos: stop - don't touch - keep people out - report",
+      "says": "Now this. Buildings from before about 1981 may have asbestos in pipe insulation, fireproofing, tiles and more. Ask for the survey before work. Here a crew member finds damaged pipe insulation. The lead stops work in that area. Nobody touches, sweeps or vacuums it. Keep people out and call your supervisor and the facility contact. Only licensed asbestos contractors abate. Resume only with written clearance.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny in the corridor, medium shot.",
+      "on_screen": "Pre-1978 paint: ask for testing\nSDS for every chemical",
+      "says": "Around occupants, use calm words, like 'we found some material that needs to be checked,' and let the owner handle communication. Paint from before 1978 may contain lead, so if the job means drilling or scraping old paint, ask for testing first. And keep SDS for every chemical on the job: cleaners, adhesives, sealants, battery electrolyte, the spill kit.",
+      "seconds": 24
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Lead updates the clipboard container log; then hands the facility manager a closeout folder containing shipping papers and a certificate of recycling.",
+      "on_screen": "Daily log - shipping papers - certificate of recycling - reconcile counts - closeout folder",
+      "says": "The paperwork is what the customer keeps. Log containers daily: type, count, start date. Ship with the recycler's papers, a bill of lading, or a manifest for PCBs. Get a certificate of recycling. Reconcile with the audit: 2,000 fixtures with three lamps each should produce about 6,000 lamps. A big gap needs an explanation. Then hand over the folder. Now read the lesson and take the quiz.",
+      "seconds": 27
+    }
+  ],
+  "production_notes": "Federal baseline only; add an on-screen note in scene 2 or 3 that states may be stricter. The damaged pipe insulation in scene 5 must be a harmless mock-up; actors do not touch it. PCB drum and battery container are props with correct labels. Certificate of recycling and shipping papers must be generic samples with no real customer or recycler names. Lead tech and new crew member are non-speaking; Danny narrates."
+}

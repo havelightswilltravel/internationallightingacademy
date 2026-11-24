@@ -1,0 +1,83 @@
+{
+  "vid": "LT2-C02-L06",
+  "title": "Company Field Notes: Changing Parts and What to Write Up",
+  "course": "LT2-C02",
+  "presenter": "Senior technician",
+  "source": "lesson",
+  "target_seconds": 195,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Senior technician",
+      "background": "Shop workbench with parts laid out: an old metal halide lamp and ballast, two LED HID-replacement lamps of different body sizes, a color-selectable lamp, a refrigerated-case ballast, a plug-in LED driver, a flat prismatic lens and a wrap lens. Medium shot.",
+      "on_screen": "Company Field Notes: Changing Parts",
+      "says": "Parts don't stand still. At our monthly meetings, one regular agenda item is what changed in our stock this month: what's gone, what replaces it, and what the office needs from you to order the right thing. A good write-up is how you plan the next trip before you ever leave the site. Here's what to bring back.",
+      "seconds": 23
+    },
+    {
+      "scene": 2,
+      "speaker": "Senior technician",
+      "background": "Close on the metal halide lamp and ballast, then the two LED replacement lamps side by side.",
+      "on_screen": "HID is being phased out | Fix: LED HID-replacement lamp or new LED fixture",
+      "says": "Metal halide lamps and ballasts are being discontinued. Our company is working through its remaining HID ballasts and won't restock them. Going forward, a failed HID system gets an LED HID-replacement lamp, usually ballast-bypass, when the fixture can take it and the customer allows it, or a new LED fixture.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Senior technician",
+      "background": "Supervisor holds up a phone showing photos of an open HID fixture; tape measure inside the housing.",
+      "on_screen": "Record: wattage | type | shape and size | photos inside and out | measure the room around the lamp",
+      "says": "So on an HID call, record the existing lamp exactly: wattage, type, and shape and size. HID lamps come in different envelope sizes, and LED replacements come in different body sizes too, so the one we pick has to fit. Photograph the fixture inside and out, and measure the room around the lamp.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Senior technician",
+      "background": "Close-up of a color-selectable lamp's switch set to 4000 K; a pull sheet with the color written on it.",
+      "on_screen": "Color-selectable? Write the color on the pull sheet | Ballast-bypass is locked-out LT2 work; label it converted",
+      "says": "Some LED replacement lamps are color-selectable, with a switch for 3000, 4000 or 5000 K. Write the color you need on your pull sheet. Some customers don't allow ballast-bypass lamps in their exterior fixtures yet, so learn each customer's standard, and when in doubt, write it up rather than convert. Converting means rewiring to line voltage. That's done locked out, and the fixture's labeled as converted.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Senior technician",
+      "background": "Refrigerated-case ballast on the bench; supervisor shows photos of a case, its plug and receptacle and the ballast label.",
+      "on_screen": "Discontinued line? Photos | measurements | CCT | lamps per ballast | number of cases",
+      "says": "Sometimes a whole product line disappears, like one manufacturer's line of refrigerated-case ballasts. Don't be the last contractor hunting for an obsolete part. Bring back photos of the case, the plug and receptacle and the ballast label, the lamp and case lengths, the color temperature, the lamp type and quantity per ballast, and the number of cases.",
+      "seconds": 23
+    },
+    {
+      "scene": 6,
+      "speaker": "Senior technician",
+      "background": "Close-up of a plug-in LED driver's output tip next to its label.",
+      "on_screen": "Plug-in drivers: photograph the output tip and label | bring a labeled sample",
+      "says": "Plug-in drivers: the same wattage can come with many different tips and cord caps. Always photograph the output tip and the label. Best practice is to bring back a labeled sample. For 12 or 24 volt supplies, record the output voltage, wattage and connector.",
+      "seconds": 18
+    },
+    {
+      "scene": 7,
+      "speaker": "Senior technician",
+      "background": "Tape measure across a flat prismatic lens; then a wrap lens being traced on paper.",
+      "on_screen": "Flat lens: precise measurement + count | Wrap lens: trace, sample, photo, count the area",
+      "says": "Lenses. Our vendor cuts flat prismatic lenses to size, so always take a precise measurement along with your count. If you've got a lens on the truck and can cut it on site to finish, do that. Wrap lenses aren't always available. Trace it, bring a sample, photograph the fixture and count matching fixtures in the area. One new fixture in a row of old ones can look wrong.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Senior technician",
+      "background": "Retail store: tech on a ladder wiping bugs out of an open, locked-out fixture, then writing on a work order.",
+      "on_screen": "Write it down: cleaned fixture",
+      "says": "Last, clean fixtures are part of our service, and customers notice when we don't. Bugs, cobwebs and dust bunnies are the giveaway. Clean inside a fixture only with it locked out and verified dead, and let the lamps cool first. Use the cleaner the company provides; its Safety Data Sheet is in the shop. Then write cleaned fixture in your notes, so the customer knows.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Senior technician",
+      "background": "Senior tech back at the bench, medium shot.",
+      "on_screen": "",
+      "says": "Good photos, good measurements, good notes. That's how the right part shows up the first time. Now read the lesson and take the quiz.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Senior technician (TBD) presents; the lesson's video suggestion frames this as a supervisor laying out parts, so the presenter can be shown in that role. Store cleaning scene: fixture locked out, lamps cooled, company-provided cleaner. No vendor or manufacturer names on camera. Lesson file path is LT1-C05/06 (course code differs from vid LT2-C02); the lesson frames recognition and write-up as LT1 work."
+}

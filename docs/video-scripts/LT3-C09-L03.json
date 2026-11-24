@@ -1,0 +1,83 @@
+{
+  "vid": "LT3-C09-L03",
+  "title": "Track Installation, Feeds and Load Limits",
+  "course": "LT3-C09",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 210,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Retail ceiling with an existing junction box and a ladder; two techs staging track sections. Presenter voice-over.",
+      "on_screen": "Job Mindset: Installing a Track Run",
+      "says": "Job mindset. The hazards are live track conductors and working off a ladder over a sales floor. Lock out every circuit feeding the track, verify dead, and keep customers out from under you. Plan it before you leave: every section, connector, dead end, support, and the heads' input watts. Run the load math before you drive, not after the breaker trips.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the retail mock-up, medium close-up.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may install track and re-terminate track feeds under the company's license. In others it must be done by, or under the supervision of, a licensed electrician, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and that you're authorized. New circuits and new boxes are electrician work unless the company has qualified you.",
+      "seconds": 29
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks and tags the breaker; at the box, meter tested on a known source, all conductor pairs tested, meter re-tested.",
+      "on_screen": "Lock out EVERY circuit. Test hot-neutral, hot-ground, neutral-ground.",
+      "says": "Step one, identify every circuit feeding the track, all of them on multi-circuit track. Lock out and tag out each one. At the feed, verify absence of voltage on every conductor with a tested meter, live-dead-live: each hot to neutral, each hot to ground, and neutral to ground. Treat every track as energized until you've done that.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up: tech lands conductors on a live-end feed: hot, neutral, ground. Then mounts the feed over the junction box.",
+      "on_screen": "Hot to hot | neutral to neutral (screw shell) | ground to ground screw",
+      "says": "Inspect the feed. Discolored insulation, loose screws, burned terminals or a cracked housing mean replace it, don't repair it. Land conductors per the markings: hot to hot, neutral to neutral, ground to the ground screw. Polarity matters, because the neutral goes to the screw shell of a lamp socket. Torque to the maker's values, and seat the feed fully into the track.",
+      "seconds": 25
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Two techs join a section with a straight connector, turn with an L connector, install a dead end cap. Support clips secured. Presenter voice-over.",
+      "on_screen": "Every unfed end gets a dead end cap.",
+      "says": "Join sections with the connectors. Every joint is a potential failure point, and on multi-circuit track a connector installed backward can swap circuits or polarity. Every unfed end gets a dead end cap. If you field-cut, cut square, deburr, and follow the instructions. Support the track at the maker's spacing so it doesn't sag, attached to structure, not just the ceiling grid unless it's listed for that.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the track, serious tone.",
+      "on_screen": "Track slots are live along the WHOLE length. No tools or fingers in the slot.",
+      "says": "Safety. Exposed track conductors are live along the whole length of the slot, including the far end if the dead end is missing. Don't put tools or fingers in the slot.",
+      "seconds": 12
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: three limits listed, then the example math.",
+      "on_screen": "Limits: track rating | branch circuit (80%) | dimmer. Lowest one controls.",
+      "says": "Before you energize, check three limits: the track rating, commonly 20 amps per circuit, the branch circuit, and the dimmer or control rating. The lowest one controls. Lighting on three hours or more is continuous load, so keep it at or below 80 percent of the breaker. On a 120-volt, 20-amp circuit that's 16 amps, or 1,920 watts.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard math continues: 8 heads with input watts written from the head labels.",
+      "on_screen": "12 x 75 W = 900 W OK | +10 x 150 W = 2,400 W OVER | 22 x 15 W LED = 330 W",
+      "says": "Example: twelve 75-watt halogen heads is 900 watts, fine. The store adds ten 150-watt heads and you're at 2,400, over the limit. Convert to 15-watt LED heads and 22 heads is 330 watts. For heads with transformers, ballasts or drivers, use the input watts or VA on the label, not the lamp watts. If the customer keeps adding heads, document it and recommend a fix.",
+      "seconds": 26
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Techs remove lock per procedure, restore power, every head lights. Matthew in frame after.",
+      "on_screen": "Most track is DRY LOCATION only. Now read the lesson and take the quiz.",
+      "says": "Remove your locks per procedure, restore power and test every head. One more thing: most track is listed for dry locations only. No showers, outdoors, over pools or near sinks unless it's listed for it. If an existing install looks wrong, write it up. Now read the lesson and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Two senior techs perform the install on a training ceiling with a pre-installed junction box on an identified circuit; presenter voice-over in scenes 1 and 5. Whiteboard math in scene 8 should use the lesson's example numbers; if eight specific heads are shown, use their label input watts and keep the same 80% method. Show lock and tag visibly."
+}

@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C03-L04",
+  "title": "Halogen Handling, LED Conversion & Disposal",
+  "course": "LT2-C03",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 174,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Exterior wall with a halogen floodlight at ladder height; tech below with gloves, a boxed T3 lamp, lockout kit and meter. Medium shot of Matthew.",
+      "on_screen": "Job Mindset: hazards = burns, shock, rupture, fire | lock out, verify, let it cool | gloves and sleeve",
+      "says": "Halogen relamp or LED conversion. The hazards: serious burns from a hot capsule, shock from contacts close to your fingers, a capsule that can rupture, and fire near combustibles. Lock out, verify, let it cool, and use gloves or the sleeve. Before you leave the shop, confirm the work order allows conversion, the CCT the customer wants, and the dimmer type. Bring the right lamp and a kit.",
+      "seconds": 27
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a T3 halogen capsule in its protective sleeve; a fingerprint shown on a bare capsule as a graphic.",
+      "on_screen": "No bare fingers on the quartz | touched it? Clean with isopropyl alcohol",
+      "says": "Rule one: no bare fingers on the quartz. Skin oils leave a residue that makes a hot spot. The capsule can weaken, fail early or even rupture. Handle it by the sleeve, or wear clean cotton or nitrile gloves. If you do touch it, wipe the quartz with a clean lint-free cloth and isopropyl alcohol, and let it dry before you install it.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech performs the steps at the locked-out floodlight: inspects R7s sockets, presses one end of the T3 into the spring-loaded socket using the sleeve; presenter voice-over.",
+      "on_screen": "R7s: press one end into the spring socket | inspect for discoloration or cracked ceramic",
+      "says": "Lock out and verify absence of voltage before you replace it. An R7s lamp goes in by pressing one end into a spring-loaded socket, so your fingers are close to both contacts. While the power's off, inspect the sockets for discoloration or cracked ceramic. Match the replacement to the fixture label and the original lamp; some halogens are for enclosed fixtures only.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Floodlight lens closed and latched; label reading Do not operate without lens.",
+      "on_screen": "Lens and guard stay in place | watch clearance to combustibles",
+      "says": "Keep the lens and guard in place. They contain the capsule if it ruptures and keep the hot lamp away from combustibles. A fixture marked do not operate without lens never goes back in service without one. And report halogen lights mounted close to paper, fabric or insulation.",
+      "seconds": 19
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Bench, then a locked-out recessed can: tech reads an LED retrofit kit's listing label and instructions, checks a dimmer label, installs the module, applies the conversion label. Presenter voice-over.",
+      "on_screen": "Conversion: authorized? CCT? | match base, size, beam | dimmer compatible | follow kit instructions | apply label",
+      "says": "Federal rules in 2023 effectively ended most general-service incandescent and halogen lamps, so many relamp calls become LED conversions. Confirm the work order authorizes it and the color temperature. Match base, size and beam. Check the dimmer is compatible, or note it needs replacing. For a retrofit kit, confirm it's listed for that size can, follow the instructions exactly and apply any required label.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a scorched socket next to a retrofit module.",
+      "on_screen": "A retrofit module doesn't fix a damaged socket, scorched wiring or a bypassed protector",
+      "says": "Here's the mistake to avoid. A retrofit module doesn't fix a damaged socket, scorched wiring, or a thermal protector that's been bypassed. Those get written up, not covered up. Record the old and new part numbers on the work order.",
+      "seconds": 16
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Shop: tech sorts removed lamps into labeled containers; broken lamp wrapped before going in the trash.",
+      "on_screen": "Incandescent/halogen: usually regular waste | fluorescent, CFL, HID: universal waste | never mix",
+      "says": "Disposal. Incandescent and halogen lamps don't contain mercury, and in most areas they go in regular trash; follow company policy and any stricter local or customer rules. Wrap broken glass or use a rigid container. Never leave broken quartz unwrapped in a customer's wastebasket. Fluorescent, CFL and HID lamps go to universal waste. Don't mix them. LED parts may be recycled as electronics.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew at the bench, medium shot.",
+      "on_screen": "",
+      "says": "Gloves on the quartz, lens back in place, conversions done by the instructions, and lamps in the right container. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Demonstration per the lesson's video suggestion: T3 halogen install with gloves and sleeve (senior tech performs; presenter voice-over), LED retrofit module conversion in a locked-out can, then lamp sorting. Use a generic listed retrofit kit with logos masked. Lesson file path is LT1-C08/04 (course code differs from vid LT2-C03)."
+}

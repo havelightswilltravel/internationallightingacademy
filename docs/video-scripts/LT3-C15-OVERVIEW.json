@@ -1,0 +1,59 @@
+{
+  "vid": "LT3-C15-OVERVIEW",
+  "title": "Traffic, Public Areas and Night Work (course overview video)",
+  "course": "LT3-C15",
+  "presenter": "Danny Smith",
+  "source": "outline",
+  "target_seconds": 136,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Parking lot at dusk, bucket truck parked with cones around it; Danny in a high-visibility vest. Medium shot. Lower third: Danny Smith, Operations Manager.",
+      "on_screen": "Traffic, Public Areas and Night Work",
+      "says": "A lot of our work happens where the public is: parking lots, drive lanes, store entrances, often at night. Cars don't expect to find a truck in the lane, and shoppers don't look up. This course is about controlling the work area so the public stays safe, and so do you. It all starts before you leave the shop: enough cones, barricades, vests and work lights on the truck for the job you're going to.",
+      "seconds": 30
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Close-up: cones and barricades being set around the truck and the work zone. Danny voice-over.",
+      "on_screen": "Cones and barricades: mark the work zone",
+      "says": "First, cones and barricades. You'll learn how to set up a work zone that drivers and pedestrians can see and understand, and how to work in parking lots and drive lanes without leaving anyone guessing where they're supposed to go. That includes where the truck parks, where the bucket swings, and where people will walk to get around you.",
+      "seconds": 24
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "A spotter in hi-vis watching traffic beside the truck; tech in the bucket.",
+      "on_screen": "Spotters and flaggers | High-visibility gear",
+      "says": "Second, people. When traffic is moving near the work, you'll need a spotter or a flagger, and you'll learn what each one does. And everyone on the ground wears high-visibility gear, so drivers see you before they reach you. A tech with their head down in a tool bag doesn't see the car backing out. A spotter does.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Night: portable work light illuminating the area below a pole light; tech working in the bucket.",
+      "on_screen": "Light the work area at night",
+      "says": "Third, night work. A dark lot is the reason we're there, so you'll learn how to light the work area itself, so you can see what you're doing and the public can see the work zone. You'll also learn what changes at night: drivers are tired, distracted and blinded by headlights, and your cones need to be seen from farther away.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Danny beside a ladder and a tool bag in a lot, medium close-up.",
+      "on_screen": "Never leave equipment unattended or a ladder standing in a public area. Keep the public out from under the work.",
+      "says": "Fourth, two rules you'll hear a lot. Never leave equipment unattended or a ladder standing in a public area, not even for a minute. And keep the public out from under the work. Anything you drop from a bucket or ladder can hurt somebody below.",
+      "seconds": 18
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Wide shot of the lit, coned-off work zone at night.",
+      "on_screen": "Start Lesson 1",
+      "says": "Plan the work zone before you raise the bucket: where the cones go, who's spotting, how you'll light it, and what you'll do if a car ignores all of it. Now start the first lesson, and take each quiz as you go.",
+      "seconds": 17
+    }
+  ],
+  "production_notes": "Course overview written from the outline only; the lessons are not written yet. Check cone placement, spotter and flagger roles, high-visibility apparel requirements and any state or local traffic-control rules against the final lessons before production. Film on a closed or controlled lot with real traffic control in place; no tenant signage or customer logos."
+}
