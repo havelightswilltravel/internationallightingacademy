@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C04-L06",
+  "title": "Recommending Controls by Space Type",
+  "course": "LT5-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 183,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Private office with a window; Matthew with a facility manager (back to camera) and a clipboard.",
+      "on_screen": "Recommending Controls by Space Type",
+      "says": "Swapping fluorescent for LED cuts watts. Controls cut hours, and in many buildings they save as much again as the fixture change. They're also where complaints come from when they're chosen badly. So a senior tech recommends controls by asking questions, not by picking a favorite sensor.",
+      "seconds": 19
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "On-screen sensor types over b-roll of a PIR, an ultrasonic and a dual-tech sensor.",
+      "on_screen": "PIR: heat motion, line of sight\nUltrasonic: sees around partitions, can false-trigger on airflow\nDual-tech: both to turn on, either to stay on",
+      "says": "Know your sensor technology. PIR, passive infrared, sees heat moving across zones and needs line of sight. Good for small open rooms and aisles. Ultrasonic senses motion by sound reflection and sees around partitions, but airflow can false-trigger it. Dual-technology needs both to turn on and either to stay on, so you get fewer false-ons and false-offs.",
+      "seconds": 23
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing the facility manager, counting on fingers.",
+      "on_screen": "1. Who uses it, and how?\n2. Useful daylight?\n3. What tasks?\n4. What do safety & code require?\n5. What will annoy people?",
+      "says": "Five questions for every space. Who uses it, and how: steady, intermittent, or by schedule? Is there useful daylight, and how deep does it reach? What tasks happen here? What do safety and the adopted energy code require, like egress paths, stairs and machinery? And what will annoy people: lights going off on someone sitting still, or coming on for someone walking past?",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Private office: Matthew points to a wall vacancy sensor location and a photosensor near the window.",
+      "on_screen": "Private office: vacancy (manual-on, auto-off) + daylight dimming if windowed",
+      "says": "Private office. One or two people, intermittent use, a window. Recommendation: a vacancy sensor, manual-on and auto-off, plus daylight dimming if it's windowed. Watch out for desk-bound workers sitting still under a PIR.",
+      "seconds": 13
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Restroom with tall stall partitions; Matthew points to a ceiling dual-tech sensor location.",
+      "on_screen": "Restroom: ultrasonic or dual-tech ceiling sensor\nPIR blocked by stalls leaves people in the dark",
+      "says": "Restroom with tall stall partitions. A PIR can't see into the stalls, and that leaves people in the dark. Use an ultrasonic or dual-tech ceiling sensor that sees around the partitions.",
+      "seconds": 12
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse aisle with high bays; then parking garage with fixture-integral sensors.",
+      "on_screen": "Warehouse aisle: integral sensors per aisle, step down • daylight under skylights\nGarage: integral sensors, reduced level • daylight at perimeter",
+      "says": "Warehouse aisle: fixture-integral sensors per aisle that step down to a low level, plus daylight dimming under skylights. Think about forklift safety, and sensors at the right height for 30-foot mounting. Parking garage: integral sensors with a reduced level when there's no activity, daylight control at the perimeter and openings. Consider security perception and camera needs. Corridors and stairs step down, never below egress requirements.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera.",
+      "on_screen": "Energy codes may require controls on retrofit: flag them, don't make them optional",
+      "says": "Energy codes based on ASHRAE 90.1 or the IECC commonly require automatic shutoff, a maximum sensor delay, often around 20 minutes, manual-on or partial-on in some spaces, daylight controls, multi-level control, and exterior reduction. A retrofit can trigger these. Flag them in the proposal for confirmation. Don't leave them as options.",
+      "seconds": 20
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Senior tech at a wall sensor with the circuit locked out; then a walk-test.",
+      "on_screen": "Nuisance calls are setup problems: right tech, right spot, right settings, walk-test\nNever tape over a sensor or set it 'always on'",
+      "says": "Most 'the sensors don't work' calls are setup problems. Right technology, mounted where it sees occupants, set per the manufacturer, and walk-tested before you leave. Installing line-voltage sensors is electrical work: lock out and verify live-dead-live first. And never tape over a sensor or set it to 'always on' to stop complaints. That defeats a required control. Fix the cause.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew shows the facility manager a one-page controls summary with before/after kWh per square foot.",
+      "on_screen": "Lighting energy intensity: 6.0 → 2.4 kWh/ft²·yr\n(240,000 → 96,000 kWh, 40,000 ft²)",
+      "says": "Speak the customer's metrics. Codes limit watts per square foot. Controls improve kilowatt-hours per square foot per year. A 40,000-square-foot office using 240,000 kilowatt-hours for lighting is at 6.0. After LED and controls, 96,000 kilowatt-hours: 2.4. Quote the change in the customer's own reporting units. Now read the lesson and take the quiz.",
+      "seconds": 21
+    }
+  ],
+  "production_notes": "Walkthrough of four spaces in one generic building (private office, restroom with tall stalls, warehouse aisle, parking garage); facility manager appears from behind. Sensor install shot shows LOTO and live-dead-live before opening the box. No customer branding. Example figures from the lesson."
+}

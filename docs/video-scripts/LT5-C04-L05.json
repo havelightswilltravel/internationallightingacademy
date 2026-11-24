@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C04-L05",
+  "title": "Upgrade Strategy and Life-Cycle Cost",
+  "course": "LT5-C04",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 193,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Conference table with three printed options: TLED, retrofit kit, new luminaire with integral sensor; Chris across from a facility manager (back to camera).",
+      "on_screen": "Upgrade Strategy & Life-Cycle Cost",
+      "says": "Most customers ask, 'What's the cheapest LED?' A senior tech answers a better question: what result does this space need, and what's the lowest total cost to get it and keep it? Decide the strategy first, then choose products.",
+      "seconds": 16
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "On-screen three strategies.",
+      "on_screen": "Match the light • Right-size down • Deliver high, then trim",
+      "says": "Three strategies. Match the light: about the same levels with far less power, when levels already meet the target and people are happy. Right-size down: deliver less light because the audit shows the space is over-lit. Or deliver high, then trim: install enough lumens for end of life and use high-end trim to set today's level, leaving headroom for lumen loss and layout changes.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Office ceiling mock-up with each option installed side by side; Chris points to each.",
+      "on_screen": "TLED: lowest first cost, limited controls, old parts still age\nKit: new optic & driver, labeled\nNew luminaire: most control, best optics",
+      "says": "The options. TLEDs: lowest first cost and labor, but limited controls, and the old housing, lens and sockets keep aging. Plug-and-play keeps the old ballast; ballast-bypass puts line voltage on the sockets, so the fixture needs the modification label and correct sockets. Retrofit kits: new driver and optic, installed per instructions and labeled. New luminaires: widest controls, best glare control, single warranty.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Ceiling: LED exit sign, emergency unit; box of spent lamps.",
+      "on_screen": "Don't forget: exit signs (8,760 h/yr) • emergency units & batteries • disposal",
+      "says": "Don't forget these audit lines. Old exit signs run 24/7, 8,760 hours a year, so savings are easy to prove. Every emergency ballast needs a matching LED emergency driver or a separate unit, and old batteries are a service cost. And disposal of lamps, ballasts, PCB suspects, batteries and housings is a real cost. Count it.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Senior tech locks out a circuit and verifies before installing mock-up fixtures; meter readings taken.",
+      "on_screen": "Mock-up: 4-10 of each option • LOTO + live-dead-live • measure before/after\noccupant feedback • real install time • test controls",
+      "says": "Before ordering thousands of kits, install a mock-up: 4 to 10 of each option in a representative space. Install each per instructions with LOTO and live-dead-live verification. A quick demo done live is still energized work and isn't allowed. Measure light before and after, get occupant feedback on glare, color and flicker, record real install time, and confirm controls work.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Graphic: LCC formula and the 12-year comparison table.",
+      "on_screen": "LCC = installed + energy + service + disposal − incentives\n12-yr LCC: TLED $28,144 • Kit $26,978 • New $28,640\nExample figures only: made up for teaching",
+      "says": "Simple payback only sees first cost and energy. Life-cycle cost adds everything over a study period, often 10 to 15 years: installed cost plus energy, plus service, plus disposal, minus incentives. In the lesson's made-up 100-troffer example over 12 years, the kit wins on life-cycle cost, the TLED wins on payback, and the new luminaire gives the best light and controls for nearly the same lifetime cost.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Chris facing camera.",
+      "on_screen": "Cheapest first cost ≠ cheapest to own",
+      "says": "All three are honest choices. The cheapest first cost isn't the cheapest to own. The owner decides based on budget, how long they'll own the building, and how much they value quality. Show incentives as estimated until they're approved. If their finance people want present-value numbers, bring in your estimator or sales lead.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Chris at the table with the facility manager, asking a question.",
+      "on_screen": "Good / Better / Best: goals • existing condition • 3 options • what's in EVERY option\nassumptions & sensitivity • recommend one, let them choose",
+      "says": "Presenting good, better, best: restate their goals in their words. Show the existing condition. Lay out three options with first cost, savings, payback and life-cycle cost. Show what's in every option: life-safety items, disposal, code-required controls. Those are never optional. List assumptions and a sensitivity check. Recommend one and say why. Then ask which priorities matter most, and let them choose.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Chris Munford",
+      "background": "Conference room, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Strategy first, prove it with a mock-up, compare total cost honestly. Now read the lesson and take the quiz.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Customer presentation with mock-up segment; knowledge lesson with a short hands-on mock-up shot (LOTO and live-dead-live shown). All dollar amounts are the lesson's made-up example figures; label them 'Example figures only' on screen. Generic products, no brands. Facility manager appears from behind."
+}

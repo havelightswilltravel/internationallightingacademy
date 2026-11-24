@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C04-L04",
+  "title": "Energy Savings, Simple Payback and ROI",
+  "course": "LT5-C04",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 170,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Conference room; Chris across the table from a facility manager (back to camera) with a one-page savings summary.",
+      "on_screen": "Energy Savings, Simple Payback & ROI",
+      "says": "Facility managers approve projects on money: what it costs, what it saves, how fast it pays back. Your job is to calculate those numbers correctly and explain them honestly, assumptions included. A customer who trusts your numbers will trust your crew. Let's build one page, step by step, from the warehouse in your lesson.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "Close on the summary sheet; graphic of the math.",
+      "on_screen": "kW reduction = (existing W − proposed W) × qty ÷ 1,000\n(458 − 150) × 24 ÷ 1,000 = 7.39 kW",
+      "says": "Step one, demand reduction. Existing input watts minus proposed, times quantity, divided by 1,000. Twenty-four metal halide high bays at 458 input watts, a 400-watt lamp plus ballast losses, replaced by 150-watt LED: 7.39 kilowatts. Use input watts from manufacturer data or an approved table. Never lamp wattage alone.",
+      "seconds": 20
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Graphic over Chris.",
+      "on_screen": "16 h × 6 days × 52 wk = 4,992 h/yr\n7.39 kW × 4,992 = 36,891 kWh/yr\n+ controls on NEW load only: 4,493 → 41,384 kWh/yr",
+      "says": "Step two, energy. Kilowatts times annual hours. This warehouse runs 16 hours, six days, 52 weeks: 4,992 hours. That's 36,891 kilowatt-hours a year. Controls cut hours, so apply them to the new system only. Sensors expected to cut runtime 25 percent save another 4,493. Total, 41,384. Applying both to the existing load double-counts.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Close on a utility bill stack; graphic labeled as example figures.",
+      "on_screen": "Blended rate = total bill $ ÷ total kWh (12 months)\nExample figures only: made up for teaching",
+      "says": "Step three, cost savings: kilowatt-hours times the blended rate, which is total bill dollars divided by total kilowatt-hours from 12 months of bills. The lesson's example uses a made-up rate and gets about 4,966 dollars a year. List maintenance, demand charge or HVAC savings separately, so the customer can judge them.",
+      "seconds": 20
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Graphic: net cost and payback, labeled as example figures.",
+      "on_screen": "Net cost = installed cost − rebates\nSimple payback = net cost ÷ annual savings → 2.6 yr\nSimple ROI = savings ÷ net cost → 38%/yr\nExample figures only: made up for teaching",
+      "says": "Step four, net cost: installed cost minus rebates. Step five, simple payback: net cost divided by annual savings. In the lesson's made-up example, that's 2.6 years. Simple ROI is the inverse, about 38 percent a year. Payback ignores the time value of money, but it's the number most customers ask for first. Bigger customers may ask for NPV or IRR; your estimator handles those.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Facility manager asks, 'What if our hours are lower than you assumed?' Chris turns the sheet to a sensitivity table.",
+      "on_screen": "3,500 h → ~3.7 yr • 4,992 h → 2.6 yr • 6,000 h → ~2.2 yr",
+      "says": "Now the question you'll always get: 'What if our hours are lower?' Show a range. At 3,500 hours, payback stretches to about 3.7 years. At the assumed 4,992, it's 2.6. At 6,000, about 2.2. Being transparent builds trust. If they doubt the hours, offer light loggers to measure them before you finalize.",
+      "seconds": 21
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Chris facing camera.",
+      "on_screen": "Never cut life-safety or code-required scope to improve payback",
+      "says": "Here's the mistake to avoid. Customers sometimes ask to skip items to improve payback, like emergency lighting replacements or code-required controls. Don't remove life-safety or code-required items to make the numbers look better. Present them as required scope.",
+      "seconds": 15
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Close on the finished one-page summary.",
+      "on_screen": "One page • assumptions listed • rebates 'estimated' until confirmed • round sensibly",
+      "says": "Present it on one page: existing versus proposed watts, hours, kilowatt-hours, savings, cost, rebate and payback. List your assumptions. Don't guarantee rebates until the utility confirms eligibility and pre-approval. And round sensibly. '2.6 years' is credible; '2.617 years' implies false precision.",
+      "seconds": 16
+    },
+    {
+      "scene": 9,
+      "speaker": "Chris Munford",
+      "background": "Conference room, wide shot.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Right inputs, honest assumptions, and a range instead of a promise. Now read the lesson, work the numbers yourself, and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Conference-room presentation; knowledge lesson, no Job Mindset opener. The lesson's dollar figures are explicitly made up for teaching; on screen, label every dollar amount 'Example figures only'. Do not show a real utility name, rate or customer. Facility manager appears from behind; one line of dialog ('What if our hours are lower than you assumed?') can be shown as on-screen text or voiced by an extra."
+}

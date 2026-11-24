@@ -1,0 +1,91 @@
+{
+  "vid": "LT4-C07-L03",
+  "title": "Safe Neon Troubleshooting Procedure",
+  "course": "LT4-C07",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 300,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Strip-mall parking lot at dusk, a dark channel-letter neon sign above the storefront; two-person crew with a lift parked below. Matthew in foreground.",
+      "on_screen": "Job Mindset: Neon Troubleshooting",
+      "says": "The hazard here is up to 15,000 volts that can arc before you touch anything. So: look and listen only while it's energized. Lock out the sign disconnect, verify, and discharge before any secondary work. Plan ahead: binoculars, a CAT III or IV meter for the primary only, rated bypass jumpers, LOTO kit, and who's authorized for each step. Not authorized? Observe, lock out, write it up.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera, close shot; callout graphic.",
+      "on_screen": "Corrected procedure: NO 'feel' for voltage. NO grounding a live secondary lead.",
+      "says": "Two corrections to our older guide. It said to look, listen and feel for voltage in the glass. The feel part is removed. A cracked tube or tracked boot can put thousands of volts on the glass. It also said to go from GTO to ground on the center unit. That creates a live high-voltage ground fault. It's replaced by a locked-out bypass-jumper split.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Crew member observes each letter through binoculars from the ground, then views a letter's drain holes from a distance; another checks the time clock and photocell. Matthew voice-over.",
+      "on_screen": "A. Observe: look and listen only. Nothing in the drain holes.",
+      "says": "Step A, observe, with power on, look and listen only. Check the clock, photocell and switches first; an out sign might just be off. On exposed neon, watch each unit for glow and listen for the hum. On channel letters, look through the face and drain holes from a distance. Never put fingers, tools or a probe in a drain hole. An SGFP unit that clicks or cycles may be tripping.",
+      "seconds": 27
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified crew member in PPE measures primary voltage at the transformer with the meter on a primary range. Step overlay.",
+      "on_screen": "B. Nothing lit: primary voltage (qualified). SGFP: reset once per maker.",
+      "says": "Step B, nothing lit. Check the switch, clock, photocell and disconnect. A qualified person verifies primary voltage at the transformer on a primary range. Never connect a standard meter to a neon secondary; it can explode in your hand. No primary voltage is a supply problem. Primary but no output on an SGFP unit? Cycle power once per the maker's reset. Trips again? Assume a secondary fault.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Crew locks and tags the sign disconnect, tests meter on a known source, tests transformer primary terminals, tests meter again; then waits and discharges per procedure.",
+      "on_screen": "C. Lock out disconnect | Verify primary: live-dead-live | Wait and discharge",
+      "says": "Step C. Before you touch anything on the secondary, lock out and tag the sign disconnect and any other source. Verify absence of voltage at the transformer primary, live-dead-live: meter on a known source, test the primary, test the meter again. Then wait for stored energy to dissipate and discharge the secondary per our procedure. GTO and glass act like capacitors.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Locked out: crew member inspects the first glass unit off the transformer up close, then boots and GTO with a flashlight.",
+      "on_screen": "D. First glass off the transformer | Boots, PK housings, GTO | Test transformer per maker",
+      "says": "Step D, de-energized checks. Start with the first piece of glass off the transformer. It carries the full lead voltage and fails often. Look for cracks, broken electrodes, blackening, a loose GTO connection. Inspect every boot, PK housing and GTO run for tracking, burn-through and water. Test the transformer only by the maker's method, set up locked out, energized only with everyone clear.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Locked out, crew installs a booted, GTO-rated bypass jumper across half the letters from the center unit; both step back behind a barrier, re-energize from a safe position, and observe the un-bypassed half light.",
+      "on_screen": "F. Split-half from the center unit. Lock out before every jumper move.",
+      "says": "Step F, split half on channel letters. Locked out, go to the center unit and jumper out half the letters with a rated, booted jumper. Clear the area, re-energize from a safe position, and observe. If the un-bypassed half lights, the fault is in the bypassed half. Lock out, move the jumper to split the bad half again, and repeat. On exposed neon, bypass one suspect unit the same way.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Crew removes jumpers under lockout; close-up of GTO burn-through being cut out.",
+      "on_screen": "Never leave a sign running on jumpers. G. Still dark? Check GTO.",
+      "says": "Lock out again before removing jumpers. Never leave a sign running on jumpers; removing glass changes the load the transformer was sized for. Still won't light with units bypassed? Step G, check the GTO for burn-through, broken conductors or a failed connection. Replace damaged GTO with the right rating, off metal, on supports, with new boots.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera with the dark sign behind him.",
+      "on_screen": "Lights then shuts off = SGFP tripping | Dim/odd color = losing gas | String dark, transformer OK = open in the series",
+      "says": "Quick patterns. Lights for a moment then shuts off: SGFP tripping on a tracked boot, burned GTO or water. One tube dim, flickering or an odd color: losing gas, replace the glass. Whole string dark with a good transformer: broken glass or an open connection in the series. No disconnect, bad primary wiring, heat damage, or glass to fabricate? Write it up.",
+      "seconds": 25
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Sign lit; crew standing well back.",
+      "on_screen": "Look and listen only. Never touch.",
+      "says": "Look and listen only, never touch, and lock out before every change. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 10
+    }
+  ],
+  "production_notes": "Two-person crew on a training channel-letter sign or a real sign under a sign specialist's supervision. On screen every time the sign is energized: crew behind a barrier, no one within reach, narrator repeats 'look and listen only, never touch.' Show lock and tag on the sign disconnect, live-dead-live on the transformer primary, wait/discharge per employer procedure. Bypass jumpers must be GTO-rated with listed connectors and boots. Never show a standard meter on the secondary or anyone grounding a secondary lead. Lift use per MEWP rules with tie-off. Matches skill sign-off 'Diagnose a neon sign outage using safe isolation methods'."
+}

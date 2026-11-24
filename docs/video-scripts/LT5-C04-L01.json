@@ -1,0 +1,91 @@
+{
+  "vid": "LT5-C04-L01",
+  "title": "Conducting a Lighting Audit",
+  "course": "LT5-C04",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 218,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Shop staging area; LT5 tech loads a tablet, illuminance meter, laser distance meter, flashlight, camera, clamp meter and a step ladder into a truck. Matthew voice-over.",
+      "on_screen": "Job Mindset: Lighting Audit",
+      "says": "Job Mindset for an audit. Hazards: ladders, forklift traffic, and the temptation to open something energized to read a label. Controls: read labels with a flashlight, never open panels, boxes or fixture wiring compartments on a walk-through, and use the ladder right. Plan before you go: drawings, utility bills, hours, access and escorts, a calibrated meter, and a fixed route so no room gets skipped.",
+      "seconds": 26
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Office building lobby; Matthew facing camera.",
+      "on_screen": "Goal: an audit another estimator could price without returning",
+      "says": "Every proposal, estimate and savings number is only as good as the audit behind it. A missed room, a wrong count or a guess about hours can turn a profitable job into a loss, or promise savings that never show up on the bill. At LT5, your audit should be complete enough that another estimator could price it without going back to the site.",
+      "seconds": 26
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Conference room: tech meets the facility manager (back to camera) with a reflected ceiling plan.",
+      "on_screen": "Before you go: drawings • 12 months of bills • hours by area • known problems • access rules",
+      "says": "Before you go, get the basics: building drawings or a reflected ceiling plan, 12 months of utility bills, the hours each area is occupied, and known problems like dark areas, glare or nuisance tripping. Ask about escorts, secure areas, ceiling heights, lift access, and whether occupied spaces can be entered during business hours. Number the spaces on the plan to match your form.",
+      "seconds": 25
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech in an office counting troffers, entering data on a tablet; on-screen fields list.",
+      "on_screen": "Every space: ID & type • fixture type • lamp & ballast/driver • quantity\nmounting height • controls • hours • measured fc • condition",
+      "says": "Record the same fields in every space so the data totals later: space ID and type, fixture type, lamp and ballast or driver, quantity, mounting height, existing controls, operating hours, measured light level, and condition. Input watts, not lamp watts. A three-lamp F32T8 fixture is not 96 watts. Use manufacturer tables or an approved wattage table.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech on a step ladder, three points of contact, shining a flashlight on a ballast label through the open lens door (no disassembly); then a 400 W metal halide high bay label from a lift.",
+      "on_screen": "Read labels with a flashlight. Don't disassemble energized fixtures.\nNo 'No PCBs' label on a pre-1979 ballast → flag it",
+      "says": "Identify equipment from labels. Ballast and driver labels give type, voltage, lamp configuration and often input watts. Use a flashlight from the ladder, with three points of contact and the right angle. Don't disassemble energized fixtures. For metal halide, note wattage and probe-start or pulse-start. A pre-1979 ballast without a 'No PCBs' label gets flagged. Count mercury lamps for recycling.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tech holds the meter level at desk height, stands aside; blinds closed.",
+      "on_screen": "Warm up • level at task height • out of the light • several points • note daylight",
+      "says": "Light levels: let lamps warm up, hold the sensor level at task height, about 30 inches for desks, and keep your shadow off it. Take readings under fixtures, between them and at tasks. Note daylight, or take readings with blinds closed or at night. Compare to IES targets. Over-lit spaces are an opportunity; under-lit ones mean the customer should know the look will change.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Warehouse corridor with lights on and nobody present; tech places a plug-in light logger.",
+      "on_screen": "Hours drive savings more than anything else\nUncertain? Log them for 1-2 weeks",
+      "says": "Operating hours are the biggest swing factor in savings. Ask the facility manager, then verify: lights on in empty rooms? Corridors on 24/7? A light logger left one to two weeks is the best evidence. Note existing controls, and flag where the locally adopted energy code would require new controls in a full retrofit. Confirm them; don't assume.",
+      "seconds": 23
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew looking up at the electrical room door, closed.",
+      "on_screen": "Reading a panel schedule through a closed dead-front: fine\nRemoving covers: not part of a walk-through",
+      "says": "Common mistake: popping a panel cover to get circuit info. Reading a panel schedule through a closed, intact dead-front is fine. Removing covers is not part of a walk-through, unless you're qualified, it's locked out, or you're under an approved energized-work procedure.",
+      "seconds": 17
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech in the truck reviewing the completed inventory against the plan, ticking spaces.",
+      "on_screen": "Close out: every space entered • photos tied to space IDs • access issues noted • debrief the customer",
+      "says": "Close out before you leave. Walk back through the plan and confirm every space has an entry, including closets, stairwells, mechanical rooms and exterior. Tie photos to space IDs. Note access issues like high ceilings over equipment, hard-lid ceilings or asbestos warnings, because they drive labor. Debrief the customer and confirm hours.",
+      "seconds": 21
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew facing camera.",
+      "on_screen": "Now read the lesson, take the quiz, then show your evaluator",
+      "says": "Complete, consistent and verified. Now read the lesson and take the quiz, then show your evaluator a completed audit.",
+      "seconds": 8
+    }
+  ],
+  "production_notes": "Hands-on demo: LT5 technician performs the audit in a generic office and warehouse; presenter voice-over. Show correct ladder use (three points of contact, proper angle) and no fixture disassembly or panel covers removed. Facility manager appears from behind only. Confirm a hands-on sign-off exists for this lesson; drop 'then show your evaluator' if not."
+}

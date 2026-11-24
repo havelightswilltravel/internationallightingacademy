@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C04-L02",
+  "title": "Writing Retrofit Scopes and Material Takeoffs",
+  "course": "LT5-C04",
+  "presenter": "Chris Munford",
+  "source": "lesson",
+  "target_seconds": 199,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Chris Munford",
+      "background": "Shop office; Chris at a laptop showing an audit spreadsheet. Medium shot.",
+      "on_screen": "Writing Retrofit Scopes & Material Takeoffs",
+      "says": "From the customer's side, the scope is the promise. It tells the customer, the estimator and the crew exactly what will be done and what won't. 'Retrofit lighting to LED' invites disputes. A good scope groups fixtures into retrofit types and states the solution for each, so the crew shows up with the right parts and the customer gets what they bought.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Chris Munford",
+      "background": "On-screen table over Chris.",
+      "on_screen": "Lamp replacement (TLED) • Retrofit kit (UL 1598C) • New fixture • Remove/delamp",
+      "says": "For each fixture type, pick one of four approaches. Lamp replacement, like a TLED: quick and budget-driven, but Type A depends on a compatible ballast and Type B needs rewiring and relabeling. A listed retrofit kit: new optics and driver, installed per instructions and labeled. A new fixture: when housings are damaged or you need integrated sensors. Or remove and delamp in over-lit spaces, after checking uniformity.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Chris Munford",
+      "background": "Chris holds up a spec sheet; highlights CCT, CRI, DLC listing, voltage.",
+      "on_screen": "Check: light level & quality • controls & code • rebate rules • voltage (277? 347? 480?) • emergency",
+      "says": "Check every selection: light level and quality, with CCT and CRI confirmed with the customer. Controls: will it dim, and does the energy code require sensors for this scope? Rebate eligibility, often DLC or ENERGY STAR. Voltage: universal 120 to 277 drivers simplify stocking, but confirm whether any 347 or 480-volt circuits exist.",
+      "seconds": 21
+    },
+    {
+      "scene": 4,
+      "speaker": "Chris Munford",
+      "background": "Ceiling with an emergency-ballast troffer and a red dot label.",
+      "on_screen": "Never let a retrofit quietly remove egress lighting",
+      "says": "And emergency lighting. Fixtures on emergency circuits or with emergency ballasts need a matching solution: an emergency LED driver, a UL 924 transfer device, or a new emergency unit. Never let a retrofit quietly remove egress lighting. Kits and Type B conversions modify the fixture, so the work is done de-energized with LOTO and live-dead-live verification, per the instructions.",
+      "seconds": 24
+    },
+    {
+      "scene": 5,
+      "speaker": "Chris Munford",
+      "background": "Laptop screen: weak scope line vs strong scope line.",
+      "on_screen": "Weak: 'Replace warehouse lights with LED.'\nStrong: countable, specific, with mounting, output, controls, disposal",
+      "says": "Write scope lines that are specific and countable. Weak: 'Replace warehouse lights with LED.' Strong: remove 24 400-watt metal halide high bays at 28 feet in Warehouse A; install 24 LED high bays, 24,000 lumens, 4000K, 0 to 10 volt, with integral sensors dimming to 20 percent after 10 minutes; reuse hooks, cords and circuits; recycle lamps as universal waste.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Chris Munford",
+      "background": "Chris at the laptop; on-screen four headings.",
+      "on_screen": "Inclusions • Exclusions • Assumptions • Electrician/AHJ review items",
+      "says": "Every scope also lists inclusions, like materials, labor, lift rental, disposal, commissioning and owner training. Exclusions, like ceiling repair, asbestos abatement or damaged branch circuits. Assumptions about circuits, work hours, access and voltage. And items needing electrician or AHJ review: new circuits, panel work, emergency system changes, permits and inspections.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Chris Munford",
+      "background": "Takeoff spreadsheet building row by row.",
+      "on_screen": "Takeoff: types from the audit • accessories • bulk materials • equipment\ndisposal • spares (2-5%, stated) • waste factor on bulk only",
+      "says": "The takeoff is everything needed to deliver the scope. Count retrofit types from the audit, not memory. Add accessories per unit, bulk materials like connectors and control cable, equipment like lifts with delivery and pickup, and disposal, including PCB ballasts. Add spares if the customer wants them, often 2 to 5 percent, and say so. Apply the waste factor to bulk items only.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Chris Munford",
+      "background": "Second tech at another desk totaling counts from the audit; both compare numbers.",
+      "on_screen": "Every takeoff count reconciles with the audit",
+      "says": "Then have someone else total the counts independently. Every fixture count in the takeoff must reconcile with the audit, and any difference gets explained, like 'four fixtures removed per the delamping plan.' Common misses: closets, stairwells and exteriors, emergency circuits, assuming 120 volts when it's 277, mounting differences, lift time, and promising rebates before confirming eligibility.",
+      "seconds": 22
+    },
+    {
+      "scene": 9,
+      "speaker": "Chris Munford",
+      "background": "Chris facing camera.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Clear types, countable lines, honest exclusions and a takeoff that matches the audit. That's a scope a customer can trust. Now read the lesson and take the quiz.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Office/knowledge lesson; scene 1 frames the scope from the customer's point of view and ties it to planning the crew's job. Screen recordings of a generic takeoff spreadsheet (no customer names, no real prices). Second tech appears as non-speaking checker."
+}

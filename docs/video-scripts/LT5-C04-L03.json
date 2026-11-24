@@ -1,0 +1,83 @@
+{
+  "vid": "LT5-C04-L03",
+  "title": "Labor Estimating and Job Scheduling",
+  "course": "LT5-C04",
+  "presenter": "Danny Smith",
+  "source": "lesson",
+  "target_seconds": 193,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Danny Smith",
+      "background": "Training lab with three troffers; two-person crew ready with kits, LOTO kit and ladders; Danny with a stopwatch.",
+      "on_screen": "Labor Estimating & Job Scheduling",
+      "says": "Here's why labor matters to safety. Underestimate it, and the crew gets rushed, and rushed crews skip safety steps. Overestimate it, and we lose the bid. Material prices come from a quote. Labor comes from judgment. So we build labor from units, conditions and history, not guesses. Today we time a real install to see where the numbers come from.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Danny Smith",
+      "background": "Crew locks out the training circuit, verifies dead, installs three retrofit kits; Danny times them. Danny voice-over.",
+      "on_screen": "Labor unit = time to install one item under normal conditions",
+      "says": "A labor unit is the time to install one item under normal conditions, usually hours per unit. Sources: our company's job history, which is best; time studies like this one; and published labor manuals adjusted to your crew. Watch the clock run through lockout, verification and install. That measured time becomes a per-unit number.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Danny Smith",
+      "background": "Whiteboard: example labor unit table.",
+      "on_screen": "Illustrative only: troffer kit 0.50 h • Type B TLED 0.30 h\nWall sensor 0.40 h • Emergency driver 0.50 h",
+      "says": "Illustrative units from the lesson, not real company data: a troffer retrofit kit in a 9-foot T-grid, half an hour. A Type B TLED conversion, 0.3. A wall occupancy sensor, 0.4. An emergency LED driver, half an hour. Those are installation only. Travel, setup and cleanup are added separately so they can be adjusted per job.",
+      "seconds": 22
+    },
+    {
+      "scene": 4,
+      "speaker": "Danny Smith",
+      "background": "Whiteboard: condition factors list.",
+      "on_screen": "Conditions: lifts • occupied space (+10-30%) • after hours • hard-lid\ncongested ceilings • escorts • long material carries",
+      "says": "Adjust for conditions that slow work: ceilings above ladder height mean lift setup and moves. Occupied spaces, typically 10 to 30 percent more. After-hours work, hard-lid ceilings, congested ceilings, escorted areas, and long carries from parking. Use percentages our company has validated, and write down every factor you apply so the estimate can be reviewed.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Danny Smith",
+      "background": "Whiteboard: Danny lists non-install labor.",
+      "on_screen": "Add: mobilization • daily setup/cleanup • LOTO & verification\nlift coordination & inspections • waste • commissioning • supervision\n+ contingency (often 5-10%)",
+      "says": "Then add non-install labor: mobilization and demobilization, daily setup and cleanup, LOTO and verification per circuit or panel, lift coordination and daily inspections, waste handling, commissioning, punch list and owner training, supervision and documentation. Add a contingency, commonly 5 to 10 percent. Then the company applies the burdened labor rate.",
+      "seconds": 20
+    },
+    {
+      "scene": 6,
+      "speaker": "Danny Smith",
+      "background": "Danny facing camera, serious.",
+      "on_screen": "Never shave LOTO, verification, lift inspection or JHA time to win a bid",
+      "says": "Here's the rule I care most about. Never shave LOTO, verification, lift inspection or JHA time out of an estimate to win a bid. If the time isn't in the estimate, the crew will be pressured to skip it. Safety tasks are part of the labor, not overhead you can cut.",
+      "seconds": 20
+    },
+    {
+      "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Whiteboard: the 120-fixture worked example builds line by line.",
+      "on_screen": "120 × 0.50 = 60.0 h → +15% occupied = 69.0 h\n+ setup 7.5 + mobilization 4.0 + LOTO 3.0 + commissioning 6.0 = 89.5 h\n+ 10% contingency 9.0 = 98.5 h ≈ 6 crew-days (2 techs)",
+      "says": "The worked example: 120 troffer kits in an occupied office. Sixty hours of install, plus 15 percent for occupancy: 69. Add setup and cleanup 7.5, mobilization 4, LOTO and verification 3, commissioning and punch 6. That's 89.5. Ten percent contingency: 9. Total 98.5 labor hours, about six crew-days for two techs at 8 hours a day.",
+      "seconds": 22
+    },
+    {
+      "scene": 8,
+      "speaker": "Danny Smith",
+      "background": "Whiteboard day-by-day schedule by area; lift rental dates marked.",
+      "on_screen": "Crew-days = hours ÷ (crew × productive h/day)\nSequence by area • order long-lead items early • book lifts to the day • two-week look-ahead",
+      "says": "Turn hours into a schedule. Crew-days equal total hours divided by crew size times productive hours. Sequence by area so each space is disrupted once and circuits lock out in logical groups. Order long-lead items early; some have several-week lead times. Book lifts to arrive when needed and leave when done. Plan inspections, and share a two-week look-ahead.",
+      "seconds": 23
+    },
+    {
+      "scene": 9,
+      "speaker": "Danny Smith",
+      "background": "Danny at the whiteboard, medium shot.",
+      "on_screen": "Track actual hours • trending over? Tell your supervisor early",
+      "says": "On the job, record actual hours by task and compare at closeout. That builds the history that makes the next estimate right. If a job is trending over, tell your supervisor early. Don't wait until closeout. Now read the lesson and take the quiz.",
+      "seconds": 18
+    }
+  ],
+  "production_notes": "Hands-on segment: two-person crew installs three troffer retrofit kits in a training lab with the circuit locked out and verified (live-dead-live) on camera; Danny times it. All labor units are the lesson's illustrative values; label them 'illustrative only' on screen. No real wage or burdened rates shown."
+}

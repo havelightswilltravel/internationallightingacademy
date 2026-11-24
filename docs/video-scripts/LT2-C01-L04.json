@@ -1,0 +1,75 @@
+{
+  "vid": "LT2-C01-L04",
+  "title": "When You Don't Have the Training: Stop, Call, Improve the Training",
+  "course": "LT2-C01",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 0,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Office corridor with a ladder under an open ceiling tile; a tech on the ladder with a flashlight. Matthew at the base of the ladder, medium shot.",
+      "on_screen": "When You Don't Have the Training",
+      "says": "Sooner or later you'll be on a job and realize: I haven't been trained to do this safely. A fixture type you've never seen, a lift model you haven't been familiarized on, a panel you're not authorized to open. What you do in the next minute matters more than anything else you do that day. Let's watch one.",
+      "seconds": 22
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "The tech opens the ceiling expecting a standard troffer and finds a lighting control panel with low-voltage wiring and an unfamiliar relay. He starts to reach in, pauses, pulls his hand back, and steps down. Matthew voice-over.",
+      "on_screen": "\"How hard can it be?\" - the most dangerous words on a job site",
+      "says": "He opens the ceiling expecting a standard troffer and finds a lighting control panel, low-voltage wiring and a relay he's never seen. Watch his hand. He starts to reach in. Then he stops. The most dangerous words on a job site are how hard can it be. A video on your phone in the parking lot is not training. Neither is a customer saying the last guy just did it.",
+      "seconds": 27
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "The tech closes the tile, leaves power off, places cones under the ladder, and makes the call.",
+      "on_screen": "1. STOP\n2. Make it safe\n3. Call your supervisor\n4. Wait for direction\n5. Suggest training",
+      "says": "Here's the rule. Stop. Don't figure it out as you go. Make it safe: close what you opened if you can do that safely, keep power off, barricade, keep people away. Don't try to fix a hazard you're not trained to fix. Call your supervisor. Wait for direction. Then suggest new or revised training. This is exactly what our company wants you to do.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the tech on the phone, speaking calmly; captions appear in order.",
+      "on_screen": "Where you are | What you found | Trained for / not trained for | What you made safe | Options",
+      "says": "Listen to how he calls. Where he is and what the task is. What he found that he wasn't expecting. What he's trained for and what he's not, specifically. What he's done to leave it safe. And what he thinks the options are. That call takes one minute and gives the supervisor everything they need.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the corridor, medium close-up; graphic list of warning signs.",
+      "on_screen": "Signs you're not trained: new task or model | can't explain each step | don't know the next step | missing authorization | outside the fixture | changed conditions | gut says no",
+      "says": "How do you know you're not trained? You've never done this task, or not on this equipment. You did it once with your trainer but can't explain each step. You don't know the next step. You can't name the hazards and controls. It needs authorization you don't have. It's outside the lighting fixture. Conditions are different. Or your gut says something's wrong. Listen to it.",
+      "seconds": 27
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Quick cutaways: a boom lift on site instead of the expected scissor; a site manager pointing at a break-room outlet; a ceiling tile that might contain asbestos.",
+      "on_screen": "Don't guess. Don't let pressure decide. Don't hide it.",
+      "says": "A boom shows up instead of the scissor you trained on. Don't assume the controls are similar. The site manager asks you to fix a dead outlet. Politely explain it's outside the work order and pass it to your supervisor. Old tile that could contain asbestos? Leave it undisturbed and call. Don't guess, don't let pressure decide, and if you stopped, write it on the work order.",
+      "seconds": 27
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "The tech taps the feedback/suggestion button in the training app and types a short, specific suggestion. Then cut to weeks later: a new module on that control system appears in the app, with the same tech demonstrating it.",
+      "on_screen": "Suggestion: task | what you ran into | new or fix | what would help | photo if allowed",
+      "says": "Then the part most people skip. Boots on the ground drive the training. Use the feedback button in the training app or tell your supervisor, the same day. Be specific: the task, what you ran into, whether it's new training or a fix, what would've helped, and a photo if the site allows it. A few weeks later, here's his suggestion turned into a lesson, and he's in it.",
+      "seconds": 28
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew in the shop, medium shot.",
+      "on_screen": "Find the gap at the shop: it's a phone call. On site: a wasted trip or an injury.",
+      "says": "If you started a task and only then realized you weren't trained, that's a near miss. Report it. Nobody's punished for an honest near-miss report. And before every job, look at the work order and ask, is there anything here I haven't been trained to do? If yes, call before you leave the shop. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Ceiling-reveal prop: a lighting control panel with low-voltage wiring and a relay mounted above a lay-in ceiling (de-energized set). Show a generic mock-up of the training app's feedback/suggestion button. Final cut shows a new short module in the app with the same tech demonstrating (can be a mock-up title card). Lesson file: curriculum/levels/LT2/courses/LT2-C13/lessons/04-when-you-dont-have-the-training.md."
+}
