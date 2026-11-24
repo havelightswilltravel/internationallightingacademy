@@ -72,7 +72,13 @@ ws['A2'].font = Font(name=F, size=10, italic=True)
 cols = ['#', 'Level', 'Course', 'Course title', 'Lesson', 'Lesson title', 'Minutes', 'Presenter', 'Scene and what to show', 'Script status']
 header(ws, 4, cols, [5, 7, 10, 34, 7, 40, 8, 22, 70, 16])
 r, n = 5, 0
+manifest = []
+placement = json.loads(Path(sys.argv[2]).read_text()) if len(sys.argv) > 2 else {}
+covers = {'ADD:' + k: v.get('covers', '') for k, v in (placement.get('additions') or {}).items()}
 n += 1
+manifest.append(dict(n=1, vid='INTRO-01', level='All', course='Intro', course_title='Welcome to the Lighting Academy', lesson='1',
+                     title='Welcome, company vision and how the program works', minutes=4, presenter=KYLE, lesson_id=None,
+                     outline='Kyle on camera: why the program exists, the five levels over two years, earning your way up by demonstrated skill, safety as the foundation and the Job Mindset, what we expect and that pay follows level.'))
 put(ws, r, [n, 'All', 'Intro', 'Welcome to the Lighting Academy', 1, 'Welcome, company vision and how the program works', 4, KYLE,
             'Kyle on camera at the shop or a job site: why the program exists, the five levels, earning your way up by skill, what we expect and what you can earn by level.', 'Not started'])
 ws.cell(row=r, column=8).fill = yellow
@@ -82,6 +88,9 @@ for lvl, items in layout.items():
         if c['kind'] == 'lesson':
             n += 1
             host = next((x for x in items if x['code'] == c['target'] or x['code'] == c.get('target')), None)
+            manifest.append(dict(n=n, vid=c['new_code'].rstrip(' +') + '-NEW-' + c['code'].split(':')[-1], level=lvl, course=c['new_code'].rstrip(' +'),
+                                 course_title=host['title'] if host else '', lesson='new', title=c['title'], minutes=int(c['hours'] * 60) or 10,
+                                 presenter=NEW.get(c['code'], MATT), lesson_id=None, outline=covers.get(c['code'], '')))
             put(ws, r, [n, lvl, c['new_code'].rstrip(' +'), host['title'] if host else '', 'new', c['title'],
                         int(c['hours'] * 60) or None, NEW.get(c['code'], MATT), 'New lesson; scene to be written with the lesson.', 'Lesson not written'])
             ws.cell(row=r, column=8).fill = yellow
@@ -89,6 +98,9 @@ for lvl, items in layout.items():
             continue
         if c['add']:
             n += 1
+            manifest.append(dict(n=n, vid=c['new_code'] + '-OVERVIEW', level=lvl, course=c['new_code'], course_title=c['title'], lesson='all',
+                                 title=c['title'] + ' (course overview video)', minutes=int(c['hours'] * 60), presenter=NEW.get(c['code'], MATT),
+                                 lesson_id=None, outline=covers.get(c['code'], '')))
             put(ws, r, [n, lvl, c['new_code'], c['title'], 'all', 'New course: lessons to be written', None, NEW.get(c['code'], MATT),
                         'Videos planned once the lessons are written.', 'Lesson not written'], fill=band)
             ws.cell(row=r, column=8).fill = yellow
@@ -98,11 +110,14 @@ for lvl, items in layout.items():
         for i, l in enumerate(c['lessons'], start=1):
             n += 1
             num = int(l['id'].split('/')[1].split('-')[0])
+            manifest.append(dict(n=n, vid=f"{c['new_code']}-L{i:02d}", level=lvl, course=c['new_code'], course_title=c['title'], lesson=str(i),
+                                 title=l['title'], minutes=l['minutes'], presenter=exc.get(num, lead), lesson_id=l['id'], outline=sugg.get(l['id'], '')))
             put(ws, r, [n, lvl, c['new_code'], c['title'], i, l['title'], l['minutes'], exc.get(num, lead),
                         sugg.get(l['id'], ''), 'Not started'])
             ws.cell(row=r, column=8).fill = yellow
             r += 1
 last = r - 1
+(out / 'videos.json').write_text(json.dumps(manifest, indent=1))
 dv = DataValidation(type='list', formula1='"' + ','.join(PRESENTERS) + '"', allow_blank=True)
 ws.add_data_validation(dv)
 dv.add(f'H5:H{last}')
@@ -111,6 +126,65 @@ ws.add_data_validation(dv2)
 dv2.add(f'J5:J{last}')
 ws.freeze_panes = 'G5'
 ws.auto_filter.ref = f'A4:J{last}'
+
+# scripts (docs/video-scripts/<vid>.json) -> status, length and a Scripts tab
+SCRIPTS = Path(__file__).resolve().parents[2] / 'docs' / 'video-scripts'
+scripts = {}
+if SCRIPTS.exists():
+    for f in SCRIPTS.glob('*.json'):
+        try:
+            scripts[f.stem] = json.loads(f.read_text())
+        except Exception:
+            pass
+ws.cell(row=4, column=11, value='Video length (min:sec)')
+ws.column_dimensions['K'].width = 12
+for c in (11,):
+    hc = ws.cell(row=4, column=c)
+    hc.font = Font(name=F, size=10, bold=True, color='FFFFFF')
+    hc.fill = PatternFill('solid', start_color='18202E')
+    hc.alignment, hc.border = Alignment(wrap_text=True, vertical='center'), box
+for m in manifest:
+    row = 4 + m['n']
+    sc = scripts.get(m['vid'])
+    if sc:
+        secs = sum(int(x.get('seconds') or 0) for x in sc.get('scenes', []))
+        ws.cell(row=row, column=10, value='Script drafted (from outline)' if sc.get('source') == 'outline' else 'Script drafted')
+        c = ws.cell(row=row, column=11, value=f"{secs // 60}:{secs % 60:02d}")
+        c.font, c.border = Font(name=F, size=10), box
+if scripts:
+    st = wb.create_sheet('Scripts', 1)
+    st['A1'] = 'Video scripts'
+    st['A1'].font = Font(name=F, size=16, bold=True)
+    st['A2'] = ('Every video, scene by scene: who speaks, the scene and background, on-screen text, and the exact words the presenter '
+                'says. "From outline" scripts were written before their lesson exists and must be checked when the lesson is written.')
+    st['A2'].font = Font(name=F, size=10, italic=True)
+    header(st, 4, ['Video #', 'Video ID', 'Scene', 'Speaker', 'Scene / background', 'On-screen text', 'Presenter says', 'Seconds'],
+           [7, 18, 6, 20, 45, 30, 80, 8])
+    r = 5
+    for m in manifest:
+        sc = scripts.get(m['vid'])
+        if not sc:
+            continue
+        secs = sum(int(x.get('seconds') or 0) for x in sc.get('scenes', []))
+        label = f"#{m['n']}  {m['vid']}  {m['title']}  ({sc.get('presenter', m['presenter'])}, {secs // 60}:{secs % 60:02d})" + \
+                ('  [from outline]' if sc.get('source') == 'outline' else '')
+        cell = st.cell(row=r, column=1, value=label)
+        cell.font, cell.fill = Font(name=F, size=10, bold=True), band
+        for col in range(2, 9):
+            st.cell(row=r, column=col).fill = band
+        st.merge_cells(start_row=r, start_column=1, end_row=r, end_column=8)
+        r += 1
+        for x in sc.get('scenes', []):
+            put(st, r, [m['n'], m['vid'], x.get('scene'), x.get('speaker'), x.get('background'), x.get('on_screen'), x.get('says'), x.get('seconds')])
+            r += 1
+        if sc.get('production_notes'):
+            put(st, r, [m['n'], m['vid'], None, 'Production notes', sc['production_notes'], None, None, None])
+            st.cell(row=r, column=4).font = Font(name=F, size=10, italic=True)
+            r += 1
+        r += 1
+    st.freeze_panes = 'A5'
+    if 'Sample Script' in wb.sheetnames:
+        del wb['Sample Script']
 
 # summary by presenter
 sm = wb.create_sheet('By Presenter')
@@ -155,5 +229,7 @@ for k, (who, scene, onscreen, says, sec) in enumerate(scenes, start=6):
     put(ss, k, [k - 5, who, scene, onscreen, says, sec])
 put(ss, 6 + len(scenes), [None, None, None, 'Total', None, f'=SUM(F6:F{5 + len(scenes)})'], bold=True)
 
+if scripts and 'Sample Script' in wb.sheetnames:
+    del wb['Sample Script']
 wb.save(out / 'video-list.xlsx')
 print('videos', n)
