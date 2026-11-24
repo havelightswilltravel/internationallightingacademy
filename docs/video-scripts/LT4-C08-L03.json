@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C08-L03",
+  "title": "Tape Light, RGB Controllers & Voltage Drop",
+  "course": "LT4-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 204,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Interior room with a ceiling cove, ladder set up, reel of 24 V LED tape and a power supply on a cart. Matthew beside it. Medium shot.",
+      "on_screen": "Job Mindset: Installing Tape Light",
+      "says": "Tape light work is overhead, often in coves next to line-voltage supplies. Lock out the circuit and verify before you cut tape, add feeds or move wiring, and keep probes away from line-voltage terminals when you measure. Plan ahead: total the watts, size the supply, and decide where you'll feed the run before you climb, so the far end isn't dim.",
+      "seconds": 24
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of LED tape on the reel: cut-mark scissor icon and copper pads; silicone-jacketed outdoor tape beside it.",
+      "on_screen": "Constant voltage (12/24 V) | Cut only at marks | Watts per foot | Max run length",
+      "says": "LED tape is a flexible circuit board with LEDs and resistors along it. It's constant voltage, usually 12 or 24 DC. Cut only at the marked points, the scissor icon or copper pads. Watts per foot tells you how to size the supply. And every tape has a maximum run length from one feed point. Go past it and the far end gets dim or shifts color.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Whiteboard: worked sizing example.",
+      "on_screen": "Load = W/ft x ft | Load ≤ about 80% of rating | 60 W load: at least 75 W, choose 80 or 100 W",
+      "says": "Sizing the supply. Total load is watts per foot times feet. Size the supply so the load is no more than about 80 percent of its rating. A 60-watt load needs at least a 75-watt supply, so choose 80 or 100. Respect the Class 2 limit per output, split big loads across supplies, and match 12 or 24 volts exactly.",
+      "seconds": 23
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Technician installs tape in the cove, feeding it from the center point; graphic shows current flowing both ways from the center.",
+      "on_screen": "Feed from the center or both ends",
+      "says": "Watch the install. The tech feeds this run from the center, so current flows out both ways and each half stays within the maximum run length. Cove lighting fails from heat, so use an aluminum channel, not a closed box with no heat sink. And watch the adhesive and connectors; they get pulled loose during cleaning.",
+      "seconds": 22
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "System running: tech measures DC volts at the feed point, then at the far end; two meter readings shown side by side.",
+      "on_screen": "Drop = voltage at supply - voltage at far end | More than about 5–10% is usually visible",
+      "says": "Now measure voltage drop with the system running. Voltage at the feed point, then at the far end. The difference is the drop. Losing 2 volts on a 12-volt system is over 16 percent, enough to dim the end, turn whites pinkish or yellowish, or make it flicker. Follow the maker's minimum voltage. As a field guide, more than about 5 to 10 percent usually shows.",
+      "seconds": 26
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic list over a shot of a long tape run with a dim pinkish end.",
+      "on_screen": "Center or both-end feed | Shorter segments | Larger wire | 24 V for long runs | Supply closer",
+      "says": "Fixes for voltage drop. Feed from the center or both ends, or in shorter segments within the max run length. Use larger feed wire, a lower gauge number, for long home runs. Pick 24-volt products for long runs; same watts, half the current, much less drop. And mount the supply closer where the enclosure and code allow. Clean corroded connections too; they add drop.",
+      "seconds": 26
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Second segment: RGBW tape run with a controller and an amplifier; tech points to the common wire and each color channel.",
+      "on_screen": "RGB: common + R, G, B | RGBW: + W | Most use a common positive",
+      "says": "Color-changing systems add a controller. RGB tape has four wires: a common plus red, green and blue. RGBW adds white. Most RGB tape uses a common positive, and the controller switches the negative side of each color. Control can come from a keypad, remote, 0–10V, DMX or an app. An amplifier boosts the signal and adds power for long runs.",
+      "seconds": 25
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Demonstration: red shows as green past a connector; tech locks out, swaps the channel wires, and colors are correct.",
+      "on_screen": "Color missing everywhere = start of run | Missing after a point = that point | Wrong colors = swapped wires",
+      "says": "Reading RGB faults. One color missing along the whole run: a bad controller channel or the first connection. Missing after a certain point: a broken trace or bad connection right there. Red showing as green: channel wires swapped at a connector. Nothing at all: no power, the controller's off or unpaired, or a bad common connection.",
+      "seconds": 24
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew below the finished cove, evenly lit.",
+      "on_screen": "Now read the lesson and take the quiz",
+      "says": "Cut at the marks, size at 80 percent, feed from the center, and measure the far end. Now read the lesson and take the quiz.",
+      "seconds": 9
+    }
+  ],
+  "production_notes": "Interior cove with an aluminum channel, reel of 24 V LED tape with visible cut marks, Class 2 supply, ladder (proper setup). Show lock and tag before cutting tape or adding feeds. Running voltage readings at feed and far end with meter insets (Class 2 side only; probes kept away from line-voltage terminals). Second segment: RGBW tape with controller and amplifier, demonstrate swapped channel wires (corrected under LOTO). Whiteboard for supply sizing. Technician performs while Matthew narrates."
+}

@@ -1,0 +1,83 @@
+{
+  "vid": "LT4-C08-L02",
+  "title": "Power Supplies, Testing & Connections",
+  "course": "LT4-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 212,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Sign shop bench: an LED channel letter with its power supply in an enclosure, meter and connectors laid out. Matthew beside it. Medium shot.",
+      "on_screen": "Job Mindset: Testing an LED Sign Supply",
+      "says": "The input side of an LED sign supply is line voltage. Testing it live is energized work, for qualified people with a CAT III or IV meter and PPE under your NFPA 70E program. For everything else, opening connectors, swapping modules, changing a supply, lock out the sign disconnect and verify. Plan ahead: bring a known-good test module, the right connectors and sealant.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; graphic table of input, secondary and end-of-run tests.",
+      "on_screen": "Is power getting in? Is the right voltage coming out?",
+      "says": "Every LED sign diagnosis starts with two questions. Is power getting into the supply? And is the right voltage coming out? Input should match the nameplate, like 120 or 277, measured by a qualified person. Output should be close to rated, roughly 11.5 to 12.5 on a 12-volt supply, or 23 to 25 on a 24-volt supply, measured with the modules connected.",
+      "seconds": 25
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified tech in PPE measures input voltage at the supply leads; meter inset. Presenter voice-over.",
+      "on_screen": "Input: qualified person, energized test",
+      "says": "Here a qualified tech, in the required PPE, measures input at the supply. It matches the nameplate, so power's getting in. Now the output.",
+      "seconds": 11
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Tech measures the bare output leads with the module string disconnected: meter reads zero. Then reconnects the string (under LOTO), restores power, back-probes at the first module: meter reads about 24 V.",
+      "on_screen": "No load: reads 0 V | Modules connected: reads 24 V",
+      "says": "Watch this. Output leads disconnected from the modules: zero volts. Looks dead, right? Now with the string connected: 24 volts. Our guide warns some transformers have a cut-out and won't read secondary with no modules hooked up. Many supplies have no-load protection. They shut down, hiccup, or read low with nothing connected. Never condemn a supply on an unloaded reading.",
+      "seconds": 26
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Graphic flow: output zero with load > lock out, remake connections > test with known-good test module > decide.",
+      "on_screen": "Zero with load? Lock out, remake connections | Test with known-good module | Works on test load = sign problem",
+      "says": "So test it right. Check output with the string connected. Zero? Lock out and check and recheck the secondary connections. Still zero with a good load? Test the supply with a known-good test module. Works on the test load but not the sign? The problem's in the sign: a short, overload or open. Fails on the test load with good input? Replace the supply.",
+      "seconds": 25
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; lower-third callout.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may replace LED sign power supplies, connectors and modules under our company's license. In others it takes a licensed electrician or sign contractor, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Bench close-ups: an IDC snap connector closed on fully seated wire, a gel-filled connector, a soldered splice with adhesive-lined heat shrink, and a corroded connector removed from a letter.",
+      "on_screen": "IDC snap | Gel-filled | Solder + heat shrink | Corroded = replace",
+      "says": "Our guide says connections are more often than not the issue. IDC snap connectors pierce the insulation when you snap them shut. Use the right size, seat the wire fully first, and don't reuse them. Gel-filled connectors are good in damp and wet spots. A soldered splice with adhesive-lined heat shrink is strong if it's done right. And this one came out of a letter: green corrosion from water.",
+      "seconds": 27
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of a string with reversed polarity not lighting; tech corrects it under LOTO and it lights. Then tech cleans a letter can with isopropyl alcohol before sticking a module.",
+      "on_screen": "Watch polarity (red/striped = +) | Clean with alcohol, let dry | Keep drain holes open",
+      "says": "Other faults: an IDC blade that missed the strand works at first and fails later. Reversed polarity won't light and can damage LEDs; positive is usually red or striped. Mounting: clean the can with isopropyl alcohol and let it dry, or the tape lets go. Add screws or straps in hot climates. Mount up off the bottom and keep drain holes open.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Outdoor channel letter with a water line inside the can and fogged face; tech clears a drain hole.",
+      "on_screen": "Stop water at the source: drain holes, sealant, wet-rated connectors, rated supply enclosure",
+      "says": "Water is the main enemy of outdoor LED signs. Look for corrosion, water lines in the can, fogged faces, and modules out at the bottom of letters. Fix the source: clear drain holes, reseal face trim and wire penetrations, use gel-filled or wet-rated connectors, and make sure the supply is rated and enclosed for the location. Now read the lesson and take the quiz.",
+      "seconds": 25
+    }
+  ],
+  "production_notes": "Sign shop bench with an LED channel letter and its supply in an enclosure. Input measurement by a qualified tech in PPE per the company NFPA 70E assessment. Demonstrate a supply with no-load protection reading 0 V on open leads and about 24 V with the module string connected; any connect/disconnect of the string shown under LOTO. Connector comparison: IDC snap, gel-filled, soldered heat-shrink splice, and a corroded connector removed from a letter. Outdoor letter with water damage for the final scene. Hands-on sign-off for LED signs is tied to LT4-C08-L04, so this video ends with the quiz only."
+}

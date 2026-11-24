@@ -1,0 +1,99 @@
+{
+  "vid": "LT4-C08-L04",
+  "title": "LED Sign Troubleshooting & Parts Ordering",
+  "course": "LT4-C08",
+  "presenter": "Matthew Berrett",
+  "source": "lesson",
+  "target_seconds": 255,
+  "scenes": [
+    {
+      "scene": 1,
+      "speaker": "Matthew Berrett",
+      "background": "Storefront at dusk: channel-letter sign with two letters dark and a few dark modules; lift parked, cones set below. Matthew in foreground.",
+      "on_screen": "Job Mindset: LED Sign Service Call",
+      "says": "Sign work means heights, line voltage at the supply, and people walking below. Barricade the area below, use your MEWP or ladder training, and lock out the sign disconnect, not just the time clock, before you open letters or the supply. Plan ahead: known-good modules, matching connectors, sealant, a spare supply if you can, and a qualified lead for the line-voltage check.",
+      "seconds": 25
+    },
+    {
+      "scene": 2,
+      "speaker": "Matthew Berrett",
+      "background": "Matthew to camera; lower-third callout.",
+      "on_screen": "Scope varies by state and city. Confirm with your supervisor.",
+      "says": "Scope varies by state and city. In some areas a lighting tech may troubleshoot and repair LED signs under our company's license. In others it takes a licensed electrician or sign contractor, and some jobs need a permit and inspection. Confirm with your supervisor that it's allowed there and you're authorized. When in doubt, stop and ask.",
+      "seconds": 22
+    },
+    {
+      "scene": 3,
+      "speaker": "Matthew Berrett",
+      "background": "Tech talks with the store manager (actor), then checks the time clock, photocell and sign disconnect. Step overlay.",
+      "on_screen": "A. What's out? Intermittent? | Clock, photocell, switches | Disconnect and breaker",
+      "says": "Before testing anything, ask what's out: the whole sign, one letter, part of a letter, random modules? Is it intermittent, with rain, cold or time of day? Check the clock, photocell and switches; a sign that's out in daylight may just be off. Check the disconnect and breaker. A breaker that trips again or shows damage gets written up for an electrician. Don't keep resetting it.",
+      "seconds": 26
+    },
+    {
+      "scene": 4,
+      "speaker": "Matthew Berrett",
+      "background": "Qualified lead in PPE confirms line voltage at the supply input; tech then back-probes secondary at the first module with the string connected. Meter insets.",
+      "on_screen": "B. Whole sign: line voltage (qualified) > secondary with modules connected > connections",
+      "says": "If the whole sign or a whole letter is out, a qualified lead checks line voltage at the supply input. No line voltage, the problem's upstream; write it up. Line good? Test secondary with the modules connected. Secondary good? Test the low-voltage connections out to the letters. Secondary bad? Lock out, verify and remake the secondary connections, then retest before you ever replace the supply.",
+      "seconds": 27
+    },
+    {
+      "scene": 5,
+      "speaker": "Matthew Berrett",
+      "background": "Tech locks and tags the sign disconnect, tests live-dead-live, opens a dark letter from the lift (tied off), finds a corroded connector at the first dark module and remakes it with a gel-filled connector.",
+      "on_screen": "C. Lock out | Connections at the first dark module and the one before it",
+      "says": "For sporadic outages, lock out the sign disconnect and verify, live-dead-live, before opening letters or the supply compartment. Go to the first dark module and the connection just before it. Remember, a break in a parallel string darkens everything beyond that point. Here's our culprit: a corroded connector. Remade with a gel-filled connector.",
+      "seconds": 24
+    },
+    {
+      "scene": 6,
+      "speaker": "Matthew Berrett",
+      "background": "Tech swaps a dark module with a known-good module; it lights in that position. Then clears a blocked drain hole.",
+      "on_screen": "Swap with known-good | Test and retest connections | Find the cause",
+      "says": "For single dark modules, swap in a known-good module. If it lights in that spot, the original's bad. Always test and retest connections; our guide says they're more often than not the issue. Then find the cause: water in the can, blocked drain holes, modules fallen off, chafed wire, or an overloaded supply. Otherwise you'll be back.",
+      "seconds": 23
+    },
+    {
+      "scene": 7,
+      "speaker": "Matthew Berrett",
+      "background": "Tech secures a module with a screw, closes the letter, removes the lock, restores power; the whole sign lights evenly; tech measures voltage at the far module.",
+      "on_screen": "D. Match parts | Secure modules | Drain holes clear | Restore and verify | Record",
+      "says": "Repair and close up. Replace failed parts with matching parts and location-rated connectors. Secure modules mechanically where the adhesive failed and keep drain holes clear. Remove your lock, restore power, and verify the whole sign lights evenly. If the far end looks dim, measure voltage at the farthest module. Then record what you found and replaced.",
+      "seconds": 24
+    },
+    {
+      "scene": 8,
+      "speaker": "Matthew Berrett",
+      "background": "Close-up of the dark letter's modules next to a new module that is visibly bluer and brighter.",
+      "on_screen": "Match: series, voltage, color temperature/bin, lumens, beam angle",
+      "says": "Parts ordering. Customers notice a letter that's a different color or brightness. Match the module maker, series and part number, the voltage, color, and for white the color temperature, like 6500 versus 7100 kelvin, and binning if listed. Match brightness and beam angle too. Can't match? Consider re-moduling the whole letter, or the whole sign, so it looks even.",
+      "seconds": 25
+    },
+    {
+      "scene": 9,
+      "speaker": "Matthew Berrett",
+      "background": "Tech photographs the power supply label and fills out the parts section of the work order.",
+      "on_screen": "Supply: same output V | load about 80% or less | Class 2, outputs, input | location rating, size | dimming",
+      "says": "Power supply: same output voltage as the modules, sized so the load is about 80 percent of the rating or less, Class 2 with the right outputs and input range, the right location rating and size for the raceway, and dimming compatibility if the sign is dimmed. Plus connector type and size, wire gauge and length, mounting hardware and sealant.",
+      "seconds": 24
+    },
+    {
+      "scene": 10,
+      "speaker": "Matthew Berrett",
+      "background": "Small drive-up OPEN/CLOSED LED sign with one LED out; tech photographs the face and the label.",
+      "on_screen": "Small LED signs: one LED out = failure. Photo the face and label for warranty.",
+      "says": "On inspections, small LED message signs, like a drive-up open sign, count too. Inspect whatever the sign lights, and even one LED out is a failure. Many are still under warranty, so photograph the face showing the dark LEDs and the label with make, model and serial, and write it up. The office can claim the warranty instead of paying for a repair.",
+      "seconds": 24
+    },
+    {
+      "scene": 11,
+      "speaker": "Matthew Berrett",
+      "background": "Sign fully lit at night, cones being picked up.",
+      "on_screen": "Now read the lesson and take the quiz, then show your evaluator",
+      "says": "Controls, line, secondary, connections. Swap with known-good. Match the parts. Now read the lesson and take the quiz, then show your evaluator.",
+      "seconds": 11
+    }
+  ],
+  "production_notes": "Storefront channel-letter sign (no business name or logo readable; use a training sign or blur faces) with two dark letters and a few dark modules staged. Cones barricade the area below; lift operator tied off per MEWP training. Line-voltage check by the qualified lead in PPE per the company NFPA 70E assessment. Lock and tag on the sign disconnect before opening letters. Props: corroded connector, gel-filled connectors, known-good modules, a mismatched brighter/bluer module for the matching scene, small drive-up LED OPEN sign. Matches skill sign-off 'Troubleshoot an LED channel-letter or sign outage and replace modules or power supply'."
+}
