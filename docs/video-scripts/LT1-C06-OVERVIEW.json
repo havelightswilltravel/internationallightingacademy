@@ -4,7 +4,7 @@
   "course": "LT1-C06",
   "presenter": "Danny Smith",
   "source": "outline",
-  "target_seconds": 100,
+  "target_seconds": 121,
   "scenes": [
     {
       "scene": 1,
@@ -56,6 +56,14 @@
     },
     {
       "scene": 7,
+      "speaker": "Danny Smith",
+      "background": "Danny in a store aisle beside a coned-off ladder, a shopper walking around the cones in the background.",
+      "on_screen": "The public doesn't know the hazards. You do.",
+      "says": "Think about it from the customer's side. A shopper sees a ladder and cones, and keeps walking. A kid sees an open hand hole. They don't know the hazards, but you do. That makes it your job to control the area, and to protect yourself from what you find inside the fixture.",
+      "seconds": 21
+    },
+    {
+      "scene": 8,
       "speaker": "Danny Smith",
       "background": "Parking lot, medium shot.",
       "on_screen": "Start Lesson 1",
